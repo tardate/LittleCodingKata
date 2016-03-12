@@ -5,6 +5,7 @@
 #
 import unittest
 
+
 class LateBoundClosureTests(unittest.TestCase):
 
     def quirky_create_multipliers(self):
@@ -25,8 +26,6 @@ class LateBoundClosureTests(unittest.TestCase):
             result.append(multiplier(2))
         self.assertEqual(result, [0, 2, 4, 6, 8])
 
-def main():
-    unittest.main()
 
 if __name__ == '__main__':
-    main()
+    unittest.main()

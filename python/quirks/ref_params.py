@@ -6,6 +6,7 @@
 #
 import unittest
 
+
 class RefParamTests(unittest.TestCase):
 
     def quirky_accummulator(self, value, list=[]):
@@ -30,8 +31,6 @@ class RefParamTests(unittest.TestCase):
         result = self.ok_accummulator(3)
         self.assertEqual(result, [3])
 
-def main():
-    unittest.main()
 
 if __name__ == '__main__':
-    main()
+    unittest.main()
