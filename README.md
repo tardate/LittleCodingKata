@@ -1,7 +1,7 @@
 # LittleCodingKata
 
-Like many programmers I presume, I have a folder that I've been carrying around for years
-into which I've squirrelled away all manner of tests, notes, tips and tricks. I've thought about
+Like many programmers, I have a folder that I've been carrying around for years
+into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
 making the repo public, but as-is, it's a real grab-bag of semi-intelligible snippets
 and I can't be sure just how much confidential info may be in there.
 
@@ -18,7 +18,7 @@ These may range from the trivial to the complex and serious. Many will be inspir
 and references where applicable. And it will appear quite scatter-brained, as I variously work on things new and important in the moment,
 or go back to revisit things from the past.
 
-This is primarily a personal collection, but anyone who stumbles by is welcome to borrow, steal
+This is primarily a personal collection for my own edification and learning, but anyone who stumbles by is welcome to borrow, steal
 or reference the work here. And if you spot errors or issues I'd really appreciate some feedback - create an issue, send me an email
 or even send a pull-request.
 
