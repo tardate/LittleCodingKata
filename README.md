@@ -22,6 +22,10 @@ This is primarily a personal collection for my own edification and learning, but
 or reference the work here. And if you spot errors or issues I'd really appreciate some feedback - create an issue, send me an email
 or even send a pull-request.
 
+## Haskell
+
+* [installing on MacOSX](./haskell/install_macosx)
+
 ## Python
 
 * [quirks - late-bound closures](./python/quirks/late_bound_closures)
