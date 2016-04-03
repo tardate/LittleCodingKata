@@ -1,0 +1,48 @@
+# Hello World! in Haskell
+
+## Notes
+
+Haskell is an advanced purely-functional programming language.
+So no surprise [hello_world.hs](./hello_world.hs) looks a little different!
+
+Even this simple "Hello World" exercises at leat 3 interesting Haskell features:
+
+```
+main = getArgs >>= parse
+```
+
+The `>>=` monad sequencing operator with value passing causes the result of `getArgs`
+(an array of arguments) is passed to the next function, `parse`.
+
+
+```
+parse [name] = hello name
+parse [] = hello_world
+```
+
+Two patterns are bound to the function `parse` - either 1 or 0 parameters.
+This effects flow control without the need for case or if statements.
+
+
+```
+hello name = putStrLn $ "Hello " ++ name
+```
+
+The `$` operator causes anything appearing after it to take precedence over anything that comes before.
+As used here, it ensures that the string concatenation `++` which is normally right-associative is
+executed before `putStrLn`
+
+## Compiling and Running the Example..
+
+```
+$ ghc hello_world.hs
+[1 of 1] Compiling Main             ( hello_world.hs, hello_world.o )
+Linking hello_world ...
+$ ./hello_world
+Hello World
+$ ./hello_world Paul
+Hello Paul
+```
+
+## Credits and References
+* [The Haskell Programming Language](https://wiki.haskell.org/Haskell) - main site
