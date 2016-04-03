@@ -46,3 +46,6 @@ Hello Paul
 
 ## Credits and References
 * [The Haskell Programming Language](https://wiki.haskell.org/Haskell) - main site
+* [3.4 Operator Applications](https://www.haskell.org/onlinereport/haskell2010/haskellch3.html#x8-280003.4) - Haskell report
+* [Haskell: difference between . (dot) and $ (dollar sign)](http://stackoverflow.com/questions/940382/haskell-difference-between-dot-and-dollar-sign) - SO
+* [Haskell operator vs function precedence](http://stackoverflow.com/questions/3125395/haskell-operator-vs-function-precedence) - SO
