@@ -24,8 +24,8 @@ or even send a pull-request.
 
 ## Python
 
-* [quirks](./python/quirks) - python quirks and gotchas
 * [quirks - late-bound closures](./python/quirks/late_bound_closures)
+* [quirks - mutable default params](./python/quirks/mutable_default_params)
 * [random_mac_generation](./python/random_mac_generation) - all about MAC and generating random MAC addresses
 
 ## Tools

@@ -19,13 +19,13 @@ class RefParamTests(unittest.TestCase):
         list.append(value)
         return list
 
-    def testQuirky(self):
+    def test_quirky(self):
         self.quirky_accummulator(1)
         self.quirky_accummulator(2)
         result = self.quirky_accummulator(3)
         self.assertEqual(result, [1,2,3])
 
-    def testNonQuirky(self):
+    def test_fixed(self):
         self.ok_accummulator(1)
         self.ok_accummulator(2)
         result = self.ok_accummulator(3)
