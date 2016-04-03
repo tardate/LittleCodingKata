@@ -28,6 +28,10 @@ or even send a pull-request.
 * [quirks - mutable default params](./python/quirks/mutable_default_params)
 * [random_mac_generation](./python/random_mac_generation) - all about MAC and generating random MAC addresses
 
+## Ruby
+
+* [random_mac_generation](./ruby/random_mac_generation) - all about MAC and generating random MAC addresses
+
 ## Tools
 
 * [envsubst](./tools/envsubst) - substitute shell variables in text
