@@ -10,7 +10,7 @@ import random
 DEFAULT_OUI = '00-16-3e'  # Xensource, Inc.
 
 
-def randomMAC(oui=None):
+def random_mac(oui=None):
     """returns a random MAC address, with optional +oui+ override"""
     mac_parts = [oui or DEFAULT_OUI]
     for limit in [0x7f, 0xff, 0xff]:
@@ -19,4 +19,4 @@ def randomMAC(oui=None):
 
 
 if __name__ == '__main__':
-    print randomMAC(argv[1] if len(argv) > 1 else None)
+    print random_mac(argv[1] if len(argv) > 1 else None)
