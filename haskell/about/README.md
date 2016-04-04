@@ -1,6 +1,6 @@
 # About Haskell
 
-Haskell came to the notice of many programmer's when it earned a chapter in
+Haskell probably came to the notice of many programmers when it earned a chapter in
 Bruce Tate's [Seven Languages in Seven Weeks](https://www.goodreads.com/book/show/7912517-seven-languages-in-seven-weeks).
 
 ## Hakell In a Nutshell
