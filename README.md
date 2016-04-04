@@ -24,6 +24,7 @@ or even send a pull-request.
 
 ## Haskell
 
+* [About Haskell](./haskell/about) - my tl;dr summary
 * [Hello World](./haskell/hello_world)
 * [installing on MacOSX](./haskell/install_macosx)
 
