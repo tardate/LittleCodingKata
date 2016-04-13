@@ -22,6 +22,10 @@ This is primarily a personal collection for my own edification and learning, but
 or reference the work here. And if you spot errors or issues I'd really appreciate some feedback - create an issue, send me an email
 or even send a pull-request.
 
+## Bash
+
+* [case statements](./bash/case_statement)
+
 ## Haskell
 
 * [About Haskell](./haskell/about) - my tl;dr summary
