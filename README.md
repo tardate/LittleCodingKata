@@ -37,6 +37,7 @@ or even send a pull-request.
 * [quirks - late-bound closures](./python/quirks/late_bound_closures)
 * [quirks - mutable default params](./python/quirks/mutable_default_params)
 * [random_mac_generation](./python/random_mac_generation) - all about MAC and generating random MAC addresses
+* [twisted_client_server](./python/twisted_client_server) - writing client-server code with twisted and tests
 
 ## Ruby
 
