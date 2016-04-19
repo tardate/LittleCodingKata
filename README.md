@@ -38,6 +38,7 @@ or even send a pull-request.
 * [quirks - mutable default params](./python/quirks/mutable_default_params)
 * [random_mac_generation](./python/random_mac_generation) - all about MAC and generating random MAC addresses
 * [twisted_client_server](./python/twisted_client_server) - writing client-server code with twisted and tests
+* [twisted_web_client](./python/twisted_web_client) - writing web client code with twisted and tests
 
 ## Ruby
 

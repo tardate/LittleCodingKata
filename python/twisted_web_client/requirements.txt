@@ -1,0 +1,2 @@
+twisted==16.1.0
+nose
