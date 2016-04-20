@@ -44,6 +44,10 @@ or even send a pull-request.
 
 * [random_mac_generation](./ruby/random_mac_generation) - all about MAC and generating random MAC addresses
 
+## Rust
+
+* [installing on MacOSX](./rust/install_macosx)
+
 ## Tools
 
 * [envsubst](./tools/envsubst) - substitute shell variables in text
