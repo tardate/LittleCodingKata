@@ -4,7 +4,7 @@ Getting rust running under MacOSX
 
 ## Notes
 
-There are at least three methods:
+There are at least four methods:
 * binary installation - see [Rust Downloads](https://www.rust-lang.org/downloads.html)
 * shell installation - see [Rust Downloads](https://www.rust-lang.org/downloads.html)
 * Homebrew

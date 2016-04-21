@@ -46,6 +46,7 @@ or even send a pull-request.
 
 ## Rust
 
+* [Hello World](./rust/hello_world) - with concurrency
 * [installing on MacOSX](./rust/install_macosx)
 
 ## Tools
