@@ -11,7 +11,7 @@ Yet is still missing from the "top", "trending" or "popular" lists.
 
 Rust is...
 * designed to be memory safe, and it does not permit null pointers or dangling pointers
-* free and open source
+* free and open source - dual-licensed under Apache 2.0 and MIT
 
 Rust has..
 * an object system based around implementations, traits and structured types
@@ -31,8 +31,14 @@ Rust implementations..
 
 The goal of Rust is to be a good language for creating highly concurrent and highly safe systems.
 
+Rust solves the three big problems of C/C++ without introducing garbage collection or extensive run-time processing:
+* agreement on memory allocation size
+* agreement on memory ownership and de-allocation
+* agreement on concurrent memory access
+
 ## Credits and References
 * [Rust](https://en.wikipedia.org/wiki/Rust_(programming_language)) - wikipedia
 * [Rust GitHub repo](https://github.com/rust-lang/rust)
 * [The Rust Programming Language](http://doc.rust-lang.org/stable/book/)
 * [Rust by Example](http://rustbyexample.com/)
+* [Some notes on Rust, the language.](http://lambda-the-ultimate.org/node/5113)
