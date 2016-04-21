@@ -17,6 +17,7 @@ Rust has..
 * an object system based around implementations, traits and structured types
 * ad-hoc polymorphism
 * strong typing
+* a reputation for introducing breaking changes and poor documentation
 
 Rust is governed by..
 * [a core team](https://github.com/rust-lang/rust-wiki-backup/blob/master/Note-core-team.md)
