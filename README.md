@@ -32,6 +32,12 @@ or even send a pull-request.
 * [Hello World](./haskell/hello_world)
 * [installing on MacOSX](./haskell/install_macosx)
 
+## Messaging Infrastructure
+
+### gRPC
+
+* [installing on MacOSX](./messaging/grpc/install_macosx)
+
 ## Python
 
 * [quirks - late-bound closures](./python/quirks/late_bound_closures)
