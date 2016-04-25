@@ -1,0 +1,19 @@
+{
+  "name": "explainer-node",
+  "version": "1.0.0",
+  "description": "Node.js version of the Explainer gRPC project",
+  "main": "index.js",
+  "dependencies": {
+    "grpc": "^0.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tardate/LittleCodingKata.git"
+  }
+}
