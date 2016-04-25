@@ -1,0 +1,20 @@
+LCD screen
+PCB
+radio tranciever
+pull-up resistor
+battery
+power supply
+capacitor C1
+resistor R3
+EEPROM
+SPI bus
+USB connector
+voltage regulator
+low-pass filter
+decoupling capacitor
+coil
+anetenna
+microcontroller
+switch
+button
+IR receiver

@@ -1,0 +1,26 @@
+impedance in the COMPONENT
+residual capacitance caused by the COMPONENT
+crosstalk due to the proximity of the COMPONENT to the COMPONENT
+voltage spikes in the COMPONENT
+parasitic capacitance of the COMPONENT
+voltage gitches in the COMPONENT
+incorrect impedance matching between the COMPONENT and the COMPONENT
+the COMPONENT not being manufactured to specification
+thermal effects in the COMPONENT
+electromagnetic interference
+current leakage in the COMPONENT
+spurious resets
+excessive bridging loss
+jitter in the COMPONENT clock
+clock drift
+the COMPONENT inducing current in the COMPONENT
+stray harmonics
+internal resistance of the COMPONENT
+a possible manufacturing defect in COMPONENT
+excessive heat emitted by the COMPONENT
+an excessively long trace between the COMPONENT and the COMPONENT
+COMPONENT being placed too close to COMPONENT on the PCB
+minor ESD damage to COMPONENT
+the susceptibility of COMPONENT to ESD
+a lack of shielding against alpha radiation (cosmic rays) in COMPONENT
+electromagnetic resonance

@@ -37,6 +37,8 @@ or even send a pull-request.
 ### gRPC
 
 * [installing on MacOSX](./messaging/grpc/install_macosx)
+* [The Explainer](./messaging/grpc/explainer) - hardware excuse generator
+  - [The Explainer (Ruby)](./messaging/grpc/explainer/ruby) - Ruby client and server example
 
 ## Python
 

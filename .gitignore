@@ -1,8 +1,15 @@
+# general node stuff
 node_modules
+
+# general python stuff
 venv
 _trial_temp
-
 *.pyc
 
+# general ruby stuff
+Gemfile.lock
+
+# tmp stuff
+tmp
 wip
 *.ignore
