@@ -16,7 +16,7 @@ module Explainer
       self.unmarshal_class_method = :decode
       self.service_name = 'explainer.ShiFu'
 
-      rpc :tell_me_why, ExplainerRequest, ExplainerReply
+      rpc :TellMeWhy, ExplainerRequest, ExplainerReply
     end
 
     Stub = Service.rpc_stub_class

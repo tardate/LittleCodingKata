@@ -8,7 +8,7 @@ option objc_class_prefix = "EXP";
 package explainer;
 
 service ShiFu {
-  rpc tell_me_why (ExplainerRequest) returns (ExplainerReply) {}
+  rpc TellMeWhy (ExplainerRequest) returns (ExplainerReply) {}
 }
 
 message ExplainerRequest {
