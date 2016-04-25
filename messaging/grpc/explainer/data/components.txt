@@ -13,7 +13,7 @@ voltage regulator
 low-pass filter
 decoupling capacitor
 coil
-anetenna
+antenna
 microcontroller
 switch
 button

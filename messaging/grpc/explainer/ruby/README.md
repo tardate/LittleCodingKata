@@ -66,7 +66,7 @@ Your phone is probably crashing because of the PCB not being manufactured to spe
 $ ./explain.rb "Your phone is probably crashing because of REASON"
 Your phone is probably crashing because of electromagnetic resonance
 $ ./explain.rb "Your phone is probably crashing because of REASON"
-Your phone is probably crashing because of jitter in the anetenna clock
+Your phone is probably crashing because of jitter in the antenna clock
 $ ./explain.rb "Your phone is probably crashing because of REASON"
 Your phone is probably crashing because of the susceptibility of resistor R3 to ESD
 $ ./explain.rb "Your phone is probably crashing because of REASON"
