@@ -6,6 +6,14 @@ This sample implements a Node.js client and server that talk the
 The Explainer is totally inspired by Natalie Silvanovich's
 [Hardware Excuse Generator](http://natashenka.ca/hardware-excuse-generator/)
 
+## Installation
+
+Node doesn't need protocol compilation, so setup is as simple as installing the grpc module.
+The module and other dependencies are in `package.json`, so install as usual:
+
+```
+$ npm install
+```
 
 ## Test Drive - Node.js Client
 
