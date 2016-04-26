@@ -1,0 +1,12 @@
+#!/bin/sh
+
+scriptPath=${0%/*}/
+nuget_bin=${scriptPath}/nuget.exe
+
+if [ ! -f "${nuget_bin}" ]
+then
+  echo "${nuget_bin} not present yet, attempting to download with wget:"
+  wget https://dist.nuget.org/win-x86-commandline/latest/nuget.exe --output-document=${nuget_bin}
+fi
+
+mono --runtime=v4.0 ${nuget_bin} $*
