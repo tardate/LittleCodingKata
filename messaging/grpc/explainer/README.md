@@ -15,6 +15,7 @@ And they should inter-operate! Let's see..
 
 ## Language Bindings and Examples
 
+* [C++](./cpp) - client
 * [C#](./csharp) - client
 * [Node.js](./node) - client
 * [Python](./python) - client

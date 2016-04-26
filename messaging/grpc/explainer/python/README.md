@@ -1,6 +1,6 @@
 # The Explainer - Python Version
 
-This sample implements a Python client and server that talk the
+This sample implements a Python version of the
 [Explainer Protocol](../protocols/explainer.proto).
 
 The Explainer is totally inspired by Natalie Silvanovich's

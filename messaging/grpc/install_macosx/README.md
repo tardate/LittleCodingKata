@@ -37,18 +37,41 @@ $ brew install --without-libgrpc grpc
 Editor support and examples have been installed to:
   /usr/local/Cellar/google-protobuf/3.0.0-beta-2/share/doc/google-protobuf
 ==> Summary
-🍺  /usr/local/Cellar/google-protobuf/3.0.0-beta-2: 330 files, 16.2M, built in 2 minutes 17 seconds
+  /usr/local/Cellar/google-protobuf/3.0.0-beta-2: 330 files, 16.2M, built in 2 minutes 17 seconds
 ==> Installing grpc/grpc/grpc
 ==> Downloading https://github.com/grpc/grpc/archive/release-0_13_0.tar.gz
 ==> Downloading from https://codeload.github.com/grpc/grpc/tar.gz/release-0_13_0
 ######################################################################## 100.0%
 ==> make install-plugins prefix=/usr/local/Cellar/grpc/0.13.0
-🍺  /usr/local/Cellar/grpc/0.13.0: 9 files, 281K, built in 21 seconds
+  /usr/local/Cellar/grpc/0.13.0: 9 files, 281K, built in 21 seconds
 $ protoc --version
 libprotoc 3.0.0
 ```
 
 So far, so good..
+
+And then later I needed the gRPC C core library (i.e. shouldn't have used --without-libgrpc), so re-installed:
+
+```
+$ brew uninstall grpc
+[...]
+$ brew install grpc
+[...]
+$ protoc --version
+libprotoc 3.0.0
+$ which grpc_cpp_plugin
+/usr/local/bin/grpc_cpp_plugin
+$ ls /usr/local/include/grpc*
+/usr/local/include/grpc:
+byte_buffer.h   census.h    grpc.h      grpc_zookeeper.h  status.h
+byte_buffer_reader.h  compression.h   grpc_security.h   impl      support
+
+/usr/local/include/grpc++:
+channel.h   completion_queue.h  generic     impl      server.h    server_context.h
+client_context.h  create_channel.h  grpc++.h    security    server_builder.h  support
+```
+
+Better!
 
 ## Credits and References
 * [Install gRPC](http://www.grpc.io/docs/#install-grpc)
