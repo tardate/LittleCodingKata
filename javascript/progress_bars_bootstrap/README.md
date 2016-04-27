@@ -40,6 +40,11 @@ I have yet to find any documentation about or means to control the built-in anim
 so to animate the bar over other durations, or to display progress in units other than time,
 it's necessary to resort to some simple Javascript.
 
+There's a [bootstrap-progressbar](https://github.com/minddust/bootstrap-progressbar) library available
+that adds progressbar interactions for twitter bootstrap 2 & 3.
+
+That might be just what you need. For this simple test I'm just going to role my own.
+
 The example in [index.html](./index.html) implements a 0-100% timer over a pre-determined time (5 seconds).
 A standard recursive `setTimeout` pattern is used to update the progress bar value accordingly.
 
@@ -81,3 +86,4 @@ It will catch up eventually, but can make for some unexpected animation sequence
 * [SO: Change Bootstrap progress bar dynamically](http://stackoverflow.com/questions/26432408/change-bootstrap-progress-bar-dynamically)
 * [SO: Dynamically change bootstrap progress bar value when checkboxes checked](http://stackoverflow.com/questions/21182058/dynamically-change-bootstrap-progress-bar-value-when-checkboxes-checked)
 * [WAI-ARIA Supported States and Properties](https://www.w3.org/TR/wai-aria/states_and_properties)
+* [bootstrap-progressbar](https://github.com/minddust/bootstrap-progressbar) - adds the missing javascript
