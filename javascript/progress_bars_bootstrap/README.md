@@ -1,5 +1,7 @@
 # Progress Bars with Bootstrap
 
+![demo_in_progress](./assets/demo_in_progress.png?raw=true)
+
 ## Notes
 
 Bootstrap includes a [Progress Bar component](http://getbootstrap.com/components/#progress).
@@ -55,6 +57,7 @@ $('#myProgressbar').progressbar("run", 15)
 ```
 
 ### Built-in Animation Trap
+
 I have yet to find any documentation on how to control the built-in animation duration,
 so there's a trap here: since the browser has a built-in animation for the progress bar,
 there's a limit to how fast one can change the bar positioning.
@@ -67,7 +70,7 @@ $('#myProgressbar').progressbar("update", 0)
 $('#myProgressbar').progressbar("update", 100)
 ```
 
-If updates are amitted too fast, the bar will  increasingly lag the desired value.
+If updates are emitted too fast, the bar will increasingly lag the desired value.
 It will catch up eventually, but can make for some unexpected animation sequences.
 
 ## Credits and References
