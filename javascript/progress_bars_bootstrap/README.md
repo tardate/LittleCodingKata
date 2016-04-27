@@ -19,7 +19,7 @@ Some Javascript is required to activate the progress bar for count-down or compl
 Strangely however, there's no javascript support shipped in Bootstrap.
 But adding it is very straight-forward. And how you add it depends very much on what you want the progress bar to indicate.
 
-The example in [index.html](./index.html?raw=true) is an adaptation of a [dynamic progress bar example](http://codepen.io/jbeurel/pen/zuDAl) by
+The example in [index.html](./index.html) is an adaptation of a [dynamic progress bar example](http://codepen.io/jbeurel/pen/zuDAl) by
 [@jbeurel](https://twitter.com/jbeurel).
 
 
@@ -37,7 +37,7 @@ I have yet to find any documentation about or means to control the built-in anim
 so to animate the bar over other durations, or to display progress in units other than time,
 it's necessary to resort to some simple Javascript.
 
-The example in [index.html](./index.html?raw=true) implements a 0-100% timer over a pre-determined time (5 seconds).
+The example in [index.html](./index.html) implements a 0-100% timer over a pre-determined time (5 seconds).
 A standard recursive `setTimeout` pattern is used to update the progress bar value accordingly.
 
 In the HTML, this action is hooked to a button (where `data-duration` is the time in seconds to animate over):
