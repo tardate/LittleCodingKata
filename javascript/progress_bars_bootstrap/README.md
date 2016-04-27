@@ -1,6 +1,6 @@
 # Progress Bars with Bootstrap
 
-![demo_in_progress](./assets/demo_in_progress.png?raw=true)
+[![demo_in_progress](./assets/demo_in_progress.png?raw=true)](http://tardate.github.io/LittleCodingKata/javascript/progress_bars_bootstrap/index.html)
 
 ## Notes
 
@@ -24,6 +24,7 @@ But adding it is very straight-forward. And how you add it depends very much on 
 The example in [index.html](./index.html) is an adaptation of a [dynamic progress bar example](http://codepen.io/jbeurel/pen/zuDAl) by
 [@jbeurel](https://twitter.com/jbeurel).
 
+Run the demo [live from GitHub Pages](http://tardate.github.io/LittleCodingKata/javascript/progress_bars_bootstrap/index.html)
 
 ### Animating the Progress Bar
 
