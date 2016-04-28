@@ -133,6 +133,7 @@ $('#myProgressbar').progressbar("animateWithTimeouts", 10) // 10 second 0-100% a
 * [Progress bars](http://getbootstrap.com/components/#progress) - bootstrap doc
 * [dynamic progress bar example](http://codepen.io/jbeurel/pen/zuDAl) - where I borrowed code for this test
 * [Cross Browser HTML5 Progress Bars In Depth](http://www.useragentman.com/blog/2012/01/03/cross-browser-html5-progress-bars-in-depth/)
+* [SO: How to increment a bootstrap progress bar?](http://stackoverflow.com/questions/12218670/how-to-increment-a-bootstrap-progress-bar?rq=1)
 * [SO: Change Bootstrap progress bar dynamically](http://stackoverflow.com/questions/26432408/change-bootstrap-progress-bar-dynamically)
 * [SO: Dynamically change bootstrap progress bar value when checkboxes checked](http://stackoverflow.com/questions/21182058/dynamically-change-bootstrap-progress-bar-value-when-checkboxes-checked)
 * [WAI-ARIA Supported States and Properties](https://www.w3.org/TR/wai-aria/states_and_properties)

@@ -7,7 +7,6 @@
 
     var Progressbar = function (element) {
         this.$element = $(element);
-        // this.$bar = $(element).find('.progress-bar');
     }
 
     Progressbar.prototype.update = function (value) {
