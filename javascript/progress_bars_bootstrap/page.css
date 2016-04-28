@@ -5,3 +5,8 @@
   border: 0;
   z-index: 1000;
 }
+
+.progress-bar {
+  /* override bootstrap default transition */
+  transition: none;
+}

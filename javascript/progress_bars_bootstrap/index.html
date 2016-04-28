@@ -45,8 +45,12 @@
               </div>
             </div>
 
-            <button class="btn btn-primary" data-toggle="progressbar" data-target="#myProgressbar" data-duration="5">
-              Start a 5 second timer
+            <button class="btn btn-primary" data-toggle="progressbar" data-target="#myProgressbar" data-duration="5" data-method="animateWithTimeouts">
+              Start a 5 second timer (setTimeout)
+            </button>
+
+            <button class="btn btn-primary" data-toggle="progressbar" data-target="#myProgressbar" data-duration="5" data-method="animateWithJquery">
+              Start a 5 second timer (jQuery.animate)
             </button>
 
 
@@ -54,6 +58,18 @@
         </div>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="alert alert-info" role="alert">
+          Find the source and notes for this demo in the
+          <a href="https://github.com/tardate/LittleCodingKata/tree/master/javascript/progress_bars_bootstrap">
+            LittleCodingKata GitHub repository
+          </a>
+        </div>
+      </div>
+    </div>
+
   </div>
 
 
