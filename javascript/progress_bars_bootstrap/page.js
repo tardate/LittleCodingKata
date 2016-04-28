@@ -31,46 +31,47 @@
     }
 
     Progressbar.prototype.animateWithTimeouts = function (duration) {
-        var instance = this;
-        var counter = 0;
-        var step_ms = Number.parseInt(duration) * 1000 / 100;
+        var instance = this
         instance.reset();
-        instance.setTransition('width 0.1s ease 0s');
-        var update_progress = function() {
-          setTimeout(function() {
-            instance.update(counter);
-            if(counter<100) {
-              counter++;
-              update_progress();
-            }
-          }, step_ms);
-        };
-        update_progress();
+        setTimeout(function() { // delayed to allow reset to take effect
+            var counter = 0;
+            var step_ms = Number.parseInt(duration) * 1000 / 100;
+            instance.setTransition('width 0.3s ease 0s');
+            var update_progress = function() {
+              setTimeout(function() {
+                instance.update(counter);
+                if(counter<100) {
+                  counter++;
+                  update_progress();
+                }
+              }, step_ms);
+            };
+            update_progress();
+        }, 10);
     }
 
     Progressbar.prototype.animateWithJquery = function (duration) {
         var instance = this;
-        var counter = 0;
-        var duration_ms = Number.parseInt(duration) * 1000 ;
-
         instance.reset();
-
-        var progress_bar = instance.$element.find('[role="progressbar"]');
-        progress_bar.animate({
-          width: "100%"
-        }, {
-          duration: duration_ms,
-          easing: 'linear',
-          step: function( now, fx ) {
-            var current_percent = Math.round(now);
-            progress_bar.attr('aria-valuenow', current_percent);
-            progress_bar.text(current_percent+ '%');
-          },
-          complete: function() {
-            // do something when the animation is complete
-          }
-        });
-
+        setTimeout(function() { // delayed to allow reset to take effect
+            var duration_ms = Number.parseInt(duration) * 1000 ;
+            var progress_bar = instance.$element.find('[role="progressbar"]');
+            instance.setTransition('width 0.3s ease 0s');
+            progress_bar.animate({
+              width: "100%"
+            }, {
+              duration: duration_ms,
+              easing: 'linear',
+              step: function( now, fx ) {
+                var current_percent = Math.round(now);
+                progress_bar.attr('aria-valuenow', current_percent);
+                progress_bar.text(current_percent+ '%');
+              },
+              complete: function() {
+                // do something when the animation is complete
+              }
+            });
+        }, 10);
     }
 
     // PROGRESSBAR PLUGIN DEFINITION
