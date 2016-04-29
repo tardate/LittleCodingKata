@@ -32,6 +32,14 @@ or even send a pull-request.
 * [Hello World](./haskell/hello_world)
 * [installing on MacOSX](./haskell/install_macosx)
 
+## Infrastructure
+
+### RADIUS
+
+* [About RADIUS](./infrastructure/radius/about) - my tl;dr summary
+* [FreeRADIUS Client](./infrastructure/radius/freeradius-client-macosx) - running on MacOSX (#fail - this project needs work)
+* [FreeRADIUS Server](./infrastructure/radius/freeradius-server-macosx) - running on MacOSX
+
 ## Javascript
 
 * [Progress Bars with Bootstrap](./javascript/progress_bars_bootstrap)

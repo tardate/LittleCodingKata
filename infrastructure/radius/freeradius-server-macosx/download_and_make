@@ -1,0 +1,73 @@
+#!/bin/sh
+#
+# a script that installs FreeRADIUS on MacOSX
+# * tests if talloc already installed with brew
+# * installs talloc from source if required
+# * installs freeradius-server from source if required
+#
+
+function install_talloc() {
+  local talloc=talloc-2.1.2
+
+  if [ -f /usr/local/include/talloc.h ]
+  then
+    echo "looks like talloc already installed .. keep calm and carry on .."
+    return
+  fi
+
+  echo "Installing ${talloc} from source"
+
+  if [ ! -d ${talloc} ]
+  then
+    echo "Downloading ${talloc}"
+    curl -LO http://www.samba.org/ftp/talloc/${talloc}.tar.gz
+    tar zxvf ${talloc}.tar.gz
+    rm ${talloc}.tar.gz
+  fi
+
+  if [ -d ${talloc} ]
+  then
+    echo "Making ${talloc}.."
+    cd ${talloc}
+    ./configure --without-gettext && make
+    echo "Installing ${talloc}; needs sudo password:"
+    sudo make install
+    cd ..
+  fi
+}
+
+
+function install_server() {
+  local frads=freeradius-server
+
+  if [ ! -d ${frads} ]
+  then
+    echo "Cloning ${frads}"
+    git clone git@github.com:FreeRADIUS/${frads}.git
+  fi
+
+  if [ -d ${frads} ]
+  then
+    echo "Making ${frads}"
+    cd ${frads}
+    ./configure --enable-developer && make
+    echo "Installing ${frads}; needs sudo password:"
+    sudo make install
+    cd ..
+  fi
+}
+
+if [ $(which brew) ]
+then
+  brew_talloc_version=$(brew ls --versions talloc)
+else
+  brew_talloc_version="brew not installed"
+fi
+if echo "${brew_talloc_version}" | grep -q "talloc"
+then
+  echo "brew has talloc installed: ${brew_talloc_version}"
+else
+  install_talloc
+fi
+
+install_server

@@ -1,0 +1,24 @@
+#!/bin/sh
+
+
+function install_client() {
+  local frads=freeradius-client
+
+  if [ ! -d ${frads} ]
+  then
+    echo "Cloning ${frads}"
+    git clone git@github.com:FreeRADIUS/${frads}.git
+  fi
+
+  if [ -d ${frads} ]
+  then
+    echo "Making ${frads}"
+    cd ${frads}
+    autoreconf -fvi && ./configure && make
+    echo "Installing ${frads}; needs sudo password:"
+    sudo make install
+    cd ..
+  fi
+}
+
+install_client

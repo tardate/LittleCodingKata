@@ -1,0 +1,937 @@
+## this is the output from `sudo make install`
+
+INSTALL dictionary
+INSTALL dictionary.3com
+INSTALL dictionary.3gpp
+INSTALL dictionary.3gpp2
+INSTALL dictionary.acc
+INSTALL dictionary.acme
+INSTALL dictionary.actelis
+INSTALL dictionary.aerohive
+INSTALL dictionary.airespace
+INSTALL dictionary.alcatel
+INSTALL dictionary.alcatel-lucent.aaa
+INSTALL dictionary.alcatel.esam
+INSTALL dictionary.alcatel.sr
+INSTALL dictionary.alteon
+INSTALL dictionary.altiga
+INSTALL dictionary.alvarion
+INSTALL dictionary.alvarion.wimax.v2_2
+INSTALL dictionary.apc
+INSTALL dictionary.aptilo
+INSTALL dictionary.aptis
+INSTALL dictionary.arbor
+INSTALL dictionary.arista
+INSTALL dictionary.arp
+INSTALL dictionary.aruba
+INSTALL dictionary.ascend
+INSTALL dictionary.ascend.illegal
+INSTALL dictionary.asn
+INSTALL dictionary.audiocodes
+INSTALL dictionary.avaya
+INSTALL dictionary.azaire
+INSTALL dictionary.bay
+INSTALL dictionary.bintec
+INSTALL dictionary.bluecoat
+INSTALL dictionary.boingo
+INSTALL dictionary.bristol
+INSTALL dictionary.broadsoft
+INSTALL dictionary.brocade
+INSTALL dictionary.bskyb
+INSTALL dictionary.bt
+INSTALL dictionary.cablelabs
+INSTALL dictionary.cabletron
+INSTALL dictionary.camiant
+INSTALL dictionary.checkpoint
+INSTALL dictionary.chillispot
+INSTALL dictionary.cisco
+INSTALL dictionary.cisco.asa
+INSTALL dictionary.cisco.bbsm
+INSTALL dictionary.cisco.vpn3000
+INSTALL dictionary.cisco.vpn5000
+INSTALL dictionary.citrix
+INSTALL dictionary.clavister
+INSTALL dictionary.colubris
+INSTALL dictionary.columbia_university
+INSTALL dictionary.compat
+INSTALL dictionary.compatible
+INSTALL dictionary.cosine
+INSTALL dictionary.dante
+INSTALL dictionary.dhcp
+INSTALL dictionary.digium
+INSTALL dictionary.dlink
+INSTALL dictionary.dragonwave
+INSTALL dictionary.efficientip
+INSTALL dictionary.eltex
+INSTALL dictionary.epygi
+INSTALL dictionary.equallogic
+INSTALL dictionary.ericsson
+INSTALL dictionary.ericsson.ab
+INSTALL dictionary.ericsson.packet.core.networks
+INSTALL dictionary.extreme
+INSTALL dictionary.f5
+INSTALL dictionary.fdxtended
+INSTALL dictionary.fortinet
+INSTALL dictionary.foundry
+INSTALL dictionary.freedhcp
+INSTALL dictionary.freeradius
+INSTALL dictionary.freeradius.internal
+INSTALL dictionary.freeradius.snmp
+INSTALL dictionary.freeswitch
+INSTALL dictionary.gandalf
+INSTALL dictionary.garderos
+INSTALL dictionary.gemtek
+INSTALL dictionary.h3c
+INSTALL dictionary.hillstone
+INSTALL dictionary.hp
+INSTALL dictionary.huawei
+INSTALL dictionary.iana
+INSTALL dictionary.iea
+INSTALL dictionary.infoblox
+INSTALL dictionary.infonet
+INSTALL dictionary.ipunplugged
+INSTALL dictionary.issanni
+INSTALL dictionary.itk
+INSTALL dictionary.juniper
+INSTALL dictionary.karlnet
+INSTALL dictionary.kineto
+INSTALL dictionary.lancom
+INSTALL dictionary.lantronix
+INSTALL dictionary.livingston
+INSTALL dictionary.localweb
+INSTALL dictionary.lucent
+INSTALL dictionary.manzara
+INSTALL dictionary.meinberg
+INSTALL dictionary.meraki
+INSTALL dictionary.merit
+INSTALL dictionary.meru
+INSTALL dictionary.microsoft
+INSTALL dictionary.mikrotik
+INSTALL dictionary.motorola
+INSTALL dictionary.motorola.illegal
+INSTALL dictionary.motorola.wimax
+INSTALL dictionary.navini
+INSTALL dictionary.netscreen
+INSTALL dictionary.networkphysics
+INSTALL dictionary.nexans
+INSTALL dictionary.nokia
+INSTALL dictionary.nokia.conflict
+INSTALL dictionary.nomadix
+INSTALL dictionary.nortel
+INSTALL dictionary.ntua
+INSTALL dictionary.openser
+INSTALL dictionary.packeteer
+INSTALL dictionary.paloalto
+INSTALL dictionary.patton
+INSTALL dictionary.perle
+INSTALL dictionary.propel
+INSTALL dictionary.prosoft
+INSTALL dictionary.proxim
+INSTALL dictionary.purewave
+INSTALL dictionary.quiconnect
+INSTALL dictionary.quintum
+INSTALL dictionary.redcreek
+INSTALL dictionary.rfc2865
+INSTALL dictionary.rfc2866
+INSTALL dictionary.rfc2867
+INSTALL dictionary.rfc2868
+INSTALL dictionary.rfc2869
+INSTALL dictionary.rfc3162
+INSTALL dictionary.rfc3576
+INSTALL dictionary.rfc3580
+INSTALL dictionary.rfc4072
+INSTALL dictionary.rfc4372
+INSTALL dictionary.rfc4603
+INSTALL dictionary.rfc4675
+INSTALL dictionary.rfc4679
+INSTALL dictionary.rfc4818
+INSTALL dictionary.rfc4849
+INSTALL dictionary.rfc5090
+INSTALL dictionary.rfc5176
+INSTALL dictionary.rfc5447
+INSTALL dictionary.rfc5580
+INSTALL dictionary.rfc5607
+INSTALL dictionary.rfc5904
+INSTALL dictionary.rfc6519
+INSTALL dictionary.rfc6572
+INSTALL dictionary.rfc6677
+INSTALL dictionary.rfc6911
+INSTALL dictionary.rfc6929
+INSTALL dictionary.rfc6930
+INSTALL dictionary.rfc7055
+INSTALL dictionary.rfc7155
+INSTALL dictionary.rfc7268
+INSTALL dictionary.rfc7499
+INSTALL dictionary.riverbed
+INSTALL dictionary.riverstone
+INSTALL dictionary.roaringpenguin
+INSTALL dictionary.ruckus
+INSTALL dictionary.ruggedcom
+INSTALL dictionary.sg
+INSTALL dictionary.shasta
+INSTALL dictionary.shiva
+INSTALL dictionary.siemens
+INSTALL dictionary.slipstream
+INSTALL dictionary.sofaware
+INSTALL dictionary.sonicwall
+INSTALL dictionary.springtide
+INSTALL dictionary.starent
+INSTALL dictionary.starent.vsa1
+INSTALL dictionary.surfnet
+INSTALL dictionary.symbol
+INSTALL dictionary.t_systems_nova
+INSTALL dictionary.telebit
+INSTALL dictionary.telkom
+INSTALL dictionary.terena
+INSTALL dictionary.trapeze
+INSTALL dictionary.travelping
+INSTALL dictionary.tropos
+INSTALL dictionary.ukerna
+INSTALL dictionary.unisphere
+INSTALL dictionary.unix
+INSTALL dictionary.usr
+INSTALL dictionary.usr.illegal
+INSTALL dictionary.utstarcom
+INSTALL dictionary.valemount
+INSTALL dictionary.versanet
+INSTALL dictionary.vqp
+INSTALL dictionary.walabi
+INSTALL dictionary.waverider
+INSTALL dictionary.wichorus
+INSTALL dictionary.wifialliance
+INSTALL dictionary.wimax
+INSTALL dictionary.wimax.alvarion
+INSTALL dictionary.wimax.wichorus
+INSTALL dictionary.wispr
+INSTALL dictionary.xedia
+INSTALL dictionary.xirrus
+INSTALL dictionary.xylan
+INSTALL dictionary.yubico
+INSTALL dictionary.zeus
+INSTALL dictionary.zte
+INSTALL dictionary.zyxel
+INSTALL radclient.1
+INSTALL radeapclient.1
+INSTALL radlast.1
+INSTALL radtest.1
+INSTALL radwho.1
+INSTALL radzap.1
+INSTALL smbencrypt.1
+INSTALL checkrad.5
+INSTALL clients.conf.5
+INSTALL dictionary.5
+INSTALL radiusd.conf.5
+INSTALL radrelay.conf.5
+INSTALL rlm_always.5
+INSTALL rlm_attr_filter.5
+INSTALL rlm_chap.5
+INSTALL rlm_counter.5
+INSTALL rlm_detail.5
+INSTALL rlm_digest.5
+INSTALL rlm_expr.5
+INSTALL rlm_files.5
+INSTALL rlm_idn.5
+INSTALL rlm_mschap.5
+INSTALL rlm_pap.5
+INSTALL rlm_passwd.5
+INSTALL rlm_realm.5
+INSTALL rlm_sql.5
+INSTALL rlm_unix.5
+INSTALL unlang.5
+INSTALL users.5
+INSTALL radcrypt.8
+INSTALL raddebug.8
+INSTALL radiusd.8
+INSTALL radmin.8
+INSTALL radrelay.8
+INSTALL radsniff.8
+INSTALL radsqlrelay.8
+INSTALL build.h
+INSTALL conf.h
+INSTALL conffile.h
+INSTALL detail.h
+INSTALL event.h
+INSTALL hash.h
+INSTALL heap.h
+INSTALL libradius.h
+INSTALL md4.h
+INSTALL md5.h
+INSTALL modcall.h
+INSTALL modules.h
+INSTALL packet.h
+INSTALL rad_assert.h
+INSTALL radius.h
+INSTALL radiusd.h
+INSTALL radutmp.h
+INSTALL realms.h
+INSTALL sha1.h
+INSTALL stats.h
+INSTALL sysutmp.h
+INSTALL token.h
+INSTALL udpfromto.h
+INSTALL base64.h
+INSTALL map.h
+INSTALL udp.h
+INSTALL tcp.h
+INSTALL threads.h
+INSTALL regex.h
+INSTALL inet.h
+INSTALL dict.h
+INSTALL pair.h
+INSTALL proto.h
+INSTALL attributes.h
+INSTALL features.h
+INSTALL missing.h
+INSTALL radpaths.h
+INSTALL tls.h
+INSTALL rfc2865.h
+INSTALL rfc2866.h
+INSTALL rfc2867.h
+INSTALL rfc2868.h
+INSTALL rfc2869.h
+INSTALL rfc3162.h
+INSTALL rfc3576.h
+INSTALL rfc3580.h
+INSTALL rfc4072.h
+INSTALL rfc4372.h
+INSTALL rfc4603.h
+INSTALL rfc4675.h
+INSTALL rfc4679.h
+INSTALL rfc4818.h
+INSTALL rfc4849.h
+INSTALL rfc5090.h
+INSTALL rfc5176.h
+INSTALL rfc5447.h
+INSTALL rfc5580.h
+INSTALL rfc5607.h
+INSTALL rfc5904.h
+INSTALL rfc6519.h
+INSTALL rfc6572.h
+INSTALL rfc6677.h
+INSTALL rfc6911.h
+INSTALL rfc6929.h
+INSTALL rfc6930.h
+INSTALL rfc7055.h
+INSTALL rfc7155.h
+INSTALL rfc7268.h
+INSTALL rfc7499.h
+INSTALL vqp.h
+INSTALL freeradius.h
+INSTALL freeradius.snmp.h
+INSTALL -d -m 755 /usr/local/lib
+INSTALL libfreeradius-radius.la
+INSTALL proto_arp.la
+INSTALL proto_bfd.la
+INSTALL libfreeradius-dhcp.la
+INSTALL proto_dhcp.la
+INSTALL rlm_dhcp.la
+INSTALL -d -m 755 /usr/local/bin
+INSTALL dhcpclient
+INSTALL proto_vmps.la
+INSTALL rlm_always.la
+INSTALL rlm_attr_filter.la
+INSTALL rlm_cache.la
+INSTALL rlm_cache_rbtree.la
+INSTALL rlm_chap.la
+INSTALL rlm_cram.la
+INSTALL rlm_csv.la
+INSTALL rlm_date.la
+INSTALL rlm_detail.la
+INSTALL rlm_digest.la
+INSTALL rlm_dynamic_clients.la
+INSTALL libfreeradius-eap.la
+INSTALL rlm_eap.la
+INSTALL rlm_eap_gtc.la
+INSTALL rlm_eap_leap.la
+INSTALL rlm_eap_md5.la
+INSTALL rlm_eap_mschapv2.la
+INSTALL rlm_eap_peap.la
+INSTALL rlm_eap_pwd.la
+INSTALL rlm_eap_sim.la
+INSTALL rlm_eap_tls.la
+INSTALL rlm_eap_ttls.la
+INSTALL radeapclient
+INSTALL rlm_example.la
+INSTALL rlm_exec.la
+INSTALL rlm_expiration.la
+INSTALL rlm_expr.la
+INSTALL rlm_files.la
+INSTALL rlm_krb5.la
+INSTALL rlm_ldap.la
+INSTALL rlm_linelog.la
+INSTALL rlm_logintime.la
+INSTALL rlm_mschap.la
+INSTALL smbencrypt
+INSTALL rlm_opendirectory.la
+INSTALL rlm_otp.la
+INSTALL rlm_pam.la
+INSTALL rlm_pap.la
+INSTALL rlm_passwd.la
+INSTALL rlm_perl.la
+INSTALL rlm_preprocess.la
+INSTALL raddb/mods-config
+INSTALL raddb/mods-config/python
+INSTALL radiusd.py
+INSTALL example.py
+INSTALL rlm_python.la
+INSTALL rlm_radutmp.la
+INSTALL rlm_realm.la
+INSTALL rlm_replicate.la
+INSTALL rlm_rest.la
+INSTALL raddb/mods-config/ruby
+INSTALL example.rb
+INSTALL rlm_ruby.la
+INSTALL rlm_smsotp.la
+INSTALL rlm_soh.la
+INSTALL rlm_sometimes.la
+INSTALL rlm_sql.la
+INSTALL rlm_sql_mysql.la
+INSTALL rlm_sql_null.la
+INSTALL rlm_sql_postgresql.la
+INSTALL rlm_sql_sqlite.la
+INSTALL rlm_sqlcounter.la
+INSTALL rlm_sqlhpwippool.la
+INSTALL rlm_sqlippool.la
+INSTALL rlm_test.la
+INSTALL rlm_unix.la
+INSTALL rlm_unpack.la
+INSTALL rlm_utf8.la
+INSTALL rlm_wimax.la
+INSTALL rlm_yubikey.la
+INSTALL radclient
+INSTALL -d -m 755 /usr/local/sbin
+INSTALL radiusd
+INSTALL radsniff
+INSTALL radmin
+INSTALL radattr
+INSTALL radwho
+INSTALL radsnmp
+INSTALL radlast
+INSTALL radtest
+INSTALL radzap
+INSTALL checkrad
+INSTALL libfreeradius-server.la
+INSTALL rbmonkey
+INSTALL map_unit
+INSTALL doc/concepts
+INSTALL doc/configuration
+INSTALL doc/deployment
+INSTALL doc/developer
+INSTALL doc/modules
+INSTALL doc/rfc
+INSTALL doc/schemas
+INSTALL doc/schemas/ldap
+INSTALL doc/schemas/ldap/edir
+INSTALL doc/schemas/ldap/iplanet
+INSTALL doc/schemas/ldap/openldap
+INSTALL doc/schemas/logstash
+INSTALL doc/vendor
+INSTALL doc/bugs
+INSTALL doc/ChangeLog
+INSTALL doc/concepts/aaa.rst
+INSTALL doc/concepts/proxy.rst
+INSTALL doc/configuration/acct_type.rst
+INSTALL doc/configuration/autz_type.rst
+INSTALL doc/configuration/configurable_failover.rst
+INSTALL doc/configuration/load_balance.rst
+INSTALL doc/configuration/post_auth_type
+INSTALL doc/configuration/session_type
+INSTALL doc/configuration/simultaneous_use
+INSTALL doc/configuration/snmp
+INSTALL doc/configuration/variables.rst
+INSTALL doc/deployment/CYGWIN.rst
+INSTALL doc/deployment/MACOSX
+INSTALL doc/deployment/OS2
+INSTALL doc/deployment/performance-testing
+INSTALL doc/deployment/supervise-radiusd.rst
+INSTALL doc/deployment/tuning_guide
+INSTALL doc/developer/coding-methods.rst
+INSTALL doc/developer/contributing.rst
+INSTALL doc/developer/module_interface.rst
+INSTALL doc/developer/release-method.rst
+INSTALL doc/index.rst
+INSTALL doc/Makefile.sphinx
+INSTALL doc/modules/ldap_howto.rst
+INSTALL doc/modules/mschap.rst
+INSTALL doc/modules/RADIUS-LDAP-eDirectory
+INSTALL doc/modules/rlm_dbm
+INSTALL doc/modules/rlm_eap
+INSTALL doc/modules/rlm_expiration
+INSTALL doc/modules/rlm_krb5
+INSTALL doc/modules/rlm_pam
+INSTALL doc/modules/rlm_passwd
+INSTALL doc/modules/rlm_python
+INSTALL doc/modules/rlm_soh
+INSTALL doc/modules/rlm_sql
+INSTALL doc/modules/rlm_sqlcounter
+INSTALL doc/modules/rlm_sqlippool
+INSTALL doc/README
+INSTALL doc/rfc/attributes.html
+INSTALL doc/rfc/draft-kamath-pppext-eap-mschapv2-00.txt
+INSTALL doc/rfc/draft-sterman-aaa-sip-00.txt
+INSTALL doc/rfc/genref.pl
+INSTALL doc/rfc/leap.txt
+INSTALL doc/rfc/Makefile
+INSTALL doc/rfc/per-rfc.pl
+INSTALL doc/rfc/rewrite.pl
+INSTALL doc/rfc/rfc1157.txt
+INSTALL doc/rfc/rfc1227.txt
+INSTALL doc/rfc/rfc1448.txt
+INSTALL doc/rfc/rfc1901.txt
+INSTALL doc/rfc/rfc1905.txt
+INSTALL doc/rfc/rfc2243.txt
+INSTALL doc/rfc/rfc2284.txt
+INSTALL doc/rfc/rfc2289.txt
+INSTALL doc/rfc/rfc2433.txt
+INSTALL doc/rfc/rfc2548.txt
+INSTALL doc/rfc/rfc2607.txt
+INSTALL doc/rfc/rfc2618.txt
+INSTALL doc/rfc/rfc2619.txt
+INSTALL doc/rfc/rfc2620.txt
+INSTALL doc/rfc/rfc2621.txt
+INSTALL doc/rfc/rfc2716.txt
+INSTALL doc/rfc/rfc2759.txt
+INSTALL doc/rfc/rfc2809.txt
+INSTALL doc/rfc/rfc2865.txt
+INSTALL doc/rfc/rfc2866.txt
+INSTALL doc/rfc/rfc2867.txt
+INSTALL doc/rfc/rfc2868.txt
+INSTALL doc/rfc/rfc2869.txt
+INSTALL doc/rfc/rfc2924.txt
+INSTALL doc/rfc/rfc3079.txt
+INSTALL doc/rfc/rfc3162.txt
+INSTALL doc/rfc/rfc3539.txt
+INSTALL doc/rfc/rfc3575.txt
+INSTALL doc/rfc/rfc3576.txt
+INSTALL doc/rfc/rfc3579.txt
+INSTALL doc/rfc/rfc3580.txt
+INSTALL doc/rfc/rfc3748.txt
+INSTALL doc/rfc/rfc4072.txt
+INSTALL doc/rfc/rfc4186.txt
+INSTALL doc/rfc/rfc4282.txt
+INSTALL doc/rfc/rfc4372.txt
+INSTALL doc/rfc/rfc4590.txt
+INSTALL doc/rfc/rfc4668.txt
+INSTALL doc/rfc/rfc4669.txt
+INSTALL doc/rfc/rfc4670.txt
+INSTALL doc/rfc/rfc4671.txt
+INSTALL doc/rfc/rfc4672.txt
+INSTALL doc/rfc/rfc4673.txt
+INSTALL doc/rfc/rfc4675.txt
+INSTALL doc/rfc/rfc4679.txt
+INSTALL doc/rfc/rfc4818.txt
+INSTALL doc/rfc/rfc4849.txt
+INSTALL doc/rfc/rfc5080.txt
+INSTALL doc/rfc/rfc5090.txt
+INSTALL doc/rfc/rfc5176.txt
+INSTALL doc/rfc/rfc5247.txt
+INSTALL doc/rfc/rfc5281.txt
+INSTALL doc/rfc/rfc5580.txt
+INSTALL doc/rfc/rfc5607.txt
+INSTALL doc/rfc/rfc5904.txt
+INSTALL doc/rfc/rfc5931.txt
+INSTALL doc/rfc/rfc5997.txt
+INSTALL doc/rfc/rfc6158.txt
+INSTALL doc/rfc/rfc6519.txt
+INSTALL doc/rfc/rfc6572.txt
+INSTALL doc/rfc/rfc6613.txt
+INSTALL doc/rfc/rfc6614.txt
+INSTALL doc/rfc/rfc6677.txt
+INSTALL doc/rfc/rfc6911.txt
+INSTALL doc/rfc/rfc6929.txt
+INSTALL doc/rfc/rfc6930.txt
+INSTALL doc/rfc/rfc7055.txt
+INSTALL doc/rfc/rfc7268.txt
+INSTALL doc/rfc/rfc7542.txt
+INSTALL doc/rfc/rfc7599.txt
+INSTALL doc/schemas/ldap/edir/freeradius-clients.ldif
+INSTALL doc/schemas/ldap/iplanet/freeradius.ldif
+INSTALL doc/schemas/ldap/iplanet/freeradius.schema
+INSTALL doc/schemas/ldap/openldap/freeradius-clients.ldif
+INSTALL doc/schemas/ldap/openldap/freeradius-clients.schema
+INSTALL doc/schemas/ldap/openldap/freeradius-dhcp.ldif
+INSTALL doc/schemas/ldap/openldap/freeradius-dhcp.schema
+INSTALL doc/schemas/ldap/openldap/freeradius.ldif
+INSTALL doc/schemas/ldap/openldap/freeradius.schema
+INSTALL doc/schemas/logstash/kibana3-dashboard.json
+INSTALL doc/schemas/logstash/kibana4-dashboard.json
+INSTALL doc/schemas/logstash/log-courier.conf
+INSTALL doc/schemas/logstash/logstash-radius.conf
+INSTALL doc/schemas/logstash/radius-mapping.sh
+INSTALL doc/schemas/logstash/README
+INSTALL doc/schemas/sql
+INSTALL doc/vendor/ascend
+INSTALL doc/vendor/bay
+INSTALL doc/vendor/cisco.rst
+INSTALL doc/vendor/proxim
+INSTALL raddb/certs
+INSTALL raddb/mods-available
+INSTALL raddb/mods-enabled
+INSTALL raddb/policy.d
+INSTALL raddb/sites-available
+INSTALL raddb/sites-enabled
+INSTALL raddb/mods-config/attr_filter
+INSTALL raddb/mods-config/files
+INSTALL raddb/mods-config/perl
+INSTALL raddb/mods-config/preprocess
+INSTALL raddb/mods-config/sql
+INSTALL raddb/mods-config/sql/counter
+INSTALL raddb/mods-config/sql/counter/mysql
+INSTALL raddb/mods-config/sql/counter/postgresql
+INSTALL raddb/mods-config/sql/counter/sqlite
+INSTALL raddb/mods-config/sql/cui
+INSTALL raddb/mods-config/sql/cui/mysql
+INSTALL raddb/mods-config/sql/cui/postgresql
+INSTALL raddb/mods-config/sql/cui/sqlite
+INSTALL raddb/mods-config/sql/ippool
+INSTALL raddb/mods-config/sql/ippool/mysql
+INSTALL raddb/mods-config/sql/ippool/oracle
+INSTALL raddb/mods-config/sql/ippool/postgresql
+INSTALL raddb/mods-config/sql/ippool/sqlite
+INSTALL raddb/mods-config/sql/ippool-dhcp
+INSTALL raddb/mods-config/sql/ippool-dhcp/mysql
+INSTALL raddb/mods-config/sql/ippool-dhcp/oracle
+INSTALL raddb/mods-config/sql/ippool-dhcp/sqlite
+INSTALL raddb/mods-config/sql/main
+INSTALL raddb/mods-config/sql/main/cassandra
+INSTALL raddb/mods-config/sql/main/mssql
+INSTALL raddb/mods-config/sql/main/mysql
+INSTALL raddb/mods-config/sql/main/mysql/extras
+INSTALL raddb/mods-config/sql/main/mysql/extras/wimax
+INSTALL raddb/mods-config/sql/main/ndb
+INSTALL raddb/mods-config/sql/main/oracle
+INSTALL raddb/mods-config/sql/main/postgresql
+INSTALL raddb/mods-config/sql/main/postgresql/extras
+INSTALL raddb/mods-config/sql/main/sqlite
+INSTALL raddb/mods-config/unbound
+INSTALL raddb/sites-available/README
+INSTALL raddb/sites-available/abfab-tls
+INSTALL raddb/sites-available/abfab-tr-idp
+INSTALL raddb/sites-available/arp
+INSTALL raddb/sites-available/bfd
+INSTALL raddb/sites-available/buffered-sql
+INSTALL raddb/sites-available/challenge
+INSTALL raddb/sites-available/channel_bindings
+INSTALL raddb/sites-available/check-eap-tls
+INSTALL raddb/sites-available/coa
+INSTALL raddb/sites-available/control-socket
+INSTALL raddb/sites-available/copy-acct-to-home-server
+INSTALL raddb/sites-available/decoupled-accounting
+INSTALL raddb/sites-available/default
+INSTALL raddb/sites-available/dhcp
+INSTALL raddb/sites-available/dhcp.relay
+INSTALL raddb/sites-available/dynamic-clients
+INSTALL raddb/sites-available/example
+INSTALL raddb/sites-available/inner-tunnel
+INSTALL raddb/sites-available/originate-coa
+INSTALL raddb/sites-available/proxy-inner-tunnel
+INSTALL raddb/sites-available/robust-proxy-accounting
+INSTALL raddb/sites-available/soh
+INSTALL raddb/sites-available/status
+INSTALL raddb/sites-available/tls
+INSTALL raddb/sites-available/tls-cache
+INSTALL raddb/sites-available/virtual.example.com
+INSTALL raddb/sites-available/vmps
+INSTALL raddb/mods-available/README.rst
+INSTALL raddb/mods-available/abfab_psk_sql
+INSTALL raddb/mods-available/always
+INSTALL raddb/mods-available/attr_filter
+INSTALL raddb/mods-available/cache
+INSTALL raddb/mods-available/cache_eap
+INSTALL raddb/mods-available/cache_tls
+INSTALL raddb/mods-available/chap
+INSTALL raddb/mods-available/couchbase
+INSTALL raddb/mods-available/counter
+INSTALL raddb/mods-available/csv
+INSTALL raddb/mods-available/cui
+INSTALL raddb/mods-available/date
+INSTALL raddb/mods-available/detail
+INSTALL raddb/mods-available/detail.example.com
+INSTALL raddb/mods-available/detail.log
+INSTALL raddb/mods-available/dhcp
+INSTALL raddb/mods-available/dhcp_sqlippool
+INSTALL raddb/mods-available/digest
+INSTALL raddb/mods-available/dynamic_clients
+INSTALL raddb/mods-available/eap
+INSTALL raddb/mods-available/eap_inner
+INSTALL raddb/mods-available/echo
+INSTALL raddb/mods-available/etc_group
+INSTALL raddb/mods-available/exec
+INSTALL raddb/mods-available/expiration
+INSTALL raddb/mods-available/expr
+INSTALL raddb/mods-available/files
+INSTALL raddb/mods-available/idn
+INSTALL raddb/mods-available/ippool
+INSTALL raddb/mods-available/json
+INSTALL raddb/mods-available/krb5
+INSTALL raddb/mods-available/ldap
+INSTALL raddb/mods-available/linelog
+INSTALL raddb/mods-available/logintime
+INSTALL raddb/mods-available/mac2ip
+INSTALL raddb/mods-available/mac2vlan
+INSTALL raddb/mods-available/mschap
+INSTALL raddb/mods-available/ntlm_auth
+INSTALL raddb/mods-available/opendirectory
+INSTALL raddb/mods-available/otp
+INSTALL raddb/mods-available/pam
+INSTALL raddb/mods-available/pap
+INSTALL raddb/mods-available/passwd
+INSTALL raddb/mods-available/perl
+INSTALL raddb/mods-available/preprocess
+INSTALL raddb/mods-available/python
+INSTALL raddb/mods-available/radutmp
+INSTALL raddb/mods-available/realm
+INSTALL raddb/mods-available/redis
+INSTALL raddb/mods-available/redis_ippool
+INSTALL raddb/mods-available/rediswho
+INSTALL raddb/mods-available/replicate
+INSTALL raddb/mods-available/rest
+INSTALL raddb/mods-available/smbpasswd
+INSTALL raddb/mods-available/smsotp
+INSTALL raddb/mods-available/soh
+INSTALL raddb/mods-available/sometimes
+INSTALL raddb/mods-available/sql
+INSTALL raddb/mods-available/sql_cassandra
+INSTALL raddb/mods-available/sql_mysql
+INSTALL raddb/mods-available/sql_postgres
+INSTALL raddb/mods-available/sql_sqlite
+INSTALL raddb/mods-available/sqlcounter
+INSTALL raddb/mods-available/sqlippool
+INSTALL raddb/mods-available/sradutmp
+INSTALL raddb/mods-available/unbound
+INSTALL raddb/mods-available/unix
+INSTALL raddb/mods-available/unpack
+INSTALL raddb/mods-available/utf8
+INSTALL raddb/mods-available/wimax
+INSTALL raddb/mods-available/yubikey
+INSTALL raddb/clients.conf
+INSTALL raddb/dictionary
+INSTALL raddb/templates.conf
+INSTALL raddb/experimental.conf
+INSTALL raddb/proxy.conf
+INSTALL raddb/radiusd.conf
+INSTALL raddb/trigger.conf
+INSTALL raddb/README.rst
+INSTALL raddb/panic.gdb
+INSTALL raddb/certs/Makefile
+INSTALL raddb/certs/README
+INSTALL raddb/certs/xpextensions
+INSTALL raddb/certs/ca.cnf
+INSTALL raddb/certs/server.cnf
+INSTALL raddb/certs/ocsp.cnf
+INSTALL raddb/certs/client.cnf
+BOOTSTRAP raddb/certs/
+openssl gendh -out dh -2 2048
+Generating DH parameters, 2048 bit long safe prime, generator 2
+This is going to take a long time
+..................................................................................................+......+.........................................................................................................................................................+..........................................................................+.................................................+........................................................................................................................................................................................................................................................+..................................................................................................................................................+..........................................................................................................................................+.+................................................................+.........................................................................................................................................................................................................................................................................................................+........................................................................................................................+...............................+................................................................................+.......................................................................................................................................................................................................+.........................................+..............................................+......................................................................+.....+...................................................................+........+........+.............+.......................................................................................................................................................................+........................................................................+......................................................................+..............................+.................................................................................................................................................................................................................................................................................................+..............................................................................................+....................................................................................................................................................................................................................+................................................................................................................................................+................................................................+..............................................................................................+..........+..............+......................+........................................................................................................................................+..........................+..........+...............................................................................................................................+................................................................................................................................+.+.+................................................................................+.....................................................................+....................................+..............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................+................................................................................+..........................+...................................................................+................+..................................................................................+............................+..............................................................+........................................+.....................+...................................................................................................................+..................................................................................................................................................................................................................+....................................+.........................................................+..............................................................................................+........................................................................................................................+............................................................................................................................................................................................................+....................................................................+.......................................................+.........+................................................................................................................................................................................................................................................................................................................................................................................................................................................+.......................................................+...........................................................................................................................................................................................................................+...........................+..................................................................................................................+......................................+..................+....................................................................................................................................................................................................................+.........................+.......................................................................................+........................................................................................+.................................................+........................................................................................................................................................................................................................................+..........................................................+...................................................+..............................................................................................................................................................+..............................+...............................................................................+.....+.........................................................+......................................................................................................+......................................................................................+..............................................................+.........................................................................................+...............................................+..................+..........+.............................................................................................................................................................................+..........................................................................................................................................................................................................................................................+......................................................................................................................................+...................................................................................+......+.................................................................................+................+.......................................+.......+......................+.......+...................................+...........................................................................................................................................................................................+............................+...................................................................................................................................................................................................................+........................................................................................................+...............................+.....................................................................................................................................................................................+......................................................................+..................................................+....................................+......................................................................................+................................................................................................................................................................................................................+.................................................................................................................................+.............................................................................................................................................................................+................................................................................................................+...........................................+.......+.................................................................................+.........................................................+.............................................................................................+.........................................................................................................................................................................................................................................+...................+............................................................................................+............+..........................................................................+....................................................................+..................................................................+.................................................................................................................................................................................................................................................................................................................+..........................................................................................................................................................................................................+.......................................................................+.......................................+.....+........................+..........................................................................................................................................................................+....................................................+.......................................................+..................................................................................................................................+...........................................................................................................................................................................................+.................................................................+.......+.......................................................................................................................................+..............................................................................................................+.............................................................................................................................................+.......................................................................................................................................................................................................+..+..................................................................................................+....................................+................................................................................................................................................................................................................................................+.................................................................................................................................................................................................+................................................+.....................................................+.....+..................................................................................................................................................................................................................................................................................................+........+...+..............................................................................................................+.................................................................................+...................................................+.......................................................+..........................................................+..............................................................................................................+...............................................................++*++*
+openssl req -new  -out server.csr -keyout server.key -config ./server.cnf
+Generating a 2048 bit RSA private key
+......................................................+++
+.............+++
+writing new private key to 'server.key'
+-----
+openssl req -new -x509 -keyout ca.key -out ca.pem -config ./ca.cnf -days '60'
+Generating a 2048 bit RSA private key
+...................+++
+...................................................................+++
+writing new private key to 'ca.key'
+-----
+openssl ca -batch -keyfile ca.key -cert ca.pem -in server.csr -key 'whatever' -out server.crt -config ./server.cnf
+Using configuration from ./server.cnf
+Check that the request matches the signature
+Signature ok
+Certificate Details:
+        Serial Number: 1 (0x1)
+        Validity
+            Not Before: Apr 29 15:01:41 2016 GMT
+            Not After : Jun 28 15:01:41 2016 GMT
+        Subject:
+            countryName               = FR
+            stateOrProvinceName       = Radius
+            organizationName          = Example Inc.
+            commonName                = Example Server Certificate
+            emailAddress              = admin@example.org
+        X509v3 extensions:
+            X509v3 Basic Constraints:
+                CA:FALSE
+            X509v3 Key Usage:
+                Digital Signature, Non Repudiation, Key Encipherment
+            X509v3 Extended Key Usage:
+                TLS Web Server Authentication
+            X509v3 CRL Distribution Points:
+                URI:http://www.example.com/example_ca.crl
+
+            Authority Information Access:
+                OCSP - URI:http://www.example.org/ocsp
+
+Certificate is to be certified until Jun 28 15:01:41 2016 GMT (60 days)
+
+Write out database with 1 new entries
+Data Base Updated
+openssl pkcs12 -export -in server.crt -inkey server.key -out server.p12  -passin pass:'whatever' -passout pass:'whatever'
+openssl pkcs12 -in server.p12 -out server.pem -passin pass:'whatever' -passout pass:'whatever'
+MAC verified OK
+server.pem: OK
+openssl x509 -inform PEM -outform DER -in ca.pem -out ca.der
+openssl req -new  -out client.csr -keyout client.key -config ./client.cnf
+Generating a 2048 bit RSA private key
+.................................+++
+...........................................+++
+writing new private key to 'client.key'
+-----
+openssl ca -batch -keyfile ca.key -cert ca.pem -in client.csr  -key 'whatever' -out client.crt -config ./client.cnf
+Using configuration from ./client.cnf
+Check that the request matches the signature
+Signature ok
+Certificate Details:
+        Serial Number: 2 (0x2)
+        Validity
+            Not Before: Apr 29 15:01:41 2016 GMT
+            Not After : Jun 28 15:01:41 2016 GMT
+        Subject:
+            countryName               = FR
+            stateOrProvinceName       = Radius
+            organizationName          = Example Inc.
+            commonName                = user@example.org
+            emailAddress              = user@example.org
+        X509v3 extensions:
+            X509v3 Basic Constraints:
+                CA:FALSE
+            X509v3 Key Usage:
+                Digital Signature, Non Repudiation, Key Encipherment
+            X509v3 Extended Key Usage:
+                TLS Web Client Authentication
+            X509v3 CRL Distribution Points:
+                URI:http://www.example.com/example_ca.crl
+
+            Authority Information Access:
+                OCSP - URI:http://www.example.org/ocsp
+
+Certificate is to be certified until Jun 28 15:01:41 2016 GMT (60 days)
+
+Write out database with 1 new entries
+Data Base Updated
+openssl pkcs12 -export -in client.crt -inkey client.key -out client.p12  -passin pass:'whatever' -passout pass:'whatever'
+openssl pkcs12 -in client.p12 -out client.pem -passin pass:'whatever' -passout pass:'whatever'
+MAC verified OK
+cp client.pem 'user@example.org'.pem
+openssl req -new  -out ocsp.csr -keyout ocsp.key -config ./ocsp.cnf
+Generating a 2048 bit RSA private key
+............................................................................+++
+..........+++
+writing new private key to 'ocsp.key'
+-----
+openssl ca -batch -keyfile ca.key -cert ca.pem -in ocsp.csr -key 'whatever' -out ocsp.crt -config ./ocsp.cnf
+Using configuration from ./ocsp.cnf
+Check that the request matches the signature
+Signature ok
+Certificate Details:
+        Serial Number: 3 (0x3)
+        Validity
+            Not Before: Apr 29 15:01:41 2016 GMT
+            Not After : Jun 28 15:01:41 2016 GMT
+        Subject:
+            countryName               = FR
+            stateOrProvinceName       = Radius
+            organizationName          = Example Inc.
+            commonName                = Example OCSP Responder Certificate
+            emailAddress              = admin@example.org
+        X509v3 extensions:
+            X509v3 Basic Constraints:
+                CA:FALSE
+            X509v3 Key Usage:
+                Digital Signature, Non Repudiation, Key Encipherment
+            X509v3 Extended Key Usage:
+                OCSP Signing
+Certificate is to be certified until Jun 28 15:01:41 2016 GMT (60 days)
+
+Write out database with 1 new entries
+Data Base Updated
+openssl pkcs12 -export -in ocsp.crt -inkey ocsp.key -out ocsp.p12  -passin pass:'whatever' -passout pass:'whatever'
+openssl pkcs12 -in ocsp.p12 -out ocsp.pem -passin pass:'whatever' -passout pass:'whatever'
+MAC verified OK
+ocsp.pem: OK
+INSTALL raddb/certs/bootstrap
+INSTALL raddb/mods-config/attr_filter/access_challenge
+INSTALL raddb/mods-config/attr_filter/access_reject
+INSTALL raddb/mods-config/attr_filter/accounting_response
+INSTALL raddb/mods-config/attr_filter/post-proxy
+INSTALL raddb/mods-config/attr_filter/pre-proxy
+INSTALL raddb/mods-config/files/accounting
+INSTALL raddb/mods-config/files/authorize
+INSTALL raddb/mods-config/files/pre-proxy
+INSTALL raddb/mods-config/perl/example.pl
+INSTALL raddb/mods-config/preprocess/hints
+INSTALL raddb/mods-config/preprocess/huntgroups
+INSTALL raddb/mods-config/README.rst
+INSTALL raddb/mods-config/sql/counter/mysql/dailycounter.conf
+INSTALL raddb/mods-config/sql/counter/mysql/expire_on_login.conf
+INSTALL raddb/mods-config/sql/counter/mysql/monthlycounter.conf
+INSTALL raddb/mods-config/sql/counter/mysql/noresetcounter.conf
+INSTALL raddb/mods-config/sql/counter/postgresql/dailycounter.conf
+INSTALL raddb/mods-config/sql/counter/postgresql/expire_on_login.conf
+INSTALL raddb/mods-config/sql/counter/postgresql/monthlycounter.conf
+INSTALL raddb/mods-config/sql/counter/postgresql/noresetcounter.conf
+INSTALL raddb/mods-config/sql/counter/sqlite/dailycounter.conf
+INSTALL raddb/mods-config/sql/counter/sqlite/expire_on_login.conf
+INSTALL raddb/mods-config/sql/counter/sqlite/monthlycounter.conf
+INSTALL raddb/mods-config/sql/counter/sqlite/noresetcounter.conf
+INSTALL raddb/mods-config/sql/cui/mysql/queries.conf
+INSTALL raddb/mods-config/sql/cui/mysql/schema.sql
+INSTALL raddb/mods-config/sql/cui/postgresql/queries.conf
+INSTALL raddb/mods-config/sql/cui/postgresql/schema.sql
+INSTALL raddb/mods-config/sql/cui/sqlite/queries.conf
+INSTALL raddb/mods-config/sql/cui/sqlite/schema.sql
+INSTALL raddb/mods-config/sql/ippool/mysql/queries.conf
+INSTALL raddb/mods-config/sql/ippool/mysql/schema.sql
+INSTALL raddb/mods-config/sql/ippool/oracle/procedures.sql
+INSTALL raddb/mods-config/sql/ippool/oracle/queries.conf
+INSTALL raddb/mods-config/sql/ippool/oracle/schema.sql
+INSTALL raddb/mods-config/sql/ippool/postgresql/queries.conf
+INSTALL raddb/mods-config/sql/ippool/postgresql/schema.sql
+INSTALL raddb/mods-config/sql/ippool/sqlite/queries.conf
+INSTALL raddb/mods-config/sql/ippool/sqlite/schema.sql
+INSTALL raddb/mods-config/sql/ippool-dhcp/mysql/queries.conf
+INSTALL raddb/mods-config/sql/ippool-dhcp/mysql/schema.sql
+INSTALL raddb/mods-config/sql/ippool-dhcp/oracle/queries.conf
+INSTALL raddb/mods-config/sql/ippool-dhcp/oracle/schema.sql
+INSTALL raddb/mods-config/sql/ippool-dhcp/sqlite/queries.conf
+INSTALL raddb/mods-config/sql/ippool-dhcp/sqlite/schema.sql
+INSTALL raddb/mods-config/sql/main/cassandra/queries.conf
+INSTALL raddb/mods-config/sql/main/cassandra/schema.sql
+INSTALL raddb/mods-config/sql/main/mssql/queries.conf
+INSTALL raddb/mods-config/sql/main/mssql/schema.sql
+INSTALL raddb/mods-config/sql/main/mysql/extras/wimax/queries.conf
+INSTALL raddb/mods-config/sql/main/mysql/extras/wimax/schema.sql
+INSTALL raddb/mods-config/sql/main/mysql/queries.conf
+INSTALL raddb/mods-config/sql/main/mysql/schema.sql
+INSTALL raddb/mods-config/sql/main/mysql/setup.sql
+INSTALL raddb/mods-config/sql/main/ndb/README
+INSTALL raddb/mods-config/sql/main/ndb/schema.sql
+INSTALL raddb/mods-config/sql/main/ndb/setup.sql
+INSTALL raddb/mods-config/sql/main/oracle/queries.conf
+INSTALL raddb/mods-config/sql/main/oracle/schema.sql
+INSTALL raddb/mods-config/sql/main/postgresql/extras/cisco_h323_db_schema.sql
+INSTALL raddb/mods-config/sql/main/postgresql/extras/update_radacct_group.sql
+INSTALL raddb/mods-config/sql/main/postgresql/extras/voip-postpaid.conf
+INSTALL raddb/mods-config/sql/main/postgresql/queries.conf
+INSTALL raddb/mods-config/sql/main/postgresql/schema.sql
+INSTALL raddb/mods-config/sql/main/postgresql/setup.sql
+INSTALL raddb/mods-config/sql/main/sqlite/queries.conf
+INSTALL raddb/mods-config/sql/main/sqlite/schema.sql
+INSTALL raddb/mods-config/unbound/default.conf
+INSTALL raddb/policy.d/abfab-tr
+INSTALL raddb/policy.d/accounting
+INSTALL raddb/policy.d/canonicalization
+INSTALL raddb/policy.d/control
+INSTALL raddb/policy.d/cui
+INSTALL raddb/policy.d/debug
+INSTALL raddb/policy.d/dhcp
+INSTALL raddb/policy.d/eap
+INSTALL raddb/policy.d/filter
+INSTALL raddb/policy.d/operator-name
+INSTALL raddb/policy.d/vendor
+LN-S raddb/users
+LN-S raddb/huntgroups
+LN-S raddb/hints
