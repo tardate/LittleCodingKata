@@ -1,0 +1,53 @@
+# -*- text -*-
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
+# This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
+#
+##############################################################################
+#
+#	Eleven Software
+#
+#	$Id: 2f82f4a26749b9addcd70bb6e84718e78015bb98 $
+#
+##############################################################################
+
+VENDOR		Eleven				52970
+
+BEGIN-VENDOR Eleven
+
+#
+#  DPSK attributes
+#
+#  The RADIUS server responds with two Cisco-AVPair attributes:
+#
+#	Cisco-AVPair = "psk-mode=ascii"
+#	Cisco-AVPair = "psk=<passphrase>"
+#
+#
+ATTRIBUTE	Eleven-Authentication-Find-Key		3	tlv
+
+#
+# The second EAPoL frame of the 4-way handshake
+#
+ATTRIBUTE	Eleven-EAPOL-Frame-2			3.1	octets
+
+#
+#  The first EAPoL frame of the 4-way handshake.
+#
+ATTRIBUTE	Eleven-EAPOL-Anonce			3.2	octets
+
+#
+#  SSID name
+#
+ATTRIBUTE	Eleven-EAPOL-SSID			3.3	string
+
+#
+#  BSSID
+#
+ATTRIBUTE	Eleven-EAPOL-APMAC			3.4	octets
+
+#
+#  Wireless client MAC address.
+#
+ATTRIBUTE	Eleven-EAPOL-STMAC			3.5	octets
+
+END-VENDOR Eleven
