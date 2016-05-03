@@ -8,6 +8,7 @@ _trial_temp
 
 # general ruby stuff
 Gemfile.lock
+.bundle
 
 # tmp stuff
 tmp
