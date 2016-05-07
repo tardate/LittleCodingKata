@@ -25,7 +25,7 @@ Use `elm make` to compile the source to HTML/javascript.
 
     elm make hello_clock.elm --output=index.html
 
-This will generate `elm-package.json` and install dependencies if not already done.
+This will generate `elm-package.json` and install dependencies in `elm-stuff` if not already done.
 
 ### Run
 
@@ -33,8 +33,6 @@ Open index.html in a browser. It is all self-contained: once built there is no r
 the `elm-stuff` folder.
 
 Or run the demo [live from GitHub Pages](http://tardate.github.io/LittleCodingKata/elm/hello_clock/index.html).
-
-![hello_clock](./assets/hello_clock.jpg?raw=true)
 
 ## Credits and References
 * [elm examples/clock](http://elm-lang.org/examples/clock) - the original source
