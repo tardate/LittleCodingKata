@@ -1,6 +1,9 @@
 # general node stuff
 node_modules
 
+# general node stuff
+bower_components
+
 # general python stuff
 venv
 _trial_temp

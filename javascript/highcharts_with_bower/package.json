@@ -1,0 +1,19 @@
+{
+  "name": "highcharts_with_bower",
+  "version": "1.0.0",
+  "description": "## Notes",
+  "main": "page.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tardate/LittleCodingKata.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bower-concat": "^1.0.0"
+  }
+}

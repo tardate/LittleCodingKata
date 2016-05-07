@@ -40,6 +40,7 @@ or even send a pull-request.
 
 ## Javascript
 
+* [Highcharts with Bower](./javascript/highcharts_with_bower)
 * [Progress Bars with Bootstrap](./javascript/progress_bars_bootstrap)
 
 ## Messaging: gRPC

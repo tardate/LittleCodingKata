@@ -1,0 +1,21 @@
+{
+  "name": "highcharts_with_bower",
+  "homepage": "https://github.com/tardate/LittleCodingKata",
+  "authors": [
+    "Paul Gallagher <gallagher.paul@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "highcharts": "^4.2.5"
+  }
+}
