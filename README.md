@@ -42,9 +42,7 @@ or even send a pull-request.
 
 * [Progress Bars with Bootstrap](./javascript/progress_bars_bootstrap)
 
-## Messaging Infrastructure
-
-### gRPC
+## Messaging: gRPC
 
 * [installing on MacOSX](./messaging/grpc/install_macosx)
 * [The Explainer](./messaging/grpc/explainer) - hardware excuse generator with gRPC
