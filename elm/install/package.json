@@ -1,0 +1,18 @@
+{
+  "name": "elm-install",
+  "version": "1.0.0",
+  "description": "unboxing",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: there are no tests, Keep Calm and Carry On!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tardate/LittleCodingKata.git"
+  },
+  "author": "gallagher.paul@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "elm": "^0.16.0"
+  }
+}

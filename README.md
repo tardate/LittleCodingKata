@@ -26,6 +26,11 @@ or even send a pull-request.
 
 * [case statements](./bash/case_statement)
 
+## Elm
+
+* [About Elm](./elm/about) - my tl;dr summary
+* [Installing](./elm/install)
+
 ## Haskell
 
 * [About Haskell](./haskell/about) - my tl;dr summary
