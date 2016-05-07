@@ -38,14 +38,6 @@ or even send a pull-request.
 * [Hello World](./haskell/hello_world)
 * [installing on MacOSX](./haskell/install_macosx)
 
-## Infrastructure
-
-### RADIUS
-
-* [About RADIUS](./infrastructure/radius/about) - my tl;dr summary
-* [FreeRADIUS Client](./infrastructure/radius/freeradius-client-macosx) - running on MacOSX (#fail - this project needs work)
-* [FreeRADIUS Server](./infrastructure/radius/freeradius-server-macosx) - running on MacOSX
-
 ## Javascript
 
 * [Progress Bars with Bootstrap](./javascript/progress_bars_bootstrap)
@@ -81,8 +73,14 @@ or even send a pull-request.
 * [Hello World](./rust/hello_world) - with concurrency
 * [installing on MacOSX](./rust/install_macosx)
 
-## Tools
+## Tools & Infrastructure
 
 * [envsubst](./tools/envsubst) - substitute shell variables in text
 * [homebrew](./tools/homebrew) - homebrew (MacOSX package manager) tips and tricks
 * [iproute2](./tools/iproute2) - about iproute2 and how to run it on MacOSX
+
+### RADIUS
+
+* [About RADIUS](./infrastructure/radius/about) - my tl;dr summary
+* [FreeRADIUS Client](./infrastructure/radius/freeradius-client-macosx) - running on MacOSX (#fail - this project needs work)
+* [FreeRADIUS Server](./infrastructure/radius/freeradius-server-macosx) - running on MacOSX
