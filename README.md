@@ -26,6 +26,10 @@ or even send a pull-request.
 
 * [case statements](./bash/case_statement)
 
+## C++
+
+* [exception handling](./cpp/exception_handling)
+
 ## Elm
 
 * [About Elm](./elm/about) - my tl;dr summary
