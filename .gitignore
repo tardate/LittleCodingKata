@@ -10,6 +10,9 @@ _trial_temp
 Gemfile.lock
 .bundle
 
+# general elm stuff
+elm-stuff
+
 # tmp stuff
 tmp
 wip

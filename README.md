@@ -29,6 +29,7 @@ or even send a pull-request.
 ## Elm
 
 * [About Elm](./elm/about) - my tl;dr summary
+* [Hello Clock](./elm/hello_clock) - 2D graphics with elm
 * [Installing](./elm/install)
 
 ## Haskell
