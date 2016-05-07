@@ -1,6 +1,8 @@
 # Hello Clock
 
-Testing elm with the 2D graphics clock example
+Testing elm with the 2D graphics clock example.
+
+[![hello_clock](./assets/hello_clock.png?raw=true)](http://tardate.github.io/LittleCodingKata/elm/hello_clock/index.html)
 
 ### The Example
 
@@ -29,6 +31,8 @@ This will generate `elm-package.json` and install dependencies if not already do
 
 Open index.html in a browser. It is all self-contained: once built there is no runtime dependency on
 the `elm-stuff` folder.
+
+Or run the demo [live from GitHub Pages](http://tardate.github.io/LittleCodingKata/elm/hello_clock/index.html).
 
 ![hello_clock](./assets/hello_clock.jpg?raw=true)
 
