@@ -57,6 +57,10 @@ or even send a pull-request.
   - [The Explainer (Python)](./messaging/grpc/explainer/python) - Python client example
   - [The Explainer (Ruby)](./messaging/grpc/explainer/ruby) - Ruby client and server example
 
+## Perl
+
+* [patching text files](./perl/patch_file)
+
 ## Python
 
 * [quirks - late-bound closures](./python/quirks/late_bound_closures)
