@@ -56,6 +56,7 @@ Resulting example.hex (head only)..
 ```
 
 ## Credits and References
+* [How can I make changes to only the first line of a file?](http://stackoverflow.com/questions/548420/how-can-i-make-changes-to-only-the-first-line-of-a-file) - SO
 * [The Perl Programming Language](https://www.perl.org/)
 * [OSHChip/GccToolchain](https://github.com/tardate/LittleArduinoProjects/tree/master/OSHChip/GccToolchain) - where I used this recently
 * [Intel HEX](https://en.wikipedia.org/wiki/Intel_HEX) - wikipedia
