@@ -25,6 +25,7 @@ or even send a pull-request.
 ## Bash
 
 * [case statements](./bash/case_statement)
+* [process_lines](./bash/process_lines) - process a file line-by-line
 
 ## C++
 
