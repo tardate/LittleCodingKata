@@ -26,3 +26,4 @@ And they should inter-operate! Let's see..
 * [Hardware Excuse Generator](http://natashenka.ca/hardware-excuse-generator/)
 * [excusegen - GitHub](https://github.com/natashenka/excusegen)
 * [Embedded.fm 111: Potty Train Your Tamagotchi](http://embedded.fm/episodes/111) - interview with Natalie Silvanovich (where I first heard abou the Hardware Excuse Generator)
+* [..as mentioned on my blog](http://blog.tardate.com/2016/05/littlecodingkata-hardware-excuse.html)
