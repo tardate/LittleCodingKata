@@ -26,6 +26,7 @@ or even send a pull-request.
 
 * [case statements](./bash/case_statement)
 * [process_lines](./bash/process_lines) - process a file line-by-line
+* [select_menu](./bash/select_menu) - simple multiple-choice user input
 
 ## C++
 
