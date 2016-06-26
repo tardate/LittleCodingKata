@@ -47,6 +47,7 @@ or even send a pull-request.
 ## Javascript
 
 * [Highcharts with Bower](./javascript/highcharts_with_bower)
+* [Interactive Ribbon Charts with plotly.js](./javascript/plotly_ribbon_charts)
 * [Progress Bars with Bootstrap](./javascript/progress_bars_bootstrap)
 
 ## Messaging: gRPC
