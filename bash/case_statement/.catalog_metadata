@@ -1,0 +1,7 @@
+{
+    "id": "#001", 
+    "name": "Bash/case_statement", 
+    "description": "case statements", 
+    "categories": "Bash", 
+    "relative_path": "bash/case_statement"
+}

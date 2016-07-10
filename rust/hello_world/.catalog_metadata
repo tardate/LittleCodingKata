@@ -1,0 +1,7 @@
+{
+    "id": "#034", 
+    "name": "Rust/hello_world", 
+    "description": "Rust - Hello World with concurrency", 
+    "categories": "Rust", 
+    "relative_path": "rust/hello_world"
+}

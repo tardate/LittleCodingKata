@@ -1,0 +1,7 @@
+{
+    "id": "#022", 
+    "name": "Perl/fix_first_line", 
+    "description": "patching text files with Perl - fix the first line only", 
+    "categories": "perl", 
+    "relative_path": "perl/fix_first_line"
+}

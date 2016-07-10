@@ -1,0 +1,7 @@
+{
+    "id": "#010", 
+    "name": "Haskell/install_macosx", 
+    "description": "installing Haskell on MacOSX", 
+    "categories": "Haskell, MacOSX", 
+    "relative_path": "haskell/install_macosx"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#032", 
+    "name": "Python/twisted_web_client", 
+    "description": "writing web client code with twisted and tests", 
+    "categories": "Python", 
+    "relative_path": "python/twisted_web_client"
+}

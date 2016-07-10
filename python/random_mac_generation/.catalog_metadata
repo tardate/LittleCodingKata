@@ -1,0 +1,7 @@
+{
+    "id": "#029", 
+    "name": "Python/random_mac_generation", 
+    "description": "all about MAC and generating random MAC addresses", 
+    "categories": "Python", 
+    "relative_path": "python/random_mac_generation"
+}

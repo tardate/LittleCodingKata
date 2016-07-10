@@ -1,0 +1,7 @@
+{
+    "id": "#003", 
+    "name": "Bash/select_menu", 
+    "description": "simple multiple-choice user input", 
+    "categories": "Bash", 
+    "relative_path": "bash/select_menu"
+}

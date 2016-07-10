@@ -1,0 +1,7 @@
+{
+    "id": "#026", 
+    "name": "FreeRADIUS/freeradius-server-macosx", 
+    "description": "FreeRADIUS - running on MacOSX", 
+    "categories": "RADIUS, MacOSX, infrastructure", 
+    "relative_path": "infrastructure/radius/freeradius-server-macosx"
+}

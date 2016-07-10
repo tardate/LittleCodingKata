@@ -1,0 +1,7 @@
+{
+    "id": "#030", 
+    "name": "Python/top_level_imports", 
+    "description": "or: why not to put an __init__.py in your top level folder", 
+    "categories": "Python", 
+    "relative_path": "python/top_level_imports"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#006", 
+    "name": "Elm/hello_clock", 
+    "description": "2D graphics with elm", 
+    "categories": "Elm", 
+    "relative_path": "elm/hello_clock"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#023", 
+    "name": "Ruby/random_mac_generation", 
+    "description": "all about MAC and generating random MAC addresses", 
+    "categories": "Ruby", 
+    "relative_path": "ruby/random_mac_generation"
+}

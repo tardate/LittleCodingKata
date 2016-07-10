@@ -1,0 +1,7 @@
+{
+    "id": "#002", 
+    "name": "Bash/process_lines", 
+    "description": "process a file line-by-line", 
+    "categories": "Bash", 
+    "relative_path": "bash/process_lines"
+}

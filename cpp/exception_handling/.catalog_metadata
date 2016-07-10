@@ -1,0 +1,7 @@
+{
+    "id": "#004", 
+    "name": "C++/exception_handling", 
+    "description": "C++ exception handling", 
+    "categories": "C++", 
+    "relative_path": "cpp/exception_handling"
+}

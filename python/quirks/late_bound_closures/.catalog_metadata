@@ -1,0 +1,7 @@
+{
+    "id": "#027", 
+    "name": "Python/quirks/late_bound_closures", 
+    "description": "Python quirks - late-bound closures", 
+    "categories": "Python", 
+    "relative_path": "python/quirks/late_bound_closures"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#035", 
+    "name": "Rust/install_macosx", 
+    "description": "Rust - installing on MacOSX", 
+    "categories": "Rust, MacOSX", 
+    "relative_path": "rust/install_macosx"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#015", 
+    "name": "gRPC Explainer", 
+    "description": "hardware excuse generator with gRPC", 
+    "categories": "gRPC, Messaging", 
+    "relative_path": "messaging/grpc/explainer"
+}

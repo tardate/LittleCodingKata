@@ -1,0 +1,7 @@
+{
+    "id": "#007", 
+    "name": "Elm/install", 
+    "description": "Installing Elm on MacOSX", 
+    "categories": "Elm, MacOSX", 
+    "relative_path": "elm/install"
+}

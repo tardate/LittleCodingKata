@@ -1,0 +1,275 @@
+[
+{
+    "id": "#001", 
+    "name": "Bash/case_statement", 
+    "description": "case statements", 
+    "categories": "Bash", 
+    "relative_path": "bash/case_statement"
+},
+{
+    "id": "#002", 
+    "name": "Bash/process_lines", 
+    "description": "process a file line-by-line", 
+    "categories": "Bash", 
+    "relative_path": "bash/process_lines"
+},
+{
+    "id": "#003", 
+    "name": "Bash/select_menu", 
+    "description": "simple multiple-choice user input", 
+    "categories": "Bash", 
+    "relative_path": "bash/select_menu"
+},
+{
+    "id": "#039", 
+    "name": "Catalog", 
+    "description": "a Javascript Datatables catalog for GitHub Pages", 
+    "categories": "Tools, Javascript", 
+    "relative_path": "catalog"
+},
+{
+    "id": "#004", 
+    "name": "C++/exception_handling", 
+    "description": "C++ exception handling", 
+    "categories": "C++", 
+    "relative_path": "cpp/exception_handling"
+},
+{
+    "id": "#005", 
+    "name": "Elm/about", 
+    "description": "elm - my tl;dr summary", 
+    "categories": "Elm", 
+    "relative_path": "elm/about"
+},
+{
+    "id": "#006", 
+    "name": "Elm/hello_clock", 
+    "description": "2D graphics with elm", 
+    "categories": "Elm", 
+    "relative_path": "elm/hello_clock"
+},
+{
+    "id": "#007", 
+    "name": "Elm/install", 
+    "description": "Installing Elm on MacOSX", 
+    "categories": "Elm, MacOSX", 
+    "relative_path": "elm/install"
+},
+{
+    "id": "#008", 
+    "name": "Haskell/about", 
+    "description": "Haskell - my tl;dr summary", 
+    "categories": "Haskell", 
+    "relative_path": "haskell/about"
+},
+{
+    "id": "#009", 
+    "name": "Haskell/hello_world", 
+    "description": "Haskell - Hello World", 
+    "categories": "Haskell", 
+    "relative_path": "haskell/hello_world"
+},
+{
+    "id": "#010", 
+    "name": "Haskell/install_macosx", 
+    "description": "installing Haskell on MacOSX", 
+    "categories": "Haskell, MacOSX", 
+    "relative_path": "haskell/install_macosx"
+},
+{
+    "id": "#024", 
+    "name": "RADIUS/about", 
+    "description": "RADIUS - my tl;dr summary", 
+    "categories": "RADIUS, infrastructure", 
+    "relative_path": "infrastructure/radius/about"
+},
+{
+    "id": "#025", 
+    "name": "FreeRADIUS/freeradius-client-macosx", 
+    "description": "FreeRADIUS - running on MacOSX (#fail - this project needs work)", 
+    "categories": "RADIUS, MacOSX, infrastructure", 
+    "relative_path": "infrastructure/radius/freeradius-client-macosx"
+},
+{
+    "id": "#026", 
+    "name": "FreeRADIUS/freeradius-server-macosx", 
+    "description": "FreeRADIUS - running on MacOSX", 
+    "categories": "RADIUS, MacOSX, infrastructure", 
+    "relative_path": "infrastructure/radius/freeradius-server-macosx"
+},
+{
+    "id": "#011", 
+    "name": "Javascript/highcharts_with_bower", 
+    "description": "Highcharts with Bower", 
+    "categories": "Javascript", 
+    "relative_path": "javascript/highcharts_with_bower"
+},
+{
+    "id": "#012", 
+    "name": "Javascript/plotly_ribbon_charts", 
+    "description": "Interactive Ribbon Charts with plotly.js", 
+    "categories": "Javascript", 
+    "relative_path": "javascript/plotly_ribbon_charts"
+},
+{
+    "id": "#013", 
+    "name": "Javascript/progress_bars_bootstrap", 
+    "description": "Progress Bars with Bootstrap", 
+    "categories": "Javascript", 
+    "relative_path": "javascript/progress_bars_bootstrap"
+},
+{
+    "id": "#015", 
+    "name": "gRPC Explainer", 
+    "description": "hardware excuse generator with gRPC", 
+    "categories": "gRPC, Messaging", 
+    "relative_path": "messaging/grpc/explainer"
+},
+{
+    "id": "#016", 
+    "name": "gRPC Explainer/C++", 
+    "description": "hardware excuse generator with gRPC - C++ client example", 
+    "categories": "gRPC, C++, Messaging", 
+    "relative_path": "messaging/grpc/explainer/cpp"
+},
+{
+    "id": "#017", 
+    "name": "gRPC Explainer/C#", 
+    "description": "hardware excuse generator with gRPC - C# client example", 
+    "categories": "gRPC, C#, Messaging", 
+    "relative_path": "messaging/grpc/explainer/csharp"
+},
+{
+    "id": "#018", 
+    "name": "gRPC Explainer/Node.js", 
+    "description": "hardware excuse generator with gRPC - Node client example", 
+    "categories": "gRPC, Node, Messaging", 
+    "relative_path": "messaging/grpc/explainer/node"
+},
+{
+    "id": "#019", 
+    "name": "gRPC Explainer/Python", 
+    "description": "hardware excuse generator with gRPC - Python client example", 
+    "categories": "gRPC, Python, Messaging", 
+    "relative_path": "messaging/grpc/explainer/python"
+},
+{
+    "id": "#020", 
+    "name": "gRPC Explainer/Ruby", 
+    "description": "hardware excuse generator with gRPC - Ruby client and server example", 
+    "categories": "gRPC, Ruby, Messaging", 
+    "relative_path": "messaging/grpc/explainer/ruby"
+},
+{
+    "id": "#014", 
+    "name": "gRPC/install_macosx", 
+    "description": "installing on MacOSX", 
+    "categories": "gRPC, MacOSX, Messaging", 
+    "relative_path": "messaging/grpc/install_macosx"
+},
+{
+    "id": "#022", 
+    "name": "Perl/fix_first_line", 
+    "description": "patching text files with Perl - fix the first line only", 
+    "categories": "perl", 
+    "relative_path": "perl/fix_first_line"
+},
+{
+    "id": "#021", 
+    "name": "Perl/patch_file", 
+    "description": "patching text files with Perl", 
+    "categories": "perl", 
+    "relative_path": "perl/patch_file"
+},
+{
+    "id": "#027", 
+    "name": "Python/quirks/late_bound_closures", 
+    "description": "Python quirks - late-bound closures", 
+    "categories": "Python", 
+    "relative_path": "python/quirks/late_bound_closures"
+},
+{
+    "id": "#028", 
+    "name": "Python/quirks/mutable_default_params", 
+    "description": "Python quirks - mutable default params", 
+    "categories": "Python", 
+    "relative_path": "python/quirks/mutable_default_params"
+},
+{
+    "id": "#029", 
+    "name": "Python/random_mac_generation", 
+    "description": "all about MAC and generating random MAC addresses", 
+    "categories": "Python", 
+    "relative_path": "python/random_mac_generation"
+},
+{
+    "id": "#030", 
+    "name": "Python/top_level_imports", 
+    "description": "or: why not to put an __init__.py in your top level folder", 
+    "categories": "Python", 
+    "relative_path": "python/top_level_imports"
+},
+{
+    "id": "#031", 
+    "name": "Python/twisted_client_server", 
+    "description": "writing client-server code with twisted and tests", 
+    "categories": "Python", 
+    "relative_path": "python/twisted_client_server"
+},
+{
+    "id": "#032", 
+    "name": "Python/twisted_web_client", 
+    "description": "writing web client code with twisted and tests", 
+    "categories": "Python", 
+    "relative_path": "python/twisted_web_client"
+},
+{
+    "id": "#023", 
+    "name": "Ruby/random_mac_generation", 
+    "description": "all about MAC and generating random MAC addresses", 
+    "categories": "Ruby", 
+    "relative_path": "ruby/random_mac_generation"
+},
+{
+    "id": "#033", 
+    "name": "Rust/about", 
+    "description": "Rust - my tl;dr summary", 
+    "categories": "Rust", 
+    "relative_path": "rust/about"
+},
+{
+    "id": "#034", 
+    "name": "Rust/hello_world", 
+    "description": "Rust - Hello World with concurrency", 
+    "categories": "Rust", 
+    "relative_path": "rust/hello_world"
+},
+{
+    "id": "#035", 
+    "name": "Rust/install_macosx", 
+    "description": "Rust - installing on MacOSX", 
+    "categories": "Rust, MacOSX", 
+    "relative_path": "rust/install_macosx"
+},
+{
+    "id": "#036", 
+    "name": "Tools/envsubst", 
+    "description": "substitute shell variables in text", 
+    "categories": "Tools, Bash", 
+    "relative_path": "tools/envsubst"
+},
+{
+    "id": "#037", 
+    "name": "Tools/homebrew", 
+    "description": "homebrew (MacOSX package manager) tips and tricks", 
+    "categories": "Tools, MacOSX", 
+    "relative_path": "tools/homebrew"
+},
+{
+    "id": "#038", 
+    "name": "Tools/iproute2", 
+    "description": "about iproute2 and how to run it on MacOSX", 
+    "categories": "Tools, MacOSX", 
+    "relative_path": "tools/iproute2"
+}
+]

@@ -22,76 +22,54 @@ This is primarily a personal collection for my own edification and learning, but
 or reference the work here. And if you spot errors or issues I'd really appreciate some feedback - create an issue, send me an email
 or even send a pull-request.
 
-## Bash
 
-* [case statements](./bash/case_statement)
-* [process_lines](./bash/process_lines) - process a file line-by-line
-* [select_menu](./bash/select_menu) - simple multiple-choice user input
+## Project Index
 
-## C++
+LittleCodingKata has a new catalog/web site!
+It's actually just simple GitHub pages sitting right on top of this repository. Try it out:
 
-* [exception handling](./cpp/exception_handling)
+[![lck-splash](./catalog/assets/images/lck-splash.png?raw=true)](http://codingkata.tardate.com/)
 
-## Elm
+## The Old Project Index
 
-* [About Elm](./elm/about) - my tl;dr summary
-* [Hello Clock](./elm/hello_clock) - 2D graphics with elm
-* [Installing](./elm/install)
-
-## Haskell
-
-* [About Haskell](./haskell/about) - my tl;dr summary
-* [Hello World](./haskell/hello_world)
-* [installing on MacOSX](./haskell/install_macosx)
-
-## Javascript
-
-* [Highcharts with Bower](./javascript/highcharts_with_bower)
-* [Interactive Ribbon Charts with plotly.js](./javascript/plotly_ribbon_charts)
-* [Progress Bars with Bootstrap](./javascript/progress_bars_bootstrap)
-
-## Messaging: gRPC
-
-* [installing on MacOSX](./messaging/grpc/install_macosx)
-* [The Explainer](./messaging/grpc/explainer) - hardware excuse generator with gRPC
-  - [The Explainer (C++)](./messaging/grpc/explainer/cpp) - C++ client example
-  - [The Explainer (C#)](./messaging/grpc/explainer/csharp) - C# client example
-  - [The Explainer (Node.js)](./messaging/grpc/explainer/node) - Node client example
-  - [The Explainer (Python)](./messaging/grpc/explainer/python) - Python client example
-  - [The Explainer (Ruby)](./messaging/grpc/explainer/ruby) - Ruby client and server example
-
-## Perl
-
-* [patching text files](./perl/patch_file)
-* [patching text files](./perl/fix_first_line) - fix the first line only
-
-## Python
-
-* [quirks - late-bound closures](./python/quirks/late_bound_closures)
-* [quirks - mutable default params](./python/quirks/mutable_default_params)
-* [random_mac_generation](./python/random_mac_generation) - all about MAC and generating random MAC addresses
-* [top_level_imports](./python/top_level_imports) - or: why not to put an __init__.py in your top level folder
-* [twisted_client_server](./python/twisted_client_server) - writing client-server code with twisted and tests
-* [twisted_web_client](./python/twisted_web_client) - writing web client code with twisted and tests
-
-## Ruby
-
-* [random_mac_generation](./ruby/random_mac_generation) - all about MAC and generating random MAC addresses
-
-## Rust
-
-* [About Rust](./rust/about) - my tl;dr summary
-* [Hello World](./rust/hello_world) - with concurrency
-* [installing on MacOSX](./rust/install_macosx)
-
-## Tools & Infrastructure
-
-* [envsubst](./tools/envsubst) - substitute shell variables in text
-* [homebrew](./tools/homebrew) - homebrew (MacOSX package manager) tips and tricks
-* [iproute2](./tools/iproute2) - about iproute2 and how to run it on MacOSX
-
-### RADIUS
-
-* [About RADIUS](./infrastructure/radius/about) - my tl;dr summary
-* [FreeRADIUS Client](./infrastructure/radius/freeradius-client-macosx) - running on MacOSX (#fail - this project needs work)
-* [FreeRADIUS Server](./infrastructure/radius/freeradius-server-macosx) - running on MacOSX
+| Project                                                                                      | Category/Description                                              |
+|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| [#001 Bash/case_statement](./bash/case_statement)                                            | **Bash**                             case statements |
+| [#002 Bash/process_lines](./bash/process_lines)                                              | **Bash**                             process a file line-by-line |
+| [#003 Bash/select_menu](./bash/select_menu)                                                  | **Bash**                             simple multiple-choice user input |
+| [#004 C++/exception_handling](./cpp/exception_handling)                                      | **C++**                              C++ exception handling |
+| [#005 Elm/about](./elm/about)                                                                | **Elm**                              elm - my tl;dr summary |
+| [#006 Elm/hello_clock](./elm/hello_clock)                                                    | **Elm**                              2D graphics with elm |
+| [#007 Elm/install](./elm/install)                                                            | **Elm, MacOSX**                      Installing Elm on MacOSX |
+| [#008 Haskell/about](./haskell/about)                                                        | **Haskell**                          Haskell - my tl;dr summary |
+| [#009 Haskell/hello_world](./haskell/hello_world)                                            | **Haskell**                          Haskell - Hello World |
+| [#010 Haskell/install_macosx](./haskell/install_macosx)                                      | **Haskell, MacOSX**                  installing Haskell on MacOSX |
+| [#011 Javascript/highcharts_with_bower](./javascript/highcharts_with_bower)                  | **Javascript**                       Highcharts with Bower |
+| [#012 Javascript/plotly_ribbon_charts](./javascript/plotly_ribbon_charts)                    | **Javascript**                       Interactive Ribbon Charts with plotly.js |
+| [#013 Javascript/progress_bars_bootstrap](./javascript/progress_bars_bootstrap)              | **Javascript**                       Progress Bars with Bootstrap |
+| [#014 gRPC/install_macosx](./messaging/grpc/install_macosx)                                  | **gRPC, MacOSX, Messaging**          installing on MacOSX |
+| [#015 gRPC Explainer](./messaging/grpc/explainer)                                            | **gRPC, Messaging**                  hardware excuse generator with gRPC |
+| [#016 gRPC Explainer/C++](./messaging/grpc/explainer/cpp)                                    | **gRPC, C++, Messaging**             hardware excuse generator with gRPC - C++ client example |
+| [#017 gRPC Explainer/C#](./messaging/grpc/explainer/csharp)                                  | **gRPC, C#, Messaging**              hardware excuse generator with gRPC - C# client example |
+| [#018 gRPC Explainer/Node.js](./messaging/grpc/explainer/node)                               | **gRPC, Node, Messaging**            hardware excuse generator with gRPC - Node client example |
+| [#019 gRPC Explainer/Python](./messaging/grpc/explainer/python)                              | **gRPC, Python, Messaging**          hardware excuse generator with gRPC - Python client example |
+| [#020 gRPC Explainer/Ruby](./messaging/grpc/explainer/ruby)                                  | **gRPC, Ruby, Messaging**            hardware excuse generator with gRPC - Ruby client and server example |
+| [#021 Perl/patch_file](./perl/patch_file)                                                    | **perl**                             patching text files with Perl |
+| [#022 Perl/fix_first_line](./perl/fix_first_line)                                            | **perl**                             patching text files with Perl - fix the first line only |
+| [#023 Ruby/random_mac_generation](./ruby/random_mac_generation)                              | **Ruby**                             all about MAC and generating random MAC addresses |
+| [#024 RADIUS/about](./infrastructure/radius/about)                                           | **RADIUS, infrastructure**           RADIUS - my tl;dr summary |
+| [#025 FreeRADIUS/freeradius-client-macosx](./infrastructure/radius/freeradius-client-macosx) | **RADIUS, MacOSX, infrastructure**   FreeRADIUS - running on MacOSX (#fail - this project needs work) |
+| [#026 FreeRADIUS/freeradius-server-macosx](./infrastructure/radius/freeradius-server-macosx) | **RADIUS, MacOSX, infrastructure**   FreeRADIUS - running on MacOSX |
+| [#027 Python/quirks/late_bound_closures](./python/quirks/late_bound_closures)                | **Python**                           Python quirks - late-bound closures |
+| [#028 Python/quirks/mutable_default_params](./python/quirks/mutable_default_params)          | **Python**                           Python quirks - mutable default params |
+| [#029 Python/random_mac_generation](./python/random_mac_generation)                          | **Python**                           all about MAC and generating random MAC addresses |
+| [#030 Python/top_level_imports](./python/top_level_imports)                                  | **Python**                           or: why not to put an __init__.py in your top level folder |
+| [#031 Python/twisted_client_server](./python/twisted_client_server)                          | **Python**                           writing client-server code with twisted and tests |
+| [#032 Python/twisted_web_client](./python/twisted_web_client)                                | **Python**                           writing web client code with twisted and tests |
+| [#033 Rust/about](./rust/about)                                                              | **Rust**                             Rust - my tl;dr summary |
+| [#034 Rust/hello_world](./rust/hello_world)                                                  | **Rust**                             Rust - Hello World with concurrency |
+| [#035 Rust/install_macosx](./rust/install_macosx)                                            | **Rust, MacOSX**                     Rust - installing on MacOSX |
+| [#036 Tools/envsubst](./tools/envsubst)                                                      | **Tools, Bash**                      substitute shell variables in text |
+| [#037 Tools/homebrew](./tools/homebrew)                                                      | **Tools, MacOSX**                    homebrew (MacOSX package manager) tips and tricks |
+| [#038 Tools/iproute2](./tools/iproute2)                                                      | **Tools, MacOSX**                    about iproute2 and how to run it on MacOSX |
+| [#039 Catalog](./catalog)                                                                    | **Tools, Javascript**                a Javascript Datatables catalog for GitHub Pages |
