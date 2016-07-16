@@ -1,10 +1,11 @@
 #! /usr/bin/env python
 import unittest
 import logging
+from mock import patch, call
 import demonstrator
 
 
-class TestBasicMethods(unittest.TestCase):
+class TestBase(unittest.TestCase):
 
     def setUp(self):
         logging.disable(logging.CRITICAL)
@@ -13,20 +14,46 @@ class TestBasicMethods(unittest.TestCase):
     def tearDown(self):
         logging.disable(logging.NOTSET)
 
-    def test_apples_works_as_expected(self):
-        payload = []
-        message = 'test apples'
-        result = self.instance.apples(payload, message, 33)
+
+class TestApple(TestBase):
+
+    def call_method(self):
+        return self.instance.apples([], 'test apples', 33)
+
+    def test_method_works_as_expected(self):
+        result = self.call_method()
         self.assertEqual(['test apples', 33], result)
 
-    def test_oranges_works_as_expected(self):
-        payload = []
-        message = 'test oranges'
-        result = self.instance.oranges(payload, message, 333)
+    @patch('demonstrator.log.info')
+    def test_decorator_logging(self, mock_log_info):
+        self.call_method()
+        mock_log_info.assert_has_calls([
+            call("method_wrapper.before: Demonstrator.apples called with args: ([], 'test apples', 33) kwargs: {}"),
+            call("running apples with payload: [], message: 'test apples', example_id: 33"),
+            call("method_wrapper.after: returns ['test apples', 33]")
+        ])
+
+
+class TestOrange(TestBase):
+
+    def call_method(self):
+        return self.instance.oranges([], 'test oranges', 333)
+
+    def test_method_works_as_expected(self):
+        result = self.call_method()
         self.assertEqual(['test oranges', 333], result)
 
+    @patch('demonstrator.log.info')
+    def test_decorator_logging(self, mock_log_info):
+        self.call_method()
+        mock_log_info.assert_has_calls([
+            call("wrapped_method_wrapper.before: Demonstrator.oranges called with args: ([], 'test oranges', 333) kwargs: {}"),
+            call("running oranges with payload: [], message: 'test oranges', example_id: 333"),
+            call("wrapped_method_wrapper.after: returns ['test oranges', 333]")
+        ])
 
-class TestDocstrings(unittest.TestCase):
+
+class TestDocstrings(TestBase):
 
     def setUp(self):
         self.instance = demonstrator.Demonstrator()

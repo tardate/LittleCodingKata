@@ -70,14 +70,23 @@ INFO:demonstrator:wrapped_method_wrapper.after: returns ['a message to oranges',
 oranges() returned ['a message to oranges', 33]
 ```
 
+### Tests
+
 The tests verify the functionality, and also prove the effect of `functools.wraps`.
-The expected failures are related to default `__name__` and `__doc__` behaviour.
+
+The tests use the [mock](https://pypi.python.org/pypi/mock) package.
+If you don't already have it installed, can install with the `requirements.txt` and pip:
+
+    pip install -r requirements.txt
+
+Running the tests...
+NB: the expected failures are related to default `__name__` and `__doc__` behaviour tests.
 
 ```
 $ ./test_demonstrator.py
-...x..x.
+...x..x...
 ----------------------------------------------------------------------
-Ran 8 tests in 0.000s
+Ran 10 tests in 0.002s
 
 OK (expected failures=2)
 ```
@@ -99,6 +108,22 @@ Used in `setUp` and `tearDown`, it can be used to temporarily adjust the log lev
         logging.disable(logging.NOTSET)
 
 
+### Expecting Failure
+
+The [unittest.expectedFailure](https://docs.python.org/2.7/library/unittest.html#unittest.expectedFailure) decorator
+can be used to mark tests that *will* fail.
+
+It is used here to demonstrate how the decorator obscures method details. For example the docstring:
+
+    @unittest.expectedFailure
+    def test_apples_doc_is_available(self):
+        self.assertEqual(
+            ' Doc for apples(). ',
+            self.instance.apples.__doc__
+        )
+
+
 ## Credits and References
 * [functools.wraps](https://docs.python.org/2/library/functools.html#functools.wraps)
 * [unittest.expectedFailure](https://docs.python.org/2.7/library/unittest.html#unittest.expectedFailure)
+* [mock](https://pypi.python.org/pypi/mock)
