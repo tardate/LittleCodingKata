@@ -182,6 +182,13 @@
     "relative_path": "perl/patch_file"
 },
 {
+    "id": "#040", 
+    "name": "Python/decorating_class_methods", 
+    "description": "all about decorating class methods and preserving the ability to introspect", 
+    "categories": "Python", 
+    "relative_path": "python/decorating_class_methods"
+},
+{
     "id": "#027", 
     "name": "Python/quirks/late_bound_closures", 
     "description": "Python quirks - late-bound closures", 
