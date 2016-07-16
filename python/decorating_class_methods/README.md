@@ -124,6 +124,10 @@ It is used here to demonstrate how the decorator obscures method details. For ex
 
 
 ## Credits and References
+* [PEP 318 -- Decorators for Functions and Methods](https://www.python.org/dev/peps/pep-0318/)
+* [PythonDecorators wiki](https://wiki.python.org/moin/PythonDecorators) - documents the history of the process of adding decorators to Python
+* [Decorators](http://jfine-python-classes.readthedocs.io/en/latest/decorators.html) - from Python Classes by J Fine
 * [functools.wraps](https://docs.python.org/2/library/functools.html#functools.wraps)
 * [unittest.expectedFailure](https://docs.python.org/2.7/library/unittest.html#unittest.expectedFailure)
 * [mock](https://pypi.python.org/pypi/mock)
+* [How you implemented your Python decorator is wrong](http://blog.dscpl.com.au/2014/01/how-you-implemented-your-python.html)
