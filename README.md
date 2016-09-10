@@ -74,3 +74,4 @@ It's actually just simple GitHub pages sitting right on top of this repository. 
 | [#038 Tools/iproute2](./tools/iproute2)                                                      | **Tools, MacOSX**                    about iproute2 and how to run it on MacOSX |
 | [#039 Catalog](./catalog)                                                                    | **Tools, Javascript**                a Javascript Datatables catalog for GitHub Pages |
 | [#040 Python/decorating_class_methods](./python/decorating_class_methods)                    | **Python**                           all about decorating class methods and preserving the ability to introspect |
+| [#041 Go/about](./go/about)                                                                  | **Go**                               Go language - my tl;dr summary |
