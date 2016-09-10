@@ -63,6 +63,13 @@
     "relative_path": "go/about"
 },
 {
+    "id": "#042", 
+    "name": "Go/install_macosx", 
+    "description": "installing Go on MacOSX", 
+    "categories": "Go, MacOSX", 
+    "relative_path": "go/install_macosx"
+},
+{
     "id": "#008", 
     "name": "Haskell/about", 
     "description": "Haskell - my tl;dr summary", 

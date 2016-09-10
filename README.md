@@ -75,3 +75,4 @@ It's actually just simple GitHub pages sitting right on top of this repository. 
 | [#039 Catalog](./catalog)                                                                    | **Tools, Javascript**                a Javascript Datatables catalog for GitHub Pages |
 | [#040 Python/decorating_class_methods](./python/decorating_class_methods)                    | **Python**                           all about decorating class methods and preserving the ability to introspect |
 | [#041 Go/about](./go/about)                                                                  | **Go**                               Go language - my tl;dr summary |
+| [#042 Go/install_macosx](./go/install_macosx)                                                | **Go, MacOSX**                       installing Go on MacOSX |
