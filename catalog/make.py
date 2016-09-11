@@ -56,18 +56,15 @@ class Catalog(object):
                 matches.append(os.path.join(root, filename))
         return matches
 
-    def as_json(self):
-        """ TODO: should probably read these files as JSON rather than just treating as strings. """
-        return '[\n' + ',\n'.join(
-            map(lambda file: open(file).read(), self.metadata_files())
-        ) + '\n]'
+    def metadata(self):
+        """ Returns the metadata based on .catalog_metadata files. """
+        return map(lambda file: json.load(open(file, 'r')), self.metadata_files())
 
     def generate(self):
         """ Command: re-writes the catalog file from catalog_metadata. """
         print "Writing {}..".format(self.catalog_json)
-        output_file = open(self.catalog_json, 'w')
-        output_file.write(self.as_json())
-        output_file.close()
+        with open(self.catalog_json, 'w') as f:
+            json.dump(self.metadata(), f, indent=4)
 
     def generate_metadata_files(self):
         """ Command: generates catalog_metadata from README data. """
@@ -86,7 +83,4 @@ class Catalog(object):
 if __name__ == '__main__':
     catalog = Catalog()
     operation = argv[1] if len(argv) > 1 else 'rebuild'
-    if operation == 'generate':
-        catalog.generate()
-    if operation == 'rebuild':
-        catalog.rebuild()
+    getattr(catalog, operation)()
