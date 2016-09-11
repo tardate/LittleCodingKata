@@ -6,10 +6,12 @@ This is a simple Javascript catalog for building the
 It is a simple bootstrap/datatables page with the main entry point in [index.html](../index.html).
 Catalog data is loaded from [catalog.json](./catalog.json), which is consolidated from `.catalog_metadata` I've added to each project.
 
-I use two utility scripts:
+The [make.py](./make.py) utility script is used to maintain the catalog:
 
-* [init_catalog_metadata.py](./init_catalog_metadata.py) - used for the initial conversion from the table in the README.md
-* [update_catalog.py](./update_catalog.py) - rebuilds the catalog.json when I add a project or change project metadata.
+```
+$ catalog/make.py rebuild  # regenerates catalog from the README.md
+$ catalog/make.py generate  # builds the catalog from catalog metadata
+```
 
 
 ## Hosting
