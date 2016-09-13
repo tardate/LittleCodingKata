@@ -56,6 +56,13 @@
         "name": "Elm/install"
     }, 
     {
+        "description": "test drive the Kiss FFT C library with an example", 
+        "relative_path": "fft/running_kissfft_example", 
+        "id": "#044", 
+        "categories": "C, FFT", 
+        "name": "fft/running_kissfft_example"
+    }, 
+    {
         "description": "Go language - my tl;dr summary", 
         "relative_path": "go/about", 
         "id": "#041", 

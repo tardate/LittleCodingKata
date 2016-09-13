@@ -1,0 +1,32 @@
+#!/bin/sh
+
+origin=kissfft-example
+fft=real-fft
+
+if [ ! -d ${origin} ]
+then
+  echo "Cloning ${origin}"
+  git clone git@github.com:crazyleen/${origin}.git
+fi
+
+if [ ! -d ${origin} ]
+then
+  echo "Oops, can't find ${origin}"
+  exit 1
+fi
+
+cd ${origin}
+
+if [ ! -f ${fft} ]
+then
+  echo "Making ${fft}..."
+  make || exit 1
+
+  echo "Running ${fft}..."
+  ./${fft}
+fi
+
+echo "Running draw-curve.py ..."
+./draw-curve.py
+
+cd ..
