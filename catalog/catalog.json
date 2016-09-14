@@ -238,6 +238,13 @@
         "name": "Python/random_mac_generation"
     }, 
     {
+        "description": "Using the begins library to write command line scripts without all the cruft", 
+        "relative_path": "python/simple_cli_with_begins", 
+        "id": "#045", 
+        "categories": "Python, CLI", 
+        "name": "python/simple_cli_with_begins"
+    }, 
+    {
         "description": "or: why not to put an __init__.py in your top level folder", 
         "relative_path": "python/top_level_imports", 
         "id": "#030", 
