@@ -81,7 +81,7 @@ $ python add_with_begins.py -a 3 -b 4
 7.0
 ```
 
-`add_with_begins3.py` uses begins and python 2 compatible syntax:
+`add_with_begins3.py` uses begins and python 3 compatible syntax:
 
 ```
 $ python3 add_with_begins3.py -h
