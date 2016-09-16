@@ -217,6 +217,13 @@
         "name": "Python/decorating_class_methods"
     }, 
     {
+        "description": "How to find great python libraries and resources", 
+        "relative_path": "python/finding_libraries", 
+        "id": "#046", 
+        "categories": "Python", 
+        "name": "python/finding_libraries"
+    }, 
+    {
         "description": "Python quirks - late-bound closures", 
         "relative_path": "python/quirks/late_bound_closures", 
         "id": "#027", 
