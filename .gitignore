@@ -13,6 +13,7 @@ _trial_temp
 # general ruby stuff
 Gemfile.lock
 .bundle
+.ruby*
 
 # general elm stuff
 elm-stuff

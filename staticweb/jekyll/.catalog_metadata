@@ -1,0 +1,7 @@
+{
+    "id": "#048", 
+    "name": "staticweb/jekyll", 
+    "description": "Test-driving some techniques for building static sites with Jekyll", 
+    "categories": "Jekyll, static", 
+    "relative_path": "staticweb/jekyll"
+}

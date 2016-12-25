@@ -81,3 +81,4 @@ It's actually just simple GitHub pages sitting right on top of this repository. 
 | [#045 python/simple_cli_with_begins](./python/simple_cli_with_begins)                        | **Python, CLI**                      Using the begins library to write command line scripts without all the cruft |
 | [#046 python/finding_libraries](./python/finding_libraries)                                  | **Python**                           How to find great python libraries and resources |
 | [#047 c/define_const](./c/define_const)                                                      | **C**                                Comparing the use of `#define` preprocessor macros and `const` statements |
+| [#048 staticweb/jekyll](./staticweb/jekyll)                                                  | **Jekyll, static**                   Test-driving some techniques for building static sites with Jekyll |

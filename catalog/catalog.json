@@ -308,6 +308,13 @@
         "name": "Rust/install_macosx"
     }, 
     {
+        "description": "Test-driving some techniques for building static sites with Jekyll", 
+        "relative_path": "staticweb/jekyll", 
+        "id": "#048", 
+        "categories": "Jekyll, static", 
+        "name": "staticweb/jekyll"
+    }, 
+    {
         "description": "substitute shell variables in text", 
         "relative_path": "tools/envsubst", 
         "id": "#036", 
