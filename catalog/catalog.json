@@ -21,6 +21,13 @@
         "name": "Bash/select_menu"
     }, 
     {
+        "description": "Comparing the use of `#define` preprocessor macros and `const` statements", 
+        "relative_path": "c/define_const", 
+        "id": "#047", 
+        "categories": "C", 
+        "name": "c/define_const"
+    }, 
+    {
         "description": "a Javascript Datatables catalog for GitHub Pages", 
         "relative_path": "catalog", 
         "id": "#039", 
