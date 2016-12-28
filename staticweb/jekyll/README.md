@@ -52,7 +52,7 @@ The blog post [Publishing with GitHub Pages, now as easy as 1, 2, 3](https://git
 describes the essentials.
 
 * [gh-pages-simple GitHub Repo](https://github.com/tardate/gh-pages-simple) - basic repo using implicit Jekyll page generation
-* [gh-pages-simple web](https://tardate.github.io/gh-pages-simple/) - how it appears when served by GitHub Pages
+* [gh-pages-simple web](http://gh-pages-simple.tardate.com) - how it appears when served by GitHub Pages
 
 ![landing-gh-pages-simple](./assets/landing-gh-pages-simple.png?raw=true)
 
@@ -68,7 +68,7 @@ Then use GitHub Pages to serve the resulting site.
 In [gh-pages-offline](https://github.com/tardate/gh-pages-offline) I use a customised jekyll-readme-index gem that is not supported by GitHub Pages servers
 
 * [gh-pages-offline GitHub Repo](https://github.com/tardate/gh-pages-offline) - repo that uses offline generation
-* [gh-pages-offline web](https://tardate.github.io/gh-pages-offline/) - how it appears when served by GitHub Pages
+* [gh-pages-offline web](http://gh-pages-offline.tardate.com) - how it appears when served by GitHub Pages
 
 
 ### Left
@@ -79,9 +79,24 @@ It is described in his [blog post on left](https://zachholman.com/posts/left/).
 Basing a site on left is simply a matter of cloning the repo and customising as required:
 
 * [gh-pages-left GitHub Repo](https://github.com/tardate/gh-pages-left) - repo for a site based on left
-* [gh-pages-left web](https://tardate.github.io/gh-pages-left/) - how it appears when served by GitHub Pages
+* [gh-pages-left web](http://gh-pages-left.tardate.com) - how it appears when served by GitHub Pages
 
 
+### Jekyll Tips
+
+* [Organizing Jekyll Pages](http://damonbauer.me/organizing-jekyll-pages/) - Damon Bauer -
+
+#### Relative Paths
+
+All generated internal links are relative to the site root. This creates an issue on GitHub Pages since the default site root will be
+`<org/username>.tardate.io/repository-name/`.
+
+The best way around this is to serve GitHub Pages on a custom URL, so the site works fine without any special modification
+when served on GitHub Pages and also when served locally with:
+
+```
+bundle exec jekyll build
+```
 
 ## Credits and References
 * [jekyll](https://jekyllrb.com/) - main site
