@@ -71,7 +71,13 @@ In [gh-pages-offline](https://github.com/tardate/gh-pages-offline) I use a custo
 * [gh-pages-offline web](http://gh-pages-offline.tardate.com) - how it appears when served by GitHub Pages
 
 
-### Left
+### Themes and Templates
+
+* [Themes listing](https://github.com/jekyll/jekyll/wiki/Themes) - from the jekyll wiki
+* [jekyllthemes.org](http://jekyllthemes.org/) - visual browser of submitted themes
+* [Adding a Jekyll theme to your GitHub Pages site](https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/)
+
+#### Left
 
 Zach Holman published a starter-repo called [left](https://github.com/holman/left) that provides all the scaffolding for a minimalist site.
 It is described in his [blog post on left](https://zachholman.com/posts/left/).
@@ -81,10 +87,16 @@ Basing a site on left is simply a matter of cloning the repo and customising as 
 * [gh-pages-left GitHub Repo](https://github.com/tardate/gh-pages-left) - repo for a site based on left
 * [gh-pages-left web](http://gh-pages-left.tardate.com) - how it appears when served by GitHub Pages
 
+#### Pixyll
+
+A simple, beautiful Jekyll theme that's mobile first [pixyll.com](http://pixyll.com),
+[pixyll on GitHub](https://github.com/johnotander/pixyll).
+
 
 ### Jekyll Tips
 
-* [Organizing Jekyll Pages](http://damonbauer.me/organizing-jekyll-pages/) - Damon Bauer -
+* [Jekyll Cheat Sheet](http://jekyll.tips/jekyll-cheat-sheet/)
+* [Organizing Jekyll Pages](http://damonbauer.me/organizing-jekyll-pages/) - Damon Bauer
 
 #### Relative Paths
 
@@ -97,6 +109,9 @@ when served on GitHub Pages and also when served locally with:
 ```
 bundle exec jekyll build
 ```
+
+Handling paths was improved with the `relative_url` filter - see [Jekyll 3.3 release notes](https://jekyllrb.com/news/2016/10/06/jekyll-3-3-is-here/#relativeurl-and-absoluteurl-filters).
+
 
 ## Credits and References
 * [jekyll](https://jekyllrb.com/) - main site
