@@ -84,3 +84,7 @@ It's actually just simple GitHub pages sitting right on top of this repository. 
 | [#048 staticweb/jekyll](./staticweb/jekyll)                                                  | **Jekyll, static**                   Test-driving some techniques for building static sites with Jekyll |
 | [#049 python/imgur](./python/imgur)                                                          | **Python, imgur**                    Using Python with the imgur API and demonstrate scanning imgur albums for image links |
 | [#050 Bash/loops](./bash/loops)                                                              | **Bash**                             All about Bash loops |
+| [#051 mono/about](./mono/about)                                                              | **Mono, C#**                         About C# with Mono |
+| [#052 mono/hello](./mono/hello)                                                              | **Mono, C#**                         Hello World with C#/mono |
+| [#053 mono/time](./mono/time)                                                                | **Mono, C#**                         Handling Time in C#/mono |
+| [#054 c/hello](./c/hello)                                                                    | **C**                                Hello World in C |
