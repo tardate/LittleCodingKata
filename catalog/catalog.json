@@ -7,6 +7,13 @@
         "name": "Bash/case_statement"
     }, 
     {
+        "description": "All about Bash loops", 
+        "relative_path": "bash/loops", 
+        "id": "#050", 
+        "categories": "Bash", 
+        "name": "Bash/loops"
+    }, 
+    {
         "description": "process a file line-by-line", 
         "relative_path": "bash/process_lines", 
         "id": "#002", 

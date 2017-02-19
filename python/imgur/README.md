@@ -1,4 +1,4 @@
-# Using Python with the imgur API
+# #049 Using Python with the imgur API
 
 Using Python with the imgur API and demonstrate scanning imgur albums for image links.
 

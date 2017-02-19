@@ -83,3 +83,4 @@ It's actually just simple GitHub pages sitting right on top of this repository. 
 | [#047 c/define_const](./c/define_const)                                                      | **C**                                Comparing the use of `#define` preprocessor macros and `const` statements |
 | [#048 staticweb/jekyll](./staticweb/jekyll)                                                  | **Jekyll, static**                   Test-driving some techniques for building static sites with Jekyll |
 | [#049 python/imgur](./python/imgur)                                                          | **Python, imgur**                    Using Python with the imgur API and demonstrate scanning imgur albums for image links |
+| [#050 Bash/loops](./bash/loops)                                                              | **Bash**                             All about Bash loops |
