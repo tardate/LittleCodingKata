@@ -231,6 +231,13 @@
         "name": "python/finding_libraries"
     }, 
     {
+        "description": "Using Python with the imgur API and demonstrate scanning imgur albums for image links", 
+        "relative_path": "python/imgur", 
+        "id": "#049", 
+        "categories": "Python, imgur", 
+        "name": "python/imgur"
+    }, 
+    {
         "description": "Python quirks - late-bound closures", 
         "relative_path": "python/quirks/late_bound_closures", 
         "id": "#027", 
