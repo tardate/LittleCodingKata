@@ -50,8 +50,7 @@ $ doxygen Doxyfile
 ```
 It generated the HTML documentation available [here](http://codingkata.tardate.com/cpp/exception_handling/doc/html)
 
-html_example
-[![hero_image][./assets/html_example.png?raw=true]](http://codingkata.tardate.com/cpp/exception_handling/doc/html)
+[![hero_image](./assets/html_example.png?raw=true)](http://codingkata.tardate.com/cpp/exception_handling/doc/html)
 
 ## Credits and References
 * [doxygen home](http://www.stack.nl/~dimitri/doxygen/index.html)
