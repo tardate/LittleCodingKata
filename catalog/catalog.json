@@ -49,6 +49,13 @@
         "name": "Catalog"
     }, 
     {
+        "description": "Installing and testing doxygen for c++ source documentation generation on MacOSX", 
+        "relative_path": "cpp/doxygen", 
+        "id": "#055", 
+        "categories": "C++", 
+        "name": "cpp/doxygen"
+    }, 
+    {
         "description": "C++ exception handling", 
         "relative_path": "cpp/exception_handling", 
         "id": "#004", 

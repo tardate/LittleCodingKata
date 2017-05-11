@@ -88,3 +88,5 @@ It's actually just simple GitHub pages sitting right on top of this repository. 
 | [#052 mono/hello](./mono/hello)                                                              | **Mono, C#**                         Hello World with C#/mono |
 | [#053 mono/time](./mono/time)                                                                | **Mono, C#**                         Handling Time in C#/mono |
 | [#054 c/hello](./c/hello)                                                                    | **C**                                Hello World in C |
+| [#055 cpp/doxygen](./cpp/doxygen)                                                            | **C++**                              Installing and testing doxygen for c++ source documentation generation on MacOSX |
+

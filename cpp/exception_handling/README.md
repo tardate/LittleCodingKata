@@ -1,5 +1,7 @@
 # C++ Exception Handling
 
+Exercising C++ exception handling.
+
 ## Notes
 
 The essentials of exception handling in c++:
@@ -51,3 +53,4 @@ The essentials of exception handling in c++:
 * [exception tutorial](http://www.cplusplus.com/doc/tutorial/exceptions/) - cplusplus.com
 * [exception reference](http://www.cplusplus.com/reference/exception/exception/) - cplusplus.com
 * [Learn Advanced C++ Programming](https://www.udemy.com/learn-advanced-c-programming/)
+* [Doxygen documentation for the demo](./doc/html/index.html)

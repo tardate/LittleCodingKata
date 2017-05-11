@@ -3,13 +3,22 @@
 using namespace std;
 
 
+/// @brief demonstrates a custom exception
+///
 class CustomException: public exception {
 public:
+
+  /// @brief Get string identifying exception
+  ///
   virtual const char * what() const throw() {
     return "Something bad happened";
   }
+
 };
 
+/// @brief generates various exceptions
+/// @param selector chooses the exception to raise.
+///
 void mightGoWrong(int selector) {
 
   switch(selector) {
@@ -40,6 +49,8 @@ void mightGoWrong(int selector) {
 
 }
 
+/// @brief a class that blows-up in the constructor
+///
 class BombsInTheConstructor {
 public:
   BombsInTheConstructor() {
@@ -49,6 +60,8 @@ public:
 
 };
 
+/// @brief run a demo suite of exceptions
+///
 int main() {
 
   cout << endl << "Testing a range of standard and custom exceptions.." << endl << endl;
