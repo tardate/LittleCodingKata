@@ -42,6 +42,13 @@
         "name": "c/hello"
     }, 
     {
+        "description": "Iterating Character Arrays", 
+        "relative_path": "c/iterating_char_arrays", 
+        "id": "#056", 
+        "categories": "C", 
+        "name": "c/iterating_char_arrays"
+    }, 
+    {
         "description": "a Javascript Datatables catalog for GitHub Pages", 
         "relative_path": "catalog", 
         "id": "#039", 
