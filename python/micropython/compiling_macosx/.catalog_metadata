@@ -1,0 +1,7 @@
+{
+    "id": "#057", 
+    "name": "python/micropython/compiling_macosx", 
+    "description": "Building MicroPython on MacOSX", 
+    "categories": "Python, MicroPython", 
+    "relative_path": "python/micropython/compiling_macosx"
+}

@@ -287,6 +287,13 @@
         "name": "python/imgur"
     }, 
     {
+        "description": "Building MicroPython on MacOSX", 
+        "relative_path": "python/micropython/compiling_macosx", 
+        "id": "#057", 
+        "categories": "Python, MicroPython", 
+        "name": "python/micropython/compiling_macosx"
+    }, 
+    {
         "description": "Python quirks - late-bound closures", 
         "relative_path": "python/quirks/late_bound_closures", 
         "id": "#027", 
