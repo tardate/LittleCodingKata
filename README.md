@@ -91,3 +91,4 @@ It's actually just simple GitHub pages sitting right on top of this repository. 
 | [#055 cpp/doxygen](./cpp/doxygen)                                                            | **C++**                              Installing and testing doxygen for c++ source documentation generation on MacOSX |
 | [#056 c/iterating_char_arrays](./c/iterating_char_arrays)                                    | **C**                                Iterating Character Arrays |
 | [#057 python/micropython/compiling_macosx](./python/micropython/compiling_macosx)            | **Python, MicroPython**              Building MicroPython on MacOSX |
+| [#058 databases/mysql/cheats](./databases/mysql/cheats)                                      | **Database, MuSQL**                  Basic administration and data management command cheats... |

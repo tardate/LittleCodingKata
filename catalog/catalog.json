@@ -70,6 +70,13 @@
         "name": "C++/exception_handling"
     }, 
     {
+        "description": "Basic administration and data management command cheats...", 
+        "relative_path": "databases/mysql/cheats", 
+        "id": "#058", 
+        "categories": "Database, MuSQL", 
+        "name": "databases/mysql/cheats"
+    }, 
+    {
         "description": "elm - my tl;dr summary", 
         "relative_path": "elm/about", 
         "id": "#005", 
