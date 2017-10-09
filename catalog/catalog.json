@@ -7,6 +7,13 @@
         "name": "Bash/case_statement"
     }, 
     {
+        "description": "How to implement simple resource semaphores with file locks", 
+        "relative_path": "bash/file_locks", 
+        "id": "#060", 
+        "categories": "Bash", 
+        "name": "Bash/file_locks"
+    }, 
+    {
         "description": "All about Bash loops", 
         "relative_path": "bash/loops", 
         "id": "#050", 

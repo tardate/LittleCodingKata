@@ -83,10 +83,22 @@ finished now n1==3
 
 ### Infinite Loops
 
-Just require a condition that always passes into the loop. e.g. `true` with a `while` loop:
+Just require a condition that always passes into the loop.
+
+e.g. `true` with a `while` loop:
 
 ```
 while true
+do
+  echo "Press [CTRL+C] to stop.."
+  sleep 1
+done
+```
+
+or with `for`:
+
+```
+for (( ; ; ))
 do
   echo "Press [CTRL+C] to stop.."
   sleep 1
@@ -103,6 +115,16 @@ $ for i in {1..3}; do echo "iteration ${i}"; done
 iteration 1
 iteration 2
 iteration 3
+```
+
+Or an infinite loop..
+
+```
+$ echo "infinite loop on a single line [ hit CTRL+C to stop]" ;  for (( ; ; )) ; do date ; sleep 1 ; done
+infinite loop on a single line [ hit CTRL+C to stop]
+Mon Oct  9 22:33:26 SGT 2017
+Mon Oct  9 22:33:27 SGT 2017
+Mon Oct  9 22:33:28 SGT 2017
 ```
 
 ## Credits and References

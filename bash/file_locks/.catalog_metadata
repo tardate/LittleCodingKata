@@ -1,0 +1,7 @@
+{
+    "id": "#060", 
+    "name": "Bash/file_locks", 
+    "description": "How to implement simple resource semaphores with file locks", 
+    "categories": "Bash", 
+    "relative_path": "bash/file_locks"
+}

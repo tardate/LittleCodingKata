@@ -93,3 +93,4 @@ It's actually just simple GitHub pages sitting right on top of this repository. 
 | [#057 python/micropython/compiling_macosx](./python/micropython/compiling_macosx)            | **Python, MicroPython**              Building MicroPython on MacOSX |
 | [#058 databases/mysql/cheats](./databases/mysql/cheats)                                      | **Database, MuSQL**                  Basic administration and data management command cheats... |
 | [#059 Bash/parse_env_setting](./bash/parse_env_setting)                                      | **Bash**                             Techniques for parsing environment variables with bash built-in features only |
+| [#060 Bash/file_locks](./bash/file_locks)                                                    | **Bash**                             How to implement simple resource semaphores with file locks |
