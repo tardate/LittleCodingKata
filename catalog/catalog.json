@@ -14,6 +14,13 @@
         "name": "Bash/loops"
     }, 
     {
+        "description": "Techniques for parsing environment variables with bash built-in features only", 
+        "relative_path": "bash/parse_env_setting", 
+        "id": "#059", 
+        "categories": "Bash", 
+        "name": "Bash/parse_env_setting"
+    }, 
+    {
         "description": "process a file line-by-line", 
         "relative_path": "bash/process_lines", 
         "id": "#002", 
