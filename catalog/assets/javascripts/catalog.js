@@ -8,7 +8,7 @@
       this.catalog_table = catalog_table;
       this.loadCatalog();
       this.github_base_url = 'https://github.com/tardate/LittleCodingKata/blob/master/';
-      this.pages_base_url = 'https://tardate.github.io/LittleCodingKata/';
+      this.pages_base_url = 'https://codingkata.tardate.com/';
     }
 
     CatalogController.prototype.loadCatalog = function() {
