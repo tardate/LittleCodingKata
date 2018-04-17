@@ -7,9 +7,20 @@
     function CatalogController(catalog_table) {
       this.catalog_table = catalog_table;
       this.loadCatalog();
+      this.hookActions();
       this.github_base_url = 'https://github.com/tardate/LittleCodingKata/blob/master/';
       this.pages_base_url = 'https://codingkata.tardate.com/';
     }
+
+    CatalogController.prototype.hookActions = function() {
+      $('body').on('click', '[data-url]', function(e) {
+        var url, target;
+        e.preventDefault();
+        url = $(e.target).parents('[data-url]').data('url');
+        if (url) location.href = url;
+        return false;
+      });
+    };
 
     CatalogController.prototype.loadCatalog = function() {
       var instance;
@@ -22,50 +33,47 @@
         },
         columns: [
           {
-            data: 'id',
-            width: '10%'
-          }, {
             data: 'name'
-          }, {
-            data: 'categories',
-            visible: false
           }, {
             data: 'description',
             visible: false
-          }
+          }, {
+            data: 'categories',
+            visible: false
+          },
         ],
-        order: [[0, "desc"]],
+        order: [[0, "asc"]],
         rowCallback: function(row, data, index) {
           var base_name;
           var id_link, id_cell;
           var description, hero_image_url, category_array, category_labels;
 
-          base_name = data.relative_path.split('/').pop();
-          hero_image_url = instance.pages_base_url + data.relative_path + '/assets/' + base_name + '_build.jpg';
-          id_link = '<div class="xleap-link"> \
-            <a href="' + instance.github_base_url + data.relative_path + '" class="btn btn-default btn-success btn-leap">' + data.id + '</a> \
-          </div>';
-          id_cell = $('td:eq(0)', row);
-          id_cell.html(id_link);
-
           category_array = data.categories.split(',');
+
+          base_name = data.relative_path.split('/').pop();
+          project_url = instance.github_base_url + data.relative_path
+          hero_image_url = project_url + '/assets/' + base_name + '_build.jpg';
+
           category_labels = '';
           for (var cat = 0; cat < category_array.length; cat++) {
             category_labels += '<span class="label label-primary">' + category_array[cat] + '</span> ';
           }
+
           description = '<div class="media"> \
             <div class="media-body"> \
+              <div class="pull-right"> \
+                <div>' + category_labels + '</div>  \
+              </div> \
               <h4 class="media-heading">' + data.name + '</h4> \
-              ' + data.description + ' \
-              <div>' + category_labels + '</div>  \
-            </div> \
-            <div class="media-right"> \
-              <a href="#"> \
-                <img class="media-object leap-hero" src="' + hero_image_url + '" alt=""> \
-              </a> \
+              <div class="text-muted">' + data.description + '</div> \
             </div> \
           </div>';
-          return $('td:eq(1)', row).html(description);
+
+          cell = $('td:eq(0)', row)
+          cell.addClass('xleap-link')
+          cell.attr('data-url', project_url)
+          cell.html(description);
+          return cell
         }
       });
     };

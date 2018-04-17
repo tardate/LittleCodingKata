@@ -43,3 +43,7 @@ body {
 img.leap-hero {
   height: 80px;
 }
+
+.xleap-link {
+  cursor: pointer; cursor: hand;
+}

@@ -1,7 +1,7 @@
 {
-    "id": "#001", 
-    "name": "Bash/case_statement", 
-    "description": "case statements", 
-    "categories": "Bash", 
+    "id": "#001",
+    "name": "Bash/case_statement",
+    "description": "How to use case statements in the bash shell",
+    "categories": "Bash",
     "relative_path": "bash/case_statement"
 }

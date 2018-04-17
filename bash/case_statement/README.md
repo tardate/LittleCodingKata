@@ -1,4 +1,6 @@
-# #001 Bash Case Statements
+# Bash Case Statements
+
+How to use case statements in the bash shell.
 
 ## Notes
 

@@ -1,6 +1,6 @@
 [
     {
-        "description": "case statements", 
+        "description": "How to use case statements in the bash shell", 
         "relative_path": "bash/case_statement", 
         "id": "#001", 
         "categories": "Bash", 
