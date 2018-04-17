@@ -28,4 +28,4 @@ or even send a pull-request.
 LittleCodingKata has a new catalog/web site!
 It's actually just simple GitHub pages sitting right on top of this repository. Try it out:
 
-[![lck-splash](./catalog/assets/images/lck-splash.png?raw=true)](http://codingkata.tardate.com/)
+[![lck-splash](./catalog/assets/images/lck-splash.png?raw=true)](https://codingkata.tardate.com/)

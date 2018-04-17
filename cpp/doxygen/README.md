@@ -48,9 +48,9 @@ Then ran it:
 ```
 $ doxygen Doxyfile
 ```
-It generated the HTML documentation available [here](http://codingkata.tardate.com/cpp/exception_handling/doc/html)
+It generated the HTML documentation available [here](https://codingkata.tardate.com/cpp/exception_handling/doc/html)
 
-[![hero_image](./assets/html_example.png?raw=true)](http://codingkata.tardate.com/cpp/exception_handling/doc/html)
+[![hero_image](./assets/html_example.png?raw=true)](https://codingkata.tardate.com/cpp/exception_handling/doc/html)
 
 ## Credits and References
 * [doxygen home](http://www.stack.nl/~dimitri/doxygen/index.html)
