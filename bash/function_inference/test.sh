@@ -1,7 +1,5 @@
 #!/bin/bash
 #
-# Simple demonstration of the until command
-#
 
 
 function usage() {
