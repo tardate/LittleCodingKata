@@ -1,6 +1,6 @@
 # Progress Bars with Bootstrap
 
-[![demo_in_progress](./assets/demo_in_progress.png?raw=true)](http://tardate.github.io/LittleCodingKata/javascript/progress_bars_bootstrap/index.html)
+[![demo_in_progress](./assets/demo_in_progress.png?raw=true)](https://codingkata.tardate.com/javascript/progress_bars_bootstrap/index.html)
 
 
 [:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
@@ -110,7 +110,7 @@ The example in [index.html](./index.html) is an adaptation of a [dynamic progres
 * animation with jQuery.animate
 * fiddling css transition to allow immiedate updates yet smooth setTimeout animation
 
-Run the demo [live from GitHub Pages](http://tardate.github.io/LittleCodingKata/javascript/progress_bars_bootstrap/index.html)
+Run the demo [live from GitHub Pages](https://codingkata.tardate.com/javascript/progress_bars_bootstrap/index.html)
 
 In the HTML, action are hooked to a button:
 

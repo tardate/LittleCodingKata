@@ -2,7 +2,7 @@
 
 Test interactive plotly.js ribbon charts with date-related data.
 
-[![demo](./assets/splash.png?raw=true)](http://tardate.github.io/LittleCodingKata/javascript/plotly_ribbon_charts/index.html)
+[![demo](./assets/splash.png?raw=true)](https://codingkata.tardate.com/javascript/plotly_ribbon_charts/index.html)
 
 
 [:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
@@ -70,7 +70,7 @@ I'm using an array of name and number, like `['orange', 2]`.
 The example in [index.html](./index.html) is an adaptation of the
 [Ribbon Plots in plotly.js example](https://plot.ly/javascript/ribbon-plots/).
 
-Or run the demo [live from GitHub Pages](http://tardate.github.io/LittleCodingKata/javascript/plotly_ribbon_charts/index.html).
+Or run the demo [live from GitHub Pages](https://codingkata.tardate.com/javascript/plotly_ribbon_charts/index.html).
 
 ## Credits and References
 * [plotly.js](https://github.com/plotly/plotly.js) - GitHub
