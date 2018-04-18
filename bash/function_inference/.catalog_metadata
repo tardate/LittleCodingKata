@@ -1,0 +1,6 @@
+{
+    "name": "Bash/function_inference",
+    "description": "How to test for the presence of functions in order to branch to arbitrary functions by name",
+    "categories": "Bash",
+    "relative_path": "bash/function_inference"
+}

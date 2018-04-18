@@ -14,6 +14,12 @@
         "name": "Bash/file_locks"
     }, 
     {
+        "relative_path": "bash/function_inference", 
+        "name": "Bash/function_inference", 
+        "categories": "Bash", 
+        "description": "How to test for the presence of functions in order to branch to arbitrary functions by name"
+    }, 
+    {
         "description": "All about Bash loops", 
         "relative_path": "bash/loops", 
         "id": "#050", 
