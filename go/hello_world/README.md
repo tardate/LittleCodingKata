@@ -2,6 +2,9 @@
 
 exploring Go with the simplest example
 
+
+[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
+
 ## Notes
 
 This simple example demonstrates a few Go features:

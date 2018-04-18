@@ -2,6 +2,9 @@
 
 Using the begins library to write command line scripts without all the cruft.
 
+
+[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
+
 ## Notes
 
 The begins library replaces conventional argparse/main function pattern with a simple decorator.

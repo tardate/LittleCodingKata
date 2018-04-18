@@ -2,6 +2,9 @@
 
 Getting gRPC running under MacOSX
 
+
+[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
+
 ## Notes
 
 To use gRPC, we need:

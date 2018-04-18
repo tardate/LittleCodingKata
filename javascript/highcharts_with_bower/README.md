@@ -4,6 +4,9 @@ Demonstrate the process of installing and packaging Highcharts with bower.
 
 [![demo](./assets/demo.png?raw=true)](http://tardate.github.io/LittleCodingKata/javascript/highcharts_with_bower/index.html)
 
+
+[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
+
 ## Notes
 
 Bower is a package manager for web components that may contain HTML, CSS, JavaScript, fonts or even image files.

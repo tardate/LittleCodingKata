@@ -2,6 +2,9 @@
 
 Simple tricks for updating text files with perl
 
+
+[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
+
 ## Notes
 
 Take theses three `perl` command options:

@@ -2,6 +2,9 @@
 
 How to find great python libraries and resources.
 
+
+[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
+
 ## Notes
 
 ### Finding Libraries

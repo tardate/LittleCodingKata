@@ -4,6 +4,9 @@ Test interactive plotly.js ribbon charts with date-related data.
 
 [![demo](./assets/splash.png?raw=true)](http://tardate.github.io/LittleCodingKata/javascript/plotly_ribbon_charts/index.html)
 
+
+[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
+
 ## Notes
 
 [plotly.js](https://github.com/plotly/plotly.js) is a pretty awesome library for charting.

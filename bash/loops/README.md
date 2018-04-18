@@ -2,6 +2,9 @@
 
 All about Bash loops
 
+
+[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
+
 ## Notes
 
 Iteration is a findamental construct that is often needed for our scripting needs.

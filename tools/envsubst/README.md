@@ -2,6 +2,9 @@
 
 substitute shell variables in text
 
+
+[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
+
 ## Notes
 
 `envsubst` is is available on most *nix systems and can be installed on MacOSX as part of the BSD gettext library.

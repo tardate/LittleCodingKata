@@ -2,6 +2,9 @@
 
 How to implement simple resource semaphores with file locks.
 
+
+[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
+
 ## Notes
 
 For when we want to ensure that only one instance of a shell script can be run at the same time.

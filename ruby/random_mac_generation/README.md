@@ -2,6 +2,9 @@
 
 Delving into MAC addresses and a little script to generate random ones.
 
+
+[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
+
 ## Notes
 
 This is a quick ruby port of the [python/random_mac_generation](../../python/random_mac_generation) example.

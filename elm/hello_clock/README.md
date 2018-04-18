@@ -9,6 +9,9 @@ Testing elm with the 2D graphics clock example.
 This code is from the [elm examples: clock](http://elm-lang.org/examples/clock),
 with some minor modifications to deface the clock with a text message.
 
+
+[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
+
 ## Notes
 
 The clock example (only) runs in UTC.

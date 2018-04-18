@@ -2,6 +2,9 @@
 
 [![demo_in_progress](./assets/demo_in_progress.png?raw=true)](http://tardate.github.io/LittleCodingKata/javascript/progress_bars_bootstrap/index.html)
 
+
+[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
+
 ## Notes
 
 Bootstrap includes a [Progress Bar component](http://getbootstrap.com/components/#progress).
