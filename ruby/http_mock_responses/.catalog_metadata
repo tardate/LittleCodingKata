@@ -1,0 +1,6 @@
+{
+    "name": "Ruby/http_mock_responses",
+    "description": "Using Sinatra to craft simple HTTP web responses for mock integration testing",
+    "categories": "Ruby",
+    "relative_path": "ruby/http_mock_responses"
+}

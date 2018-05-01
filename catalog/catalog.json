@@ -376,6 +376,12 @@
         "description": "All about hash-based message authentication code (HMAC) generation with Ruby"
     }, 
     {
+        "relative_path": "ruby/http_mock_responses", 
+        "name": "Ruby/http_mock_responses", 
+        "categories": "Ruby", 
+        "description": "Using Sinatra to craft simple HTTP web responses for mock integration testing"
+    }, 
+    {
         "description": "all about MAC and generating random MAC addresses", 
         "relative_path": "ruby/random_mac_generation", 
         "id": "#023", 
