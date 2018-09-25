@@ -24,7 +24,7 @@ Points to note:
 
 ## Example
 
-see [case_examples.sh](./case_examples.sh).
+See [case_examples.sh](./case_examples.sh) for various pattern matching options.
 
 ```
 $ ./case_examples.sh 123
@@ -41,6 +41,17 @@ $ ./case_examples.sh def
 def is: def
 $ ./case_examples.sh
 help is: (default)
+```
+
+The [handle_emtpy_case.sh](./handle_emtpy_case.sh) example demonstrates matching blank
+
+```
+$ ./handle_emtpy_case.sh abc
+abc is: defined option: abc
+$ ./handle_emtpy_case.sh ""
+ is: blank option
+$ ./handle_emtpy_case.sh xyz
+xyz is: (default)
 ```
 
 ## Credits and References
