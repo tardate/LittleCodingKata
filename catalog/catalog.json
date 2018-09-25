@@ -1,95 +1,5 @@
 [
     {
-        "description": "How to use case statements in the bash shell", 
-        "relative_path": "bash/case_statement", 
-        "id": "#001", 
-        "categories": "Bash", 
-        "name": "Bash/case_statement"
-    }, 
-    {
-        "description": "How to implement simple resource semaphores with file locks", 
-        "relative_path": "bash/file_locks", 
-        "id": "#060", 
-        "categories": "Bash", 
-        "name": "Bash/file_locks"
-    }, 
-    {
-        "relative_path": "bash/function_inference", 
-        "name": "Bash/function_inference", 
-        "categories": "Bash", 
-        "description": "How to test for the presence of functions in order to branch to arbitrary functions by name"
-    }, 
-    {
-        "description": "All about Bash loops", 
-        "relative_path": "bash/loops", 
-        "id": "#050", 
-        "categories": "Bash", 
-        "name": "Bash/loops"
-    }, 
-    {
-        "description": "Techniques for parsing environment variables with bash built-in features only", 
-        "relative_path": "bash/parse_env_setting", 
-        "id": "#059", 
-        "categories": "Bash", 
-        "name": "Bash/parse_env_setting"
-    }, 
-    {
-        "description": "process a file line-by-line", 
-        "relative_path": "bash/process_lines", 
-        "id": "#002", 
-        "categories": "Bash", 
-        "name": "Bash/process_lines"
-    }, 
-    {
-        "description": "simple multiple-choice user input", 
-        "relative_path": "bash/select_menu", 
-        "id": "#003", 
-        "categories": "Bash", 
-        "name": "Bash/select_menu"
-    }, 
-    {
-        "description": "Comparing the use of `#define` preprocessor macros and `const` statements", 
-        "relative_path": "c/define_const", 
-        "id": "#047", 
-        "categories": "C", 
-        "name": "c/define_const"
-    }, 
-    {
-        "description": "Hello World in C", 
-        "relative_path": "c/hello", 
-        "id": "#054", 
-        "categories": "C", 
-        "name": "c/hello"
-    }, 
-    {
-        "description": "Iterating Character Arrays", 
-        "relative_path": "c/iterating_char_arrays", 
-        "id": "#056", 
-        "categories": "C", 
-        "name": "c/iterating_char_arrays"
-    }, 
-    {
-        "description": "a Javascript Datatables catalog for GitHub Pages", 
-        "relative_path": "catalog", 
-        "id": "#039", 
-        "categories": "Tools, Javascript", 
-        "name": "Catalog"
-    }, 
-    {
-        "description": "Installing and testing doxygen for c++ source documentation generation on MacOSX", 
-        "relative_path": "cpp/doxygen", 
-        "id": "#055", 
-        "categories": "C++", 
-        "name": "cpp/doxygen"
-    }, 
-    {
-        "description": "C++ exception handling", 
-        "relative_path": "cpp/exception_handling", 
-        "id": "#004", 
-        "categories": "C++", 
-        "name": "C++/exception_handling"
-    }, 
-    {
         "description": "Basic administration and data management command cheats...", 
         "relative_path": "databases/mysql/cheats", 
         "id": "#058", 
@@ -97,39 +7,31 @@
         "name": "databases/mysql/cheats"
     }, 
     {
-        "description": "elm - my tl;dr summary", 
-        "relative_path": "elm/about", 
-        "id": "#005", 
-        "categories": "Elm", 
-        "name": "Elm/about"
+        "relative_path": "tools/arping", 
+        "name": "arping", 
+        "categories": "tools", 
+        "description": "All about Address Resolution Protocol (ARP - RFC826) and installing arping on MacOSX"
     }, 
     {
-        "description": "2D graphics with elm", 
-        "relative_path": "elm/hello_clock", 
-        "id": "#006", 
-        "categories": "Elm", 
-        "name": "Elm/hello_clock"
+        "description": "homebrew (MacOSX package manager) tips and tricks", 
+        "relative_path": "tools/homebrew", 
+        "id": "#037", 
+        "categories": "Tools, MacOSX", 
+        "name": "Tools/homebrew"
     }, 
     {
-        "description": "Installing Elm on MacOSX", 
-        "relative_path": "elm/install", 
-        "id": "#007", 
-        "categories": "Elm, MacOSX", 
-        "name": "Elm/install"
+        "description": "substitute shell variables in text", 
+        "relative_path": "tools/envsubst", 
+        "id": "#036", 
+        "categories": "Tools, Bash", 
+        "name": "Tools/envsubst"
     }, 
     {
-        "description": "test drive the Kiss FFT C library with an example", 
-        "relative_path": "fft/running_kissfft_example", 
-        "id": "#044", 
-        "categories": "C, FFT", 
-        "name": "fft/running_kissfft_example"
-    }, 
-    {
-        "description": "Go language - my tl;dr summary", 
-        "relative_path": "go/about", 
-        "id": "#041", 
-        "categories": "Go", 
-        "name": "Go/about"
+        "description": "about iproute2 and how to run it on MacOSX", 
+        "relative_path": "tools/iproute2", 
+        "id": "#038", 
+        "categories": "Tools, MacOSX", 
+        "name": "Tools/iproute2"
     }, 
     {
         "description": "exploring Go with the simplest example", 
@@ -139,6 +41,13 @@
         "name": "Go/hello_world"
     }, 
     {
+        "description": "Go language - my tl;dr summary", 
+        "relative_path": "go/about", 
+        "id": "#041", 
+        "categories": "Go", 
+        "name": "Go/about"
+    }, 
+    {
         "description": "installing Go on MacOSX", 
         "relative_path": "go/install_macosx", 
         "id": "#042", 
@@ -146,151 +55,25 @@
         "name": "Go/install_macosx"
     }, 
     {
-        "description": "Haskell - my tl;dr summary", 
-        "relative_path": "haskell/about", 
-        "id": "#008", 
-        "categories": "Haskell", 
-        "name": "Haskell/about"
+        "description": "writing web client code with twisted and tests", 
+        "relative_path": "python/twisted_web_client", 
+        "id": "#032", 
+        "categories": "Python", 
+        "name": "Python/twisted_web_client"
     }, 
     {
-        "description": "Haskell - Hello World", 
-        "relative_path": "haskell/hello_world", 
-        "id": "#009", 
-        "categories": "Haskell", 
-        "name": "Haskell/hello_world"
+        "description": "Python quirks - mutable default params", 
+        "relative_path": "python/quirks/mutable_default_params", 
+        "id": "#028", 
+        "categories": "Python", 
+        "name": "Python/quirks/mutable_default_params"
     }, 
     {
-        "description": "installing Haskell on MacOSX", 
-        "relative_path": "haskell/install_macosx", 
-        "id": "#010", 
-        "categories": "Haskell, MacOSX", 
-        "name": "Haskell/install_macosx"
-    }, 
-    {
-        "description": "RADIUS - my tl;dr summary", 
-        "relative_path": "infrastructure/radius/about", 
-        "id": "#024", 
-        "categories": "RADIUS, infrastructure", 
-        "name": "RADIUS/about"
-    }, 
-    {
-        "description": "FreeRADIUS - running on MacOSX (#fail - this project needs work)", 
-        "relative_path": "infrastructure/radius/freeradius-client-macosx", 
-        "id": "#025", 
-        "categories": "RADIUS, MacOSX, infrastructure", 
-        "name": "FreeRADIUS/freeradius-client-macosx"
-    }, 
-    {
-        "description": "FreeRADIUS - running on MacOSX", 
-        "relative_path": "infrastructure/radius/freeradius-server-macosx", 
-        "id": "#026", 
-        "categories": "RADIUS, MacOSX, infrastructure", 
-        "name": "FreeRADIUS/freeradius-server-macosx"
-    }, 
-    {
-        "description": "Highcharts with Bower", 
-        "relative_path": "javascript/highcharts_with_bower", 
-        "id": "#011", 
-        "categories": "Javascript", 
-        "name": "Javascript/highcharts_with_bower"
-    }, 
-    {
-        "description": "Interactive Ribbon Charts with plotly.js", 
-        "relative_path": "javascript/plotly_ribbon_charts", 
-        "id": "#012", 
-        "categories": "Javascript", 
-        "name": "Javascript/plotly_ribbon_charts"
-    }, 
-    {
-        "description": "Progress Bars with Bootstrap", 
-        "relative_path": "javascript/progress_bars_bootstrap", 
-        "id": "#013", 
-        "categories": "Javascript", 
-        "name": "Javascript/progress_bars_bootstrap"
-    }, 
-    {
-        "description": "hardware excuse generator with gRPC", 
-        "relative_path": "messaging/grpc/explainer", 
-        "id": "#015", 
-        "categories": "gRPC, Messaging", 
-        "name": "gRPC Explainer"
-    }, 
-    {
-        "description": "hardware excuse generator with gRPC - C++ client example", 
-        "relative_path": "messaging/grpc/explainer/cpp", 
-        "id": "#016", 
-        "categories": "gRPC, C++, Messaging", 
-        "name": "gRPC Explainer/C++"
-    }, 
-    {
-        "description": "hardware excuse generator with gRPC - C# client example", 
-        "relative_path": "messaging/grpc/explainer/csharp", 
-        "id": "#017", 
-        "categories": "gRPC, C#, Messaging", 
-        "name": "gRPC Explainer/C#"
-    }, 
-    {
-        "description": "hardware excuse generator with gRPC - Node client example", 
-        "relative_path": "messaging/grpc/explainer/node", 
-        "id": "#018", 
-        "categories": "gRPC, Node, Messaging", 
-        "name": "gRPC Explainer/Node.js"
-    }, 
-    {
-        "description": "hardware excuse generator with gRPC - Python client example", 
-        "relative_path": "messaging/grpc/explainer/python", 
-        "id": "#019", 
-        "categories": "gRPC, Python, Messaging", 
-        "name": "gRPC Explainer/Python"
-    }, 
-    {
-        "description": "hardware excuse generator with gRPC - Ruby client and server example", 
-        "relative_path": "messaging/grpc/explainer/ruby", 
-        "id": "#020", 
-        "categories": "gRPC, Ruby, Messaging", 
-        "name": "gRPC Explainer/Ruby"
-    }, 
-    {
-        "description": "installing on MacOSX", 
-        "relative_path": "messaging/grpc/install_macosx", 
-        "id": "#014", 
-        "categories": "gRPC, MacOSX, Messaging", 
-        "name": "gRPC/install_macosx"
-    }, 
-    {
-        "description": "About C# with Mono", 
-        "relative_path": "mono/about", 
-        "id": "#051", 
-        "categories": "Mono, C#", 
-        "name": "mono/about"
-    }, 
-    {
-        "description": "Hello World with C#/mono", 
-        "relative_path": "mono/hello", 
-        "id": "#052", 
-        "categories": "Mono, C#", 
-        "name": "mono/hello"
-    }, 
-    {
-        "description": "Handling Time in C#/mono", 
-        "relative_path": "mono/time", 
-        "id": "#053", 
-        "categories": "Mono, C#", 
-        "name": "mono/time"
-    }, 
-    {
-        "description": "patching text files with Perl - fix the first line only", 
-        "relative_path": "perl/fix_first_line", 
-        "id": "#022", 
-        "categories": "perl", 
-        "name": "Perl/fix_first_line"
-    }, 
-    {
-        "description": "patching text files with Perl", 
-        "relative_path": "perl/patch_file", 
-        "id": "#021", 
-        "categories": "perl", 
-        "name": "Perl/patch_file"
+        "description": "Python quirks - late-bound closures", 
+        "relative_path": "python/quirks/late_bound_closures", 
+        "id": "#027", 
+        "categories": "Python", 
+        "name": "Python/quirks/late_bound_closures"
     }, 
     {
         "description": "all about decorating class methods and preserving the ability to introspect", 
@@ -314,32 +97,18 @@
         "name": "python/imgur"
     }, 
     {
-        "description": "Building MicroPython on MacOSX", 
-        "relative_path": "python/micropython/compiling_macosx", 
-        "id": "#057", 
-        "categories": "Python, MicroPython", 
-        "name": "python/micropython/compiling_macosx"
-    }, 
-    {
-        "description": "Python quirks - late-bound closures", 
-        "relative_path": "python/quirks/late_bound_closures", 
-        "id": "#027", 
-        "categories": "Python", 
-        "name": "Python/quirks/late_bound_closures"
-    }, 
-    {
-        "description": "Python quirks - mutable default params", 
-        "relative_path": "python/quirks/mutable_default_params", 
-        "id": "#028", 
-        "categories": "Python", 
-        "name": "Python/quirks/mutable_default_params"
-    }, 
-    {
         "description": "all about MAC and generating random MAC addresses", 
         "relative_path": "python/random_mac_generation", 
         "id": "#029", 
         "categories": "Python", 
         "name": "Python/random_mac_generation"
+    }, 
+    {
+        "description": "Building MicroPython on MacOSX", 
+        "relative_path": "python/micropython/compiling_macosx", 
+        "id": "#057", 
+        "categories": "Python, MicroPython", 
+        "name": "python/micropython/compiling_macosx"
     }, 
     {
         "description": "Using the begins library to write command line scripts without all the cruft", 
@@ -349,13 +118,6 @@
         "name": "python/simple_cli_with_begins"
     }, 
     {
-        "description": "or: why not to put an __init__.py in your top level folder", 
-        "relative_path": "python/top_level_imports", 
-        "id": "#030", 
-        "categories": "Python", 
-        "name": "Python/top_level_imports"
-    }, 
-    {
         "description": "writing client-server code with twisted and tests", 
         "relative_path": "python/twisted_client_server", 
         "id": "#031", 
@@ -363,11 +125,304 @@
         "name": "Python/twisted_client_server"
     }, 
     {
-        "description": "writing web client code with twisted and tests", 
-        "relative_path": "python/twisted_web_client", 
-        "id": "#032", 
+        "description": "or: why not to put an __init__.py in your top level folder", 
+        "relative_path": "python/top_level_imports", 
+        "id": "#030", 
         "categories": "Python", 
-        "name": "Python/twisted_web_client"
+        "name": "Python/top_level_imports"
+    }, 
+    {
+        "description": "patching text files with Perl", 
+        "relative_path": "perl/patch_file", 
+        "id": "#021", 
+        "categories": "perl", 
+        "name": "Perl/patch_file"
+    }, 
+    {
+        "description": "patching text files with Perl - fix the first line only", 
+        "relative_path": "perl/fix_first_line", 
+        "id": "#022", 
+        "categories": "perl", 
+        "name": "Perl/fix_first_line"
+    }, 
+    {
+        "description": "a Javascript Datatables catalog for GitHub Pages", 
+        "relative_path": "catalog", 
+        "id": "#039", 
+        "categories": "Tools, Javascript", 
+        "name": "Catalog"
+    }, 
+    {
+        "description": "Rust - Hello World with concurrency", 
+        "relative_path": "rust/hello_world", 
+        "id": "#034", 
+        "categories": "Rust", 
+        "name": "Rust/hello_world"
+    }, 
+    {
+        "description": "Rust - my tl;dr summary", 
+        "relative_path": "rust/about", 
+        "id": "#033", 
+        "categories": "Rust", 
+        "name": "Rust/about"
+    }, 
+    {
+        "description": "Rust - installing on MacOSX", 
+        "relative_path": "rust/install_macosx", 
+        "id": "#035", 
+        "categories": "Rust, MacOSX", 
+        "name": "Rust/install_macosx"
+    }, 
+    {
+        "description": "Installing Elm on MacOSX", 
+        "relative_path": "elm/install", 
+        "id": "#007", 
+        "categories": "Elm, MacOSX", 
+        "name": "Elm/install"
+    }, 
+    {
+        "description": "elm - my tl;dr summary", 
+        "relative_path": "elm/about", 
+        "id": "#005", 
+        "categories": "Elm", 
+        "name": "Elm/about"
+    }, 
+    {
+        "description": "2D graphics with elm", 
+        "relative_path": "elm/hello_clock", 
+        "id": "#006", 
+        "categories": "Elm", 
+        "name": "Elm/hello_clock"
+    }, 
+    {
+        "description": "Haskell - Hello World", 
+        "relative_path": "haskell/hello_world", 
+        "id": "#009", 
+        "categories": "Haskell", 
+        "name": "Haskell/hello_world"
+    }, 
+    {
+        "description": "Haskell - my tl;dr summary", 
+        "relative_path": "haskell/about", 
+        "id": "#008", 
+        "categories": "Haskell", 
+        "name": "Haskell/about"
+    }, 
+    {
+        "description": "installing Haskell on MacOSX", 
+        "relative_path": "haskell/install_macosx", 
+        "id": "#010", 
+        "categories": "Haskell, MacOSX", 
+        "name": "Haskell/install_macosx"
+    }, 
+    {
+        "relative_path": "bash/function_inference", 
+        "name": "Bash/function_inference", 
+        "categories": "Bash", 
+        "description": "How to test for the presence of functions in order to branch to arbitrary functions by name"
+    }, 
+    {
+        "description": "How to use case statements in the bash shell", 
+        "relative_path": "bash/case_statement", 
+        "id": "#001", 
+        "categories": "Bash", 
+        "name": "Bash/case_statement"
+    }, 
+    {
+        "description": "How to implement simple resource semaphores with file locks", 
+        "relative_path": "bash/file_locks", 
+        "id": "#060", 
+        "categories": "Bash", 
+        "name": "Bash/file_locks"
+    }, 
+    {
+        "description": "Techniques for parsing environment variables with bash built-in features only", 
+        "relative_path": "bash/parse_env_setting", 
+        "id": "#059", 
+        "categories": "Bash", 
+        "name": "Bash/parse_env_setting"
+    }, 
+    {
+        "description": "simple multiple-choice user input", 
+        "relative_path": "bash/select_menu", 
+        "id": "#003", 
+        "categories": "Bash", 
+        "name": "Bash/select_menu"
+    }, 
+    {
+        "description": "All about Bash loops", 
+        "relative_path": "bash/loops", 
+        "id": "#050", 
+        "categories": "Bash", 
+        "name": "Bash/loops"
+    }, 
+    {
+        "description": "process a file line-by-line", 
+        "relative_path": "bash/process_lines", 
+        "id": "#002", 
+        "categories": "Bash", 
+        "name": "Bash/process_lines"
+    }, 
+    {
+        "description": "Test-driving some techniques for building static sites with Jekyll", 
+        "relative_path": "staticweb/jekyll", 
+        "id": "#048", 
+        "categories": "Jekyll, static", 
+        "name": "staticweb/jekyll"
+    }, 
+    {
+        "description": "C++ exception handling", 
+        "relative_path": "cpp/exception_handling", 
+        "id": "#004", 
+        "categories": "C++", 
+        "name": "C++/exception_handling"
+    }, 
+    {
+        "description": "Installing and testing doxygen for c++ source documentation generation on MacOSX", 
+        "relative_path": "cpp/doxygen", 
+        "id": "#055", 
+        "categories": "C++", 
+        "name": "cpp/doxygen"
+    }, 
+    {
+        "description": "About C# with Mono", 
+        "relative_path": "mono/about", 
+        "id": "#051", 
+        "categories": "Mono, C#", 
+        "name": "mono/about"
+    }, 
+    {
+        "description": "Handling Time in C#/mono", 
+        "relative_path": "mono/time", 
+        "id": "#053", 
+        "categories": "Mono, C#", 
+        "name": "mono/time"
+    }, 
+    {
+        "description": "Hello World with C#/mono", 
+        "relative_path": "mono/hello", 
+        "id": "#052", 
+        "categories": "Mono, C#", 
+        "name": "mono/hello"
+    }, 
+    {
+        "description": "test drive the Kiss FFT C library with an example", 
+        "relative_path": "fft/running_kissfft_example", 
+        "id": "#044", 
+        "categories": "C, FFT", 
+        "name": "fft/running_kissfft_example"
+    }, 
+    {
+        "description": "Interactive Ribbon Charts with plotly.js", 
+        "relative_path": "javascript/plotly_ribbon_charts", 
+        "id": "#012", 
+        "categories": "Javascript", 
+        "name": "Javascript/plotly_ribbon_charts"
+    }, 
+    {
+        "description": "Highcharts with Bower", 
+        "relative_path": "javascript/highcharts_with_bower", 
+        "id": "#011", 
+        "categories": "Javascript", 
+        "name": "Javascript/highcharts_with_bower"
+    }, 
+    {
+        "description": "Progress Bars with Bootstrap", 
+        "relative_path": "javascript/progress_bars_bootstrap", 
+        "id": "#013", 
+        "categories": "Javascript", 
+        "name": "Javascript/progress_bars_bootstrap"
+    }, 
+    {
+        "description": "RADIUS - my tl;dr summary", 
+        "relative_path": "infrastructure/radius/about", 
+        "id": "#024", 
+        "categories": "RADIUS, infrastructure", 
+        "name": "RADIUS/about"
+    }, 
+    {
+        "description": "FreeRADIUS - running on MacOSX (#fail - this project needs work)", 
+        "relative_path": "infrastructure/radius/freeradius-client-macosx", 
+        "id": "#025", 
+        "categories": "RADIUS, MacOSX, infrastructure", 
+        "name": "FreeRADIUS/freeradius-client-macosx"
+    }, 
+    {
+        "description": "FreeRADIUS - running on MacOSX", 
+        "relative_path": "infrastructure/radius/freeradius-server-macosx", 
+        "id": "#026", 
+        "categories": "RADIUS, MacOSX, infrastructure", 
+        "name": "FreeRADIUS/freeradius-server-macosx"
+    }, 
+    {
+        "description": "hardware excuse generator with gRPC", 
+        "relative_path": "messaging/grpc/explainer", 
+        "id": "#015", 
+        "categories": "gRPC, Messaging", 
+        "name": "gRPC Explainer"
+    }, 
+    {
+        "description": "hardware excuse generator with gRPC - Python client example", 
+        "relative_path": "messaging/grpc/explainer/python", 
+        "id": "#019", 
+        "categories": "gRPC, Python, Messaging", 
+        "name": "gRPC Explainer/Python"
+    }, 
+    {
+        "description": "hardware excuse generator with gRPC - C++ client example", 
+        "relative_path": "messaging/grpc/explainer/cpp", 
+        "id": "#016", 
+        "categories": "gRPC, C++, Messaging", 
+        "name": "gRPC Explainer/C++"
+    }, 
+    {
+        "description": "hardware excuse generator with gRPC - C# client example", 
+        "relative_path": "messaging/grpc/explainer/csharp", 
+        "id": "#017", 
+        "categories": "gRPC, C#, Messaging", 
+        "name": "gRPC Explainer/C#"
+    }, 
+    {
+        "description": "hardware excuse generator with gRPC - Node client example", 
+        "relative_path": "messaging/grpc/explainer/node", 
+        "id": "#018", 
+        "categories": "gRPC, Node, Messaging", 
+        "name": "gRPC Explainer/Node.js"
+    }, 
+    {
+        "description": "hardware excuse generator with gRPC - Ruby client and server example", 
+        "relative_path": "messaging/grpc/explainer/ruby", 
+        "id": "#020", 
+        "categories": "gRPC, Ruby, Messaging", 
+        "name": "gRPC Explainer/Ruby"
+    }, 
+    {
+        "description": "installing on MacOSX", 
+        "relative_path": "messaging/grpc/install_macosx", 
+        "id": "#014", 
+        "categories": "gRPC, MacOSX, Messaging", 
+        "name": "gRPC/install_macosx"
+    }, 
+    {
+        "description": "Comparing the use of `#define` preprocessor macros and `const` statements", 
+        "relative_path": "c/define_const", 
+        "id": "#047", 
+        "categories": "C", 
+        "name": "c/define_const"
+    }, 
+    {
+        "description": "Iterating Character Arrays", 
+        "relative_path": "c/iterating_char_arrays", 
+        "id": "#056", 
+        "categories": "C", 
+        "name": "c/iterating_char_arrays"
+    }, 
+    {
+        "description": "Hello World in C", 
+        "relative_path": "c/hello", 
+        "id": "#054", 
+        "categories": "C", 
+        "name": "c/hello"
     }, 
     {
         "relative_path": "ruby/hmac", 
@@ -387,54 +442,5 @@
         "id": "#023", 
         "categories": "Ruby", 
         "name": "Ruby/random_mac_generation"
-    }, 
-    {
-        "description": "Rust - my tl;dr summary", 
-        "relative_path": "rust/about", 
-        "id": "#033", 
-        "categories": "Rust", 
-        "name": "Rust/about"
-    }, 
-    {
-        "description": "Rust - Hello World with concurrency", 
-        "relative_path": "rust/hello_world", 
-        "id": "#034", 
-        "categories": "Rust", 
-        "name": "Rust/hello_world"
-    }, 
-    {
-        "description": "Rust - installing on MacOSX", 
-        "relative_path": "rust/install_macosx", 
-        "id": "#035", 
-        "categories": "Rust, MacOSX", 
-        "name": "Rust/install_macosx"
-    }, 
-    {
-        "description": "Test-driving some techniques for building static sites with Jekyll", 
-        "relative_path": "staticweb/jekyll", 
-        "id": "#048", 
-        "categories": "Jekyll, static", 
-        "name": "staticweb/jekyll"
-    }, 
-    {
-        "description": "substitute shell variables in text", 
-        "relative_path": "tools/envsubst", 
-        "id": "#036", 
-        "categories": "Tools, Bash", 
-        "name": "Tools/envsubst"
-    }, 
-    {
-        "description": "homebrew (MacOSX package manager) tips and tricks", 
-        "relative_path": "tools/homebrew", 
-        "id": "#037", 
-        "categories": "Tools, MacOSX", 
-        "name": "Tools/homebrew"
-    }, 
-    {
-        "description": "about iproute2 and how to run it on MacOSX", 
-        "relative_path": "tools/iproute2", 
-        "id": "#038", 
-        "categories": "Tools, MacOSX", 
-        "name": "Tools/iproute2"
     }
 ]
