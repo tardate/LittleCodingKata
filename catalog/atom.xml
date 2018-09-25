@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-05-04T13:28:33Z</updated>
+  <updated>2021-05-30T03:47:46Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1592,126 +1592,52 @@
     <category term="ruby"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/web/color_picker/</id>
-    <link href="https://codingkata.tardate.com/web/color_picker/"/>
-    <updated>2021-04-09T16:14:29Z</updated>
-    <title>Color Pickers for the Web</title>
-    <summary>Looking at easy ways to enable a color picker on a web page</summary>
-    <category term="javascript"/>
-    <category term="HTML5"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/ruby/style/</id>
-    <link href="https://codingkata.tardate.com/ruby/style/"/>
-    <updated>2021-04-09T16:37:32Z</updated>
-    <title>Ruby Style</title>
-    <summary>On style guides and resources for ruby</summary>
-    <category term="ruby"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/c/loops/</id>
-    <link href="https://codingkata.tardate.com/c/loops/"/>
-    <updated>2021-04-09T16:59:15Z</updated>
-    <title>Loops in C</title>
-    <summary>All about loops in C</summary>
-    <category term="c"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/rust/loops/</id>
-    <link href="https://codingkata.tardate.com/rust/loops/"/>
-    <updated>2021-04-10T03:06:43Z</updated>
-    <title>Loops in Rust</title>
-    <summary>All about loops in rust</summary>
-    <category term="rust"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/ruby/regex_and_string_indexes/</id>
-    <link href="https://codingkata.tardate.com/ruby/regex_and_string_indexes/"/>
-    <updated>2021-04-10T03:59:05Z</updated>
-    <title>Regular Expressions and String Indexes</title>
-    <summary>When string indexes are better than regex, and when regex can help writing a string index</summary>
-    <category term="ruby"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/javascript/password_strength_testers/</id>
-    <link href="https://codingkata.tardate.com/javascript/password_strength_testers/"/>
-    <updated>2021-04-16T15:02:39Z</updated>
-    <title>Password Strength Testers</title>
-    <summary>Checking out various Javascript-based password strength testers and trying to find one that best implements latest NIST guidelines.</summary>
-    <category term="javascript"/>
-    <category term="security"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/security/yubikey/</id>
     <link href="https://codingkata.tardate.com/security/yubikey/"/>
-    <updated>2021-04-16T15:41:39Z</updated>
+    <updated>2021-05-06T04:56:35Z</updated>
     <title>YubiKey</title>
     <summary>A closer look at the YubiKey hardware security token, how it works, the CLI and GUI, and how it can be used with a range of services. Also demonstrate how to setup with Wasabi Cloud Storage - an example of a service that supports 2-factor authentication but not specifically the YubiKey.</summary>
     <category term="security"/>
     <category term="MFA"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/ruby/proc_v_lambda/</id>
-    <link href="https://codingkata.tardate.com/ruby/proc_v_lambda/"/>
-    <updated>2021-04-20T15:31:54Z</updated>
-    <title>Proc v Lambda</title>
-    <summary>Exploring differences and similarities between procs and lambdas in Ruby</summary>
-    <category term="ruby"/>
-    <category term="closure"/>
+    <id>https://codingkata.tardate.com/web/color_picker/</id>
+    <link href="https://codingkata.tardate.com/web/color_picker/"/>
+    <updated>2021-05-06T04:56:35Z</updated>
+    <title>Color Pickers for the Web</title>
+    <summary>Looking at easy ways to enable a color picker on a web page</summary>
+    <category term="javascript"/>
+    <category term="HTML5"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rust/loops/</id>
+    <link href="https://codingkata.tardate.com/rust/loops/"/>
+    <updated>2021-05-06T04:56:35Z</updated>
+    <title>Loops in Rust</title>
+    <summary>All about loops in rust</summary>
+    <category term="rust"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/numeric_limits/</id>
+    <link href="https://codingkata.tardate.com/cpp/numeric_limits/"/>
+    <updated>2021-05-06T04:56:35Z</updated>
+    <title>Numeric Limits in C++</title>
+    <summary>Numeric limits information available in the C++ standard library</summary>
+    <category term="C++"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/cpp/hands_on_system_programming_with_cpp/</id>
     <link href="https://codingkata.tardate.com/cpp/hands_on_system_programming_with_cpp/"/>
-    <updated>2021-04-20T16:32:09Z</updated>
+    <updated>2021-05-06T04:56:35Z</updated>
     <title>Hands-On System Programming with C++</title>
     <summary>Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn</summary>
     <category term="C++"/>
     <category term="book"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/cpp/string_find/</id>
-    <link href="https://codingkata.tardate.com/cpp/string_find/"/>
-    <updated>2021-04-23T14:18:09Z</updated>
-    <title>std::string::find</title>
-    <summary>A closer look at the find function for strings in C++</summary>
-    <category term="C++"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/ruby/bitwise_operations/</id>
-    <link href="https://codingkata.tardate.com/ruby/bitwise_operations/"/>
-    <updated>2021-04-26T15:32:47Z</updated>
-    <title>Bitwise Operations</title>
-    <summary>All about bitwize operations in Ruby</summary>
-    <category term="ruby"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/cpp/hello/</id>
-    <link href="https://codingkata.tardate.com/cpp/hello/"/>
-    <updated>2021-04-27T13:35:55Z</updated>
-    <title>Hello World in C++</title>
-    <summary>the clichéd starting point, in C++</summary>
-    <category term="C++"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/c/hello/</id>
-    <link href="https://codingkata.tardate.com/c/hello/"/>
-    <updated>2021-04-27T13:35:58Z</updated>
-    <title>Hello World in C</title>
-    <summary>the clichéd starting point, in C</summary>
-    <category term="C"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/cpp/palindromes/</id>
-    <link href="https://codingkata.tardate.com/cpp/palindromes/"/>
-    <updated>2021-04-27T14:30:51Z</updated>
-    <title>Palindromes</title>
-    <summary>Examples of how to code a palidrome check in C++</summary>
-    <category term="C++"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/cpp/float_format/</id>
     <link href="https://codingkata.tardate.com/cpp/float_format/"/>
-    <updated>2021-04-27T17:11:46Z</updated>
+    <updated>2021-05-06T04:56:35Z</updated>
     <title>Float Format</title>
     <summary>Testing floating point number formatting with the C++</summary>
     <category term="C++"/>
@@ -1719,35 +1645,117 @@
   <entry>
     <id>https://codingkata.tardate.com/cpp/sdl/install/</id>
     <link href="https://codingkata.tardate.com/cpp/sdl/install/"/>
-    <updated>2021-04-27T18:10:33Z</updated>
+    <updated>2021-05-06T04:56:35Z</updated>
     <title>SDL2 MacOSX Install</title>
     <summary>Installing the Simple DirectMedia Layer library on MacOSX, and running a basic verification program in C++</summary>
     <category term="C++"/>
     <category term="SDL"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/cpp/numeric_limits/</id>
-    <link href="https://codingkata.tardate.com/cpp/numeric_limits/"/>
-    <updated>2021-04-30T14:05:21Z</updated>
-    <title>Numeric Limits in C++</title>
-    <summary>Numeric limits information available in the C++ standard library</summary>
+    <id>https://codingkata.tardate.com/cpp/sdl/basic/</id>
+    <link href="https://codingkata.tardate.com/cpp/sdl/basic/"/>
+    <updated>2021-05-06T04:56:35Z</updated>
+    <title>Basic SDL Graphics</title>
+    <summary>Testing some basic windo and rendering functions with SDL library in C++.</summary>
     <category term="C++"/>
+    <category term="SDL"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/string_find/</id>
+    <link href="https://codingkata.tardate.com/cpp/string_find/"/>
+    <updated>2021-05-06T04:56:35Z</updated>
+    <title>std::string::find</title>
+    <summary>A closer look at the find function for strings in C++</summary>
+    <category term="C++"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/palindromes/</id>
+    <link href="https://codingkata.tardate.com/cpp/palindromes/"/>
+    <updated>2021-05-06T04:56:35Z</updated>
+    <title>Palindromes</title>
+    <summary>Examples of how to code a palidrome check in C++</summary>
+    <category term="C++"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/hello/</id>
+    <link href="https://codingkata.tardate.com/cpp/hello/"/>
+    <updated>2021-05-06T04:56:35Z</updated>
+    <title>Hello World in C++</title>
+    <summary>the clichéd starting point, in C++</summary>
+    <category term="C++"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/javascript/password_strength_testers/</id>
+    <link href="https://codingkata.tardate.com/javascript/password_strength_testers/"/>
+    <updated>2021-05-06T04:56:35Z</updated>
+    <title>Password Strength Testers</title>
+    <summary>Checking out various Javascript-based password strength testers and trying to find one that best implements latest NIST guidelines.</summary>
+    <category term="javascript"/>
+    <category term="security"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/c/numeric_limits/</id>
     <link href="https://codingkata.tardate.com/c/numeric_limits/"/>
-    <updated>2021-04-30T14:05:25Z</updated>
+    <updated>2021-05-06T04:56:35Z</updated>
     <title>Numeric Limits in C</title>
     <summary>Numeric limits information available in the C standard library (and finding another clang/gcc difference)</summary>
     <category term="C"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/cpp/sdl/basic/</id>
-    <link href="https://codingkata.tardate.com/cpp/sdl/basic/"/>
-    <updated>2021-05-04T13:26:27Z</updated>
-    <title>Basic SDL Graphics</title>
-    <summary>Testing some basic windo and rendering functions with SDL library in C++.</summary>
-    <category term="C++"/>
-    <category term="SDL"/>
+    <id>https://codingkata.tardate.com/c/loops/</id>
+    <link href="https://codingkata.tardate.com/c/loops/"/>
+    <updated>2021-05-06T04:56:35Z</updated>
+    <title>Loops in C</title>
+    <summary>All about loops in C</summary>
+    <category term="c"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/c/hello/</id>
+    <link href="https://codingkata.tardate.com/c/hello/"/>
+    <updated>2021-05-06T04:56:35Z</updated>
+    <title>Hello World in C</title>
+    <summary>the clichéd starting point, in C</summary>
+    <category term="C"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/style/</id>
+    <link href="https://codingkata.tardate.com/ruby/style/"/>
+    <updated>2021-05-06T04:56:35Z</updated>
+    <title>Ruby Style</title>
+    <summary>On style guides and resources for ruby</summary>
+    <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/bitwise_operations/</id>
+    <link href="https://codingkata.tardate.com/ruby/bitwise_operations/"/>
+    <updated>2021-05-06T04:56:35Z</updated>
+    <title>Bitwise Operations</title>
+    <summary>All about bitwize operations in Ruby</summary>
+    <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/proc_v_lambda/</id>
+    <link href="https://codingkata.tardate.com/ruby/proc_v_lambda/"/>
+    <updated>2021-05-06T04:56:35Z</updated>
+    <title>Proc v Lambda</title>
+    <summary>Exploring differences and similarities between procs and lambdas in Ruby</summary>
+    <category term="ruby"/>
+    <category term="closure"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/regex_and_string_indexes/</id>
+    <link href="https://codingkata.tardate.com/ruby/regex_and_string_indexes/"/>
+    <updated>2021-05-06T04:56:35Z</updated>
+    <title>Regular Expressions and String Indexes</title>
+    <summary>When string indexes are better than regex, and when regex can help writing a string index</summary>
+    <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/bash/if_and_test/</id>
+    <link href="https://codingkata.tardate.com/bash/if_and_test/"/>
+    <updated>2021-05-30T03:46:14Z</updated>
+    <title>Bash if and test</title>
+    <summary>All about if/then test constructs in Bash scripting</summary>
+    <category term="Bash"/>
   </entry>
 </feed>

@@ -1,0 +1,6 @@
+{
+    "name": "Bash if and test",
+    "description": "All about if/then test constructs in Bash scripting",
+    "categories": "Bash",
+    "relative_path": "bash/if_and_test"
+}

@@ -1579,58 +1579,8 @@
             "ruby"
         ]
     },
-    "/web/color_picker/": {
-        "id": 180,
-        "title": "Color Pickers for the Web",
-        "summary": "Looking at easy ways to enable a color picker on a web page",
-        "tags": [
-            "javascript",
-            "HTML5"
-        ]
-    },
-    "/ruby/style/": {
-        "id": 181,
-        "title": "Ruby Style",
-        "summary": "On style guides and resources for ruby",
-        "tags": [
-            "ruby"
-        ]
-    },
-    "/c/loops/": {
-        "id": 182,
-        "title": "Loops in C",
-        "summary": "All about loops in C",
-        "tags": [
-            "c"
-        ]
-    },
-    "/rust/loops/": {
-        "id": 183,
-        "title": "Loops in Rust",
-        "summary": "All about loops in rust",
-        "tags": [
-            "rust"
-        ]
-    },
-    "/ruby/regex_and_string_indexes/": {
-        "id": 184,
-        "title": "Regular Expressions and String Indexes",
-        "summary": "When string indexes are better than regex, and when regex can help writing a string index",
-        "tags": [
-            "ruby"
-        ]
-    },
-    "/javascript/password_strength_testers/": {
-        "id": 185,
-        "title": "Password Strength Testers",
-        "summary": "Checking out various Javascript-based password strength testers and trying to find one that best implements latest NIST guidelines.",
-        "tags": [
-            "javascript",
-            "security"
-        ]
-    },
     "/security/yubikey/": {
-        "id": 186,
+        "id": 180,
         "title": "YubiKey",
         "summary": "A closer look at the YubiKey hardware security token, how it works, the CLI and GUI, and how it can be used with a range of services. Also demonstrate how to setup with Wasabi Cloud Storage - an example of a service that supports 2-factor authentication but not specifically the YubiKey.",
         "tags": [
@@ -1638,17 +1588,33 @@
             "MFA"
         ]
     },
-    "/ruby/proc_v_lambda/": {
-        "id": 187,
-        "title": "Proc v Lambda",
-        "summary": "Exploring differences and similarities between procs and lambdas in Ruby",
+    "/web/color_picker/": {
+        "id": 181,
+        "title": "Color Pickers for the Web",
+        "summary": "Looking at easy ways to enable a color picker on a web page",
         "tags": [
-            "ruby",
-            "closure"
+            "javascript",
+            "HTML5"
+        ]
+    },
+    "/rust/loops/": {
+        "id": 182,
+        "title": "Loops in Rust",
+        "summary": "All about loops in rust",
+        "tags": [
+            "rust"
+        ]
+    },
+    "/cpp/numeric_limits/": {
+        "id": 183,
+        "title": "Numeric Limits in C++",
+        "summary": "Numeric limits information available in the C++ standard library",
+        "tags": [
+            "C++"
         ]
     },
     "/cpp/hands_on_system_programming_with_cpp/": {
-        "id": 188,
+        "id": 184,
         "title": "Hands-On System Programming with C++",
         "summary": "Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn",
         "tags": [
@@ -1656,48 +1622,8 @@
             "book"
         ]
     },
-    "/cpp/string_find/": {
-        "id": 189,
-        "title": "std::string::find",
-        "summary": "A closer look at the find function for strings in C++",
-        "tags": [
-            "C++"
-        ]
-    },
-    "/ruby/bitwise_operations/": {
-        "id": 190,
-        "title": "Bitwise Operations",
-        "summary": "All about bitwize operations in Ruby",
-        "tags": [
-            "ruby"
-        ]
-    },
-    "/cpp/hello/": {
-        "id": 191,
-        "title": "Hello World in C++",
-        "summary": "the clich\u00e9d starting point, in C++",
-        "tags": [
-            "C++"
-        ]
-    },
-    "/c/hello/": {
-        "id": 192,
-        "title": "Hello World in C",
-        "summary": "the clich\u00e9d starting point, in C",
-        "tags": [
-            "C"
-        ]
-    },
-    "/cpp/palindromes/": {
-        "id": 193,
-        "title": "Palindromes",
-        "summary": "Examples of how to code a palidrome check in C++",
-        "tags": [
-            "C++"
-        ]
-    },
     "/cpp/float_format/": {
-        "id": 194,
+        "id": 185,
         "title": "Float Format",
         "summary": "Testing floating point number formatting with the C++",
         "tags": [
@@ -1705,7 +1631,7 @@
         ]
     },
     "/cpp/sdl/install/": {
-        "id": 195,
+        "id": 186,
         "title": "SDL2 MacOSX Install",
         "summary": "Installing the Simple DirectMedia Layer library on MacOSX, and running a basic verification program in C++",
         "tags": [
@@ -1713,29 +1639,111 @@
             "SDL"
         ]
     },
-    "/cpp/numeric_limits/": {
-        "id": 196,
-        "title": "Numeric Limits in C++",
-        "summary": "Numeric limits information available in the C++ standard library",
+    "/cpp/sdl/basic/": {
+        "id": 187,
+        "title": "Basic SDL Graphics",
+        "summary": "Testing some basic windo and rendering functions with SDL library in C++.",
+        "tags": [
+            "C++",
+            "SDL"
+        ]
+    },
+    "/cpp/string_find/": {
+        "id": 188,
+        "title": "std::string::find",
+        "summary": "A closer look at the find function for strings in C++",
         "tags": [
             "C++"
         ]
     },
+    "/cpp/palindromes/": {
+        "id": 189,
+        "title": "Palindromes",
+        "summary": "Examples of how to code a palidrome check in C++",
+        "tags": [
+            "C++"
+        ]
+    },
+    "/cpp/hello/": {
+        "id": 190,
+        "title": "Hello World in C++",
+        "summary": "the clich\u00e9d starting point, in C++",
+        "tags": [
+            "C++"
+        ]
+    },
+    "/javascript/password_strength_testers/": {
+        "id": 191,
+        "title": "Password Strength Testers",
+        "summary": "Checking out various Javascript-based password strength testers and trying to find one that best implements latest NIST guidelines.",
+        "tags": [
+            "javascript",
+            "security"
+        ]
+    },
     "/c/numeric_limits/": {
-        "id": 197,
+        "id": 192,
         "title": "Numeric Limits in C",
         "summary": "Numeric limits information available in the C standard library (and finding another clang/gcc difference)",
         "tags": [
             "C"
         ]
     },
-    "/cpp/sdl/basic/": {
-        "id": 198,
-        "title": "Basic SDL Graphics",
-        "summary": "Testing some basic windo and rendering functions with SDL library in C++.",
+    "/c/loops/": {
+        "id": 193,
+        "title": "Loops in C",
+        "summary": "All about loops in C",
         "tags": [
-            "C++",
-            "SDL"
+            "c"
+        ]
+    },
+    "/c/hello/": {
+        "id": 194,
+        "title": "Hello World in C",
+        "summary": "the clich\u00e9d starting point, in C",
+        "tags": [
+            "C"
+        ]
+    },
+    "/ruby/style/": {
+        "id": 195,
+        "title": "Ruby Style",
+        "summary": "On style guides and resources for ruby",
+        "tags": [
+            "ruby"
+        ]
+    },
+    "/ruby/bitwise_operations/": {
+        "id": 196,
+        "title": "Bitwise Operations",
+        "summary": "All about bitwize operations in Ruby",
+        "tags": [
+            "ruby"
+        ]
+    },
+    "/ruby/proc_v_lambda/": {
+        "id": 197,
+        "title": "Proc v Lambda",
+        "summary": "Exploring differences and similarities between procs and lambdas in Ruby",
+        "tags": [
+            "ruby",
+            "closure"
+        ]
+    },
+    "/ruby/regex_and_string_indexes/": {
+        "id": 198,
+        "title": "Regular Expressions and String Indexes",
+        "summary": "When string indexes are better than regex, and when regex can help writing a string index",
+        "tags": [
+            "ruby"
+        ]
+    },
+    "/bash/if_and_test/": {
+        "id": 199,
+        "title": "Bash if and test",
+        "summary": "All about if/then test constructs in Bash scripting",
+        "tags": [
+            "Bash"
         ]
     }
 }

@@ -1432,155 +1432,163 @@
         "id": "#179"
     },
     {
+        "name": "YubiKey",
+        "description": "A closer look at the YubiKey hardware security token, how it works, the CLI and GUI, and how it can be used with a range of services. Also demonstrate how to setup with Wasabi Cloud Storage - an example of a service that supports 2-factor authentication but not specifically the YubiKey.",
+        "categories": "security, MFA",
+        "relative_path": "security/yubikey",
+        "updated_at": "2021-05-06T04:56:35Z",
+        "id": "#180"
+    },
+    {
         "name": "Color Pickers for the Web",
         "description": "Looking at easy ways to enable a color picker on a web page",
         "categories": "javascript, HTML5",
         "relative_path": "web/color_picker",
-        "updated_at": "2021-04-09T16:14:29Z",
-        "id": "#180"
-    },
-    {
-        "name": "Ruby Style",
-        "description": "On style guides and resources for ruby",
-        "categories": "ruby",
-        "relative_path": "ruby/style",
-        "updated_at": "2021-04-09T16:37:32Z",
+        "updated_at": "2021-05-06T04:56:35Z",
         "id": "#181"
-    },
-    {
-        "name": "Loops in C",
-        "description": "All about loops in C",
-        "categories": "c",
-        "relative_path": "c/loops",
-        "updated_at": "2021-04-09T16:59:15Z",
-        "id": "#182"
     },
     {
         "name": "Loops in Rust",
         "description": "All about loops in rust",
         "categories": "rust",
         "relative_path": "rust/loops",
-        "updated_at": "2021-04-10T03:06:43Z",
-        "id": "#183"
-    },
-    {
-        "name": "Regular Expressions and String Indexes",
-        "description": "When string indexes are better than regex, and when regex can help writing a string index",
-        "categories": "ruby",
-        "relative_path": "ruby/regex_and_string_indexes",
-        "updated_at": "2021-04-10T03:59:05Z",
-        "id": "#184"
-    },
-    {
-        "name": "Password Strength Testers",
-        "description": "Checking out various Javascript-based password strength testers and trying to find one that best implements latest NIST guidelines.",
-        "categories": "javascript, security",
-        "relative_path": "javascript/password_strength_testers",
-        "updated_at": "2021-04-16T15:02:39Z",
-        "id": "#185"
-    },
-    {
-        "name": "YubiKey",
-        "description": "A closer look at the YubiKey hardware security token, how it works, the CLI and GUI, and how it can be used with a range of services. Also demonstrate how to setup with Wasabi Cloud Storage - an example of a service that supports 2-factor authentication but not specifically the YubiKey.",
-        "categories": "security, MFA",
-        "relative_path": "security/yubikey",
-        "updated_at": "2021-04-16T15:41:39Z",
-        "id": "#186"
-    },
-    {
-        "name": "Proc v Lambda",
-        "description": "Exploring differences and similarities between procs and lambdas in Ruby",
-        "categories": "ruby, closure",
-        "relative_path": "ruby/proc_v_lambda",
-        "updated_at": "2021-04-20T15:31:54Z",
-        "id": "#187"
-    },
-    {
-        "name": "Hands-On System Programming with C++",
-        "description": "Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn",
-        "categories": "C++, book",
-        "relative_path": "cpp/hands_on_system_programming_with_cpp",
-        "updated_at": "2021-04-20T16:32:09Z",
-        "id": "#188"
-    },
-    {
-        "name": "std::string::find",
-        "description": "A closer look at the find function for strings in C++",
-        "categories": "C++",
-        "relative_path": "cpp/string_find",
-        "updated_at": "2021-04-23T14:18:09Z",
-        "id": "#189"
-    },
-    {
-        "name": "Bitwise Operations",
-        "description": "All about bitwize operations in Ruby",
-        "categories": "ruby",
-        "relative_path": "ruby/bitwise_operations",
-        "updated_at": "2021-04-26T15:32:47Z",
-        "id": "#190"
-    },
-    {
-        "name": "Hello World in C++",
-        "description": "the clich\u00e9d starting point, in C++",
-        "categories": "C++",
-        "relative_path": "cpp/hello",
-        "updated_at": "2021-04-27T13:35:55Z",
-        "id": "#191"
-    },
-    {
-        "id": "#192",
-        "name": "Hello World in C",
-        "description": "the clich\u00e9d starting point, in C",
-        "categories": "C",
-        "relative_path": "c/hello",
-        "updated_at": "2021-04-27T13:35:58Z"
-    },
-    {
-        "name": "Palindromes",
-        "description": "Examples of how to code a palidrome check in C++",
-        "categories": "C++",
-        "relative_path": "cpp/palindromes",
-        "updated_at": "2021-04-27T14:30:51Z",
-        "id": "#193"
-    },
-    {
-        "name": "Float Format",
-        "description": "Testing floating point number formatting with the C++",
-        "categories": "C++",
-        "relative_path": "cpp/float_format",
-        "updated_at": "2021-04-27T17:11:46Z",
-        "id": "#194"
-    },
-    {
-        "name": "SDL2 MacOSX Install",
-        "description": "Installing the Simple DirectMedia Layer library on MacOSX, and running a basic verification program in C++",
-        "categories": "C++, SDL",
-        "relative_path": "cpp/sdl/install",
-        "updated_at": "2021-04-27T18:10:33Z",
-        "id": "#195"
+        "updated_at": "2021-05-06T04:56:35Z",
+        "id": "#182"
     },
     {
         "name": "Numeric Limits in C++",
         "description": "Numeric limits information available in the C++ standard library",
         "categories": "C++",
         "relative_path": "cpp/numeric_limits",
-        "updated_at": "2021-04-30T14:05:21Z",
-        "id": "#196"
+        "updated_at": "2021-05-06T04:56:35Z",
+        "id": "#183"
     },
     {
-        "name": "Numeric Limits in C",
-        "description": "Numeric limits information available in the C standard library (and finding another clang/gcc difference)",
-        "categories": "C",
-        "relative_path": "c/numeric_limits",
-        "updated_at": "2021-04-30T14:05:25Z",
-        "id": "#197"
+        "name": "Hands-On System Programming with C++",
+        "description": "Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn",
+        "categories": "C++, book",
+        "relative_path": "cpp/hands_on_system_programming_with_cpp",
+        "updated_at": "2021-05-06T04:56:35Z",
+        "id": "#184"
+    },
+    {
+        "name": "Float Format",
+        "description": "Testing floating point number formatting with the C++",
+        "categories": "C++",
+        "relative_path": "cpp/float_format",
+        "updated_at": "2021-05-06T04:56:35Z",
+        "id": "#185"
+    },
+    {
+        "name": "SDL2 MacOSX Install",
+        "description": "Installing the Simple DirectMedia Layer library on MacOSX, and running a basic verification program in C++",
+        "categories": "C++, SDL",
+        "relative_path": "cpp/sdl/install",
+        "updated_at": "2021-05-06T04:56:35Z",
+        "id": "#186"
     },
     {
         "name": "Basic SDL Graphics",
         "description": "Testing some basic windo and rendering functions with SDL library in C++.",
         "categories": "C++, SDL",
         "relative_path": "cpp/sdl/basic",
-        "updated_at": "2021-05-04T13:26:27Z",
+        "updated_at": "2021-05-06T04:56:35Z",
+        "id": "#187"
+    },
+    {
+        "name": "std::string::find",
+        "description": "A closer look at the find function for strings in C++",
+        "categories": "C++",
+        "relative_path": "cpp/string_find",
+        "updated_at": "2021-05-06T04:56:35Z",
+        "id": "#188"
+    },
+    {
+        "name": "Palindromes",
+        "description": "Examples of how to code a palidrome check in C++",
+        "categories": "C++",
+        "relative_path": "cpp/palindromes",
+        "updated_at": "2021-05-06T04:56:35Z",
+        "id": "#189"
+    },
+    {
+        "name": "Hello World in C++",
+        "description": "the clich\u00e9d starting point, in C++",
+        "categories": "C++",
+        "relative_path": "cpp/hello",
+        "updated_at": "2021-05-06T04:56:35Z",
+        "id": "#190"
+    },
+    {
+        "name": "Password Strength Testers",
+        "description": "Checking out various Javascript-based password strength testers and trying to find one that best implements latest NIST guidelines.",
+        "categories": "javascript, security",
+        "relative_path": "javascript/password_strength_testers",
+        "updated_at": "2021-05-06T04:56:35Z",
+        "id": "#191"
+    },
+    {
+        "name": "Numeric Limits in C",
+        "description": "Numeric limits information available in the C standard library (and finding another clang/gcc difference)",
+        "categories": "C",
+        "relative_path": "c/numeric_limits",
+        "updated_at": "2021-05-06T04:56:35Z",
+        "id": "#192"
+    },
+    {
+        "name": "Loops in C",
+        "description": "All about loops in C",
+        "categories": "c",
+        "relative_path": "c/loops",
+        "updated_at": "2021-05-06T04:56:35Z",
+        "id": "#193"
+    },
+    {
+        "id": "#194",
+        "name": "Hello World in C",
+        "description": "the clich\u00e9d starting point, in C",
+        "categories": "C",
+        "relative_path": "c/hello",
+        "updated_at": "2021-05-06T04:56:35Z"
+    },
+    {
+        "name": "Ruby Style",
+        "description": "On style guides and resources for ruby",
+        "categories": "ruby",
+        "relative_path": "ruby/style",
+        "updated_at": "2021-05-06T04:56:35Z",
+        "id": "#195"
+    },
+    {
+        "name": "Bitwise Operations",
+        "description": "All about bitwize operations in Ruby",
+        "categories": "ruby",
+        "relative_path": "ruby/bitwise_operations",
+        "updated_at": "2021-05-06T04:56:35Z",
+        "id": "#196"
+    },
+    {
+        "name": "Proc v Lambda",
+        "description": "Exploring differences and similarities between procs and lambdas in Ruby",
+        "categories": "ruby, closure",
+        "relative_path": "ruby/proc_v_lambda",
+        "updated_at": "2021-05-06T04:56:35Z",
+        "id": "#197"
+    },
+    {
+        "name": "Regular Expressions and String Indexes",
+        "description": "When string indexes are better than regex, and when regex can help writing a string index",
+        "categories": "ruby",
+        "relative_path": "ruby/regex_and_string_indexes",
+        "updated_at": "2021-05-06T04:56:35Z",
         "id": "#198"
+    },
+    {
+        "name": "Bash if and test",
+        "description": "All about if/then test constructs in Bash scripting",
+        "categories": "Bash",
+        "relative_path": "bash/if_and_test",
+        "updated_at": "2021-05-30T03:46:14Z",
+        "id": "#199"
     }
 ]
