@@ -50,8 +50,15 @@ function is_function() {
 name=$1
 function_name=run_${name}
 
-# if is_function $function_name
+echo "Performing inline test..."
 if type  -t "${function_name}" 2>/dev/null | grep -q 'function'
+then
+  echo "# calling the function ${function_name} now we know it exists.."
+  $function_name
+fi
+
+echo "Performing test with is_function()..."
+if is_function $function_name
 then
   echo "# calling the function ${function_name} now we know it exists.."
   $function_name
