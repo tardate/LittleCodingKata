@@ -1596,7 +1596,15 @@
         "description": "the GNU Bash Reference Manual",
         "categories": "Bash, book",
         "relative_path": "bash/bash_reference_manual",
-        "updated_at": "2021-05-30T09:22:51Z",
+        "updated_at": "2021-05-30T11:31:14Z",
         "id": "#200"
+    },
+    {
+        "name": "Sort by Numbers",
+        "description": "Sorting text numerically in the shell using the special --version-sort mode of the sort utility",
+        "categories": "Bash",
+        "relative_path": "bash/sort_by_numbers",
+        "updated_at": "2021-05-30T12:26:21Z",
+        "id": "#201"
     }
 ]

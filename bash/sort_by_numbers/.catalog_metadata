@@ -1,0 +1,6 @@
+{
+    "name": "Sort by Numbers",
+    "description": "Sorting text numerically in the shell using the special --version-sort mode of the sort utility",
+    "categories": "Bash",
+    "relative_path": "bash/sort_by_numbers"
+}

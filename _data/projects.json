@@ -1754,5 +1754,13 @@
             "Bash",
             "book"
         ]
+    },
+    "/bash/sort_by_numbers/": {
+        "id": 201,
+        "title": "Sort by Numbers",
+        "summary": "Sorting text numerically in the shell using the special --version-sort mode of the sort utility",
+        "tags": [
+            "Bash"
+        ]
     }
 }
