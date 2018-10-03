@@ -1,0 +1,6 @@
+{
+    "name": "MySQL on MacOSX",
+    "description": "Notes on installing and running MySQL on MacOSX",
+    "categories": "Database, MySQL",
+    "relative_path": "databases/mysql/install_macosx"
+}

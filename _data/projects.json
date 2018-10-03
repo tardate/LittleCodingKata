@@ -331,7 +331,7 @@
     }, 
     "/c/pointers/": {
         "summary": "All about pointers in C", 
-        "id": 111, 
+        "id": 110, 
         "tags": [
             "C"
         ], 
@@ -472,7 +472,7 @@
     }, 
     "/c/linking/": {
         "summary": "All about compiling, linking, and debugging C with GCC", 
-        "id": 110, 
+        "id": 112, 
         "tags": [
             "C"
         ], 
@@ -638,6 +638,15 @@
         ], 
         "title": "Bash/parse_env_setting"
     }, 
+    "/databases/mysql/install_macosx/": {
+        "summary": "Notes on installing and running MySQL on MacOSX", 
+        "id": 113, 
+        "tags": [
+            "Database", 
+            "MySQL"
+        ], 
+        "title": "MySQL on MacOSX"
+    }, 
     "/javascript/highcharts_with_bower/": {
         "summary": "Highcharts with Bower", 
         "id": 40, 
@@ -671,6 +680,15 @@
             "C"
         ], 
         "title": "QR Codes with Python"
+    }, 
+    "/databases/postgresql/copy_table/": {
+        "summary": "notes on copying table strictures and data with SQL", 
+        "id": 114, 
+        "tags": [
+            "Database", 
+            "SQL"
+        ], 
+        "title": "Copying Tables"
     }, 
     "/tools/emacs/": {
         "summary": "closer look at emacs", 
@@ -795,7 +813,7 @@
     }, 
     "/c/21st_century_c/": {
         "summary": "Notes on the book '21st Century C' by Ben Klemens, pubished by O'Reilly", 
-        "id": 112, 
+        "id": 111, 
         "tags": [
             "C", 
             "book"

@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-01-25T11:10:40Z</updated>
+  <updated>2020-01-25T12:36:44Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -965,17 +965,9 @@
     <category term="ruby"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/c/linking/</id>
-    <link href="https://codingkata.tardate.com/c/linking/"/>
-    <updated>2020-01-25T08:38:00Z</updated>
-    <title>Linking C</title>
-    <summary>All about compiling, linking, and debugging C with GCC</summary>
-    <category term="C"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/c/pointers/</id>
     <link href="https://codingkata.tardate.com/c/pointers/"/>
-    <updated>2020-01-25T10:35:21Z</updated>
+    <updated>2020-01-25T11:14:29Z</updated>
     <title>Pointers in C</title>
     <summary>All about pointers in C</summary>
     <category term="C"/>
@@ -983,10 +975,36 @@
   <entry>
     <id>https://codingkata.tardate.com/c/21st_century_c/</id>
     <link href="https://codingkata.tardate.com/c/21st_century_c/"/>
-    <updated>2020-01-25T10:39:04Z</updated>
+    <updated>2020-01-25T11:14:29Z</updated>
     <title>21st Century C</title>
     <summary>Notes on the book '21st Century C' by Ben Klemens, pubished by O'Reilly</summary>
     <category term="C"/>
     <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/c/linking/</id>
+    <link href="https://codingkata.tardate.com/c/linking/"/>
+    <updated>2020-01-25T11:14:29Z</updated>
+    <title>Linking C</title>
+    <summary>All about compiling, linking, and debugging C with GCC</summary>
+    <category term="C"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/databases/mysql/install_macosx/</id>
+    <link href="https://codingkata.tardate.com/databases/mysql/install_macosx/"/>
+    <updated>2020-01-25T11:24:04Z</updated>
+    <title>MySQL on MacOSX</title>
+    <summary>Notes on installing and running MySQL on MacOSX</summary>
+    <category term="Database"/>
+    <category term="MySQL"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/databases/postgresql/copy_table/</id>
+    <link href="https://codingkata.tardate.com/databases/postgresql/copy_table/"/>
+    <updated>2020-01-25T11:48:59Z</updated>
+    <title>Copying Tables</title>
+    <summary>notes on copying table strictures and data with SQL</summary>
+    <category term="Database"/>
+    <category term="SQL"/>
   </entry>
 </feed>

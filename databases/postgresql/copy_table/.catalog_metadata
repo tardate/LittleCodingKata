@@ -1,0 +1,6 @@
+{
+    "name": "Copying Tables",
+    "description": "notes on copying table strictures and data with SQL",
+    "categories": "Database, SQL",
+    "relative_path": "databases/postgresql/copy_table"
+}

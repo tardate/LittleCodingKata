@@ -112,5 +112,6 @@ DROP DATABASE
 ```
 
 ## Credits and References
+
 * [REVOKE docs](https://www.postgresql.org/docs/9.0/sql-revoke.html)
 * [psql meta commands](https://www.postgresql.org/docs/current/app-psql.html)
