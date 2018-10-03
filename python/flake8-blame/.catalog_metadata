@@ -1,0 +1,6 @@
+{
+    "name": "flake8-blame",
+    "description": "Who busted Python style-guide rules?",
+    "categories": "Python, Bash",
+    "relative_path": "python/flake8-blame"
+}

@@ -97,6 +97,12 @@
         "name": "python/imgur"
     }, 
     {
+        "relative_path": "python/flake8-blame", 
+        "name": "flake8-blame", 
+        "categories": "Python, Bash", 
+        "description": "Who busted Python style-guide rules?"
+    }, 
+    {
         "description": "all about MAC and generating random MAC addresses", 
         "relative_path": "python/random_mac_generation", 
         "id": "#029", 
