@@ -1,0 +1,6 @@
+{
+    "name": "Celery",
+    "description": "About Celery, a distributed task queue system for python",
+    "categories": "python",
+    "relative_path": "python/celery"
+}
