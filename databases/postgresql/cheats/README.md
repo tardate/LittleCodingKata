@@ -6,8 +6,59 @@ Basic administration and data management command tips and tricks...
 
 ## Notes
 
+## psql
+
+The [psql](https://www.postgresql.org/docs/current/app-psql.html) utility is a terminal-based front-end to PostgreSQL.
+
+Running 1-shot commands in the console:
+
+```
+$ psql postgres -c "select now();"
+              now
+-------------------------------
+ 2019-08-09 10:39:12.805927+08
+(1 row)
+```
+
+## Testing Database Connectivity
+
+```
+myname$ psql postgres -c "\c"
+You are now connected to database "postgres" as user "myname"
+```
+
+## Creating a Database
+
+Use [CREATE DATABASE](https://www.postgresql.org/docs/current/sql-createdatabase.html) e.g.
+
+```
+CREATE DATABASE mydb ENCODING='UTF8';"
+```
+
+And of course, to remove it:
+
+```
+DROP DATABASE mydb;
+```
 
 ## Managing Roles
+
+### Creating a Role
+
+Use [CREATE ROLE](https://www.postgresql.org/docs/current/sql-createrole.html) e.g.
+
+```
+CREATE ROLE manager LOGIN PASSWORD 'password' SUPERUSER INHERIT NOCREATEDB NOCREATEROLE;
+```
+
+Optionally [GRANT](https://www.postgresql.org/docs/current/sql-grant.html) individual permissions:
+
+```
+CREATE ROLE reader LOGIN PASSWORD 'password' INHERIT;
+grant CONNECT ON DATABASE mydb TO reader;
+GRANT USAGE ON SCHEMA myschema TO reader;
+GRANT SELECT ON myschema.table1 TO reader;
+```
 
 ### Connection limit per user
 

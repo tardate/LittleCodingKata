@@ -6,6 +6,12 @@
         "description": "Notes on methods to inspect PostgreSQL role permissions, revoke permissions and drop roles"
     }, 
     {
+        "relative_path": "databases/postgresql/sql2csv", 
+        "name": "SQL to CSV", 
+        "categories": "databases, postgresql, psql, csv", 
+        "description": "Methods for generating CSV output from a PostgreSQL SQL query"
+    }, 
+    {
         "relative_path": "databases/postgresql/cheats", 
         "name": "PostgreSQL Cheat Sheet", 
         "categories": "Database, PostgreSQL", 
