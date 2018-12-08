@@ -1,0 +1,6 @@
+{
+    "name": "s3sync",
+    "description": "Using Amazon S3 for offsite data backup and long term storage",
+    "categories": "tools, S3, AWS",
+    "relative_path": "tools/s3sync"
+}

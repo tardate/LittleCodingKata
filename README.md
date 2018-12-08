@@ -26,6 +26,6 @@ or even send a pull-request.
 ## Project Index
 
 LittleCodingKata has a new catalog/web site!
-It's actually just simple GitHub pages sitting right on top of this repository. Try it out:
+It's actually just simple static site sitting right on top of this repository and served by Netlify. Try it out:
 
 [![lck-splash](./catalog/assets/images/lck-splash.png?raw=true)](https://codingkata.tardate.com/)
