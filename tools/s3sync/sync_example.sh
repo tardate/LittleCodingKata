@@ -113,6 +113,6 @@ then
   echo "Removing existing ${clone_folder}"
   rm -fR ${clone_folder}
 fi
-sleep 1  # give S3 a moment tocatch up with changes, else following commands may partially fail
+sleep 1  # give S3 a moment to catch up with changes, else following commands may partially fail
 aws s3 sync s3://${bucket}/${source_folder} ${clone_folder}
 failbail $?

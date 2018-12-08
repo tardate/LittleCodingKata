@@ -240,7 +240,7 @@ The [sync_example.sh](./sync_example.sh) puts a sequence of procedures together 
     * it recreates the local folder: backup_example_folder
     * it recreates the local folder: backup_example_folder_clone
 
-    For S3 commands it will use the AWS_PROFILE=evendis
+    For S3 commands it will use the AWS_PROFILE=backup
 
     About to proceed .. Are you sure? (y/n) y
     Running..
