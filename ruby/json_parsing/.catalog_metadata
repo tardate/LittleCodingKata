@@ -1,0 +1,6 @@
+{
+    "name": "JSON Parsing",
+    "description": "Generating pretty JSON with Ruby and dealing with quirks",
+    "categories": "ruby",
+    "relative_path": "ruby/json_parsing"
+}

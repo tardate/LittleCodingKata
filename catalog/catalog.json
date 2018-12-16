@@ -449,6 +449,12 @@
         "description": "Using Sinatra to craft simple HTTP web responses for mock integration testing"
     }, 
     {
+        "relative_path": "ruby/json_parsing", 
+        "name": "JSON Parsing", 
+        "categories": "ruby", 
+        "description": "Generating pretty JSON with Ruby and dealing with quirks"
+    }, 
+    {
         "description": "all about MAC and generating random MAC addresses", 
         "relative_path": "ruby/random_mac_generation", 
         "id": "#023", 
