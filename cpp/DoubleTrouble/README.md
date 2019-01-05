@@ -501,38 +501,73 @@ Using the LLVM/clang libc++:
 
     $ g++ -std=c++17 -stdlib=libc++ -o DoubleTrouble.libc.exe DoubleTrouble.cpp && ./DoubleTrouble.libc.exe
     # Valid floats followed by miscellaneous input
-    Reading '-4.9 A': result=-4.9 [OK, matches expected] (gcount: 0, tellg: 4), remainder on stream='A' [OK, matches expected]
-    Reading '-4.9A': result=0 [BAD, does not match expected: -4.9] (gcount: 0, tellg: -1), remainder on stream='' [BAD, does not match expected: 'A']
-    Reading '-4.9 Z': result=-4.9 [OK, matches expected] (gcount: 0, tellg: 4), remainder on stream='Z' [OK, matches expected]
-    Reading '-4.9Z': result=-4.9 [OK, matches expected] (gcount: 0, tellg: 4), remainder on stream='Z' [OK, matches expected]
-    # Floating point literals followed by miscellaneous input
-    Reading '0x1a.bp+07': result=3416 [OK, matches expected] (gcount: 0, tellg: -1), remainder on stream='' [OK, matches expected]
-    Reading '0x1a.bp+07aaaa': result=0 [BAD, does not match expected: 3416] (gcount: 0, tellg: -1), remainder on stream='' [BAD, does not match expected: 'aaaa']
-    Reading '0x1a.bp+07zzzz': result=3416 [OK, matches expected] (gcount: 0, tellg: 10), remainder on stream='zzzz' [OK, matches expected]
+    Reading '-4.9 A':
+      - result=-4.9 [OK, matches expected] (gcount: 0, tellg: 4)
+      - remainder on stream='A' [OK, matches expected]
+    Reading '-4.9A':
+      - result=0 [BAD, does not match expected: -4.9] (gcount: 0, tellg: -1)
+      - remainder on stream='' [BAD, does not match expected: 'A']
+    Reading '-4.9 Z':
+      - result=-4.9 [OK, matches expected] (gcount: 0, tellg: 4)
+      - remainder on stream='Z' [OK, matches expected]
+    Reading '-4.9Z':
+      - result=-4.9 [OK, matches expected] (gcount: 0, tellg: 4)
+      - remainder on stream='Z' [OK, matches expected]
+    # Floating point literals, some followed by miscellaneous input
+    Reading '0x1a.bp+07':
+      - result=3416 [OK, matches expected] (gcount: 0, tellg: -1)
+      - remainder on stream='' [OK, matches expected]
+    Reading '0x1a.bp+07aaaa':
+      - result=0 [BAD, does not match expected: 3416] (gcount: 0, tellg: -1)
+      - remainder on stream='' [BAD, does not match expected: 'aaaa']
+    Reading '0x1a.bp+07zzzz':
+      - result=3416 [OK, matches expected] (gcount: 0, tellg: 10)
+      - remainder on stream='zzzz' [OK, matches expected]
     # Things that might look like numbers at first, but aren't
-    Reading 'car': result=0 [OK, matches expected] (gcount: 0, tellg: -1), remainder on stream='r' [BAD, does not match expected: 'car']
-    Reading 'truck': result=0 [OK, matches expected] (gcount: 0, tellg: -1), remainder on stream='truck' [OK, matches expected]
+    Reading 'car':
+      - result=0 [OK, matches expected] (gcount: 0, tellg: -1)
+      - remainder on stream='r' [BAD, does not match expected: 'car']
+    Reading 'truck':
+      - result=0 [OK, matches expected] (gcount: 0, tellg: -1)
+      - remainder on stream='truck' [OK, matches expected
 
 Using the GCC libstdc++:
 
     g++ -std=c++17 -stdlib=libstdc++ -o DoubleTrouble.libstdc.exe DoubleTrouble.cpp && ./DoubleTrouble.libstdc.exe
     clang: warning: libstdc++ is deprecated; move to libc++ [-Wdeprecated]
     # Valid floats followed by miscellaneous input
-    Reading '-4.9 A': result=-4.9 [OK, matches expected] (gcount: 0, tellg: 4), remainder on stream='A' [OK, matches expected]
-    Reading '-4.9A': result=-4.9 [OK, matches expected] (gcount: 0, tellg: 4), remainder on stream='A' [OK, matches expected]
-    Reading '-4.9 Z': result=-4.9 [OK, matches expected] (gcount: 0, tellg: 4), remainder on stream='Z' [OK, matches expected]
-    Reading '-4.9Z': result=-4.9 [OK, matches expected] (gcount: 0, tellg: 4), remainder on stream='Z' [OK, matches expected]
-    # Floating point literals followed by miscellaneous input
-    Reading '0x1a.bp+07': result=0 [BAD, does not match expected: 3416] (gcount: 0, tellg: 1), remainder on stream='x1a.bp+07' [BAD, does not match expected: '']
-    Reading '0x1a.bp+07aaaa': result=0 [BAD, does not match expected: 3416] (gcount: 0, tellg: 1), remainder on stream='x1a.bp+07aaaa' [BAD, does not match expected: 'aaaa']
-    Reading '0x1a.bp+07zzzz': result=0 [BAD, does not match expected: 3416] (gcount: 0, tellg: 1), remainder on stream='x1a.bp+07zzzz' [BAD, does not match expected: 'zzzz']
+    Reading '-4.9 A':
+      - result=-4.9 [OK, matches expected] (gcount: 0, tellg: 4)
+      - remainder on stream='A' [OK, matches expected]
+    Reading '-4.9A':
+      - result=-4.9 [OK, matches expected] (gcount: 0, tellg: 4)
+      - remainder on stream='A' [OK, matches expected]
+    Reading '-4.9 Z':
+      - result=-4.9 [OK, matches expected] (gcount: 0, tellg: 4)
+      - remainder on stream='Z' [OK, matches expected]
+    Reading '-4.9Z':
+      - result=-4.9 [OK, matches expected] (gcount: 0, tellg: 4)
+      - remainder on stream='Z' [OK, matches expected]
+    # Floating point literals, some followed by miscellaneous input
+    Reading '0x1a.bp+07':
+      - result=0 [BAD, does not match expected: 3416] (gcount: 0, tellg: 1)
+      - remainder on stream='x1a.bp+07' [BAD, does not match expected: '']
+    Reading '0x1a.bp+07aaaa':
+      - result=0 [BAD, does not match expected: 3416] (gcount: 0, tellg: 1)
+      - remainder on stream='x1a.bp+07aaaa' [BAD, does not match expected: 'aaaa']
+    Reading '0x1a.bp+07zzzz':
+      - result=0 [BAD, does not match expected: 3416] (gcount: 0, tellg: 1)
+      - remainder on stream='x1a.bp+07zzzz' [BAD, does not match expected: 'zzzz']
     # Things that might look like numbers at first, but aren't
-    Reading 'car': result=42 [BAD, does not match expected: 0] (gcount: 0, tellg: -1), remainder on stream='car' [OK, matches expected]
-    Reading 'truck': result=42 [BAD, does not match expected: 0] (gcount: 0, tellg: -1), remainder on stream='truck' [OK, matches expected]
+    Reading 'car':
+      - result=42 [BAD, does not match expected: 0] (gcount: 0, tellg: -1)
+      - remainder on stream='car' [OK, matches expected]
+    Reading 'truck':
+      - result=42 [BAD, does not match expected: 0] (gcount: 0, tellg: -1)
+      - remainder on stream='truck' [OK, matches expected]
 
 
 ## Conculsion?
-
 
 This lead me down the C++ standards rabbit hole - a useful and interesting exercise in it's own right.
 
