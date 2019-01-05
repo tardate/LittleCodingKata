@@ -290,11 +290,23 @@
         "name": "C++/exception_handling"
     }, 
     {
+        "relative_path": "cpp/about", 
+        "name": "C++/about", 
+        "categories": "C++", 
+        "description": "My place for notes on C++ resources and references"
+    }, 
+    {
         "description": "Installing and testing doxygen for c++ source documentation generation on MacOSX", 
         "relative_path": "cpp/doxygen", 
         "id": "#055", 
         "categories": "C++", 
         "name": "cpp/doxygen"
+    }, 
+    {
+        "relative_path": "cpp/DoubleTrouble", 
+        "name": "C++/DoubleTrouble", 
+        "categories": "C++", 
+        "description": "Investigting some of the pitfalls of directly reading doubles from a stream, then going down the rabbit hole of bugs and variations in the LLVM/Clang and GCC implementations of the C++ standard library."
     }, 
     {
         "description": "About C# with Mono", 
