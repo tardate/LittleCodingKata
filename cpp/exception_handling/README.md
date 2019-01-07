@@ -2,7 +2,6 @@
 
 Exercising C++ exception handling.
 
-
 [:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
 
 ## Notes
@@ -11,8 +10,10 @@ The essentials of exception handling in c++:
 
 * when compiling c++, exception handling is usually turned on by default. But this can be compiler-specific and require switches to enable
 * mulitple `catch` blocks allow catching different types of errors
-* `const throw()` indicates the method cannot throw an exception since no params. Bad practice generally.
+* [noexcept specifier](https://en.cppreference.com/w/cpp/language/noexcept_spec) indicates the method cannot throw an exception. Bad practice generally.
+    * noexcept is an improved version of `throw()`, which is deprecated in C++11
 * polymorphism applies: must catch exception subclasses before ancestors
+
 
 ## Demo
 
@@ -24,9 +25,11 @@ The essentials of exception handling in c++:
 * custom exception classes
 * polymorphic standard exceptions
 
-..and ends on an uncaught exception:
+..and ends on an uncaught exception.
 
-    $ g++ exception_handling.cpp -o exception_handling.exe && ./exception_handling.exe
+NB: this is updated for C++17 syntax - specifically the use of `noexcept` instead of `throw()`.
+
+    $ g++ -std=c++17 -o exception_handling.exe exception_handling.cpp && ./exception_handling.exe
 
     Testing a range of standard and custom exceptions..
 
@@ -39,7 +42,7 @@ The essentials of exception handling in c++:
 
     Now testing an exception in a constructor..
 
-    exception_handling.exe(11185,0x7fff73f2d300) malloc: *** mach_vm_map(size=1000000000000000) failed (error code=3)
+    exception_handling.exe(28207,0x7fffae28f380) malloc: *** mach_vm_map(size=1000000000000000) failed (error code=3)
     *** error: can't allocate region
     *** set a breakpoint in malloc_error_break to debug
     bad_alloc message: std::bad_alloc
@@ -53,7 +56,9 @@ The essentials of exception handling in c++:
 
 
 ## Credits and References
+* [noexcept specifier](https://en.cppreference.com/w/cpp/language/noexcept_spec)
+* [Dynamic exception specification](https://en.cppreference.com/w/cpp/language/except_spec)
 * [exception tutorial](http://www.cplusplus.com/doc/tutorial/exceptions/) - cplusplus.com
 * [exception reference](http://www.cplusplus.com/reference/exception/exception/) - cplusplus.com
 * [Learn Advanced C++ Programming](https://www.udemy.com/learn-advanced-c-programming/)
-* [Doxygen documentation for the demo](./doc/html/index.html)
+* [Doxygen documentation for the demo](https://codingkata.tardate.com/cpp/exception_handling/doc/html/)

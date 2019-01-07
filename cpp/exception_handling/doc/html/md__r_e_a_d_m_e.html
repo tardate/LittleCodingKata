@@ -63,12 +63,16 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>Exercising C++ exception handling.</p>
+<p><a href="https://codingkata.tardate.com">:arrow_forward: return to the Catalog</a></p>
 <h2>Notes</h2>
 <p>The essentials of exception handling in c++:</p>
 <ul>
 <li>when compiling c++, exception handling is usually turned on by default. But this can be compiler-specific and require switches to enable</li>
 <li>mulitple <code>catch</code> blocks allow catching different types of errors</li>
-<li><code>const throw()</code> indicates the method cannot throw an exception since no params. Bad practice generally.</li>
+<li><a href="https://en.cppreference.com/w/cpp/language/noexcept_spec">noexcept specifier</a> indicates the method cannot throw an exception. Bad practice generally.<ul>
+<li>noexcept is an improved version of <code>throw()</code>, which is deprecated in C++11</li>
+</ul>
+</li>
 <li>polymorphism applies: must catch exception subclasses before ancestors</li>
 </ul>
 <h2>Demo</h2>
@@ -80,7 +84,8 @@ $(function() {
 <li>custom exception classes</li>
 <li>polymorphic standard exceptions</li>
 </ul>
-<p>..and ends on an uncaught exception: </p><pre class="fragment">$ g++ exception_handling.cpp -o exception_handling.exe &amp;&amp; ./exception_handling.exe
+<p>..and ends on an uncaught exception.</p>
+<p>NB: this is updated for C++17 syntax - specifically the use of <code>noexcept</code> instead of <code>throw()</code>. </p><pre class="fragment">$ g++ -std=c++17 -o exception_handling.exe exception_handling.cpp &amp;&amp; ./exception_handling.exe
 
 Testing a range of standard and custom exceptions..
 
@@ -93,7 +98,7 @@ CustomException message caught by reference: Something bad happened
 
 Now testing an exception in a constructor..
 
-exception_handling.exe(11185,0x7fff73f2d300) malloc: *** mach_vm_map(size=1000000000000000) failed (error code=3)
+exception_handling.exe(28207,0x7fffae28f380) malloc: *** mach_vm_map(size=1000000000000000) failed (error code=3)
 *** error: can't allocate region
 *** set a breakpoint in malloc_error_break to debug
 bad_alloc message: std::bad_alloc
@@ -106,9 +111,12 @@ libc++abi.dylib: terminating with uncaught exception of type int
 Abort trap: 6
 </pre><h2>Credits and References</h2>
 <ul>
+<li><a href="https://en.cppreference.com/w/cpp/language/noexcept_spec">noexcept specifier</a></li>
+<li><a href="https://en.cppreference.com/w/cpp/language/except_spec">Dynamic exception specification</a></li>
 <li><a href="http://www.cplusplus.com/doc/tutorial/exceptions/">exception tutorial</a> - cplusplus.com</li>
 <li><a href="http://www.cplusplus.com/reference/exception/exception/">exception reference</a> - cplusplus.com</li>
-<li><a href="https://www.udemy.com/learn-advanced-c-programming/">Learn Advanced C++ Programming</a> </li>
+<li><a href="https://www.udemy.com/learn-advanced-c-programming/">Learn Advanced C++ Programming</a></li>
+<li><a href="https://codingkata.tardate.com/cpp/exception_handling/doc/html/">Doxygen documentation for the demo</a> </li>
 </ul>
 </div></div><!-- contents -->
 <!-- start footer part -->

@@ -10,7 +10,7 @@ public:
 
   /// @brief Get string identifying exception
   ///
-  virtual const char * what() const throw() {
+  virtual const char * what() const noexcept {
     return "Something bad happened";
   }
 
@@ -66,7 +66,7 @@ int main() {
 
   cout << endl << "Testing a range of standard and custom exceptions.." << endl << endl;
 
-  for(int trials=0; trials<6; trials++) {
+  for(int trials=0; trials<6; ++trials) {
 
     try {
       mightGoWrong(trials);
