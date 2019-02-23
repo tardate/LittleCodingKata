@@ -1,5 +1,11 @@
 [
     {
+        "relative_path": "databases/postgresql/deleting_roles", 
+        "name": "deleting_roles", 
+        "categories": "databases, postgresql", 
+        "description": "Notes on methods to inspect PostgreSQL role permissions, revoke permissions and drop roles"
+    }, 
+    {
         "description": "Basic administration and data management command cheats...", 
         "relative_path": "databases/mysql/cheats", 
         "id": "#058", 
