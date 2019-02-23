@@ -1,0 +1,6 @@
+{
+    "name": "sync_folder",
+    "description": "Comparing methods for synchronizing local folders - cp, rsync",
+    "categories": "Bash",
+    "relative_path": "bash/sync_folder"
+}

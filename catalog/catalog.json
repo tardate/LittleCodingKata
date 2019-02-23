@@ -241,6 +241,12 @@
         "name": "Bash/case_statement"
     }, 
     {
+        "relative_path": "bash/sync_folder", 
+        "name": "sync_folder", 
+        "categories": "Bash", 
+        "description": "Comparing methods for synchronizing local folders - cp, rsync"
+    }, 
+    {
         "description": "How to implement simple resource semaphores with file locks", 
         "relative_path": "bash/file_locks", 
         "id": "#060", 
