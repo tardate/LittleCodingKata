@@ -484,5 +484,11 @@
         "id": "#023", 
         "categories": "Ruby", 
         "name": "Ruby/random_mac_generation"
+    }, 
+    {
+        "relative_path": "ruby/rails6", 
+        "name": "rails6", 
+        "categories": "ruby", 
+        "description": "Testing out Rails 6 (beta1) and learning about changes and new features"
     }
 ]
