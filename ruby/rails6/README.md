@@ -1,4 +1,4 @@
-# rails6
+# Ruby on Rails 6
 
 Testing out Rails 6 (beta1) and learning about changes and new features.
 
@@ -60,7 +60,17 @@ Rails 6.0.0.beta1
 $ rails new minime6
 ...
 $ cd minime6
-$ bin/rails server
+$ rails db:migrate
+$ rails server
+=> Booting Puma
+=> Rails 6.0.0.beta1 application starting in development
+=> Run `rails server --help` for more startup options
+Puma starting in single mode...
+* Version 3.12.0 (ruby 2.6.0-p0), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
 ```
 
 > Puma caught this error: Error loading the 'sqlite3' Active Record adapter. Missing a gem it depends on? can't activate sqlite3 (~> 1.3.6), already activated sqlite3-1.4.0. Make sure all dependencies are added to Gemfile. (LoadError)
@@ -69,7 +79,8 @@ Update Gemfile to pin `gem 'sqlite3', '~> 1.3.6'` and re-run `bundle`
 
 Hit `http://localhost:3000`..
 
-![rails-hello](./assets/rails-hello.png)
+![rails6-hello](./assets/rails6-hello.png)
+
 
 #### Adding a Welcome Page
 
@@ -81,10 +92,12 @@ bin/rails generate controller Welcome index
 
 Adjust routes to use this as the main page.
 
+![rails6-welcome](./assets/rails6-welcome.png)
+
+
 #### Testing
 
 ```
-$ rails db:migrate
 $ rake test
 Run options: --seed 13985
 
@@ -96,8 +109,22 @@ Finished in 4.183906s, 0.2390 runs/s, 0.2390 assertions/s.
 1 runs, 1 assertions, 0 failures, 0 errors, 0 skips
 ```
 
+
+#### Adding The Blog App
+
+The getting started guide has always outlined a simple [blog application](https://guides.rubyonrails.org/getting_started.html#creating-the-blog-application).
+Adding the basic features to `minime6`:
+
+```
+rails generate controller Articles
+rails generate model Article title:string text:text
+rails db:migrate
+```
+
 ## Credits and References
 * [Rails Getting Started](https://guides.rubyonrails.org/getting_started.html)
 * [Rails 6 Timeline](https://weblog.rubyonrails.org/2018/12/20/timeline-for-the-release-of-Rails-6-0/)
 * [Rails 6 Release Notes](https://edgeguides.rubyonrails.org/6_0_release_notes.html)
-* [..as mentioned on my blog](https://blog.tardate.com/)
+* [Ruby Versions for Rails](https://guides.rubyonrails.org/upgrading_ruby_on_rails.html#ruby-versions)
+* [Rails API](https://api.rubyonrails.org/)
+

@@ -1,6 +1,6 @@
 {
     "name": "rails6",
     "description": "Testing out Rails 6 (beta1) and learning about changes and new features",
-    "categories": "ruby",
+    "categories": "ruby, rails",
     "relative_path": "ruby/rails6"
 }

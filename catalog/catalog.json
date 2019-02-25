@@ -488,7 +488,25 @@
     {
         "relative_path": "ruby/rails6", 
         "name": "rails6", 
-        "categories": "ruby", 
+        "categories": "ruby, rails", 
         "description": "Testing out Rails 6 (beta1) and learning about changes and new features"
+    }, 
+    {
+        "relative_path": "ruby/rails3", 
+        "name": "rails3", 
+        "categories": "ruby, rails", 
+        "description": "Features and demonstration of Rails 3."
+    }, 
+    {
+        "relative_path": "ruby/rails4", 
+        "name": "rails4", 
+        "categories": "ruby, rails", 
+        "description": "Features and demonstration of Rails 4"
+    }, 
+    {
+        "relative_path": "ruby/rails5", 
+        "name": "rails5", 
+        "categories": "ruby, rails", 
+        "description": "Features and demonstration of Rails 5"
     }
 ]
