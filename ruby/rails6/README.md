@@ -71,6 +71,30 @@ Hit `http://localhost:3000`..
 
 ![rails-hello](./assets/rails-hello.png)
 
+#### Adding a Welcome Page
+
+Using controller generator:
+
+```
+bin/rails generate controller Welcome index
+```
+
+Adjust routes to use this as the main page.
+
+#### Testing
+
+```
+$ rails db:migrate
+$ rake test
+Run options: --seed 13985
+
+# Running:
+
+.
+
+Finished in 4.183906s, 0.2390 runs/s, 0.2390 assertions/s.
+1 runs, 1 assertions, 0 failures, 0 errors, 0 skips
+```
 
 ## Credits and References
 * [Rails Getting Started](https://guides.rubyonrails.org/getting_started.html)
