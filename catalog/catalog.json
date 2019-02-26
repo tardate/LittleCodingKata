@@ -40,6 +40,12 @@
         "name": "Tools/iproute2"
     }, 
     {
+        "relative_path": "tools/vscode", 
+        "name": "vscode", 
+        "categories": "tools, editors", 
+        "description": "Trying out Visual Studio Code"
+    }, 
+    {
         "relative_path": "tools/s3sync", 
         "name": "s3sync", 
         "categories": "tools, S3, AWS", 

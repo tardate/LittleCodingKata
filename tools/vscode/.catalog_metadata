@@ -1,0 +1,6 @@
+{
+    "name": "vscode",
+    "description": "Trying out Visual Studio Code",
+    "categories": "tools, editors",
+    "relative_path": "tools/vscode"
+}
