@@ -17,8 +17,8 @@ EOF
 }
 
 function make_project() {
-  # full_path=Kinetics/Part1/Part2
-  # parent_folder = Kinetics/Part1
+  # full_path=Folder/Part1/Part2
+  # parent_folder = Folder/Part1
   # project_name = Part2
   local full_path="${1}"
   local parent_folder=$(dirname "$full_path")
@@ -39,11 +39,10 @@ __subtitle__
 
 __notes__
 
-
 ## Credits and References
+
 * [name](url)
 * [..as mentioned on my blog](https://blog.tardate.com/)
-
 EOS
 
   local catalog_file="${full_path}/.catalog_metadata"

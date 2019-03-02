@@ -376,6 +376,12 @@
         "name": "Javascript/progress_bars_bootstrap"
     }, 
     {
+        "relative_path": "node/loadcsv", 
+        "name": "loadcsv", 
+        "categories": "node, CSV", 
+        "description": "Loading CSV files with node.js in a form suitable for use in statistical/machine learning algorithms"
+    }, 
+    {
         "description": "RADIUS - my tl;dr summary", 
         "relative_path": "infrastructure/radius/about", 
         "id": "#024", 
