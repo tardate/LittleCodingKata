@@ -1,0 +1,6 @@
+{
+    "name": "regression",
+    "description": "Implementing linear regression, logistic regression and multi-nominal logistic regression with tensorflow-js and node",
+    "categories": "node, regression, tensorflow",
+    "relative_path": "node/regression"
+}

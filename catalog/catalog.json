@@ -394,6 +394,12 @@
         "description": "A demonstration of the k-nearest neighbors algorithm implemented using tensorflow-js with node.js"
     }, 
     {
+        "relative_path": "node/regression", 
+        "name": "regression", 
+        "categories": "node, regression, tensorflow", 
+        "description": "Implementing linear regression, logistic regression and multi-nominal logistic regression with tensorflow-js and node"
+    }, 
+    {
         "description": "RADIUS - my tl;dr summary", 
         "relative_path": "infrastructure/radius/about", 
         "id": "#024", 
