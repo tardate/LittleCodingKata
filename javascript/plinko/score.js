@@ -1,9 +1,11 @@
 const outputs = [];
 
+
 function onScoreUpdate(dropPosition, bounciness, size, bucketLabel) {
   const sample = [dropPosition, bounciness, size, bucketLabel];
   outputs.push(sample);
 }
+
 
 function runAnalysis() {
   const testSetSize = 50;
@@ -23,6 +25,7 @@ function runAnalysis() {
   });
 }
 
+
 function knn(data, point, k) {
   return _.chain(data)
     .map(row => [distance(_.initial(row), point), _.last(row)])
@@ -37,6 +40,7 @@ function knn(data, point, k) {
     .value();
 }
 
+
 function distance(pointA, pointB) {
   return _.chain(pointA)
     .zip(pointB)
@@ -44,6 +48,7 @@ function distance(pointA, pointB) {
     .sum()
     .value() ** 0.5;
 }
+
 
 function splitDataset(data, testCount) {
   const shuffled = _.shuffle(data);
@@ -53,6 +58,7 @@ function splitDataset(data, testCount) {
 
   return [testSet, trainingSet];
 }
+
 
 function normalizeWithMinMax(data) {
   const featureCount = data[0].length - 1;
