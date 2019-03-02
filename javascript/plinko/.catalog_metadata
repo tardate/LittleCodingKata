@@ -1,0 +1,6 @@
+{
+    "name": "plinko",
+    "description": "A demonstration of the k-nearest neighbors algorithm implemented in javascript in a browser",
+    "categories": "javascript, knn",
+    "relative_path": "javascript/plinko"
+}

@@ -376,6 +376,12 @@
         "name": "Javascript/progress_bars_bootstrap"
     }, 
     {
+        "relative_path": "javascript/plinko", 
+        "name": "plinko", 
+        "categories": "javascript, knn", 
+        "description": "A demonstration of the k-nearest neighbors algorithm implemented in javascript in a browser"
+    }, 
+    {
         "relative_path": "node/loadcsv", 
         "name": "loadcsv", 
         "categories": "node, CSV", 
