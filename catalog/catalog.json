@@ -388,6 +388,12 @@
         "description": "Loading CSV files with node.js in a form suitable for use in statistical/machine learning algorithms"
     }, 
     {
+        "relative_path": "node/knn-tf", 
+        "name": "knn-tf", 
+        "categories": "node, knn, tensorflow", 
+        "description": "A demonstration of the k-nearest neighbors algorithm implemented using tensorflow-js with node.js"
+    }, 
+    {
         "description": "RADIUS - my tl;dr summary", 
         "relative_path": "infrastructure/radius/about", 
         "id": "#024", 

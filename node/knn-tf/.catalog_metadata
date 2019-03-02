@@ -1,0 +1,6 @@
+{
+    "name": "knn-tf",
+    "description": "A demonstration of the k-nearest neighbors algorithm implemented using tensorflow-js with node.js",
+    "categories": "node, knn, tensorflow",
+    "relative_path": "node/knn-tf"
+}
