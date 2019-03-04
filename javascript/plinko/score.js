@@ -7,10 +7,26 @@ function onScoreUpdate(dropPosition, bounciness, size, bucketLabel) {
 }
 
 
+function clearLog() {
+  var node = document.getElementById("log");
+  while (node.hasChildNodes()) {
+    node.removeChild(node.lastChild);
+  }
+}
+
+
+function printLog(...args) {
+  var node = document.createElement("DIV");
+  node.appendChild(document.createTextNode(args.join(' ')));
+  document.getElementById("log").appendChild(node);
+}
+
+
 function runAnalysis() {
   const testSetSize = 50;
   const k = 10;
   const featureCount = outputs[0].length - 1;
+  clearLog();
 
   _.range(0, featureCount).forEach(feature => {
     const data = _.map(outputs, row => [row[feature], _.last(row)]);
@@ -21,7 +37,7 @@ function runAnalysis() {
       .divide(testSetSize)
       .value();
 
-    console.log('Accuracy', accuracy, 'for k =', k, 'using feature', feature);
+    printLog('Accuracy', accuracy, 'for k =', k, 'using feature', feature);
   });
 }
 
@@ -44,7 +60,7 @@ function knn(data, point, k) {
 function distance(pointA, pointB) {
   return _.chain(pointA)
     .zip(pointB)
-    .map((a, b) => (a - b) ** 2)
+    .map(([a, b]) => (a - b) ** 2)
     .sum()
     .value() ** 0.5;
 }
