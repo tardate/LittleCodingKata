@@ -522,6 +522,12 @@
         "description": "Testing out Rails 6 (beta1) and learning about changes and new features"
     }, 
     {
+        "relative_path": "ruby/tempfiles", 
+        "name": "tempfiles", 
+        "categories": "ruby", 
+        "description": "Using Temporary Files with Ruby"
+    }, 
+    {
         "relative_path": "ruby/rails3", 
         "name": "rails3", 
         "categories": "ruby, rails", 

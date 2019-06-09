@@ -1,0 +1,6 @@
+{
+    "name": "tempfiles",
+    "description": "Using Temporary Files with Ruby",
+    "categories": "ruby",
+    "relative_path": "ruby/tempfiles"
+}
