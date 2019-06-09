@@ -1,6 +1,6 @@
 # s3sync
 
-Using Amazon S3 for offsite data backup and long term storage.
+Using Amazon S3 or Wasabi for offsite data backup and long term storage.
 
 [:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
 
@@ -306,7 +306,37 @@ The [sync_example.sh](./sync_example.sh) puts a sequence of procedures together 
     download: s3://backup.example.lck.com/backup_example_folder/test4.txt to backup_example_folder_clone/test4.txt
     download: s3://backup.example.lck.com/backup_example_folder/test1.txt to backup_example_folder_clone/test1.txt
 
+### Using Wasabi
+
+[Wasabi](https://wasabi.com) provides an AWS-compatible interface, so the same aws command line tools can be used with it.
+
+It just requires a custom endpoint URL to be provided. There are currently three region-specific endpoints available:
+
+* for Wasabi us-east, use s3.wasabisys.com
+* for Wasabi us-west, use s3.us-west-1.wasabisys.com
+* for Wasabi eu-central, use s3.eu-central-1.wasabisys.com
+
+To use Wasabi with aws-cli, configure a profile with keys from Wasabi:
+
+    $ aws configure --profile wasabi
+
+Then run the usual commands, but with the appropriate `--endpoint-url` parameter, e.g.:
+
+
+    $ aws s3 --profile wasabi --endpoint-url=https://s3.wasabisys.com sync backup_example_folder s3://backup.example.lck.com/backup_example_folder
+
+Using [awscli-plugin-endpoint](https://github.com/wbingli/awscli-plugin-endpoint) can allow the endpoint-url configuration to be set in the profile,
+so it doesn't need to be added to each command.
+
+Note:
+
+* I haven't used the awscli-plugin-endpoint yet
+* I've been running successful backupts to Wasabi buckets in us-east
+* But I've had network routing issues preventing buckets in us-west from working
+
+
 ## Credits and References
+
 * [Jungle Disk](https://en.wikipedia.org/wiki/Jungle_Disk)
 * [Wasabi Hot Backup](https://wasabi.com)
 * [AWS S3](https://s3.console.aws.amazon.com/s3/home)

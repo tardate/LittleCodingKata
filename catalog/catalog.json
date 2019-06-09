@@ -48,8 +48,8 @@
     {
         "relative_path": "tools/s3sync", 
         "name": "s3sync", 
-        "categories": "tools, S3, AWS", 
-        "description": "Using Amazon S3 for offsite data backup and long term storage"
+        "categories": "tools, S3, AWS, Wasabi", 
+        "description": "Using Amazon S3 or Wasabi for offsite data backup and long term storage"
     }, 
     {
         "description": "exploring Go with the simplest example", 
