@@ -11,7 +11,7 @@ class TimeClient(Agent):
     def get_time(self):
         deferred = self.request(
             'GET',
-            'http://www.timeapi.org/utc/now',
+            'http://timeapi.herokuapp.com/utc/now',
             Headers({
               'User-Agent': ['Twisted Web Client Example'],
               'Accept': ['text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'],
@@ -23,9 +23,9 @@ class TimeClient(Agent):
 
     def on_response(self, response):
         print 'Response version:', response.version
-        # print 'Response code:', response.code
-        # print 'Response phrase:', response.phrase
-        # print pformat(list(response.headers.getAllRawHeaders()))
+        print 'Response code:', response.code
+        print 'Response phrase:', response.phrase
+        print pformat(list(response.headers.getAllRawHeaders()))
         deferred = readBody(response)
         deferred.addCallback(self.on_body)
         return deferred

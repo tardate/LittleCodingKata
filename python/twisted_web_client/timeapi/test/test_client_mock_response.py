@@ -9,10 +9,25 @@ from twisted.internet.error import ConnectionDone
 from twisted.python.failure import Failure
 from timeapi.client import TimeClient
 
+
 class MockReason(object):
 
     def check(self, ignored):
         return True
+
+
+class MockHeaders(object):
+
+    def getAllRawHeaders(self):
+        return [
+            ('X-XSS-Protection', ['1; mode=block']),
+            ('Server', ['thin 1.5.0 codename Knife']),
+            ('Via', ['1.1 vegur']),
+            ('Date', ['Sat, 15 Jun 2019 21:40:22 GMT']),
+            ('X-Frame-Options', ['sameorigin']),
+            ('Content-Type', ['text/html;charset=utf-8'])
+        ]
+
 
 class MockResponse(object):
 
@@ -21,6 +36,7 @@ class MockResponse(object):
         self.version = ('HTTP', 1, 1)
         self.code = '200'
         self.phrase = 'OK'
+        self.headers = MockHeaders()
 
     def deliverBody(self, protocol):
         protocol.dataReceived(self.response_string)

@@ -4,12 +4,19 @@ Using twisted for web client requests can present an "unusual" testing challenge
 because of the asynchronous (deferred) callback nature of twisted.
 And the docs aren't that great.
 
-So this is an exercise in writting a cannonical web client and testing it all ways I can think would normally be a "good idea":
+So this is an exercise in writing a cannonical web client and testing it all ways I can think would normally be a "good idea":
 
 * with real web requests, and the tests deal with deferred responses explicitly
 * with real web requests, but inline callbacks
 * with "mock web response", and the tests deal with deferred responses explicitly
 * with "mock web response", but inline callbacks
+
+
+## Installing Requirements
+
+```
+$ pip install -r requirements.txt
+```
 
 ## Running the Example
 
@@ -31,7 +38,7 @@ Response body:
 ## Running Tests - Trial
 
 ```
-$ trial timeapi/
+$ PYTHONPATH=$PYTHONPATH:$PWD trial timeapi/
 timeapi.test.test_client_for_real
   TimeClientRealResponseTestCase
 [...test output truncated...]
@@ -68,9 +75,9 @@ OK
 I'm using a simple time service for testing. Here's what a raw call looks like:
 
 ```
-$ curl -0 -i --raw http://www.timeapi.org/utc/now
+$ curl -0 -i --raw http://timeapi.herokuapp.com/utc/now
 HTTP/1.1 200 OK
-Date: Mon, 18 Apr 2016 15:39:16 GMT
+Date: Sat, 15 Jun 2019 21:47:35 GMT
 Connection: close
 X-Frame-Options: sameorigin
 X-Xss-Protection: 1; mode=block
@@ -79,9 +86,11 @@ Content-Length: 25
 Server: thin 1.5.0 codename Knife
 Via: 1.1 vegur
 
-2016-04-18T15:39:16+00:00
+2019-06-15T22:47:36+01:00
 ```
 
 ## Credits and References
+
 * [Twisted Site](https://twistedmatrix.com/trac/)
 * [How can I write tests for code using twisted.web.client.Agent and its subclasses?](http://stackoverflow.com/questions/18386385/how-can-i-write-tests-for-code-using-twisted-web-client-agent-and-its-subclasses)
+* [TimeAPI](http://timeapi.herokuapp.com/utc/now) - simple service used as the source
