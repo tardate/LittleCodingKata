@@ -19,21 +19,21 @@ const regression = new LinearRegression(features, labels, {
 regression.train();
 
 plot({
-  x: regression.bHistory,
-  y: regression.mseHistory,
-  xLabel: 'Value of b',
-  yLabel: 'MSE',
-  title: 'MSE cf b',
-  name: 'mse_v_b'
-})
-
-plot({
   x: regression.mseHistory,
   xLabel: 'Iteration #',
   yLabel: 'MSE',
   title: 'MSE Convergence',
   name: 'mse'
-})
+}).then(function() {
+  plot({
+    x: regression.bHistory,
+    y: regression.mseHistory,
+    xLabel: 'Value of b',
+    yLabel: 'MSE',
+    title: 'MSE cf b',
+    name: 'mse_v_b'
+  });
+});
 
 const r2 = regression.test(testFeatures, testLabels);
 console.log('r2:', r2);
