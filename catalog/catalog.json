@@ -6,11 +6,16 @@
         "description": "Notes on methods to inspect PostgreSQL role permissions, revoke permissions and drop roles"
     }, 
     {
-        "description": "Basic administration and data management command cheats...", 
+        "relative_path": "databases/postgresql/cheats", 
+        "name": "PostgreSQL Cheat Sheet", 
+        "categories": "Database, PostgreSQL", 
+        "description": "Basic administration and data management command notes"
+    }, 
+    {
         "relative_path": "databases/mysql/cheats", 
-        "id": "#058", 
-        "categories": "Database, MuSQL", 
-        "name": "databases/mysql/cheats"
+        "name": "MySQL Cheat Sheet", 
+        "categories": "Database, MySQL", 
+        "description": "Basic administration and data management command notes"
     }, 
     {
         "relative_path": "tools/macosx_cheats", 

@@ -1,6 +1,8 @@
-# #058 MySQL Cheatsheet
+# MySQL Cheat Sheet
 
 Basic administration and data management command cheats...
+
+[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
 
 
 ## Create User and Database

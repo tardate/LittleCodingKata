@@ -1,7 +1,6 @@
 {
-    "id": "#058", 
-    "name": "databases/mysql/cheats", 
-    "description": "Basic administration and data management command cheats...", 
-    "categories": "Database, MuSQL", 
+    "name": "MySQL Cheat Sheet",
+    "description": "Basic administration and data management command notes",
+    "categories": "Database, MySQL",
     "relative_path": "databases/mysql/cheats"
 }
