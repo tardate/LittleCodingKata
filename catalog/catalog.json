@@ -13,6 +13,12 @@
         "name": "databases/mysql/cheats"
     }, 
     {
+        "relative_path": "tools/macosx_cheats", 
+        "name": "MacOSX Cheatsheet", 
+        "categories": "Tools, MacOSX", 
+        "description": "my favourite MacOSX tools, tips and tricks"
+    }, 
+    {
         "relative_path": "tools/arping", 
         "name": "arping", 
         "categories": "tools", 
