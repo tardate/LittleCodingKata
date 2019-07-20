@@ -1,7 +1,7 @@
 {
-    "id": "#028", 
-    "name": "Python/quirks/mutable_default_params", 
-    "description": "Python quirks - mutable default params", 
-    "categories": "Python", 
+    "id": "#028",
+    "name": "Python/quirks/mutable_default_params",
+    "description": "Python quirks - mutable default params",
+    "categories": "python",
     "relative_path": "python/quirks/mutable_default_params"
 }

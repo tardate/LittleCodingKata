@@ -1,7 +1,7 @@
 {
-    "id": "#049", 
-    "name": "python/imgur", 
-    "description": "Using Python with the imgur API and demonstrate scanning imgur albums for image links", 
-    "categories": "Python, imgur", 
+    "id": "#049",
+    "name": "python/imgur",
+    "description": "Using Python with the imgur API and demonstrate scanning imgur albums for image links",
+    "categories": "python, imgur",
     "relative_path": "python/imgur"
 }

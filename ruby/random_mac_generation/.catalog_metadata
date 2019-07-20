@@ -1,7 +1,6 @@
 {
-    "id": "#023", 
-    "name": "Ruby/random_mac_generation", 
-    "description": "all about MAC and generating random MAC addresses", 
-    "categories": "Ruby", 
+    "name": "MAC Address Generation with Ruby",
+    "description": "all about MAC and generating random MAC addresses",
+    "categories": "ruby",
     "relative_path": "ruby/random_mac_generation"
 }

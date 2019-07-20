@@ -1,7 +1,7 @@
 {
-    "id": "#046", 
-    "name": "python/finding_libraries", 
-    "description": "How to find great python libraries and resources", 
-    "categories": "Python", 
+    "id": "#046",
+    "name": "python/finding_libraries",
+    "description": "How to find great python libraries and resources",
+    "categories": "python",
     "relative_path": "python/finding_libraries"
 }

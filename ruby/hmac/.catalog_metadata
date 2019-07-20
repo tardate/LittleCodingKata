@@ -1,6 +1,6 @@
 {
-    "name": "Ruby/hmac",
+    "name": "HMAC Generation with Ruby",
     "description": "All about hash-based message authentication code (HMAC) generation with Ruby",
-    "categories": "Ruby",
+    "categories": "ruby",
     "relative_path": "ruby/hmac"
 }

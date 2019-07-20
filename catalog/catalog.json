@@ -82,83 +82,82 @@
         "description": "writing web client code with twisted and tests", 
         "relative_path": "python/twisted_web_client", 
         "id": "#032", 
-        "categories": "Python", 
+        "categories": "python", 
         "name": "Python/twisted_web_client"
     }, 
     {
         "description": "Python quirks - mutable default params", 
         "relative_path": "python/quirks/mutable_default_params", 
         "id": "#028", 
-        "categories": "Python", 
+        "categories": "python", 
         "name": "Python/quirks/mutable_default_params"
     }, 
     {
         "description": "Python quirks - late-bound closures", 
         "relative_path": "python/quirks/late_bound_closures", 
         "id": "#027", 
-        "categories": "Python", 
+        "categories": "python", 
         "name": "Python/quirks/late_bound_closures"
     }, 
     {
         "description": "all about decorating class methods and preserving the ability to introspect", 
         "relative_path": "python/decorating_class_methods", 
         "id": "#040", 
-        "categories": "Python", 
+        "categories": "python", 
         "name": "Python/decorating_class_methods"
     }, 
     {
         "description": "How to find great python libraries and resources", 
         "relative_path": "python/finding_libraries", 
         "id": "#046", 
-        "categories": "Python", 
+        "categories": "python", 
         "name": "python/finding_libraries"
     }, 
     {
         "description": "Using Python with the imgur API and demonstrate scanning imgur albums for image links", 
         "relative_path": "python/imgur", 
         "id": "#049", 
-        "categories": "Python, imgur", 
+        "categories": "python, imgur", 
         "name": "python/imgur"
     }, 
     {
         "relative_path": "python/flake8-blame", 
         "name": "flake8-blame", 
-        "categories": "Python, Bash", 
+        "categories": "python, Bash", 
         "description": "Who busted Python style-guide rules?"
     }, 
     {
-        "description": "all about MAC and generating random MAC addresses", 
         "relative_path": "python/random_mac_generation", 
-        "id": "#029", 
-        "categories": "Python", 
-        "name": "Python/random_mac_generation"
+        "name": "MAC Address Generation with Python", 
+        "categories": "python", 
+        "description": "all about MAC and generating random MAC addresses"
     }, 
     {
         "description": "Building MicroPython on MacOSX", 
         "relative_path": "python/micropython/compiling_macosx", 
         "id": "#057", 
-        "categories": "Python, MicroPython", 
+        "categories": "python, MicroPython", 
         "name": "python/micropython/compiling_macosx"
     }, 
     {
         "description": "Using the begins library to write command line scripts without all the cruft", 
         "relative_path": "python/simple_cli_with_begins", 
         "id": "#045", 
-        "categories": "Python, CLI", 
+        "categories": "python, CLI", 
         "name": "python/simple_cli_with_begins"
     }, 
     {
         "description": "writing client-server code with twisted and tests", 
         "relative_path": "python/twisted_client_server", 
         "id": "#031", 
-        "categories": "Python", 
+        "categories": "python", 
         "name": "Python/twisted_client_server"
     }, 
     {
         "description": "or: why not to put an __init__.py in your top level folder", 
         "relative_path": "python/top_level_imports", 
         "id": "#030", 
-        "categories": "Python", 
+        "categories": "python", 
         "name": "Python/top_level_imports"
     }, 
     {
@@ -498,14 +497,14 @@
     }, 
     {
         "relative_path": "ruby/hmac", 
-        "name": "Ruby/hmac", 
-        "categories": "Ruby", 
+        "name": "HMAC Generation with Ruby", 
+        "categories": "ruby", 
         "description": "All about hash-based message authentication code (HMAC) generation with Ruby"
     }, 
     {
         "relative_path": "ruby/http_mock_responses", 
         "name": "Ruby/http_mock_responses", 
-        "categories": "Ruby", 
+        "categories": "ruby", 
         "description": "Using Sinatra to craft simple HTTP web responses for mock integration testing"
     }, 
     {
@@ -515,11 +514,10 @@
         "description": "Generating pretty JSON with Ruby and dealing with quirks"
     }, 
     {
-        "description": "all about MAC and generating random MAC addresses", 
         "relative_path": "ruby/random_mac_generation", 
-        "id": "#023", 
-        "categories": "Ruby", 
-        "name": "Ruby/random_mac_generation"
+        "name": "MAC Address Generation with Ruby", 
+        "categories": "ruby", 
+        "description": "all about MAC and generating random MAC addresses"
     }, 
     {
         "relative_path": "ruby/rails6", 
