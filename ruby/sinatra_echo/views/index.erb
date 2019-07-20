@@ -1,0 +1,57 @@
+<h1>Sinatra Echo Tools</h1>
+
+
+<h2>Get Server Time</h2>
+
+<p>
+  Returns server UTC time in iso8601 format.
+</p>
+
+<ul>
+  <li><a href="/time/now.json">/time/now.json</a> - with a JSON response</li>
+  <li><a href="/time/now.txt">/time/now.txt</a> - with a plain text response</li>
+  <li><a href="/time/now.xml">/time/now.xml</a> - with an XML response</li>
+  <li><a href="/time/now.html">/time/now.html</a> - with an HTML response</li>
+</ul>
+
+<h2>Get Client IP</h2>
+
+<p>
+  Returns the IP address of the calling device (as it appears to the server).
+</p>
+
+<ul>
+  <li><a href="/ip.json">/ip.json</a> - with a JSON response</li>
+  <li><a href="/ip.txt">/ip.txt</a> - with a plain text response</li>
+  <li><a href="/ip.xml">/ip.xml</a> - with an XML response</li>
+  <li><a href="/ip.html">/ip.html</a> - with an HTML response</li>
+</ul>
+
+<h2>Request Context</h2>
+
+<p>
+  Returns the request details as seen on the server,
+  including request headers and the Sinatra/Rack environment.
+</p>
+
+<ul>
+  <li><a href="/request.json">/request.json</a> - with a JSON response</li>
+  <li><a href="/request.txt">/request.txt</a> - with a plain text response</li>
+  <li><a href="/request.xml">/request.xml</a> - with an XML response</li>
+  <li><a href="/request.html">/request.html</a> - with an HTML response</li>
+</ul>
+
+<h2>Generating Arbitrary Response Status Codes</h2>
+
+<p>
+  Useful for testing web client code under various failure scenarios.
+  Make a request in the form of <code>/status_code.format</code> where status_code is any HTTP status code number,
+  and format is either txt, json, xml or html.
+</p>
+
+<ul>
+  <li><a href="/200.json">/200.json</a> - HTTP Status 200 with a JSON response</li>
+  <li><a href="/201.txt">/201.txt</a> - HTTP Status 201 with a plain text response</li>
+  <li><a href="/401.xml">/401.xml</a> - HTTP Status 401 with an XML response</li>
+  <li><a href="/500.html">/500.html</a> - HTTP Status 500 with an HTML response</li>
+</ul>

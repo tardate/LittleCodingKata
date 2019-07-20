@@ -531,6 +531,12 @@
         "description": "Testing out Rails 6 (beta1) and learning about changes and new features"
     }, 
     {
+        "relative_path": "ruby/sinatra_echo", 
+        "name": "Sinatra Echo Tools", 
+        "categories": "ruby, Sinatra, Docker", 
+        "description": "A Sinatra app that provides a number of remote request debugging tools, and can be run with Docker"
+    }, 
+    {
         "relative_path": "ruby/tempfiles", 
         "name": "tempfiles", 
         "categories": "ruby", 

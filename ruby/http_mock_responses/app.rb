@@ -12,7 +12,7 @@ def generate_response(code, format)
     <<-EOS
 <response>
   <message>#{message}</message>
-</response>"
+</response>
     EOS
   when "json"
     content_type 'application/json'
