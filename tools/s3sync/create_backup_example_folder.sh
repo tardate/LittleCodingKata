@@ -15,18 +15,29 @@ mkdir ${folder}
 
 for basename in "test1" "test2" "test3"
 do
-  filename=${folder}/${basename}.txt
+  filename="${folder}/${basename}.txt"
   echo ".. adding ${filename}"
-  echo "${basename} @ $(date)" > ${filename}
+  echo "${basename} @ $(date)" > "${filename}"
 done
 
-mkdir ${folder}/docs
+subfolder=docs
+mkdir "${folder}/${subfolder}"
 
 for basename in "doc1" "doc2" "doc3"
 do
-  filename=${folder}/docs/${basename}.txt
+  filename="${folder}/${subfolder}/${basename}.txt"
   echo ".. adding ${filename}"
-  echo "${basename} @ $(date)" > ${filename}
+  echo "${basename} @ $(date)" > "${filename}"
+done
+
+subfolder="folder with spaces"
+mkdir "${folder}/${subfolder}"
+
+for basename in "doc1" "doc2" "doc3"
+do
+  filename="${folder}/${subfolder}/${basename} with spaces.txt"
+  echo ".. adding ${filename}"
+  echo "${basename} @ $(date)" > "${filename}"
 done
 
 echo "done."

@@ -245,9 +245,19 @@ The [sync_example.sh](./sync_example.sh) puts a sequence of procedures together 
     About to proceed .. Are you sure? (y/n) y
     Running..
     Looks like s3://backup.example.lck.com already exists, so removing it...
+    delete: s3://backup.example.lck.com/backup_example_folder/docs/doc1.txt
+    delete: s3://backup.example.lck.com/backup_example_folder/folder with spaces/doc3 with spaces.txt
+    delete: s3://backup.example.lck.com/backup_example_folder/docs/doc3.txt
+    delete: s3://backup.example.lck.com/backup_example_folder/folder with spaces/doc2 with spaces.txt
+    delete: s3://backup.example.lck.com/backup_example_folder/folder with spaces/doc1 with spaces.txt
+    delete: s3://backup.example.lck.com/backup_example_folder/test5.txt
+    delete: s3://backup.example.lck.com/backup_example_folder/test4.txt
+    delete: s3://backup.example.lck.com/backup_example_folder/test2.txt
+    delete: s3://backup.example.lck.com/backup_example_folder/test1.txt
     remove_bucket: backup.example.lck.com
     ## Creating s3://backup.example.lck.com
     make_bucket: backup.example.lck.com
+    ## Applying s3://backup.example.lck.com restrictions
     Removing existing backup_example_folder..
     Creating backup_example_folder..
     .. adding backup_example_folder/test1.txt
@@ -256,55 +266,85 @@ The [sync_example.sh](./sync_example.sh) puts a sequence of procedures together 
     .. adding backup_example_folder/docs/doc1.txt
     .. adding backup_example_folder/docs/doc2.txt
     .. adding backup_example_folder/docs/doc3.txt
+    .. adding backup_example_folder/folder with spaces/doc1 with spaces.txt
+    .. adding backup_example_folder/folder with spaces/doc2 with spaces.txt
+    .. adding backup_example_folder/folder with spaces/doc3 with spaces.txt
     done.
     ## Performing initial sync..
     ## Sync backup_example_folder to s3://backup.example.lck.com ..
-    upload: backup_example_folder/test2.txt to s3://backup.example.lck.com/backup_example_folder/test2.txt
-    upload: backup_example_folder/docs/doc3.txt to s3://backup.example.lck.com/backup_example_folder/docs/doc3.txt
-    upload: backup_example_folder/test1.txt to s3://backup.example.lck.com/backup_example_folder/test1.txt
     upload: backup_example_folder/docs/doc2.txt to s3://backup.example.lck.com/backup_example_folder/docs/doc2.txt
-    upload: backup_example_folder/test3.txt to s3://backup.example.lck.com/backup_example_folder/test3.txt
+    upload: backup_example_folder/test1.txt to s3://backup.example.lck.com/backup_example_folder/test1.txt
     upload: backup_example_folder/docs/doc1.txt to s3://backup.example.lck.com/backup_example_folder/docs/doc1.txt
+    upload: backup_example_folder/folder with spaces/doc3 with spaces.txt to s3://backup.example.lck.com/backup_example_folder/folder with spaces/doc3 with spaces.txt
+    upload: backup_example_folder/test3.txt to s3://backup.example.lck.com/backup_example_folder/test3.txt
+    upload: backup_example_folder/docs/doc3.txt to s3://backup.example.lck.com/backup_example_folder/docs/doc3.txt
+    upload: backup_example_folder/folder with spaces/doc1 with spaces.txt to s3://backup.example.lck.com/backup_example_folder/folder with spaces/doc1 with spaces.txt
+    upload: backup_example_folder/folder with spaces/doc2 with spaces.txt to s3://backup.example.lck.com/backup_example_folder/folder with spaces/doc2 with spaces.txt
+    upload: backup_example_folder/test2.txt to s3://backup.example.lck.com/backup_example_folder/test2.txt
     ## Listing s3://backup.example.lck.com..
-    2018-12-08 14:03:26         36 backup_example_folder/docs/doc1.txt
-    2018-12-08 14:03:26         36 backup_example_folder/docs/doc2.txt
-    2018-12-08 14:03:26         36 backup_example_folder/docs/doc3.txt
-    2018-12-08 14:03:26         37 backup_example_folder/test1.txt
-    2018-12-08 14:03:26         37 backup_example_folder/test2.txt
-    2018-12-08 14:03:26         37 backup_example_folder/test3.txt
+    2019-07-21 22:26:26         36 backup_example_folder/docs/doc1.txt
+    2019-07-21 22:26:25         36 backup_example_folder/docs/doc2.txt
+    2019-07-21 22:26:26         36 backup_example_folder/docs/doc3.txt
+    2019-07-21 22:26:26         36 backup_example_folder/folder with spaces/doc1 with spaces.txt
+    2019-07-21 22:26:26         36 backup_example_folder/folder with spaces/doc2 with spaces.txt
+    2019-07-21 22:26:26         36 backup_example_folder/folder with spaces/doc3 with spaces.txt
+    2019-07-21 22:26:26         37 backup_example_folder/test1.txt
+    2019-07-21 22:26:26         37 backup_example_folder/test2.txt
+    2019-07-21 22:26:26         37 backup_example_folder/test3.txt
+    ## Re-sync: should have no changes to exchange..
+    ## Sync backup_example_folder to s3://backup.example.lck.com ..
+    ## Listing s3://backup.example.lck.com..
+    2019-07-21 22:26:26         36 backup_example_folder/docs/doc1.txt
+    2019-07-21 22:26:25         36 backup_example_folder/docs/doc2.txt
+    2019-07-21 22:26:26         36 backup_example_folder/docs/doc3.txt
+    2019-07-21 22:26:26         36 backup_example_folder/folder with spaces/doc1 with spaces.txt
+    2019-07-21 22:26:26         36 backup_example_folder/folder with spaces/doc2 with spaces.txt
+    2019-07-21 22:26:26         36 backup_example_folder/folder with spaces/doc3 with spaces.txt
+    2019-07-21 22:26:26         37 backup_example_folder/test1.txt
+    2019-07-21 22:26:26         37 backup_example_folder/test2.txt
+    2019-07-21 22:26:26         37 backup_example_folder/test3.txt
     ## Making some local file modifications..
     ## Sync backup_example_folder to s3://backup.example.lck.com ..
-    upload: backup_example_folder/test2.txt to s3://backup.example.lck.com/backup_example_folder/test2.txt
     upload: backup_example_folder/test4.txt to s3://backup.example.lck.com/backup_example_folder/test4.txt
+    upload: backup_example_folder/test2.txt to s3://backup.example.lck.com/backup_example_folder/test2.txt
     ## Listing s3://backup.example.lck.com.. contains additions and modifications, but not deletions (yet)
-    2018-12-08 14:03:26         36 backup_example_folder/docs/doc1.txt
-    2018-12-08 14:03:26         36 backup_example_folder/docs/doc2.txt
-    2018-12-08 14:03:26         36 backup_example_folder/docs/doc3.txt
-    2018-12-08 14:03:26         37 backup_example_folder/test1.txt
-    2018-12-08 14:03:28         50 backup_example_folder/test2.txt
-    2018-12-08 14:03:26         37 backup_example_folder/test3.txt
-    2018-12-08 14:03:28          9 backup_example_folder/test4.txt
+    2019-07-21 22:26:26         36 backup_example_folder/docs/doc1.txt
+    2019-07-21 22:26:25         36 backup_example_folder/docs/doc2.txt
+    2019-07-21 22:26:26         36 backup_example_folder/docs/doc3.txt
+    2019-07-21 22:26:26         36 backup_example_folder/folder with spaces/doc1 with spaces.txt
+    2019-07-21 22:26:26         36 backup_example_folder/folder with spaces/doc2 with spaces.txt
+    2019-07-21 22:26:26         36 backup_example_folder/folder with spaces/doc3 with spaces.txt
+    2019-07-21 22:26:26         37 backup_example_folder/test1.txt
+    2019-07-21 22:26:29         50 backup_example_folder/test2.txt
+    2019-07-21 22:26:26         37 backup_example_folder/test3.txt
+    2019-07-21 22:26:29          9 backup_example_folder/test4.txt
     ## Making some more local file modifications..
     ## Sync backup_example_folder to s3://backup.example.lck.com --delete..
     delete: s3://backup.example.lck.com/backup_example_folder/docs/doc2.txt
-    delete: s3://backup.example.lck.com/backup_example_folder/test3.txt
     upload: backup_example_folder/test2.txt to s3://backup.example.lck.com/backup_example_folder/test2.txt
+    delete: s3://backup.example.lck.com/backup_example_folder/test3.txt
     upload: backup_example_folder/test5.txt to s3://backup.example.lck.com/backup_example_folder/test5.txt
     ## Listing s3://backup.example.lck.com.. now contains additions, modifications and deletions
-    2018-12-08 14:03:26         36 backup_example_folder/docs/doc1.txt
-    2018-12-08 14:03:26         36 backup_example_folder/docs/doc3.txt
-    2018-12-08 14:03:26         37 backup_example_folder/test1.txt
-    2018-12-08 14:03:30         71 backup_example_folder/test2.txt
-    2018-12-08 14:03:28          9 backup_example_folder/test4.txt
-    2018-12-08 14:03:30         17 backup_example_folder/test5.txt
+    2019-07-21 22:26:26         36 backup_example_folder/docs/doc1.txt
+    2019-07-21 22:26:26         36 backup_example_folder/docs/doc3.txt
+    2019-07-21 22:26:26         36 backup_example_folder/folder with spaces/doc1 with spaces.txt
+    2019-07-21 22:26:26         36 backup_example_folder/folder with spaces/doc2 with spaces.txt
+    2019-07-21 22:26:26         36 backup_example_folder/folder with spaces/doc3 with spaces.txt
+    2019-07-21 22:26:26         37 backup_example_folder/test1.txt
+    2019-07-21 22:26:30         71 backup_example_folder/test2.txt
+    2019-07-21 22:26:29          9 backup_example_folder/test4.txt
+    2019-07-21 22:26:30         17 backup_example_folder/test5.txt
     ## Cloning S3 Bucket to local backup_example_folder_clone..
     Removing existing backup_example_folder_clone
-    download: s3://backup.example.lck.com/backup_example_folder/test5.txt to backup_example_folder_clone/test5.txt
-    download: s3://backup.example.lck.com/backup_example_folder/test2.txt to backup_example_folder_clone/test2.txt
+    download: s3://backup.example.lck.com/backup_example_folder/folder with spaces/doc2 with spaces.txt to backup_example_folder_clone/folder with spaces/doc2 with spaces.txt
     download: s3://backup.example.lck.com/backup_example_folder/docs/doc1.txt to backup_example_folder_clone/docs/doc1.txt
-    download: s3://backup.example.lck.com/backup_example_folder/docs/doc3.txt to backup_example_folder_clone/docs/doc3.txt
-    download: s3://backup.example.lck.com/backup_example_folder/test4.txt to backup_example_folder_clone/test4.txt
     download: s3://backup.example.lck.com/backup_example_folder/test1.txt to backup_example_folder_clone/test1.txt
+    download: s3://backup.example.lck.com/backup_example_folder/folder with spaces/doc3 with spaces.txt to backup_example_folder_clone/folder with spaces/doc3 with spaces.txt
+    download: s3://backup.example.lck.com/backup_example_folder/docs/doc3.txt to backup_example_folder_clone/docs/doc3.txt
+    download: s3://backup.example.lck.com/backup_example_folder/test5.txt to backup_example_folder_clone/test5.txt
+    download: s3://backup.example.lck.com/backup_example_folder/folder with spaces/doc1 with spaces.txt to backup_example_folder_clone/folder with spaces/doc1 with spaces.txt
+    download: s3://backup.example.lck.com/backup_example_folder/test2.txt to backup_example_folder_clone/test2.txt
+    download: s3://backup.example.lck.com/backup_example_folder/test4.txt to backup_example_folder_clone/test4.txt
 
 ### Using Wasabi
 
@@ -322,7 +362,6 @@ To use Wasabi with aws-cli, configure a profile with keys from Wasabi:
 
 Then run the usual commands, but with the appropriate `--endpoint-url` parameter, e.g.:
 
-
     $ aws s3 --profile wasabi --endpoint-url=https://s3.wasabisys.com sync backup_example_folder s3://backup.example.lck.com/backup_example_folder
 
 Using [awscli-plugin-endpoint](https://github.com/wbingli/awscli-plugin-endpoint) can allow the endpoint-url configuration to be set in the profile,
@@ -330,7 +369,6 @@ so it doesn't need to be added to each command. I haven't actually used the awsc
 
 I initially had some routing issues to us-west that have since been solved by wasabi.
 Here's what the routing currently looks like for me to us-east and us-west:
-
 
     $ sudo mtr -T -P 443 -w s3.wasabisys.com
     Start: 2019-06-23T14:52:07+0800
@@ -370,6 +408,21 @@ Here's what the routing currently looks like for me to us-east and us-west:
      17.|-- 38.104.105.82                                      0.0%    10  208.0 210.5 198.3 227.7  10.1
      18.|-- 76.191.80.11                                       0.0%    10  211.9 214.1 186.9 295.4  32.4
 
+The scripted sync example can also be used with wasabi by providing the correct profile and endpoint details:
+
+    $ AWS_PROFILE=wasabi AWS_ENDPOINT_URL=https://s3.wasabisys.com ./sync_example.sh
+
+    This script demonstrates some s3 sync procedures.
+
+    THIS IS DESTRUCTIVE:
+
+    * it recreates the AWS S3 bucket: backup.example.lck.com
+    * it recreates the local folder: backup_example_folder
+    * it recreates the local folder: backup_example_folder_clone
+
+    For S3 commands it will use the AWS_PROFILE=wasabi --endpoint-url=https://s3.wasabisys.com
+
+    About to proceed .. Are you sure? (y/n)
 
 ## Credits and References
 
