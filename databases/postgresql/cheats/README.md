@@ -31,7 +31,8 @@ See also:
 
 * [How do you find the row count for all your tables in Postgres](http://stackoverflow.com/questions/2596670/how-do-you-find-the-row-count-for-all-your-tables-in-postgres)
 * [Standard Statistics Views](https://www.postgresql.org/docs/9.3/monitoring-stats.html)
-
+* `n_live_tup` (bigint) - Estimated number of live rows
+* `n_dead_tup` (bigint) - Estimated number of dead rows
 
 Basic example:
 
@@ -64,7 +65,10 @@ ORDER BY n_live_tup DESC LIMIT 20;
  users                            |         15 |          2 |                               | 2019-06-27 18:00:28.98646+00  |                               | 2018-12-19 05:26:35.64335+00
 ```
 
-The [`pg_class`](https://www.postgresql.org/docs/9.3/catalog-pg-class.html) view can also be used but does not directly provide schema deatsil
+The [`pg_class`](https://www.postgresql.org/docs/9.3/catalog-pg-class.html) view can also be used but does not directly provide schema details.
+It does generally provide a more accurate row count however.
+
+* `reltuples` (float4) - Number of rows in the table. This is only an estimate used by the planner. It is updated by VACUUM, ANALYZE, and a few DDL commands such as CREATE INDEX.
 
 ```
 SELECT relname,reltuples FROM pg_class WHERE relname in ('sessions','schema_migrations','users');
