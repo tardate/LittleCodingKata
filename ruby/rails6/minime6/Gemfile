@@ -31,6 +31,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # Beautifully DRY, well-indented, clear markup
 gem 'haml-rails'
 
+# adding back support for assigns and assert_template in controller tests
+gem 'rails-controller-testing'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

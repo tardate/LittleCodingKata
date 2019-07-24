@@ -162,6 +162,14 @@ No .erb files found. Task will now exit.
 ```
 
 
+## Rails Controller Testing
+
+[rails-controller-testing](https://github.com/rails/rails-controller-testing) adds back
+the `assigns` and `assert_template` methods for controller testing (these were removed from rails core in 5.0)
+
+Working in Rails 6 - I've added an `assert_template 'welcome/index'` test.
+
+
 ## Credits and References
 
 * [Rails Getting Started](https://guides.rubyonrails.org/getting_started.html)
@@ -173,3 +181,5 @@ No .erb files found. Task will now exit.
   * [haml](http://haml.info/) - info
   * [haml](https://github.com/haml/haml) gem source
   * [haml-rails](https://github.com/haml/haml-rails) gem source
+* Testing Gems
+  * [rails-controller-testing](https://github.com/rails/rails-controller-testing)
