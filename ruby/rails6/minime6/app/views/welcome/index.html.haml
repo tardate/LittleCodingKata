@@ -1,0 +1,78 @@
+%h1 Welcome!
+%p Find me in app/views/welcome/index.html.haml
+= link_to 'Articles', controller: 'articles'
+%h2 Application Details
+%table.table
+  %tr
+    %th Rails.version
+    %td= Rails.version
+  %tr
+    %th Rails.env
+    %td= Rails.env
+  %tr
+    %th Rails.application.root
+    %td= Rails.application.root.to_s
+  %tr
+    %th Rails.application.engine_name
+    %td= Rails.application.engine_name
+  %tr
+    %th ActiveRecord::Base.connection.adapter_name
+    %td= ActiveRecord::Base.connection.adapter_name
+  %tr
+    %th Rails.configuration.database_configuration[Rails.env]
+    %td= Rails.configuration.database_configuration[Rails.env]
+%h2 Request Details
+%table.table
+  %tr
+    %th request.request_id
+    %td= request.request_id
+  %tr
+    %th request.ip
+    %td= request.ip
+  %tr
+    %th request.remote_ip
+    %td= request.remote_ip
+  %tr
+    %th request.server_software
+    %td= request.server_software
+  %tr
+    %th request.ssl?
+    %td= request.ssl?
+  %tr
+    %th request.xhr?
+    %td= request.xhr?
+  %tr
+    %th request.original_url
+    %td= request.original_url
+  %tr
+    %th request.original_fullpath
+    %td= request.original_fullpath
+  %tr
+    %th request.fullpath
+    %td= request.fullpath
+  %tr
+    %th request.media_type
+    %td= request.media_type
+  %tr
+    %th request.method
+    %td= request.method
+  %tr
+    %th request.method_symbol
+    %td= request.method_symbol
+  %tr
+    %th request.request_method
+    %td= request.request_method
+  %tr
+    %th request.request_method_symbol
+    %td= request.request_method_symbol
+  %tr
+    %th request.query_parameters
+    %td
+      = request.query_parameters
+  %tr
+    %th request.request_parameters
+    %td
+      = request.request_parameters
+%h2 Request Headers
+%pre
+  = JSON.pretty_generate(request.headers.to_h)

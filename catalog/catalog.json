@@ -527,8 +527,8 @@
     {
         "relative_path": "ruby/rails6", 
         "name": "rails6", 
-        "categories": "ruby, rails", 
-        "description": "Testing out Rails 6 (beta1) and learning about changes and new features"
+        "categories": "ruby, rails, haml", 
+        "description": "Running Rails 6 (beta1), learning about changes and new features, and testing out my favourite gems including: HAML"
     }, 
     {
         "relative_path": "ruby/sinatra_echo", 

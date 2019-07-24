@@ -1,6 +1,6 @@
 # Ruby on Rails 6
 
-Testing out Rails 6 (beta1) and learning about changes and new features.
+Running Rails 6 (beta1), learning about changes and new features, and testing out my favourite gems including: HAML
 
 [:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
 
@@ -121,10 +121,55 @@ rails generate model Article title:string text:text
 rails db:migrate
 ```
 
+## Using HAML
+
+I prefer [haml](http://haml.info/) for templating in Rails. Does it still work for Rails 6? Yes!
+
+While one can just add the [haml](https://github.com/haml/haml) gem, I'm using
+[haml-rails](https://github.com/haml/haml-rails) which adds a rake task for converting Erb files.
+I ran thisk over all files in the app:
+
+```
+$ rails haml:erb2haml
+--------------------------------------------------------------------------------
+Generating HAML for app/views/articles/index.html.erb...
+Generating HAML for app/views/articles/edit.html.erb...
+Generating HAML for app/views/articles/show.html.erb...
+Generating HAML for app/views/articles/_form.html.erb...
+Generating HAML for app/views/articles/new.html.erb...
+Generating HAML for app/views/welcome/index.html.erb...
+Generating HAML for app/views/layouts/application.html.erb...
+Generating HAML for app/views/layouts/mailer.html.erb...
+Generating HAML for app/views/layouts/mailer.text.erb...
+--------------------------------------------------------------------------------
+HAML generated for the following files:
+  app/views/articles/index.html.erb
+  app/views/articles/edit.html.erb
+  app/views/articles/show.html.erb
+  app/views/articles/_form.html.erb
+  app/views/articles/new.html.erb
+  app/views/welcome/index.html.erb
+  app/views/layouts/application.html.erb
+  app/views/layouts/mailer.html.erb
+  app/views/layouts/mailer.text.erb
+--------------------------------------------------------------------------------
+Would you like to delete the original .erb files? (This is not recommended unless you are under version control.) (y/n)
+y
+Deleting original .erb files.
+--------------------------------------------------------------------------------
+Task complete!
+No .erb files found. Task will now exit.
+```
+
+
 ## Credits and References
+
 * [Rails Getting Started](https://guides.rubyonrails.org/getting_started.html)
 * [Rails 6 Timeline](https://weblog.rubyonrails.org/2018/12/20/timeline-for-the-release-of-Rails-6-0/)
 * [Rails 6 Release Notes](https://edgeguides.rubyonrails.org/6_0_release_notes.html)
 * [Ruby Versions for Rails](https://guides.rubyonrails.org/upgrading_ruby_on_rails.html#ruby-versions)
 * [Rails API](https://api.rubyonrails.org/)
-
+* HAML
+  * [haml](http://haml.info/) - info
+  * [haml](https://github.com/haml/haml) gem source
+  * [haml-rails](https://github.com/haml/haml-rails) gem source
