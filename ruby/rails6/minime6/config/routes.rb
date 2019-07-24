@@ -4,4 +4,8 @@ Rails.application.routes.draw do
   root 'welcome#index'
 
   resources :articles
+
+  namespace :time do
+    resource :now, only: [:show], controller: 'now'
+  end
 end

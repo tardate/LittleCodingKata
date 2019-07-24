@@ -162,6 +162,56 @@ No .erb files found. Task will now exit.
 ```
 
 
+## Rendering Multiple Formats
+
+### Using respond_to
+
+The default Rails mechanism, demonstrated with the `Time::NowController`.
+
+```
+  def show
+    respond_to do |format|
+      format.html
+      format.json { render json: time_data }
+      format.xml { render xml: time_data.to_xml(root: 'time') }
+      format.text { render plain: @time }
+    end
+  end
+```
+
+Generating JSON:
+
+```
+$ curl -H "Accept: application/json" http://localhost:3000/time/now
+{"iso8601":"2019-07-24T15:55:40Z"}
+$ curl http://localhost:3000/time/now.json
+{"iso8601":"2019-07-24T15:56:22Z"}
+```
+
+Generating XML:
+
+```
+$ curl -H "Accept: application/xml" http://localhost:3000/time/now
+<?xml version="1.0" encoding="UTF-8"?>
+<time>
+  <iso8601>2019-07-24T15:56:58Z</iso8601>
+</time>
+$ curl http://localhost:3000/time/now.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<time>
+  <iso8601>2019-07-24T15:57:07Z</iso8601>
+</time>
+```
+
+Generating plain text:
+
+```
+$ curl -H "Accept: text/plain" http://localhost:3000/time/now
+2019-07-24T16:06:53Z
+$ curl http://localhost:3000/time/now.txt
+2019-07-24T16:07:29Z
+```
+
 ## Rails Controller Testing
 
 [rails-controller-testing](https://github.com/rails/rails-controller-testing) adds back

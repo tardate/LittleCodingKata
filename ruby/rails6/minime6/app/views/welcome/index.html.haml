@@ -1,6 +1,33 @@
-%h1 Welcome!
-%p Find me in app/views/welcome/index.html.haml
-= link_to 'Articles', controller: 'articles'
+%h1 Minime6
+
+%p A mini Rails 6 test bed.
+
+%ul
+  %li Rending with HAML
+
+%h2 Demos
+
+%ul
+  %li= link_to 'Articles', controller: 'articles'
+
+%h2 Get Server Time
+
+%p Returns server UTC time in iso8601 format.
+
+%ul
+  %li
+    = link_to '/time/now', time_now_path
+    %span - with an HTML response
+  %li
+    = link_to '/time/now.json', time_now_path(format: :json)
+    %span - with a JSON response
+  %li
+    = link_to '/time/now.xml', time_now_path(format: :xml)
+    %span - with an XML response
+  %li
+    = link_to '/time/now.txt', time_now_path(format: :txt)
+    %span - with a plain text response
+
 %h2 Application Details
 %table.table
   %tr
