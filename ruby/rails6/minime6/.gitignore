@@ -25,7 +25,7 @@
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
-/config/master.key
+# /config/master.key  # WARNING normally this would be ignored and note checked in, but there's nothing secret about this demo app
 /public/packs
 /public/packs-test
 /node_modules
