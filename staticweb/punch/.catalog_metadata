@@ -1,0 +1,6 @@
+{
+    "name": "punch",
+    "description": "Testing Punch for static site generation (obsolete)",
+    "categories": "staticweb, node",
+    "relative_path": "staticweb/punch"
+}

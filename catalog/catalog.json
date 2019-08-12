@@ -329,6 +329,12 @@
         "name": "staticweb/jekyll"
     }, 
     {
+        "relative_path": "staticweb/punch", 
+        "name": "punch", 
+        "categories": "staticweb, node", 
+        "description": "Testing Punch for static site generation (obsolete)"
+    }, 
+    {
         "description": "C++ exception handling", 
         "relative_path": "cpp/exception_handling", 
         "id": "#004", 
