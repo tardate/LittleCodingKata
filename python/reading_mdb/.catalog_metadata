@@ -1,0 +1,6 @@
+{
+    "name": "Reading MDB Files",
+    "description": "Reading Microsoft Access database files on a Mac with Python",
+    "categories": "python",
+    "relative_path": "python/reading_mdb"
+}

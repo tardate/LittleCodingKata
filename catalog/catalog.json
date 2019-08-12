@@ -144,6 +144,12 @@
         "description": "all about MAC and generating random MAC addresses"
     }, 
     {
+        "relative_path": "python/reading_mdb", 
+        "name": "Reading MDB Files", 
+        "categories": "python", 
+        "description": "Reading Microsoft Access database files on a Mac with Python"
+    }, 
+    {
         "description": "Building MicroPython on MacOSX", 
         "relative_path": "python/micropython/compiling_macosx", 
         "id": "#057", 
@@ -163,6 +169,12 @@
         "id": "#031", 
         "categories": "python", 
         "name": "Python/twisted_client_server"
+    }, 
+    {
+        "relative_path": "python/install_macosx", 
+        "name": "Installing Python 2 and 3 on MacOSX", 
+        "categories": "python", 
+        "description": "Notes on installing and maintaining python 2 and 3 versions on MacOSX"
     }, 
     {
         "description": "or: why not to put an __init__.py in your top level folder", 
