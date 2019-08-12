@@ -1,6 +1,6 @@
-# 305 Little Coding Katas
+# 306 Little Coding Katas
 
-> Latest addition:sparkles: [about git](./tools/git/about) - A general introduction to git and source control systems.
+> Latest addition:sparkles: [git rebase all](./tools/git/rebase_all) - How to rebase all local branches on the current master/main branch
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

@@ -1,0 +1,8 @@
+{
+    "name": "git rebase all",
+    "description": "How to rebase all local branches on the current master/main branch",
+    "categories": "vcs, git",
+    "relative_path": "tools/git/rebase_all",
+    "updated_at": "2024-11-04T14:16:00Z",
+    "id": "#306"
+}
