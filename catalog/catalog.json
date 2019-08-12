@@ -428,6 +428,12 @@
         "description": "Implementing linear regression, logistic regression and multi-nominal logistic regression with tensorflow-js and node"
     }, 
     {
+        "relative_path": "node/install_macosx", 
+        "name": "Installing Node.js MacOSX", 
+        "categories": "node", 
+        "description": "Installing and maintaining Node.js on MacOSX"
+    }, 
+    {
         "description": "RADIUS - my tl;dr summary", 
         "relative_path": "infrastructure/radius/about", 
         "id": "#024", 

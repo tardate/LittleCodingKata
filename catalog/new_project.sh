@@ -42,7 +42,6 @@ __notes__
 ## Credits and References
 
 * [name](url)
-* [..as mentioned on my blog](https://blog.tardate.com/)
 EOS
 
   local catalog_file="${full_path}/.catalog_metadata"
@@ -50,7 +49,7 @@ EOS
   cat > "${catalog_file}" <<EOS
 {
     "name": "${project_name}",
-    "description": "enter description",
+    "description": "description",
     "categories": "${parent_folder}",
     "relative_path": "${full_path}"
 }
