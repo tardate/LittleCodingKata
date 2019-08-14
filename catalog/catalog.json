@@ -69,6 +69,12 @@
         "description": "Using Amazon S3 or Wasabi for offsite data backup and long term storage"
     }, 
     {
+        "relative_path": "docker/starting_redis_with_old_circleci_image", 
+        "name": "Starting Redis with and old CircleCI Image", 
+        "categories": "docker, ubuntu, redis, ci", 
+        "description": "Notes on dealing with a Redis issue on an old Ubuntu 14.04 docker image with CircleCI"
+    }, 
+    {
         "description": "exploring Go with the simplest example", 
         "relative_path": "go/hello_world", 
         "id": "#043", 

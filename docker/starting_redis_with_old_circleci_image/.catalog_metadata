@@ -1,0 +1,6 @@
+{
+    "name": "Starting Redis with and old CircleCI Image",
+    "description": "Notes on dealing with a Redis issue on an old Ubuntu 14.04 docker image with CircleCI",
+    "categories": "docker, ubuntu, redis, ci",
+    "relative_path": "docker/starting_redis_with_old_circleci_image"
+}
