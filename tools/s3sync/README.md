@@ -367,46 +367,6 @@ Then run the usual commands, but with the appropriate `--endpoint-url` parameter
 Using [awscli-plugin-endpoint](https://github.com/wbingli/awscli-plugin-endpoint) can allow the endpoint-url configuration to be set in the profile,
 so it doesn't need to be added to each command. I haven't actually used the awscli-plugin-endpoint yet.
 
-I initially had some routing issues to us-west that have since been solved by wasabi.
-Here's what the routing currently looks like for me to us-east and us-west:
-
-    $ sudo mtr -T -P 443 -w s3.wasabisys.com
-    Start: 2019-06-23T14:52:07+0800
-    HOST: labarrossa.local                                               Loss%   Snt   Last   Avg  Best  Wrst StDev
-      1.|-- 192.168.0.1                                                     0.0%    10   24.5  22.5   4.4  82.5  22.6
-      2.|-- 2.16.182.58.starhub.net.sg                                      0.0%    10   41.7  30.5   6.7  71.1  20.0
-      3.|-- an-ts-br05.starhub.net.sg                                       0.0%    10    9.2  31.9   5.0 106.4  29.7
-      4.|-- ???                                                            100.0    10    0.0   0.0   0.0   0.0   0.0
-      5.|-- 203.117.36.53                                                   0.0%    10   17.2  19.0   6.0  45.5  12.0
-      6.|-- ???                                                            100.0    10    0.0   0.0   0.0   0.0   0.0
-      7.|-- v1144.core1.sin1.he.net                                         0.0%    10   13.2  37.1  10.8 131.6  38.4
-      8.|-- 100ge16-2.core1.tyo1.he.net                                     0.0%    10   98.6 104.3  77.5 187.8  37.2
-      9.|-- 100ge11-1.core1.sea1.he.net                                     0.0%    10  174.2 182.2 158.1 220.8  25.8
-     10.|-- 100ge4-2.core1.msp1.he.net                                      0.0%    10  192.4 225.2 192.4 300.5  37.9
-     11.|-- 100ge16-2.core1.ash1.he.net                                     0.0%    10  226.0 235.8 219.2 273.2  16.1
-     12.|-- wasabi-technologies-inc.10gigabitethernet5-6.core1.ash1.he.net  0.0%    10  224.5 236.0 215.1 272.7  17.3
-     13.|-- 38.27.106.19                                                    0.0%    10  231.1 245.3 220.1 321.2  31.6
-    $ sudo mtr -T -P 443 -w s3.us-west-1.wasabisys.com
-    Start: 2019-06-23T14:51:29+0800
-    HOST: labarrossa.local                                  Loss%   Snt   Last   Avg  Best  Wrst StDev
-      1.|-- 192.168.0.1                                        0.0%    10   21.6  18.1   5.2  48.6  11.6
-      2.|-- 2.16.182.58.starhub.net.sg                         0.0%    10   19.3  26.6   9.5  74.2  24.1
-      3.|-- an-ts-br05.starhub.net.sg                          0.0%    10   13.0  26.2  10.5  85.8  23.6
-      4.|-- ???                                               100.0    10    0.0   0.0   0.0   0.0   0.0
-      5.|-- 203.116.188.73                                     0.0%    10   11.4  30.1   8.6  87.9  31.2
-      6.|-- ???                                               100.0    10    0.0   0.0   0.0   0.0   0.0
-      7.|-- an-uts-int12.starhub.net.sg                        0.0%    10   60.6  32.3  13.3  68.9  20.2
-      8.|-- unknown.telstraglobal.net                          0.0%    10   84.8  31.2   7.2  84.8  27.1
-      9.|-- i-92.sgpl-core02.telstraglobal.net                 0.0%    10   27.5  29.0  13.5  60.0  16.4
-     10.|-- i-10850.eqnx-core02.telstraglobal.net              0.0%    10  199.8 209.7 175.5 275.4  36.4
-     11.|-- i-92.eqnx03.telstraglobal.net                      0.0%    10  186.4 197.2 177.7 260.8  24.4
-     12.|-- be4637.ccr41.sjc03.atlas.cogentco.com              0.0%    10  184.6 192.8 177.0 209.7  12.0
-     13.|-- be3669.ccr21.sfo01.atlas.cogentco.com              0.0%    10  198.4 207.5 179.8 250.6  27.9
-     14.|-- be3694.ccr21.pdx01.atlas.cogentco.com              0.0%    10  232.1 212.4 195.6 238.6  15.4
-     15.|-- be3659.agr12.pdx01.atlas.cogentco.com              0.0%    10  228.3 212.4 192.0 254.0  20.1
-     16.|-- te0-0-1-3.nr11.b069367-0.pdx01.atlas.cogentco.com  0.0%    10  199.9 216.0 194.2 274.9  25.3
-     17.|-- 38.104.105.82                                      0.0%    10  208.0 210.5 198.3 227.7  10.1
-     18.|-- 76.191.80.11                                       0.0%    10  211.9 214.1 186.9 295.4  32.4
 
 The scripted sync example can also be used with wasabi by providing the correct profile and endpoint details:
 
@@ -423,6 +383,19 @@ The scripted sync example can also be used with wasabi by providing the correct 
     For S3 commands it will use the AWS_PROFILE=wasabi --endpoint-url=https://s3.wasabisys.com
 
     About to proceed .. Are you sure? (y/n)
+
+#### Wasabi Gotchas
+
+I'm now happily using a sync to Wasabi as an additional offsite backup, but I did encounter a few issues along the way:
+
+
+1. I initially had some routing issues to us-west that have since been solved by wasabi. My fallback at the time was to use the default us-east location.
+
+2. One very large collection of files would always want to re-send the same subset of files (i.e. redundant sync).
+This problem didn't occur with AWS S3 on the same file set.
+Wasabi support eventually helped find a solution: add a `--page-size 10000` to the sync command.
+It may be there is a development change coming to Wasabi that will make the default behaviour a bit more in line with AWS S3.
+
 
 ## Credits and References
 
