@@ -43,6 +43,20 @@ rank,name,speed_kmh,description
 
 That might be good enough for simple data, but the results are not guaranteed to be well-formed CSV as it does not do any quoting of text - note all the ambiguous commas in the example above.
 
+One area where this is very useful is for psql meta commands. These settings also affect the presentation of results from commands like `\d` e.g.
+
+```
+# \pset format unaligned
+# \pset fieldsep ','
+# \pset footer
+# \d
+List of relations
+Schema,Name,Type,Owner
+public,my_view,view,me
+public,my_table,table,me
+...
+```
+
 ### The `COPY` SQL Command
 
 PostgreSQL supports a [COPY](https://www.postgresql.org/docs/current/sql-copy.html) SQL command, with options to produce well-formed CSV, for example:
