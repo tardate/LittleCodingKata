@@ -50,6 +50,12 @@
         "name": "Tools/envsubst"
     }, 
     {
+        "relative_path": "tools/make", 
+        "name": "make", 
+        "categories": "tools", 
+        "description": "Notes on make and makefiles"
+    }, 
+    {
         "description": "about iproute2 and how to run it on MacOSX", 
         "relative_path": "tools/iproute2", 
         "id": "#038", 

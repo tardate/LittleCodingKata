@@ -33,8 +33,6 @@ function make_project() {
 
 __subtitle__
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 __notes__

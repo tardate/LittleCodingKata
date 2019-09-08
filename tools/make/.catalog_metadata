@@ -1,0 +1,6 @@
+{
+    "name": "make",
+    "description": "Notes on make and makefiles",
+    "categories": "tools",
+    "relative_path": "tools/make"
+}
