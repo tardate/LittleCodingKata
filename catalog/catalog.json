@@ -354,6 +354,12 @@
         "name": "C++/exception_handling"
     }, 
     {
+        "relative_path": "cpp/boost-sml", 
+        "name": "[Boost].SML", 
+        "categories": "C++", 
+        "description": "Initial tests with [Boost].SML - a C++14 State Machine Library"
+    }, 
+    {
         "relative_path": "cpp/about", 
         "name": "C++/about", 
         "categories": "C++", 

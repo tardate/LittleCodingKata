@@ -1,0 +1,6 @@
+{
+    "name": "[Boost].SML",
+    "description": "Initial tests with [Boost].SML - a C++14 State Machine Library",
+    "categories": "C++",
+    "relative_path": "cpp/boost-sml"
+}
