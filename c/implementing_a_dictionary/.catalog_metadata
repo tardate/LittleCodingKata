@@ -1,0 +1,6 @@
+{
+    "name": "Implementing a Dictionary",
+    "description": "An example of using struct-based C to implement a somewhat object-oriented dictionary",
+    "categories": "C",
+    "relative_path": "c/implementing_a_dictionary"
+}

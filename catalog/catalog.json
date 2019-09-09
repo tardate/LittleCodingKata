@@ -535,6 +535,12 @@
         "name": "c/define_const"
     }, 
     {
+        "relative_path": "c/implementing_a_dictionary", 
+        "name": "Implementing a Dictionary", 
+        "categories": "C", 
+        "description": "An example of using struct-based C to implement a somewhat object-oriented dictionary"
+    }, 
+    {
         "description": "Iterating Character Arrays", 
         "relative_path": "c/iterating_char_arrays", 
         "id": "#056", 
