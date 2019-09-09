@@ -11,9 +11,10 @@ _trial_temp
 *.pyc
 
 # general ruby stuff
-Gemfile.lock
 .bundle
-.ruby*
+Gemfile.lock
+# don't ignore bundler and rvm settings
+# .ruby*
 
 # general elm stuff
 elm-stuff
