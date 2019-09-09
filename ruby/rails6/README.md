@@ -1,12 +1,12 @@
 # Ruby on Rails 6
 
-Running Rails 6 (beta1), learning about changes and new features, and testing out my favourite gems including: HAML
+Running Rails 6, learning about changes and new features, and testing out my favourite gems including: HAML
 
 [:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
 
 ## Notes
 
-Rails 6 is slated for delivery on April 30, 2019 at RailsConf 2019.
+Rails 6 was release August 16, 2019.
 
 Major features in Rails 6:
 
@@ -35,10 +35,10 @@ $ ruby -v
 ruby 2.6.0p0 (2018-12-25 revision 66547) [x86_64-darwin17]
 $ sqlite3 --version
 3.19.3 2017-06-27 16:48:08 2b0954060fe10d6de6d479287dd88890f1bef6cc1beca11bc6cdb79f72e2377b
-$ gem install rails -v 6.0.0.beta1
+$ gem install rails -v 6.0.0
 ...
 $ rails --version
-Rails 6.0.0.beta1
+Rails 6.0.0
 ```
 
 
@@ -53,6 +53,11 @@ Rails 6.0.0.beta1
 
 `brew install yarn`
 
+Could not get it to work with node v12.8.0; had to downgrade to 11.15.0
+
+```
+n 11.15.0
+```
 
 ### Creating a Simple App
 
@@ -63,19 +68,15 @@ $ cd minime6
 $ rails db:migrate
 $ rails server
 => Booting Puma
-=> Rails 6.0.0.beta1 application starting in development
+=> Rails 6.0.0 application starting in development
 => Run `rails server --help` for more startup options
 Puma starting in single mode...
-* Version 3.12.0 (ruby 2.6.0-p0), codename: Llamas in Pajamas
+* Version 3.12.1 (ruby 2.6.0-p0), codename: Llamas in Pajamas
 * Min threads: 5, max threads: 5
 * Environment: development
-* Listening on tcp://0.0.0.0:3000
+* Listening on tcp://localhost:3000
 Use Ctrl-C to stop
 ```
-
-> Puma caught this error: Error loading the 'sqlite3' Active Record adapter. Missing a gem it depends on? can't activate sqlite3 (~> 1.3.6), already activated sqlite3-1.4.0. Make sure all dependencies are added to Gemfile. (LoadError)
-
-Update Gemfile to pin `gem 'sqlite3', '~> 1.3.6'` and re-run `bundle`
 
 Hit `http://localhost:3000`..
 
