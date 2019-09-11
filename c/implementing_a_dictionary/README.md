@@ -58,14 +58,14 @@ I've added a Makefile that builds the project with minimal fuss. It produces two
 
 ### Building with Automake
 
-The `build_with_automake.sh` script wraps up the commands to build with Automake. This will copy and re-generate the project in a sub-folder called `hash`
+The `build_with_automake.sh` script wraps up the commands to build with Automake. This will copy and re-generate the project in a sub-folder called `hash`.
+
     $ ./build_with_automake.sh
     ...
     ...
     ALL DONE! Trying it out...
     The integer I recorded was: 0
     The string was: two
-
 
 ## Credits and References
 
