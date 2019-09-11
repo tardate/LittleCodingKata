@@ -20,14 +20,14 @@ It represents associations between keys and values so that given a key the value
 `keyval.{h,c}` implements the core key-value data structure and some supporting manipulation methods.
 It just stores the name and a pointer to the value:
 
-    typedef struct keyval{
+    typedef struct keyval {
        char *key;
        void *value;
     } keyval;
 
 `dict.{h,c}` is the dictionary implementation. It holds the list of `keyval` and keeps track of the list length:
 
-    typedef struct dictionary{
+    typedef struct dictionary {
        keyval **pairs;
        int length;
     } dictionary;
@@ -50,12 +50,15 @@ I've added a Makefile that builds the project with minimal fuss. It produces two
     /set1/copy test: OK
     /set2/fail test: OK
     $ ./dict_use
-    The integer I recorded was: 0
-    The string was: two
+    Finding: 'key1' (int)    .. found: 1
+    Finding: 'key2' (float)  .. found: 2.000000
+    Finding: 'key3' (string) .. found: three
+    Finding: 'bogative'      .. not found
 
 
 ### Building with Automake
 
+The `build_with_automake.sh` script wraps up the commands to build with Automake. This will copy and re-generate the project in a sub-folder called `hash`
     $ ./build_with_automake.sh
     ...
     ...

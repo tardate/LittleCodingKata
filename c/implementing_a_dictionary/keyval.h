@@ -1,5 +1,4 @@
-/* See compilation notes in dict_use.c*/
-typedef struct keyval{
+typedef struct keyval {
    char *key;
    void *value;
 } keyval;
