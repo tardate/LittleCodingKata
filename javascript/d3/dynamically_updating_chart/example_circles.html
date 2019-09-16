@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<style>
+
+</style>
+</head>
+<body>
+  <svg width="600" height="120"></svg>
+  <button id="addCircle">Add circle</button>
+  <button id="removeCircle">Remove circle</button>
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script>
+  const data = [1, 1, 1]; // We want to visualize this as 3 circles
+  const circleRadius = 60;
+  const circleDiameter = circleRadius * 2;
+
+  const plot = (data, svg) => {
+    // Plot the circles
+    const circle = svg
+      .selectAll('circle')
+      .data(data);
+    circle
+      .enter()
+      .append('circle')
+      .attr('cy', circleRadius)
+      .attr('cx', (d, i) => circleRadius + (i * circleDiameter))
+      .attr('r', circleRadius);
+    circle
+      .exit()
+      .remove();
+  };
+
+  const svg = d3.select('svg');
+  plot(data, svg);
+
+  const addCircle = () => {
+    if (data.length < 5) data.push(1);
+    plot(data, svg);
+  }
+  const removeCircle = () => {
+    data.pop();
+    plot(data, svg);
+  }
+
+  document.getElementById('addCircle')
+    .addEventListener('click', addCircle);
+  document.getElementById('removeCircle')
+    .addEventListener('click', removeCircle);
+  </script>
+</body>
+</html>

@@ -47,7 +47,7 @@ It seems inefficient (but presumably internally optimised?) but works just fine.
 
 See [example_pie.html](./example_pie.html)
 
-![example_pie](./assets/example_pie.png?raw=true)
+[![example_pie](./assets/example_pie.png?raw=true)](./example_pie.html)
 
 
 ## Credits and References

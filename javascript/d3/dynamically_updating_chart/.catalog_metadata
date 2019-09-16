@@ -1,0 +1,6 @@
+{
+    "name": "Dynamically Updating D3 Charts",
+    "description": "How to dynamically update data in a D3 document",
+    "categories": "javascript, graphics",
+    "relative_path": "javascript/d3/dynamically_updating_chart"
+}

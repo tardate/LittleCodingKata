@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<style>
+.chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+</style>
+</head>
+<body>
+  <div id='chart' class="chart"></div>
+  <button id="vote-anchovies">Vote for Anchovies</button>
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script>
+
+
+  const plot = (svg, data) => {
+    const lines = svg.selectAll("div")
+      .data(data);
+
+    lines.enter()
+      .append("div")
+      .style("width", function(d) { return d.votes * 10 + "px"; })
+      .text(function(d) { return d.name; });
+    lines
+      .exit()
+      .remove();
+  }
+
+  var data = [
+    {name: 'Mushrooms', votes: 13},
+    {name: 'Onions', votes: 8},
+    {name: 'Olives', votes: 11},
+    {name: 'Zucchini', votes: 5},
+    {name: 'Pepperoni', votes: 12},
+    {name: 'Anchovies', votes: 0}
+  ]
+
+  var chart = d3.select("#chart")
+  plot(chart, data);
+
+  document.getElementById('vote-anchovies').onclick = function() {
+    // there's got to be a better way?
+    votes = data[5].votes += 1;
+    data.pop();
+    plot(chart, data);
+    data.push({name: 'Anchovies', votes: votes});
+    plot(chart, data);
+  }
+  </script>
+</body>
+</html>

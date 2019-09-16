@@ -434,6 +434,18 @@
         "name": "Javascript/progress_bars_bootstrap"
     }, 
     {
+        "relative_path": "javascript/d3/basics", 
+        "name": "D3 Basics", 
+        "categories": "javascript, graphics", 
+        "description": "Getting up and running and understanding the latest in D3.js"
+    }, 
+    {
+        "relative_path": "javascript/d3/dynamically_updating_chart", 
+        "name": "Dynamically Updating D3 Charts", 
+        "categories": "javascript, graphics", 
+        "description": "How to dynamically update data in a D3 document"
+    }, 
+    {
         "relative_path": "javascript/plinko", 
         "name": "plinko", 
         "categories": "javascript, knn", 
