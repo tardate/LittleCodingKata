@@ -414,6 +414,12 @@
         "name": "Javascript/plotly_ribbon_charts"
     }, 
     {
+        "relative_path": "javascript/google_charts/basics", 
+        "name": "Google Chart Basics", 
+        "categories": "javascript, graphics", 
+        "description": "Getting up and running and understanding the latest from Google Charts"
+    }, 
+    {
         "description": "Highcharts with Bower", 
         "relative_path": "javascript/highcharts_with_bower", 
         "id": "#011", 
