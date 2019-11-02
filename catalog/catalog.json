@@ -196,6 +196,12 @@
         "name": "Python/top_level_imports"
     }, 
     {
+        "relative_path": "web/browser_security", 
+        "name": "Browser Security", 
+        "categories": "web", 
+        "description": "notes and summaries of key browser security and vulnerabilities"
+    }, 
+    {
         "description": "patching text files with Perl", 
         "relative_path": "perl/patch_file", 
         "id": "#021", 

@@ -1,0 +1,6 @@
+{
+    "name": "Browser Security",
+    "description": "notes and summaries of key browser security and vulnerabilities",
+    "categories": "web",
+    "relative_path": "web/browser_security"
+}
