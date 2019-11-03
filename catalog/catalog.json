@@ -196,6 +196,12 @@
         "name": "Python/top_level_imports"
     }, 
     {
+        "relative_path": "web/svg_animation", 
+        "name": "SVG Animation", 
+        "categories": "CSS, SVG", 
+        "description": "All about SVG for web design and animation"
+    }, 
+    {
         "relative_path": "web/browser_security", 
         "name": "Browser Security", 
         "categories": "web", 
