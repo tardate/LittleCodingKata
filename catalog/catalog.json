@@ -24,6 +24,12 @@
         "description": "Basic administration and data management command notes"
     }, 
     {
+        "relative_path": "databases/prometheus/about", 
+        "name": "About Prometheus", 
+        "categories": "databases, prometheus, ruby", 
+        "description": "Learning the basics of Prometheus and running a demo with Docker and a Sinatra Ruby target application"
+    }, 
+    {
         "relative_path": "tools/macosx_cheats", 
         "name": "MacOSX Cheatsheet", 
         "categories": "Tools, MacOSX", 

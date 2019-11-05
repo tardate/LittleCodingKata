@@ -1,0 +1,21 @@
+# We set the base image to be ruby 2.3.1
+FROM ruby:2.3.1
+
+# The author of the file
+MAINTAINER Paul Gallagher <gallagher.paul@gmail.com>
+
+# Init the root path
+RUN mkdir -p /home/ubuntu/sinatra_target
+
+# We set it as env variable
+ENV APP_ROOT /home/ubuntu/sinatra_target
+WORKDIR $APP_ROOT
+
+# Copy all the project to the root path
+ADD . $APP_ROOT
+
+# Install bundler
+RUN gem install bundler
+
+# Run bundle install
+RUN bundle install
