@@ -1,0 +1,4 @@
+--- # Indented Block
+  name: John Smith
+  age: 33
+  address: {street: Green St, city: Orange}

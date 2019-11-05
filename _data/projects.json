@@ -425,6 +425,15 @@
         ], 
         "title": "rails5"
     }, 
+    "/formats/yaml/": {
+        "summary": "Notes on structure, generation and validation of YAML.", 
+        "id": 105, 
+        "tags": [
+            "formats", 
+            "yaml"
+        ], 
+        "title": "About YAML"
+    }, 
     "/databases/postgresql/deleting_roles/": {
         "summary": "Notes on methods to inspect PostgreSQL role permissions, revoke permissions and drop roles", 
         "id": 1, 

@@ -825,10 +825,18 @@
     }, 
     {
         "name": "RSS and Atom", 
-        "updated_at": "2019-12-31T02:07:14Z", 
+        "updated_at": "2019-12-31T05:13:35Z", 
         "relative_path": "formats/rss_atom", 
         "id": "#104", 
         "categories": "formats, rss, rdf, atom", 
         "description": "About RSS and Atom feeds for publishing and podcasting"
+    }, 
+    {
+        "name": "About YAML", 
+        "updated_at": "2019-12-31T05:47:20Z", 
+        "relative_path": "formats/yaml", 
+        "id": "#105", 
+        "categories": "formats, yaml", 
+        "description": "Notes on structure, generation and validation of YAML."
     }
 ]

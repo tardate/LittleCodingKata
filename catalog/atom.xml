@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2019-12-31T05:12:49Z</updated>
+  <updated>2019-12-31T05:47:44Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -910,12 +910,21 @@
   <entry>
     <id>https://codingkata.tardate.com/formats/rss_atom/</id>
     <link href="https://codingkata.tardate.com/formats/rss_atom/"/>
-    <updated>2019-12-31T02:07:14Z</updated>
+    <updated>2019-12-31T05:13:35Z</updated>
     <title>RSS and Atom</title>
     <summary>About RSS and Atom feeds for publishing and podcasting</summary>
     <category term="formats"/>
     <category term="rss"/>
     <category term="rdf"/>
     <category term="atom"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/formats/yaml/</id>
+    <link href="https://codingkata.tardate.com/formats/yaml/"/>
+    <updated>2019-12-31T05:47:20Z</updated>
+    <title>About YAML</title>
+    <summary>Notes on structure, generation and validation of YAML.</summary>
+    <category term="formats"/>
+    <category term="yaml"/>
   </entry>
 </feed>

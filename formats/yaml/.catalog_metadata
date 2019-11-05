@@ -1,0 +1,6 @@
+{
+    "name": "About YAML",
+    "description": "Notes on structure, generation and validation of YAML.",
+    "categories": "formats, yaml",
+    "relative_path": "formats/yaml"
+}
