@@ -19,12 +19,19 @@ Trying out Visual Studio Code.
 
 ### Hints
 
-* [Column select](https://github.com/Microsoft/vscode/issues/4092)
-  * Shift+Alt+mouse drag to draw a rectangle
-  * alt+cmd+up: "add cursor above"
-  * alt+cmd+down: "add cursor below"
-* Alt-z is mapped to toggle line wrap. I disabled this as I commonly use Alt-z for "Ω"
 * to enable `code` shell command, open "View | Command Palette" and select "Shell Command: Install 'code' command in PATH command."
+
+### Verical Editing
+
+See [Column select](https://github.com/Microsoft/vscode/issues/4092)
+
+* Shift+Alt+mouse drag to draw a rectangle
+* alt+cmd+up: "add cursor above"
+* alt+cmd+down: "add cursor below"
+
+### Character Input Shortcuts
+
+* Alt-z is mapped to toggle line wrap. I disabled this as I commonly use Alt-<key> for special character input e.g. "Ω µ √"
 
 ## Credits and References
 

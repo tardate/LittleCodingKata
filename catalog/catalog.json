@@ -56,6 +56,12 @@
         "name": "Tools/envsubst"
     }, 
     {
+        "relative_path": "tools/emacs", 
+        "name": "emacs", 
+        "categories": "tools", 
+        "description": "closer look at emacs"
+    }, 
+    {
         "relative_path": "tools/make", 
         "name": "make", 
         "categories": "tools", 
