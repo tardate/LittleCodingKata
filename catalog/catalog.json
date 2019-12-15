@@ -609,6 +609,12 @@
         "description": "Using Sinatra to craft simple HTTP web responses for mock integration testing"
     }, 
     {
+        "relative_path": "ruby/compiling", 
+        "name": "Compiling Ruby", 
+        "categories": "ruby, C", 
+        "description": "Comiling Ruby from source"
+    }, 
+    {
         "relative_path": "ruby/json_parsing", 
         "name": "JSON Parsing", 
         "categories": "ruby", 

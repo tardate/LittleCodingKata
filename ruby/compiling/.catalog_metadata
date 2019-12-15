@@ -1,0 +1,6 @@
+{
+    "name": "Compiling Ruby",
+    "description": "Comiling Ruby from source",
+    "categories": "ruby, C",
+    "relative_path": "ruby/compiling"
+}
