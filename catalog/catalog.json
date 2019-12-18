@@ -612,7 +612,7 @@
         "relative_path": "ruby/compiling", 
         "name": "Compiling Ruby", 
         "categories": "ruby, C", 
-        "description": "Comiling Ruby from source"
+        "description": "Compiling Ruby (2.6.5-p114) from source and some debugging with llvm"
     }, 
     {
         "relative_path": "ruby/json_parsing", 

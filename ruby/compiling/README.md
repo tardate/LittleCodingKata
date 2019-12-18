@@ -1,10 +1,14 @@
 # Compiling Ruby
 
-Comiling Ruby from source.
+Compiling Ruby (2.6.5-p114) from source and some debugging with llvm.
 
 ## Notes
 
-LA Ruby Conf 2014 - Introduction to CRuby source code by Andy Pliszka
+I've had enough reason to look at ruby c source in the past, but never taken the plunge to compile it and start playing around in it.
+Catching Andy Pliszka's LA Ruby Conf 2014 presentation finally spurred me on to have a go.
+These are my notes...
+
+LA Ruby Conf 2014 - Introduction to CRuby source code by Andy Pliszka:
 
 [![example](http://img.youtube.com/vi/Chk9c8EwrCA/0.jpg)](https://www.youtube.com/watch?v=Chk9c8EwrCA)
 
@@ -277,11 +281,23 @@ installing bundled gems:            /Users/paulgallagher/myruby/lib/ruby/gems/2.
 
 ### Using `myruby`
 
-Taking it for a test drive..
+Taking it for a test drive. I use rvm, so first I disable it with `rvm use system` before trying my new ruby build.
 
-    export PATH=$HOME/myruby/bin:$PATH
-    export GEM_HOME=$HOME/myruby/lib/ruby/gems/2.6.0
-    export GEM_PATH=$HOME/myruby/lib/ruby/gems/2.6.0
+```
+$ rvm use system
+$ which ruby
+/usr/bin/ruby
+$ ruby --version
+ruby 2.3.7p456 (2018-03-28 revision 63024) [universal.x86_64-darwin17]
+```
+
+Set the new ruby path:
+
+```
+export PATH=$HOME/myruby/bin:$PATH
+export GEM_HOME=$HOME/myruby/lib/ruby/gems/2.6.0
+export GEM_PATH=$HOME/myruby/lib/ruby/gems/2.6.0
+```
 
 Check I'm finding the newly-installed ruby:
 
@@ -303,9 +319,13 @@ Traceback (most recent call last):
         2: from /Users/paulgallagher/myruby/lib/ruby/gems/2.6.0/gems/irb-1.0.0/exe/irb:11:in `<top (required)>'
         1: from (irb):1
 RuntimeError (hi)
+2.6.0 :002 > "#{RUBY_VERSION}-p#{RUBY_PATCHLEVEL}"
+ => "2.6.5-p114"
 ```
 
 gem env
+
+```
 $ gem env
 RubyGems Environment:
   - RUBYGEMS VERSION: 3.0.3
@@ -332,6 +352,7 @@ RubyGems Environment:
   - SHELL PATH:
      - /Users/paulgallagher/myruby/bin
      (...etc...)
+```
 
 ### Building a Rails App
 
@@ -368,7 +389,82 @@ Completed 200 OK in 43ms (Views: 29.4ms | ActiveRecord: 0.0ms | Allocations: 373
 
 So far so good. Next steps: debugging and writing/modifying ruby source?
 
+## Debugging
+
+The [upstring.rb](./upstring.rb) is a simple script that makes a call to `String#upcase`.
+I'm on a Mac, so I'll use lldb to try c-level debugging.
+
+In this version of ruby, the relevant method in `ruby/string.c` is `rb_str_upcase_bang`:
+
+```
+6624 static VALUE
+6625 rb_str_upcase_bang(int argc, VALUE *argv, VALUE str)
+6626 {
+6627     rb_encoding *enc;
+6628     OnigCaseFoldType flags = ONIGENC_CASE_UPCASE;
+6629
+6630     flags = check_case_options(argc, argv, flags);
+6631     str_modify_keep_cr(str);
+6632     enc = STR_ENC_GET(str);
+6633     rb_str_check_dummy_enc(enc);
+6634     if (((flags&ONIGENC_CASE_ASCII_ONLY) && (enc==rb_utf8_encoding() || rb_enc_mbmaxlen(enc)==1))
+```
+
+I'll break on 6634:
+
+```
+$ lldb ~/myruby/bin/ruby upstring.rb
+(lldb) target create "/Users/paulgallagher/myruby/bin/ruby"
+Current executable set to '/Users/paulgallagher/myruby/bin/ruby' (x86_64).
+(lldb) settings set -- target.run-args  "upstring.rb"
+(lldb) breakpoint set -l 6634 -f string.c
+Breakpoint 1: where = ruby`rb_str_upcase_bang + 92 at string.c:6634, address = 0x000000010025f71c
+(lldb) run
+Process 78325 launched: '/Users/paulgallagher/myruby/bin/ruby' (x86_64)
+Process 78325 stopped
+* thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
+    frame #0: 0x000000010025f71c ruby`rb_str_upcase_bang(argc=0, argv=0x0000000101400180, str=4338172560) at string.c:6634
+   6631     str_modify_keep_cr(str);
+   6632     enc = STR_ENC_GET(str);
+   6633     rb_str_check_dummy_enc(enc);
+-> 6634     if (((flags&ONIGENC_CASE_ASCII_ONLY) && (enc==rb_utf8_encoding() || rb_enc_mbmaxlen(enc)==1))
+   6635   || (!(flags&ONIGENC_CASE_FOLD_TURKISH_AZERI) && ENC_CODERANGE(str)==ENC_CODERANGE_7BIT)) {
+   6636         char *s = RSTRING_PTR(str), *send = RSTRING_END(str);
+   6637
+Target 0: (ruby) stopped.
+(lldb) thread step-over
+[.. some stepping ensues...]
+(lldb) thread step-over
+Process 78325 stopped
+* thread #1, queue = 'com.apple.main-thread', stop reason = step over
+    frame #0: 0x000000010025f814 ruby`rb_str_upcase_bang(argc=0, argv=0x0000000101400180, str=4338172560) at string.c:6638
+   6635   || (!(flags&ONIGENC_CASE_FOLD_TURKISH_AZERI) && ENC_CODERANGE(str)==ENC_CODERANGE_7BIT)) {
+   6636         char *s = RSTRING_PTR(str), *send = RSTRING_END(str);
+   6637
+-> 6638   while (s < send) {
+   6639       unsigned int c = *(unsigned char*)s;
+   6640
+   6641       if (rb_enc_isascii(c, enc) && 'a' <= c && c <= 'z') {
+Target 0: (ruby) stopped.
+(lldb) frame variable
+(int) argc = 0
+(VALUE *) argv = 0x0000000101400180
+(VALUE) str = 4338172560
+(rb_encoding *) enc = 0x0000000101205c40
+(OnigCaseFoldType) flags = 8192
+(char *) s = 0x00000001029342a0 "did_you_mean"
+(char *) send = 0x00000001029342ac ""
+[.. some stepping ensues...]
+(lldb) continue
+Process 78325 resuming
+HELLO
+Process 78325 exited with status = 0 (0x00000000)
+(lldb) ^D
+```
+
 ## Credits and References
 
 * [ruby](https://github.com/ruby/ruby/) - GitHub mirror of the source
 * [Ruby Issue Tracking](https://bugs.ruby-lang.org/issues)
+* [lldb tutorial](https://lldb.llvm.org/use/tutorial.html)
+* [lldb cheatsheet](https://www.nesono.com/sites/default/files/lldb%20cheat%20sheet.pdf)
