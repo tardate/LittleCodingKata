@@ -9,7 +9,7 @@
       this.loadCatalog();
       this.hookActions();
       this.github_base_url = 'https://github.com/tardate/LittleCodingKata/blob/master/';
-      this.pages_base_url = 'https://codingkata.tardate.com/';
+      this.pages_base_url = '/';
     }
 
     CatalogController.prototype.hookActions = function() {
@@ -33,6 +33,9 @@
         },
         columns: [
           {
+            data: 'id',
+            width: '10%'
+          }, {
             data: 'name'
           }, {
             data: 'description',
@@ -42,24 +45,36 @@
             visible: false
           },
         ],
-        order: [[0, "asc"]],
+        order: [[0, "desc"]],
         rowCallback: function(row, data, index) {
           var base_name;
-          var id_link, id_cell;
-          var description, hero_image_url, category_array, category_labels;
+          var cell, main_cell, description_cell;
+          var description, category_array, category_labels;
 
           category_array = data.categories.split(',');
 
           base_name = data.relative_path.split('/').pop();
-          project_url = instance.github_base_url + data.relative_path
-          hero_image_url = project_url + '/assets/' + base_name + '_build.jpg';
+          project_url = instance.pages_base_url + data.relative_path + '/';
 
           category_labels = '';
           for (var cat = 0; cat < category_array.length; cat++) {
             category_labels += '<span class="label label-primary">' + category_array[cat] + '</span> ';
           }
 
-          description = '<div class="media"> \
+          main_cell = '\
+          <div class="hidden-xs"> \
+            <a href="' + project_url + '" class="btn btn-default btn-success btn-leap">' + data.id + '</a> \
+          </div> \
+          <div class="visible-xs-block"> \
+            <a href="' + project_url + '" class="btn btn-default btn-success btn-leap">' + data.id + ' ' + data.name + '</a> \
+            <div class="text-muted small">' + data.description + '</div> \
+            <div>' + category_labels + '</div> \
+          </div>\
+          ';
+          cell = $('td:eq(0)', row);
+          cell.html(main_cell);
+
+          description_cell = '<div class="media"> \
             <div class="media-body"> \
               <div class="pull-right"> \
                 <div>' + category_labels + '</div>  \
@@ -69,10 +84,11 @@
             </div> \
           </div>';
 
-          cell = $('td:eq(0)', row)
+          cell = $('td:eq(1)', row)
           cell.addClass('xleap-link')
+          cell.addClass('hidden-xs')
           cell.attr('data-url', project_url)
-          cell.html(description);
+          cell.html(description_cell);
           return cell
         }
       });

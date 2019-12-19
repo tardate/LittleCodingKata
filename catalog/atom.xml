@@ -1,0 +1,892 @@
+<?xml version="1.0" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0">
+  <title>LittleCodingKata</title>
+  <subtitle>my collection of programming exercises, research and code toys broadly spanning things that relate to programming and software development (languages, frameworks and tools)</subtitle>
+  <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
+  <link href="https://codingkata.tardate.com/"/>
+  <id>https://codingkata.tardate.com/</id>
+  <updated>2019-12-19T13:41:16Z</updated>
+  <author>
+    <name>Paul Gallagher</name>
+    <email>gallagher.paul@gmail.com</email>
+    <uri>https://github.com/tardate</uri>
+  </author>
+  <entry>
+    <id>https://codingkata.tardate.com/databases/postgresql/deleting_roles/</id>
+    <link href="https://codingkata.tardate.com/databases/postgresql/deleting_roles/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>deleting_roles</title>
+    <summary>Notes on methods to inspect PostgreSQL role permissions, revoke permissions and drop roles</summary>
+    <category term="databases"/>
+    <category term="postgresql"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/arping/</id>
+    <link href="https://codingkata.tardate.com/tools/arping/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>arping</title>
+    <summary>All about Address Resolution Protocol (ARP - RFC826) and installing arping on MacOSX</summary>
+    <category term="tools"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/homebrew/</id>
+    <link href="https://codingkata.tardate.com/tools/homebrew/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Tools/homebrew</title>
+    <summary>homebrew (MacOSX package manager) tips and tricks</summary>
+    <category term="Tools"/>
+    <category term="MacOSX"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/envsubst/</id>
+    <link href="https://codingkata.tardate.com/tools/envsubst/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Tools/envsubst</title>
+    <summary>substitute shell variables in text</summary>
+    <category term="Tools"/>
+    <category term="Bash"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/iproute2/</id>
+    <link href="https://codingkata.tardate.com/tools/iproute2/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Tools/iproute2</title>
+    <summary>about iproute2 and how to run it on MacOSX</summary>
+    <category term="Tools"/>
+    <category term="MacOSX"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/vscode/</id>
+    <link href="https://codingkata.tardate.com/tools/vscode/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>vscode</title>
+    <summary>Trying out Visual Studio Code</summary>
+    <category term="tools"/>
+    <category term="editors"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/go/hello_world/</id>
+    <link href="https://codingkata.tardate.com/go/hello_world/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Go/hello_world</title>
+    <summary>exploring Go with the simplest example</summary>
+    <category term="Go"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/go/about/</id>
+    <link href="https://codingkata.tardate.com/go/about/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Go/about</title>
+    <summary>Go language - my tl;dr summary</summary>
+    <category term="Go"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/go/install_macosx/</id>
+    <link href="https://codingkata.tardate.com/go/install_macosx/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Go/install_macosx</title>
+    <summary>installing Go on MacOSX</summary>
+    <category term="Go"/>
+    <category term="MacOSX"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/perl/patch_file/</id>
+    <link href="https://codingkata.tardate.com/perl/patch_file/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Perl/patch_file</title>
+    <summary>patching text files with Perl</summary>
+    <category term="perl"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/perl/fix_first_line/</id>
+    <link href="https://codingkata.tardate.com/perl/fix_first_line/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Perl/fix_first_line</title>
+    <summary>patching text files with Perl - fix the first line only</summary>
+    <category term="perl"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/catalog/</id>
+    <link href="https://codingkata.tardate.com/catalog/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Catalog</title>
+    <summary>a Javascript Datatables catalog for GitHub Pages</summary>
+    <category term="Tools"/>
+    <category term="Javascript"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rust/hello_world/</id>
+    <link href="https://codingkata.tardate.com/rust/hello_world/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Rust/hello_world</title>
+    <summary>Rust - Hello World with concurrency</summary>
+    <category term="Rust"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rust/about/</id>
+    <link href="https://codingkata.tardate.com/rust/about/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Rust/about</title>
+    <summary>Rust - my tl;dr summary</summary>
+    <category term="Rust"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rust/install_macosx/</id>
+    <link href="https://codingkata.tardate.com/rust/install_macosx/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Rust/install_macosx</title>
+    <summary>Rust - installing on MacOSX</summary>
+    <category term="Rust"/>
+    <category term="MacOSX"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/elm/install/</id>
+    <link href="https://codingkata.tardate.com/elm/install/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Elm/install</title>
+    <summary>Installing Elm on MacOSX</summary>
+    <category term="Elm"/>
+    <category term="MacOSX"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/elm/about/</id>
+    <link href="https://codingkata.tardate.com/elm/about/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Elm/about</title>
+    <summary>elm - my tl;dr summary</summary>
+    <category term="Elm"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/elm/hello_clock/</id>
+    <link href="https://codingkata.tardate.com/elm/hello_clock/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Elm/hello_clock</title>
+    <summary>2D graphics with elm</summary>
+    <category term="Elm"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/haskell/hello_world/</id>
+    <link href="https://codingkata.tardate.com/haskell/hello_world/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Haskell/hello_world</title>
+    <summary>Haskell - Hello World</summary>
+    <category term="Haskell"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/haskell/about/</id>
+    <link href="https://codingkata.tardate.com/haskell/about/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Haskell/about</title>
+    <summary>Haskell - my tl;dr summary</summary>
+    <category term="Haskell"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/haskell/install_macosx/</id>
+    <link href="https://codingkata.tardate.com/haskell/install_macosx/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Haskell/install_macosx</title>
+    <summary>installing Haskell on MacOSX</summary>
+    <category term="Haskell"/>
+    <category term="MacOSX"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/bash/function_inference/</id>
+    <link href="https://codingkata.tardate.com/bash/function_inference/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Bash/function_inference</title>
+    <summary>How to test for the presence of functions in order to branch to arbitrary functions by name</summary>
+    <category term="Bash"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/bash/case_statement/</id>
+    <link href="https://codingkata.tardate.com/bash/case_statement/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Bash/case_statement</title>
+    <summary>How to use case statements in the bash shell</summary>
+    <category term="Bash"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/bash/sync_folder/</id>
+    <link href="https://codingkata.tardate.com/bash/sync_folder/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>sync_folder</title>
+    <summary>Comparing methods for synchronizing local folders - cp, rsync</summary>
+    <category term="Bash"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/bash/file_locks/</id>
+    <link href="https://codingkata.tardate.com/bash/file_locks/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Bash/file_locks</title>
+    <summary>How to implement simple resource semaphores with file locks</summary>
+    <category term="Bash"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/bash/parse_env_setting/</id>
+    <link href="https://codingkata.tardate.com/bash/parse_env_setting/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Bash/parse_env_setting</title>
+    <summary>Techniques for parsing environment variables with bash built-in features only</summary>
+    <category term="Bash"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/bash/select_menu/</id>
+    <link href="https://codingkata.tardate.com/bash/select_menu/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Bash/select_menu</title>
+    <summary>simple multiple-choice user input</summary>
+    <category term="Bash"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/bash/loops/</id>
+    <link href="https://codingkata.tardate.com/bash/loops/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Bash/loops</title>
+    <summary>All about Bash loops</summary>
+    <category term="Bash"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/bash/process_lines/</id>
+    <link href="https://codingkata.tardate.com/bash/process_lines/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Bash/process_lines</title>
+    <summary>process a file line-by-line</summary>
+    <category term="Bash"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/staticweb/jekyll/</id>
+    <link href="https://codingkata.tardate.com/staticweb/jekyll/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>staticweb/jekyll</title>
+    <summary>Test-driving some techniques for building static sites with Jekyll</summary>
+    <category term="Jekyll"/>
+    <category term="static"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/exception_handling/</id>
+    <link href="https://codingkata.tardate.com/cpp/exception_handling/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>C++/exception_handling</title>
+    <summary>C++ exception handling</summary>
+    <category term="C++"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/about/</id>
+    <link href="https://codingkata.tardate.com/cpp/about/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>C++/about</title>
+    <summary>My place for notes on C++ resources and references</summary>
+    <category term="C++"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/doxygen/</id>
+    <link href="https://codingkata.tardate.com/cpp/doxygen/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>cpp/doxygen</title>
+    <summary>Installing and testing doxygen for c++ source documentation generation on MacOSX</summary>
+    <category term="C++"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/DoubleTrouble/</id>
+    <link href="https://codingkata.tardate.com/cpp/DoubleTrouble/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>C++/DoubleTrouble</title>
+    <summary>Investigting some of the pitfalls of directly reading doubles from a stream, then going down the rabbit hole of bugs and variations in the LLVM/Clang and GCC implementations of the C++ standard library.</summary>
+    <category term="C++"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/mono/about/</id>
+    <link href="https://codingkata.tardate.com/mono/about/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>mono/about</title>
+    <summary>About C# with Mono</summary>
+    <category term="Mono"/>
+    <category term="C#"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/mono/time/</id>
+    <link href="https://codingkata.tardate.com/mono/time/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>mono/time</title>
+    <summary>Handling Time in C#/mono</summary>
+    <category term="Mono"/>
+    <category term="C#"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/mono/hello/</id>
+    <link href="https://codingkata.tardate.com/mono/hello/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>mono/hello</title>
+    <summary>Hello World with C#/mono</summary>
+    <category term="Mono"/>
+    <category term="C#"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/fft/running_kissfft_example/</id>
+    <link href="https://codingkata.tardate.com/fft/running_kissfft_example/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>fft/running_kissfft_example</title>
+    <summary>test drive the Kiss FFT C library with an example</summary>
+    <category term="C"/>
+    <category term="FFT"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/javascript/plotly_ribbon_charts/</id>
+    <link href="https://codingkata.tardate.com/javascript/plotly_ribbon_charts/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Javascript/plotly_ribbon_charts</title>
+    <summary>Interactive Ribbon Charts with plotly.js</summary>
+    <category term="Javascript"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/javascript/highcharts_with_bower/</id>
+    <link href="https://codingkata.tardate.com/javascript/highcharts_with_bower/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Javascript/highcharts_with_bower</title>
+    <summary>Highcharts with Bower</summary>
+    <category term="Javascript"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/javascript/progress_bars_bootstrap/</id>
+    <link href="https://codingkata.tardate.com/javascript/progress_bars_bootstrap/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>Javascript/progress_bars_bootstrap</title>
+    <summary>Progress Bars with Bootstrap</summary>
+    <category term="Javascript"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/javascript/plinko/</id>
+    <link href="https://codingkata.tardate.com/javascript/plinko/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>plinko</title>
+    <summary>A demonstration of the k-nearest neighbors algorithm implemented in javascript in a browser</summary>
+    <category term="javascript"/>
+    <category term="knn"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/node/loadcsv/</id>
+    <link href="https://codingkata.tardate.com/node/loadcsv/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>loadcsv</title>
+    <summary>Loading CSV files with node.js in a form suitable for use in statistical/machine learning algorithms</summary>
+    <category term="node"/>
+    <category term="CSV"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/node/knn-tf/</id>
+    <link href="https://codingkata.tardate.com/node/knn-tf/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>knn-tf</title>
+    <summary>A demonstration of the k-nearest neighbors algorithm implemented using tensorflow-js with node.js</summary>
+    <category term="node"/>
+    <category term="knn"/>
+    <category term="tensorflow"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/node/regression/</id>
+    <link href="https://codingkata.tardate.com/node/regression/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>regression</title>
+    <summary>Implementing linear regression, logistic regression and multi-nominal logistic regression with tensorflow-js and node</summary>
+    <category term="node"/>
+    <category term="regression"/>
+    <category term="tensorflow"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/infrastructure/radius/about/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/radius/about/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>RADIUS/about</title>
+    <summary>RADIUS - my tl;dr summary</summary>
+    <category term="RADIUS"/>
+    <category term="infrastructure"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/infrastructure/radius/freeradius-client-macosx/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/radius/freeradius-client-macosx/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>FreeRADIUS/freeradius-client-macosx</title>
+    <summary>FreeRADIUS - running on MacOSX (#fail - this project needs work)</summary>
+    <category term="RADIUS"/>
+    <category term="MacOSX"/>
+    <category term="infrastructure"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/infrastructure/radius/freeradius-server-macosx/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/radius/freeradius-server-macosx/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>FreeRADIUS/freeradius-server-macosx</title>
+    <summary>FreeRADIUS - running on MacOSX</summary>
+    <category term="RADIUS"/>
+    <category term="MacOSX"/>
+    <category term="infrastructure"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/messaging/grpc/explainer/</id>
+    <link href="https://codingkata.tardate.com/messaging/grpc/explainer/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>gRPC Explainer</title>
+    <summary>hardware excuse generator with gRPC</summary>
+    <category term="gRPC"/>
+    <category term="Messaging"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/messaging/grpc/explainer/python/</id>
+    <link href="https://codingkata.tardate.com/messaging/grpc/explainer/python/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>gRPC Explainer/Python</title>
+    <summary>hardware excuse generator with gRPC - Python client example</summary>
+    <category term="gRPC"/>
+    <category term="Python"/>
+    <category term="Messaging"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/messaging/grpc/explainer/cpp/</id>
+    <link href="https://codingkata.tardate.com/messaging/grpc/explainer/cpp/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>gRPC Explainer/C++</title>
+    <summary>hardware excuse generator with gRPC - C++ client example</summary>
+    <category term="gRPC"/>
+    <category term="C++"/>
+    <category term="Messaging"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/messaging/grpc/explainer/csharp/</id>
+    <link href="https://codingkata.tardate.com/messaging/grpc/explainer/csharp/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>gRPC Explainer/C#</title>
+    <summary>hardware excuse generator with gRPC - C# client example</summary>
+    <category term="gRPC"/>
+    <category term="C#"/>
+    <category term="Messaging"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/messaging/grpc/explainer/node/</id>
+    <link href="https://codingkata.tardate.com/messaging/grpc/explainer/node/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>gRPC Explainer/Node.js</title>
+    <summary>hardware excuse generator with gRPC - Node client example</summary>
+    <category term="gRPC"/>
+    <category term="Node"/>
+    <category term="Messaging"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/messaging/grpc/explainer/ruby/</id>
+    <link href="https://codingkata.tardate.com/messaging/grpc/explainer/ruby/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>gRPC Explainer/Ruby</title>
+    <summary>hardware excuse generator with gRPC - Ruby client and server example</summary>
+    <category term="gRPC"/>
+    <category term="Ruby"/>
+    <category term="Messaging"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/messaging/grpc/install_macosx/</id>
+    <link href="https://codingkata.tardate.com/messaging/grpc/install_macosx/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>gRPC/install_macosx</title>
+    <summary>installing on MacOSX</summary>
+    <category term="gRPC"/>
+    <category term="MacOSX"/>
+    <category term="Messaging"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/c/define_const/</id>
+    <link href="https://codingkata.tardate.com/c/define_const/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>c/define_const</title>
+    <summary>Comparing the use of `#define` preprocessor macros and `const` statements</summary>
+    <category term="C"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/c/iterating_char_arrays/</id>
+    <link href="https://codingkata.tardate.com/c/iterating_char_arrays/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>c/iterating_char_arrays</title>
+    <summary>Iterating Character Arrays</summary>
+    <category term="C"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/c/hello/</id>
+    <link href="https://codingkata.tardate.com/c/hello/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>c/hello</title>
+    <summary>Hello World in C</summary>
+    <category term="C"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/json_parsing/</id>
+    <link href="https://codingkata.tardate.com/ruby/json_parsing/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>JSON Parsing</title>
+    <summary>Generating pretty JSON with Ruby and dealing with quirks</summary>
+    <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/rails3/</id>
+    <link href="https://codingkata.tardate.com/ruby/rails3/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>rails3</title>
+    <summary>Features and demonstration of Rails 3.</summary>
+    <category term="ruby"/>
+    <category term="rails"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/rails4/</id>
+    <link href="https://codingkata.tardate.com/ruby/rails4/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>rails4</title>
+    <summary>Features and demonstration of Rails 4</summary>
+    <category term="ruby"/>
+    <category term="rails"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/rails5/</id>
+    <link href="https://codingkata.tardate.com/ruby/rails5/"/>
+    <updated>2019-09-08T11:16:43Z</updated>
+    <title>rails5</title>
+    <summary>Features and demonstration of Rails 5</summary>
+    <category term="ruby"/>
+    <category term="rails"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/databases/postgresql/sql2csv/</id>
+    <link href="https://codingkata.tardate.com/databases/postgresql/sql2csv/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>SQL to CSV</title>
+    <summary>Methods for generating CSV output from a PostgreSQL SQL query</summary>
+    <category term="databases"/>
+    <category term="postgresql"/>
+    <category term="psql"/>
+    <category term="csv"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/databases/postgresql/cheats/</id>
+    <link href="https://codingkata.tardate.com/databases/postgresql/cheats/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>PostgreSQL Cheat Sheet</title>
+    <summary>Basic administration and data management command notes</summary>
+    <category term="Database"/>
+    <category term="PostgreSQL"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/databases/mysql/cheats/</id>
+    <link href="https://codingkata.tardate.com/databases/mysql/cheats/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>MySQL Cheat Sheet</title>
+    <summary>Basic administration and data management command notes</summary>
+    <category term="Database"/>
+    <category term="MySQL"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/macosx_cheats/</id>
+    <link href="https://codingkata.tardate.com/tools/macosx_cheats/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>MacOSX Cheatsheet</title>
+    <summary>my favourite MacOSX tools, tips and tricks</summary>
+    <category term="Tools"/>
+    <category term="MacOSX"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/s3sync/</id>
+    <link href="https://codingkata.tardate.com/tools/s3sync/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>s3sync</title>
+    <summary>Using Amazon S3 or Wasabi for offsite data backup and long term storage</summary>
+    <category term="tools"/>
+    <category term="S3"/>
+    <category term="AWS"/>
+    <category term="Wasabi"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/twisted_web_client/</id>
+    <link href="https://codingkata.tardate.com/python/twisted_web_client/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>Python/twisted_web_client</title>
+    <summary>writing web client code with twisted and tests</summary>
+    <category term="python"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/quirks/mutable_default_params/</id>
+    <link href="https://codingkata.tardate.com/python/quirks/mutable_default_params/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>Python/quirks/mutable_default_params</title>
+    <summary>Python quirks - mutable default params</summary>
+    <category term="python"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/quirks/late_bound_closures/</id>
+    <link href="https://codingkata.tardate.com/python/quirks/late_bound_closures/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>Python/quirks/late_bound_closures</title>
+    <summary>Python quirks - late-bound closures</summary>
+    <category term="python"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/decorating_class_methods/</id>
+    <link href="https://codingkata.tardate.com/python/decorating_class_methods/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>Python/decorating_class_methods</title>
+    <summary>all about decorating class methods and preserving the ability to introspect</summary>
+    <category term="python"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/finding_libraries/</id>
+    <link href="https://codingkata.tardate.com/python/finding_libraries/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>python/finding_libraries</title>
+    <summary>How to find great python libraries and resources</summary>
+    <category term="python"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/imgur/</id>
+    <link href="https://codingkata.tardate.com/python/imgur/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>python/imgur</title>
+    <summary>Using Python with the imgur API and demonstrate scanning imgur albums for image links</summary>
+    <category term="python"/>
+    <category term="imgur"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/flake8-blame/</id>
+    <link href="https://codingkata.tardate.com/python/flake8-blame/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>flake8-blame</title>
+    <summary>Who busted Python style-guide rules?</summary>
+    <category term="python"/>
+    <category term="Bash"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/random_mac_generation/</id>
+    <link href="https://codingkata.tardate.com/python/random_mac_generation/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>MAC Address Generation with Python</title>
+    <summary>all about MAC and generating random MAC addresses</summary>
+    <category term="python"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/micropython/compiling_macosx/</id>
+    <link href="https://codingkata.tardate.com/python/micropython/compiling_macosx/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>python/micropython/compiling_macosx</title>
+    <summary>Building MicroPython on MacOSX</summary>
+    <category term="python"/>
+    <category term="MicroPython"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/simple_cli_with_begins/</id>
+    <link href="https://codingkata.tardate.com/python/simple_cli_with_begins/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>python/simple_cli_with_begins</title>
+    <summary>Using the begins library to write command line scripts without all the cruft</summary>
+    <category term="python"/>
+    <category term="CLI"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/twisted_client_server/</id>
+    <link href="https://codingkata.tardate.com/python/twisted_client_server/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>Python/twisted_client_server</title>
+    <summary>writing client-server code with twisted and tests</summary>
+    <category term="python"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/top_level_imports/</id>
+    <link href="https://codingkata.tardate.com/python/top_level_imports/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>Python/top_level_imports</title>
+    <summary>or: why not to put an __init__.py in your top level folder</summary>
+    <category term="python"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/hmac/</id>
+    <link href="https://codingkata.tardate.com/ruby/hmac/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>HMAC Generation with Ruby</title>
+    <summary>All about hash-based message authentication code (HMAC) generation with Ruby</summary>
+    <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/http_mock_responses/</id>
+    <link href="https://codingkata.tardate.com/ruby/http_mock_responses/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>Ruby/http_mock_responses</title>
+    <summary>Using Sinatra to craft simple HTTP web responses for mock integration testing</summary>
+    <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/random_mac_generation/</id>
+    <link href="https://codingkata.tardate.com/ruby/random_mac_generation/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>MAC Address Generation with Ruby</title>
+    <summary>all about MAC and generating random MAC addresses</summary>
+    <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/rails6/</id>
+    <link href="https://codingkata.tardate.com/ruby/rails6/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>rails6</title>
+    <summary>Running Rails 6 (beta1), learning about changes and new features, and testing out my favourite gems including: HAML</summary>
+    <category term="ruby"/>
+    <category term="rails"/>
+    <category term="haml"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/sinatra_echo/</id>
+    <link href="https://codingkata.tardate.com/ruby/sinatra_echo/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>Sinatra Echo Tools</title>
+    <summary>A Sinatra app that provides a number of remote request debugging tools, and can be run with Docker</summary>
+    <category term="ruby"/>
+    <category term="Sinatra"/>
+    <category term="Docker"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/tempfiles/</id>
+    <link href="https://codingkata.tardate.com/ruby/tempfiles/"/>
+    <updated>2019-09-08T11:16:45Z</updated>
+    <title>tempfiles</title>
+    <summary>Using Temporary Files with Ruby</summary>
+    <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/docker/starting_redis_with_old_circleci_image/</id>
+    <link href="https://codingkata.tardate.com/docker/starting_redis_with_old_circleci_image/"/>
+    <updated>2019-09-08T11:16:46Z</updated>
+    <title>Starting Redis with and old CircleCI Image</title>
+    <summary>Notes on dealing with a Redis issue on an old Ubuntu 14.04 docker image with CircleCI</summary>
+    <category term="docker"/>
+    <category term="ubuntu"/>
+    <category term="redis"/>
+    <category term="ci"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/reading_mdb/</id>
+    <link href="https://codingkata.tardate.com/python/reading_mdb/"/>
+    <updated>2019-09-08T11:16:46Z</updated>
+    <title>Reading MDB Files</title>
+    <summary>Reading Microsoft Access database files on a Mac with Python</summary>
+    <category term="python"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/install_macosx/</id>
+    <link href="https://codingkata.tardate.com/python/install_macosx/"/>
+    <updated>2019-09-08T11:16:46Z</updated>
+    <title>Installing Python 2 and 3 on MacOSX</title>
+    <summary>Notes on installing and maintaining python 2 and 3 versions on MacOSX</summary>
+    <category term="python"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/staticweb/punch/</id>
+    <link href="https://codingkata.tardate.com/staticweb/punch/"/>
+    <updated>2019-09-08T11:16:46Z</updated>
+    <title>punch</title>
+    <summary>Testing Punch for static site generation (obsolete)</summary>
+    <category term="staticweb"/>
+    <category term="node"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/node/install_macosx/</id>
+    <link href="https://codingkata.tardate.com/node/install_macosx/"/>
+    <updated>2019-09-08T11:16:46Z</updated>
+    <title>Installing Node.js MacOSX</title>
+    <summary>Installing and maintaining Node.js on MacOSX</summary>
+    <category term="node"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/make/</id>
+    <link href="https://codingkata.tardate.com/tools/make/"/>
+    <updated>2019-09-09T13:31:56Z</updated>
+    <title>make</title>
+    <summary>Notes on make and makefiles</summary>
+    <category term="tools"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/boost-sml/</id>
+    <link href="https://codingkata.tardate.com/cpp/boost-sml/"/>
+    <updated>2019-09-09T13:31:56Z</updated>
+    <title>[Boost].SML</title>
+    <summary>Initial tests with [Boost].SML - a C++14 State Machine Library</summary>
+    <category term="C++"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/c/implementing_a_dictionary/</id>
+    <link href="https://codingkata.tardate.com/c/implementing_a_dictionary/"/>
+    <updated>2019-09-11T14:44:00Z</updated>
+    <title>Implementing a Dictionary</title>
+    <summary>An example of using struct-based C to implement a somewhat object-oriented dictionary</summary>
+    <category term="C"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/javascript/google_charts/basics/</id>
+    <link href="https://codingkata.tardate.com/javascript/google_charts/basics/"/>
+    <updated>2019-09-22T04:50:58Z</updated>
+    <title>Google Chart Basics</title>
+    <summary>Getting up and running and understanding the latest from Google Charts</summary>
+    <category term="javascript"/>
+    <category term="graphics"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/javascript/d3/basics/</id>
+    <link href="https://codingkata.tardate.com/javascript/d3/basics/"/>
+    <updated>2019-09-22T04:50:58Z</updated>
+    <title>D3 Basics</title>
+    <summary>Getting up and running and understanding the latest in D3.js</summary>
+    <category term="javascript"/>
+    <category term="graphics"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/javascript/d3/dynamically_updating_chart/</id>
+    <link href="https://codingkata.tardate.com/javascript/d3/dynamically_updating_chart/"/>
+    <updated>2019-09-22T04:50:58Z</updated>
+    <title>Dynamically Updating D3 Charts</title>
+    <summary>How to dynamically update data in a D3 document</summary>
+    <category term="javascript"/>
+    <category term="graphics"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/web/svg_animation/</id>
+    <link href="https://codingkata.tardate.com/web/svg_animation/"/>
+    <updated>2019-11-04T01:23:26Z</updated>
+    <title>SVG Animation</title>
+    <summary>All about SVG for web design and animation</summary>
+    <category term="CSS"/>
+    <category term="SVG"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/web/browser_security/</id>
+    <link href="https://codingkata.tardate.com/web/browser_security/"/>
+    <updated>2019-11-04T01:23:26Z</updated>
+    <title>Browser Security</title>
+    <summary>notes and summaries of key browser security and vulnerabilities</summary>
+    <category term="web"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/databases/prometheus/about/</id>
+    <link href="https://codingkata.tardate.com/databases/prometheus/about/"/>
+    <updated>2019-11-14T06:18:49Z</updated>
+    <title>About Prometheus</title>
+    <summary>Learning the basics of Prometheus and running a demo with Docker and a Sinatra Ruby target application</summary>
+    <category term="databases"/>
+    <category term="prometheus"/>
+    <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/emacs/</id>
+    <link href="https://codingkata.tardate.com/tools/emacs/"/>
+    <updated>2019-12-14T13:02:43Z</updated>
+    <title>emacs</title>
+    <summary>closer look at emacs</summary>
+    <category term="tools"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/compiling/</id>
+    <link href="https://codingkata.tardate.com/ruby/compiling/"/>
+    <updated>2019-12-18T14:47:08Z</updated>
+    <title>Compiling Ruby</title>
+    <summary>Compiling Ruby (2.6.5-p114) from source and some debugging with llvm</summary>
+    <category term="ruby"/>
+    <category term="C"/>
+  </entry>
+</feed>

@@ -23,3 +23,8 @@ elm-stuff
 tmp
 wip
 *.ignore
+
+# jekyll intermediates
+_site
+.sass-cache
+.jekyll-metadata

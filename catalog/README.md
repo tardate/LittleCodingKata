@@ -9,8 +9,16 @@ Catalog data is loaded from [catalog.json](./catalog.json), which is consolidate
 The [make.py](./make.py) utility script is used to maintain the catalog:
 
 ```
-$ catalog/make.py generate  # builds the catalog from catalog metadata
+$ catalog/make.py rebuild  # builds the catalog from catalog metadata
 ```
+
+## Atom Feed
+
+The [make.py](./make.py) script also generates the [atom.xml](./atom.xml) feed file.
+This is a best-effort conversion to an atom feed. Currently includes all projects in the feed.
+
+* [feed validator](http://www.feedvalidator.org/check.cgi?url=https%3A%2F%2Fcodingkata.tardate.com%2Fcatalog%2Fatom.xml)
+* [published feed location](https://codingkata.tardate.com/catalog/atom.xml)
 
 
 ## Hosting
