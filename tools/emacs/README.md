@@ -8,7 +8,7 @@ I've probably used dozens of editors over the years, Emacs is not one of them - 
 
 I was prompted in particular by DistroTube's "Switching to GNU Emacs" video:
 
-[![example](http://img.youtube.com/vi/Y8koAgkBEnM/0.jpg)](https://www.youtube.com/watch?v=Y8koAgkBEnM)
+[![example](https://img.youtube.com/vi/Y8koAgkBEnM/0.jpg)](https://www.youtube.com/watch?v=Y8koAgkBEnM)
 
 ## Installing on MacOSX
 

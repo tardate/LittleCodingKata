@@ -9,7 +9,7 @@ All about SVG for web design and animation.
 
 Interactive web animation with SVG by Cassie Evans | CSSCAMP 2019:
 
-[![clip](http://img.youtube.com/vi/8p5SDI4TNDc/0.jpg)](https://www.youtube.com/watch?v=8p5SDI4TNDc)
+[![clip](https://img.youtube.com/vi/8p5SDI4TNDc/0.jpg)](https://www.youtube.com/watch?v=8p5SDI4TNDc)
 
 My notes from the presentation:
 

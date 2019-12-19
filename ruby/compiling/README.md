@@ -10,7 +10,7 @@ These are my notes...
 
 LA Ruby Conf 2014 - Introduction to CRuby source code by Andy Pliszka:
 
-[![example](http://img.youtube.com/vi/Chk9c8EwrCA/0.jpg)](https://www.youtube.com/watch?v=Chk9c8EwrCA)
+[![example](https://img.youtube.com/vi/Chk9c8EwrCA/0.jpg)](https://www.youtube.com/watch?v=Chk9c8EwrCA)
 
 ### Building From Source (v2.6.5)
 
