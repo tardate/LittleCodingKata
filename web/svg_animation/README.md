@@ -7,7 +7,7 @@ All about SVG for web design and animation.
 
 ### Interactive Web Animation with SVG
 
-Interactive web animation with SVG by Cassie Evans | CSSCAMP 2019:
+Interactive web animation with SVG by Cassie Evans CSSCAMP 2019:
 
 [![clip](https://img.youtube.com/vi/8p5SDI4TNDc/0.jpg)](https://www.youtube.com/watch?v=8p5SDI4TNDc)
 
@@ -46,6 +46,8 @@ This is a snapshot of a simple [coden here](https://codepen.io/tardate/full/XWWV
 Note: there are many ways of embedding the SVG from file, but it seem all the standard options do not allow the loaded SGV paths to then be manipulated with CSS.
 Hence the example has the SVG image inlined.
 
+[./kraken-css-anim.html](![kraken-css-anim](./assets/kraken-css-anim.png?raw=true))
+
 ## SVG Paths
 
 See [SVG Paths spec](https://www.w3.org/TR/SVG/paths.html)
@@ -69,7 +71,7 @@ All instructions are expressed as one character:
 
 ## Credits and References
 
-* [Interactive web animation with SVG by Cassie Evans | CSSCAMP 2019](https://youtu.be/8p5SDI4TNDc)
+* [Interactive web animation with SVG by Cassie Evans CSSCAMP 2019](https://youtu.be/8p5SDI4TNDc)
 * [freepik](https://www.freepik.com/)
 * [svgomg](https://jakearchibald.github.io/svgomg/)
 * [codepen](https://codepen.io/)
