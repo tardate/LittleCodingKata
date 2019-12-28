@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2019-12-19T13:41:16Z</updated>
+  <updated>2019-12-28T05:58:31Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -875,7 +875,7 @@
   <entry>
     <id>https://codingkata.tardate.com/tools/emacs/</id>
     <link href="https://codingkata.tardate.com/tools/emacs/"/>
-    <updated>2019-12-14T13:02:43Z</updated>
+    <updated>2019-12-19T14:39:47Z</updated>
     <title>emacs</title>
     <summary>closer look at emacs</summary>
     <category term="tools"/>
@@ -883,10 +883,19 @@
   <entry>
     <id>https://codingkata.tardate.com/ruby/compiling/</id>
     <link href="https://codingkata.tardate.com/ruby/compiling/"/>
-    <updated>2019-12-18T14:47:08Z</updated>
+    <updated>2019-12-19T14:39:47Z</updated>
     <title>Compiling Ruby</title>
     <summary>Compiling Ruby (2.6.5-p114) from source and some debugging with llvm</summary>
     <category term="ruby"/>
+    <category term="C"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/qrcodes/</id>
+    <link href="https://codingkata.tardate.com/python/qrcodes/"/>
+    <updated>2019-12-28T05:58:06Z</updated>
+    <title>QR Codes with Python</title>
+    <summary>Generating QR codes with python, as images and as C header files for embedded applications</summary>
+    <category term="python"/>
     <category term="C"/>
   </entry>
 </feed>

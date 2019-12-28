@@ -793,7 +793,7 @@
     }, 
     {
         "name": "emacs", 
-        "updated_at": "2019-12-14T13:02:43Z", 
+        "updated_at": "2019-12-19T14:39:47Z", 
         "relative_path": "tools/emacs", 
         "id": "#100", 
         "categories": "tools", 
@@ -801,10 +801,18 @@
     }, 
     {
         "name": "Compiling Ruby", 
-        "updated_at": "2019-12-18T14:47:08Z", 
+        "updated_at": "2019-12-19T14:39:47Z", 
         "relative_path": "ruby/compiling", 
         "id": "#101", 
         "categories": "ruby, C", 
         "description": "Compiling Ruby (2.6.5-p114) from source and some debugging with llvm"
+    }, 
+    {
+        "name": "QR Codes with Python", 
+        "updated_at": "2019-12-28T05:58:06Z", 
+        "relative_path": "python/qrcodes", 
+        "id": "#102", 
+        "categories": "python, C", 
+        "description": "Generating QR codes with python, as images and as C header files for embedded applications"
     }
 ]

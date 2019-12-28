@@ -607,6 +607,15 @@
         ], 
         "title": "flake8-blame"
     }, 
+    "/python/qrcodes/": {
+        "summary": "Generating QR codes with python, as images and as C header files for embedded applications", 
+        "id": 102, 
+        "tags": [
+            "python", 
+            "C"
+        ], 
+        "title": "QR Codes with Python"
+    }, 
     "/tools/emacs/": {
         "summary": "closer look at emacs", 
         "id": 100, 
