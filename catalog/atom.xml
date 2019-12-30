@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2019-12-28T05:58:31Z</updated>
+  <updated>2019-12-30T03:28:20Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -892,10 +892,19 @@
   <entry>
     <id>https://codingkata.tardate.com/python/qrcodes/</id>
     <link href="https://codingkata.tardate.com/python/qrcodes/"/>
-    <updated>2019-12-28T05:58:06Z</updated>
+    <updated>2019-12-28T07:04:37Z</updated>
     <title>QR Codes with Python</title>
     <summary>Generating QR codes with python, as images and as C header files for embedded applications</summary>
     <category term="python"/>
     <category term="C"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/databases/influxdb/about/</id>
+    <link href="https://codingkata.tardate.com/databases/influxdb/about/"/>
+    <updated>2019-12-30T03:27:50Z</updated>
+    <title>About InfluxDB</title>
+    <summary>Learning the basics of InfluxDB and running a demo with Docker</summary>
+    <category term="databases"/>
+    <category term="influxdb"/>
   </entry>
 </feed>

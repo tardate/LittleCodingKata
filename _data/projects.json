@@ -661,6 +661,15 @@
         ], 
         "title": "rails3"
     }, 
+    "/databases/influxdb/about/": {
+        "summary": "Learning the basics of InfluxDB and running a demo with Docker", 
+        "id": 103, 
+        "tags": [
+            "databases", 
+            "influxdb"
+        ], 
+        "title": "About InfluxDB"
+    }, 
     "/tools/iproute2/": {
         "summary": "about iproute2 and how to run it on MacOSX", 
         "id": 5, 

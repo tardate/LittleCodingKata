@@ -1,0 +1,6 @@
+{
+    "name": "About InfluxDB",
+    "description": "Learning the basics of InfluxDB and running a demo with Docker",
+    "categories": "databases, influxdb",
+    "relative_path": "databases/influxdb/about"
+}
