@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2019-12-31T05:47:44Z</updated>
+  <updated>2020-01-01T02:49:12Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -910,7 +910,7 @@
   <entry>
     <id>https://codingkata.tardate.com/formats/rss_atom/</id>
     <link href="https://codingkata.tardate.com/formats/rss_atom/"/>
-    <updated>2019-12-31T05:13:35Z</updated>
+    <updated>2019-12-31T05:52:13Z</updated>
     <title>RSS and Atom</title>
     <summary>About RSS and Atom feeds for publishing and podcasting</summary>
     <category term="formats"/>
@@ -921,10 +921,19 @@
   <entry>
     <id>https://codingkata.tardate.com/formats/yaml/</id>
     <link href="https://codingkata.tardate.com/formats/yaml/"/>
-    <updated>2019-12-31T05:47:20Z</updated>
+    <updated>2019-12-31T05:52:13Z</updated>
     <title>About YAML</title>
     <summary>Notes on structure, generation and validation of YAML.</summary>
     <category term="formats"/>
     <category term="yaml"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/PrivatePodFeed/</id>
+    <link href="https://codingkata.tardate.com/ruby/PrivatePodFeed/"/>
+    <updated>2019-12-31T05:52:25Z</updated>
+    <title>Private PodFeed</title>
+    <summary>description</summary>
+    <category term="ruby"/>
+    <category term="rss"/>
   </entry>
 </feed>

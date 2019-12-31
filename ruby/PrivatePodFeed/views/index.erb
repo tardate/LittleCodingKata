@@ -1,0 +1,7 @@
+<h1>Private Pod Feeds</h1>
+
+<ul>
+  <% @feeds.each do |feed| %>
+  <li><a href="/feed<%= u feed%>.xml"><%= feed%></a></li>
+  <% end %>
+</ul>

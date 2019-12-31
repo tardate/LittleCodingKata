@@ -114,6 +114,50 @@ To appear in the iTunes Store, add the following namespace declaration
 
 See [Spec: iTunes Podcast RSS](https://github.com/simplepie/simplepie-ng/wiki/Spec:-iTunes-Podcast-RSS)
 
+Example iTunes-compatible podcast feed:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title>All About Everything</title>
+        <link>http://www.example.com/podcasts/everything/index.html</link>
+        <language>en-us</language>
+        <copyright>℗ &amp; © 2014 John Doe &amp; Family</copyright>
+        <itunes:subtitle>A show about everything</itunes:subtitle>
+        <itunes:author>John Doe</itunes:author>
+        <itunes:summary>All About Everything is a show about everything. Each week we dive into any subject known to man and talk about it as much as we can. Look for our podcast in the Podcasts app or in the iTunes Store</itunes:summary>
+        <description>All About Everything is a show about everything. Each week we dive into any subject known to man and talk about it as much as we can. Look for our podcast in the Podcasts app or in the iTunes Store</description>
+        <itunes:owner>
+            <itunes:name>John Doe</itunes:name>
+            <itunes:email>john.doe@example.com</itunes:email>
+        </itunes:owner>
+        <itunes:image href="http://example.com/podcasts/everything/AllAboutEverything.jpg"/>
+        <itunes:category text="Technology">
+            <itunes:category text="Gadgets"/>
+        </itunes:category>
+        <itunes:category text="TV &amp; Film"/>
+        <itunes:category text="Arts">
+            <itunes:category text="Food"/>
+        </itunes:category>
+        <itunes:explicit>no</itunes:explicit>
+        <item>
+            <title>Shake Shake Shake Your Spices</title>
+            <itunes:author>John Doe</itunes:author>
+            <itunes:subtitle>A short primer on table spices</itunes:subtitle>
+            <itunes:summary><![CDATA[This week we talk about
+                <a href="https://itunes/apple.com/us/book/antique-trader-salt-pepper/id429691295?mt=11">salt and pepper shakers</a>
+                , comparing and contrasting pour rates, construction materials, and overall aesthetics. Come and join the party!]]></itunes:summary>
+            <itunes:image href="http://example.com/podcasts/everything/AllAboutEverything/Episode1.jpg"/>
+            <enclosure length="8727310" type="audio/x-m4a" url="http://example.com/podcasts/everything/AllAboutEverythingEpisode3.m4a"/>
+            <guid>http://example.com/podcasts/archive/aae20140615.m4a</guid>
+            <pubDate>Tue, 08 Mar 2016 12:00:00 GMT</pubDate>
+            <itunes:duration>07:04</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+  </channel>
+</rss>
+```
 
 ## Credits and References
 

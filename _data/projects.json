@@ -574,6 +574,15 @@
         ], 
         "title": "s3sync"
     }, 
+    "/ruby/PrivatePodFeed/": {
+        "summary": "description", 
+        "id": 106, 
+        "tags": [
+            "ruby", 
+            "rss"
+        ], 
+        "title": "Private PodFeed"
+    }, 
     "/databases/prometheus/about/": {
         "summary": "Learning the basics of Prometheus and running a demo with Docker and a Sinatra Ruby target application", 
         "id": 99, 
