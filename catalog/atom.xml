@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2019-12-30T03:28:20Z</updated>
+  <updated>2019-12-31T05:12:49Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -890,21 +890,32 @@
     <category term="C"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/databases/influxdb/about/</id>
+    <link href="https://codingkata.tardate.com/databases/influxdb/about/"/>
+    <updated>2019-12-30T04:28:02Z</updated>
+    <title>About InfluxDB</title>
+    <summary>Learning the basics of InfluxDB and running a demo with Docker</summary>
+    <category term="databases"/>
+    <category term="influxdb"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/python/qrcodes/</id>
     <link href="https://codingkata.tardate.com/python/qrcodes/"/>
-    <updated>2019-12-28T07:04:37Z</updated>
+    <updated>2019-12-30T04:28:02Z</updated>
     <title>QR Codes with Python</title>
     <summary>Generating QR codes with python, as images and as C header files for embedded applications</summary>
     <category term="python"/>
     <category term="C"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/databases/influxdb/about/</id>
-    <link href="https://codingkata.tardate.com/databases/influxdb/about/"/>
-    <updated>2019-12-30T03:27:50Z</updated>
-    <title>About InfluxDB</title>
-    <summary>Learning the basics of InfluxDB and running a demo with Docker</summary>
-    <category term="databases"/>
-    <category term="influxdb"/>
+    <id>https://codingkata.tardate.com/formats/rss_atom/</id>
+    <link href="https://codingkata.tardate.com/formats/rss_atom/"/>
+    <updated>2019-12-31T02:07:14Z</updated>
+    <title>RSS and Atom</title>
+    <summary>About RSS and Atom feeds for publishing and podcasting</summary>
+    <category term="formats"/>
+    <category term="rss"/>
+    <category term="rdf"/>
+    <category term="atom"/>
   </entry>
 </feed>

@@ -100,6 +100,17 @@
         ], 
         "title": "MAC Address Generation with Ruby"
     }, 
+    "/formats/rss_atom/": {
+        "summary": "About RSS and Atom feeds for publishing and podcasting", 
+        "id": 104, 
+        "tags": [
+            "formats", 
+            "rss", 
+            "rdf", 
+            "atom"
+        ], 
+        "title": "RSS and Atom"
+    }, 
     "/bash/process_lines/": {
         "summary": "process a file line-by-line", 
         "id": 29, 
@@ -609,7 +620,7 @@
     }, 
     "/python/qrcodes/": {
         "summary": "Generating QR codes with python, as images and as C header files for embedded applications", 
-        "id": 102, 
+        "id": 103, 
         "tags": [
             "python", 
             "C"
@@ -663,7 +674,7 @@
     }, 
     "/databases/influxdb/about/": {
         "summary": "Learning the basics of InfluxDB and running a demo with Docker", 
-        "id": 103, 
+        "id": 102, 
         "tags": [
             "databases", 
             "influxdb"

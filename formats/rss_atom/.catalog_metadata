@@ -1,0 +1,6 @@
+{
+    "name": "RSS and Atom",
+    "description": "About RSS and Atom feeds for publishing and podcasting",
+    "categories": "formats, rss, rdf, atom",
+    "relative_path": "formats/rss_atom"
+}

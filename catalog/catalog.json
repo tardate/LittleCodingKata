@@ -808,19 +808,27 @@
         "description": "Compiling Ruby (2.6.5-p114) from source and some debugging with llvm"
     }, 
     {
-        "name": "QR Codes with Python", 
-        "updated_at": "2019-12-28T07:04:37Z", 
-        "relative_path": "python/qrcodes", 
+        "name": "About InfluxDB", 
+        "updated_at": "2019-12-30T04:28:02Z", 
+        "relative_path": "databases/influxdb/about", 
         "id": "#102", 
+        "categories": "databases, influxdb", 
+        "description": "Learning the basics of InfluxDB and running a demo with Docker"
+    }, 
+    {
+        "name": "QR Codes with Python", 
+        "updated_at": "2019-12-30T04:28:02Z", 
+        "relative_path": "python/qrcodes", 
+        "id": "#103", 
         "categories": "python, C", 
         "description": "Generating QR codes with python, as images and as C header files for embedded applications"
     }, 
     {
-        "name": "About InfluxDB", 
-        "updated_at": "2019-12-30T03:27:50Z", 
-        "relative_path": "databases/influxdb/about", 
-        "id": "#103", 
-        "categories": "databases, influxdb", 
-        "description": "Learning the basics of InfluxDB and running a demo with Docker"
+        "name": "RSS and Atom", 
+        "updated_at": "2019-12-31T02:07:14Z", 
+        "relative_path": "formats/rss_atom", 
+        "id": "#104", 
+        "categories": "formats, rss, rdf, atom", 
+        "description": "About RSS and Atom feeds for publishing and podcasting"
     }
 ]
