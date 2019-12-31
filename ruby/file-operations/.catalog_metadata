@@ -1,0 +1,6 @@
+{
+    "name": "Ruby File Handling",
+    "description": "Reviewing common file operations with ruby",
+    "categories": "ruby",
+    "relative_path": "ruby/file_operations"
+}
