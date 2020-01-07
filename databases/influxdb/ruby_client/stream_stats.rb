@@ -3,10 +3,11 @@ require 'influxdb'
 require './conf.rb'
 
 time_precision = 's'
+bucket_tags = %w[past1 past5 past15]
 
 influxdb = InfluxDB::Client.new host: HOST, database: DATABASE, username: USERNAME, password: PASSWORD
 
-puts "Streaming some stats to database:${DATABASE} every 5 seconds.."
+puts "Streaming some stats to database:#{DATABASE} every 5 seconds.."
 
 loop do
   stats = `w | head -1`.chomp
@@ -15,7 +16,7 @@ loop do
   data = load_averages.each_with_index.map do |load, i|
     {
       series: SERIES,
-      tags: { instance: "core-#{i}" },
+      tags: { bucket: bucket_tags[i] },
       values: { load: load },
       timestamp: timestamp
     }
