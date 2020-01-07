@@ -19,7 +19,6 @@ and of course the details below may change
 
 ## Running With Docker
 
-
 ### InfluxDB Docker Control
 
 The `influx_control.sh` script is a simple wrapper for the main operations:
@@ -67,6 +66,7 @@ From the `Load Data > Tokens` menu:
 ![create_token](./assets/create_token.png?raw=true)
 
 ### Writing Some Data with Curl
+
 Posting some data using the token created in the pervious step:
 
 ```
@@ -86,10 +86,7 @@ The Data Explorer can be used to example the loaded data:
 
 ![data_explorer](./assets/data_explorer.png?raw=true)
 
-
 ## Credits and References
 
 * [InfluxDB home](https://www.influxdata.com/) - influxdata
 * [Get started with InfluxDB](https://v2.docs.influxdata.com/v2.0/get-started/)
-* [name](url)
-* [name](url)
