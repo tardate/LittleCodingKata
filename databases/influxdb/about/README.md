@@ -6,7 +6,9 @@ Learning the basics of InfluxDB and running a demo with Docker.
 
 These notes were made using InfluxDb v2 alpha.
 There are [major changes](https://v2.docs.influxdata.com/v2.0/reference/release-notes/influxdb/) in commands/usage from 1.x,
-and of course the details below may change
+and of course the details below may change.
+
+See [Using InfluxDb with Ruby](../ruby_client) for an example of using InfluxDB 1.7 with docker.
 
 ## Architectural Components
 
@@ -89,4 +91,4 @@ The Data Explorer can be used to example the loaded data:
 ## Credits and References
 
 * [InfluxDB home](https://www.influxdata.com/) - influxdata
-* [Get started with InfluxDB](https://v2.docs.influxdata.com/v2.0/get-started/)
+* [Get started with InfluxDB 2.0](https://v2.docs.influxdata.com/v2.0/get-started/)

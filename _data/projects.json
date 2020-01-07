@@ -102,7 +102,7 @@
     }, 
     "/formats/rss_atom/": {
         "summary": "About RSS and Atom feeds for publishing and podcasting", 
-        "id": 104, 
+        "id": 103, 
         "tags": [
             "formats", 
             "rss", 
@@ -372,6 +372,17 @@
         ], 
         "title": "D3 Basics"
     }, 
+    "/databases/influxdb/ruby_client/": {
+        "summary": "Testing out the official ruby client calling a InfluxDb 1.7.9 server running in Docker.", 
+        "id": 106, 
+        "tags": [
+            "databases", 
+            "influxdb", 
+            "docker", 
+            "ruby"
+        ], 
+        "title": "Using InfluxDb with Ruby"
+    }, 
     "/c/implementing_a_dictionary/": {
         "summary": "An example of using struct-based C to implement a somewhat object-oriented dictionary", 
         "id": 93, 
@@ -427,7 +438,7 @@
     }, 
     "/formats/yaml/": {
         "summary": "Notes on structure, generation and validation of YAML.", 
-        "id": 105, 
+        "id": 104, 
         "tags": [
             "formats", 
             "yaml"
@@ -576,7 +587,7 @@
     }, 
     "/ruby/PrivatePodFeed/": {
         "summary": "description", 
-        "id": 106, 
+        "id": 105, 
         "tags": [
             "ruby", 
             "rss"
@@ -638,7 +649,7 @@
     }, 
     "/python/qrcodes/": {
         "summary": "Generating QR codes with python, as images and as C header files for embedded applications", 
-        "id": 103, 
+        "id": 102, 
         "tags": [
             "python", 
             "C"
@@ -692,10 +703,11 @@
     }, 
     "/databases/influxdb/about/": {
         "summary": "Learning the basics of InfluxDB and running a demo with Docker", 
-        "id": 102, 
+        "id": 107, 
         "tags": [
             "databases", 
-            "influxdb"
+            "influxdb", 
+            "docker"
         ], 
         "title": "About InfluxDB"
     }, 

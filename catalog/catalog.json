@@ -808,43 +808,51 @@
         "description": "Compiling Ruby (2.6.5-p114) from source and some debugging with llvm"
     }, 
     {
-        "name": "About InfluxDB", 
-        "updated_at": "2019-12-30T04:28:02Z", 
-        "relative_path": "databases/influxdb/about", 
-        "id": "#102", 
-        "categories": "databases, influxdb", 
-        "description": "Learning the basics of InfluxDB and running a demo with Docker"
-    }, 
-    {
         "name": "QR Codes with Python", 
         "updated_at": "2019-12-30T04:28:02Z", 
         "relative_path": "python/qrcodes", 
-        "id": "#103", 
+        "id": "#102", 
         "categories": "python, C", 
         "description": "Generating QR codes with python, as images and as C header files for embedded applications"
     }, 
     {
         "name": "RSS and Atom", 
-        "updated_at": "2019-12-31T05:52:13Z", 
+        "updated_at": "2020-01-02T00:24:09Z", 
         "relative_path": "formats/rss_atom", 
-        "id": "#104", 
+        "id": "#103", 
         "categories": "formats, rss, rdf, atom", 
         "description": "About RSS and Atom feeds for publishing and podcasting"
     }, 
     {
         "name": "About YAML", 
-        "updated_at": "2019-12-31T05:52:13Z", 
+        "updated_at": "2020-01-02T00:24:09Z", 
         "relative_path": "formats/yaml", 
-        "id": "#105", 
+        "id": "#104", 
         "categories": "formats, yaml", 
         "description": "Notes on structure, generation and validation of YAML."
     }, 
     {
         "name": "Private PodFeed", 
-        "updated_at": "2019-12-31T05:52:25Z", 
+        "updated_at": "2020-01-02T00:24:09Z", 
         "relative_path": "ruby/PrivatePodFeed", 
-        "id": "#106", 
+        "id": "#105", 
         "categories": "ruby, rss", 
         "description": "description"
+    }, 
+    {
+        "name": "Using InfluxDb with Ruby", 
+        "updated_at": "2020-01-07T16:40:27Z", 
+        "relative_path": "databases/influxdb/ruby_client", 
+        "id": "#106", 
+        "categories": "databases, influxdb, docker, ruby", 
+        "description": "Testing out the official ruby client calling a InfluxDb 1.7.9 server running in Docker."
+    }, 
+    {
+        "name": "About InfluxDB", 
+        "updated_at": "2020-01-07T16:40:31Z", 
+        "relative_path": "databases/influxdb/about", 
+        "id": "#107", 
+        "categories": "databases, influxdb, docker", 
+        "description": "Learning the basics of InfluxDB and running a demo with Docker"
     }
 ]

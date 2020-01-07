@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-01-01T02:49:12Z</updated>
+  <updated>2020-01-07T16:40:59Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -890,15 +890,6 @@
     <category term="C"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/databases/influxdb/about/</id>
-    <link href="https://codingkata.tardate.com/databases/influxdb/about/"/>
-    <updated>2019-12-30T04:28:02Z</updated>
-    <title>About InfluxDB</title>
-    <summary>Learning the basics of InfluxDB and running a demo with Docker</summary>
-    <category term="databases"/>
-    <category term="influxdb"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/python/qrcodes/</id>
     <link href="https://codingkata.tardate.com/python/qrcodes/"/>
     <updated>2019-12-30T04:28:02Z</updated>
@@ -910,7 +901,7 @@
   <entry>
     <id>https://codingkata.tardate.com/formats/rss_atom/</id>
     <link href="https://codingkata.tardate.com/formats/rss_atom/"/>
-    <updated>2019-12-31T05:52:13Z</updated>
+    <updated>2020-01-02T00:24:09Z</updated>
     <title>RSS and Atom</title>
     <summary>About RSS and Atom feeds for publishing and podcasting</summary>
     <category term="formats"/>
@@ -921,7 +912,7 @@
   <entry>
     <id>https://codingkata.tardate.com/formats/yaml/</id>
     <link href="https://codingkata.tardate.com/formats/yaml/"/>
-    <updated>2019-12-31T05:52:13Z</updated>
+    <updated>2020-01-02T00:24:09Z</updated>
     <title>About YAML</title>
     <summary>Notes on structure, generation and validation of YAML.</summary>
     <category term="formats"/>
@@ -930,10 +921,31 @@
   <entry>
     <id>https://codingkata.tardate.com/ruby/PrivatePodFeed/</id>
     <link href="https://codingkata.tardate.com/ruby/PrivatePodFeed/"/>
-    <updated>2019-12-31T05:52:25Z</updated>
+    <updated>2020-01-02T00:24:09Z</updated>
     <title>Private PodFeed</title>
     <summary>description</summary>
     <category term="ruby"/>
     <category term="rss"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/databases/influxdb/ruby_client/</id>
+    <link href="https://codingkata.tardate.com/databases/influxdb/ruby_client/"/>
+    <updated>2020-01-07T16:40:27Z</updated>
+    <title>Using InfluxDb with Ruby</title>
+    <summary>Testing out the official ruby client calling a InfluxDb 1.7.9 server running in Docker.</summary>
+    <category term="databases"/>
+    <category term="influxdb"/>
+    <category term="docker"/>
+    <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/databases/influxdb/about/</id>
+    <link href="https://codingkata.tardate.com/databases/influxdb/about/"/>
+    <updated>2020-01-07T16:40:31Z</updated>
+    <title>About InfluxDB</title>
+    <summary>Learning the basics of InfluxDB and running a demo with Docker</summary>
+    <category term="databases"/>
+    <category term="influxdb"/>
+    <category term="docker"/>
   </entry>
 </feed>
