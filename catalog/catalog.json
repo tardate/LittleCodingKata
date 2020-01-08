@@ -854,5 +854,13 @@
         "id": "#107", 
         "categories": "databases, influxdb, docker", 
         "description": "Learning the basics of InfluxDB and running a demo with Docker"
+    }, 
+    {
+        "name": "Ruby 2.7 New Features", 
+        "updated_at": "2020-01-08T14:32:38Z", 
+        "relative_path": "ruby/new_features_27", 
+        "id": "#108", 
+        "categories": "ruby", 
+        "description": "Investigating new features in Ruby 2.7.0, released 2019-12-25"
     }
 ]

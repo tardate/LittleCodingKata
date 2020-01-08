@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-01-07T16:40:59Z</updated>
+  <updated>2020-01-08T14:42:51Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -947,5 +947,13 @@
     <category term="databases"/>
     <category term="influxdb"/>
     <category term="docker"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/new_features_27/</id>
+    <link href="https://codingkata.tardate.com/ruby/new_features_27/"/>
+    <updated>2020-01-08T14:32:38Z</updated>
+    <title>Ruby 2.7 New Features</title>
+    <summary>Investigating new features in Ruby 2.7.0, released 2019-12-25</summary>
+    <category term="ruby"/>
   </entry>
 </feed>

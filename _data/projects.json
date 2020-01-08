@@ -849,6 +849,14 @@
         ], 
         "title": "Google Chart Basics"
     }, 
+    "/ruby/new_features_27/": {
+        "summary": "Investigating new features in Ruby 2.7.0, released 2019-12-25", 
+        "id": 108, 
+        "tags": [
+            "ruby"
+        ], 
+        "title": "Ruby 2.7 New Features"
+    }, 
     "/ruby/json_parsing/": {
         "summary": "Generating pretty JSON with Ruby and dealing with quirks", 
         "id": 59, 

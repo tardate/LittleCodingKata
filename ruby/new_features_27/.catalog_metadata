@@ -1,0 +1,6 @@
+{
+    "name": "Ruby 2.7 New Features",
+    "description": "Investigating new features in Ruby 2.7.0, released 2019-12-25",
+    "categories": "ruby",
+    "relative_path": "ruby/new_features_27"
+}
