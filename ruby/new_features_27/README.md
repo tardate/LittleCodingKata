@@ -69,6 +69,18 @@ $ ./test_keyword_args.rb
 2 runs, 6 assertions, 0 failures, 0 errors, 0 skips
 ```
 
+### Pattern matching
+
+[test_pattern_matching.rb](./test_pattern_matching.rb) tests the
+[new and experimental pattern matching feature](https://rubyreferences.github.io/rubychanges/2.7.html#pattern-matching)
+
+```
+$ ./test_pattern_matching.rb
+...
+2 runs, 6 assertions, 0 failures, 0 errors, 0 skips
+```
+
+
 ## Credits and References
 
 * [RVM](https://rvm.io/)
