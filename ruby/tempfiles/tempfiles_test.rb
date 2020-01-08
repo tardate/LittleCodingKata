@@ -2,9 +2,7 @@
 require 'minitest/autorun'
 require 'tempfile'
 
-
 class TempfileTest < Minitest::Test
-
   def setup
     @name = 'canary'
     @content = 'hello world'
@@ -77,5 +75,4 @@ class TempfileTest < Minitest::Test
     GC.start
     assert_file_not_present
   end
-
 end

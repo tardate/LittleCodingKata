@@ -2,9 +2,7 @@
 require 'minitest/autorun'
 require './random_mac'
 
-
 class RandomMacTest < Minitest::Test
-
   def test_valid_mac_structure
     mac = random_mac
     assert_match /[\da-f]{2}-[\da-f]{2}-[\da-f]{2}-[\da-f]{2}/, mac
@@ -18,13 +16,12 @@ class RandomMacTest < Minitest::Test
 
   def test_default_OUI
     mac = random_mac
-    assert_equal mac[0..7], '00-16-3e'
+    assert_equal '00-16-3e', mac[0..7]
   end
 
   def test_override_OUI
     custom_oui = '11-22-33'
     mac = random_mac(custom_oui)
-    assert_equal mac[0..7], custom_oui
+    assert_equal custom_oui, mac[0..7]
   end
-
 end
