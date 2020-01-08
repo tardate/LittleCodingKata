@@ -14,10 +14,10 @@ $ rvm get stable
 $ rvm install "ruby-2.7.0"
 ```
 
-
 ### Syntax Changes
 
-[test_syntax_changes.rb](./test_syntax_changes.rb) tests a few new syntax features:
+[test_syntax_changes.rb](./test_syntax_changes.rb) tests a few
+[new syntax changes](https://rubyreferences.github.io/rubychanges/2.7.html#other-syntax-changes):
 
 * comments allowed between dotted call chains
 * rescue with mutilple assignment
@@ -29,11 +29,12 @@ $ ./test_syntax_changes.rb
 4 runs, 10 assertions, 0 failures, 0 errors, 0 skips
 ```
 
-
 ### Enumerables and Collections
 
-[test_enumerables.rb](./test_enumerables.rb) tests a few new features:
+[test_enumerables.rb](./test_enumerables.rb) tests a few
+[Enumerables and Collections new features](https://rubyreferences.github.io/rubychanges/2.7.html#enumerables-and-collections):
 
+* filter_map
 * tally
 
 ```
@@ -42,6 +43,31 @@ $ ./test_enumerables.rb
 3 runs, 3 assertions, 0 failures, 0 errors, 0 skips
 ```
 
+### Numbered Block Parameters
+
+[test_numbered_parameters.rb](./test_numbered_parameters.rb) tests the
+[numbered block parameter new feature](https://rubyreferences.github.io/rubychanges/2.7.html#numbered-block-parameters):
+
+> In block without explicitly specified parameters, variables _1 through _9 can be used to reference parameters.
+
+```
+$ ./test_numbered_parameters.rb
+...
+4 runs, 4 assertions, 0 failures, 0 errors, 0 skips
+```
+
+### Keyword argument-related changes
+
+[test_keyword_args.rb](./test_keyword_args.rb) tests
+[Keyword argument-related changes](https://rubyreferences.github.io/rubychanges/2.7.html#keyword-argument-related-changes)
+
+* Argument forwarding
+
+```
+$ ./test_keyword_args.rb
+...
+2 runs, 6 assertions, 0 failures, 0 errors, 0 skips
+```
 
 ## Credits and References
 
