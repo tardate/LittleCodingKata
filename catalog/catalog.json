@@ -862,5 +862,13 @@
         "id": "#108", 
         "categories": "ruby", 
         "description": "Investigating new features in Ruby 2.7.0, released 2019-12-25"
+    }, 
+    {
+        "name": "Scripting YouTube", 
+        "updated_at": "2020-01-11T09:25:21Z", 
+        "relative_path": "javascript/scripting_youtube", 
+        "id": "#109", 
+        "categories": "javascript", 
+        "description": "An experiment in scripting the YouTube player with external controls and the IFrame API"
     }
 ]

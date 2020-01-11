@@ -777,6 +777,14 @@
         ], 
         "title": "C++/DoubleTrouble"
     }, 
+    "/javascript/scripting_youtube/": {
+        "summary": "An experiment in scripting the YouTube player with external controls and the IFrame API", 
+        "id": 109, 
+        "tags": [
+            "javascript"
+        ], 
+        "title": "Scripting YouTube"
+    }, 
     "/databases/postgresql/sql2csv/": {
         "summary": "Methods for generating CSV output from a PostgreSQL SQL query", 
         "id": 63, 

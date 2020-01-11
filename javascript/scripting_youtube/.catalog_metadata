@@ -1,0 +1,6 @@
+{
+    "name": "Scripting YouTube",
+    "description": "An experiment in scripting the YouTube player with external controls and the IFrame API",
+    "categories": "javascript",
+    "relative_path": "javascript/scripting_youtube"
+}

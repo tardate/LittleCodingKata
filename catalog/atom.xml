@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-01-08T14:42:51Z</updated>
+  <updated>2020-01-11T09:25:36Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -955,5 +955,13 @@
     <title>Ruby 2.7 New Features</title>
     <summary>Investigating new features in Ruby 2.7.0, released 2019-12-25</summary>
     <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/javascript/scripting_youtube/</id>
+    <link href="https://codingkata.tardate.com/javascript/scripting_youtube/"/>
+    <updated>2020-01-11T09:25:21Z</updated>
+    <title>Scripting YouTube</title>
+    <summary>An experiment in scripting the YouTube player with external controls and the IFrame API</summary>
+    <category term="javascript"/>
   </entry>
 </feed>
