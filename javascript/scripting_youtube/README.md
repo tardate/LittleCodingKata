@@ -57,7 +57,7 @@ So the approach that appears best is:
 
 ## An Example
 
-The [example.html](./example.html)
+The [example.html](https://codingkata.tardate.com/javascript/scripting_youtube/example.html)
 loads a [preset video](https://youtu.be/M7lc1UVf-VE), initially stopped, and enables some simple controls.
 Only plain-old-Javascript and the IFrame API are used.
 
@@ -68,7 +68,7 @@ A Mark button is use to set/reset the start and end markers.
 * when the second mark has been added, it will automatically replay the video between the two marks
 * if the 'loop' checkbox is selected, the video will loop between the two marks
 
-[![running](./assets/running.png?raw=true)](./example.html)
+[![running](./assets/running.png?raw=true)](https://codingkata.tardate.com/javascript/scripting_youtube/example.html)
 
 ## Credits and References
 
