@@ -329,6 +329,15 @@
         ], 
         "title": "Javascript/progress_bars_bootstrap"
     }, 
+    "/security/metasploit/dockerized/": {
+        "summary": "Investigating how to run Metasploit in a Docker container", 
+        "id": 115, 
+        "tags": [
+            "security", 
+            "docker"
+        ], 
+        "title": "Running Metasploit with Docker"
+    }, 
     "/c/pointers/": {
         "summary": "All about pointers in C", 
         "id": 110, 
@@ -498,10 +507,10 @@
     }, 
     "/rust/rust_programming_language/": {
         "summary": "Book notes - The Rust Programming Language by Steve Klabnik, pubished by Mozilla Research", 
-        "id": 116, 
+        "id": 118, 
         "tags": [
             "rust", 
-            "Book"
+            "book"
         ], 
         "title": "The Rust Programming Language"
     }, 
@@ -530,6 +539,15 @@
             "Messaging"
         ], 
         "title": "gRPC Explainer"
+    }, 
+    "/security/metasploit_penetration_testing_cookbook/": {
+        "summary": "Book notes - Metasploit Penetration Testing Cookbook, Second Edition by Monika Agarwal, Abhinav Singh", 
+        "id": 116, 
+        "tags": [
+            "security", 
+            "book"
+        ], 
+        "title": "Metasploit Penetration Testing Cookbook"
     }, 
     "/c/define_const/": {
         "summary": "Comparing the use of `#define` preprocessor macros and `const` statements", 
@@ -592,10 +610,10 @@
     }, 
     "/c/practical_c_programming/": {
         "summary": "Book notes - Practical C Programming, 3rd Edition by Steve Oualline, pubished by O'Reilly", 
-        "id": 115, 
+        "id": 117, 
         "tags": [
             "C", 
-            "Book"
+            "book"
         ], 
         "title": "Practical C Programming"
     }, 

@@ -897,7 +897,7 @@
     }, 
     {
         "name": "Copying Tables", 
-        "updated_at": "2020-01-25T12:37:29Z", 
+        "updated_at": "2020-01-25T14:06:47Z", 
         "relative_path": "databases/postgresql/copy_table", 
         "id": "#113", 
         "categories": "Database, SQL", 
@@ -905,26 +905,42 @@
     }, 
     {
         "name": "MySQL on MacOSX", 
-        "updated_at": "2020-01-25T12:37:29Z", 
+        "updated_at": "2020-01-25T14:06:47Z", 
         "relative_path": "databases/mysql/install_macosx", 
         "id": "#114", 
         "categories": "Database, MySQL", 
         "description": "Notes on installing and running MySQL on MacOSX"
     }, 
     {
-        "name": "Practical C Programming", 
-        "updated_at": "2020-01-25T13:07:40Z", 
-        "relative_path": "c/practical_c_programming", 
+        "name": "Running Metasploit with Docker", 
+        "updated_at": "2020-01-25T15:57:45Z", 
+        "relative_path": "security/metasploit/dockerized", 
         "id": "#115", 
-        "categories": "C, Book", 
+        "categories": "security, docker", 
+        "description": "Investigating how to run Metasploit in a Docker container"
+    }, 
+    {
+        "name": "Metasploit Penetration Testing Cookbook", 
+        "updated_at": "2020-01-25T15:59:40Z", 
+        "relative_path": "security/metasploit_penetration_testing_cookbook", 
+        "id": "#116", 
+        "categories": "security, book", 
+        "description": "Book notes - Metasploit Penetration Testing Cookbook, Second Edition by Monika Agarwal, Abhinav Singh"
+    }, 
+    {
+        "name": "Practical C Programming", 
+        "updated_at": "2020-01-25T15:59:51Z", 
+        "relative_path": "c/practical_c_programming", 
+        "id": "#117", 
+        "categories": "C, book", 
         "description": "Book notes - Practical C Programming, 3rd Edition by Steve Oualline, pubished by O'Reilly"
     }, 
     {
         "name": "The Rust Programming Language", 
-        "updated_at": "2020-01-25T13:23:35Z", 
+        "updated_at": "2020-01-25T16:00:07Z", 
         "relative_path": "rust/rust_programming_language", 
-        "id": "#116", 
-        "categories": "rust, Book", 
+        "id": "#118", 
+        "categories": "rust, book", 
         "description": "Book notes - The Rust Programming Language by Steve Klabnik, pubished by Mozilla Research"
     }
 ]

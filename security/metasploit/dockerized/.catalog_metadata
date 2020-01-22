@@ -1,0 +1,6 @@
+{
+    "name": "Running Metasploit with Docker",
+    "description": "Investigating how to run Metasploit in a Docker container",
+    "categories": "security, docker",
+    "relative_path": "security/metasploit/dockerized"
+}
