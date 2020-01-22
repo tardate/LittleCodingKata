@@ -873,10 +873,18 @@
     }, 
     {
         "name": "Linking C", 
-        "updated_at": "2020-01-25T07:48:20Z", 
+        "updated_at": "2020-01-25T08:38:00Z", 
         "relative_path": "c/linking", 
         "id": "#110", 
         "categories": "C", 
         "description": "All about compiling, linking, and debugging C with GCC"
+    }, 
+    {
+        "name": "Pointers in C", 
+        "updated_at": "2020-01-25T09:44:42Z", 
+        "relative_path": "c/pointers", 
+        "id": "#111", 
+        "categories": "C", 
+        "description": "All about pointers in C"
     }
 ]

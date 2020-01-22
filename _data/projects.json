@@ -329,6 +329,14 @@
         ], 
         "title": "Javascript/progress_bars_bootstrap"
     }, 
+    "/c/pointers/": {
+        "summary": "All about pointers in C", 
+        "id": 111, 
+        "tags": [
+            "C"
+        ], 
+        "title": "Pointers in C"
+    }, 
     "/node/regression/": {
         "summary": "Implementing linear regression, logistic regression and multi-nominal logistic regression with tensorflow-js and node", 
         "id": 45, 
