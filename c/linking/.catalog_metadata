@@ -1,0 +1,6 @@
+{
+    "name": "Linking C",
+    "description": "All about compiling, linking, and debugging C with GCC",
+    "categories": "C",
+    "relative_path": "c/linking"
+}

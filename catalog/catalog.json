@@ -841,7 +841,7 @@
     }, 
     {
         "name": "Using InfluxDb with Ruby", 
-        "updated_at": "2020-01-07T16:40:27Z", 
+        "updated_at": "2020-01-22T13:38:12Z", 
         "relative_path": "databases/influxdb/ruby_client", 
         "id": "#106", 
         "categories": "databases, influxdb, docker, ruby", 
@@ -849,26 +849,34 @@
     }, 
     {
         "name": "About InfluxDB", 
-        "updated_at": "2020-01-07T16:40:31Z", 
+        "updated_at": "2020-01-22T13:38:12Z", 
         "relative_path": "databases/influxdb/about", 
         "id": "#107", 
         "categories": "databases, influxdb, docker", 
         "description": "Learning the basics of InfluxDB and running a demo with Docker"
     }, 
     {
-        "name": "Ruby 2.7 New Features", 
-        "updated_at": "2020-01-08T14:32:38Z", 
-        "relative_path": "ruby/new_features_27", 
+        "name": "Scripting YouTube", 
+        "updated_at": "2020-01-22T13:38:12Z", 
+        "relative_path": "javascript/scripting_youtube", 
         "id": "#108", 
+        "categories": "javascript", 
+        "description": "An experiment in scripting the YouTube player with external controls and the IFrame API"
+    }, 
+    {
+        "name": "Ruby 2.7 New Features", 
+        "updated_at": "2020-01-22T13:38:12Z", 
+        "relative_path": "ruby/new_features_27", 
+        "id": "#109", 
         "categories": "ruby", 
         "description": "Investigating new features in Ruby 2.7.0, released 2019-12-25"
     }, 
     {
-        "name": "Scripting YouTube", 
-        "updated_at": "2020-01-11T09:25:21Z", 
-        "relative_path": "javascript/scripting_youtube", 
-        "id": "#109", 
-        "categories": "javascript", 
-        "description": "An experiment in scripting the YouTube player with external controls and the IFrame API"
+        "name": "Linking C", 
+        "updated_at": "2020-01-25T07:48:20Z", 
+        "relative_path": "c/linking", 
+        "id": "#110", 
+        "categories": "C", 
+        "description": "All about compiling, linking, and debugging C with GCC"
     }
 ]

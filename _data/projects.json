@@ -462,6 +462,14 @@
         ], 
         "title": "arping"
     }, 
+    "/c/linking/": {
+        "summary": "All about compiling, linking, and debugging C with GCC", 
+        "id": 110, 
+        "tags": [
+            "C"
+        ], 
+        "title": "Linking C"
+    }, 
     "/node/knn-tf/": {
         "summary": "A demonstration of the k-nearest neighbors algorithm implemented using tensorflow-js with node.js", 
         "id": 44, 
@@ -779,7 +787,7 @@
     }, 
     "/javascript/scripting_youtube/": {
         "summary": "An experiment in scripting the YouTube player with external controls and the IFrame API", 
-        "id": 109, 
+        "id": 108, 
         "tags": [
             "javascript"
         ], 
@@ -859,7 +867,7 @@
     }, 
     "/ruby/new_features_27/": {
         "summary": "Investigating new features in Ruby 2.7.0, released 2019-12-25", 
-        "id": 108, 
+        "id": 109, 
         "tags": [
             "ruby"
         ], 

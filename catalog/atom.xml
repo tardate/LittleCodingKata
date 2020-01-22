@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-01-11T09:25:36Z</updated>
+  <updated>2020-01-25T08:37:14Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -930,7 +930,7 @@
   <entry>
     <id>https://codingkata.tardate.com/databases/influxdb/ruby_client/</id>
     <link href="https://codingkata.tardate.com/databases/influxdb/ruby_client/"/>
-    <updated>2020-01-07T16:40:27Z</updated>
+    <updated>2020-01-22T13:38:12Z</updated>
     <title>Using InfluxDb with Ruby</title>
     <summary>Testing out the official ruby client calling a InfluxDb 1.7.9 server running in Docker.</summary>
     <category term="databases"/>
@@ -941,7 +941,7 @@
   <entry>
     <id>https://codingkata.tardate.com/databases/influxdb/about/</id>
     <link href="https://codingkata.tardate.com/databases/influxdb/about/"/>
-    <updated>2020-01-07T16:40:31Z</updated>
+    <updated>2020-01-22T13:38:12Z</updated>
     <title>About InfluxDB</title>
     <summary>Learning the basics of InfluxDB and running a demo with Docker</summary>
     <category term="databases"/>
@@ -949,19 +949,27 @@
     <category term="docker"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/javascript/scripting_youtube/</id>
+    <link href="https://codingkata.tardate.com/javascript/scripting_youtube/"/>
+    <updated>2020-01-22T13:38:12Z</updated>
+    <title>Scripting YouTube</title>
+    <summary>An experiment in scripting the YouTube player with external controls and the IFrame API</summary>
+    <category term="javascript"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/ruby/new_features_27/</id>
     <link href="https://codingkata.tardate.com/ruby/new_features_27/"/>
-    <updated>2020-01-08T14:32:38Z</updated>
+    <updated>2020-01-22T13:38:12Z</updated>
     <title>Ruby 2.7 New Features</title>
     <summary>Investigating new features in Ruby 2.7.0, released 2019-12-25</summary>
     <category term="ruby"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/javascript/scripting_youtube/</id>
-    <link href="https://codingkata.tardate.com/javascript/scripting_youtube/"/>
-    <updated>2020-01-11T09:25:21Z</updated>
-    <title>Scripting YouTube</title>
-    <summary>An experiment in scripting the YouTube player with external controls and the IFrame API</summary>
-    <category term="javascript"/>
+    <id>https://codingkata.tardate.com/c/linking/</id>
+    <link href="https://codingkata.tardate.com/c/linking/"/>
+    <updated>2020-01-25T07:48:20Z</updated>
+    <title>Linking C</title>
+    <summary>All about compiling, linking, and debugging C with GCC</summary>
+    <category term="C"/>
   </entry>
 </feed>

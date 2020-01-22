@@ -1,2 +1,5 @@
 demo
+example
 *.DSYM
+*.o
+*.out
