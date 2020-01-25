@@ -793,6 +793,15 @@
         ], 
         "title": "C++/DoubleTrouble"
     }, 
+    "/c/21st_century_c/": {
+        "summary": "Notes on the book '21st Century C' by Ben Klemens, pubished by O'Reilly", 
+        "id": 112, 
+        "tags": [
+            "C", 
+            "book"
+        ], 
+        "title": "21st Century C"
+    }, 
     "/javascript/scripting_youtube/": {
         "summary": "An experiment in scripting the YouTube player with external controls and the IFrame API", 
         "id": 108, 

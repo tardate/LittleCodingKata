@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-01-25T10:35:02Z</updated>
+  <updated>2020-01-25T11:10:40Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -975,9 +975,18 @@
   <entry>
     <id>https://codingkata.tardate.com/c/pointers/</id>
     <link href="https://codingkata.tardate.com/c/pointers/"/>
-    <updated>2020-01-25T09:44:42Z</updated>
+    <updated>2020-01-25T10:35:21Z</updated>
     <title>Pointers in C</title>
     <summary>All about pointers in C</summary>
     <category term="C"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/c/21st_century_c/</id>
+    <link href="https://codingkata.tardate.com/c/21st_century_c/"/>
+    <updated>2020-01-25T10:39:04Z</updated>
+    <title>21st Century C</title>
+    <summary>Notes on the book '21st Century C' by Ben Klemens, pubished by O'Reilly</summary>
+    <category term="C"/>
+    <category term="book"/>
   </entry>
 </feed>
