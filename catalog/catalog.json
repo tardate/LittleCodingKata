@@ -950,5 +950,13 @@
         "id": "#119", 
         "categories": "ruby, rails, book", 
         "description": "Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional"
+    }, 
+    {
+        "name": "Programming Interactivity", 
+        "updated_at": "2020-01-25T17:22:17Z", 
+        "relative_path": "design/programming_interactivity", 
+        "id": "#120", 
+        "categories": "design, arduino", 
+        "description": "Book notes - Programming Interactivity 2nd Edition, by Joshua Noble published by O'Reilly"
     }
 ]

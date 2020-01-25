@@ -962,6 +962,15 @@
         ], 
         "title": "JSON Parsing"
     }, 
+    "/design/programming_interactivity/": {
+        "summary": "Book notes - Programming Interactivity 2nd Edition, by Joshua Noble published by O'Reilly", 
+        "id": 120, 
+        "tags": [
+            "design", 
+            "arduino"
+        ], 
+        "title": "Programming Interactivity"
+    }, 
     "/databases/mysql/cheats/": {
         "summary": "Basic administration and data management command notes", 
         "id": 65, 
