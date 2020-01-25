@@ -496,6 +496,15 @@
         ], 
         "title": "[Boost].SML"
     }, 
+    "/rust/rust_programming_language/": {
+        "summary": "Book notes - The Rust Programming Language by Steve Klabnik, pubished by Mozilla Research", 
+        "id": 116, 
+        "tags": [
+            "rust", 
+            "Book"
+        ], 
+        "title": "The Rust Programming Language"
+    }, 
     "/elm/about/": {
         "summary": "elm - my tl;dr summary", 
         "id": 17, 

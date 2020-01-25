@@ -918,5 +918,13 @@
         "id": "#115", 
         "categories": "C, Book", 
         "description": "Book notes - Practical C Programming, 3rd Edition by Steve Oualline, pubished by O'Reilly"
+    }, 
+    {
+        "name": "The Rust Programming Language", 
+        "updated_at": "2020-01-25T13:23:35Z", 
+        "relative_path": "rust/rust_programming_language", 
+        "id": "#116", 
+        "categories": "rust, Book", 
+        "description": "Book notes - The Rust Programming Language by Steve Klabnik, pubished by Mozilla Research"
     }
 ]

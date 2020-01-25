@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-01-25T13:13:58Z</updated>
+  <updated>2020-01-25T13:25:42Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1014,6 +1014,15 @@
     <title>Practical C Programming</title>
     <summary>Book notes - Practical C Programming, 3rd Edition by Steve Oualline, pubished by O'Reilly</summary>
     <category term="C"/>
+    <category term="Book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rust/rust_programming_language/</id>
+    <link href="https://codingkata.tardate.com/rust/rust_programming_language/"/>
+    <updated>2020-01-25T13:23:35Z</updated>
+    <title>The Rust Programming Language</title>
+    <summary>Book notes - The Rust Programming Language by Steve Klabnik, pubished by Mozilla Research</summary>
+    <category term="rust"/>
     <category term="Book"/>
   </entry>
 </feed>
