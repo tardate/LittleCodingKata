@@ -942,5 +942,13 @@
         "id": "#118", 
         "categories": "rust, book", 
         "description": "Book notes - The Rust Programming Language by Steve Klabnik, pubished by Mozilla Research"
+    }, 
+    {
+        "name": "Rails AntiPatterns", 
+        "updated_at": "2020-01-25T16:26:34Z", 
+        "relative_path": "ruby/rails_antipatterns", 
+        "id": "#119", 
+        "categories": "ruby, rails, book", 
+        "description": "Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional"
     }
 ]

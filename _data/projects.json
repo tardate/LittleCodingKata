@@ -839,6 +839,16 @@
         ], 
         "title": "sync_folder"
     }, 
+    "/ruby/rails_antipatterns/": {
+        "summary": "Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional", 
+        "id": 119, 
+        "tags": [
+            "ruby", 
+            "rails", 
+            "book"
+        ], 
+        "title": "Rails AntiPatterns"
+    }, 
     "/cpp/DoubleTrouble/": {
         "summary": "Investigting some of the pitfalls of directly reading doubles from a stream, then going down the rabbit hole of bugs and variations in the LLVM/Clang and GCC implementations of the C++ standard library.", 
         "id": 34, 

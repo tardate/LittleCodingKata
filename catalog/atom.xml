@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-01-25T16:00:17Z</updated>
+  <updated>2020-01-25T16:26:49Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1041,6 +1041,16 @@
     <title>The Rust Programming Language</title>
     <summary>Book notes - The Rust Programming Language by Steve Klabnik, pubished by Mozilla Research</summary>
     <category term="rust"/>
+    <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/rails_antipatterns/</id>
+    <link href="https://codingkata.tardate.com/ruby/rails_antipatterns/"/>
+    <updated>2020-01-25T16:26:34Z</updated>
+    <title>Rails AntiPatterns</title>
+    <summary>Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional</summary>
+    <category term="ruby"/>
+    <category term="rails"/>
     <category term="book"/>
   </entry>
 </feed>
