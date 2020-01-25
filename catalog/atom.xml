@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-01-25T12:36:44Z</updated>
+  <updated>2020-01-25T13:13:58Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -990,21 +990,30 @@
     <category term="C"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/databases/postgresql/copy_table/</id>
+    <link href="https://codingkata.tardate.com/databases/postgresql/copy_table/"/>
+    <updated>2020-01-25T12:37:29Z</updated>
+    <title>Copying Tables</title>
+    <summary>notes on copying table strictures and data with SQL</summary>
+    <category term="Database"/>
+    <category term="SQL"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/databases/mysql/install_macosx/</id>
     <link href="https://codingkata.tardate.com/databases/mysql/install_macosx/"/>
-    <updated>2020-01-25T11:24:04Z</updated>
+    <updated>2020-01-25T12:37:29Z</updated>
     <title>MySQL on MacOSX</title>
     <summary>Notes on installing and running MySQL on MacOSX</summary>
     <category term="Database"/>
     <category term="MySQL"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/databases/postgresql/copy_table/</id>
-    <link href="https://codingkata.tardate.com/databases/postgresql/copy_table/"/>
-    <updated>2020-01-25T11:48:59Z</updated>
-    <title>Copying Tables</title>
-    <summary>notes on copying table strictures and data with SQL</summary>
-    <category term="Database"/>
-    <category term="SQL"/>
+    <id>https://codingkata.tardate.com/c/practical_c_programming/</id>
+    <link href="https://codingkata.tardate.com/c/practical_c_programming/"/>
+    <updated>2020-01-25T13:07:40Z</updated>
+    <title>Practical C Programming</title>
+    <summary>Book notes - Practical C Programming, 3rd Edition by Steve Oualline, pubished by O'Reilly</summary>
+    <category term="C"/>
+    <category term="Book"/>
   </entry>
 </feed>

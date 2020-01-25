@@ -581,6 +581,15 @@
         ], 
         "title": "Bash/file_locks"
     }, 
+    "/c/practical_c_programming/": {
+        "summary": "Book notes - Practical C Programming, 3rd Edition by Steve Oualline, pubished by O'Reilly", 
+        "id": 115, 
+        "tags": [
+            "C", 
+            "Book"
+        ], 
+        "title": "Practical C Programming"
+    }, 
     "/mono/about/": {
         "summary": "About C# with Mono", 
         "id": 35, 
@@ -640,7 +649,7 @@
     }, 
     "/databases/mysql/install_macosx/": {
         "summary": "Notes on installing and running MySQL on MacOSX", 
-        "id": 113, 
+        "id": 114, 
         "tags": [
             "Database", 
             "MySQL"
@@ -683,7 +692,7 @@
     }, 
     "/databases/postgresql/copy_table/": {
         "summary": "notes on copying table strictures and data with SQL", 
-        "id": 114, 
+        "id": 113, 
         "tags": [
             "Database", 
             "SQL"
