@@ -839,6 +839,15 @@
         ], 
         "title": "sync_folder"
     }, 
+    "/infrastructure/cacti/": {
+        "summary": "About the cacti network monitoring tool, including ho to run it in Docker", 
+        "id": 121, 
+        "tags": [
+            "infrastructure", 
+            "monitoring"
+        ], 
+        "title": "Cacti"
+    }, 
     "/ruby/rails_antipatterns/": {
         "summary": "Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional", 
         "id": 119, 
