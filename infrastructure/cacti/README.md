@@ -1,6 +1,6 @@
 # Cacti
 
-About the cacti network monitoring tool, including ho to run it in Docker.
+About the cacti network monitoring tool, including how to run it in Docker.
 
 ## Notes
 

@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-01-26T04:13:35Z</updated>
+  <updated>2020-01-26T06:16:49Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1065,9 +1065,9 @@
   <entry>
     <id>https://codingkata.tardate.com/infrastructure/cacti/</id>
     <link href="https://codingkata.tardate.com/infrastructure/cacti/"/>
-    <updated>2020-01-26T02:07:55Z</updated>
+    <updated>2020-01-26T06:16:23Z</updated>
     <title>Cacti</title>
-    <summary>About the cacti network monitoring tool, including ho to run it in Docker</summary>
+    <summary>About the cacti network monitoring tool, including how to run it in Docker</summary>
     <category term="infrastructure"/>
     <category term="monitoring"/>
   </entry>

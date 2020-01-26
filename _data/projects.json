@@ -840,7 +840,7 @@
         "title": "sync_folder"
     }, 
     "/infrastructure/cacti/": {
-        "summary": "About the cacti network monitoring tool, including ho to run it in Docker", 
+        "summary": "About the cacti network monitoring tool, including how to run it in Docker", 
         "id": 121, 
         "tags": [
             "infrastructure", 

@@ -961,10 +961,10 @@
     }, 
     {
         "name": "Cacti", 
-        "updated_at": "2020-01-26T02:07:55Z", 
+        "updated_at": "2020-01-26T06:16:23Z", 
         "relative_path": "infrastructure/cacti", 
         "id": "#121", 
         "categories": "infrastructure, monitoring", 
-        "description": "About the cacti network monitoring tool, including ho to run it in Docker"
+        "description": "About the cacti network monitoring tool, including how to run it in Docker"
     }
 ]
