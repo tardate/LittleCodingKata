@@ -674,6 +674,15 @@
         ], 
         "title": "Bash/parse_env_setting"
     }, 
+    "/cpp/hands_on_system_programming_with_cpp/": {
+        "summary": "Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn", 
+        "id": 122, 
+        "tags": [
+            "cpp", 
+            "book"
+        ], 
+        "title": "Hands-On System Programming with C++"
+    }, 
     "/databases/mysql/install_macosx/": {
         "summary": "Notes on installing and running MySQL on MacOSX", 
         "id": 114, 

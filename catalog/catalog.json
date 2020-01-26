@@ -966,5 +966,13 @@
         "id": "#121", 
         "categories": "infrastructure, monitoring", 
         "description": "About the cacti network monitoring tool, including how to run it in Docker"
+    }, 
+    {
+        "name": "Hands-On System Programming with C++", 
+        "updated_at": "2020-01-26T07:21:50Z", 
+        "relative_path": "cpp/hands_on_system_programming_with_cpp", 
+        "id": "#122", 
+        "categories": "cpp, book", 
+        "description": "Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn"
     }
 ]

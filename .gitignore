@@ -23,6 +23,7 @@ elm-stuff
 tmp
 wip
 *.ignore
+example_source
 
 # jekyll intermediates
 _site
