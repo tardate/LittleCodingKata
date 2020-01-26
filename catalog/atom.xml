@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-01-26T07:22:13Z</updated>
+  <updated>2020-01-26T07:32:13Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -899,17 +899,6 @@
     <category term="C"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/formats/rss_atom/</id>
-    <link href="https://codingkata.tardate.com/formats/rss_atom/"/>
-    <updated>2020-01-02T00:24:09Z</updated>
-    <title>RSS and Atom</title>
-    <summary>About RSS and Atom feeds for publishing and podcasting</summary>
-    <category term="formats"/>
-    <category term="rss"/>
-    <category term="rdf"/>
-    <category term="atom"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/formats/yaml/</id>
     <link href="https://codingkata.tardate.com/formats/yaml/"/>
     <updated>2020-01-02T00:24:09Z</updated>
@@ -1078,6 +1067,18 @@
     <title>Hands-On System Programming with C++</title>
     <summary>Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn</summary>
     <category term="cpp"/>
+    <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/formats/rss_atom/</id>
+    <link href="https://codingkata.tardate.com/formats/rss_atom/"/>
+    <updated>2020-01-26T07:31:58Z</updated>
+    <title>RSS and Atom</title>
+    <summary>About RSS and Atom feeds for publishing and podcasting</summary>
+    <category term="formats"/>
+    <category term="rss"/>
+    <category term="rdf"/>
+    <category term="atom"/>
     <category term="book"/>
   </entry>
 </feed>

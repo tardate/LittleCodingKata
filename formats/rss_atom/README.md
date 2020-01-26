@@ -159,6 +159,32 @@ Example iTunes-compatible podcast feed:
 </rss>
 ```
 
+## Books
+
+### Developing Feeds with RSS and Atom, by Ben Hammersley
+
+* [O'Reilly](http://shop.oreilly.com/product/9780596008819.do)
+* [goodreads](https://www.goodreads.com/book/show/926310.Developing_Feeds_with_Rss_and_Atom)
+* [example source](https://resources.oreilly.com/examples/9780596008819/)
+
+Getting the examples source:
+
+```
+git clone https://resources.oreilly.com/examples/9780596008819/ example_source/hammersley
+```
+
+### RSS and Atom By Heinz Wittenbrink
+
+* [O'Reilly](http://shop.oreilly.com/product/9781904811572.do)
+* [goodreads](https://www.goodreads.com/book/show/926313.Rss_and_Atom)
+* [example source](https://resources.oreilly.com/examples/9781904811572/)
+
+Getting the examples source:
+
+```
+git clone https://resources.oreilly.com/examples/9781904811572/ example_source/wittenbrink
+```
+
 ## Credits and References
 
 * [RSS and Atom - Understanding and Implementing Content Feeds and Syndication](https://www.goodreads.com/book/show/926313.Rss_and_Atom) - book

@@ -102,12 +102,13 @@
     }, 
     "/formats/rss_atom/": {
         "summary": "About RSS and Atom feeds for publishing and podcasting", 
-        "id": 103, 
+        "id": 122, 
         "tags": [
             "formats", 
             "rss", 
             "rdf", 
-            "atom"
+            "atom", 
+            "book"
         ], 
         "title": "RSS and Atom"
     }, 
@@ -331,7 +332,7 @@
     }, 
     "/security/metasploit/dockerized/": {
         "summary": "Investigating how to run Metasploit in a Docker container", 
-        "id": 115, 
+        "id": 114, 
         "tags": [
             "security", 
             "docker"
@@ -340,7 +341,7 @@
     }, 
     "/c/pointers/": {
         "summary": "All about pointers in C", 
-        "id": 110, 
+        "id": 109, 
         "tags": [
             "C"
         ], 
@@ -391,7 +392,7 @@
     }, 
     "/databases/influxdb/ruby_client/": {
         "summary": "Testing out the official ruby client calling a InfluxDb 1.7.9 server running in Docker.", 
-        "id": 106, 
+        "id": 105, 
         "tags": [
             "databases", 
             "influxdb", 
@@ -455,7 +456,7 @@
     }, 
     "/formats/yaml/": {
         "summary": "Notes on structure, generation and validation of YAML.", 
-        "id": 104, 
+        "id": 103, 
         "tags": [
             "formats", 
             "yaml"
@@ -481,7 +482,7 @@
     }, 
     "/c/linking/": {
         "summary": "All about compiling, linking, and debugging C with GCC", 
-        "id": 112, 
+        "id": 111, 
         "tags": [
             "C"
         ], 
@@ -507,7 +508,7 @@
     }, 
     "/rust/rust_programming_language/": {
         "summary": "Book notes - The Rust Programming Language by Steve Klabnik, pubished by Mozilla Research", 
-        "id": 118, 
+        "id": 117, 
         "tags": [
             "rust", 
             "book"
@@ -542,7 +543,7 @@
     }, 
     "/security/metasploit_penetration_testing_cookbook/": {
         "summary": "Book notes - Metasploit Penetration Testing Cookbook, Second Edition by Monika Agarwal, Abhinav Singh", 
-        "id": 116, 
+        "id": 115, 
         "tags": [
             "security", 
             "book"
@@ -610,7 +611,7 @@
     }, 
     "/c/practical_c_programming/": {
         "summary": "Book notes - Practical C Programming, 3rd Edition by Steve Oualline, pubished by O'Reilly", 
-        "id": 117, 
+        "id": 116, 
         "tags": [
             "C", 
             "book"
@@ -639,7 +640,7 @@
     }, 
     "/ruby/PrivatePodFeed/": {
         "summary": "description", 
-        "id": 105, 
+        "id": 104, 
         "tags": [
             "ruby", 
             "rss"
@@ -676,7 +677,7 @@
     }, 
     "/cpp/hands_on_system_programming_with_cpp/": {
         "summary": "Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn", 
-        "id": 122, 
+        "id": 121, 
         "tags": [
             "cpp", 
             "book"
@@ -685,7 +686,7 @@
     }, 
     "/databases/mysql/install_macosx/": {
         "summary": "Notes on installing and running MySQL on MacOSX", 
-        "id": 114, 
+        "id": 113, 
         "tags": [
             "Database", 
             "MySQL"
@@ -728,7 +729,7 @@
     }, 
     "/databases/postgresql/copy_table/": {
         "summary": "notes on copying table strictures and data with SQL", 
-        "id": 113, 
+        "id": 112, 
         "tags": [
             "Database", 
             "SQL"
@@ -782,7 +783,7 @@
     }, 
     "/databases/influxdb/about/": {
         "summary": "Learning the basics of InfluxDB and running a demo with Docker", 
-        "id": 107, 
+        "id": 106, 
         "tags": [
             "databases", 
             "influxdb", 
@@ -850,7 +851,7 @@
     }, 
     "/infrastructure/cacti/": {
         "summary": "About the cacti network monitoring tool, including how to run it in Docker", 
-        "id": 121, 
+        "id": 120, 
         "tags": [
             "infrastructure", 
             "monitoring"
@@ -859,7 +860,7 @@
     }, 
     "/ruby/rails_antipatterns/": {
         "summary": "Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional", 
-        "id": 119, 
+        "id": 118, 
         "tags": [
             "ruby", 
             "rails", 
@@ -877,7 +878,7 @@
     }, 
     "/c/21st_century_c/": {
         "summary": "Notes on the book '21st Century C' by Ben Klemens, pubished by O'Reilly", 
-        "id": 111, 
+        "id": 110, 
         "tags": [
             "C", 
             "book"
@@ -886,7 +887,7 @@
     }, 
     "/javascript/scripting_youtube/": {
         "summary": "An experiment in scripting the YouTube player with external controls and the IFrame API", 
-        "id": 108, 
+        "id": 107, 
         "tags": [
             "javascript"
         ], 
@@ -966,7 +967,7 @@
     }, 
     "/ruby/new_features_27/": {
         "summary": "Investigating new features in Ruby 2.7.0, released 2019-12-25", 
-        "id": 109, 
+        "id": 108, 
         "tags": [
             "ruby"
         ], 
@@ -982,7 +983,7 @@
     }, 
     "/design/programming_interactivity/": {
         "summary": "Book notes - Programming Interactivity 2nd Edition, by Joshua Noble published by O'Reilly", 
-        "id": 120, 
+        "id": 119, 
         "tags": [
             "design", 
             "arduino"
