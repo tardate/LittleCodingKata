@@ -136,6 +136,17 @@ Shows how to use OOP concenpts in C with a couple of full examples.
 
 Provides a very good "C 101"
 
+## Getting the Example Source
+
+The git repo actually contains a ziped archive of the sources.
+I've extracted locally to a folder called `example_source` as follows:
+
+```
+$ git clone https://resources.oreilly.com/examples/0636920025108.git
+$ tar zxvf 0636920025108/21st_century_examples.tgz
+$ mv 21st_century_examples example_source
+$ rm -fR 0636920025108
+```
 
 ## Credits and References
 
