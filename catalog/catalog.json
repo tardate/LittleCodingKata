@@ -974,5 +974,13 @@
         "id": "#122", 
         "categories": "formats, rss, rdf, atom, book", 
         "description": "About RSS and Atom feeds for publishing and podcasting"
+    }, 
+    {
+        "name": "Error Function", 
+        "updated_at": "2020-01-30T16:22:21Z", 
+        "relative_path": "c/error_function", 
+        "id": "#123", 
+        "categories": "c", 
+        "description": "Methods for calculating the Gauss error function in C with standard libraries and the GNU Scientific Library"
     }
 ]

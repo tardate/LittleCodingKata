@@ -1,0 +1,6 @@
+{
+    "name": "Error Function",
+    "description": "Methods for calculating the Gauss error function in C with standard libraries and the GNU Scientific Library",
+    "categories": "c",
+    "relative_path": "c/error_function"
+}

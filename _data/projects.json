@@ -8,6 +8,14 @@
         ], 
         "title": "python/simple_cli_with_begins"
     }, 
+    "/c/error_function/": {
+        "summary": "Methods for calculating the Gauss error function in C with standard libraries and the GNU Scientific Library", 
+        "id": 123, 
+        "tags": [
+            "c"
+        ], 
+        "title": "Error Function"
+    }, 
     "/elm/hello_clock/": {
         "summary": "2D graphics with elm", 
         "id": 18, 
