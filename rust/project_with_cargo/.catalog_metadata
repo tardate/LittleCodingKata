@@ -1,0 +1,6 @@
+{
+    "name": "Using Cargo",
+    "description": "Using Cargo to create and manage a rust project",
+    "categories": "rust, cargo",
+    "relative_path": "rust/project_with_cargo"
+}

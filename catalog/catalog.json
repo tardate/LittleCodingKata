@@ -982,5 +982,13 @@
         "id": "#123", 
         "categories": "c", 
         "description": "Methods for calculating the Gauss error function in C with standard libraries and the GNU Scientific Library"
+    }, 
+    {
+        "name": "Using Cargo", 
+        "updated_at": "2020-01-30T18:20:34Z", 
+        "relative_path": "rust/project_with_cargo", 
+        "id": "#124", 
+        "categories": "rust, cargo", 
+        "description": "Using Cargo to create and manage a rust project"
     }
 ]

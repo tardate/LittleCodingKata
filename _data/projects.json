@@ -496,6 +496,15 @@
         ], 
         "title": "Linking C"
     }, 
+    "/rust/project_with_cargo/": {
+        "summary": "Using Cargo to create and manage a rust project", 
+        "id": 124, 
+        "tags": [
+            "rust", 
+            "cargo"
+        ], 
+        "title": "Using Cargo"
+    }, 
     "/node/knn-tf/": {
         "summary": "A demonstration of the k-nearest neighbors algorithm implemented using tensorflow-js with node.js", 
         "id": 44, 

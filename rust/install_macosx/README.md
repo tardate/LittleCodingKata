@@ -2,16 +2,15 @@
 
 Getting rust running under MacOSX
 
-
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 There are at least four methods:
+
 * binary installation - see [Rust Downloads](https://www.rust-lang.org/downloads.html)
 * shell installation - see [Rust Downloads](https://www.rust-lang.org/downloads.html)
 * Homebrew
 * source compilation - see [GitHub repo](https://github.com/rust-lang/rust)
+* [rustup](https://rustup.rs/) installer
 
 ### brew
 
@@ -43,6 +42,35 @@ rustc 1.7.0
 
 So far, so good..
 
+## Later
+
+Several updates later...
+
+```
+$ brew info rust
+rust: stable 1.40.0 (bottled), HEAD
+Safe, concurrent, practical language
+https://www.rust-lang.org/
+/usr/local/Cellar/rust/1.40.0 (27,438 files, 639.3MB) *
+  Poured from bottle on 2020-01-09 at 10:47:18
+From: https://github.com/Homebrew/homebrew-core/blob/master/Formula/rust.rb
+==> Dependencies
+Build: cmake ✔
+Required: libssh2 ✔, openssl@1.1 ✔, pkg-config ✔
+==> Options
+--HEAD
+  Install HEAD version
+==> Analytics
+install: 7,931 (30 days), 30,613 (90 days), 123,112 (365 days)
+install-on-request: 5,757 (30 days), 21,727 (90 days), 88,186 (365 days)
+build-error: 0 (30 days)
+$ rustc --version
+rustc 1.40.0
+$ cargo --version
+cargo 1.40.0
+```
+
 ## Credits and References
+
 * [Rust Downloads](https://www.rust-lang.org/downloads.html)
 * [brewformulas - Rust](http://brewformulas.org/Rust)

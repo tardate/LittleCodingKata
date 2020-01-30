@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-01-30T16:22:58Z</updated>
+  <updated>2020-01-30T18:20:47Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1088,5 +1088,14 @@
     <title>Error Function</title>
     <summary>Methods for calculating the Gauss error function in C with standard libraries and the GNU Scientific Library</summary>
     <category term="c"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rust/project_with_cargo/</id>
+    <link href="https://codingkata.tardate.com/rust/project_with_cargo/"/>
+    <updated>2020-01-30T18:20:34Z</updated>
+    <title>Using Cargo</title>
+    <summary>Using Cargo to create and manage a rust project</summary>
+    <category term="rust"/>
+    <category term="cargo"/>
   </entry>
 </feed>

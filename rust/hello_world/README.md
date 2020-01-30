@@ -55,5 +55,6 @@ Goodbye from thread number 9
 ```
 
 ## Credits and References
+
 * [Rust](https://en.wikipedia.org/wiki/Rust_(programming_language)) - wikipedia
 * [std::thread](https://doc.rust-lang.org/std/thread/) library doc
