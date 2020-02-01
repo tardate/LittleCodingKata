@@ -610,6 +610,15 @@
         ], 
         "title": "gRPC Explainer/Python"
     }, 
+    "/elixir/programming_elixir/": {
+        "summary": "Book notes - Programming Elixir by Dave Thomas, pubished by The Pragmatic Bookshelf", 
+        "id": 126, 
+        "tags": [
+            "elixir", 
+            "book"
+        ], 
+        "title": "Programming Elixir"
+    }, 
     "/perl/fix_first_line/": {
         "summary": "patching text files with Perl - fix the first line only", 
         "id": 11, 

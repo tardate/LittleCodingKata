@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-02-01T05:01:45Z</updated>
+  <updated>2020-02-01T06:11:56Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1105,5 +1105,14 @@
     <title>Testing with Rust</title>
     <summary>How to write and organise tests for rust</summary>
     <category term="rust"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/elixir/programming_elixir/</id>
+    <link href="https://codingkata.tardate.com/elixir/programming_elixir/"/>
+    <updated>2020-02-01T06:11:32Z</updated>
+    <title>Programming Elixir</title>
+    <summary>Book notes - Programming Elixir by Dave Thomas, pubished by The Pragmatic Bookshelf</summary>
+    <category term="elixir"/>
+    <category term="book"/>
   </entry>
 </feed>

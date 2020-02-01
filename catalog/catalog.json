@@ -998,5 +998,13 @@
         "id": "#125", 
         "categories": "rust", 
         "description": "How to write and organise tests for rust"
+    }, 
+    {
+        "name": "Programming Elixir", 
+        "updated_at": "2020-02-01T06:11:32Z", 
+        "relative_path": "elixir/programming_elixir", 
+        "id": "#126", 
+        "categories": "elixir, book", 
+        "description": "Book notes - Programming Elixir by Dave Thomas, pubished by The Pragmatic Bookshelf"
     }
 ]
