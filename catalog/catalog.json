@@ -1022,5 +1022,13 @@
         "id": "#128", 
         "categories": "elixir, docker", 
         "description": "Installing Elixir on MacOSX"
+    }, 
+    {
+        "name": "Elixir Basics", 
+        "updated_at": "2020-02-01T06:52:21Z", 
+        "relative_path": "elixir/basics", 
+        "id": "#129", 
+        "categories": "elixir", 
+        "description": "Exploring basic language features of Elixir"
     }
 ]

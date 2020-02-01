@@ -8,6 +8,14 @@
         ], 
         "title": "python/simple_cli_with_begins"
     }, 
+    "/elixir/basics/": {
+        "summary": "Exploring basic language features of Elixir", 
+        "id": 129, 
+        "tags": [
+            "elixir"
+        ], 
+        "title": "Elixir Basics"
+    }, 
     "/c/error_function/": {
         "summary": "Methods for calculating the Gauss error function in C with standard libraries and the GNU Scientific Library", 
         "id": 121, 
