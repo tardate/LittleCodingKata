@@ -1,4 +1,2 @@
-
-# binaries
-hello_world/hello_world
-hello_world/concurrent_hello_world
+target
+Cargo.lock

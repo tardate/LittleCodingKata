@@ -10,7 +10,7 @@
     }, 
     "/c/error_function/": {
         "summary": "Methods for calculating the Gauss error function in C with standard libraries and the GNU Scientific Library", 
-        "id": 123, 
+        "id": 122, 
         "tags": [
             "c"
         ], 
@@ -110,7 +110,7 @@
     }, 
     "/formats/rss_atom/": {
         "summary": "About RSS and Atom feeds for publishing and podcasting", 
-        "id": 122, 
+        "id": 115, 
         "tags": [
             "formats", 
             "rss", 
@@ -304,6 +304,14 @@
         ], 
         "title": "cpp/doxygen"
     }, 
+    "/rust/testing/": {
+        "summary": "How to write and organise tests for rust", 
+        "id": 125, 
+        "tags": [
+            "rust"
+        ], 
+        "title": "Testing with Rust"
+    }, 
     "/fft/running_kissfft_example/": {
         "summary": "test drive the Kiss FFT C library with an example", 
         "id": 38, 
@@ -340,7 +348,7 @@
     }, 
     "/security/metasploit/dockerized/": {
         "summary": "Investigating how to run Metasploit in a Docker container", 
-        "id": 114, 
+        "id": 117, 
         "tags": [
             "security", 
             "docker"
@@ -498,7 +506,7 @@
     }, 
     "/rust/project_with_cargo/": {
         "summary": "Using Cargo to create and manage a rust project", 
-        "id": 124, 
+        "id": 118, 
         "tags": [
             "rust", 
             "cargo"
@@ -525,7 +533,7 @@
     }, 
     "/rust/rust_programming_language/": {
         "summary": "Book notes - The Rust Programming Language by Steve Klabnik, pubished by Mozilla Research", 
-        "id": 117, 
+        "id": 119, 
         "tags": [
             "rust", 
             "book"
@@ -560,7 +568,7 @@
     }, 
     "/security/metasploit_penetration_testing_cookbook/": {
         "summary": "Book notes - Metasploit Penetration Testing Cookbook, Second Edition by Monika Agarwal, Abhinav Singh", 
-        "id": 115, 
+        "id": 116, 
         "tags": [
             "security", 
             "book"
@@ -628,7 +636,7 @@
     }, 
     "/c/practical_c_programming/": {
         "summary": "Book notes - Practical C Programming, 3rd Edition by Steve Oualline, pubished by O'Reilly", 
-        "id": 116, 
+        "id": 123, 
         "tags": [
             "C", 
             "book"
@@ -694,7 +702,7 @@
     }, 
     "/cpp/hands_on_system_programming_with_cpp/": {
         "summary": "Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn", 
-        "id": 121, 
+        "id": 120, 
         "tags": [
             "cpp", 
             "book"
@@ -703,7 +711,7 @@
     }, 
     "/databases/mysql/install_macosx/": {
         "summary": "Notes on installing and running MySQL on MacOSX", 
-        "id": 113, 
+        "id": 114, 
         "tags": [
             "Database", 
             "MySQL"
@@ -746,7 +754,7 @@
     }, 
     "/databases/postgresql/copy_table/": {
         "summary": "notes on copying table strictures and data with SQL", 
-        "id": 112, 
+        "id": 113, 
         "tags": [
             "Database", 
             "SQL"
@@ -868,7 +876,7 @@
     }, 
     "/infrastructure/cacti/": {
         "summary": "About the cacti network monitoring tool, including how to run it in Docker", 
-        "id": 120, 
+        "id": 121, 
         "tags": [
             "infrastructure", 
             "monitoring"
@@ -877,7 +885,7 @@
     }, 
     "/ruby/rails_antipatterns/": {
         "summary": "Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional", 
-        "id": 118, 
+        "id": 124, 
         "tags": [
             "ruby", 
             "rails", 
@@ -1000,7 +1008,7 @@
     }, 
     "/design/programming_interactivity/": {
         "summary": "Book notes - Programming Interactivity 2nd Edition, by Joshua Noble published by O'Reilly", 
-        "id": 119, 
+        "id": 112, 
         "tags": [
             "design", 
             "arduino"

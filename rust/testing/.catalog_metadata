@@ -1,0 +1,6 @@
+{
+    "name": "Testing with Rust",
+    "description": "How to write and organise tests for rust",
+    "categories": "rust",
+    "relative_path": "rust/testing"
+}

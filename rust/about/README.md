@@ -53,5 +53,6 @@ Rust solves the three big problems of C/C++ without introducing garbage collecti
 * [Rust](https://en.wikipedia.org/wiki/Rust_(programming_language)) - wikipedia
 * [Rust GitHub repo](https://github.com/rust-lang/rust)
 * [The Rust Programming Language](http://doc.rust-lang.org/stable/book/)
+* [Rust Style Guide](https://doc.rust-lang.org/1.0.0/style/)
 * [Rust by Example](http://rustbyexample.com/)
 * [Some notes on Rust, the language.](http://lambda-the-ultimate.org/node/5113)

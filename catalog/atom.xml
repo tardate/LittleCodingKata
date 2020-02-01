@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-01-30T18:20:47Z</updated>
+  <updated>2020-02-01T05:01:45Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -979,9 +979,18 @@
     <category term="C"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/design/programming_interactivity/</id>
+    <link href="https://codingkata.tardate.com/design/programming_interactivity/"/>
+    <updated>2020-01-31T00:33:59Z</updated>
+    <title>Programming Interactivity</title>
+    <summary>Book notes - Programming Interactivity 2nd Edition, by Joshua Noble published by O'Reilly</summary>
+    <category term="design"/>
+    <category term="arduino"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/databases/postgresql/copy_table/</id>
     <link href="https://codingkata.tardate.com/databases/postgresql/copy_table/"/>
-    <updated>2020-01-25T14:06:47Z</updated>
+    <updated>2020-01-31T00:33:59Z</updated>
     <title>Copying Tables</title>
     <summary>notes on copying table strictures and data with SQL</summary>
     <category term="Database"/>
@@ -990,89 +999,16 @@
   <entry>
     <id>https://codingkata.tardate.com/databases/mysql/install_macosx/</id>
     <link href="https://codingkata.tardate.com/databases/mysql/install_macosx/"/>
-    <updated>2020-01-25T14:06:47Z</updated>
+    <updated>2020-01-31T00:33:59Z</updated>
     <title>MySQL on MacOSX</title>
     <summary>Notes on installing and running MySQL on MacOSX</summary>
     <category term="Database"/>
     <category term="MySQL"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/security/metasploit/dockerized/</id>
-    <link href="https://codingkata.tardate.com/security/metasploit/dockerized/"/>
-    <updated>2020-01-25T15:57:45Z</updated>
-    <title>Running Metasploit with Docker</title>
-    <summary>Investigating how to run Metasploit in a Docker container</summary>
-    <category term="security"/>
-    <category term="docker"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/security/metasploit_penetration_testing_cookbook/</id>
-    <link href="https://codingkata.tardate.com/security/metasploit_penetration_testing_cookbook/"/>
-    <updated>2020-01-25T15:59:40Z</updated>
-    <title>Metasploit Penetration Testing Cookbook</title>
-    <summary>Book notes - Metasploit Penetration Testing Cookbook, Second Edition by Monika Agarwal, Abhinav Singh</summary>
-    <category term="security"/>
-    <category term="book"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/c/practical_c_programming/</id>
-    <link href="https://codingkata.tardate.com/c/practical_c_programming/"/>
-    <updated>2020-01-25T15:59:51Z</updated>
-    <title>Practical C Programming</title>
-    <summary>Book notes - Practical C Programming, 3rd Edition by Steve Oualline, pubished by O'Reilly</summary>
-    <category term="C"/>
-    <category term="book"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/rust/rust_programming_language/</id>
-    <link href="https://codingkata.tardate.com/rust/rust_programming_language/"/>
-    <updated>2020-01-25T16:00:07Z</updated>
-    <title>The Rust Programming Language</title>
-    <summary>Book notes - The Rust Programming Language by Steve Klabnik, pubished by Mozilla Research</summary>
-    <category term="rust"/>
-    <category term="book"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/ruby/rails_antipatterns/</id>
-    <link href="https://codingkata.tardate.com/ruby/rails_antipatterns/"/>
-    <updated>2020-01-25T16:26:34Z</updated>
-    <title>Rails AntiPatterns</title>
-    <summary>Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional</summary>
-    <category term="ruby"/>
-    <category term="rails"/>
-    <category term="book"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/design/programming_interactivity/</id>
-    <link href="https://codingkata.tardate.com/design/programming_interactivity/"/>
-    <updated>2020-01-25T17:22:17Z</updated>
-    <title>Programming Interactivity</title>
-    <summary>Book notes - Programming Interactivity 2nd Edition, by Joshua Noble published by O'Reilly</summary>
-    <category term="design"/>
-    <category term="arduino"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/infrastructure/cacti/</id>
-    <link href="https://codingkata.tardate.com/infrastructure/cacti/"/>
-    <updated>2020-01-26T06:16:23Z</updated>
-    <title>Cacti</title>
-    <summary>About the cacti network monitoring tool, including how to run it in Docker</summary>
-    <category term="infrastructure"/>
-    <category term="monitoring"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/cpp/hands_on_system_programming_with_cpp/</id>
-    <link href="https://codingkata.tardate.com/cpp/hands_on_system_programming_with_cpp/"/>
-    <updated>2020-01-26T07:21:50Z</updated>
-    <title>Hands-On System Programming with C++</title>
-    <summary>Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn</summary>
-    <category term="cpp"/>
-    <category term="book"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/formats/rss_atom/</id>
     <link href="https://codingkata.tardate.com/formats/rss_atom/"/>
-    <updated>2020-01-26T07:31:58Z</updated>
+    <updated>2020-01-31T00:33:59Z</updated>
     <title>RSS and Atom</title>
     <summary>About RSS and Atom feeds for publishing and podcasting</summary>
     <category term="formats"/>
@@ -1082,20 +1018,92 @@
     <category term="book"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/security/metasploit_penetration_testing_cookbook/</id>
+    <link href="https://codingkata.tardate.com/security/metasploit_penetration_testing_cookbook/"/>
+    <updated>2020-01-31T00:33:59Z</updated>
+    <title>Metasploit Penetration Testing Cookbook</title>
+    <summary>Book notes - Metasploit Penetration Testing Cookbook, Second Edition by Monika Agarwal, Abhinav Singh</summary>
+    <category term="security"/>
+    <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/security/metasploit/dockerized/</id>
+    <link href="https://codingkata.tardate.com/security/metasploit/dockerized/"/>
+    <updated>2020-01-31T00:33:59Z</updated>
+    <title>Running Metasploit with Docker</title>
+    <summary>Investigating how to run Metasploit in a Docker container</summary>
+    <category term="security"/>
+    <category term="docker"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rust/project_with_cargo/</id>
+    <link href="https://codingkata.tardate.com/rust/project_with_cargo/"/>
+    <updated>2020-01-31T00:33:59Z</updated>
+    <title>Using Cargo</title>
+    <summary>Using Cargo to create and manage a rust project</summary>
+    <category term="rust"/>
+    <category term="cargo"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rust/rust_programming_language/</id>
+    <link href="https://codingkata.tardate.com/rust/rust_programming_language/"/>
+    <updated>2020-01-31T00:33:59Z</updated>
+    <title>The Rust Programming Language</title>
+    <summary>Book notes - The Rust Programming Language by Steve Klabnik, pubished by Mozilla Research</summary>
+    <category term="rust"/>
+    <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/hands_on_system_programming_with_cpp/</id>
+    <link href="https://codingkata.tardate.com/cpp/hands_on_system_programming_with_cpp/"/>
+    <updated>2020-01-31T00:33:59Z</updated>
+    <title>Hands-On System Programming with C++</title>
+    <summary>Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn</summary>
+    <category term="cpp"/>
+    <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/infrastructure/cacti/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/cacti/"/>
+    <updated>2020-01-31T00:33:59Z</updated>
+    <title>Cacti</title>
+    <summary>About the cacti network monitoring tool, including how to run it in Docker</summary>
+    <category term="infrastructure"/>
+    <category term="monitoring"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/c/error_function/</id>
     <link href="https://codingkata.tardate.com/c/error_function/"/>
-    <updated>2020-01-30T16:22:21Z</updated>
+    <updated>2020-01-31T00:33:59Z</updated>
     <title>Error Function</title>
     <summary>Methods for calculating the Gauss error function in C with standard libraries and the GNU Scientific Library</summary>
     <category term="c"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/rust/project_with_cargo/</id>
-    <link href="https://codingkata.tardate.com/rust/project_with_cargo/"/>
-    <updated>2020-01-30T18:20:34Z</updated>
-    <title>Using Cargo</title>
-    <summary>Using Cargo to create and manage a rust project</summary>
+    <id>https://codingkata.tardate.com/c/practical_c_programming/</id>
+    <link href="https://codingkata.tardate.com/c/practical_c_programming/"/>
+    <updated>2020-01-31T00:33:59Z</updated>
+    <title>Practical C Programming</title>
+    <summary>Book notes - Practical C Programming, 3rd Edition by Steve Oualline, pubished by O'Reilly</summary>
+    <category term="C"/>
+    <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/rails_antipatterns/</id>
+    <link href="https://codingkata.tardate.com/ruby/rails_antipatterns/"/>
+    <updated>2020-01-31T00:33:59Z</updated>
+    <title>Rails AntiPatterns</title>
+    <summary>Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional</summary>
+    <category term="ruby"/>
+    <category term="rails"/>
+    <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rust/testing/</id>
+    <link href="https://codingkata.tardate.com/rust/testing/"/>
+    <updated>2020-02-01T04:50:16Z</updated>
+    <title>Testing with Rust</title>
+    <summary>How to write and organise tests for rust</summary>
     <category term="rust"/>
-    <category term="cargo"/>
   </entry>
 </feed>

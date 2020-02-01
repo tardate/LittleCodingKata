@@ -84,3 +84,4 @@ Shuffled: [2, 4, 5, 1, 3]
 * [The Rust community crate registry](https://crates.io/)
 * [TOML (Tom's Obvious, Minimal Language)](https://github.com/toml-lang/toml) - Cargo configuration format
 * [crate: rand](https://crates.io/crates/rand)
+* [The Rust Rand Book](https://rust-random.github.io/book/)
