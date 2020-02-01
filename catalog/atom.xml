@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-02-01T06:11:56Z</updated>
+  <updated>2020-02-01T06:29:30Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -147,14 +147,6 @@
     <summary>Installing Elm on MacOSX</summary>
     <category term="Elm"/>
     <category term="MacOSX"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/elm/about/</id>
-    <link href="https://codingkata.tardate.com/elm/about/"/>
-    <updated>2019-09-08T11:16:43Z</updated>
-    <title>Elm/about</title>
-    <summary>elm - my tl;dr summary</summary>
-    <category term="Elm"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/elm/hello_clock/</id>
@@ -1114,5 +1106,21 @@
     <summary>Book notes - Programming Elixir by Dave Thomas, pubished by The Pragmatic Bookshelf</summary>
     <category term="elixir"/>
     <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/elm/about/</id>
+    <link href="https://codingkata.tardate.com/elm/about/"/>
+    <updated>2020-02-01T06:15:29Z</updated>
+    <title>About Elm</title>
+    <summary>Elm (the language) in a nutshell</summary>
+    <category term="elm"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/elixir/about/</id>
+    <link href="https://codingkata.tardate.com/elixir/about/"/>
+    <updated>2020-02-01T06:15:53Z</updated>
+    <title>About Elixir</title>
+    <summary>Elixir in a nutshell</summary>
+    <category term="elixir"/>
   </entry>
 </feed>

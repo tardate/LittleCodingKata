@@ -1,7 +1,7 @@
 {
-    "id": "#005", 
-    "name": "Elm/about", 
-    "description": "elm - my tl;dr summary", 
-    "categories": "Elm", 
+    "id": "#005",
+    "name": "About Elm",
+    "description": "Elm (the language) in a nutshell",
+    "categories": "elm",
     "relative_path": "elm/about"
 }
