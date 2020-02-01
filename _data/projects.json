@@ -513,6 +513,15 @@
         ], 
         "title": "Using Cargo"
     }, 
+    "/elixir/install_macosx/": {
+        "summary": "Installing Elixir on MacOSX", 
+        "id": 128, 
+        "tags": [
+            "elixir", 
+            "docker"
+        ], 
+        "title": "Elixir on MacOSX"
+    }, 
     "/node/knn-tf/": {
         "summary": "A demonstration of the k-nearest neighbors algorithm implemented using tensorflow-js with node.js", 
         "id": 43, 

@@ -1014,5 +1014,13 @@
         "id": "#127", 
         "categories": "elixir", 
         "description": "Elixir in a nutshell"
+    }, 
+    {
+        "name": "Elixir on MacOSX", 
+        "updated_at": "2020-02-01T06:40:56Z", 
+        "relative_path": "elixir/install_macosx", 
+        "id": "#128", 
+        "categories": "elixir, docker", 
+        "description": "Installing Elixir on MacOSX"
     }
 ]
