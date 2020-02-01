@@ -1,0 +1,6 @@
+{
+    "name": "ZeroMQ (book)",
+    "description": "Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly",
+    "categories": "messaging, zeromq, book",
+    "relative_path": "messaging/zeromq/zeromq-book"
+}

@@ -1051,6 +1051,16 @@
         ], 
         "title": "Ruby 2.7 New Features"
     }, 
+    "/messaging/zeromq/zeromq-book/": {
+        "summary": "Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly", 
+        "id": 132, 
+        "tags": [
+            "messaging", 
+            "zeromq", 
+            "book"
+        ], 
+        "title": "ZeroMQ (book)"
+    }, 
     "/ruby/json_parsing/": {
         "summary": "Generating pretty JSON with Ruby and dealing with quirks", 
         "id": 58, 

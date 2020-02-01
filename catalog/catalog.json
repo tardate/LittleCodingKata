@@ -1046,5 +1046,13 @@
         "id": "#131", 
         "categories": "messaging, zeromq, c", 
         "description": "Zeromq in a nutshell with a quick test of using the library from C"
+    }, 
+    {
+        "name": "ZeroMQ (book)", 
+        "updated_at": "2020-02-01T08:53:19Z", 
+        "relative_path": "messaging/zeromq/zeromq-book", 
+        "id": "#132", 
+        "categories": "messaging, zeromq, book", 
+        "description": "Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly"
     }
 ]

@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-02-01T08:48:59Z</updated>
+  <updated>2020-02-01T09:01:04Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1158,5 +1158,15 @@
     <category term="messaging"/>
     <category term="zeromq"/>
     <category term="c"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/messaging/zeromq/zeromq-book/</id>
+    <link href="https://codingkata.tardate.com/messaging/zeromq/zeromq-book/"/>
+    <updated>2020-02-01T08:53:19Z</updated>
+    <title>ZeroMQ (book)</title>
+    <summary>Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly</summary>
+    <category term="messaging"/>
+    <category term="zeromq"/>
+    <category term="book"/>
   </entry>
 </feed>
