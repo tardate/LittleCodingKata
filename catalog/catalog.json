@@ -1030,5 +1030,13 @@
         "id": "#129", 
         "categories": "elixir", 
         "description": "Exploring basic language features of Elixir"
+    }, 
+    {
+        "name": "zeromq on MacOSX", 
+        "updated_at": "2020-02-01T08:02:24Z", 
+        "relative_path": "messaging/zeromq/install_macosx", 
+        "id": "#130", 
+        "categories": "messaging, zeromq", 
+        "description": "Installing zeromq on MacOSX"
     }
 ]

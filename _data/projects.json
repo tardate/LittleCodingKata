@@ -859,6 +859,15 @@
         ], 
         "title": "Bash/select_menu"
     }, 
+    "/messaging/zeromq/install_macosx/": {
+        "summary": "Installing zeromq on MacOSX", 
+        "id": 130, 
+        "tags": [
+            "messaging", 
+            "zeromq"
+        ], 
+        "title": "zeromq on MacOSX"
+    }, 
     "/haskell/hello_world/": {
         "summary": "Haskell - Hello World", 
         "id": 18, 
