@@ -1,0 +1,6 @@
+{
+    "name": "About Zeromq",
+    "description": "Zeromq in a nutshell with a quick test of using the library from C",
+    "categories": "messaging, zeromq, c",
+    "relative_path": "messaging/zeromq/about"
+}

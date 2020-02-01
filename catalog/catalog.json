@@ -1038,5 +1038,13 @@
         "id": "#130", 
         "categories": "messaging, zeromq", 
         "description": "Installing zeromq on MacOSX"
+    }, 
+    {
+        "name": "About Zeromq", 
+        "updated_at": "2020-02-01T08:48:07Z", 
+        "relative_path": "messaging/zeromq/about", 
+        "id": "#131", 
+        "categories": "messaging, zeromq, c", 
+        "description": "Zeromq in a nutshell with a quick test of using the library from C"
     }
 ]

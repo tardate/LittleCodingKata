@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-02-01T08:02:40Z</updated>
+  <updated>2020-02-01T08:48:59Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1148,5 +1148,15 @@
     <summary>Installing zeromq on MacOSX</summary>
     <category term="messaging"/>
     <category term="zeromq"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/messaging/zeromq/about/</id>
+    <link href="https://codingkata.tardate.com/messaging/zeromq/about/"/>
+    <updated>2020-02-01T08:48:07Z</updated>
+    <title>About Zeromq</title>
+    <summary>Zeromq in a nutshell with a quick test of using the library from C</summary>
+    <category term="messaging"/>
+    <category term="zeromq"/>
+    <category term="c"/>
   </entry>
 </feed>

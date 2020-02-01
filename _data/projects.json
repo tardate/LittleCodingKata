@@ -278,6 +278,16 @@
         ], 
         "title": "Starting Redis with and old CircleCI Image"
     }, 
+    "/messaging/zeromq/about/": {
+        "summary": "Zeromq in a nutshell with a quick test of using the library from C", 
+        "id": 131, 
+        "tags": [
+            "messaging", 
+            "zeromq", 
+            "c"
+        ], 
+        "title": "About Zeromq"
+    }, 
     "/ruby/http_mock_responses/": {
         "summary": "Using Sinatra to craft simple HTTP web responses for mock integration testing", 
         "id": 80, 
