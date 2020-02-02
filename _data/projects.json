@@ -330,6 +330,16 @@
         ], 
         "title": "Testing with Rust"
     }, 
+    "/infrastructure/zabbix/ruby-clients/": {
+        "summary": "A quick survey and test of various ruby options for using the Zabbix API", 
+        "id": 135, 
+        "tags": [
+            "infrastructure", 
+            "zabbix", 
+            "ruby"
+        ], 
+        "title": "Zabbix API Ruby Clients"
+    }, 
     "/fft/running_kissfft_example/": {
         "summary": "test drive the Kiss FFT C library with an example", 
         "id": 37, 

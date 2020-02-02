@@ -1070,5 +1070,13 @@
         "id": "#134", 
         "categories": "infrastructure, zabbix, monitoring, docker", 
         "description": "Running Zabbix with Docker"
+    }, 
+    {
+        "name": "Zabbix API Ruby Clients", 
+        "updated_at": "2020-02-02T11:01:02Z", 
+        "relative_path": "infrastructure/zabbix/ruby-clients", 
+        "id": "#135", 
+        "categories": "infrastructure, zabbix, ruby", 
+        "description": "A quick survey and test of various ruby options for using the Zabbix API"
     }
 ]

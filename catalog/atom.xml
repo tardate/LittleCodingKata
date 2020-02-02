@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-02-02T07:58:04Z</updated>
+  <updated>2020-02-02T12:47:38Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1189,5 +1189,15 @@
     <category term="zabbix"/>
     <category term="monitoring"/>
     <category term="docker"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/infrastructure/zabbix/ruby-clients/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/zabbix/ruby-clients/"/>
+    <updated>2020-02-02T11:01:02Z</updated>
+    <title>Zabbix API Ruby Clients</title>
+    <summary>A quick survey and test of various ruby options for using the Zabbix API</summary>
+    <category term="infrastructure"/>
+    <category term="zabbix"/>
+    <category term="ruby"/>
   </entry>
 </feed>

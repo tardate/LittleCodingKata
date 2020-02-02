@@ -1,0 +1,6 @@
+{
+    "name": "Zabbix API Ruby Clients",
+    "description": "A quick survey and test of various ruby options for using the Zabbix API",
+    "categories": "infrastructure, zabbix, ruby",
+    "relative_path": "infrastructure/zabbix/ruby-clients"
+}
