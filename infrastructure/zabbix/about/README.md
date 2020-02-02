@@ -43,5 +43,6 @@ Zabbix provides:
 ## Credits and References
 
 * [Zabbix](https://www.zabbix.com/) - home
+* [Zabbix](https://en.wikipedia.org/wiki/Zabbix) - wikipedia
 * [Zabbix Manuals](https://www.zabbix.com/manuals)
 * [source](https://git.zabbix.com/projects/ZBX/repos/zabbix/browse) - git

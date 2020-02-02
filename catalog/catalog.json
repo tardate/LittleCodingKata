@@ -1078,5 +1078,13 @@
         "id": "#135", 
         "categories": "infrastructure, zabbix, ruby", 
         "description": "A quick survey and test of various ruby options for using the Zabbix API"
+    }, 
+    {
+        "name": "Mastering Zabbix", 
+        "updated_at": "2020-02-02T13:12:05Z", 
+        "relative_path": "infrastructure/zabbix/mastering_zabbix", 
+        "id": "#136", 
+        "categories": "infrastructure, zabbix, book", 
+        "description": "Book notes - Mastering Zabbix by Andrea Dalle Vacche, Stefano Kewan Lee, published by PacktPub"
     }
 ]

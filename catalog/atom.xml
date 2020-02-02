@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-02-02T12:47:38Z</updated>
+  <updated>2020-02-02T13:16:53Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1199,5 +1199,15 @@
     <category term="infrastructure"/>
     <category term="zabbix"/>
     <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/infrastructure/zabbix/mastering_zabbix/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/zabbix/mastering_zabbix/"/>
+    <updated>2020-02-02T13:12:05Z</updated>
+    <title>Mastering Zabbix</title>
+    <summary>Book notes - Mastering Zabbix by Andrea Dalle Vacche, Stefano Kewan Lee, published by PacktPub</summary>
+    <category term="infrastructure"/>
+    <category term="zabbix"/>
+    <category term="book"/>
   </entry>
 </feed>

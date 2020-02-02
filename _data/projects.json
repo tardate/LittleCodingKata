@@ -656,6 +656,16 @@
         ], 
         "title": "Programming Elixir"
     }, 
+    "/infrastructure/zabbix/mastering_zabbix/": {
+        "summary": "Book notes - Mastering Zabbix by Andrea Dalle Vacche, Stefano Kewan Lee, published by PacktPub", 
+        "id": 136, 
+        "tags": [
+            "infrastructure", 
+            "zabbix", 
+            "book"
+        ], 
+        "title": "Mastering Zabbix"
+    }, 
     "/perl/fix_first_line/": {
         "summary": "patching text files with Perl - fix the first line only", 
         "id": 11, 
