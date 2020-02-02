@@ -1054,5 +1054,21 @@
         "id": "#132", 
         "categories": "messaging, zeromq, book", 
         "description": "Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly"
+    }, 
+    {
+        "name": "About Zabbix", 
+        "updated_at": "2020-02-01T09:24:37Z", 
+        "relative_path": "infrastructure/zabbix/about", 
+        "id": "#133", 
+        "categories": "infrastructure, zabbix, monitoring", 
+        "description": "Zabbix in a Nutshell"
+    }, 
+    {
+        "name": "Zabbix Docker", 
+        "updated_at": "2020-02-01T10:06:19Z", 
+        "relative_path": "infrastructure/zabbix/dockerized", 
+        "id": "#134", 
+        "categories": "infrastructure, zabbix, monitoring, docker", 
+        "description": "Running Zabbix with Docker"
     }
 ]

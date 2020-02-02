@@ -1,0 +1,6 @@
+{
+    "name": "Zabbix Docker",
+    "description": "Running Zabbix with Docker",
+    "categories": "infrastructure, zabbix, monitoring, docker",
+    "relative_path": "infrastructure/zabbix/dockerized"
+}

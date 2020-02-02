@@ -1,22 +1,22 @@
 #!/bin/sh
 # starts prometheus in a Docker container
 
-container_name=demoserver
-
-package_root="$(cd "$(dirname "$0")"; pwd)/${container_name}"
+CONTAINER_NAME=demoserver
+IMAGE_NAME=prom/prometheus
+PACKAGE_ROOT="$(cd "$(dirname "$0")"; pwd)/${CONTAINER_NAME}"
 
 function shutdown() {
   echo "Stopping/removing any previous docker container.."
-  docker stop ${container_name}
-  docker rm ${container_name}
+  docker stop ${CONTAINER_NAME}
+  docker rm ${CONTAINER_NAME}
 }
 
 function startup() {
-  echo "Starting ${demoserver} prometheus container with web access on port 9090.."
-  docker run -d -p 9090:9090 --name=${container_name} \
-    -v ${package_root}/demo_targets.json:/etc/prometheus/demo_targets.json:ro \
-    -v ${package_root}/prometheus.yml:/etc/prometheus/prometheus.yml:ro \
-    prom/prometheus
+  echo "Starting ${CONTAINER_NAME} prometheus container with web access on port 9090.."
+  docker run -d -p 9090:9090 --name=${CONTAINER_NAME} \
+    -v ${PACKAGE_ROOT}/demo_targets.json:/etc/prometheus/demo_targets.json:ro \
+    -v ${PACKAGE_ROOT}/prometheus.yml:/etc/prometheus/prometheus.yml:ro \
+    ${IMAGE_NAME}
 }
 
 
@@ -34,11 +34,11 @@ stop)
   ;;
 
 shell)
-  docker exec -it ${container_name} sh
+  docker exec -it ${CONTAINER_NAME} sh
   ;;
 
 logs)
-  docker logs ${container_name}
+  docker logs ${CONTAINER_NAME}
   ;;
 
 *)

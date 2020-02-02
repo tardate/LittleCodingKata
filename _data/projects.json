@@ -762,6 +762,17 @@
         ], 
         "title": "Javascript/highcharts_with_bower"
     }, 
+    "/infrastructure/zabbix/dockerized/": {
+        "summary": "Running Zabbix with Docker", 
+        "id": 134, 
+        "tags": [
+            "infrastructure", 
+            "zabbix", 
+            "monitoring", 
+            "docker"
+        ], 
+        "title": "Zabbix Docker"
+    }, 
     "/rust/hello_world/": {
         "summary": "Rust - Hello World with concurrency", 
         "id": 13, 
@@ -1086,6 +1097,16 @@
             "MySQL"
         ], 
         "title": "MySQL Cheat Sheet"
+    }, 
+    "/infrastructure/zabbix/about/": {
+        "summary": "Zabbix in a Nutshell", 
+        "id": 133, 
+        "tags": [
+            "infrastructure", 
+            "zabbix", 
+            "monitoring"
+        ], 
+        "title": "About Zabbix"
     }, 
     "/infrastructure/radius/freeradius-server-macosx/": {
         "summary": "FreeRADIUS - running on MacOSX", 

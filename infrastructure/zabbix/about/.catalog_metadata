@@ -1,0 +1,6 @@
+{
+    "name": "About Zabbix",
+    "description": "Zabbix in a Nutshell",
+    "categories": "infrastructure, zabbix, monitoring",
+    "relative_path": "infrastructure/zabbix/about"
+}

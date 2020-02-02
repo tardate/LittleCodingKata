@@ -1,0 +1,22 @@
+version: '3'
+services:
+  zabbix-app:
+    image: "zabbix/zabbix-appliance:latest"
+    ports:
+      - "80:80"
+      - "10051:10051"
+    environment:
+      - PHP_TZ=Asia/Singapore
+      - ZBX_HOSTNAME=zabbix-app
+      - ZBX_SERVER_HOST=zabbix-app
+    volumes:
+      - zapp-db:/var/lib/mysql
+    links:
+      - zabbix-agent
+  zabbix-agent:
+    image: "zabbix/zabbix-agent:latest"
+    environment:
+      - ZBX_HOSTNAME=zabbix-agent
+      - ZBX_SERVER_HOST=zabbix-app
+volumes:
+  zapp-db:
