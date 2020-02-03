@@ -900,6 +900,15 @@
         ], 
         "title": "Bash/select_menu"
     }, 
+    "/javascript/rickshaw/": {
+        "summary": "Testing out the D3-based Rickshaw time series graph library", 
+        "id": 137, 
+        "tags": [
+            "javascript", 
+            "graphics"
+        ], 
+        "title": "Rickshaw"
+    }, 
     "/messaging/zeromq/install_macosx/": {
         "summary": "Installing zeromq on MacOSX", 
         "id": 130, 

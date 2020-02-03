@@ -1086,5 +1086,13 @@
         "id": "#136", 
         "categories": "infrastructure, zabbix, book", 
         "description": "Book notes - Mastering Zabbix by Andrea Dalle Vacche, Stefano Kewan Lee, published by PacktPub"
+    }, 
+    {
+        "name": "Rickshaw", 
+        "updated_at": "2020-02-03T14:02:19Z", 
+        "relative_path": "javascript/rickshaw", 
+        "id": "#137", 
+        "categories": "javascript, graphics", 
+        "description": "Testing out the D3-based Rickshaw time series graph library"
     }
 ]
