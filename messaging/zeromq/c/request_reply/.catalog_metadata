@@ -1,0 +1,6 @@
+{
+    "name": "Basic Request-Reply in C",
+    "description": "Basic ZeroMQ 'hello world' example of the request-reply messaging pattern in C",
+    "categories": "messaging, zeromq, c",
+    "relative_path": "messaging/zeromq/c/request_reply"
+}

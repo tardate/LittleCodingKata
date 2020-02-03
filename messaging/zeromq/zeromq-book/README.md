@@ -34,6 +34,10 @@ Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly.
 
 Example sources are maintained on [GitHub](https://github.com/booksbyus/zguide/tree/master/examples)
 
+``
+git clone https://github.com/booksbyus/zguide
+```
+
 ## Credits and References
 
 * [ZeroMQ](https://learning.oreilly.com/library/view/zeromq/9781449334437/) - O'Reilly

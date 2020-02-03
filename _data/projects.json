@@ -918,6 +918,16 @@
         ], 
         "title": "zeromq on MacOSX"
     }, 
+    "/messaging/zeromq/c/request_reply/": {
+        "summary": "Basic ZeroMQ 'hello world' example of the request-reply messaging pattern in C", 
+        "id": 138, 
+        "tags": [
+            "messaging", 
+            "zeromq", 
+            "c"
+        ], 
+        "title": "Basic Request-Reply in C"
+    }, 
     "/haskell/hello_world/": {
         "summary": "Haskell - Hello World", 
         "id": 18, 

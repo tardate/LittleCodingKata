@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-02-03T14:02:47Z</updated>
+  <updated>2020-02-03T17:20:08Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1218,5 +1218,15 @@
     <summary>Testing out the D3-based Rickshaw time series graph library</summary>
     <category term="javascript"/>
     <category term="graphics"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/messaging/zeromq/c/request_reply/</id>
+    <link href="https://codingkata.tardate.com/messaging/zeromq/c/request_reply/"/>
+    <updated>2020-02-03T17:19:53Z</updated>
+    <title>Basic Request-Reply in C</title>
+    <summary>Basic ZeroMQ 'hello world' example of the request-reply messaging pattern in C</summary>
+    <category term="messaging"/>
+    <category term="zeromq"/>
+    <category term="c"/>
   </entry>
 </feed>

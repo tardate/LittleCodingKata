@@ -1094,5 +1094,13 @@
         "id": "#137", 
         "categories": "javascript, graphics", 
         "description": "Testing out the D3-based Rickshaw time series graph library"
+    }, 
+    {
+        "name": "Basic Request-Reply in C", 
+        "updated_at": "2020-02-03T17:19:53Z", 
+        "relative_path": "messaging/zeromq/c/request_reply", 
+        "id": "#138", 
+        "categories": "messaging, zeromq, c", 
+        "description": "Basic ZeroMQ 'hello world' example of the request-reply messaging pattern in C"
     }
 ]
