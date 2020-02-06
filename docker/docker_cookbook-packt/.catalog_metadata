@@ -1,0 +1,6 @@
+{
+    "name": "Docker Cookbook (Packt)",
+    "description": "Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt",
+    "categories": "docker, book",
+    "relative_path": "docker/docker_cookbook-packt"
+}

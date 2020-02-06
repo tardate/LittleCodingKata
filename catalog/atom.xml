@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-02-06T15:38:45Z</updated>
+  <updated>2020-02-06T15:53:27Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1235,6 +1235,15 @@
     <updated>2020-02-06T15:38:22Z</updated>
     <title>Docker Cookbook (O'Reilly)</title>
     <summary>Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly</summary>
+    <category term="docker"/>
+    <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/docker/docker_cookbook-packt/</id>
+    <link href="https://codingkata.tardate.com/docker/docker_cookbook-packt/"/>
+    <updated>2020-02-06T15:42:37Z</updated>
+    <title>Docker Cookbook (Packt)</title>
+    <summary>Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt</summary>
     <category term="docker"/>
     <category term="book"/>
   </entry>

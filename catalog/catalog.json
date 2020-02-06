@@ -1110,5 +1110,13 @@
         "id": "#139", 
         "categories": "docker, book", 
         "description": "Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly"
+    }, 
+    {
+        "name": "Docker Cookbook (Packt)", 
+        "updated_at": "2020-02-06T15:42:37Z", 
+        "relative_path": "docker/docker_cookbook-packt", 
+        "id": "#140", 
+        "categories": "docker, book", 
+        "description": "Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt"
     }
 ]

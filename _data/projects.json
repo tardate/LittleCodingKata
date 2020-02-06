@@ -312,6 +312,15 @@
         ], 
         "title": "cpp/doxygen"
     }, 
+    "/docker/docker_cookbook-packt/": {
+        "summary": "Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt", 
+        "id": 140, 
+        "tags": [
+            "docker", 
+            "book"
+        ], 
+        "title": "Docker Cookbook (Packt)"
+    }, 
     "/rust/testing/": {
         "summary": "How to write and organise tests for rust", 
         "id": 121, 
