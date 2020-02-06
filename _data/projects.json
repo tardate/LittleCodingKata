@@ -10,7 +10,7 @@
     }, 
     "/elixir/basics/": {
         "summary": "Exploring basic language features of Elixir", 
-        "id": 129, 
+        "id": 125, 
         "tags": [
             "elixir"
         ], 
@@ -18,7 +18,7 @@
     }, 
     "/c/error_function/": {
         "summary": "Methods for calculating the Gauss error function in C with standard libraries and the GNU Scientific Library", 
-        "id": 121, 
+        "id": 119, 
         "tags": [
             "c"
         ], 
@@ -118,7 +118,7 @@
     }, 
     "/formats/rss_atom/": {
         "summary": "About RSS and Atom feeds for publishing and podcasting", 
-        "id": 114, 
+        "id": 113, 
         "tags": [
             "formats", 
             "rss", 
@@ -278,16 +278,6 @@
         ], 
         "title": "Starting Redis with and old CircleCI Image"
     }, 
-    "/messaging/zeromq/about/": {
-        "summary": "Zeromq in a nutshell with a quick test of using the library from C", 
-        "id": 131, 
-        "tags": [
-            "messaging", 
-            "zeromq", 
-            "c"
-        ], 
-        "title": "About Zeromq"
-    }, 
     "/ruby/http_mock_responses/": {
         "summary": "Using Sinatra to craft simple HTTP web responses for mock integration testing", 
         "id": 80, 
@@ -324,7 +314,7 @@
     }, 
     "/rust/testing/": {
         "summary": "How to write and organise tests for rust", 
-        "id": 124, 
+        "id": 121, 
         "tags": [
             "rust"
         ], 
@@ -332,7 +322,7 @@
     }, 
     "/infrastructure/zabbix/ruby-clients/": {
         "summary": "A quick survey and test of various ruby options for using the Zabbix API", 
-        "id": 135, 
+        "id": 131, 
         "tags": [
             "infrastructure", 
             "zabbix", 
@@ -376,7 +366,7 @@
     }, 
     "/security/metasploit/dockerized/": {
         "summary": "Investigating how to run Metasploit in a Docker container", 
-        "id": 116, 
+        "id": 115, 
         "tags": [
             "security", 
             "docker"
@@ -516,6 +506,15 @@
         ], 
         "title": "deleting_roles"
     }, 
+    "/c/21st_century_c/": {
+        "summary": "Notes on the book '21st Century C' by Ben Klemens, published by O'Reilly", 
+        "id": 138, 
+        "tags": [
+            "C", 
+            "book"
+        ], 
+        "title": "21st Century C"
+    }, 
     "/tools/arping/": {
         "summary": "All about Address Resolution Protocol (ARP - RFC826) and installing arping on MacOSX", 
         "id": 2, 
@@ -526,7 +525,7 @@
     }, 
     "/c/linking/": {
         "summary": "All about compiling, linking, and debugging C with GCC", 
-        "id": 110, 
+        "id": 109, 
         "tags": [
             "C"
         ], 
@@ -534,7 +533,7 @@
     }, 
     "/rust/project_with_cargo/": {
         "summary": "Using Cargo to create and manage a rust project", 
-        "id": 117, 
+        "id": 116, 
         "tags": [
             "rust", 
             "cargo"
@@ -543,7 +542,7 @@
     }, 
     "/elixir/install_macosx/": {
         "summary": "Installing Elixir on MacOSX", 
-        "id": 128, 
+        "id": 124, 
         "tags": [
             "elixir", 
             "docker"
@@ -569,8 +568,8 @@
         "title": "[Boost].SML"
     }, 
     "/rust/rust_programming_language/": {
-        "summary": "Book notes - The Rust Programming Language by Steve Klabnik, pubished by Mozilla Research", 
-        "id": 118, 
+        "summary": "Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research", 
+        "id": 136, 
         "tags": [
             "rust", 
             "book"
@@ -579,7 +578,7 @@
     }, 
     "/elm/about/": {
         "summary": "Elm (the language) in a nutshell", 
-        "id": 126, 
+        "id": 122, 
         "tags": [
             "elm"
         ], 
@@ -605,7 +604,7 @@
     }, 
     "/security/metasploit_penetration_testing_cookbook/": {
         "summary": "Book notes - Metasploit Penetration Testing Cookbook, Second Edition by Monika Agarwal, Abhinav Singh", 
-        "id": 115, 
+        "id": 114, 
         "tags": [
             "security", 
             "book"
@@ -648,8 +647,8 @@
         "title": "gRPC Explainer/Python"
     }, 
     "/elixir/programming_elixir/": {
-        "summary": "Book notes - Programming Elixir by Dave Thomas, pubished by The Pragmatic Bookshelf", 
-        "id": 125, 
+        "summary": "Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf", 
+        "id": 135, 
         "tags": [
             "elixir", 
             "book"
@@ -658,7 +657,7 @@
     }, 
     "/infrastructure/zabbix/mastering_zabbix/": {
         "summary": "Book notes - Mastering Zabbix by Andrea Dalle Vacche, Stefano Kewan Lee, published by PacktPub", 
-        "id": 136, 
+        "id": 132, 
         "tags": [
             "infrastructure", 
             "zabbix", 
@@ -691,8 +690,8 @@
         "title": "Bash/file_locks"
     }, 
     "/c/practical_c_programming/": {
-        "summary": "Book notes - Practical C Programming, 3rd Edition by Steve Oualline, pubished by O'Reilly", 
-        "id": 122, 
+        "summary": "Book notes - Practical C Programming, 3rd Edition by Steve Oualline, published by O'Reilly", 
+        "id": 137, 
         "tags": [
             "C", 
             "book"
@@ -758,7 +757,7 @@
     }, 
     "/cpp/hands_on_system_programming_with_cpp/": {
         "summary": "Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn", 
-        "id": 119, 
+        "id": 117, 
         "tags": [
             "cpp", 
             "book"
@@ -767,7 +766,7 @@
     }, 
     "/databases/mysql/install_macosx/": {
         "summary": "Notes on installing and running MySQL on MacOSX", 
-        "id": 113, 
+        "id": 112, 
         "tags": [
             "Database", 
             "MySQL"
@@ -784,7 +783,7 @@
     }, 
     "/infrastructure/zabbix/dockerized/": {
         "summary": "Running Zabbix with Docker", 
-        "id": 134, 
+        "id": 130, 
         "tags": [
             "infrastructure", 
             "zabbix", 
@@ -821,7 +820,7 @@
     }, 
     "/databases/postgresql/copy_table/": {
         "summary": "notes on copying table strictures and data with SQL", 
-        "id": 112, 
+        "id": 111, 
         "tags": [
             "Database", 
             "SQL"
@@ -892,6 +891,15 @@
         ], 
         "title": "Tools/iproute2"
     }, 
+    "/docker/docker_cookbook-oreilly/": {
+        "summary": "Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly", 
+        "id": 139, 
+        "tags": [
+            "docker", 
+            "book"
+        ], 
+        "title": "Docker Cookbook (O'Reilly)"
+    }, 
     "/bash/select_menu/": {
         "summary": "simple multiple-choice user input", 
         "id": 26, 
@@ -902,7 +910,7 @@
     }, 
     "/javascript/rickshaw/": {
         "summary": "Testing out the D3-based Rickshaw time series graph library", 
-        "id": 137, 
+        "id": 133, 
         "tags": [
             "javascript", 
             "graphics"
@@ -911,7 +919,7 @@
     }, 
     "/messaging/zeromq/install_macosx/": {
         "summary": "Installing zeromq on MacOSX", 
-        "id": 130, 
+        "id": 126, 
         "tags": [
             "messaging", 
             "zeromq"
@@ -920,7 +928,7 @@
     }, 
     "/messaging/zeromq/c/request_reply/": {
         "summary": "Basic ZeroMQ 'hello world' example of the request-reply messaging pattern in C", 
-        "id": 138, 
+        "id": 134, 
         "tags": [
             "messaging", 
             "zeromq", 
@@ -946,7 +954,7 @@
     }, 
     "/elixir/about/": {
         "summary": "Elixir in a nutshell", 
-        "id": 127, 
+        "id": 123, 
         "tags": [
             "elixir"
         ], 
@@ -979,7 +987,7 @@
     }, 
     "/infrastructure/cacti/": {
         "summary": "About the cacti network monitoring tool, including how to run it in Docker", 
-        "id": 120, 
+        "id": 118, 
         "tags": [
             "infrastructure", 
             "monitoring"
@@ -988,7 +996,7 @@
     }, 
     "/ruby/rails_antipatterns/": {
         "summary": "Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional", 
-        "id": 123, 
+        "id": 120, 
         "tags": [
             "ruby", 
             "rails", 
@@ -1004,14 +1012,15 @@
         ], 
         "title": "C++/DoubleTrouble"
     }, 
-    "/c/21st_century_c/": {
-        "summary": "Notes on the book '21st Century C' by Ben Klemens, pubished by O'Reilly", 
-        "id": 109, 
+    "/messaging/zeromq/about/": {
+        "summary": "Zeromq in a nutshell with a quick test of using the library from C", 
+        "id": 127, 
         "tags": [
-            "C", 
-            "book"
+            "messaging", 
+            "zeromq", 
+            "c"
         ], 
-        "title": "21st Century C"
+        "title": "About Zeromq"
     }, 
     "/javascript/scripting_youtube/": {
         "summary": "An experiment in scripting the YouTube player with external controls and the IFrame API", 
@@ -1103,7 +1112,7 @@
     }, 
     "/messaging/zeromq/zeromq-book/": {
         "summary": "Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly", 
-        "id": 132, 
+        "id": 128, 
         "tags": [
             "messaging", 
             "zeromq", 
@@ -1121,7 +1130,7 @@
     }, 
     "/design/programming_interactivity/": {
         "summary": "Book notes - Programming Interactivity 2nd Edition, by Joshua Noble published by O'Reilly", 
-        "id": 111, 
+        "id": 110, 
         "tags": [
             "design", 
             "arduino"
@@ -1139,7 +1148,7 @@
     }, 
     "/infrastructure/zabbix/about/": {
         "summary": "Zabbix in a Nutshell", 
-        "id": 133, 
+        "id": 129, 
         "tags": [
             "infrastructure", 
             "zabbix", 

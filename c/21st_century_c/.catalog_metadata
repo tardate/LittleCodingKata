@@ -1,6 +1,6 @@
 {
     "name": "21st Century C",
-    "description": "Notes on the book '21st Century C' by Ben Klemens, pubished by O'Reilly",
+    "description": "Notes on the book '21st Century C' by Ben Klemens, published by O'Reilly",
     "categories": "C, book",
     "relative_path": "c/21st_century_c"
 }

@@ -1,6 +1,6 @@
 {
     "name": "The Rust Programming Language",
-    "description": "Book notes - The Rust Programming Language by Steve Klabnik, pubished by Mozilla Research",
+    "description": "Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research",
     "categories": "rust, book",
     "relative_path": "rust/rust_programming_language"
 }
