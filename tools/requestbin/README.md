@@ -88,7 +88,7 @@ The workflow editor is pretty slick, and I believe powered by the [Monaco editor
 
 Here's my workflow in the editor (anyone can copy the workflow and make their own changes):
 
-![leap_wf](./assets/leap_wf.png?raw=true)
+[![leap_wf](./assets/leap_wf.png?raw=true)](https://pipedream.com/@tardate/mail-me-new-items-from-the-leap-feed-p_yKCPnz/edit)
 
 It generates a simple text mail that is delivered through pipedream's servers FOC!
 
