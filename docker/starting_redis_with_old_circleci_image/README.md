@@ -24,7 +24,7 @@ To find out what was going on, I ran the images locally to see what was going on
 Pulling the docker image
 
 ```
-$ docker pull circleci/build-image:ubuntu-14.04-XXL-upstart-1189-5614f37
+$ docker image pull circleci/build-image:ubuntu-14.04-XXL-upstart-1189-5614f37
 ...
 Digest: sha256:c43b32467f43bd1294541eebf65ac082a234d8f7261ff3312c8bbca80e948dc5
 Status: Downloaded newer image for circleci/build-image:ubuntu-14.04-XXL-upstart-1189-5614f37
@@ -34,9 +34,8 @@ $
 We have a valid image:
 
 ```
-$ docker images
-..
-circleci/build-image             ubuntu-14.04-XXL-upstart-1189-5614f37   38df34ab2dd8        2 years ago         22.9GB
+$ docker image ls | grep XXL
+circleci/build-image                       ubuntu-14.04-XXL-upstart-1189-5614f37   38df34ab2dd8        2 years ago         22.9GB
 ```
 
 And can start it up, start the PostgreSQL server etc...
@@ -108,6 +107,30 @@ on the road again...
           name: test redis
           command: 'ps auxf ; redis-cli -h 127.0.0.1 -p 6379 ping'
       ...
+```
+
+### Cleaning Up
+
+Listing containers
+
+```
+$ docker container ls -a | grep XXL
+6ef9a334bcce        circleci/build-image:ubuntu-14.04-XXL-upstart-1189-5614f37   "/sbin/init"             5 months ago        Exited (137) 5 months ago                            cit
+f2b352b4e8af        circleci/build-image:ubuntu-14.04-XXL-upstart-1189-5614f37   "bash"                   5 months ago        Exited (0) 5 months ago                              mystifying_shirley
+95684a6b7f3b        circleci/build-image:ubuntu-14.04-XXL-upstart-1189-5614f37   "bash"                   5 months ago        Exited (100) 5 months ago                            eager_kare
+```
+
+Removing containers by id or name:
+
+```
+$ docker container rm cit
+$ docker container rm 95684a6b7f3b
+```
+
+Removing the image:
+
+```
+$ docker image rm circleci/build-image:ubuntu-14.04-XXL-upstart-1189-5614f37
 ```
 
 ## Credits and References
