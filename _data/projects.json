@@ -655,6 +655,15 @@
         ], 
         "title": "gRPC Explainer/Python"
     }, 
+    "/tools/requestbin/": {
+        "summary": "Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins", 
+        "id": 141, 
+        "tags": [
+            "tools", 
+            "api"
+        ], 
+        "title": "Request Bin"
+    }, 
     "/elixir/programming_elixir/": {
         "summary": "Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf", 
         "id": 135, 

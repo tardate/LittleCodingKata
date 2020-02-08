@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-02-06T15:53:27Z</updated>
+  <updated>2020-02-08T07:36:38Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1246,5 +1246,14 @@
     <summary>Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt</summary>
     <category term="docker"/>
     <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/requestbin/</id>
+    <link href="https://codingkata.tardate.com/tools/requestbin/"/>
+    <updated>2020-02-08T07:36:16Z</updated>
+    <title>Request Bin</title>
+    <summary>Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins</summary>
+    <category term="tools"/>
+    <category term="api"/>
   </entry>
 </feed>

@@ -1118,5 +1118,13 @@
         "id": "#140", 
         "categories": "docker, book", 
         "description": "Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt"
+    }, 
+    {
+        "name": "Request Bin", 
+        "updated_at": "2020-02-08T07:36:16Z", 
+        "relative_path": "tools/requestbin", 
+        "id": "#141", 
+        "categories": "tools, api", 
+        "description": "Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins"
     }
 ]
