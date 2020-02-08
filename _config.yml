@@ -91,6 +91,7 @@ exclude:
   - ruby/rails6/minime6
   - infrastructure/radius/freeradius-client-macosx/freeradius-client
   - infrastructure/radius/freeradius-server-macosx/freeradius-server
+  - example_source
 
 defaults:
   -

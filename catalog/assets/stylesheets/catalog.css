@@ -17,7 +17,7 @@ body {
 }
 
 .navbar-default {
-  background: #093272 url("../images/nav-bg.png") repeat scroll 0 0;
+  background: #093272 url("../images/nav-bg.jpg") repeat scroll 0 0;
   border-color: #093272;
 }
 
@@ -25,6 +25,7 @@ body {
 .navbar-default .navbar-brand:focus {
   font-family: 'Russo One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 38px;
+  line-height: 38px;
   font-weight: 800;
   color: #FFD700;
   margin-top: 30px;
@@ -35,19 +36,45 @@ body {
   color: #D9FF0D;
 }
 
-.btn-leap {
+@media screen and (max-width: 980px) {
+  .navbar-default .navbar-brand,
+  .navbar-default .navbar-brand:focus {
+    font-size: 34px;
+    line-height: 34px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-default .navbar-brand,
+  .navbar-default .navbar-brand:focus {
+    margin-top: 5px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+
+
+.btn-tardate {
   font-family: 'Russo One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 26px;
 }
-
-img.leap-hero {
-  height: 80px;
+.visible-xs-block .btn-tardate {
+  font-size: 14px;
+  max-width: 280px;
 }
-
-.xleap-link {
+.xtardate-link {
   cursor: pointer; cursor: hand;
 }
 
+img.tardate-hero {
+  height: 80px;
+}
+
+.visible-xs-block img.tardate-hero {
+  width: 100%;
+  height: auto;
+  margin-top: 8px;
+}
 
 /* project article content format */
 

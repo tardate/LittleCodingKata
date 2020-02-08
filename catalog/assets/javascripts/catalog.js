@@ -63,10 +63,10 @@
 
           main_cell = '\
           <div class="hidden-xs"> \
-            <a href="' + project_url + '" class="btn btn-default btn-success btn-leap">' + data.id + '</a> \
+            <a href="' + project_url + '" class="btn btn-default btn-success btn-tardate">' + data.id + '</a> \
           </div> \
           <div class="visible-xs-block"> \
-            <a href="' + project_url + '" class="btn btn-default btn-success btn-leap">' + data.id + ' ' + data.name + '</a> \
+            <a href="' + project_url + '" class="btn btn-default btn-success btn-tardate">' + data.id + ' ' + data.name + '</a> \
             <div class="text-muted small">' + data.description + '</div> \
             <div>' + category_labels + '</div> \
           </div>\
@@ -85,7 +85,7 @@
           </div>';
 
           cell = $('td:eq(1)', row)
-          cell.addClass('xleap-link')
+          cell.addClass('xtardate-link')
           cell.addClass('hidden-xs')
           cell.attr('data-url', project_url)
           cell.html(description_cell);
