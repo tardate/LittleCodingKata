@@ -44,7 +44,7 @@ Pipedream appears to have publically launched in Oct 2019. They are currently ru
 
 #### Simple Request Bins
 
-The [requestbin.com](https://requestbin.com/) domain offers the choice of public or private request bins, or this new thing called a "programmable bin"..
+The [requestbin.com](https://requestbin.com/) domain offers the choice of public or private request bins, or workflows..
 
 [![requestbin](./assets/requestbin.png?raw=true)](https://requestbin.com/)
 
@@ -52,14 +52,14 @@ Choosing a public request bin behaves very much like good old requestb.in, but w
 
 ![public_bin](./assets/public_bin.png?raw=true)
 
-#### Programmable Bins
+#### Workflows - Programmable Bins
 
-The funs starts when you choose a "programmable bin", or go direct to [pipedream.com](https://pipedream.com/):
+The funs starts when you choose a worflow, or go direct to [pipedream.com](https://pipedream.com/):
 
-[[![pipedream](./assets/pipedream.png?raw=true)](https://pipedream.com/)](https://pipedream.com/)
+[![pipedream](./assets/pipedream.png?raw=true)](https://pipedream.com/)
 
-A "programmable bin" basically means that instead of just logging the incoming payload,
-it is possible to define a workload that can:
+A workflow basically means that instead of just logging the incoming payload,
+it is possible to configure/script a series of steps that can, for example:
 
 * inspect and log details of the request
 * transform or process the request
@@ -71,7 +71,7 @@ it is possible to define a workload that can:
 A good first step is to [explore featured workflows](https://pipedream.com/explore) and play with them,
 with occassional reference to the [docs](https://docs.pipedream.com/) of course.
 
-#### Programmable Bin Example
+#### Workflow Example
 
 I copied some ideas from featured workflows and put together a neat little service that doesn't even need an incoming trigger request.
 
