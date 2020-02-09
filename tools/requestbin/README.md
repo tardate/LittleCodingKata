@@ -1,6 +1,6 @@
 # Request Bin
 
-Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with with workflows aka programmable bins.
+Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins.
 
 ## Notes
 
@@ -10,9 +10,8 @@ was how they open-sourced a version of [requestbin](https://github.com/Runscope/
 
 [Runscope](https://www.runscope.com/) have since focused on their core API monitoring service.
 
-Now I'm updating my notes on running a request bin, I stumbled upon the fact that
-there's a new(?) player in town - [Pipedream](https://docs.pipedream.com/).
-As far as I can tell they only have the free offering for now but may be introducing paid tiers in future.
+As I was updating my notes on running a request bin, I stumbled upon a new(?) player in town - [Pipedream](https://docs.pipedream.com/).
+As far as I can tell, they only have the free offering for now, but are planning toadd paid tiers in future.
 
 I took pipedream for a test drive and was really impressed - in addition to being slickly integrated,
 the workflow features make it the [IFTTT](https://ifttt.com/) of request bining.
@@ -37,10 +36,10 @@ The application runs with the classic Runscope interface...
 
 ### Using Pipedream
 
-Pipedream appears to have publically launched in Oct 2019. They are currently running two services that are semi-integrated:
+Pipedream run two services:
 
-* [requestbin.com](https://requestbin.com/) offers traditional public request bins; perhaps this is an early rev that will eventually be retired
-* [pipedream.com](https://pipedream.com/) which has all the new goodness - including private bins, logging and workflows
+* [requestbin.com](https://requestbin.com/) offers traditional request bins; the original service from Pipedream launched Dec 2018. It will apparently continue as a stand-alone service.
+* [pipedream.com](https://pipedream.com/) which has all the new goodness - including private bins, logging and workflows. Publically launched in Oct 2019.
 
 #### Simple Request Bins
 
@@ -75,7 +74,7 @@ with occassional reference to the [docs](https://docs.pipedream.com/) of course.
 
 I copied some ideas from featured workflows and put together a neat little service that doesn't even need an incoming trigger request.
 
-The ["Mail me new items from the LEAP feed"](https://pipedream.com/@tardate/mail-me-new-items-from-the-leap-feed-p_yKCPnz/edit) is
+The ["Mail me new items from the LEAP feed"](https://pipedream.com/@tardate/mail-me-new-items-from-the-leap-feed-p_yKCPnz/edit) is:
 
 * triggered on a schedule (cron)
 * pulls the [RSS (Atom) feed](https://leap.tardate.com/catalog/atom.xml) from my [LEAP (Little Electronics and Arduino Projects) repo](https://leap.tardate.com)
@@ -96,6 +95,7 @@ It generates a simple text mail that is delivered through pipedream's servers FO
 
 ## Credits and References
 
-* [Pipedream](https://pipedream.com/) aka [requestbin.com](https://requestbin.com/)
+* [pipedream.com](https://pipedream.com/) - the new Pipedream platform
+* [requestbin.com](https://requestbin.com/) - the original Pipedream request bin service
 * [requestbin](https://github.com/Runscope/requestbin) - the open source request bin self-hosted service
 * [Runscope](https://www.runscope.com/)
