@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-02-08T07:36:38Z</updated>
+  <updated>2020-02-15T09:24:30Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1064,25 +1064,44 @@
     <category term="book"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/rust/testing/</id>
-    <link href="https://codingkata.tardate.com/rust/testing/"/>
-    <updated>2020-02-01T04:50:16Z</updated>
-    <title>Testing with Rust</title>
-    <summary>How to write and organise tests for rust</summary>
-    <category term="rust"/>
+    <id>https://codingkata.tardate.com/tools/requestbin/</id>
+    <link href="https://codingkata.tardate.com/tools/requestbin/"/>
+    <updated>2020-02-15T08:47:33Z</updated>
+    <title>Request Bin</title>
+    <summary>Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins</summary>
+    <category term="tools"/>
+    <category term="api"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/elm/about/</id>
-    <link href="https://codingkata.tardate.com/elm/about/"/>
-    <updated>2020-02-01T06:15:29Z</updated>
-    <title>About Elm</title>
-    <summary>Elm (the language) in a nutshell</summary>
-    <category term="elm"/>
+    <id>https://codingkata.tardate.com/docker/docker_cookbook-packt/</id>
+    <link href="https://codingkata.tardate.com/docker/docker_cookbook-packt/"/>
+    <updated>2020-02-15T08:47:33Z</updated>
+    <title>Docker Cookbook (Packt)</title>
+    <summary>Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt</summary>
+    <category term="docker"/>
+    <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/docker/docker_cookbook-oreilly/</id>
+    <link href="https://codingkata.tardate.com/docker/docker_cookbook-oreilly/"/>
+    <updated>2020-02-15T08:47:33Z</updated>
+    <title>Docker Cookbook (O'Reilly)</title>
+    <summary>Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly</summary>
+    <category term="docker"/>
+    <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/elixir/basics/</id>
+    <link href="https://codingkata.tardate.com/elixir/basics/"/>
+    <updated>2020-02-15T08:47:33Z</updated>
+    <title>Elixir Basics</title>
+    <summary>Exploring basic language features of Elixir</summary>
+    <category term="elixir"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/elixir/about/</id>
     <link href="https://codingkata.tardate.com/elixir/about/"/>
-    <updated>2020-02-01T06:15:53Z</updated>
+    <updated>2020-02-15T08:47:33Z</updated>
     <title>About Elixir</title>
     <summary>Elixir in a nutshell</summary>
     <category term="elixir"/>
@@ -1090,53 +1109,79 @@
   <entry>
     <id>https://codingkata.tardate.com/elixir/install_macosx/</id>
     <link href="https://codingkata.tardate.com/elixir/install_macosx/"/>
-    <updated>2020-02-01T06:40:56Z</updated>
+    <updated>2020-02-15T08:47:33Z</updated>
     <title>Elixir on MacOSX</title>
     <summary>Installing Elixir on MacOSX</summary>
     <category term="elixir"/>
     <category term="docker"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/elixir/basics/</id>
-    <link href="https://codingkata.tardate.com/elixir/basics/"/>
-    <updated>2020-02-01T06:52:21Z</updated>
-    <title>Elixir Basics</title>
-    <summary>Exploring basic language features of Elixir</summary>
+    <id>https://codingkata.tardate.com/elixir/programming_elixir/</id>
+    <link href="https://codingkata.tardate.com/elixir/programming_elixir/"/>
+    <updated>2020-02-15T08:47:33Z</updated>
+    <title>Programming Elixir</title>
+    <summary>Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf</summary>
     <category term="elixir"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/messaging/zeromq/install_macosx/</id>
-    <link href="https://codingkata.tardate.com/messaging/zeromq/install_macosx/"/>
-    <updated>2020-02-01T08:02:24Z</updated>
-    <title>zeromq on MacOSX</title>
-    <summary>Installing zeromq on MacOSX</summary>
-    <category term="messaging"/>
-    <category term="zeromq"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/messaging/zeromq/about/</id>
-    <link href="https://codingkata.tardate.com/messaging/zeromq/about/"/>
-    <updated>2020-02-01T08:48:07Z</updated>
-    <title>About Zeromq</title>
-    <summary>Zeromq in a nutshell with a quick test of using the library from C</summary>
-    <category term="messaging"/>
-    <category term="zeromq"/>
-    <category term="c"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/messaging/zeromq/zeromq-book/</id>
-    <link href="https://codingkata.tardate.com/messaging/zeromq/zeromq-book/"/>
-    <updated>2020-02-01T08:53:19Z</updated>
-    <title>ZeroMQ (book)</title>
-    <summary>Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly</summary>
-    <category term="messaging"/>
-    <category term="zeromq"/>
     <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rust/testing/</id>
+    <link href="https://codingkata.tardate.com/rust/testing/"/>
+    <updated>2020-02-15T08:47:33Z</updated>
+    <title>Testing with Rust</title>
+    <summary>How to write and organise tests for rust</summary>
+    <category term="rust"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rust/rust_programming_language/</id>
+    <link href="https://codingkata.tardate.com/rust/rust_programming_language/"/>
+    <updated>2020-02-15T08:47:33Z</updated>
+    <title>The Rust Programming Language</title>
+    <summary>Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research</summary>
+    <category term="rust"/>
+    <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/elm/about/</id>
+    <link href="https://codingkata.tardate.com/elm/about/"/>
+    <updated>2020-02-15T08:47:33Z</updated>
+    <title>About Elm</title>
+    <summary>Elm (the language) in a nutshell</summary>
+    <category term="elm"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/javascript/rickshaw/</id>
+    <link href="https://codingkata.tardate.com/javascript/rickshaw/"/>
+    <updated>2020-02-15T08:47:33Z</updated>
+    <title>Rickshaw</title>
+    <summary>Testing out the D3-based Rickshaw time series graph library</summary>
+    <category term="javascript"/>
+    <category term="graphics"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/infrastructure/zabbix/mastering_zabbix/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/zabbix/mastering_zabbix/"/>
+    <updated>2020-02-15T08:47:33Z</updated>
+    <title>Mastering Zabbix</title>
+    <summary>Book notes - Mastering Zabbix by Andrea Dalle Vacche, Stefano Kewan Lee, published by PacktPub</summary>
+    <category term="infrastructure"/>
+    <category term="zabbix"/>
+    <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/infrastructure/zabbix/ruby-clients/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/zabbix/ruby-clients/"/>
+    <updated>2020-02-15T08:47:33Z</updated>
+    <title>Zabbix API Ruby Clients</title>
+    <summary>A quick survey and test of various ruby options for using the Zabbix API</summary>
+    <category term="infrastructure"/>
+    <category term="zabbix"/>
+    <category term="ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/infrastructure/zabbix/about/</id>
     <link href="https://codingkata.tardate.com/infrastructure/zabbix/about/"/>
-    <updated>2020-02-01T09:24:37Z</updated>
+    <updated>2020-02-15T08:47:33Z</updated>
     <title>About Zabbix</title>
     <summary>Zabbix in a Nutshell</summary>
     <category term="infrastructure"/>
@@ -1146,7 +1191,7 @@
   <entry>
     <id>https://codingkata.tardate.com/infrastructure/zabbix/dockerized/</id>
     <link href="https://codingkata.tardate.com/infrastructure/zabbix/dockerized/"/>
-    <updated>2020-02-01T10:06:19Z</updated>
+    <updated>2020-02-15T08:47:33Z</updated>
     <title>Zabbix Docker</title>
     <summary>Running Zabbix with Docker</summary>
     <category term="infrastructure"/>
@@ -1155,38 +1200,38 @@
     <category term="docker"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/infrastructure/zabbix/ruby-clients/</id>
-    <link href="https://codingkata.tardate.com/infrastructure/zabbix/ruby-clients/"/>
-    <updated>2020-02-02T11:01:02Z</updated>
-    <title>Zabbix API Ruby Clients</title>
-    <summary>A quick survey and test of various ruby options for using the Zabbix API</summary>
-    <category term="infrastructure"/>
-    <category term="zabbix"/>
-    <category term="ruby"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/infrastructure/zabbix/mastering_zabbix/</id>
-    <link href="https://codingkata.tardate.com/infrastructure/zabbix/mastering_zabbix/"/>
-    <updated>2020-02-02T13:12:05Z</updated>
-    <title>Mastering Zabbix</title>
-    <summary>Book notes - Mastering Zabbix by Andrea Dalle Vacche, Stefano Kewan Lee, published by PacktPub</summary>
-    <category term="infrastructure"/>
-    <category term="zabbix"/>
+    <id>https://codingkata.tardate.com/messaging/zeromq/zeromq-book/</id>
+    <link href="https://codingkata.tardate.com/messaging/zeromq/zeromq-book/"/>
+    <updated>2020-02-15T08:47:33Z</updated>
+    <title>ZeroMQ (book)</title>
+    <summary>Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly</summary>
+    <category term="messaging"/>
+    <category term="zeromq"/>
     <category term="book"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/javascript/rickshaw/</id>
-    <link href="https://codingkata.tardate.com/javascript/rickshaw/"/>
-    <updated>2020-02-03T14:02:19Z</updated>
-    <title>Rickshaw</title>
-    <summary>Testing out the D3-based Rickshaw time series graph library</summary>
-    <category term="javascript"/>
-    <category term="graphics"/>
+    <id>https://codingkata.tardate.com/messaging/zeromq/about/</id>
+    <link href="https://codingkata.tardate.com/messaging/zeromq/about/"/>
+    <updated>2020-02-15T08:47:33Z</updated>
+    <title>About Zeromq</title>
+    <summary>Zeromq in a nutshell with a quick test of using the library from C</summary>
+    <category term="messaging"/>
+    <category term="zeromq"/>
+    <category term="c"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/messaging/zeromq/install_macosx/</id>
+    <link href="https://codingkata.tardate.com/messaging/zeromq/install_macosx/"/>
+    <updated>2020-02-15T08:47:33Z</updated>
+    <title>zeromq on MacOSX</title>
+    <summary>Installing zeromq on MacOSX</summary>
+    <category term="messaging"/>
+    <category term="zeromq"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/messaging/zeromq/c/request_reply/</id>
     <link href="https://codingkata.tardate.com/messaging/zeromq/c/request_reply/"/>
-    <updated>2020-02-03T17:19:53Z</updated>
+    <updated>2020-02-15T08:47:33Z</updated>
     <title>Basic Request-Reply in C</title>
     <summary>Basic ZeroMQ 'hello world' example of the request-reply messaging pattern in C</summary>
     <category term="messaging"/>
@@ -1194,27 +1239,9 @@
     <category term="c"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/elixir/programming_elixir/</id>
-    <link href="https://codingkata.tardate.com/elixir/programming_elixir/"/>
-    <updated>2020-02-04T18:24:40Z</updated>
-    <title>Programming Elixir</title>
-    <summary>Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf</summary>
-    <category term="elixir"/>
-    <category term="book"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/rust/rust_programming_language/</id>
-    <link href="https://codingkata.tardate.com/rust/rust_programming_language/"/>
-    <updated>2020-02-04T18:24:40Z</updated>
-    <title>The Rust Programming Language</title>
-    <summary>Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research</summary>
-    <category term="rust"/>
-    <category term="book"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/c/practical_c_programming/</id>
     <link href="https://codingkata.tardate.com/c/practical_c_programming/"/>
-    <updated>2020-02-04T18:24:40Z</updated>
+    <updated>2020-02-15T08:47:33Z</updated>
     <title>Practical C Programming</title>
     <summary>Book notes - Practical C Programming, 3rd Edition by Steve Oualline, published by O'Reilly</summary>
     <category term="C"/>
@@ -1223,37 +1250,18 @@
   <entry>
     <id>https://codingkata.tardate.com/c/21st_century_c/</id>
     <link href="https://codingkata.tardate.com/c/21st_century_c/"/>
-    <updated>2020-02-04T18:24:40Z</updated>
+    <updated>2020-02-15T08:47:33Z</updated>
     <title>21st Century C</title>
     <summary>Notes on the book '21st Century C' by Ben Klemens, published by O'Reilly</summary>
     <category term="C"/>
     <category term="book"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/docker/docker_cookbook-oreilly/</id>
-    <link href="https://codingkata.tardate.com/docker/docker_cookbook-oreilly/"/>
-    <updated>2020-02-06T15:38:22Z</updated>
-    <title>Docker Cookbook (O'Reilly)</title>
-    <summary>Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly</summary>
-    <category term="docker"/>
-    <category term="book"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/docker/docker_cookbook-packt/</id>
-    <link href="https://codingkata.tardate.com/docker/docker_cookbook-packt/"/>
-    <updated>2020-02-06T15:42:37Z</updated>
-    <title>Docker Cookbook (Packt)</title>
-    <summary>Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt</summary>
-    <category term="docker"/>
-    <category term="book"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/tools/requestbin/</id>
-    <link href="https://codingkata.tardate.com/tools/requestbin/"/>
-    <updated>2020-02-08T07:36:16Z</updated>
-    <title>Request Bin</title>
-    <summary>Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins</summary>
-    <category term="tools"/>
-    <category term="api"/>
+    <id>https://codingkata.tardate.com/bash/finding_files/</id>
+    <link href="https://codingkata.tardate.com/bash/finding_files/"/>
+    <updated>2020-02-15T09:14:57Z</updated>
+    <title>Finding Files</title>
+    <summary>Examples of various ways to find files</summary>
+    <category term="bash"/>
   </entry>
 </feed>

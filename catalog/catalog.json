@@ -960,171 +960,179 @@
         "description": "Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional"
     }, 
     {
-        "name": "Testing with Rust", 
-        "updated_at": "2020-02-01T04:50:16Z", 
-        "relative_path": "rust/testing", 
+        "name": "Request Bin", 
+        "updated_at": "2020-02-15T08:47:33Z", 
+        "relative_path": "tools/requestbin", 
         "id": "#121", 
-        "categories": "rust", 
-        "description": "How to write and organise tests for rust"
+        "categories": "tools, api", 
+        "description": "Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins"
     }, 
     {
-        "description": "Elm (the language) in a nutshell", 
-        "updated_at": "2020-02-01T06:15:29Z", 
-        "relative_path": "elm/about", 
+        "name": "Docker Cookbook (Packt)", 
+        "updated_at": "2020-02-15T08:47:33Z", 
+        "relative_path": "docker/docker_cookbook-packt", 
         "id": "#122", 
-        "categories": "elm", 
-        "name": "About Elm"
+        "categories": "docker, book", 
+        "description": "Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt"
+    }, 
+    {
+        "name": "Docker Cookbook (O'Reilly)", 
+        "updated_at": "2020-02-15T08:47:33Z", 
+        "relative_path": "docker/docker_cookbook-oreilly", 
+        "id": "#123", 
+        "categories": "docker, book", 
+        "description": "Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly"
+    }, 
+    {
+        "name": "Elixir Basics", 
+        "updated_at": "2020-02-15T08:47:33Z", 
+        "relative_path": "elixir/basics", 
+        "id": "#124", 
+        "categories": "elixir", 
+        "description": "Exploring basic language features of Elixir"
     }, 
     {
         "name": "About Elixir", 
-        "updated_at": "2020-02-01T06:15:53Z", 
+        "updated_at": "2020-02-15T08:47:33Z", 
         "relative_path": "elixir/about", 
-        "id": "#123", 
+        "id": "#125", 
         "categories": "elixir", 
         "description": "Elixir in a nutshell"
     }, 
     {
         "name": "Elixir on MacOSX", 
-        "updated_at": "2020-02-01T06:40:56Z", 
+        "updated_at": "2020-02-15T08:47:33Z", 
         "relative_path": "elixir/install_macosx", 
-        "id": "#124", 
+        "id": "#126", 
         "categories": "elixir, docker", 
         "description": "Installing Elixir on MacOSX"
     }, 
     {
-        "name": "Elixir Basics", 
-        "updated_at": "2020-02-01T06:52:21Z", 
-        "relative_path": "elixir/basics", 
-        "id": "#125", 
-        "categories": "elixir", 
-        "description": "Exploring basic language features of Elixir"
-    }, 
-    {
-        "name": "zeromq on MacOSX", 
-        "updated_at": "2020-02-01T08:02:24Z", 
-        "relative_path": "messaging/zeromq/install_macosx", 
-        "id": "#126", 
-        "categories": "messaging, zeromq", 
-        "description": "Installing zeromq on MacOSX"
-    }, 
-    {
-        "name": "About Zeromq", 
-        "updated_at": "2020-02-01T08:48:07Z", 
-        "relative_path": "messaging/zeromq/about", 
+        "name": "Programming Elixir", 
+        "updated_at": "2020-02-15T08:47:33Z", 
+        "relative_path": "elixir/programming_elixir", 
         "id": "#127", 
-        "categories": "messaging, zeromq, c", 
-        "description": "Zeromq in a nutshell with a quick test of using the library from C"
+        "categories": "elixir, book", 
+        "description": "Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf"
     }, 
     {
-        "name": "ZeroMQ (book)", 
-        "updated_at": "2020-02-01T08:53:19Z", 
-        "relative_path": "messaging/zeromq/zeromq-book", 
+        "name": "Testing with Rust", 
+        "updated_at": "2020-02-15T08:47:33Z", 
+        "relative_path": "rust/testing", 
         "id": "#128", 
-        "categories": "messaging, zeromq, book", 
-        "description": "Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly"
+        "categories": "rust", 
+        "description": "How to write and organise tests for rust"
     }, 
     {
-        "name": "About Zabbix", 
-        "updated_at": "2020-02-01T09:24:37Z", 
-        "relative_path": "infrastructure/zabbix/about", 
+        "name": "The Rust Programming Language", 
+        "updated_at": "2020-02-15T08:47:33Z", 
+        "relative_path": "rust/rust_programming_language", 
         "id": "#129", 
-        "categories": "infrastructure, zabbix, monitoring", 
-        "description": "Zabbix in a Nutshell"
+        "categories": "rust, book", 
+        "description": "Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research"
     }, 
     {
-        "name": "Zabbix Docker", 
-        "updated_at": "2020-02-01T10:06:19Z", 
-        "relative_path": "infrastructure/zabbix/dockerized", 
+        "description": "Elm (the language) in a nutshell", 
+        "updated_at": "2020-02-15T08:47:33Z", 
+        "relative_path": "elm/about", 
         "id": "#130", 
-        "categories": "infrastructure, zabbix, monitoring, docker", 
-        "description": "Running Zabbix with Docker"
+        "categories": "elm", 
+        "name": "About Elm"
     }, 
     {
-        "name": "Zabbix API Ruby Clients", 
-        "updated_at": "2020-02-02T11:01:02Z", 
-        "relative_path": "infrastructure/zabbix/ruby-clients", 
+        "name": "Rickshaw", 
+        "updated_at": "2020-02-15T08:47:33Z", 
+        "relative_path": "javascript/rickshaw", 
         "id": "#131", 
-        "categories": "infrastructure, zabbix, ruby", 
-        "description": "A quick survey and test of various ruby options for using the Zabbix API"
+        "categories": "javascript, graphics", 
+        "description": "Testing out the D3-based Rickshaw time series graph library"
     }, 
     {
         "name": "Mastering Zabbix", 
-        "updated_at": "2020-02-02T13:12:05Z", 
+        "updated_at": "2020-02-15T08:47:33Z", 
         "relative_path": "infrastructure/zabbix/mastering_zabbix", 
         "id": "#132", 
         "categories": "infrastructure, zabbix, book", 
         "description": "Book notes - Mastering Zabbix by Andrea Dalle Vacche, Stefano Kewan Lee, published by PacktPub"
     }, 
     {
-        "name": "Rickshaw", 
-        "updated_at": "2020-02-03T14:02:19Z", 
-        "relative_path": "javascript/rickshaw", 
+        "name": "Zabbix API Ruby Clients", 
+        "updated_at": "2020-02-15T08:47:33Z", 
+        "relative_path": "infrastructure/zabbix/ruby-clients", 
         "id": "#133", 
-        "categories": "javascript, graphics", 
-        "description": "Testing out the D3-based Rickshaw time series graph library"
+        "categories": "infrastructure, zabbix, ruby", 
+        "description": "A quick survey and test of various ruby options for using the Zabbix API"
+    }, 
+    {
+        "name": "About Zabbix", 
+        "updated_at": "2020-02-15T08:47:33Z", 
+        "relative_path": "infrastructure/zabbix/about", 
+        "id": "#134", 
+        "categories": "infrastructure, zabbix, monitoring", 
+        "description": "Zabbix in a Nutshell"
+    }, 
+    {
+        "name": "Zabbix Docker", 
+        "updated_at": "2020-02-15T08:47:33Z", 
+        "relative_path": "infrastructure/zabbix/dockerized", 
+        "id": "#135", 
+        "categories": "infrastructure, zabbix, monitoring, docker", 
+        "description": "Running Zabbix with Docker"
+    }, 
+    {
+        "name": "ZeroMQ (book)", 
+        "updated_at": "2020-02-15T08:47:33Z", 
+        "relative_path": "messaging/zeromq/zeromq-book", 
+        "id": "#136", 
+        "categories": "messaging, zeromq, book", 
+        "description": "Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly"
+    }, 
+    {
+        "name": "About Zeromq", 
+        "updated_at": "2020-02-15T08:47:33Z", 
+        "relative_path": "messaging/zeromq/about", 
+        "id": "#137", 
+        "categories": "messaging, zeromq, c", 
+        "description": "Zeromq in a nutshell with a quick test of using the library from C"
+    }, 
+    {
+        "name": "zeromq on MacOSX", 
+        "updated_at": "2020-02-15T08:47:33Z", 
+        "relative_path": "messaging/zeromq/install_macosx", 
+        "id": "#138", 
+        "categories": "messaging, zeromq", 
+        "description": "Installing zeromq on MacOSX"
     }, 
     {
         "name": "Basic Request-Reply in C", 
-        "updated_at": "2020-02-03T17:19:53Z", 
+        "updated_at": "2020-02-15T08:47:33Z", 
         "relative_path": "messaging/zeromq/c/request_reply", 
-        "id": "#134", 
+        "id": "#139", 
         "categories": "messaging, zeromq, c", 
         "description": "Basic ZeroMQ 'hello world' example of the request-reply messaging pattern in C"
     }, 
     {
-        "name": "Programming Elixir", 
-        "updated_at": "2020-02-04T18:24:40Z", 
-        "relative_path": "elixir/programming_elixir", 
-        "id": "#135", 
-        "categories": "elixir, book", 
-        "description": "Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf"
-    }, 
-    {
-        "name": "The Rust Programming Language", 
-        "updated_at": "2020-02-04T18:24:40Z", 
-        "relative_path": "rust/rust_programming_language", 
-        "id": "#136", 
-        "categories": "rust, book", 
-        "description": "Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research"
-    }, 
-    {
         "name": "Practical C Programming", 
-        "updated_at": "2020-02-04T18:24:40Z", 
+        "updated_at": "2020-02-15T08:47:33Z", 
         "relative_path": "c/practical_c_programming", 
-        "id": "#137", 
+        "id": "#140", 
         "categories": "C, book", 
         "description": "Book notes - Practical C Programming, 3rd Edition by Steve Oualline, published by O'Reilly"
     }, 
     {
         "name": "21st Century C", 
-        "updated_at": "2020-02-04T18:24:40Z", 
+        "updated_at": "2020-02-15T08:47:33Z", 
         "relative_path": "c/21st_century_c", 
-        "id": "#138", 
+        "id": "#141", 
         "categories": "C, book", 
         "description": "Notes on the book '21st Century C' by Ben Klemens, published by O'Reilly"
     }, 
     {
-        "name": "Docker Cookbook (O'Reilly)", 
-        "updated_at": "2020-02-06T15:38:22Z", 
-        "relative_path": "docker/docker_cookbook-oreilly", 
-        "id": "#139", 
-        "categories": "docker, book", 
-        "description": "Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly"
-    }, 
-    {
-        "name": "Docker Cookbook (Packt)", 
-        "updated_at": "2020-02-06T15:42:37Z", 
-        "relative_path": "docker/docker_cookbook-packt", 
-        "id": "#140", 
-        "categories": "docker, book", 
-        "description": "Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt"
-    }, 
-    {
-        "name": "Request Bin", 
-        "updated_at": "2020-02-08T07:36:16Z", 
-        "relative_path": "tools/requestbin", 
-        "id": "#141", 
-        "categories": "tools, api", 
-        "description": "Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins"
+        "name": "Finding Files", 
+        "updated_at": "2020-02-15T09:14:57Z", 
+        "relative_path": "bash/finding_files", 
+        "id": "#142", 
+        "categories": "bash", 
+        "description": "Examples of various ways to find files"
     }
 ]

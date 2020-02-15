@@ -10,7 +10,7 @@
     }, 
     "/elixir/basics/": {
         "summary": "Exploring basic language features of Elixir", 
-        "id": 125, 
+        "id": 124, 
         "tags": [
             "elixir"
         ], 
@@ -314,7 +314,7 @@
     }, 
     "/docker/docker_cookbook-packt/": {
         "summary": "Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt", 
-        "id": 140, 
+        "id": 122, 
         "tags": [
             "docker", 
             "book"
@@ -323,7 +323,7 @@
     }, 
     "/rust/testing/": {
         "summary": "How to write and organise tests for rust", 
-        "id": 121, 
+        "id": 128, 
         "tags": [
             "rust"
         ], 
@@ -331,7 +331,7 @@
     }, 
     "/infrastructure/zabbix/ruby-clients/": {
         "summary": "A quick survey and test of various ruby options for using the Zabbix API", 
-        "id": 131, 
+        "id": 133, 
         "tags": [
             "infrastructure", 
             "zabbix", 
@@ -452,6 +452,14 @@
         ], 
         "title": "Implementing a Dictionary"
     }, 
+    "/bash/finding_files/": {
+        "summary": "Examples of various ways to find files", 
+        "id": 142, 
+        "tags": [
+            "bash"
+        ], 
+        "title": "Finding Files"
+    }, 
     "/databases/postgresql/cheats/": {
         "summary": "Basic administration and data management command notes", 
         "id": 63, 
@@ -517,7 +525,7 @@
     }, 
     "/c/21st_century_c/": {
         "summary": "Notes on the book '21st Century C' by Ben Klemens, published by O'Reilly", 
-        "id": 138, 
+        "id": 141, 
         "tags": [
             "C", 
             "book"
@@ -551,7 +559,7 @@
     }, 
     "/elixir/install_macosx/": {
         "summary": "Installing Elixir on MacOSX", 
-        "id": 124, 
+        "id": 126, 
         "tags": [
             "elixir", 
             "docker"
@@ -578,7 +586,7 @@
     }, 
     "/rust/rust_programming_language/": {
         "summary": "Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research", 
-        "id": 136, 
+        "id": 129, 
         "tags": [
             "rust", 
             "book"
@@ -587,7 +595,7 @@
     }, 
     "/elm/about/": {
         "summary": "Elm (the language) in a nutshell", 
-        "id": 122, 
+        "id": 130, 
         "tags": [
             "elm"
         ], 
@@ -657,7 +665,7 @@
     }, 
     "/tools/requestbin/": {
         "summary": "Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins", 
-        "id": 141, 
+        "id": 121, 
         "tags": [
             "tools", 
             "api"
@@ -666,7 +674,7 @@
     }, 
     "/elixir/programming_elixir/": {
         "summary": "Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf", 
-        "id": 135, 
+        "id": 127, 
         "tags": [
             "elixir", 
             "book"
@@ -709,7 +717,7 @@
     }, 
     "/c/practical_c_programming/": {
         "summary": "Book notes - Practical C Programming, 3rd Edition by Steve Oualline, published by O'Reilly", 
-        "id": 137, 
+        "id": 140, 
         "tags": [
             "C", 
             "book"
@@ -801,7 +809,7 @@
     }, 
     "/infrastructure/zabbix/dockerized/": {
         "summary": "Running Zabbix with Docker", 
-        "id": 130, 
+        "id": 135, 
         "tags": [
             "infrastructure", 
             "zabbix", 
@@ -911,7 +919,7 @@
     }, 
     "/docker/docker_cookbook-oreilly/": {
         "summary": "Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly", 
-        "id": 139, 
+        "id": 123, 
         "tags": [
             "docker", 
             "book"
@@ -928,7 +936,7 @@
     }, 
     "/javascript/rickshaw/": {
         "summary": "Testing out the D3-based Rickshaw time series graph library", 
-        "id": 133, 
+        "id": 131, 
         "tags": [
             "javascript", 
             "graphics"
@@ -937,7 +945,7 @@
     }, 
     "/messaging/zeromq/install_macosx/": {
         "summary": "Installing zeromq on MacOSX", 
-        "id": 126, 
+        "id": 138, 
         "tags": [
             "messaging", 
             "zeromq"
@@ -946,7 +954,7 @@
     }, 
     "/messaging/zeromq/c/request_reply/": {
         "summary": "Basic ZeroMQ 'hello world' example of the request-reply messaging pattern in C", 
-        "id": 134, 
+        "id": 139, 
         "tags": [
             "messaging", 
             "zeromq", 
@@ -972,7 +980,7 @@
     }, 
     "/elixir/about/": {
         "summary": "Elixir in a nutshell", 
-        "id": 123, 
+        "id": 125, 
         "tags": [
             "elixir"
         ], 
@@ -1032,7 +1040,7 @@
     }, 
     "/messaging/zeromq/about/": {
         "summary": "Zeromq in a nutshell with a quick test of using the library from C", 
-        "id": 127, 
+        "id": 137, 
         "tags": [
             "messaging", 
             "zeromq", 
@@ -1130,7 +1138,7 @@
     }, 
     "/messaging/zeromq/zeromq-book/": {
         "summary": "Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly", 
-        "id": 128, 
+        "id": 136, 
         "tags": [
             "messaging", 
             "zeromq", 
@@ -1166,7 +1174,7 @@
     }, 
     "/infrastructure/zabbix/about/": {
         "summary": "Zabbix in a Nutshell", 
-        "id": 129, 
+        "id": 134, 
         "tags": [
             "infrastructure", 
             "zabbix", 

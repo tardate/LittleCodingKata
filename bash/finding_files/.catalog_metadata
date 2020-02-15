@@ -1,0 +1,6 @@
+{
+    "name": "Finding Files",
+    "description": "Examples of various ways to find files",
+    "categories": "bash",
+    "relative_path": "bash/finding_files"
+}
