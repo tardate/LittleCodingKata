@@ -94,8 +94,33 @@ $ find ../.. -name *.jpg -exec ls -s {} \; | sort -k 1 -g -r
 8 ../../staticweb/jekyll/gh-pages-auto/images/body-bg.jpg
 ```
 
+### Finding setuid/setgid Binaries
+
+From [Linux Server Hacks #11](https://learning.oreilly.com/library/view/linux-server-hacks/0596004613/).
+
+Binaries with [setuid/setgid permission](https://en.wikipedia.org/wiki/Setuid)
+allow users to run an executable with the permissions of the executable's owner or group respectively,
+and can thus be a security issue.
+
+```
+$ find /usr/bin -perm +6000 -type f -exec ls -ld {} \;
+-r-xr-sr-x  1 root  tty  23920 Mar 28  2018 /usr/bin/write
+-r-sr-xr-x  1 root  wheel  88400 Jul  4  2018 /usr/bin/top
+-r-sr-xr-x  1 root  wheel  83680 Jan 24 17:50 /usr/bin/atq
+-rwsr-xr-x  1 root  wheel  39216 Jul  4  2018 /usr/bin/crontab
+-r-sr-xr-x  1 root  wheel  83680 Jan 24 17:50 /usr/bin/atrm
+-r-sr-xr-x  1 root  wheel  52512 Jan 24 17:50 /usr/bin/newgrp
+-rwsr-xr-x  1 root  wheel  25488 Jul  4  2018 /usr/bin/su
+-r-sr-xr-x  1 root  wheel  83680 Jan 24 17:50 /usr/bin/batch
+-r-sr-xr-x  1 root  wheel  83680 Jan 24 17:50 /usr/bin/at
+-r-sr-xr-x  1 root  wheel  23568 Mar 28  2018 /usr/bin/quota
+-r-s--x--x  1 root  wheel  438656 Jan 24 17:50 /usr/bin/sudo
+-r-sr-xr-x  1 root  wheel  76288 Jan 24 17:50 /usr/bin/login
+```
+
 ## Credits and References
 
 * [man find](http://man7.org/linux/man-pages/man1/find.1.html)
 * [man sort](http://man7.org/linux/man-pages/man1/sort.1.html)
 * [Sorting strings with numbers in Bash](https://stackoverflow.com/questions/17061948/sorting-strings-with-numbers-in-bash)
+* [Linux Server Hacks](https://learning.oreilly.com/library/view/linux-server-hacks/0596004613/) - O'Reilly
