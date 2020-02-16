@@ -242,6 +242,16 @@
         ], 
         "title": "loadcsv"
     }, 
+    "/infrastructure/linux_server_hacks/": {
+        "summary": "Book notes - Linux Server Hacks by Rob Flickenger and Linux Server Hacks, Volume Two (Tips & Tools for Connecting, Monitoring, and Troubleshooting) by William von Hagen and Brian K. Jones, published by O'Reilly", 
+        "id": 143, 
+        "tags": [
+            "infrastructure", 
+            "linux", 
+            "book"
+        ], 
+        "title": "Linux Server Hacks"
+    }, 
     "/python/finding_libraries/": {
         "summary": "How to find great python libraries and resources", 
         "id": 71, 

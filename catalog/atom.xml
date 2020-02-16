@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-02-15T09:24:30Z</updated>
+  <updated>2020-02-16T02:51:44Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1263,5 +1263,15 @@
     <title>Finding Files</title>
     <summary>Examples of various ways to find files</summary>
     <category term="bash"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/infrastructure/linux_server_hacks/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/linux_server_hacks/"/>
+    <updated>2020-02-16T02:51:39Z</updated>
+    <title>Linux Server Hacks</title>
+    <summary>Book notes - Linux Server Hacks by Rob Flickenger and Linux Server Hacks, Volume Two (Tips &amp; Tools for Connecting, Monitoring, and Troubleshooting) by William von Hagen and Brian K. Jones, published by O'Reilly</summary>
+    <category term="infrastructure"/>
+    <category term="linux"/>
+    <category term="book"/>
   </entry>
 </feed>

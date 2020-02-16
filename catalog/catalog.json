@@ -1134,5 +1134,13 @@
         "id": "#142", 
         "categories": "bash", 
         "description": "Examples of various ways to find files"
+    }, 
+    {
+        "name": "Linux Server Hacks", 
+        "updated_at": "2020-02-16T02:51:39Z", 
+        "relative_path": "infrastructure/linux_server_hacks", 
+        "id": "#143", 
+        "categories": "infrastructure, linux, book", 
+        "description": "Book notes - Linux Server Hacks by Rob Flickenger and Linux Server Hacks, Volume Two (Tips & Tools for Connecting, Monitoring, and Troubleshooting) by William von Hagen and Brian K. Jones, published by O'Reilly"
     }
 ]
