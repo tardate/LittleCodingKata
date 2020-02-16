@@ -1166,5 +1166,13 @@
         "id": "#146", 
         "categories": "c", 
         "description": "Looking at how C compilers optimize loops"
+    }, 
+    {
+        "name": "Variable Fonts", 
+        "updated_at": "2020-02-16T12:29:03Z", 
+        "relative_path": "web/variable_fonts", 
+        "id": "#147", 
+        "categories": "CSS, font", 
+        "description": "Understanding the new standards for variable CSS fonts"
     }
 ]

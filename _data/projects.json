@@ -250,6 +250,15 @@
         ], 
         "title": "loadcsv"
     }, 
+    "/web/variable_fonts/": {
+        "summary": "Understanding the new standards for variable CSS fonts", 
+        "id": 147, 
+        "tags": [
+            "CSS", 
+            "font"
+        ], 
+        "title": "Variable Fonts"
+    }, 
     "/infrastructure/linux_server_hacks/": {
         "summary": "Book notes - Linux Server Hacks by Rob Flickenger and Linux Server Hacks, Volume Two (Tips & Tools for Connecting, Monitoring, and Troubleshooting) by William von Hagen and Brian K. Jones, published by O'Reilly", 
         "id": 143, 

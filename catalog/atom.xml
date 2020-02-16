@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-02-16T07:39:56Z</updated>
+  <updated>2020-02-16T12:31:31Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1297,5 +1297,14 @@
     <title>Loop Optimization</title>
     <summary>Looking at how C compilers optimize loops</summary>
     <category term="c"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/web/variable_fonts/</id>
+    <link href="https://codingkata.tardate.com/web/variable_fonts/"/>
+    <updated>2020-02-16T12:29:03Z</updated>
+    <title>Variable Fonts</title>
+    <summary>Understanding the new standards for variable CSS fonts</summary>
+    <category term="CSS"/>
+    <category term="font"/>
   </entry>
 </feed>
