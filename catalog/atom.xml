@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-02-16T03:55:31Z</updated>
+  <updated>2020-02-16T06:16:52Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1275,11 +1275,19 @@
     <category term="book"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/pascal/freepascal/install_macosx/</id>
-    <link href="https://codingkata.tardate.com/pascal/freepascal/install_macosx/"/>
-    <updated>2020-02-16T03:49:51Z</updated>
-    <title>Installing Free Pascal</title>
+    <id>https://codingkata.tardate.com/pascal/free_pascal/</id>
+    <link href="https://codingkata.tardate.com/pascal/free_pascal/"/>
+    <updated>2020-02-16T05:05:39Z</updated>
+    <title>Free Pascal</title>
     <summary>Installing and running the Free Pascal compiler on MacOSX</summary>
+    <category term="pascal"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/pascal/about/</id>
+    <link href="https://codingkata.tardate.com/pascal/about/"/>
+    <updated>2020-02-16T05:43:25Z</updated>
+    <title>About Pascal</title>
+    <summary>Pascal In a Nutshell</summary>
     <category term="pascal"/>
   </entry>
 </feed>

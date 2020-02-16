@@ -1,6 +1,6 @@
 {
-    "name": "Installing Free Pascal",
+    "name": "Free Pascal",
     "description": "Installing and running the Free Pascal compiler on MacOSX",
     "categories": "pascal",
-    "relative_path": "pascal/freepascal/install_macosx"
+    "relative_path": "pascal/free_pascal"
 }

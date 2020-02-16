@@ -1,4 +1,4 @@
-# Installing Free Pascal
+# Free Pascal
 
 Installing and running the Free Pascal compiler on MacOSX.
 
@@ -8,7 +8,7 @@ I haven't written or used any [Pascal](https://en.wikipedia.org/wiki/Pascal_(pro
 But it was my first love when it comes to computer languages.
 It's where I first learned structured and object-oriented programming techniques.
 
-I'm curious about the state of PAscal. Does anyone still use it much? CAN you even use it on modern machines?
+I'm curious about the state of Pascal. Does anyone still use it much? CAN you even use it on modern machines?
 
 First step is obviously just to try and get it installed...
 
@@ -95,6 +95,6 @@ All good!
 
 ## Credits and References
 
-* [freepascal](https://www.freepascal.org/)
-* [sourceforge files page](https://sourceforge.net/projects/freepascal/files/Source/3.0.4/)
+* [Free Pascal](https://www.freepascal.org/) - home
+* [Free Pascal - sourceforge files page](https://sourceforge.net/projects/freepascal/files/Source/3.0.4/)
 * [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language))

@@ -1144,11 +1144,19 @@
         "description": "Book notes - Linux Server Hacks by Rob Flickenger and Linux Server Hacks, Volume Two (Tips & Tools for Connecting, Monitoring, and Troubleshooting) by William von Hagen and Brian K. Jones, published by O'Reilly"
     }, 
     {
-        "name": "Installing Free Pascal", 
-        "updated_at": "2020-02-16T03:49:51Z", 
-        "relative_path": "pascal/freepascal/install_macosx", 
+        "name": "Free Pascal", 
+        "updated_at": "2020-02-16T05:05:39Z", 
+        "relative_path": "pascal/free_pascal", 
         "id": "#144", 
         "categories": "pascal", 
         "description": "Installing and running the Free Pascal compiler on MacOSX"
+    }, 
+    {
+        "name": "About Pascal", 
+        "updated_at": "2020-02-16T05:43:25Z", 
+        "relative_path": "pascal/about", 
+        "id": "#145", 
+        "categories": "pascal", 
+        "description": "Pascal In a Nutshell"
     }
 ]
