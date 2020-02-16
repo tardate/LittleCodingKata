@@ -26,7 +26,7 @@ property is used to control all the axis supported by a particular font.
 ### Demo - Source Sans Pro
 
 [demo/index.html](./demo/index.html) is a simple demonstration of using mouse movement
-to affect continuous variation of form attributes (size and weight in the case).
+to affect continuous variation of font attributes (size and weight in the case).
 
 The font used is [source-sans-pro 3.006 (OTF, TTF, WOFF, WOFF2, Variable)](https://github.com/adobe-fonts/source-sans-pro/releases/tag/3.006R).
 
@@ -41,7 +41,7 @@ cp source-sans-pro-3.006R/WOFF/VAR/SourceSansVariable-Roman.ttf.woff demo
 cp source-sans-pro-3.006R/VAR/SourceSansVariable-Roman.ttf demo
 ```
 
-A picture doesnt really convey the intent. Try it interactively:
+A picture doesn't really convey the intent. Try it interactively:
 
 [![demo](./assets/demo.png?raw=true)](./demo/index.html)
 
