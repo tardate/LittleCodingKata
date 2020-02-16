@@ -887,6 +887,14 @@
         ], 
         "title": "emacs"
     }, 
+    "/c/loop_optimization/": {
+        "summary": "Looking at how C compilers optimize loops", 
+        "id": 146, 
+        "tags": [
+            "c"
+        ], 
+        "title": "Loop Optimization"
+    }, 
     "/go/hello_world/": {
         "summary": "exploring Go with the simplest example", 
         "id": 7, 

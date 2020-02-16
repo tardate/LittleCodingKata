@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-02-16T06:16:52Z</updated>
+  <updated>2020-02-16T07:39:56Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1289,5 +1289,13 @@
     <title>About Pascal</title>
     <summary>Pascal In a Nutshell</summary>
     <category term="pascal"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/c/loop_optimization/</id>
+    <link href="https://codingkata.tardate.com/c/loop_optimization/"/>
+    <updated>2020-02-16T07:39:29Z</updated>
+    <title>Loop Optimization</title>
+    <summary>Looking at how C compilers optimize loops</summary>
+    <category term="c"/>
   </entry>
 </feed>

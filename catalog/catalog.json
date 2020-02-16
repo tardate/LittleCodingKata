@@ -1158,5 +1158,13 @@
         "id": "#145", 
         "categories": "pascal", 
         "description": "Pascal In a Nutshell"
+    }, 
+    {
+        "name": "Loop Optimization", 
+        "updated_at": "2020-02-16T07:39:29Z", 
+        "relative_path": "c/loop_optimization", 
+        "id": "#146", 
+        "categories": "c", 
+        "description": "Looking at how C compilers optimize loops"
     }
 ]
