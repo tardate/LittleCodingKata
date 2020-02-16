@@ -1040,6 +1040,14 @@
         ], 
         "title": "Rails AntiPatterns"
     }, 
+    "/pascal/freepascal/install_macosx/": {
+        "summary": "Installing and running the Free Pascal compiler on MacOSX", 
+        "id": 144, 
+        "tags": [
+            "pascal"
+        ], 
+        "title": "Installing Free Pascal"
+    }, 
     "/cpp/DoubleTrouble/": {
         "summary": "Investigting some of the pitfalls of directly reading doubles from a stream, then going down the rabbit hole of bugs and variations in the LLVM/Clang and GCC implementations of the C++ standard library.", 
         "id": 33, 
