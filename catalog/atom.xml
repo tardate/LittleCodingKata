@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-02-18T14:54:58Z</updated>
+  <updated>2020-02-18T16:40:47Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1314,5 +1314,13 @@
     <title>TCP Wrappers</title>
     <summary>The basics of TCP wrappers</summary>
     <category term="linux"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/docker/CentOS8_install/</id>
+    <link href="https://codingkata.tardate.com/docker/CentOS8_install/"/>
+    <updated>2020-02-18T15:40:59Z</updated>
+    <title>Docker on CentOS 8</title>
+    <summary>Installing and running Docker on CentOS 8</summary>
+    <category term="docker"/>
   </entry>
 </feed>

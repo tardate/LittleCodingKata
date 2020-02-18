@@ -116,6 +116,14 @@
         ], 
         "title": "mono/hello"
     }, 
+    "/docker/CentOS8_install/": {
+        "summary": "Installing and running Docker on CentOS 8", 
+        "id": 149, 
+        "tags": [
+            "docker"
+        ], 
+        "title": "Docker on CentOS 8"
+    }, 
     "/ruby/random_mac_generation/": {
         "summary": "all about MAC and generating random MAC addresses", 
         "id": 81, 

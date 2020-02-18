@@ -1,0 +1,6 @@
+{
+    "name": "Docker on CentOS 8",
+    "description": "Installing and running Docker on CentOS 8",
+    "categories": "docker",
+    "relative_path": "docker/CentOS8_install"
+}

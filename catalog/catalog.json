@@ -1182,5 +1182,13 @@
         "id": "#148", 
         "categories": "linux", 
         "description": "The basics of TCP wrappers"
+    }, 
+    {
+        "name": "Docker on CentOS 8", 
+        "updated_at": "2020-02-18T15:40:59Z", 
+        "relative_path": "docker/CentOS8_install", 
+        "id": "#149", 
+        "categories": "docker", 
+        "description": "Installing and running Docker on CentOS 8"
     }
 ]
