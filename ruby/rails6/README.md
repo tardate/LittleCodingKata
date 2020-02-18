@@ -227,7 +227,7 @@ Working in Rails 6 - I've added an `assert_template 'welcome/index'` test.
 * [Rails 6 Timeline](https://weblog.rubyonrails.org/2018/12/20/timeline-for-the-release-of-Rails-6-0/)
 * [Rails 6 Release Notes](https://edgeguides.rubyonrails.org/6_0_release_notes.html)
 * [Ruby Versions for Rails](https://guides.rubyonrails.org/upgrading_ruby_on_rails.html#ruby-versions)
-* [Rails API](https://api.rubyonrails.org/)
+* [Rails API 6.0.0](https://api.rubyonrails.org/v6.0.0/)
 * HAML
   * [haml](http://haml.info/) - info
   * [haml](https://github.com/haml/haml) gem source
