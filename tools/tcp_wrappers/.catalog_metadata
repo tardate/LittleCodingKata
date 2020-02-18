@@ -1,0 +1,6 @@
+{
+    "name": "TCP Wrappers",
+    "description": "The basics of TCP wrappers",
+    "categories": "linux",
+    "relative_path": "tools/tcp_wrappers"
+}

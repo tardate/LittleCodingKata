@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-02-16T12:31:31Z</updated>
+  <updated>2020-02-18T14:54:58Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1306,5 +1306,13 @@
     <summary>Understanding the new standards for variable CSS fonts</summary>
     <category term="CSS"/>
     <category term="font"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/tcp_wrappers/</id>
+    <link href="https://codingkata.tardate.com/tools/tcp_wrappers/"/>
+    <updated>2020-02-18T14:31:14Z</updated>
+    <title>TCP Wrappers</title>
+    <summary>The basics of TCP wrappers</summary>
+    <category term="linux"/>
   </entry>
 </feed>

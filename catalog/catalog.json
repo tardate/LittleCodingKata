@@ -1174,5 +1174,13 @@
         "id": "#147", 
         "categories": "CSS, font", 
         "description": "Understanding the new standards for variable CSS fonts"
+    }, 
+    {
+        "name": "TCP Wrappers", 
+        "updated_at": "2020-02-18T14:31:14Z", 
+        "relative_path": "tools/tcp_wrappers", 
+        "id": "#148", 
+        "categories": "linux", 
+        "description": "The basics of TCP wrappers"
     }
 ]
