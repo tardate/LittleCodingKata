@@ -1190,5 +1190,13 @@
         "id": "#149", 
         "categories": "docker", 
         "description": "Installing and running Docker on CentOS 8"
+    }, 
+    {
+        "name": "Ruby Loop", 
+        "updated_at": "2020-02-21T11:00:15Z", 
+        "relative_path": "ruby/loops", 
+        "id": "#150", 
+        "categories": "ruby", 
+        "description": "All the various ways of looping in Ruby"
     }
 ]

@@ -707,6 +707,14 @@
         ], 
         "title": "Request Bin"
     }, 
+    "/ruby/loops/": {
+        "summary": "All the various ways of looping in Ruby", 
+        "id": 150, 
+        "tags": [
+            "ruby"
+        ], 
+        "title": "Ruby Loop"
+    }, 
     "/elixir/programming_elixir/": {
         "summary": "Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf", 
         "id": 127, 
