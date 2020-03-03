@@ -1193,10 +1193,18 @@
     }, 
     {
         "name": "Ruby Loop", 
-        "updated_at": "2020-02-21T11:00:15Z", 
+        "updated_at": "2020-02-22T07:57:44Z", 
         "relative_path": "ruby/loops", 
         "id": "#150", 
         "categories": "ruby", 
         "description": "All the various ways of looping in Ruby"
+    }, 
+    {
+        "name": "Database Tweets", 
+        "updated_at": "2020-03-03T13:51:52Z", 
+        "relative_path": "databases/oracle/ORA_Tweet_With_Shorturls", 
+        "id": "#151", 
+        "categories": "Database, Oracle", 
+        "description": "Tweeting from your Oracle database with short urls"
     }
 ]

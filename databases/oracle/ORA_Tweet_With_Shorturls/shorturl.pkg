@@ -1,0 +1,91 @@
+CREATE OR REPLACE PACKAGE short_url
+AS
+  /*  SHORT_URL - a package for shortening URLs using a web-based service
+      Author:  Paul Gallagher
+      Email:  gallagher.paul@gmail.com
+      Web: http://tardate.blogspot.com
+      License:  Free Use
+      Version: 1.0
+  */
+
+  /**
+   * URL-shortneing service settings
+   * ... using is.gd for now. It has a very simple GET request 'api'
+   */
+  shortener_service VARCHAR2(255) := 'http://is.gd';
+  shortener_request VARCHAR2(255) := '/api.php?longurl=';
+  shortener_proxy VARCHAR2(255) := NULL;
+
+
+  /**
+   *  Gets an encoded (shortened) version of a url
+   *  @param p_url               the url to be encoded
+   *  @return                    encoded (shortened) url
+   */  
+  FUNCTION encode_url(
+    p_url IN VARCHAR2 )
+  RETURN VARCHAR2;
+  
+  /**
+   *  Shortens all the http/https urls in an arbitrary bit of text
+   *  @param p_url               the text to be encoded
+   *  @return                    encoded text
+   */  
+  FUNCTION encode_text(
+    p_text IN VARCHAR2 )
+  RETURN VARCHAR2;
+  
+END short_url;
+/  
+
+show errors
+
+CREATE OR REPLACE PACKAGE BODY short_url
+AS 
+
+  
+FUNCTION encode_url(
+  p_url IN VARCHAR2)
+RETURN VARCHAR2  
+AS
+  v_req   VARCHAR2(2000);  -- The request URL
+  v_resp  VARCHAR2(2000);  -- HTTP response body
+BEGIN
+  
+  v_req := shortener_service || shortener_request || utl_url.escape(p_url);
+  v_resp := UTL_HTTP.REQUEST(v_req, shortener_proxy);
+  DBMS_OUTPUT.PUT_LINE('encode_url from: ' || p_url || ' to: ' || v_resp );
+
+  RETURN v_resp;                               
+END encode_url;
+
+
+
+FUNCTION encode_text(
+  p_text IN VARCHAR2)
+RETURN VARCHAR2  
+AS
+  v_url   VARCHAR2(2000);  -- url extracted from text
+  v_resp  VARCHAR2(2000);  -- HTTP response body
+  pos     NUMBER;
+BEGIN
+
+  v_resp := p_text;
+  pos := 1;
+  LOOP
+    v_url := regexp_substr(p_text,'https?://\S+',pos);
+    pos := instr(p_text,v_url,pos) + 7;
+    EXIT WHEN v_url is null;
+    DBMS_OUTPUT.PUT_LINE('found ' || v_url || ' at ' || to_char(pos) );
+    v_resp := replace(v_resp,v_url,encode_url(v_url));
+  END LOOP;
+
+  RETURN v_resp;                               
+END encode_text;
+
+END short_url;
+/
+
+show errors
+
+exit;

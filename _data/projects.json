@@ -1079,6 +1079,15 @@
         ], 
         "title": "Cacti"
     }, 
+    "/databases/oracle/ORA_Tweet_With_Shorturls/": {
+        "summary": "Tweeting from your Oracle database with short urls", 
+        "id": 151, 
+        "tags": [
+            "Database", 
+            "Oracle"
+        ], 
+        "title": "Database Tweets"
+    }, 
     "/ruby/rails_antipatterns/": {
         "summary": "Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional", 
         "id": 120, 

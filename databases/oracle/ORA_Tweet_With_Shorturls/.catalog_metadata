@@ -1,0 +1,6 @@
+{
+    "name": "Database Tweets",
+    "description": "Tweeting from your Oracle database with short urls",
+    "categories": "Database, Oracle",
+    "relative_path": "databases/oracle/ORA_Tweet_With_Shorturls"
+}

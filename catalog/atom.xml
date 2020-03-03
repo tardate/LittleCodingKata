@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-02-22T07:49:15Z</updated>
+  <updated>2020-03-03T13:58:32Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1326,9 +1326,18 @@
   <entry>
     <id>https://codingkata.tardate.com/ruby/loops/</id>
     <link href="https://codingkata.tardate.com/ruby/loops/"/>
-    <updated>2020-02-21T11:00:15Z</updated>
+    <updated>2020-02-22T07:57:44Z</updated>
     <title>Ruby Loop</title>
     <summary>All the various ways of looping in Ruby</summary>
     <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/databases/oracle/ORA_Tweet_With_Shorturls/</id>
+    <link href="https://codingkata.tardate.com/databases/oracle/ORA_Tweet_With_Shorturls/"/>
+    <updated>2020-03-03T13:51:52Z</updated>
+    <title>Database Tweets</title>
+    <summary>Tweeting from your Oracle database with short urls</summary>
+    <category term="Database"/>
+    <category term="Oracle"/>
   </entry>
 </feed>
