@@ -1,9 +1,6 @@
 # Progress Bars with Bootstrap
 
-[![demo_in_progress](./assets/demo_in_progress.png?raw=true)](https://codingkata.tardate.com/javascript/progress_bars_bootstrap/index.html)
-
-
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
+[![demo_in_progress](./assets/demo_in_progress.png?raw=true)](https://codingkata.tardate.com/javascript/progress_bars_bootstrap/example.html)
 
 ## Notes
 
@@ -84,7 +81,7 @@ that adds progressbar interactions for twitter bootstrap 2 & 3.  It uses the set
 Depending on the speed of progress, it is probably desirable to override the
 default bootstrap transition on `.progress-bar`.
 
-The example in [index.html](./index.html) includes a `setTimeout` example.
+The example in [example.html](./example.html) includes a `setTimeout` example.
 
 * it implements a 0-100% timer over a pre-determined time (5 seconds).
 * it uses a standard recursive `setTimeout` pattern is used to update the progress bar value accordingly.
@@ -103,14 +100,14 @@ For time-based effects, I think I prefer this technique.
 
 ## The Demo
 
-The example in [index.html](./index.html) is an adaptation of a [dynamic progress bar example](http://codepen.io/jbeurel/pen/zuDAl) by
+The example in [example.html](./example.html) is an adaptation of a [dynamic progress bar example](http://codepen.io/jbeurel/pen/zuDAl) by
 [@jbeurel](https://twitter.com/jbeurel). It is extended to demonstrate:
 
 * animation with setTimeout
 * animation with jQuery.animate
 * fiddling css transition to allow immiedate updates yet smooth setTimeout animation
 
-Run the demo [live from GitHub Pages](https://codingkata.tardate.com/javascript/progress_bars_bootstrap/index.html)
+Run the demo [live](https://codingkata.tardate.com/javascript/progress_bars_bootstrap/example.html)
 
 In the HTML, action are hooked to a button:
 
@@ -133,6 +130,7 @@ $('#myProgressbar').progressbar("animateWithTimeouts", 10) // 10 second 0-100% a
 ```
 
 ## Credits and References
+
 * [Progress bars](http://getbootstrap.com/components/#progress) - bootstrap doc
 * [dynamic progress bar example](http://codepen.io/jbeurel/pen/zuDAl) - where I borrowed code for this test
 * [Cross Browser HTML5 Progress Bars In Depth](http://www.useragentman.com/blog/2012/01/03/cross-browser-html5-progress-bars-in-depth/)

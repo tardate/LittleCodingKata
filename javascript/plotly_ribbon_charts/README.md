@@ -4,9 +4,6 @@ Test interactive plotly.js ribbon charts with date-related data.
 
 [![demo](./assets/splash.png?raw=true)](https://codingkata.tardate.com/javascript/plotly_ribbon_charts/index.html)
 
-
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 [plotly.js](https://github.com/plotly/plotly.js) is a pretty awesome library for charting.
@@ -62,19 +59,16 @@ The xaxis is set to type: 'category', rather than numeric data.
 A 2D array is required to give the ribbon width, so it's necessary to figure out how to express the category as an array.
 I'm using an array of name and number, like `['orange', 2]`.
 
-
-
-
 ## Example
 
-The example in [index.html](./index.html) is an adaptation of the
+The example in [example.html](./example.html) is an adaptation of the
 [Ribbon Plots in plotly.js example](https://plot.ly/javascript/ribbon-plots/).
 
 Or run the demo [live from GitHub Pages](https://codingkata.tardate.com/javascript/plotly_ribbon_charts/index.html).
 
 ## Credits and References
+
 * [plotly.js](https://github.com/plotly/plotly.js) - GitHub
 * [Ribbon Plots in plotly.js](https://plot.ly/javascript/ribbon-plots/) - tutorial/example
 * [D3.js](https://d3js.org/)
 * [Javascript Date Object Reference](http://www.w3schools.com/jsref/jsref_obj_date.asp)
-

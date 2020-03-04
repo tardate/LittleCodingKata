@@ -2,10 +2,7 @@
 
 Demonstrate the process of installing and packaging Highcharts with bower.
 
-[![demo](./assets/demo.png?raw=true)](https://codingkata.tardate.com/javascript/highcharts_with_bower/index.html)
-
-
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
+[![demo](./assets/demo.png?raw=true)](https://codingkata.tardate.com/javascript/highcharts_with_bower/example.html)
 
 ## Notes
 
@@ -85,13 +82,14 @@ Done.
 
 ## Example
 
-The example in [index.html](./index.html) is an adaptation of the
+The example in [example.html](./example.html) is an adaptation of the
 [HighCharts 'First Chart' example](http://www.highcharts.com/docs/getting-started/your-first-chart).
 
-Or run the demo [live from GitHub Pages](https://codingkata.tardate.com/javascript/highcharts_with_bower/index.html).
+Or run the demo [live from GitHub Pages](https://codingkata.tardate.com/javascript/highcharts_with_bower/example.html).
 
 
 ## Credits and References
+
 * [bower.io](http://bower.io/)
 * [Highcharts](http://www.highcharts.com/)
 * [Install from Bower](http://www.highcharts.com/docs/getting-started/install-from-bower) - highcharts

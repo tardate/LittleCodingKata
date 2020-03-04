@@ -2,8 +2,6 @@
 
 A demonstration of the k-nearest neighbors algorithm implemented in javascript in a browser.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 This is my working of an example from the [Machine Learning with Javascript](https://www.udemy.com/machine-learning-with-javascript/learn/v4/overview) course.
@@ -39,7 +37,6 @@ When modeling with multiple features, consider:
 
 * normalize or standardise the features
 
-
 ### Feature Normalization
 
 * normalize - 0..1
@@ -58,7 +55,7 @@ Normalising with MinMax
 
 ## Running the Demonstration
 
-`open plinko.html`
+See [plinko.html](./plinko.html) or locally `open plinko.html`
 
 Drop enough balls to make a sample set
 
