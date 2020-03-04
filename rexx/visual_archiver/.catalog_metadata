@@ -1,0 +1,6 @@
+{
+    "name": "Visual Archiver",
+    "description": "An Archive Management Interface for OS/2 v2.0 written in REXX",
+    "categories": "REXX, OS/2",
+    "relative_path": "rexx/visual_archiver"
+}

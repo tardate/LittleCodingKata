@@ -73,6 +73,15 @@
         ], 
         "title": "MAC Address Generation with Python"
     }, 
+    "/rexx/dirsize/": {
+        "summary": "Directory Size Scanner for OS/2 v2.0 written in REXX", 
+        "id": 152, 
+        "tags": [
+            "REXX", 
+            "OS/2"
+        ], 
+        "title": "DirSize"
+    }, 
     "/rust/install_macosx/": {
         "summary": "Rust - installing on MacOSX", 
         "id": 15, 
@@ -679,6 +688,15 @@
         ], 
         "title": "Python/top_level_imports"
     }, 
+    "/rexx/visual_archiver/": {
+        "summary": "An Archive Management Interface for OS/2 v2.0 written in REXX", 
+        "id": 154, 
+        "tags": [
+            "REXX", 
+            "OS/2"
+        ], 
+        "title": "Visual Archiver"
+    }, 
     "/ruby/rails4/": {
         "summary": "Features and demonstration of Rails 4", 
         "id": 60, 
@@ -849,6 +867,15 @@
             "MySQL"
         ], 
         "title": "MySQL on MacOSX"
+    }, 
+    "/rexx/showlong/": {
+        "summary": "Expose Long/HPFS filenames with REXX on OS/2", 
+        "id": 153, 
+        "tags": [
+            "REXX", 
+            "OS/2"
+        ], 
+        "title": "ShowLong"
     }, 
     "/javascript/highcharts_with_bower/": {
         "summary": "Highcharts with Bower", 

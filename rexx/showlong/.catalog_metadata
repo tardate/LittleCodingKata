@@ -1,0 +1,6 @@
+{
+    "name": "ShowLong",
+    "description": "Expose Long/HPFS filenames with REXX on OS/2",
+    "categories": "REXX, OS/2",
+    "relative_path": "rexx/showlong"
+}

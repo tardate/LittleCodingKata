@@ -1206,5 +1206,29 @@
         "id": "#151", 
         "categories": "Database, Oracle", 
         "description": "Tweeting from your Oracle database with short urls"
+    }, 
+    {
+        "name": "DirSize", 
+        "updated_at": "2020-03-04T11:02:53Z", 
+        "relative_path": "rexx/dirsize", 
+        "id": "#152", 
+        "categories": "REXX, OS/2", 
+        "description": "Directory Size Scanner for OS/2 v2.0 written in REXX"
+    }, 
+    {
+        "name": "ShowLong", 
+        "updated_at": "2020-03-04T11:10:22Z", 
+        "relative_path": "rexx/showlong", 
+        "id": "#153", 
+        "categories": "REXX, OS/2", 
+        "description": "Expose Long/HPFS filenames with REXX on OS/2"
+    }, 
+    {
+        "name": "Visual Archiver", 
+        "updated_at": "2020-03-04T11:17:38Z", 
+        "relative_path": "rexx/visual_archiver", 
+        "id": "#154", 
+        "categories": "REXX, OS/2", 
+        "description": "An Archive Management Interface for OS/2 v2.0 written in REXX"
     }
 ]

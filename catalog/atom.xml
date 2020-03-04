@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-03-03T13:58:32Z</updated>
+  <updated>2020-03-04T11:18:13Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1339,5 +1339,32 @@
     <summary>Tweeting from your Oracle database with short urls</summary>
     <category term="Database"/>
     <category term="Oracle"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rexx/dirsize/</id>
+    <link href="https://codingkata.tardate.com/rexx/dirsize/"/>
+    <updated>2020-03-04T11:02:53Z</updated>
+    <title>DirSize</title>
+    <summary>Directory Size Scanner for OS/2 v2.0 written in REXX</summary>
+    <category term="REXX"/>
+    <category term="OS/2"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rexx/showlong/</id>
+    <link href="https://codingkata.tardate.com/rexx/showlong/"/>
+    <updated>2020-03-04T11:10:22Z</updated>
+    <title>ShowLong</title>
+    <summary>Expose Long/HPFS filenames with REXX on OS/2</summary>
+    <category term="REXX"/>
+    <category term="OS/2"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rexx/visual_archiver/</id>
+    <link href="https://codingkata.tardate.com/rexx/visual_archiver/"/>
+    <updated>2020-03-04T11:17:38Z</updated>
+    <title>Visual Archiver</title>
+    <summary>An Archive Management Interface for OS/2 v2.0 written in REXX</summary>
+    <category term="REXX"/>
+    <category term="OS/2"/>
   </entry>
 </feed>
