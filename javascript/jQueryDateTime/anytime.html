@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>jQuery Date/Time Selectors: Any+Time</title>
+	<link rel="stylesheet" type="text/css" href="css/site.css" />
+
+	<link rel="stylesheet" type="text/css" href="anytime/anytime.css" />
+
+	<script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+	<script type="text/javascript" src="anytime/anytime.js"></script>
+	<script type="text/javascript" src="anytime/anytimetz.js"></script>
+
+  <script type="text/javascript">
+  $(function(){
+      $('#timeselect').AnyTime_picker(
+        { format: "%H:%i" } );
+      $('#datetimeselect').AnyTime_picker(
+        { format: "%Z-%m-%d %H:%i" } );
+
+  });
+  </script>
+</head>
+<body>
+<h1>jQuery Date/Time Selectors: Any+Time</h1>
+<p>
+time: <input id="timeselect" type="text" />
+</p>
+<p>
+date and time: <input id="datetimeselect" type="text" />
+</p>
+
+<h2>Notes</h2>
+<ul>
+<li>Extensively customisable and scriptable</li>
+<li>Supports jQuery UI themes</li>
+<li>Cannot edit the bound field while the widget is active</li>
+<li>Can also work with prototype instead of jQuery</li>
+</ul>
+
+<h2>References</h2>
+<ul>
+<li><a href="http://www.ama3.com/anytime/">Any+Time</a></li>
+</ul>
+
+<p class="footer">
+<a href="./index.htm">.. back to the jQuery Date/Time Selector survey</a></em>
+</p>
+</body>
+</html>

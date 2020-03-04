@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>jQuery Date/Time Selectors: Timepicker</title>
+  <link rel="stylesheet" type="text/css" href="css/site.css" />
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui.1.8.2.css" />
+  <script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-1.8.2.js"></script>
+  <script type="text/javascript" src="timepicker/jquery-ui-timepicker-addon-0.4.js"></script>
+
+  <style type="text/css">
+  /* css for timepicker */
+  #ui-timepicker-div dl{ text-align: left; }
+  #ui-timepicker-div dl dt{ height: 25px; }
+  #ui-timepicker-div dl dd{ margin: -25px 0 10px 65px; }
+  </style>
+
+
+  <script type="text/javascript">
+  $(function(){
+      $('#datetimeselect').datetimepicker({ dateFormat: 'yy-mm-dd' , timeFormat: 'hh:mm', altField: '#altdatetime', altFormat: 'yymmdd', altTimeFormat: 'hh:mm' });
+  });
+  </script>
+</head>
+<body>
+<h1>jQuery Date/Time Selectors: Trent Richardson's Timepicker</h1>
+<p>
+date + time: <input id="datetimeselect" type="text" />
+alt: <input id="altdatetime" type="text" />
+</p>
+
+<h2>Notes</h2>
+<ul>
+<li>Cannot use the time slider with finger. You can select a point on the slider with finger, but there is a minor bug meaning you need to select twice to get the time to register. Same issue if you try with the mouse</li>
+<li>You can edit the bound field while the widget is active</li>
+<li>Generally a very neat extension of the standard datepicker. Doesn't support all features however e.g. alternate fields (note above - the alternate field only gets the date, not the time)</li>
+</ul>
+
+<h2>References</h2>
+<ul>
+<li><a href="http://trentrichardson.com/examples/timepicker/">Timepicker</a></li>
+</ul>
+
+<p class="footer">
+<a href="./">.. back to the jQuery Date/Time Selector survey</a></em>
+</p>
+</body>
+</html>

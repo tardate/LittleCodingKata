@@ -1230,5 +1230,13 @@
         "id": "#154", 
         "categories": "REXX, OS/2", 
         "description": "An Archive Management Interface for OS/2 v2.0 written in REXX"
+    }, 
+    {
+        "name": "jQuery Date-Time Selectors", 
+        "updated_at": "2020-03-04T12:23:52Z", 
+        "relative_path": "javascript/jQueryDateTime", 
+        "id": "#155", 
+        "categories": "javascript", 
+        "description": "A Quick Survey of jQuery Date-Time Selector libraries and approaches"
     }
 ]

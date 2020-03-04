@@ -1,0 +1,21 @@
+/* Note: none of the styling here is of any importance for the date/time selectors. It is just to make the pages a tad neater */
+
+body {
+  font-family: Arial,Sans-serif;
+  margin: 15px;
+}
+
+table.survey {
+  font-size:small;
+  background-color:#D2E6D2;
+  border:1px solid #B2B2B2;
+}
+
+table.survey th {
+  background-color:#B2B2B2;
+}
+
+.footnote {
+  font-size:small;
+  font-style:italic;
+}

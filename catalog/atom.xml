@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-03-04T11:18:13Z</updated>
+  <updated>2020-03-04T12:24:16Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1366,5 +1366,13 @@
     <summary>An Archive Management Interface for OS/2 v2.0 written in REXX</summary>
     <category term="REXX"/>
     <category term="OS/2"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/javascript/jQueryDateTime/</id>
+    <link href="https://codingkata.tardate.com/javascript/jQueryDateTime/"/>
+    <updated>2020-03-04T12:23:52Z</updated>
+    <title>jQuery Date-Time Selectors</title>
+    <summary>A Quick Survey of jQuery Date-Time Selector libraries and approaches</summary>
+    <category term="javascript"/>
   </entry>
 </feed>

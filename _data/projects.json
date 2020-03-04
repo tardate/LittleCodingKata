@@ -832,6 +832,14 @@
         ], 
         "title": "About Prometheus"
     }, 
+    "/javascript/jQueryDateTime/": {
+        "summary": "A Quick Survey of jQuery Date-Time Selector libraries and approaches", 
+        "id": 155, 
+        "tags": [
+            "javascript"
+        ], 
+        "title": "jQuery Date-Time Selectors"
+    }, 
     "/ruby/sinatra_echo/": {
         "summary": "A Sinatra app that provides a number of remote request debugging tools, and can be run with Docker", 
         "id": 83, 

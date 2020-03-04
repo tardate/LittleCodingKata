@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>jQuery Date/Time Selectors: Timepicker</title>
+  <link rel="stylesheet" type="text/css" href="css/site.css" />
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui.1.8.2.css" />
+  <script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-1.8.2.js"></script>
+  <script type="text/javascript" src="MartinMilesich-timepicker/timepicker.js"></script>
+  <script type="text/javascript">
+  $(function(){
+      $('#datetimeselect').datepicker( { showTime: true, altField: '#altdate', altTimeField: '#alttime' } );
+  });
+  </script>
+</head>
+<body>
+<h1>jQuery Date/Time Selectors: Martin Milesich's Timepicker</h1>
+<p>
+date + time: <input id="datetimeselect" type="text" /><br/>
+alt date: <input id="altdate" type="text" /><br/>
+alt time: <input id="alttime" type="text" />
+</p>
+
+<h2>Notes</h2>
+<ul>
+<li>Cannot use the time slider with finger, but you can select a point on the slider with finger OK</li>
+<li>Date and time is not registered in the bound field until "done"</li>
+<li>Generally neat extension of the standard datepicker. Supports alternate fields to split out date/time component for easier processing (example above)</li>
+</ul>
+
+<h2>References</h2>
+<ul>
+<li><a href="http://addyosmani.com/blog/the-missing-date-time-selector-for-jquery-ui/">Martin Milesich's Timepicker</a></li>
+</ul>
+
+<p class="footer">
+<a href="./">.. back to the jQuery Date/Time Selector survey</a></em>
+</p>
+</body>
+</html>

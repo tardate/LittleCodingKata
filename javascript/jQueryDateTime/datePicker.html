@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset=utf-8 />
+  <title>jQuery Date/Time Selectors: Datepicker</title>
+  <link rel="stylesheet" type="text/css" href="css/site.css" />
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui.1.8.2.css" />
+  <script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-1.8.2.js"></script>
+
+<!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style>
+
+</style>
+
+<script>
+$(document).ready(function() {
+// all of your code goes here
+   $("#inFromDate").datepicker({ dateFormat: 'yy-mm-dd' , altField: '#altFromDate', altFormat: 'yymmdd' });
+});
+</script>
+</head>
+<body>
+<h1>jQuery Date/Time Selectors: Datepicker</h1>
+<p>
+Date field: <input type="text" id="inFromDate"/><input type="hidden" id="altFromDate"/>
+</p>
+
+<h2>References</h2>
+<ul>
+<li><a href="http://docs.jquery.com/UI/API/1.8/Datepicker">jquery.Datepicker</a></li>
+<li><a href="http://www.devcurry.com/2010/05/latest-jquery-and-jquery-ui-theme-links.html">Latest jQuery and jQuery UI Theme links on Google CDN</a></li>
+</ul>
+
+<p class="footer">
+<a href="./">.. back to the jQuery Date/Time Selector survey</a></em>
+</p>
+
+</body>
+</html>
+
