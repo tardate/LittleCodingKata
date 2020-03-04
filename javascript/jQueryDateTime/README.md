@@ -22,11 +22,11 @@ Conclusions? There are some reasonably effective tools here for quickly dropping
 
 ### Evaluation
 
-| Option | jQuery | jQuery UI |  Dates | Times | Finger Friendly | Comments | Rank |
+| Example | jQuery | jQuery UI |  Dates | Times | Finger Friendly | Comments | Rank |
 |--------|--------|-----------|--------|-------|-----------------|----------|------|
-| [jQuery Datepicker](./datePicker.html) | 1.4.2 | 1.8.2, 1.7.3 |  Yes | No  | Yes | The standard widget  | B |
+| [jQuery Datepicker](./jquery-datepicker.html) | 1.4.2 | 1.8.2, 1.7.3 |  Yes | No  | Yes | The standard widget  | B |
 | [Any+Time](./anytime.html) | 1.4.2 | n/a          |  Yes | Yes | Yes | Extensively customisable and scriptable. Supports jQuery UI themes. Also works with prototype instead of jQuery. Cannot edit the bound field while the widget is active. | A |
-| [MartinMilesich's Timepicker](./MartinMilesich-timepicker.html) | 1.4.2 | 1.8.2, 1.7.2 |  Yes | Yes | Cannot use the time slider with finger, but you can select a point on the slider with finger OK. | Generally neat extension of the standard datepicker. Supports alternate fields to split out date/time component for easier processing.  | A- |
+| [MartinMilesich's Timepicker](./martin_milesich-timepicker.html) | 1.4.2 | 1.8.2, 1.7.2 |  Yes | Yes | Cannot use the time slider with finger, but you can select a point on the slider with finger OK. | Generally neat extension of the standard datepicker. Supports alternate fields to split out date/time component for easier processing.  | A- |
 | [Trent Richardson's Timepicker](./timepicker.html) | 1.4.2 | 1.8.2        |  Yes | Yes | Cannot use the time slider with finger. You can select a point on the slider with finger, but there is a minor bug meaning you need to select twice. You can also edit the bound field while the widget is active. | Generally a very neat extension of the standard datepicker. Doesn't support all features however e.g. alternate fields  | B+ |
 | [W3VISIONS Date-Time-Picker](http://blog.w3visions.com/2009/04/date-time-picker-with-jquery-ui-datepicker/) | 1.4.2 | n/a          |  Yes | Yes | Yes. Slider button doesn't work with the finger, but can select positions on the slider OK | The UI is a bit klunky and no themes support so I didn't bother with a demo page for this  | B- |
 | [timepickr](./timepickr.html) | 1.4.2 | 1.7.3        |  No  | Yes | No fingers, no play (unless the device has a trackball you can fallback on)  | A different take on time entry. Maybe too different.  | C |
