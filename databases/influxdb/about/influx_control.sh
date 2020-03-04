@@ -2,7 +2,7 @@
 # starts InfluxDb in a Docker container
 
 container_name=myinfluxdb
-image_name=quay.io/influxdb/influxdb:2.0.0-alpha
+image_name=quay.io/influxdb/influxdb:2.0.0-beta
 
 package_root="$(cd "$(dirname "$0")"; pwd)/${container_name}"
 mkdir -p "${package_root}"

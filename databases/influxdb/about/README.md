@@ -4,7 +4,8 @@ Learning the basics of InfluxDB and running a demo with Docker.
 
 ## Notes
 
-These notes were made using InfluxDb v2 alpha.
+These notes were originally made using InfluxDb v2 alpha. Currently updated for InfluxDb v2 beta.
+
 There are [major changes](https://v2.docs.influxdata.com/v2.0/reference/release-notes/influxdb/) in commands/usage from 1.x,
 and of course the details below may change.
 
@@ -52,7 +53,6 @@ For a first test, I used:
 * org: lck
 * bucket: demo1
 
-
 ## Writing Data
 
 InfluxDB supports the following methods:
@@ -92,3 +92,4 @@ The Data Explorer can be used to example the loaded data:
 
 * [InfluxDB home](https://www.influxdata.com/) - influxdata
 * [Get started with InfluxDB 2.0](https://v2.docs.influxdata.com/v2.0/get-started/)
+* [influxdb repo builds](https://quay.io/repository/influxdb/influxdb?tab=info)
