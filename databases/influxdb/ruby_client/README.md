@@ -1,4 +1,4 @@
-# Using InfluxDb with Ruby
+# Using InfluxDb 1.x with Ruby
 
 Testing out the official ruby client calling a InfluxDb 1.7.9 server running in Docker.
 
@@ -44,8 +44,7 @@ List databases..
 {"name"=>"demo1"}
 ```
 
-
-### Steam Some Data
+### Stream Some Data
 
 For some random data, I'm using the `w` command, that includes some processor stats in line 1:
 
@@ -55,7 +54,7 @@ $ w | head -1
 ```
 
 The `stream_stats.rb` example posts load averages every 5 seconds to a series called `cpu`
-with an `bucket` tag indicating past 1, 5, and 15 minute averages, so each data point will be like this:
+with a `bucket` tag indicating past 1, 5, and 15 minute averages, so each data point will be like this:
 
 ```
 {
@@ -81,6 +80,8 @@ Posting [2.04, 2.54, 2.6] at 1578417737..
 Posting [2.2, 2.57, 2.61] at 1578417742..
 ```
 
+### Query Data
+
 Doing a simple query for the last 6 points (`select * from cpu WHERE bucket = 'past1' ORDER BY time DESC LIMIT 6`)..
 
 ```
@@ -101,4 +102,3 @@ Querying the most recent cpu,bucket=past1 stats from database:demo1..
 * [influxdb Docker Official Images](https://hub.docker.com/_/influxdb)
 * [influxdb 1.7 docs](https://docs.influxdata.com/influxdb/v1.7)
 * [man w](https://linux.die.net/man/1/w)
-

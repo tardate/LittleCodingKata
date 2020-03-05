@@ -10,7 +10,7 @@
     }, 
     "/elixir/basics/": {
         "summary": "Exploring basic language features of Elixir", 
-        "id": 124, 
+        "id": 123, 
         "tags": [
             "elixir"
         ], 
@@ -18,7 +18,7 @@
     }, 
     "/c/error_function/": {
         "summary": "Methods for calculating the Gauss error function in C with standard libraries and the GNU Scientific Library", 
-        "id": 119, 
+        "id": 118, 
         "tags": [
             "c"
         ], 
@@ -51,7 +51,7 @@
     }, 
     "/pascal/about/": {
         "summary": "Pascal In a Nutshell", 
-        "id": 145, 
+        "id": 144, 
         "tags": [
             "pascal"
         ], 
@@ -75,7 +75,7 @@
     }, 
     "/rexx/dirsize/": {
         "summary": "Directory Size Scanner for OS/2 v2.0 written in REXX", 
-        "id": 152, 
+        "id": 151, 
         "tags": [
             "REXX", 
             "OS/2"
@@ -98,6 +98,17 @@
             "perl"
         ], 
         "title": "Perl/patch_file"
+    }, 
+    "/databases/influxdb/ruby_client2/": {
+        "summary": "Testing out the official ruby client calling a InfluxDb 2.0.0-beta server running in Docker", 
+        "id": 156, 
+        "tags": [
+            "databases", 
+            "influxdb", 
+            "docker", 
+            "ruby"
+        ], 
+        "title": "Using InfluxDb 2.x with Ruby"
     }, 
     "/ruby/tempfiles/": {
         "summary": "Using Temporary Files with Ruby", 
@@ -127,7 +138,7 @@
     }, 
     "/docker/CentOS8_install/": {
         "summary": "Installing and running Docker on CentOS 8", 
-        "id": 149, 
+        "id": 148, 
         "tags": [
             "docker"
         ], 
@@ -143,7 +154,7 @@
     }, 
     "/formats/rss_atom/": {
         "summary": "About RSS and Atom feeds for publishing and podcasting", 
-        "id": 113, 
+        "id": 112, 
         "tags": [
             "formats", 
             "rss", 
@@ -269,7 +280,7 @@
     }, 
     "/web/variable_fonts/": {
         "summary": "Understanding the new standards for variable CSS fonts", 
-        "id": 147, 
+        "id": 146, 
         "tags": [
             "CSS", 
             "font"
@@ -278,7 +289,7 @@
     }, 
     "/infrastructure/linux_server_hacks/": {
         "summary": "Book notes - Linux Server Hacks by Rob Flickenger and Linux Server Hacks, Volume Two (Tips & Tools for Connecting, Monitoring, and Troubleshooting) by William von Hagen and Brian K. Jones, published by O'Reilly", 
-        "id": 143, 
+        "id": 142, 
         "tags": [
             "infrastructure", 
             "linux", 
@@ -358,7 +369,7 @@
     }, 
     "/docker/docker_cookbook-packt/": {
         "summary": "Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt", 
-        "id": 122, 
+        "id": 121, 
         "tags": [
             "docker", 
             "book"
@@ -367,7 +378,7 @@
     }, 
     "/rust/testing/": {
         "summary": "How to write and organise tests for rust", 
-        "id": 128, 
+        "id": 127, 
         "tags": [
             "rust"
         ], 
@@ -375,7 +386,7 @@
     }, 
     "/infrastructure/zabbix/ruby-clients/": {
         "summary": "A quick survey and test of various ruby options for using the Zabbix API", 
-        "id": 133, 
+        "id": 132, 
         "tags": [
             "infrastructure", 
             "zabbix", 
@@ -419,7 +430,7 @@
     }, 
     "/security/metasploit/dockerized/": {
         "summary": "Investigating how to run Metasploit in a Docker container", 
-        "id": 115, 
+        "id": 114, 
         "tags": [
             "security", 
             "docker"
@@ -428,7 +439,7 @@
     }, 
     "/c/pointers/": {
         "summary": "All about pointers in C", 
-        "id": 108, 
+        "id": 107, 
         "tags": [
             "C"
         ], 
@@ -479,14 +490,14 @@
     }, 
     "/databases/influxdb/ruby_client/": {
         "summary": "Testing out the official ruby client calling a InfluxDb 1.7.9 server running in Docker.", 
-        "id": 104, 
+        "id": 155, 
         "tags": [
             "databases", 
             "influxdb", 
             "docker", 
             "ruby"
         ], 
-        "title": "Using InfluxDb with Ruby"
+        "title": "Using InfluxDb 1.x with Ruby"
     }, 
     "/c/implementing_a_dictionary/": {
         "summary": "An example of using struct-based C to implement a somewhat object-oriented dictionary", 
@@ -498,7 +509,7 @@
     }, 
     "/bash/finding_files/": {
         "summary": "Examples of various ways to find files", 
-        "id": 142, 
+        "id": 141, 
         "tags": [
             "bash"
         ], 
@@ -569,7 +580,7 @@
     }, 
     "/c/21st_century_c/": {
         "summary": "Notes on the book '21st Century C' by Ben Klemens, published by O'Reilly", 
-        "id": 141, 
+        "id": 140, 
         "tags": [
             "C", 
             "book"
@@ -586,7 +597,7 @@
     }, 
     "/c/linking/": {
         "summary": "All about compiling, linking, and debugging C with GCC", 
-        "id": 109, 
+        "id": 108, 
         "tags": [
             "C"
         ], 
@@ -594,7 +605,7 @@
     }, 
     "/rust/project_with_cargo/": {
         "summary": "Using Cargo to create and manage a rust project", 
-        "id": 116, 
+        "id": 115, 
         "tags": [
             "rust", 
             "cargo"
@@ -603,7 +614,7 @@
     }, 
     "/elixir/install_macosx/": {
         "summary": "Installing Elixir on MacOSX", 
-        "id": 126, 
+        "id": 125, 
         "tags": [
             "elixir", 
             "docker"
@@ -630,7 +641,7 @@
     }, 
     "/rust/rust_programming_language/": {
         "summary": "Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research", 
-        "id": 129, 
+        "id": 128, 
         "tags": [
             "rust", 
             "book"
@@ -639,7 +650,7 @@
     }, 
     "/elm/about/": {
         "summary": "Elm (the language) in a nutshell", 
-        "id": 130, 
+        "id": 129, 
         "tags": [
             "elm"
         ], 
@@ -665,7 +676,7 @@
     }, 
     "/security/metasploit_penetration_testing_cookbook/": {
         "summary": "Book notes - Metasploit Penetration Testing Cookbook, Second Edition by Monika Agarwal, Abhinav Singh", 
-        "id": 114, 
+        "id": 113, 
         "tags": [
             "security", 
             "book"
@@ -690,7 +701,7 @@
     }, 
     "/rexx/visual_archiver/": {
         "summary": "An Archive Management Interface for OS/2 v2.0 written in REXX", 
-        "id": 154, 
+        "id": 153, 
         "tags": [
             "REXX", 
             "OS/2"
@@ -718,7 +729,7 @@
     }, 
     "/tools/requestbin/": {
         "summary": "Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins", 
-        "id": 121, 
+        "id": 120, 
         "tags": [
             "tools", 
             "api"
@@ -727,7 +738,7 @@
     }, 
     "/ruby/loops/": {
         "summary": "All the various ways of looping in Ruby", 
-        "id": 150, 
+        "id": 149, 
         "tags": [
             "ruby"
         ], 
@@ -735,7 +746,7 @@
     }, 
     "/elixir/programming_elixir/": {
         "summary": "Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf", 
-        "id": 127, 
+        "id": 126, 
         "tags": [
             "elixir", 
             "book"
@@ -744,7 +755,7 @@
     }, 
     "/pascal/free_pascal/": {
         "summary": "Installing and running the Free Pascal compiler on MacOSX", 
-        "id": 144, 
+        "id": 143, 
         "tags": [
             "pascal"
         ], 
@@ -752,7 +763,7 @@
     }, 
     "/infrastructure/zabbix/mastering_zabbix/": {
         "summary": "Book notes - Mastering Zabbix by Andrea Dalle Vacche, Stefano Kewan Lee, published by PacktPub", 
-        "id": 132, 
+        "id": 131, 
         "tags": [
             "infrastructure", 
             "zabbix", 
@@ -786,7 +797,7 @@
     }, 
     "/c/practical_c_programming/": {
         "summary": "Book notes - Practical C Programming, 3rd Edition by Steve Oualline, published by O'Reilly", 
-        "id": 140, 
+        "id": 139, 
         "tags": [
             "C", 
             "book"
@@ -834,7 +845,7 @@
     }, 
     "/javascript/jQueryDateTime/": {
         "summary": "A Quick Survey of jQuery Date-Time Selector libraries and approaches", 
-        "id": 155, 
+        "id": 154, 
         "tags": [
             "javascript"
         ], 
@@ -860,7 +871,7 @@
     }, 
     "/cpp/hands_on_system_programming_with_cpp/": {
         "summary": "Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn", 
-        "id": 117, 
+        "id": 116, 
         "tags": [
             "cpp", 
             "book"
@@ -869,7 +880,7 @@
     }, 
     "/databases/mysql/install_macosx/": {
         "summary": "Notes on installing and running MySQL on MacOSX", 
-        "id": 112, 
+        "id": 111, 
         "tags": [
             "Database", 
             "MySQL"
@@ -878,7 +889,7 @@
     }, 
     "/rexx/showlong/": {
         "summary": "Expose Long/HPFS filenames with REXX on OS/2", 
-        "id": 153, 
+        "id": 152, 
         "tags": [
             "REXX", 
             "OS/2"
@@ -895,7 +906,7 @@
     }, 
     "/infrastructure/zabbix/dockerized/": {
         "summary": "Running Zabbix with Docker", 
-        "id": 135, 
+        "id": 134, 
         "tags": [
             "infrastructure", 
             "zabbix", 
@@ -932,7 +943,7 @@
     }, 
     "/databases/postgresql/copy_table/": {
         "summary": "notes on copying table strictures and data with SQL", 
-        "id": 111, 
+        "id": 110, 
         "tags": [
             "Database", 
             "SQL"
@@ -949,7 +960,7 @@
     }, 
     "/c/loop_optimization/": {
         "summary": "Looking at how C compilers optimize loops", 
-        "id": 146, 
+        "id": 145, 
         "tags": [
             "c"
         ], 
@@ -994,7 +1005,7 @@
     }, 
     "/databases/influxdb/about/": {
         "summary": "Learning the basics of InfluxDB and running a demo with Docker", 
-        "id": 105, 
+        "id": 104, 
         "tags": [
             "databases", 
             "influxdb", 
@@ -1013,7 +1024,7 @@
     }, 
     "/docker/docker_cookbook-oreilly/": {
         "summary": "Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly", 
-        "id": 123, 
+        "id": 122, 
         "tags": [
             "docker", 
             "book"
@@ -1030,7 +1041,7 @@
     }, 
     "/javascript/rickshaw/": {
         "summary": "Testing out the D3-based Rickshaw time series graph library", 
-        "id": 131, 
+        "id": 130, 
         "tags": [
             "javascript", 
             "graphics"
@@ -1039,7 +1050,7 @@
     }, 
     "/messaging/zeromq/install_macosx/": {
         "summary": "Installing zeromq on MacOSX", 
-        "id": 138, 
+        "id": 137, 
         "tags": [
             "messaging", 
             "zeromq"
@@ -1048,7 +1059,7 @@
     }, 
     "/messaging/zeromq/c/request_reply/": {
         "summary": "Basic ZeroMQ 'hello world' example of the request-reply messaging pattern in C", 
-        "id": 139, 
+        "id": 138, 
         "tags": [
             "messaging", 
             "zeromq", 
@@ -1074,7 +1085,7 @@
     }, 
     "/elixir/about/": {
         "summary": "Elixir in a nutshell", 
-        "id": 125, 
+        "id": 124, 
         "tags": [
             "elixir"
         ], 
@@ -1107,7 +1118,7 @@
     }, 
     "/infrastructure/cacti/": {
         "summary": "About the cacti network monitoring tool, including how to run it in Docker", 
-        "id": 118, 
+        "id": 117, 
         "tags": [
             "infrastructure", 
             "monitoring"
@@ -1116,7 +1127,7 @@
     }, 
     "/databases/oracle/ORA_Tweet_With_Shorturls/": {
         "summary": "Tweeting from your Oracle database with short urls", 
-        "id": 151, 
+        "id": 150, 
         "tags": [
             "Database", 
             "Oracle"
@@ -1125,7 +1136,7 @@
     }, 
     "/ruby/rails_antipatterns/": {
         "summary": "Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional", 
-        "id": 120, 
+        "id": 119, 
         "tags": [
             "ruby", 
             "rails", 
@@ -1135,7 +1146,7 @@
     }, 
     "/tools/tcp_wrappers/": {
         "summary": "The basics of TCP wrappers", 
-        "id": 148, 
+        "id": 147, 
         "tags": [
             "linux"
         ], 
@@ -1151,7 +1162,7 @@
     }, 
     "/messaging/zeromq/about/": {
         "summary": "Zeromq in a nutshell with a quick test of using the library from C", 
-        "id": 137, 
+        "id": 136, 
         "tags": [
             "messaging", 
             "zeromq", 
@@ -1161,7 +1172,7 @@
     }, 
     "/javascript/scripting_youtube/": {
         "summary": "An experiment in scripting the YouTube player with external controls and the IFrame API", 
-        "id": 106, 
+        "id": 105, 
         "tags": [
             "javascript"
         ], 
@@ -1241,7 +1252,7 @@
     }, 
     "/ruby/new_features_27/": {
         "summary": "Investigating new features in Ruby 2.7.0, released 2019-12-25", 
-        "id": 107, 
+        "id": 106, 
         "tags": [
             "ruby"
         ], 
@@ -1249,7 +1260,7 @@
     }, 
     "/messaging/zeromq/zeromq-book/": {
         "summary": "Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly", 
-        "id": 136, 
+        "id": 135, 
         "tags": [
             "messaging", 
             "zeromq", 
@@ -1267,7 +1278,7 @@
     }, 
     "/design/programming_interactivity/": {
         "summary": "Book notes - Programming Interactivity 2nd Edition, by Joshua Noble published by O'Reilly", 
-        "id": 110, 
+        "id": 109, 
         "tags": [
             "design", 
             "arduino"
@@ -1285,7 +1296,7 @@
     }, 
     "/infrastructure/zabbix/about/": {
         "summary": "Zabbix in a Nutshell", 
-        "id": 134, 
+        "id": 133, 
         "tags": [
             "infrastructure", 
             "zabbix", 

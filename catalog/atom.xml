@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-03-04T12:24:16Z</updated>
+  <updated>2020-03-05T20:09:18Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -909,17 +909,6 @@
     <category term="rss"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/databases/influxdb/ruby_client/</id>
-    <link href="https://codingkata.tardate.com/databases/influxdb/ruby_client/"/>
-    <updated>2020-01-22T13:38:12Z</updated>
-    <title>Using InfluxDb with Ruby</title>
-    <summary>Testing out the official ruby client calling a InfluxDb 1.7.9 server running in Docker.</summary>
-    <category term="databases"/>
-    <category term="influxdb"/>
-    <category term="docker"/>
-    <category term="ruby"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/databases/influxdb/about/</id>
     <link href="https://codingkata.tardate.com/databases/influxdb/about/"/>
     <updated>2020-01-22T13:38:12Z</updated>
@@ -1374,5 +1363,27 @@
     <title>jQuery Date-Time Selectors</title>
     <summary>A Quick Survey of jQuery Date-Time Selector libraries and approaches</summary>
     <category term="javascript"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/databases/influxdb/ruby_client/</id>
+    <link href="https://codingkata.tardate.com/databases/influxdb/ruby_client/"/>
+    <updated>2020-03-04T13:26:25Z</updated>
+    <title>Using InfluxDb 1.x with Ruby</title>
+    <summary>Testing out the official ruby client calling a InfluxDb 1.7.9 server running in Docker.</summary>
+    <category term="databases"/>
+    <category term="influxdb"/>
+    <category term="docker"/>
+    <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/databases/influxdb/ruby_client2/</id>
+    <link href="https://codingkata.tardate.com/databases/influxdb/ruby_client2/"/>
+    <updated>2020-03-05T20:05:47Z</updated>
+    <title>Using InfluxDb 2.x with Ruby</title>
+    <summary>Testing out the official ruby client calling a InfluxDb 2.0.0-beta server running in Docker</summary>
+    <category term="databases"/>
+    <category term="influxdb"/>
+    <category term="docker"/>
+    <category term="ruby"/>
   </entry>
 </feed>

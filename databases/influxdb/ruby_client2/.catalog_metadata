@@ -1,0 +1,6 @@
+{
+    "name": "Using InfluxDb 2.x with Ruby",
+    "description": "Testing out the official ruby client calling a InfluxDb 2.0.0-beta server running in Docker",
+    "categories": "databases, influxdb, docker, ruby",
+    "relative_path": "databases/influxdb/ruby_client2"
+}
