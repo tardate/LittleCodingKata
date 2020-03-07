@@ -25,7 +25,7 @@ I've picked a few of the more popular/interesting ones for a test..
 | [zbxapi](https://rubygems.org/gems/zbxapi)                   | 2017                 | quite limited low-level shim to the underlying api  |
 | [zabbix-client](https://rubygems.org/gems/zabbix-client)     | 2016                 | thin wrapper on the API, but works well, incl token authenticated |
 | [rubix](https://rubygems.org/gems/rubix)                     | 2012                 | basics work, but relatively unfinished and buggy |
-| [zabby](https://rubygems.org/gems/zabby)                     | 2012                 | little buggy, not tests  |
+| [zabby](https://rubygems.org/gems/zabby)                     | 2012                 | little buggy, no tests  |
 
 
 ## Test Setup

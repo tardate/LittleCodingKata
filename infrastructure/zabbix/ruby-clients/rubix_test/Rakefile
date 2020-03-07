@@ -1,6 +1,6 @@
 desc "Open an irb session preloaded with this library"
 task :console do
-  sh "irb -rubygems -I . -r rubix"
+  sh "irb -r rubygems -I . -r rubix"
 end
 
 desc "Run test/demo script"
