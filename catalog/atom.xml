@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-03-07T03:19:20Z</updated>
+  <updated>2020-03-08T15:54:07Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1393,5 +1393,15 @@
     <title>Cross-browser X Library</title>
     <summary>Playing with the old inner solar system demo for the cross-browser javascript X library</summary>
     <category term="javascript"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/infrastructure/zabbix/ruby-programmatic-config/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/zabbix/ruby-programmatic-config/"/>
+    <updated>2020-03-07T10:14:34Z</updated>
+    <title>Ruby Programmatic Configuration</title>
+    <summary>Configuring zabbix via the API, with examples using zabbix-client ruby gem</summary>
+    <category term="infrastructure"/>
+    <category term="zabbix"/>
+    <category term="ruby"/>
   </entry>
 </feed>

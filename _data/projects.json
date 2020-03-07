@@ -1168,6 +1168,16 @@
         ], 
         "title": "C++/DoubleTrouble"
     }, 
+    "/infrastructure/zabbix/ruby-programmatic-config/": {
+        "summary": "Configuring zabbix via the API, with examples using zabbix-client ruby gem", 
+        "id": 158, 
+        "tags": [
+            "infrastructure", 
+            "zabbix", 
+            "ruby"
+        ], 
+        "title": "Ruby Programmatic Configuration"
+    }, 
     "/messaging/zeromq/about/": {
         "summary": "Zeromq in a nutshell with a quick test of using the library from C", 
         "id": 136, 
