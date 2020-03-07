@@ -1,0 +1,520 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Inner Solar System</title>
+<!--
+  This page was developed using the CBE API.
+  Download it at cross-browser.com
+  Mike Foster, June 2001
+-->
+
+<style type="text/css">
+body {
+  margin:0; padding:0; background:#000000;
+}
+
+#idSolarSystem {
+  position:absolute; visibility:hidden; overflow:hidden;
+  width:1024; height:768; clip:rect(0 1024 768 0); z-index:2;
+  color:#ffffff; background:transparent; layer-background-color:transparent;
+}
+.clsSun {
+  position:absolute; visibility:hidden; overflow:hidden;
+  width:124; height:62; clip:rect(0 124 62 0); z-index:50;
+  color:#ffffff; background:transparent; layer-background-color:transparent;
+}
+.clsPlanetarySystem {
+  position:absolute; visibility:hidden; overflow:hidden;
+  width:120; height:50; clip:rect(0 120 50 0);
+  color:#ffffff; background:transparent; layer-background-color:transparent;
+}
+.clsPlanet {
+  position:absolute; visibility:hidden; overflow:hidden;
+  width:50; height:50; clip:rect(0 50 50 0);
+  color:#ffffff; background:transparent; layer-background-color:transparent;
+}
+.clsMoon {
+  position:absolute; visibility:hidden; overflow:hidden;
+  width:15; height:15; clip:rect(0 15 15 0);
+  color:#ffffff; background:transparent; layer-background-color:transparent;
+}
+
+.clsBox {
+  position:absolute; visibility:hidden; overflow:visible;
+  margin:0; padding:3; z-index:3; border:1px solid #3333ff;
+  width:300; height:320; clip:rect(0 300 320 0);
+}
+
+.clsGeneral {
+  position:absolute; visibility:hidden; overflow:hidden; z-index:4;
+  color: #ffffff; background:transparent; layer-background-color:transparent;
+}
+.clsLarge {
+  font-family:verdana,arial,sans-serif; font-size: 20px;
+  color: #ffffff;
+}
+.clsSmall {
+  font-family:verdana,arial,sans-serif; font-size: 14px; margin:2%;
+  color: #ffffff; background:transparent; layer-background-color:transparent;
+}
+a:link, a:visited, a:active {
+  font-family:verdana,arial,sans-serif; font-size:12px;
+  text-decoration:none;
+  color:#3333ff;
+}
+a:hover {
+  font-family:verdana,arial,sans-serif; font-size:12px;
+  text-decoration:none;
+  color:#ffffff;
+}
+pre {
+  font-family: "courier new", monotxt, courier; font-size:12px; margin:2%;
+  color:#ffffff; background:transparent; layer-background-color:transparent;
+}
+</style>
+
+<script type='text/javascript' src='cbe_core.js'></script>
+<script type='text/javascript' src='cbe_slide.js'></script>
+<script type='text/javascript' src='cbe_event.js'></script>
+<script type='text/javascript' src='cbe_util.js'></script>
+<script type='text/javascript' src='cbe_debug.js'></script>
+<script type="text/javascript">
+
+var solarSystem, sun, mercury, venus, earthSystem, earth, marsSystem, mars, moon;
+var sunData, mercuryData, venusData, earthData, marsData, notes;
+var earthPeriod = 365.26 * 100;
+
+function windowOnload()
+{
+  var centerX, centerY, radiusX, radiusY, period;
+
+  // Solar System
+
+  with (solarSystem = document.getElementById('idSolarSystem').cbe) {
+    zIndex(2);
+    sizeTo(cbeInnerWidth(), cbeInnerHeight());
+    clip('auto');
+    moveTo('center');
+    show();
+  }
+  with (sun = document.getElementById('idSunUpper').cbe) {
+    zIndex(100);
+    moveTo('center');
+    moveBy(0,-50);
+    show();
+  }
+  with (document.getElementById('idSunLower').cbe) {
+    zIndex(50);
+    moveTo(sun.left(),sun.top()+sun.height());
+    show();
+  }
+
+  // Mercury
+
+  mercury = document.getElementById('idMercury').cbe;
+  mercury.resizeTo(20,20);
+  mercury.zIndex(60);
+  centerX = solarSystem.width()/2 - mercury.width()/2;
+  centerY = solarSystem.height()/2 - mercury.height()/2;
+  radiusX = centerX * .25;
+  radiusY = .79 * centerY * .25;
+  period = .24 * earthPeriod;
+  mercury.cycleArray = new Array(2, 'ellipse', radiusX+","+radiusY+", 0,"+period+", 0, -360");
+  with (mercury) {
+    moveTo('center');
+    moveBy(radiusX, 0);
+    show();
+    addEventListener('slideEnd', sequencer);
+    ellipse(radiusX, radiusY, 0, period, 0, -360)
+  }
+
+  // Venus
+
+  venus = document.getElementById('idVenus').cbe;
+  venus.resizeTo(47,47);
+  venus.zIndex(70);
+  centerX = solarSystem.width()/2 - venus.width()/2;
+  centerY = solarSystem.height()/2 - venus.height()/2;
+  radiusX = centerX * .47;
+  radiusY = .99 * centerY *.47;
+  period = .62 * earthPeriod;
+  venus.cycleArray = new Array(2, 'ellipse', radiusX+","+radiusY+", 0,"+period+", 0, -360");
+  with (venus) {
+    moveTo('center');
+    moveBy(radiusX, 0);
+    show();
+    addEventListener('slideEnd', sequencer);
+    ellipse(radiusX, radiusY, 0, period, 0, -360)
+  }
+
+  // Earth System
+
+  earthSystem = document.getElementById('idEarthSystem').cbe;
+  earthSystem.zIndex(80);
+  centerX = solarSystem.width()/2 - earthSystem.width()/2;
+  centerY = solarSystem.height()/2 - earthSystem.height()/2;
+  radiusX = centerX * .66;
+  radiusY = .98 * centerY * .66;
+  period = 1 * earthPeriod;
+  earthSystem.cycleArray = new Array(2, 'ellipse', radiusX+","+radiusY+", 0,"+period+", 0, -360");
+  with (earthSystem) {
+    moveTo('center');
+    moveBy(radiusX, 0);
+    show();
+    addEventListener('slideEnd', sequencer);
+    ellipse(radiusX, radiusY, 0, period, 0, -360)
+  }
+
+  with (earth = document.getElementById('idEarthUpper').cbe) {
+    resizeTo(50,25);
+    moveTo('center');
+    moveBy(0,-height()/2);
+    zIndex(3);
+    show();
+  }
+  with (earth = document.getElementById('idEarthLower').cbe) {
+    resizeTo(50,25);
+    moveTo('center');
+    moveBy(0,height()/2);
+    zIndex(1);
+    show();
+  }
+  moon = document.getElementById('idEarthMoon').cbe;
+  moon.resizeTo(18,18);
+  moon.zIndex(2);
+  centerX = earthSystem.width()/2 - moon.width()/2;
+  centerY = earthSystem.height()/2 - moon.height()/2;
+  radiusX = centerX;
+  radiusY = centerY;
+  period = earthPeriod / 12;
+  moon.cycleArray = new Array(2, 'ellipse', radiusX+","+radiusY+", 0,"+period+", 0, -360");
+  with (moon) {
+    moveTo('center');
+    moveBy(radiusX, 0);
+    show();
+    addEventListener('slideEnd', sequencer);
+    ellipse(radiusX, radiusY, 0, period, 0, -360)
+  }
+
+  // Mars System
+
+  marsSystem = document.getElementById('idMarsSystem').cbe;
+  marsSystem.resizeTo(100,40);
+  marsSystem.zIndex(90);
+  centerX = solarSystem.width()/2 - marsSystem.width()/2;
+  centerY = solarSystem.height()/2 - marsSystem.height()/2;
+  radiusX = centerX;
+  radiusY = .91 * centerY;
+  period = 1.88 * earthPeriod;
+  marsSystem.cycleArray = Array(2, 'ellipse', radiusX+","+radiusY+", 0,"+period+", 0, -360");
+  with (marsSystem) {
+    moveTo('center');
+    moveBy(radiusX, 0);
+    show();
+    addEventListener('slideEnd', sequencer);
+    ellipse(radiusX, radiusY, 0, period, 0, -360)
+  }
+
+  with (mars = document.getElementById('idMarsUpper').cbe) {
+    resizeTo(30,15);
+    moveTo('center');
+    moveBy(0,-height()/2);
+    zIndex(4);
+    show();
+  }
+  with (mars = document.getElementById('idMarsLower').cbe) {
+    resizeTo(30,15);
+    moveTo('center');
+    moveBy(0,height()/2);
+    zIndex(1);
+    show();
+  }
+  moon = document.getElementById('idMarsMoon1').cbe;
+  moon.zIndex(2);
+  centerX = marsSystem.width()/2 - moon.width()/2;
+  centerY = marsSystem.height()/2 - moon.height()/2;
+  radiusX = centerX;
+  radiusY = centerY;
+  period = .15 * earthPeriod;
+  moon.cycleArray = new Array(2, 'ellipse', radiusX+","+radiusY+", 0,"+period+", 0, -360");
+  with (moon) {
+    moveTo('center');
+    moveBy(radiusX, 0);
+    show();
+    addEventListener('slideEnd', sequencer);
+    ellipse(radiusX, radiusY, 0, period, 0, -360)
+  }
+
+  moon = document.getElementById('idMarsMoon2').cbe;
+  moon.zIndex(3);
+  centerX = marsSystem.width()/2 - moon.width()/2;
+  centerY = marsSystem.height()/2 - moon.height()/2;
+  radiusX = centerX-3;
+  radiusY = centerY-2;
+  period = .1 * earthPeriod;
+  moon.cycleArray = new Array(2, 'ellipse', radiusX+","+radiusY+", 0,"+period+", 0, -360");
+  with (moon) {
+    moveTo('center');
+    moveBy(radiusX, 0);
+    show();
+    addEventListener('slideEnd', sequencer);
+    ellipse(radiusX, radiusY, 0, period, 0, -360)
+  }
+
+  // Text Boxes
+
+
+
+  with (sunData = document.getElementById('idSunData').cbe) { resizeTo(300,320); hide(); addEventListener('dragStart', dragStartListener); addEventListener('drag', dragListener); }
+  with (mercuryData = document.getElementById('idMercuryData').cbe) { resizeTo(300,320); hide(); addEventListener('dragStart', dragStartListener); addEventListener('drag', dragListener); }
+  with (venusData = document.getElementById('idVenusData').cbe) { resizeTo(300,320); hide(); addEventListener('dragStart', dragStartListener); addEventListener('drag', dragListener); }
+  with (earthData = document.getElementById('idEarthData').cbe) { resizeTo(300,320); hide(); addEventListener('dragStart', dragStartListener); addEventListener('drag', dragListener); }
+  with (marsData = document.getElementById('idMarsData').cbe) { resizeTo(300,320); hide(); addEventListener('dragStart', dragStartListener); addEventListener('drag', dragListener); }
+  with (notes = document.getElementById('idNotes').cbe) { resizeTo(300,320); hide(); addEventListener('dragStart', dragStartListener); addEventListener('drag', dragListener); }
+  with (document.getElementById('idTitle').cbe) { resizeTo(220,65); moveTo('nw',2); show(); }
+  with (document.getElementById('idLogo').cbe) { resizeTo(220,30); moveTo('sw',2); show(); }
+
+  // Hook resize event for window
+
+  window.cbe.addEventListener("resize", resizeHandler);
+}
+
+function sequencer(cbe) {
+  eval('cbe.'+cbe.cycleArray[1]+'('+cbe.cycleArray[cbe.cycleArray[0]]+')');
+  if (++cbe.cycleArray[0] == cbe.cycleArray.length) cbe.cycleArray[0] = 2;
+}
+
+function resizeHandler()
+{
+  if (is.opera) location.replace(location.href);
+  else history.go(0);
+}
+
+// inline onClick handlers
+
+function openSunData(e) { openBox(sunData,sun.left(),sun.top()); }
+function openMercuryData(e) { openBox(mercuryData,mercury.left(),mercury.top()); }
+function openVenusData(e) { openBox(venusData,venus.left(),venus.top()); }
+function openEarthData(e) { openBox(earthData,earthSystem.left(),earthSystem.top()); }
+function openMarsData(e) { openBox(marsData,marsSystem.left(),marsSystem.top()); }
+
+function test(e)
+{
+  alert(e.cbeCurrentTarget.id);////////////////////////////
+  openBox(e.cbeCurrentTarget, e.cbeCurrentTarget.left(), e.cbeCurrentTarget.top());
+}
+
+function openBox(cbe,x,y)
+{
+  if (!cbe.visibility()) {
+    if (x + cbe.width() > document.cbe.width()) {
+      x -= cbe.width();
+      if (x < 0) x = 0;
+    }
+    if (y + cbe.height() > document.cbe.height()) {
+      y -= cbe.height();
+      if (y < 0) y = 0;
+    }
+    cbe.moveTo(x,y);
+    cbe.zIndex(solarSystem.zIndex()+1);
+    cbe.show();
+  }
+  window.focus();
+}
+
+function closeBox(cbe)
+{
+  cbe.hide();
+  cbe.zIndex(solarSystem.zIndex()-1);
+}
+
+function dragStartListener(e) {
+  e.cbeCurrentTarget.isResizing = false;
+  e.cbeCurrentTarget.isClosing = false;
+  if (!is.nav4 && e.offsetX > (e.cbeCurrentTarget.width() - 30) && e.offsetY > (e.cbeCurrentTarget.height() - 30)) {
+    e.cbeCurrentTarget.isResizing = false; //true;
+  }
+  else if ((e.offsetX > e.cbeCurrentTarget.width() - 30) && e.offsetY < 30) {
+    e.cbeCurrentTarget.isClosing = true;
+  }
+}
+function dragListener(e) {
+  if (e.cbeCurrentTarget.isClosing) {
+    e.cbeCurrentTarget.isClosing = false;
+    closeBox(e.cbeCurrentTarget);
+  }
+  else if (e.cbeCurrentTarget.isResizing) e.cbeCurrentTarget.resizeBy(e.dx, e.dy);
+  else e.cbeCurrentTarget.moveBy(e.dx, e.dy);
+}
+
+window.onerror = function(msg, file, line)
+{
+  window.status = 'Error: Line ' + line + ',  ' + msg;
+  return true;
+}
+</script>
+
+</head>
+
+<body marginwidth="0" marginheight="0" scroll="no">
+<div id="idSolarSystem">
+  <div id="idSunUpper" class="clsSun"><a href="javascript:openSunData()"><img border="0" src="sun_upper.gif" width="124" height="62"></a></div>
+  <div id="idSunLower" class="clsSun"><a href="javascript:openSunData()"><img border="0" src="sun_lower.gif" width="124" height="62"></a></div>
+  <div id="idMercury" class="clsPlanet"><a href="javascript:openMercuryData()"><img border="0" src="mercury.gif" width="20" height="20"></a></div>
+  <div id="idVenus" class="clsPlanet"><a href="javascript:openVenusData()"><img border="0" src="venus.gif"     width="47" height="47"></a></div>
+  <div id="idEarthSystem" class="clsPlanetarySystem">
+    <div id="idEarthUpper" class="clsPlanet"><a href="javascript:openEarthData()"><img border="0" src="earth_upper.gif" width="50" height="25"></a></div>
+    <div id="idEarthLower" class="clsPlanet"><a href="javascript:openEarthData()"><img border="0" src="earth_lower.gif" width="50" height="25"></a></div>
+    <div id="idEarthMoon" class="clsMoon"><img border="0" src="moon.gif"  width="14" height="14"></div>
+  </div>
+  <div id="idMarsSystem" class="clsPlanetarySystem">
+    <div id="idMarsUpper" class="clsPlanet"><a href="javascript:openMarsData()"><img border="0" src="mars_upper.gif" width="30" height="15"></a></div>
+    <div id="idMarsLower" class="clsPlanet"><a href="javascript:openMarsData()"><img border="0" src="mars_lower.gif" width="30" height="15"></a></div>
+    <div id="idMarsMoon1" class="clsMoon"><img border="0" src="moon.gif"  width="4" height="2"></div>
+    <div id="idMarsMoon2" class="clsMoon"><img border="0" src="moon.gif"  width="4" height="4"></div>
+  </div>
+</div>
+
+<div id="idSunData" class="clsBox">
+  <table width="100%" cellspacing="0" cellpadding="0"><tr>
+  <td class="clsLarge">The Sun</td>
+  <td align="right"><img border="0" src="close_btn.jpg" alt="Close"></td>
+  </tr></table>
+  <hr>
+  <pre>
+A G2 star.
+
+Radius (km):   695000
+Mass (kg):     1.99e30
+Density:       1.41
+Abo:           ?
+Vo:            -26.
+Rotate (days): 24.6
+temperature:   5800 K (surface)
+               15,600,000 K (core)
+  </pre>
+</div>
+
+<div id="idMercuryData" class="clsBox">
+  <table width="100%" cellspacing="0" cellpadding="0"><tr>
+  <td class="clsLarge">Mercury</td>
+  <td align="right"><img border="0" src="close_btn.jpg" alt="Close"></td>
+  </tr></table>
+  <hr>
+  <pre>
+The eighth largest planet.
+
+Distance (Mm): 57910 (.39 AU)
+Period (days): 87.97 (.24 EP)
+Inclination:   7.00
+Eccentricity:  0.21
+Radius (km):   2440  (.38 ER)
+Mass (kg):     3.30e23
+Density:       5.43
+Abo:           .11
+Vo:            -1.9
+Rotate (days): 58.6
+  </pre>
+</div>
+
+<div id="idVenusData" class="clsBox">
+  <table width="100%" cellspacing="0" cellpadding="0"><tr>
+  <td class="clsLarge">Venus</td>
+  <td align="right"><img border="0" src="close_btn.jpg" alt="Close"></td>
+  </tr></table>
+  <hr>
+  <pre>
+The sixth largest planet.
+
+Distance (Mm): 108200 (.72 AU)
+Period (days): 224.70 (.62 EP)
+Inclination:   3.39
+Eccentricity:  0.01
+Radius (km):   6052   (.95 ER)
+Mass (kg):     4.87e24
+Density:       5.24
+Abo:           .65
+Vo:            -4.4
+Rotate (days): -243
+  </pre>
+</div>
+
+<div id="idEarthData" class="clsBox">
+  <table width="100%" cellspacing="0" cellpadding="0"><tr>
+  <td class="clsLarge">Earth</td>
+  <td align="right"><img border="0" src="close_btn.jpg" alt="Close"></td>
+  </tr></table>
+  <hr>
+  <pre>
+The fifth largest planet.
+
+Distance (Mm): 149600 (1 AU)
+Period (days): 365.26 (1 EP)
+Inclination:   0.00
+Eccentricity:  0.02
+Radius (km):   6378   (1 ER)
+Mass (kg):     5.97e24
+Density:       5.52
+Abo:           .30
+Vo:            -
+Rotate (days): 0.99
+  </pre>
+</div>
+
+<div id="idMarsData" class="clsBox">
+  <table width="100%" cellspacing="0" cellpadding="0"><tr>
+  <td class="clsLarge">Mars</td>
+  <td align="right"><img border="0" src="close_btn.jpg" alt="Close"></td>
+  </tr></table>
+  <hr>
+  <pre>
+The seventh largest planet.
+
+Distance (Mm): 227940 (1.52 AU)
+Period (days): 686.98 (1.88 EP)
+Inclination:   1.85
+Eccentricity:  0.09
+Radius (km):   3397   (.53 ER)
+Mass (kg):     6.42e23
+Density:       3.93
+Abo:           .15
+Vo:            -2.0
+Rotate (days): 1.03
+  </pre>
+</div>
+
+<div id="idTitle" class="clsGeneral">
+  <span class="clsLarge">Inner Solar System</span><br>
+  <a href="./">Home</a>
+  &nbsp;|&nbsp;
+  <a href="javascript:openBox(notes,10,60)">Notes</a>
+  &nbsp;|&nbsp;
+  <a href="javascript:cbeDebugWindow()">Debug</a>
+</div>
+
+<div id="idLogo" class="clsGeneral">
+  <span class="clsLarge">cross-browser.com</span>
+</div>
+
+<div id="idNotes" class="clsBox">
+  <table width="100%" cellspacing="0" cellpadding="0"><tr>
+  <td class="clsLarge">Notes</td>
+  <td align="right"><img border="0" src="close_btn.jpg" alt="Close"></td>
+  </tr></table>
+  <hr>
+  <div class="clsSmall">
+  Click an object for its data. The box is draggable.<br><br>
+  Astronomical pictures and data from <a href="http://www.seds.org/billa/tnp/express.html">SEDS.org</a><br><br>
+  Relative sizes, distances, periods, and eccentricities are to scale, except for the sizes of the Sun and Mars' moons (and the periods of Mars' moons).<br><br>
+  Tested on W2K with IE5.01, NN4.77, and Opera6.0b1, and on W98 with IE6.0, NN4.75, Mozilla0.9.5, Opera5.12, and Opera6.0b1.
+  </div>
+</div>
+
+
+</body>
+</html>
+
+<!--
+  NN4.75: giving a <i>border</i> to the DIV makes the background <i>not</i> transparent - but only when specifying background:transparent - when omitting it, bkgnd is trans. But without the border, the css works.
+-->

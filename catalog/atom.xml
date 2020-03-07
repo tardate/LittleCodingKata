@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-03-05T20:09:18Z</updated>
+  <updated>2020-03-07T03:19:20Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1385,5 +1385,13 @@
     <category term="influxdb"/>
     <category term="docker"/>
     <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/javascript/cbx/</id>
+    <link href="https://codingkata.tardate.com/javascript/cbx/"/>
+    <updated>2020-03-06T13:45:24Z</updated>
+    <title>Cross-browser X Library</title>
+    <summary>Playing with the old inner solar system demo for the cross-browser javascript X library</summary>
+    <category term="javascript"/>
   </entry>
 </feed>

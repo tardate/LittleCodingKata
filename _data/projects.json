@@ -665,6 +665,14 @@
         ], 
         "title": "SVG Animation"
     }, 
+    "/javascript/cbx/": {
+        "summary": "Playing with the old inner solar system demo for the cross-browser javascript X library", 
+        "id": 157, 
+        "tags": [
+            "javascript"
+        ], 
+        "title": "Cross-browser X Library"
+    }, 
     "/messaging/grpc/explainer/": {
         "summary": "hardware excuse generator with gRPC", 
         "id": 48, 

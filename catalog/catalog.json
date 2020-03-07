@@ -1246,5 +1246,13 @@
         "id": "#156", 
         "categories": "databases, influxdb, docker, ruby", 
         "description": "Testing out the official ruby client calling a InfluxDb 2.0.0-beta server running in Docker"
+    }, 
+    {
+        "name": "Cross-browser X Library", 
+        "updated_at": "2020-03-06T13:45:24Z", 
+        "relative_path": "javascript/cbx", 
+        "id": "#157", 
+        "categories": "javascript", 
+        "description": "Playing with the old inner solar system demo for the cross-browser javascript X library"
     }
 ]
