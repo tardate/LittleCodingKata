@@ -859,6 +859,15 @@
         ], 
         "title": "jQuery Date-Time Selectors"
     }, 
+    "/web/css_cookbook/": {
+        "summary": "Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, pubished by O'Reilly", 
+        "id": 159, 
+        "tags": [
+            "CSS", 
+            "book"
+        ], 
+        "title": "CSS Cookbook"
+    }, 
     "/ruby/sinatra_echo/": {
         "summary": "A Sinatra app that provides a number of remote request debugging tools, and can be run with Docker", 
         "id": 83, 

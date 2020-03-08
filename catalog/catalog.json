@@ -1262,5 +1262,13 @@
         "id": "#158", 
         "categories": "infrastructure, zabbix, ruby", 
         "description": "Configuring zabbix via the API, with examples using zabbix-client ruby gem"
+    }, 
+    {
+        "name": "CSS Cookbook", 
+        "updated_at": "2020-03-08T19:05:40Z", 
+        "relative_path": "web/css_cookbook", 
+        "id": "#159", 
+        "categories": "CSS, book", 
+        "description": "Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, pubished by O'Reilly"
     }
 ]
