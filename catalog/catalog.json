@@ -1270,5 +1270,13 @@
         "id": "#159", 
         "categories": "CSS, book", 
         "description": "Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, pubished by O'Reilly"
+    }, 
+    {
+        "name": "Line Continuations in HTML", 
+        "updated_at": "2020-03-10T19:28:20Z", 
+        "relative_path": "web/line_continuations", 
+        "id": "#160", 
+        "categories": "web, HTML, CSS, javascript", 
+        "description": "CSS and Javascript solutions for indicating line continuations in web pages"
     }
 ]

@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-03-08T19:45:25Z</updated>
+  <updated>2020-03-10T19:28:52Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1412,5 +1412,16 @@
     <summary>Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, pubished by O'Reilly</summary>
     <category term="CSS"/>
     <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/web/line_continuations/</id>
+    <link href="https://codingkata.tardate.com/web/line_continuations/"/>
+    <updated>2020-03-10T19:28:20Z</updated>
+    <title>Line Continuations in HTML</title>
+    <summary>CSS and Javascript solutions for indicating line continuations in web pages</summary>
+    <category term="web"/>
+    <category term="HTML"/>
+    <category term="CSS"/>
+    <category term="javascript"/>
   </entry>
 </feed>

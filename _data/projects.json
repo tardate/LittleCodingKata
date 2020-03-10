@@ -437,6 +437,17 @@
         ], 
         "title": "Running Metasploit with Docker"
     }, 
+    "/web/line_continuations/": {
+        "summary": "CSS and Javascript solutions for indicating line continuations in web pages", 
+        "id": 160, 
+        "tags": [
+            "web", 
+            "HTML", 
+            "CSS", 
+            "javascript"
+        ], 
+        "title": "Line Continuations in HTML"
+    }, 
     "/c/pointers/": {
         "summary": "All about pointers in C", 
         "id": 107, 

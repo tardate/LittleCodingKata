@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>Line Wrap Continuations with CSS</title>
+<link type="text/css" rel="stylesheet" href="syntaxhighlighter/css/SyntaxHighlighter.css"></link>
+<script language="javascript" src="syntaxhighlighter/js/shCore.js"></script>
+<script language="javascript" src="syntaxhighlighter/js/shBrushJava.js"></script>
+<style type="text/css">
+
+body {
+  background-color: #FFF;
+  padding: 1em;
+}
+
+p {
+  font-family: Arial, Sans-Serif;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 0 0 14px 0;
+}
+
+table {
+  width: 100%;
+}
+
+.wrap-cont-l {
+  margin-left: 24px;
+  margin-bottom: 14px;
+  width: 400px;
+}
+
+.wrap-cont-l p {
+  font-family: Courier New, Monospace;
+  font-size: 12px;
+  line-height: 14px;
+  background: url(images/wrap-cont-l.png) no-repeat 0 14px; /* move the background down so it starts on line 2 */
+  text-indent: -21px;
+  padding-left: 14px;
+  margin: 0 0 2px 7px;
+}
+
+.wrap-cont-r {
+  margin-left: 24px;
+  margin-bottom: 14px;
+  width: 400px;
+}
+
+.wrap-cont-r p {
+  font-family: Courier New, Monospace;
+  font-size: 12px;
+  line-height: 14px;
+  background: url(images/wrap-cont-r.png) no-repeat right 14px; /* move the background down so it starts on line 2 */
+  text-indent: -28px;
+  margin: 0 0 2px 28px;
+  padding-right: 14px;
+}
+
+.dp-highlighter ol li {
+  background: #F8F8F8 url(images/wrap-cont-l.png) no-repeat 0 14px; /* move the background down so it starts on line 2 */
+  padding-left: 14px !important;
+}
+.dp-highlighter ol li.alt {
+  background: #FFFFFF url(images/wrap-cont-l.png) no-repeat 0 14px; /* move the background down so it starts on line 2 */
+  padding-left: 14px !important;
+}
+</style>
+</head>
+<body>
+<h1>Line Continuations in HTML</h1>
+
+<a href="./">Return to notes</a>
+
+<h2>Style #1: Line continuation characters at the beginning of the line..</h2>
+<p>Derived from an answer provided by <a href="https://stackoverflow.com/users/28882/jack-ryan">Jack Ryan</a>.</p>
+<div class="wrap-cont-l">
+  <p>c:\Program Files\My Application\Module\bin\..&gt; Some really long command line "with parameters" "that just go on and on" " that should all be typed on one line" "but need to be wrapped for display and I'd like the text style to indicate that it has wrapped"</p>
+  <p>c:\..&gt; this shouldn't wrap</p>
+</div>
+<p>Normal body text here.</p>
+
+<h2>Style #2: Line continuation characters at the end of the line..</h2>
+<p>Derived from an answer provided by <a href="https://stackoverflow.com/users/4210/maarten-sander">Maarten Sander</a>.</p>
+<div class="wrap-cont-r">
+  <p>c:\Program Files\My Application\Module\bin\..&gt; Some really long command line "with parameters" "that just go on and on" " that should all be typed on one line" "but need to be wrapped for display and I'd like the text style to indicate that it has wrapped"</p>
+  <p>c:\..&gt; this shouldn't wrap</p>
+</div>
+<p>Normal body text continues here..</p>
+
+<h2>Style #3: Using a modified <a href="https://code.google.com/archive/p/syntaxhighlighter/">syntaxhighlighter</a>..</h2>
+<p><a href="https://code.google.com/archive/p/syntaxhighlighter/">syntaxhighlighter</a> is a great little project by <a href="http://code.google.com/u/alex.gorbatchev/">Alex Gorbatchev</a>. It is great for styling code examples, but the current version 1.5.1
+doesn't support line wrapping.
+<br/>
+I've modified it to support a wraplines parameter, demonstrated below with a java example. See the included <a href="syntaxhighlighter/js/shCore.js">shCore.js</a> - search for comments about '...wraplines support'.
+Note that IE rendering can be a bit dodgy - need to scroll for example to get it to refresh clean.
+<br/>
+The patch to shCore.js  on its own will get the wrapping working. I've also tweaked the li style in this page to include the continuation glyph.</p>
+
+<table>
+  <tr>
+    <td>
+<div style="width:400px;">
+<textarea name="code" class="java:wraplines" cols="60" rows="10">
+public class HelloWorld {
+
+  public static void main (String[] args)
+
+  {
+
+    System.out.println("Hello World! But that's not all I have to say. This line is going to go on for a very long time and I'd like to see it wrapped in the display. Note that the line styling clearly indicates a continuation.");
+
+  }
+
+}
+</textarea>
+</div>
+
+    </td>
+    <td>
+
+<p>For comparison, here is the rendering without wraplines support enabled:</p>
+
+<div style="width:400px;">
+<textarea name="code" class="java" cols="60" rows="10">
+public class HelloWorld {
+
+  public static void main (String[] args)
+
+  {
+
+    System.out.println("Hello World! But that's not all I have to say. This line is going to go on for a very long time and I'd like to see it wrapped in the display. Note that the line styling clearly indicates a continuation.");
+
+  }
+
+}
+</textarea>
+</div>
+    </td>
+  </tr>
+</table>
+
+<script language="javascript">
+dp.SyntaxHighlighter.ClipboardSwf = 'syntaxhighlighter/js/clipboard.swf';
+dp.SyntaxHighlighter.HighlightAll('code');
+</script>
+</body>
+</html>
