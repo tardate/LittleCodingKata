@@ -1256,18 +1256,10 @@
         "description": "Playing with the old inner solar system demo for the cross-browser javascript X library"
     }, 
     {
-        "name": "Ruby Programmatic Configuration", 
-        "updated_at": "2020-03-07T10:14:34Z", 
-        "relative_path": "infrastructure/zabbix/ruby-programmatic-config", 
-        "id": "#158", 
-        "categories": "infrastructure, zabbix, ruby", 
-        "description": "Configuring zabbix via the API, with examples using zabbix-client ruby gem"
-    }, 
-    {
         "name": "CSS Cookbook", 
         "updated_at": "2020-03-08T19:05:40Z", 
         "relative_path": "web/css_cookbook", 
-        "id": "#159", 
+        "id": "#158", 
         "categories": "CSS, book", 
         "description": "Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, pubished by O'Reilly"
     }, 
@@ -1275,7 +1267,7 @@
         "name": "Line Continuations in HTML", 
         "updated_at": "2020-03-10T19:28:20Z", 
         "relative_path": "web/line_continuations", 
-        "id": "#160", 
+        "id": "#159", 
         "categories": "web, HTML, CSS, javascript", 
         "description": "CSS and Javascript solutions for indicating line continuations in web pages"
     }, 
@@ -1283,8 +1275,16 @@
         "name": "Memo Methods", 
         "updated_at": "2020-03-11T15:02:11Z", 
         "relative_path": "ruby/memo_methods", 
-        "id": "#161", 
+        "id": "#160", 
         "categories": "ruby, design patterns", 
         "description": "Comparing and testing various memoization methods and gems in Ruby"
+    }, 
+    {
+        "name": "Zabbix Programmatic Configuration with Ruby", 
+        "updated_at": "2020-03-11T23:27:34Z", 
+        "relative_path": "infrastructure/zabbix/ruby-programmatic-config", 
+        "id": "#161", 
+        "categories": "infrastructure, zabbix, ruby", 
+        "description": "Configuring zabbix via the API, with examples using zabbix-client ruby gem"
     }
 ]

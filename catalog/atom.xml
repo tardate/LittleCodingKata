@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-03-11T15:02:31Z</updated>
+  <updated>2020-03-11T23:27:52Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1395,16 +1395,6 @@
     <category term="javascript"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/infrastructure/zabbix/ruby-programmatic-config/</id>
-    <link href="https://codingkata.tardate.com/infrastructure/zabbix/ruby-programmatic-config/"/>
-    <updated>2020-03-07T10:14:34Z</updated>
-    <title>Ruby Programmatic Configuration</title>
-    <summary>Configuring zabbix via the API, with examples using zabbix-client ruby gem</summary>
-    <category term="infrastructure"/>
-    <category term="zabbix"/>
-    <category term="ruby"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/web/css_cookbook/</id>
     <link href="https://codingkata.tardate.com/web/css_cookbook/"/>
     <updated>2020-03-08T19:05:40Z</updated>
@@ -1432,5 +1422,15 @@
     <summary>Comparing and testing various memoization methods and gems in Ruby</summary>
     <category term="ruby"/>
     <category term="design patterns"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/infrastructure/zabbix/ruby-programmatic-config/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/zabbix/ruby-programmatic-config/"/>
+    <updated>2020-03-11T23:27:34Z</updated>
+    <title>Zabbix Programmatic Configuration with Ruby</title>
+    <summary>Configuring zabbix via the API, with examples using zabbix-client ruby gem</summary>
+    <category term="infrastructure"/>
+    <category term="zabbix"/>
+    <category term="ruby"/>
   </entry>
 </feed>

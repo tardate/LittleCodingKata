@@ -34,7 +34,7 @@
     }, 
     "/ruby/memo_methods/": {
         "summary": "Comparing and testing various memoization methods and gems in Ruby", 
-        "id": 161, 
+        "id": 160, 
         "tags": [
             "ruby", 
             "design patterns"
@@ -448,7 +448,7 @@
     }, 
     "/web/line_continuations/": {
         "summary": "CSS and Javascript solutions for indicating line continuations in web pages", 
-        "id": 160, 
+        "id": 159, 
         "tags": [
             "web", 
             "HTML", 
@@ -881,7 +881,7 @@
     }, 
     "/web/css_cookbook/": {
         "summary": "Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, pubished by O'Reilly", 
-        "id": 159, 
+        "id": 158, 
         "tags": [
             "CSS", 
             "book"
@@ -1199,13 +1199,13 @@
     }, 
     "/infrastructure/zabbix/ruby-programmatic-config/": {
         "summary": "Configuring zabbix via the API, with examples using zabbix-client ruby gem", 
-        "id": 158, 
+        "id": 161, 
         "tags": [
             "infrastructure", 
             "zabbix", 
             "ruby"
         ], 
-        "title": "Ruby Programmatic Configuration"
+        "title": "Zabbix Programmatic Configuration with Ruby"
     }, 
     "/messaging/zeromq/about/": {
         "summary": "Zeromq in a nutshell with a quick test of using the library from C", 

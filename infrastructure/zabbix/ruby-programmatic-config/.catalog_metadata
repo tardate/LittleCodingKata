@@ -1,8 +1,6 @@
 {
-    "name": "Ruby Programmatic Configuration",
+    "name": "Zabbix Programmatic Configuration with Ruby",
     "description": "Configuring zabbix via the API, with examples using zabbix-client ruby gem",
     "categories": "infrastructure, zabbix, ruby",
     "relative_path": "infrastructure/zabbix/ruby-programmatic-config"
 }
-
-

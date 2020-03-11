@@ -1,4 +1,4 @@
-# Ruby Programmatic Configuration
+# Zabbix Programmatic Configuration with Ruby
 
 Configuring zabbix via the API, with examples using zabbix-client ruby gem.
 
