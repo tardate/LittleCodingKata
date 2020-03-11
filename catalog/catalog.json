@@ -1278,5 +1278,13 @@
         "id": "#160", 
         "categories": "web, HTML, CSS, javascript", 
         "description": "CSS and Javascript solutions for indicating line continuations in web pages"
+    }, 
+    {
+        "name": "Memo Methods", 
+        "updated_at": "2020-03-11T15:02:11Z", 
+        "relative_path": "ruby/memo_methods", 
+        "id": "#161", 
+        "categories": "ruby, design patterns", 
+        "description": "Comparing and testing various memoization methods and gems in Ruby"
     }
 ]

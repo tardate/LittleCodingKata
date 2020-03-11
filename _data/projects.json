@@ -32,6 +32,15 @@
         ], 
         "title": "Elm/hello_clock"
     }, 
+    "/ruby/memo_methods/": {
+        "summary": "Comparing and testing various memoization methods and gems in Ruby", 
+        "id": 161, 
+        "tags": [
+            "ruby", 
+            "design patterns"
+        ], 
+        "title": "Memo Methods"
+    }, 
     "/node/install_macosx/": {
         "summary": "Installing and maintaining Node.js on MacOSX", 
         "id": 89, 

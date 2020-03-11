@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-03-10T19:28:52Z</updated>
+  <updated>2020-03-11T15:02:31Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1423,5 +1423,14 @@
     <category term="HTML"/>
     <category term="CSS"/>
     <category term="javascript"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/memo_methods/</id>
+    <link href="https://codingkata.tardate.com/ruby/memo_methods/"/>
+    <updated>2020-03-11T15:02:11Z</updated>
+    <title>Memo Methods</title>
+    <summary>Comparing and testing various memoization methods and gems in Ruby</summary>
+    <category term="ruby"/>
+    <category term="design patterns"/>
   </entry>
 </feed>
