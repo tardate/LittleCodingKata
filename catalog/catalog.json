@@ -1120,171 +1120,179 @@
         "description": "Notes on the book '21st Century C' by Ben Klemens, published by O'Reilly"
     }, 
     {
-        "name": "Finding Files", 
-        "updated_at": "2020-02-15T09:14:57Z", 
-        "relative_path": "bash/finding_files", 
-        "id": "#141", 
-        "categories": "bash", 
-        "description": "Examples of various ways to find files"
-    }, 
-    {
-        "name": "Linux Server Hacks", 
-        "updated_at": "2020-02-16T02:51:39Z", 
-        "relative_path": "infrastructure/linux_server_hacks", 
-        "id": "#142", 
-        "categories": "infrastructure, linux, book", 
-        "description": "Book notes - Linux Server Hacks by Rob Flickenger and Linux Server Hacks, Volume Two (Tips & Tools for Connecting, Monitoring, and Troubleshooting) by William von Hagen and Brian K. Jones, published by O'Reilly"
-    }, 
-    {
-        "name": "Free Pascal", 
-        "updated_at": "2020-02-16T05:05:39Z", 
-        "relative_path": "pascal/free_pascal", 
-        "id": "#143", 
-        "categories": "pascal", 
-        "description": "Installing and running the Free Pascal compiler on MacOSX"
-    }, 
-    {
-        "name": "About Pascal", 
-        "updated_at": "2020-02-16T05:43:25Z", 
-        "relative_path": "pascal/about", 
-        "id": "#144", 
-        "categories": "pascal", 
-        "description": "Pascal In a Nutshell"
-    }, 
-    {
-        "name": "Loop Optimization", 
-        "updated_at": "2020-02-16T07:39:29Z", 
-        "relative_path": "c/loop_optimization", 
-        "id": "#145", 
-        "categories": "c", 
-        "description": "Looking at how C compilers optimize loops"
-    }, 
-    {
-        "name": "Variable Fonts", 
-        "updated_at": "2020-02-16T12:29:03Z", 
-        "relative_path": "web/variable_fonts", 
-        "id": "#146", 
-        "categories": "CSS, font", 
-        "description": "Understanding the new standards for variable CSS fonts"
-    }, 
-    {
-        "name": "TCP Wrappers", 
-        "updated_at": "2020-02-18T14:31:14Z", 
-        "relative_path": "tools/tcp_wrappers", 
-        "id": "#147", 
-        "categories": "linux", 
-        "description": "The basics of TCP wrappers"
-    }, 
-    {
-        "name": "Docker on CentOS 8", 
-        "updated_at": "2020-02-18T15:40:59Z", 
-        "relative_path": "docker/CentOS8_install", 
-        "id": "#148", 
-        "categories": "docker", 
-        "description": "Installing and running Docker on CentOS 8"
-    }, 
-    {
-        "name": "Ruby Loop", 
-        "updated_at": "2020-02-22T07:57:44Z", 
-        "relative_path": "ruby/loops", 
-        "id": "#149", 
-        "categories": "ruby", 
-        "description": "All the various ways of looping in Ruby"
-    }, 
-    {
         "name": "Database Tweets", 
-        "updated_at": "2020-03-03T13:51:52Z", 
+        "updated_at": "2020-03-11T23:32:53Z", 
         "relative_path": "databases/oracle/ORA_Tweet_With_Shorturls", 
-        "id": "#150", 
+        "id": "#141", 
         "categories": "Database, Oracle", 
         "description": "Tweeting from your Oracle database with short urls"
     }, 
     {
-        "name": "DirSize", 
-        "updated_at": "2020-03-04T11:02:53Z", 
-        "relative_path": "rexx/dirsize", 
-        "id": "#151", 
-        "categories": "REXX, OS/2", 
-        "description": "Directory Size Scanner for OS/2 v2.0 written in REXX"
-    }, 
-    {
-        "name": "ShowLong", 
-        "updated_at": "2020-03-04T11:10:22Z", 
-        "relative_path": "rexx/showlong", 
-        "id": "#152", 
-        "categories": "REXX, OS/2", 
-        "description": "Expose Long/HPFS filenames with REXX on OS/2"
-    }, 
-    {
-        "name": "Visual Archiver", 
-        "updated_at": "2020-03-04T11:17:38Z", 
-        "relative_path": "rexx/visual_archiver", 
-        "id": "#153", 
-        "categories": "REXX, OS/2", 
-        "description": "An Archive Management Interface for OS/2 v2.0 written in REXX"
-    }, 
-    {
-        "name": "jQuery Date-Time Selectors", 
-        "updated_at": "2020-03-04T12:23:52Z", 
-        "relative_path": "javascript/jQueryDateTime", 
-        "id": "#154", 
-        "categories": "javascript", 
-        "description": "A Quick Survey of jQuery Date-Time Selector libraries and approaches"
-    }, 
-    {
         "name": "Using InfluxDb 1.x with Ruby", 
-        "updated_at": "2020-03-04T13:26:25Z", 
+        "updated_at": "2020-03-11T23:32:53Z", 
         "relative_path": "databases/influxdb/ruby_client", 
-        "id": "#155", 
+        "id": "#142", 
         "categories": "databases, influxdb, docker, ruby", 
         "description": "Testing out the official ruby client calling a InfluxDb 1.7.9 server running in Docker."
     }, 
     {
         "name": "Using InfluxDb 2.x with Ruby", 
-        "updated_at": "2020-03-05T20:05:47Z", 
+        "updated_at": "2020-03-11T23:32:53Z", 
         "relative_path": "databases/influxdb/ruby_client2", 
-        "id": "#156", 
+        "id": "#143", 
         "categories": "databases, influxdb, docker, ruby", 
         "description": "Testing out the official ruby client calling a InfluxDb 2.0.0-beta server running in Docker"
     }, 
     {
+        "name": "Docker on CentOS 8", 
+        "updated_at": "2020-03-11T23:32:53Z", 
+        "relative_path": "docker/CentOS8_install", 
+        "id": "#144", 
+        "categories": "docker", 
+        "description": "Installing and running Docker on CentOS 8"
+    }, 
+    {
+        "name": "Finding Files", 
+        "updated_at": "2020-03-11T23:32:53Z", 
+        "relative_path": "bash/finding_files", 
+        "id": "#145", 
+        "categories": "bash", 
+        "description": "Examples of various ways to find files"
+    }, 
+    {
+        "name": "jQuery Date-Time Selectors", 
+        "updated_at": "2020-03-11T23:32:53Z", 
+        "relative_path": "javascript/jQueryDateTime", 
+        "id": "#146", 
+        "categories": "javascript", 
+        "description": "A Quick Survey of jQuery Date-Time Selector libraries and approaches"
+    }, 
+    {
         "name": "Cross-browser X Library", 
-        "updated_at": "2020-03-06T13:45:24Z", 
+        "updated_at": "2020-03-11T23:32:53Z", 
         "relative_path": "javascript/cbx", 
-        "id": "#157", 
+        "id": "#147", 
         "categories": "javascript", 
         "description": "Playing with the old inner solar system demo for the cross-browser javascript X library"
     }, 
     {
+        "name": "Linux Server Hacks", 
+        "updated_at": "2020-03-11T23:32:53Z", 
+        "relative_path": "infrastructure/linux_server_hacks", 
+        "id": "#148", 
+        "categories": "infrastructure, linux, book", 
+        "description": "Book notes - Linux Server Hacks by Rob Flickenger and Linux Server Hacks, Volume Two (Tips & Tools for Connecting, Monitoring, and Troubleshooting) by William von Hagen and Brian K. Jones, published by O'Reilly"
+    }, 
+    {
+        "name": "Zabbix Programmatic Configuration with Ruby", 
+        "updated_at": "2020-03-11T23:32:53Z", 
+        "relative_path": "infrastructure/zabbix/ruby-programmatic-config", 
+        "id": "#149", 
+        "categories": "infrastructure, zabbix, ruby", 
+        "description": "Configuring zabbix via the API, with examples using zabbix-client ruby gem"
+    }, 
+    {
+        "name": "Loop Optimization", 
+        "updated_at": "2020-03-11T23:32:53Z", 
+        "relative_path": "c/loop_optimization", 
+        "id": "#150", 
+        "categories": "c", 
+        "description": "Looking at how C compilers optimize loops"
+    }, 
+    {
+        "name": "Free Pascal", 
+        "updated_at": "2020-03-11T23:32:54Z", 
+        "relative_path": "pascal/free_pascal", 
+        "id": "#151", 
+        "categories": "pascal", 
+        "description": "Installing and running the Free Pascal compiler on MacOSX"
+    }, 
+    {
+        "name": "About Pascal", 
+        "updated_at": "2020-03-11T23:32:54Z", 
+        "relative_path": "pascal/about", 
+        "id": "#152", 
+        "categories": "pascal", 
+        "description": "Pascal In a Nutshell"
+    }, 
+    {
+        "name": "TCP Wrappers", 
+        "updated_at": "2020-03-11T23:32:54Z", 
+        "relative_path": "tools/tcp_wrappers", 
+        "id": "#153", 
+        "categories": "linux", 
+        "description": "The basics of TCP wrappers"
+    }, 
+    {
+        "name": "Variable Fonts", 
+        "updated_at": "2020-03-11T23:32:54Z", 
+        "relative_path": "web/variable_fonts", 
+        "id": "#154", 
+        "categories": "CSS, font", 
+        "description": "Understanding the new standards for variable CSS fonts"
+    }, 
+    {
         "name": "CSS Cookbook", 
-        "updated_at": "2020-03-08T19:05:40Z", 
+        "updated_at": "2020-03-11T23:32:54Z", 
         "relative_path": "web/css_cookbook", 
-        "id": "#158", 
+        "id": "#155", 
         "categories": "CSS, book", 
         "description": "Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, pubished by O'Reilly"
     }, 
     {
         "name": "Line Continuations in HTML", 
-        "updated_at": "2020-03-10T19:28:20Z", 
+        "updated_at": "2020-03-11T23:32:54Z", 
         "relative_path": "web/line_continuations", 
-        "id": "#159", 
+        "id": "#156", 
         "categories": "web, HTML, CSS, javascript", 
         "description": "CSS and Javascript solutions for indicating line continuations in web pages"
     }, 
     {
-        "name": "Memo Methods", 
-        "updated_at": "2020-03-11T15:02:11Z", 
-        "relative_path": "ruby/memo_methods", 
+        "name": "Visual Archiver", 
+        "updated_at": "2020-03-11T23:32:54Z", 
+        "relative_path": "rexx/visual_archiver", 
+        "id": "#157", 
+        "categories": "REXX, OS/2", 
+        "description": "An Archive Management Interface for OS/2 v2.0 written in REXX"
+    }, 
+    {
+        "name": "ShowLong", 
+        "updated_at": "2020-03-11T23:32:54Z", 
+        "relative_path": "rexx/showlong", 
+        "id": "#158", 
+        "categories": "REXX, OS/2", 
+        "description": "Expose Long/HPFS filenames with REXX on OS/2"
+    }, 
+    {
+        "name": "DirSize", 
+        "updated_at": "2020-03-11T23:32:54Z", 
+        "relative_path": "rexx/dirsize", 
+        "id": "#159", 
+        "categories": "REXX, OS/2", 
+        "description": "Directory Size Scanner for OS/2 v2.0 written in REXX"
+    }, 
+    {
+        "name": "Ruby Loop", 
+        "updated_at": "2020-03-11T23:32:54Z", 
+        "relative_path": "ruby/loops", 
         "id": "#160", 
+        "categories": "ruby", 
+        "description": "All the various ways of looping in Ruby"
+    }, 
+    {
+        "name": "Memo Methods", 
+        "updated_at": "2020-03-11T23:32:54Z", 
+        "relative_path": "ruby/memo_methods", 
+        "id": "#161", 
         "categories": "ruby, design patterns", 
         "description": "Comparing and testing various memoization methods and gems in Ruby"
     }, 
     {
-        "name": "Zabbix Programmatic Configuration with Ruby", 
-        "updated_at": "2020-03-11T23:27:34Z", 
-        "relative_path": "infrastructure/zabbix/ruby-programmatic-config", 
-        "id": "#161", 
-        "categories": "infrastructure, zabbix, ruby", 
-        "description": "Configuring zabbix via the API, with examples using zabbix-client ruby gem"
+        "name": "Console Barcharts", 
+        "updated_at": "2020-03-12T23:35:33Z", 
+        "relative_path": "ruby/console_barcharts", 
+        "id": "#162", 
+        "categories": "ruby", 
+        "description": "Print barcharts to the console in ascii or with unicode block elements"
     }
 ]

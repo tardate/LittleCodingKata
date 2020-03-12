@@ -34,7 +34,7 @@
     }, 
     "/ruby/memo_methods/": {
         "summary": "Comparing and testing various memoization methods and gems in Ruby", 
-        "id": 160, 
+        "id": 161, 
         "tags": [
             "ruby", 
             "design patterns"
@@ -60,11 +60,19 @@
     }, 
     "/pascal/about/": {
         "summary": "Pascal In a Nutshell", 
-        "id": 144, 
+        "id": 152, 
         "tags": [
             "pascal"
         ], 
         "title": "About Pascal"
+    }, 
+    "/ruby/console_barcharts/": {
+        "summary": "Print barcharts to the console in ascii or with unicode block elements", 
+        "id": 162, 
+        "tags": [
+            "ruby"
+        ], 
+        "title": "Console Barcharts"
     }, 
     "/c/iterating_char_arrays/": {
         "summary": "Iterating Character Arrays", 
@@ -82,14 +90,16 @@
         ], 
         "title": "MAC Address Generation with Python"
     }, 
-    "/rexx/dirsize/": {
-        "summary": "Directory Size Scanner for OS/2 v2.0 written in REXX", 
-        "id": 151, 
+    "/web/line_continuations/": {
+        "summary": "CSS and Javascript solutions for indicating line continuations in web pages", 
+        "id": 156, 
         "tags": [
-            "REXX", 
-            "OS/2"
+            "web", 
+            "HTML", 
+            "CSS", 
+            "javascript"
         ], 
-        "title": "DirSize"
+        "title": "Line Continuations in HTML"
     }, 
     "/rust/install_macosx/": {
         "summary": "Rust - installing on MacOSX", 
@@ -110,7 +120,7 @@
     }, 
     "/databases/influxdb/ruby_client2/": {
         "summary": "Testing out the official ruby client calling a InfluxDb 2.0.0-beta server running in Docker", 
-        "id": 156, 
+        "id": 143, 
         "tags": [
             "databases", 
             "influxdb", 
@@ -147,7 +157,7 @@
     }, 
     "/docker/CentOS8_install/": {
         "summary": "Installing and running Docker on CentOS 8", 
-        "id": 148, 
+        "id": 144, 
         "tags": [
             "docker"
         ], 
@@ -289,7 +299,7 @@
     }, 
     "/web/variable_fonts/": {
         "summary": "Understanding the new standards for variable CSS fonts", 
-        "id": 146, 
+        "id": 154, 
         "tags": [
             "CSS", 
             "font"
@@ -298,7 +308,7 @@
     }, 
     "/infrastructure/linux_server_hacks/": {
         "summary": "Book notes - Linux Server Hacks by Rob Flickenger and Linux Server Hacks, Volume Two (Tips & Tools for Connecting, Monitoring, and Troubleshooting) by William von Hagen and Brian K. Jones, published by O'Reilly", 
-        "id": 142, 
+        "id": 148, 
         "tags": [
             "infrastructure", 
             "linux", 
@@ -446,16 +456,14 @@
         ], 
         "title": "Running Metasploit with Docker"
     }, 
-    "/web/line_continuations/": {
-        "summary": "CSS and Javascript solutions for indicating line continuations in web pages", 
+    "/rexx/dirsize/": {
+        "summary": "Directory Size Scanner for OS/2 v2.0 written in REXX", 
         "id": 159, 
         "tags": [
-            "web", 
-            "HTML", 
-            "CSS", 
-            "javascript"
+            "REXX", 
+            "OS/2"
         ], 
-        "title": "Line Continuations in HTML"
+        "title": "DirSize"
     }, 
     "/c/pointers/": {
         "summary": "All about pointers in C", 
@@ -510,7 +518,7 @@
     }, 
     "/databases/influxdb/ruby_client/": {
         "summary": "Testing out the official ruby client calling a InfluxDb 1.7.9 server running in Docker.", 
-        "id": 155, 
+        "id": 142, 
         "tags": [
             "databases", 
             "influxdb", 
@@ -529,7 +537,7 @@
     }, 
     "/bash/finding_files/": {
         "summary": "Examples of various ways to find files", 
-        "id": 141, 
+        "id": 145, 
         "tags": [
             "bash"
         ], 
@@ -687,7 +695,7 @@
     }, 
     "/javascript/cbx/": {
         "summary": "Playing with the old inner solar system demo for the cross-browser javascript X library", 
-        "id": 157, 
+        "id": 147, 
         "tags": [
             "javascript"
         ], 
@@ -729,7 +737,7 @@
     }, 
     "/rexx/visual_archiver/": {
         "summary": "An Archive Management Interface for OS/2 v2.0 written in REXX", 
-        "id": 153, 
+        "id": 157, 
         "tags": [
             "REXX", 
             "OS/2"
@@ -766,7 +774,7 @@
     }, 
     "/ruby/loops/": {
         "summary": "All the various ways of looping in Ruby", 
-        "id": 149, 
+        "id": 160, 
         "tags": [
             "ruby"
         ], 
@@ -783,7 +791,7 @@
     }, 
     "/pascal/free_pascal/": {
         "summary": "Installing and running the Free Pascal compiler on MacOSX", 
-        "id": 143, 
+        "id": 151, 
         "tags": [
             "pascal"
         ], 
@@ -873,7 +881,7 @@
     }, 
     "/javascript/jQueryDateTime/": {
         "summary": "A Quick Survey of jQuery Date-Time Selector libraries and approaches", 
-        "id": 154, 
+        "id": 146, 
         "tags": [
             "javascript"
         ], 
@@ -881,7 +889,7 @@
     }, 
     "/web/css_cookbook/": {
         "summary": "Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, pubished by O'Reilly", 
-        "id": 158, 
+        "id": 155, 
         "tags": [
             "CSS", 
             "book"
@@ -926,7 +934,7 @@
     }, 
     "/rexx/showlong/": {
         "summary": "Expose Long/HPFS filenames with REXX on OS/2", 
-        "id": 152, 
+        "id": 158, 
         "tags": [
             "REXX", 
             "OS/2"
@@ -997,7 +1005,7 @@
     }, 
     "/c/loop_optimization/": {
         "summary": "Looking at how C compilers optimize loops", 
-        "id": 145, 
+        "id": 150, 
         "tags": [
             "c"
         ], 
@@ -1164,7 +1172,7 @@
     }, 
     "/databases/oracle/ORA_Tweet_With_Shorturls/": {
         "summary": "Tweeting from your Oracle database with short urls", 
-        "id": 150, 
+        "id": 141, 
         "tags": [
             "Database", 
             "Oracle"
@@ -1183,7 +1191,7 @@
     }, 
     "/tools/tcp_wrappers/": {
         "summary": "The basics of TCP wrappers", 
-        "id": 147, 
+        "id": 153, 
         "tags": [
             "linux"
         ], 
@@ -1199,7 +1207,7 @@
     }, 
     "/infrastructure/zabbix/ruby-programmatic-config/": {
         "summary": "Configuring zabbix via the API, with examples using zabbix-client ruby gem", 
-        "id": 161, 
+        "id": 149, 
         "tags": [
             "infrastructure", 
             "zabbix", 

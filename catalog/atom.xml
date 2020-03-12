@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-03-11T23:27:52Z</updated>
+  <updated>2020-03-12T23:35:52Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1246,128 +1246,18 @@
     <category term="book"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/bash/finding_files/</id>
-    <link href="https://codingkata.tardate.com/bash/finding_files/"/>
-    <updated>2020-02-15T09:14:57Z</updated>
-    <title>Finding Files</title>
-    <summary>Examples of various ways to find files</summary>
-    <category term="bash"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/infrastructure/linux_server_hacks/</id>
-    <link href="https://codingkata.tardate.com/infrastructure/linux_server_hacks/"/>
-    <updated>2020-02-16T02:51:39Z</updated>
-    <title>Linux Server Hacks</title>
-    <summary>Book notes - Linux Server Hacks by Rob Flickenger and Linux Server Hacks, Volume Two (Tips &amp; Tools for Connecting, Monitoring, and Troubleshooting) by William von Hagen and Brian K. Jones, published by O'Reilly</summary>
-    <category term="infrastructure"/>
-    <category term="linux"/>
-    <category term="book"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/pascal/free_pascal/</id>
-    <link href="https://codingkata.tardate.com/pascal/free_pascal/"/>
-    <updated>2020-02-16T05:05:39Z</updated>
-    <title>Free Pascal</title>
-    <summary>Installing and running the Free Pascal compiler on MacOSX</summary>
-    <category term="pascal"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/pascal/about/</id>
-    <link href="https://codingkata.tardate.com/pascal/about/"/>
-    <updated>2020-02-16T05:43:25Z</updated>
-    <title>About Pascal</title>
-    <summary>Pascal In a Nutshell</summary>
-    <category term="pascal"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/c/loop_optimization/</id>
-    <link href="https://codingkata.tardate.com/c/loop_optimization/"/>
-    <updated>2020-02-16T07:39:29Z</updated>
-    <title>Loop Optimization</title>
-    <summary>Looking at how C compilers optimize loops</summary>
-    <category term="c"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/web/variable_fonts/</id>
-    <link href="https://codingkata.tardate.com/web/variable_fonts/"/>
-    <updated>2020-02-16T12:29:03Z</updated>
-    <title>Variable Fonts</title>
-    <summary>Understanding the new standards for variable CSS fonts</summary>
-    <category term="CSS"/>
-    <category term="font"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/tools/tcp_wrappers/</id>
-    <link href="https://codingkata.tardate.com/tools/tcp_wrappers/"/>
-    <updated>2020-02-18T14:31:14Z</updated>
-    <title>TCP Wrappers</title>
-    <summary>The basics of TCP wrappers</summary>
-    <category term="linux"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/docker/CentOS8_install/</id>
-    <link href="https://codingkata.tardate.com/docker/CentOS8_install/"/>
-    <updated>2020-02-18T15:40:59Z</updated>
-    <title>Docker on CentOS 8</title>
-    <summary>Installing and running Docker on CentOS 8</summary>
-    <category term="docker"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/ruby/loops/</id>
-    <link href="https://codingkata.tardate.com/ruby/loops/"/>
-    <updated>2020-02-22T07:57:44Z</updated>
-    <title>Ruby Loop</title>
-    <summary>All the various ways of looping in Ruby</summary>
-    <category term="ruby"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/databases/oracle/ORA_Tweet_With_Shorturls/</id>
     <link href="https://codingkata.tardate.com/databases/oracle/ORA_Tweet_With_Shorturls/"/>
-    <updated>2020-03-03T13:51:52Z</updated>
+    <updated>2020-03-11T23:32:53Z</updated>
     <title>Database Tweets</title>
     <summary>Tweeting from your Oracle database with short urls</summary>
     <category term="Database"/>
     <category term="Oracle"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/rexx/dirsize/</id>
-    <link href="https://codingkata.tardate.com/rexx/dirsize/"/>
-    <updated>2020-03-04T11:02:53Z</updated>
-    <title>DirSize</title>
-    <summary>Directory Size Scanner for OS/2 v2.0 written in REXX</summary>
-    <category term="REXX"/>
-    <category term="OS/2"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/rexx/showlong/</id>
-    <link href="https://codingkata.tardate.com/rexx/showlong/"/>
-    <updated>2020-03-04T11:10:22Z</updated>
-    <title>ShowLong</title>
-    <summary>Expose Long/HPFS filenames with REXX on OS/2</summary>
-    <category term="REXX"/>
-    <category term="OS/2"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/rexx/visual_archiver/</id>
-    <link href="https://codingkata.tardate.com/rexx/visual_archiver/"/>
-    <updated>2020-03-04T11:17:38Z</updated>
-    <title>Visual Archiver</title>
-    <summary>An Archive Management Interface for OS/2 v2.0 written in REXX</summary>
-    <category term="REXX"/>
-    <category term="OS/2"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/javascript/jQueryDateTime/</id>
-    <link href="https://codingkata.tardate.com/javascript/jQueryDateTime/"/>
-    <updated>2020-03-04T12:23:52Z</updated>
-    <title>jQuery Date-Time Selectors</title>
-    <summary>A Quick Survey of jQuery Date-Time Selector libraries and approaches</summary>
-    <category term="javascript"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/databases/influxdb/ruby_client/</id>
     <link href="https://codingkata.tardate.com/databases/influxdb/ruby_client/"/>
-    <updated>2020-03-04T13:26:25Z</updated>
+    <updated>2020-03-11T23:32:53Z</updated>
     <title>Using InfluxDb 1.x with Ruby</title>
     <summary>Testing out the official ruby client calling a InfluxDb 1.7.9 server running in Docker.</summary>
     <category term="databases"/>
@@ -1378,7 +1268,7 @@
   <entry>
     <id>https://codingkata.tardate.com/databases/influxdb/ruby_client2/</id>
     <link href="https://codingkata.tardate.com/databases/influxdb/ruby_client2/"/>
-    <updated>2020-03-05T20:05:47Z</updated>
+    <updated>2020-03-11T23:32:53Z</updated>
     <title>Using InfluxDb 2.x with Ruby</title>
     <summary>Testing out the official ruby client calling a InfluxDb 2.0.0-beta server running in Docker</summary>
     <category term="databases"/>
@@ -1387,17 +1277,102 @@
     <category term="ruby"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/docker/CentOS8_install/</id>
+    <link href="https://codingkata.tardate.com/docker/CentOS8_install/"/>
+    <updated>2020-03-11T23:32:53Z</updated>
+    <title>Docker on CentOS 8</title>
+    <summary>Installing and running Docker on CentOS 8</summary>
+    <category term="docker"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/bash/finding_files/</id>
+    <link href="https://codingkata.tardate.com/bash/finding_files/"/>
+    <updated>2020-03-11T23:32:53Z</updated>
+    <title>Finding Files</title>
+    <summary>Examples of various ways to find files</summary>
+    <category term="bash"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/javascript/jQueryDateTime/</id>
+    <link href="https://codingkata.tardate.com/javascript/jQueryDateTime/"/>
+    <updated>2020-03-11T23:32:53Z</updated>
+    <title>jQuery Date-Time Selectors</title>
+    <summary>A Quick Survey of jQuery Date-Time Selector libraries and approaches</summary>
+    <category term="javascript"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/javascript/cbx/</id>
     <link href="https://codingkata.tardate.com/javascript/cbx/"/>
-    <updated>2020-03-06T13:45:24Z</updated>
+    <updated>2020-03-11T23:32:53Z</updated>
     <title>Cross-browser X Library</title>
     <summary>Playing with the old inner solar system demo for the cross-browser javascript X library</summary>
     <category term="javascript"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/infrastructure/linux_server_hacks/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/linux_server_hacks/"/>
+    <updated>2020-03-11T23:32:53Z</updated>
+    <title>Linux Server Hacks</title>
+    <summary>Book notes - Linux Server Hacks by Rob Flickenger and Linux Server Hacks, Volume Two (Tips &amp; Tools for Connecting, Monitoring, and Troubleshooting) by William von Hagen and Brian K. Jones, published by O'Reilly</summary>
+    <category term="infrastructure"/>
+    <category term="linux"/>
+    <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/infrastructure/zabbix/ruby-programmatic-config/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/zabbix/ruby-programmatic-config/"/>
+    <updated>2020-03-11T23:32:53Z</updated>
+    <title>Zabbix Programmatic Configuration with Ruby</title>
+    <summary>Configuring zabbix via the API, with examples using zabbix-client ruby gem</summary>
+    <category term="infrastructure"/>
+    <category term="zabbix"/>
+    <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/c/loop_optimization/</id>
+    <link href="https://codingkata.tardate.com/c/loop_optimization/"/>
+    <updated>2020-03-11T23:32:53Z</updated>
+    <title>Loop Optimization</title>
+    <summary>Looking at how C compilers optimize loops</summary>
+    <category term="c"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/pascal/free_pascal/</id>
+    <link href="https://codingkata.tardate.com/pascal/free_pascal/"/>
+    <updated>2020-03-11T23:32:54Z</updated>
+    <title>Free Pascal</title>
+    <summary>Installing and running the Free Pascal compiler on MacOSX</summary>
+    <category term="pascal"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/pascal/about/</id>
+    <link href="https://codingkata.tardate.com/pascal/about/"/>
+    <updated>2020-03-11T23:32:54Z</updated>
+    <title>About Pascal</title>
+    <summary>Pascal In a Nutshell</summary>
+    <category term="pascal"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/tcp_wrappers/</id>
+    <link href="https://codingkata.tardate.com/tools/tcp_wrappers/"/>
+    <updated>2020-03-11T23:32:54Z</updated>
+    <title>TCP Wrappers</title>
+    <summary>The basics of TCP wrappers</summary>
+    <category term="linux"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/web/variable_fonts/</id>
+    <link href="https://codingkata.tardate.com/web/variable_fonts/"/>
+    <updated>2020-03-11T23:32:54Z</updated>
+    <title>Variable Fonts</title>
+    <summary>Understanding the new standards for variable CSS fonts</summary>
+    <category term="CSS"/>
+    <category term="font"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/web/css_cookbook/</id>
     <link href="https://codingkata.tardate.com/web/css_cookbook/"/>
-    <updated>2020-03-08T19:05:40Z</updated>
+    <updated>2020-03-11T23:32:54Z</updated>
     <title>CSS Cookbook</title>
     <summary>Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, pubished by O'Reilly</summary>
     <category term="CSS"/>
@@ -1406,7 +1381,7 @@
   <entry>
     <id>https://codingkata.tardate.com/web/line_continuations/</id>
     <link href="https://codingkata.tardate.com/web/line_continuations/"/>
-    <updated>2020-03-10T19:28:20Z</updated>
+    <updated>2020-03-11T23:32:54Z</updated>
     <title>Line Continuations in HTML</title>
     <summary>CSS and Javascript solutions for indicating line continuations in web pages</summary>
     <category term="web"/>
@@ -1415,22 +1390,55 @@
     <category term="javascript"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/rexx/visual_archiver/</id>
+    <link href="https://codingkata.tardate.com/rexx/visual_archiver/"/>
+    <updated>2020-03-11T23:32:54Z</updated>
+    <title>Visual Archiver</title>
+    <summary>An Archive Management Interface for OS/2 v2.0 written in REXX</summary>
+    <category term="REXX"/>
+    <category term="OS/2"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rexx/showlong/</id>
+    <link href="https://codingkata.tardate.com/rexx/showlong/"/>
+    <updated>2020-03-11T23:32:54Z</updated>
+    <title>ShowLong</title>
+    <summary>Expose Long/HPFS filenames with REXX on OS/2</summary>
+    <category term="REXX"/>
+    <category term="OS/2"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rexx/dirsize/</id>
+    <link href="https://codingkata.tardate.com/rexx/dirsize/"/>
+    <updated>2020-03-11T23:32:54Z</updated>
+    <title>DirSize</title>
+    <summary>Directory Size Scanner for OS/2 v2.0 written in REXX</summary>
+    <category term="REXX"/>
+    <category term="OS/2"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/loops/</id>
+    <link href="https://codingkata.tardate.com/ruby/loops/"/>
+    <updated>2020-03-11T23:32:54Z</updated>
+    <title>Ruby Loop</title>
+    <summary>All the various ways of looping in Ruby</summary>
+    <category term="ruby"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/ruby/memo_methods/</id>
     <link href="https://codingkata.tardate.com/ruby/memo_methods/"/>
-    <updated>2020-03-11T15:02:11Z</updated>
+    <updated>2020-03-11T23:32:54Z</updated>
     <title>Memo Methods</title>
     <summary>Comparing and testing various memoization methods and gems in Ruby</summary>
     <category term="ruby"/>
     <category term="design patterns"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/infrastructure/zabbix/ruby-programmatic-config/</id>
-    <link href="https://codingkata.tardate.com/infrastructure/zabbix/ruby-programmatic-config/"/>
-    <updated>2020-03-11T23:27:34Z</updated>
-    <title>Zabbix Programmatic Configuration with Ruby</title>
-    <summary>Configuring zabbix via the API, with examples using zabbix-client ruby gem</summary>
-    <category term="infrastructure"/>
-    <category term="zabbix"/>
+    <id>https://codingkata.tardate.com/ruby/console_barcharts/</id>
+    <link href="https://codingkata.tardate.com/ruby/console_barcharts/"/>
+    <updated>2020-03-12T23:35:33Z</updated>
+    <title>Console Barcharts</title>
+    <summary>Print barcharts to the console in ascii or with unicode block elements</summary>
     <category term="ruby"/>
   </entry>
 </feed>
