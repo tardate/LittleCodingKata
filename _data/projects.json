@@ -640,6 +640,14 @@
         ], 
         "title": "Using Cargo"
     }, 
+    "/ruby/console_tables/": {
+        "summary": "Generating data tables in the console from Array, Hash, or ActiveRecord objects with the tablesmith gem", 
+        "id": 163, 
+        "tags": [
+            "ruby"
+        ], 
+        "title": "Console Tables"
+    }, 
     "/elixir/install_macosx/": {
         "summary": "Installing Elixir on MacOSX", 
         "id": 125, 

@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-03-12T23:35:52Z</updated>
+  <updated>2020-03-12T23:46:48Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1439,6 +1439,14 @@
     <updated>2020-03-12T23:35:33Z</updated>
     <title>Console Barcharts</title>
     <summary>Print barcharts to the console in ascii or with unicode block elements</summary>
+    <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/console_tables/</id>
+    <link href="https://codingkata.tardate.com/ruby/console_tables/"/>
+    <updated>2020-03-12T23:46:25Z</updated>
+    <title>Console Tables</title>
+    <summary>Generating data tables in the console from Array, Hash, or ActiveRecord objects with the tablesmith gem</summary>
     <category term="ruby"/>
   </entry>
 </feed>

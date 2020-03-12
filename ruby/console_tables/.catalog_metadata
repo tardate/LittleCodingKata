@@ -1,0 +1,6 @@
+{
+    "name": "Console Tables",
+    "description": "Generating data tables in the console from Array, Hash, or ActiveRecord objects with the tablesmith gem",
+    "categories": "ruby",
+    "relative_path": "ruby/console_tables"
+}

@@ -1294,5 +1294,13 @@
         "id": "#162", 
         "categories": "ruby", 
         "description": "Print barcharts to the console in ascii or with unicode block elements"
+    }, 
+    {
+        "name": "Console Tables", 
+        "updated_at": "2020-03-12T23:46:25Z", 
+        "relative_path": "ruby/console_tables", 
+        "id": "#163", 
+        "categories": "ruby", 
+        "description": "Generating data tables in the console from Array, Hash, or ActiveRecord objects with the tablesmith gem"
     }
 ]
