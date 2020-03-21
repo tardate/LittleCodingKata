@@ -378,6 +378,15 @@
         ], 
         "title": "Bash/loops"
     }, 
+    "/databases/redis/about/": {
+        "summary": "Redis basics and MacOSX installation", 
+        "id": 164, 
+        "tags": [
+            "databases", 
+            "redis"
+        ], 
+        "title": "About Redis"
+    }, 
     "/cpp/doxygen/": {
         "summary": "Installing and testing doxygen for c++ source documentation generation on MacOSX", 
         "id": 32, 

@@ -1,0 +1,8 @@
+{
+    "name": "About Redis",
+    "description": "Redis basics and MacOSX installation",
+    "categories": "databases, redis",
+    "relative_path": "databases/redis/about"
+}
+
+
