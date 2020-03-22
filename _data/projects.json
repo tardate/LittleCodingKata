@@ -262,6 +262,15 @@
         ], 
         "title": "punch"
     }, 
+    "/databases/redis/redis_desktop_manager/": {
+        "summary": "Building and running the Redis Desktop Manager applicaiton on MacOSX", 
+        "id": 165, 
+        "tags": [
+            "databases", 
+            "redis"
+        ], 
+        "title": "Redis Desktop Manager"
+    }, 
     "/tools/make/": {
         "summary": "Notes on make and makefiles", 
         "id": 90, 

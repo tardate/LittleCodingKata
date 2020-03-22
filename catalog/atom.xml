@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-03-21T23:56:45Z</updated>
+  <updated>2020-03-22T01:23:24Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1455,6 +1455,15 @@
     <updated>2020-03-21T23:56:25Z</updated>
     <title>About Redis</title>
     <summary>Redis basics and MacOSX installation</summary>
+    <category term="databases"/>
+    <category term="redis"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/databases/redis/redis_desktop_manager/</id>
+    <link href="https://codingkata.tardate.com/databases/redis/redis_desktop_manager/"/>
+    <updated>2020-03-22T01:22:57Z</updated>
+    <title>Redis Desktop Manager</title>
+    <summary>Building and running the Redis Desktop Manager applicaiton on MacOSX</summary>
     <category term="databases"/>
     <category term="redis"/>
   </entry>
