@@ -68,7 +68,7 @@
     }, 
     "/ruby/console_barcharts/": {
         "summary": "Print barcharts to the console in ascii or with unicode block elements", 
-        "id": 162, 
+        "id": 165, 
         "tags": [
             "ruby"
         ], 
@@ -264,7 +264,7 @@
     }, 
     "/databases/redis/redis_desktop_manager/": {
         "summary": "Building and running the Redis Desktop Manager applicaiton on MacOSX", 
-        "id": 165, 
+        "id": 163, 
         "tags": [
             "databases", 
             "redis"
@@ -389,7 +389,7 @@
     }, 
     "/databases/redis/about/": {
         "summary": "Redis basics and MacOSX installation", 
-        "id": 164, 
+        "id": 162, 
         "tags": [
             "databases", 
             "redis"
@@ -660,7 +660,7 @@
     }, 
     "/ruby/console_tables/": {
         "summary": "Generating data tables in the console from Array, Hash, or ActiveRecord objects with the tablesmith gem", 
-        "id": 163, 
+        "id": 164, 
         "tags": [
             "ruby"
         ], 
@@ -985,6 +985,16 @@
             "docker"
         ], 
         "title": "Zabbix Docker"
+    }, 
+    "/databases/redis/redis_cookbook/": {
+        "summary": "Notes on the book Redis Cookbook, By Tiago Macedo and Fred Oliveira, pubished by O'Reilly", 
+        "id": 166, 
+        "tags": [
+            "databases", 
+            "redis", 
+            "book"
+        ], 
+        "title": "Redis Cookbook"
     }, 
     "/rust/hello_world/": {
         "summary": "Rust - Hello World with concurrency", 

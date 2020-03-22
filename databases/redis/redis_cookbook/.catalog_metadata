@@ -1,0 +1,6 @@
+{
+    "name": "Redis Cookbook",
+    "description": "Notes on the book Redis Cookbook, By Tiago Macedo and Fred Oliveira, pubished by O'Reilly",
+    "categories": "databases, redis, book",
+    "relative_path": "databases/redis/redis_cookbook"
+}
