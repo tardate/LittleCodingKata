@@ -1,0 +1,6 @@
+{
+    "name": "printf partial strings",
+    "description": "Learning how printf can be instructed to select a limited number of characters from a string",
+    "categories": "c",
+    "relative_path": "c/printf_partial_string"
+}

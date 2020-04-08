@@ -1321,10 +1321,18 @@
     }, 
     {
         "name": "Redis Cookbook", 
-        "updated_at": "2020-03-22T01:37:38Z", 
+        "updated_at": "2020-03-31T01:50:42Z", 
         "relative_path": "databases/redis/redis_cookbook", 
         "id": "#166", 
         "categories": "databases, redis, book", 
         "description": "Notes on the book Redis Cookbook, By Tiago Macedo and Fred Oliveira, pubished by O'Reilly"
+    }, 
+    {
+        "name": "printf partial strings", 
+        "updated_at": "2020-04-08T14:47:59Z", 
+        "relative_path": "c/printf_partial_string", 
+        "id": "#167", 
+        "categories": "c", 
+        "description": "Learning how printf can be instructed to select a limited number of characters from a string"
     }
 ]

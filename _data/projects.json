@@ -74,6 +74,14 @@
         ], 
         "title": "Console Barcharts"
     }, 
+    "/c/printf_partial_string/": {
+        "summary": "Learning how printf can be instructed to select a limited number of characters from a string", 
+        "id": 167, 
+        "tags": [
+            "c"
+        ], 
+        "title": "printf partial strings"
+    }, 
     "/c/iterating_char_arrays/": {
         "summary": "Iterating Character Arrays", 
         "id": 56, 
