@@ -21,8 +21,7 @@ Objectives:
 ## Some Useful Features of the API
 
 [onYouTubeIframeAPIReady](https://developers.google.com/youtube/iframe_api_reference#Requirements)
-is a funciton that must also implemented. It is called by the API when loaded and ready.
-
+is a function that must be implemented. It is called by the API when loaded and ready.
 
 [Playback controls](https://developers.google.com/youtube/iframe_api_reference#Playback_controls) include
 

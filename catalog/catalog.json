@@ -1334,5 +1334,13 @@
         "id": "#167", 
         "categories": "c", 
         "description": "Learning how printf can be instructed to select a limited number of characters from a string"
+    }, 
+    {
+        "name": "sips", 
+        "updated_at": "2020-04-26T11:53:24Z", 
+        "relative_path": "tools/sips", 
+        "id": "#168", 
+        "categories": "tools", 
+        "description": "Using sips - scriptable image processing system on MacOSX"
     }
 ]

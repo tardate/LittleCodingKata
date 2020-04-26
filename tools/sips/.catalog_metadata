@@ -1,0 +1,6 @@
+{
+    "name": "sips",
+    "description": "Using sips - scriptable image processing system on MacOSX",
+    "categories": "tools",
+    "relative_path": "tools/sips"
+}

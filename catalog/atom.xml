@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-04-08T14:51:54Z</updated>
+  <updated>2020-04-26T11:53:53Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1484,5 +1484,13 @@
     <title>printf partial strings</title>
     <summary>Learning how printf can be instructed to select a limited number of characters from a string</summary>
     <category term="c"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/sips/</id>
+    <link href="https://codingkata.tardate.com/tools/sips/"/>
+    <updated>2020-04-26T11:53:24Z</updated>
+    <title>sips</title>
+    <summary>Using sips - scriptable image processing system on MacOSX</summary>
+    <category term="tools"/>
   </entry>
 </feed>

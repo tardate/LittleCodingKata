@@ -983,6 +983,14 @@
         ], 
         "title": "Javascript/highcharts_with_bower"
     }, 
+    "/tools/sips/": {
+        "summary": "Using sips - scriptable image processing system on MacOSX", 
+        "id": 168, 
+        "tags": [
+            "tools"
+        ], 
+        "title": "sips"
+    }, 
     "/infrastructure/zabbix/dockerized/": {
         "summary": "Running Zabbix with Docker", 
         "id": 134, 
