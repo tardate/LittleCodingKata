@@ -24,6 +24,14 @@
         ], 
         "title": "Error Function"
     }, 
+    "/ruby/simple_uris_with_addressable/": {
+        "summary": "Using the addressable gem for better handling of URIs/URLs", 
+        "id": 169, 
+        "tags": [
+            "ruby"
+        ], 
+        "title": "Simple URIs with addressable"
+    }, 
     "/elm/hello_clock/": {
         "summary": "2D graphics with elm", 
         "id": 17, 

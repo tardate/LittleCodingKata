@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-04-26T11:53:53Z</updated>
+  <updated>2020-05-08T17:16:06Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1492,5 +1492,13 @@
     <title>sips</title>
     <summary>Using sips - scriptable image processing system on MacOSX</summary>
     <category term="tools"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/simple_uris_with_addressable/</id>
+    <link href="https://codingkata.tardate.com/ruby/simple_uris_with_addressable/"/>
+    <updated>2020-05-08T17:13:53Z</updated>
+    <title>Simple URIs with addressable</title>
+    <summary>Using the addressable gem for better handling of URIs/URLs</summary>
+    <category term="ruby"/>
   </entry>
 </feed>

@@ -1,0 +1,6 @@
+{
+    "name": "Simple URIs with addressable",
+    "description": "Using the addressable gem for better handling of URIs/URLs",
+    "categories": "ruby",
+    "relative_path": "ruby/simple_uris_with_addressable"
+}
