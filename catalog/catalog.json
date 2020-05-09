@@ -1358,5 +1358,13 @@
         "id": "#170", 
         "categories": "c", 
         "description": "Summary and demonstration of all the usual bit operations in C"
+    }, 
+    {
+        "name": "Bit Fields", 
+        "updated_at": "2020-05-09T09:15:10Z", 
+        "relative_path": "c/bitfields", 
+        "id": "#171", 
+        "categories": "c", 
+        "description": "Using bitfields in C"
     }
 ]

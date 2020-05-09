@@ -1391,6 +1391,14 @@
         ], 
         "title": "ZeroMQ (book)"
     }, 
+    "/c/bitfields/": {
+        "summary": "Using bitfields in C", 
+        "id": 171, 
+        "tags": [
+            "c"
+        ], 
+        "title": "Bit Fields"
+    }, 
     "/ruby/json_parsing/": {
         "summary": "Generating pretty JSON with Ruby and dealing with quirks", 
         "id": 58, 

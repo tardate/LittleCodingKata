@@ -1,0 +1,6 @@
+{
+    "name": "Bit Fields",
+    "description": "Using bitfields in C",
+    "categories": "c",
+    "relative_path": "c/bitfields"
+}
