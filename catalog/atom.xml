@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-05-08T17:16:06Z</updated>
+  <updated>2020-05-09T07:19:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1500,5 +1500,13 @@
     <title>Simple URIs with addressable</title>
     <summary>Using the addressable gem for better handling of URIs/URLs</summary>
     <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/c/bit_operations/</id>
+    <link href="https://codingkata.tardate.com/c/bit_operations/"/>
+    <updated>2020-05-09T07:18:39Z</updated>
+    <title>Bitwise Operations</title>
+    <summary>Summary and demonstration of all the usual bit operations in C</summary>
+    <category term="c"/>
   </entry>
 </feed>

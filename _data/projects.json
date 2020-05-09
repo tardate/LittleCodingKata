@@ -795,6 +795,14 @@
         ], 
         "title": "rails4"
     }, 
+    "/c/bit_operations/": {
+        "summary": "Summary and demonstration of all the usual bit operations in C", 
+        "id": 170, 
+        "tags": [
+            "c"
+        ], 
+        "title": "Bitwise Operations"
+    }, 
     "/messaging/grpc/explainer/python/": {
         "summary": "hardware excuse generator with gRPC - Python client example", 
         "id": 49, 
