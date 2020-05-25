@@ -77,7 +77,7 @@ The `_BV` "bit value" - shortcut for creating a 1-bit mask. e.g. [avr/sfr_defs.h
 
 ### Running the Examples
 
-See [examples.c](./examples.c) for details. A makefile compiles and runs:
+See [example.c](./example.c) for details. A makefile compiles and runs:
 
 ```
 $ make

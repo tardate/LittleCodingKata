@@ -80,7 +80,7 @@ assert(bitset.bits.a == 1);
 
 ### Running the Examples
 
-See [examples.c](./examples.c) for details. A makefile compiles and runs:
+See [example.c](./example.c) for details. A makefile compiles and runs:
 
 ```
 $ make
