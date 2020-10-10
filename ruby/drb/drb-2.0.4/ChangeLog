@@ -1,0 +1,97 @@
+2003-06-29  Masatoshi SEKI  <m_seki@mva.biglobe.ne.jp>
+
+	* drb-2.0.4
+
+	* invokemethod16.rb: add
+
+	* invokemethod.rb: use LocalJumpeError#reason
+
+2003-05-27  Masatoshi SEKI  <m_seki@mva.biglobe.ne.jp>
+
+	* invokemethod.rb: use Block#call
+
+2003-05-21  Masatoshi SEKI  <m_seki@mva.biglobe.ne.jp>
+
+	* drb.rb: fix yield DRbUndumped (ruby-1.6)
+
+2003-05-09  Masatoshi SEKI  <m_seki@mva.biglobe.ne.jp>
+
+	* drb.rb, invokemethod.rb: introduce InvokeMethod16/18Mixin
+
+2003-05-03  Masatoshi SEKI  <m_seki@mva.biglobe.ne.jp>
+
+	* drb.rb, invokemethod.rb: introduce InvokeMethod
+
+	* drb.rb: break with arg.
+
+2003-04-08  Masatoshi SEKI  <m_seki@mva.biglobe.ne.jp>
+
+	* drb-2.0.3
+
+	* change uri_option (druby-ja:78)
+	  druby://host:port/opt -> druby://host:port?opt
+
+2003-03-08  Masatoshi SEKI  <m_seki@mva.biglobe.ne.jp>
+
+	* rinda.rb: fix notify event bug. (druby-ja:69)
+
+2003-03-08  Masatoshi SEKI  <m_seki@mva.biglobe.ne.jp>
+
+	* rinda.rb: fix mismatch notify args.
+
+2003-02-22  Shinya Kawaji <kawaji@hoppeta.com>
+
+	* unix.rb: fix uri_option bug. (druby-ja:64)
+
+2003-02-21  Masatoshi SEKI  <m_seki@mva.biglobe.ne.jp>
+
+	* drb-2.0.1
+
+2003-02-17  Masatoshi Seki  <m_seki@mva.biglobe.ne.jp>
+
+	* fix auto_load bug (druby-ja:60)
+
+2003-02-07  Masatoshi SEKI  <m_seki@mva.biglobe.ne.jp>
+
+	* drb-2.0.0
+
+2003-01-26  Masatoshi SEKI  <m_seki@mva.biglobe.ne.jp>
+
+	* add RingProvider
+
+2003-01-15  Hugh Sasse  <hgs@dmu.ac.uk>
+
+	* lib/acl.rb: rewrite ACLList#install_list
+
+2002-12-28  Masatoshi SEKI  <m_seki@mva.biglobe.ne.jp>
+
+	* rename yield_call to __drb_yield
+
+2002-12-17  Masatoshi SEKI  <m_seki@mva.biglobe.ne.jp>
+
+	* fix uri_option: druby://foo:12345/
+
+2002-12-10  Masatoshi SEKI  <m_seki@mva.biglobe.ne.jp>
+
+	* lib/rinda/ring.rb add broadcast_list
+
+2002-12-07  Masatoshi SEKI  <m_seki@mva.biglobe.ne.jp>
+
+	* Introduce URI option (druby://host:port/option)
+
+	* DRb.to_obj: Consolidate Dupulicate Conditional Fragments
+
+2002-11-24  Masatoshi SEKI  <m_seki@mva.biglobe.ne.jp>
+
+	* remove obsoleted rinda.
+
+2002-11-23  Masatoshi SEKI  <m_seki@mva.biglobe.ne.jp>
+
+	* rename lib/tuplespace.rb to sample/old_tuplespace.rb
+
+	* remove mutexm.rb
+
+	* mv simpletuple.rb to sample/
+
+	* rename unittests
+

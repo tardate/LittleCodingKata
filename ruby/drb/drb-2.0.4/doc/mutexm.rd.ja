@@ -1,0 +1,120 @@
+=begin
+=MutexM module
+任意のオブジェクトにMutexの機能を与える mix-in。
+次のような特徴がある。
+  * Mutexと同様にオブジェクトに対してlock/unlock/synchronizeできる。
+  * lock中のスレッドがsynchronize可能である。synchronizeの前後でlockの
+    状態は変化しない。
+  * synchronizeする attr_reader/writer/accessor を定義できる。
+  * lockしていないと例外を発生する attr_reader/writer/accessor を定義できる。
+  * メソッドを改名し synchronize でくるんだ同名のメソッドを定義できる。
+
+サンプルを以下に示す。
+
+      require 'mutexm'
+ 
+      class Balance
+        include MutexM
+        def initialize(f,b)
+          @foo = f
+          @bar = b
+          super
+        end
+        synchronize_reader(:foo, :bar)
+
+        def move(d)
+          @foo = @foo + d
+          @bar = @bar - d
+          [@foo, @bar]
+        end
+        synchronized :move
+      end
+
+      foo = Balance.new(10, 0)
+      p foo.move(5)
+
+==変更履歴
+
+1.0.1
+    * initializeをmu_initializeに分割。[ruby-dev:13467]
+
+0.9.2
+    * 違うスレッドがunlockできるバグの修正。
+    * lock待ちのスレッドがkillされた場合の対応。
+
+0.9.1
+    * synchronize_reader/writer/accessor, lock_reader/writer/accessor,
+      synchoronized で複数の名前を同時に指定できるようにした。
+    * initializeしなくても動作するようにした。教育的(?)にどうかは疑問。
+
+0.9
+    * 最初の公開バージョン
+
+
+==Module Methods:
+
+--- MutexM.initialize
+    MutexMを初期化する
+
+--- MutexM.mu_initialize
+    MutexMを初期化する
+
+--- MutexM.synchronize_reader(name)
+    synchronizeする attr_reader(name) を定義する。
+
+--- MutexM.synchronize_writer(name)
+    synchronizeする attr_writer(name) を定義する。
+
+--- MutexM.synchronize_accessor(name)
+    synchronizeする attr_accessor(name) を定義する。
+
+--- MutexM.lock_reader(name)
+    lockしていないと例外となる attr_reader(name) を定義する。
+
+--- MutexM.synchronize_writer(name)
+    lockしていないと例外となる attr_writer(name) を定義する。
+
+--- MutexM.synchronize_accessor(name)
+    lockしていないと例外となる attr_accessor(name) を定義する。
+
+
+--- MutexM.synchronized(methodname)
+    メソッド methodname を改名し、synchronize するメソッドを
+    定義する。元のメソッドは _mu_methodname となる。
+
+
+==Methods:
+
+それぞれ mu_ で始まる同名のメソッドがある。
+
+--- MutexM#synchronize
+    オブジェクトをロックし，ブロックを実行する。実行後にロックを開放する。
+    ただし、自スレッドがロック中の場合、synchronize はロックの状態を
+    変化させず、ブロックを実行する。二重に synchronize しても、内側の
+    synchronize はロックを変化させない。
+
+--- MutexM#locked?
+    ロックされている場合、真を返す。
+
+--- MutexM#try_lock
+    ロックしようとして、ロックが成功した場合、真を返す。ロックできなかった
+    場合にはブロックせず偽を返す。
+
+--- MutexM#lock
+    オブジェクトをロックする。一度に一つのスレッドだけがロックできる。
+    既にロックされているオブジェクトに対してロックを行おうとしたスレッドは
+    ロックが開放されるまでブロックする。
+
+
+--- MutexM#unlock
+    ロックを開放する。ロック待ちになっていたスレッドの実行は再開される。
+
+
+--- MutexM#in_synchronize
+    自スレッドがロックしていない場合、例外を発生させる。ロックしていることの
+    表明となる。
+
+
+Copyright (c) 2000-2001 Masatoshi SEKI
+((<m_seki@mva.biglobe.ne.jp|URL:mailto:m_seki@mva.biglobe.ne.jp>))
+=end

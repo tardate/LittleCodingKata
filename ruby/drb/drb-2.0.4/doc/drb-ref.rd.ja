@@ -1,0 +1,285 @@
+=begin
+=dRubyリファレンスマニュアル
+
+drb-1.3.2 版
+
+
+== DRb::DRbIdConv class
+オブジェクトと識別子の変換器。
+
+=== Methods:
+
+--- to_obj(id)
+識別子からオブジェクトに変換する。
+
+--- to_id(obj)
+オブジェクトから識別子に変換する。
+
+
+== DRb::DRbUndumped module
+参照渡しのためのMix-inクラス
+
+===  Methods:
+
+--- dump(dummy)
+dumpを失敗させる。TypeError例外を発生する。
+
+
+== DRb::DRbServerNotFound
+DRbServerが見つからないエラー。おそらくDRbServerが準備されていない。
+
+=== Superclass:
+RuntimeError
+
+
+== DRb::DRbUnknownError
+ローカルがMarshal.loadできない例外を受けたときに代わりに発生する例外。
+
+=== Superclass:
+RuntimeError
+
+=== Class methods:
+--- new(unknown)
+
+=== Methods:
+--- unknown
+Marshal.loadできないために代わりに作られたDRbUnknownオブジェクト。
+
+
+== DRb::DRbUnknown
+Marshal.loadできないためオブジェクトが渡されたときに代わりに生成される
+オブジェクト。
+
+=== Class methods:
+--- new(err, buf)
+Marsahl.loadが失敗したときに例外と元の直列化したオブジェクトから
+DRbUnknownを作る。
+
+--- load(s)
+DRbUnknownがMarshal.dumpされ、loadされるときに呼ばれるメソッド。
+元の直列化したオブジェクトをもう一度loadを試し、loadに成功すれば
+そのオブジェクトを返す。失敗すればDRbUnknownを返す。
+
+=== Methods:
+--- _dump(lv)
+Marshal.dumpで呼ばれ直列化したオブジェクトをそのまま返す。
+
+--- reload
+もう一度loadする
+
+--- exception
+DRbUnknownError例外を発生させる
+
+
+== DRb::DRbProtocol module
+通信にかかわるユーティリティ。内部で使用される。
+
+=== Methods:
+--- parse_uri(uri)
+URIからホスト、ポートを取り出す
+
+--- dump(obj, soc)
+objを直列化してsocに送る
+
+--- load(soc)
+socから直列化されたオブジェクトを取り出す
+
+--- send_request(soc, ref, msg_id, *arg, &b)
+socにメッセージを送信する
+
+--- recv_request(soc)
+socからのメッセージを受信する
+
+--- send_reply(soc, succ, result)
+socにメソッドの結果を送信する
+
+--- recv_reply(soc)
+socからメソッドの結果を受信する
+
+--- ro_to_obj(ro)
+参照オブジェクトからオブジェクトへ変換する
+
+
+== DRb::DRbObject class
+リモートオブジェクトを参照するオブジェクト
+
+=== Class methods:
+
+--- new(obj, uri=nil)
+objへの参照オブジェクトを作る。objがnilでuriが指定された場合uriのDRbServerの
+frontオブジェクトへの参照となる
+
+=== Methods:
+
+--- __drbref
+サーバ内でオブジェクトを特定するための識別子を返す。内部で使用。
+
+--- method_missing(msg_id, *a, &b)
+メソッドがないときに呼ばれ、リモートオブジェクトにメッセージを転送する
+
+--- to_s
+undefされており、リモートのメソッドが起動される
+
+--- to_a
+undefされており、リモートのメソッドが起動される
+
+--- respond_to?
+undefされており、リモートのメソッドが起動される
+
+
+== DRb::DRbConn class
+DRbObjectがリモートメソッドを起動するために使用するライブラリ。内部で使用。
+
+=== Superclass:
+DRbProtocol (Mix-in)
+
+=== Class methods:
+
+--- new(remote_uri)
+remote_uriで指定するサーバとの通信を準備する
+
+=== Methods:
+
+--- send_message(ref, msg_id, *arg, &block)
+リモートへメッセージを送信し、評価結果を受信する。
+
+--- untaint_remote
+privateメソッド。remote_uriをuntaintする
+
+
+== DRb::DRbServer class
+dRubyのRMIを提供するサーバスレッド。
+1.2系でDRbモジュールの機能だったのものの多くがDRbServerに移された。
+一つのプロセスで同時に複数のDRbServerを利用できる。
+
+=== Class Methods
+
+--- default_argc_limit(argc)
+メソッドの引数の数の上限を設定する。
+以降のDRbServerの生成から有効となる
+
+--- default_load_limit(sz)
+直列化されたオブジェクトのサイズの上限を設定する。
+以降のDRbServerの生成から有効となる
+
+--- default_acl(acl)
+デフォルトのACLを設定する。
+以降のDRbServerの生成から有効となる
+
+--- new(uri=nil, front=nil, acl=nil, idconv=nil)
+
+DRbServerを生成しサーバスレッドを起動する。
+アプリケーションで最初に生成されたDRbServerがprimary_serverとなる。
+
+uri はDRbServer自身のURIとなる。uriにはnilや省略された形式のURIを
+与えることができる。ポート番号を省略するとシステムが自動的に割り当てた
+ポートを使用する。
+frontはURIに関連付けられるオブジェクトである。
+ACLやid_convをカスタマイズする場合、それぞれacl, idconvで指定する。
+
+=== Methods
+
+--- uri
+完全なURIを返す
+
+--- thread
+サーバスレッドを返す
+
+--- front
+URIに関連付けられるfrontオブジェクトを返す
+
+--- argc_limit
+メソッドの引数の数の上限を返す
+
+--- argc_limit=
+メソッドの引数の数の上限を設定する
+
+--- load_limit
+直列化されたオブジェクトのサイズの上限を返す
+
+--- load_limit=
+直列化されたオブジェクトのサイズの上限を設定する
+
+--- alive?
+サーバスレッドが生きているか返す
+
+--- stop_service
+サーバスレッドを停止する
+
+--- to_obj(ref)
+識別子に対応するオブジェクトを返す
+
+--- to_id(obj)
+オブジェクトに対応する識別子を返す
+
+=== Private instance methods:
+
+--- kill_sub_thread
+サーバスレッドに起動されたスレッドを全て停止する
+
+--- run
+メインループ
+
+--- allow?(s)
+ソケットsからのアクセスを許すかどうか返す。
+アクセスの制御を変更したいときはこれをoverrideする。
+
+--- insecure_methods?(msg_id)
+危険なメソッドかどうか調べる。
+真の場合メソッドを起動しない
+
+--- fake_yield(argv)
+内部使用
+
+--- obj_send(obj, msg_id, *argv)
+リモートより要求されたobjへのメソッドを起動する。
+内部使用
+
+--- proc
+RMIの要求を処理する。
+内部使用
+
+
+== DRb module
+
+1.3より多くの機能はDRbServerへ移され、DRbのメソッドはプライマリサーバ、
+カレントサーバへ転送するものが多くなった。
+
+
+=== Methods:
+--- start_service(uri=nil, front=nil, acl=nil)
+DRbServerを生成しサーバスレッドを起動する。
+
+--- primary_server
+プライマリサーバを返す
+
+--- current_server
+カレントサーバを返す。
+現在のスレッドが関連しているDRbServerを関連がなければプライマリサーバを返す
+現在のスレッドがRMIによって起動されたものであれば、そのRMIを受理した
+サーバがカレントサーバである。
+
+--- stop_service
+プライマリサーバのサーバスレッドを停止する
+
+--- uri
+カレントサーバのURIを返す
+
+--- front
+カレントサーバのfrontオブジェクトを返す
+
+--- to_obj(ref)
+カレントサーバの変換方法で識別子に対応するオブジェクトを返す
+
+--- to_id(ref)
+カレントサーバの変換方法でオブジェクトに対応する識別子を返す
+
+--- thread
+プライマリサーバのスレッドを返す
+
+--- install_id_conv(idconv)
+DRbServer.default_id_conv(idconv)
+
+--- install_acl(acl)
+DRbServer.default_acl(acl)
+=end

@@ -1,0 +1,6 @@
+{
+    "name": "drb",
+    "description": "dRuby (drb) is a distributed object system for Ruby, included in the standard library",
+    "categories": "ruby",
+    "relative_path": "ruby/drb"
+}

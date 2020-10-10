@@ -26,7 +26,7 @@
     }, 
     "/ruby/simple_uris_with_addressable/": {
         "summary": "Using the addressable gem for better handling of URIs/URLs", 
-        "id": 169, 
+        "id": 171, 
         "tags": [
             "ruby"
         ], 
@@ -84,7 +84,7 @@
     }, 
     "/c/printf_partial_string/": {
         "summary": "Learning how printf can be instructed to select a limited number of characters from a string", 
-        "id": 167, 
+        "id": 169, 
         "tags": [
             "c"
         ], 
@@ -797,7 +797,7 @@
     }, 
     "/c/bit_operations/": {
         "summary": "Summary and demonstration of all the usual bit operations in C", 
-        "id": 170, 
+        "id": 168, 
         "tags": [
             "c"
         ], 
@@ -1001,7 +1001,7 @@
     }, 
     "/tools/sips/": {
         "summary": "Using sips - scriptable image processing system on MacOSX", 
-        "id": 168, 
+        "id": 167, 
         "tags": [
             "tools"
         ], 
@@ -1393,7 +1393,7 @@
     }, 
     "/c/bitfields/": {
         "summary": "Using bitfields in C", 
-        "id": 171, 
+        "id": 170, 
         "tags": [
             "c"
         ], 
@@ -1406,6 +1406,14 @@
             "ruby"
         ], 
         "title": "JSON Parsing"
+    }, 
+    "/ruby/drb/": {
+        "summary": "dRuby (drb) is a distributed object system for Ruby, included in the standard library", 
+        "id": 172, 
+        "tags": [
+            "ruby"
+        ], 
+        "title": "drb"
     }, 
     "/design/programming_interactivity/": {
         "summary": "Book notes - Programming Interactivity 2nd Edition, by Joshua Noble published by O'Reilly", 

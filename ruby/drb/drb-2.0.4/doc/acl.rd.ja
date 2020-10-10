@@ -1,0 +1,26 @@
+=begin
+=ACL-1.0.1
+ACLは簡単なアクセス制御をするクラスです。
+使い方は doc/acl.rd* を参照してください。
+
+==Files
+* acl.rb -- ACLクラス
+* acltest.rb -- ACLのrunitによる試験クラス
+* doc/acl.rd, acl.rd.ja -- リファレンス
+* install.rb -- インストーラ
+
+==Install
+# ruby install.rb
+
+==Copying
+* ACLは咳が著作権をもつフリーソフトウエアです。
+* ACLはRubyと同じ配布条件で再配布できます。
+* ACLは無保証です。
+
+==おねがい
+doc/acl.rdの英語がめちゃくちゃです。
+acl.rd.jaを元にどなたか書き直して頂けないでしょうか?
+
+Copyright (c) 2000 Masatoshi SEKI
+((<m_seki@mva.biglobe.ne.jp|URL:mailto:m_seki@mva.biglobe.ne.jp>))
+=end

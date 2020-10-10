@@ -1,0 +1,65 @@
+=begin
+=ACL class
+簡単なAccess Control Listクラス。
+IPソケットのpeer_addrを元にホスト単位にアクセスを制御する。
+アクセス制御リストは評価の順序を示す定数と、denyまたallowと
+アドレスを並べたリストで生成する。
+
+      list = %w(
+        deny all
+        allow 192.168.1.*
+        allow 127.0.0.1
+      )
+      acl = ACL.new(list, ACL::DENY_ALLOW)
+      ...
+      ns = soc.accept
+      unless acl.allow_socket?(ns)
+        # forbidden
+      end
+
+アドレスは次のように表現する
+* すべてのホスト --  "all", "*"
+* IPアドレス -- "192.168.1.1", "192.168.1.*", "192.168.*.1", "*.*.1.1",
+  "::ffff:192.168.*.*", "*:192.168.1.1"
+* ホスト名 -- "host.*", "host", "*.domain.jp"
+
+==Superclass:
+    Object
+
+==Class Methods:
+
+--- ACL.new(list=nil, order=DENY_ALLOW)
+    ACLを生成する。listが指定されると、listをインストールする。
+    orderのデフォルトはDENY_ALLOW。
+
+==Methods:
+
+--- ACL#allow_scoket?(soc)
+    ソケットsocのアクセスが許可されているか否かを返す。
+
+--- ACL#allow_addr?(addr)
+    アドレスaddrのアクセスが許可されているか否かを返す。
+
+--- ACL#install_list(list)
+    評価規則のリストをインストールする。
+    リストは'deny'または'allow'、アドレスの組を並べたものである。
+    次はlistの例である。
+      list = %w(
+        deny all
+        allow 192.168.1.*
+        allow 127.0.0.1
+      )
+
+
+==Constants:
+
+--- ACL::DENY_ALLOW
+    allowの前にdenyを評価する。デフォルトはOK。
+
+--- ACL::ALLOW_DENY
+    denyの前にallowを評価する。デフォルトはforbidden。
+
+
+Copyright (c) 2000 Masatoshi SEKI
+((<m_seki@mva.biglobe.ne.jp|URL:mailto:m_seki@mva.biglobe.ne.jp>))
+=end

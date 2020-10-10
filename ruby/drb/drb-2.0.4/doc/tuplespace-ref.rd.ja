@@ -1,0 +1,79 @@
+=begin
+=TupleSpace Class
+
+Lindaのtuple spaceを模したThread間通信のクラスです。
+Tupleに型はなく、配列で表現します。以下はtupleの例です。
+
+    * ['abc', 2, 5]
+    * 'matrix-1', 1, 6, 3.14]
+    * ["family", "is-sister", "Caronlyn", "Elinor"]
+ 
+in()に渡すパターンのnilの部分は任意の値とマッチします。
+nilでないオブジェクトは === で比較されます。
+
+  * in(['abc'. 2, 5])  
+    # --> ['abc', 2, 5]
+  * in(['matrix-1'. nil, nil, 3.14])
+    # --> ['matrix-1', 1, 6, 3.14]
+  * in(['family'. 'is-sister', String, String])
+    # --> ["family", "is-sister", "Caronlyn", "Elinor"] 
+
+
+==変更履歴
+
+0.9.1
+    * インストーラをつけた
+    * mv を追加 (drbのサンプルより移した)
+
+0.9
+    * tupleのマッチングを === とした
+    * 最初のRAA公開バージョン
+
+
+==Class Methods:
+
+--- new
+    TupleSpaceの生成。
+
+==Methods:
+
+--- TupleSpace#out(tuple, ...)
+    TupleSpaceにtupleを入れます。
+    引数を複数書くことで、複数のtupleを一度に投入できます。 
+
+--- TupleSpace#put(tuple, ...)
+    outの別名   
+    
+--- TupleSpace#write(tuple, ...)
+    outの別名   
+    
+--- TupleSpace#in(pattern, non_block=false)
+    TupleSpaceからpatternにマッチしたtupleを取り出します。 
+    patternは取り出したいtupleを示すパターンです。 マッチするtupleが
+    ないときブロックします。 
+    non_block=trueのとき、ブロックせずに ThreadError 例外を発生させます。 
+
+--- TupleSpace#get(pattern, non_block=false)
+    inの別名   
+
+--- TupleSpace#take(pattern, non_block=false)
+    inの別名   
+
+--- TupleSpace#rd(pattern, non_block=false)
+    TupleSpaceからpatternにマッチしたtupleを返します。
+    TupleSpaceからtupleを取り除かない点を以外は、inと同じです。
+
+--- TupleSpace#read(pattern, non_block=false)
+    rdの別名   
+
+--- TupleSpace#mv(dest, pattern, non_block=false)
+    二つの TupleSpace 間で tuple を移動させます。inと同様にマッチした
+    tupleを、dest の TupleSpace に追加(dest.out(tuple))します。
+    mv は分散した TupleSpace 間で tuple が紛失するのを防ぎます
+
+--- TupleSpace#move(dest, pattern, non_block=false)
+    mvの別名
+
+Copyright (c) 2000 Masatoshi SEKI
+((<m_seki@mva.biglobe.ne.jp|URL:mailto:m_seki@mva.biglobe.ne.jp>))
+=end

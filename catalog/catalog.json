@@ -1328,43 +1328,51 @@
         "description": "Notes on the book Redis Cookbook, By Tiago Macedo and Fred Oliveira, pubished by O'Reilly"
     }, 
     {
-        "name": "printf partial strings", 
-        "updated_at": "2020-04-08T14:47:59Z", 
-        "relative_path": "c/printf_partial_string", 
-        "id": "#167", 
-        "categories": "c", 
-        "description": "Learning how printf can be instructed to select a limited number of characters from a string"
-    }, 
-    {
         "name": "sips", 
-        "updated_at": "2020-04-26T11:53:24Z", 
+        "updated_at": "2020-05-23T07:46:51Z", 
         "relative_path": "tools/sips", 
-        "id": "#168", 
+        "id": "#167", 
         "categories": "tools", 
         "description": "Using sips - scriptable image processing system on MacOSX"
     }, 
     {
-        "name": "Simple URIs with addressable", 
-        "updated_at": "2020-05-08T17:13:53Z", 
-        "relative_path": "ruby/simple_uris_with_addressable", 
-        "id": "#169", 
-        "categories": "ruby", 
-        "description": "Using the addressable gem for better handling of URIs/URLs"
-    }, 
-    {
         "name": "Bitwise Operations", 
-        "updated_at": "2020-05-09T07:18:39Z", 
+        "updated_at": "2020-05-23T07:46:51Z", 
         "relative_path": "c/bit_operations", 
-        "id": "#170", 
+        "id": "#168", 
         "categories": "c", 
         "description": "Summary and demonstration of all the usual bit operations in C"
     }, 
     {
+        "name": "printf partial strings", 
+        "updated_at": "2020-05-23T07:46:51Z", 
+        "relative_path": "c/printf_partial_string", 
+        "id": "#169", 
+        "categories": "c", 
+        "description": "Learning how printf can be instructed to select a limited number of characters from a string"
+    }, 
+    {
         "name": "Bit Fields", 
-        "updated_at": "2020-05-09T09:15:10Z", 
+        "updated_at": "2020-05-23T07:46:51Z", 
         "relative_path": "c/bitfields", 
-        "id": "#171", 
+        "id": "#170", 
         "categories": "c", 
         "description": "Using bitfields in C"
+    }, 
+    {
+        "name": "Simple URIs with addressable", 
+        "updated_at": "2020-05-23T07:46:51Z", 
+        "relative_path": "ruby/simple_uris_with_addressable", 
+        "id": "#171", 
+        "categories": "ruby", 
+        "description": "Using the addressable gem for better handling of URIs/URLs"
+    }, 
+    {
+        "name": "drb", 
+        "updated_at": "2020-10-10T02:25:59Z", 
+        "relative_path": "ruby/drb", 
+        "id": "#172", 
+        "categories": "ruby", 
+        "description": "dRuby (drb) is a distributed object system for Ruby, included in the standard library"
     }
 ]
