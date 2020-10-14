@@ -1107,6 +1107,16 @@
         ], 
         "title": "gRPC Explainer/Node.js"
     }, 
+    "/docker/rails6/": {
+        "summary": "All about running Rails 6 with Docker", 
+        "id": 173, 
+        "tags": [
+            "docker", 
+            "ruby", 
+            "rails"
+        ], 
+        "title": "Rails 6 with Docker"
+    }, 
     "/ruby/rails3/": {
         "summary": "Features and demonstration of Rails 3.", 
         "id": 59, 

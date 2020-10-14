@@ -1374,5 +1374,13 @@
         "id": "#172", 
         "categories": "ruby", 
         "description": "dRuby (drb) is a distributed object system for Ruby, included in the standard library"
+    }, 
+    {
+        "name": "Rails 6 with Docker", 
+        "updated_at": "2020-10-29T12:37:02Z", 
+        "relative_path": "docker/rails6", 
+        "id": "#173", 
+        "categories": "docker, ruby, rails", 
+        "description": "All about running Rails 6 with Docker"
     }
 ]

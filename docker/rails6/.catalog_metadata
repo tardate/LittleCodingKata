@@ -1,0 +1,6 @@
+{
+    "name": "Rails 6 with Docker",
+    "description": "All about running Rails 6 with Docker",
+    "categories": "docker, ruby, rails",
+    "relative_path": "docker/rails6"
+}

@@ -1,0 +1,26 @@
+version: '3'
+services:
+  db:
+    image: postgres
+    volumes:
+      - minime_db:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: minimedbpwd
+  web:
+    build: .
+    volumes:
+      - .:/app
+      - /app/node_modules/
+      - /app/tmp/
+    environment:
+      - RAILS_DB_HOST=db
+      - RAILS_DB_USERNAME=postgres
+      - RAILS_DB_PASSWORD=minimedbpwd
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    stdin_open: true
+    tty: true
+volumes:
+  minime_db:
