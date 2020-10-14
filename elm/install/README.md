@@ -1,8 +1,6 @@
 # Installing elm
 
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 Perhaps one day elm will come with your browser, but for now

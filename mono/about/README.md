@@ -2,8 +2,6 @@
 
 
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 Sponsored by Microsoft, Mono is an open source implementation of Microsoft's .NET Framework based on the ECMA standards for C# and the Common Language Runtime.

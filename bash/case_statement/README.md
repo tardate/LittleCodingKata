@@ -3,8 +3,6 @@
 How to use case statements in the bash shell.
 
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 The case statement (aka switch statements) is better suited to handling complex conditionals than nexted if conditions.

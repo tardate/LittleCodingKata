@@ -2,8 +2,6 @@
 
 Reading Microsoft Access database files on a Mac with Python
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 I have some old Microsoft Access databases lying around ... I wonder if there's anything useful in them?

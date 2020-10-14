@@ -4,8 +4,6 @@ Investigting some of the pitfalls of directly reading doubles from a stream,
 then going down the rabbit hole of bugs and variations in the LLVM/Clang and GCC
 implementations of the C++ standard library.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 The C++ [std::basic_istream::operator>>](https://en.cppreference.com/w/cpp/io/basic_istream/operator_gtgt)

@@ -2,8 +2,6 @@
 
 Notes on dealing with a Redis issue on an old Ubuntu 14.04 docker image with CircleCI
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 When I migrated some Ruby/Rails projects to CircleCI 2.0, the migration scripts recommended

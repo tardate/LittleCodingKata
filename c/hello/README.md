@@ -1,8 +1,6 @@
 # #054 Hello World in C
 
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 

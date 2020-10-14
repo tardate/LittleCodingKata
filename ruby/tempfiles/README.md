@@ -1,7 +1,5 @@
 # Using Temporary Files with Ruby
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 The

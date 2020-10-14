@@ -2,8 +2,6 @@
 
 Notes on methods to inspect PostgreSQL role permissions, revoke permissions and drop roles.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 Problem: a PostgreSQL role (say "a.user") exists with miscellaneous permissions and needs to be removed.

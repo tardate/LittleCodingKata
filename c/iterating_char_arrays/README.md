@@ -1,8 +1,6 @@
 # 056 Iterating Character Arrays
 
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 

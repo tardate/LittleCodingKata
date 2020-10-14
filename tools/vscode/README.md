@@ -2,8 +2,6 @@
 
 Trying out Visual Studio Code.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 ![vscode-example](./assets/vscode-example.png?raw=true)

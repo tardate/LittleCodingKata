@@ -3,8 +3,6 @@
 Closures a great, but the results they produce depend on system state at the time they are called (not just when they are defined).
 
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 This is one of the classic gotchas detailed in the [python-guide](http://docs.python-guide.org/en/latest/writing/gotchas/#late-binding-closures).

@@ -2,8 +2,6 @@
 
 Features and demonstration of Rails 5.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 ### Key Features of Rails 5

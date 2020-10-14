@@ -2,8 +2,6 @@
 
 Exercising C++ exception handling.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 The essentials of exception handling in c++:

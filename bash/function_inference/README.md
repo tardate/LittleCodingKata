@@ -2,8 +2,6 @@
 
 How to test for the presence of functions in order to branch to arbitrary functions by name.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 In shell scripts, it is often useful to branch to a specific function given a parameter that matches the function name in some way.

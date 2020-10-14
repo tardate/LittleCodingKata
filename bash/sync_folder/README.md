@@ -2,8 +2,6 @@
 
 Comparing methods for synchronizing local folders - cp, rsync.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 Problem: need to make or update a copy of a folder to another local folder.

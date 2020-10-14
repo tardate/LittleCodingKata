@@ -2,8 +2,6 @@
 
 Features and demonstration of Rails 4.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 ### Key Features of Rails 4

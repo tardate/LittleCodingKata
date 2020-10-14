@@ -3,8 +3,6 @@
 Techniques for parsing environment variables with bash built-in features only.
 
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 In a script, we may want to parse an environment variable and do something with the resulting parts.

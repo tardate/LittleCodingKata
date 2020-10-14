@@ -2,8 +2,6 @@
 
 Installing and maintaining Node.js on MacOSX
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 I user homebrew to install and maintain node on MacOSX:

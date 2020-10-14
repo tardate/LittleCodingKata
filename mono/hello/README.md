@@ -1,8 +1,6 @@
 # #052 Hello World with C#/mono
 
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 

@@ -2,8 +2,6 @@
 
 Implementing linear regression, logistic regression and multi-nominal logistic regression with tensorflow-js and node.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 ### Libraries

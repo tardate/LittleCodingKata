@@ -2,8 +2,6 @@
 
 Testing Punch for static site generation (obsolete).
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 > Punch is a simple, intuitive web publishing framework that will delight both designers and developers.

@@ -1,8 +1,6 @@
 # Fix the First Line of a File
 
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 I have a text file, but the first line might need modification. What to do?

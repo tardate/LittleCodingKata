@@ -3,8 +3,6 @@
 Getting a Go compiler running under MacOSX
 
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 There are at least three methods:

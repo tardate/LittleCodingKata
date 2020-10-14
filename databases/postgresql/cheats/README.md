@@ -2,8 +2,6 @@
 
 Basic administration and data management command tips and tricks...
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 ## psql

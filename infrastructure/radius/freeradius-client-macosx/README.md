@@ -1,8 +1,6 @@
 # FreeRADIUS Client
 
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 FreeRADIUS Client is a C framework and library for writing RADIUS Clients.

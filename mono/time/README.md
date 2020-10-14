@@ -1,8 +1,6 @@
 # #053 Handling Time in C#/mono
 
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 

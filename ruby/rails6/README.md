@@ -2,8 +2,6 @@
 
 Running Rails 6, learning about changes and new features, and testing out my favourite gems including: HAML
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 Rails 6 was release August 16, 2019.

@@ -2,8 +2,6 @@
 
 All about hash-based message authentication code (HMAC) generation with Ruby.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 Hash-based message authentication code (HMAC) is a technique for verifying the data integrity and the authentication of a message.

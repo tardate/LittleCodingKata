@@ -2,8 +2,6 @@
 
 Who busted Python style-guide rules?
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 Personally, I find [flake8](http://flake8.pycqa.org/en/latest/) the most pragmatic

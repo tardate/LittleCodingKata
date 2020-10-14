@@ -2,8 +2,6 @@
 
 All about Address Resolution Protocol (ARP - RFC826) and installing arping on MacOSX.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 The arping utility sends an ARP REQUEST to a neighbour host.

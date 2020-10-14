@@ -2,8 +2,6 @@
 
 Methods for generating CSV output from a PostgreSQL SQL query.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 Often we'll want to snaffle some data from a PostgreSQL database in a [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) format

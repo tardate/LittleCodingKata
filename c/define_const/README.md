@@ -3,8 +3,6 @@
 Comparing the use of `#define` preprocessor macros and `const` statements.
 
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 Anyone who has some basic C education, or who has had to pickup and use some existing code, will have encountered preprocessor macros: `#define ...`.

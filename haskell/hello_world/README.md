@@ -1,8 +1,6 @@
 # Hello World! in Haskell
 
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 Haskell is an advanced purely-functional programming language.

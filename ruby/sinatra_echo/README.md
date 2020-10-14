@@ -2,8 +2,6 @@
 
 A Sinatra app that provides a number of remote request debugging tools, and can be run with Docker
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 This is a simple Sinatra application that responds with a number of diagnostic calls:

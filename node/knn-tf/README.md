@@ -2,8 +2,6 @@
 
 A demonstration of the k-nearest neighbors algorithm implemented using tensorflow-js with node.js.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 ### Libraries

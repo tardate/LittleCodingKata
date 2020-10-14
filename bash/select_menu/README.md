@@ -3,8 +3,6 @@
 Getting multiple-choice input from a user in a bash script.
 
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 Bash scripts are great for automating system management tasks.

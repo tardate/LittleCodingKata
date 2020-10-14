@@ -2,8 +2,6 @@
 
 Notes on installing and maintaining python 2 and 3 versions on MacOSX.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 ### Homebrew

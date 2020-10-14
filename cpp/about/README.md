@@ -2,8 +2,6 @@
 
 My place for notes on C++ resources and references.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 Just a place for notes on C++ resources and references...

@@ -2,8 +2,6 @@
 
 Using Sinatra to craft simple HTTP web responses for mock integration testing.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 Sometimes you need a web site to return a specific response - for example certain error codes and payloads.

@@ -2,8 +2,6 @@
 
 Using Amazon S3 or Wasabi for offsite data backup and long term storage.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 Since 2006, services like [Jungle Disk](https://en.wikipedia.org/wiki/Jungle_Disk)

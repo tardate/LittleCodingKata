@@ -3,8 +3,6 @@
 python quirks and gotchas
 
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 This is one of the classic gotchas detailed in the [python-guide](http://docs.python-guide.org/en/latest/writing/gotchas/#mutable-default-arguments).

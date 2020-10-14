@@ -2,8 +2,6 @@
 
 Generating pretty JSON with Ruby and dealing with quirks.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 Ruby's support for JSON is implemented as a core but separate [json gem](https://github.com/flori/json).

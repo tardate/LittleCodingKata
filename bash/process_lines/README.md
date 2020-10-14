@@ -1,8 +1,6 @@
 # #002 Process a File/Stream Line-by-Line
 
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 The bash `for..in` construct is useful for simple repetitive processing tasks.

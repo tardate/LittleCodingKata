@@ -2,8 +2,6 @@
 
 Loading CSV files with node.js in a form suitable for use in statistical/machine learning algorithms.
 
-[:arrow_forward: return to the Catalog](https://codingkata.tardate.com)
-
 ## Notes
 
 This is my working of an example from the [Machine Learning with Javascript](https://www.udemy.com/machine-learning-with-javascript/learn/v4/overview) course.
