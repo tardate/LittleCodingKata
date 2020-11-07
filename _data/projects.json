@@ -533,6 +533,16 @@
         ], 
         "title": "Haskell/about"
     }, 
+    "/ruby/rails6/devise/": {
+        "summary": "Running devise with Rails 6", 
+        "id": 174, 
+        "tags": [
+            "ruby", 
+            "rails", 
+            "security"
+        ], 
+        "title": "Devise with Rails 6"
+    }, 
     "/bash/case_statement/": {
         "summary": "How to use case statements in the bash shell", 
         "id": 22, 
@@ -1109,7 +1119,7 @@
     }, 
     "/docker/rails6/": {
         "summary": "All about running Rails 6 with Docker", 
-        "id": 173, 
+        "id": 172, 
         "tags": [
             "docker", 
             "ruby", 
@@ -1419,7 +1429,7 @@
     }, 
     "/ruby/drb/": {
         "summary": "dRuby (drb) is a distributed object system for Ruby, included in the standard library", 
-        "id": 172, 
+        "id": 173, 
         "tags": [
             "ruby"
         ], 

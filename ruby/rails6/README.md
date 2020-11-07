@@ -126,7 +126,7 @@ I prefer [haml](http://haml.info/) for templating in Rails. Does it still work f
 
 While one can just add the [haml](https://github.com/haml/haml) gem, I'm using
 [haml-rails](https://github.com/haml/haml-rails) which adds a rake task for converting Erb files.
-I ran thisk over all files in the app:
+I ran this over all files in the app:
 
 ```
 $ rails haml:erb2haml

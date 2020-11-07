@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-10-29T17:12:45Z</updated>
+  <updated>2020-11-07T07:48:03Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1518,21 +1518,31 @@
     <category term="ruby"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/ruby/drb/</id>
-    <link href="https://codingkata.tardate.com/ruby/drb/"/>
-    <updated>2020-10-10T02:25:59Z</updated>
-    <title>drb</title>
-    <summary>dRuby (drb) is a distributed object system for Ruby, included in the standard library</summary>
-    <category term="ruby"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/docker/rails6/</id>
     <link href="https://codingkata.tardate.com/docker/rails6/"/>
-    <updated>2020-10-29T12:37:02Z</updated>
+    <updated>2020-11-05T07:51:26Z</updated>
     <title>Rails 6 with Docker</title>
     <summary>All about running Rails 6 with Docker</summary>
     <category term="docker"/>
     <category term="ruby"/>
     <category term="rails"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/drb/</id>
+    <link href="https://codingkata.tardate.com/ruby/drb/"/>
+    <updated>2020-11-05T07:51:26Z</updated>
+    <title>drb</title>
+    <summary>dRuby (drb) is a distributed object system for Ruby, included in the standard library</summary>
+    <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/rails6/devise/</id>
+    <link href="https://codingkata.tardate.com/ruby/rails6/devise/"/>
+    <updated>2020-11-07T07:47:25Z</updated>
+    <title>Devise with Rails 6</title>
+    <summary>Running devise with Rails 6</summary>
+    <category term="ruby"/>
+    <category term="rails"/>
+    <category term="security"/>
   </entry>
 </feed>

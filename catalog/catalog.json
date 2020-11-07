@@ -1368,19 +1368,27 @@
         "description": "Using the addressable gem for better handling of URIs/URLs"
     }, 
     {
-        "name": "drb", 
-        "updated_at": "2020-10-10T02:25:59Z", 
-        "relative_path": "ruby/drb", 
+        "name": "Rails 6 with Docker", 
+        "updated_at": "2020-11-05T07:51:26Z", 
+        "relative_path": "docker/rails6", 
         "id": "#172", 
+        "categories": "docker, ruby, rails", 
+        "description": "All about running Rails 6 with Docker"
+    }, 
+    {
+        "name": "drb", 
+        "updated_at": "2020-11-05T07:51:26Z", 
+        "relative_path": "ruby/drb", 
+        "id": "#173", 
         "categories": "ruby", 
         "description": "dRuby (drb) is a distributed object system for Ruby, included in the standard library"
     }, 
     {
-        "name": "Rails 6 with Docker", 
-        "updated_at": "2020-10-29T12:37:02Z", 
-        "relative_path": "docker/rails6", 
-        "id": "#173", 
-        "categories": "docker, ruby, rails", 
-        "description": "All about running Rails 6 with Docker"
+        "name": "Devise with Rails 6", 
+        "updated_at": "2020-11-07T07:47:25Z", 
+        "relative_path": "ruby/rails6/devise", 
+        "id": "#174", 
+        "categories": "ruby, rails, security", 
+        "description": "Running devise with Rails 6"
     }
 ]
