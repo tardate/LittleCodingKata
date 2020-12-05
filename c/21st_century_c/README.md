@@ -10,7 +10,7 @@ See:
 * [goodreads](https://www.goodreads.com/book/show/17017525-21st-century-c)
 * [example code source](https://resources.oreilly.com/examples/0636920025108/)
 
-## Highlists from the Table of Contents
+## Highlights from the Table of Contents
 
 * Preface
 * C Is Punk Rock

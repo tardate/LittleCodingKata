@@ -9,7 +9,7 @@ See:
 * [O'Reilly listing](https://learning.oreilly.com/library/view/redis-cookbook/9781449311353/)
 * [goodreads](https://www.goodreads.com/book/show/12481481-redis-cookbook)
 
-## Highlists from the Table of Contents
+## Highlights from the Table of Contents
 
 1. An Introduction to Redis
 

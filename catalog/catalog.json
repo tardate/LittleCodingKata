@@ -1385,10 +1385,18 @@
     }, 
     {
         "name": "Devise with Rails 6", 
-        "updated_at": "2020-11-07T07:47:25Z", 
+        "updated_at": "2020-11-11T11:29:26Z", 
         "relative_path": "ruby/rails6/devise", 
         "id": "#174", 
         "categories": "ruby, rails, security", 
         "description": "Running devise with Rails 6"
+    }, 
+    {
+        "name": "Modern Front-End Development for Rails", 
+        "updated_at": "2020-12-05T07:43:17Z", 
+        "relative_path": "ruby/modern_front_end_development_for_rails", 
+        "id": "#175", 
+        "categories": "ruby, rails, javascript, book", 
+        "description": "description"
     }
 ]

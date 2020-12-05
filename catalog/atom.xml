@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-11-07T07:48:03Z</updated>
+  <updated>2020-12-05T08:00:02Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1538,11 +1538,22 @@
   <entry>
     <id>https://codingkata.tardate.com/ruby/rails6/devise/</id>
     <link href="https://codingkata.tardate.com/ruby/rails6/devise/"/>
-    <updated>2020-11-07T07:47:25Z</updated>
+    <updated>2020-11-11T11:29:26Z</updated>
     <title>Devise with Rails 6</title>
     <summary>Running devise with Rails 6</summary>
     <category term="ruby"/>
     <category term="rails"/>
     <category term="security"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/modern_front_end_development_for_rails/</id>
+    <link href="https://codingkata.tardate.com/ruby/modern_front_end_development_for_rails/"/>
+    <updated>2020-12-05T07:43:17Z</updated>
+    <title>Modern Front-End Development for Rails</title>
+    <summary>description</summary>
+    <category term="ruby"/>
+    <category term="rails"/>
+    <category term="javascript"/>
+    <category term="book"/>
   </entry>
 </feed>

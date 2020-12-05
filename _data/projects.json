@@ -1419,6 +1419,17 @@
         ], 
         "title": "Bit Fields"
     }, 
+    "/ruby/modern_front_end_development_for_rails/": {
+        "summary": "description", 
+        "id": 175, 
+        "tags": [
+            "ruby", 
+            "rails", 
+            "javascript", 
+            "book"
+        ], 
+        "title": "Modern Front-End Development for Rails"
+    }, 
     "/ruby/json_parsing/": {
         "summary": "Generating pretty JSON with Ruby and dealing with quirks", 
         "id": 58, 
