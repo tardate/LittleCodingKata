@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-12-05T08:00:02Z</updated>
+  <updated>2020-12-06T15:12:56Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1555,5 +1555,13 @@
     <category term="rails"/>
     <category term="javascript"/>
     <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/trumpeter_skin/</id>
+    <link href="https://codingkata.tardate.com/ruby/trumpeter_skin/"/>
+    <updated>2020-12-06T15:12:33Z</updated>
+    <title>Trumpeter Catalog Skin</title>
+    <summary>A simple and fast offline Trumpeter model catalog skin, using some nokogiri magic</summary>
+    <category term="ruby"/>
   </entry>
 </feed>

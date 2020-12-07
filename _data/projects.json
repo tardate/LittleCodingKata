@@ -1190,6 +1190,14 @@
         ], 
         "title": "zeromq on MacOSX"
     }, 
+    "/ruby/trumpeter_skin/": {
+        "summary": "A simple and fast offline Trumpeter model catalog skin, using some nokogiri magic", 
+        "id": 176, 
+        "tags": [
+            "ruby"
+        ], 
+        "title": "Trumpeter Catalog Skin"
+    }, 
     "/messaging/zeromq/c/request_reply/": {
         "summary": "Basic ZeroMQ 'hello world' example of the request-reply messaging pattern in C", 
         "id": 138, 

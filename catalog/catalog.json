@@ -1398,5 +1398,13 @@
         "id": "#175", 
         "categories": "ruby, rails, javascript, book", 
         "description": "description"
+    }, 
+    {
+        "name": "Trumpeter Catalog Skin", 
+        "updated_at": "2020-12-06T15:12:33Z", 
+        "relative_path": "ruby/trumpeter_skin", 
+        "id": "#176", 
+        "categories": "ruby", 
+        "description": "A simple and fast offline Trumpeter model catalog skin, using some nokogiri magic"
     }
 ]
