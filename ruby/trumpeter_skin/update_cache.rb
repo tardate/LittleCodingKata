@@ -108,7 +108,7 @@ class Scraper
           product_data['code'] = product_data['name'].split(' ').last
         end
         product_data['name'] = product_data['name'].gsub(" #{product_data['code']}", '').strip
-        product_data['scale'] = product.css('dd')[2].css('a').first.text.gsub('/', ':')
+        product_data['scale'] = product.css('dd')[2].css('a').first.text.gsub('/', ':').gsub('：', ':')
         STDERR.puts "[Load #{category_name} Products][#{Time.now}] #{product_data['code']} #{product_data['scale']} #{product_data['name']}"
         catalog.products[product_data['code']] = product_data
       end

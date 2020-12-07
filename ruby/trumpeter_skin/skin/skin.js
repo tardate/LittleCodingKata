@@ -67,7 +67,7 @@
             data: 'category', visible: false
           },
         ],
-        dom: "<'row'<'col-sm-6'l>>" +
+        dom: "<'row'<'col-sm-6'l><'col-sm-6'p>>" +
           "<'row'<'col-sm-12'tr>>" +
           "<'row'<'col-sm-5'i><'col-sm-7'p>>",
         order: [[0, 'asc']],
@@ -85,6 +85,7 @@
           product_search_term = ('Trumpeter ' + data.code + ' ' + data.name).replace(' ', '+');
           aliexpress_url = 'https://www.aliexpress.com/wholesale?catId=0&SearchText=' + product_search_term;
           google_url = 'https://www.google.com/search?q=' + product_search_term;
+          scalemates_url = 'https://www.scalemates.com/search.php?fkSECTION[]=Kits&q=Trumpeter+' + data.code;
 
           description = '';
 
@@ -105,6 +106,7 @@
               <div class="btn-group btn-group-sm" role="group" aria-label="..."> \
                 <a href="' + project_url + '" target="_blank" class="btn btn-default"><i class="fa fa-link" aria-hidden="true"></i></a> \
                 <a href="' + project_url + '" target="_blank" type="button" class="btn btn-default">Trumpeter</a> \
+                <a href="' + scalemates_url + '" target="_blank" type="button" class="btn btn-default">Scalemates</a> \
                 <a href="' + aliexpress_url + '" target="_blank" type="button" class="btn btn-default">AliExpress</a> \
                 <a href="' + google_url + '" target="_blank" type="button" class="btn btn-default">Google</a> \
               </div> \
