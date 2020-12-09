@@ -1392,19 +1392,27 @@
         "description": "Running devise with Rails 6"
     }, 
     {
-        "name": "Modern Front-End Development for Rails", 
-        "updated_at": "2020-12-05T07:43:17Z", 
-        "relative_path": "ruby/modern_front_end_development_for_rails", 
-        "id": "#175", 
-        "categories": "ruby, rails, javascript, book", 
-        "description": "description"
-    }, 
-    {
         "name": "Trumpeter Catalog Skin", 
-        "updated_at": "2020-12-06T15:12:33Z", 
+        "updated_at": "2020-12-07T11:02:53Z", 
         "relative_path": "ruby/trumpeter_skin", 
-        "id": "#176", 
+        "id": "#175", 
         "categories": "ruby", 
         "description": "A simple and fast offline Trumpeter model catalog skin, using some nokogiri magic"
+    }, 
+    {
+        "name": "Modern Front-End Development for Rails", 
+        "updated_at": "2020-12-09T07:19:59Z", 
+        "relative_path": "ruby/modern_front_end_development_for_rails", 
+        "id": "#176", 
+        "categories": "ruby, rails, javascript, book", 
+        "description": "Notes on the book Modern Front-End Development for Rails, By Noel Rappin, pubished by The Pragmatic Programmers"
+    }, 
+    {
+        "name": "Docker for Rails Developers", 
+        "updated_at": "2020-12-09T07:22:08Z", 
+        "relative_path": "docker/docker-for-rails-developers", 
+        "id": "#177", 
+        "categories": "docker, rails, book", 
+        "description": "Notes on the book Docker for Rails Developers, By Rob Isenberg, pubished by The Pragmatic Programmers"
     }
 ]

@@ -1,0 +1,6 @@
+{
+    "name": "Docker for Rails Developers",
+    "description": "Notes on the book Docker for Rails Developers, By Rob Isenberg, pubished by The Pragmatic Programmers",
+    "categories": "docker, rails, book",
+    "relative_path": "docker/docker-for-rails-developers"
+}

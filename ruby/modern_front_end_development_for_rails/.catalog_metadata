@@ -1,6 +1,6 @@
 {
     "name": "Modern Front-End Development for Rails",
-    "description": "description",
+    "description": "Notes on the book Modern Front-End Development for Rails, By Noel Rappin, pubished by The Pragmatic Programmers",
     "categories": "ruby, rails, javascript, book",
     "relative_path": "ruby/modern_front_end_development_for_rails"
 }

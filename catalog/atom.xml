@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2020-12-06T15:12:56Z</updated>
+  <updated>2020-12-09T16:01:22Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1546,22 +1546,32 @@
     <category term="security"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/ruby/trumpeter_skin/</id>
+    <link href="https://codingkata.tardate.com/ruby/trumpeter_skin/"/>
+    <updated>2020-12-07T11:02:53Z</updated>
+    <title>Trumpeter Catalog Skin</title>
+    <summary>A simple and fast offline Trumpeter model catalog skin, using some nokogiri magic</summary>
+    <category term="ruby"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/ruby/modern_front_end_development_for_rails/</id>
     <link href="https://codingkata.tardate.com/ruby/modern_front_end_development_for_rails/"/>
-    <updated>2020-12-05T07:43:17Z</updated>
+    <updated>2020-12-09T07:19:59Z</updated>
     <title>Modern Front-End Development for Rails</title>
-    <summary>description</summary>
+    <summary>Notes on the book Modern Front-End Development for Rails, By Noel Rappin, pubished by The Pragmatic Programmers</summary>
     <category term="ruby"/>
     <category term="rails"/>
     <category term="javascript"/>
     <category term="book"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/ruby/trumpeter_skin/</id>
-    <link href="https://codingkata.tardate.com/ruby/trumpeter_skin/"/>
-    <updated>2020-12-06T15:12:33Z</updated>
-    <title>Trumpeter Catalog Skin</title>
-    <summary>A simple and fast offline Trumpeter model catalog skin, using some nokogiri magic</summary>
-    <category term="ruby"/>
+    <id>https://codingkata.tardate.com/docker/docker-for-rails-developers/</id>
+    <link href="https://codingkata.tardate.com/docker/docker-for-rails-developers/"/>
+    <updated>2020-12-09T07:22:08Z</updated>
+    <title>Docker for Rails Developers</title>
+    <summary>Notes on the book Docker for Rails Developers, By Rob Isenberg, pubished by The Pragmatic Programmers</summary>
+    <category term="docker"/>
+    <category term="rails"/>
+    <category term="book"/>
   </entry>
 </feed>

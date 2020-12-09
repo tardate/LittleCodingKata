@@ -261,6 +261,16 @@
         ], 
         "title": "HMAC Generation with Ruby"
     }, 
+    "/docker/docker-for-rails-developers/": {
+        "summary": "Notes on the book Docker for Rails Developers, By Rob Isenberg, pubished by The Pragmatic Programmers", 
+        "id": 177, 
+        "tags": [
+            "docker", 
+            "rails", 
+            "book"
+        ], 
+        "title": "Docker for Rails Developers"
+    }, 
     "/python/reading_mdb/": {
         "summary": "Reading Microsoft Access database files on a Mac with Python", 
         "id": 86, 
@@ -1192,7 +1202,7 @@
     }, 
     "/ruby/trumpeter_skin/": {
         "summary": "A simple and fast offline Trumpeter model catalog skin, using some nokogiri magic", 
-        "id": 176, 
+        "id": 175, 
         "tags": [
             "ruby"
         ], 
@@ -1428,8 +1438,8 @@
         "title": "Bit Fields"
     }, 
     "/ruby/modern_front_end_development_for_rails/": {
-        "summary": "description", 
-        "id": 175, 
+        "summary": "Notes on the book Modern Front-End Development for Rails, By Noel Rappin, pubished by The Pragmatic Programmers", 
+        "id": 176, 
         "tags": [
             "ruby", 
             "rails", 

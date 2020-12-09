@@ -142,15 +142,13 @@ A1. Framework Swap
 
 ## Getting the Examples Source
 
-
 ```
 wget http://media.pragprog.com/titles/nrclient/code/nrclient-code.zip
 tar zxvf nrclient-code.zip
 rm nrclient-code.zip
 ```
 
-unzips into a `code` folder
-
+unzips into a `code` folder.
 
 ## Credits and References
 
