@@ -1376,6 +1376,14 @@
         ], 
         "title": "Tools/envsubst"
     }, 
+    "/python/pyenv/": {
+        "summary": "Using pyenv for managing multiple python environments", 
+        "id": 178, 
+        "tags": [
+            "python"
+        ], 
+        "title": "pyenv"
+    }, 
     "/rust/about/": {
         "summary": "Rust - my tl;dr summary", 
         "id": 14, 

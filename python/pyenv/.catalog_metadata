@@ -1,0 +1,6 @@
+{
+    "name": "pyenv",
+    "description": "Using pyenv for managing multiple python environments",
+    "categories": "python",
+    "relative_path": "python/pyenv"
+}
