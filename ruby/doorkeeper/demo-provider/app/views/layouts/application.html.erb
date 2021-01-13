@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DemoProvider</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%- unless controller.class.name.include? 'Devise' %>
+      <%- if user_signed_in? %>
+        <%= link_to 'Log Out', destroy_user_session_path, method: :delete %> |
+        <%= link_to 'OAuth Applications', oauth_applications_path %> |
+        <%= link_to 'OAuth Authorizations', oauth_authorized_applications_path %><br />
+      <% else %>
+        <%= link_to 'Log In', new_user_session_path %><br />
+      <% end %>
+    <% end %>
+    <%= yield %>
+  </body>
+</html>

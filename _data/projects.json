@@ -263,7 +263,7 @@
     }, 
     "/docker/docker-for-rails-developers/": {
         "summary": "Notes on the book Docker for Rails Developers, By Rob Isenberg, pubished by The Pragmatic Programmers", 
-        "id": 177, 
+        "id": 175, 
         "tags": [
             "docker", 
             "rails", 
@@ -438,6 +438,16 @@
             "book"
         ], 
         "title": "Docker Cookbook (Packt)"
+    }, 
+    "/ruby/doorkeeper/": {
+        "summary": "Learning about the Doorkeeper gem and testing it for adding OAuth2 provider capabilities to Rails applications", 
+        "id": 179, 
+        "tags": [
+            "ruby", 
+            "rails", 
+            "security"
+        ], 
+        "title": "Doorkeeper"
     }, 
     "/rust/testing/": {
         "summary": "How to write and organise tests for rust", 
@@ -1202,7 +1212,7 @@
     }, 
     "/ruby/trumpeter_skin/": {
         "summary": "A simple and fast offline Trumpeter model catalog skin, using some nokogiri magic", 
-        "id": 175, 
+        "id": 178, 
         "tags": [
             "ruby"
         ], 
@@ -1378,7 +1388,7 @@
     }, 
     "/python/pyenv/": {
         "summary": "Using pyenv for managing multiple python environments", 
-        "id": 178, 
+        "id": 176, 
         "tags": [
             "python"
         ], 
@@ -1447,7 +1457,7 @@
     }, 
     "/ruby/modern_front_end_development_for_rails/": {
         "summary": "Notes on the book Modern Front-End Development for Rails, By Noel Rappin, pubished by The Pragmatic Programmers", 
-        "id": 176, 
+        "id": 177, 
         "tags": [
             "ruby", 
             "rails", 
