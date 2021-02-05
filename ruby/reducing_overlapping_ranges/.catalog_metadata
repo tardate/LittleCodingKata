@@ -1,0 +1,6 @@
+{
+    "name": "Reducing Overlapping Ranges",
+    "description": "Looking at solutions for how to aggregate a series of ranges while excluding any overlaps (e.g. set of date ranges)",
+    "categories": "ruby",
+    "relative_path": "ruby/reducing_overlapping_ranges"
+}

@@ -1430,5 +1430,13 @@
         "id": "#179", 
         "categories": "ruby, rails, security", 
         "description": "Learning about the Doorkeeper gem and testing it for adding OAuth2 provider capabilities to Rails applications"
+    }, 
+    {
+        "name": "Reducing Overlapping Ranges", 
+        "updated_at": "2021-02-05T13:12:31Z", 
+        "relative_path": "ruby/reducing_overlapping_ranges", 
+        "id": "#180", 
+        "categories": "ruby", 
+        "description": "Looking at solutions for how to aggregate a series of ranges while excluding any overlaps (e.g. set of date ranges)"
     }
 ]

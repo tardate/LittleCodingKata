@@ -271,6 +271,14 @@
         ], 
         "title": "Docker for Rails Developers"
     }, 
+    "/ruby/reducing_overlapping_ranges/": {
+        "summary": "Looking at solutions for how to aggregate a series of ranges while excluding any overlaps (e.g. set of date ranges)", 
+        "id": 180, 
+        "tags": [
+            "ruby"
+        ], 
+        "title": "Reducing Overlapping Ranges"
+    }, 
     "/python/reading_mdb/": {
         "summary": "Reading Microsoft Access database files on a Mac with Python", 
         "id": 86, 

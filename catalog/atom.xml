@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-01-13T09:23:16Z</updated>
+  <updated>2021-02-05T13:58:20Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1591,5 +1591,13 @@
     <category term="ruby"/>
     <category term="rails"/>
     <category term="security"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/reducing_overlapping_ranges/</id>
+    <link href="https://codingkata.tardate.com/ruby/reducing_overlapping_ranges/"/>
+    <updated>2021-02-05T13:12:31Z</updated>
+    <title>Reducing Overlapping Ranges</title>
+    <summary>Looking at solutions for how to aggregate a series of ranges while excluding any overlaps (e.g. set of date ranges)</summary>
+    <category term="ruby"/>
   </entry>
 </feed>
