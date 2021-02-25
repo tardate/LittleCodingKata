@@ -45,14 +45,14 @@ class Catalog(object):
             data['updated_at'] = self.get_project_modified_datetime(data['relative_path']).strftime("%Y-%m-%dT%H:%M:%SZ")
             return data
 
-        def add_id(i, data):
-            data['id'] = '#' + str(i + 1).zfill(3)
-            return data
+        def add_id(i, row):
+            row['id'] = '#' + str(i + 1).zfill(3)
+            return row
 
         if getattr(self, '_metadata', None) is None:
             data = map(lambda filename: load_data(filename), self.metadata_files())
             data = sorted(data, key=lambda k: k['updated_at'])
-            self._metadata = map(lambda (i, data): add_id(i, data), enumerate(data))
+            self._metadata = [add_id(i, row) for i, row in enumerate(data)]
         return self._metadata
 
     def get_project_file(self, relative_path, name='.catalog_metadata'):
@@ -64,7 +64,7 @@ class Catalog(object):
 
     def generate_catalog(self):
         """ Command: re-writes the catalog file from catalog_metadata. """
-        print "Writing {}..".format(self.catalog_json)
+        print('Writing {}..'.format(self.catalog_json))
         with open(self.catalog_json, 'w') as f:
             json.dump(self.metadata(), f, indent=4)
 
@@ -80,7 +80,7 @@ class Catalog(object):
                 }
             return result
 
-        print "Writing {}..".format(self.project_json)
+        print("Writing {}..".format(self.project_json))
         with open(self.project_json, 'w') as f:
             json.dump(project_data(), f, indent=4)
 
@@ -92,9 +92,9 @@ class Catalog(object):
                 ElementTree.tostring(doc, 'utf-8')
             ).toprettyxml(indent="  ")
             with open(file, 'w') as f:
-                f.write(pretty_xml.encode('utf8'))
+                f.write(pretty_xml)
 
-        print "Writing {}..".format(self.catalog_atom)
+        print("Writing {}..".format(self.catalog_atom))
         root = ElementTree.Element('feed', xmlns='http://www.w3.org/2005/Atom')
         root.set('xmlns:g', 'http://base.google.com/ns/1.0')
         ElementTree.SubElement(root, "title").text = "LittleCodingKata"

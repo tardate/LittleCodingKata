@@ -1,1450 +1,1450 @@
 [
     {
-        "name": "deleting_roles", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "databases/postgresql/deleting_roles", 
-        "id": "#001", 
-        "categories": "databases, postgresql", 
-        "description": "Notes on methods to inspect PostgreSQL role permissions, revoke permissions and drop roles"
-    }, 
-    {
-        "name": "arping", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "tools/arping", 
-        "id": "#002", 
-        "categories": "tools", 
-        "description": "All about Address Resolution Protocol (ARP - RFC826) and installing arping on MacOSX"
-    }, 
-    {
-        "description": "homebrew (MacOSX package manager) tips and tricks", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "tools/homebrew", 
-        "id": "#003", 
-        "categories": "Tools, MacOSX", 
-        "name": "Tools/homebrew"
-    }, 
-    {
-        "description": "substitute shell variables in text", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "tools/envsubst", 
-        "id": "#004", 
-        "categories": "Tools, Bash", 
-        "name": "Tools/envsubst"
-    }, 
-    {
-        "description": "about iproute2 and how to run it on MacOSX", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "tools/iproute2", 
-        "id": "#005", 
-        "categories": "Tools, MacOSX", 
-        "name": "Tools/iproute2"
-    }, 
-    {
-        "name": "vscode", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "tools/vscode", 
-        "id": "#006", 
-        "categories": "tools, editors", 
-        "description": "Trying out Visual Studio Code"
-    }, 
-    {
-        "description": "exploring Go with the simplest example", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "go/hello_world", 
-        "id": "#007", 
-        "categories": "Go", 
-        "name": "Go/hello_world"
-    }, 
-    {
-        "description": "Go language - my tl;dr summary", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "go/about", 
-        "id": "#008", 
-        "categories": "Go", 
-        "name": "Go/about"
-    }, 
-    {
-        "description": "installing Go on MacOSX", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "go/install_macosx", 
-        "id": "#009", 
-        "categories": "Go, MacOSX", 
-        "name": "Go/install_macosx"
-    }, 
-    {
-        "description": "patching text files with Perl", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "perl/patch_file", 
-        "id": "#010", 
-        "categories": "perl", 
-        "name": "Perl/patch_file"
-    }, 
-    {
-        "description": "patching text files with Perl - fix the first line only", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "perl/fix_first_line", 
-        "id": "#011", 
-        "categories": "perl", 
-        "name": "Perl/fix_first_line"
-    }, 
-    {
-        "description": "a Javascript Datatables catalog for GitHub Pages", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "catalog", 
-        "id": "#012", 
-        "categories": "Tools, Javascript", 
-        "name": "Catalog"
-    }, 
-    {
-        "description": "Rust - Hello World with concurrency", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "rust/hello_world", 
-        "id": "#013", 
-        "categories": "Rust", 
-        "name": "Rust/hello_world"
-    }, 
-    {
-        "description": "Rust - my tl;dr summary", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "rust/about", 
-        "id": "#014", 
-        "categories": "Rust", 
-        "name": "Rust/about"
-    }, 
-    {
-        "description": "Rust - installing on MacOSX", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "rust/install_macosx", 
-        "id": "#015", 
-        "categories": "Rust, MacOSX", 
-        "name": "Rust/install_macosx"
-    }, 
-    {
-        "description": "Installing Elm on MacOSX", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "elm/install", 
-        "id": "#016", 
-        "categories": "Elm, MacOSX", 
-        "name": "Elm/install"
-    }, 
-    {
-        "description": "2D graphics with elm", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "elm/hello_clock", 
-        "id": "#017", 
-        "categories": "Elm", 
-        "name": "Elm/hello_clock"
-    }, 
-    {
-        "description": "Haskell - Hello World", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "haskell/hello_world", 
-        "id": "#018", 
-        "categories": "Haskell", 
-        "name": "Haskell/hello_world"
-    }, 
-    {
-        "description": "Haskell - my tl;dr summary", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "haskell/about", 
-        "id": "#019", 
-        "categories": "Haskell", 
-        "name": "Haskell/about"
-    }, 
-    {
-        "description": "installing Haskell on MacOSX", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "haskell/install_macosx", 
-        "id": "#020", 
-        "categories": "Haskell, MacOSX", 
-        "name": "Haskell/install_macosx"
-    }, 
-    {
-        "name": "Bash/function_inference", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "bash/function_inference", 
-        "id": "#021", 
-        "categories": "Bash", 
-        "description": "How to test for the presence of functions in order to branch to arbitrary functions by name"
-    }, 
-    {
-        "description": "How to use case statements in the bash shell", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "bash/case_statement", 
-        "id": "#022", 
-        "categories": "Bash", 
-        "name": "Bash/case_statement"
-    }, 
-    {
-        "name": "sync_folder", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "bash/sync_folder", 
-        "id": "#023", 
-        "categories": "Bash", 
-        "description": "Comparing methods for synchronizing local folders - cp, rsync"
-    }, 
-    {
-        "description": "How to implement simple resource semaphores with file locks", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "bash/file_locks", 
-        "id": "#024", 
-        "categories": "Bash", 
-        "name": "Bash/file_locks"
-    }, 
-    {
-        "description": "Techniques for parsing environment variables with bash built-in features only", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "bash/parse_env_setting", 
-        "id": "#025", 
-        "categories": "Bash", 
-        "name": "Bash/parse_env_setting"
-    }, 
-    {
-        "description": "simple multiple-choice user input", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "bash/select_menu", 
-        "id": "#026", 
-        "categories": "Bash", 
-        "name": "Bash/select_menu"
-    }, 
-    {
-        "description": "All about Bash loops", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "bash/loops", 
-        "id": "#027", 
-        "categories": "Bash", 
-        "name": "Bash/loops"
-    }, 
-    {
-        "description": "process a file line-by-line", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "bash/process_lines", 
-        "id": "#028", 
-        "categories": "Bash", 
-        "name": "Bash/process_lines"
-    }, 
-    {
-        "description": "Test-driving some techniques for building static sites with Jekyll", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "staticweb/jekyll", 
-        "id": "#029", 
-        "categories": "Jekyll, static", 
-        "name": "staticweb/jekyll"
-    }, 
-    {
-        "description": "C++ exception handling", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "cpp/exception_handling", 
-        "id": "#030", 
-        "categories": "C++", 
-        "name": "C++/exception_handling"
-    }, 
-    {
-        "name": "C++/about", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "cpp/about", 
-        "id": "#031", 
-        "categories": "C++", 
-        "description": "My place for notes on C++ resources and references"
-    }, 
-    {
-        "description": "Installing and testing doxygen for c++ source documentation generation on MacOSX", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "cpp/doxygen", 
-        "id": "#032", 
-        "categories": "C++", 
-        "name": "cpp/doxygen"
-    }, 
-    {
-        "name": "C++/DoubleTrouble", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "cpp/DoubleTrouble", 
-        "id": "#033", 
-        "categories": "C++", 
-        "description": "Investigting some of the pitfalls of directly reading doubles from a stream, then going down the rabbit hole of bugs and variations in the LLVM/Clang and GCC implementations of the C++ standard library."
-    }, 
-    {
-        "description": "About C# with Mono", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "mono/about", 
-        "id": "#034", 
-        "categories": "Mono, C#", 
-        "name": "mono/about"
-    }, 
-    {
-        "description": "Handling Time in C#/mono", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "mono/time", 
-        "id": "#035", 
-        "categories": "Mono, C#", 
-        "name": "mono/time"
-    }, 
-    {
-        "description": "Hello World with C#/mono", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "mono/hello", 
-        "id": "#036", 
-        "categories": "Mono, C#", 
-        "name": "mono/hello"
-    }, 
-    {
-        "description": "test drive the Kiss FFT C library with an example", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "fft/running_kissfft_example", 
-        "id": "#037", 
-        "categories": "C, FFT", 
-        "name": "fft/running_kissfft_example"
-    }, 
-    {
-        "description": "Interactive Ribbon Charts with plotly.js", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "javascript/plotly_ribbon_charts", 
-        "id": "#038", 
-        "categories": "Javascript", 
-        "name": "Javascript/plotly_ribbon_charts"
-    }, 
-    {
-        "description": "Highcharts with Bower", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "javascript/highcharts_with_bower", 
-        "id": "#039", 
-        "categories": "Javascript", 
-        "name": "Javascript/highcharts_with_bower"
-    }, 
-    {
-        "description": "Progress Bars with Bootstrap", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "javascript/progress_bars_bootstrap", 
-        "id": "#040", 
-        "categories": "Javascript", 
-        "name": "Javascript/progress_bars_bootstrap"
-    }, 
-    {
-        "name": "plinko", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "javascript/plinko", 
-        "id": "#041", 
-        "categories": "javascript, knn", 
-        "description": "A demonstration of the k-nearest neighbors algorithm implemented in javascript in a browser"
-    }, 
-    {
-        "name": "loadcsv", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "node/loadcsv", 
-        "id": "#042", 
-        "categories": "node, CSV", 
-        "description": "Loading CSV files with node.js in a form suitable for use in statistical/machine learning algorithms"
-    }, 
-    {
-        "name": "knn-tf", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "node/knn-tf", 
-        "id": "#043", 
-        "categories": "node, knn, tensorflow", 
-        "description": "A demonstration of the k-nearest neighbors algorithm implemented using tensorflow-js with node.js"
-    }, 
-    {
-        "name": "regression", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "node/regression", 
-        "id": "#044", 
-        "categories": "node, regression, tensorflow", 
-        "description": "Implementing linear regression, logistic regression and multi-nominal logistic regression with tensorflow-js and node"
-    }, 
-    {
-        "description": "RADIUS - my tl;dr summary", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "infrastructure/radius/about", 
-        "id": "#045", 
-        "categories": "RADIUS, infrastructure", 
-        "name": "RADIUS/about"
-    }, 
-    {
-        "description": "FreeRADIUS - running on MacOSX (#fail - this project needs work)", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "infrastructure/radius/freeradius-client-macosx", 
-        "id": "#046", 
-        "categories": "RADIUS, MacOSX, infrastructure", 
-        "name": "FreeRADIUS/freeradius-client-macosx"
-    }, 
-    {
-        "description": "FreeRADIUS - running on MacOSX", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "infrastructure/radius/freeradius-server-macosx", 
-        "id": "#047", 
-        "categories": "RADIUS, MacOSX, infrastructure", 
-        "name": "FreeRADIUS/freeradius-server-macosx"
-    }, 
-    {
-        "description": "hardware excuse generator with gRPC", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "messaging/grpc/explainer", 
-        "id": "#048", 
-        "categories": "gRPC, Messaging", 
-        "name": "gRPC Explainer"
-    }, 
-    {
-        "description": "hardware excuse generator with gRPC - Python client example", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "messaging/grpc/explainer/python", 
-        "id": "#049", 
-        "categories": "gRPC, Python, Messaging", 
-        "name": "gRPC Explainer/Python"
-    }, 
-    {
-        "description": "hardware excuse generator with gRPC - C++ client example", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "messaging/grpc/explainer/cpp", 
-        "id": "#050", 
-        "categories": "gRPC, C++, Messaging", 
-        "name": "gRPC Explainer/C++"
-    }, 
-    {
-        "description": "hardware excuse generator with gRPC - C# client example", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "messaging/grpc/explainer/csharp", 
-        "id": "#051", 
-        "categories": "gRPC, C#, Messaging", 
-        "name": "gRPC Explainer/C#"
-    }, 
-    {
-        "description": "hardware excuse generator with gRPC - Node client example", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "messaging/grpc/explainer/node", 
-        "id": "#052", 
-        "categories": "gRPC, Node, Messaging", 
-        "name": "gRPC Explainer/Node.js"
-    }, 
-    {
-        "description": "hardware excuse generator with gRPC - Ruby client and server example", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "messaging/grpc/explainer/ruby", 
-        "id": "#053", 
-        "categories": "gRPC, Ruby, Messaging", 
-        "name": "gRPC Explainer/Ruby"
-    }, 
-    {
-        "description": "installing on MacOSX", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "messaging/grpc/install_macosx", 
-        "id": "#054", 
-        "categories": "gRPC, MacOSX, Messaging", 
-        "name": "gRPC/install_macosx"
-    }, 
-    {
-        "description": "Comparing the use of `#define` preprocessor macros and `const` statements", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "c/define_const", 
-        "id": "#055", 
-        "categories": "C", 
-        "name": "c/define_const"
-    }, 
-    {
-        "description": "Iterating Character Arrays", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "c/iterating_char_arrays", 
-        "id": "#056", 
-        "categories": "C", 
-        "name": "c/iterating_char_arrays"
-    }, 
-    {
-        "description": "Hello World in C", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "c/hello", 
-        "id": "#057", 
-        "categories": "C", 
-        "name": "c/hello"
-    }, 
-    {
-        "name": "JSON Parsing", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "ruby/json_parsing", 
-        "id": "#058", 
-        "categories": "ruby", 
-        "description": "Generating pretty JSON with Ruby and dealing with quirks"
-    }, 
-    {
-        "name": "rails3", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "ruby/rails3", 
-        "id": "#059", 
-        "categories": "ruby, rails", 
-        "description": "Features and demonstration of Rails 3."
-    }, 
-    {
-        "name": "rails4", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "ruby/rails4", 
-        "id": "#060", 
-        "categories": "ruby, rails", 
-        "description": "Features and demonstration of Rails 4"
-    }, 
-    {
-        "name": "rails5", 
-        "updated_at": "2019-09-08T11:16:43Z", 
-        "relative_path": "ruby/rails5", 
-        "id": "#061", 
-        "categories": "ruby, rails", 
-        "description": "Features and demonstration of Rails 5"
-    }, 
-    {
-        "name": "SQL to CSV", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "databases/postgresql/sql2csv", 
-        "id": "#062", 
-        "categories": "databases, postgresql, psql, csv", 
-        "description": "Methods for generating CSV output from a PostgreSQL SQL query"
-    }, 
-    {
-        "name": "PostgreSQL Cheat Sheet", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "databases/postgresql/cheats", 
-        "id": "#063", 
-        "categories": "Database, PostgreSQL", 
-        "description": "Basic administration and data management command notes"
-    }, 
-    {
-        "name": "MySQL Cheat Sheet", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "databases/mysql/cheats", 
-        "id": "#064", 
-        "categories": "Database, MySQL", 
-        "description": "Basic administration and data management command notes"
-    }, 
-    {
-        "name": "MacOSX Cheatsheet", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "tools/macosx_cheats", 
-        "id": "#065", 
-        "categories": "Tools, MacOSX", 
-        "description": "my favourite MacOSX tools, tips and tricks"
-    }, 
-    {
-        "name": "s3sync", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "tools/s3sync", 
-        "id": "#066", 
-        "categories": "tools, S3, AWS, Wasabi", 
-        "description": "Using Amazon S3 or Wasabi for offsite data backup and long term storage"
-    }, 
-    {
-        "description": "writing web client code with twisted and tests", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "python/twisted_web_client", 
-        "id": "#067", 
-        "categories": "python", 
-        "name": "Python/twisted_web_client"
-    }, 
-    {
-        "description": "Python quirks - mutable default params", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "python/quirks/mutable_default_params", 
-        "id": "#068", 
-        "categories": "python", 
-        "name": "Python/quirks/mutable_default_params"
-    }, 
-    {
-        "description": "Python quirks - late-bound closures", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "python/quirks/late_bound_closures", 
-        "id": "#069", 
-        "categories": "python", 
-        "name": "Python/quirks/late_bound_closures"
-    }, 
-    {
-        "description": "all about decorating class methods and preserving the ability to introspect", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "python/decorating_class_methods", 
-        "id": "#070", 
-        "categories": "python", 
-        "name": "Python/decorating_class_methods"
-    }, 
-    {
-        "description": "How to find great python libraries and resources", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "python/finding_libraries", 
-        "id": "#071", 
-        "categories": "python", 
-        "name": "python/finding_libraries"
-    }, 
-    {
-        "description": "Using Python with the imgur API and demonstrate scanning imgur albums for image links", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "python/imgur", 
-        "id": "#072", 
-        "categories": "python, imgur", 
-        "name": "python/imgur"
-    }, 
-    {
-        "name": "flake8-blame", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "python/flake8-blame", 
-        "id": "#073", 
-        "categories": "python, Bash", 
-        "description": "Who busted Python style-guide rules?"
-    }, 
-    {
-        "name": "MAC Address Generation with Python", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "python/random_mac_generation", 
-        "id": "#074", 
-        "categories": "python", 
-        "description": "all about MAC and generating random MAC addresses"
-    }, 
-    {
-        "description": "Building MicroPython on MacOSX", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "python/micropython/compiling_macosx", 
-        "id": "#075", 
-        "categories": "python, MicroPython", 
-        "name": "python/micropython/compiling_macosx"
-    }, 
-    {
-        "description": "Using the begins library to write command line scripts without all the cruft", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "python/simple_cli_with_begins", 
-        "id": "#076", 
-        "categories": "python, CLI", 
-        "name": "python/simple_cli_with_begins"
-    }, 
-    {
-        "description": "writing client-server code with twisted and tests", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "python/twisted_client_server", 
-        "id": "#077", 
-        "categories": "python", 
-        "name": "Python/twisted_client_server"
-    }, 
-    {
-        "description": "or: why not to put an __init__.py in your top level folder", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "python/top_level_imports", 
-        "id": "#078", 
-        "categories": "python", 
-        "name": "Python/top_level_imports"
-    }, 
-    {
-        "name": "HMAC Generation with Ruby", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "ruby/hmac", 
-        "id": "#079", 
-        "categories": "ruby", 
-        "description": "All about hash-based message authentication code (HMAC) generation with Ruby"
-    }, 
-    {
-        "name": "Ruby/http_mock_responses", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "ruby/http_mock_responses", 
-        "id": "#080", 
-        "categories": "ruby", 
-        "description": "Using Sinatra to craft simple HTTP web responses for mock integration testing"
-    }, 
-    {
-        "name": "MAC Address Generation with Ruby", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "ruby/random_mac_generation", 
-        "id": "#081", 
-        "categories": "ruby", 
-        "description": "all about MAC and generating random MAC addresses"
-    }, 
-    {
-        "name": "rails6", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "ruby/rails6", 
-        "id": "#082", 
-        "categories": "ruby, rails, haml", 
-        "description": "Running Rails 6 (beta1), learning about changes and new features, and testing out my favourite gems including: HAML"
-    }, 
-    {
-        "name": "Sinatra Echo Tools", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "ruby/sinatra_echo", 
-        "id": "#083", 
-        "categories": "ruby, Sinatra, Docker", 
-        "description": "A Sinatra app that provides a number of remote request debugging tools, and can be run with Docker"
-    }, 
-    {
-        "name": "tempfiles", 
-        "updated_at": "2019-09-08T11:16:45Z", 
-        "relative_path": "ruby/tempfiles", 
-        "id": "#084", 
-        "categories": "ruby", 
-        "description": "Using Temporary Files with Ruby"
-    }, 
-    {
-        "name": "Starting Redis with and old CircleCI Image", 
-        "updated_at": "2019-09-08T11:16:46Z", 
-        "relative_path": "docker/starting_redis_with_old_circleci_image", 
-        "id": "#085", 
-        "categories": "docker, ubuntu, redis, ci", 
-        "description": "Notes on dealing with a Redis issue on an old Ubuntu 14.04 docker image with CircleCI"
-    }, 
-    {
-        "name": "Reading MDB Files", 
-        "updated_at": "2019-09-08T11:16:46Z", 
-        "relative_path": "python/reading_mdb", 
-        "id": "#086", 
-        "categories": "python", 
-        "description": "Reading Microsoft Access database files on a Mac with Python"
-    }, 
-    {
-        "name": "Installing Python 2 and 3 on MacOSX", 
-        "updated_at": "2019-09-08T11:16:46Z", 
-        "relative_path": "python/install_macosx", 
-        "id": "#087", 
-        "categories": "python", 
-        "description": "Notes on installing and maintaining python 2 and 3 versions on MacOSX"
-    }, 
-    {
-        "name": "punch", 
-        "updated_at": "2019-09-08T11:16:46Z", 
-        "relative_path": "staticweb/punch", 
-        "id": "#088", 
-        "categories": "staticweb, node", 
-        "description": "Testing Punch for static site generation (obsolete)"
-    }, 
-    {
-        "name": "Installing Node.js MacOSX", 
-        "updated_at": "2019-09-08T11:16:46Z", 
-        "relative_path": "node/install_macosx", 
-        "id": "#089", 
-        "categories": "node", 
-        "description": "Installing and maintaining Node.js on MacOSX"
-    }, 
-    {
-        "name": "make", 
-        "updated_at": "2019-09-09T13:31:56Z", 
-        "relative_path": "tools/make", 
-        "id": "#090", 
-        "categories": "tools", 
-        "description": "Notes on make and makefiles"
-    }, 
-    {
-        "name": "[Boost].SML", 
-        "updated_at": "2019-09-09T13:31:56Z", 
-        "relative_path": "cpp/boost-sml", 
-        "id": "#091", 
-        "categories": "C++", 
-        "description": "Initial tests with [Boost].SML - a C++14 State Machine Library"
-    }, 
-    {
-        "name": "Implementing a Dictionary", 
-        "updated_at": "2019-09-11T14:44:00Z", 
-        "relative_path": "c/implementing_a_dictionary", 
-        "id": "#092", 
-        "categories": "C", 
-        "description": "An example of using struct-based C to implement a somewhat object-oriented dictionary"
-    }, 
-    {
-        "name": "Google Chart Basics", 
-        "updated_at": "2019-09-22T04:50:58Z", 
-        "relative_path": "javascript/google_charts/basics", 
-        "id": "#093", 
-        "categories": "javascript, graphics", 
-        "description": "Getting up and running and understanding the latest from Google Charts"
-    }, 
-    {
-        "name": "D3 Basics", 
-        "updated_at": "2019-09-22T04:50:58Z", 
-        "relative_path": "javascript/d3/basics", 
-        "id": "#094", 
-        "categories": "javascript, graphics", 
-        "description": "Getting up and running and understanding the latest in D3.js"
-    }, 
-    {
-        "name": "Dynamically Updating D3 Charts", 
-        "updated_at": "2019-09-22T04:50:58Z", 
-        "relative_path": "javascript/d3/dynamically_updating_chart", 
-        "id": "#095", 
-        "categories": "javascript, graphics", 
-        "description": "How to dynamically update data in a D3 document"
-    }, 
-    {
-        "name": "SVG Animation", 
-        "updated_at": "2019-11-04T01:23:26Z", 
-        "relative_path": "web/svg_animation", 
-        "id": "#096", 
-        "categories": "CSS, SVG", 
-        "description": "All about SVG for web design and animation"
-    }, 
-    {
-        "name": "Browser Security", 
-        "updated_at": "2019-11-04T01:23:26Z", 
-        "relative_path": "web/browser_security", 
-        "id": "#097", 
-        "categories": "web", 
-        "description": "notes and summaries of key browser security and vulnerabilities"
-    }, 
-    {
-        "name": "About Prometheus", 
-        "updated_at": "2019-11-14T06:18:49Z", 
-        "relative_path": "databases/prometheus/about", 
-        "id": "#098", 
-        "categories": "databases, prometheus, ruby", 
-        "description": "Learning the basics of Prometheus and running a demo with Docker and a Sinatra Ruby target application"
-    }, 
-    {
-        "name": "emacs", 
-        "updated_at": "2019-12-19T14:39:47Z", 
-        "relative_path": "tools/emacs", 
-        "id": "#099", 
-        "categories": "tools", 
-        "description": "closer look at emacs"
-    }, 
-    {
-        "name": "Compiling Ruby", 
-        "updated_at": "2019-12-19T14:39:47Z", 
-        "relative_path": "ruby/compiling", 
-        "id": "#100", 
-        "categories": "ruby, C", 
-        "description": "Compiling Ruby (2.6.5-p114) from source and some debugging with llvm"
-    }, 
-    {
-        "name": "QR Codes with Python", 
-        "updated_at": "2019-12-30T04:28:02Z", 
-        "relative_path": "python/qrcodes", 
-        "id": "#101", 
-        "categories": "python, C", 
-        "description": "Generating QR codes with python, as images and as C header files for embedded applications"
-    }, 
-    {
-        "name": "About YAML", 
-        "updated_at": "2020-01-02T00:24:09Z", 
-        "relative_path": "formats/yaml", 
-        "id": "#102", 
-        "categories": "formats, yaml", 
-        "description": "Notes on structure, generation and validation of YAML."
-    }, 
-    {
-        "name": "Private PodFeed", 
-        "updated_at": "2020-01-02T00:24:09Z", 
-        "relative_path": "ruby/PrivatePodFeed", 
-        "id": "#103", 
-        "categories": "ruby, rss", 
-        "description": "description"
-    }, 
-    {
-        "name": "About InfluxDB", 
-        "updated_at": "2020-01-22T13:38:12Z", 
-        "relative_path": "databases/influxdb/about", 
-        "id": "#104", 
-        "categories": "databases, influxdb, docker", 
-        "description": "Learning the basics of InfluxDB and running a demo with Docker"
-    }, 
-    {
-        "name": "Scripting YouTube", 
-        "updated_at": "2020-01-22T13:38:12Z", 
-        "relative_path": "javascript/scripting_youtube", 
-        "id": "#105", 
-        "categories": "javascript", 
-        "description": "An experiment in scripting the YouTube player with external controls and the IFrame API"
-    }, 
-    {
-        "name": "Ruby 2.7 New Features", 
-        "updated_at": "2020-01-22T13:38:12Z", 
-        "relative_path": "ruby/new_features_27", 
-        "id": "#106", 
-        "categories": "ruby", 
-        "description": "Investigating new features in Ruby 2.7.0, released 2019-12-25"
-    }, 
-    {
-        "name": "Pointers in C", 
-        "updated_at": "2020-01-25T11:14:29Z", 
-        "relative_path": "c/pointers", 
-        "id": "#107", 
-        "categories": "C", 
-        "description": "All about pointers in C"
-    }, 
-    {
-        "name": "Linking C", 
-        "updated_at": "2020-01-25T11:14:29Z", 
-        "relative_path": "c/linking", 
-        "id": "#108", 
-        "categories": "C", 
-        "description": "All about compiling, linking, and debugging C with GCC"
-    }, 
-    {
-        "name": "Programming Interactivity", 
-        "updated_at": "2020-01-31T00:33:59Z", 
-        "relative_path": "design/programming_interactivity", 
-        "id": "#109", 
-        "categories": "design, arduino", 
-        "description": "Book notes - Programming Interactivity 2nd Edition, by Joshua Noble published by O'Reilly"
-    }, 
-    {
-        "name": "Copying Tables", 
-        "updated_at": "2020-01-31T00:33:59Z", 
-        "relative_path": "databases/postgresql/copy_table", 
-        "id": "#110", 
-        "categories": "Database, SQL", 
-        "description": "notes on copying table strictures and data with SQL"
-    }, 
-    {
-        "name": "MySQL on MacOSX", 
-        "updated_at": "2020-01-31T00:33:59Z", 
-        "relative_path": "databases/mysql/install_macosx", 
-        "id": "#111", 
-        "categories": "Database, MySQL", 
-        "description": "Notes on installing and running MySQL on MacOSX"
-    }, 
-    {
-        "name": "RSS and Atom", 
-        "updated_at": "2020-01-31T00:33:59Z", 
-        "relative_path": "formats/rss_atom", 
-        "id": "#112", 
-        "categories": "formats, rss, rdf, atom, book", 
-        "description": "About RSS and Atom feeds for publishing and podcasting"
-    }, 
-    {
-        "name": "Metasploit Penetration Testing Cookbook", 
-        "updated_at": "2020-01-31T00:33:59Z", 
-        "relative_path": "security/metasploit_penetration_testing_cookbook", 
-        "id": "#113", 
-        "categories": "security, book", 
-        "description": "Book notes - Metasploit Penetration Testing Cookbook, Second Edition by Monika Agarwal, Abhinav Singh"
-    }, 
-    {
-        "name": "Running Metasploit with Docker", 
-        "updated_at": "2020-01-31T00:33:59Z", 
-        "relative_path": "security/metasploit/dockerized", 
-        "id": "#114", 
-        "categories": "security, docker", 
-        "description": "Investigating how to run Metasploit in a Docker container"
-    }, 
-    {
-        "name": "Using Cargo", 
-        "updated_at": "2020-01-31T00:33:59Z", 
-        "relative_path": "rust/project_with_cargo", 
-        "id": "#115", 
-        "categories": "rust, cargo", 
-        "description": "Using Cargo to create and manage a rust project"
-    }, 
-    {
-        "name": "Hands-On System Programming with C++", 
-        "updated_at": "2020-01-31T00:33:59Z", 
-        "relative_path": "cpp/hands_on_system_programming_with_cpp", 
-        "id": "#116", 
-        "categories": "cpp, book", 
-        "description": "Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn"
-    }, 
-    {
-        "name": "Cacti", 
-        "updated_at": "2020-01-31T00:33:59Z", 
-        "relative_path": "infrastructure/cacti", 
-        "id": "#117", 
-        "categories": "infrastructure, monitoring", 
-        "description": "About the cacti network monitoring tool, including how to run it in Docker"
-    }, 
-    {
-        "name": "Error Function", 
-        "updated_at": "2020-01-31T00:33:59Z", 
-        "relative_path": "c/error_function", 
-        "id": "#118", 
-        "categories": "c", 
-        "description": "Methods for calculating the Gauss error function in C with standard libraries and the GNU Scientific Library"
-    }, 
-    {
-        "name": "Rails AntiPatterns", 
-        "updated_at": "2020-01-31T00:33:59Z", 
-        "relative_path": "ruby/rails_antipatterns", 
-        "id": "#119", 
-        "categories": "ruby, rails, book", 
-        "description": "Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional"
-    }, 
-    {
-        "name": "Request Bin", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "tools/requestbin", 
-        "id": "#120", 
-        "categories": "tools, api", 
-        "description": "Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins"
-    }, 
-    {
-        "name": "Docker Cookbook (Packt)", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "docker/docker_cookbook-packt", 
-        "id": "#121", 
-        "categories": "docker, book", 
-        "description": "Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt"
-    }, 
-    {
-        "name": "Docker Cookbook (O'Reilly)", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "docker/docker_cookbook-oreilly", 
-        "id": "#122", 
-        "categories": "docker, book", 
-        "description": "Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly"
-    }, 
-    {
-        "name": "Elixir Basics", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "elixir/basics", 
-        "id": "#123", 
-        "categories": "elixir", 
-        "description": "Exploring basic language features of Elixir"
-    }, 
-    {
-        "name": "About Elixir", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "elixir/about", 
-        "id": "#124", 
-        "categories": "elixir", 
-        "description": "Elixir in a nutshell"
-    }, 
-    {
-        "name": "Elixir on MacOSX", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "elixir/install_macosx", 
-        "id": "#125", 
-        "categories": "elixir, docker", 
-        "description": "Installing Elixir on MacOSX"
-    }, 
-    {
-        "name": "Programming Elixir", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "elixir/programming_elixir", 
-        "id": "#126", 
-        "categories": "elixir, book", 
-        "description": "Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf"
-    }, 
-    {
-        "name": "Testing with Rust", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "rust/testing", 
-        "id": "#127", 
-        "categories": "rust", 
-        "description": "How to write and organise tests for rust"
-    }, 
-    {
-        "name": "The Rust Programming Language", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "rust/rust_programming_language", 
-        "id": "#128", 
-        "categories": "rust, book", 
-        "description": "Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research"
-    }, 
-    {
-        "description": "Elm (the language) in a nutshell", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "elm/about", 
-        "id": "#129", 
-        "categories": "elm", 
-        "name": "About Elm"
-    }, 
-    {
-        "name": "Rickshaw", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "javascript/rickshaw", 
-        "id": "#130", 
-        "categories": "javascript, graphics", 
-        "description": "Testing out the D3-based Rickshaw time series graph library"
-    }, 
-    {
-        "name": "Mastering Zabbix", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "infrastructure/zabbix/mastering_zabbix", 
-        "id": "#131", 
-        "categories": "infrastructure, zabbix, book", 
-        "description": "Book notes - Mastering Zabbix by Andrea Dalle Vacche, Stefano Kewan Lee, published by PacktPub"
-    }, 
-    {
-        "name": "Zabbix API Ruby Clients", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "infrastructure/zabbix/ruby-clients", 
-        "id": "#132", 
-        "categories": "infrastructure, zabbix, ruby", 
-        "description": "A quick survey and test of various ruby options for using the Zabbix API"
-    }, 
-    {
-        "name": "About Zabbix", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "infrastructure/zabbix/about", 
-        "id": "#133", 
-        "categories": "infrastructure, zabbix, monitoring", 
-        "description": "Zabbix in a Nutshell"
-    }, 
-    {
-        "name": "Zabbix Docker", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "infrastructure/zabbix/dockerized", 
-        "id": "#134", 
-        "categories": "infrastructure, zabbix, monitoring, docker", 
-        "description": "Running Zabbix with Docker"
-    }, 
-    {
-        "name": "ZeroMQ (book)", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "messaging/zeromq/zeromq-book", 
-        "id": "#135", 
-        "categories": "messaging, zeromq, book", 
-        "description": "Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly"
-    }, 
-    {
-        "name": "About Zeromq", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "messaging/zeromq/about", 
-        "id": "#136", 
-        "categories": "messaging, zeromq, c", 
-        "description": "Zeromq in a nutshell with a quick test of using the library from C"
-    }, 
-    {
-        "name": "zeromq on MacOSX", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "messaging/zeromq/install_macosx", 
-        "id": "#137", 
-        "categories": "messaging, zeromq", 
-        "description": "Installing zeromq on MacOSX"
-    }, 
-    {
-        "name": "Basic Request-Reply in C", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "messaging/zeromq/c/request_reply", 
-        "id": "#138", 
-        "categories": "messaging, zeromq, c", 
-        "description": "Basic ZeroMQ 'hello world' example of the request-reply messaging pattern in C"
-    }, 
-    {
-        "name": "Practical C Programming", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "c/practical_c_programming", 
-        "id": "#139", 
-        "categories": "C, book", 
-        "description": "Book notes - Practical C Programming, 3rd Edition by Steve Oualline, published by O'Reilly"
-    }, 
-    {
-        "name": "21st Century C", 
-        "updated_at": "2020-02-15T08:47:33Z", 
-        "relative_path": "c/21st_century_c", 
-        "id": "#140", 
-        "categories": "C, book", 
-        "description": "Notes on the book '21st Century C' by Ben Klemens, published by O'Reilly"
-    }, 
-    {
-        "name": "Database Tweets", 
-        "updated_at": "2020-03-11T23:32:53Z", 
-        "relative_path": "databases/oracle/ORA_Tweet_With_Shorturls", 
-        "id": "#141", 
-        "categories": "Database, Oracle", 
-        "description": "Tweeting from your Oracle database with short urls"
-    }, 
-    {
-        "name": "Using InfluxDb 1.x with Ruby", 
-        "updated_at": "2020-03-11T23:32:53Z", 
-        "relative_path": "databases/influxdb/ruby_client", 
-        "id": "#142", 
-        "categories": "databases, influxdb, docker, ruby", 
-        "description": "Testing out the official ruby client calling a InfluxDb 1.7.9 server running in Docker."
-    }, 
-    {
-        "name": "Using InfluxDb 2.x with Ruby", 
-        "updated_at": "2020-03-11T23:32:53Z", 
-        "relative_path": "databases/influxdb/ruby_client2", 
-        "id": "#143", 
-        "categories": "databases, influxdb, docker, ruby", 
-        "description": "Testing out the official ruby client calling a InfluxDb 2.0.0-beta server running in Docker"
-    }, 
-    {
-        "name": "Docker on CentOS 8", 
-        "updated_at": "2020-03-11T23:32:53Z", 
-        "relative_path": "docker/CentOS8_install", 
-        "id": "#144", 
-        "categories": "docker", 
-        "description": "Installing and running Docker on CentOS 8"
-    }, 
-    {
-        "name": "Finding Files", 
-        "updated_at": "2020-03-11T23:32:53Z", 
-        "relative_path": "bash/finding_files", 
-        "id": "#145", 
-        "categories": "bash", 
-        "description": "Examples of various ways to find files"
-    }, 
-    {
-        "name": "jQuery Date-Time Selectors", 
-        "updated_at": "2020-03-11T23:32:53Z", 
-        "relative_path": "javascript/jQueryDateTime", 
-        "id": "#146", 
-        "categories": "javascript", 
-        "description": "A Quick Survey of jQuery Date-Time Selector libraries and approaches"
-    }, 
-    {
-        "name": "Cross-browser X Library", 
-        "updated_at": "2020-03-11T23:32:53Z", 
-        "relative_path": "javascript/cbx", 
-        "id": "#147", 
-        "categories": "javascript", 
-        "description": "Playing with the old inner solar system demo for the cross-browser javascript X library"
-    }, 
-    {
-        "name": "Linux Server Hacks", 
-        "updated_at": "2020-03-11T23:32:53Z", 
-        "relative_path": "infrastructure/linux_server_hacks", 
-        "id": "#148", 
-        "categories": "infrastructure, linux, book", 
-        "description": "Book notes - Linux Server Hacks by Rob Flickenger and Linux Server Hacks, Volume Two (Tips & Tools for Connecting, Monitoring, and Troubleshooting) by William von Hagen and Brian K. Jones, published by O'Reilly"
-    }, 
-    {
-        "name": "Zabbix Programmatic Configuration with Ruby", 
-        "updated_at": "2020-03-11T23:32:53Z", 
-        "relative_path": "infrastructure/zabbix/ruby-programmatic-config", 
-        "id": "#149", 
-        "categories": "infrastructure, zabbix, ruby", 
-        "description": "Configuring zabbix via the API, with examples using zabbix-client ruby gem"
-    }, 
-    {
-        "name": "Loop Optimization", 
-        "updated_at": "2020-03-11T23:32:53Z", 
-        "relative_path": "c/loop_optimization", 
-        "id": "#150", 
-        "categories": "c", 
-        "description": "Looking at how C compilers optimize loops"
-    }, 
-    {
-        "name": "Free Pascal", 
-        "updated_at": "2020-03-11T23:32:54Z", 
-        "relative_path": "pascal/free_pascal", 
-        "id": "#151", 
-        "categories": "pascal", 
-        "description": "Installing and running the Free Pascal compiler on MacOSX"
-    }, 
-    {
-        "name": "About Pascal", 
-        "updated_at": "2020-03-11T23:32:54Z", 
-        "relative_path": "pascal/about", 
-        "id": "#152", 
-        "categories": "pascal", 
-        "description": "Pascal In a Nutshell"
-    }, 
-    {
-        "name": "TCP Wrappers", 
-        "updated_at": "2020-03-11T23:32:54Z", 
-        "relative_path": "tools/tcp_wrappers", 
-        "id": "#153", 
-        "categories": "linux", 
-        "description": "The basics of TCP wrappers"
-    }, 
-    {
-        "name": "Variable Fonts", 
-        "updated_at": "2020-03-11T23:32:54Z", 
-        "relative_path": "web/variable_fonts", 
-        "id": "#154", 
-        "categories": "CSS, font", 
-        "description": "Understanding the new standards for variable CSS fonts"
-    }, 
-    {
-        "name": "CSS Cookbook", 
-        "updated_at": "2020-03-11T23:32:54Z", 
-        "relative_path": "web/css_cookbook", 
-        "id": "#155", 
-        "categories": "CSS, book", 
-        "description": "Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, pubished by O'Reilly"
-    }, 
-    {
-        "name": "Line Continuations in HTML", 
-        "updated_at": "2020-03-11T23:32:54Z", 
-        "relative_path": "web/line_continuations", 
-        "id": "#156", 
-        "categories": "web, HTML, CSS, javascript", 
-        "description": "CSS and Javascript solutions for indicating line continuations in web pages"
-    }, 
-    {
-        "name": "Visual Archiver", 
-        "updated_at": "2020-03-11T23:32:54Z", 
-        "relative_path": "rexx/visual_archiver", 
-        "id": "#157", 
-        "categories": "REXX, OS/2", 
-        "description": "An Archive Management Interface for OS/2 v2.0 written in REXX"
-    }, 
-    {
-        "name": "ShowLong", 
-        "updated_at": "2020-03-11T23:32:54Z", 
-        "relative_path": "rexx/showlong", 
-        "id": "#158", 
-        "categories": "REXX, OS/2", 
-        "description": "Expose Long/HPFS filenames with REXX on OS/2"
-    }, 
-    {
-        "name": "DirSize", 
-        "updated_at": "2020-03-11T23:32:54Z", 
-        "relative_path": "rexx/dirsize", 
-        "id": "#159", 
-        "categories": "REXX, OS/2", 
-        "description": "Directory Size Scanner for OS/2 v2.0 written in REXX"
-    }, 
-    {
-        "name": "Ruby Loop", 
-        "updated_at": "2020-03-11T23:32:54Z", 
-        "relative_path": "ruby/loops", 
-        "id": "#160", 
-        "categories": "ruby", 
-        "description": "All the various ways of looping in Ruby"
-    }, 
-    {
-        "name": "Memo Methods", 
-        "updated_at": "2020-03-11T23:32:54Z", 
-        "relative_path": "ruby/memo_methods", 
-        "id": "#161", 
-        "categories": "ruby, design patterns", 
-        "description": "Comparing and testing various memoization methods and gems in Ruby"
-    }, 
-    {
-        "name": "About Redis", 
-        "updated_at": "2020-03-22T01:28:17Z", 
-        "relative_path": "databases/redis/about", 
-        "id": "#162", 
-        "categories": "databases, redis", 
-        "description": "Redis basics and MacOSX installation"
-    }, 
-    {
-        "name": "Redis Desktop Manager", 
-        "updated_at": "2020-03-22T01:28:17Z", 
-        "relative_path": "databases/redis/redis_desktop_manager", 
-        "id": "#163", 
-        "categories": "databases, redis", 
-        "description": "Building and running the Redis Desktop Manager applicaiton on MacOSX"
-    }, 
-    {
-        "name": "Console Tables", 
-        "updated_at": "2020-03-22T01:28:17Z", 
-        "relative_path": "ruby/console_tables", 
-        "id": "#164", 
-        "categories": "ruby", 
-        "description": "Generating data tables in the console from Array, Hash, or ActiveRecord objects with the tablesmith gem"
-    }, 
-    {
-        "name": "Console Barcharts", 
-        "updated_at": "2020-03-22T01:28:17Z", 
-        "relative_path": "ruby/console_barcharts", 
-        "id": "#165", 
-        "categories": "ruby", 
-        "description": "Print barcharts to the console in ascii or with unicode block elements"
-    }, 
-    {
-        "name": "Redis Cookbook", 
-        "updated_at": "2020-03-31T01:50:42Z", 
-        "relative_path": "databases/redis/redis_cookbook", 
-        "id": "#166", 
-        "categories": "databases, redis, book", 
-        "description": "Notes on the book Redis Cookbook, By Tiago Macedo and Fred Oliveira, pubished by O'Reilly"
-    }, 
-    {
-        "name": "sips", 
-        "updated_at": "2020-05-23T07:46:51Z", 
-        "relative_path": "tools/sips", 
-        "id": "#167", 
-        "categories": "tools", 
-        "description": "Using sips - scriptable image processing system on MacOSX"
-    }, 
-    {
-        "name": "Bitwise Operations", 
-        "updated_at": "2020-05-23T07:46:51Z", 
-        "relative_path": "c/bit_operations", 
-        "id": "#168", 
-        "categories": "c", 
-        "description": "Summary and demonstration of all the usual bit operations in C"
-    }, 
-    {
-        "name": "printf partial strings", 
-        "updated_at": "2020-05-23T07:46:51Z", 
-        "relative_path": "c/printf_partial_string", 
-        "id": "#169", 
-        "categories": "c", 
-        "description": "Learning how printf can be instructed to select a limited number of characters from a string"
-    }, 
-    {
-        "name": "Bit Fields", 
-        "updated_at": "2020-05-23T07:46:51Z", 
-        "relative_path": "c/bitfields", 
-        "id": "#170", 
-        "categories": "c", 
-        "description": "Using bitfields in C"
-    }, 
-    {
-        "name": "Simple URIs with addressable", 
-        "updated_at": "2020-05-23T07:46:51Z", 
-        "relative_path": "ruby/simple_uris_with_addressable", 
-        "id": "#171", 
-        "categories": "ruby", 
-        "description": "Using the addressable gem for better handling of URIs/URLs"
-    }, 
-    {
-        "name": "Rails 6 with Docker", 
-        "updated_at": "2020-11-05T07:51:26Z", 
-        "relative_path": "docker/rails6", 
-        "id": "#172", 
-        "categories": "docker, ruby, rails", 
-        "description": "All about running Rails 6 with Docker"
-    }, 
-    {
-        "name": "drb", 
-        "updated_at": "2020-11-05T07:51:26Z", 
-        "relative_path": "ruby/drb", 
-        "id": "#173", 
-        "categories": "ruby", 
-        "description": "dRuby (drb) is a distributed object system for Ruby, included in the standard library"
-    }, 
-    {
-        "name": "Devise with Rails 6", 
-        "updated_at": "2020-11-11T11:29:26Z", 
-        "relative_path": "ruby/rails6/devise", 
-        "id": "#174", 
-        "categories": "ruby, rails, security", 
-        "description": "Running devise with Rails 6"
-    }, 
-    {
-        "name": "Docker for Rails Developers", 
-        "updated_at": "2021-01-09T08:23:14Z", 
-        "relative_path": "docker/docker-for-rails-developers", 
-        "id": "#175", 
-        "categories": "docker, rails, book", 
-        "description": "Notes on the book Docker for Rails Developers, By Rob Isenberg, pubished by The Pragmatic Programmers"
-    }, 
-    {
-        "name": "pyenv", 
-        "updated_at": "2021-01-09T08:23:14Z", 
-        "relative_path": "python/pyenv", 
-        "id": "#176", 
-        "categories": "python", 
-        "description": "Using pyenv for managing multiple python environments"
-    }, 
-    {
-        "name": "Modern Front-End Development for Rails", 
-        "updated_at": "2021-01-09T08:23:14Z", 
-        "relative_path": "ruby/modern_front_end_development_for_rails", 
-        "id": "#177", 
-        "categories": "ruby, rails, javascript, book", 
-        "description": "Notes on the book Modern Front-End Development for Rails, By Noel Rappin, pubished by The Pragmatic Programmers"
-    }, 
-    {
-        "name": "Trumpeter Catalog Skin", 
-        "updated_at": "2021-01-09T08:23:14Z", 
-        "relative_path": "ruby/trumpeter_skin", 
-        "id": "#178", 
-        "categories": "ruby", 
-        "description": "A simple and fast offline Trumpeter model catalog skin, using some nokogiri magic"
-    }, 
-    {
-        "name": "Doorkeeper", 
-        "updated_at": "2021-01-13T09:22:34Z", 
-        "relative_path": "ruby/doorkeeper", 
-        "id": "#179", 
-        "categories": "ruby, rails, security", 
-        "description": "Learning about the Doorkeeper gem and testing it for adding OAuth2 provider capabilities to Rails applications"
-    }, 
-    {
-        "name": "Reducing Overlapping Ranges", 
-        "updated_at": "2021-02-05T13:12:31Z", 
-        "relative_path": "ruby/reducing_overlapping_ranges", 
-        "id": "#180", 
-        "categories": "ruby", 
-        "description": "Looking at solutions for how to aggregate a series of ranges while excluding any overlaps (e.g. set of date ranges)"
-    }, 
-    {
-        "name": "Iterating Lists with Indices", 
-        "updated_at": "2021-02-25T15:08:30Z", 
-        "relative_path": "python/list_with_index", 
-        "id": "#181", 
-        "categories": "python", 
-        "description": "Revising methods for adding indexes to lists since PEP 3113 removed tuple parameter unpacking"
+        "name": "deleting_roles",
+        "description": "Notes on methods to inspect PostgreSQL role permissions, revoke permissions and drop roles",
+        "categories": "databases, postgresql",
+        "relative_path": "databases/postgresql/deleting_roles",
+        "updated_at": "2019-09-08T11:16:43Z",
+        "id": "#001"
+    },
+    {
+        "name": "arping",
+        "description": "All about Address Resolution Protocol (ARP - RFC826) and installing arping on MacOSX",
+        "categories": "tools",
+        "relative_path": "tools/arping",
+        "updated_at": "2019-09-08T11:16:43Z",
+        "id": "#002"
+    },
+    {
+        "id": "#003",
+        "name": "Tools/homebrew",
+        "description": "homebrew (MacOSX package manager) tips and tricks",
+        "categories": "Tools, MacOSX",
+        "relative_path": "tools/homebrew",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#004",
+        "name": "Tools/envsubst",
+        "description": "substitute shell variables in text",
+        "categories": "Tools, Bash",
+        "relative_path": "tools/envsubst",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#005",
+        "name": "Tools/iproute2",
+        "description": "about iproute2 and how to run it on MacOSX",
+        "categories": "Tools, MacOSX",
+        "relative_path": "tools/iproute2",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "name": "vscode",
+        "description": "Trying out Visual Studio Code",
+        "categories": "tools, editors",
+        "relative_path": "tools/vscode",
+        "updated_at": "2019-09-08T11:16:43Z",
+        "id": "#006"
+    },
+    {
+        "id": "#007",
+        "name": "Go/hello_world",
+        "description": "exploring Go with the simplest example",
+        "categories": "Go",
+        "relative_path": "go/hello_world",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#008",
+        "name": "Go/about",
+        "description": "Go language - my tl;dr summary",
+        "categories": "Go",
+        "relative_path": "go/about",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#009",
+        "name": "Go/install_macosx",
+        "description": "installing Go on MacOSX",
+        "categories": "Go, MacOSX",
+        "relative_path": "go/install_macosx",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#010",
+        "name": "Perl/patch_file",
+        "description": "patching text files with Perl",
+        "categories": "perl",
+        "relative_path": "perl/patch_file",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#011",
+        "name": "Perl/fix_first_line",
+        "description": "patching text files with Perl - fix the first line only",
+        "categories": "perl",
+        "relative_path": "perl/fix_first_line",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#012",
+        "name": "Catalog",
+        "description": "a Javascript Datatables catalog for GitHub Pages",
+        "categories": "Tools, Javascript",
+        "relative_path": "catalog",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#013",
+        "name": "Rust/hello_world",
+        "description": "Rust - Hello World with concurrency",
+        "categories": "Rust",
+        "relative_path": "rust/hello_world",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#014",
+        "name": "Rust/about",
+        "description": "Rust - my tl;dr summary",
+        "categories": "Rust",
+        "relative_path": "rust/about",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#015",
+        "name": "Rust/install_macosx",
+        "description": "Rust - installing on MacOSX",
+        "categories": "Rust, MacOSX",
+        "relative_path": "rust/install_macosx",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#016",
+        "name": "Elm/install",
+        "description": "Installing Elm on MacOSX",
+        "categories": "Elm, MacOSX",
+        "relative_path": "elm/install",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#017",
+        "name": "Elm/hello_clock",
+        "description": "2D graphics with elm",
+        "categories": "Elm",
+        "relative_path": "elm/hello_clock",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#018",
+        "name": "Haskell/hello_world",
+        "description": "Haskell - Hello World",
+        "categories": "Haskell",
+        "relative_path": "haskell/hello_world",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#019",
+        "name": "Haskell/about",
+        "description": "Haskell - my tl;dr summary",
+        "categories": "Haskell",
+        "relative_path": "haskell/about",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#020",
+        "name": "Haskell/install_macosx",
+        "description": "installing Haskell on MacOSX",
+        "categories": "Haskell, MacOSX",
+        "relative_path": "haskell/install_macosx",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "name": "Bash/function_inference",
+        "description": "How to test for the presence of functions in order to branch to arbitrary functions by name",
+        "categories": "Bash",
+        "relative_path": "bash/function_inference",
+        "updated_at": "2019-09-08T11:16:43Z",
+        "id": "#021"
+    },
+    {
+        "id": "#022",
+        "name": "Bash/case_statement",
+        "description": "How to use case statements in the bash shell",
+        "categories": "Bash",
+        "relative_path": "bash/case_statement",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "name": "sync_folder",
+        "description": "Comparing methods for synchronizing local folders - cp, rsync",
+        "categories": "Bash",
+        "relative_path": "bash/sync_folder",
+        "updated_at": "2019-09-08T11:16:43Z",
+        "id": "#023"
+    },
+    {
+        "id": "#024",
+        "name": "Bash/file_locks",
+        "description": "How to implement simple resource semaphores with file locks",
+        "categories": "Bash",
+        "relative_path": "bash/file_locks",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#025",
+        "name": "Bash/parse_env_setting",
+        "description": "Techniques for parsing environment variables with bash built-in features only",
+        "categories": "Bash",
+        "relative_path": "bash/parse_env_setting",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#026",
+        "name": "Bash/select_menu",
+        "description": "simple multiple-choice user input",
+        "categories": "Bash",
+        "relative_path": "bash/select_menu",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#027",
+        "name": "Bash/loops",
+        "description": "All about Bash loops",
+        "categories": "Bash",
+        "relative_path": "bash/loops",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#028",
+        "name": "Bash/process_lines",
+        "description": "process a file line-by-line",
+        "categories": "Bash",
+        "relative_path": "bash/process_lines",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#029",
+        "name": "staticweb/jekyll",
+        "description": "Test-driving some techniques for building static sites with Jekyll",
+        "categories": "Jekyll, static",
+        "relative_path": "staticweb/jekyll",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#030",
+        "name": "C++/exception_handling",
+        "description": "C++ exception handling",
+        "categories": "C++",
+        "relative_path": "cpp/exception_handling",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "name": "C++/about",
+        "description": "My place for notes on C++ resources and references",
+        "categories": "C++",
+        "relative_path": "cpp/about",
+        "updated_at": "2019-09-08T11:16:43Z",
+        "id": "#031"
+    },
+    {
+        "id": "#032",
+        "name": "cpp/doxygen",
+        "description": "Installing and testing doxygen for c++ source documentation generation on MacOSX",
+        "categories": "C++",
+        "relative_path": "cpp/doxygen",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "name": "C++/DoubleTrouble",
+        "description": "Investigting some of the pitfalls of directly reading doubles from a stream, then going down the rabbit hole of bugs and variations in the LLVM/Clang and GCC implementations of the C++ standard library.",
+        "categories": "C++",
+        "relative_path": "cpp/DoubleTrouble",
+        "updated_at": "2019-09-08T11:16:43Z",
+        "id": "#033"
+    },
+    {
+        "id": "#034",
+        "name": "mono/about",
+        "description": "About C# with Mono",
+        "categories": "Mono, C#",
+        "relative_path": "mono/about",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#035",
+        "name": "mono/time",
+        "description": "Handling Time in C#/mono",
+        "categories": "Mono, C#",
+        "relative_path": "mono/time",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#036",
+        "name": "mono/hello",
+        "description": "Hello World with C#/mono",
+        "categories": "Mono, C#",
+        "relative_path": "mono/hello",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#037",
+        "name": "fft/running_kissfft_example",
+        "description": "test drive the Kiss FFT C library with an example",
+        "categories": "C, FFT",
+        "relative_path": "fft/running_kissfft_example",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#038",
+        "name": "Javascript/plotly_ribbon_charts",
+        "description": "Interactive Ribbon Charts with plotly.js",
+        "categories": "Javascript",
+        "relative_path": "javascript/plotly_ribbon_charts",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#039",
+        "name": "Javascript/highcharts_with_bower",
+        "description": "Highcharts with Bower",
+        "categories": "Javascript",
+        "relative_path": "javascript/highcharts_with_bower",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#040",
+        "name": "Javascript/progress_bars_bootstrap",
+        "description": "Progress Bars with Bootstrap",
+        "categories": "Javascript",
+        "relative_path": "javascript/progress_bars_bootstrap",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "name": "plinko",
+        "description": "A demonstration of the k-nearest neighbors algorithm implemented in javascript in a browser",
+        "categories": "javascript, knn",
+        "relative_path": "javascript/plinko",
+        "updated_at": "2019-09-08T11:16:43Z",
+        "id": "#041"
+    },
+    {
+        "name": "loadcsv",
+        "description": "Loading CSV files with node.js in a form suitable for use in statistical/machine learning algorithms",
+        "categories": "node, CSV",
+        "relative_path": "node/loadcsv",
+        "updated_at": "2019-09-08T11:16:43Z",
+        "id": "#042"
+    },
+    {
+        "name": "knn-tf",
+        "description": "A demonstration of the k-nearest neighbors algorithm implemented using tensorflow-js with node.js",
+        "categories": "node, knn, tensorflow",
+        "relative_path": "node/knn-tf",
+        "updated_at": "2019-09-08T11:16:43Z",
+        "id": "#043"
+    },
+    {
+        "name": "regression",
+        "description": "Implementing linear regression, logistic regression and multi-nominal logistic regression with tensorflow-js and node",
+        "categories": "node, regression, tensorflow",
+        "relative_path": "node/regression",
+        "updated_at": "2019-09-08T11:16:43Z",
+        "id": "#044"
+    },
+    {
+        "id": "#045",
+        "name": "RADIUS/about",
+        "description": "RADIUS - my tl;dr summary",
+        "categories": "RADIUS, infrastructure",
+        "relative_path": "infrastructure/radius/about",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#046",
+        "name": "FreeRADIUS/freeradius-client-macosx",
+        "description": "FreeRADIUS - running on MacOSX (#fail - this project needs work)",
+        "categories": "RADIUS, MacOSX, infrastructure",
+        "relative_path": "infrastructure/radius/freeradius-client-macosx",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#047",
+        "name": "FreeRADIUS/freeradius-server-macosx",
+        "description": "FreeRADIUS - running on MacOSX",
+        "categories": "RADIUS, MacOSX, infrastructure",
+        "relative_path": "infrastructure/radius/freeradius-server-macosx",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#048",
+        "name": "gRPC Explainer",
+        "description": "hardware excuse generator with gRPC",
+        "categories": "gRPC, Messaging",
+        "relative_path": "messaging/grpc/explainer",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#049",
+        "name": "gRPC Explainer/Python",
+        "description": "hardware excuse generator with gRPC - Python client example",
+        "categories": "gRPC, Python, Messaging",
+        "relative_path": "messaging/grpc/explainer/python",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#050",
+        "name": "gRPC Explainer/C++",
+        "description": "hardware excuse generator with gRPC - C++ client example",
+        "categories": "gRPC, C++, Messaging",
+        "relative_path": "messaging/grpc/explainer/cpp",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#051",
+        "name": "gRPC Explainer/C#",
+        "description": "hardware excuse generator with gRPC - C# client example",
+        "categories": "gRPC, C#, Messaging",
+        "relative_path": "messaging/grpc/explainer/csharp",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#052",
+        "name": "gRPC Explainer/Node.js",
+        "description": "hardware excuse generator with gRPC - Node client example",
+        "categories": "gRPC, Node, Messaging",
+        "relative_path": "messaging/grpc/explainer/node",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#053",
+        "name": "gRPC Explainer/Ruby",
+        "description": "hardware excuse generator with gRPC - Ruby client and server example",
+        "categories": "gRPC, Ruby, Messaging",
+        "relative_path": "messaging/grpc/explainer/ruby",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#054",
+        "name": "gRPC/install_macosx",
+        "description": "installing on MacOSX",
+        "categories": "gRPC, MacOSX, Messaging",
+        "relative_path": "messaging/grpc/install_macosx",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#055",
+        "name": "c/define_const",
+        "description": "Comparing the use of `#define` preprocessor macros and `const` statements",
+        "categories": "C",
+        "relative_path": "c/define_const",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#056",
+        "name": "c/iterating_char_arrays",
+        "description": "Iterating Character Arrays",
+        "categories": "C",
+        "relative_path": "c/iterating_char_arrays",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "id": "#057",
+        "name": "c/hello",
+        "description": "Hello World in C",
+        "categories": "C",
+        "relative_path": "c/hello",
+        "updated_at": "2019-09-08T11:16:43Z"
+    },
+    {
+        "name": "JSON Parsing",
+        "description": "Generating pretty JSON with Ruby and dealing with quirks",
+        "categories": "ruby",
+        "relative_path": "ruby/json_parsing",
+        "updated_at": "2019-09-08T11:16:43Z",
+        "id": "#058"
+    },
+    {
+        "name": "rails3",
+        "description": "Features and demonstration of Rails 3.",
+        "categories": "ruby, rails",
+        "relative_path": "ruby/rails3",
+        "updated_at": "2019-09-08T11:16:43Z",
+        "id": "#059"
+    },
+    {
+        "name": "rails4",
+        "description": "Features and demonstration of Rails 4",
+        "categories": "ruby, rails",
+        "relative_path": "ruby/rails4",
+        "updated_at": "2019-09-08T11:16:43Z",
+        "id": "#060"
+    },
+    {
+        "name": "rails5",
+        "description": "Features and demonstration of Rails 5",
+        "categories": "ruby, rails",
+        "relative_path": "ruby/rails5",
+        "updated_at": "2019-09-08T11:16:43Z",
+        "id": "#061"
+    },
+    {
+        "name": "SQL to CSV",
+        "description": "Methods for generating CSV output from a PostgreSQL SQL query",
+        "categories": "databases, postgresql, psql, csv",
+        "relative_path": "databases/postgresql/sql2csv",
+        "updated_at": "2019-09-08T11:16:45Z",
+        "id": "#062"
+    },
+    {
+        "name": "PostgreSQL Cheat Sheet",
+        "description": "Basic administration and data management command notes",
+        "categories": "Database, PostgreSQL",
+        "relative_path": "databases/postgresql/cheats",
+        "updated_at": "2019-09-08T11:16:45Z",
+        "id": "#063"
+    },
+    {
+        "name": "MySQL Cheat Sheet",
+        "description": "Basic administration and data management command notes",
+        "categories": "Database, MySQL",
+        "relative_path": "databases/mysql/cheats",
+        "updated_at": "2019-09-08T11:16:45Z",
+        "id": "#064"
+    },
+    {
+        "name": "MacOSX Cheatsheet",
+        "description": "my favourite MacOSX tools, tips and tricks",
+        "categories": "Tools, MacOSX",
+        "relative_path": "tools/macosx_cheats",
+        "updated_at": "2019-09-08T11:16:45Z",
+        "id": "#065"
+    },
+    {
+        "name": "s3sync",
+        "description": "Using Amazon S3 or Wasabi for offsite data backup and long term storage",
+        "categories": "tools, S3, AWS, Wasabi",
+        "relative_path": "tools/s3sync",
+        "updated_at": "2019-09-08T11:16:45Z",
+        "id": "#066"
+    },
+    {
+        "id": "#067",
+        "name": "Python/twisted_web_client",
+        "description": "writing web client code with twisted and tests",
+        "categories": "python",
+        "relative_path": "python/twisted_web_client",
+        "updated_at": "2019-09-08T11:16:45Z"
+    },
+    {
+        "id": "#068",
+        "name": "Python/quirks/mutable_default_params",
+        "description": "Python quirks - mutable default params",
+        "categories": "python",
+        "relative_path": "python/quirks/mutable_default_params",
+        "updated_at": "2019-09-08T11:16:45Z"
+    },
+    {
+        "id": "#069",
+        "name": "Python/quirks/late_bound_closures",
+        "description": "Python quirks - late-bound closures",
+        "categories": "python",
+        "relative_path": "python/quirks/late_bound_closures",
+        "updated_at": "2019-09-08T11:16:45Z"
+    },
+    {
+        "id": "#070",
+        "name": "Python/decorating_class_methods",
+        "description": "all about decorating class methods and preserving the ability to introspect",
+        "categories": "python",
+        "relative_path": "python/decorating_class_methods",
+        "updated_at": "2019-09-08T11:16:45Z"
+    },
+    {
+        "id": "#071",
+        "name": "python/finding_libraries",
+        "description": "How to find great python libraries and resources",
+        "categories": "python",
+        "relative_path": "python/finding_libraries",
+        "updated_at": "2019-09-08T11:16:45Z"
+    },
+    {
+        "id": "#072",
+        "name": "python/imgur",
+        "description": "Using Python with the imgur API and demonstrate scanning imgur albums for image links",
+        "categories": "python, imgur",
+        "relative_path": "python/imgur",
+        "updated_at": "2019-09-08T11:16:45Z"
+    },
+    {
+        "name": "flake8-blame",
+        "description": "Who busted Python style-guide rules?",
+        "categories": "python, Bash",
+        "relative_path": "python/flake8-blame",
+        "updated_at": "2019-09-08T11:16:45Z",
+        "id": "#073"
+    },
+    {
+        "name": "MAC Address Generation with Python",
+        "description": "all about MAC and generating random MAC addresses",
+        "categories": "python",
+        "relative_path": "python/random_mac_generation",
+        "updated_at": "2019-09-08T11:16:45Z",
+        "id": "#074"
+    },
+    {
+        "id": "#075",
+        "name": "python/micropython/compiling_macosx",
+        "description": "Building MicroPython on MacOSX",
+        "categories": "python, MicroPython",
+        "relative_path": "python/micropython/compiling_macosx",
+        "updated_at": "2019-09-08T11:16:45Z"
+    },
+    {
+        "id": "#076",
+        "name": "python/simple_cli_with_begins",
+        "description": "Using the begins library to write command line scripts without all the cruft",
+        "categories": "python, CLI",
+        "relative_path": "python/simple_cli_with_begins",
+        "updated_at": "2019-09-08T11:16:45Z"
+    },
+    {
+        "id": "#077",
+        "name": "Python/twisted_client_server",
+        "description": "writing client-server code with twisted and tests",
+        "categories": "python",
+        "relative_path": "python/twisted_client_server",
+        "updated_at": "2019-09-08T11:16:45Z"
+    },
+    {
+        "id": "#078",
+        "name": "Python/top_level_imports",
+        "description": "or: why not to put an __init__.py in your top level folder",
+        "categories": "python",
+        "relative_path": "python/top_level_imports",
+        "updated_at": "2019-09-08T11:16:45Z"
+    },
+    {
+        "name": "HMAC Generation with Ruby",
+        "description": "All about hash-based message authentication code (HMAC) generation with Ruby",
+        "categories": "ruby",
+        "relative_path": "ruby/hmac",
+        "updated_at": "2019-09-08T11:16:45Z",
+        "id": "#079"
+    },
+    {
+        "name": "Ruby/http_mock_responses",
+        "description": "Using Sinatra to craft simple HTTP web responses for mock integration testing",
+        "categories": "ruby",
+        "relative_path": "ruby/http_mock_responses",
+        "updated_at": "2019-09-08T11:16:45Z",
+        "id": "#080"
+    },
+    {
+        "name": "MAC Address Generation with Ruby",
+        "description": "all about MAC and generating random MAC addresses",
+        "categories": "ruby",
+        "relative_path": "ruby/random_mac_generation",
+        "updated_at": "2019-09-08T11:16:45Z",
+        "id": "#081"
+    },
+    {
+        "name": "rails6",
+        "description": "Running Rails 6 (beta1), learning about changes and new features, and testing out my favourite gems including: HAML",
+        "categories": "ruby, rails, haml",
+        "relative_path": "ruby/rails6",
+        "updated_at": "2019-09-08T11:16:45Z",
+        "id": "#082"
+    },
+    {
+        "name": "Sinatra Echo Tools",
+        "description": "A Sinatra app that provides a number of remote request debugging tools, and can be run with Docker",
+        "categories": "ruby, Sinatra, Docker",
+        "relative_path": "ruby/sinatra_echo",
+        "updated_at": "2019-09-08T11:16:45Z",
+        "id": "#083"
+    },
+    {
+        "name": "tempfiles",
+        "description": "Using Temporary Files with Ruby",
+        "categories": "ruby",
+        "relative_path": "ruby/tempfiles",
+        "updated_at": "2019-09-08T11:16:45Z",
+        "id": "#084"
+    },
+    {
+        "name": "Starting Redis with and old CircleCI Image",
+        "description": "Notes on dealing with a Redis issue on an old Ubuntu 14.04 docker image with CircleCI",
+        "categories": "docker, ubuntu, redis, ci",
+        "relative_path": "docker/starting_redis_with_old_circleci_image",
+        "updated_at": "2019-09-08T11:16:46Z",
+        "id": "#085"
+    },
+    {
+        "name": "Reading MDB Files",
+        "description": "Reading Microsoft Access database files on a Mac with Python",
+        "categories": "python",
+        "relative_path": "python/reading_mdb",
+        "updated_at": "2019-09-08T11:16:46Z",
+        "id": "#086"
+    },
+    {
+        "name": "Installing Python 2 and 3 on MacOSX",
+        "description": "Notes on installing and maintaining python 2 and 3 versions on MacOSX",
+        "categories": "python",
+        "relative_path": "python/install_macosx",
+        "updated_at": "2019-09-08T11:16:46Z",
+        "id": "#087"
+    },
+    {
+        "name": "punch",
+        "description": "Testing Punch for static site generation (obsolete)",
+        "categories": "staticweb, node",
+        "relative_path": "staticweb/punch",
+        "updated_at": "2019-09-08T11:16:46Z",
+        "id": "#088"
+    },
+    {
+        "name": "Installing Node.js MacOSX",
+        "description": "Installing and maintaining Node.js on MacOSX",
+        "categories": "node",
+        "relative_path": "node/install_macosx",
+        "updated_at": "2019-09-08T11:16:46Z",
+        "id": "#089"
+    },
+    {
+        "name": "make",
+        "description": "Notes on make and makefiles",
+        "categories": "tools",
+        "relative_path": "tools/make",
+        "updated_at": "2019-09-09T13:31:56Z",
+        "id": "#090"
+    },
+    {
+        "name": "[Boost].SML",
+        "description": "Initial tests with [Boost].SML - a C++14 State Machine Library",
+        "categories": "C++",
+        "relative_path": "cpp/boost-sml",
+        "updated_at": "2019-09-09T13:31:56Z",
+        "id": "#091"
+    },
+    {
+        "name": "Implementing a Dictionary",
+        "description": "An example of using struct-based C to implement a somewhat object-oriented dictionary",
+        "categories": "C",
+        "relative_path": "c/implementing_a_dictionary",
+        "updated_at": "2019-09-11T14:44:00Z",
+        "id": "#092"
+    },
+    {
+        "name": "Google Chart Basics",
+        "description": "Getting up and running and understanding the latest from Google Charts",
+        "categories": "javascript, graphics",
+        "relative_path": "javascript/google_charts/basics",
+        "updated_at": "2019-09-22T04:50:58Z",
+        "id": "#093"
+    },
+    {
+        "name": "D3 Basics",
+        "description": "Getting up and running and understanding the latest in D3.js",
+        "categories": "javascript, graphics",
+        "relative_path": "javascript/d3/basics",
+        "updated_at": "2019-09-22T04:50:58Z",
+        "id": "#094"
+    },
+    {
+        "name": "Dynamically Updating D3 Charts",
+        "description": "How to dynamically update data in a D3 document",
+        "categories": "javascript, graphics",
+        "relative_path": "javascript/d3/dynamically_updating_chart",
+        "updated_at": "2019-09-22T04:50:58Z",
+        "id": "#095"
+    },
+    {
+        "name": "SVG Animation",
+        "description": "All about SVG for web design and animation",
+        "categories": "CSS, SVG",
+        "relative_path": "web/svg_animation",
+        "updated_at": "2019-11-04T01:23:26Z",
+        "id": "#096"
+    },
+    {
+        "name": "Browser Security",
+        "description": "notes and summaries of key browser security and vulnerabilities",
+        "categories": "web",
+        "relative_path": "web/browser_security",
+        "updated_at": "2019-11-04T01:23:26Z",
+        "id": "#097"
+    },
+    {
+        "name": "About Prometheus",
+        "description": "Learning the basics of Prometheus and running a demo with Docker and a Sinatra Ruby target application",
+        "categories": "databases, prometheus, ruby",
+        "relative_path": "databases/prometheus/about",
+        "updated_at": "2019-11-14T06:18:49Z",
+        "id": "#098"
+    },
+    {
+        "name": "emacs",
+        "description": "closer look at emacs",
+        "categories": "tools",
+        "relative_path": "tools/emacs",
+        "updated_at": "2019-12-19T14:39:47Z",
+        "id": "#099"
+    },
+    {
+        "name": "Compiling Ruby",
+        "description": "Compiling Ruby (2.6.5-p114) from source and some debugging with llvm",
+        "categories": "ruby, C",
+        "relative_path": "ruby/compiling",
+        "updated_at": "2019-12-19T14:39:47Z",
+        "id": "#100"
+    },
+    {
+        "name": "QR Codes with Python",
+        "description": "Generating QR codes with python, as images and as C header files for embedded applications",
+        "categories": "python, C",
+        "relative_path": "python/qrcodes",
+        "updated_at": "2019-12-30T04:28:02Z",
+        "id": "#101"
+    },
+    {
+        "name": "About YAML",
+        "description": "Notes on structure, generation and validation of YAML.",
+        "categories": "formats, yaml",
+        "relative_path": "formats/yaml",
+        "updated_at": "2020-01-02T00:24:09Z",
+        "id": "#102"
+    },
+    {
+        "name": "Private PodFeed",
+        "description": "description",
+        "categories": "ruby, rss",
+        "relative_path": "ruby/PrivatePodFeed",
+        "updated_at": "2020-01-02T00:24:09Z",
+        "id": "#103"
+    },
+    {
+        "name": "About InfluxDB",
+        "description": "Learning the basics of InfluxDB and running a demo with Docker",
+        "categories": "databases, influxdb, docker",
+        "relative_path": "databases/influxdb/about",
+        "updated_at": "2020-01-22T13:38:12Z",
+        "id": "#104"
+    },
+    {
+        "name": "Scripting YouTube",
+        "description": "An experiment in scripting the YouTube player with external controls and the IFrame API",
+        "categories": "javascript",
+        "relative_path": "javascript/scripting_youtube",
+        "updated_at": "2020-01-22T13:38:12Z",
+        "id": "#105"
+    },
+    {
+        "name": "Ruby 2.7 New Features",
+        "description": "Investigating new features in Ruby 2.7.0, released 2019-12-25",
+        "categories": "ruby",
+        "relative_path": "ruby/new_features_27",
+        "updated_at": "2020-01-22T13:38:12Z",
+        "id": "#106"
+    },
+    {
+        "name": "Pointers in C",
+        "description": "All about pointers in C",
+        "categories": "C",
+        "relative_path": "c/pointers",
+        "updated_at": "2020-01-25T11:14:29Z",
+        "id": "#107"
+    },
+    {
+        "name": "Linking C",
+        "description": "All about compiling, linking, and debugging C with GCC",
+        "categories": "C",
+        "relative_path": "c/linking",
+        "updated_at": "2020-01-25T11:14:29Z",
+        "id": "#108"
+    },
+    {
+        "name": "Programming Interactivity",
+        "description": "Book notes - Programming Interactivity 2nd Edition, by Joshua Noble published by O'Reilly",
+        "categories": "design, arduino",
+        "relative_path": "design/programming_interactivity",
+        "updated_at": "2020-01-31T00:33:59Z",
+        "id": "#109"
+    },
+    {
+        "name": "Copying Tables",
+        "description": "notes on copying table strictures and data with SQL",
+        "categories": "Database, SQL",
+        "relative_path": "databases/postgresql/copy_table",
+        "updated_at": "2020-01-31T00:33:59Z",
+        "id": "#110"
+    },
+    {
+        "name": "MySQL on MacOSX",
+        "description": "Notes on installing and running MySQL on MacOSX",
+        "categories": "Database, MySQL",
+        "relative_path": "databases/mysql/install_macosx",
+        "updated_at": "2020-01-31T00:33:59Z",
+        "id": "#111"
+    },
+    {
+        "name": "RSS and Atom",
+        "description": "About RSS and Atom feeds for publishing and podcasting",
+        "categories": "formats, rss, rdf, atom, book",
+        "relative_path": "formats/rss_atom",
+        "updated_at": "2020-01-31T00:33:59Z",
+        "id": "#112"
+    },
+    {
+        "name": "Metasploit Penetration Testing Cookbook",
+        "description": "Book notes - Metasploit Penetration Testing Cookbook, Second Edition by Monika Agarwal, Abhinav Singh",
+        "categories": "security, book",
+        "relative_path": "security/metasploit_penetration_testing_cookbook",
+        "updated_at": "2020-01-31T00:33:59Z",
+        "id": "#113"
+    },
+    {
+        "name": "Running Metasploit with Docker",
+        "description": "Investigating how to run Metasploit in a Docker container",
+        "categories": "security, docker",
+        "relative_path": "security/metasploit/dockerized",
+        "updated_at": "2020-01-31T00:33:59Z",
+        "id": "#114"
+    },
+    {
+        "name": "Using Cargo",
+        "description": "Using Cargo to create and manage a rust project",
+        "categories": "rust, cargo",
+        "relative_path": "rust/project_with_cargo",
+        "updated_at": "2020-01-31T00:33:59Z",
+        "id": "#115"
+    },
+    {
+        "name": "Hands-On System Programming with C++",
+        "description": "Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn",
+        "categories": "cpp, book",
+        "relative_path": "cpp/hands_on_system_programming_with_cpp",
+        "updated_at": "2020-01-31T00:33:59Z",
+        "id": "#116"
+    },
+    {
+        "name": "Cacti",
+        "description": "About the cacti network monitoring tool, including how to run it in Docker",
+        "categories": "infrastructure, monitoring",
+        "relative_path": "infrastructure/cacti",
+        "updated_at": "2020-01-31T00:33:59Z",
+        "id": "#117"
+    },
+    {
+        "name": "Error Function",
+        "description": "Methods for calculating the Gauss error function in C with standard libraries and the GNU Scientific Library",
+        "categories": "c",
+        "relative_path": "c/error_function",
+        "updated_at": "2020-01-31T00:33:59Z",
+        "id": "#118"
+    },
+    {
+        "name": "Rails AntiPatterns",
+        "description": "Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional",
+        "categories": "ruby, rails, book",
+        "relative_path": "ruby/rails_antipatterns",
+        "updated_at": "2020-01-31T00:33:59Z",
+        "id": "#119"
+    },
+    {
+        "name": "Request Bin",
+        "description": "Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins",
+        "categories": "tools, api",
+        "relative_path": "tools/requestbin",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#120"
+    },
+    {
+        "name": "Docker Cookbook (Packt)",
+        "description": "Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt",
+        "categories": "docker, book",
+        "relative_path": "docker/docker_cookbook-packt",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#121"
+    },
+    {
+        "name": "Docker Cookbook (O'Reilly)",
+        "description": "Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly",
+        "categories": "docker, book",
+        "relative_path": "docker/docker_cookbook-oreilly",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#122"
+    },
+    {
+        "name": "Elixir Basics",
+        "description": "Exploring basic language features of Elixir",
+        "categories": "elixir",
+        "relative_path": "elixir/basics",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#123"
+    },
+    {
+        "name": "About Elixir",
+        "description": "Elixir in a nutshell",
+        "categories": "elixir",
+        "relative_path": "elixir/about",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#124"
+    },
+    {
+        "name": "Elixir on MacOSX",
+        "description": "Installing Elixir on MacOSX",
+        "categories": "elixir, docker",
+        "relative_path": "elixir/install_macosx",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#125"
+    },
+    {
+        "name": "Programming Elixir",
+        "description": "Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf",
+        "categories": "elixir, book",
+        "relative_path": "elixir/programming_elixir",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#126"
+    },
+    {
+        "name": "Testing with Rust",
+        "description": "How to write and organise tests for rust",
+        "categories": "rust",
+        "relative_path": "rust/testing",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#127"
+    },
+    {
+        "name": "The Rust Programming Language",
+        "description": "Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research",
+        "categories": "rust, book",
+        "relative_path": "rust/rust_programming_language",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#128"
+    },
+    {
+        "id": "#129",
+        "name": "About Elm",
+        "description": "Elm (the language) in a nutshell",
+        "categories": "elm",
+        "relative_path": "elm/about",
+        "updated_at": "2020-02-15T08:47:33Z"
+    },
+    {
+        "name": "Rickshaw",
+        "description": "Testing out the D3-based Rickshaw time series graph library",
+        "categories": "javascript, graphics",
+        "relative_path": "javascript/rickshaw",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#130"
+    },
+    {
+        "name": "Mastering Zabbix",
+        "description": "Book notes - Mastering Zabbix by Andrea Dalle Vacche, Stefano Kewan Lee, published by PacktPub",
+        "categories": "infrastructure, zabbix, book",
+        "relative_path": "infrastructure/zabbix/mastering_zabbix",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#131"
+    },
+    {
+        "name": "Zabbix API Ruby Clients",
+        "description": "A quick survey and test of various ruby options for using the Zabbix API",
+        "categories": "infrastructure, zabbix, ruby",
+        "relative_path": "infrastructure/zabbix/ruby-clients",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#132"
+    },
+    {
+        "name": "About Zabbix",
+        "description": "Zabbix in a Nutshell",
+        "categories": "infrastructure, zabbix, monitoring",
+        "relative_path": "infrastructure/zabbix/about",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#133"
+    },
+    {
+        "name": "Zabbix Docker",
+        "description": "Running Zabbix with Docker",
+        "categories": "infrastructure, zabbix, monitoring, docker",
+        "relative_path": "infrastructure/zabbix/dockerized",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#134"
+    },
+    {
+        "name": "ZeroMQ (book)",
+        "description": "Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly",
+        "categories": "messaging, zeromq, book",
+        "relative_path": "messaging/zeromq/zeromq-book",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#135"
+    },
+    {
+        "name": "About Zeromq",
+        "description": "Zeromq in a nutshell with a quick test of using the library from C",
+        "categories": "messaging, zeromq, c",
+        "relative_path": "messaging/zeromq/about",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#136"
+    },
+    {
+        "name": "zeromq on MacOSX",
+        "description": "Installing zeromq on MacOSX",
+        "categories": "messaging, zeromq",
+        "relative_path": "messaging/zeromq/install_macosx",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#137"
+    },
+    {
+        "name": "Basic Request-Reply in C",
+        "description": "Basic ZeroMQ 'hello world' example of the request-reply messaging pattern in C",
+        "categories": "messaging, zeromq, c",
+        "relative_path": "messaging/zeromq/c/request_reply",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#138"
+    },
+    {
+        "name": "Practical C Programming",
+        "description": "Book notes - Practical C Programming, 3rd Edition by Steve Oualline, published by O'Reilly",
+        "categories": "C, book",
+        "relative_path": "c/practical_c_programming",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#139"
+    },
+    {
+        "name": "21st Century C",
+        "description": "Notes on the book '21st Century C' by Ben Klemens, published by O'Reilly",
+        "categories": "C, book",
+        "relative_path": "c/21st_century_c",
+        "updated_at": "2020-02-15T08:47:33Z",
+        "id": "#140"
+    },
+    {
+        "name": "Database Tweets",
+        "description": "Tweeting from your Oracle database with short urls",
+        "categories": "Database, Oracle",
+        "relative_path": "databases/oracle/ORA_Tweet_With_Shorturls",
+        "updated_at": "2020-03-11T23:32:53Z",
+        "id": "#141"
+    },
+    {
+        "name": "Using InfluxDb 1.x with Ruby",
+        "description": "Testing out the official ruby client calling a InfluxDb 1.7.9 server running in Docker.",
+        "categories": "databases, influxdb, docker, ruby",
+        "relative_path": "databases/influxdb/ruby_client",
+        "updated_at": "2020-03-11T23:32:53Z",
+        "id": "#142"
+    },
+    {
+        "name": "Using InfluxDb 2.x with Ruby",
+        "description": "Testing out the official ruby client calling a InfluxDb 2.0.0-beta server running in Docker",
+        "categories": "databases, influxdb, docker, ruby",
+        "relative_path": "databases/influxdb/ruby_client2",
+        "updated_at": "2020-03-11T23:32:53Z",
+        "id": "#143"
+    },
+    {
+        "name": "Docker on CentOS 8",
+        "description": "Installing and running Docker on CentOS 8",
+        "categories": "docker",
+        "relative_path": "docker/CentOS8_install",
+        "updated_at": "2020-03-11T23:32:53Z",
+        "id": "#144"
+    },
+    {
+        "name": "Finding Files",
+        "description": "Examples of various ways to find files",
+        "categories": "bash",
+        "relative_path": "bash/finding_files",
+        "updated_at": "2020-03-11T23:32:53Z",
+        "id": "#145"
+    },
+    {
+        "name": "jQuery Date-Time Selectors",
+        "description": "A Quick Survey of jQuery Date-Time Selector libraries and approaches",
+        "categories": "javascript",
+        "relative_path": "javascript/jQueryDateTime",
+        "updated_at": "2020-03-11T23:32:53Z",
+        "id": "#146"
+    },
+    {
+        "name": "Cross-browser X Library",
+        "description": "Playing with the old inner solar system demo for the cross-browser javascript X library",
+        "categories": "javascript",
+        "relative_path": "javascript/cbx",
+        "updated_at": "2020-03-11T23:32:53Z",
+        "id": "#147"
+    },
+    {
+        "name": "Linux Server Hacks",
+        "description": "Book notes - Linux Server Hacks by Rob Flickenger and Linux Server Hacks, Volume Two (Tips & Tools for Connecting, Monitoring, and Troubleshooting) by William von Hagen and Brian K. Jones, published by O'Reilly",
+        "categories": "infrastructure, linux, book",
+        "relative_path": "infrastructure/linux_server_hacks",
+        "updated_at": "2020-03-11T23:32:53Z",
+        "id": "#148"
+    },
+    {
+        "name": "Zabbix Programmatic Configuration with Ruby",
+        "description": "Configuring zabbix via the API, with examples using zabbix-client ruby gem",
+        "categories": "infrastructure, zabbix, ruby",
+        "relative_path": "infrastructure/zabbix/ruby-programmatic-config",
+        "updated_at": "2020-03-11T23:32:53Z",
+        "id": "#149"
+    },
+    {
+        "name": "Loop Optimization",
+        "description": "Looking at how C compilers optimize loops",
+        "categories": "c",
+        "relative_path": "c/loop_optimization",
+        "updated_at": "2020-03-11T23:32:53Z",
+        "id": "#150"
+    },
+    {
+        "name": "Free Pascal",
+        "description": "Installing and running the Free Pascal compiler on MacOSX",
+        "categories": "pascal",
+        "relative_path": "pascal/free_pascal",
+        "updated_at": "2020-03-11T23:32:54Z",
+        "id": "#151"
+    },
+    {
+        "name": "About Pascal",
+        "description": "Pascal In a Nutshell",
+        "categories": "pascal",
+        "relative_path": "pascal/about",
+        "updated_at": "2020-03-11T23:32:54Z",
+        "id": "#152"
+    },
+    {
+        "name": "TCP Wrappers",
+        "description": "The basics of TCP wrappers",
+        "categories": "linux",
+        "relative_path": "tools/tcp_wrappers",
+        "updated_at": "2020-03-11T23:32:54Z",
+        "id": "#153"
+    },
+    {
+        "name": "Variable Fonts",
+        "description": "Understanding the new standards for variable CSS fonts",
+        "categories": "CSS, font",
+        "relative_path": "web/variable_fonts",
+        "updated_at": "2020-03-11T23:32:54Z",
+        "id": "#154"
+    },
+    {
+        "name": "CSS Cookbook",
+        "description": "Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, pubished by O'Reilly",
+        "categories": "CSS, book",
+        "relative_path": "web/css_cookbook",
+        "updated_at": "2020-03-11T23:32:54Z",
+        "id": "#155"
+    },
+    {
+        "name": "Line Continuations in HTML",
+        "description": "CSS and Javascript solutions for indicating line continuations in web pages",
+        "categories": "web, HTML, CSS, javascript",
+        "relative_path": "web/line_continuations",
+        "updated_at": "2020-03-11T23:32:54Z",
+        "id": "#156"
+    },
+    {
+        "name": "Visual Archiver",
+        "description": "An Archive Management Interface for OS/2 v2.0 written in REXX",
+        "categories": "REXX, OS/2",
+        "relative_path": "rexx/visual_archiver",
+        "updated_at": "2020-03-11T23:32:54Z",
+        "id": "#157"
+    },
+    {
+        "name": "ShowLong",
+        "description": "Expose Long/HPFS filenames with REXX on OS/2",
+        "categories": "REXX, OS/2",
+        "relative_path": "rexx/showlong",
+        "updated_at": "2020-03-11T23:32:54Z",
+        "id": "#158"
+    },
+    {
+        "name": "DirSize",
+        "description": "Directory Size Scanner for OS/2 v2.0 written in REXX",
+        "categories": "REXX, OS/2",
+        "relative_path": "rexx/dirsize",
+        "updated_at": "2020-03-11T23:32:54Z",
+        "id": "#159"
+    },
+    {
+        "name": "Ruby Loop",
+        "description": "All the various ways of looping in Ruby",
+        "categories": "ruby",
+        "relative_path": "ruby/loops",
+        "updated_at": "2020-03-11T23:32:54Z",
+        "id": "#160"
+    },
+    {
+        "name": "Memo Methods",
+        "description": "Comparing and testing various memoization methods and gems in Ruby",
+        "categories": "ruby, design patterns",
+        "relative_path": "ruby/memo_methods",
+        "updated_at": "2020-03-11T23:32:54Z",
+        "id": "#161"
+    },
+    {
+        "name": "About Redis",
+        "description": "Redis basics and MacOSX installation",
+        "categories": "databases, redis",
+        "relative_path": "databases/redis/about",
+        "updated_at": "2020-03-22T01:28:17Z",
+        "id": "#162"
+    },
+    {
+        "name": "Redis Desktop Manager",
+        "description": "Building and running the Redis Desktop Manager applicaiton on MacOSX",
+        "categories": "databases, redis",
+        "relative_path": "databases/redis/redis_desktop_manager",
+        "updated_at": "2020-03-22T01:28:17Z",
+        "id": "#163"
+    },
+    {
+        "name": "Console Tables",
+        "description": "Generating data tables in the console from Array, Hash, or ActiveRecord objects with the tablesmith gem",
+        "categories": "ruby",
+        "relative_path": "ruby/console_tables",
+        "updated_at": "2020-03-22T01:28:17Z",
+        "id": "#164"
+    },
+    {
+        "name": "Console Barcharts",
+        "description": "Print barcharts to the console in ascii or with unicode block elements",
+        "categories": "ruby",
+        "relative_path": "ruby/console_barcharts",
+        "updated_at": "2020-03-22T01:28:17Z",
+        "id": "#165"
+    },
+    {
+        "name": "Redis Cookbook",
+        "description": "Notes on the book Redis Cookbook, By Tiago Macedo and Fred Oliveira, pubished by O'Reilly",
+        "categories": "databases, redis, book",
+        "relative_path": "databases/redis/redis_cookbook",
+        "updated_at": "2020-03-31T01:50:42Z",
+        "id": "#166"
+    },
+    {
+        "name": "sips",
+        "description": "Using sips - scriptable image processing system on MacOSX",
+        "categories": "tools",
+        "relative_path": "tools/sips",
+        "updated_at": "2020-05-23T07:46:51Z",
+        "id": "#167"
+    },
+    {
+        "name": "Bitwise Operations",
+        "description": "Summary and demonstration of all the usual bit operations in C",
+        "categories": "c",
+        "relative_path": "c/bit_operations",
+        "updated_at": "2020-05-23T07:46:51Z",
+        "id": "#168"
+    },
+    {
+        "name": "printf partial strings",
+        "description": "Learning how printf can be instructed to select a limited number of characters from a string",
+        "categories": "c",
+        "relative_path": "c/printf_partial_string",
+        "updated_at": "2020-05-23T07:46:51Z",
+        "id": "#169"
+    },
+    {
+        "name": "Bit Fields",
+        "description": "Using bitfields in C",
+        "categories": "c",
+        "relative_path": "c/bitfields",
+        "updated_at": "2020-05-23T07:46:51Z",
+        "id": "#170"
+    },
+    {
+        "name": "Simple URIs with addressable",
+        "description": "Using the addressable gem for better handling of URIs/URLs",
+        "categories": "ruby",
+        "relative_path": "ruby/simple_uris_with_addressable",
+        "updated_at": "2020-05-23T07:46:51Z",
+        "id": "#171"
+    },
+    {
+        "name": "Rails 6 with Docker",
+        "description": "All about running Rails 6 with Docker",
+        "categories": "docker, ruby, rails",
+        "relative_path": "docker/rails6",
+        "updated_at": "2020-11-05T07:51:26Z",
+        "id": "#172"
+    },
+    {
+        "name": "drb",
+        "description": "dRuby (drb) is a distributed object system for Ruby, included in the standard library",
+        "categories": "ruby",
+        "relative_path": "ruby/drb",
+        "updated_at": "2020-11-05T07:51:26Z",
+        "id": "#173"
+    },
+    {
+        "name": "Devise with Rails 6",
+        "description": "Running devise with Rails 6",
+        "categories": "ruby, rails, security",
+        "relative_path": "ruby/rails6/devise",
+        "updated_at": "2020-11-11T11:29:26Z",
+        "id": "#174"
+    },
+    {
+        "name": "Docker for Rails Developers",
+        "description": "Notes on the book Docker for Rails Developers, By Rob Isenberg, pubished by The Pragmatic Programmers",
+        "categories": "docker, rails, book",
+        "relative_path": "docker/docker-for-rails-developers",
+        "updated_at": "2021-01-09T08:23:14Z",
+        "id": "#175"
+    },
+    {
+        "name": "pyenv",
+        "description": "Using pyenv for managing multiple python environments",
+        "categories": "python",
+        "relative_path": "python/pyenv",
+        "updated_at": "2021-01-09T08:23:14Z",
+        "id": "#176"
+    },
+    {
+        "name": "Modern Front-End Development for Rails",
+        "description": "Notes on the book Modern Front-End Development for Rails, By Noel Rappin, pubished by The Pragmatic Programmers",
+        "categories": "ruby, rails, javascript, book",
+        "relative_path": "ruby/modern_front_end_development_for_rails",
+        "updated_at": "2021-01-09T08:23:14Z",
+        "id": "#177"
+    },
+    {
+        "name": "Trumpeter Catalog Skin",
+        "description": "A simple and fast offline Trumpeter model catalog skin, using some nokogiri magic",
+        "categories": "ruby",
+        "relative_path": "ruby/trumpeter_skin",
+        "updated_at": "2021-01-09T08:23:14Z",
+        "id": "#178"
+    },
+    {
+        "name": "Doorkeeper",
+        "description": "Learning about the Doorkeeper gem and testing it for adding OAuth2 provider capabilities to Rails applications",
+        "categories": "ruby, rails, security",
+        "relative_path": "ruby/doorkeeper",
+        "updated_at": "2021-01-13T09:22:34Z",
+        "id": "#179"
+    },
+    {
+        "name": "Reducing Overlapping Ranges",
+        "description": "Looking at solutions for how to aggregate a series of ranges while excluding any overlaps (e.g. set of date ranges)",
+        "categories": "ruby",
+        "relative_path": "ruby/reducing_overlapping_ranges",
+        "updated_at": "2021-02-05T13:12:31Z",
+        "id": "#180"
+    },
+    {
+        "name": "Iterating Lists with Indices",
+        "description": "Revising methods for adding indexes to lists since PEP 3113 removed tuple parameter unpacking",
+        "categories": "python",
+        "relative_path": "python/list_with_index",
+        "updated_at": "2021-02-25T15:34:22Z",
+        "id": "#181"
     }
 ]

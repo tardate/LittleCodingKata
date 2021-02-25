@@ -27,8 +27,18 @@ I'm using [Netlify](https://www.netlify.com/) to run the catalog site directly f
 
 Note: I previously used GitHub Pages, but switched to Netlify as that allows me to use free SSL certificates from [LetsEncrypt](https://letsencrypt.org/).
 
+## Running Locally
+
+The site is generated with Jekyll. To run locally:
+
+```
+bundle exec jekyll serve
+```
+
+The generated site will be in the `_site` folder. This can be trashed after testing (it is not checked into the repo).
 
 ## Credits and References
+
 * [Netlify](https://www.netlify.com/)
 * [LetsEncrypt](https://letsencrypt.org/)
 * [GitHub Pages](https://pages.github.com/)

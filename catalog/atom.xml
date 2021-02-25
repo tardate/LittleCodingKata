@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-02-25T15:33:44Z</updated>
+  <updated>2021-02-25T15:35:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1603,7 +1603,7 @@
   <entry>
     <id>https://codingkata.tardate.com/python/list_with_index/</id>
     <link href="https://codingkata.tardate.com/python/list_with_index/"/>
-    <updated>2021-02-25T15:08:30Z</updated>
+    <updated>2021-02-25T15:34:22Z</updated>
     <title>Iterating Lists with Indices</title>
     <summary>Revising methods for adding indexes to lists since PEP 3113 removed tuple parameter unpacking</summary>
     <category term="python"/>
