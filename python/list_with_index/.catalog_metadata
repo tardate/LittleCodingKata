@@ -1,0 +1,6 @@
+{
+    "name": "Iterating Lists with Indices",
+    "description": "Revising methods for adding indexes to lists since PEP 3113 removed tuple parameter unpacking",
+    "categories": "python",
+    "relative_path": "python/list_with_index"
+}

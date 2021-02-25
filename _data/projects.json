@@ -32,6 +32,14 @@
         ], 
         "title": "Simple URIs with addressable"
     }, 
+    "/python/list_with_index/": {
+        "summary": "Revising methods for adding indexes to lists since PEP 3113 removed tuple parameter unpacking", 
+        "id": 181, 
+        "tags": [
+            "python"
+        ], 
+        "title": "Iterating Lists with Indices"
+    }, 
     "/elm/hello_clock/": {
         "summary": "2D graphics with elm", 
         "id": 17, 

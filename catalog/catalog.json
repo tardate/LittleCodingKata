@@ -1438,5 +1438,13 @@
         "id": "#180", 
         "categories": "ruby", 
         "description": "Looking at solutions for how to aggregate a series of ranges while excluding any overlaps (e.g. set of date ranges)"
+    }, 
+    {
+        "name": "Iterating Lists with Indices", 
+        "updated_at": "2021-02-25T15:08:30Z", 
+        "relative_path": "python/list_with_index", 
+        "id": "#181", 
+        "categories": "python", 
+        "description": "Revising methods for adding indexes to lists since PEP 3113 removed tuple parameter unpacking"
     }
 ]
