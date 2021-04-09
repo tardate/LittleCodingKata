@@ -51,3 +51,4 @@ Updating .rubocop.yml to latest version can be automated with [mry](https://gith
 * [RuboCop 1.0](https://metaredux.com/posts/2020/10/21/rubocop-1-0.html) - announcement
 * [rubocop](https://github.com/rubocop/rubocop) - github
 * [rubocop docs](https://docs.rubocop.org/)
+* [CODING STYLE GUIDES](https://awesome-ruby.com/#-coding-style-guides) - more resources listed at awesome-ruby.com
