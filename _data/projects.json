@@ -1604,5 +1604,13 @@
             "javascript",
             "HTML5"
         ]
+    },
+    "/ruby/style/": {
+        "id": 183,
+        "title": "Ruby Style",
+        "summary": "On style guides and resources for ruby",
+        "tags": [
+            "ruby"
+        ]
     }
 }

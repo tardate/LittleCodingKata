@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-04-09T16:14:33Z</updated>
+  <updated>2021-04-09T16:37:43Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1616,5 +1616,13 @@
     <summary>Looking at easy ways to enable a color picker on a web page</summary>
     <category term="javascript"/>
     <category term="HTML5"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/style/</id>
+    <link href="https://codingkata.tardate.com/ruby/style/"/>
+    <updated>2021-04-09T16:37:32Z</updated>
+    <title>Ruby Style</title>
+    <summary>On style guides and resources for ruby</summary>
+    <category term="ruby"/>
   </entry>
 </feed>
