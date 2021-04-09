@@ -1,0 +1,100 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Color Picker Example</title>
+  <style>
+    #color_preview {
+      width: 100%;
+      height: 100px;
+    }
+    .grid-container {
+      display: grid;
+      grid-gap: 5px;
+    }
+    .grid-picker-col {
+      grid-column-start: 1;
+      grid-column-end: 1;
+    }
+    .grid-preview-col {
+      grid-column-start: 2;
+      grid-column-end: 2;
+    }
+    .grid-detail-col {
+      grid-column-start: 3;
+      grid-column-end: 3;
+    }
+  </style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="grid-picker-col">
+    <h2>Color Picker</h2>
+    <input type="color" id="color_picker" name="color_picker" value="#ffffff">
+    <label for="color_picker">Choose a Color</label>
+  </div>
+
+  <div class="grid-preview-col">
+    <h2>Color Preview</h2>
+    <div id="color_preview">
+    </div>
+  </div>
+
+  <div class="grid-detail-col">
+    <h2>Selected Color</h2>
+    <div>
+      <input type="text" id="rgb_red" name="rgb_red">
+      <label for="rgb_red">Red</label>
+    </div>
+    <div>
+      <input type="text" id="rgb_green" name="rgb_green">
+      <label for="rgb_green">Green</label>
+    </div>
+    <div>
+      <input type="text" id="rgb_blue" name="rgb_blue">
+      <label for="rgb_blue">Blue</label>
+    </div>
+    <div>
+      <input type="text" id="rgb_hex" name="rgb_hex">
+      <label for="rgb_hex">Hex</label>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+window.addEventListener("load", startup, false);
+var color_picker;
+var default_color = "#ffffff";
+
+function hexToRgb(hex) {
+  var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return result ? {
+    r: parseInt(result[1], 16),
+    g: parseInt(result[2], 16),
+    b: parseInt(result[3], 16)
+  } : null;
+}
+
+function startup() {
+  color_picker = document.querySelector("#color_picker");
+  color_picker.value = default_color;
+  color_picker.addEventListener("input", handle_color_picker_selection, false);
+  color_picker.addEventListener("change", handle_color_picker_selection, false);
+  color_picker.select();
+}
+
+function handle_color_picker_selection(event) {
+  var element = document.querySelector("#color_preview");
+  var hex_color = event.target.value;
+  var rgb_color = hexToRgb(event.target.value);
+  if (rgb_color) {
+    element.style.backgroundColor = hex_color;
+    document.querySelector("#rgb_hex").value = hex_color;
+    document.querySelector("#rgb_red").value = rgb_color.r;
+    document.querySelector("#rgb_green").value = rgb_color.g;
+    document.querySelector("#rgb_blue").value = rgb_color.b;
+  }
+}
+</script>
+</body>
+</html>

@@ -1570,8 +1570,16 @@
             "ruby"
         ]
     },
-    "/ruby/doorkeeper/": {
+    "/python/list_with_index/": {
         "id": 179,
+        "title": "Iterating Lists with Indices",
+        "summary": "Revising methods for adding indexes to lists since PEP 3113 removed tuple parameter unpacking",
+        "tags": [
+            "python"
+        ]
+    },
+    "/ruby/doorkeeper/": {
+        "id": 180,
         "title": "Doorkeeper",
         "summary": "Learning about the Doorkeeper gem and testing it for adding OAuth2 provider capabilities to Rails applications",
         "tags": [
@@ -1581,19 +1589,20 @@
         ]
     },
     "/ruby/reducing_overlapping_ranges/": {
-        "id": 180,
+        "id": 181,
         "title": "Reducing Overlapping Ranges",
         "summary": "Looking at solutions for how to aggregate a series of ranges while excluding any overlaps (e.g. set of date ranges)",
         "tags": [
             "ruby"
         ]
     },
-    "/python/list_with_index/": {
-        "id": 181,
-        "title": "Iterating Lists with Indices",
-        "summary": "Revising methods for adding indexes to lists since PEP 3113 removed tuple parameter unpacking",
+    "/web/color_picker/": {
+        "id": 182,
+        "title": "Color Pickers for the Web",
+        "summary": "Looking at easy ways to enable a color picker on a web page",
         "tags": [
-            "python"
+            "javascript",
+            "HTML5"
         ]
     }
 }

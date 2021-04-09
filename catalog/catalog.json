@@ -1424,27 +1424,35 @@
         "id": "#178"
     },
     {
+        "name": "Iterating Lists with Indices",
+        "description": "Revising methods for adding indexes to lists since PEP 3113 removed tuple parameter unpacking",
+        "categories": "python",
+        "relative_path": "python/list_with_index",
+        "updated_at": "2021-02-25T18:13:37Z",
+        "id": "#179"
+    },
+    {
         "name": "Doorkeeper",
         "description": "Learning about the Doorkeeper gem and testing it for adding OAuth2 provider capabilities to Rails applications",
         "categories": "ruby, rails, security",
         "relative_path": "ruby/doorkeeper",
-        "updated_at": "2021-01-13T09:22:34Z",
-        "id": "#179"
+        "updated_at": "2021-02-25T18:13:37Z",
+        "id": "#180"
     },
     {
         "name": "Reducing Overlapping Ranges",
         "description": "Looking at solutions for how to aggregate a series of ranges while excluding any overlaps (e.g. set of date ranges)",
         "categories": "ruby",
         "relative_path": "ruby/reducing_overlapping_ranges",
-        "updated_at": "2021-02-05T13:12:31Z",
-        "id": "#180"
+        "updated_at": "2021-02-25T18:13:38Z",
+        "id": "#181"
     },
     {
-        "name": "Iterating Lists with Indices",
-        "description": "Revising methods for adding indexes to lists since PEP 3113 removed tuple parameter unpacking",
-        "categories": "python",
-        "relative_path": "python/list_with_index",
-        "updated_at": "2021-02-25T15:34:22Z",
-        "id": "#181"
+        "name": "Color Pickers for the Web",
+        "description": "Looking at easy ways to enable a color picker on a web page",
+        "categories": "javascript, HTML5",
+        "relative_path": "web/color_picker",
+        "updated_at": "2021-04-09T16:14:29Z",
+        "id": "#182"
     }
 ]
