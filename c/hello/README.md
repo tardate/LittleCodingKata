@@ -1,7 +1,14 @@
-# #054 Hello World in C
-
+# Hello World in C
 
 ## Notes
+
+```
+#include <stdio.h>
+
+int main() {
+  printf("Hello, world.\n");
+}
+```
 
 
 ```
@@ -10,7 +17,6 @@ gcc -g -Wall -O3    hello.c   -o hello
 $ ./hello
 Hello, world.
 ```
-
 
 ## Credits and References
 * [printf](https://www.tutorialspoint.com/c_standard_library/c_function_printf.htm)

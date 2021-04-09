@@ -1612,5 +1612,13 @@
         "tags": [
             "ruby"
         ]
+    },
+    "/c/loops/": {
+        "id": 184,
+        "title": "Loops in C",
+        "summary": "All about loops in C",
+        "tags": [
+            "c"
+        ]
     }
 }

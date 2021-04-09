@@ -1462,5 +1462,13 @@
         "relative_path": "ruby/style",
         "updated_at": "2021-04-09T16:37:32Z",
         "id": "#183"
+    },
+    {
+        "name": "Loops in C",
+        "description": "All about loops in C",
+        "categories": "c",
+        "relative_path": "c/loops",
+        "updated_at": "2021-04-09T16:59:15Z",
+        "id": "#184"
     }
 ]

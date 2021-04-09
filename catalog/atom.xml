@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-04-09T16:37:43Z</updated>
+  <updated>2021-04-09T17:31:04Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1624,5 +1624,13 @@
     <title>Ruby Style</title>
     <summary>On style guides and resources for ruby</summary>
     <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/c/loops/</id>
+    <link href="https://codingkata.tardate.com/c/loops/"/>
+    <updated>2021-04-09T16:59:15Z</updated>
+    <title>Loops in C</title>
+    <summary>All about loops in C</summary>
+    <category term="c"/>
   </entry>
 </feed>
