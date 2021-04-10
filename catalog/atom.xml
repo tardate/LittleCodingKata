@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-04-09T17:31:04Z</updated>
+  <updated>2021-04-10T03:16:06Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1632,5 +1632,13 @@
     <title>Loops in C</title>
     <summary>All about loops in C</summary>
     <category term="c"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rust/loops/</id>
+    <link href="https://codingkata.tardate.com/rust/loops/"/>
+    <updated>2021-04-10T03:06:43Z</updated>
+    <title>Loops in Rust</title>
+    <summary>All about loops in rust</summary>
+    <category term="rust"/>
   </entry>
 </feed>

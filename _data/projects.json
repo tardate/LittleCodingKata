@@ -1620,5 +1620,13 @@
         "tags": [
             "c"
         ]
+    },
+    "/rust/loops/": {
+        "id": 185,
+        "title": "Loops in Rust",
+        "summary": "All about loops in rust",
+        "tags": [
+            "rust"
+        ]
     }
 }

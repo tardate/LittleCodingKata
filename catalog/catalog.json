@@ -1470,5 +1470,13 @@
         "relative_path": "c/loops",
         "updated_at": "2021-04-09T16:59:15Z",
         "id": "#184"
+    },
+    {
+        "name": "Loops in Rust",
+        "description": "All about loops in rust",
+        "categories": "rust",
+        "relative_path": "rust/loops",
+        "updated_at": "2021-04-10T03:06:43Z",
+        "id": "#185"
     }
 ]
