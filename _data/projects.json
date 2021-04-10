@@ -1628,5 +1628,13 @@
         "tags": [
             "rust"
         ]
+    },
+    "/ruby/regex_and_string_indexes/": {
+        "id": 186,
+        "title": "Regular Expressions and String Indexes",
+        "summary": "When string indexes are better than regex, and when regex can help writing a string index",
+        "tags": [
+            "ruby"
+        ]
     }
 }

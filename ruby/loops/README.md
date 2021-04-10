@@ -60,6 +60,8 @@ works differently from
 
 ### Running the Examples
 
+See [examples.rb](./examples.rb); these demonstrations are written asa test suite:
+
 ```
 $ ruby examples.rb
 Run options: --seed 8730

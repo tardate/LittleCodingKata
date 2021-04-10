@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-04-10T03:16:06Z</updated>
+  <updated>2021-04-10T03:59:26Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1640,5 +1640,13 @@
     <title>Loops in Rust</title>
     <summary>All about loops in rust</summary>
     <category term="rust"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/regex_and_string_indexes/</id>
+    <link href="https://codingkata.tardate.com/ruby/regex_and_string_indexes/"/>
+    <updated>2021-04-10T03:59:05Z</updated>
+    <title>Regular Expressions and String Indexes</title>
+    <summary>When string indexes are better than regex, and when regex can help writing a string index</summary>
+    <category term="ruby"/>
   </entry>
 </feed>
