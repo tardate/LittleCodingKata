@@ -1492,7 +1492,15 @@
         "description": "Checking out various Javascript-based password strength testers and trying to find one that best implements latest NIST guidelines.",
         "categories": "javascript, security",
         "relative_path": "javascript/password_strength_testers",
-        "updated_at": "2021-04-16T14:58:40Z",
+        "updated_at": "2021-04-16T15:02:39Z",
         "id": "#187"
+    },
+    {
+        "name": "YubiKey",
+        "description": "A closer look at the YubiKey hardware security token, how it works, the CLI and GUI, and how it can be used with a range of services. Also demonstrate how to setup with Wasabi Cloud Storage - an example of a service that supports 2-factor authentication but not specifically the YubiKey.",
+        "categories": "security, MFA",
+        "relative_path": "security/yubikey",
+        "updated_at": "2021-04-16T15:40:16Z",
+        "id": "#188"
     }
 ]

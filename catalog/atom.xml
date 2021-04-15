@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-04-16T15:01:32Z</updated>
+  <updated>2021-04-16T15:40:54Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1652,10 +1652,19 @@
   <entry>
     <id>https://codingkata.tardate.com/javascript/password_strength_testers/</id>
     <link href="https://codingkata.tardate.com/javascript/password_strength_testers/"/>
-    <updated>2021-04-16T14:58:40Z</updated>
+    <updated>2021-04-16T15:02:39Z</updated>
     <title>Password Strength Testers</title>
     <summary>Checking out various Javascript-based password strength testers and trying to find one that best implements latest NIST guidelines.</summary>
     <category term="javascript"/>
     <category term="security"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/security/yubikey/</id>
+    <link href="https://codingkata.tardate.com/security/yubikey/"/>
+    <updated>2021-04-16T15:40:16Z</updated>
+    <title>YubiKey</title>
+    <summary>A closer look at the YubiKey hardware security token, how it works, the CLI and GUI, and how it can be used with a range of services. Also demonstrate how to setup with Wasabi Cloud Storage - an example of a service that supports 2-factor authentication but not specifically the YubiKey.</summary>
+    <category term="security"/>
+    <category term="MFA"/>
   </entry>
 </feed>
