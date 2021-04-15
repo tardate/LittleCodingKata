@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>password_strength</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- password_strength -->
+<script type="text/javascript" src="password_strength/password_strength.js"></script>
+<!-- <script type="text/javascript" src="password_strength/password_strength_lightweight.js"></script> -->
+<link rel="stylesheet" type="text/css" href="password_strength/password_strength.css">
+
+<script>
+    $(document).ready(function($) {
+        $('#myPassword').strength_meter();
+
+        $('#mySecondPassword').strength_meter({
+            inputClass: 'c_strength_input',
+            strengthMeterClass: 'c_strength_meter',
+            toggleButtonClass: 'c_button_strength'
+        });
+
+        $("#myThirdPassword").strength_meter({
+            strengthMeterClass: 't_strength_meter'
+        });
+    });
+</script>
+
+</head>
+
+<body>
+
+    <h1>password_strength.js</h1>
+
+    <p class="intro">This JQuery plugin is helping to create strong passwords which could resist guessing and brute-force attacks.</p>
+
+    <div class="aligncenter">
+        <a class="button cta hvr-float-shadow" href="https://github.com/mkurayan/Password-Strength">Download on GitHub</a>
+        <a class="button cta hvr-float-shadow" href="https://www.npmjs.com/package/password_strength">Install npm package</a>
+        <br />
+        <a class="tutorial hvr-pop" href="https://github.com/mkurayan/Password-Strength">Read Tutorial &rarr;</a>
+    </div>
+
+    <div class="effects">
+        <h2>Default Style</h2>
+        <div id="myPassword"></div>
+
+        <h2>Customized Style</h2>
+        <div id="mySecondPassword"></div>
+
+        <h2>Customized Style</h2>
+        <div id="myThirdPassword"></div>
+    </div>
+    
+    <div class="footer">
+        <div class="about">
+            <h2>About Password-Strength</h2>
+
+            <p><strong>password_strength.js</strong> implemented as jQuery Widget Factory because such approach allows to build complex, stateful plugins based on object-oriented principles. For more information about plugins architecture you can read this article: <a href="http://www.smashingmagazine.com/2011/10/11/essential-jquery-plugin-patterns/">Essential jQuery Plugin Patterns</a></p>
+
+            <p>If you prefer a lightweight implementation which not use Widget Factory and not depend from jQuery UI you can use this version: <a href="https://github.com/mkurayan/password_strength/blob/master/password_strength/password_strength_lightweight.js">Lightweight password_strength</a></p>
+
+            <p>For more information about plugin please <a href="#">read tutorial</a>. </p>
+
+            <br />
+            <h3>License</h3>
+
+            <p><strong>password_strength.js</strong> is open source, and made available under a <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>. Distribute, use as-is, or modify to your liking in personal and commercial projects.
+
+            <p>Placing author information in your credits page or humans.txt is much appreciated.</p>
+        </div>
+
+        <div class="author">
+            <p class="credit">Created by <a href="https://www.linkedin.com/pub/maxim-kurayan/a2/817/b0" title="Visit portfolio of Maxim Kurayan">Maxim Kurayan - Full Stack Web Developer</a></p>
+        </div>
+    </div>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-61729975-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</body>
+</html>

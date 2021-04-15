@@ -1,0 +1,9 @@
+input.enz-fail {
+  border-color: #b94a48 !important;
+  background: url(https://cdn.enzoic.com/images/warning.png)
+    right 5px center no-repeat;
+}
+
+input.enz-success {
+  border-color: #32cd32 !important;
+}

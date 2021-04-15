@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>enzoic</title>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.passwordping.com/css/style.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.enzoic.com/css/style_enzoic.css">
+<link rel="stylesheet" type="text/css" href="./style.css">
+<script type="text/javascript" src="https://cdn.enzoic.com/js/enzoic.min.js"></script>
+<script type="text/javascript">
+/* handler for the signup form's onsubmit event */
+function onSignupFormSubmit() {
+  /*
+    Decide what your minimum allowable password
+    score is and disallow if less.  You can check
+    the current score using the CurrentPasswordScore
+    property.
+  */
+  if (Enzoic.currentPasswordScore <
+      Enzoic.PASSWORD_STRENGTH.Strong) {
+    showToast("Entered password is not strong enough.");
+    return false;
+  }
+
+  return true;
+}
+
+function showToast(msg) {
+  var toastEl = document.getElementById("resultToast");
+  var toastMsg = document.getElementById("resultToastMsg");
+  toastMsg.innerHTML = msg;
+  toastEl.className += " fail";
+
+  // hide toast
+  setTimeout(hideToast, 2000);
+}
+
+function hideToast() {
+  var toastEl = document.getElementById("resultToast");
+
+  toastEl.className = toastEl.className.replace("fail", "");
+}
+
+document.addEventListener("DOMContentLoaded", function(event) {
+  document.getElementById("signupForm").onsubmit = onSignupFormSubmit;
+});
+</script>
+</head>
+
+<body>
+
+<h4 class="text-center">
+  Example Signup Form Using Enzoic
+</h4>
+
+<p class="text-center offset-1">
+  Highlight the "Choose a Password" field to see the Password Strength Meter in action.
+</p>
+
+<form id="signupForm"
+      action="https://cdn.enzoic.com/demosignupsuccess.html"
+      class="offset-4 demo-form pp-container text-center">
+  <fieldset>
+
+    <!-- email address field -->
+    <div class="row">
+      <div class="col-md-12">
+        <input type="text" placeholder="Your Email Address" />
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- password field -->
+      <div class="col-md-6">
+        <!--
+          STEP 2
+          To add Enzoic meter to this input,
+          add the enz-enable attribute to the markup.
+          Other "enz-" attributes can be used for further
+          customization.
+        -->
+        <input type="password"
+               name="password"
+               placeholder="Choose a Password"
+               enz-enable
+               enz-theme="default"
+               enz-min-password-strength="4"
+               enz-css-success-class="enz-success"
+               enz-css-fail-class="enz-fail" />
+      </div>
+
+      <!-- confirm password field -->
+      <div class="col-md-6">
+        <input type="password"
+               placeholder="Confirm Password" />
+      </div>
+    </div>
+
+    <!-- submit button -->
+    <div class="btn-group text-center">
+      <button type="submit"
+              class="btn btn-md btn-primary">
+        Test Submit
+      </button>
+
+      <p class="offset-1 small">
+        This is an example to show the Password Strength Meter in action.<br />
+        You're not signing up for an account.
+      </p>
+    </div>
+
+    <!-- simple toast for validation messaging to user -->
+    <div id="resultToast" class="result-toast">
+      <span class="loader"></span>
+      <span id="resultToastMsg" class="msg">...</span>
+    </div>
+
+  </fieldset>
+</form>
+
+</body>
+</html>
+

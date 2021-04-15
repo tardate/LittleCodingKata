@@ -1486,5 +1486,13 @@
         "relative_path": "ruby/regex_and_string_indexes",
         "updated_at": "2021-04-10T03:59:05Z",
         "id": "#186"
+    },
+    {
+        "name": "Password Strength Testers",
+        "description": "Checking out various Javascript-based password strength testers and trying to find one that best implements latest NIST guidelines.",
+        "categories": "javascript, security",
+        "relative_path": "javascript/password_strength_testers",
+        "updated_at": "2021-04-16T14:58:40Z",
+        "id": "#187"
     }
 ]
