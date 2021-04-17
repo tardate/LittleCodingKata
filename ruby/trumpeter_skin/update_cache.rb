@@ -9,7 +9,7 @@ class Catalog
   attr_accessor :content
 
   def load
-    self.content = if File.exists?(file_path)
+    self.content = if File.exist?(file_path)
       JSON.load file_path
     else
       FileUtils.mkdir_p File.dirname(file_path)
@@ -18,11 +18,11 @@ class Catalog
   end
 
   def save
-    File.write(file_path , JSON.pretty_generate(content))
+    File.write(file_path, JSON.pretty_generate(content))
   end
 
   def export_product_table
-    File.write(product_table_path , JSON.pretty_generate(products.values))
+    File.write(product_table_path, JSON.pretty_generate(products.values))
   end
 
   def base_folder
@@ -40,7 +40,7 @@ class Catalog
   def image_folder
     @image_folder ||= begin
       path = base_folder.join('images')
-      FileUtils.mkdir_p(path) unless File.exists?(path)
+      FileUtils.mkdir_p(path) unless File.exist?(path)
       path
     end
   end
@@ -64,7 +64,7 @@ class Catalog
 end
 
 class Scraper
-  BACKOFF_SECONDS = 1
+  BACKOFF_SECONDS = 0.3
   BASE_URL = 'http://www.trumpeter-china.com'.freeze
   INDEX_URL = '/index.php?l=en'.freeze
   CATEGORY_NAMES = %w[Armor Buildings Car Plane Ship].freeze
@@ -83,10 +83,8 @@ class Scraper
   end
 
   def load_product_metadata
-    unless catalog.product_metadata
-      catalog.product_metadata = product_metadata
-    end
-    STDERR.puts "[Load Product Pages][#{Time.now}] loaded"
+    catalog.product_metadata ||= product_metadata
+    log 'Load Product Pages', 'loaded'
   end
 
   def load_product_category(category_name)
@@ -104,16 +102,14 @@ class Scraper
         product_data['image_url'] = product.css('img').first.attr('src')
         product_data['code'] = product.css('dd')[0].css('a').first.text
         product_data['name'] = product.css('dd')[1].css('a').first.text
-        if product_data['code'].empty?
-          product_data['code'] = product_data['name'].split(' ').last
-        end
+        product_data['code'] = product_data['name'].split(' ').last if product_data['code'].empty?
         product_data['name'] = product_data['name'].gsub(" #{product_data['code']}", '').strip
         product_data['scale'] = product.css('dd')[2].css('a').first.text.gsub('/', ':').gsub('：', ':')
-        STDERR.puts "[Load #{category_name} Products][#{Time.now}] #{product_data['code']} #{product_data['scale']} #{product_data['name']}"
+        log "Load #{category_name} Products", "#{product_data['code']} #{product_data['scale']} #{product_data['name']}"
         catalog.products[product_data['code']] = product_data
       end
     end
-    STDERR.puts "[Load #{category_name} Products][#{Time.now}] loaded"
+    log "Load #{category_name} Products", 'loaded'
   end
 
   def load_products
@@ -122,32 +118,23 @@ class Scraper
         load_product_category(category_name)
       end
     end
-     STDERR.puts "[Load Products][#{Time.now}] loaded"
+    log 'Load Products', 'loaded'
   end
 
-  def load_product_images
+  def cache_product_images
     catalog.products.keys.each do |code|
       product_data = catalog.products[code]
       image_url = product_data['image_url']
       filename = catalog.image_path(code, image_url)
-      STDERR.puts "[Load Product Image][#{Time.now}] loading #{filename} with a #{BACKOFF_SECONDS} second grace period delay"
+      log 'Load Product Image', "loading #{filename} with a #{BACKOFF_SECONDS} second grace period delay"
 
-      unless File.exists?(filename)
+      unless File.exist?(filename)
         open(filename, 'wb') do |file|
           file << URI.open(URI.parse(BASE_URL + image_url)).read
         end
         sleep BACKOFF_SECONDS
       end
     end
-  end
-
-  def get_page(relative_url, message: nil)
-    url = BASE_URL + relative_url
-    STDERR.puts "[#{message}][#{Time.now}] loading #{url} with a #{BACKOFF_SECONDS} second grace period delay"
-    html = URI.open(URI.parse(url))
-    result = Nokogiri::HTML(html)
-    sleep BACKOFF_SECONDS
-    result
   end
 
   def product_metadata
@@ -165,6 +152,7 @@ class Scraper
         'last_page_url' => last_page_url,
         'pages' => pages
       }
+      log "Product #{category_name} metadata", result[category_name].to_s
     end
     result
   end
@@ -172,10 +160,23 @@ class Scraper
   def index_doc
     @index_doc ||= get_page(INDEX_URL, message: 'GET main page (en)')
   end
+
+  def get_page(relative_url, message: nil)
+    url = BASE_URL + relative_url
+    log message, "loading #{url} with a #{BACKOFF_SECONDS} second grace period delay"
+    html = URI.open(URI.parse(url))
+    result = Nokogiri::HTML(html)
+    sleep BACKOFF_SECONDS
+    result
+  end
+
+  def log(category, message)
+    warn "[#{category}][#{Time.now}] #{message}"
+  end
 end
 
 scraper = Scraper.new
 scraper.load_product_metadata
 scraper.load_products
-scraper.load_product_images
 scraper.save
+scraper.cache_product_images
