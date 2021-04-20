@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-04-16T15:40:54Z</updated>
+  <updated>2021-04-20T15:32:18Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1661,10 +1661,19 @@
   <entry>
     <id>https://codingkata.tardate.com/security/yubikey/</id>
     <link href="https://codingkata.tardate.com/security/yubikey/"/>
-    <updated>2021-04-16T15:40:16Z</updated>
+    <updated>2021-04-16T15:41:39Z</updated>
     <title>YubiKey</title>
     <summary>A closer look at the YubiKey hardware security token, how it works, the CLI and GUI, and how it can be used with a range of services. Also demonstrate how to setup with Wasabi Cloud Storage - an example of a service that supports 2-factor authentication but not specifically the YubiKey.</summary>
     <category term="security"/>
     <category term="MFA"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/proc_v_lambda/</id>
+    <link href="https://codingkata.tardate.com/ruby/proc_v_lambda/"/>
+    <updated>2021-04-20T15:31:54Z</updated>
+    <title>Proc v Lambda</title>
+    <summary>Exploring differences and similarities between procs and lambdas in Ruby</summary>
+    <category term="ruby"/>
+    <category term="closure"/>
   </entry>
 </feed>

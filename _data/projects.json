@@ -1654,5 +1654,14 @@
             "security",
             "MFA"
         ]
+    },
+    "/ruby/proc_v_lambda/": {
+        "id": 189,
+        "title": "Proc v Lambda",
+        "summary": "Exploring differences and similarities between procs and lambdas in Ruby",
+        "tags": [
+            "ruby",
+            "closure"
+        ]
     }
 }

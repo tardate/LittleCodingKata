@@ -1,0 +1,6 @@
+{
+    "name": "Proc v Lambda",
+    "description": "Exploring differences and similarities between procs and lambdas in Ruby",
+    "categories": "ruby, closure",
+    "relative_path": "ruby/proc_v_lambda"
+}

@@ -1500,7 +1500,15 @@
         "description": "A closer look at the YubiKey hardware security token, how it works, the CLI and GUI, and how it can be used with a range of services. Also demonstrate how to setup with Wasabi Cloud Storage - an example of a service that supports 2-factor authentication but not specifically the YubiKey.",
         "categories": "security, MFA",
         "relative_path": "security/yubikey",
-        "updated_at": "2021-04-16T15:40:16Z",
+        "updated_at": "2021-04-16T15:41:39Z",
         "id": "#188"
+    },
+    {
+        "name": "Proc v Lambda",
+        "description": "Exploring differences and similarities between procs and lambdas in Ruby",
+        "categories": "ruby, closure",
+        "relative_path": "ruby/proc_v_lambda",
+        "updated_at": "2021-04-20T15:31:54Z",
+        "id": "#189"
     }
 ]
