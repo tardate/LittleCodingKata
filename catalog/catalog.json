@@ -1776,75 +1776,75 @@
         "id": "#222"
     },
     {
-        "name": "Binary Files",
-        "description": "Simple binary file operations with C++",
-        "categories": "C++",
-        "relative_path": "cpp/binary_files",
-        "updated_at": "2021-11-10T13:51:54Z",
+        "name": "PostgreSQL Locks",
+        "description": "Notes on managing PostgreSQL locks",
+        "categories": "databases/postgresql",
+        "relative_path": "databases/postgresql/locks",
+        "updated_at": "2022-10-18T14:33:55Z",
         "id": "#223"
     },
     {
-        "name": "Making Static Libraries",
-        "description": "Basics of building and using static libraries with C++",
-        "categories": "C++",
-        "relative_path": "cpp/static_library",
-        "updated_at": "2021-11-12T17:56:05Z",
+        "name": "cron",
+        "description": "all about cron and OS-managed scheduled tasks",
+        "categories": "tools",
+        "relative_path": "tools/cron",
+        "updated_at": "2022-10-18T14:33:55Z",
         "id": "#224"
-    },
-    {
-        "name": "bootstrap",
-        "description": "About Bootstrap",
-        "categories": "web, javascript",
-        "relative_path": "web/bootstrap",
-        "updated_at": "2022-07-07T05:43:45Z",
-        "id": "#225"
-    },
-    {
-        "name": "fullcalendar",
-        "description": "Using the fullcalendar library for the web",
-        "categories": "web, javascript",
-        "relative_path": "web/fullcalendar",
-        "updated_at": "2022-07-07T05:43:45Z",
-        "id": "#226"
-    },
-    {
-        "name": "Bootstrap Date and Time Pickers",
-        "description": "About date/time pickers with bootstrap",
-        "categories": "web, javascript",
-        "relative_path": "web/bootstrap_datetime_pickers",
-        "updated_at": "2022-07-07T05:43:45Z",
-        "id": "#227"
-    },
-    {
-        "name": "Ruby One-liners",
-        "description": "All about one-liners with ruby",
-        "categories": "ruby",
-        "relative_path": "ruby/one-liners",
-        "updated_at": "2022-07-07T05:43:45Z",
-        "id": "#228"
-    },
-    {
-        "name": "XML Parsing with Ruby",
-        "description": "About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like nokogiri",
-        "categories": "ruby, XML, HTML, nokogiri",
-        "relative_path": "ruby/xml_parsing",
-        "updated_at": "2022-07-07T05:43:45Z",
-        "id": "#229"
     },
     {
         "name": "Docker Shell",
         "description": "How to get a bash shell in a docker instance",
         "categories": "docker",
         "relative_path": "docker/shell",
-        "updated_at": "2022-08-01T02:57:48Z",
-        "id": "#230"
+        "updated_at": "2022-10-18T14:33:55Z",
+        "id": "#225"
     },
     {
         "name": "Python SNMP Servers",
         "description": "Researching simple pure Python SNMP Server options",
         "categories": "python, SNMP",
         "relative_path": "python/snmp_server",
-        "updated_at": "2022-08-01T02:57:48Z",
+        "updated_at": "2022-10-18T14:33:55Z",
+        "id": "#226"
+    },
+    {
+        "name": "bootstrap",
+        "description": "About Bootstrap",
+        "categories": "web, javascript",
+        "relative_path": "web/bootstrap",
+        "updated_at": "2022-10-18T14:33:55Z",
+        "id": "#227"
+    },
+    {
+        "name": "fullcalendar",
+        "description": "Using the fullcalendar library for the web",
+        "categories": "web, javascript",
+        "relative_path": "web/fullcalendar",
+        "updated_at": "2022-10-18T14:33:55Z",
+        "id": "#228"
+    },
+    {
+        "name": "Bootstrap Date and Time Pickers",
+        "description": "About date/time pickers with bootstrap",
+        "categories": "web, javascript",
+        "relative_path": "web/bootstrap_datetime_pickers",
+        "updated_at": "2022-10-18T14:33:55Z",
+        "id": "#229"
+    },
+    {
+        "name": "php md5",
+        "description": "Are you still using MD5 in PHP?",
+        "categories": "php",
+        "relative_path": "php/md5",
+        "updated_at": "2022-10-18T14:33:55Z",
+        "id": "#230"
+    },
+    {
+        "name": "php include",
+        "description": "How to include or require other files in a PHP script",
+        "categories": "php",
+        "relative_path": "php/include",
+        "updated_at": "2022-10-18T14:33:55Z",
         "id": "#231"
     },
     {
@@ -1852,39 +1852,39 @@
         "description": "Split a text file into parts with simple shell utilities",
         "categories": "bash, split, tail",
         "relative_path": "bash/split_files",
-        "updated_at": "2022-08-01T02:57:48Z",
+        "updated_at": "2022-10-18T14:33:55Z",
         "id": "#232"
     },
     {
-        "name": "cron",
-        "description": "all about cron and OS-managed scheduled tasks",
-        "categories": "tools",
-        "relative_path": "tools/cron",
-        "updated_at": "2022-10-17T11:12:33Z",
+        "name": "Binary Files",
+        "description": "Simple binary file operations with C++",
+        "categories": "C++",
+        "relative_path": "cpp/binary_files",
+        "updated_at": "2022-10-18T14:33:55Z",
         "id": "#233"
     },
     {
-        "name": "php md5",
-        "description": "Are you still using MD5 in PHP?",
-        "categories": "php",
-        "relative_path": "php/md5",
-        "updated_at": "2022-10-17T11:12:33Z",
+        "name": "Making Static Libraries",
+        "description": "Basics of building and using static libraries with C++",
+        "categories": "C++",
+        "relative_path": "cpp/static_library",
+        "updated_at": "2022-10-18T14:33:55Z",
         "id": "#234"
     },
     {
-        "name": "php include",
-        "description": "How to include or require other files in a PHP script",
-        "categories": "php",
-        "relative_path": "php/include",
-        "updated_at": "2022-10-17T11:12:33Z",
+        "name": "Convert SZ AP to Unleashed",
+        "description": "Demonstrating the procedure for converting a SZ-managed Ruckus R610 AP to Unleashed",
+        "categories": "networking, WLAN",
+        "relative_path": "infrastructure/ruckus/convert_sz_ap_to_unleashed",
+        "updated_at": "2022-10-18T14:33:55Z",
         "id": "#235"
     },
     {
-        "name": "PostgreSQL Locks",
-        "description": "Notes on managing PostgreSQL locks",
-        "categories": "databases/postgresql",
-        "relative_path": "databases/postgresql/locks",
-        "updated_at": "2022-10-17T11:24:15Z",
+        "name": "Adding APs to vSZ",
+        "description": "Configuring a Ruckus R610 access point to be managed by a Ruckus Virtual SmartZone controller",
+        "categories": "networking, WLAN",
+        "relative_path": "infrastructure/ruckus/vsz_add_ap",
+        "updated_at": "2022-10-18T14:33:55Z",
         "id": "#236"
     },
     {
@@ -1892,23 +1892,31 @@
         "description": "Complete and validated demonstration of installing Ruckus Virtual SmartZone on AWS",
         "categories": "networking, WLAN",
         "relative_path": "infrastructure/ruckus/vsz_on_aws",
-        "updated_at": "2022-10-18T09:57:50Z",
+        "updated_at": "2022-10-18T14:33:55Z",
         "id": "#237"
     },
     {
-        "name": "Adding APs to vSZ",
-        "description": "Configuring a Ruckus R610 access point to be managed by a Ruckus Virtual SmartZone controller",
-        "categories": "networking, WLAN",
-        "relative_path": "infrastructure/ruckus/vsz_add_ap",
-        "updated_at": "2022-10-18T14:15:59Z",
+        "name": "Ruby One-liners",
+        "description": "All about one-liners with ruby",
+        "categories": "ruby",
+        "relative_path": "ruby/one-liners",
+        "updated_at": "2022-10-18T14:33:55Z",
         "id": "#238"
     },
     {
-        "name": "Convert SZ AP to Unleashed",
-        "description": "Demonstrating the procedure for converting a SZ-managed Ruckus R610 AP to Unleashed",
-        "categories": "networking, WLAN",
-        "relative_path": "infrastructure/ruckus/convert_sz_ap_to_unleashed",
-        "updated_at": "2022-10-18T14:30:46Z",
+        "name": "XML Parsing with Ruby",
+        "description": "About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like nokogiri",
+        "categories": "ruby, XML, HTML, nokogiri",
+        "relative_path": "ruby/xml_parsing",
+        "updated_at": "2022-10-18T14:33:55Z",
         "id": "#239"
+    },
+    {
+        "name": "Browser Connection Management",
+        "description": "Notes on how web browsers manage network connections",
+        "categories": "web, networking",
+        "relative_path": "web/browser_connection_management",
+        "updated_at": "2022-10-18T14:36:22Z",
+        "id": "#240"
     }
 ]

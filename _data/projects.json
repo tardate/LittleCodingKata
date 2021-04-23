@@ -1950,24 +1950,41 @@
             "tools"
         ]
     },
-    "/cpp/binary_files/": {
+    "/databases/postgresql/locks/": {
         "id": 223,
-        "title": "Binary Files",
-        "summary": "Simple binary file operations with C++",
+        "title": "PostgreSQL Locks",
+        "summary": "Notes on managing PostgreSQL locks",
         "tags": [
-            "C++"
+            "databases/postgresql"
         ]
     },
-    "/cpp/static_library/": {
+    "/tools/cron/": {
         "id": 224,
-        "title": "Making Static Libraries",
-        "summary": "Basics of building and using static libraries with C++",
+        "title": "cron",
+        "summary": "all about cron and OS-managed scheduled tasks",
         "tags": [
-            "C++"
+            "tools"
+        ]
+    },
+    "/docker/shell/": {
+        "id": 225,
+        "title": "Docker Shell",
+        "summary": "How to get a bash shell in a docker instance",
+        "tags": [
+            "docker"
+        ]
+    },
+    "/python/snmp_server/": {
+        "id": 226,
+        "title": "Python SNMP Servers",
+        "summary": "Researching simple pure Python SNMP Server options",
+        "tags": [
+            "python",
+            "SNMP"
         ]
     },
     "/web/bootstrap/": {
-        "id": 225,
+        "id": 227,
         "title": "bootstrap",
         "summary": "About Bootstrap",
         "tags": [
@@ -1976,7 +1993,7 @@
         ]
     },
     "/web/fullcalendar/": {
-        "id": 226,
+        "id": 228,
         "title": "fullcalendar",
         "summary": "Using the fullcalendar library for the web",
         "tags": [
@@ -1985,7 +2002,7 @@
         ]
     },
     "/web/bootstrap_datetime_pickers/": {
-        "id": 227,
+        "id": 229,
         "title": "Bootstrap Date and Time Pickers",
         "summary": "About date/time pickers with bootstrap",
         "tags": [
@@ -1993,40 +2010,20 @@
             "javascript"
         ]
     },
-    "/ruby/one-liners/": {
-        "id": 228,
-        "title": "Ruby One-liners",
-        "summary": "All about one-liners with ruby",
-        "tags": [
-            "ruby"
-        ]
-    },
-    "/ruby/xml_parsing/": {
-        "id": 229,
-        "title": "XML Parsing with Ruby",
-        "summary": "About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like nokogiri",
-        "tags": [
-            "ruby",
-            "XML",
-            "HTML",
-            "nokogiri"
-        ]
-    },
-    "/docker/shell/": {
+    "/php/md5/": {
         "id": 230,
-        "title": "Docker Shell",
-        "summary": "How to get a bash shell in a docker instance",
+        "title": "php md5",
+        "summary": "Are you still using MD5 in PHP?",
         "tags": [
-            "docker"
+            "php"
         ]
     },
-    "/python/snmp_server/": {
+    "/php/include/": {
         "id": 231,
-        "title": "Python SNMP Servers",
-        "summary": "Researching simple pure Python SNMP Server options",
+        "title": "php include",
+        "summary": "How to include or require other files in a PHP script",
         "tags": [
-            "python",
-            "SNMP"
+            "php"
         ]
     },
     "/bash/split_files/": {
@@ -2039,36 +2036,38 @@
             "tail"
         ]
     },
-    "/tools/cron/": {
+    "/cpp/binary_files/": {
         "id": 233,
-        "title": "cron",
-        "summary": "all about cron and OS-managed scheduled tasks",
+        "title": "Binary Files",
+        "summary": "Simple binary file operations with C++",
         "tags": [
-            "tools"
+            "C++"
         ]
     },
-    "/php/md5/": {
+    "/cpp/static_library/": {
         "id": 234,
-        "title": "php md5",
-        "summary": "Are you still using MD5 in PHP?",
+        "title": "Making Static Libraries",
+        "summary": "Basics of building and using static libraries with C++",
         "tags": [
-            "php"
+            "C++"
         ]
     },
-    "/php/include/": {
+    "/infrastructure/ruckus/convert_sz_ap_to_unleashed/": {
         "id": 235,
-        "title": "php include",
-        "summary": "How to include or require other files in a PHP script",
+        "title": "Convert SZ AP to Unleashed",
+        "summary": "Demonstrating the procedure for converting a SZ-managed Ruckus R610 AP to Unleashed",
         "tags": [
-            "php"
+            "networking",
+            "WLAN"
         ]
     },
-    "/databases/postgresql/locks/": {
+    "/infrastructure/ruckus/vsz_add_ap/": {
         "id": 236,
-        "title": "PostgreSQL Locks",
-        "summary": "Notes on managing PostgreSQL locks",
+        "title": "Adding APs to vSZ",
+        "summary": "Configuring a Ruckus R610 access point to be managed by a Ruckus Virtual SmartZone controller",
         "tags": [
-            "databases/postgresql"
+            "networking",
+            "WLAN"
         ]
     },
     "/infrastructure/ruckus/vsz_on_aws/": {
@@ -2080,22 +2079,32 @@
             "WLAN"
         ]
     },
-    "/infrastructure/ruckus/vsz_add_ap/": {
+    "/ruby/one-liners/": {
         "id": 238,
-        "title": "Adding APs to vSZ",
-        "summary": "Configuring a Ruckus R610 access point to be managed by a Ruckus Virtual SmartZone controller",
+        "title": "Ruby One-liners",
+        "summary": "All about one-liners with ruby",
         "tags": [
-            "networking",
-            "WLAN"
+            "ruby"
         ]
     },
-    "/infrastructure/ruckus/convert_sz_ap_to_unleashed/": {
+    "/ruby/xml_parsing/": {
         "id": 239,
-        "title": "Convert SZ AP to Unleashed",
-        "summary": "Demonstrating the procedure for converting a SZ-managed Ruckus R610 AP to Unleashed",
+        "title": "XML Parsing with Ruby",
+        "summary": "About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like nokogiri",
         "tags": [
-            "networking",
-            "WLAN"
+            "ruby",
+            "XML",
+            "HTML",
+            "nokogiri"
+        ]
+    },
+    "/web/browser_connection_management/": {
+        "id": 240,
+        "title": "Browser Connection Management",
+        "summary": "Notes on how web browsers manage network connections",
+        "tags": [
+            "web",
+            "networking"
         ]
     }
 }

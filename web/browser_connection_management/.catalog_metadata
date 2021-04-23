@@ -1,0 +1,6 @@
+{
+    "name": "Browser Connection Management",
+    "description": "Notes on how web browsers manage network connections",
+    "categories": "web, networking",
+    "relative_path": "web/browser_connection_management"
+}
