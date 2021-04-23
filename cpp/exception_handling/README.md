@@ -54,6 +54,7 @@ NB: this is updated for C++17 syntax - specifically the use of `noexcept` instea
 
 
 ## Credits and References
+
 * [noexcept specifier](https://en.cppreference.com/w/cpp/language/noexcept_spec)
 * [Dynamic exception specification](https://en.cppreference.com/w/cpp/language/except_spec)
 * [exception tutorial](http://www.cplusplus.com/doc/tutorial/exceptions/) - cplusplus.com

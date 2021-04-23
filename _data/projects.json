@@ -1004,17 +1004,8 @@
             "cargo"
         ]
     },
-    "/cpp/hands_on_system_programming_with_cpp/": {
-        "id": 116,
-        "title": "Hands-On System Programming with C++",
-        "summary": "Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn",
-        "tags": [
-            "cpp",
-            "book"
-        ]
-    },
     "/infrastructure/cacti/": {
-        "id": 117,
+        "id": 116,
         "title": "Cacti",
         "summary": "About the cacti network monitoring tool, including how to run it in Docker",
         "tags": [
@@ -1023,7 +1014,7 @@
         ]
     },
     "/c/error_function/": {
-        "id": 118,
+        "id": 117,
         "title": "Error Function",
         "summary": "Methods for calculating the Gauss error function in C with standard libraries and the GNU Scientific Library",
         "tags": [
@@ -1031,7 +1022,7 @@
         ]
     },
     "/ruby/rails_antipatterns/": {
-        "id": 119,
+        "id": 118,
         "title": "Rails AntiPatterns",
         "summary": "Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional",
         "tags": [
@@ -1041,7 +1032,7 @@
         ]
     },
     "/tools/requestbin/": {
-        "id": 120,
+        "id": 119,
         "title": "Request Bin",
         "summary": "Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins",
         "tags": [
@@ -1050,7 +1041,7 @@
         ]
     },
     "/docker/docker_cookbook-packt/": {
-        "id": 121,
+        "id": 120,
         "title": "Docker Cookbook (Packt)",
         "summary": "Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt",
         "tags": [
@@ -1059,7 +1050,7 @@
         ]
     },
     "/docker/docker_cookbook-oreilly/": {
-        "id": 122,
+        "id": 121,
         "title": "Docker Cookbook (O'Reilly)",
         "summary": "Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly",
         "tags": [
@@ -1068,7 +1059,7 @@
         ]
     },
     "/elixir/basics/": {
-        "id": 123,
+        "id": 122,
         "title": "Elixir Basics",
         "summary": "Exploring basic language features of Elixir",
         "tags": [
@@ -1076,7 +1067,7 @@
         ]
     },
     "/elixir/about/": {
-        "id": 124,
+        "id": 123,
         "title": "About Elixir",
         "summary": "Elixir in a nutshell",
         "tags": [
@@ -1084,7 +1075,7 @@
         ]
     },
     "/elixir/install_macosx/": {
-        "id": 125,
+        "id": 124,
         "title": "Elixir on MacOSX",
         "summary": "Installing Elixir on MacOSX",
         "tags": [
@@ -1093,7 +1084,7 @@
         ]
     },
     "/elixir/programming_elixir/": {
-        "id": 126,
+        "id": 125,
         "title": "Programming Elixir",
         "summary": "Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf",
         "tags": [
@@ -1102,7 +1093,7 @@
         ]
     },
     "/rust/testing/": {
-        "id": 127,
+        "id": 126,
         "title": "Testing with Rust",
         "summary": "How to write and organise tests for rust",
         "tags": [
@@ -1110,7 +1101,7 @@
         ]
     },
     "/rust/rust_programming_language/": {
-        "id": 128,
+        "id": 127,
         "title": "The Rust Programming Language",
         "summary": "Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research",
         "tags": [
@@ -1119,7 +1110,7 @@
         ]
     },
     "/elm/about/": {
-        "id": 129,
+        "id": 128,
         "title": "About Elm",
         "summary": "Elm (the language) in a nutshell",
         "tags": [
@@ -1127,7 +1118,7 @@
         ]
     },
     "/javascript/rickshaw/": {
-        "id": 130,
+        "id": 129,
         "title": "Rickshaw",
         "summary": "Testing out the D3-based Rickshaw time series graph library",
         "tags": [
@@ -1136,7 +1127,7 @@
         ]
     },
     "/infrastructure/zabbix/mastering_zabbix/": {
-        "id": 131,
+        "id": 130,
         "title": "Mastering Zabbix",
         "summary": "Book notes - Mastering Zabbix by Andrea Dalle Vacche, Stefano Kewan Lee, published by PacktPub",
         "tags": [
@@ -1146,7 +1137,7 @@
         ]
     },
     "/infrastructure/zabbix/ruby-clients/": {
-        "id": 132,
+        "id": 131,
         "title": "Zabbix API Ruby Clients",
         "summary": "A quick survey and test of various ruby options for using the Zabbix API",
         "tags": [
@@ -1156,7 +1147,7 @@
         ]
     },
     "/infrastructure/zabbix/about/": {
-        "id": 133,
+        "id": 132,
         "title": "About Zabbix",
         "summary": "Zabbix in a Nutshell",
         "tags": [
@@ -1166,7 +1157,7 @@
         ]
     },
     "/infrastructure/zabbix/dockerized/": {
-        "id": 134,
+        "id": 133,
         "title": "Zabbix Docker",
         "summary": "Running Zabbix with Docker",
         "tags": [
@@ -1177,7 +1168,7 @@
         ]
     },
     "/messaging/zeromq/zeromq-book/": {
-        "id": 135,
+        "id": 134,
         "title": "ZeroMQ (book)",
         "summary": "Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly",
         "tags": [
@@ -1187,7 +1178,7 @@
         ]
     },
     "/messaging/zeromq/about/": {
-        "id": 136,
+        "id": 135,
         "title": "About Zeromq",
         "summary": "Zeromq in a nutshell with a quick test of using the library from C",
         "tags": [
@@ -1197,7 +1188,7 @@
         ]
     },
     "/messaging/zeromq/install_macosx/": {
-        "id": 137,
+        "id": 136,
         "title": "zeromq on MacOSX",
         "summary": "Installing zeromq on MacOSX",
         "tags": [
@@ -1206,7 +1197,7 @@
         ]
     },
     "/messaging/zeromq/c/request_reply/": {
-        "id": 138,
+        "id": 137,
         "title": "Basic Request-Reply in C",
         "summary": "Basic ZeroMQ 'hello world' example of the request-reply messaging pattern in C",
         "tags": [
@@ -1216,7 +1207,7 @@
         ]
     },
     "/c/practical_c_programming/": {
-        "id": 139,
+        "id": 138,
         "title": "Practical C Programming",
         "summary": "Book notes - Practical C Programming, 3rd Edition by Steve Oualline, published by O'Reilly",
         "tags": [
@@ -1225,7 +1216,7 @@
         ]
     },
     "/c/21st_century_c/": {
-        "id": 140,
+        "id": 139,
         "title": "21st Century C",
         "summary": "Notes on the book '21st Century C' by Ben Klemens, published by O'Reilly",
         "tags": [
@@ -1234,7 +1225,7 @@
         ]
     },
     "/databases/oracle/ORA_Tweet_With_Shorturls/": {
-        "id": 141,
+        "id": 140,
         "title": "Database Tweets",
         "summary": "Tweeting from your Oracle database with short urls",
         "tags": [
@@ -1243,7 +1234,7 @@
         ]
     },
     "/databases/influxdb/ruby_client/": {
-        "id": 142,
+        "id": 141,
         "title": "Using InfluxDb 1.x with Ruby",
         "summary": "Testing out the official ruby client calling a InfluxDb 1.7.9 server running in Docker.",
         "tags": [
@@ -1254,7 +1245,7 @@
         ]
     },
     "/databases/influxdb/ruby_client2/": {
-        "id": 143,
+        "id": 142,
         "title": "Using InfluxDb 2.x with Ruby",
         "summary": "Testing out the official ruby client calling a InfluxDb 2.0.0-beta server running in Docker",
         "tags": [
@@ -1265,7 +1256,7 @@
         ]
     },
     "/docker/CentOS8_install/": {
-        "id": 144,
+        "id": 143,
         "title": "Docker on CentOS 8",
         "summary": "Installing and running Docker on CentOS 8",
         "tags": [
@@ -1273,7 +1264,7 @@
         ]
     },
     "/bash/finding_files/": {
-        "id": 145,
+        "id": 144,
         "title": "Finding Files",
         "summary": "Examples of various ways to find files",
         "tags": [
@@ -1281,7 +1272,7 @@
         ]
     },
     "/javascript/jQueryDateTime/": {
-        "id": 146,
+        "id": 145,
         "title": "jQuery Date-Time Selectors",
         "summary": "A Quick Survey of jQuery Date-Time Selector libraries and approaches",
         "tags": [
@@ -1289,7 +1280,7 @@
         ]
     },
     "/javascript/cbx/": {
-        "id": 147,
+        "id": 146,
         "title": "Cross-browser X Library",
         "summary": "Playing with the old inner solar system demo for the cross-browser javascript X library",
         "tags": [
@@ -1297,7 +1288,7 @@
         ]
     },
     "/infrastructure/linux_server_hacks/": {
-        "id": 148,
+        "id": 147,
         "title": "Linux Server Hacks",
         "summary": "Book notes - Linux Server Hacks by Rob Flickenger and Linux Server Hacks, Volume Two (Tips & Tools for Connecting, Monitoring, and Troubleshooting) by William von Hagen and Brian K. Jones, published by O'Reilly",
         "tags": [
@@ -1307,7 +1298,7 @@
         ]
     },
     "/infrastructure/zabbix/ruby-programmatic-config/": {
-        "id": 149,
+        "id": 148,
         "title": "Zabbix Programmatic Configuration with Ruby",
         "summary": "Configuring zabbix via the API, with examples using zabbix-client ruby gem",
         "tags": [
@@ -1317,7 +1308,7 @@
         ]
     },
     "/c/loop_optimization/": {
-        "id": 150,
+        "id": 149,
         "title": "Loop Optimization",
         "summary": "Looking at how C compilers optimize loops",
         "tags": [
@@ -1325,7 +1316,7 @@
         ]
     },
     "/pascal/free_pascal/": {
-        "id": 151,
+        "id": 150,
         "title": "Free Pascal",
         "summary": "Installing and running the Free Pascal compiler on MacOSX",
         "tags": [
@@ -1333,7 +1324,7 @@
         ]
     },
     "/pascal/about/": {
-        "id": 152,
+        "id": 151,
         "title": "About Pascal",
         "summary": "Pascal In a Nutshell",
         "tags": [
@@ -1341,7 +1332,7 @@
         ]
     },
     "/tools/tcp_wrappers/": {
-        "id": 153,
+        "id": 152,
         "title": "TCP Wrappers",
         "summary": "The basics of TCP wrappers",
         "tags": [
@@ -1349,7 +1340,7 @@
         ]
     },
     "/web/variable_fonts/": {
-        "id": 154,
+        "id": 153,
         "title": "Variable Fonts",
         "summary": "Understanding the new standards for variable CSS fonts",
         "tags": [
@@ -1358,7 +1349,7 @@
         ]
     },
     "/web/css_cookbook/": {
-        "id": 155,
+        "id": 154,
         "title": "CSS Cookbook",
         "summary": "Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, pubished by O'Reilly",
         "tags": [
@@ -1367,7 +1358,7 @@
         ]
     },
     "/web/line_continuations/": {
-        "id": 156,
+        "id": 155,
         "title": "Line Continuations in HTML",
         "summary": "CSS and Javascript solutions for indicating line continuations in web pages",
         "tags": [
@@ -1378,7 +1369,7 @@
         ]
     },
     "/rexx/visual_archiver/": {
-        "id": 157,
+        "id": 156,
         "title": "Visual Archiver",
         "summary": "An Archive Management Interface for OS/2 v2.0 written in REXX",
         "tags": [
@@ -1387,7 +1378,7 @@
         ]
     },
     "/rexx/showlong/": {
-        "id": 158,
+        "id": 157,
         "title": "ShowLong",
         "summary": "Expose Long/HPFS filenames with REXX on OS/2",
         "tags": [
@@ -1396,7 +1387,7 @@
         ]
     },
     "/rexx/dirsize/": {
-        "id": 159,
+        "id": 158,
         "title": "DirSize",
         "summary": "Directory Size Scanner for OS/2 v2.0 written in REXX",
         "tags": [
@@ -1405,7 +1396,7 @@
         ]
     },
     "/ruby/loops/": {
-        "id": 160,
+        "id": 159,
         "title": "Ruby Loop",
         "summary": "All the various ways of looping in Ruby",
         "tags": [
@@ -1413,7 +1404,7 @@
         ]
     },
     "/ruby/memo_methods/": {
-        "id": 161,
+        "id": 160,
         "title": "Memo Methods",
         "summary": "Comparing and testing various memoization methods and gems in Ruby",
         "tags": [
@@ -1422,7 +1413,7 @@
         ]
     },
     "/databases/redis/about/": {
-        "id": 162,
+        "id": 161,
         "title": "About Redis",
         "summary": "Redis basics and MacOSX installation",
         "tags": [
@@ -1431,7 +1422,7 @@
         ]
     },
     "/databases/redis/redis_desktop_manager/": {
-        "id": 163,
+        "id": 162,
         "title": "Redis Desktop Manager",
         "summary": "Building and running the Redis Desktop Manager applicaiton on MacOSX",
         "tags": [
@@ -1440,7 +1431,7 @@
         ]
     },
     "/ruby/console_tables/": {
-        "id": 164,
+        "id": 163,
         "title": "Console Tables",
         "summary": "Generating data tables in the console from Array, Hash, or ActiveRecord objects with the tablesmith gem",
         "tags": [
@@ -1448,7 +1439,7 @@
         ]
     },
     "/ruby/console_barcharts/": {
-        "id": 165,
+        "id": 164,
         "title": "Console Barcharts",
         "summary": "Print barcharts to the console in ascii or with unicode block elements",
         "tags": [
@@ -1456,7 +1447,7 @@
         ]
     },
     "/databases/redis/redis_cookbook/": {
-        "id": 166,
+        "id": 165,
         "title": "Redis Cookbook",
         "summary": "Notes on the book Redis Cookbook, By Tiago Macedo and Fred Oliveira, pubished by O'Reilly",
         "tags": [
@@ -1466,7 +1457,7 @@
         ]
     },
     "/tools/sips/": {
-        "id": 167,
+        "id": 166,
         "title": "sips",
         "summary": "Using sips - scriptable image processing system on MacOSX",
         "tags": [
@@ -1474,7 +1465,7 @@
         ]
     },
     "/c/bit_operations/": {
-        "id": 168,
+        "id": 167,
         "title": "Bitwise Operations",
         "summary": "Summary and demonstration of all the usual bit operations in C",
         "tags": [
@@ -1482,7 +1473,7 @@
         ]
     },
     "/c/printf_partial_string/": {
-        "id": 169,
+        "id": 168,
         "title": "printf partial strings",
         "summary": "Learning how printf can be instructed to select a limited number of characters from a string",
         "tags": [
@@ -1490,7 +1481,7 @@
         ]
     },
     "/c/bitfields/": {
-        "id": 170,
+        "id": 169,
         "title": "Bit Fields",
         "summary": "Using bitfields in C",
         "tags": [
@@ -1498,7 +1489,7 @@
         ]
     },
     "/ruby/simple_uris_with_addressable/": {
-        "id": 171,
+        "id": 170,
         "title": "Simple URIs with addressable",
         "summary": "Using the addressable gem for better handling of URIs/URLs",
         "tags": [
@@ -1506,7 +1497,7 @@
         ]
     },
     "/docker/rails6/": {
-        "id": 172,
+        "id": 171,
         "title": "Rails 6 with Docker",
         "summary": "All about running Rails 6 with Docker",
         "tags": [
@@ -1516,7 +1507,7 @@
         ]
     },
     "/ruby/drb/": {
-        "id": 173,
+        "id": 172,
         "title": "drb",
         "summary": "dRuby (drb) is a distributed object system for Ruby, included in the standard library",
         "tags": [
@@ -1524,7 +1515,7 @@
         ]
     },
     "/ruby/rails6/devise/": {
-        "id": 174,
+        "id": 173,
         "title": "Devise with Rails 6",
         "summary": "Running devise with Rails 6",
         "tags": [
@@ -1534,7 +1525,7 @@
         ]
     },
     "/docker/docker-for-rails-developers/": {
-        "id": 175,
+        "id": 174,
         "title": "Docker for Rails Developers",
         "summary": "Notes on the book Docker for Rails Developers, By Rob Isenberg, pubished by The Pragmatic Programmers",
         "tags": [
@@ -1544,7 +1535,7 @@
         ]
     },
     "/python/pyenv/": {
-        "id": 176,
+        "id": 175,
         "title": "pyenv",
         "summary": "Using pyenv for managing multiple python environments",
         "tags": [
@@ -1552,7 +1543,7 @@
         ]
     },
     "/ruby/modern_front_end_development_for_rails/": {
-        "id": 177,
+        "id": 176,
         "title": "Modern Front-End Development for Rails",
         "summary": "Notes on the book Modern Front-End Development for Rails, By Noel Rappin, pubished by The Pragmatic Programmers",
         "tags": [
@@ -1563,7 +1554,7 @@
         ]
     },
     "/ruby/trumpeter_skin/": {
-        "id": 178,
+        "id": 177,
         "title": "Trumpeter Catalog Skin",
         "summary": "A simple and fast offline Trumpeter model catalog skin, using some nokogiri magic",
         "tags": [
@@ -1571,7 +1562,7 @@
         ]
     },
     "/python/list_with_index/": {
-        "id": 179,
+        "id": 178,
         "title": "Iterating Lists with Indices",
         "summary": "Revising methods for adding indexes to lists since PEP 3113 removed tuple parameter unpacking",
         "tags": [
@@ -1579,7 +1570,7 @@
         ]
     },
     "/ruby/doorkeeper/": {
-        "id": 180,
+        "id": 179,
         "title": "Doorkeeper",
         "summary": "Learning about the Doorkeeper gem and testing it for adding OAuth2 provider capabilities to Rails applications",
         "tags": [
@@ -1589,7 +1580,7 @@
         ]
     },
     "/ruby/reducing_overlapping_ranges/": {
-        "id": 181,
+        "id": 180,
         "title": "Reducing Overlapping Ranges",
         "summary": "Looking at solutions for how to aggregate a series of ranges while excluding any overlaps (e.g. set of date ranges)",
         "tags": [
@@ -1597,7 +1588,7 @@
         ]
     },
     "/web/color_picker/": {
-        "id": 182,
+        "id": 181,
         "title": "Color Pickers for the Web",
         "summary": "Looking at easy ways to enable a color picker on a web page",
         "tags": [
@@ -1606,7 +1597,7 @@
         ]
     },
     "/ruby/style/": {
-        "id": 183,
+        "id": 182,
         "title": "Ruby Style",
         "summary": "On style guides and resources for ruby",
         "tags": [
@@ -1614,7 +1605,7 @@
         ]
     },
     "/c/loops/": {
-        "id": 184,
+        "id": 183,
         "title": "Loops in C",
         "summary": "All about loops in C",
         "tags": [
@@ -1622,7 +1613,7 @@
         ]
     },
     "/rust/loops/": {
-        "id": 185,
+        "id": 184,
         "title": "Loops in Rust",
         "summary": "All about loops in rust",
         "tags": [
@@ -1630,7 +1621,7 @@
         ]
     },
     "/ruby/regex_and_string_indexes/": {
-        "id": 186,
+        "id": 185,
         "title": "Regular Expressions and String Indexes",
         "summary": "When string indexes are better than regex, and when regex can help writing a string index",
         "tags": [
@@ -1638,7 +1629,7 @@
         ]
     },
     "/javascript/password_strength_testers/": {
-        "id": 187,
+        "id": 186,
         "title": "Password Strength Testers",
         "summary": "Checking out various Javascript-based password strength testers and trying to find one that best implements latest NIST guidelines.",
         "tags": [
@@ -1647,7 +1638,7 @@
         ]
     },
     "/security/yubikey/": {
-        "id": 188,
+        "id": 187,
         "title": "YubiKey",
         "summary": "A closer look at the YubiKey hardware security token, how it works, the CLI and GUI, and how it can be used with a range of services. Also demonstrate how to setup with Wasabi Cloud Storage - an example of a service that supports 2-factor authentication but not specifically the YubiKey.",
         "tags": [
@@ -1656,12 +1647,29 @@
         ]
     },
     "/ruby/proc_v_lambda/": {
-        "id": 189,
+        "id": 188,
         "title": "Proc v Lambda",
         "summary": "Exploring differences and similarities between procs and lambdas in Ruby",
         "tags": [
             "ruby",
             "closure"
+        ]
+    },
+    "/cpp/hands_on_system_programming_with_cpp/": {
+        "id": 189,
+        "title": "Hands-On System Programming with C++",
+        "summary": "Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn",
+        "tags": [
+            "C++",
+            "book"
+        ]
+    },
+    "/cpp/string_find/": {
+        "id": 190,
+        "title": "std::string::find",
+        "summary": "A closer look at the find function for strings in C++",
+        "tags": [
+            "C++"
         ]
     }
 }

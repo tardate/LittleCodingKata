@@ -1,0 +1,6 @@
+{
+    "name": "std::string::find",
+    "description": "A closer look at the find function for strings in C++",
+    "categories": "C++",
+    "relative_path": "cpp/string_find"
+}
