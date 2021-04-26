@@ -1518,5 +1518,13 @@
         "relative_path": "cpp/string_find",
         "updated_at": "2021-04-23T14:18:09Z",
         "id": "#190"
+    },
+    {
+        "name": "Bitwise Operations",
+        "description": "All about bitwize operations in Ruby",
+        "categories": "ruby",
+        "relative_path": "ruby/bitwise_operations",
+        "updated_at": "2021-04-26T15:32:47Z",
+        "id": "#191"
     }
 ]

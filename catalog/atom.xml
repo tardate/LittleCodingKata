@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-04-26T14:33:54Z</updated>
+  <updated>2021-04-26T16:32:27Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1683,5 +1683,13 @@
     <title>std::string::find</title>
     <summary>A closer look at the find function for strings in C++</summary>
     <category term="C++"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/bitwise_operations/</id>
+    <link href="https://codingkata.tardate.com/ruby/bitwise_operations/"/>
+    <updated>2021-04-26T15:32:47Z</updated>
+    <title>Bitwise Operations</title>
+    <summary>All about bitwize operations in Ruby</summary>
+    <category term="ruby"/>
   </entry>
 </feed>

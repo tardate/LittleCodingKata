@@ -1671,5 +1671,13 @@
         "tags": [
             "C++"
         ]
+    },
+    "/ruby/bitwise_operations/": {
+        "id": 191,
+        "title": "Bitwise Operations",
+        "summary": "All about bitwize operations in Ruby",
+        "tags": [
+            "ruby"
+        ]
     }
 }
