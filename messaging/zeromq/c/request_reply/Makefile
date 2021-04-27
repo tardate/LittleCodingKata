@@ -11,4 +11,5 @@ $(TARGETS): $(OBJECTS)
 
 .PHONY: clean
 clean:
-	rm $(TARGETS)
+	rm -f $(TARGETS) *.o
+	rm -fR *.dSYM

@@ -1,4 +1,6 @@
-TARGETS := example
+SOURCES := $(wildcard *.c)
+TARGETS := $(SOURCES:.c=)
+
 OBJECTS=
 CFLAGS= -Wall -O0
 LDLIBS=
@@ -6,7 +8,7 @@ CC=gcc
 
 .PHONY: run
 run: all
-	./example
+	$(foreach target,$(TARGETS),./$(target);)
 
 .PHONY: all
 all: $(TARGETS)
@@ -15,4 +17,5 @@ $(TARGETS): $(OBJECTS)
 
 .PHONY: clean
 clean:
-	rm $(TARGETS)
+	rm -f $(TARGETS) *.o
+	rm -fR *.dSYM

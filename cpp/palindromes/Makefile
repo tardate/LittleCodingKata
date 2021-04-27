@@ -5,7 +5,7 @@ TARGETS := $(SOURCES:.cpp=)
 
 .PHONY: run
 run: all
-	./$(TARGETS)
+	$(foreach target,$(TARGETS),./$(target);)
 
 .PHONY: all
 all: $(TARGETS)

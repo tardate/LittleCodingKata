@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-04-27T15:46:17Z</updated>
+  <updated>2021-04-27T16:15:06Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1715,5 +1715,13 @@
     <title>Numeric Limits</title>
     <summary>Numeric limits information available in the C standard library (and finding another clang/gcc difference)</summary>
     <category term="C"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/numeric_limits/</id>
+    <link href="https://codingkata.tardate.com/cpp/numeric_limits/"/>
+    <updated>2021-04-27T15:57:58Z</updated>
+    <title>numeric_limits</title>
+    <summary>description</summary>
+    <category term="cpp"/>
   </entry>
 </feed>

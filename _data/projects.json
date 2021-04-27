@@ -1703,5 +1703,13 @@
         "tags": [
             "C"
         ]
+    },
+    "/cpp/numeric_limits/": {
+        "id": 195,
+        "title": "numeric_limits",
+        "summary": "description",
+        "tags": [
+            "cpp"
+        ]
     }
 }

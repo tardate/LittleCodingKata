@@ -6,8 +6,7 @@ CC=gcc
 
 .PHONY: run
 run: all
-	./erf
-	./erf_gsl
+	$(foreach target,$(TARGETS),./$(target);)
 
 .PHONY: all
 all: $(TARGETS)
@@ -20,4 +19,5 @@ erf_gsl: LDLIBS=`pkg-config --libs gsl`
 
 .PHONY: clean
 clean:
-	rm $(TARGETS)
+	rm -f $(TARGETS) *.o
+	rm -fR *.dSYM

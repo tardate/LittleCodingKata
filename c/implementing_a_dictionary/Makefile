@@ -11,6 +11,5 @@ dict_use: dict.o keyval.o
 
 .PHONY: clean
 clean:
-	rm *.o
+	rm -f $(TARGETS) *.o
 	rm -fR *.dSYM
-	rm $(TARGETS)

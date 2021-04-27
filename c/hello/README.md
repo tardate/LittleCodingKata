@@ -4,6 +4,9 @@ The clichéd starting point, in C.
 
 ## Notes
 
+Using [printf](https://www.tutorialspoint.com/c_standard_library/c_function_printf.htm)
+from the standard libary, in the most basic definition of a main program:
+
 ```
 #include <stdio.h>
 
@@ -11,6 +14,10 @@ int main() {
   printf("Hello, world.\n");
 }
 ```
+
+### Running the Example
+
+See [example.c](./example.c) for details. A makefile compiles and runs:
 
 ```
 $ make

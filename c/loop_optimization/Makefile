@@ -22,4 +22,5 @@ example2-O3.s: example2.c
 
 .PHONY: clean
 clean:
-	rm $(TARGETS)
+	rm -f $(TARGETS) *.o
+	rm -fR *.dSYM

@@ -10,7 +10,7 @@ The standard library provides support for checking
 
 ### Running the Example
 
-See [example.cpp](./example.cpp) for details. A makefile compiles and runs:
+See [example.c](./example.c) for details. A makefile compiles and runs:
 
 ```
 $ make
