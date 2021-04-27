@@ -1,0 +1,6 @@
+{
+    "name": "Hello World in C++",
+    "description": "the clichéd starting point, in C++",
+    "categories": "C++",
+    "relative_path": "cpp/hello"
+}

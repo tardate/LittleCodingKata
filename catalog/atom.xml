@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-04-26T16:32:27Z</updated>
+  <updated>2021-04-27T13:49:30Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -496,14 +496,6 @@
     <updated>2019-09-08T11:16:43Z</updated>
     <title>c/iterating_char_arrays</title>
     <summary>Iterating Character Arrays</summary>
-    <category term="C"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/c/hello/</id>
-    <link href="https://codingkata.tardate.com/c/hello/"/>
-    <updated>2019-09-08T11:16:43Z</updated>
-    <title>c/hello</title>
-    <summary>Hello World in C</summary>
     <category term="C"/>
   </entry>
   <entry>
@@ -1691,5 +1683,21 @@
     <title>Bitwise Operations</title>
     <summary>All about bitwize operations in Ruby</summary>
     <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/hello/</id>
+    <link href="https://codingkata.tardate.com/cpp/hello/"/>
+    <updated>2021-04-27T13:35:55Z</updated>
+    <title>Hello World in C++</title>
+    <summary>the clichéd starting point, in C++</summary>
+    <category term="C++"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/c/hello/</id>
+    <link href="https://codingkata.tardate.com/c/hello/"/>
+    <updated>2021-04-27T13:35:58Z</updated>
+    <title>Hello World in C</title>
+    <summary>the clichéd starting point, in C</summary>
+    <category term="C"/>
   </entry>
 </feed>

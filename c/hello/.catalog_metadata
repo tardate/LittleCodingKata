@@ -1,7 +1,7 @@
 {
-    "id": "#054", 
-    "name": "c/hello", 
-    "description": "Hello World in C", 
-    "categories": "C", 
+    "id": "#054",
+    "name": "Hello World in C",
+    "description": "the clichéd starting point, in C",
+    "categories": "C",
     "relative_path": "c/hello"
 }

@@ -448,20 +448,12 @@
         "updated_at": "2019-09-08T11:16:43Z"
     },
     {
-        "id": "#057",
-        "name": "c/hello",
-        "description": "Hello World in C",
-        "categories": "C",
-        "relative_path": "c/hello",
-        "updated_at": "2019-09-08T11:16:43Z"
-    },
-    {
         "name": "JSON Parsing",
         "description": "Generating pretty JSON with Ruby and dealing with quirks",
         "categories": "ruby",
         "relative_path": "ruby/json_parsing",
         "updated_at": "2019-09-08T11:16:43Z",
-        "id": "#058"
+        "id": "#057"
     },
     {
         "name": "rails3",
@@ -469,7 +461,7 @@
         "categories": "ruby, rails",
         "relative_path": "ruby/rails3",
         "updated_at": "2019-09-08T11:16:43Z",
-        "id": "#059"
+        "id": "#058"
     },
     {
         "name": "rails4",
@@ -477,7 +469,7 @@
         "categories": "ruby, rails",
         "relative_path": "ruby/rails4",
         "updated_at": "2019-09-08T11:16:43Z",
-        "id": "#060"
+        "id": "#059"
     },
     {
         "name": "rails5",
@@ -485,7 +477,7 @@
         "categories": "ruby, rails",
         "relative_path": "ruby/rails5",
         "updated_at": "2019-09-08T11:16:43Z",
-        "id": "#061"
+        "id": "#060"
     },
     {
         "name": "SQL to CSV",
@@ -493,7 +485,7 @@
         "categories": "databases, postgresql, psql, csv",
         "relative_path": "databases/postgresql/sql2csv",
         "updated_at": "2019-09-08T11:16:45Z",
-        "id": "#062"
+        "id": "#061"
     },
     {
         "name": "PostgreSQL Cheat Sheet",
@@ -501,7 +493,7 @@
         "categories": "Database, PostgreSQL",
         "relative_path": "databases/postgresql/cheats",
         "updated_at": "2019-09-08T11:16:45Z",
-        "id": "#063"
+        "id": "#062"
     },
     {
         "name": "MySQL Cheat Sheet",
@@ -509,7 +501,7 @@
         "categories": "Database, MySQL",
         "relative_path": "databases/mysql/cheats",
         "updated_at": "2019-09-08T11:16:45Z",
-        "id": "#064"
+        "id": "#063"
     },
     {
         "name": "MacOSX Cheatsheet",
@@ -517,7 +509,7 @@
         "categories": "Tools, MacOSX",
         "relative_path": "tools/macosx_cheats",
         "updated_at": "2019-09-08T11:16:45Z",
-        "id": "#065"
+        "id": "#064"
     },
     {
         "name": "s3sync",
@@ -525,10 +517,10 @@
         "categories": "tools, S3, AWS, Wasabi",
         "relative_path": "tools/s3sync",
         "updated_at": "2019-09-08T11:16:45Z",
-        "id": "#066"
+        "id": "#065"
     },
     {
-        "id": "#067",
+        "id": "#066",
         "name": "Python/twisted_web_client",
         "description": "writing web client code with twisted and tests",
         "categories": "python",
@@ -536,7 +528,7 @@
         "updated_at": "2019-09-08T11:16:45Z"
     },
     {
-        "id": "#068",
+        "id": "#067",
         "name": "Python/quirks/mutable_default_params",
         "description": "Python quirks - mutable default params",
         "categories": "python",
@@ -544,7 +536,7 @@
         "updated_at": "2019-09-08T11:16:45Z"
     },
     {
-        "id": "#069",
+        "id": "#068",
         "name": "Python/quirks/late_bound_closures",
         "description": "Python quirks - late-bound closures",
         "categories": "python",
@@ -552,7 +544,7 @@
         "updated_at": "2019-09-08T11:16:45Z"
     },
     {
-        "id": "#070",
+        "id": "#069",
         "name": "Python/decorating_class_methods",
         "description": "all about decorating class methods and preserving the ability to introspect",
         "categories": "python",
@@ -560,7 +552,7 @@
         "updated_at": "2019-09-08T11:16:45Z"
     },
     {
-        "id": "#071",
+        "id": "#070",
         "name": "python/finding_libraries",
         "description": "How to find great python libraries and resources",
         "categories": "python",
@@ -568,7 +560,7 @@
         "updated_at": "2019-09-08T11:16:45Z"
     },
     {
-        "id": "#072",
+        "id": "#071",
         "name": "python/imgur",
         "description": "Using Python with the imgur API and demonstrate scanning imgur albums for image links",
         "categories": "python, imgur",
@@ -581,7 +573,7 @@
         "categories": "python, Bash",
         "relative_path": "python/flake8-blame",
         "updated_at": "2019-09-08T11:16:45Z",
-        "id": "#073"
+        "id": "#072"
     },
     {
         "name": "MAC Address Generation with Python",
@@ -589,10 +581,10 @@
         "categories": "python",
         "relative_path": "python/random_mac_generation",
         "updated_at": "2019-09-08T11:16:45Z",
-        "id": "#074"
+        "id": "#073"
     },
     {
-        "id": "#075",
+        "id": "#074",
         "name": "python/micropython/compiling_macosx",
         "description": "Building MicroPython on MacOSX",
         "categories": "python, MicroPython",
@@ -600,7 +592,7 @@
         "updated_at": "2019-09-08T11:16:45Z"
     },
     {
-        "id": "#076",
+        "id": "#075",
         "name": "python/simple_cli_with_begins",
         "description": "Using the begins library to write command line scripts without all the cruft",
         "categories": "python, CLI",
@@ -608,7 +600,7 @@
         "updated_at": "2019-09-08T11:16:45Z"
     },
     {
-        "id": "#077",
+        "id": "#076",
         "name": "Python/twisted_client_server",
         "description": "writing client-server code with twisted and tests",
         "categories": "python",
@@ -616,7 +608,7 @@
         "updated_at": "2019-09-08T11:16:45Z"
     },
     {
-        "id": "#078",
+        "id": "#077",
         "name": "Python/top_level_imports",
         "description": "or: why not to put an __init__.py in your top level folder",
         "categories": "python",
@@ -629,7 +621,7 @@
         "categories": "ruby",
         "relative_path": "ruby/hmac",
         "updated_at": "2019-09-08T11:16:45Z",
-        "id": "#079"
+        "id": "#078"
     },
     {
         "name": "Ruby/http_mock_responses",
@@ -637,7 +629,7 @@
         "categories": "ruby",
         "relative_path": "ruby/http_mock_responses",
         "updated_at": "2019-09-08T11:16:45Z",
-        "id": "#080"
+        "id": "#079"
     },
     {
         "name": "MAC Address Generation with Ruby",
@@ -645,7 +637,7 @@
         "categories": "ruby",
         "relative_path": "ruby/random_mac_generation",
         "updated_at": "2019-09-08T11:16:45Z",
-        "id": "#081"
+        "id": "#080"
     },
     {
         "name": "rails6",
@@ -653,7 +645,7 @@
         "categories": "ruby, rails, haml",
         "relative_path": "ruby/rails6",
         "updated_at": "2019-09-08T11:16:45Z",
-        "id": "#082"
+        "id": "#081"
     },
     {
         "name": "Sinatra Echo Tools",
@@ -661,7 +653,7 @@
         "categories": "ruby, Sinatra, Docker",
         "relative_path": "ruby/sinatra_echo",
         "updated_at": "2019-09-08T11:16:45Z",
-        "id": "#083"
+        "id": "#082"
     },
     {
         "name": "tempfiles",
@@ -669,7 +661,7 @@
         "categories": "ruby",
         "relative_path": "ruby/tempfiles",
         "updated_at": "2019-09-08T11:16:45Z",
-        "id": "#084"
+        "id": "#083"
     },
     {
         "name": "Starting Redis with and old CircleCI Image",
@@ -677,7 +669,7 @@
         "categories": "docker, ubuntu, redis, ci",
         "relative_path": "docker/starting_redis_with_old_circleci_image",
         "updated_at": "2019-09-08T11:16:46Z",
-        "id": "#085"
+        "id": "#084"
     },
     {
         "name": "Reading MDB Files",
@@ -685,7 +677,7 @@
         "categories": "python",
         "relative_path": "python/reading_mdb",
         "updated_at": "2019-09-08T11:16:46Z",
-        "id": "#086"
+        "id": "#085"
     },
     {
         "name": "Installing Python 2 and 3 on MacOSX",
@@ -693,7 +685,7 @@
         "categories": "python",
         "relative_path": "python/install_macosx",
         "updated_at": "2019-09-08T11:16:46Z",
-        "id": "#087"
+        "id": "#086"
     },
     {
         "name": "punch",
@@ -701,7 +693,7 @@
         "categories": "staticweb, node",
         "relative_path": "staticweb/punch",
         "updated_at": "2019-09-08T11:16:46Z",
-        "id": "#088"
+        "id": "#087"
     },
     {
         "name": "Installing Node.js MacOSX",
@@ -709,7 +701,7 @@
         "categories": "node",
         "relative_path": "node/install_macosx",
         "updated_at": "2019-09-08T11:16:46Z",
-        "id": "#089"
+        "id": "#088"
     },
     {
         "name": "make",
@@ -717,7 +709,7 @@
         "categories": "tools",
         "relative_path": "tools/make",
         "updated_at": "2019-09-09T13:31:56Z",
-        "id": "#090"
+        "id": "#089"
     },
     {
         "name": "[Boost].SML",
@@ -725,7 +717,7 @@
         "categories": "C++",
         "relative_path": "cpp/boost-sml",
         "updated_at": "2019-09-09T13:31:56Z",
-        "id": "#091"
+        "id": "#090"
     },
     {
         "name": "Implementing a Dictionary",
@@ -733,7 +725,7 @@
         "categories": "C",
         "relative_path": "c/implementing_a_dictionary",
         "updated_at": "2019-09-11T14:44:00Z",
-        "id": "#092"
+        "id": "#091"
     },
     {
         "name": "Google Chart Basics",
@@ -741,7 +733,7 @@
         "categories": "javascript, graphics",
         "relative_path": "javascript/google_charts/basics",
         "updated_at": "2019-09-22T04:50:58Z",
-        "id": "#093"
+        "id": "#092"
     },
     {
         "name": "D3 Basics",
@@ -749,7 +741,7 @@
         "categories": "javascript, graphics",
         "relative_path": "javascript/d3/basics",
         "updated_at": "2019-09-22T04:50:58Z",
-        "id": "#094"
+        "id": "#093"
     },
     {
         "name": "Dynamically Updating D3 Charts",
@@ -757,7 +749,7 @@
         "categories": "javascript, graphics",
         "relative_path": "javascript/d3/dynamically_updating_chart",
         "updated_at": "2019-09-22T04:50:58Z",
-        "id": "#095"
+        "id": "#094"
     },
     {
         "name": "SVG Animation",
@@ -765,7 +757,7 @@
         "categories": "CSS, SVG",
         "relative_path": "web/svg_animation",
         "updated_at": "2019-11-04T01:23:26Z",
-        "id": "#096"
+        "id": "#095"
     },
     {
         "name": "Browser Security",
@@ -773,7 +765,7 @@
         "categories": "web",
         "relative_path": "web/browser_security",
         "updated_at": "2019-11-04T01:23:26Z",
-        "id": "#097"
+        "id": "#096"
     },
     {
         "name": "About Prometheus",
@@ -781,7 +773,7 @@
         "categories": "databases, prometheus, ruby",
         "relative_path": "databases/prometheus/about",
         "updated_at": "2019-11-14T06:18:49Z",
-        "id": "#098"
+        "id": "#097"
     },
     {
         "name": "emacs",
@@ -789,7 +781,7 @@
         "categories": "tools",
         "relative_path": "tools/emacs",
         "updated_at": "2019-12-19T14:39:47Z",
-        "id": "#099"
+        "id": "#098"
     },
     {
         "name": "Compiling Ruby",
@@ -797,7 +789,7 @@
         "categories": "ruby, C",
         "relative_path": "ruby/compiling",
         "updated_at": "2019-12-19T14:39:47Z",
-        "id": "#100"
+        "id": "#099"
     },
     {
         "name": "QR Codes with Python",
@@ -805,7 +797,7 @@
         "categories": "python, C",
         "relative_path": "python/qrcodes",
         "updated_at": "2019-12-30T04:28:02Z",
-        "id": "#101"
+        "id": "#100"
     },
     {
         "name": "About YAML",
@@ -813,7 +805,7 @@
         "categories": "formats, yaml",
         "relative_path": "formats/yaml",
         "updated_at": "2020-01-02T00:24:09Z",
-        "id": "#102"
+        "id": "#101"
     },
     {
         "name": "Private PodFeed",
@@ -821,7 +813,7 @@
         "categories": "ruby, rss",
         "relative_path": "ruby/PrivatePodFeed",
         "updated_at": "2020-01-02T00:24:09Z",
-        "id": "#103"
+        "id": "#102"
     },
     {
         "name": "About InfluxDB",
@@ -829,7 +821,7 @@
         "categories": "databases, influxdb, docker",
         "relative_path": "databases/influxdb/about",
         "updated_at": "2020-01-22T13:38:12Z",
-        "id": "#104"
+        "id": "#103"
     },
     {
         "name": "Scripting YouTube",
@@ -837,7 +829,7 @@
         "categories": "javascript",
         "relative_path": "javascript/scripting_youtube",
         "updated_at": "2020-01-22T13:38:12Z",
-        "id": "#105"
+        "id": "#104"
     },
     {
         "name": "Ruby 2.7 New Features",
@@ -845,7 +837,7 @@
         "categories": "ruby",
         "relative_path": "ruby/new_features_27",
         "updated_at": "2020-01-22T13:38:12Z",
-        "id": "#106"
+        "id": "#105"
     },
     {
         "name": "Pointers in C",
@@ -853,7 +845,7 @@
         "categories": "C",
         "relative_path": "c/pointers",
         "updated_at": "2020-01-25T11:14:29Z",
-        "id": "#107"
+        "id": "#106"
     },
     {
         "name": "Linking C",
@@ -861,7 +853,7 @@
         "categories": "C",
         "relative_path": "c/linking",
         "updated_at": "2020-01-25T11:14:29Z",
-        "id": "#108"
+        "id": "#107"
     },
     {
         "name": "Programming Interactivity",
@@ -869,7 +861,7 @@
         "categories": "design, arduino",
         "relative_path": "design/programming_interactivity",
         "updated_at": "2020-01-31T00:33:59Z",
-        "id": "#109"
+        "id": "#108"
     },
     {
         "name": "Copying Tables",
@@ -877,7 +869,7 @@
         "categories": "Database, SQL",
         "relative_path": "databases/postgresql/copy_table",
         "updated_at": "2020-01-31T00:33:59Z",
-        "id": "#110"
+        "id": "#109"
     },
     {
         "name": "MySQL on MacOSX",
@@ -885,7 +877,7 @@
         "categories": "Database, MySQL",
         "relative_path": "databases/mysql/install_macosx",
         "updated_at": "2020-01-31T00:33:59Z",
-        "id": "#111"
+        "id": "#110"
     },
     {
         "name": "RSS and Atom",
@@ -893,7 +885,7 @@
         "categories": "formats, rss, rdf, atom, book",
         "relative_path": "formats/rss_atom",
         "updated_at": "2020-01-31T00:33:59Z",
-        "id": "#112"
+        "id": "#111"
     },
     {
         "name": "Metasploit Penetration Testing Cookbook",
@@ -901,7 +893,7 @@
         "categories": "security, book",
         "relative_path": "security/metasploit_penetration_testing_cookbook",
         "updated_at": "2020-01-31T00:33:59Z",
-        "id": "#113"
+        "id": "#112"
     },
     {
         "name": "Running Metasploit with Docker",
@@ -909,7 +901,7 @@
         "categories": "security, docker",
         "relative_path": "security/metasploit/dockerized",
         "updated_at": "2020-01-31T00:33:59Z",
-        "id": "#114"
+        "id": "#113"
     },
     {
         "name": "Using Cargo",
@@ -917,7 +909,7 @@
         "categories": "rust, cargo",
         "relative_path": "rust/project_with_cargo",
         "updated_at": "2020-01-31T00:33:59Z",
-        "id": "#115"
+        "id": "#114"
     },
     {
         "name": "Cacti",
@@ -925,7 +917,7 @@
         "categories": "infrastructure, monitoring",
         "relative_path": "infrastructure/cacti",
         "updated_at": "2020-01-31T00:33:59Z",
-        "id": "#116"
+        "id": "#115"
     },
     {
         "name": "Error Function",
@@ -933,7 +925,7 @@
         "categories": "c",
         "relative_path": "c/error_function",
         "updated_at": "2020-01-31T00:33:59Z",
-        "id": "#117"
+        "id": "#116"
     },
     {
         "name": "Rails AntiPatterns",
@@ -941,7 +933,7 @@
         "categories": "ruby, rails, book",
         "relative_path": "ruby/rails_antipatterns",
         "updated_at": "2020-01-31T00:33:59Z",
-        "id": "#118"
+        "id": "#117"
     },
     {
         "name": "Request Bin",
@@ -949,7 +941,7 @@
         "categories": "tools, api",
         "relative_path": "tools/requestbin",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#119"
+        "id": "#118"
     },
     {
         "name": "Docker Cookbook (Packt)",
@@ -957,7 +949,7 @@
         "categories": "docker, book",
         "relative_path": "docker/docker_cookbook-packt",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#120"
+        "id": "#119"
     },
     {
         "name": "Docker Cookbook (O'Reilly)",
@@ -965,7 +957,7 @@
         "categories": "docker, book",
         "relative_path": "docker/docker_cookbook-oreilly",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#121"
+        "id": "#120"
     },
     {
         "name": "Elixir Basics",
@@ -973,7 +965,7 @@
         "categories": "elixir",
         "relative_path": "elixir/basics",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#122"
+        "id": "#121"
     },
     {
         "name": "About Elixir",
@@ -981,7 +973,7 @@
         "categories": "elixir",
         "relative_path": "elixir/about",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#123"
+        "id": "#122"
     },
     {
         "name": "Elixir on MacOSX",
@@ -989,7 +981,7 @@
         "categories": "elixir, docker",
         "relative_path": "elixir/install_macosx",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#124"
+        "id": "#123"
     },
     {
         "name": "Programming Elixir",
@@ -997,7 +989,7 @@
         "categories": "elixir, book",
         "relative_path": "elixir/programming_elixir",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#125"
+        "id": "#124"
     },
     {
         "name": "Testing with Rust",
@@ -1005,7 +997,7 @@
         "categories": "rust",
         "relative_path": "rust/testing",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#126"
+        "id": "#125"
     },
     {
         "name": "The Rust Programming Language",
@@ -1013,10 +1005,10 @@
         "categories": "rust, book",
         "relative_path": "rust/rust_programming_language",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#127"
+        "id": "#126"
     },
     {
-        "id": "#128",
+        "id": "#127",
         "name": "About Elm",
         "description": "Elm (the language) in a nutshell",
         "categories": "elm",
@@ -1029,7 +1021,7 @@
         "categories": "javascript, graphics",
         "relative_path": "javascript/rickshaw",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#129"
+        "id": "#128"
     },
     {
         "name": "Mastering Zabbix",
@@ -1037,7 +1029,7 @@
         "categories": "infrastructure, zabbix, book",
         "relative_path": "infrastructure/zabbix/mastering_zabbix",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#130"
+        "id": "#129"
     },
     {
         "name": "Zabbix API Ruby Clients",
@@ -1045,7 +1037,7 @@
         "categories": "infrastructure, zabbix, ruby",
         "relative_path": "infrastructure/zabbix/ruby-clients",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#131"
+        "id": "#130"
     },
     {
         "name": "About Zabbix",
@@ -1053,7 +1045,7 @@
         "categories": "infrastructure, zabbix, monitoring",
         "relative_path": "infrastructure/zabbix/about",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#132"
+        "id": "#131"
     },
     {
         "name": "Zabbix Docker",
@@ -1061,7 +1053,7 @@
         "categories": "infrastructure, zabbix, monitoring, docker",
         "relative_path": "infrastructure/zabbix/dockerized",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#133"
+        "id": "#132"
     },
     {
         "name": "ZeroMQ (book)",
@@ -1069,7 +1061,7 @@
         "categories": "messaging, zeromq, book",
         "relative_path": "messaging/zeromq/zeromq-book",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#134"
+        "id": "#133"
     },
     {
         "name": "About Zeromq",
@@ -1077,7 +1069,7 @@
         "categories": "messaging, zeromq, c",
         "relative_path": "messaging/zeromq/about",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#135"
+        "id": "#134"
     },
     {
         "name": "zeromq on MacOSX",
@@ -1085,7 +1077,7 @@
         "categories": "messaging, zeromq",
         "relative_path": "messaging/zeromq/install_macosx",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#136"
+        "id": "#135"
     },
     {
         "name": "Basic Request-Reply in C",
@@ -1093,7 +1085,7 @@
         "categories": "messaging, zeromq, c",
         "relative_path": "messaging/zeromq/c/request_reply",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#137"
+        "id": "#136"
     },
     {
         "name": "Practical C Programming",
@@ -1101,7 +1093,7 @@
         "categories": "C, book",
         "relative_path": "c/practical_c_programming",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#138"
+        "id": "#137"
     },
     {
         "name": "21st Century C",
@@ -1109,7 +1101,7 @@
         "categories": "C, book",
         "relative_path": "c/21st_century_c",
         "updated_at": "2020-02-15T08:47:33Z",
-        "id": "#139"
+        "id": "#138"
     },
     {
         "name": "Database Tweets",
@@ -1117,7 +1109,7 @@
         "categories": "Database, Oracle",
         "relative_path": "databases/oracle/ORA_Tweet_With_Shorturls",
         "updated_at": "2020-03-11T23:32:53Z",
-        "id": "#140"
+        "id": "#139"
     },
     {
         "name": "Using InfluxDb 1.x with Ruby",
@@ -1125,7 +1117,7 @@
         "categories": "databases, influxdb, docker, ruby",
         "relative_path": "databases/influxdb/ruby_client",
         "updated_at": "2020-03-11T23:32:53Z",
-        "id": "#141"
+        "id": "#140"
     },
     {
         "name": "Using InfluxDb 2.x with Ruby",
@@ -1133,7 +1125,7 @@
         "categories": "databases, influxdb, docker, ruby",
         "relative_path": "databases/influxdb/ruby_client2",
         "updated_at": "2020-03-11T23:32:53Z",
-        "id": "#142"
+        "id": "#141"
     },
     {
         "name": "Docker on CentOS 8",
@@ -1141,7 +1133,7 @@
         "categories": "docker",
         "relative_path": "docker/CentOS8_install",
         "updated_at": "2020-03-11T23:32:53Z",
-        "id": "#143"
+        "id": "#142"
     },
     {
         "name": "Finding Files",
@@ -1149,7 +1141,7 @@
         "categories": "bash",
         "relative_path": "bash/finding_files",
         "updated_at": "2020-03-11T23:32:53Z",
-        "id": "#144"
+        "id": "#143"
     },
     {
         "name": "jQuery Date-Time Selectors",
@@ -1157,7 +1149,7 @@
         "categories": "javascript",
         "relative_path": "javascript/jQueryDateTime",
         "updated_at": "2020-03-11T23:32:53Z",
-        "id": "#145"
+        "id": "#144"
     },
     {
         "name": "Cross-browser X Library",
@@ -1165,7 +1157,7 @@
         "categories": "javascript",
         "relative_path": "javascript/cbx",
         "updated_at": "2020-03-11T23:32:53Z",
-        "id": "#146"
+        "id": "#145"
     },
     {
         "name": "Linux Server Hacks",
@@ -1173,7 +1165,7 @@
         "categories": "infrastructure, linux, book",
         "relative_path": "infrastructure/linux_server_hacks",
         "updated_at": "2020-03-11T23:32:53Z",
-        "id": "#147"
+        "id": "#146"
     },
     {
         "name": "Zabbix Programmatic Configuration with Ruby",
@@ -1181,7 +1173,7 @@
         "categories": "infrastructure, zabbix, ruby",
         "relative_path": "infrastructure/zabbix/ruby-programmatic-config",
         "updated_at": "2020-03-11T23:32:53Z",
-        "id": "#148"
+        "id": "#147"
     },
     {
         "name": "Loop Optimization",
@@ -1189,7 +1181,7 @@
         "categories": "c",
         "relative_path": "c/loop_optimization",
         "updated_at": "2020-03-11T23:32:53Z",
-        "id": "#149"
+        "id": "#148"
     },
     {
         "name": "Free Pascal",
@@ -1197,7 +1189,7 @@
         "categories": "pascal",
         "relative_path": "pascal/free_pascal",
         "updated_at": "2020-03-11T23:32:54Z",
-        "id": "#150"
+        "id": "#149"
     },
     {
         "name": "About Pascal",
@@ -1205,7 +1197,7 @@
         "categories": "pascal",
         "relative_path": "pascal/about",
         "updated_at": "2020-03-11T23:32:54Z",
-        "id": "#151"
+        "id": "#150"
     },
     {
         "name": "TCP Wrappers",
@@ -1213,7 +1205,7 @@
         "categories": "linux",
         "relative_path": "tools/tcp_wrappers",
         "updated_at": "2020-03-11T23:32:54Z",
-        "id": "#152"
+        "id": "#151"
     },
     {
         "name": "Variable Fonts",
@@ -1221,7 +1213,7 @@
         "categories": "CSS, font",
         "relative_path": "web/variable_fonts",
         "updated_at": "2020-03-11T23:32:54Z",
-        "id": "#153"
+        "id": "#152"
     },
     {
         "name": "CSS Cookbook",
@@ -1229,7 +1221,7 @@
         "categories": "CSS, book",
         "relative_path": "web/css_cookbook",
         "updated_at": "2020-03-11T23:32:54Z",
-        "id": "#154"
+        "id": "#153"
     },
     {
         "name": "Line Continuations in HTML",
@@ -1237,7 +1229,7 @@
         "categories": "web, HTML, CSS, javascript",
         "relative_path": "web/line_continuations",
         "updated_at": "2020-03-11T23:32:54Z",
-        "id": "#155"
+        "id": "#154"
     },
     {
         "name": "Visual Archiver",
@@ -1245,7 +1237,7 @@
         "categories": "REXX, OS/2",
         "relative_path": "rexx/visual_archiver",
         "updated_at": "2020-03-11T23:32:54Z",
-        "id": "#156"
+        "id": "#155"
     },
     {
         "name": "ShowLong",
@@ -1253,7 +1245,7 @@
         "categories": "REXX, OS/2",
         "relative_path": "rexx/showlong",
         "updated_at": "2020-03-11T23:32:54Z",
-        "id": "#157"
+        "id": "#156"
     },
     {
         "name": "DirSize",
@@ -1261,7 +1253,7 @@
         "categories": "REXX, OS/2",
         "relative_path": "rexx/dirsize",
         "updated_at": "2020-03-11T23:32:54Z",
-        "id": "#158"
+        "id": "#157"
     },
     {
         "name": "Ruby Loop",
@@ -1269,7 +1261,7 @@
         "categories": "ruby",
         "relative_path": "ruby/loops",
         "updated_at": "2020-03-11T23:32:54Z",
-        "id": "#159"
+        "id": "#158"
     },
     {
         "name": "Memo Methods",
@@ -1277,7 +1269,7 @@
         "categories": "ruby, design patterns",
         "relative_path": "ruby/memo_methods",
         "updated_at": "2020-03-11T23:32:54Z",
-        "id": "#160"
+        "id": "#159"
     },
     {
         "name": "About Redis",
@@ -1285,7 +1277,7 @@
         "categories": "databases, redis",
         "relative_path": "databases/redis/about",
         "updated_at": "2020-03-22T01:28:17Z",
-        "id": "#161"
+        "id": "#160"
     },
     {
         "name": "Redis Desktop Manager",
@@ -1293,7 +1285,7 @@
         "categories": "databases, redis",
         "relative_path": "databases/redis/redis_desktop_manager",
         "updated_at": "2020-03-22T01:28:17Z",
-        "id": "#162"
+        "id": "#161"
     },
     {
         "name": "Console Tables",
@@ -1301,7 +1293,7 @@
         "categories": "ruby",
         "relative_path": "ruby/console_tables",
         "updated_at": "2020-03-22T01:28:17Z",
-        "id": "#163"
+        "id": "#162"
     },
     {
         "name": "Console Barcharts",
@@ -1309,7 +1301,7 @@
         "categories": "ruby",
         "relative_path": "ruby/console_barcharts",
         "updated_at": "2020-03-22T01:28:17Z",
-        "id": "#164"
+        "id": "#163"
     },
     {
         "name": "Redis Cookbook",
@@ -1317,7 +1309,7 @@
         "categories": "databases, redis, book",
         "relative_path": "databases/redis/redis_cookbook",
         "updated_at": "2020-03-31T01:50:42Z",
-        "id": "#165"
+        "id": "#164"
     },
     {
         "name": "sips",
@@ -1325,7 +1317,7 @@
         "categories": "tools",
         "relative_path": "tools/sips",
         "updated_at": "2020-05-23T07:46:51Z",
-        "id": "#166"
+        "id": "#165"
     },
     {
         "name": "Bitwise Operations",
@@ -1333,7 +1325,7 @@
         "categories": "c",
         "relative_path": "c/bit_operations",
         "updated_at": "2020-05-23T07:46:51Z",
-        "id": "#167"
+        "id": "#166"
     },
     {
         "name": "printf partial strings",
@@ -1341,7 +1333,7 @@
         "categories": "c",
         "relative_path": "c/printf_partial_string",
         "updated_at": "2020-05-23T07:46:51Z",
-        "id": "#168"
+        "id": "#167"
     },
     {
         "name": "Bit Fields",
@@ -1349,7 +1341,7 @@
         "categories": "c",
         "relative_path": "c/bitfields",
         "updated_at": "2020-05-23T07:46:51Z",
-        "id": "#169"
+        "id": "#168"
     },
     {
         "name": "Simple URIs with addressable",
@@ -1357,7 +1349,7 @@
         "categories": "ruby",
         "relative_path": "ruby/simple_uris_with_addressable",
         "updated_at": "2020-05-23T07:46:51Z",
-        "id": "#170"
+        "id": "#169"
     },
     {
         "name": "Rails 6 with Docker",
@@ -1365,7 +1357,7 @@
         "categories": "docker, ruby, rails",
         "relative_path": "docker/rails6",
         "updated_at": "2020-11-05T07:51:26Z",
-        "id": "#171"
+        "id": "#170"
     },
     {
         "name": "drb",
@@ -1373,7 +1365,7 @@
         "categories": "ruby",
         "relative_path": "ruby/drb",
         "updated_at": "2020-11-05T07:51:26Z",
-        "id": "#172"
+        "id": "#171"
     },
     {
         "name": "Devise with Rails 6",
@@ -1381,7 +1373,7 @@
         "categories": "ruby, rails, security",
         "relative_path": "ruby/rails6/devise",
         "updated_at": "2020-11-11T11:29:26Z",
-        "id": "#173"
+        "id": "#172"
     },
     {
         "name": "Docker for Rails Developers",
@@ -1389,7 +1381,7 @@
         "categories": "docker, rails, book",
         "relative_path": "docker/docker-for-rails-developers",
         "updated_at": "2021-01-09T08:23:14Z",
-        "id": "#174"
+        "id": "#173"
     },
     {
         "name": "pyenv",
@@ -1397,7 +1389,7 @@
         "categories": "python",
         "relative_path": "python/pyenv",
         "updated_at": "2021-01-09T08:23:14Z",
-        "id": "#175"
+        "id": "#174"
     },
     {
         "name": "Modern Front-End Development for Rails",
@@ -1405,7 +1397,7 @@
         "categories": "ruby, rails, javascript, book",
         "relative_path": "ruby/modern_front_end_development_for_rails",
         "updated_at": "2021-01-09T08:23:14Z",
-        "id": "#176"
+        "id": "#175"
     },
     {
         "name": "Trumpeter Catalog Skin",
@@ -1413,7 +1405,7 @@
         "categories": "ruby",
         "relative_path": "ruby/trumpeter_skin",
         "updated_at": "2021-01-09T08:23:14Z",
-        "id": "#177"
+        "id": "#176"
     },
     {
         "name": "Iterating Lists with Indices",
@@ -1421,7 +1413,7 @@
         "categories": "python",
         "relative_path": "python/list_with_index",
         "updated_at": "2021-02-25T18:13:37Z",
-        "id": "#178"
+        "id": "#177"
     },
     {
         "name": "Doorkeeper",
@@ -1429,7 +1421,7 @@
         "categories": "ruby, rails, security",
         "relative_path": "ruby/doorkeeper",
         "updated_at": "2021-02-25T18:13:37Z",
-        "id": "#179"
+        "id": "#178"
     },
     {
         "name": "Reducing Overlapping Ranges",
@@ -1437,7 +1429,7 @@
         "categories": "ruby",
         "relative_path": "ruby/reducing_overlapping_ranges",
         "updated_at": "2021-02-25T18:13:38Z",
-        "id": "#180"
+        "id": "#179"
     },
     {
         "name": "Color Pickers for the Web",
@@ -1445,7 +1437,7 @@
         "categories": "javascript, HTML5",
         "relative_path": "web/color_picker",
         "updated_at": "2021-04-09T16:14:29Z",
-        "id": "#181"
+        "id": "#180"
     },
     {
         "name": "Ruby Style",
@@ -1453,7 +1445,7 @@
         "categories": "ruby",
         "relative_path": "ruby/style",
         "updated_at": "2021-04-09T16:37:32Z",
-        "id": "#182"
+        "id": "#181"
     },
     {
         "name": "Loops in C",
@@ -1461,7 +1453,7 @@
         "categories": "c",
         "relative_path": "c/loops",
         "updated_at": "2021-04-09T16:59:15Z",
-        "id": "#183"
+        "id": "#182"
     },
     {
         "name": "Loops in Rust",
@@ -1469,7 +1461,7 @@
         "categories": "rust",
         "relative_path": "rust/loops",
         "updated_at": "2021-04-10T03:06:43Z",
-        "id": "#184"
+        "id": "#183"
     },
     {
         "name": "Regular Expressions and String Indexes",
@@ -1477,7 +1469,7 @@
         "categories": "ruby",
         "relative_path": "ruby/regex_and_string_indexes",
         "updated_at": "2021-04-10T03:59:05Z",
-        "id": "#185"
+        "id": "#184"
     },
     {
         "name": "Password Strength Testers",
@@ -1485,7 +1477,7 @@
         "categories": "javascript, security",
         "relative_path": "javascript/password_strength_testers",
         "updated_at": "2021-04-16T15:02:39Z",
-        "id": "#186"
+        "id": "#185"
     },
     {
         "name": "YubiKey",
@@ -1493,7 +1485,7 @@
         "categories": "security, MFA",
         "relative_path": "security/yubikey",
         "updated_at": "2021-04-16T15:41:39Z",
-        "id": "#187"
+        "id": "#186"
     },
     {
         "name": "Proc v Lambda",
@@ -1501,7 +1493,7 @@
         "categories": "ruby, closure",
         "relative_path": "ruby/proc_v_lambda",
         "updated_at": "2021-04-20T15:31:54Z",
-        "id": "#188"
+        "id": "#187"
     },
     {
         "name": "Hands-On System Programming with C++",
@@ -1509,7 +1501,7 @@
         "categories": "C++, book",
         "relative_path": "cpp/hands_on_system_programming_with_cpp",
         "updated_at": "2021-04-20T16:32:09Z",
-        "id": "#189"
+        "id": "#188"
     },
     {
         "name": "std::string::find",
@@ -1517,7 +1509,7 @@
         "categories": "C++",
         "relative_path": "cpp/string_find",
         "updated_at": "2021-04-23T14:18:09Z",
-        "id": "#190"
+        "id": "#189"
     },
     {
         "name": "Bitwise Operations",
@@ -1525,6 +1517,22 @@
         "categories": "ruby",
         "relative_path": "ruby/bitwise_operations",
         "updated_at": "2021-04-26T15:32:47Z",
+        "id": "#190"
+    },
+    {
+        "name": "Hello World in C++",
+        "description": "the clich\u00e9d starting point, in C++",
+        "categories": "C++",
+        "relative_path": "cpp/hello",
+        "updated_at": "2021-04-27T13:35:55Z",
         "id": "#191"
+    },
+    {
+        "id": "#192",
+        "name": "Hello World in C",
+        "description": "the clich\u00e9d starting point, in C",
+        "categories": "C",
+        "relative_path": "c/hello",
+        "updated_at": "2021-04-27T13:35:58Z"
     }
 ]
