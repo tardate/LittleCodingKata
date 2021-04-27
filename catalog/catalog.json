@@ -1534,5 +1534,13 @@
         "categories": "C",
         "relative_path": "c/hello",
         "updated_at": "2021-04-27T13:35:58Z"
+    },
+    {
+        "name": "Palindromes",
+        "description": "Examples of how to code a palidrome check in C++",
+        "categories": "C++",
+        "relative_path": "cpp/palindromes",
+        "updated_at": "2021-04-27T14:30:51Z",
+        "id": "#193"
     }
 ]

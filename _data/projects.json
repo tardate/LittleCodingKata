@@ -1687,5 +1687,13 @@
         "tags": [
             "C"
         ]
+    },
+    "/cpp/palindromes/": {
+        "id": 193,
+        "title": "Palindromes",
+        "summary": "Examples of how to code a palidrome check in C++",
+        "tags": [
+            "C++"
+        ]
     }
 }

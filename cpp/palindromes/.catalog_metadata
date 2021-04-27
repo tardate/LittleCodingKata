@@ -1,0 +1,6 @@
+{
+    "name": "Palindromes",
+    "description": "Examples of how to code a palidrome check in C++",
+    "categories": "C++",
+    "relative_path": "cpp/palindromes"
+}

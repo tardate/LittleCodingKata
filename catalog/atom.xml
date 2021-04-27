@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-04-27T13:49:30Z</updated>
+  <updated>2021-04-27T14:31:23Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1699,5 +1699,13 @@
     <title>Hello World in C</title>
     <summary>the clichéd starting point, in C</summary>
     <category term="C"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/palindromes/</id>
+    <link href="https://codingkata.tardate.com/cpp/palindromes/"/>
+    <updated>2021-04-27T14:30:51Z</updated>
+    <title>Palindromes</title>
+    <summary>Examples of how to code a palidrome check in C++</summary>
+    <category term="C++"/>
   </entry>
 </feed>
