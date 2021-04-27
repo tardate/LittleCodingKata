@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-04-27T17:12:09Z</updated>
+  <updated>2021-04-27T18:11:31Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1731,5 +1731,14 @@
     <title>Float Format</title>
     <summary>Testing floating point number formatting with the C++</summary>
     <category term="C++"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/sdl/install/</id>
+    <link href="https://codingkata.tardate.com/cpp/sdl/install/"/>
+    <updated>2021-04-27T18:10:33Z</updated>
+    <title>SDL2 MacOSX Install</title>
+    <summary>Installing the Simple DirectMedia Layer library on MacOSX, and running a basic verification program in C++</summary>
+    <category term="C++"/>
+    <category term="SDL"/>
   </entry>
 </feed>

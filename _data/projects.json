@@ -1719,5 +1719,14 @@
         "tags": [
             "C++"
         ]
+    },
+    "/cpp/sdl/install/": {
+        "id": 197,
+        "title": "SDL2 MacOSX Install",
+        "summary": "Installing the Simple DirectMedia Layer library on MacOSX, and running a basic verification program in C++",
+        "tags": [
+            "C++",
+            "SDL"
+        ]
     }
 }

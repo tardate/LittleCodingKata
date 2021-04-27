@@ -1566,5 +1566,13 @@
         "relative_path": "cpp/float_format",
         "updated_at": "2021-04-27T17:11:46Z",
         "id": "#196"
+    },
+    {
+        "name": "SDL2 MacOSX Install",
+        "description": "Installing the Simple DirectMedia Layer library on MacOSX, and running a basic verification program in C++",
+        "categories": "C++, SDL",
+        "relative_path": "cpp/sdl/install",
+        "updated_at": "2021-04-27T18:10:33Z",
+        "id": "#197"
     }
 ]
