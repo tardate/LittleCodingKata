@@ -1695,5 +1695,13 @@
         "tags": [
             "C++"
         ]
+    },
+    "/c/numeric_limits/": {
+        "id": 194,
+        "title": "Numeric Limits",
+        "summary": "Numeric limits information available in the C standard library (and finding another clang/gcc difference)",
+        "tags": [
+            "C"
+        ]
     }
 }

@@ -1542,5 +1542,13 @@
         "relative_path": "cpp/palindromes",
         "updated_at": "2021-04-27T14:30:51Z",
         "id": "#193"
+    },
+    {
+        "name": "Numeric Limits",
+        "description": "Numeric limits information available in the C standard library (and finding another clang/gcc difference)",
+        "categories": "C",
+        "relative_path": "c/numeric_limits",
+        "updated_at": "2021-04-27T15:44:57Z",
+        "id": "#194"
     }
 ]

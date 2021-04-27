@@ -1,8 +1,8 @@
 TARGETS := example
 OBJECTS=
-CFLAGS= -Wall -O0
+CFLAGS= -Wall -O0 -std=c11
 LDLIBS=
-CC=gcc
+CC=gcc-10
 
 .PHONY: run
 run: all

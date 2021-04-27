@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-04-27T14:31:23Z</updated>
+  <updated>2021-04-27T15:46:17Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1707,5 +1707,13 @@
     <title>Palindromes</title>
     <summary>Examples of how to code a palidrome check in C++</summary>
     <category term="C++"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/c/numeric_limits/</id>
+    <link href="https://codingkata.tardate.com/c/numeric_limits/"/>
+    <updated>2021-04-27T15:44:57Z</updated>
+    <title>Numeric Limits</title>
+    <summary>Numeric limits information available in the C standard library (and finding another clang/gcc difference)</summary>
+    <category term="C"/>
   </entry>
 </feed>
