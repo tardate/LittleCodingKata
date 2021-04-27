@@ -1,0 +1,6 @@
+{
+    "name": "Float Format",
+    "description": "Testing floating point number formatting with the C++",
+    "categories": "C++",
+    "relative_path": "cpp/float_format"
+}

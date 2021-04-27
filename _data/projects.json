@@ -1711,5 +1711,13 @@
         "tags": [
             "cpp"
         ]
+    },
+    "/cpp/float_format/": {
+        "id": 196,
+        "title": "Float Format",
+        "summary": "Testing floating point number formatting with the C++",
+        "tags": [
+            "C++"
+        ]
     }
 }

@@ -1558,5 +1558,13 @@
         "relative_path": "cpp/numeric_limits",
         "updated_at": "2021-04-27T15:57:58Z",
         "id": "#195"
+    },
+    {
+        "name": "Float Format",
+        "description": "Testing floating point number formatting with the C++",
+        "categories": "C++",
+        "relative_path": "cpp/float_format",
+        "updated_at": "2021-04-27T17:11:46Z",
+        "id": "#196"
     }
 ]
