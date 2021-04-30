@@ -1,2 +1,2 @@
-twisted==19.2.1
+twisted==20.3.0
 nose
