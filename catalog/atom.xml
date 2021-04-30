@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-04-27T18:11:31Z</updated>
+  <updated>2021-04-30T14:07:16Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1709,22 +1709,6 @@
     <category term="C++"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/c/numeric_limits/</id>
-    <link href="https://codingkata.tardate.com/c/numeric_limits/"/>
-    <updated>2021-04-27T15:44:57Z</updated>
-    <title>Numeric Limits</title>
-    <summary>Numeric limits information available in the C standard library (and finding another clang/gcc difference)</summary>
-    <category term="C"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/cpp/numeric_limits/</id>
-    <link href="https://codingkata.tardate.com/cpp/numeric_limits/"/>
-    <updated>2021-04-27T15:57:58Z</updated>
-    <title>numeric_limits</title>
-    <summary>description</summary>
-    <category term="cpp"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/cpp/float_format/</id>
     <link href="https://codingkata.tardate.com/cpp/float_format/"/>
     <updated>2021-04-27T17:11:46Z</updated>
@@ -1740,5 +1724,21 @@
     <summary>Installing the Simple DirectMedia Layer library on MacOSX, and running a basic verification program in C++</summary>
     <category term="C++"/>
     <category term="SDL"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/numeric_limits/</id>
+    <link href="https://codingkata.tardate.com/cpp/numeric_limits/"/>
+    <updated>2021-04-30T14:05:21Z</updated>
+    <title>Numeric Limits in C++</title>
+    <summary>Numeric limits information available in the C++ standard library</summary>
+    <category term="C++"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/c/numeric_limits/</id>
+    <link href="https://codingkata.tardate.com/c/numeric_limits/"/>
+    <updated>2021-04-30T14:05:25Z</updated>
+    <title>Numeric Limits in C</title>
+    <summary>Numeric limits information available in the C standard library (and finding another clang/gcc difference)</summary>
+    <category term="C"/>
   </entry>
 </feed>

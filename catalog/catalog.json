@@ -1544,28 +1544,12 @@
         "id": "#193"
     },
     {
-        "name": "Numeric Limits",
-        "description": "Numeric limits information available in the C standard library (and finding another clang/gcc difference)",
-        "categories": "C",
-        "relative_path": "c/numeric_limits",
-        "updated_at": "2021-04-27T15:44:57Z",
-        "id": "#194"
-    },
-    {
-        "name": "numeric_limits",
-        "description": "description",
-        "categories": "cpp",
-        "relative_path": "cpp/numeric_limits",
-        "updated_at": "2021-04-27T15:57:58Z",
-        "id": "#195"
-    },
-    {
         "name": "Float Format",
         "description": "Testing floating point number formatting with the C++",
         "categories": "C++",
         "relative_path": "cpp/float_format",
         "updated_at": "2021-04-27T17:11:46Z",
-        "id": "#196"
+        "id": "#194"
     },
     {
         "name": "SDL2 MacOSX Install",
@@ -1573,6 +1557,22 @@
         "categories": "C++, SDL",
         "relative_path": "cpp/sdl/install",
         "updated_at": "2021-04-27T18:10:33Z",
+        "id": "#195"
+    },
+    {
+        "name": "Numeric Limits in C++",
+        "description": "Numeric limits information available in the C++ standard library",
+        "categories": "C++",
+        "relative_path": "cpp/numeric_limits",
+        "updated_at": "2021-04-30T14:05:21Z",
+        "id": "#196"
+    },
+    {
+        "name": "Numeric Limits in C",
+        "description": "Numeric limits information available in the C standard library (and finding another clang/gcc difference)",
+        "categories": "C",
+        "relative_path": "c/numeric_limits",
+        "updated_at": "2021-04-30T14:05:25Z",
         "id": "#197"
     }
 ]

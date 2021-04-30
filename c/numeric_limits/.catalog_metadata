@@ -1,5 +1,5 @@
 {
-    "name": "Numeric Limits",
+    "name": "Numeric Limits in C",
     "description": "Numeric limits information available in the C standard library (and finding another clang/gcc difference)",
     "categories": "C",
     "relative_path": "c/numeric_limits"

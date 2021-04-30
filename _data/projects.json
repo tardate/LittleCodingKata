@@ -1696,24 +1696,8 @@
             "C++"
         ]
     },
-    "/c/numeric_limits/": {
-        "id": 194,
-        "title": "Numeric Limits",
-        "summary": "Numeric limits information available in the C standard library (and finding another clang/gcc difference)",
-        "tags": [
-            "C"
-        ]
-    },
-    "/cpp/numeric_limits/": {
-        "id": 195,
-        "title": "numeric_limits",
-        "summary": "description",
-        "tags": [
-            "cpp"
-        ]
-    },
     "/cpp/float_format/": {
-        "id": 196,
+        "id": 194,
         "title": "Float Format",
         "summary": "Testing floating point number formatting with the C++",
         "tags": [
@@ -1721,12 +1705,28 @@
         ]
     },
     "/cpp/sdl/install/": {
-        "id": 197,
+        "id": 195,
         "title": "SDL2 MacOSX Install",
         "summary": "Installing the Simple DirectMedia Layer library on MacOSX, and running a basic verification program in C++",
         "tags": [
             "C++",
             "SDL"
+        ]
+    },
+    "/cpp/numeric_limits/": {
+        "id": 196,
+        "title": "Numeric Limits in C++",
+        "summary": "Numeric limits information available in the C++ standard library",
+        "tags": [
+            "C++"
+        ]
+    },
+    "/c/numeric_limits/": {
+        "id": 197,
+        "title": "Numeric Limits in C",
+        "summary": "Numeric limits information available in the C standard library (and finding another clang/gcc difference)",
+        "tags": [
+            "C"
         ]
     }
 }
