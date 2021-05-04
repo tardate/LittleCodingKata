@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-04-30T14:07:16Z</updated>
+  <updated>2021-05-04T13:28:33Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1740,5 +1740,14 @@
     <title>Numeric Limits in C</title>
     <summary>Numeric limits information available in the C standard library (and finding another clang/gcc difference)</summary>
     <category term="C"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/sdl/basic/</id>
+    <link href="https://codingkata.tardate.com/cpp/sdl/basic/"/>
+    <updated>2021-05-04T13:26:27Z</updated>
+    <title>Basic SDL Graphics</title>
+    <summary>Testing some basic windo and rendering functions with SDL library in C++.</summary>
+    <category term="C++"/>
+    <category term="SDL"/>
   </entry>
 </feed>

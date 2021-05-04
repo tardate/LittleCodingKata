@@ -1728,5 +1728,14 @@
         "tags": [
             "C"
         ]
+    },
+    "/cpp/sdl/basic/": {
+        "id": 198,
+        "title": "Basic SDL Graphics",
+        "summary": "Testing some basic windo and rendering functions with SDL library in C++.",
+        "tags": [
+            "C++",
+            "SDL"
+        ]
     }
 }

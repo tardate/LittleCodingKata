@@ -1574,5 +1574,13 @@
         "relative_path": "c/numeric_limits",
         "updated_at": "2021-04-30T14:05:25Z",
         "id": "#197"
+    },
+    {
+        "name": "Basic SDL Graphics",
+        "description": "Testing some basic windo and rendering functions with SDL library in C++.",
+        "categories": "C++, SDL",
+        "relative_path": "cpp/sdl/basic",
+        "updated_at": "2021-05-04T13:26:27Z",
+        "id": "#198"
     }
 ]

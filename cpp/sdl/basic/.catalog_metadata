@@ -1,0 +1,6 @@
+{
+    "name": "Basic SDL Graphics",
+    "description": "Testing some basic windo and rendering functions with SDL library in C++.",
+    "categories": "C++, SDL",
+    "relative_path": "cpp/sdl/basic"
+}
