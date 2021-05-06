@@ -1,0 +1,6 @@
+{
+    "name": "whalesay",
+    "description": "Building and testing the whalesay docker demo",
+    "categories": "docker",
+    "relative_path": "docker/whalesay"
+}
