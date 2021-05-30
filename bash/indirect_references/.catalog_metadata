@@ -1,0 +1,6 @@
+{
+    "name": "Indirect References",
+    "description": "Indirect variable de-referencing in bash scripts",
+    "categories": "Bash",
+    "relative_path": "bash/indirect_references"
+}

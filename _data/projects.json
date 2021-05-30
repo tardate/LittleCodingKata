@@ -1762,5 +1762,13 @@
         "tags": [
             "Bash"
         ]
+    },
+    "/bash/indirect_references/": {
+        "id": 202,
+        "title": "Indirect References",
+        "summary": "Indirect variable de-referencing in bash scripts",
+        "tags": [
+            "Bash"
+        ]
     }
 }

@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-05-30T12:26:25Z</updated>
+  <updated>2021-05-30T13:25:53Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1770,9 +1770,17 @@
   <entry>
     <id>https://codingkata.tardate.com/bash/sort_by_numbers/</id>
     <link href="https://codingkata.tardate.com/bash/sort_by_numbers/"/>
-    <updated>2021-05-30T12:26:21Z</updated>
+    <updated>2021-05-30T12:26:47Z</updated>
     <title>Sort by Numbers</title>
     <summary>Sorting text numerically in the shell using the special --version-sort mode of the sort utility</summary>
+    <category term="Bash"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/bash/indirect_references/</id>
+    <link href="https://codingkata.tardate.com/bash/indirect_references/"/>
+    <updated>2021-05-30T13:25:39Z</updated>
+    <title>Indirect References</title>
+    <summary>Indirect variable de-referencing in bash scripts</summary>
     <category term="Bash"/>
   </entry>
 </feed>
