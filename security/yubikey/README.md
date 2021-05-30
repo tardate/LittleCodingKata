@@ -37,6 +37,10 @@ Some of the services I've personally used the YubiKey with...
     * MacOSX High Sierra / Firefox browser
 * [Wasabi](https://wasabi.com/) Cloud Storage
   * not a documented/supported integration, but can use OATH
+* [KeepassXC](https://keepassxc.org/project/) - cross-platform, open-source password manager successor to the original [KeePass](https://keepass.info/)
+  * [GitHub - source](https://github.com/keepassxreboot/keepassxc)
+  * [How do I configure my YubiKey / OnlyKey for use with KeePassXC?](https://keepassxc.org/docs/#faq-yubikey-howto)
+  * [Using Your YubiKey with KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass)
 
 ## YubiKey Manager (ykman) CLI & GUI
 
