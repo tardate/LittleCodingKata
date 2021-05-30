@@ -14,7 +14,7 @@ See:
 
 ### Part I — Development
 
-1. A Brave New World
+#### 1. A Brave New World
 
 * Installing Docker
 * Verifying Your Install
@@ -22,7 +22,7 @@ See:
 * Running a Ruby Script Without Ruby Installed
 * Generating a New Rails App Without Ruby Installed
 
-2. Running a Rails App in a Container
+#### 2. Running a Rails App in a Container
 
 * How Do We Run Our Rails App?
 * Defining Our First Custom Image
@@ -31,7 +31,7 @@ See:
 * Reaching the App: Publishing Ports
 * Binding the Rails Server to IP Addresses
 
-3. Fine-Tuning Our Rails Image
+#### 3. Fine-Tuning Our Rails Image
 
 * Naming and Versioning Our Image
 * A Default Command
@@ -41,7 +41,7 @@ See:
 * Caching Issue 2: Unnecessary Gem Installs
 * The Finishing Touch
 
-4. Describing Our App Declaratively with Docker Compose
+#### 4. Describing Our App Declaratively with Docker Compose
 
 * Getting Started with Compose
 * Launching Our App
@@ -49,7 +49,7 @@ See:
 * Starting and Stopping Services
 * Other Common Tasks
 
-5. Beyond the App: Adding Redis
+#### 5. Beyond the App: Adding Redis
 
 * Starting a Redis Server
 * Manually Connecting to the Redis Server
@@ -57,7 +57,7 @@ See:
 * Our Rails App Talking to Redis
 * Starting the Entire App with Docker Compose
 
-6. Adding a Database: Postgres
+#### 6. Adding a Database: Postgres
 
 * Starting a Postgres Server
 * Connecting to Postgres from a Separate Container
@@ -65,14 +65,14 @@ See:
 * Using the Database in Practice
 * Decoupling Data from the Container
 
-7. Playing Nice with JavaScript
+#### 7. Playing Nice with JavaScript
 
 * The JavaScript Front-End Options
 * Rails JavaScript Front End with Webpacker
 * Compiling Assets with Webpacker
 * A Hello World React App
 
-8. Testing in a Dockerized Environment
+#### 8. Testing in a Dockerized Environment
 
 * Setting Up RSpec
 * Our First Test
@@ -80,19 +80,19 @@ See:
 * Running Tests That Rely on JavaScript
 * Debugging
 
-9. Advanced Gem Management
+#### 9. Advanced Gem Management
 
 * The Downside to Our Existing Approach
 * Using a Gem Cache Volume
 
-10. Some Minor Irritations
+#### 10. Some Minor Irritations
 
 * Rails tmp/pids/server.pid Not Cleaned Up
 * Compose Intermittently Aborts with Ctrl-C
 
 ### Part II — Toward Production
 
-11. The Production Landscape
+#### 11. The Production Landscape
 
 * The "Ops" in DevOps
 * Container Orchestration
@@ -103,12 +103,13 @@ See:
 * Serverless for Containers
 * How to Decide What’s Right for Me?
 
-12. Preparing for Production
+#### 12. Preparing for Production
 
 * Configuring a Production Environment
-* A Production Image: Precompiling Assets Sharing Images
+* A Production Image: Precompiling Assets
+* Sharing Images
 
-13. A Production-Like Playground
+#### 13. A Production-Like Playground
 
 * Creating Machines
 * Introducing Docker Swarm
@@ -119,7 +120,7 @@ See:
 * Tasks and Swarm’s Scaling Model
 * Scaling Up the Service
 
-14. Deploying to the Cloud
+#### 14. Deploying to the Cloud
 
 * Creating a DigitalOcean Cluster
 * Deploying to Our DigitalOcean Swarm
