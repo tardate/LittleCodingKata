@@ -1588,7 +1588,15 @@
         "description": "All about if/then test constructs in Bash scripting",
         "categories": "Bash",
         "relative_path": "bash/if_and_test",
-        "updated_at": "2021-05-30T03:46:14Z",
+        "updated_at": "2021-05-30T03:59:28Z",
         "id": "#199"
+    },
+    {
+        "name": "Bash Reference Manual",
+        "description": "the GNU Bash Reference Manual",
+        "categories": "Bash, book",
+        "relative_path": "bash/bash_reference_manual",
+        "updated_at": "2021-05-30T09:22:51Z",
+        "id": "#200"
     }
 ]

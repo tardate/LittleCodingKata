@@ -1745,5 +1745,14 @@
         "tags": [
             "Bash"
         ]
+    },
+    "/bash/bash_reference_manual/": {
+        "id": 200,
+        "title": "Bash Reference Manual",
+        "summary": "the GNU Bash Reference Manual",
+        "tags": [
+            "Bash",
+            "book"
+        ]
     }
 }

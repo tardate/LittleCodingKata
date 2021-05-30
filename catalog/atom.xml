@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-05-30T03:47:46Z</updated>
+  <updated>2021-05-30T09:23:08Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1753,9 +1753,18 @@
   <entry>
     <id>https://codingkata.tardate.com/bash/if_and_test/</id>
     <link href="https://codingkata.tardate.com/bash/if_and_test/"/>
-    <updated>2021-05-30T03:46:14Z</updated>
+    <updated>2021-05-30T03:59:28Z</updated>
     <title>Bash if and test</title>
     <summary>All about if/then test constructs in Bash scripting</summary>
     <category term="Bash"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/bash/bash_reference_manual/</id>
+    <link href="https://codingkata.tardate.com/bash/bash_reference_manual/"/>
+    <updated>2021-05-30T09:22:51Z</updated>
+    <title>Bash Reference Manual</title>
+    <summary>the GNU Bash Reference Manual</summary>
+    <category term="Bash"/>
+    <category term="book"/>
   </entry>
 </feed>
