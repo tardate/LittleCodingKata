@@ -93,6 +93,38 @@ The `(( ... ))` [double parentheses](https://tldp.org/LDP/abs/html/dblparens.htm
 and [let ...](https://tldp.org/LDP/abs/html/internal.html#LETREF)
 constructs return an exit status, according to whether the arithmetic expressions they evaluate expand to a non-zero value. These arithmetic-expansion constructs may therefore be used to perform arithmetic comparisons.
 
+### File tests
+
+The [file test operators](https://tldp.org/LDP/abs/html/fto.html) are used to test a whole range of file an driectory properties.
+Most commonly:
+
+* `-e` file exists
+* `-f` file is a regular file (not a directory or device file)
+* `-d` file is a directory
+* `!` to negate any file test operator
+
+Running the example [test_files.sh](./test_string_variables.sh) script:
+
+```
+$ ./test_files.sh
+
+# -e operator tests (file exists):
+correctly returns true for [ -e "./test_files.sh" ]
+correctly returns false for [ -e "./bogative.sh" ]
+
+# ! -e operator tests (not file exists):
+correctly returns true for [ ! -e "./bogative.sh" ]
+
+# -f operator tests (is a file):
+correctly returns true for [ -f "./test_files.sh" ]
+correctly returns false for [ -f "../if_and_test" ]
+correctly returns false for [ -f "./bogative.sh" ]
+
+# -d operator tests (is a directory):
+correctly returns true for [ -d "../if_and_test" ]
+correctly returns false for [ -d "./test_files.sh" ]
+correctly returns false for [ -d "./bogative.sh" ]
+```
 
 ## Credits and References
 

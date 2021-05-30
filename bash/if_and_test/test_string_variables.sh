@@ -1,7 +1,5 @@
 #!/bin/bash
 
-## VAR_SET
-
 VAR_SET=canary
 
 echo -e "\n# = operator tests (equal):"
@@ -35,6 +33,7 @@ else
   echo "correctly fails using [[ \"\${VAR_NOT_SET=}\" = \"canary\" ]] # VAR_NOT_SET: ${VAR_NOT_SET}"
 fi
 
+
 echo -e "\n## == operator tests (equal):"
 echo "Given: VAR_SET=${VAR_SET} and VAR_NOT_SET not defined"
 
@@ -66,6 +65,7 @@ else
   echo "correctly fails using [[ \"\${VAR_NOT_SET}\" == \"canary\" ]] # VAR_NOT_SET: ${VAR_NOT_SET}"
 fi
 
+
 echo -e "\n## == operator tests (pattern matching):"
 echo "Given: VAR_SET=${VAR_SET} and VAR_NOT_SET not defined"
 
@@ -82,6 +82,7 @@ then
 else
   echo "correctly fails using [[ \"\${VAR_SET}\" == cannot* ]] # VAR_SET: ${VAR_SET}"
 fi
+
 
 echo -e "\n## != operator tests:"
 echo "Given: VAR_SET=${VAR_SET} and VAR_NOT_SET not defined"
@@ -114,6 +115,7 @@ else
   echo "fail"
 fi
 
+
 echo -e "\n## -n operator tests (not null):"
 echo "Given: VAR_SET=${VAR_SET} and VAR_NOT_SET not defined"
 
@@ -144,6 +146,7 @@ then
 else
   echo "correctly fails using [[ -n \"\${VAR_NOT_SET}\" ]] # VAR_NOT_SET: ${VAR_NOT_SET}"
 fi
+
 
 echo -e "\n## -z operator tests (is null):"
 echo "Given: VAR_SET=${VAR_SET} and VAR_NOT_SET not defined"
