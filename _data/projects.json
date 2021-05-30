@@ -1770,5 +1770,13 @@
         "tags": [
             "Bash"
         ]
+    },
+    "/tools/iperf/": {
+        "id": 203,
+        "title": "iperf/iperf3",
+        "summary": "iPerf3 is a tool for active measurements of the maximum achievable bandwidth on IP networks",
+        "tags": [
+            "tools"
+        ]
     }
 }

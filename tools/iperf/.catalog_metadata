@@ -1,0 +1,6 @@
+{
+    "name": "iperf/iperf3",
+    "description": "iPerf3 is a tool for active measurements of the maximum achievable bandwidth on IP networks",
+    "categories": "tools",
+    "relative_path": "tools/iperf"
+}
