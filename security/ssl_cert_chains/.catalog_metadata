@@ -1,0 +1,6 @@
+{
+    "name": "SSL Certificate Chains",
+    "description": "notes on investigating issues with server SSL certificate chains",
+    "categories": "security",
+    "relative_path": "security/ssl_cert_chains"
+}

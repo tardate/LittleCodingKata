@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-05-30T17:24:19Z</updated>
+  <updated>2021-05-31T16:48:51Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1786,9 +1786,17 @@
   <entry>
     <id>https://codingkata.tardate.com/tools/iperf/</id>
     <link href="https://codingkata.tardate.com/tools/iperf/"/>
-    <updated>2021-05-30T14:05:54Z</updated>
+    <updated>2021-05-31T02:19:29Z</updated>
     <title>iperf/iperf3</title>
     <summary>iPerf3 is a tool for active measurements of the maximum achievable bandwidth on IP networks</summary>
     <category term="tools"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/security/ssl_cert_chains/</id>
+    <link href="https://codingkata.tardate.com/security/ssl_cert_chains/"/>
+    <updated>2021-05-31T16:16:55Z</updated>
+    <title>SSL Certificate Chains</title>
+    <summary>notes on investigating issues with server SSL certificate chains</summary>
+    <category term="security"/>
   </entry>
 </feed>

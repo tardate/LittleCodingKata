@@ -1778,5 +1778,13 @@
         "tags": [
             "tools"
         ]
+    },
+    "/security/ssl_cert_chains/": {
+        "id": 204,
+        "title": "SSL Certificate Chains",
+        "summary": "notes on investigating issues with server SSL certificate chains",
+        "tags": [
+            "security"
+        ]
     }
 }
