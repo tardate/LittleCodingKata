@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-06-01T14:11:18Z</updated>
+  <updated>2021-06-01T16:42:33Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1806,5 +1806,14 @@
     <title>static</title>
     <summary>About the static keyword in C++ - static variables, static objects, static member variables, static member functions</summary>
     <category term="C++"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/aws-cli/</id>
+    <link href="https://codingkata.tardate.com/tools/aws-cli/"/>
+    <updated>2021-06-01T16:41:44Z</updated>
+    <title>aws-cli</title>
+    <summary>Installing the running the AWS CLI</summary>
+    <category term="tools"/>
+    <category term="AWS"/>
   </entry>
 </feed>

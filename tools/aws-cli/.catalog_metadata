@@ -1,0 +1,6 @@
+{
+    "name": "aws-cli",
+    "description": "Installing the running the AWS CLI",
+    "categories": "tools, AWS",
+    "relative_path": "tools/aws-cli"
+}

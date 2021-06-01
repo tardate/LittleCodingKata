@@ -42,7 +42,7 @@ $ find ../.. -name *catalog* -maxdepth 2  -type f
 ../../catalog/catalog.json
 ```
 
-Performing an ection with each file:
+Performing an action with each file:
 
 ```
 $ find .. -name .catalog* -exec ls -s {} \;
