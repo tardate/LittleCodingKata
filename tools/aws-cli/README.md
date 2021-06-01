@@ -32,6 +32,13 @@ To share aws credentials in the local `~/.aws` folder, map the volume:
     $ docker run --rm -it -v ~/.aws:/root/.aws amazon/aws-cli --profile myprofile s3 ls s3://example.bucket
     ... returns authorised results..
 
+To upload/download data from localfile system (current directory: `$(pwd)`), also map the volume to `/aws`:
+
+    $ docker run --rm -it -v ~/.aws:/root/.aws -v $(pwd):/aws amazon/aws-cli s3 cp s3://aws-cli-docker-demo/hello .
+    download: s3://aws-cli-docker-demo/hello to ./hello
+    $ cat hello
+    Hello from Docker!
+
 
 ## AWS CLI version 1
 
@@ -88,3 +95,4 @@ So for now I just took the cheats way out and moved the aws command out of the w
 ## Credits and References
 
 * [AWS Command Line Interface Documentation](https://docs.aws.amazon.com/cli/index.html)
+* [AWS CLI Command Reference](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/index.html)
