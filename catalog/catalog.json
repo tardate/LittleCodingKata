@@ -1628,7 +1628,15 @@
         "description": "notes on investigating issues with server SSL certificate chains",
         "categories": "security",
         "relative_path": "security/ssl_cert_chains",
-        "updated_at": "2021-05-31T16:16:55Z",
+        "updated_at": "2021-05-31T16:49:58Z",
         "id": "#204"
+    },
+    {
+        "name": "static",
+        "description": "About the static keyword in C++ - static variables, static objects, static member variables, static member functions",
+        "categories": "C++",
+        "relative_path": "cpp/statics",
+        "updated_at": "2021-06-01T14:11:04Z",
+        "id": "#205"
     }
 ]

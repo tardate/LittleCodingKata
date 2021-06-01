@@ -1,0 +1,6 @@
+{
+    "name": "static",
+    "description": "About the static keyword in C++ - static variables, static objects, static member variables, static member functions",
+    "categories": "C++",
+    "relative_path": "cpp/statics"
+}

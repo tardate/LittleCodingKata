@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-05-31T16:48:51Z</updated>
+  <updated>2021-06-01T14:11:18Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1794,9 +1794,17 @@
   <entry>
     <id>https://codingkata.tardate.com/security/ssl_cert_chains/</id>
     <link href="https://codingkata.tardate.com/security/ssl_cert_chains/"/>
-    <updated>2021-05-31T16:16:55Z</updated>
+    <updated>2021-05-31T16:49:58Z</updated>
     <title>SSL Certificate Chains</title>
     <summary>notes on investigating issues with server SSL certificate chains</summary>
     <category term="security"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/statics/</id>
+    <link href="https://codingkata.tardate.com/cpp/statics/"/>
+    <updated>2021-06-01T14:11:04Z</updated>
+    <title>static</title>
+    <summary>About the static keyword in C++ - static variables, static objects, static member variables, static member functions</summary>
+    <category term="C++"/>
   </entry>
 </feed>

@@ -1786,5 +1786,13 @@
         "tags": [
             "security"
         ]
+    },
+    "/cpp/statics/": {
+        "id": 205,
+        "title": "static",
+        "summary": "About the static keyword in C++ - static variables, static objects, static member variables, static member functions",
+        "tags": [
+            "C++"
+        ]
     }
 }
