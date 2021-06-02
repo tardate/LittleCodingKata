@@ -1646,5 +1646,13 @@
         "relative_path": "tools/aws-cli",
         "updated_at": "2021-06-01T16:41:44Z",
         "id": "#206"
+    },
+    {
+        "name": "RubyConf 2020",
+        "description": "Overview and notes from RubyConf 2020",
+        "categories": "ruby",
+        "relative_path": "ruby/RubyConf/2020",
+        "updated_at": "2021-06-02T16:01:50Z",
+        "id": "#207"
     }
 ]

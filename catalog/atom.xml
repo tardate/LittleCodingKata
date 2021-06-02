@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-06-01T16:42:33Z</updated>
+  <updated>2021-06-02T16:02:03Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1815,5 +1815,13 @@
     <summary>Installing the running the AWS CLI</summary>
     <category term="tools"/>
     <category term="AWS"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/RubyConf/2020/</id>
+    <link href="https://codingkata.tardate.com/ruby/RubyConf/2020/"/>
+    <updated>2021-06-02T16:01:50Z</updated>
+    <title>RubyConf 2020</title>
+    <summary>Overview and notes from RubyConf 2020</summary>
+    <category term="ruby"/>
   </entry>
 </feed>

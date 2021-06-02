@@ -1803,5 +1803,13 @@
             "tools",
             "AWS"
         ]
+    },
+    "/ruby/RubyConf/2020/": {
+        "id": 207,
+        "title": "RubyConf 2020",
+        "summary": "Overview and notes from RubyConf 2020",
+        "tags": [
+            "ruby"
+        ]
     }
 }
