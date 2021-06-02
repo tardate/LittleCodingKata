@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-06-02T16:02:03Z</updated>
+  <updated>2021-06-02T16:51:43Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1823,5 +1823,14 @@
     <title>RubyConf 2020</title>
     <summary>Overview and notes from RubyConf 2020</summary>
     <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/RailsConf/2021/</id>
+    <link href="https://codingkata.tardate.com/ruby/RailsConf/2021/"/>
+    <updated>2021-06-02T16:07:35Z</updated>
+    <title>RailsConf 2021</title>
+    <summary>Overview and notes from RailsConf 2021</summary>
+    <category term="ruby"/>
+    <category term="rails"/>
   </entry>
 </feed>

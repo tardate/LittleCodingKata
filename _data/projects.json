@@ -1811,5 +1811,14 @@
         "tags": [
             "ruby"
         ]
+    },
+    "/ruby/RailsConf/2021/": {
+        "id": 208,
+        "title": "RailsConf 2021",
+        "summary": "Overview and notes from RailsConf 2021",
+        "tags": [
+            "ruby",
+            "rails"
+        ]
     }
 }

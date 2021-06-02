@@ -1654,5 +1654,13 @@
         "relative_path": "ruby/RubyConf/2020",
         "updated_at": "2021-06-02T16:01:50Z",
         "id": "#207"
+    },
+    {
+        "name": "RailsConf 2021",
+        "description": "Overview and notes from RailsConf 2021",
+        "categories": "ruby, rails",
+        "relative_path": "ruby/RailsConf/2021",
+        "updated_at": "2021-06-02T16:07:35Z",
+        "id": "#208"
     }
 ]
