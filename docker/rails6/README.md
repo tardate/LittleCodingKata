@@ -146,6 +146,7 @@ Finished in 0.439060s, 2.2776 runs/s, 2.2776 assertions/s.
 Adding:
 
 * [Dockerfile](./minime/Dockerfile)
+* [docker-compose.yml](./minime/docker-compose.yml)
 * [.dockerignore](./minime/.dockerignore) to prevent locally installed assets from being added to the image
 * [entrypoint.sh](./minime/entrypoint.sh) provides a default Rails application startup for the
 

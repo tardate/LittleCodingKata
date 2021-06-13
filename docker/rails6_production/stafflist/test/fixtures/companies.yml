@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Merlion Inc
+  street_address: 1 Fullerton Rd
+  postcode: 049213
+  country_name: Singapore
+
+two:
+  name: company two
+  street_address: MyString
+  postcode: MyString
+  country_name: MyString

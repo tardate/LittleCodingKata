@@ -1829,5 +1829,14 @@
             "ruby",
             "rails"
         ]
+    },
+    "/docker/rails6_production/": {
+        "id": 210,
+        "title": "Rails 6 with Docker for Production",
+        "summary": "All about running Rails 6 with Docker for production deployment",
+        "tags": [
+            "docker",
+            "rails"
+        ]
     }
 }
