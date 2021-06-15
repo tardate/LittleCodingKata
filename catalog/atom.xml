@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-06-02T16:51:43Z</updated>
+  <updated>2021-06-18T00:56:37Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1768,9 +1768,34 @@
     <category term="book"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/tools/iperf/</id>
+    <link href="https://codingkata.tardate.com/tools/iperf/"/>
+    <updated>2021-06-02T17:01:27Z</updated>
+    <title>iperf/iperf3</title>
+    <summary>iPerf3 is a tool for active measurements of the maximum achievable bandwidth on IP networks</summary>
+    <category term="tools"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/aws-cli/</id>
+    <link href="https://codingkata.tardate.com/tools/aws-cli/"/>
+    <updated>2021-06-02T17:01:27Z</updated>
+    <title>aws-cli</title>
+    <summary>Installing the running the AWS CLI</summary>
+    <category term="tools"/>
+    <category term="AWS"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/security/ssl_cert_chains/</id>
+    <link href="https://codingkata.tardate.com/security/ssl_cert_chains/"/>
+    <updated>2021-06-02T17:01:27Z</updated>
+    <title>SSL Certificate Chains</title>
+    <summary>notes on investigating issues with server SSL certificate chains</summary>
+    <category term="security"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/bash/sort_by_numbers/</id>
     <link href="https://codingkata.tardate.com/bash/sort_by_numbers/"/>
-    <updated>2021-05-30T12:26:47Z</updated>
+    <updated>2021-06-02T17:01:27Z</updated>
     <title>Sort by Numbers</title>
     <summary>Sorting text numerically in the shell using the special --version-sort mode of the sort utility</summary>
     <category term="Bash"/>
@@ -1778,58 +1803,42 @@
   <entry>
     <id>https://codingkata.tardate.com/bash/indirect_references/</id>
     <link href="https://codingkata.tardate.com/bash/indirect_references/"/>
-    <updated>2021-05-30T13:25:39Z</updated>
+    <updated>2021-06-02T17:01:27Z</updated>
     <title>Indirect References</title>
     <summary>Indirect variable de-referencing in bash scripts</summary>
     <category term="Bash"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/tools/iperf/</id>
-    <link href="https://codingkata.tardate.com/tools/iperf/"/>
-    <updated>2021-05-31T02:19:29Z</updated>
-    <title>iperf/iperf3</title>
-    <summary>iPerf3 is a tool for active measurements of the maximum achievable bandwidth on IP networks</summary>
-    <category term="tools"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/security/ssl_cert_chains/</id>
-    <link href="https://codingkata.tardate.com/security/ssl_cert_chains/"/>
-    <updated>2021-05-31T16:49:58Z</updated>
-    <title>SSL Certificate Chains</title>
-    <summary>notes on investigating issues with server SSL certificate chains</summary>
-    <category term="security"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/cpp/statics/</id>
     <link href="https://codingkata.tardate.com/cpp/statics/"/>
-    <updated>2021-06-01T14:11:04Z</updated>
+    <updated>2021-06-02T17:01:27Z</updated>
     <title>static</title>
     <summary>About the static keyword in C++ - static variables, static objects, static member variables, static member functions</summary>
     <category term="C++"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/tools/aws-cli/</id>
-    <link href="https://codingkata.tardate.com/tools/aws-cli/"/>
-    <updated>2021-06-01T16:41:44Z</updated>
-    <title>aws-cli</title>
-    <summary>Installing the running the AWS CLI</summary>
-    <category term="tools"/>
-    <category term="AWS"/>
+    <id>https://codingkata.tardate.com/ruby/RailsConf/2021/</id>
+    <link href="https://codingkata.tardate.com/ruby/RailsConf/2021/"/>
+    <updated>2021-06-02T17:01:27Z</updated>
+    <title>RailsConf 2021</title>
+    <summary>Overview and notes from RailsConf 2021</summary>
+    <category term="ruby"/>
+    <category term="rails"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/RubyConf/2020/</id>
     <link href="https://codingkata.tardate.com/ruby/RubyConf/2020/"/>
-    <updated>2021-06-02T16:01:50Z</updated>
+    <updated>2021-06-02T17:01:27Z</updated>
     <title>RubyConf 2020</title>
     <summary>Overview and notes from RubyConf 2020</summary>
     <category term="ruby"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/ruby/RailsConf/2021/</id>
-    <link href="https://codingkata.tardate.com/ruby/RailsConf/2021/"/>
-    <updated>2021-06-02T16:07:35Z</updated>
-    <title>RailsConf 2021</title>
-    <summary>Overview and notes from RailsConf 2021</summary>
+    <id>https://codingkata.tardate.com/ruby/rails6/without_webpack/</id>
+    <link href="https://codingkata.tardate.com/ruby/rails6/without_webpack/"/>
+    <updated>2021-06-18T00:56:16Z</updated>
+    <title>Running Rails 6 Without Webpacker</title>
+    <summary>Because sometimes just want to keep it simple with good old sprockets and the asset pipeline</summary>
     <category term="ruby"/>
     <category term="rails"/>
   </entry>

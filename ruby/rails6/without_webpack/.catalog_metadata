@@ -1,0 +1,6 @@
+{
+    "name": "Running Rails 6 Without Webpacker",
+    "description": "Because sometimes just want to keep it simple with good old sprockets and the asset pipeline",
+    "categories": "ruby, rails",
+    "relative_path": "ruby/rails6/without_webpack"
+}

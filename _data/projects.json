@@ -1755,48 +1755,16 @@
             "book"
         ]
     },
-    "/bash/sort_by_numbers/": {
-        "id": 201,
-        "title": "Sort by Numbers",
-        "summary": "Sorting text numerically in the shell using the special --version-sort mode of the sort utility",
-        "tags": [
-            "Bash"
-        ]
-    },
-    "/bash/indirect_references/": {
-        "id": 202,
-        "title": "Indirect References",
-        "summary": "Indirect variable de-referencing in bash scripts",
-        "tags": [
-            "Bash"
-        ]
-    },
     "/tools/iperf/": {
-        "id": 203,
+        "id": 201,
         "title": "iperf/iperf3",
         "summary": "iPerf3 is a tool for active measurements of the maximum achievable bandwidth on IP networks",
         "tags": [
             "tools"
         ]
     },
-    "/security/ssl_cert_chains/": {
-        "id": 204,
-        "title": "SSL Certificate Chains",
-        "summary": "notes on investigating issues with server SSL certificate chains",
-        "tags": [
-            "security"
-        ]
-    },
-    "/cpp/statics/": {
-        "id": 205,
-        "title": "static",
-        "summary": "About the static keyword in C++ - static variables, static objects, static member variables, static member functions",
-        "tags": [
-            "C++"
-        ]
-    },
     "/tools/aws-cli/": {
-        "id": 206,
+        "id": 202,
         "title": "aws-cli",
         "summary": "Installing the running the AWS CLI",
         "tags": [
@@ -1804,18 +1772,59 @@
             "AWS"
         ]
     },
-    "/ruby/RubyConf/2020/": {
+    "/security/ssl_cert_chains/": {
+        "id": 203,
+        "title": "SSL Certificate Chains",
+        "summary": "notes on investigating issues with server SSL certificate chains",
+        "tags": [
+            "security"
+        ]
+    },
+    "/bash/sort_by_numbers/": {
+        "id": 204,
+        "title": "Sort by Numbers",
+        "summary": "Sorting text numerically in the shell using the special --version-sort mode of the sort utility",
+        "tags": [
+            "Bash"
+        ]
+    },
+    "/bash/indirect_references/": {
+        "id": 205,
+        "title": "Indirect References",
+        "summary": "Indirect variable de-referencing in bash scripts",
+        "tags": [
+            "Bash"
+        ]
+    },
+    "/cpp/statics/": {
+        "id": 206,
+        "title": "static",
+        "summary": "About the static keyword in C++ - static variables, static objects, static member variables, static member functions",
+        "tags": [
+            "C++"
+        ]
+    },
+    "/ruby/RailsConf/2021/": {
         "id": 207,
+        "title": "RailsConf 2021",
+        "summary": "Overview and notes from RailsConf 2021",
+        "tags": [
+            "ruby",
+            "rails"
+        ]
+    },
+    "/ruby/RubyConf/2020/": {
+        "id": 208,
         "title": "RubyConf 2020",
         "summary": "Overview and notes from RubyConf 2020",
         "tags": [
             "ruby"
         ]
     },
-    "/ruby/RailsConf/2021/": {
-        "id": 208,
-        "title": "RailsConf 2021",
-        "summary": "Overview and notes from RailsConf 2021",
+    "/ruby/rails6/without_webpack/": {
+        "id": 209,
+        "title": "Running Rails 6 Without Webpacker",
+        "summary": "Because sometimes just want to keep it simple with good old sprockets and the asset pipeline",
         "tags": [
             "ruby",
             "rails"
