@@ -1864,5 +1864,14 @@
             "tools",
             "SNMP"
         ]
+    },
+    "/ruby/rails6/engines/": {
+        "id": 214,
+        "title": "Engines in Rails 6",
+        "summary": "Looking into what is new or different with Rails 6 engines",
+        "tags": [
+            "ruby",
+            "rails"
+        ]
     }
 }

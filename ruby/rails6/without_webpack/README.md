@@ -10,8 +10,7 @@ Because sometimes just want to keep it simple with good old sprockets and the as
 $ node -v
 v12.8.0
 $ npm -v
-ruby -v
-sqlite3 --version6.10.2
+6.10.2
 $ ruby -v
 ruby 2.7.2p137 (2020-10-01 revision 5445e04352) [x86_64-darwin17]
 $ sqlite3 --version
@@ -105,6 +104,7 @@ Perhaps a PR warranted after a bit more testing
 
 ## Credits and References
 
+* [Why does Rails 6 include both Webpacker and Sprockets?](https://rossta.net/blog/why-does-rails-install-both-webpacker-and-sprockets.html)
 * [The Rails Command Line](https://guides.rubyonrails.org/command_line.html)
 * [kirillshevch/rails_new_options_help.md](https://gist.github.com/kirillshevch/1b52f711e66b064416d746f07e834c00)
 * [The Asset Pipeline](https://guides.rubyonrails.org/asset_pipeline.html)

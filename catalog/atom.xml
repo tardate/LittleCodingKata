@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-08-12T12:44:35Z</updated>
+  <updated>2021-08-12T12:48:31Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1871,10 +1871,19 @@
   <entry>
     <id>https://codingkata.tardate.com/tools/mibbrowser/</id>
     <link href="https://codingkata.tardate.com/tools/mibbrowser/"/>
-    <updated>2021-07-07T06:54:28Z</updated>
+    <updated>2021-08-12T12:45:51Z</updated>
     <title>iReasoning MIB browser</title>
     <summary>Testing the iReasoning MIB browser on MacOSX</summary>
     <category term="tools"/>
     <category term="SNMP"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/rails6/engines/</id>
+    <link href="https://codingkata.tardate.com/ruby/rails6/engines/"/>
+    <updated>2021-08-12T12:47:40Z</updated>
+    <title>Engines in Rails 6</title>
+    <summary>Looking into what is new or different with Rails 6 engines</summary>
+    <category term="ruby"/>
+    <category term="rails"/>
   </entry>
 </feed>
