@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-06-18T00:59:01Z</updated>
+  <updated>2021-06-27T04:37:52Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1834,21 +1834,38 @@
     <category term="ruby"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/docker/rails6_production/</id>
+    <link href="https://codingkata.tardate.com/docker/rails6_production/"/>
+    <updated>2021-06-18T00:59:31Z</updated>
+    <title>Rails 6 with Docker for Production</title>
+    <summary>All about running Rails 6 with Docker for production deployment</summary>
+    <category term="docker"/>
+    <category term="rails"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/ruby/rails6/without_webpack/</id>
     <link href="https://codingkata.tardate.com/ruby/rails6/without_webpack/"/>
-    <updated>2021-06-18T00:57:52Z</updated>
+    <updated>2021-06-18T00:59:31Z</updated>
     <title>Running Rails 6 Without Webpacker</title>
     <summary>Because sometimes just want to keep it simple with good old sprockets and the asset pipeline</summary>
     <category term="ruby"/>
     <category term="rails"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/docker/rails6_production/</id>
-    <link href="https://codingkata.tardate.com/docker/rails6_production/"/>
-    <updated>2021-06-18T00:58:49Z</updated>
-    <title>Rails 6 with Docker for Production</title>
-    <summary>All about running Rails 6 with Docker for production deployment</summary>
+    <id>https://codingkata.tardate.com/docker/arm_builds/</id>
+    <link href="https://codingkata.tardate.com/docker/arm_builds/"/>
+    <updated>2021-06-27T04:33:51Z</updated>
+    <title>Building for ARM with Docker</title>
+    <summary>Building 32-bit ARM v7 images with docker, tested on MacOSX and AWS</summary>
     <category term="docker"/>
-    <category term="rails"/>
+    <category term="ARM"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/docker/housekeeping/</id>
+    <link href="https://codingkata.tardate.com/docker/housekeeping/"/>
+    <updated>2021-06-27T04:37:36Z</updated>
+    <title>Docker Housekeeping</title>
+    <summary>Some simple hoursekeeping commands for Docker</summary>
+    <category term="docker"/>
   </entry>
 </feed>

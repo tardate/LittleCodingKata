@@ -1821,8 +1821,17 @@
             "ruby"
         ]
     },
-    "/ruby/rails6/without_webpack/": {
+    "/docker/rails6_production/": {
         "id": 209,
+        "title": "Rails 6 with Docker for Production",
+        "summary": "All about running Rails 6 with Docker for production deployment",
+        "tags": [
+            "docker",
+            "rails"
+        ]
+    },
+    "/ruby/rails6/without_webpack/": {
+        "id": 210,
         "title": "Running Rails 6 Without Webpacker",
         "summary": "Because sometimes just want to keep it simple with good old sprockets and the asset pipeline",
         "tags": [
@@ -1830,13 +1839,21 @@
             "rails"
         ]
     },
-    "/docker/rails6_production/": {
-        "id": 210,
-        "title": "Rails 6 with Docker for Production",
-        "summary": "All about running Rails 6 with Docker for production deployment",
+    "/docker/arm_builds/": {
+        "id": 211,
+        "title": "Building for ARM with Docker",
+        "summary": "Building 32-bit ARM v7 images with docker, tested on MacOSX and AWS",
         "tags": [
             "docker",
-            "rails"
+            "ARM"
+        ]
+    },
+    "/docker/housekeeping/": {
+        "id": 212,
+        "title": "Docker Housekeeping",
+        "summary": "Some simple hoursekeeping commands for Docker",
+        "tags": [
+            "docker"
         ]
     }
 }

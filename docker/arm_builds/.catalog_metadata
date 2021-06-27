@@ -1,0 +1,6 @@
+{
+    "name": "Building for ARM with Docker",
+    "description": "Building 32-bit ARM v7 images with docker, tested on MacOSX and AWS",
+    "categories": "docker, ARM",
+    "relative_path": "docker/arm_builds"
+}

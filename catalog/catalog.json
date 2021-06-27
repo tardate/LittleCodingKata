@@ -1664,19 +1664,35 @@
         "id": "#208"
     },
     {
-        "name": "Running Rails 6 Without Webpacker",
-        "description": "Because sometimes just want to keep it simple with good old sprockets and the asset pipeline",
-        "categories": "ruby, rails",
-        "relative_path": "ruby/rails6/without_webpack",
-        "updated_at": "2021-06-18T00:57:52Z",
-        "id": "#209"
-    },
-    {
         "name": "Rails 6 with Docker for Production",
         "description": "All about running Rails 6 with Docker for production deployment",
         "categories": "docker, rails",
         "relative_path": "docker/rails6_production",
-        "updated_at": "2021-06-18T00:58:49Z",
+        "updated_at": "2021-06-18T00:59:31Z",
+        "id": "#209"
+    },
+    {
+        "name": "Running Rails 6 Without Webpacker",
+        "description": "Because sometimes just want to keep it simple with good old sprockets and the asset pipeline",
+        "categories": "ruby, rails",
+        "relative_path": "ruby/rails6/without_webpack",
+        "updated_at": "2021-06-18T00:59:31Z",
         "id": "#210"
+    },
+    {
+        "name": "Building for ARM with Docker",
+        "description": "Building 32-bit ARM v7 images with docker, tested on MacOSX and AWS",
+        "categories": "docker, ARM",
+        "relative_path": "docker/arm_builds",
+        "updated_at": "2021-06-27T04:33:51Z",
+        "id": "#211"
+    },
+    {
+        "name": "Docker Housekeeping",
+        "description": "Some simple hoursekeeping commands for Docker",
+        "categories": "docker",
+        "relative_path": "docker/housekeeping",
+        "updated_at": "2021-06-27T04:37:36Z",
+        "id": "#212"
     }
 ]
