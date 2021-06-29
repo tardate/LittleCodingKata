@@ -13,6 +13,9 @@ case "${val}" in
 9*)
   pattern="like 9*"
   ;;
+*hand)
+  pattern="like *hand"
+  ;;
 abc)
   pattern="abc"
   ;;

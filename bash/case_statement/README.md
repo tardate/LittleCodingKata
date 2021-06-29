@@ -37,6 +37,8 @@ $ ./case_examples.sh abc
 abc is: abc
 $ ./case_examples.sh def
 def is: def
+$ ./case_examples.sh left-hand
+left-hand is: like *hand
 $ ./case_examples.sh
 help is: (default)
 ```
