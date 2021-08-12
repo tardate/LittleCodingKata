@@ -1,0 +1,6 @@
+{
+    "name": "iReasoning MIB browser",
+    "description": "Testing the iReasoning MIB browser on MacOSX",
+    "categories": "tools, SNMP",
+    "relative_path": "tools/mibbrowser"
+}
