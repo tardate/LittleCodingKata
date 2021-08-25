@@ -32,8 +32,8 @@ Python 3.7.3
 $ pip install -r requirements.txt
 ...
 ```
-Huey requires redis - the demo is setup to expect redis to be available on localhost:6379.
 
+Huey requires redis - the demo is setup to expect redis to be available on localhost:6379.
 
 ### Demo Program
 
@@ -83,4 +83,4 @@ This task runs every 2 minutes.
 ## Credits and References
 
 * [huey](https://github.com/coleifer/huey) - github
-* [name](url)
+* [huey](https://huey.readthedocs.io/en/latest/index.html) - readthedocs

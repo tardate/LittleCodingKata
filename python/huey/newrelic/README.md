@@ -173,3 +173,4 @@ Here's the resulting trace visible in NewRelic APM:
 * [huey](https://github.com/coleifer/huey) - github
 * [newrelic python agent](https://docs.newrelic.com/docs/agents/python-agent/) - docs
 * [newrelic python agent](https://github.com/newrelic/newrelic-python-agent) - github
+* [Relic Solution: Python Agent and the Multiprocessing Library](https://discuss.newrelic.com/t/relic-solution-python-agent-and-the-multiprocessing-library/60098)

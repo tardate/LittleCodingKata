@@ -1882,8 +1882,19 @@
             "rails"
         ]
     },
-    "/python/huey/newrelic/": {
+    "/python/huey/about/": {
         "id": 216,
+        "title": "About Huey",
+        "summary": "Huey is a lightweight queuing system for python",
+        "tags": [
+            "python",
+            "huey",
+            "async",
+            "queues"
+        ]
+    },
+    "/python/huey/newrelic/": {
+        "id": 217,
         "title": "Monitoring Huey with NewRelic",
         "summary": "Notes and examples os using NewRelic monitoring with Huey",
         "tags": [
@@ -1893,10 +1904,10 @@
             "queues"
         ]
     },
-    "/python/huey/about/": {
-        "id": 217,
-        "title": "About Huey",
-        "summary": "Huey is a lightweight queuing system for python",
+    "/python/huey/priority/": {
+        "id": 218,
+        "title": "Huey Task Priority",
+        "summary": "Using the huey task priority feature",
         "tags": [
             "python",
             "huey",

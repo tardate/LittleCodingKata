@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-08-25T13:49:28Z</updated>
+  <updated>2021-08-25T15:07:12Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1895,9 +1895,20 @@
     <category term="rails"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/python/huey/about/</id>
+    <link href="https://codingkata.tardate.com/python/huey/about/"/>
+    <updated>2021-08-25T13:50:27Z</updated>
+    <title>About Huey</title>
+    <summary>Huey is a lightweight queuing system for python</summary>
+    <category term="python"/>
+    <category term="huey"/>
+    <category term="async"/>
+    <category term="queues"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/python/huey/newrelic/</id>
     <link href="https://codingkata.tardate.com/python/huey/newrelic/"/>
-    <updated>2021-08-25T13:06:09Z</updated>
+    <updated>2021-08-25T13:50:27Z</updated>
     <title>Monitoring Huey with NewRelic</title>
     <summary>Notes and examples os using NewRelic monitoring with Huey</summary>
     <category term="python"/>
@@ -1906,11 +1917,11 @@
     <category term="queues"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/python/huey/about/</id>
-    <link href="https://codingkata.tardate.com/python/huey/about/"/>
-    <updated>2021-08-25T13:07:06Z</updated>
-    <title>About Huey</title>
-    <summary>Huey is a lightweight queuing system for python</summary>
+    <id>https://codingkata.tardate.com/python/huey/priority/</id>
+    <link href="https://codingkata.tardate.com/python/huey/priority/"/>
+    <updated>2021-08-25T15:06:50Z</updated>
+    <title>Huey Task Priority</title>
+    <summary>Using the huey task priority feature</summary>
     <category term="python"/>
     <category term="huey"/>
     <category term="async"/>

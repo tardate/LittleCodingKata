@@ -1,0 +1,6 @@
+{
+    "name": "Huey Task Priority",
+    "description": "Using the huey task priority feature",
+    "categories": "python, huey, async, queues",
+    "relative_path": "python/huey/priority"
+}
