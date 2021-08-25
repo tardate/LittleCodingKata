@@ -1838,8 +1838,16 @@
             "docker"
         ]
     },
-    "/docker/arm_builds/": {
+    "/docker/whalesay/": {
         "id": 211,
+        "title": "whalesay",
+        "summary": "Building and testing the whalesay docker demo",
+        "tags": [
+            "docker"
+        ]
+    },
+    "/docker/arm_builds/": {
+        "id": 212,
         "title": "Building for ARM with Docker",
         "summary": "Building 32-bit ARM v7 images with docker, tested on MacOSX and AWS",
         "tags": [
@@ -1848,7 +1856,7 @@
         ]
     },
     "/docker/rails6_production/": {
-        "id": 212,
+        "id": 213,
         "title": "Rails 6 with Docker for Production",
         "summary": "All about running Rails 6 with Docker for production deployment",
         "tags": [
@@ -1857,7 +1865,7 @@
         ]
     },
     "/ruby/rails6/engines/": {
-        "id": 213,
+        "id": 214,
         "title": "Engines in Rails 6",
         "summary": "Looking into what is new or different with Rails 6 engines",
         "tags": [
@@ -1866,7 +1874,7 @@
         ]
     },
     "/ruby/rails6/without_webpack/": {
-        "id": 214,
+        "id": 215,
         "title": "Running Rails 6 Without Webpacker",
         "summary": "Because sometimes just want to keep it simple with good old sprockets and the asset pipeline",
         "tags": [
@@ -1874,12 +1882,26 @@
             "rails"
         ]
     },
-    "/docker/whalesay/": {
-        "id": 215,
-        "title": "whalesay",
-        "summary": "Building and testing the whalesay docker demo",
+    "/python/huey/newrelic/": {
+        "id": 216,
+        "title": "Monitoring Huey with NewRelic",
+        "summary": "Notes and examples os using NewRelic monitoring with Huey",
         "tags": [
-            "docker"
+            "python",
+            "huey",
+            "async",
+            "queues"
+        ]
+    },
+    "/python/huey/about/": {
+        "id": 217,
+        "title": "About Huey",
+        "summary": "Huey is a lightweight queuing system for python",
+        "tags": [
+            "python",
+            "huey",
+            "async",
+            "queues"
         ]
     }
 }

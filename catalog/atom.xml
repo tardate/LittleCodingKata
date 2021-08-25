@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-08-12T13:17:32Z</updated>
+  <updated>2021-08-25T13:49:28Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1836,7 +1836,7 @@
   <entry>
     <id>https://codingkata.tardate.com/tools/mibbrowser/</id>
     <link href="https://codingkata.tardate.com/tools/mibbrowser/"/>
-    <updated>2021-08-12T13:01:15Z</updated>
+    <updated>2021-08-12T13:20:14Z</updated>
     <title>iReasoning MIB browser</title>
     <summary>Testing the iReasoning MIB browser on MacOSX</summary>
     <category term="tools"/>
@@ -1845,15 +1845,23 @@
   <entry>
     <id>https://codingkata.tardate.com/docker/housekeeping/</id>
     <link href="https://codingkata.tardate.com/docker/housekeeping/"/>
-    <updated>2021-08-12T13:01:15Z</updated>
+    <updated>2021-08-12T13:20:14Z</updated>
     <title>Docker Housekeeping</title>
     <summary>Some simple hoursekeeping commands for Docker</summary>
     <category term="docker"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/docker/whalesay/</id>
+    <link href="https://codingkata.tardate.com/docker/whalesay/"/>
+    <updated>2021-08-12T13:20:14Z</updated>
+    <title>whalesay</title>
+    <summary>Building and testing the whalesay docker demo</summary>
+    <category term="docker"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/docker/arm_builds/</id>
     <link href="https://codingkata.tardate.com/docker/arm_builds/"/>
-    <updated>2021-08-12T13:01:15Z</updated>
+    <updated>2021-08-12T13:20:14Z</updated>
     <title>Building for ARM with Docker</title>
     <summary>Building 32-bit ARM v7 images with docker, tested on MacOSX and AWS</summary>
     <category term="docker"/>
@@ -1862,7 +1870,7 @@
   <entry>
     <id>https://codingkata.tardate.com/docker/rails6_production/</id>
     <link href="https://codingkata.tardate.com/docker/rails6_production/"/>
-    <updated>2021-08-12T13:01:15Z</updated>
+    <updated>2021-08-12T13:20:14Z</updated>
     <title>Rails 6 with Docker for Production</title>
     <summary>All about running Rails 6 with Docker for production deployment</summary>
     <category term="docker"/>
@@ -1871,7 +1879,7 @@
   <entry>
     <id>https://codingkata.tardate.com/ruby/rails6/engines/</id>
     <link href="https://codingkata.tardate.com/ruby/rails6/engines/"/>
-    <updated>2021-08-12T13:01:15Z</updated>
+    <updated>2021-08-12T13:20:14Z</updated>
     <title>Engines in Rails 6</title>
     <summary>Looking into what is new or different with Rails 6 engines</summary>
     <category term="ruby"/>
@@ -1880,18 +1888,32 @@
   <entry>
     <id>https://codingkata.tardate.com/ruby/rails6/without_webpack/</id>
     <link href="https://codingkata.tardate.com/ruby/rails6/without_webpack/"/>
-    <updated>2021-08-12T13:01:15Z</updated>
+    <updated>2021-08-12T13:20:14Z</updated>
     <title>Running Rails 6 Without Webpacker</title>
     <summary>Because sometimes just want to keep it simple with good old sprockets and the asset pipeline</summary>
     <category term="ruby"/>
     <category term="rails"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/docker/whalesay/</id>
-    <link href="https://codingkata.tardate.com/docker/whalesay/"/>
-    <updated>2021-08-12T13:17:13Z</updated>
-    <title>whalesay</title>
-    <summary>Building and testing the whalesay docker demo</summary>
-    <category term="docker"/>
+    <id>https://codingkata.tardate.com/python/huey/newrelic/</id>
+    <link href="https://codingkata.tardate.com/python/huey/newrelic/"/>
+    <updated>2021-08-25T13:06:09Z</updated>
+    <title>Monitoring Huey with NewRelic</title>
+    <summary>Notes and examples os using NewRelic monitoring with Huey</summary>
+    <category term="python"/>
+    <category term="huey"/>
+    <category term="async"/>
+    <category term="queues"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/huey/about/</id>
+    <link href="https://codingkata.tardate.com/python/huey/about/"/>
+    <updated>2021-08-25T13:07:06Z</updated>
+    <title>About Huey</title>
+    <summary>Huey is a lightweight queuing system for python</summary>
+    <category term="python"/>
+    <category term="huey"/>
+    <category term="async"/>
+    <category term="queues"/>
   </entry>
 </feed>

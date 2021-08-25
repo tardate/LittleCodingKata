@@ -1,0 +1,6 @@
+{
+    "name": "Monitoring Huey with NewRelic",
+    "description": "Notes and examples os using NewRelic monitoring with Huey",
+    "categories": "python, huey, async, queues",
+    "relative_path": "python/huey/newrelic"
+}
