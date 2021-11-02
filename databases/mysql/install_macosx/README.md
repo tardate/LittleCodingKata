@@ -1,6 +1,6 @@
-# Running MySQL on MacOSX
+# Running MySQL on MacOS
 
-Notes on installing and running MySQL on MacOSX
+Notes on installing and running MySQL on MacOS
 
 ## Notes
 

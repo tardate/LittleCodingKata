@@ -10,7 +10,7 @@ It promises ease-of-use over absolute performance.
 
 To build a project with Kiss FFT, it just needs the core files compiled and linked.
 
-I found a [kissfft-example](https://github.com/crazyleen/kissfft-example) which I'm building here (under MacOSX).
+I found a [kissfft-example](https://github.com/crazyleen/kissfft-example) which I'm building here (under MacOS).
 
 It has the core Kiss FFT files included in the repo, and links with the real-optimised version.
 The Kiss FFT files it uses are:

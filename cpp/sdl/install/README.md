@@ -1,6 +1,6 @@
-# SDL2 MacOSX Install
+# SDL2 MacOS Install
 
-Installing the Simple DirectMedia Layer library on MacOSX, and running a basic verification program in C++.
+Installing the Simple DirectMedia Layer library on MacOS, and running a basic verification program in C++.
 
 ## Notes
 

@@ -1,10 +1,10 @@
 # sips
 
-Using sips - scriptable image processing system on MacOSX.
+Using sips - scriptable image processing system on MacOS.
 
 ## Notes
 
-TIL there's a "scriptable image processing" tool hiding in the MacOSX distribution: `sips`
+TIL there's a "scriptable image processing" tool hiding in the MacOS distribution: `sips`
 
 This tool is used to query or modify raster image files and ColorSync ICC profiles.
 Its functionality can also be used through the "Image Events" AppleScript suite.

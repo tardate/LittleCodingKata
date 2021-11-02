@@ -1,6 +1,6 @@
 {
-    "name": "zeromq on MacOSX",
-    "description": "Installing zeromq on MacOSX",
+    "name": "zeromq on MacOS",
+    "description": "Installing zeromq on MacOS",
     "categories": "messaging, zeromq",
     "relative_path": "messaging/zeromq/install_macosx"
 }

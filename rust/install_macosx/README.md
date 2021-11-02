@@ -1,6 +1,6 @@
-# Installing Rust for MacOSX
+# Installing Rust for MacOS
 
-Getting rust running under MacOSX
+Getting rust running under MacOS
 
 ## Notes
 

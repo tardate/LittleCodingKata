@@ -1,10 +1,10 @@
 # Building for ARM with Docker
 
-Building 32-bit ARM v7 images with docker, tested on MacOSX and AWS.
+Building 32-bit ARM v7 images with docker, tested on MacOS and AWS.
 
 ## Notes
 
-I'm running on MacOSX and have access to Linux/AMD64 machines,
+I'm running on MacOS and have access to Linux/AMD64 machines,
 but want to build a Docker image for 32-bit ARM v7 that I could then use with older Raspberry Pi or Odriod devices.
 
 Here's a demonstration of one way to do it, using [Docker Buildx](https://docs.docker.com/buildx/working-with-buildx/).
@@ -40,7 +40,7 @@ The [armi](./armi) project includes a simple diagnostic program in c - based on 
 [Getting started with Docker for Arm on Linux](https://www.docker.com/blog/getting-started-with-docker-for-arm-on-linux/)
 
 The default builder can only build for a simple platform at a time.
-First I'll build for linux/amd64 and test it running on MacOSX.
+First I'll build for linux/amd64 and test it running on MacOS.
 
 ```
 cd armi

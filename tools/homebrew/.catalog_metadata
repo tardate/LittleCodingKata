@@ -1,7 +1,7 @@
 {
-    "id": "#037", 
-    "name": "Tools/homebrew", 
-    "description": "homebrew (MacOSX package manager) tips and tricks", 
-    "categories": "Tools, MacOSX", 
+    "id": "#037",
+    "name": "Tools/homebrew",
+    "description": "homebrew (MacOS package manager) tips and tricks",
+    "categories": "Tools, MacOS",
     "relative_path": "tools/homebrew"
 }

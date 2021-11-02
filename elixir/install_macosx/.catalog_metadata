@@ -1,6 +1,6 @@
 {
-    "name": "Elixir on MacOSX",
-    "description": "Installing Elixir on MacOSX",
+    "name": "Elixir on MacOS",
+    "description": "Installing Elixir on MacOS",
     "categories": "elixir, docker",
     "relative_path": "elixir/install_macosx"
 }

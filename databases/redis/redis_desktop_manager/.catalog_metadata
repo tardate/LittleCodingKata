@@ -1,6 +1,6 @@
 {
     "name": "Redis Desktop Manager",
-    "description": "Building and running the Redis Desktop Manager applicaiton on MacOSX",
+    "description": "Building and running the Redis Desktop Manager applicaiton on MacOS",
     "categories": "databases, redis",
     "relative_path": "databases/redis/redis_desktop_manager"
 }

@@ -1,6 +1,6 @@
-# Installing Python 2 and 3 on MacOSX
+# Installing Python 2 and 3 on MacOS
 
-Notes on installing and maintaining python 2 and 3 versions on MacOSX.
+Notes on installing and maintaining python 2 and 3 versions on MacOS.
 
 ## Notes
 

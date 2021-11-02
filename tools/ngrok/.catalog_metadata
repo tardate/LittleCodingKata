@@ -1,0 +1,6 @@
+{
+    "name": "ngrok",
+    "description": "Creating publically-accessible URLs for services running locally",
+    "categories": "Tools",
+    "relative_path": "tools/ngrok"
+}

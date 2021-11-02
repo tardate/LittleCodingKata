@@ -1,6 +1,6 @@
-# zeromq on MacOSX
+# zeromq on MacOS
 
-Installing zeromq on MacOSX
+Installing zeromq on MacOS
 
 ## Notes
 

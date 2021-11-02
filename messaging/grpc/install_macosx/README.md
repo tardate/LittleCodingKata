@@ -1,6 +1,6 @@
-# Installing gRPC for MacOSX
+# Installing gRPC for MacOS
 
-Getting gRPC running under MacOSX
+Getting gRPC running under MacOS
 
 
 ## Notes

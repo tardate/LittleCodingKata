@@ -1,6 +1,6 @@
 {
-    "name": "Installing Python 2 and 3 on MacOSX",
-    "description": "Notes on installing and maintaining python 2 and 3 versions on MacOSX",
+    "name": "Installing Python 2 and 3 on MacOS",
+    "description": "Notes on installing and maintaining python 2 and 3 versions on MacOS",
     "categories": "python",
     "relative_path": "python/install_macosx"
 }

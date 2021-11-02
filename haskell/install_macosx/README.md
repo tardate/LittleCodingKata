@@ -1,6 +1,6 @@
-# Installing Haskell for MacOSX
+# Installing Haskell for MacOS
 
-Getting a Haskell compiler running under MacOSX
+Getting a Haskell compiler running under MacOS
 
 
 ## Notes

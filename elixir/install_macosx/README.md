@@ -1,10 +1,10 @@
-# Elixir on MacOSX
+# Elixir on MacOS
 
-Installing Elixir on MacOSX
+Installing Elixir on MacOS
 
 ## Notes
 
-Trying two options for running Elixir on MacOSX - brew and docker
+Trying two options for running Elixir on MacOS - brew and docker
 
 ### Using Homebrew
 

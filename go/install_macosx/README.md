@@ -1,6 +1,6 @@
-# Installing Go for MacOSX
+# Installing Go for MacOS
 
-Getting a Go compiler running under MacOSX
+Getting a Go compiler running under MacOS
 
 
 ## Notes

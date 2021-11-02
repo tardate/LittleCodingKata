@@ -31,7 +31,7 @@ Make sure I hav ea suitable OpenSSL lib:
     From: https://github.com/Homebrew/homebrew-core/blob/master/Formula/openssl@1.1.rb
 
 
-Configure compilation (MacOSX) for installation to `$HOME/myruby`
+Configure compilation (MacOS) for installation to `$HOME/myruby`
 with optimisation disabled: `-O0` to make debugging easier,
 and include c-level debug info `-g`:
 

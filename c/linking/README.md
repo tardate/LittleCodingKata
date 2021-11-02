@@ -8,7 +8,7 @@ All about compiling, linking, and debugging C with GCC.
 
 [gcc](https://gcc.gnu.org/) the GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages.
 
-Since I'm on MacOSX, gcc is actually linking to llvm's clang:
+Since I'm on MacOS, gcc is actually linking to llvm's clang:
 
 ```
 $ gcc --version
@@ -39,7 +39,7 @@ Hello, world.
 
 [objdump](http://web.mit.edu/gnu/doc/html/binutils_5.html) displays object files on Unix-like operating systems.
 
-Since I'm on MacOSX, objdump is actually linking to llvm's objdump:
+Since I'm on MacOS, objdump is actually linking to llvm's objdump:
 
 ```
 $ objdump --version

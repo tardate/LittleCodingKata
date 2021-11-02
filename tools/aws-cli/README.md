@@ -10,7 +10,7 @@ Just the basics of instlaling and running the AWS CLI, updated for version 2.
 
 [Installing, updating, and uninstalling the AWS CLI version 2](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
 
-### Local Install - MacOSX
+### Local Install - MacOS
 
 Download and run the installer: https://awscli.amazonaws.com/AWSCLIV2.pkg
 After installation:
@@ -82,7 +82,7 @@ $ pip --version
 pip 19.2.3 from /Users/paulgallagher/.pyenv/versions/2.7.18/lib/python2.7/site-packages/pip (python 2.7)
 ```
 
-while aws is linked to an older python 2 - I think this is the defualt MacOSX python:
+while aws is linked to an older python 2 - I think this is the defualt MacOS python:
 ```
 $ head -1 /usr/local/bin/aws
 #!/usr/local/opt/python@2/bin/python2.7

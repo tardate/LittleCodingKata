@@ -1,10 +1,10 @@
 # Redis Desktop Manager
 
-Building and running the Redis Desktop Manager applicaiton on MacOSX
+Building and running the Redis Desktop Manager applicaiton on MacOS
 
 ## Notes
 
-### Building from source MacOSX
+### Building from source MacOS
 
 Following the [instructions online](http://docs.redisdesktop.com/en/latest/install/#mac-os-x)..
 

@@ -38,7 +38,7 @@ HTTPS-proxy has similar options --proxy-cacert and --proxy-insecure.
 
 ## First Thought
 
-My first thought was to suspect an old CA certificate bundle - a common enough occurence on MacOSX,
+My first thought was to suspect an old CA certificate bundle - a common enough occurence on MacOS,
 especially when I'm running an old version, and there can be confusion as to which cert bundle is being used (system? brew-installed utilities and openssl? etc).
 
 Apple Support provide details of the root certificates shipped with each version.

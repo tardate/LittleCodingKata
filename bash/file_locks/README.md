@@ -15,8 +15,8 @@ or [man lockfile](https://linux.die.net/man/1/lockfile).
 ### flock / lockfile
 
 The `flock` utility should be available by default in most Linux distros.
-It used to be in MacOSX also, but not since at least Yosemite.
-On MacOSX, `lockfile` should be available though. The test script will look for either.
+It used to be in MacOS also, but not since at least Yosemite.
+On MacOS, `lockfile` should be available though. The test script will look for either.
 
 ### TestScript
 

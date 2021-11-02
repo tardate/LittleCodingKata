@@ -5,7 +5,7 @@ substitute shell variables in text
 
 ## Notes
 
-`envsubst` is is available on most *nix systems and can be installed on MacOSX as part of the BSD gettext library.
+`envsubst` is is available on most *nix systems and can be installed on MacOS as part of the BSD gettext library.
 
 It's a useful tool for either completely or selectively substituting environment variables
 in text that has shell format strings.
@@ -29,7 +29,7 @@ $ echo 'substituting ${TEST} ${ALT} ${NADA}' | TEST=abc ALT=alt envsubst '$TEST:
 substituting abc alt ${NADA}
 ```
 
-## MacOSX Installation
+## MacOS Installation
 
 Easy to install with homebrew:
 

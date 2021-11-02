@@ -1,6 +1,6 @@
 {
     "name": "Request Bin",
     "description": "Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins",
-    "categories": "tools, api",
+    "categories": "Tools, api",
     "relative_path": "tools/requestbin"
 }

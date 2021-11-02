@@ -1,10 +1,10 @@
-# Installing Node.js MacOSX
+# Installing Node.js MacOS
 
-Installing and maintaining Node.js on MacOSX
+Installing and maintaining Node.js on MacOS
 
 ## Notes
 
-I user homebrew to install and maintain node on MacOSX:
+I user homebrew to install and maintain node on MacOS:
 
 ```
 $ brew install node

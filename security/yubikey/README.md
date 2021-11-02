@@ -26,15 +26,15 @@ Some of the services I've personally used the YubiKey with...
   * [yubico: Google Accounts](https://www.yubico.com/sg/works-with-yubikey/catalog/google-accounts/)
   * [Google: Use a security key for 2-Step Verification](https://support.google.com/accounts/answer/6103523)
   * Tested:
-    * MacOSX High Sierra / Chrome browser
-    * MacOSX High Sierra / Firefox browser
+    * MacOS High Sierra / Chrome browser
+    * MacOS High Sierra / Firefox browser
 * GitHub
   * [yubico: GitHub](https://www.yubico.com/sg/works-with-yubikey/catalog/github/)
   * [GitHub: Configuring two-factor authentication](https://docs.github.com/en/github/authenticating-to-github/configuring-two-factor-authentication#configuring-two-factor-authentication-using-fido-u2f)
   * enable 2FA with Google Authenticator app, then can add Yubikey as a security key
   * Tested:
-    * MacOSX High Sierra / Chrome browser
-    * MacOSX High Sierra / Firefox browser
+    * MacOS High Sierra / Chrome browser
+    * MacOS High Sierra / Firefox browser
 * [Wasabi](https://wasabi.com/) Cloud Storage
   * not a documented/supported integration, but can use OATH
 * [KeepassXC](https://keepassxc.org/project/) - cross-platform, open-source password manager successor to the original [KeePass](https://keepass.info/)
