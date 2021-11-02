@@ -1724,7 +1724,7 @@
         "description": "Huey is a lightweight queuing system for python",
         "categories": "python, huey, async, queues",
         "relative_path": "python/huey/about",
-        "updated_at": "2021-08-25T13:50:27Z",
+        "updated_at": "2021-08-25T15:22:02Z",
         "id": "#216"
     },
     {
@@ -1732,7 +1732,7 @@
         "description": "Notes and examples os using NewRelic monitoring with Huey",
         "categories": "python, huey, async, queues",
         "relative_path": "python/huey/newrelic",
-        "updated_at": "2021-08-25T13:50:27Z",
+        "updated_at": "2021-08-25T15:22:02Z",
         "id": "#217"
     },
     {
@@ -1740,7 +1740,15 @@
         "description": "Using the huey task priority feature",
         "categories": "python, huey, async, queues",
         "relative_path": "python/huey/priority",
-        "updated_at": "2021-08-25T15:06:50Z",
+        "updated_at": "2021-08-25T15:22:02Z",
         "id": "#218"
+    },
+    {
+        "name": "Zabbix 5 Docker",
+        "description": "Running Zabbix 5 with Docker",
+        "categories": "infrastructure, zabbix, monitoring, docker",
+        "relative_path": "infrastructure/zabbix/dockerized5",
+        "updated_at": "2021-11-01T03:17:40Z",
+        "id": "#219"
     }
 ]

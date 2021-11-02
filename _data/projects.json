@@ -1914,5 +1914,16 @@
             "async",
             "queues"
         ]
+    },
+    "/infrastructure/zabbix/dockerized5/": {
+        "id": 219,
+        "title": "Zabbix 5 Docker",
+        "summary": "Running Zabbix 5 with Docker",
+        "tags": [
+            "infrastructure",
+            "zabbix",
+            "monitoring",
+            "docker"
+        ]
     }
 }

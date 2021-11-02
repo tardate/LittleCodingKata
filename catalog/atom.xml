@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-08-25T15:07:12Z</updated>
+  <updated>2021-11-02T14:06:57Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1897,7 +1897,7 @@
   <entry>
     <id>https://codingkata.tardate.com/python/huey/about/</id>
     <link href="https://codingkata.tardate.com/python/huey/about/"/>
-    <updated>2021-08-25T13:50:27Z</updated>
+    <updated>2021-08-25T15:22:02Z</updated>
     <title>About Huey</title>
     <summary>Huey is a lightweight queuing system for python</summary>
     <category term="python"/>
@@ -1908,7 +1908,7 @@
   <entry>
     <id>https://codingkata.tardate.com/python/huey/newrelic/</id>
     <link href="https://codingkata.tardate.com/python/huey/newrelic/"/>
-    <updated>2021-08-25T13:50:27Z</updated>
+    <updated>2021-08-25T15:22:02Z</updated>
     <title>Monitoring Huey with NewRelic</title>
     <summary>Notes and examples os using NewRelic monitoring with Huey</summary>
     <category term="python"/>
@@ -1919,12 +1919,23 @@
   <entry>
     <id>https://codingkata.tardate.com/python/huey/priority/</id>
     <link href="https://codingkata.tardate.com/python/huey/priority/"/>
-    <updated>2021-08-25T15:06:50Z</updated>
+    <updated>2021-08-25T15:22:02Z</updated>
     <title>Huey Task Priority</title>
     <summary>Using the huey task priority feature</summary>
     <category term="python"/>
     <category term="huey"/>
     <category term="async"/>
     <category term="queues"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/infrastructure/zabbix/dockerized5/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/zabbix/dockerized5/"/>
+    <updated>2021-11-01T03:17:40Z</updated>
+    <title>Zabbix 5 Docker</title>
+    <summary>Running Zabbix 5 with Docker</summary>
+    <category term="infrastructure"/>
+    <category term="zabbix"/>
+    <category term="monitoring"/>
+    <category term="docker"/>
   </entry>
 </feed>
