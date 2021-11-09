@@ -1941,5 +1941,13 @@
         "tags": [
             "tools"
         ]
+    },
+    "/tools/ssh/": {
+        "id": 222,
+        "title": "SSH",
+        "summary": "About Secure Shell (SSH) and common SSH tips and tricks.",
+        "tags": [
+            "tools"
+        ]
     }
 }

@@ -1,0 +1,6 @@
+{
+    "name": "SSH",
+    "description": "About Secure Shell (SSH) and common SSH tips and tricks.",
+    "categories": "tools",
+    "relative_path": "tools/ssh"
+}
