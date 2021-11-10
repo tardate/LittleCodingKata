@@ -1676,27 +1676,8 @@
             "queues"
         ]
     },
-    "/infrastructure/zabbix/dockerized5/": {
-        "id": 192,
-        "title": "Zabbix 5 Docker",
-        "summary": "Running Zabbix 5 with Docker",
-        "tags": [
-            "infrastructure",
-            "zabbix",
-            "monitoring",
-            "docker"
-        ]
-    },
-    "/ruby/http_mock_responses/": {
-        "id": 193,
-        "title": "HTTP Mock Responses",
-        "summary": "Using Sinatra to craft simple HTTP web responses for mock integration testing",
-        "tags": [
-            "ruby"
-        ]
-    },
     "/pascal/free_pascal/": {
-        "id": 194,
+        "id": 192,
         "title": "Free Pascal",
         "summary": "Installing and running the Free Pascal compiler on MacOS",
         "tags": [
@@ -1704,7 +1685,7 @@
         ]
     },
     "/databases/redis/about/": {
-        "id": 195,
+        "id": 193,
         "title": "About Redis",
         "summary": "Redis basics and MacOS installation",
         "tags": [
@@ -1713,7 +1694,7 @@
         ]
     },
     "/databases/redis/redis_desktop_manager/": {
-        "id": 196,
+        "id": 194,
         "title": "Redis Desktop Manager",
         "summary": "Building and running the Redis Desktop Manager applicaiton on MacOS",
         "tags": [
@@ -1722,12 +1703,29 @@
         ]
     },
     "/databases/mysql/install_macosx/": {
-        "id": 197,
+        "id": 195,
         "title": "MySQL on MacOS",
         "summary": "Notes on installing and running MySQL on MacOS",
         "tags": [
             "Database",
             "MySQL"
+        ]
+    },
+    "/tools/ngrok/": {
+        "id": 196,
+        "title": "ngrok",
+        "summary": "Creating publically-accessible URLs for services running locally",
+        "tags": [
+            "Tools"
+        ]
+    },
+    "/tools/requestbin/": {
+        "id": 197,
+        "title": "Request Bin",
+        "summary": "Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins",
+        "tags": [
+            "Tools",
+            "api"
         ]
     },
     "/tools/macosx_cheats/": {
@@ -1739,8 +1737,16 @@
             "MacOS"
         ]
     },
-    "/tools/arping/": {
+    "/tools/sips/": {
         "id": 199,
+        "title": "sips",
+        "summary": "Using sips - scriptable image processing system on MacOS",
+        "tags": [
+            "Tools"
+        ]
+    },
+    "/tools/arping/": {
+        "id": 200,
         "title": "arping",
         "summary": "All about Address Resolution Protocol (ARP - RFC826) and installing arping on MacOS",
         "tags": [
@@ -1748,7 +1754,7 @@
         ]
     },
     "/tools/homebrew/": {
-        "id": 200,
+        "id": 201,
         "title": "Tools/homebrew",
         "summary": "homebrew (MacOS package manager) tips and tricks",
         "tags": [
@@ -1757,7 +1763,7 @@
         ]
     },
     "/tools/iproute2/": {
-        "id": 201,
+        "id": 202,
         "title": "Tools/iproute2",
         "summary": "about iproute2 and how to run it on MacOS",
         "tags": [
@@ -1766,7 +1772,7 @@
         ]
     },
     "/tools/mibbrowser/": {
-        "id": 202,
+        "id": 203,
         "title": "iReasoning MIB browser",
         "summary": "Testing the iReasoning MIB browser on MacOS",
         "tags": [
@@ -1775,7 +1781,7 @@
         ]
     },
     "/docker/arm_builds/": {
-        "id": 203,
+        "id": 204,
         "title": "Building for ARM with Docker",
         "summary": "Building 32-bit ARM v7 images with docker, tested on MacOS and AWS",
         "tags": [
@@ -1784,7 +1790,7 @@
         ]
     },
     "/go/install_macosx/": {
-        "id": 204,
+        "id": 205,
         "title": "Go/install_macosx",
         "summary": "installing Go on MacOS",
         "tags": [
@@ -1793,7 +1799,7 @@
         ]
     },
     "/python/micropython/compiling_macosx/": {
-        "id": 205,
+        "id": 206,
         "title": "python/micropython/compiling_macosx",
         "summary": "Building MicroPython on MacOS",
         "tags": [
@@ -1802,7 +1808,7 @@
         ]
     },
     "/python/install_macosx/": {
-        "id": 206,
+        "id": 207,
         "title": "Installing Python 2 and 3 on MacOS",
         "summary": "Notes on installing and maintaining python 2 and 3 versions on MacOS",
         "tags": [
@@ -1810,7 +1816,7 @@
         ]
     },
     "/elixir/install_macosx/": {
-        "id": 207,
+        "id": 208,
         "title": "Elixir on MacOS",
         "summary": "Installing Elixir on MacOS",
         "tags": [
@@ -1819,7 +1825,7 @@
         ]
     },
     "/rust/install_macosx/": {
-        "id": 208,
+        "id": 209,
         "title": "Rust/install_macosx",
         "summary": "Rust - installing on MacOS",
         "tags": [
@@ -1828,7 +1834,7 @@
         ]
     },
     "/elm/install/": {
-        "id": 209,
+        "id": 210,
         "title": "Elm/install",
         "summary": "Installing Elm on MacOS",
         "tags": [
@@ -1837,7 +1843,7 @@
         ]
     },
     "/haskell/install_macosx/": {
-        "id": 210,
+        "id": 211,
         "title": "Haskell/install_macosx",
         "summary": "installing Haskell on MacOS",
         "tags": [
@@ -1846,7 +1852,7 @@
         ]
     },
     "/cpp/sdl/install/": {
-        "id": 211,
+        "id": 212,
         "title": "SDL2 MacOS Install",
         "summary": "Installing the Simple DirectMedia Layer library on MacOS, and running a basic verification program in C++",
         "tags": [
@@ -1855,7 +1861,7 @@
         ]
     },
     "/cpp/doxygen/": {
-        "id": 212,
+        "id": 213,
         "title": "cpp/doxygen",
         "summary": "Installing and testing doxygen for c++ source documentation generation on MacOS",
         "tags": [
@@ -1863,7 +1869,7 @@
         ]
     },
     "/node/install_macosx/": {
-        "id": 213,
+        "id": 214,
         "title": "Installing Node.js MacOS",
         "summary": "Installing and maintaining Node.js on MacOS",
         "tags": [
@@ -1871,7 +1877,7 @@
         ]
     },
     "/infrastructure/radius/freeradius-client-macosx/": {
-        "id": 214,
+        "id": 215,
         "title": "FreeRADIUS/freeradius-client-macosx",
         "summary": "FreeRADIUS - running on MacOS (#fail - this project needs work)",
         "tags": [
@@ -1881,7 +1887,7 @@
         ]
     },
     "/infrastructure/radius/freeradius-server-macosx/": {
-        "id": 215,
+        "id": 216,
         "title": "FreeRADIUS/freeradius-server-macosx",
         "summary": "FreeRADIUS - running on MacOS",
         "tags": [
@@ -1890,8 +1896,19 @@
             "infrastructure"
         ]
     },
+    "/infrastructure/zabbix/dockerized5/": {
+        "id": 217,
+        "title": "Zabbix 5 Docker",
+        "summary": "Running Zabbix 5 with Docker",
+        "tags": [
+            "infrastructure",
+            "zabbix",
+            "monitoring",
+            "docker"
+        ]
+    },
     "/messaging/grpc/install_macosx/": {
-        "id": 216,
+        "id": 218,
         "title": "gRPC/install_macosx",
         "summary": "installing on MacOS",
         "tags": [
@@ -1901,7 +1918,7 @@
         ]
     },
     "/messaging/zeromq/install_macosx/": {
-        "id": 217,
+        "id": 219,
         "title": "zeromq on MacOS",
         "summary": "Installing zeromq on MacOS",
         "tags": [
@@ -1909,29 +1926,20 @@
             "zeromq"
         ]
     },
-    "/tools/ngrok/": {
-        "id": 218,
-        "title": "ngrok",
-        "summary": "Creating publically-accessible URLs for services running locally",
-        "tags": [
-            "Tools"
-        ]
-    },
-    "/tools/sips/": {
-        "id": 219,
-        "title": "sips",
-        "summary": "Using sips - scriptable image processing system on MacOS",
-        "tags": [
-            "Tools"
-        ]
-    },
-    "/tools/requestbin/": {
+    "/ruby/http_mock_responses/": {
         "id": 220,
-        "title": "Request Bin",
-        "summary": "Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins",
+        "title": "HTTP Mock Responses",
+        "summary": "Using Sinatra to craft simple HTTP web responses for mock integration testing",
         "tags": [
-            "Tools",
-            "api"
+            "ruby"
+        ]
+    },
+    "/tools/sftp/": {
+        "id": 221,
+        "title": "SFTP",
+        "summary": "About SSH File Transfer Protocol",
+        "tags": [
+            "tools"
         ]
     }
 }

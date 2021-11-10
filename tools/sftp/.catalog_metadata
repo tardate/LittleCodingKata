@@ -1,0 +1,6 @@
+{
+    "name": "SFTP",
+    "description": "About SSH File Transfer Protocol",
+    "categories": "tools",
+    "relative_path": "tools/sftp"
+}

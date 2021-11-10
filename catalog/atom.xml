@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-11-02T14:51:52Z</updated>
+  <updated>2021-11-10T10:52:37Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1689,28 +1689,9 @@
     <category term="queues"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/infrastructure/zabbix/dockerized5/</id>
-    <link href="https://codingkata.tardate.com/infrastructure/zabbix/dockerized5/"/>
-    <updated>2021-11-02T14:07:44Z</updated>
-    <title>Zabbix 5 Docker</title>
-    <summary>Running Zabbix 5 with Docker</summary>
-    <category term="infrastructure"/>
-    <category term="zabbix"/>
-    <category term="monitoring"/>
-    <category term="docker"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/ruby/http_mock_responses/</id>
-    <link href="https://codingkata.tardate.com/ruby/http_mock_responses/"/>
-    <updated>2021-11-02T14:30:59Z</updated>
-    <title>HTTP Mock Responses</title>
-    <summary>Using Sinatra to craft simple HTTP web responses for mock integration testing</summary>
-    <category term="ruby"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/pascal/free_pascal/</id>
     <link href="https://codingkata.tardate.com/pascal/free_pascal/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>Free Pascal</title>
     <summary>Installing and running the Free Pascal compiler on MacOS</summary>
     <category term="pascal"/>
@@ -1718,7 +1699,7 @@
   <entry>
     <id>https://codingkata.tardate.com/databases/redis/about/</id>
     <link href="https://codingkata.tardate.com/databases/redis/about/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>About Redis</title>
     <summary>Redis basics and MacOS installation</summary>
     <category term="databases"/>
@@ -1727,7 +1708,7 @@
   <entry>
     <id>https://codingkata.tardate.com/databases/redis/redis_desktop_manager/</id>
     <link href="https://codingkata.tardate.com/databases/redis/redis_desktop_manager/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>Redis Desktop Manager</title>
     <summary>Building and running the Redis Desktop Manager applicaiton on MacOS</summary>
     <category term="databases"/>
@@ -1736,25 +1717,50 @@
   <entry>
     <id>https://codingkata.tardate.com/databases/mysql/install_macosx/</id>
     <link href="https://codingkata.tardate.com/databases/mysql/install_macosx/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>MySQL on MacOS</title>
     <summary>Notes on installing and running MySQL on MacOS</summary>
     <category term="Database"/>
     <category term="MySQL"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/tools/ngrok/</id>
+    <link href="https://codingkata.tardate.com/tools/ngrok/"/>
+    <updated>2021-11-02T14:58:32Z</updated>
+    <title>ngrok</title>
+    <summary>Creating publically-accessible URLs for services running locally</summary>
+    <category term="Tools"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/requestbin/</id>
+    <link href="https://codingkata.tardate.com/tools/requestbin/"/>
+    <updated>2021-11-02T14:58:32Z</updated>
+    <title>Request Bin</title>
+    <summary>Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins</summary>
+    <category term="Tools"/>
+    <category term="api"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/tools/macosx_cheats/</id>
     <link href="https://codingkata.tardate.com/tools/macosx_cheats/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>MacOS Cheatsheet</title>
     <summary>my favourite MacOS tools, tips and tricks</summary>
     <category term="Tools"/>
     <category term="MacOS"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/tools/sips/</id>
+    <link href="https://codingkata.tardate.com/tools/sips/"/>
+    <updated>2021-11-02T14:58:32Z</updated>
+    <title>sips</title>
+    <summary>Using sips - scriptable image processing system on MacOS</summary>
+    <category term="Tools"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/tools/arping/</id>
     <link href="https://codingkata.tardate.com/tools/arping/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>arping</title>
     <summary>All about Address Resolution Protocol (ARP - RFC826) and installing arping on MacOS</summary>
     <category term="tools"/>
@@ -1762,7 +1768,7 @@
   <entry>
     <id>https://codingkata.tardate.com/tools/homebrew/</id>
     <link href="https://codingkata.tardate.com/tools/homebrew/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>Tools/homebrew</title>
     <summary>homebrew (MacOS package manager) tips and tricks</summary>
     <category term="Tools"/>
@@ -1771,7 +1777,7 @@
   <entry>
     <id>https://codingkata.tardate.com/tools/iproute2/</id>
     <link href="https://codingkata.tardate.com/tools/iproute2/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>Tools/iproute2</title>
     <summary>about iproute2 and how to run it on MacOS</summary>
     <category term="Tools"/>
@@ -1780,7 +1786,7 @@
   <entry>
     <id>https://codingkata.tardate.com/tools/mibbrowser/</id>
     <link href="https://codingkata.tardate.com/tools/mibbrowser/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>iReasoning MIB browser</title>
     <summary>Testing the iReasoning MIB browser on MacOS</summary>
     <category term="tools"/>
@@ -1789,7 +1795,7 @@
   <entry>
     <id>https://codingkata.tardate.com/docker/arm_builds/</id>
     <link href="https://codingkata.tardate.com/docker/arm_builds/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>Building for ARM with Docker</title>
     <summary>Building 32-bit ARM v7 images with docker, tested on MacOS and AWS</summary>
     <category term="docker"/>
@@ -1798,7 +1804,7 @@
   <entry>
     <id>https://codingkata.tardate.com/go/install_macosx/</id>
     <link href="https://codingkata.tardate.com/go/install_macosx/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>Go/install_macosx</title>
     <summary>installing Go on MacOS</summary>
     <category term="Go"/>
@@ -1807,7 +1813,7 @@
   <entry>
     <id>https://codingkata.tardate.com/python/micropython/compiling_macosx/</id>
     <link href="https://codingkata.tardate.com/python/micropython/compiling_macosx/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>python/micropython/compiling_macosx</title>
     <summary>Building MicroPython on MacOS</summary>
     <category term="python"/>
@@ -1816,7 +1822,7 @@
   <entry>
     <id>https://codingkata.tardate.com/python/install_macosx/</id>
     <link href="https://codingkata.tardate.com/python/install_macosx/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>Installing Python 2 and 3 on MacOS</title>
     <summary>Notes on installing and maintaining python 2 and 3 versions on MacOS</summary>
     <category term="python"/>
@@ -1824,7 +1830,7 @@
   <entry>
     <id>https://codingkata.tardate.com/elixir/install_macosx/</id>
     <link href="https://codingkata.tardate.com/elixir/install_macosx/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>Elixir on MacOS</title>
     <summary>Installing Elixir on MacOS</summary>
     <category term="elixir"/>
@@ -1833,7 +1839,7 @@
   <entry>
     <id>https://codingkata.tardate.com/rust/install_macosx/</id>
     <link href="https://codingkata.tardate.com/rust/install_macosx/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>Rust/install_macosx</title>
     <summary>Rust - installing on MacOS</summary>
     <category term="Rust"/>
@@ -1842,7 +1848,7 @@
   <entry>
     <id>https://codingkata.tardate.com/elm/install/</id>
     <link href="https://codingkata.tardate.com/elm/install/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>Elm/install</title>
     <summary>Installing Elm on MacOS</summary>
     <category term="Elm"/>
@@ -1851,7 +1857,7 @@
   <entry>
     <id>https://codingkata.tardate.com/haskell/install_macosx/</id>
     <link href="https://codingkata.tardate.com/haskell/install_macosx/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>Haskell/install_macosx</title>
     <summary>installing Haskell on MacOS</summary>
     <category term="Haskell"/>
@@ -1860,7 +1866,7 @@
   <entry>
     <id>https://codingkata.tardate.com/cpp/sdl/install/</id>
     <link href="https://codingkata.tardate.com/cpp/sdl/install/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>SDL2 MacOS Install</title>
     <summary>Installing the Simple DirectMedia Layer library on MacOS, and running a basic verification program in C++</summary>
     <category term="C++"/>
@@ -1869,7 +1875,7 @@
   <entry>
     <id>https://codingkata.tardate.com/cpp/doxygen/</id>
     <link href="https://codingkata.tardate.com/cpp/doxygen/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>cpp/doxygen</title>
     <summary>Installing and testing doxygen for c++ source documentation generation on MacOS</summary>
     <category term="C++"/>
@@ -1877,7 +1883,7 @@
   <entry>
     <id>https://codingkata.tardate.com/node/install_macosx/</id>
     <link href="https://codingkata.tardate.com/node/install_macosx/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>Installing Node.js MacOS</title>
     <summary>Installing and maintaining Node.js on MacOS</summary>
     <category term="node"/>
@@ -1885,7 +1891,7 @@
   <entry>
     <id>https://codingkata.tardate.com/infrastructure/radius/freeradius-client-macosx/</id>
     <link href="https://codingkata.tardate.com/infrastructure/radius/freeradius-client-macosx/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>FreeRADIUS/freeradius-client-macosx</title>
     <summary>FreeRADIUS - running on MacOS (#fail - this project needs work)</summary>
     <category term="RADIUS"/>
@@ -1895,7 +1901,7 @@
   <entry>
     <id>https://codingkata.tardate.com/infrastructure/radius/freeradius-server-macosx/</id>
     <link href="https://codingkata.tardate.com/infrastructure/radius/freeradius-server-macosx/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>FreeRADIUS/freeradius-server-macosx</title>
     <summary>FreeRADIUS - running on MacOS</summary>
     <category term="RADIUS"/>
@@ -1903,9 +1909,20 @@
     <category term="infrastructure"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/infrastructure/zabbix/dockerized5/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/zabbix/dockerized5/"/>
+    <updated>2021-11-02T14:58:32Z</updated>
+    <title>Zabbix 5 Docker</title>
+    <summary>Running Zabbix 5 with Docker</summary>
+    <category term="infrastructure"/>
+    <category term="zabbix"/>
+    <category term="monitoring"/>
+    <category term="docker"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/messaging/grpc/install_macosx/</id>
     <link href="https://codingkata.tardate.com/messaging/grpc/install_macosx/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>gRPC/install_macosx</title>
     <summary>installing on MacOS</summary>
     <category term="gRPC"/>
@@ -1915,35 +1932,26 @@
   <entry>
     <id>https://codingkata.tardate.com/messaging/zeromq/install_macosx/</id>
     <link href="https://codingkata.tardate.com/messaging/zeromq/install_macosx/"/>
-    <updated>2021-11-02T14:50:49Z</updated>
+    <updated>2021-11-02T14:58:32Z</updated>
     <title>zeromq on MacOS</title>
     <summary>Installing zeromq on MacOS</summary>
     <category term="messaging"/>
     <category term="zeromq"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/tools/ngrok/</id>
-    <link href="https://codingkata.tardate.com/tools/ngrok/"/>
-    <updated>2021-11-02T14:51:06Z</updated>
-    <title>ngrok</title>
-    <summary>Creating publically-accessible URLs for services running locally</summary>
-    <category term="Tools"/>
+    <id>https://codingkata.tardate.com/ruby/http_mock_responses/</id>
+    <link href="https://codingkata.tardate.com/ruby/http_mock_responses/"/>
+    <updated>2021-11-02T14:58:32Z</updated>
+    <title>HTTP Mock Responses</title>
+    <summary>Using Sinatra to craft simple HTTP web responses for mock integration testing</summary>
+    <category term="ruby"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/tools/sips/</id>
-    <link href="https://codingkata.tardate.com/tools/sips/"/>
-    <updated>2021-11-02T14:51:18Z</updated>
-    <title>sips</title>
-    <summary>Using sips - scriptable image processing system on MacOS</summary>
-    <category term="Tools"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/tools/requestbin/</id>
-    <link href="https://codingkata.tardate.com/tools/requestbin/"/>
-    <updated>2021-11-02T14:51:25Z</updated>
-    <title>Request Bin</title>
-    <summary>Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins</summary>
-    <category term="Tools"/>
-    <category term="api"/>
+    <id>https://codingkata.tardate.com/tools/sftp/</id>
+    <link href="https://codingkata.tardate.com/tools/sftp/"/>
+    <updated>2021-11-10T10:51:53Z</updated>
+    <title>SFTP</title>
+    <summary>About SSH File Transfer Protocol</summary>
+    <category term="tools"/>
   </entry>
 </feed>
