@@ -1,0 +1,6 @@
+{
+    "name": "Binary Files",
+    "description": "Simple binary file operations with C++",
+    "categories": "C++",
+    "relative_path": "cpp/binary_files"
+}

@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-11-10T10:53:33Z</updated>
+  <updated>2021-11-10T13:56:57Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1949,7 +1949,7 @@
   <entry>
     <id>https://codingkata.tardate.com/tools/sftp/</id>
     <link href="https://codingkata.tardate.com/tools/sftp/"/>
-    <updated>2021-11-10T10:53:12Z</updated>
+    <updated>2021-11-10T10:54:37Z</updated>
     <title>SFTP</title>
     <summary>About SSH File Transfer Protocol</summary>
     <category term="tools"/>
@@ -1957,9 +1957,17 @@
   <entry>
     <id>https://codingkata.tardate.com/tools/ssh/</id>
     <link href="https://codingkata.tardate.com/tools/ssh/"/>
-    <updated>2021-11-10T10:53:12Z</updated>
+    <updated>2021-11-10T10:54:37Z</updated>
     <title>SSH</title>
     <summary>About Secure Shell (SSH) and common SSH tips and tricks.</summary>
     <category term="tools"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/binary_files/</id>
+    <link href="https://codingkata.tardate.com/cpp/binary_files/"/>
+    <updated>2021-11-10T13:51:54Z</updated>
+    <title>Binary Files</title>
+    <summary>Simple binary file operations with C++</summary>
+    <category term="C++"/>
   </entry>
 </feed>

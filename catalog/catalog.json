@@ -1764,7 +1764,7 @@
         "description": "About SSH File Transfer Protocol",
         "categories": "tools",
         "relative_path": "tools/sftp",
-        "updated_at": "2021-11-10T10:53:12Z",
+        "updated_at": "2021-11-10T10:54:37Z",
         "id": "#221"
     },
     {
@@ -1772,7 +1772,15 @@
         "description": "About Secure Shell (SSH) and common SSH tips and tricks.",
         "categories": "tools",
         "relative_path": "tools/ssh",
-        "updated_at": "2021-11-10T10:53:12Z",
+        "updated_at": "2021-11-10T10:54:37Z",
         "id": "#222"
+    },
+    {
+        "name": "Binary Files",
+        "description": "Simple binary file operations with C++",
+        "categories": "C++",
+        "relative_path": "cpp/binary_files",
+        "updated_at": "2021-11-10T13:51:54Z",
+        "id": "#223"
     }
 ]

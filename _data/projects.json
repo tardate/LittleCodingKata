@@ -1949,5 +1949,13 @@
         "tags": [
             "tools"
         ]
+    },
+    "/cpp/binary_files/": {
+        "id": 223,
+        "title": "Binary Files",
+        "summary": "Simple binary file operations with C++",
+        "tags": [
+            "C++"
+        ]
     }
 }
