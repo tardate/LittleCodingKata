@@ -103,3 +103,5 @@ But it can be done relatively generically by defining the suitable `%.exe: %.cpp
 * [CMake](https://cmake.org/)
 * [GNU Make Manual](https://www.gnu.org/software/make/manual/make.html)
 * [GNU Make Tutorial](https://linuxhint.com/gnu-make-tutorial/)
+* [C++ Makefile Tutorial](https://www.softwaretestinghelp.com/cpp-makefile-tutorial/)
+* [Using make and writing Makefiles](https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_makefiles.html)

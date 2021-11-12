@@ -1957,5 +1957,13 @@
         "tags": [
             "C++"
         ]
+    },
+    "/cpp/static_library/": {
+        "id": 224,
+        "title": "Making Static Libraries",
+        "summary": "Basics of building and using static libraries with C++",
+        "tags": [
+            "C++"
+        ]
     }
 }

@@ -1782,5 +1782,13 @@
         "relative_path": "cpp/binary_files",
         "updated_at": "2021-11-10T13:51:54Z",
         "id": "#223"
+    },
+    {
+        "name": "Making Static Libraries",
+        "description": "Basics of building and using static libraries with C++",
+        "categories": "C++",
+        "relative_path": "cpp/static_library",
+        "updated_at": "2021-11-12T17:56:05Z",
+        "id": "#224"
     }
 ]

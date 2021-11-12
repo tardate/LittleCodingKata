@@ -1,0 +1,6 @@
+{
+    "name": "Making Static Libraries",
+    "description": "Basics of building and using static libraries with C++",
+    "categories": "C++",
+    "relative_path": "cpp/static_library"
+}
