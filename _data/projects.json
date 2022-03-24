@@ -1965,5 +1965,23 @@
         "tags": [
             "C++"
         ]
+    },
+    "/web/bootstrap/": {
+        "id": 225,
+        "title": "bootstrap",
+        "summary": "About Bootstrap",
+        "tags": [
+            "web",
+            "javascript"
+        ]
+    },
+    "/web/bootstrap_datetime_pickers/": {
+        "id": 226,
+        "title": "Bootstrap Date and Time Pickers",
+        "summary": "About date/time pickers with bootstrap",
+        "tags": [
+            "web",
+            "javascript"
+        ]
     }
 }

@@ -1790,5 +1790,21 @@
         "relative_path": "cpp/static_library",
         "updated_at": "2021-11-12T17:56:05Z",
         "id": "#224"
+    },
+    {
+        "name": "bootstrap",
+        "description": "About Bootstrap",
+        "categories": "web, javascript",
+        "relative_path": "web/bootstrap",
+        "updated_at": "2022-04-08T11:29:15Z",
+        "id": "#225"
+    },
+    {
+        "name": "Bootstrap Date and Time Pickers",
+        "description": "About date/time pickers with bootstrap",
+        "categories": "web, javascript",
+        "relative_path": "web/bootstrap_datetime_pickers",
+        "updated_at": "2022-04-08T11:30:33Z",
+        "id": "#226"
     }
 ]

@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2021-11-12T17:59:29Z</updated>
+  <updated>2022-04-08T11:30:51Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1977,5 +1977,23 @@
     <title>Making Static Libraries</title>
     <summary>Basics of building and using static libraries with C++</summary>
     <category term="C++"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/web/bootstrap/</id>
+    <link href="https://codingkata.tardate.com/web/bootstrap/"/>
+    <updated>2022-04-08T11:29:15Z</updated>
+    <title>bootstrap</title>
+    <summary>About Bootstrap</summary>
+    <category term="web"/>
+    <category term="javascript"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/web/bootstrap_datetime_pickers/</id>
+    <link href="https://codingkata.tardate.com/web/bootstrap_datetime_pickers/"/>
+    <updated>2022-04-08T11:30:33Z</updated>
+    <title>Bootstrap Date and Time Pickers</title>
+    <summary>About date/time pickers with bootstrap</summary>
+    <category term="web"/>
+    <category term="javascript"/>
   </entry>
 </feed>

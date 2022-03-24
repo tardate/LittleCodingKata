@@ -15,11 +15,11 @@ Trying out Visual Studio Code.
 * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 * [Arduino](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino)
 
-### Hints
+### Enabling Command Line Startup
 
-* to enable `code` shell command, open "View | Command Palette" and select "Shell Command: Install 'code' command in PATH command."
+To enable `code` shell command, open "View > Command Palette" and select "Shell Command: Install 'code' command in PATH command."
 
-### Verical Editing
+### Vertical Editing
 
 See [Column select](https://github.com/Microsoft/vscode/issues/4092)
 

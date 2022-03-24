@@ -1,0 +1,6 @@
+{
+    "name": "Bootstrap Date and Time Pickers",
+    "description": "About date/time pickers with bootstrap",
+    "categories": "web, javascript",
+    "relative_path": "web/bootstrap_datetime_pickers"
+}
