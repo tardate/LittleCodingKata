@@ -1983,5 +1983,13 @@
             "web",
             "javascript"
         ]
+    },
+    "/ruby/one-liners/": {
+        "id": 227,
+        "title": "Ruby One-liners",
+        "summary": "All about one-liners with ruby",
+        "tags": [
+            "ruby"
+        ]
     }
 }

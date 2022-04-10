@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2022-04-08T11:30:51Z</updated>
+  <updated>2022-04-10T03:15:37Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1981,7 +1981,7 @@
   <entry>
     <id>https://codingkata.tardate.com/web/bootstrap/</id>
     <link href="https://codingkata.tardate.com/web/bootstrap/"/>
-    <updated>2022-04-08T11:29:15Z</updated>
+    <updated>2022-04-08T11:31:44Z</updated>
     <title>bootstrap</title>
     <summary>About Bootstrap</summary>
     <category term="web"/>
@@ -1990,10 +1990,18 @@
   <entry>
     <id>https://codingkata.tardate.com/web/bootstrap_datetime_pickers/</id>
     <link href="https://codingkata.tardate.com/web/bootstrap_datetime_pickers/"/>
-    <updated>2022-04-08T11:30:33Z</updated>
+    <updated>2022-04-08T11:31:44Z</updated>
     <title>Bootstrap Date and Time Pickers</title>
     <summary>About date/time pickers with bootstrap</summary>
     <category term="web"/>
     <category term="javascript"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/one-liners/</id>
+    <link href="https://codingkata.tardate.com/ruby/one-liners/"/>
+    <updated>2022-04-08T11:34:54Z</updated>
+    <title>Ruby One-liners</title>
+    <summary>All about one-liners with ruby</summary>
+    <category term="ruby"/>
   </entry>
 </feed>

@@ -1796,7 +1796,7 @@
         "description": "About Bootstrap",
         "categories": "web, javascript",
         "relative_path": "web/bootstrap",
-        "updated_at": "2022-04-08T11:29:15Z",
+        "updated_at": "2022-04-08T11:31:44Z",
         "id": "#225"
     },
     {
@@ -1804,7 +1804,15 @@
         "description": "About date/time pickers with bootstrap",
         "categories": "web, javascript",
         "relative_path": "web/bootstrap_datetime_pickers",
-        "updated_at": "2022-04-08T11:30:33Z",
+        "updated_at": "2022-04-08T11:31:44Z",
         "id": "#226"
+    },
+    {
+        "name": "Ruby One-liners",
+        "description": "All about one-liners with ruby",
+        "categories": "ruby",
+        "relative_path": "ruby/one-liners",
+        "updated_at": "2022-04-08T11:34:54Z",
+        "id": "#227"
     }
 ]
