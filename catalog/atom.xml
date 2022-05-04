@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2022-04-10T03:15:37Z</updated>
+  <updated>2022-05-05T15:08:58Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2003,5 +2003,14 @@
     <title>Ruby One-liners</title>
     <summary>All about one-liners with ruby</summary>
     <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/web/fullcalendar/</id>
+    <link href="https://codingkata.tardate.com/web/fullcalendar/"/>
+    <updated>2022-05-05T15:08:02Z</updated>
+    <title>fullcalendar</title>
+    <summary>Using the fullcalendar library for the web</summary>
+    <category term="web"/>
+    <category term="javascript"/>
   </entry>
 </feed>

@@ -1,0 +1,6 @@
+{
+    "name": "fullcalendar",
+    "description": "Using the fullcalendar library for the web",
+    "categories": "web, javascript",
+    "relative_path": "web/fullcalendar"
+}

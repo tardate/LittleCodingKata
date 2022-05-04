@@ -1991,5 +1991,14 @@
         "tags": [
             "ruby"
         ]
+    },
+    "/web/fullcalendar/": {
+        "id": 228,
+        "title": "fullcalendar",
+        "summary": "Using the fullcalendar library for the web",
+        "tags": [
+            "web",
+            "javascript"
+        ]
     }
 }
