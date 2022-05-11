@@ -1,6 +1,8 @@
 #!/bin/sh
 #
 
+ruby --version
+
 gem uninstall json --version '> 1.8.3'
 gem list json
 

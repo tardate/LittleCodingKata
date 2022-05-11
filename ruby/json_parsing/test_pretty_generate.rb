@@ -3,7 +3,6 @@ require 'minitest/autorun'
 require 'json'
 
 class PrettyGenerateTest < Minitest::Test
-
   def subject(value)
     JSON.pretty_generate(value)
   end
@@ -59,9 +58,7 @@ class PrettyGenerateTest < Minitest::Test
         subject(nil)
       end
     end
-
   end
-
 end
 
 puts "\n\n*** RUNNING TESTS WITH JSON v#{JSON::VERSION} ***\n\n"

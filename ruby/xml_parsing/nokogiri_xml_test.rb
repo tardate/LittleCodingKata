@@ -4,7 +4,6 @@ require 'nokogiri'
 require 'pathname'
 
 class NokogiriXmlTest < Minitest::Test
-
   def doc
     source_file = Pathname.new(File.dirname(__FILE__)).join('data', 'planes.xml')
     Nokogiri::XML(File.open(source_file))

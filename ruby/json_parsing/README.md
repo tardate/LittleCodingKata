@@ -16,7 +16,7 @@ There are perhaps four main methods most commonly used form the JSON library:
   * `JSON.load` - given a string or stream
   * `JSON.parse` - given a string
 
-
+Note: this is only an issue with ruby <= 2.3 (I think) as later rubies require a later json gem version anyway.
 
 ### `pretty_generate` Verson-dependent Behaviour
 
@@ -33,27 +33,27 @@ The [test.sh](./test.sh) shell script runs the tests with different versions of 
 
 ```
 $ ./test.sh
-Successfully uninstalled json-2.1.0
+ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-darwin17]
+Gem 'json' is not installed
 
 *** LOCAL GEMS ***
 
 json (default: 1.8.3)
-multi_json (1.12.1)
 
 
 *** RUNNING TESTS WITH JSON v1.8.3 ***
 
-Run options: --seed 12498
+Run options: --seed 7402
 
 # Running:
 
 ....
 
-Finished in 0.001092s, 3661.5551 runs/s, 3661.5551 assertions/s.
+Finished in 0.002317s, 1726.3703 runs/s, 1726.3703 assertions/s.
 
 4 runs, 4 assertions, 0 failures, 0 errors, 0 skips
-Fetching: json-2.1.0.gem (100%)
-Building native extensions.  This could take a while...
+Fetching json-2.1.0.gem
+Building native extensions. This could take a while...
 Successfully installed json-2.1.0
 Parsing documentation for json-2.1.0
 Installing ri documentation for json-2.1.0
@@ -63,22 +63,23 @@ Done installing documentation for json after 1 seconds
 *** LOCAL GEMS ***
 
 json (2.1.0, default: 1.8.3)
-multi_json (1.12.1)
 
 
 *** RUNNING TESTS WITH JSON v2.1.0 ***
 
-Run options: --seed 29051
+Run options: --seed 24841
 
 # Running:
 
 ....
 
-Finished in 0.001093s, 3658.6649 runs/s, 3658.6649 assertions/s.
+Finished in 0.001192s, 3355.7047 runs/s, 3355.7047 assertions/s.
 
 4 runs, 4 assertions, 0 failures, 0 errors, 0 skips
 ```
 
 ## Credits and References
+
 * [JSON implementation for Ruby](https://github.com/flori/json) - GitHub source
+* [json](https://rubygems.org/gems/json) - rubygems
 * [RFC 4627](https://www.ietf.org/rfc/rfc4627.txt)
