@@ -2000,5 +2000,16 @@
             "web",
             "javascript"
         ]
+    },
+    "/ruby/xml_parsing/": {
+        "id": 229,
+        "title": "XML Parsing with Ruby",
+        "summary": "About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like nokogiri",
+        "tags": [
+            "ruby",
+            "XML",
+            "HTML",
+            "nokogiri"
+        ]
     }
 }

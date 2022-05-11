@@ -1,0 +1,6 @@
+{
+    "name": "XML Parsing with Ruby",
+    "description": "About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like nokogiri",
+    "categories": "ruby, XML, HTML, nokogiri",
+    "relative_path": "ruby/xml_parsing"
+}
