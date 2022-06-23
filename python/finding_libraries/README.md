@@ -2,7 +2,6 @@
 
 How to find great python libraries and resources.
 
-
 ## Notes
 
 ### Finding Libraries
@@ -16,8 +15,8 @@ For less common requirements, searching [PyPI - the Python Package Index](https:
 
 Otherwise, Google is your friend..
 
-
 ## Credits and References
+
 * [PyPI - the Python Package Index](https://pypi.python.org/pypi)
 * [awesome-python](https://github.com/vinta/awesome-python) - A curated list of awesome Python frameworks, libraries, software and resources.
 * [20 Python Libraries You Aren't Using (But Should)](https://www.goodreads.com/book/show/32051366-20-python-libraries-you-aren-t-using-but-should)
