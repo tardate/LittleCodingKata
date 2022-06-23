@@ -1,0 +1,6 @@
+{
+    "name": "Python SNMP Servers",
+    "description": "Researching simple pure Python SNMP Server options",
+    "categories": "python, SNMP",
+    "relative_path": "python/snmp_server"
+}

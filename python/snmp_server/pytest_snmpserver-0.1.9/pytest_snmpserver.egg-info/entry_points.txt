@@ -1,0 +1,3 @@
+[pytest11]
+pytest_snmpserver = pytest_snmpserver.pytest_plugin
+

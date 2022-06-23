@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2022-07-22T13:31:13Z</updated>
+  <updated>2022-08-01T02:56:32Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1979,14 +1979,6 @@
     <category term="C++"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/docker/shell/</id>
-    <link href="https://codingkata.tardate.com/docker/shell/"/>
-    <updated>2022-07-07T05:43:45Z</updated>
-    <title>Docker Shell</title>
-    <summary>How to get a bash shell in a docker instance</summary>
-    <category term="docker"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/web/bootstrap/</id>
     <link href="https://codingkata.tardate.com/web/bootstrap/"/>
     <updated>2022-07-07T05:43:45Z</updated>
@@ -2033,13 +2025,38 @@
     <category term="nokogiri"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/docker/shell/</id>
+    <link href="https://codingkata.tardate.com/docker/shell/"/>
+    <updated>2022-08-01T02:27:47Z</updated>
+    <title>Docker Shell</title>
+    <summary>How to get a bash shell in a docker instance</summary>
+    <category term="docker"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/twisted_snmp/</id>
+    <link href="https://codingkata.tardate.com/python/twisted_snmp/"/>
+    <updated>2022-08-01T02:27:47Z</updated>
+    <title>twisted_snmp</title>
+    <summary>description</summary>
+    <category term="python"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/bash/split_files/</id>
     <link href="https://codingkata.tardate.com/bash/split_files/"/>
-    <updated>2022-07-22T13:30:36Z</updated>
+    <updated>2022-08-01T02:27:47Z</updated>
     <title>Split Files</title>
     <summary>Split a text file into parts with simple shell utilities</summary>
     <category term="bash"/>
     <category term="split"/>
     <category term="tail"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/snmp_server/</id>
+    <link href="https://codingkata.tardate.com/python/snmp_server/"/>
+    <updated>2022-08-01T02:56:15Z</updated>
+    <title>Python SNMP Servers</title>
+    <summary>Researching simple pure Python SNMP Server options</summary>
+    <category term="python"/>
+    <category term="SNMP"/>
   </entry>
 </feed>
