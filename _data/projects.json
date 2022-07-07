@@ -2011,5 +2011,13 @@
             "HTML",
             "nokogiri"
         ]
+    },
+    "/docker/shell/": {
+        "id": 230,
+        "title": "Docker Shell",
+        "summary": "How to get a bash shell in a docker instance",
+        "tags": [
+            "docker"
+        ]
     }
 }

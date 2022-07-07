@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2022-05-11T11:25:38Z</updated>
+  <updated>2022-07-07T05:35:42Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2016,12 +2016,20 @@
   <entry>
     <id>https://codingkata.tardate.com/ruby/xml_parsing/</id>
     <link href="https://codingkata.tardate.com/ruby/xml_parsing/"/>
-    <updated>2022-05-11T10:09:42Z</updated>
+    <updated>2022-05-11T11:26:35Z</updated>
     <title>XML Parsing with Ruby</title>
     <summary>About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like nokogiri</summary>
     <category term="ruby"/>
     <category term="XML"/>
     <category term="HTML"/>
     <category term="nokogiri"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/docker/shell/</id>
+    <link href="https://codingkata.tardate.com/docker/shell/"/>
+    <updated>2022-07-07T05:29:51Z</updated>
+    <title>Docker Shell</title>
+    <summary>How to get a bash shell in a docker instance</summary>
+    <category term="docker"/>
   </entry>
 </feed>

@@ -1,0 +1,6 @@
+{
+    "name": "Docker Shell",
+    "description": "How to get a bash shell in a docker instance",
+    "categories": "docker",
+    "relative_path": "docker/shell"
+}
