@@ -1,0 +1,6 @@
+{
+    "name": "Testing RADIUS",
+    "description": "Notes about testing RADIUS servers with CHAP and EAP.",
+    "categories": "RADIUS",
+    "relative_path": "infrastructure/radius/testing"
+}

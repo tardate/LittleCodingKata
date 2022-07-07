@@ -1,7 +1,7 @@
 {
     "id": "#214",
     "name": "FreeRADIUS Server on macOS",
-    "description": "All about running FreeRADIUS Server on macOS",
+    "description": "All about running FreeRADIUS Server on macOS, both native build, and with Docker.",
     "categories": "RADIUS, macOS, infrastructure",
     "relative_path": "infrastructure/radius/freeradius-server-macosx",
     "updated_at": "2021-11-02T14:53:49Z",
