@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2022-07-07T05:35:42Z</updated>
+  <updated>2022-07-22T13:31:13Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1979,18 +1979,35 @@
     <category term="C++"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/docker/shell/</id>
+    <link href="https://codingkata.tardate.com/docker/shell/"/>
+    <updated>2022-07-07T05:43:45Z</updated>
+    <title>Docker Shell</title>
+    <summary>How to get a bash shell in a docker instance</summary>
+    <category term="docker"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/web/bootstrap/</id>
     <link href="https://codingkata.tardate.com/web/bootstrap/"/>
-    <updated>2022-04-08T11:31:44Z</updated>
+    <updated>2022-07-07T05:43:45Z</updated>
     <title>bootstrap</title>
     <summary>About Bootstrap</summary>
     <category term="web"/>
     <category term="javascript"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/web/fullcalendar/</id>
+    <link href="https://codingkata.tardate.com/web/fullcalendar/"/>
+    <updated>2022-07-07T05:43:45Z</updated>
+    <title>fullcalendar</title>
+    <summary>Using the fullcalendar library for the web</summary>
+    <category term="web"/>
+    <category term="javascript"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/web/bootstrap_datetime_pickers/</id>
     <link href="https://codingkata.tardate.com/web/bootstrap_datetime_pickers/"/>
-    <updated>2022-04-08T11:31:44Z</updated>
+    <updated>2022-07-07T05:43:45Z</updated>
     <title>Bootstrap Date and Time Pickers</title>
     <summary>About date/time pickers with bootstrap</summary>
     <category term="web"/>
@@ -1999,24 +2016,15 @@
   <entry>
     <id>https://codingkata.tardate.com/ruby/one-liners/</id>
     <link href="https://codingkata.tardate.com/ruby/one-liners/"/>
-    <updated>2022-04-08T11:34:54Z</updated>
+    <updated>2022-07-07T05:43:45Z</updated>
     <title>Ruby One-liners</title>
     <summary>All about one-liners with ruby</summary>
     <category term="ruby"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/web/fullcalendar/</id>
-    <link href="https://codingkata.tardate.com/web/fullcalendar/"/>
-    <updated>2022-05-05T15:09:31Z</updated>
-    <title>fullcalendar</title>
-    <summary>Using the fullcalendar library for the web</summary>
-    <category term="web"/>
-    <category term="javascript"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/ruby/xml_parsing/</id>
     <link href="https://codingkata.tardate.com/ruby/xml_parsing/"/>
-    <updated>2022-05-11T11:26:35Z</updated>
+    <updated>2022-07-07T05:43:45Z</updated>
     <title>XML Parsing with Ruby</title>
     <summary>About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like nokogiri</summary>
     <category term="ruby"/>
@@ -2025,11 +2033,13 @@
     <category term="nokogiri"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/docker/shell/</id>
-    <link href="https://codingkata.tardate.com/docker/shell/"/>
-    <updated>2022-07-07T05:29:51Z</updated>
-    <title>Docker Shell</title>
-    <summary>How to get a bash shell in a docker instance</summary>
-    <category term="docker"/>
+    <id>https://codingkata.tardate.com/bash/split_files/</id>
+    <link href="https://codingkata.tardate.com/bash/split_files/"/>
+    <updated>2022-07-22T13:30:36Z</updated>
+    <title>Split Files</title>
+    <summary>Split a text file into parts with simple shell utilities</summary>
+    <category term="bash"/>
+    <category term="split"/>
+    <category term="tail"/>
   </entry>
 </feed>

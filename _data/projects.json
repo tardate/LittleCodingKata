@@ -1966,8 +1966,16 @@
             "C++"
         ]
     },
-    "/web/bootstrap/": {
+    "/docker/shell/": {
         "id": 225,
+        "title": "Docker Shell",
+        "summary": "How to get a bash shell in a docker instance",
+        "tags": [
+            "docker"
+        ]
+    },
+    "/web/bootstrap/": {
+        "id": 226,
         "title": "bootstrap",
         "summary": "About Bootstrap",
         "tags": [
@@ -1975,8 +1983,17 @@
             "javascript"
         ]
     },
+    "/web/fullcalendar/": {
+        "id": 227,
+        "title": "fullcalendar",
+        "summary": "Using the fullcalendar library for the web",
+        "tags": [
+            "web",
+            "javascript"
+        ]
+    },
     "/web/bootstrap_datetime_pickers/": {
-        "id": 226,
+        "id": 228,
         "title": "Bootstrap Date and Time Pickers",
         "summary": "About date/time pickers with bootstrap",
         "tags": [
@@ -1985,24 +2002,15 @@
         ]
     },
     "/ruby/one-liners/": {
-        "id": 227,
+        "id": 229,
         "title": "Ruby One-liners",
         "summary": "All about one-liners with ruby",
         "tags": [
             "ruby"
         ]
     },
-    "/web/fullcalendar/": {
-        "id": 228,
-        "title": "fullcalendar",
-        "summary": "Using the fullcalendar library for the web",
-        "tags": [
-            "web",
-            "javascript"
-        ]
-    },
     "/ruby/xml_parsing/": {
-        "id": 229,
+        "id": 230,
         "title": "XML Parsing with Ruby",
         "summary": "About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like nokogiri",
         "tags": [
@@ -2012,12 +2020,14 @@
             "nokogiri"
         ]
     },
-    "/docker/shell/": {
-        "id": 230,
-        "title": "Docker Shell",
-        "summary": "How to get a bash shell in a docker instance",
+    "/bash/split_files/": {
+        "id": 231,
+        "title": "Split Files",
+        "summary": "Split a text file into parts with simple shell utilities",
         "tags": [
-            "docker"
+            "bash",
+            "split",
+            "tail"
         ]
     }
 }
