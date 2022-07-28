@@ -21,7 +21,7 @@ $ psql postgres -c "select now();"
 ## Testing Database Connectivity
 
 ```
-myname$ psql postgres -c "\c"
+$ psql postgres -c "\c"
 You are now connected to database "postgres" as user "myname"
 ```
 
@@ -37,6 +37,30 @@ And of course, to remove it:
 
 ```
 DROP DATABASE mydb;
+```
+
+### Listing Databases
+
+Use the `\l` command in psql, or to query the schema directly for example:
+
+```
+SELECT
+  d.datname as database,
+  pg_catalog.pg_get_userbyid(d.datdba) as owner,
+  d.datcollate,
+  d.datctype
+FROM pg_database d
+WHERE d.datistemplate = false
+ORDER BY 1;
+
+           database            |     owner     | datcollate  |  datctype
+-------------------------------+---------------+-------------+-------------
+ cancannible_demo6_development | paulgallagher | en_US.UTF-8 | en_US.UTF-8
+ cancannible_demo6_test        | paulgallagher | en_US.UTF-8 | en_US.UTF-8
+ minime_development            | paulgallagher | en_US.UTF-8 | en_US.UTF-8
+ postgres                      | paulgallagher | en_US.UTF-8 | en_US.UTF-8
+...
+
 ```
 
 ## Managing Roles
@@ -68,8 +92,32 @@ FROM pg_roles
 WHERE rolconnlimit <> -1;
 ```
 
-
 ## Analyzing the Schema
+
+### List Tables and Views
+
+Use the `\d` command in psql.
+
+Alternatively, query `information_schema.tables`:
+
+```
+select table_catalog,table_schema,table_name,table_type from information_schema.tables;
+ table_catalog |    table_schema    |              table_name               | table_type
+---------------+--------------------+---------------------------------------+------------
+ postgres      | pg_catalog         | pg_statistic                          | BASE TABLE
+ postgres      | pg_catalog         | pg_type                               | BASE TABLE
+ postgres      | pg_catalog         | pg_policy                             | BASE TABLE
+ postgres      | pg_catalog         | pg_authid                             | BASE TABLE
+ postgres      | pg_catalog         | pg_shadow                             | VIEW
+ postgres      | pg_catalog         | pg_settings                           | VIEW
+```
+
+To also get ownership details, use `pg_tables` and `pg_views`:
+
+```
+select schemaname as table_schema,tablename as table_name,tableowner as owner, 'BASE TABLE' as table_type from pg_catalog.pg_tables;
+select schemaname as table_schema,viewname as table_name,viewowner as owner, 'VIEW' as table_type from pg_catalog.pg_views
+```
 
 ### Approximate Row Counts
 
