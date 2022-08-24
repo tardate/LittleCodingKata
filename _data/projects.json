@@ -2039,8 +2039,16 @@
             "tail"
         ]
     },
-    "/php/md5/": {
+    "/tools/cron/": {
         "id": 233,
+        "title": "cron",
+        "summary": "all about cron and OS-managed scheduled tasks",
+        "tags": [
+            "tools"
+        ]
+    },
+    "/php/md5/": {
+        "id": 234,
         "title": "php md5",
         "summary": "Are you still using MD5 in PHP?",
         "tags": [
@@ -2048,19 +2056,19 @@
         ]
     },
     "/php/include/": {
-        "id": 234,
+        "id": 235,
         "title": "php include",
         "summary": "How to include or require other files in a PHP script",
         "tags": [
             "php"
         ]
     },
-    "/tools/cron/": {
-        "id": 235,
-        "title": "cron",
-        "summary": "all about cron and OS-managed scheduled tasks",
+    "/databases/postgresql/locks/": {
+        "id": 236,
+        "title": "PostgreSQL Locks",
+        "summary": "Notes on managing PostgreSQL locks",
         "tags": [
-            "tools"
+            "databases/postgresql"
         ]
     }
 }

@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2022-09-05T14:41:37Z</updated>
+  <updated>2022-10-17T11:23:56Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2052,9 +2052,17 @@
     <category term="tail"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/tools/cron/</id>
+    <link href="https://codingkata.tardate.com/tools/cron/"/>
+    <updated>2022-10-17T11:12:33Z</updated>
+    <title>cron</title>
+    <summary>all about cron and OS-managed scheduled tasks</summary>
+    <category term="tools"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/php/md5/</id>
     <link href="https://codingkata.tardate.com/php/md5/"/>
-    <updated>2022-09-05T14:04:02Z</updated>
+    <updated>2022-10-17T11:12:33Z</updated>
     <title>php md5</title>
     <summary>Are you still using MD5 in PHP?</summary>
     <category term="php"/>
@@ -2062,17 +2070,17 @@
   <entry>
     <id>https://codingkata.tardate.com/php/include/</id>
     <link href="https://codingkata.tardate.com/php/include/"/>
-    <updated>2022-09-05T14:30:40Z</updated>
+    <updated>2022-10-17T11:12:33Z</updated>
     <title>php include</title>
     <summary>How to include or require other files in a PHP script</summary>
     <category term="php"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/tools/cron/</id>
-    <link href="https://codingkata.tardate.com/tools/cron/"/>
-    <updated>2022-09-05T14:41:24Z</updated>
-    <title>cron</title>
-    <summary>all about cron and OS-managed scheduled tasks</summary>
-    <category term="tools"/>
+    <id>https://codingkata.tardate.com/databases/postgresql/locks/</id>
+    <link href="https://codingkata.tardate.com/databases/postgresql/locks/"/>
+    <updated>2022-10-17T11:23:43Z</updated>
+    <title>PostgreSQL Locks</title>
+    <summary>Notes on managing PostgreSQL locks</summary>
+    <category term="databases/postgresql"/>
   </entry>
 </feed>

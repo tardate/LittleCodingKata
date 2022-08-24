@@ -1,0 +1,6 @@
+{
+    "name": "PostgreSQL Locks",
+    "description": "Notes on managing PostgreSQL locks",
+    "categories": "databases/postgresql",
+    "relative_path": "databases/postgresql/locks"
+}
