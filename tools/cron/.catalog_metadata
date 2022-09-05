@@ -1,0 +1,6 @@
+{
+    "name": "cron",
+    "description": "all about cron and OS-managed scheduled tasks",
+    "categories": "tools",
+    "relative_path": "tools/cron"
+}

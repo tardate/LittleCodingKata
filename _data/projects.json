@@ -2054,5 +2054,13 @@
         "tags": [
             "php"
         ]
+    },
+    "/tools/cron/": {
+        "id": 235,
+        "title": "cron",
+        "summary": "all about cron and OS-managed scheduled tasks",
+        "tags": [
+            "tools"
+        ]
     }
 }
