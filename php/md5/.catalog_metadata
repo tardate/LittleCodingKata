@@ -1,0 +1,6 @@
+{
+    "name": "php md5",
+    "description": "Are you still using MD5 in PHP?",
+    "categories": "php",
+    "relative_path": "php/md5"
+}

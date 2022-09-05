@@ -1,0 +1,6 @@
+{
+    "name": "php include",
+    "description": "How to include or require other files in a PHP script",
+    "categories": "php",
+    "relative_path": "php/include"
+}

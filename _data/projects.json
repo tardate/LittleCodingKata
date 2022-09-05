@@ -2020,12 +2020,13 @@
             "docker"
         ]
     },
-    "/python/twisted_snmp/": {
+    "/python/snmp_server/": {
         "id": 231,
-        "title": "twisted_snmp",
-        "summary": "description",
+        "title": "Python SNMP Servers",
+        "summary": "Researching simple pure Python SNMP Server options",
         "tags": [
-            "python"
+            "python",
+            "SNMP"
         ]
     },
     "/bash/split_files/": {
@@ -2038,13 +2039,20 @@
             "tail"
         ]
     },
-    "/python/snmp_server/": {
+    "/php/md5/": {
         "id": 233,
-        "title": "Python SNMP Servers",
-        "summary": "Researching simple pure Python SNMP Server options",
+        "title": "php md5",
+        "summary": "Are you still using MD5 in PHP?",
         "tags": [
-            "python",
-            "SNMP"
+            "php"
+        ]
+    },
+    "/php/include/": {
+        "id": 234,
+        "title": "php include",
+        "summary": "How to include or require other files in a PHP script",
+        "tags": [
+            "php"
         ]
     }
 }
