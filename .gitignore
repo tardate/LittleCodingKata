@@ -16,8 +16,9 @@ Gemfile.lock
 # don't ignore bundler and rvm settings
 # .ruby*
 
-# general elm stuff
+# general editor stuff
 elm-stuff
+.vscode
 
 # tmp stuff
 tmp

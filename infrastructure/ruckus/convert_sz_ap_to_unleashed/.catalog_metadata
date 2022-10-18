@@ -1,0 +1,6 @@
+{
+    "name": "Convert SZ AP to Unleashed",
+    "description": "Demonstrating the procedure for converting a SZ-managed Ruckus R610 AP to Unleashed",
+    "categories": "networking, WLAN",
+    "relative_path": "infrastructure/ruckus/convert_sz_ap_to_unleashed"
+}

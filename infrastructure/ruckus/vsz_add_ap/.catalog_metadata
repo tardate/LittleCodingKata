@@ -1,0 +1,6 @@
+{
+    "name": "Adding APs to vSZ",
+    "description": "Configuring a Ruckus R610 access point to be managed by a Ruckus Virtual SmartZone controller",
+    "categories": "networking, WLAN",
+    "relative_path": "infrastructure/ruckus/vsz_add_ap"
+}

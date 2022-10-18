@@ -1,0 +1,12 @@
+{
+    "Description": "Import vSZ",
+    "DiskContainers": [
+        {
+            "Description": "vSZ 5.2.2.0.0.1563",
+            "UserBucket":{
+                "S3Bucket": "vsz.test.lck.com",
+                "S3Key": "vscg-5.2.2.0.1563.ova"
+            }
+        }
+    ]
+}

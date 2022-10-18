@@ -2070,5 +2070,32 @@
         "tags": [
             "databases/postgresql"
         ]
+    },
+    "/infrastructure/ruckus/vsz_on_aws/": {
+        "id": 237,
+        "title": "Ruckus vSZ on AWS",
+        "summary": "Complete and validated demonstration of installing Ruckus Virtual SmartZone on AWS",
+        "tags": [
+            "networking",
+            "WLAN"
+        ]
+    },
+    "/infrastructure/ruckus/vsz_add_ap/": {
+        "id": 238,
+        "title": "Adding APs to vSZ",
+        "summary": "Configuring a Ruckus R610 access point to be managed by a Ruckus Virtual SmartZone controller",
+        "tags": [
+            "networking",
+            "WLAN"
+        ]
+    },
+    "/infrastructure/ruckus/convert_sz_ap_to_unleashed/": {
+        "id": 239,
+        "title": "Convert SZ AP to Unleashed",
+        "summary": "Demonstrating the procedure for converting a SZ-managed Ruckus R610 AP to Unleashed",
+        "tags": [
+            "networking",
+            "WLAN"
+        ]
     }
 }

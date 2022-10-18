@@ -1884,7 +1884,31 @@
         "description": "Notes on managing PostgreSQL locks",
         "categories": "databases/postgresql",
         "relative_path": "databases/postgresql/locks",
-        "updated_at": "2022-10-17T11:23:43Z",
+        "updated_at": "2022-10-17T11:24:15Z",
         "id": "#236"
+    },
+    {
+        "name": "Ruckus vSZ on AWS",
+        "description": "Complete and validated demonstration of installing Ruckus Virtual SmartZone on AWS",
+        "categories": "networking, WLAN",
+        "relative_path": "infrastructure/ruckus/vsz_on_aws",
+        "updated_at": "2022-10-18T09:57:50Z",
+        "id": "#237"
+    },
+    {
+        "name": "Adding APs to vSZ",
+        "description": "Configuring a Ruckus R610 access point to be managed by a Ruckus Virtual SmartZone controller",
+        "categories": "networking, WLAN",
+        "relative_path": "infrastructure/ruckus/vsz_add_ap",
+        "updated_at": "2022-10-18T14:15:59Z",
+        "id": "#238"
+    },
+    {
+        "name": "Convert SZ AP to Unleashed",
+        "description": "Demonstrating the procedure for converting a SZ-managed Ruckus R610 AP to Unleashed",
+        "categories": "networking, WLAN",
+        "relative_path": "infrastructure/ruckus/convert_sz_ap_to_unleashed",
+        "updated_at": "2022-10-18T14:30:46Z",
+        "id": "#239"
     }
 ]

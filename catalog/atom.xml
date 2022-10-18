@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2022-10-17T11:23:56Z</updated>
+  <updated>2022-10-18T14:31:31Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2078,9 +2078,36 @@
   <entry>
     <id>https://codingkata.tardate.com/databases/postgresql/locks/</id>
     <link href="https://codingkata.tardate.com/databases/postgresql/locks/"/>
-    <updated>2022-10-17T11:23:43Z</updated>
+    <updated>2022-10-17T11:24:15Z</updated>
     <title>PostgreSQL Locks</title>
     <summary>Notes on managing PostgreSQL locks</summary>
     <category term="databases/postgresql"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/infrastructure/ruckus/vsz_on_aws/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/ruckus/vsz_on_aws/"/>
+    <updated>2022-10-18T09:57:50Z</updated>
+    <title>Ruckus vSZ on AWS</title>
+    <summary>Complete and validated demonstration of installing Ruckus Virtual SmartZone on AWS</summary>
+    <category term="networking"/>
+    <category term="WLAN"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/infrastructure/ruckus/vsz_add_ap/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/ruckus/vsz_add_ap/"/>
+    <updated>2022-10-18T14:15:59Z</updated>
+    <title>Adding APs to vSZ</title>
+    <summary>Configuring a Ruckus R610 access point to be managed by a Ruckus Virtual SmartZone controller</summary>
+    <category term="networking"/>
+    <category term="WLAN"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/infrastructure/ruckus/convert_sz_ap_to_unleashed/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/ruckus/convert_sz_ap_to_unleashed/"/>
+    <updated>2022-10-18T14:30:46Z</updated>
+    <title>Convert SZ AP to Unleashed</title>
+    <summary>Demonstrating the procedure for converting a SZ-managed Ruckus R610 AP to Unleashed</summary>
+    <category term="networking"/>
+    <category term="WLAN"/>
   </entry>
 </feed>
