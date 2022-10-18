@@ -337,6 +337,23 @@ After sign-in, we have a new vSZ cluster ready to go:
 
 ![vsx_landing_initial](./assets/vsx_landing_initial.png)
 
+
+### Configuring the AP Admin Login
+
+All APs that are added to the controller will take the default AP Admin Login from the wireless LAN group.
+
+Select the Wireless LAN Group (click on the pencil):
+
+![group_config](./assets/group_config.png)
+
+The AP Admin Login is one of the settings:
+
+![group_config_pwd](./assets/group_config_pwd.png)
+
+### Adding APs to the Cluster
+
+See notes on [Adding APs to vSZ](../vsz_add_ap)
+
 ## Credits and References
 
 * [Installing or updating the latest version of the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)

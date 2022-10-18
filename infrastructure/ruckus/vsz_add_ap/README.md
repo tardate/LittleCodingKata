@@ -105,6 +105,38 @@ but eventually the AP will reflect the controller-enforced settings and be broad
 
 ![r610_vsz_entry_final](./assets/r610_vsz_entry_final.png)
 
+### Checking the SCG Configuration
+
+The sssh access to the controller will now required the username and password configured for the controller WLAN group.
+After access, can check the AP's SCG configuration:
+
+    $ ssh 192.168.10.164
+
+    Please login: apadmin
+    password :
+    Copyright(C) 2022 Ruckus Wireless, Inc. All Rights Reserved.
+
+    ** Ruckus R610 Multimedia Hotzone Wireless AP: 481849003619
+
+    rkscli: get scg ip
+
+    ------ SCG Information ------
+    SCG Service is enabled.
+    AP is managed by SCG.
+    State: RUN_STATE
+    Server List: 172.31.36.230,18.139.169.166
+    SSH tunnel connected to 18.139.169.166
+    Failover List: Not found
+    Failover Max Retry: 2
+    DHCP Opt43 Code: 6
+    Server List from DHCP (Opt43/Opt52): Not found
+    SCG default URL: RuckusController
+    SCG config|heartbeat intervals: 30|30
+    SCG gwloss|serverloss timeouts: 1800|7200
+    Controller Cert Validation : disable
+    -----------------------------
+    OK
+
 ## Credits and References
 
 * [R610 support and downloads](https://support.ruckuswireless.com/products/103-ruckus-r610#sort=relevancy&f:@commonproducts=[R610])
