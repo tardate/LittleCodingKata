@@ -1950,41 +1950,16 @@
             "tools"
         ]
     },
-    "/databases/postgresql/locks/": {
-        "id": 223,
-        "title": "PostgreSQL Locks",
-        "summary": "Notes on managing PostgreSQL locks",
-        "tags": [
-            "databases/postgresql"
-        ]
-    },
-    "/tools/cron/": {
-        "id": 224,
-        "title": "cron",
-        "summary": "all about cron and OS-managed scheduled tasks",
-        "tags": [
-            "tools"
-        ]
-    },
     "/docker/shell/": {
-        "id": 225,
+        "id": 223,
         "title": "Docker Shell",
         "summary": "How to get a bash shell in a docker instance",
         "tags": [
             "docker"
         ]
     },
-    "/python/snmp_server/": {
-        "id": 226,
-        "title": "Python SNMP Servers",
-        "summary": "Researching simple pure Python SNMP Server options",
-        "tags": [
-            "python",
-            "SNMP"
-        ]
-    },
     "/web/bootstrap/": {
-        "id": 227,
+        "id": 224,
         "title": "bootstrap",
         "summary": "About Bootstrap",
         "tags": [
@@ -1993,7 +1968,7 @@
         ]
     },
     "/web/fullcalendar/": {
-        "id": 228,
+        "id": 225,
         "title": "fullcalendar",
         "summary": "Using the fullcalendar library for the web",
         "tags": [
@@ -2001,17 +1976,8 @@
             "javascript"
         ]
     },
-    "/web/browser_connection_management/": {
-        "id": 229,
-        "title": "Browser Connection Management",
-        "summary": "Notes on how web browsers manage network connections",
-        "tags": [
-            "web",
-            "networking"
-        ]
-    },
     "/web/bootstrap_datetime_pickers/": {
-        "id": 230,
+        "id": 226,
         "title": "Bootstrap Date and Time Pickers",
         "summary": "About date/time pickers with bootstrap",
         "tags": [
@@ -2019,34 +1985,8 @@
             "javascript"
         ]
     },
-    "/php/md5/": {
-        "id": 231,
-        "title": "php md5",
-        "summary": "Are you still using MD5 in PHP?",
-        "tags": [
-            "php"
-        ]
-    },
-    "/php/include/": {
-        "id": 232,
-        "title": "php include",
-        "summary": "How to include or require other files in a PHP script",
-        "tags": [
-            "php"
-        ]
-    },
-    "/bash/split_files/": {
-        "id": 233,
-        "title": "Split Files",
-        "summary": "Split a text file into parts with simple shell utilities",
-        "tags": [
-            "bash",
-            "split",
-            "tail"
-        ]
-    },
     "/cpp/binary_files/": {
-        "id": 234,
+        "id": 227,
         "title": "Binary Files",
         "summary": "Simple binary file operations with C++",
         "tags": [
@@ -2054,42 +1994,15 @@
         ]
     },
     "/cpp/static_library/": {
-        "id": 235,
+        "id": 228,
         "title": "Making Static Libraries",
         "summary": "Basics of building and using static libraries with C++",
         "tags": [
             "C++"
         ]
     },
-    "/infrastructure/ruckus/convert_sz_ap_to_unleashed/": {
-        "id": 236,
-        "title": "Convert SZ AP to Unleashed",
-        "summary": "Demonstrating the procedure for converting a SZ-managed Ruckus R610 AP to Unleashed",
-        "tags": [
-            "networking",
-            "WLAN"
-        ]
-    },
-    "/infrastructure/ruckus/vsz_add_ap/": {
-        "id": 237,
-        "title": "Adding APs to vSZ",
-        "summary": "Configuring a Ruckus R610 access point to be managed by a Ruckus Virtual SmartZone controller",
-        "tags": [
-            "networking",
-            "WLAN"
-        ]
-    },
-    "/infrastructure/ruckus/vsz_on_aws/": {
-        "id": 238,
-        "title": "Ruckus vSZ on AWS",
-        "summary": "Complete and validated demonstration of installing Ruckus Virtual SmartZone on AWS",
-        "tags": [
-            "networking",
-            "WLAN"
-        ]
-    },
     "/ruby/one-liners/": {
-        "id": 239,
+        "id": 229,
         "title": "Ruby One-liners",
         "summary": "All about one-liners with ruby",
         "tags": [
@@ -2097,7 +2010,7 @@
         ]
     },
     "/ruby/xml_parsing/": {
-        "id": 240,
+        "id": 230,
         "title": "XML Parsing with Ruby",
         "summary": "About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like nokogiri",
         "tags": [
@@ -2107,28 +2020,124 @@
             "nokogiri"
         ]
     },
+    "/databases/postgresql/locks/": {
+        "id": 231,
+        "title": "PostgreSQL Locks",
+        "summary": "Notes on managing PostgreSQL locks",
+        "tags": [
+            "databases/postgresql"
+        ]
+    },
+    "/tools/cron/": {
+        "id": 232,
+        "title": "cron",
+        "summary": "all about cron and OS-managed scheduled tasks",
+        "tags": [
+            "tools"
+        ]
+    },
+    "/python/snmp_server/": {
+        "id": 233,
+        "title": "Python SNMP Servers",
+        "summary": "Researching simple pure Python SNMP Server options",
+        "tags": [
+            "python",
+            "SNMP"
+        ]
+    },
     "/python/celery/": {
-        "id": 241,
+        "id": 234,
         "title": "Celery",
         "summary": "About Celery, a distributed task queue system for python",
         "tags": [
             "python"
         ]
     },
-    "/ruby/memory_profiling/": {
+    "/python/class_structures_and_scoping/": {
+        "id": 235,
+        "title": "Class Structures and Scoping",
+        "summary": "about class structyres and scoping in python",
+        "tags": [
+            "python"
+        ]
+    },
+    "/web/browser_connection_management/": {
+        "id": 236,
+        "title": "Browser Connection Management",
+        "summary": "Notes on how web browsers manage network connections",
+        "tags": [
+            "web",
+            "networking"
+        ]
+    },
+    "/php/md5/": {
+        "id": 237,
+        "title": "php md5",
+        "summary": "Are you still using MD5 in PHP?",
+        "tags": [
+            "php"
+        ]
+    },
+    "/php/include/": {
+        "id": 238,
+        "title": "php include",
+        "summary": "How to include or require other files in a PHP script",
+        "tags": [
+            "php"
+        ]
+    },
+    "/bash/split_files/": {
+        "id": 239,
+        "title": "Split Files",
+        "summary": "Split a text file into parts with simple shell utilities",
+        "tags": [
+            "bash",
+            "split",
+            "tail"
+        ]
+    },
+    "/infrastructure/ruckus/convert_sz_ap_to_unleashed/": {
+        "id": 240,
+        "title": "Convert SZ AP to Unleashed",
+        "summary": "Demonstrating the procedure for converting a SZ-managed Ruckus R610 AP to Unleashed",
+        "tags": [
+            "networking",
+            "WLAN"
+        ]
+    },
+    "/infrastructure/ruckus/vsz_add_ap/": {
+        "id": 241,
+        "title": "Adding APs to vSZ",
+        "summary": "Configuring a Ruckus R610 access point to be managed by a Ruckus Virtual SmartZone controller",
+        "tags": [
+            "networking",
+            "WLAN"
+        ]
+    },
+    "/infrastructure/ruckus/vsz_on_aws/": {
         "id": 242,
+        "title": "Ruckus vSZ on AWS",
+        "summary": "Complete and validated demonstration of installing Ruckus Virtual SmartZone on AWS",
+        "tags": [
+            "networking",
+            "WLAN"
+        ]
+    },
+    "/ruby/memory_profiling/": {
+        "id": 243,
         "title": "Memory Profiling",
         "summary": "About memory profiling in Ruby",
         "tags": [
             "ruby"
         ]
     },
-    "/python/class_structures_and_scoping/": {
-        "id": 243,
-        "title": "Class Structures and Scoping",
-        "summary": "about class structyres and scoping in python",
+    "/tools/wifi_scanners/": {
+        "id": 244,
+        "title": "WiFi Scanners",
+        "summary": "A quick survey of WiFi scanners",
         "tags": [
-            "python"
+            "tools",
+            "networking"
         ]
     }
 }

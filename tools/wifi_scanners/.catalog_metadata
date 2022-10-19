@@ -1,0 +1,6 @@
+{
+    "name": "WiFi Scanners",
+    "description": "A quick survey of WiFi scanners",
+    "categories": "tools, networking",
+    "relative_path": "tools/wifi_scanners"
+}
