@@ -1,0 +1,87 @@
+Certificate[1]:
+Owner: CN=LCK Test Intermediate CA, OU=Security, O=LCK Pte Ltd, ST=Singapore, C=SG
+Issuer: CN=LCK Test CA, OU=Security, O=LCK Pte Ltd, L=Singapore, ST=Singapore, C=SG
+Serial number: 1000
+Valid from: Thu Jan 13 20:33:53 SGT 2022 until: Sun Jan 11 20:33:53 SGT 2032
+Certificate fingerprints:
+	 MD5:  E6:15:CD:8A:E2:1F:EE:F3:7D:9D:66:DF:66:14:51:54
+	 SHA1: 51:AA:57:E2:D8:D8:C5:FE:A7:4D:E1:FE:AA:BA:01:06:A2:28:2F:68
+	 SHA256: A4:EB:07:4A:94:B5:CC:1A:09:0C:5B:EB:AC:9C:00:72:EE:CE:43:CB:BF:11:59:98:EA:57:36:C2:A3:1D:68:13
+	 Signature algorithm name: SHA256withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 96 5B 4F B1 D8 50 44 59   D0 99 56 14 7E 2B D7 2C  .[O..PDY..V..+.,
+0010: C1 52 02 53                                        .R.S
+]
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:0
+]
+
+#3: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+#4: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 61 68 1B 96 E7 98 E5 5A   22 DF 35 A2 FC 27 8D A5  ah.....Z".5..'..
+0010: 7E 88 B2 6B                                        ...k
+]
+]
+
+
+Certificate[2]:
+Owner: CN=LCK Test CA, OU=Security, O=LCK Pte Ltd, L=Singapore, ST=Singapore, C=SG
+Issuer: CN=LCK Test CA, OU=Security, O=LCK Pte Ltd, L=Singapore, ST=Singapore, C=SG
+Serial number: b5ab005b78ef2ae5
+Valid from: Thu Jan 13 20:33:27 SGT 2022 until: Wed Jan 08 20:33:27 SGT 2042
+Certificate fingerprints:
+	 MD5:  83:D2:DC:69:0F:DE:10:ED:BB:BB:85:65:E2:8A:F2:84
+	 SHA1: 0B:6A:9A:66:72:9E:86:FF:65:9A:D4:2F:77:59:CB:81:C8:B8:83:C1
+	 SHA256: 4B:DF:06:E6:9A:EC:43:93:CC:8B:9A:9A:9D:C7:15:52:C9:60:98:E4:71:10:2D:F9:40:52:27:EA:21:EE:75:94
+	 Signature algorithm name: SHA256withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 96 5B 4F B1 D8 50 44 59   D0 99 56 14 7E 2B D7 2C  .[O..PDY..V..+.,
+0010: C1 52 02 53                                        .R.S
+]
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+#4: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 96 5B 4F B1 D8 50 44 59   D0 99 56 14 7E 2B D7 2C  .[O..PDY..V..+.,
+0010: C1 52 02 53                                        .R.S
+]
+]
+

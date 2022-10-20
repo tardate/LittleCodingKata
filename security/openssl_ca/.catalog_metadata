@@ -1,0 +1,6 @@
+{
+    "name": "openssl_ca",
+    "description": "description",
+    "categories": "security",
+    "relative_path": "security/openssl_ca"
+}
