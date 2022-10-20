@@ -2182,5 +2182,21 @@
         "relative_path": "ruby/ntp",
         "updated_at": "2023-11-22T09:53:00Z",
         "id": "#273"
+    },
+    {
+        "name": "PKCS12",
+        "description": "About PKCS #12 archive files",
+        "categories": "security",
+        "relative_path": "security/PKCS12",
+        "updated_at": "2023-11-22T10:14:21Z",
+        "id": "#274"
+    },
+    {
+        "name": "Self-signed Certs",
+        "description": "Creating a self-signed certificate",
+        "categories": "security",
+        "relative_path": "security/self-signed-certs",
+        "updated_at": "2023-11-22T10:14:21Z",
+        "id": "#275"
     }
 ]

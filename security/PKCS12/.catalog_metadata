@@ -1,0 +1,6 @@
+{
+    "name": "PKCS12",
+    "description": "About PKCS #12 archive files",
+    "categories": "security",
+    "relative_path": "security/PKCS12"
+}

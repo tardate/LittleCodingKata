@@ -1,0 +1,6 @@
+{
+    "name": "Self-signed Certs",
+    "description": "Creating a self-signed certificate",
+    "categories": "security",
+    "relative_path": "security/self-signed-certs"
+}

@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-11-22T10:13:54Z</updated>
+  <updated>2023-11-22T10:16:24Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2397,5 +2397,21 @@
     <title>NTP with Ruby</title>
     <summary>All about the NTP protocol with examples in ruby</summary>
     <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/security/PKCS12/</id>
+    <link href="https://codingkata.tardate.com/security/PKCS12/"/>
+    <updated>2023-11-22T10:14:21Z</updated>
+    <title>PKCS12</title>
+    <summary>About PKCS #12 archive files</summary>
+    <category term="security"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/security/self-signed-certs/</id>
+    <link href="https://codingkata.tardate.com/security/self-signed-certs/"/>
+    <updated>2023-11-22T10:14:21Z</updated>
+    <title>Self-signed Certs</title>
+    <summary>Creating a self-signed certificate</summary>
+    <category term="security"/>
   </entry>
 </feed>
