@@ -4,7 +4,7 @@ notes on investigating issues with server SSL certificate chains.
 
 > In the following notes, I have used the url `https://www.redacted-domain.name/` in place of the actual site in question
 > to obscure the identity of the site (as it is not particularly relevant).
-> Hence: commands shown here using that url will not work as-is - they need a real url substrituted first!
+> Hence: commands shown here using that url will not work as-is - they need a real url substituted first!
 
 ## Notes
 
@@ -18,7 +18,7 @@ the browser's certificate inspection feature.
 
 But I was seeing SSL verification errors when using command line utilities, specifically curl:
 
-```
+```sh
 $ curl https://www.redacted-domain.name/
 curl: (60) SSL certificate problem: certificate has expired
 More details here: https://curl.haxx.se/docs/sslcerts.html
@@ -38,7 +38,7 @@ HTTPS-proxy has similar options --proxy-cacert and --proxy-insecure.
 
 ## First Thought
 
-My first thought was to suspect an old CA certificate bundle - a common enough occurence on MacOS,
+My first thought was to suspect an old CA certificate bundle - a common enough occurrence on MacOS,
 especially when I'm running an old version, and there can be confusion as to which cert bundle is being used (system? brew-installed utilities and openssl? etc).
 
 Apple Support provide details of the root certificates shipped with each version.
@@ -46,7 +46,7 @@ e.g. [here for for High Sierra](https://support.apple.com/en-gb/HT208127).
 and one can inspect locally at `file:///System/Library/Security/Certificates.bundle/Contents/Resources/TrustStore.html`
 or with the Keychain Access utility program.
 
-However a quick check with one of the many SSL verification utilites on the net -
+However a quick check with one of the many SSL verification utilities on the net -
 [www.sslshopper.com](https://www.sslshopper.com/ssl-checker.html#hostname=https://www.redacted-domain.name/) -
 showed there was in fact an issue with the certificates being provided by the server.
 
@@ -54,66 +54,72 @@ It was reporting "One of the root or intermediate certificates has expired (367 
 
 Server certificate:
 
-    Common name: www.redacted-domain.name
-    SANs: *.redacted-domain.name, redacted-domain.name
-    Valid from February 26, 2020 to March 28, 2022
-    Serial Number: aebde0ab25f78379378654874b7082bf
-    Signature Algorithm: sha256WithRSAEncryption
-    Issuer: Sectigo RSA Domain Validation Secure Server CA
+```sh
+Common name: www.redacted-domain.name
+SANs: *.redacted-domain.name, redacted-domain.name
+Valid from February 26, 2020 to March 28, 2022
+Serial Number: aebde0ab25f78379378654874b7082bf
+Signature Algorithm: sha256WithRSAEncryption
+Issuer: Sectigo RSA Domain Validation Secure Server CA
+```
 
 Intermediate:
 
-    Common name: Sectigo RSA Domain Validation Secure Server CA
-    Organization: Sectigo Limited
-    Location: Salford, Greater Manchester, GB
-    Valid from November 1, 2018 to December 31, 2030
-    Serial Number: 7d5b5126b476ba11db74160bbc530da7
-    Signature Algorithm: sha384WithRSAEncryption
-    Issuer: USERTrust RSA Certification Authority
+```sh
+Common name: Sectigo RSA Domain Validation Secure Server CA
+Organization: Sectigo Limited
+Location: Salford, Greater Manchester, GB
+Valid from November 1, 2018 to December 31, 2030
+Serial Number: 7d5b5126b476ba11db74160bbc530da7
+Signature Algorithm: sha384WithRSAEncryption
+Issuer: USERTrust RSA Certification Authority
+```
 
 Root:
 
-    Common name: USERTrust RSA Certification Authority
-    Organization: The USERTRUST Network
-    Location: Jersey City, New Jersey, US
-    Valid from May 30, 2000 to May 30, 2020
-    Serial Number: 13ea28705bf4eced0c36630980614336
-    Signature Algorithm: sha384WithRSAEncryption
-    Issuer: AddTrust External CA Root
-
+```sh
+Common name: USERTrust RSA Certification Authority
+Organization: The USERTRUST Network
+Location: Jersey City, New Jersey, US
+Valid from May 30, 2000 to May 30, 2020
+Serial Number: 13ea28705bf4eced0c36630980614336
+Signature Algorithm: sha384WithRSAEncryption
+Issuer: AddTrust External CA Root
+```
 
 ## openssl
 
 The following steps will use [openssl](https://www.openssl.org/) to inspect the server cert chain.
 Per my installation:
 
+```sh
     $ which openssl
     /usr/bin/openssl
     $ openssl version -d
     OPENSSLDIR: "/private/etc/ssl"
     $ openssl version
     LibreSSL 2.2.7
-
+```
 
 ## Using openssl to Extract/examine Site Certificate Details
 
 The [openssl s_client](https://www.openssl.org/docs/man1.0.2/man1/s_client.html)
 command can be used to test a specific server connection.
 
-Here's a command that I used to extract the certificates offererd by the server to a file `failing-cacert.pem`
+Here's a command that I used to extract the certificates offered by the server to a file `failing-cacert.pem`
 
-```
+```sh
 echo "quit" | openssl s_client -showcerts -servername www.redacted-domain.name -connect www.redacted-domain.name:443 > failing-cacert.pem
 ```
 
 There are actually 3 certificates downloaded: the server, and intermediated. and a root certificate.
 
 The [openssl x509](https://www.openssl.org/docs/man1.0.2/man1/x509.html) command can be used to inspect the certificates.
-But it can only hande one at a time, so this little awk expressions extracts the root certificate (number '2') for inspection.
+But it can only handle one at a time, so this little awk expressions extracts the root certificate (number '2') for inspection.
 
 This shows the certificate expired May 30 10:48:38 2020 GMT.
 
-```
+```sh
 $ cat failing-cacert.pem | awk '/^ 2 s:/{flag=1} flag; /-----END/{flag=0}' | openssl x509 -text -noout
 Certificate:
     Data:
@@ -211,9 +217,9 @@ Having identified the certificate issue I was able to report the problem to the 
 
 In the meantime, I will disable SSL verification where necessary e.g. with curl, the `-k` option:
 
-```
-$ curl https://www.redacted-domain.name/ # curl: (60) SSL certificate problem: certificate has expired
-$ curl -k https://www.redacted-domain.name/ # works
+```sh
+curl https://www.redacted-domain.name/ # curl: (60) SSL certificate problem: certificate has expired
+curl -k https://www.redacted-domain.name/ # works
 ```
 
 ## Credits and References

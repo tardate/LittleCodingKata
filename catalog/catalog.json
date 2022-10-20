@@ -1928,115 +1928,115 @@
         "id": "#241"
     },
     {
-        "name": "favicons",
-        "description": "All about favicons",
-        "categories": "web",
-        "relative_path": "web/favicons",
-        "updated_at": "2022-11-05T16:11:10Z",
+        "name": "PostgreSQL Locks",
+        "description": "Notes on managing PostgreSQL locks",
+        "categories": "databases, postgresql",
+        "relative_path": "databases/postgresql/locks",
+        "updated_at": "2023-11-22T09:52:59Z",
         "id": "#242"
     },
     {
-        "name": "Python Playground",
-        "description": "Book notes - Python Playground, by Mahesh Venkitachalam, published by No Starch Press",
-        "categories": "python, book",
-        "relative_path": "python/PythonPlayground",
-        "updated_at": "2022-11-09T10:27:57Z",
+        "name": "PostgreSQL Sequences",
+        "description": "Notes on managing PostgreSQL Sequences",
+        "categories": "databases, postgresql",
+        "relative_path": "databases/postgresql/sequences",
+        "updated_at": "2023-11-22T09:52:59Z",
         "id": "#243"
     },
     {
-        "name": "IPv4 Addresses with Ruby",
-        "description": "All about dissecting IPv4 addresses with ruby including networks, netmasks and CIDR",
-        "categories": "ruby",
-        "relative_path": "ruby/ipv4",
-        "updated_at": "2022-11-09T14:03:46Z",
+        "name": "Primary Key Audit",
+        "description": "How to list primary key details in a MySQL database",
+        "categories": "Database, MySQL",
+        "relative_path": "databases/mysql/primary_key_audit",
+        "updated_at": "2023-11-22T09:52:59Z",
         "id": "#244"
     },
     {
-        "name": "NTP with Ruby",
-        "description": "All about the NTP protocol with examples in ruby",
-        "categories": "ruby",
-        "relative_path": "ruby/ntp",
-        "updated_at": "2022-11-13T02:57:33Z",
+        "name": "Docker Housekeeping",
+        "description": "Some simple housekeeping commands for Docker",
+        "categories": "docker",
+        "relative_path": "docker/housekeeping",
+        "updated_at": "2023-11-22T09:52:59Z",
         "id": "#245"
-    },
-    {
-        "name": "Satellite Imagery Sources",
-        "description": "Poking around free satellite imagery services",
-        "categories": "tools, osint",
-        "relative_path": "tools/SatelliteImagerySources",
-        "updated_at": "2022-12-19T03:16:16Z",
-        "id": "#246"
-    },
-    {
-        "name": "Image Resize",
-        "description": "Simple image resizing with python and the Pillow library and a little yak shaving with EXIF tags",
-        "categories": "python",
-        "relative_path": "python/image_resize",
-        "updated_at": "2022-12-21T04:55:17Z",
-        "id": "#247"
-    },
-    {
-        "name": "Compiling Ruby",
-        "description": "Compiling Ruby (2.6.5-p114) from source and some debugging with llvm",
-        "categories": "ruby, C",
-        "relative_path": "rubylang/compiling",
-        "updated_at": "2022-12-21T05:16:36Z",
-        "id": "#248"
-    },
-    {
-        "name": "Querying Atom Feeds",
-        "description": "Techniques and examples for querying Atom Feeds with XPath and Nokogiri",
-        "categories": "ruby",
-        "relative_path": "ruby/querying_atom_feeds",
-        "updated_at": "2022-12-26T03:02:21Z",
-        "id": "#249"
     },
     {
         "name": "The Pocket Guide to Debugging",
         "description": "Book notes - The Pocket Guide to Debugging by Julia Evans",
         "categories": "methods",
         "relative_path": "methods/the_pocket_guide_to_debugging",
-        "updated_at": "2022-12-28T04:43:59Z",
-        "id": "#250"
+        "updated_at": "2023-11-22T09:52:59Z",
+        "id": "#246"
+    },
+    {
+        "name": "Big O Notation",
+        "description": "About Big O Notation",
+        "categories": "methods",
+        "relative_path": "methods/big_o_notation",
+        "updated_at": "2023-11-22T09:52:59Z",
+        "id": "#247"
     },
     {
         "name": "Livable Code",
         "description": "Notes on the RailsConf 2018 Keynote - Livable Code by Sarah Mei",
         "categories": "methods",
         "relative_path": "methods/livable_code",
-        "updated_at": "2023-01-09T05:18:26Z",
+        "updated_at": "2023-11-22T09:52:59Z",
+        "id": "#248"
+    },
+    {
+        "name": "Flask Web Development",
+        "description": "Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly",
+        "categories": "python, book",
+        "relative_path": "python/FlaskWebDevelopment",
+        "updated_at": "2023-11-22T09:52:59Z",
+        "id": "#249"
+    },
+    {
+        "name": "Image Resize",
+        "description": "Simple image resizing with python and the Pillow library and a little yak shaving with EXIF tags",
+        "categories": "python",
+        "relative_path": "python/image_resize",
+        "updated_at": "2023-11-22T09:52:59Z",
+        "id": "#250"
+    },
+    {
+        "name": "Lightweight Django",
+        "description": "Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly",
+        "categories": "python, book",
+        "relative_path": "python/LightweightDjango",
+        "updated_at": "2023-11-22T09:52:59Z",
         "id": "#251"
     },
     {
-        "name": "Audio Tone Generator",
-        "description": "I used ChatGPT to show me how to make an audio tone generation tool in Javascript and it taught me how to use the new(ish) AudioContext API",
-        "categories": "javascript, audio",
-        "relative_path": "javascript/tone_generator",
-        "updated_at": "2023-01-09T05:18:26Z",
+        "name": "Python Playground",
+        "description": "Book notes - Python Playground, by Mahesh Venkitachalam, published by No Starch Press",
+        "categories": "python, book",
+        "relative_path": "python/PythonPlayground",
+        "updated_at": "2023-11-22T09:52:59Z",
         "id": "#252"
     },
     {
-        "name": "The Case of the Missing Method",
-        "description": "Or to mix literary metaphors, where in the world do class methods get stored? An investigation into the sublime and elegant design of metaclasses in ruby",
-        "categories": "ruby",
-        "relative_path": "ruby/case_of_the_missing_method",
-        "updated_at": "2023-01-09T05:18:26Z",
+        "name": "Minimal Django",
+        "description": "The most bare-bones single file Django app",
+        "categories": "python, django",
+        "relative_path": "python/django/minimal",
+        "updated_at": "2023-11-22T09:52:59Z",
         "id": "#253"
     },
     {
-        "name": "Chart Gems",
-        "description": "Notes on ruby options for chart generation that support output as an image",
-        "categories": "ruby, graphing",
-        "relative_path": "ruby/chart_gems",
-        "updated_at": "2023-01-09T10:55:58Z",
+        "name": "Minimal Django Starter Project",
+        "description": "The basic Django app framework",
+        "categories": "python, django",
+        "relative_path": "python/django/minimal_startproject",
+        "updated_at": "2023-11-22T09:52:59Z",
         "id": "#254"
     },
     {
-        "name": "Video Editing",
-        "description": "Miscellaneous video editing and manipulation tools",
-        "categories": "tools, video",
-        "relative_path": "tools/video_editing",
-        "updated_at": "2023-01-22T08:06:46Z",
+        "name": "disk usage",
+        "description": "how to survey disk usage on linux systems",
+        "categories": "bash",
+        "relative_path": "bash/disk_usage",
+        "updated_at": "2023-11-22T09:52:59Z",
         "id": "#255"
     },
     {
@@ -2044,143 +2044,143 @@
         "description": "Using the getopts utility for parsing options in shell scripts",
         "categories": "bash",
         "relative_path": "bash/getopts",
-        "updated_at": "2023-02-08T10:15:42Z",
+        "updated_at": "2023-11-22T09:52:59Z",
         "id": "#256"
-    },
-    {
-        "name": "Big O Notation",
-        "description": "About Big O Notation",
-        "categories": "methods",
-        "relative_path": "methods/big_o_notation",
-        "updated_at": "2023-02-24T10:46:16Z",
-        "id": "#257"
-    },
-    {
-        "name": "Primary Key Audit",
-        "description": "How to list primary key details in a MySQL database",
-        "categories": "Database, MySQL",
-        "relative_path": "databases/mysql/primary_key_audit",
-        "updated_at": "2023-02-24T11:02:26Z",
-        "id": "#258"
-    },
-    {
-        "name": "disk usage",
-        "description": "how to survey disk usage on linux systems",
-        "categories": "bash",
-        "relative_path": "bash/disk_usage",
-        "updated_at": "2023-03-29T11:12:11Z",
-        "id": "#259"
-    },
-    {
-        "name": "Sublime Text",
-        "description": "All about Sublime Text",
-        "categories": "tools, editors",
-        "relative_path": "tools/sublime_text",
-        "updated_at": "2023-04-27T13:14:08Z",
-        "id": "#260"
-    },
-    {
-        "name": "cookieconsent",
-        "description": "Using cookieconsent for embedding cookie warnings in a web page",
-        "categories": "web, GDPR",
-        "relative_path": "web/cookieconsent",
-        "updated_at": "2023-04-27T13:27:55Z",
-        "id": "#261"
-    },
-    {
-        "name": "Lightweight Django",
-        "description": "Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly",
-        "categories": "python, book",
-        "relative_path": "python/LightweightDjango",
-        "updated_at": "2023-05-02T10:08:02Z",
-        "id": "#262"
-    },
-    {
-        "name": "Flask Web Development",
-        "description": "Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly",
-        "categories": "python, book",
-        "relative_path": "python/FlaskWebDevelopment",
-        "updated_at": "2023-05-02T10:34:11Z",
-        "id": "#263"
     },
     {
         "name": "Parameter Substitution",
         "description": "All about Bash parameter substitution.",
         "categories": "bash",
         "relative_path": "bash/parameter_substitution",
-        "updated_at": "2023-05-02T10:36:50Z",
-        "id": "#264"
+        "updated_at": "2023-11-22T09:52:59Z",
+        "id": "#257"
+    },
+    {
+        "name": "Audio Tone Generator",
+        "description": "I used ChatGPT to show me how to make an audio tone generation tool in Javascript and it taught me how to use the new(ish) AudioContext API",
+        "categories": "javascript, audio",
+        "relative_path": "javascript/tone_generator",
+        "updated_at": "2023-11-22T09:52:59Z",
+        "id": "#258"
+    },
+    {
+        "name": "Sublime Text",
+        "description": "All about Sublime Text",
+        "categories": "tools, editors",
+        "relative_path": "tools/sublime_text",
+        "updated_at": "2023-11-22T09:53:00Z",
+        "id": "#259"
+    },
+    {
+        "name": "Satellite Imagery Sources",
+        "description": "Poking around free satellite imagery services",
+        "categories": "tools, osint",
+        "relative_path": "tools/SatelliteImagerySources",
+        "updated_at": "2023-11-22T09:53:00Z",
+        "id": "#260"
+    },
+    {
+        "name": "Video Editing",
+        "description": "Miscellaneous video editing and manipulation tools",
+        "categories": "tools, video",
+        "relative_path": "tools/video_editing",
+        "updated_at": "2023-11-22T09:53:00Z",
+        "id": "#261"
     },
     {
         "name": "Lotto Picker - The Python Way",
         "description": "Using a lotto picker example to demonstrate random numbers and set operations the python way",
         "categories": "python",
         "relative_path": "python/lotto_picker",
-        "updated_at": "2023-05-16T14:39:04Z",
-        "id": "#265"
+        "updated_at": "2023-11-22T09:53:00Z",
+        "id": "#262"
     },
     {
-        "name": "Lotto Picker - The Ruby Way",
-        "description": "Using a lotto picker example to demonstrate random numbers and set operations the ruby way",
-        "categories": "ruby",
-        "relative_path": "ruby/lotto_picker",
-        "updated_at": "2023-05-16T14:39:04Z",
-        "id": "#266"
+        "name": "favicons",
+        "description": "All about favicons",
+        "categories": "web",
+        "relative_path": "web/favicons",
+        "updated_at": "2023-11-22T09:53:00Z",
+        "id": "#263"
     },
     {
-        "name": "Minimal Django",
-        "description": "The most bare-bones single file Django app",
-        "categories": "python, django",
-        "relative_path": "python/django/minimal",
-        "updated_at": "2023-05-16T15:05:14Z",
-        "id": "#267"
-    },
-    {
-        "name": "Minimal Django Starter Project",
-        "description": "The basic Django app framework",
-        "categories": "python, django",
-        "relative_path": "python/django/minimal_startproject",
-        "updated_at": "2023-05-16T15:05:14Z",
-        "id": "#268"
+        "name": "cookieconsent",
+        "description": "Using cookieconsent for embedding cookie warnings in a web page",
+        "categories": "web, GDPR",
+        "relative_path": "web/cookieconsent",
+        "updated_at": "2023-11-22T09:53:00Z",
+        "id": "#264"
     },
     {
         "name": "Lotto Picker - The Rust Way",
         "description": "Using a lotto picker example to demonstrate random numbers and set operations the rust way",
         "categories": "rust",
         "relative_path": "rust/lotto_picker",
-        "updated_at": "2023-05-18T14:08:55Z",
+        "updated_at": "2023-11-22T09:53:00Z",
+        "id": "#265"
+    },
+    {
+        "name": "Compiling Ruby",
+        "description": "Compiling Ruby (2.6.5-p114) from source and some debugging with llvm",
+        "categories": "ruby, C",
+        "relative_path": "rubylang/compiling",
+        "updated_at": "2023-11-22T09:53:00Z",
+        "id": "#266"
+    },
+    {
+        "name": "Lotto Picker - The Ruby Way",
+        "description": "Using a lotto picker example to demonstrate random numbers and set operations the ruby way",
+        "categories": "ruby",
+        "relative_path": "ruby/lotto_picker",
+        "updated_at": "2023-11-22T09:53:00Z",
+        "id": "#267"
+    },
+    {
+        "name": "Querying Atom Feeds",
+        "description": "Techniques and examples for querying Atom Feeds with XPath and Nokogiri",
+        "categories": "ruby",
+        "relative_path": "ruby/querying_atom_feeds",
+        "updated_at": "2023-11-22T09:53:00Z",
+        "id": "#268"
+    },
+    {
+        "name": "The Case of the Missing Method",
+        "description": "Or to mix literary metaphors, where in the world do class methods get stored? An investigation into the sublime and elegant design of metaclasses in ruby",
+        "categories": "ruby",
+        "relative_path": "ruby/case_of_the_missing_method",
+        "updated_at": "2023-11-22T09:53:00Z",
         "id": "#269"
+    },
+    {
+        "name": "Chart Gems",
+        "description": "Notes on ruby options for chart generation that support output as an image",
+        "categories": "ruby, graphing",
+        "relative_path": "ruby/chart_gems",
+        "updated_at": "2023-11-22T09:53:00Z",
+        "id": "#270"
     },
     {
         "name": "xe_currency",
         "description": "Using the Xe Currency Data API from Ruby and with curl",
         "categories": "ruby",
         "relative_path": "ruby/xe_currency",
-        "updated_at": "2023-07-14T16:06:39Z",
-        "id": "#270"
-    },
-    {
-        "name": "PostgreSQL Locks",
-        "description": "Notes on managing PostgreSQL locks",
-        "categories": "databases, postgresql",
-        "relative_path": "databases/postgresql/locks",
-        "updated_at": "2023-08-29T13:15:40Z",
+        "updated_at": "2023-11-22T09:53:00Z",
         "id": "#271"
     },
     {
-        "name": "PostgreSQL Sequences",
-        "description": "Notes on managing PostgreSQL Sequences",
-        "categories": "databases, postgresql",
-        "relative_path": "databases/postgresql/sequences",
-        "updated_at": "2023-08-29T13:15:56Z",
+        "name": "IPv4 Addresses with Ruby",
+        "description": "All about dissecting IPv4 addresses with ruby including networks, netmasks and CIDR",
+        "categories": "ruby",
+        "relative_path": "ruby/ipv4",
+        "updated_at": "2023-11-22T09:53:00Z",
         "id": "#272"
     },
     {
-        "name": "Docker Housekeeping",
-        "description": "Some simple housekeeping commands for Docker",
-        "categories": "docker",
-        "relative_path": "docker/housekeeping",
-        "updated_at": "2023-11-22T09:44:00Z",
+        "name": "NTP with Ruby",
+        "description": "All about the NTP protocol with examples in ruby",
+        "categories": "ruby",
+        "relative_path": "ruby/ntp",
+        "updated_at": "2023-11-22T09:53:00Z",
         "id": "#273"
     }
 ]

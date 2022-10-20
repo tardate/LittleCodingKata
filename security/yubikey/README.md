@@ -11,7 +11,7 @@ I first heard about the [YubiKey](https://www.yubico.com/) hardware security key
 ## YubiKey 5 NFC
 
 * Multi-protocol support: FIDO2, U2F, Smart card, OTP, OpenPGP 3
-* Inferface: USB-A, NFC
+* Interface: USB-A, NFC
 * IP68 rated: dust tight and water submersible
 
 [![yubikey5nfc](./assets/yubikey5nfc.png?raw=true)](https://www.yubico.com/sg/works-with-yubikey/catalog/#protocol=all&usecase=all&key=yubikey-5-nfc)
@@ -23,24 +23,24 @@ See [Works with YubiKey catalog](https://www.yubico.com/sg/works-with-yubikey/ca
 Some of the services I've personally used the YubiKey with...
 
 * Google Account Login
-  * [yubico: Google Accounts](https://www.yubico.com/sg/works-with-yubikey/catalog/google-accounts/)
-  * [Google: Use a security key for 2-Step Verification](https://support.google.com/accounts/answer/6103523)
-  * Tested:
-    * MacOS High Sierra / Chrome browser
-    * MacOS High Sierra / Firefox browser
+    * [yubico: Google Accounts](https://www.yubico.com/sg/works-with-yubikey/catalog/google-accounts/)
+    * [Google: Use a security key for 2-Step Verification](https://support.google.com/accounts/answer/6103523)
+    * Tested:
+        * MacOS High Sierra / Chrome browser
+        * MacOS High Sierra / Firefox browser
 * GitHub
-  * [yubico: GitHub](https://www.yubico.com/sg/works-with-yubikey/catalog/github/)
-  * [GitHub: Configuring two-factor authentication](https://docs.github.com/en/github/authenticating-to-github/configuring-two-factor-authentication#configuring-two-factor-authentication-using-fido-u2f)
-  * enable 2FA with Google Authenticator app, then can add Yubikey as a security key
-  * Tested:
-    * MacOS High Sierra / Chrome browser
-    * MacOS High Sierra / Firefox browser
+    * [yubico: GitHub](https://www.yubico.com/sg/works-with-yubikey/catalog/github/)
+    * [GitHub: Configuring two-factor authentication](https://docs.github.com/en/github/authenticating-to-github/configuring-two-factor-authentication#configuring-two-factor-authentication-using-fido-u2f)
+    * enable 2FA with Google Authenticator app, then can add Yubikey as a security key
+    * Tested:
+        * MacOS High Sierra / Chrome browser
+        * MacOS High Sierra / Firefox browser
 * [Wasabi](https://wasabi.com/) Cloud Storage
-  * not a documented/supported integration, but can use OATH
+    * not a documented/supported integration, but can use OATH
 * [KeepassXC](https://keepassxc.org/project/) - cross-platform, open-source password manager successor to the original [KeePass](https://keepass.info/)
-  * [GitHub - source](https://github.com/keepassxreboot/keepassxc)
-  * [How do I configure my YubiKey / OnlyKey for use with KeePassXC?](https://keepassxc.org/docs/#faq-yubikey-howto)
-  * [Using Your YubiKey with KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass)
+    * [GitHub - source](https://github.com/keepassxreboot/keepassxc)
+    * [How do I configure my YubiKey / OnlyKey for use with KeePassXC?](https://keepassxc.org/docs/#faq-yubikey-howto)
+    * [Using Your YubiKey with KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass)
 
 ## YubiKey Manager (ykman) CLI & GUI
 
@@ -56,15 +56,19 @@ The YubiKey Manager (ykman) is a cross-platform application for configuring any 
 
 Installation
 
-    $ pip install --user yubikey-manager
+```sh
+pip install --user yubikey-manager
+```
 
 The installation directory was not on the path, so added:
 
-    $ export PATH="$PATH:$HOME/.local/bin"
+```sh
+export PATH="$PATH:$HOME/.local/bin"
+```
 
 ### ykman info
 
-```
+```sh
 $ ykman list
 YubiKey 5 NFC (5.2.7) [OTP+FIDO+CCID] Serial: ########
 $ ykman info
@@ -119,7 +123,7 @@ This adds the account in the Yubico Authenticator (actually, it is stored on the
 
 ![wasabi-add-account](./assets/wasabi-add-account.png?raw=true)
 
-After using the Yubico Authenticator to generate two codes that need to be added to the Wasabie MFA setup page, MFA is enabled:
+After using the Yubico Authenticator to generate two codes that need to be added to the Wasabi MFA setup page, MFA is enabled:
 
 ![wasabi-mfa-enabled](./assets/wasabi-mfa-enabled.png?raw=true)
 
@@ -133,7 +137,7 @@ I need to insert my YubiKey and use the Yubico Authenticator to initiate touch c
 
 Alternatively, codes can be generated from the command line instead of using the Yubico Authenticator GUI:
 
-```
+```sh
 $ ykman oath accounts list
 Wasabi Technologies:root-account-XXXXXXXXXXX@wasabi.com
 $ ykman oath accounts code wasabi

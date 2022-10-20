@@ -1,0 +1,70 @@
+Owner: CN=R3, O=Let's Encrypt, C=US
+Issuer: CN=ISRG Root X1, O=Internet Security Research Group, C=US
+Serial number: 912b084acf0c18a753f6d62e25a75f5a
+Valid from: Fri Sep 04 08:00:00 SGT 2020 until: Tue Sep 16 00:00:00 SGT 2025
+Certificate fingerprints:
+	 MD5:  E8:29:E6:5D:7C:43:07:D6:FB:C1:3C:17:9E:03:7A:36
+	 SHA1: A0:53:37:5B:FE:84:E8:B7:48:78:2C:7C:EE:15:82:7A:6A:F5:A4:05
+	 SHA256: 67:AD:D1:16:6B:02:0A:E6:1B:8F:5F:C9:68:13:C0:4C:2A:A5:89:96:07:96:86:55:72:A3:C7:E7:37:61:3D:FD
+	 Signature algorithm name: SHA256withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+AuthorityInfoAccess [
+  [
+   accessMethod: caIssuers
+   accessLocation: URIName: http://x1.i.lencr.org/
+]
+]
+
+#2: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 79 B4 59 E6 7B B6 E5 E4   01 73 80 08 88 C8 1A 58  y.Y......s.....X
+0010: F6 E9 9B 6E                                        ...n
+]
+]
+
+#3: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:0
+]
+
+#4: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://x1.c.lencr.org/]
+]]
+
+#5: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [2.23.140.1.2.1]
+[]  ]
+  [CertificatePolicyId: [1.3.6.1.4.1.44947.1.1.1]
+[]  ]
+]
+
+#6: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  clientAuth
+  serverAuth
+]
+
+#7: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+#8: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 14 2E B3 17 B7 58 56 CB   AE 50 09 40 E6 1F AF 9D  .....XV..P.@....
+0010: 8B 14 C2 C6                                        ....
+]
+]
+

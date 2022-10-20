@@ -2115,16 +2115,93 @@
             "networking"
         ]
     },
-    "/web/favicons/": {
+    "/databases/postgresql/locks/": {
         "id": 242,
-        "title": "favicons",
-        "summary": "All about favicons",
+        "title": "PostgreSQL Locks",
+        "summary": "Notes on managing PostgreSQL locks",
         "tags": [
-            "web"
+            "databases",
+            "postgresql"
+        ]
+    },
+    "/databases/postgresql/sequences/": {
+        "id": 243,
+        "title": "PostgreSQL Sequences",
+        "summary": "Notes on managing PostgreSQL Sequences",
+        "tags": [
+            "databases",
+            "postgresql"
+        ]
+    },
+    "/databases/mysql/primary_key_audit/": {
+        "id": 244,
+        "title": "Primary Key Audit",
+        "summary": "How to list primary key details in a MySQL database",
+        "tags": [
+            "Database",
+            "MySQL"
+        ]
+    },
+    "/docker/housekeeping/": {
+        "id": 245,
+        "title": "Docker Housekeeping",
+        "summary": "Some simple housekeeping commands for Docker",
+        "tags": [
+            "docker"
+        ]
+    },
+    "/methods/the_pocket_guide_to_debugging/": {
+        "id": 246,
+        "title": "The Pocket Guide to Debugging",
+        "summary": "Book notes - The Pocket Guide to Debugging by Julia Evans",
+        "tags": [
+            "methods"
+        ]
+    },
+    "/methods/big_o_notation/": {
+        "id": 247,
+        "title": "Big O Notation",
+        "summary": "About Big O Notation",
+        "tags": [
+            "methods"
+        ]
+    },
+    "/methods/livable_code/": {
+        "id": 248,
+        "title": "Livable Code",
+        "summary": "Notes on the RailsConf 2018 Keynote - Livable Code by Sarah Mei",
+        "tags": [
+            "methods"
+        ]
+    },
+    "/python/FlaskWebDevelopment/": {
+        "id": 249,
+        "title": "Flask Web Development",
+        "summary": "Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly",
+        "tags": [
+            "python",
+            "book"
+        ]
+    },
+    "/python/image_resize/": {
+        "id": 250,
+        "title": "Image Resize",
+        "summary": "Simple image resizing with python and the Pillow library and a little yak shaving with EXIF tags",
+        "tags": [
+            "python"
+        ]
+    },
+    "/python/LightweightDjango/": {
+        "id": 251,
+        "title": "Lightweight Django",
+        "summary": "Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly",
+        "tags": [
+            "python",
+            "book"
         ]
     },
     "/python/PythonPlayground/": {
-        "id": 243,
+        "id": 252,
         "title": "Python Playground",
         "summary": "Book notes - Python Playground, by Mahesh Venkitachalam, published by No Starch Press",
         "tags": [
@@ -2132,105 +2209,30 @@
             "book"
         ]
     },
-    "/ruby/ipv4/": {
-        "id": 244,
-        "title": "IPv4 Addresses with Ruby",
-        "summary": "All about dissecting IPv4 addresses with ruby including networks, netmasks and CIDR",
-        "tags": [
-            "ruby"
-        ]
-    },
-    "/ruby/ntp/": {
-        "id": 245,
-        "title": "NTP with Ruby",
-        "summary": "All about the NTP protocol with examples in ruby",
-        "tags": [
-            "ruby"
-        ]
-    },
-    "/tools/SatelliteImagerySources/": {
-        "id": 246,
-        "title": "Satellite Imagery Sources",
-        "summary": "Poking around free satellite imagery services",
-        "tags": [
-            "tools",
-            "osint"
-        ]
-    },
-    "/python/image_resize/": {
-        "id": 247,
-        "title": "Image Resize",
-        "summary": "Simple image resizing with python and the Pillow library and a little yak shaving with EXIF tags",
-        "tags": [
-            "python"
-        ]
-    },
-    "/rubylang/compiling/": {
-        "id": 248,
-        "title": "Compiling Ruby",
-        "summary": "Compiling Ruby (2.6.5-p114) from source and some debugging with llvm",
-        "tags": [
-            "ruby",
-            "C"
-        ]
-    },
-    "/ruby/querying_atom_feeds/": {
-        "id": 249,
-        "title": "Querying Atom Feeds",
-        "summary": "Techniques and examples for querying Atom Feeds with XPath and Nokogiri",
-        "tags": [
-            "ruby"
-        ]
-    },
-    "/methods/the_pocket_guide_to_debugging/": {
-        "id": 250,
-        "title": "The Pocket Guide to Debugging",
-        "summary": "Book notes - The Pocket Guide to Debugging by Julia Evans",
-        "tags": [
-            "methods"
-        ]
-    },
-    "/methods/livable_code/": {
-        "id": 251,
-        "title": "Livable Code",
-        "summary": "Notes on the RailsConf 2018 Keynote - Livable Code by Sarah Mei",
-        "tags": [
-            "methods"
-        ]
-    },
-    "/javascript/tone_generator/": {
-        "id": 252,
-        "title": "Audio Tone Generator",
-        "summary": "I used ChatGPT to show me how to make an audio tone generation tool in Javascript and it taught me how to use the new(ish) AudioContext API",
-        "tags": [
-            "javascript",
-            "audio"
-        ]
-    },
-    "/ruby/case_of_the_missing_method/": {
+    "/python/django/minimal/": {
         "id": 253,
-        "title": "The Case of the Missing Method",
-        "summary": "Or to mix literary metaphors, where in the world do class methods get stored? An investigation into the sublime and elegant design of metaclasses in ruby",
+        "title": "Minimal Django",
+        "summary": "The most bare-bones single file Django app",
         "tags": [
-            "ruby"
+            "python",
+            "django"
         ]
     },
-    "/ruby/chart_gems/": {
+    "/python/django/minimal_startproject/": {
         "id": 254,
-        "title": "Chart Gems",
-        "summary": "Notes on ruby options for chart generation that support output as an image",
+        "title": "Minimal Django Starter Project",
+        "summary": "The basic Django app framework",
         "tags": [
-            "ruby",
-            "graphing"
+            "python",
+            "django"
         ]
     },
-    "/tools/video_editing/": {
+    "/bash/disk_usage/": {
         "id": 255,
-        "title": "Video Editing",
-        "summary": "Miscellaneous video editing and manipulation tools",
+        "title": "disk usage",
+        "summary": "how to survey disk usage on linux systems",
         "tags": [
-            "tools",
-            "video"
+            "bash"
         ]
     },
     "/bash/getopts/": {
@@ -2241,33 +2243,25 @@
             "bash"
         ]
     },
-    "/methods/big_o_notation/": {
+    "/bash/parameter_substitution/": {
         "id": 257,
-        "title": "Big O Notation",
-        "summary": "About Big O Notation",
-        "tags": [
-            "methods"
-        ]
-    },
-    "/databases/mysql/primary_key_audit/": {
-        "id": 258,
-        "title": "Primary Key Audit",
-        "summary": "How to list primary key details in a MySQL database",
-        "tags": [
-            "Database",
-            "MySQL"
-        ]
-    },
-    "/bash/disk_usage/": {
-        "id": 259,
-        "title": "disk usage",
-        "summary": "how to survey disk usage on linux systems",
+        "title": "Parameter Substitution",
+        "summary": "All about Bash parameter substitution.",
         "tags": [
             "bash"
         ]
     },
+    "/javascript/tone_generator/": {
+        "id": 258,
+        "title": "Audio Tone Generator",
+        "summary": "I used ChatGPT to show me how to make an audio tone generation tool in Javascript and it taught me how to use the new(ish) AudioContext API",
+        "tags": [
+            "javascript",
+            "audio"
+        ]
+    },
     "/tools/sublime_text/": {
-        "id": 260,
+        "id": 259,
         "title": "Sublime Text",
         "summary": "All about Sublime Text",
         "tags": [
@@ -2275,8 +2269,42 @@
             "editors"
         ]
     },
-    "/web/cookieconsent/": {
+    "/tools/SatelliteImagerySources/": {
+        "id": 260,
+        "title": "Satellite Imagery Sources",
+        "summary": "Poking around free satellite imagery services",
+        "tags": [
+            "tools",
+            "osint"
+        ]
+    },
+    "/tools/video_editing/": {
         "id": 261,
+        "title": "Video Editing",
+        "summary": "Miscellaneous video editing and manipulation tools",
+        "tags": [
+            "tools",
+            "video"
+        ]
+    },
+    "/python/lotto_picker/": {
+        "id": 262,
+        "title": "Lotto Picker - The Python Way",
+        "summary": "Using a lotto picker example to demonstrate random numbers and set operations the python way",
+        "tags": [
+            "python"
+        ]
+    },
+    "/web/favicons/": {
+        "id": 263,
+        "title": "favicons",
+        "summary": "All about favicons",
+        "tags": [
+            "web"
+        ]
+    },
+    "/web/cookieconsent/": {
+        "id": 264,
         "title": "cookieconsent",
         "summary": "Using cookieconsent for embedding cookie warnings in a web page",
         "tags": [
@@ -2284,106 +2312,78 @@
             "GDPR"
         ]
     },
-    "/python/LightweightDjango/": {
-        "id": 262,
-        "title": "Lightweight Django",
-        "summary": "Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly",
-        "tags": [
-            "python",
-            "book"
-        ]
-    },
-    "/python/FlaskWebDevelopment/": {
-        "id": 263,
-        "title": "Flask Web Development",
-        "summary": "Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly",
-        "tags": [
-            "python",
-            "book"
-        ]
-    },
-    "/bash/parameter_substitution/": {
-        "id": 264,
-        "title": "Parameter Substitution",
-        "summary": "All about Bash parameter substitution.",
-        "tags": [
-            "bash"
-        ]
-    },
-    "/python/lotto_picker/": {
-        "id": 265,
-        "title": "Lotto Picker - The Python Way",
-        "summary": "Using a lotto picker example to demonstrate random numbers and set operations the python way",
-        "tags": [
-            "python"
-        ]
-    },
-    "/ruby/lotto_picker/": {
-        "id": 266,
-        "title": "Lotto Picker - The Ruby Way",
-        "summary": "Using a lotto picker example to demonstrate random numbers and set operations the ruby way",
-        "tags": [
-            "ruby"
-        ]
-    },
-    "/python/django/minimal/": {
-        "id": 267,
-        "title": "Minimal Django",
-        "summary": "The most bare-bones single file Django app",
-        "tags": [
-            "python",
-            "django"
-        ]
-    },
-    "/python/django/minimal_startproject/": {
-        "id": 268,
-        "title": "Minimal Django Starter Project",
-        "summary": "The basic Django app framework",
-        "tags": [
-            "python",
-            "django"
-        ]
-    },
     "/rust/lotto_picker/": {
-        "id": 269,
+        "id": 265,
         "title": "Lotto Picker - The Rust Way",
         "summary": "Using a lotto picker example to demonstrate random numbers and set operations the rust way",
         "tags": [
             "rust"
         ]
     },
-    "/ruby/xe_currency/": {
+    "/rubylang/compiling/": {
+        "id": 266,
+        "title": "Compiling Ruby",
+        "summary": "Compiling Ruby (2.6.5-p114) from source and some debugging with llvm",
+        "tags": [
+            "ruby",
+            "C"
+        ]
+    },
+    "/ruby/lotto_picker/": {
+        "id": 267,
+        "title": "Lotto Picker - The Ruby Way",
+        "summary": "Using a lotto picker example to demonstrate random numbers and set operations the ruby way",
+        "tags": [
+            "ruby"
+        ]
+    },
+    "/ruby/querying_atom_feeds/": {
+        "id": 268,
+        "title": "Querying Atom Feeds",
+        "summary": "Techniques and examples for querying Atom Feeds with XPath and Nokogiri",
+        "tags": [
+            "ruby"
+        ]
+    },
+    "/ruby/case_of_the_missing_method/": {
+        "id": 269,
+        "title": "The Case of the Missing Method",
+        "summary": "Or to mix literary metaphors, where in the world do class methods get stored? An investigation into the sublime and elegant design of metaclasses in ruby",
+        "tags": [
+            "ruby"
+        ]
+    },
+    "/ruby/chart_gems/": {
         "id": 270,
+        "title": "Chart Gems",
+        "summary": "Notes on ruby options for chart generation that support output as an image",
+        "tags": [
+            "ruby",
+            "graphing"
+        ]
+    },
+    "/ruby/xe_currency/": {
+        "id": 271,
         "title": "xe_currency",
         "summary": "Using the Xe Currency Data API from Ruby and with curl",
         "tags": [
             "ruby"
         ]
     },
-    "/databases/postgresql/locks/": {
-        "id": 271,
-        "title": "PostgreSQL Locks",
-        "summary": "Notes on managing PostgreSQL locks",
-        "tags": [
-            "databases",
-            "postgresql"
-        ]
-    },
-    "/databases/postgresql/sequences/": {
+    "/ruby/ipv4/": {
         "id": 272,
-        "title": "PostgreSQL Sequences",
-        "summary": "Notes on managing PostgreSQL Sequences",
+        "title": "IPv4 Addresses with Ruby",
+        "summary": "All about dissecting IPv4 addresses with ruby including networks, netmasks and CIDR",
         "tags": [
-            "databases",
-            "postgresql"
+            "ruby"
         ]
     },
-    "/docker/housekeeping/": {
+    "/ruby/ntp/": {
         "id": 273,
-        "title": "Docker Housekeeping",
-        "summary": "Some simple housekeeping commands for Docker",
+        "title": "NTP with Ruby",
+        "summary": "All about the NTP protocol with examples in ruby",
         "tags": [
-            "docker"
+            "ruby"
         ]
     }
 }
