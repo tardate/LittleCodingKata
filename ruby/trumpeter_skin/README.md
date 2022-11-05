@@ -8,7 +8,10 @@ Here's a quick demo..
 
 ## Notes
 
-Trumpeter 小号手公司 is one of the main scale model manufaccturers in China,
+> these original notes are left as-is, however I have ported this project over to
+> maintain independently at <https://github.com/tardate/trumpeter_catalog>
+
+Trumpeter 小号手公司 is one of the main scale model manufacturers in China,
 and [their website](http://www.trumpeter-china.com) is not only available in English, but reasonably informative.
 It is very slow however, and a pain to search.
 
