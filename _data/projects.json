@@ -2139,5 +2139,13 @@
             "tools",
             "networking"
         ]
+    },
+    "/web/favicons/": {
+        "id": 245,
+        "title": "favicons",
+        "summary": "All about favicons",
+        "tags": [
+            "web"
+        ]
     }
 }

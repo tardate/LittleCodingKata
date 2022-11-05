@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2022-10-21T08:26:23Z</updated>
+  <updated>2022-11-05T16:13:34Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2151,5 +2151,13 @@
     <summary>A quick survey of WiFi scanners</summary>
     <category term="tools"/>
     <category term="networking"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/web/favicons/</id>
+    <link href="https://codingkata.tardate.com/web/favicons/"/>
+    <updated>2022-11-05T16:11:10Z</updated>
+    <title>favicons</title>
+    <summary>All about favicons</summary>
+    <category term="web"/>
   </entry>
 </feed>
