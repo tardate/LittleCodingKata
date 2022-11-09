@@ -1958,5 +1958,13 @@
         "relative_path": "web/favicons",
         "updated_at": "2022-11-05T16:11:10Z",
         "id": "#245"
+    },
+    {
+        "name": "Python Playground",
+        "description": "Book notes - Python Playground, by Mahesh Venkitachalam, published by No Starch Press",
+        "categories": "python, book",
+        "relative_path": "python/PythonPlayground",
+        "updated_at": "2022-11-09T10:27:57Z",
+        "id": "#246"
     }
 ]

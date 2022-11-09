@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2022-11-05T16:13:34Z</updated>
+  <updated>2022-11-09T10:28:16Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2159,5 +2159,14 @@
     <title>favicons</title>
     <summary>All about favicons</summary>
     <category term="web"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/PythonPlayground/</id>
+    <link href="https://codingkata.tardate.com/python/PythonPlayground/"/>
+    <updated>2022-11-09T10:27:57Z</updated>
+    <title>Python Playground</title>
+    <summary>Book notes - Python Playground, by Mahesh Venkitachalam, published by No Starch Press</summary>
+    <category term="python"/>
+    <category term="book"/>
   </entry>
 </feed>

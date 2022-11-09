@@ -2147,5 +2147,14 @@
         "tags": [
             "web"
         ]
+    },
+    "/python/PythonPlayground/": {
+        "id": 246,
+        "title": "Python Playground",
+        "summary": "Book notes - Python Playground, by Mahesh Venkitachalam, published by No Starch Press",
+        "tags": [
+            "python",
+            "book"
+        ]
     }
 }
