@@ -1,0 +1,6 @@
+{
+    "name": "IPv4 Addresses with Ruby",
+    "description": "All about disecting IPv4 addresses with ruby including networks, netmasks and CIDR",
+    "categories": "ruby",
+    "relative_path": "ruby/ipv4"
+}
