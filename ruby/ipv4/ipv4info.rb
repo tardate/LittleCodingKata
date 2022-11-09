@@ -42,7 +42,7 @@ class Ipv4Info
   end
 
   def info
-    puts "Given: #{ip_address}, inspected using the IPAddr stdib..\n\n"
+    puts "Given: #{ip_address}, inspected using the IPAddr stdlib..\n\n"
     puts "               IPv4? : #{ipv4?}"
     puts "            Private? : #{private?}"
     puts "                CIDR : #{cidr}"

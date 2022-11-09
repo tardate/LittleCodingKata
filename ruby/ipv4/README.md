@@ -1,6 +1,6 @@
 # IPv4 Addresses with Ruby
 
-All about disecting IPv4 addresses with ruby including networks, netmasks and CIDR
+All about dissecting IPv4 addresses with ruby including networks, netmasks and CIDR
 
 ## Notes
 
@@ -36,10 +36,10 @@ For example:
 
 The [Subnet Calculator](https://mxtoolbox.com/subnetcalculator.aspx) site is an easy way to test/check IP addresses
 
-### Disecting an IPv4 Address with Ruby
+### Dissecting an IPv4 Address with Ruby
 
 The [IPAddr](https://ruby-doc.org/stdlib-2.5.1/libdoc/ipaddr/rdoc/IPAddr.html) standard library
-provides the basic tools for disecting and IPv4 address (with a bit of finagling).
+provides the basic tools for dissecting and IPv4 address (with a bit of finagling).
 
 The [ipv4info.rb](./ipv4info.rb) script provides an example of how to parse and use an IPv4 address.
 Some example runs..
@@ -47,7 +47,7 @@ Some example runs..
 Given a network address and CIDR mask, it correctly extracts the network and host information:
 
     $ ./ipv4info.rb 198.51.100.14/24
-    Given: 198.51.100.14/24, inspected using the IPAddr stdib..
+    Given: 198.51.100.14/24, inspected using the IPAddr stdlib..
 
                    IPv4? : true
                 Private? : false
@@ -57,10 +57,10 @@ Given a network address and CIDR mask, it correctly extracts the network and hos
     Addresses in network : 256
         Hosts in network : 254
 
-It recognises private (unroutable) addresses:
+It recognises private (unquotable) addresses:
 
     $ ./ipv4info.rb 192.168.10.10/28
-    Given: 192.168.10.10/28, inspected using the IPAddr stdib..
+    Given: 192.168.10.10/28, inspected using the IPAddr stdlib..
 
                    IPv4? : true
                 Private? : true
@@ -73,7 +73,7 @@ It recognises private (unroutable) addresses:
 Adjusting the CIDR mask resizes the network accordingly:
 
     $ ./ipv4info.rb 192.168.10.10/30
-    Given: 192.168.10.10/30, inspected using the IPAddr stdib..
+    Given: 192.168.10.10/30, inspected using the IPAddr stdlib..
 
                    IPv4? : true
                 Private? : true
@@ -83,10 +83,10 @@ Adjusting the CIDR mask resizes the network accordingly:
     Addresses in network : 4
         Hosts in network : 2
 
-And if no CIDR mask is provided, the address is treated as a "netwok of 1 host":
+And if no CIDR mask is provided, the address is treated as a "network of 1 host":
 
     $ ./ipv4info.rb 192.168.10.10
-    Given: 192.168.10.10, inspected using the IPAddr stdib..
+    Given: 192.168.10.10, inspected using the IPAddr stdlib..
 
                    IPv4? : true
                 Private? : true
@@ -121,7 +121,7 @@ is a Ruby library for performing calculations on IPv4 and IPv6 subnets.
 It handles makes most of the IPAddr limitations, with the exception of the private address detection.
 
 See [ipv4info_netaddr.rb](./ipv4info_netaddr.rb) for a rewrite of the script but using the netaddr gem.
-It behaves the same, bu needs a bundle first to make sure the gem is isntalled:
+It behaves the same, bu needs a bundle first to make sure the gem is installed:
 
     $ bundle install
     $ ./ipv4info_netaddr.rb 198.51.100.14/24
@@ -147,7 +147,6 @@ PS: there's also a test suite:
     Finished in 0.002640s, 7954.5452 runs/s, 7954.5452 assertions/s.
 
     21 runs, 21 assertions, 0 failures, 0 errors, 0 skips
-
 
 ## Credits and References
 

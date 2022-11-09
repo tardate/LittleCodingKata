@@ -2160,7 +2160,7 @@
     "/ruby/ipv4/": {
         "id": 247,
         "title": "IPv4 Addresses with Ruby",
-        "summary": "All about disecting IPv4 addresses with ruby including networks, netmasks and CIDR",
+        "summary": "All about dissecting IPv4 addresses with ruby including networks, netmasks and CIDR",
         "tags": [
             "ruby"
         ]

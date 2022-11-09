@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2022-11-09T13:55:01Z</updated>
+  <updated>2022-11-09T14:03:54Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2172,9 +2172,9 @@
   <entry>
     <id>https://codingkata.tardate.com/ruby/ipv4/</id>
     <link href="https://codingkata.tardate.com/ruby/ipv4/"/>
-    <updated>2022-11-09T13:54:35Z</updated>
+    <updated>2022-11-09T14:03:46Z</updated>
     <title>IPv4 Addresses with Ruby</title>
-    <summary>All about disecting IPv4 addresses with ruby including networks, netmasks and CIDR</summary>
+    <summary>All about dissecting IPv4 addresses with ruby including networks, netmasks and CIDR</summary>
     <category term="ruby"/>
   </entry>
 </feed>
