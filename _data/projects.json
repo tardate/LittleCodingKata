@@ -2164,5 +2164,13 @@
         "tags": [
             "ruby"
         ]
+    },
+    "/ruby/ntp/": {
+        "id": 248,
+        "title": "NTP with Ruby",
+        "summary": "All about the NTP protocol with examples in ruby",
+        "tags": [
+            "ruby"
+        ]
     }
 }

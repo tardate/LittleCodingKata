@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2022-11-09T14:03:54Z</updated>
+  <updated>2022-11-13T05:05:50Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2175,6 +2175,14 @@
     <updated>2022-11-09T14:03:46Z</updated>
     <title>IPv4 Addresses with Ruby</title>
     <summary>All about dissecting IPv4 addresses with ruby including networks, netmasks and CIDR</summary>
+    <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/ntp/</id>
+    <link href="https://codingkata.tardate.com/ruby/ntp/"/>
+    <updated>2022-11-13T02:57:33Z</updated>
+    <title>NTP with Ruby</title>
+    <summary>All about the NTP protocol with examples in ruby</summary>
     <category term="ruby"/>
   </entry>
 </feed>

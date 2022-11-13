@@ -1974,5 +1974,13 @@
         "relative_path": "ruby/ipv4",
         "updated_at": "2022-11-09T14:03:46Z",
         "id": "#247"
+    },
+    {
+        "name": "NTP with Ruby",
+        "description": "All about the NTP protocol with examples in ruby",
+        "categories": "ruby",
+        "relative_path": "ruby/ntp",
+        "updated_at": "2022-11-13T02:57:33Z",
+        "id": "#248"
     }
 ]

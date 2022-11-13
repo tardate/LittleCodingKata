@@ -1,0 +1,6 @@
+{
+    "name": "NTP with Ruby",
+    "description": "All about the NTP protocol with examples in ruby",
+    "categories": "ruby",
+    "relative_path": "ruby/ntp"
+}
