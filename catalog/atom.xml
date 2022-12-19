@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2022-11-13T05:05:50Z</updated>
+  <updated>2022-12-19T03:16:37Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2184,5 +2184,14 @@
     <title>NTP with Ruby</title>
     <summary>All about the NTP protocol with examples in ruby</summary>
     <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/SatelliteImagerySources/</id>
+    <link href="https://codingkata.tardate.com/tools/SatelliteImagerySources/"/>
+    <updated>2022-12-19T03:16:16Z</updated>
+    <title>Satellite Imagery Sources</title>
+    <summary>Poking around free satellite imagery services</summary>
+    <category term="tools"/>
+    <category term="osint"/>
   </entry>
 </feed>

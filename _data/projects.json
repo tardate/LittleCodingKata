@@ -2172,5 +2172,14 @@
         "tags": [
             "ruby"
         ]
+    },
+    "/tools/SatelliteImagerySources/": {
+        "id": 249,
+        "title": "Satellite Imagery Sources",
+        "summary": "Poking around free satellite imagery services",
+        "tags": [
+            "tools",
+            "osint"
+        ]
     }
 }

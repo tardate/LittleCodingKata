@@ -1982,5 +1982,13 @@
         "relative_path": "ruby/ntp",
         "updated_at": "2022-11-13T02:57:33Z",
         "id": "#248"
+    },
+    {
+        "name": "Satellite Imagery Sources",
+        "description": "Poking around free satellite imagery services",
+        "categories": "tools, osint",
+        "relative_path": "tools/SatelliteImagerySources",
+        "updated_at": "2022-12-19T03:16:16Z",
+        "id": "#249"
     }
 ]

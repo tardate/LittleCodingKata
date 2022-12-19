@@ -1,0 +1,6 @@
+{
+    "name": "Satellite Imagery Sources",
+    "description": "Poking around free satellite imagery services",
+    "categories": "tools, osint",
+    "relative_path": "tools/SatelliteImagerySources"
+}
