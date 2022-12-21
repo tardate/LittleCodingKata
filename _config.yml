@@ -45,8 +45,9 @@ facebook_comments_number: 10
 github_username:  tardate
 bitbucket_username:
 stackoverflow_id: 6329
-mastodon_url: https://ruby.social/@tardate
-mastodon_name: @tardate@ruby.social
+mastodon_url: "https://ruby.social/@tardate"
+mastodon_name: "@tardate@ruby.social"
+instagram_username: "little.electronic.art.projects"
 twitter_username: tardate
 skype_username:
 steam_nickname:
@@ -57,7 +58,6 @@ medium_id:
 bitcoin_url:
 paypal_url:
 flattr_button:
-
 
 # Build settings
 markdown: kramdown
@@ -82,11 +82,12 @@ exclude:
   - javascript/highcharts_with_bower/node_modules
   - messaging/grpc/explainer/node/node_modules
   - node/*/node_modules
+  - security/metasploit_penetration_testing_cookbook/metasploit-framework
   - staticweb/jekyll/myblog
   - staticweb/jekyll/gh*
   - staticweb/punch/testsite
-  - ruby/compiling/ruby
-  - ruby/compiling/HelloMyruby
+  - rubylang/compiling/ruby
+  - rubylang/compiling/HelloMyruby
   - ruby/rails3/minime3
   - ruby/rails4/minime4
   - ruby/rails5/minime5
