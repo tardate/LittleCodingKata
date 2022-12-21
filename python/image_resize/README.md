@@ -4,7 +4,7 @@ Simple image resizing with python and the Pillow library and a little yak shavin
 
 ## Notes
 
-The original [Python Imaging Library (PIL)](https://pypi.org/project/PIL/) has been superseeded by
+The original [Python Imaging Library (PIL)](https://pypi.org/project/PIL/) has been superseded by
 the [Pillow](https://pypi.org/project/Pillow/) fork as perhaps the most popular image manipulation library for python.
 The history is described in [this wikipedia article](https://en.wikipedia.org/wiki/Python_Imaging_Library).
 
@@ -12,7 +12,7 @@ The history is described in [this wikipedia article](https://en.wikipedia.org/wi
 
 This script uses [Pillow](https://pypi.org/project/Pillow/) as described in [requirements.txt](./requirements.txt). Install with pip:
 
-```
+```sh
 $ python --version
 Python 3.7.3
 $ pip install -r requirements.txt
@@ -33,7 +33,7 @@ The Image module provides two functions that could be used:
 
 I'm using resize in the example.
 
-```
+```sh
 $ ./example.py -h
 usage: example.py [-h] [-x X] [-y Y] filename
 
@@ -52,7 +52,7 @@ As an example, I'm using this photograph:
 
 ![source](./data/source.jpg)
 
-```
+```sh
 $ ./example.py data/source.jpg
 Source: data/source.jpg (2992w x 2992h)
 Resized: data/source-resized-420x420.jpg (420w x 420h)
@@ -64,7 +64,7 @@ Producing this output file:
 
 Custom resize dimensions may be provided:
 
-```
+```sh
 $ ./example.py data/source.jpg -x 80 -y 60
 Source: data/source.jpg (2992w x 2992h)
 Resized: data/source-resized-80x60.jpg (80w x 60h)
@@ -88,23 +88,25 @@ After a bit of digging around, it turns out that EXIF tags have been a source of
 
 In my case, it was the [GPS Info field 0x8825](https://exiftool.org/TagNames/EXIF.html) causing problems:
 
-```
+```sh
 0x8825: 656 type:<class 'int'>
 ```
 
 As a result, I've added a `remove_orientation` function that blows this EXIF field away before performing the `exif_transpose`:
 
-```
+```python
 def remove_orientation(image):
     exif = image.getexif()
     for tag in exif.keys():
         # print(f'0x{tag:04x}: {exif[tag]} type:{type(exif[tag])}')
         if tag in [0x8825]:
-            # remove the GPS exif fields because exif_transpose can't the tags I have in the source image
+            # remove the GPS exif fields because exif_transpose can't handle the tags I have in the source image
             del exif[tag]
     image.info['exif'] = exif.tobytes()
     return ImageOps.exif_transpose(image)
 ```
+
+NB: to be super-safe, I could alternatively throw away all tags except orientation (0x0112)
 
 ## Credits and References
 
@@ -113,3 +115,4 @@ def remove_orientation(image):
 * [Python Imaging Library](https://en.wikipedia.org/wiki/Python_Imaging_Library) - wikipedia
 * [PIL thumbnail is rotating my image?](https://stackoverflow.com/questions/4228530/pil-thumbnail-is-rotating-my-image) - stackoverflow
 * [EXIF tags](https://exiftool.org/TagNames/EXIF.html)
+* [Image exif_transpose not working with Pillow 7](https://github.com/python-pillow/Pillow/issues/4346)
