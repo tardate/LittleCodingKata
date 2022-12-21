@@ -2181,5 +2181,13 @@
             "tools",
             "osint"
         ]
+    },
+    "/python/image_resize/": {
+        "id": 250,
+        "title": "Image Resize",
+        "summary": "Simple image resizing with python and the Pillow library and a little yak shaving with EXIF tags",
+        "tags": [
+            "python"
+        ]
     }
 }

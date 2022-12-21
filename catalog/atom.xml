@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2022-12-19T03:16:37Z</updated>
+  <updated>2022-12-21T05:01:53Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2193,5 +2193,13 @@
     <summary>Poking around free satellite imagery services</summary>
     <category term="tools"/>
     <category term="osint"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/image_resize/</id>
+    <link href="https://codingkata.tardate.com/python/image_resize/"/>
+    <updated>2022-12-21T04:55:17Z</updated>
+    <title>Image Resize</title>
+    <summary>Simple image resizing with python and the Pillow library and a little yak shaving with EXIF tags</summary>
+    <category term="python"/>
   </entry>
 </feed>

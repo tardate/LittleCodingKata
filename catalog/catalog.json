@@ -1990,5 +1990,13 @@
         "relative_path": "tools/SatelliteImagerySources",
         "updated_at": "2022-12-19T03:16:16Z",
         "id": "#249"
+    },
+    {
+        "name": "Image Resize",
+        "description": "Simple image resizing with python and the Pillow library and a little yak shaving with EXIF tags",
+        "categories": "python",
+        "relative_path": "python/image_resize",
+        "updated_at": "2022-12-21T04:55:17Z",
+        "id": "#250"
     }
 ]
