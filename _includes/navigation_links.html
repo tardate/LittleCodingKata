@@ -1,7 +1,7 @@
 <div class="social-icons">
   <div class="social-icons-left">
-      <a href="https://codingkata.tardate.com/" title="my notes and test code on software development topics and tools">LittleCodingKata</a>
       <a href="https://leap.tardate.com/" title="a collection of electronics projects, often involving an Arduino">LittleArduinoProjects</a>
+      <a href="https://codingkata.tardate.com/" title="my notes and test code on software development topics and tools">LittleCodingKata</a>
   </div>
   {% if site.show_social_icons %}
   <div class="social-icons-right">
@@ -15,7 +15,7 @@
       <a class="fa fa-brands fa-stack-overflow" href="https://stackoverflow.com/users/{{ site.stackoverflow_id }}"></a>
     {% endif %}
     {% if site.feed_path %}
-    <a class="fa fa-solid fa-rss" href="{{ site.feed_path | prepend: site.baseurl }}"></a>
+      <a class="fa fa-solid fa-rss" href="{{ site.feed_path | prepend: site.baseurl }}"></a>
     {% endif %}
     {% if site.mastodon_url %}
       <a class="fa fa-brands fa-mastodon" href="{{ site.mastodon_url }}"></a>
