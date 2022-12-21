@@ -2,5 +2,5 @@
     "name": "Compiling Ruby",
     "description": "Compiling Ruby (2.6.5-p114) from source and some debugging with llvm",
     "categories": "ruby, C",
-    "relative_path": "ruby/compiling"
+    "relative_path": "rubylang/compiling"
 }
