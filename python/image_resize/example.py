@@ -9,6 +9,7 @@ def show_image_details(name, file_name, image):
     width, height = image.size
     print(f'{name}: {file_name} ({width}w x {height}h)')
 
+
 def remove_orientation(image):
     exif = image.getexif()
     for tag in exif.keys():
@@ -18,6 +19,7 @@ def remove_orientation(image):
             del exif[tag]
     image.info['exif'] = exif.tobytes()
     return ImageOps.exif_transpose(image)
+
 
 def image_resize(file_name, new_size):
     image = Image.open(file_name)
