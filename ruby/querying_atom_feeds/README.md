@@ -105,15 +105,15 @@ All the techinques discussed here are demonstrated in the [atom_feeds_test.rb](.
 
 ```sh
 $ ./atom_feeds_test.rb
-Run options: --seed 1337
+Run options: --seed 64226
 
 # Running:
 
-......
+.........
 
-Finished in 0.535311s, 11.2084 runs/s, 16.8127 assertions/s.
+Finished in 0.829873s, 10.8450 runs/s, 21.6901 assertions/s.
 
-6 runs, 9 assertions, 0 failures, 0 errors, 0 skips
+9 runs, 18 assertions, 0 failures, 0 errors, 0 skips
 ```
 
 ### Making My Query
