@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2022-12-21T05:01:53Z</updated>
+  <updated>2022-12-26T03:31:37Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -721,15 +721,6 @@
     <title>emacs</title>
     <summary>closer look at emacs</summary>
     <category term="tools"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/ruby/compiling/</id>
-    <link href="https://codingkata.tardate.com/ruby/compiling/"/>
-    <updated>2019-12-19T14:39:47Z</updated>
-    <title>Compiling Ruby</title>
-    <summary>Compiling Ruby (2.6.5-p114) from source and some debugging with llvm</summary>
-    <category term="ruby"/>
-    <category term="C"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/python/qrcodes/</id>
@@ -2201,5 +2192,22 @@
     <title>Image Resize</title>
     <summary>Simple image resizing with python and the Pillow library and a little yak shaving with EXIF tags</summary>
     <category term="python"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rubylang/compiling/</id>
+    <link href="https://codingkata.tardate.com/rubylang/compiling/"/>
+    <updated>2022-12-21T05:16:36Z</updated>
+    <title>Compiling Ruby</title>
+    <summary>Compiling Ruby (2.6.5-p114) from source and some debugging with llvm</summary>
+    <category term="ruby"/>
+    <category term="C"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/querying_atom_feeds/</id>
+    <link href="https://codingkata.tardate.com/ruby/querying_atom_feeds/"/>
+    <updated>2022-12-26T03:02:21Z</updated>
+    <title>Querying Atom Feeds</title>
+    <summary>Techniques and examples for querying Atom Feeds with XPath and Nokogiri</summary>
+    <category term="ruby"/>
   </entry>
 </feed>

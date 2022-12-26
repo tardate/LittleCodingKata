@@ -1,0 +1,6 @@
+{
+    "name": "Querying Atom Feeds",
+    "description": "Techniques and examples for querying Atom Feeds with XPath and Nokogiri",
+    "categories": "ruby",
+    "relative_path": "ruby/querying_atom_feeds"
+}
