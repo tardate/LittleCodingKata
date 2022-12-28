@@ -2197,5 +2197,13 @@
         "tags": [
             "ruby"
         ]
+    },
+    "/methods/the_pocket_guide_to_debugging/": {
+        "id": 252,
+        "title": "The Pocket Guide to Debugging",
+        "summary": "Book notes - The Pocket Guide to Debugging by Julia Evans",
+        "tags": [
+            "methods"
+        ]
     }
 }

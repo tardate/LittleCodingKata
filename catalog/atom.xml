@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2022-12-26T03:31:37Z</updated>
+  <updated>2022-12-28T06:09:29Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2209,5 +2209,13 @@
     <title>Querying Atom Feeds</title>
     <summary>Techniques and examples for querying Atom Feeds with XPath and Nokogiri</summary>
     <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/methods/the_pocket_guide_to_debugging/</id>
+    <link href="https://codingkata.tardate.com/methods/the_pocket_guide_to_debugging/"/>
+    <updated>2022-12-28T04:43:59Z</updated>
+    <title>The Pocket Guide to Debugging</title>
+    <summary>Book notes - The Pocket Guide to Debugging by Julia Evans</summary>
+    <category term="methods"/>
   </entry>
 </feed>

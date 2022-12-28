@@ -2006,5 +2006,13 @@
         "relative_path": "ruby/querying_atom_feeds",
         "updated_at": "2022-12-26T03:02:21Z",
         "id": "#251"
+    },
+    {
+        "name": "The Pocket Guide to Debugging",
+        "description": "Book notes - The Pocket Guide to Debugging by Julia Evans",
+        "categories": "methods",
+        "relative_path": "methods/the_pocket_guide_to_debugging",
+        "updated_at": "2022-12-28T04:43:59Z",
+        "id": "#252"
     }
 ]
