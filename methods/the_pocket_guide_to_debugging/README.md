@@ -6,6 +6,8 @@ Book notes - [The Pocket Guide to Debugging](https://wizardzines.com/zines/debug
 
 The Pocket Guide to Debugging is pretty much everything I wish I'd known when I first started writing serious software .. or software seriously.
 
+[![cover](./cover.jpg)](https://wizardzines.com/zines/debugging-guide/)
+
 The zine format is perfect for this kind of guide:
 
 * For those new to software development, it is concise, clear and complete. And of course very approachable. In a short read, newcomers can probably absorb a some key ideas that might otherwise take years to learn
