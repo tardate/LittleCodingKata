@@ -118,15 +118,15 @@ Finished in 0.829873s, 10.8450 runs/s, 21.6901 assertions/s.
 
 ### Making My Query
 
-So the answer to my original question is "38" - the number of scale model posts updated in 2022.
+So the answer to my original question is "39" - the number of scale model posts updated in 2022.
 
-NB: the answer I was actually after is "35 scale model posts created in 2022", however there is no created/published date in the feed.
+NB: the answer I was actually after is "36 scale model posts created in 2022", however there is no created/published date in the feed.
 The results of my query included 3 entries that were updated in 2022 but created in 2021. I just had to manually exclude those.
-Also, of course, 2022 ain't over just yet!
 
 ```sh
 $ ./leap_2022_scale_models.rb
-Found 38 projects updated in 2022 tagged with 'scale models'
+Found 39 projects updated in 2022 tagged with 'scale models'
+#678 In Spring
 #677 wz. 34
 #673 Empire in Decay - Victor III
 #672 J-20
