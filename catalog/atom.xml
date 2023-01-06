@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-01-08T12:52:28Z</updated>
+  <updated>2023-01-09T10:46:48Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2219,9 +2219,17 @@
     <category term="methods"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/methods/livable_code/</id>
+    <link href="https://codingkata.tardate.com/methods/livable_code/"/>
+    <updated>2023-01-09T05:18:26Z</updated>
+    <title>Livable Code</title>
+    <summary>Notes on the RailsConf 2018 Keynote - Livable Code by Sarah Mei</summary>
+    <category term="methods"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/javascript/tone_generator/</id>
     <link href="https://codingkata.tardate.com/javascript/tone_generator/"/>
-    <updated>2023-01-07T06:15:29Z</updated>
+    <updated>2023-01-09T05:18:26Z</updated>
     <title>Audio Tone Generator</title>
     <summary>I used ChatGPT to show me how to make an audio tone generation tool in Javascript and it taught me how to use the new(ish) AudioContext API</summary>
     <category term="javascript"/>
@@ -2230,17 +2238,17 @@
   <entry>
     <id>https://codingkata.tardate.com/ruby/case_of_the_missing_method/</id>
     <link href="https://codingkata.tardate.com/ruby/case_of_the_missing_method/"/>
-    <updated>2023-01-08T05:27:30Z</updated>
+    <updated>2023-01-09T05:18:26Z</updated>
     <title>The Case of the Missing Method</title>
     <summary>Or to mix literary metaphors, where in the world do class methods get stored? An investigation into the sublime and elegant design of metaclasses in ruby</summary>
     <category term="ruby"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/methods/livable_code/</id>
-    <link href="https://codingkata.tardate.com/methods/livable_code/"/>
-    <updated>2023-01-08T12:52:13Z</updated>
-    <title>Livable Code</title>
-    <summary>Notes on the RailsConf 2018 Keynote - Livable Code by Sarah Mei</summary>
-    <category term="methods"/>
+    <id>https://codingkata.tardate.com/ruby/chart_gems/</id>
+    <link href="https://codingkata.tardate.com/ruby/chart_gems/"/>
+    <updated>2023-01-09T05:19:35Z</updated>
+    <title>chart_gems</title>
+    <summary>description</summary>
+    <category term="ruby"/>
   </entry>
 </feed>

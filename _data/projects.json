@@ -2206,8 +2206,16 @@
             "methods"
         ]
     },
-    "/javascript/tone_generator/": {
+    "/methods/livable_code/": {
         "id": 253,
+        "title": "Livable Code",
+        "summary": "Notes on the RailsConf 2018 Keynote - Livable Code by Sarah Mei",
+        "tags": [
+            "methods"
+        ]
+    },
+    "/javascript/tone_generator/": {
+        "id": 254,
         "title": "Audio Tone Generator",
         "summary": "I used ChatGPT to show me how to make an audio tone generation tool in Javascript and it taught me how to use the new(ish) AudioContext API",
         "tags": [
@@ -2216,19 +2224,19 @@
         ]
     },
     "/ruby/case_of_the_missing_method/": {
-        "id": 254,
+        "id": 255,
         "title": "The Case of the Missing Method",
         "summary": "Or to mix literary metaphors, where in the world do class methods get stored? An investigation into the sublime and elegant design of metaclasses in ruby",
         "tags": [
             "ruby"
         ]
     },
-    "/methods/livable_code/": {
-        "id": 255,
-        "title": "Livable Code",
-        "summary": "Notes on the RailsConf 2018 Keynote - Livable Code by Sarah Mei",
+    "/ruby/chart_gems/": {
+        "id": 256,
+        "title": "chart_gems",
+        "summary": "description",
         "tags": [
-            "methods"
+            "ruby"
         ]
     }
 }
