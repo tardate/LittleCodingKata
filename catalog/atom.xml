@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2022-12-28T06:09:29Z</updated>
+  <updated>2023-01-07T06:14:06Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2217,5 +2217,14 @@
     <title>The Pocket Guide to Debugging</title>
     <summary>Book notes - The Pocket Guide to Debugging by Julia Evans</summary>
     <category term="methods"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/javascript/tone_generator/</id>
+    <link href="https://codingkata.tardate.com/javascript/tone_generator/"/>
+    <updated>2023-01-07T06:13:45Z</updated>
+    <title>Audio Tone Generator</title>
+    <summary>I used ChatGPT to show me how to make an audio tone generation tool in Javascript and it taught me how to use the new(ish) AudioContext API</summary>
+    <category term="javascript"/>
+    <category term="audio"/>
   </entry>
 </feed>

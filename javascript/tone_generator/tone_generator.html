@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <title>Tone Generator</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        background-color: #333333;
+        color: #ffffff;
+      }
+      h1 {
+        text-align: center;
+        margin: 0;
+        padding: 10px 0;
+        background-color: #555555;
+        font-size: 32px;
+        text-transform: uppercase;
+      }
+      p {
+        margin: 10px;
+      }
+      input[type="range"] {
+        -webkit-appearance: none;
+        width: 100%;
+        height: 20px;
+        margin: 10px 0;
+        background-color: #666666;
+      }
+      input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        background-color: #ffffff;
+        cursor: pointer;
+      }
+      input[type="range"]:focus {
+        outline: none;
+      }
+      button {
+        width: 100%;
+        height: 40px;
+        margin: 10px 0;
+        border: none;
+        background-color: #555555;
+        color: #ffffff;
+        font-size: 18px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #777777;
+      }
+      button:active {
+        background-color: #444444;
+      }
+      .funky {
+        background-image: linear-gradient(to right, #f0f, #0ff);
+        background-size: 200%;
+        background-position: right bottom;
+        transition: background-position 0.5s;
+      }
+      .funky:hover {
+        background-position: left bottom;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="funky">Tone Generator</h1>
+    <p>Frequency: <input id="frequencyInput" type="range" min="20" max="2000" value="440"> <span id="frequencyDisplay"></span> Hz</p>
+    <button class="funky" onclick="playTone()">Play Tone</button>
+    <button class="funky" onclick="stopTone()">Stop Tone</button>
+    <script>
+      var oscillator;
+      function playTone() {
+        var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        oscillator = audioCtx.createOscillator();
+        var gainNode = audioCtx.createGain();
+        oscillator.connect(gainNode);
+        gainNode.connect(audioCtx.destination);
+        var input = document.getElementById('frequencyInput');
+        oscillator.frequency.value = input.value;
+        oscillator.start();
+        updateFrequencyDisplay();
+      }
+      function stopTone() {
+        oscillator.stop();
+      }
+      function updateFrequencyDisplay() {
+        var display = document.getElementById('frequencyDisplay');
+        display.innerHTML = oscillator.frequency.value;
+      }
+      document.getElementById('frequencyInput').addEventListener('input', function() {
+        oscillator.frequency.value = this.value;
+        updateFrequencyDisplay();
+      });
+    </script>
+  </body>
+</html>

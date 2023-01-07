@@ -2014,5 +2014,13 @@
         "relative_path": "methods/the_pocket_guide_to_debugging",
         "updated_at": "2022-12-28T04:43:59Z",
         "id": "#252"
+    },
+    {
+        "name": "Audio Tone Generator",
+        "description": "I used ChatGPT to show me how to make an audio tone generation tool in Javascript and it taught me how to use the new(ish) AudioContext API",
+        "categories": "javascript, audio",
+        "relative_path": "javascript/tone_generator",
+        "updated_at": "2023-01-07T06:13:45Z",
+        "id": "#253"
     }
 ]
