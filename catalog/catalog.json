@@ -2030,5 +2030,13 @@
         "relative_path": "ruby/case_of_the_missing_method",
         "updated_at": "2023-01-08T05:27:30Z",
         "id": "#254"
+    },
+    {
+        "name": "Livable Code",
+        "description": "Notes on the RailsConf 2018 Keynote - Livable Code by Sarah Mei",
+        "categories": "methods",
+        "relative_path": "methods/livable_code",
+        "updated_at": "2023-01-08T12:52:13Z",
+        "id": "#255"
     }
 ]

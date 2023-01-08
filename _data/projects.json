@@ -2222,5 +2222,13 @@
         "tags": [
             "ruby"
         ]
+    },
+    "/methods/livable_code/": {
+        "id": 255,
+        "title": "Livable Code",
+        "summary": "Notes on the RailsConf 2018 Keynote - Livable Code by Sarah Mei",
+        "tags": [
+            "methods"
+        ]
     }
 }

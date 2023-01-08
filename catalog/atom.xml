@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-01-08T05:28:20Z</updated>
+  <updated>2023-01-08T12:52:28Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2234,5 +2234,13 @@
     <title>The Case of the Missing Method</title>
     <summary>Or to mix literary metaphors, where in the world do class methods get stored? An investigation into the sublime and elegant design of metaclasses in ruby</summary>
     <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/methods/livable_code/</id>
+    <link href="https://codingkata.tardate.com/methods/livable_code/"/>
+    <updated>2023-01-08T12:52:13Z</updated>
+    <title>Livable Code</title>
+    <summary>Notes on the RailsConf 2018 Keynote - Livable Code by Sarah Mei</summary>
+    <category term="methods"/>
   </entry>
 </feed>
