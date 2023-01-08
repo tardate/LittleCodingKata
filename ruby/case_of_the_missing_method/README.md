@@ -17,12 +17,10 @@ introduced us to the mysterious
 
 Every Class has an associated Singleton Class, and this is where class methods are defined (not in the class itself).
 
-As Nadia explains, this approach allows class methods and instance methods to be supported without the ruby language needing to support
-anything other than the Class and instance method concepts.
+As Nadia explains, this approach is a good example of the minimalist and elegant design of ruby itself:
 
-i.e. `class methods` are not a special thing in ruby - they are just normal instance methods
-that happen to be defined on the Singleton Class.
-And a Singleton Class is just a normal class that just happens to have been defined as the `singleton_class` instance variable of the class in question.
+* "class methods" are implemented under the cover as just plain old "instance methods" defined on a Singleton Class.
+* and the Singleton Class is just a plain old class that just happen to be defined as the `singleton_class` instance variable of the class in question.
 
 This topic is also covered in "Experiment 5-2: Where Does Ruby Save Class Methods?", page 127 of
 [Ruby Under a Microscope](https://www.goodreads.com/book/show/16300795-ruby-under-a-microscope) by Pat Shaughnessy.
@@ -126,4 +124,3 @@ Finished in 0.002050s, 3902.4391 runs/s, 6341.4636 assertions/s.
 * [DSL Q & A](https://martinfowler.com/bliki/DslQandA.html) - Martin Fowler
 * [Eigen What Now?](https://brightonruby.com/2017/eigen-what-now-eliza-de-jager/) - Eliza de Jager
 * [singleton_class](https://apidock.com/ruby/Object/singleton_class) - ruby apidock
-* [name](url)
