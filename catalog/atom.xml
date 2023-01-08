@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-01-07T06:14:06Z</updated>
+  <updated>2023-01-08T05:28:20Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2221,10 +2221,18 @@
   <entry>
     <id>https://codingkata.tardate.com/javascript/tone_generator/</id>
     <link href="https://codingkata.tardate.com/javascript/tone_generator/"/>
-    <updated>2023-01-07T06:13:45Z</updated>
+    <updated>2023-01-07T06:15:29Z</updated>
     <title>Audio Tone Generator</title>
     <summary>I used ChatGPT to show me how to make an audio tone generation tool in Javascript and it taught me how to use the new(ish) AudioContext API</summary>
     <category term="javascript"/>
     <category term="audio"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/case_of_the_missing_method/</id>
+    <link href="https://codingkata.tardate.com/ruby/case_of_the_missing_method/"/>
+    <updated>2023-01-08T05:27:30Z</updated>
+    <title>The Case of the Missing Method</title>
+    <summary>Or to mix literary metaphors, where in the world do class methods get stored? An investigation into the sublime and elegant design of metaclasses in ruby</summary>
+    <category term="ruby"/>
   </entry>
 </feed>

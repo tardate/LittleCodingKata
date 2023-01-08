@@ -2214,5 +2214,13 @@
             "javascript",
             "audio"
         ]
+    },
+    "/ruby/case_of_the_missing_method/": {
+        "id": 254,
+        "title": "The Case of the Missing Method",
+        "summary": "Or to mix literary metaphors, where in the world do class methods get stored? An investigation into the sublime and elegant design of metaclasses in ruby",
+        "tags": [
+            "ruby"
+        ]
     }
 }

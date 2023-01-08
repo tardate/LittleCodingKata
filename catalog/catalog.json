@@ -2020,7 +2020,15 @@
         "description": "I used ChatGPT to show me how to make an audio tone generation tool in Javascript and it taught me how to use the new(ish) AudioContext API",
         "categories": "javascript, audio",
         "relative_path": "javascript/tone_generator",
-        "updated_at": "2023-01-07T06:13:45Z",
+        "updated_at": "2023-01-07T06:15:29Z",
         "id": "#253"
+    },
+    {
+        "name": "The Case of the Missing Method",
+        "description": "Or to mix literary metaphors, where in the world do class methods get stored? An investigation into the sublime and elegant design of metaclasses in ruby",
+        "categories": "ruby",
+        "relative_path": "ruby/case_of_the_missing_method",
+        "updated_at": "2023-01-08T05:27:30Z",
+        "id": "#254"
     }
 ]
