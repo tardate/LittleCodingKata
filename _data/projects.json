@@ -2233,10 +2233,11 @@
     },
     "/ruby/chart_gems/": {
         "id": 256,
-        "title": "chart_gems",
-        "summary": "description",
+        "title": "Chart Gems",
+        "summary": "Notes on ruby options for chart generation that support output as an image",
         "tags": [
-            "ruby"
+            "ruby",
+            "graphing"
         ]
     }
 }

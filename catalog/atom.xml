@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-01-09T10:46:48Z</updated>
+  <updated>2023-01-09T10:56:07Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2246,9 +2246,10 @@
   <entry>
     <id>https://codingkata.tardate.com/ruby/chart_gems/</id>
     <link href="https://codingkata.tardate.com/ruby/chart_gems/"/>
-    <updated>2023-01-09T05:19:35Z</updated>
-    <title>chart_gems</title>
-    <summary>description</summary>
+    <updated>2023-01-09T10:55:58Z</updated>
+    <title>Chart Gems</title>
+    <summary>Notes on ruby options for chart generation that support output as an image</summary>
     <category term="ruby"/>
+    <category term="graphing"/>
   </entry>
 </feed>
