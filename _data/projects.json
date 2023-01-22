@@ -2239,5 +2239,14 @@
             "ruby",
             "graphing"
         ]
+    },
+    "/tools/video_editing/": {
+        "id": 257,
+        "title": "Video Editing",
+        "summary": "Miscellaneous video editing and manipulation tools",
+        "tags": [
+            "tools",
+            "video"
+        ]
     }
 }

@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-01-09T10:56:07Z</updated>
+  <updated>2023-01-22T08:10:09Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2251,5 +2251,14 @@
     <summary>Notes on ruby options for chart generation that support output as an image</summary>
     <category term="ruby"/>
     <category term="graphing"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/video_editing/</id>
+    <link href="https://codingkata.tardate.com/tools/video_editing/"/>
+    <updated>2023-01-22T08:06:46Z</updated>
+    <title>Video Editing</title>
+    <summary>Miscellaneous video editing and manipulation tools</summary>
+    <category term="tools"/>
+    <category term="video"/>
   </entry>
 </feed>
