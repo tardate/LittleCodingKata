@@ -40,51 +40,58 @@ Running the example [test_string_variables.sh](./test_string_variables.sh) scrip
 $ ./test_string_variables.sh
 
 # = operator tests (equal):
+
 Given: VAR_SET=canary and VAR_NOT_SET not defined
 it passes using [ "${VAR_SET}" = "canary" ] # VAR_SET: canary
 it passes using [[ "${VAR_SET}" = "canary" ]] # VAR_SET: canary
-correctly fails using [ "${VAR_NOT_SET=}" = "canary" ] # VAR_NOT_SET:
-correctly fails using [[ "${VAR_NOT_SET=}" = "canary" ]] # VAR_NOT_SET:
+returns false -> correctly fails using [ "${VAR_NOT_SET=}" = "canary" ] # VAR_NOT_SET:
+returns false -> correctly fails using [[ "${VAR_NOT_SET=}" = "canary" ]] # VAR_NOT_SET:
 
 ## == operator tests (equal):
+
 Given: VAR_SET=canary and VAR_NOT_SET not defined
-it passes using [ "${VAR_SET}" == "canary" ] # VAR_SET: canary
-it passes using [[ "${VAR_SET}" == "canary" ]] # VAR_SET: canary
-correctly fails using [ "${VAR_NOT_SET}" == "canary" ] # VAR_NOT_SET:
-correctly fails using [[ "${VAR_NOT_SET}" == "canary" ]] # VAR_NOT_SET:
+returns true -> it passes using [ "${VAR_SET}" == "canary" ] # VAR_SET: canary
+returns true -> it passes using [[ "${VAR_SET}" == "canary" ]] # VAR_SET: canary
+returns false -> correctly fails using [ "${VAR_NOT_SET}" == "canary" ] # VAR_NOT_SET:
+returns false -> correctly fails using [[ "${VAR_NOT_SET}" == "canary" ]] # VAR_NOT_SET:
 
 ## == operator tests (pattern matching):
+
 Given: VAR_SET=canary and VAR_NOT_SET not defined
-it passes using [[ "${VAR_SET}" == can* ]] # VAR_SET: canary
-correctly fails using [[ "${VAR_SET}" == cannot* ]] # VAR_SET: canary
+returns true -> it passes using [[ "${VAR_SET}" == can* ]] # VAR_SET: canary
+returns false -> correctly fails using [[ "${VAR_SET}" == cannot* ]] # VAR_SET: canary
 
 ## != operator tests:
+
 Given: VAR_SET=canary and VAR_NOT_SET not defined
-correctly fails using [ "${VAR_SET}" != "canary" ] # VAR_SET: canary
-correctly fails using [[ "${VAR_SET}" != "canary" ]] # VAR_SET: canary
-it passes using [ "${VAR_NOT_SET}" != "canary" ] # VAR_NOT_SET:
-it passes using [[ "${VAR_NOT_SET}" != "canary" ]] # VAR_NOT_SET:
+returns false -> correctly fails using [ "${VAR_SET}" != "canary" ] # VAR_SET: canary
+returns false -> correctly fails using [[ "${VAR_SET}" != "canary" ]] # VAR_SET: canary
+returns true -> it passes using [ "${VAR_NOT_SET}" != "canary" ] # VAR_NOT_SET:
+returns true -> it passes using [[ "${VAR_NOT_SET}" != "canary" ]] # VAR_NOT_SET:
 
 ## -n operator tests (not null):
+
 Given: VAR_SET=canary and VAR_NOT_SET not defined
-it passes using [ -n "${VAR_SET}" ] # VAR_SET: canary
-it passes using [[ -n "${VAR_SET}" ]] # VAR_SET: canary
-correctly fails using [ -n "${VAR_NOT_SET}" ] # VAR_NOT_SET:
-correctly fails using [[ -n "${VAR_NOT_SET}" ]] # VAR_NOT_SET:
+returns true -> it passes using [ -n "${VAR_SET}" ] # VAR_SET: canary
+returns true -> it passes using [[ -n "${VAR_SET}" ]] # VAR_SET: canary
+returns false -> correctly fails using [ -n "${VAR_NOT_SET}" ] # VAR_NOT_SET:
+returns false -> correctly fails using [[ -n "${VAR_NOT_SET}" ]] # VAR_NOT_SET:
 
 ## -z operator tests (is null):
+
 Given: VAR_SET=canary and VAR_NOT_SET not defined
-correctly fails using [ -z "${VAR_SET}" ] # VAR_SET: canary
-correctly fails using [[ -z "${VAR_SET}" ]] # VAR_SET: canary
-it passes using [ -z "${VAR_NOT_SET}" ] # VAR_NOT_SET:
-it passes using [[ -z "${VAR_NOT_SET}" ]] # VAR_NOT_SET:
+returns false -> correctly fails using [ -z "${VAR_SET}" ] # VAR_SET: canary
+returns false -> correctly fails using [[ -z "${VAR_SET}" ]] # VAR_SET: canary
+returns true -> it passes using [ -z "${VAR_NOT_SET}" ] # VAR_NOT_SET:
+returns true -> it passes using [[ -z "${VAR_NOT_SET}" ]] # VAR_NOT_SET:
 
 ## =~ operator tests (regex matching):
+
 Given: VAR_TEXT=a string with a canary in it
-it passes using [[ "${VAR_TEXT}" =~ .*canary.* ]]
-it passes using [[ "${VAR_TEXT}" =~ canary.* ]]
-it passes using [[ "${VAR_TEXT}" =~ canary ]]
-it passes using [[ "${VAR_TEXT}" =~ ca..ry ]]
+returns true -> it passes using [[ "${VAR_TEXT}" =~ .*canary.* ]]
+returns true -> it passes using [[ "${VAR_TEXT}" =~ canary.* ]]
+returns true -> it passes using [[ "${VAR_TEXT}" =~ canary ]]
+returns true -> it passes using [[ "${VAR_TEXT}" =~ ca..ry ]]
 ```
 
 ### arithmetic comparisons
