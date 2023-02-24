@@ -2054,5 +2054,13 @@
         "relative_path": "tools/video_editing",
         "updated_at": "2023-01-22T08:06:46Z",
         "id": "#257"
+    },
+    {
+        "name": "getopts",
+        "description": "Using the getopts utility for parsing options in shell scripts",
+        "categories": "bash",
+        "relative_path": "bash/getopts",
+        "updated_at": "2023-02-08T10:15:42Z",
+        "id": "#258"
     }
 ]

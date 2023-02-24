@@ -2248,5 +2248,13 @@
             "tools",
             "video"
         ]
+    },
+    "/bash/getopts/": {
+        "id": 258,
+        "title": "getopts",
+        "summary": "Using the getopts utility for parsing options in shell scripts",
+        "tags": [
+            "bash"
+        ]
     }
 }

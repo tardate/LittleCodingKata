@@ -1,0 +1,6 @@
+{
+    "name": "getopts",
+    "description": "Using the getopts utility for parsing options in shell scripts",
+    "categories": "bash",
+    "relative_path": "bash/getopts"
+}

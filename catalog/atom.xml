@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-01-22T08:10:09Z</updated>
+  <updated>2023-02-24T10:43:32Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2260,5 +2260,13 @@
     <summary>Miscellaneous video editing and manipulation tools</summary>
     <category term="tools"/>
     <category term="video"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/bash/getopts/</id>
+    <link href="https://codingkata.tardate.com/bash/getopts/"/>
+    <updated>2023-02-08T10:15:42Z</updated>
+    <title>getopts</title>
+    <summary>Using the getopts utility for parsing options in shell scripts</summary>
+    <category term="bash"/>
   </entry>
 </feed>
