@@ -2256,5 +2256,13 @@
         "tags": [
             "bash"
         ]
+    },
+    "/methods/big_o_notation/": {
+        "id": 259,
+        "title": "Big O Notation",
+        "summary": "About Big O Notation",
+        "tags": [
+            "methods"
+        ]
     }
 }

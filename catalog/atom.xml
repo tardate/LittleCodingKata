@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-02-24T10:43:32Z</updated>
+  <updated>2023-02-24T10:50:41Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2268,5 +2268,13 @@
     <title>getopts</title>
     <summary>Using the getopts utility for parsing options in shell scripts</summary>
     <category term="bash"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/methods/big_o_notation/</id>
+    <link href="https://codingkata.tardate.com/methods/big_o_notation/"/>
+    <updated>2023-02-24T10:46:16Z</updated>
+    <title>Big O Notation</title>
+    <summary>About Big O Notation</summary>
+    <category term="methods"/>
   </entry>
 </feed>
