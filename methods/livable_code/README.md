@@ -7,7 +7,7 @@ Notes on the RailsConf 2018 Keynote - Livable Code by Sarah Mei
 I'm really drawn to the analogy that Sarah Mei makes in this talk.
 
 Infrastructure, operating systems, languages, frameworks: these make up our city.
-Some people work on these but these days msot of us don't most of the time.
+Some people work on these but these days most of us don't most of the time.
 
 As an app development team, we buy (or inherit) a house made of these things. We then have to live in it, decorate it, maintain it.
 We'd like to find a happy middle ground between the two extremes:
@@ -21,10 +21,10 @@ How to find the middle ground? 4 Rules:
 * improvement over consistency
 * inline everything (no spring cleaning story. It is just part of everything we do)
 * talk more
-  * don't ask for permission (but be upfront)
-  * don't ask for foregiveness (but learn every time)
-  * do ask for advice (but don't always take it)
-  * do work together (because we all live here)
+    * don't ask for permission (but be upfront)
+    * don't ask for forgiveness (but learn every time)
+    * do ask for advice (but don't always take it)
+    * do work together (because we all live here)
 
 ### RailsConf 2018: Keynote - Livable Code by Sarah Mei
 
@@ -37,3 +37,4 @@ The important part of software is the system
 ## Credits and References
 
 * [RailsConf 2018: Keynote - Livable Code by Sarah Mei](https://www.youtube.com/watch?v=lI77oMKr5EY)
+* [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law) - organizations design systems that mirror their own communication structure
