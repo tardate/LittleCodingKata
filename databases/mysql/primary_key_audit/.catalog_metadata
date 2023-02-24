@@ -1,0 +1,6 @@
+{
+    "name": "Primary Key Audit",
+    "description": "How to list primary key details in a MySQL database",
+    "categories": "Database, MySQL",
+    "relative_path": "databases/mysql/primary_key_audit"
+}

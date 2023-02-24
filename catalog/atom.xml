@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-02-24T10:50:41Z</updated>
+  <updated>2023-02-24T11:03:09Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2276,5 +2276,14 @@
     <title>Big O Notation</title>
     <summary>About Big O Notation</summary>
     <category term="methods"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/databases/mysql/primary_key_audit/</id>
+    <link href="https://codingkata.tardate.com/databases/mysql/primary_key_audit/"/>
+    <updated>2023-02-24T11:02:26Z</updated>
+    <title>Primary Key Audit</title>
+    <summary>How to list primary key details in a MySQL database</summary>
+    <category term="Database"/>
+    <category term="MySQL"/>
   </entry>
 </feed>

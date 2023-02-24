@@ -2264,5 +2264,14 @@
         "tags": [
             "methods"
         ]
+    },
+    "/databases/mysql/primary_key_audit/": {
+        "id": 260,
+        "title": "Primary Key Audit",
+        "summary": "How to list primary key details in a MySQL database",
+        "tags": [
+            "Database",
+            "MySQL"
+        ]
     }
 }
