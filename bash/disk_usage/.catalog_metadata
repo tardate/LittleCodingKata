@@ -1,0 +1,6 @@
+{
+    "name": "disk usage",
+    "description": "how to survey disk usage on linux systems",
+    "categories": "bash",
+    "relative_path": "bash/disk_usage"
+}

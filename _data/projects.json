@@ -2273,5 +2273,13 @@
             "Database",
             "MySQL"
         ]
+    },
+    "/bash/disk_usage/": {
+        "id": 261,
+        "title": "disk usage",
+        "summary": "how to survey disk usage on linux systems",
+        "tags": [
+            "bash"
+        ]
     }
 }
