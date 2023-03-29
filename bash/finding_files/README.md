@@ -11,7 +11,7 @@ searching a folder tree for files matching various conditions and then chaining 
 
 Finding files under a root matching a name:
 
-```
+```bash
 $ find .. -name .catalog*
 ../finding_files/.catalog_metadata
 ../function_inference/.catalog_metadata
@@ -26,7 +26,7 @@ $ find .. -name .catalog*
 
 With a max depth constraint:
 
-```
+```bash
 $ find ../.. -name *catalog* -maxdepth 2
 ../../catalog
 ../../catalog/.catalog_metadata
@@ -36,7 +36,7 @@ $ find ../.. -name *catalog* -maxdepth 2
 
 With a max depth and only files constraint:
 
-```
+```bash
 $ find ../.. -name *catalog* -maxdepth 2  -type f
 ../../catalog/.catalog_metadata
 ../../catalog/catalog.json
@@ -44,7 +44,7 @@ $ find ../.. -name *catalog* -maxdepth 2  -type f
 
 Performing an action with each file:
 
-```
+```bash
 $ find .. -name .catalog* -exec ls -s {} \;
 8 ../finding_files/.catalog_metadata
 8 ../function_inference/.catalog_metadata
@@ -59,6 +59,7 @@ $ find .. -name .catalog* -exec ls -s {} \;
 
 With a modified time constraint:
 
+```bash
 $ find .. -name .catalog* -mtime +60 -exec ls -s {} \;
 8 ../function_inference/.catalog_metadata
 8 ../case_statement/.catalog_metadata
@@ -72,7 +73,7 @@ $ find .. -name .catalog* -mtime +60 -exec ls -s {} \;
 
 [Sort](http://man7.org/linux/man-pages/man1/sort.1.html) results by size (reverse order):
 
-```
+```bash
 $ find ../.. -name *.jpg -exec ls -s {} \; | sort -k 1 -g -r
 2896 ../../security/metasploit_penetration_testing_cookbook/metasploit-framework/data/exploits/pfsense_clickjacking/background.jpg
 2896 ../../_site/security/metasploit_penetration_testing_cookbook/metasploit-framework/data/exploits/pfsense_clickjacking/background.jpg
@@ -102,7 +103,7 @@ Binaries with [setuid/setgid permission](https://en.wikipedia.org/wiki/Setuid)
 allow users to run an executable with the permissions of the executable's owner or group respectively,
 and can thus be a security issue.
 
-```
+```bash
 $ find /usr/bin -perm +6000 -type f -exec ls -ld {} \;
 -r-xr-sr-x  1 root  tty  23920 Mar 28  2018 /usr/bin/write
 -r-sr-xr-x  1 root  wheel  88400 Jul  4  2018 /usr/bin/top
