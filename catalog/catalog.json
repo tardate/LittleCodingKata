@@ -2086,5 +2086,13 @@
         "relative_path": "bash/disk_usage",
         "updated_at": "2023-03-29T11:12:11Z",
         "id": "#261"
+    },
+    {
+        "name": "Sublime Text",
+        "description": "All about Sublime Text",
+        "categories": "tools, editors",
+        "relative_path": "tools/sublime_text",
+        "updated_at": "2023-04-27T13:14:08Z",
+        "id": "#262"
     }
 ]

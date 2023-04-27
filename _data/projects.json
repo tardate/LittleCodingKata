@@ -2281,5 +2281,14 @@
         "tags": [
             "bash"
         ]
+    },
+    "/tools/sublime_text/": {
+        "id": 262,
+        "title": "Sublime Text",
+        "summary": "All about Sublime Text",
+        "tags": [
+            "tools",
+            "editors"
+        ]
     }
 }
