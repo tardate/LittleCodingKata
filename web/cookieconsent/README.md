@@ -17,6 +17,8 @@ i.e. instead of [reading the docs!](https://www.osano.com/cookieconsent/document
 
 Here's a simple example I made using the generated code - see [example.html](./example.html).
 
+![example](./assets/example.png?raw=true)
+
 ## Credits and References
 
 * [cookieconsent](https://github.com/osano/cookieconsent) - github
