@@ -2094,5 +2094,13 @@
         "relative_path": "tools/sublime_text",
         "updated_at": "2023-04-27T13:14:08Z",
         "id": "#262"
+    },
+    {
+        "name": "cookieconsent",
+        "description": "Using cookieconsent for embedding cookie warnings in a web page",
+        "categories": "web, GDPR",
+        "relative_path": "web/cookieconsent",
+        "updated_at": "2023-04-27T13:27:55Z",
+        "id": "#263"
     }
 ]

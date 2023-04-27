@@ -2290,5 +2290,14 @@
             "tools",
             "editors"
         ]
+    },
+    "/web/cookieconsent/": {
+        "id": 263,
+        "title": "cookieconsent",
+        "summary": "Using cookieconsent for embedding cookie warnings in a web page",
+        "tags": [
+            "web",
+            "GDPR"
+        ]
     }
 }

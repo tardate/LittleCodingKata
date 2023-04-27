@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-04-27T13:14:25Z</updated>
+  <updated>2023-04-27T13:33:18Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2302,5 +2302,14 @@
     <summary>All about Sublime Text</summary>
     <category term="tools"/>
     <category term="editors"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/web/cookieconsent/</id>
+    <link href="https://codingkata.tardate.com/web/cookieconsent/"/>
+    <updated>2023-04-27T13:27:55Z</updated>
+    <title>cookieconsent</title>
+    <summary>Using cookieconsent for embedding cookie warnings in a web page</summary>
+    <category term="web"/>
+    <category term="GDPR"/>
   </entry>
 </feed>

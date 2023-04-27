@@ -1,0 +1,6 @@
+{
+    "name": "cookieconsent",
+    "description": "Using cookieconsent for embedding cookie warnings in a web page",
+    "categories": "web, GDPR",
+    "relative_path": "web/cookieconsent"
+}
