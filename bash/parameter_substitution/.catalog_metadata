@@ -1,0 +1,6 @@
+{
+    "name": "Parameter Substitution",
+    "description": "All about Bash parameter substitution.",
+    "categories": "bash",
+    "relative_path": "bash/parameter_substitution"
+}

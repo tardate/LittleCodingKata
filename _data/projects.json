@@ -2317,5 +2317,13 @@
             "python",
             "book"
         ]
+    },
+    "/bash/parameter_substitution/": {
+        "id": 266,
+        "title": "Parameter Substitution",
+        "summary": "All about Bash parameter substitution.",
+        "tags": [
+            "bash"
+        ]
     }
 }

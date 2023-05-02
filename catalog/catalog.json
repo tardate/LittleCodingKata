@@ -2118,5 +2118,13 @@
         "relative_path": "python/FlaskWebDevelopment",
         "updated_at": "2023-05-02T10:34:11Z",
         "id": "#265"
+    },
+    {
+        "name": "Parameter Substitution",
+        "description": "All about Bash parameter substitution.",
+        "categories": "bash",
+        "relative_path": "bash/parameter_substitution",
+        "updated_at": "2023-05-02T10:36:50Z",
+        "id": "#266"
     }
 ]
