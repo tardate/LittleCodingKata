@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-05-02T10:08:41Z</updated>
+  <updated>2023-05-02T10:34:17Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2318,6 +2318,15 @@
     <updated>2023-05-02T10:08:02Z</updated>
     <title>Lightweight Django</title>
     <summary>Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly</summary>
+    <category term="python"/>
+    <category term="book"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/FlaskWebDevelopment/</id>
+    <link href="https://codingkata.tardate.com/python/FlaskWebDevelopment/"/>
+    <updated>2023-05-02T10:34:11Z</updated>
+    <title>Flask Web Development</title>
+    <summary>Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly</summary>
     <category term="python"/>
     <category term="book"/>
   </entry>

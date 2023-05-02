@@ -2308,5 +2308,14 @@
             "python",
             "book"
         ]
+    },
+    "/python/FlaskWebDevelopment/": {
+        "id": 265,
+        "title": "Flask Web Development",
+        "summary": "Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly",
+        "tags": [
+            "python",
+            "book"
+        ]
     }
 }

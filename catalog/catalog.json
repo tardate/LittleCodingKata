@@ -2110,5 +2110,13 @@
         "relative_path": "python/LightweightDjango",
         "updated_at": "2023-05-02T10:08:02Z",
         "id": "#264"
+    },
+    {
+        "name": "Flask Web Development",
+        "description": "Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly",
+        "categories": "python, book",
+        "relative_path": "python/FlaskWebDevelopment",
+        "updated_at": "2023-05-02T10:34:11Z",
+        "id": "#265"
     }
 ]
