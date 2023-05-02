@@ -171,7 +171,7 @@ Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reil
 
 ## Getting the Example Source
 
-```
+```sh
 git clone https://github.com/how2dock/docbook.git example_source
 ```
 

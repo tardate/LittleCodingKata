@@ -2,7 +2,6 @@
 
 Using the begins library to write command line scripts without all the cruft.
 
-
 ## Notes
 
 The begins library replaces conventional argparse/main function pattern with a simple decorator.
@@ -10,7 +9,7 @@ I found this in [20 Python Libraries You Aren't Using (But Should)](https://www.
 
 The following are functionally equivalent. First the traditional way:
 
-```
+```python
 import argparse
 
 def add(a, b):
@@ -26,7 +25,7 @@ if __name__ == '__main__':
 
 And now using begins (python3 syntax):
 
-```
+```python
 import begin
 
 @begin.start(auto_convert=True)
@@ -35,13 +34,12 @@ def add(a: 'First value' = 0.0, b: 'Second value' = 0.0):
     print(a + b)
 ```
 
-
 ## Setup
 
 Use the requirements.txt to install begins:
 
-```
-$ pip install -r requirements.txt
+```sh
+pip install -r requirements.txt
 ```
 
 The examples that follow use both python 2 and python 3. the begins library needs to installed for both.
@@ -50,7 +48,7 @@ The examples that follow use both python 2 and python 3. the begins library need
 
 `add.py` is the conventional approach, with argparse and an explicit main section:
 
-```
+```sh
 $ python add.py -h
 usage: add.py [-h] [-a A] [-b B]
 
@@ -67,7 +65,7 @@ $ python add.py -a 3 -b 4
 
 `add_with_begins.py` uses begins and python 2 compatible syntax:
 
-```
+```sh
 $ python add_with_begins.py -h
 usage: add_with_begins.py [-h] [--a A] [--b B]
 
@@ -84,7 +82,7 @@ $ python add_with_begins.py -a 3 -b 4
 
 `add_with_begins3.py` uses begins and python 3 compatible syntax:
 
-```
+```sh
 $ python3 add_with_begins3.py -h
 usage: add_with_begins3.py [-h] [--a A] [--b B]
 
@@ -100,6 +98,7 @@ $ python3 add_with_begins3.py -a 3 -b 4
 ```
 
 ## Credits and References
+
 * [begins](https://pypi.python.org/pypi/begins) - pypi
 * [begins](https://github.com/aliles/begins) - GitHub
 * [20 Python Libraries You Aren't Using (But Should)](https://www.goodreads.com/book/show/32051366-20-python-libraries-you-aren-t-using-but-should)

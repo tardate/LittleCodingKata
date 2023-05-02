@@ -15,20 +15,19 @@ I ran these tests with python 3..
 
 ### Installing
 
-```
+```sh
 $ brew install mdbtools
 ...
 Installing dependencies for mdbtools: gettext, sqlite, python and glib
 ...
 $ pip3 install -r requirements.txt
-
-``
+```
 
 ### Some `pandas_access` Basics
 
 Loading a table as a [pandas.DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
 
-```
+```python
 import pandas_access as mdb
 
 df = mdb.read_table('quotes.mdb', 'Quotations')
@@ -40,7 +39,7 @@ Getting column names.
 and `df.columns` returns a
 [numpy.ndarray](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.html)
 
-```
+```python
 print('Columns: {}'.format(list(df.columns.values)))
 => Columns: ['AuthorLast', 'AuthorFirst', 'Quote', 'QuoteDate', 'Circumstance']
 ```
@@ -49,7 +48,7 @@ print('Columns: {}'.format(list(df.columns.values)))
 
 Listing tables in a database...
 
-```
+```sh
 $ ./show_tables.py quotes.mdb
 Listing the tables in quotes.mdb..
 Quotations
@@ -57,48 +56,55 @@ Quotations
 
 Listing records in a table...
 
-```
+```sh
 $ ./show_records.py quotes.mdb Quotations
 Listing the records in quotes.mdb::Quotations..
 Table has 2945 rows
 Columns: ['AuthorLast', 'AuthorFirst', 'Quote', 'QuoteDate', 'Circumstance']
 --------------
+
 AuthorLast: Edison
 AuthorFirst: Thomas
 Quote: ...I have not failed. I've just found 10,000 ways that won't work.
 QuoteDate: nan
 Circumstance: nan
 --------------
+
 AuthorLast: Asimov
 AuthorFirst: Isaac
 Quote: [John] Dalton's records, carefully preserved for a century, were destroyed during the World War II bombing of Manchester. It is not only the living who are killed in war.
 QuoteDate: nan
 Circumstance: nan
 --------------
+
 AuthorLast: Gates
 AuthorFirst: Bill
 Quote: 640K ought to be enough for anybody.
 QuoteDate: nan
 Circumstance: In 1981
 --------------
+
 AuthorLast: Berra
 AuthorFirst: Yogi
 Quote: 95% of this game is half mental.
 QuoteDate: nan
 Circumstance: nan
 --------------
+
 AuthorLast: Dirksen
 AuthorFirst: Everett
 Quote: A billion here, a billion there, and pretty soon you're talking about real money.
 QuoteDate: nan
 Circumstance: nan
 --------------
+
 AuthorLast: Marx
 AuthorFirst: Groucho
 Quote: A child of five would understand this. Send someone to fetch a child of five.
 QuoteDate: nan
 Circumstance: nan
 ...(etc)...
+
 ```
 
 ## Credits and References

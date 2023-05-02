@@ -2102,5 +2102,13 @@
         "relative_path": "web/cookieconsent",
         "updated_at": "2023-04-27T13:27:55Z",
         "id": "#263"
+    },
+    {
+        "name": "Lightweight Django",
+        "description": "Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly",
+        "categories": "python, book",
+        "relative_path": "python/LightweightDjango",
+        "updated_at": "2023-05-02T10:08:02Z",
+        "id": "#264"
     }
 ]

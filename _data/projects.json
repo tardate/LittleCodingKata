@@ -2299,5 +2299,14 @@
             "web",
             "GDPR"
         ]
+    },
+    "/python/LightweightDjango/": {
+        "id": 264,
+        "title": "Lightweight Django",
+        "summary": "Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly",
+        "tags": [
+            "python",
+            "book"
+        ]
     }
 }
