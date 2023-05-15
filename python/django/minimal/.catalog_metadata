@@ -1,0 +1,6 @@
+{
+    "name": "Minimal Django",
+    "description": "The most bare-bones single file Django app",
+    "categories": "python, django",
+    "relative_path": "python/django/minimal"
+}

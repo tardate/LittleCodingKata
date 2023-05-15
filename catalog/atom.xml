@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-05-16T14:37:56Z</updated>
+  <updated>2023-05-16T15:03:11Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2339,19 +2339,37 @@
     <category term="bash"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/python/lotto_picker/</id>
+    <link href="https://codingkata.tardate.com/python/lotto_picker/"/>
+    <updated>2023-05-16T14:39:04Z</updated>
+    <title>Lotto Picker - The Python Way</title>
+    <summary>Using a lotto picker example to demonstrate random numbers and set operations the python way</summary>
+    <category term="python"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/ruby/lotto_picker/</id>
     <link href="https://codingkata.tardate.com/ruby/lotto_picker/"/>
-    <updated>2023-05-15T13:02:08Z</updated>
+    <updated>2023-05-16T14:39:04Z</updated>
     <title>Lotto Picker - The Ruby Way</title>
     <summary>Using a lotto picker example to demonstrate random numbers and set operations the ruby way</summary>
     <category term="ruby"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/python/lotto_picker/</id>
-    <link href="https://codingkata.tardate.com/python/lotto_picker/"/>
-    <updated>2023-05-16T14:30:06Z</updated>
-    <title>Lotto Picker - The Python Way</title>
-    <summary>Using a lotto picker example to demonstrate random numbers and set operations the python way</summary>
+    <id>https://codingkata.tardate.com/python/django/minimal/</id>
+    <link href="https://codingkata.tardate.com/python/django/minimal/"/>
+    <updated>2023-05-16T14:53:34Z</updated>
+    <title>Minimal Django</title>
+    <summary>The most bare-bones single file Django app</summary>
     <category term="python"/>
+    <category term="django"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/django/minimal_startproject/</id>
+    <link href="https://codingkata.tardate.com/python/django/minimal_startproject/"/>
+    <updated>2023-05-16T15:02:52Z</updated>
+    <title>Minimal Django Starter Project</title>
+    <summary>The basic Django app framework</summary>
+    <category term="python"/>
+    <category term="django"/>
   </entry>
 </feed>

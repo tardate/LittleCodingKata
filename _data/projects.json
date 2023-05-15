@@ -2326,20 +2326,38 @@
             "bash"
         ]
     },
-    "/ruby/lotto_picker/": {
+    "/python/lotto_picker/": {
         "id": 267,
+        "title": "Lotto Picker - The Python Way",
+        "summary": "Using a lotto picker example to demonstrate random numbers and set operations the python way",
+        "tags": [
+            "python"
+        ]
+    },
+    "/ruby/lotto_picker/": {
+        "id": 268,
         "title": "Lotto Picker - The Ruby Way",
         "summary": "Using a lotto picker example to demonstrate random numbers and set operations the ruby way",
         "tags": [
             "ruby"
         ]
     },
-    "/python/lotto_picker/": {
-        "id": 268,
-        "title": "Lotto Picker - The Python Way",
-        "summary": "Using a lotto picker example to demonstrate random numbers and set operations the python way",
+    "/python/django/minimal/": {
+        "id": 269,
+        "title": "Minimal Django",
+        "summary": "The most bare-bones single file Django app",
         "tags": [
-            "python"
+            "python",
+            "django"
+        ]
+    },
+    "/python/django/minimal_startproject/": {
+        "id": 270,
+        "title": "Minimal Django Starter Project",
+        "summary": "The basic Django app framework",
+        "tags": [
+            "python",
+            "django"
         ]
     }
 }

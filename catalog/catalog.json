@@ -2128,19 +2128,35 @@
         "id": "#266"
     },
     {
-        "name": "Lotto Picker - The Ruby Way",
-        "description": "Using a lotto picker example to demonstrate random numbers and set operations the ruby way",
-        "categories": "ruby",
-        "relative_path": "ruby/lotto_picker",
-        "updated_at": "2023-05-15T13:02:08Z",
-        "id": "#267"
-    },
-    {
         "name": "Lotto Picker - The Python Way",
         "description": "Using a lotto picker example to demonstrate random numbers and set operations the python way",
         "categories": "python",
         "relative_path": "python/lotto_picker",
-        "updated_at": "2023-05-16T14:30:06Z",
+        "updated_at": "2023-05-16T14:39:04Z",
+        "id": "#267"
+    },
+    {
+        "name": "Lotto Picker - The Ruby Way",
+        "description": "Using a lotto picker example to demonstrate random numbers and set operations the ruby way",
+        "categories": "ruby",
+        "relative_path": "ruby/lotto_picker",
+        "updated_at": "2023-05-16T14:39:04Z",
         "id": "#268"
+    },
+    {
+        "name": "Minimal Django",
+        "description": "The most bare-bones single file Django app",
+        "categories": "python, django",
+        "relative_path": "python/django/minimal",
+        "updated_at": "2023-05-16T14:53:34Z",
+        "id": "#269"
+    },
+    {
+        "name": "Minimal Django Starter Project",
+        "description": "The basic Django app framework",
+        "categories": "python, django",
+        "relative_path": "python/django/minimal_startproject",
+        "updated_at": "2023-05-16T15:02:52Z",
+        "id": "#270"
     }
 ]

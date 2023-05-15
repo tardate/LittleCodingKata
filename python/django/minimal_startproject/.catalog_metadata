@@ -1,0 +1,6 @@
+{
+    "name": "Minimal Django Starter Project",
+    "description": "The basic Django app framework",
+    "categories": "python, django",
+    "relative_path": "python/django/minimal_startproject"
+}
