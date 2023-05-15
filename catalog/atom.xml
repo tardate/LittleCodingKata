@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-05-02T11:19:20Z</updated>
+  <updated>2023-05-15T13:01:47Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2337,5 +2337,13 @@
     <title>Parameter Substitution</title>
     <summary>All about Bash parameter substitution.</summary>
     <category term="bash"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/lotto_picker/</id>
+    <link href="https://codingkata.tardate.com/ruby/lotto_picker/"/>
+    <updated>2023-05-15T12:59:36Z</updated>
+    <title>Lotto Picker - The Ruby Way</title>
+    <summary>Using a lotto picker example to demonstrate random numbers and set operations the ruby way</summary>
+    <category term="ruby"/>
   </entry>
 </feed>

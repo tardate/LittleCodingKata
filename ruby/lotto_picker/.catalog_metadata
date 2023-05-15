@@ -1,0 +1,6 @@
+{
+    "name": "Lotto Picker - The Ruby Way",
+    "description": "Using a lotto picker example to demonstrate random numbers and set operations the ruby way",
+    "categories": "ruby",
+    "relative_path": "ruby/lotto_picker"
+}

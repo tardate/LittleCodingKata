@@ -2126,5 +2126,13 @@
         "relative_path": "bash/parameter_substitution",
         "updated_at": "2023-05-02T10:36:50Z",
         "id": "#266"
+    },
+    {
+        "name": "Lotto Picker - The Ruby Way",
+        "description": "Using a lotto picker example to demonstrate random numbers and set operations the ruby way",
+        "categories": "ruby",
+        "relative_path": "ruby/lotto_picker",
+        "updated_at": "2023-05-15T12:59:36Z",
+        "id": "#267"
     }
 ]
