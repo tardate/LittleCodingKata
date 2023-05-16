@@ -2333,5 +2333,13 @@
         "tags": [
             "ruby"
         ]
+    },
+    "/python/lotto_picker/": {
+        "id": 268,
+        "title": "Lotto Picker - The Python Way",
+        "summary": "Using a lotto picker example to demonstrate random numbers and set operations the python way",
+        "tags": [
+            "python"
+        ]
     }
 }

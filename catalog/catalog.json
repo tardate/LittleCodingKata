@@ -2132,7 +2132,15 @@
         "description": "Using a lotto picker example to demonstrate random numbers and set operations the ruby way",
         "categories": "ruby",
         "relative_path": "ruby/lotto_picker",
-        "updated_at": "2023-05-15T12:59:36Z",
+        "updated_at": "2023-05-15T13:02:08Z",
         "id": "#267"
+    },
+    {
+        "name": "Lotto Picker - The Python Way",
+        "description": "Using a lotto picker example to demonstrate random numbers and set operations the python way",
+        "categories": "python",
+        "relative_path": "python/lotto_picker",
+        "updated_at": "2023-05-16T14:30:06Z",
+        "id": "#268"
     }
 ]

@@ -1,0 +1,6 @@
+{
+    "name": "Lotto Picker - The Python Way",
+    "description": "Using a lotto picker example to demonstrate random numbers and set operations the python way",
+    "categories": "python",
+    "relative_path": "python/lotto_picker"
+}

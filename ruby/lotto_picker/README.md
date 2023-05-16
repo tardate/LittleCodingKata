@@ -10,7 +10,11 @@ is a simple demonstration of two language features:
 * random number generation
 * producing a unique set
 
-This is a little demonstration of how to do this the ruby way
+This is a little demonstration of how to do this the ruby way.
+
+See also:
+
+* [python/lotto_picker](../../python/lotto_picker) - python version
 
 ### Random Number Generation
 

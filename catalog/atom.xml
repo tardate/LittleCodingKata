@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-05-15T13:01:47Z</updated>
+  <updated>2023-05-16T14:37:56Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2341,9 +2341,17 @@
   <entry>
     <id>https://codingkata.tardate.com/ruby/lotto_picker/</id>
     <link href="https://codingkata.tardate.com/ruby/lotto_picker/"/>
-    <updated>2023-05-15T12:59:36Z</updated>
+    <updated>2023-05-15T13:02:08Z</updated>
     <title>Lotto Picker - The Ruby Way</title>
     <summary>Using a lotto picker example to demonstrate random numbers and set operations the ruby way</summary>
     <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/lotto_picker/</id>
+    <link href="https://codingkata.tardate.com/python/lotto_picker/"/>
+    <updated>2023-05-16T14:30:06Z</updated>
+    <title>Lotto Picker - The Python Way</title>
+    <summary>Using a lotto picker example to demonstrate random numbers and set operations the python way</summary>
+    <category term="python"/>
   </entry>
 </feed>
