@@ -2359,5 +2359,13 @@
             "python",
             "django"
         ]
+    },
+    "/rust/lotto_picker/": {
+        "id": 271,
+        "title": "Lotto Picker - The Rust Way",
+        "summary": "Using a lotto picker example to demonstrate random numbers and set operations the rust way",
+        "tags": [
+            "rust"
+        ]
     }
 }

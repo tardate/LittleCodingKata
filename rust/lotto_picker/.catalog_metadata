@@ -1,0 +1,6 @@
+{
+    "name": "Lotto Picker - The Rust Way",
+    "description": "Using a lotto picker example to demonstrate random numbers and set operations the rust way",
+    "categories": "rust",
+    "relative_path": "rust/lotto_picker"
+}

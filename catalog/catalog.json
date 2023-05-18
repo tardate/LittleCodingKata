@@ -2148,7 +2148,7 @@
         "description": "The most bare-bones single file Django app",
         "categories": "python, django",
         "relative_path": "python/django/minimal",
-        "updated_at": "2023-05-16T14:53:34Z",
+        "updated_at": "2023-05-16T15:05:14Z",
         "id": "#269"
     },
     {
@@ -2156,7 +2156,15 @@
         "description": "The basic Django app framework",
         "categories": "python, django",
         "relative_path": "python/django/minimal_startproject",
-        "updated_at": "2023-05-16T15:02:52Z",
+        "updated_at": "2023-05-16T15:05:14Z",
         "id": "#270"
+    },
+    {
+        "name": "Lotto Picker - The Rust Way",
+        "description": "Using a lotto picker example to demonstrate random numbers and set operations the rust way",
+        "categories": "rust",
+        "relative_path": "rust/lotto_picker",
+        "updated_at": "2023-05-18T14:08:55Z",
+        "id": "#271"
     }
 ]

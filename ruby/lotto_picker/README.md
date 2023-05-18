@@ -15,6 +15,8 @@ This is a little demonstration of how to do this the ruby way.
 See also:
 
 * [python/lotto_picker](../../python/lotto_picker) - python version
+* [rust/lotto_picker](../../rust/lotto_picker) - rust version
+
 
 ### Random Number Generation
 

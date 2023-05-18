@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-05-16T15:03:11Z</updated>
+  <updated>2023-05-18T14:10:34Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2357,7 +2357,7 @@
   <entry>
     <id>https://codingkata.tardate.com/python/django/minimal/</id>
     <link href="https://codingkata.tardate.com/python/django/minimal/"/>
-    <updated>2023-05-16T14:53:34Z</updated>
+    <updated>2023-05-16T15:05:14Z</updated>
     <title>Minimal Django</title>
     <summary>The most bare-bones single file Django app</summary>
     <category term="python"/>
@@ -2366,10 +2366,18 @@
   <entry>
     <id>https://codingkata.tardate.com/python/django/minimal_startproject/</id>
     <link href="https://codingkata.tardate.com/python/django/minimal_startproject/"/>
-    <updated>2023-05-16T15:02:52Z</updated>
+    <updated>2023-05-16T15:05:14Z</updated>
     <title>Minimal Django Starter Project</title>
     <summary>The basic Django app framework</summary>
     <category term="python"/>
     <category term="django"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rust/lotto_picker/</id>
+    <link href="https://codingkata.tardate.com/rust/lotto_picker/"/>
+    <updated>2023-05-18T14:08:55Z</updated>
+    <title>Lotto Picker - The Rust Way</title>
+    <summary>Using a lotto picker example to demonstrate random numbers and set operations the rust way</summary>
+    <category term="rust"/>
   </entry>
 </feed>
