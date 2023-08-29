@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-07-14T16:05:56Z</updated>
+  <updated>2023-08-29T13:21:28Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2024,14 +2024,6 @@
     <category term="nokogiri"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/databases/postgresql/locks/</id>
-    <link href="https://codingkata.tardate.com/databases/postgresql/locks/"/>
-    <updated>2022-10-18T15:06:28Z</updated>
-    <title>PostgreSQL Locks</title>
-    <summary>Notes on managing PostgreSQL locks</summary>
-    <category term="databases/postgresql"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/tools/cron/</id>
     <link href="https://codingkata.tardate.com/tools/cron/"/>
     <updated>2022-10-18T15:06:28Z</updated>
@@ -2383,9 +2375,27 @@
   <entry>
     <id>https://codingkata.tardate.com/ruby/xe_currency/</id>
     <link href="https://codingkata.tardate.com/ruby/xe_currency/"/>
-    <updated>2023-07-14T16:05:30Z</updated>
+    <updated>2023-07-14T16:06:39Z</updated>
     <title>xe_currency</title>
     <summary>Using the Xe Currency Data API from Ruby and with curl</summary>
     <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/databases/postgresql/locks/</id>
+    <link href="https://codingkata.tardate.com/databases/postgresql/locks/"/>
+    <updated>2023-08-29T13:15:40Z</updated>
+    <title>PostgreSQL Locks</title>
+    <summary>Notes on managing PostgreSQL locks</summary>
+    <category term="databases"/>
+    <category term="postgresql"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/databases/postgresql/sequences/</id>
+    <link href="https://codingkata.tardate.com/databases/postgresql/sequences/"/>
+    <updated>2023-08-29T13:15:56Z</updated>
+    <title>PostgreSQL Sequences</title>
+    <summary>Notes on managing PostgreSQL Sequences</summary>
+    <category term="databases"/>
+    <category term="postgresql"/>
   </entry>
 </feed>

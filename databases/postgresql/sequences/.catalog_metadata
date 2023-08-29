@@ -1,0 +1,6 @@
+{
+    "name": "PostgreSQL Sequences",
+    "description": "Notes on managing PostgreSQL Sequences",
+    "categories": "databases, postgresql",
+    "relative_path": "databases/postgresql/sequences"
+}

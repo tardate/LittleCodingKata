@@ -1832,20 +1832,12 @@
         "id": "#229"
     },
     {
-        "name": "PostgreSQL Locks",
-        "description": "Notes on managing PostgreSQL locks",
-        "categories": "databases/postgresql",
-        "relative_path": "databases/postgresql/locks",
-        "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#230"
-    },
-    {
         "name": "cron",
         "description": "all about cron and OS-managed scheduled tasks",
         "categories": "tools",
         "relative_path": "tools/cron",
         "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#231"
+        "id": "#230"
     },
     {
         "name": "Python SNMP Servers",
@@ -1853,7 +1845,7 @@
         "categories": "python, SNMP",
         "relative_path": "python/snmp_server",
         "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#232"
+        "id": "#231"
     },
     {
         "name": "Celery",
@@ -1861,7 +1853,7 @@
         "categories": "python",
         "relative_path": "python/celery",
         "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#233"
+        "id": "#232"
     },
     {
         "name": "Class Structures and Scoping",
@@ -1869,7 +1861,7 @@
         "categories": "python",
         "relative_path": "python/class_structures_and_scoping",
         "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#234"
+        "id": "#233"
     },
     {
         "name": "Browser Connection Management",
@@ -1877,7 +1869,7 @@
         "categories": "web, networking",
         "relative_path": "web/browser_connection_management",
         "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#235"
+        "id": "#234"
     },
     {
         "name": "php md5",
@@ -1885,7 +1877,7 @@
         "categories": "php",
         "relative_path": "php/md5",
         "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#236"
+        "id": "#235"
     },
     {
         "name": "php include",
@@ -1893,7 +1885,7 @@
         "categories": "php",
         "relative_path": "php/include",
         "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#237"
+        "id": "#236"
     },
     {
         "name": "Split Files",
@@ -1901,7 +1893,7 @@
         "categories": "bash, split, tail",
         "relative_path": "bash/split_files",
         "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#238"
+        "id": "#237"
     },
     {
         "name": "Convert SZ AP to Unleashed",
@@ -1909,7 +1901,7 @@
         "categories": "networking, WLAN",
         "relative_path": "infrastructure/ruckus/convert_sz_ap_to_unleashed",
         "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#239"
+        "id": "#238"
     },
     {
         "name": "Adding APs to vSZ",
@@ -1917,7 +1909,7 @@
         "categories": "networking, WLAN",
         "relative_path": "infrastructure/ruckus/vsz_add_ap",
         "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#240"
+        "id": "#239"
     },
     {
         "name": "Ruckus vSZ on AWS",
@@ -1925,7 +1917,7 @@
         "categories": "networking, WLAN",
         "relative_path": "infrastructure/ruckus/vsz_on_aws",
         "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#241"
+        "id": "#240"
     },
     {
         "name": "Memory Profiling",
@@ -1933,7 +1925,7 @@
         "categories": "ruby",
         "relative_path": "ruby/memory_profiling",
         "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#242"
+        "id": "#241"
     },
     {
         "name": "WiFi Scanners",
@@ -1941,7 +1933,7 @@
         "categories": "tools, networking",
         "relative_path": "tools/wifi_scanners",
         "updated_at": "2022-10-19T14:32:20Z",
-        "id": "#243"
+        "id": "#242"
     },
     {
         "name": "favicons",
@@ -1949,7 +1941,7 @@
         "categories": "web",
         "relative_path": "web/favicons",
         "updated_at": "2022-11-05T16:11:10Z",
-        "id": "#244"
+        "id": "#243"
     },
     {
         "name": "Python Playground",
@@ -1957,7 +1949,7 @@
         "categories": "python, book",
         "relative_path": "python/PythonPlayground",
         "updated_at": "2022-11-09T10:27:57Z",
-        "id": "#245"
+        "id": "#244"
     },
     {
         "name": "IPv4 Addresses with Ruby",
@@ -1965,7 +1957,7 @@
         "categories": "ruby",
         "relative_path": "ruby/ipv4",
         "updated_at": "2022-11-09T14:03:46Z",
-        "id": "#246"
+        "id": "#245"
     },
     {
         "name": "NTP with Ruby",
@@ -1973,7 +1965,7 @@
         "categories": "ruby",
         "relative_path": "ruby/ntp",
         "updated_at": "2022-11-13T02:57:33Z",
-        "id": "#247"
+        "id": "#246"
     },
     {
         "name": "Satellite Imagery Sources",
@@ -1981,7 +1973,7 @@
         "categories": "tools, osint",
         "relative_path": "tools/SatelliteImagerySources",
         "updated_at": "2022-12-19T03:16:16Z",
-        "id": "#248"
+        "id": "#247"
     },
     {
         "name": "Image Resize",
@@ -1989,7 +1981,7 @@
         "categories": "python",
         "relative_path": "python/image_resize",
         "updated_at": "2022-12-21T04:55:17Z",
-        "id": "#249"
+        "id": "#248"
     },
     {
         "name": "Compiling Ruby",
@@ -1997,7 +1989,7 @@
         "categories": "ruby, C",
         "relative_path": "rubylang/compiling",
         "updated_at": "2022-12-21T05:16:36Z",
-        "id": "#250"
+        "id": "#249"
     },
     {
         "name": "Querying Atom Feeds",
@@ -2005,7 +1997,7 @@
         "categories": "ruby",
         "relative_path": "ruby/querying_atom_feeds",
         "updated_at": "2022-12-26T03:02:21Z",
-        "id": "#251"
+        "id": "#250"
     },
     {
         "name": "The Pocket Guide to Debugging",
@@ -2013,7 +2005,7 @@
         "categories": "methods",
         "relative_path": "methods/the_pocket_guide_to_debugging",
         "updated_at": "2022-12-28T04:43:59Z",
-        "id": "#252"
+        "id": "#251"
     },
     {
         "name": "Livable Code",
@@ -2021,7 +2013,7 @@
         "categories": "methods",
         "relative_path": "methods/livable_code",
         "updated_at": "2023-01-09T05:18:26Z",
-        "id": "#253"
+        "id": "#252"
     },
     {
         "name": "Audio Tone Generator",
@@ -2029,7 +2021,7 @@
         "categories": "javascript, audio",
         "relative_path": "javascript/tone_generator",
         "updated_at": "2023-01-09T05:18:26Z",
-        "id": "#254"
+        "id": "#253"
     },
     {
         "name": "The Case of the Missing Method",
@@ -2037,7 +2029,7 @@
         "categories": "ruby",
         "relative_path": "ruby/case_of_the_missing_method",
         "updated_at": "2023-01-09T05:18:26Z",
-        "id": "#255"
+        "id": "#254"
     },
     {
         "name": "Chart Gems",
@@ -2045,7 +2037,7 @@
         "categories": "ruby, graphing",
         "relative_path": "ruby/chart_gems",
         "updated_at": "2023-01-09T10:55:58Z",
-        "id": "#256"
+        "id": "#255"
     },
     {
         "name": "Video Editing",
@@ -2053,7 +2045,7 @@
         "categories": "tools, video",
         "relative_path": "tools/video_editing",
         "updated_at": "2023-01-22T08:06:46Z",
-        "id": "#257"
+        "id": "#256"
     },
     {
         "name": "getopts",
@@ -2061,7 +2053,7 @@
         "categories": "bash",
         "relative_path": "bash/getopts",
         "updated_at": "2023-02-08T10:15:42Z",
-        "id": "#258"
+        "id": "#257"
     },
     {
         "name": "Big O Notation",
@@ -2069,7 +2061,7 @@
         "categories": "methods",
         "relative_path": "methods/big_o_notation",
         "updated_at": "2023-02-24T10:46:16Z",
-        "id": "#259"
+        "id": "#258"
     },
     {
         "name": "Primary Key Audit",
@@ -2077,7 +2069,7 @@
         "categories": "Database, MySQL",
         "relative_path": "databases/mysql/primary_key_audit",
         "updated_at": "2023-02-24T11:02:26Z",
-        "id": "#260"
+        "id": "#259"
     },
     {
         "name": "disk usage",
@@ -2085,7 +2077,7 @@
         "categories": "bash",
         "relative_path": "bash/disk_usage",
         "updated_at": "2023-03-29T11:12:11Z",
-        "id": "#261"
+        "id": "#260"
     },
     {
         "name": "Sublime Text",
@@ -2093,7 +2085,7 @@
         "categories": "tools, editors",
         "relative_path": "tools/sublime_text",
         "updated_at": "2023-04-27T13:14:08Z",
-        "id": "#262"
+        "id": "#261"
     },
     {
         "name": "cookieconsent",
@@ -2101,7 +2093,7 @@
         "categories": "web, GDPR",
         "relative_path": "web/cookieconsent",
         "updated_at": "2023-04-27T13:27:55Z",
-        "id": "#263"
+        "id": "#262"
     },
     {
         "name": "Lightweight Django",
@@ -2109,7 +2101,7 @@
         "categories": "python, book",
         "relative_path": "python/LightweightDjango",
         "updated_at": "2023-05-02T10:08:02Z",
-        "id": "#264"
+        "id": "#263"
     },
     {
         "name": "Flask Web Development",
@@ -2117,7 +2109,7 @@
         "categories": "python, book",
         "relative_path": "python/FlaskWebDevelopment",
         "updated_at": "2023-05-02T10:34:11Z",
-        "id": "#265"
+        "id": "#264"
     },
     {
         "name": "Parameter Substitution",
@@ -2125,7 +2117,7 @@
         "categories": "bash",
         "relative_path": "bash/parameter_substitution",
         "updated_at": "2023-05-02T10:36:50Z",
-        "id": "#266"
+        "id": "#265"
     },
     {
         "name": "Lotto Picker - The Python Way",
@@ -2133,7 +2125,7 @@
         "categories": "python",
         "relative_path": "python/lotto_picker",
         "updated_at": "2023-05-16T14:39:04Z",
-        "id": "#267"
+        "id": "#266"
     },
     {
         "name": "Lotto Picker - The Ruby Way",
@@ -2141,7 +2133,7 @@
         "categories": "ruby",
         "relative_path": "ruby/lotto_picker",
         "updated_at": "2023-05-16T14:39:04Z",
-        "id": "#268"
+        "id": "#267"
     },
     {
         "name": "Minimal Django",
@@ -2149,7 +2141,7 @@
         "categories": "python, django",
         "relative_path": "python/django/minimal",
         "updated_at": "2023-05-16T15:05:14Z",
-        "id": "#269"
+        "id": "#268"
     },
     {
         "name": "Minimal Django Starter Project",
@@ -2157,7 +2149,7 @@
         "categories": "python, django",
         "relative_path": "python/django/minimal_startproject",
         "updated_at": "2023-05-16T15:05:14Z",
-        "id": "#270"
+        "id": "#269"
     },
     {
         "name": "Lotto Picker - The Rust Way",
@@ -2165,14 +2157,30 @@
         "categories": "rust",
         "relative_path": "rust/lotto_picker",
         "updated_at": "2023-05-18T14:08:55Z",
-        "id": "#271"
+        "id": "#270"
     },
     {
         "name": "xe_currency",
         "description": "Using the Xe Currency Data API from Ruby and with curl",
         "categories": "ruby",
         "relative_path": "ruby/xe_currency",
-        "updated_at": "2023-07-14T16:05:30Z",
+        "updated_at": "2023-07-14T16:06:39Z",
+        "id": "#271"
+    },
+    {
+        "name": "PostgreSQL Locks",
+        "description": "Notes on managing PostgreSQL locks",
+        "categories": "databases, postgresql",
+        "relative_path": "databases/postgresql/locks",
+        "updated_at": "2023-08-29T13:15:40Z",
         "id": "#272"
+    },
+    {
+        "name": "PostgreSQL Sequences",
+        "description": "Notes on managing PostgreSQL Sequences",
+        "categories": "databases, postgresql",
+        "relative_path": "databases/postgresql/sequences",
+        "updated_at": "2023-08-29T13:15:56Z",
+        "id": "#273"
     }
 ]

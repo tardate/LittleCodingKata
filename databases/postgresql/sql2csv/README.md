@@ -107,7 +107,6 @@ using a test data set from [wikipedia](https://en.wikipedia.org/wiki/Fastest_ani
 The script creates a test database called `lck` and cleans this up after the test.
 The only thing left behind is the [speedy.csv](./speedy.csv) output file.
 
-
 ```
 $ psql postgres -f sql2csv.sql
 >>> set some connection options
