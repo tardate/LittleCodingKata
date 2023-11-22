@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-08-29T13:21:28Z</updated>
+  <updated>2023-11-22T09:44:41Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1604,14 +1604,6 @@
     <category term="ruby"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/docker/housekeeping/</id>
-    <link href="https://codingkata.tardate.com/docker/housekeeping/"/>
-    <updated>2021-08-12T13:20:14Z</updated>
-    <title>Docker Housekeeping</title>
-    <summary>Some simple hoursekeeping commands for Docker</summary>
-    <category term="docker"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/docker/whalesay/</id>
     <link href="https://codingkata.tardate.com/docker/whalesay/"/>
     <updated>2021-08-12T13:20:14Z</updated>
@@ -2397,5 +2389,13 @@
     <summary>Notes on managing PostgreSQL Sequences</summary>
     <category term="databases"/>
     <category term="postgresql"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/docker/housekeeping/</id>
+    <link href="https://codingkata.tardate.com/docker/housekeeping/"/>
+    <updated>2023-11-22T09:44:00Z</updated>
+    <title>Docker Housekeeping</title>
+    <summary>Some simple housekeeping commands for Docker</summary>
+    <category term="docker"/>
   </entry>
 </feed>

@@ -60,6 +60,7 @@ I am running on linux/amd64, building for linux/amd64
 ```
 
 Note:
+
 * I'm not pushing an image to a remote repository at this stage (no `--push` parameter)
 * the default build knows how to load the image for docker use - hence `exporting to image...` step
 * with non-default builders, I had to add the `--load` parameter to tell them to export the image for local docker use
@@ -77,7 +78,6 @@ build.log  hello      hello.c
 I am running on linux/amd64, building for linux/arm/v7
 /home #
 ```
-
 
 ## Building multi-platform images
 
@@ -99,8 +99,8 @@ Platforms: linux/amd64, linux/arm64, linux/riscv64, linux/ppc64le, linux/s390x, 
 Switching to use `myxbuilder`, I can build and push images to docker hub:
 
 ```
-$ docker buildx use myxbuilder
-$ docker buildx build --platform linux/arm/v7,linux/amd64 -t tardate/armi . --push
+docker buildx use myxbuilder
+docker buildx build --platform linux/arm/v7,linux/amd64 -t tardate/armi . --push
 ```
 
 Inspecting the image manifest from docker hub, I see the two platform versions available under the same tag:
@@ -124,7 +124,6 @@ Manifests:
 Here's how it appears at [https://hub.docker.com/r/tardate/armi/tags](https://hub.docker.com/r/tardate/armi/tags):
 
 ![docker_hub_armi](./assets/docker_hub_armi.png?raw=true)
-
 
 Running these images by specific tag:
 
@@ -157,6 +156,7 @@ sudo service docker start
 ```
 
 Attempting to run the image without qualification fails since there is no 64 bit image
+
 ```
 $ docker run --rm tardate/armi
 Unable to find image 'tardate/armi:latest' locally

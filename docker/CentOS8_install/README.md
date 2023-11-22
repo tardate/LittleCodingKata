@@ -16,6 +16,7 @@ sudo dnf config-manager --add-repo=https://download.docker.com/linux/centos/dock
 ```
 
 Finding the latest docker-ce release:
+
 ```
 $ dnf list docker-ce
 Last metadata expiration check: 0:02:52 ago on Tue 18 Feb 2020 10:02:49 AM EST.
@@ -24,7 +25,6 @@ docker-ce.x86_64                                                        3:19.03.
 ```
 
 NB: to see all available versions: `dnf list docker-ce --showduplicates | sort -r`
-
 
 Install:
 
@@ -35,7 +35,7 @@ Error:
 
 ```
 
-Picking form the CentOS 7 repo: https://download.docker.com/linux/centos/7/x86_64/stable/Packages/
+Picking form the CentOS 7 repo: <https://download.docker.com/linux/centos/7/x86_64/stable/Packages/>
 
 ```
 sudo dnf install https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.2.6-3.3.el7.x86_64.rpm
@@ -91,15 +91,12 @@ PING google.com (172.217.1.174): 56 data bytes
 round-trip min/avg/max = 3.774/3.912/4.093 ms
 ```
 
-
 ### Installing Docker Compose
-
 
 $ sudo curl -L https://github.com/docker/compose/releases/download/1.25.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 $ docker-compose --version
 docker-compose version 1.25.0, build 0a186604
-
 
 ## Credits and References
 

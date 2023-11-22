@@ -10,13 +10,12 @@ I'm using the [official nginx image](https://hub.docker.com/_/nginx) for testing
 
 ### Shell in a New Container
 
-If there are no isntances of the image running, start a new one and execute directly to shell:
+If there are no instances of the image running, start a new one and execute directly to shell:
 
     $ docker run --rm -it --entrypoint bash nginx
     root@32cf098b15ab:/# uname -a
     Linux 32cf098b15ab 4.19.76-linuxkit #1 SMP Tue May 26 11:42:35 UTC 2020 x86_64 GNU/Linux
     exit
-
 
 ### Shell in an Existing Container
 
@@ -33,7 +32,6 @@ Then exec the shell addressing the instance by name:
     root@ac7d58793170:/# echo $NGINX_VERSION
     1.23.0
 
-
 If bash is on the PATH inside the container:
 
     $ docker exec -it testing bash
@@ -41,7 +39,6 @@ If bash is on the PATH inside the container:
     Linux ac7d58793170 4.19.76-linuxkit #1 SMP Tue May 26 11:42:35 UTC 2020 x86_64 GNU/Linux
     root@ac7d58793170:/# echo $NGINX_VERSION
     1.23.0
-
 
 Shutdown the remove the instance:
 

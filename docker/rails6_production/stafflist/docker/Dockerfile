@@ -3,7 +3,8 @@ FROM ruby:2.7.2
 # https://yarnpkg.com/lang/en/docs/install/#debian-stable
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=1 apt-key add - && \
   echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list && \
-  apt-get update -qq && apt-get install -y nodejs postgresql-client vim && \
+  apt-get update -qq && \
+  apt-get install -y nodejs postgresql-client vim && \
   apt-get install -y yarn && \
   apt-get install -y imagemagick && \
   apt-get install -y libvips-tools

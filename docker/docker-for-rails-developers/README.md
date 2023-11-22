@@ -11,7 +11,6 @@ See:
 
 ## Highlights from the Table of Contents
 
-
 ### Part I — Development
 
 #### 1. A Brave New World
@@ -128,10 +127,9 @@ See:
 * Scale Up the Web Service
 * Deploying to AWS Instead of DigitalOcean
 
-
 ## Getting the Examples Source
 
-```
+```sh
 wget http://media.pragprog.com/titles/ridocker/code/ridocker-code.zip
 tar zxvf ridocker-code.zip
 rm ridocker-code.zip
