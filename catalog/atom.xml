@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-11-22T10:16:24Z</updated>
+  <updated>2023-11-29T09:39:07Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1946,191 +1946,9 @@
     <category term="tools"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/docker/shell/</id>
-    <link href="https://codingkata.tardate.com/docker/shell/"/>
-    <updated>2022-10-18T14:37:38Z</updated>
-    <title>Docker Shell</title>
-    <summary>How to get a bash shell in a docker instance</summary>
-    <category term="docker"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/web/bootstrap/</id>
-    <link href="https://codingkata.tardate.com/web/bootstrap/"/>
-    <updated>2022-10-18T14:37:38Z</updated>
-    <title>bootstrap</title>
-    <summary>About Bootstrap</summary>
-    <category term="web"/>
-    <category term="javascript"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/web/fullcalendar/</id>
-    <link href="https://codingkata.tardate.com/web/fullcalendar/"/>
-    <updated>2022-10-18T14:37:38Z</updated>
-    <title>fullcalendar</title>
-    <summary>Using the fullcalendar library for the web</summary>
-    <category term="web"/>
-    <category term="javascript"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/web/bootstrap_datetime_pickers/</id>
-    <link href="https://codingkata.tardate.com/web/bootstrap_datetime_pickers/"/>
-    <updated>2022-10-18T14:37:38Z</updated>
-    <title>Bootstrap Date and Time Pickers</title>
-    <summary>About date/time pickers with bootstrap</summary>
-    <category term="web"/>
-    <category term="javascript"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/cpp/binary_files/</id>
-    <link href="https://codingkata.tardate.com/cpp/binary_files/"/>
-    <updated>2022-10-18T14:37:38Z</updated>
-    <title>Binary Files</title>
-    <summary>Simple binary file operations with C++</summary>
-    <category term="C++"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/cpp/static_library/</id>
-    <link href="https://codingkata.tardate.com/cpp/static_library/"/>
-    <updated>2022-10-18T14:37:38Z</updated>
-    <title>Making Static Libraries</title>
-    <summary>Basics of building and using static libraries with C++</summary>
-    <category term="C++"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/ruby/one-liners/</id>
-    <link href="https://codingkata.tardate.com/ruby/one-liners/"/>
-    <updated>2022-10-18T14:37:38Z</updated>
-    <title>Ruby One-liners</title>
-    <summary>All about one-liners with ruby</summary>
-    <category term="ruby"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/ruby/xml_parsing/</id>
-    <link href="https://codingkata.tardate.com/ruby/xml_parsing/"/>
-    <updated>2022-10-18T14:37:38Z</updated>
-    <title>XML Parsing with Ruby</title>
-    <summary>About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like nokogiri</summary>
-    <category term="ruby"/>
-    <category term="XML"/>
-    <category term="HTML"/>
-    <category term="nokogiri"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/tools/cron/</id>
-    <link href="https://codingkata.tardate.com/tools/cron/"/>
-    <updated>2022-10-18T15:06:28Z</updated>
-    <title>cron</title>
-    <summary>all about cron and OS-managed scheduled tasks</summary>
-    <category term="tools"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/python/snmp_server/</id>
-    <link href="https://codingkata.tardate.com/python/snmp_server/"/>
-    <updated>2022-10-18T15:06:28Z</updated>
-    <title>Python SNMP Servers</title>
-    <summary>Researching simple pure Python SNMP Server options</summary>
-    <category term="python"/>
-    <category term="SNMP"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/python/celery/</id>
-    <link href="https://codingkata.tardate.com/python/celery/"/>
-    <updated>2022-10-18T15:06:28Z</updated>
-    <title>Celery</title>
-    <summary>About Celery, a distributed task queue system for python</summary>
-    <category term="python"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/python/class_structures_and_scoping/</id>
-    <link href="https://codingkata.tardate.com/python/class_structures_and_scoping/"/>
-    <updated>2022-10-18T15:06:28Z</updated>
-    <title>Class Structures and Scoping</title>
-    <summary>about class structyres and scoping in python</summary>
-    <category term="python"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/web/browser_connection_management/</id>
-    <link href="https://codingkata.tardate.com/web/browser_connection_management/"/>
-    <updated>2022-10-18T15:06:28Z</updated>
-    <title>Browser Connection Management</title>
-    <summary>Notes on how web browsers manage network connections</summary>
-    <category term="web"/>
-    <category term="networking"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/php/md5/</id>
-    <link href="https://codingkata.tardate.com/php/md5/"/>
-    <updated>2022-10-18T15:06:28Z</updated>
-    <title>php md5</title>
-    <summary>Are you still using MD5 in PHP?</summary>
-    <category term="php"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/php/include/</id>
-    <link href="https://codingkata.tardate.com/php/include/"/>
-    <updated>2022-10-18T15:06:28Z</updated>
-    <title>php include</title>
-    <summary>How to include or require other files in a PHP script</summary>
-    <category term="php"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/bash/split_files/</id>
-    <link href="https://codingkata.tardate.com/bash/split_files/"/>
-    <updated>2022-10-18T15:06:28Z</updated>
-    <title>Split Files</title>
-    <summary>Split a text file into parts with simple shell utilities</summary>
-    <category term="bash"/>
-    <category term="split"/>
-    <category term="tail"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/infrastructure/ruckus/convert_sz_ap_to_unleashed/</id>
-    <link href="https://codingkata.tardate.com/infrastructure/ruckus/convert_sz_ap_to_unleashed/"/>
-    <updated>2022-10-18T15:06:28Z</updated>
-    <title>Convert SZ AP to Unleashed</title>
-    <summary>Demonstrating the procedure for converting a SZ-managed Ruckus R610 AP to Unleashed</summary>
-    <category term="networking"/>
-    <category term="WLAN"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/infrastructure/ruckus/vsz_add_ap/</id>
-    <link href="https://codingkata.tardate.com/infrastructure/ruckus/vsz_add_ap/"/>
-    <updated>2022-10-18T15:06:28Z</updated>
-    <title>Adding APs to vSZ</title>
-    <summary>Configuring a Ruckus R610 access point to be managed by a Ruckus Virtual SmartZone controller</summary>
-    <category term="networking"/>
-    <category term="WLAN"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/infrastructure/ruckus/vsz_on_aws/</id>
-    <link href="https://codingkata.tardate.com/infrastructure/ruckus/vsz_on_aws/"/>
-    <updated>2022-10-18T15:06:28Z</updated>
-    <title>Ruckus vSZ on AWS</title>
-    <summary>Complete and validated demonstration of installing Ruckus Virtual SmartZone on AWS</summary>
-    <category term="networking"/>
-    <category term="WLAN"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/ruby/memory_profiling/</id>
-    <link href="https://codingkata.tardate.com/ruby/memory_profiling/"/>
-    <updated>2022-10-18T15:06:28Z</updated>
-    <title>Memory Profiling</title>
-    <summary>About memory profiling in Ruby</summary>
-    <category term="ruby"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/tools/wifi_scanners/</id>
-    <link href="https://codingkata.tardate.com/tools/wifi_scanners/"/>
-    <updated>2022-10-19T14:32:20Z</updated>
-    <title>WiFi Scanners</title>
-    <summary>A quick survey of WiFi scanners</summary>
-    <category term="tools"/>
-    <category term="networking"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/databases/postgresql/locks/</id>
     <link href="https://codingkata.tardate.com/databases/postgresql/locks/"/>
-    <updated>2023-11-22T09:52:59Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>PostgreSQL Locks</title>
     <summary>Notes on managing PostgreSQL locks</summary>
     <category term="databases"/>
@@ -2139,7 +1957,7 @@
   <entry>
     <id>https://codingkata.tardate.com/databases/postgresql/sequences/</id>
     <link href="https://codingkata.tardate.com/databases/postgresql/sequences/"/>
-    <updated>2023-11-22T09:52:59Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>PostgreSQL Sequences</title>
     <summary>Notes on managing PostgreSQL Sequences</summary>
     <category term="databases"/>
@@ -2148,24 +1966,49 @@
   <entry>
     <id>https://codingkata.tardate.com/databases/mysql/primary_key_audit/</id>
     <link href="https://codingkata.tardate.com/databases/mysql/primary_key_audit/"/>
-    <updated>2023-11-22T09:52:59Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>Primary Key Audit</title>
     <summary>How to list primary key details in a MySQL database</summary>
     <category term="Database"/>
     <category term="MySQL"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/tools/SatelliteImagerySources/</id>
+    <link href="https://codingkata.tardate.com/tools/SatelliteImagerySources/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>Satellite Imagery Sources</title>
+    <summary>Poking around free satellite imagery services</summary>
+    <category term="tools"/>
+    <category term="osint"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/cron/</id>
+    <link href="https://codingkata.tardate.com/tools/cron/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>cron</title>
+    <summary>all about cron and OS-managed scheduled tasks</summary>
+    <category term="tools"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/docker/housekeeping/</id>
     <link href="https://codingkata.tardate.com/docker/housekeeping/"/>
-    <updated>2023-11-22T09:52:59Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>Docker Housekeeping</title>
     <summary>Some simple housekeeping commands for Docker</summary>
     <category term="docker"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/docker/shell/</id>
+    <link href="https://codingkata.tardate.com/docker/shell/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>Docker Shell</title>
+    <summary>How to get a bash shell in a docker instance</summary>
+    <category term="docker"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/methods/the_pocket_guide_to_debugging/</id>
     <link href="https://codingkata.tardate.com/methods/the_pocket_guide_to_debugging/"/>
-    <updated>2023-11-22T09:52:59Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>The Pocket Guide to Debugging</title>
     <summary>Book notes - The Pocket Guide to Debugging by Julia Evans</summary>
     <category term="methods"/>
@@ -2173,7 +2016,7 @@
   <entry>
     <id>https://codingkata.tardate.com/methods/big_o_notation/</id>
     <link href="https://codingkata.tardate.com/methods/big_o_notation/"/>
-    <updated>2023-11-22T09:52:59Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>Big O Notation</title>
     <summary>About Big O Notation</summary>
     <category term="methods"/>
@@ -2181,15 +2024,32 @@
   <entry>
     <id>https://codingkata.tardate.com/methods/livable_code/</id>
     <link href="https://codingkata.tardate.com/methods/livable_code/"/>
-    <updated>2023-11-22T09:52:59Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>Livable Code</title>
     <summary>Notes on the RailsConf 2018 Keynote - Livable Code by Sarah Mei</summary>
     <category term="methods"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/python/lotto_picker/</id>
+    <link href="https://codingkata.tardate.com/python/lotto_picker/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>Lotto Picker - The Python Way</title>
+    <summary>Using a lotto picker example to demonstrate random numbers and set operations the python way</summary>
+    <category term="python"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/snmp_server/</id>
+    <link href="https://codingkata.tardate.com/python/snmp_server/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>Python SNMP Servers</title>
+    <summary>Researching simple pure Python SNMP Server options</summary>
+    <category term="python"/>
+    <category term="SNMP"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/python/FlaskWebDevelopment/</id>
     <link href="https://codingkata.tardate.com/python/FlaskWebDevelopment/"/>
-    <updated>2023-11-22T09:52:59Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>Flask Web Development</title>
     <summary>Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly</summary>
     <category term="python"/>
@@ -2198,7 +2058,7 @@
   <entry>
     <id>https://codingkata.tardate.com/python/image_resize/</id>
     <link href="https://codingkata.tardate.com/python/image_resize/"/>
-    <updated>2023-11-22T09:52:59Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>Image Resize</title>
     <summary>Simple image resizing with python and the Pillow library and a little yak shaving with EXIF tags</summary>
     <category term="python"/>
@@ -2206,16 +2066,32 @@
   <entry>
     <id>https://codingkata.tardate.com/python/LightweightDjango/</id>
     <link href="https://codingkata.tardate.com/python/LightweightDjango/"/>
-    <updated>2023-11-22T09:52:59Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>Lightweight Django</title>
     <summary>Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly</summary>
     <category term="python"/>
     <category term="book"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/python/celery/</id>
+    <link href="https://codingkata.tardate.com/python/celery/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>Celery</title>
+    <summary>About Celery, a distributed task queue system for python</summary>
+    <category term="python"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/python/class_structures_and_scoping/</id>
+    <link href="https://codingkata.tardate.com/python/class_structures_and_scoping/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>Class Structures and Scoping</title>
+    <summary>about class structyres and scoping in python</summary>
+    <category term="python"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/python/PythonPlayground/</id>
     <link href="https://codingkata.tardate.com/python/PythonPlayground/"/>
-    <updated>2023-11-22T09:52:59Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>Python Playground</title>
     <summary>Book notes - Python Playground, by Mahesh Venkitachalam, published by No Starch Press</summary>
     <category term="python"/>
@@ -2224,7 +2100,7 @@
   <entry>
     <id>https://codingkata.tardate.com/python/django/minimal/</id>
     <link href="https://codingkata.tardate.com/python/django/minimal/"/>
-    <updated>2023-11-22T09:52:59Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>Minimal Django</title>
     <summary>The most bare-bones single file Django app</summary>
     <category term="python"/>
@@ -2233,16 +2109,56 @@
   <entry>
     <id>https://codingkata.tardate.com/python/django/minimal_startproject/</id>
     <link href="https://codingkata.tardate.com/python/django/minimal_startproject/"/>
-    <updated>2023-11-22T09:52:59Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>Minimal Django Starter Project</title>
     <summary>The basic Django app framework</summary>
     <category term="python"/>
     <category term="django"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/security/PKCS12/</id>
+    <link href="https://codingkata.tardate.com/security/PKCS12/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>PKCS12</title>
+    <summary>About PKCS #12 archive files</summary>
+    <category term="security"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/security/self-signed-certs/</id>
+    <link href="https://codingkata.tardate.com/security/self-signed-certs/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>Self-signed Certs</title>
+    <summary>Creating a self-signed certificate</summary>
+    <category term="security"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rust/lotto_picker/</id>
+    <link href="https://codingkata.tardate.com/rust/lotto_picker/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>Lotto Picker - The Rust Way</title>
+    <summary>Using a lotto picker example to demonstrate random numbers and set operations the rust way</summary>
+    <category term="rust"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/php/md5/</id>
+    <link href="https://codingkata.tardate.com/php/md5/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>php md5</title>
+    <summary>Are you still using MD5 in PHP?</summary>
+    <category term="php"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/php/include/</id>
+    <link href="https://codingkata.tardate.com/php/include/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>php include</title>
+    <summary>How to include or require other files in a PHP script</summary>
+    <category term="php"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/bash/disk_usage/</id>
     <link href="https://codingkata.tardate.com/bash/disk_usage/"/>
-    <updated>2023-11-22T09:52:59Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>disk usage</title>
     <summary>how to survey disk usage on linux systems</summary>
     <category term="bash"/>
@@ -2250,7 +2166,7 @@
   <entry>
     <id>https://codingkata.tardate.com/bash/getopts/</id>
     <link href="https://codingkata.tardate.com/bash/getopts/"/>
-    <updated>2023-11-22T09:52:59Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>getopts</title>
     <summary>Using the getopts utility for parsing options in shell scripts</summary>
     <category term="bash"/>
@@ -2258,84 +2174,77 @@
   <entry>
     <id>https://codingkata.tardate.com/bash/parameter_substitution/</id>
     <link href="https://codingkata.tardate.com/bash/parameter_substitution/"/>
-    <updated>2023-11-22T09:52:59Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>Parameter Substitution</title>
     <summary>All about Bash parameter substitution.</summary>
     <category term="bash"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/bash/split_files/</id>
+    <link href="https://codingkata.tardate.com/bash/split_files/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>Split Files</title>
+    <summary>Split a text file into parts with simple shell utilities</summary>
+    <category term="bash"/>
+    <category term="split"/>
+    <category term="tail"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/binary_files/</id>
+    <link href="https://codingkata.tardate.com/cpp/binary_files/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>Binary Files</title>
+    <summary>Simple binary file operations with C++</summary>
+    <category term="C++"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/static_library/</id>
+    <link href="https://codingkata.tardate.com/cpp/static_library/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>Making Static Libraries</title>
+    <summary>Basics of building and using static libraries with C++</summary>
+    <category term="C++"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/javascript/tone_generator/</id>
     <link href="https://codingkata.tardate.com/javascript/tone_generator/"/>
-    <updated>2023-11-22T09:52:59Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>Audio Tone Generator</title>
     <summary>I used ChatGPT to show me how to make an audio tone generation tool in Javascript and it taught me how to use the new(ish) AudioContext API</summary>
     <category term="javascript"/>
     <category term="audio"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/tools/sublime_text/</id>
-    <link href="https://codingkata.tardate.com/tools/sublime_text/"/>
-    <updated>2023-11-22T09:53:00Z</updated>
-    <title>Sublime Text</title>
-    <summary>All about Sublime Text</summary>
-    <category term="tools"/>
-    <category term="editors"/>
+    <id>https://codingkata.tardate.com/infrastructure/ruckus/convert_sz_ap_to_unleashed/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/ruckus/convert_sz_ap_to_unleashed/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>Convert SZ AP to Unleashed</title>
+    <summary>Demonstrating the procedure for converting a SZ-managed Ruckus R610 AP to Unleashed</summary>
+    <category term="networking"/>
+    <category term="WLAN"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/tools/SatelliteImagerySources/</id>
-    <link href="https://codingkata.tardate.com/tools/SatelliteImagerySources/"/>
-    <updated>2023-11-22T09:53:00Z</updated>
-    <title>Satellite Imagery Sources</title>
-    <summary>Poking around free satellite imagery services</summary>
-    <category term="tools"/>
-    <category term="osint"/>
+    <id>https://codingkata.tardate.com/infrastructure/ruckus/vsz_add_ap/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/ruckus/vsz_add_ap/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>Adding APs to vSZ</title>
+    <summary>Configuring a Ruckus R610 access point to be managed by a Ruckus Virtual SmartZone controller</summary>
+    <category term="networking"/>
+    <category term="WLAN"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/tools/video_editing/</id>
-    <link href="https://codingkata.tardate.com/tools/video_editing/"/>
-    <updated>2023-11-22T09:53:00Z</updated>
-    <title>Video Editing</title>
-    <summary>Miscellaneous video editing and manipulation tools</summary>
-    <category term="tools"/>
-    <category term="video"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/python/lotto_picker/</id>
-    <link href="https://codingkata.tardate.com/python/lotto_picker/"/>
-    <updated>2023-11-22T09:53:00Z</updated>
-    <title>Lotto Picker - The Python Way</title>
-    <summary>Using a lotto picker example to demonstrate random numbers and set operations the python way</summary>
-    <category term="python"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/web/favicons/</id>
-    <link href="https://codingkata.tardate.com/web/favicons/"/>
-    <updated>2023-11-22T09:53:00Z</updated>
-    <title>favicons</title>
-    <summary>All about favicons</summary>
-    <category term="web"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/web/cookieconsent/</id>
-    <link href="https://codingkata.tardate.com/web/cookieconsent/"/>
-    <updated>2023-11-22T09:53:00Z</updated>
-    <title>cookieconsent</title>
-    <summary>Using cookieconsent for embedding cookie warnings in a web page</summary>
-    <category term="web"/>
-    <category term="GDPR"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/rust/lotto_picker/</id>
-    <link href="https://codingkata.tardate.com/rust/lotto_picker/"/>
-    <updated>2023-11-22T09:53:00Z</updated>
-    <title>Lotto Picker - The Rust Way</title>
-    <summary>Using a lotto picker example to demonstrate random numbers and set operations the rust way</summary>
-    <category term="rust"/>
+    <id>https://codingkata.tardate.com/infrastructure/ruckus/vsz_on_aws/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/ruckus/vsz_on_aws/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>Ruckus vSZ on AWS</title>
+    <summary>Complete and validated demonstration of installing Ruckus Virtual SmartZone on AWS</summary>
+    <category term="networking"/>
+    <category term="WLAN"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rubylang/compiling/</id>
     <link href="https://codingkata.tardate.com/rubylang/compiling/"/>
-    <updated>2023-11-22T09:53:00Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>Compiling Ruby</title>
     <summary>Compiling Ruby (2.6.5-p114) from source and some debugging with llvm</summary>
     <category term="ruby"/>
@@ -2344,7 +2253,7 @@
   <entry>
     <id>https://codingkata.tardate.com/ruby/lotto_picker/</id>
     <link href="https://codingkata.tardate.com/ruby/lotto_picker/"/>
-    <updated>2023-11-22T09:53:00Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>Lotto Picker - The Ruby Way</title>
     <summary>Using a lotto picker example to demonstrate random numbers and set operations the ruby way</summary>
     <category term="ruby"/>
@@ -2352,23 +2261,42 @@
   <entry>
     <id>https://codingkata.tardate.com/ruby/querying_atom_feeds/</id>
     <link href="https://codingkata.tardate.com/ruby/querying_atom_feeds/"/>
-    <updated>2023-11-22T09:53:00Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>Querying Atom Feeds</title>
     <summary>Techniques and examples for querying Atom Feeds with XPath and Nokogiri</summary>
     <category term="ruby"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/ruby/one-liners/</id>
+    <link href="https://codingkata.tardate.com/ruby/one-liners/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>Ruby One-liners</title>
+    <summary>All about one-liners with ruby</summary>
+    <category term="ruby"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/ruby/case_of_the_missing_method/</id>
     <link href="https://codingkata.tardate.com/ruby/case_of_the_missing_method/"/>
-    <updated>2023-11-22T09:53:00Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>The Case of the Missing Method</title>
     <summary>Or to mix literary metaphors, where in the world do class methods get stored? An investigation into the sublime and elegant design of metaclasses in ruby</summary>
     <category term="ruby"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/ruby/xml_parsing/</id>
+    <link href="https://codingkata.tardate.com/ruby/xml_parsing/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>XML Parsing with Ruby</title>
+    <summary>About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like nokogiri</summary>
+    <category term="ruby"/>
+    <category term="XML"/>
+    <category term="HTML"/>
+    <category term="nokogiri"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/ruby/chart_gems/</id>
     <link href="https://codingkata.tardate.com/ruby/chart_gems/"/>
-    <updated>2023-11-22T09:53:00Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>Chart Gems</title>
     <summary>Notes on ruby options for chart generation that support output as an image</summary>
     <category term="ruby"/>
@@ -2377,7 +2305,7 @@
   <entry>
     <id>https://codingkata.tardate.com/ruby/xe_currency/</id>
     <link href="https://codingkata.tardate.com/ruby/xe_currency/"/>
-    <updated>2023-11-22T09:53:00Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>xe_currency</title>
     <summary>Using the Xe Currency Data API from Ruby and with curl</summary>
     <category term="ruby"/>
@@ -2385,7 +2313,7 @@
   <entry>
     <id>https://codingkata.tardate.com/ruby/ipv4/</id>
     <link href="https://codingkata.tardate.com/ruby/ipv4/"/>
-    <updated>2023-11-22T09:53:00Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>IPv4 Addresses with Ruby</title>
     <summary>All about dissecting IPv4 addresses with ruby including networks, netmasks and CIDR</summary>
     <category term="ruby"/>
@@ -2393,25 +2321,105 @@
   <entry>
     <id>https://codingkata.tardate.com/ruby/ntp/</id>
     <link href="https://codingkata.tardate.com/ruby/ntp/"/>
-    <updated>2023-11-22T09:53:00Z</updated>
+    <updated>2023-11-22T10:19:59Z</updated>
     <title>NTP with Ruby</title>
     <summary>All about the NTP protocol with examples in ruby</summary>
     <category term="ruby"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/security/PKCS12/</id>
-    <link href="https://codingkata.tardate.com/security/PKCS12/"/>
-    <updated>2023-11-22T10:14:21Z</updated>
-    <title>PKCS12</title>
-    <summary>About PKCS #12 archive files</summary>
-    <category term="security"/>
+    <id>https://codingkata.tardate.com/ruby/memory_profiling/</id>
+    <link href="https://codingkata.tardate.com/ruby/memory_profiling/"/>
+    <updated>2023-11-22T10:19:59Z</updated>
+    <title>Memory Profiling</title>
+    <summary>About memory profiling in Ruby</summary>
+    <category term="ruby"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/security/self-signed-certs/</id>
-    <link href="https://codingkata.tardate.com/security/self-signed-certs/"/>
-    <updated>2023-11-22T10:14:21Z</updated>
-    <title>Self-signed Certs</title>
-    <summary>Creating a self-signed certificate</summary>
-    <category term="security"/>
+    <id>https://codingkata.tardate.com/tools/sublime_text/</id>
+    <link href="https://codingkata.tardate.com/tools/sublime_text/"/>
+    <updated>2023-11-22T10:20:00Z</updated>
+    <title>Sublime Text</title>
+    <summary>All about Sublime Text</summary>
+    <category term="tools"/>
+    <category term="editors"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/wifi_scanners/</id>
+    <link href="https://codingkata.tardate.com/tools/wifi_scanners/"/>
+    <updated>2023-11-22T10:20:00Z</updated>
+    <title>WiFi Scanners</title>
+    <summary>A quick survey of WiFi scanners</summary>
+    <category term="tools"/>
+    <category term="networking"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/video_editing/</id>
+    <link href="https://codingkata.tardate.com/tools/video_editing/"/>
+    <updated>2023-11-22T10:20:00Z</updated>
+    <title>Video Editing</title>
+    <summary>Miscellaneous video editing and manipulation tools</summary>
+    <category term="tools"/>
+    <category term="video"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/web/favicons/</id>
+    <link href="https://codingkata.tardate.com/web/favicons/"/>
+    <updated>2023-11-22T10:20:00Z</updated>
+    <title>favicons</title>
+    <summary>All about favicons</summary>
+    <category term="web"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/web/bootstrap/</id>
+    <link href="https://codingkata.tardate.com/web/bootstrap/"/>
+    <updated>2023-11-22T10:20:00Z</updated>
+    <title>bootstrap</title>
+    <summary>About Bootstrap</summary>
+    <category term="web"/>
+    <category term="javascript"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/web/fullcalendar/</id>
+    <link href="https://codingkata.tardate.com/web/fullcalendar/"/>
+    <updated>2023-11-22T10:20:00Z</updated>
+    <title>fullcalendar</title>
+    <summary>Using the fullcalendar library for the web</summary>
+    <category term="web"/>
+    <category term="javascript"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/web/cookieconsent/</id>
+    <link href="https://codingkata.tardate.com/web/cookieconsent/"/>
+    <updated>2023-11-22T10:20:00Z</updated>
+    <title>cookieconsent</title>
+    <summary>Using cookieconsent for embedding cookie warnings in a web page</summary>
+    <category term="web"/>
+    <category term="GDPR"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/web/browser_connection_management/</id>
+    <link href="https://codingkata.tardate.com/web/browser_connection_management/"/>
+    <updated>2023-11-22T10:20:00Z</updated>
+    <title>Browser Connection Management</title>
+    <summary>Notes on how web browsers manage network connections</summary>
+    <category term="web"/>
+    <category term="networking"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/web/bootstrap_datetime_pickers/</id>
+    <link href="https://codingkata.tardate.com/web/bootstrap_datetime_pickers/"/>
+    <updated>2023-11-22T10:20:00Z</updated>
+    <title>Bootstrap Date and Time Pickers</title>
+    <summary>About date/time pickers with bootstrap</summary>
+    <category term="web"/>
+    <category term="javascript"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/with_defaults/</id>
+    <link href="https://codingkata.tardate.com/ruby/with_defaults/"/>
+    <updated>2023-11-29T09:38:48Z</updated>
+    <title>Using with_defaults</title>
+    <summary>About the `reverse_merge` and `with_defaults` Hash mixins from Rails</summary>
+    <category term="ruby"/>
   </entry>
 </feed>

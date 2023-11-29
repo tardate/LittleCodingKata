@@ -1,0 +1,6 @@
+{
+    "name": "Using with_defaults",
+    "description": "About the `reverse_merge` and `with_defaults` Hash mixins from Rails",
+    "categories": "ruby",
+    "relative_path": "ruby/with_defaults"
+}

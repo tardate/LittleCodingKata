@@ -1760,443 +1760,451 @@
         "id": "#220"
     },
     {
-        "name": "Docker Shell",
-        "description": "How to get a bash shell in a docker instance",
-        "categories": "docker",
-        "relative_path": "docker/shell",
-        "updated_at": "2022-10-18T14:37:38Z",
-        "id": "#221"
-    },
-    {
-        "name": "bootstrap",
-        "description": "About Bootstrap",
-        "categories": "web, javascript",
-        "relative_path": "web/bootstrap",
-        "updated_at": "2022-10-18T14:37:38Z",
-        "id": "#222"
-    },
-    {
-        "name": "fullcalendar",
-        "description": "Using the fullcalendar library for the web",
-        "categories": "web, javascript",
-        "relative_path": "web/fullcalendar",
-        "updated_at": "2022-10-18T14:37:38Z",
-        "id": "#223"
-    },
-    {
-        "name": "Bootstrap Date and Time Pickers",
-        "description": "About date/time pickers with bootstrap",
-        "categories": "web, javascript",
-        "relative_path": "web/bootstrap_datetime_pickers",
-        "updated_at": "2022-10-18T14:37:38Z",
-        "id": "#224"
-    },
-    {
-        "name": "Binary Files",
-        "description": "Simple binary file operations with C++",
-        "categories": "C++",
-        "relative_path": "cpp/binary_files",
-        "updated_at": "2022-10-18T14:37:38Z",
-        "id": "#225"
-    },
-    {
-        "name": "Making Static Libraries",
-        "description": "Basics of building and using static libraries with C++",
-        "categories": "C++",
-        "relative_path": "cpp/static_library",
-        "updated_at": "2022-10-18T14:37:38Z",
-        "id": "#226"
-    },
-    {
-        "name": "Ruby One-liners",
-        "description": "All about one-liners with ruby",
-        "categories": "ruby",
-        "relative_path": "ruby/one-liners",
-        "updated_at": "2022-10-18T14:37:38Z",
-        "id": "#227"
-    },
-    {
-        "name": "XML Parsing with Ruby",
-        "description": "About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like nokogiri",
-        "categories": "ruby, XML, HTML, nokogiri",
-        "relative_path": "ruby/xml_parsing",
-        "updated_at": "2022-10-18T14:37:38Z",
-        "id": "#228"
-    },
-    {
-        "name": "cron",
-        "description": "all about cron and OS-managed scheduled tasks",
-        "categories": "tools",
-        "relative_path": "tools/cron",
-        "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#229"
-    },
-    {
-        "name": "Python SNMP Servers",
-        "description": "Researching simple pure Python SNMP Server options",
-        "categories": "python, SNMP",
-        "relative_path": "python/snmp_server",
-        "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#230"
-    },
-    {
-        "name": "Celery",
-        "description": "About Celery, a distributed task queue system for python",
-        "categories": "python",
-        "relative_path": "python/celery",
-        "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#231"
-    },
-    {
-        "name": "Class Structures and Scoping",
-        "description": "about class structyres and scoping in python",
-        "categories": "python",
-        "relative_path": "python/class_structures_and_scoping",
-        "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#232"
-    },
-    {
-        "name": "Browser Connection Management",
-        "description": "Notes on how web browsers manage network connections",
-        "categories": "web, networking",
-        "relative_path": "web/browser_connection_management",
-        "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#233"
-    },
-    {
-        "name": "php md5",
-        "description": "Are you still using MD5 in PHP?",
-        "categories": "php",
-        "relative_path": "php/md5",
-        "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#234"
-    },
-    {
-        "name": "php include",
-        "description": "How to include or require other files in a PHP script",
-        "categories": "php",
-        "relative_path": "php/include",
-        "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#235"
-    },
-    {
-        "name": "Split Files",
-        "description": "Split a text file into parts with simple shell utilities",
-        "categories": "bash, split, tail",
-        "relative_path": "bash/split_files",
-        "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#236"
-    },
-    {
-        "name": "Convert SZ AP to Unleashed",
-        "description": "Demonstrating the procedure for converting a SZ-managed Ruckus R610 AP to Unleashed",
-        "categories": "networking, WLAN",
-        "relative_path": "infrastructure/ruckus/convert_sz_ap_to_unleashed",
-        "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#237"
-    },
-    {
-        "name": "Adding APs to vSZ",
-        "description": "Configuring a Ruckus R610 access point to be managed by a Ruckus Virtual SmartZone controller",
-        "categories": "networking, WLAN",
-        "relative_path": "infrastructure/ruckus/vsz_add_ap",
-        "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#238"
-    },
-    {
-        "name": "Ruckus vSZ on AWS",
-        "description": "Complete and validated demonstration of installing Ruckus Virtual SmartZone on AWS",
-        "categories": "networking, WLAN",
-        "relative_path": "infrastructure/ruckus/vsz_on_aws",
-        "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#239"
-    },
-    {
-        "name": "Memory Profiling",
-        "description": "About memory profiling in Ruby",
-        "categories": "ruby",
-        "relative_path": "ruby/memory_profiling",
-        "updated_at": "2022-10-18T15:06:28Z",
-        "id": "#240"
-    },
-    {
-        "name": "WiFi Scanners",
-        "description": "A quick survey of WiFi scanners",
-        "categories": "tools, networking",
-        "relative_path": "tools/wifi_scanners",
-        "updated_at": "2022-10-19T14:32:20Z",
-        "id": "#241"
-    },
-    {
         "name": "PostgreSQL Locks",
         "description": "Notes on managing PostgreSQL locks",
         "categories": "databases, postgresql",
         "relative_path": "databases/postgresql/locks",
-        "updated_at": "2023-11-22T09:52:59Z",
-        "id": "#242"
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#221"
     },
     {
         "name": "PostgreSQL Sequences",
         "description": "Notes on managing PostgreSQL Sequences",
         "categories": "databases, postgresql",
         "relative_path": "databases/postgresql/sequences",
-        "updated_at": "2023-11-22T09:52:59Z",
-        "id": "#243"
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#222"
     },
     {
         "name": "Primary Key Audit",
         "description": "How to list primary key details in a MySQL database",
         "categories": "Database, MySQL",
         "relative_path": "databases/mysql/primary_key_audit",
-        "updated_at": "2023-11-22T09:52:59Z",
-        "id": "#244"
-    },
-    {
-        "name": "Docker Housekeeping",
-        "description": "Some simple housekeeping commands for Docker",
-        "categories": "docker",
-        "relative_path": "docker/housekeeping",
-        "updated_at": "2023-11-22T09:52:59Z",
-        "id": "#245"
-    },
-    {
-        "name": "The Pocket Guide to Debugging",
-        "description": "Book notes - The Pocket Guide to Debugging by Julia Evans",
-        "categories": "methods",
-        "relative_path": "methods/the_pocket_guide_to_debugging",
-        "updated_at": "2023-11-22T09:52:59Z",
-        "id": "#246"
-    },
-    {
-        "name": "Big O Notation",
-        "description": "About Big O Notation",
-        "categories": "methods",
-        "relative_path": "methods/big_o_notation",
-        "updated_at": "2023-11-22T09:52:59Z",
-        "id": "#247"
-    },
-    {
-        "name": "Livable Code",
-        "description": "Notes on the RailsConf 2018 Keynote - Livable Code by Sarah Mei",
-        "categories": "methods",
-        "relative_path": "methods/livable_code",
-        "updated_at": "2023-11-22T09:52:59Z",
-        "id": "#248"
-    },
-    {
-        "name": "Flask Web Development",
-        "description": "Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly",
-        "categories": "python, book",
-        "relative_path": "python/FlaskWebDevelopment",
-        "updated_at": "2023-11-22T09:52:59Z",
-        "id": "#249"
-    },
-    {
-        "name": "Image Resize",
-        "description": "Simple image resizing with python and the Pillow library and a little yak shaving with EXIF tags",
-        "categories": "python",
-        "relative_path": "python/image_resize",
-        "updated_at": "2023-11-22T09:52:59Z",
-        "id": "#250"
-    },
-    {
-        "name": "Lightweight Django",
-        "description": "Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly",
-        "categories": "python, book",
-        "relative_path": "python/LightweightDjango",
-        "updated_at": "2023-11-22T09:52:59Z",
-        "id": "#251"
-    },
-    {
-        "name": "Python Playground",
-        "description": "Book notes - Python Playground, by Mahesh Venkitachalam, published by No Starch Press",
-        "categories": "python, book",
-        "relative_path": "python/PythonPlayground",
-        "updated_at": "2023-11-22T09:52:59Z",
-        "id": "#252"
-    },
-    {
-        "name": "Minimal Django",
-        "description": "The most bare-bones single file Django app",
-        "categories": "python, django",
-        "relative_path": "python/django/minimal",
-        "updated_at": "2023-11-22T09:52:59Z",
-        "id": "#253"
-    },
-    {
-        "name": "Minimal Django Starter Project",
-        "description": "The basic Django app framework",
-        "categories": "python, django",
-        "relative_path": "python/django/minimal_startproject",
-        "updated_at": "2023-11-22T09:52:59Z",
-        "id": "#254"
-    },
-    {
-        "name": "disk usage",
-        "description": "how to survey disk usage on linux systems",
-        "categories": "bash",
-        "relative_path": "bash/disk_usage",
-        "updated_at": "2023-11-22T09:52:59Z",
-        "id": "#255"
-    },
-    {
-        "name": "getopts",
-        "description": "Using the getopts utility for parsing options in shell scripts",
-        "categories": "bash",
-        "relative_path": "bash/getopts",
-        "updated_at": "2023-11-22T09:52:59Z",
-        "id": "#256"
-    },
-    {
-        "name": "Parameter Substitution",
-        "description": "All about Bash parameter substitution.",
-        "categories": "bash",
-        "relative_path": "bash/parameter_substitution",
-        "updated_at": "2023-11-22T09:52:59Z",
-        "id": "#257"
-    },
-    {
-        "name": "Audio Tone Generator",
-        "description": "I used ChatGPT to show me how to make an audio tone generation tool in Javascript and it taught me how to use the new(ish) AudioContext API",
-        "categories": "javascript, audio",
-        "relative_path": "javascript/tone_generator",
-        "updated_at": "2023-11-22T09:52:59Z",
-        "id": "#258"
-    },
-    {
-        "name": "Sublime Text",
-        "description": "All about Sublime Text",
-        "categories": "tools, editors",
-        "relative_path": "tools/sublime_text",
-        "updated_at": "2023-11-22T09:53:00Z",
-        "id": "#259"
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#223"
     },
     {
         "name": "Satellite Imagery Sources",
         "description": "Poking around free satellite imagery services",
         "categories": "tools, osint",
         "relative_path": "tools/SatelliteImagerySources",
-        "updated_at": "2023-11-22T09:53:00Z",
-        "id": "#260"
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#224"
     },
     {
-        "name": "Video Editing",
-        "description": "Miscellaneous video editing and manipulation tools",
-        "categories": "tools, video",
-        "relative_path": "tools/video_editing",
-        "updated_at": "2023-11-22T09:53:00Z",
-        "id": "#261"
+        "name": "cron",
+        "description": "all about cron and OS-managed scheduled tasks",
+        "categories": "tools",
+        "relative_path": "tools/cron",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#225"
+    },
+    {
+        "name": "Docker Housekeeping",
+        "description": "Some simple housekeeping commands for Docker",
+        "categories": "docker",
+        "relative_path": "docker/housekeeping",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#226"
+    },
+    {
+        "name": "Docker Shell",
+        "description": "How to get a bash shell in a docker instance",
+        "categories": "docker",
+        "relative_path": "docker/shell",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#227"
+    },
+    {
+        "name": "The Pocket Guide to Debugging",
+        "description": "Book notes - The Pocket Guide to Debugging by Julia Evans",
+        "categories": "methods",
+        "relative_path": "methods/the_pocket_guide_to_debugging",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#228"
+    },
+    {
+        "name": "Big O Notation",
+        "description": "About Big O Notation",
+        "categories": "methods",
+        "relative_path": "methods/big_o_notation",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#229"
+    },
+    {
+        "name": "Livable Code",
+        "description": "Notes on the RailsConf 2018 Keynote - Livable Code by Sarah Mei",
+        "categories": "methods",
+        "relative_path": "methods/livable_code",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#230"
     },
     {
         "name": "Lotto Picker - The Python Way",
         "description": "Using a lotto picker example to demonstrate random numbers and set operations the python way",
         "categories": "python",
         "relative_path": "python/lotto_picker",
-        "updated_at": "2023-11-22T09:53:00Z",
-        "id": "#262"
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#231"
     },
     {
-        "name": "favicons",
-        "description": "All about favicons",
-        "categories": "web",
-        "relative_path": "web/favicons",
-        "updated_at": "2023-11-22T09:53:00Z",
-        "id": "#263"
+        "name": "Python SNMP Servers",
+        "description": "Researching simple pure Python SNMP Server options",
+        "categories": "python, SNMP",
+        "relative_path": "python/snmp_server",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#232"
     },
     {
-        "name": "cookieconsent",
-        "description": "Using cookieconsent for embedding cookie warnings in a web page",
-        "categories": "web, GDPR",
-        "relative_path": "web/cookieconsent",
-        "updated_at": "2023-11-22T09:53:00Z",
-        "id": "#264"
+        "name": "Flask Web Development",
+        "description": "Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly",
+        "categories": "python, book",
+        "relative_path": "python/FlaskWebDevelopment",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#233"
     },
     {
-        "name": "Lotto Picker - The Rust Way",
-        "description": "Using a lotto picker example to demonstrate random numbers and set operations the rust way",
-        "categories": "rust",
-        "relative_path": "rust/lotto_picker",
-        "updated_at": "2023-11-22T09:53:00Z",
-        "id": "#265"
+        "name": "Image Resize",
+        "description": "Simple image resizing with python and the Pillow library and a little yak shaving with EXIF tags",
+        "categories": "python",
+        "relative_path": "python/image_resize",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#234"
     },
     {
-        "name": "Compiling Ruby",
-        "description": "Compiling Ruby (2.6.5-p114) from source and some debugging with llvm",
-        "categories": "ruby, C",
-        "relative_path": "rubylang/compiling",
-        "updated_at": "2023-11-22T09:53:00Z",
-        "id": "#266"
+        "name": "Lightweight Django",
+        "description": "Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly",
+        "categories": "python, book",
+        "relative_path": "python/LightweightDjango",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#235"
     },
     {
-        "name": "Lotto Picker - The Ruby Way",
-        "description": "Using a lotto picker example to demonstrate random numbers and set operations the ruby way",
-        "categories": "ruby",
-        "relative_path": "ruby/lotto_picker",
-        "updated_at": "2023-11-22T09:53:00Z",
-        "id": "#267"
+        "name": "Celery",
+        "description": "About Celery, a distributed task queue system for python",
+        "categories": "python",
+        "relative_path": "python/celery",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#236"
     },
     {
-        "name": "Querying Atom Feeds",
-        "description": "Techniques and examples for querying Atom Feeds with XPath and Nokogiri",
-        "categories": "ruby",
-        "relative_path": "ruby/querying_atom_feeds",
-        "updated_at": "2023-11-22T09:53:00Z",
-        "id": "#268"
+        "name": "Class Structures and Scoping",
+        "description": "about class structyres and scoping in python",
+        "categories": "python",
+        "relative_path": "python/class_structures_and_scoping",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#237"
     },
     {
-        "name": "The Case of the Missing Method",
-        "description": "Or to mix literary metaphors, where in the world do class methods get stored? An investigation into the sublime and elegant design of metaclasses in ruby",
-        "categories": "ruby",
-        "relative_path": "ruby/case_of_the_missing_method",
-        "updated_at": "2023-11-22T09:53:00Z",
-        "id": "#269"
+        "name": "Python Playground",
+        "description": "Book notes - Python Playground, by Mahesh Venkitachalam, published by No Starch Press",
+        "categories": "python, book",
+        "relative_path": "python/PythonPlayground",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#238"
     },
     {
-        "name": "Chart Gems",
-        "description": "Notes on ruby options for chart generation that support output as an image",
-        "categories": "ruby, graphing",
-        "relative_path": "ruby/chart_gems",
-        "updated_at": "2023-11-22T09:53:00Z",
-        "id": "#270"
+        "name": "Minimal Django",
+        "description": "The most bare-bones single file Django app",
+        "categories": "python, django",
+        "relative_path": "python/django/minimal",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#239"
     },
     {
-        "name": "xe_currency",
-        "description": "Using the Xe Currency Data API from Ruby and with curl",
-        "categories": "ruby",
-        "relative_path": "ruby/xe_currency",
-        "updated_at": "2023-11-22T09:53:00Z",
-        "id": "#271"
-    },
-    {
-        "name": "IPv4 Addresses with Ruby",
-        "description": "All about dissecting IPv4 addresses with ruby including networks, netmasks and CIDR",
-        "categories": "ruby",
-        "relative_path": "ruby/ipv4",
-        "updated_at": "2023-11-22T09:53:00Z",
-        "id": "#272"
-    },
-    {
-        "name": "NTP with Ruby",
-        "description": "All about the NTP protocol with examples in ruby",
-        "categories": "ruby",
-        "relative_path": "ruby/ntp",
-        "updated_at": "2023-11-22T09:53:00Z",
-        "id": "#273"
+        "name": "Minimal Django Starter Project",
+        "description": "The basic Django app framework",
+        "categories": "python, django",
+        "relative_path": "python/django/minimal_startproject",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#240"
     },
     {
         "name": "PKCS12",
         "description": "About PKCS #12 archive files",
         "categories": "security",
         "relative_path": "security/PKCS12",
-        "updated_at": "2023-11-22T10:14:21Z",
-        "id": "#274"
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#241"
     },
     {
         "name": "Self-signed Certs",
         "description": "Creating a self-signed certificate",
         "categories": "security",
         "relative_path": "security/self-signed-certs",
-        "updated_at": "2023-11-22T10:14:21Z",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#242"
+    },
+    {
+        "name": "Lotto Picker - The Rust Way",
+        "description": "Using a lotto picker example to demonstrate random numbers and set operations the rust way",
+        "categories": "rust",
+        "relative_path": "rust/lotto_picker",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#243"
+    },
+    {
+        "name": "php md5",
+        "description": "Are you still using MD5 in PHP?",
+        "categories": "php",
+        "relative_path": "php/md5",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#244"
+    },
+    {
+        "name": "php include",
+        "description": "How to include or require other files in a PHP script",
+        "categories": "php",
+        "relative_path": "php/include",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#245"
+    },
+    {
+        "name": "disk usage",
+        "description": "how to survey disk usage on linux systems",
+        "categories": "bash",
+        "relative_path": "bash/disk_usage",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#246"
+    },
+    {
+        "name": "getopts",
+        "description": "Using the getopts utility for parsing options in shell scripts",
+        "categories": "bash",
+        "relative_path": "bash/getopts",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#247"
+    },
+    {
+        "name": "Parameter Substitution",
+        "description": "All about Bash parameter substitution.",
+        "categories": "bash",
+        "relative_path": "bash/parameter_substitution",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#248"
+    },
+    {
+        "name": "Split Files",
+        "description": "Split a text file into parts with simple shell utilities",
+        "categories": "bash, split, tail",
+        "relative_path": "bash/split_files",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#249"
+    },
+    {
+        "name": "Binary Files",
+        "description": "Simple binary file operations with C++",
+        "categories": "C++",
+        "relative_path": "cpp/binary_files",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#250"
+    },
+    {
+        "name": "Making Static Libraries",
+        "description": "Basics of building and using static libraries with C++",
+        "categories": "C++",
+        "relative_path": "cpp/static_library",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#251"
+    },
+    {
+        "name": "Audio Tone Generator",
+        "description": "I used ChatGPT to show me how to make an audio tone generation tool in Javascript and it taught me how to use the new(ish) AudioContext API",
+        "categories": "javascript, audio",
+        "relative_path": "javascript/tone_generator",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#252"
+    },
+    {
+        "name": "Convert SZ AP to Unleashed",
+        "description": "Demonstrating the procedure for converting a SZ-managed Ruckus R610 AP to Unleashed",
+        "categories": "networking, WLAN",
+        "relative_path": "infrastructure/ruckus/convert_sz_ap_to_unleashed",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#253"
+    },
+    {
+        "name": "Adding APs to vSZ",
+        "description": "Configuring a Ruckus R610 access point to be managed by a Ruckus Virtual SmartZone controller",
+        "categories": "networking, WLAN",
+        "relative_path": "infrastructure/ruckus/vsz_add_ap",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#254"
+    },
+    {
+        "name": "Ruckus vSZ on AWS",
+        "description": "Complete and validated demonstration of installing Ruckus Virtual SmartZone on AWS",
+        "categories": "networking, WLAN",
+        "relative_path": "infrastructure/ruckus/vsz_on_aws",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#255"
+    },
+    {
+        "name": "Compiling Ruby",
+        "description": "Compiling Ruby (2.6.5-p114) from source and some debugging with llvm",
+        "categories": "ruby, C",
+        "relative_path": "rubylang/compiling",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#256"
+    },
+    {
+        "name": "Lotto Picker - The Ruby Way",
+        "description": "Using a lotto picker example to demonstrate random numbers and set operations the ruby way",
+        "categories": "ruby",
+        "relative_path": "ruby/lotto_picker",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#257"
+    },
+    {
+        "name": "Querying Atom Feeds",
+        "description": "Techniques and examples for querying Atom Feeds with XPath and Nokogiri",
+        "categories": "ruby",
+        "relative_path": "ruby/querying_atom_feeds",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#258"
+    },
+    {
+        "name": "Ruby One-liners",
+        "description": "All about one-liners with ruby",
+        "categories": "ruby",
+        "relative_path": "ruby/one-liners",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#259"
+    },
+    {
+        "name": "The Case of the Missing Method",
+        "description": "Or to mix literary metaphors, where in the world do class methods get stored? An investigation into the sublime and elegant design of metaclasses in ruby",
+        "categories": "ruby",
+        "relative_path": "ruby/case_of_the_missing_method",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#260"
+    },
+    {
+        "name": "XML Parsing with Ruby",
+        "description": "About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like nokogiri",
+        "categories": "ruby, XML, HTML, nokogiri",
+        "relative_path": "ruby/xml_parsing",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#261"
+    },
+    {
+        "name": "Chart Gems",
+        "description": "Notes on ruby options for chart generation that support output as an image",
+        "categories": "ruby, graphing",
+        "relative_path": "ruby/chart_gems",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#262"
+    },
+    {
+        "name": "xe_currency",
+        "description": "Using the Xe Currency Data API from Ruby and with curl",
+        "categories": "ruby",
+        "relative_path": "ruby/xe_currency",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#263"
+    },
+    {
+        "name": "IPv4 Addresses with Ruby",
+        "description": "All about dissecting IPv4 addresses with ruby including networks, netmasks and CIDR",
+        "categories": "ruby",
+        "relative_path": "ruby/ipv4",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#264"
+    },
+    {
+        "name": "NTP with Ruby",
+        "description": "All about the NTP protocol with examples in ruby",
+        "categories": "ruby",
+        "relative_path": "ruby/ntp",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#265"
+    },
+    {
+        "name": "Memory Profiling",
+        "description": "About memory profiling in Ruby",
+        "categories": "ruby",
+        "relative_path": "ruby/memory_profiling",
+        "updated_at": "2023-11-22T10:19:59Z",
+        "id": "#266"
+    },
+    {
+        "name": "Sublime Text",
+        "description": "All about Sublime Text",
+        "categories": "tools, editors",
+        "relative_path": "tools/sublime_text",
+        "updated_at": "2023-11-22T10:20:00Z",
+        "id": "#267"
+    },
+    {
+        "name": "WiFi Scanners",
+        "description": "A quick survey of WiFi scanners",
+        "categories": "tools, networking",
+        "relative_path": "tools/wifi_scanners",
+        "updated_at": "2023-11-22T10:20:00Z",
+        "id": "#268"
+    },
+    {
+        "name": "Video Editing",
+        "description": "Miscellaneous video editing and manipulation tools",
+        "categories": "tools, video",
+        "relative_path": "tools/video_editing",
+        "updated_at": "2023-11-22T10:20:00Z",
+        "id": "#269"
+    },
+    {
+        "name": "favicons",
+        "description": "All about favicons",
+        "categories": "web",
+        "relative_path": "web/favicons",
+        "updated_at": "2023-11-22T10:20:00Z",
+        "id": "#270"
+    },
+    {
+        "name": "bootstrap",
+        "description": "About Bootstrap",
+        "categories": "web, javascript",
+        "relative_path": "web/bootstrap",
+        "updated_at": "2023-11-22T10:20:00Z",
+        "id": "#271"
+    },
+    {
+        "name": "fullcalendar",
+        "description": "Using the fullcalendar library for the web",
+        "categories": "web, javascript",
+        "relative_path": "web/fullcalendar",
+        "updated_at": "2023-11-22T10:20:00Z",
+        "id": "#272"
+    },
+    {
+        "name": "cookieconsent",
+        "description": "Using cookieconsent for embedding cookie warnings in a web page",
+        "categories": "web, GDPR",
+        "relative_path": "web/cookieconsent",
+        "updated_at": "2023-11-22T10:20:00Z",
+        "id": "#273"
+    },
+    {
+        "name": "Browser Connection Management",
+        "description": "Notes on how web browsers manage network connections",
+        "categories": "web, networking",
+        "relative_path": "web/browser_connection_management",
+        "updated_at": "2023-11-22T10:20:00Z",
+        "id": "#274"
+    },
+    {
+        "name": "Bootstrap Date and Time Pickers",
+        "description": "About date/time pickers with bootstrap",
+        "categories": "web, javascript",
+        "relative_path": "web/bootstrap_datetime_pickers",
+        "updated_at": "2023-11-22T10:20:00Z",
         "id": "#275"
+    },
+    {
+        "name": "Using with_defaults",
+        "description": "About the `reverse_merge` and `with_defaults` Hash mixins from Rails",
+        "categories": "ruby",
+        "relative_path": "ruby/with_defaults",
+        "updated_at": "2023-11-29T09:38:48Z",
+        "id": "#276"
     }
 ]
