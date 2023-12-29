@@ -34,3 +34,4 @@ In early versions, the location can be read and set using the defaults command:
 See also: 
 
 * [How to Change Where Screenshots Are Saved on Mac](https://www.hellotech.com/guide/for/how-to-change-where-screenshots-are-saved-on-mac)
+* [Take a screenshot on your Mac](https://support.apple.com/en-gb/102646)
