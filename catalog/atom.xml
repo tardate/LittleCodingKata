@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-12-29T06:05:10Z</updated>
+  <updated>2023-12-29T11:40:16Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2429,5 +2429,13 @@
     <title>Bash on macOS</title>
     <summary>Using latest bash releases on the latest versions of macOS</summary>
     <category term="bash"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/handbrake/</id>
+    <link href="https://codingkata.tardate.com/tools/handbrake/"/>
+    <updated>2023-12-29T11:32:24Z</updated>
+    <title>HandBrake</title>
+    <summary>Installing HandBrake on macOS Sonoma for ripping copy-protected DVDs. Long live physical media!</summary>
+    <category term="tools"/>
   </entry>
 </feed>

@@ -1,0 +1,6 @@
+{
+    "name": "HandBrake",
+    "description": "Installing HandBrake on macOS Sonoma for ripping copy-protected DVDs. Long live physical media!",
+    "categories": "tools",
+    "relative_path": "tools/handbrake"
+}

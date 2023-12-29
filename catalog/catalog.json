@@ -2214,5 +2214,13 @@
         "relative_path": "bash/macos",
         "updated_at": "2023-12-29T05:51:38Z",
         "id": "#277"
+    },
+    {
+        "name": "HandBrake",
+        "description": "Installing HandBrake on macOS Sonoma for ripping copy-protected DVDs. Long live physical media!",
+        "categories": "tools",
+        "relative_path": "tools/handbrake",
+        "updated_at": "2023-12-29T11:32:24Z",
+        "id": "#278"
     }
 ]

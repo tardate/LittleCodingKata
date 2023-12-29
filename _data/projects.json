@@ -2417,5 +2417,13 @@
         "tags": [
             "bash"
         ]
+    },
+    "/tools/handbrake/": {
+        "id": 278,
+        "title": "HandBrake",
+        "summary": "Installing HandBrake on macOS Sonoma for ripping copy-protected DVDs. Long live physical media!",
+        "tags": [
+            "tools"
+        ]
     }
 }
