@@ -2206,5 +2206,13 @@
         "relative_path": "ruby/with_defaults",
         "updated_at": "2023-11-29T09:38:48Z",
         "id": "#276"
+    },
+    {
+        "name": "Bash on macOS",
+        "description": "Using latest bash releases on the latest versions of macOS",
+        "categories": "bash",
+        "relative_path": "bash/macos",
+        "updated_at": "2023-12-29T05:51:38Z",
+        "id": "#277"
     }
 ]

@@ -2409,5 +2409,13 @@
         "tags": [
             "ruby"
         ]
+    },
+    "/bash/macos/": {
+        "id": 277,
+        "title": "Bash on macOS",
+        "summary": "Using latest bash releases on the latest versions of macOS",
+        "tags": [
+            "bash"
+        ]
     }
 }
