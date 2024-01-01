@@ -20,6 +20,11 @@ After installation:
     $ aws --version
     aws-cli/2.2.7 Python/3.8.8 Darwin/17.7.0 exe/x86_64 prompt/off
 
+Update: installed on macOS 14.2.1 (Apple Silicon):
+
+    $ aws --version
+    aws-cli/2.15.6 Python/3.11.6 Darwin/23.2.0 exe/x86_64 prompt/off
+    
 ### Running With Docker
 
 The CLI is now also available as a docker image:
@@ -38,7 +43,6 @@ To upload/download data from localfile system (current directory: `$(pwd)`), als
     download: s3://aws-cli-docker-demo/hello to ./hello
     $ cat hello
     Hello from Docker!
-
 
 ## AWS CLI version 1
 
