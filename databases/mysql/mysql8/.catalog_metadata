@@ -1,0 +1,6 @@
+{
+    "name": "MySQL 8",
+    "description": "All about MySQL 8 and examples of running with docker",
+    "categories": "databases/mysql",
+    "relative_path": "databases/mysql/mysql8"
+}

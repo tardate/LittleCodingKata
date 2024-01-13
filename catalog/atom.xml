@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2023-12-29T11:40:16Z</updated>
+  <updated>2024-01-13T03:57:07Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2437,5 +2437,13 @@
     <title>HandBrake</title>
     <summary>Installing HandBrake on macOS Sonoma for ripping copy-protected DVDs. Long live physical media!</summary>
     <category term="tools"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/databases/mysql/mysql8/</id>
+    <link href="https://codingkata.tardate.com/databases/mysql/mysql8/"/>
+    <updated>2024-01-13T03:33:48Z</updated>
+    <title>MySQL 8</title>
+    <summary>All about MySQL 8 and examples of running with docker</summary>
+    <category term="databases/mysql"/>
   </entry>
 </feed>

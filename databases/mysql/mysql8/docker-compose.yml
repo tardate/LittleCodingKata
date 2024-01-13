@@ -1,0 +1,23 @@
+version: '3.4'
+services:
+  db:
+    image: mysql:8.0.35
+    ports:
+      - '3306:3306'
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      # Use root/example as user/password credentials
+      MYSQL_ROOT_PASSWORD: example
+    volumes:
+      - db_data:/var/lib/mysql
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3" 
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080         
+volumes:
+  db_data:        

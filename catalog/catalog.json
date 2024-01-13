@@ -2222,5 +2222,13 @@
         "relative_path": "tools/handbrake",
         "updated_at": "2023-12-29T11:32:24Z",
         "id": "#278"
+    },
+    {
+        "name": "MySQL 8",
+        "description": "All about MySQL 8 and examples of running with docker",
+        "categories": "databases/mysql",
+        "relative_path": "databases/mysql/mysql8",
+        "updated_at": "2024-01-13T03:33:48Z",
+        "id": "#279"
     }
 ]

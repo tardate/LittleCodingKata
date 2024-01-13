@@ -2425,5 +2425,13 @@
         "tags": [
             "tools"
         ]
+    },
+    "/databases/mysql/mysql8/": {
+        "id": 279,
+        "title": "MySQL 8",
+        "summary": "All about MySQL 8 and examples of running with docker",
+        "tags": [
+            "databases/mysql"
+        ]
     }
 }
