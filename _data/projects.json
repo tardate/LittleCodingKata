@@ -2441,5 +2441,13 @@
         "tags": [
             "messaging"
         ]
+    },
+    "/ruby/amqp/": {
+        "id": 281,
+        "title": "AMQP with Ruby",
+        "summary": "Using the amqp EventMachine-based RabbitMQ client",
+        "tags": [
+            "ruby"
+        ]
     }
 }

@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2024-01-14T04:15:31Z</updated>
+  <updated>2024-01-14T06:26:51Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2453,5 +2453,13 @@
     <title>RabbitMQ</title>
     <summary>All about RabbitMQ message broker</summary>
     <category term="messaging"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/amqp/</id>
+    <link href="https://codingkata.tardate.com/ruby/amqp/"/>
+    <updated>2024-01-14T06:26:39Z</updated>
+    <title>AMQP with Ruby</title>
+    <summary>Using the amqp EventMachine-based RabbitMQ client</summary>
+    <category term="ruby"/>
   </entry>
 </feed>

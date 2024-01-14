@@ -2238,5 +2238,13 @@
         "relative_path": "messaging/rabbitmq",
         "updated_at": "2024-01-14T03:51:01Z",
         "id": "#280"
+    },
+    {
+        "name": "AMQP with Ruby",
+        "description": "Using the amqp EventMachine-based RabbitMQ client",
+        "categories": "ruby",
+        "relative_path": "ruby/amqp",
+        "updated_at": "2024-01-14T06:26:39Z",
+        "id": "#281"
     }
 ]
