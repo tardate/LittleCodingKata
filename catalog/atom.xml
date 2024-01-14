@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2024-01-14T06:26:51Z</updated>
+  <updated>2024-01-14T06:44:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -781,14 +781,6 @@
     <updated>2020-01-25T11:14:29Z</updated>
     <title>Pointers in C</title>
     <summary>All about pointers in C</summary>
-    <category term="C"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/c/linking/</id>
-    <link href="https://codingkata.tardate.com/c/linking/"/>
-    <updated>2020-01-25T11:14:29Z</updated>
-    <title>Linking C</title>
-    <summary>All about compiling, linking, and debugging C with GCC</summary>
     <category term="C"/>
   </entry>
   <entry>
@@ -2457,9 +2449,17 @@
   <entry>
     <id>https://codingkata.tardate.com/ruby/amqp/</id>
     <link href="https://codingkata.tardate.com/ruby/amqp/"/>
-    <updated>2024-01-14T06:26:39Z</updated>
+    <updated>2024-01-14T06:27:25Z</updated>
     <title>AMQP with Ruby</title>
     <summary>Using the amqp EventMachine-based RabbitMQ client</summary>
     <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/c/linking/</id>
+    <link href="https://codingkata.tardate.com/c/linking/"/>
+    <updated>2024-01-14T06:43:52Z</updated>
+    <title>Linking C</title>
+    <summary>All about compiling, linking, and debugging C with GCC on macOx (Intel and Apple Silicon)</summary>
+    <category term="C"/>
   </entry>
 </feed>

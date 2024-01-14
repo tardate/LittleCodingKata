@@ -1,6 +1,6 @@
 {
     "name": "Linking C",
-    "description": "All about compiling, linking, and debugging C with GCC",
+    "description": "All about compiling, linking, and debugging C with GCC on macOx (Intel and Apple Silicon)",
     "categories": "C",
     "relative_path": "c/linking"
 }
