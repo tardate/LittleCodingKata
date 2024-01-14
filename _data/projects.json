@@ -2418,16 +2418,8 @@
             "tools"
         ]
     },
-    "/databases/mysql/mysql8/": {
-        "id": 278,
-        "title": "MySQL 8",
-        "summary": "All about MySQL 8 and examples of running with docker",
-        "tags": [
-            "databases/mysql"
-        ]
-    },
     "/messaging/rabbitmq/": {
-        "id": 279,
+        "id": 278,
         "title": "RabbitMQ",
         "summary": "All about RabbitMQ message broker",
         "tags": [
@@ -2435,7 +2427,7 @@
         ]
     },
     "/ruby/amqp/": {
-        "id": 280,
+        "id": 279,
         "title": "AMQP with Ruby",
         "summary": "Using the amqp EventMachine-based RabbitMQ client",
         "tags": [
@@ -2443,11 +2435,20 @@
         ]
     },
     "/c/linking/": {
-        "id": 281,
+        "id": 280,
         "title": "Linking C",
         "summary": "All about compiling, linking, and debugging C with GCC on macOx (Intel and Apple Silicon)",
         "tags": [
             "C"
+        ]
+    },
+    "/databases/mysql/mysql8/": {
+        "id": 281,
+        "title": "MySQL 8",
+        "summary": "All about MySQL 8 and examples of running with docker",
+        "tags": [
+            "Database",
+            "MySQL"
         ]
     }
 }

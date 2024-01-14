@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2024-01-14T06:44:00Z</updated>
+  <updated>2024-01-14T07:32:48Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2431,14 +2431,6 @@
     <category term="tools"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/databases/mysql/mysql8/</id>
-    <link href="https://codingkata.tardate.com/databases/mysql/mysql8/"/>
-    <updated>2024-01-13T03:33:48Z</updated>
-    <title>MySQL 8</title>
-    <summary>All about MySQL 8 and examples of running with docker</summary>
-    <category term="databases/mysql"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/messaging/rabbitmq/</id>
     <link href="https://codingkata.tardate.com/messaging/rabbitmq/"/>
     <updated>2024-01-14T03:51:01Z</updated>
@@ -2461,5 +2453,14 @@
     <title>Linking C</title>
     <summary>All about compiling, linking, and debugging C with GCC on macOx (Intel and Apple Silicon)</summary>
     <category term="C"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/databases/mysql/mysql8/</id>
+    <link href="https://codingkata.tardate.com/databases/mysql/mysql8/"/>
+    <updated>2024-01-14T07:32:31Z</updated>
+    <title>MySQL 8</title>
+    <summary>All about MySQL 8 and examples of running with docker</summary>
+    <category term="Database"/>
+    <category term="MySQL"/>
   </entry>
 </feed>

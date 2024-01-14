@@ -2216,20 +2216,12 @@
         "id": "#277"
     },
     {
-        "name": "MySQL 8",
-        "description": "All about MySQL 8 and examples of running with docker",
-        "categories": "databases/mysql",
-        "relative_path": "databases/mysql/mysql8",
-        "updated_at": "2024-01-13T03:33:48Z",
-        "id": "#278"
-    },
-    {
         "name": "RabbitMQ",
         "description": "All about RabbitMQ message broker",
         "categories": "messaging",
         "relative_path": "messaging/rabbitmq",
         "updated_at": "2024-01-14T03:51:01Z",
-        "id": "#279"
+        "id": "#278"
     },
     {
         "name": "AMQP with Ruby",
@@ -2237,7 +2229,7 @@
         "categories": "ruby",
         "relative_path": "ruby/amqp",
         "updated_at": "2024-01-14T06:27:25Z",
-        "id": "#280"
+        "id": "#279"
     },
     {
         "name": "Linking C",
@@ -2245,6 +2237,14 @@
         "categories": "C",
         "relative_path": "c/linking",
         "updated_at": "2024-01-14T06:43:52Z",
+        "id": "#280"
+    },
+    {
+        "name": "MySQL 8",
+        "description": "All about MySQL 8 and examples of running with docker",
+        "categories": "Database, MySQL",
+        "relative_path": "databases/mysql/mysql8",
+        "updated_at": "2024-01-14T07:32:31Z",
         "id": "#281"
     }
 ]
