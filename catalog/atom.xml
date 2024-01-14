@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2024-01-13T03:57:07Z</updated>
+  <updated>2024-01-14T04:15:31Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2445,5 +2445,13 @@
     <title>MySQL 8</title>
     <summary>All about MySQL 8 and examples of running with docker</summary>
     <category term="databases/mysql"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/messaging/rabbitmq/</id>
+    <link href="https://codingkata.tardate.com/messaging/rabbitmq/"/>
+    <updated>2024-01-14T03:51:01Z</updated>
+    <title>RabbitMQ</title>
+    <summary>All about RabbitMQ message broker</summary>
+    <category term="messaging"/>
   </entry>
 </feed>

@@ -1,0 +1,12 @@
+version: '3.4'
+services:
+  db:
+    image: rabbitmq:3-management
+    ports:
+      - '5672:5672'
+      - '15672:15672'
+    logging:
+      driver: json-file
+      options:
+        max-size: '10m'
+        max-file: '3'

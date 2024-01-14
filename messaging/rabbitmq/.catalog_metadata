@@ -1,0 +1,6 @@
+{
+    "name": "RabbitMQ",
+    "description": "All about RabbitMQ message broker",
+    "categories": "messaging",
+    "relative_path": "messaging/rabbitmq"
+}

@@ -2230,5 +2230,13 @@
         "relative_path": "databases/mysql/mysql8",
         "updated_at": "2024-01-13T03:33:48Z",
         "id": "#279"
+    },
+    {
+        "name": "RabbitMQ",
+        "description": "All about RabbitMQ message broker",
+        "categories": "messaging",
+        "relative_path": "messaging/rabbitmq",
+        "updated_at": "2024-01-14T03:51:01Z",
+        "id": "#280"
     }
 ]

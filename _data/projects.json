@@ -2433,5 +2433,13 @@
         "tags": [
             "databases/mysql"
         ]
+    },
+    "/messaging/rabbitmq/": {
+        "id": 280,
+        "title": "RabbitMQ",
+        "summary": "All about RabbitMQ message broker",
+        "tags": [
+            "messaging"
+        ]
     }
 }
