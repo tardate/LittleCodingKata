@@ -48,20 +48,19 @@ Communications are UDP, and the conventional ntp port is 123.
 
 Timestamp format:
 
-```
-                     1                   2                   3
- 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                           Seconds                             |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                  Seconds Fraction (0-padded)                  |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-```
+                        1                   2                   3
+    0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    |                           Seconds                             |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    |                  Seconds Fraction (0-padded)                  |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
 #### Authentication?
 
 The original protocol is not secure.
 
-The NTPv3 defined a symmetric key authentication scheme for information purpoises only.
+The NTPv3 defined a symmetric key authentication scheme for information purposes only.
 NTPv4 introduced an Autokey public key authentication described in [RFC5906](https://www.rfc-editor.org/rfc/rfc5906).
 
 Network Time Security (NTS) is a secure version of NTP[7] with TLS and AEAD.
@@ -71,7 +70,7 @@ Network Time Security (NTS) is a secure version of NTP[7] with TLS and AEAD.
 [NTP Pool Project](https://www.ntppool.org/en/)
 is a big virtual cluster of timeservers providing reliable easy to use NTP service for millions of clients.
 
-See alos:
+See also:
 
 * [NIST Internet Time Servers](https://tf.nist.gov/tf-cgi/servers.cgi)
 
@@ -106,6 +105,8 @@ Note that as of now, only [net-ntp 2.1.3 is on rubygems](https://rubygems.org/ge
 This version has a bug when decoding stratum 1 server `reference_clock_identifier` details.
 This is fixed in 2.1.4 that can be installed directly from github
 
+64.142.122.38:
+
     $ bundle exec ./example.rb 64.142.122.38
     Time is: 2022-11-13 12:14:05 +0800
 
@@ -127,6 +128,8 @@ This is fixed in 2.1.4 that can be installed directly from github
     reference_clock_identifier: PPS
     reference_clock_identifier_text: atomic clock or other pulse-per-second source individually calibrated to national standards
 
+time-a-g.nist.gov
+
     $ bundle exec ./example.rb time-a-g.nist.gov
     Time is: 2022-11-13 12:12:31 +0800
 
@@ -147,6 +150,31 @@ This is fixed in 2.1.4 that can be installed directly from github
     stratum: 1 - primary reference (e.g., radio clock)
     reference_clock_identifier: NIST
     reference_clock_identifier_text:
+
+time.nist.gov:
+
+    $ bundle exec ./example.rb time.nist.gov
+    Time is: 2024-01-20 11:15:47 +0800
+
+    NTP response details:
+    host: time.nist.gov
+    mode: server
+    version: 3
+    leap_indicator: no warning
+    poll_interval: 13
+    precision: -28
+    root_delay: 0.000244140625
+    root_dispersion: 0
+    reference_timestamp: 1705720448.0
+    originate_timestamp: 1705720546.582
+    receive_timestamp: 1705720547.0944347
+    transmit_timestamp: 1705720547.0944366
+    offset: 0.21082615852355957
+    stratum: 1 - primary reference (e.g., radio clock)
+    reference_clock_identifier: NIST
+    reference_clock_identifier_text:
+
+sg.pool.ntp.org:
 
     $ bundle exec ./example.rb sg.pool.ntp.org
     Time is: 2022-11-13 12:12:32 +0800
