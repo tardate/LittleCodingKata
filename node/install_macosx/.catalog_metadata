@@ -1,6 +1,6 @@
 {
-    "name": "Installing Node.js MacOS",
-    "description": "Installing and maintaining Node.js on MacOS",
+    "name": "Installing Node.js macOS",
+    "description": "Installing and maintaining Node.js on macOS",
     "categories": "node",
     "relative_path": "node/install_macosx"
 }

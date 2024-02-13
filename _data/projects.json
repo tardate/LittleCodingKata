@@ -1843,16 +1843,8 @@
             "C++"
         ]
     },
-    "/node/install_macosx/": {
-        "id": 211,
-        "title": "Installing Node.js MacOS",
-        "summary": "Installing and maintaining Node.js on MacOS",
-        "tags": [
-            "node"
-        ]
-    },
     "/infrastructure/radius/freeradius-client-macosx/": {
-        "id": 212,
+        "id": 211,
         "title": "FreeRADIUS/freeradius-client-macosx",
         "summary": "FreeRADIUS - running on MacOS (#fail - this project needs work)",
         "tags": [
@@ -1862,7 +1854,7 @@
         ]
     },
     "/infrastructure/radius/freeradius-server-macosx/": {
-        "id": 213,
+        "id": 212,
         "title": "FreeRADIUS/freeradius-server-macosx",
         "summary": "FreeRADIUS - running on MacOS",
         "tags": [
@@ -1872,7 +1864,7 @@
         ]
     },
     "/infrastructure/zabbix/dockerized5/": {
-        "id": 214,
+        "id": 213,
         "title": "Zabbix 5 Docker",
         "summary": "Running Zabbix 5 with Docker",
         "tags": [
@@ -1883,7 +1875,7 @@
         ]
     },
     "/messaging/grpc/install_macosx/": {
-        "id": 215,
+        "id": 214,
         "title": "gRPC/install_macosx",
         "summary": "installing on MacOS",
         "tags": [
@@ -1893,7 +1885,7 @@
         ]
     },
     "/messaging/zeromq/install_macosx/": {
-        "id": 216,
+        "id": 215,
         "title": "zeromq on MacOS",
         "summary": "Installing zeromq on MacOS",
         "tags": [
@@ -1902,7 +1894,7 @@
         ]
     },
     "/ruby/http_mock_responses/": {
-        "id": 217,
+        "id": 216,
         "title": "HTTP Mock Responses",
         "summary": "Using Sinatra to craft simple HTTP web responses for mock integration testing",
         "tags": [
@@ -1910,7 +1902,7 @@
         ]
     },
     "/tools/sftp/": {
-        "id": 218,
+        "id": 217,
         "title": "SFTP",
         "summary": "About SSH File Transfer Protocol",
         "tags": [
@@ -1918,7 +1910,7 @@
         ]
     },
     "/tools/ssh/": {
-        "id": 219,
+        "id": 218,
         "title": "SSH",
         "summary": "About Secure Shell (SSH) and common SSH tips and tricks.",
         "tags": [
@@ -1926,7 +1918,7 @@
         ]
     },
     "/databases/postgresql/locks/": {
-        "id": 220,
+        "id": 219,
         "title": "PostgreSQL Locks",
         "summary": "Notes on managing PostgreSQL locks",
         "tags": [
@@ -1935,7 +1927,7 @@
         ]
     },
     "/databases/postgresql/sequences/": {
-        "id": 221,
+        "id": 220,
         "title": "PostgreSQL Sequences",
         "summary": "Notes on managing PostgreSQL Sequences",
         "tags": [
@@ -1944,7 +1936,7 @@
         ]
     },
     "/databases/mysql/primary_key_audit/": {
-        "id": 222,
+        "id": 221,
         "title": "Primary Key Audit",
         "summary": "How to list primary key details in a MySQL database",
         "tags": [
@@ -1953,7 +1945,7 @@
         ]
     },
     "/tools/SatelliteImagerySources/": {
-        "id": 223,
+        "id": 222,
         "title": "Satellite Imagery Sources",
         "summary": "Poking around free satellite imagery services",
         "tags": [
@@ -1962,7 +1954,7 @@
         ]
     },
     "/tools/cron/": {
-        "id": 224,
+        "id": 223,
         "title": "cron",
         "summary": "all about cron and OS-managed scheduled tasks",
         "tags": [
@@ -1970,7 +1962,7 @@
         ]
     },
     "/docker/housekeeping/": {
-        "id": 225,
+        "id": 224,
         "title": "Docker Housekeeping",
         "summary": "Some simple housekeeping commands for Docker",
         "tags": [
@@ -1978,7 +1970,7 @@
         ]
     },
     "/docker/shell/": {
-        "id": 226,
+        "id": 225,
         "title": "Docker Shell",
         "summary": "How to get a bash shell in a docker instance",
         "tags": [
@@ -1986,7 +1978,7 @@
         ]
     },
     "/methods/the_pocket_guide_to_debugging/": {
-        "id": 227,
+        "id": 226,
         "title": "The Pocket Guide to Debugging",
         "summary": "Book notes - The Pocket Guide to Debugging by Julia Evans",
         "tags": [
@@ -1994,7 +1986,7 @@
         ]
     },
     "/methods/big_o_notation/": {
-        "id": 228,
+        "id": 227,
         "title": "Big O Notation",
         "summary": "About Big O Notation",
         "tags": [
@@ -2002,7 +1994,7 @@
         ]
     },
     "/methods/livable_code/": {
-        "id": 229,
+        "id": 228,
         "title": "Livable Code",
         "summary": "Notes on the RailsConf 2018 Keynote - Livable Code by Sarah Mei",
         "tags": [
@@ -2010,7 +2002,7 @@
         ]
     },
     "/python/lotto_picker/": {
-        "id": 230,
+        "id": 229,
         "title": "Lotto Picker - The Python Way",
         "summary": "Using a lotto picker example to demonstrate random numbers and set operations the python way",
         "tags": [
@@ -2018,7 +2010,7 @@
         ]
     },
     "/python/snmp_server/": {
-        "id": 231,
+        "id": 230,
         "title": "Python SNMP Servers",
         "summary": "Researching simple pure Python SNMP Server options",
         "tags": [
@@ -2027,7 +2019,7 @@
         ]
     },
     "/python/FlaskWebDevelopment/": {
-        "id": 232,
+        "id": 231,
         "title": "Flask Web Development",
         "summary": "Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly",
         "tags": [
@@ -2036,7 +2028,7 @@
         ]
     },
     "/python/image_resize/": {
-        "id": 233,
+        "id": 232,
         "title": "Image Resize",
         "summary": "Simple image resizing with python and the Pillow library and a little yak shaving with EXIF tags",
         "tags": [
@@ -2044,7 +2036,7 @@
         ]
     },
     "/python/LightweightDjango/": {
-        "id": 234,
+        "id": 233,
         "title": "Lightweight Django",
         "summary": "Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly",
         "tags": [
@@ -2053,7 +2045,7 @@
         ]
     },
     "/python/celery/": {
-        "id": 235,
+        "id": 234,
         "title": "Celery",
         "summary": "About Celery, a distributed task queue system for python",
         "tags": [
@@ -2061,7 +2053,7 @@
         ]
     },
     "/python/class_structures_and_scoping/": {
-        "id": 236,
+        "id": 235,
         "title": "Class Structures and Scoping",
         "summary": "about class structyres and scoping in python",
         "tags": [
@@ -2069,7 +2061,7 @@
         ]
     },
     "/python/PythonPlayground/": {
-        "id": 237,
+        "id": 236,
         "title": "Python Playground",
         "summary": "Book notes - Python Playground, by Mahesh Venkitachalam, published by No Starch Press",
         "tags": [
@@ -2078,7 +2070,7 @@
         ]
     },
     "/python/django/minimal/": {
-        "id": 238,
+        "id": 237,
         "title": "Minimal Django",
         "summary": "The most bare-bones single file Django app",
         "tags": [
@@ -2087,7 +2079,7 @@
         ]
     },
     "/python/django/minimal_startproject/": {
-        "id": 239,
+        "id": 238,
         "title": "Minimal Django Starter Project",
         "summary": "The basic Django app framework",
         "tags": [
@@ -2096,7 +2088,7 @@
         ]
     },
     "/security/PKCS12/": {
-        "id": 240,
+        "id": 239,
         "title": "PKCS12",
         "summary": "About PKCS #12 archive files",
         "tags": [
@@ -2104,7 +2096,7 @@
         ]
     },
     "/security/self-signed-certs/": {
-        "id": 241,
+        "id": 240,
         "title": "Self-signed Certs",
         "summary": "Creating a self-signed certificate",
         "tags": [
@@ -2112,7 +2104,7 @@
         ]
     },
     "/rust/lotto_picker/": {
-        "id": 242,
+        "id": 241,
         "title": "Lotto Picker - The Rust Way",
         "summary": "Using a lotto picker example to demonstrate random numbers and set operations the rust way",
         "tags": [
@@ -2120,7 +2112,7 @@
         ]
     },
     "/php/md5/": {
-        "id": 243,
+        "id": 242,
         "title": "php md5",
         "summary": "Are you still using MD5 in PHP?",
         "tags": [
@@ -2128,7 +2120,7 @@
         ]
     },
     "/php/include/": {
-        "id": 244,
+        "id": 243,
         "title": "php include",
         "summary": "How to include or require other files in a PHP script",
         "tags": [
@@ -2136,7 +2128,7 @@
         ]
     },
     "/bash/disk_usage/": {
-        "id": 245,
+        "id": 244,
         "title": "disk usage",
         "summary": "how to survey disk usage on linux systems",
         "tags": [
@@ -2144,7 +2136,7 @@
         ]
     },
     "/bash/getopts/": {
-        "id": 246,
+        "id": 245,
         "title": "getopts",
         "summary": "Using the getopts utility for parsing options in shell scripts",
         "tags": [
@@ -2152,7 +2144,7 @@
         ]
     },
     "/bash/parameter_substitution/": {
-        "id": 247,
+        "id": 246,
         "title": "Parameter Substitution",
         "summary": "All about Bash parameter substitution.",
         "tags": [
@@ -2160,7 +2152,7 @@
         ]
     },
     "/bash/split_files/": {
-        "id": 248,
+        "id": 247,
         "title": "Split Files",
         "summary": "Split a text file into parts with simple shell utilities",
         "tags": [
@@ -2170,7 +2162,7 @@
         ]
     },
     "/cpp/binary_files/": {
-        "id": 249,
+        "id": 248,
         "title": "Binary Files",
         "summary": "Simple binary file operations with C++",
         "tags": [
@@ -2178,7 +2170,7 @@
         ]
     },
     "/cpp/static_library/": {
-        "id": 250,
+        "id": 249,
         "title": "Making Static Libraries",
         "summary": "Basics of building and using static libraries with C++",
         "tags": [
@@ -2186,7 +2178,7 @@
         ]
     },
     "/javascript/tone_generator/": {
-        "id": 251,
+        "id": 250,
         "title": "Audio Tone Generator",
         "summary": "I used ChatGPT to show me how to make an audio tone generation tool in Javascript and it taught me how to use the new(ish) AudioContext API",
         "tags": [
@@ -2195,7 +2187,7 @@
         ]
     },
     "/infrastructure/ruckus/convert_sz_ap_to_unleashed/": {
-        "id": 252,
+        "id": 251,
         "title": "Convert SZ AP to Unleashed",
         "summary": "Demonstrating the procedure for converting a SZ-managed Ruckus R610 AP to Unleashed",
         "tags": [
@@ -2204,7 +2196,7 @@
         ]
     },
     "/infrastructure/ruckus/vsz_add_ap/": {
-        "id": 253,
+        "id": 252,
         "title": "Adding APs to vSZ",
         "summary": "Configuring a Ruckus R610 access point to be managed by a Ruckus Virtual SmartZone controller",
         "tags": [
@@ -2213,7 +2205,7 @@
         ]
     },
     "/infrastructure/ruckus/vsz_on_aws/": {
-        "id": 254,
+        "id": 253,
         "title": "Ruckus vSZ on AWS",
         "summary": "Complete and validated demonstration of installing Ruckus Virtual SmartZone on AWS",
         "tags": [
@@ -2222,7 +2214,7 @@
         ]
     },
     "/rubylang/compiling/": {
-        "id": 255,
+        "id": 254,
         "title": "Compiling Ruby",
         "summary": "Compiling Ruby (2.6.5-p114) from source and some debugging with llvm",
         "tags": [
@@ -2231,7 +2223,7 @@
         ]
     },
     "/ruby/lotto_picker/": {
-        "id": 256,
+        "id": 255,
         "title": "Lotto Picker - The Ruby Way",
         "summary": "Using a lotto picker example to demonstrate random numbers and set operations the ruby way",
         "tags": [
@@ -2239,7 +2231,7 @@
         ]
     },
     "/ruby/querying_atom_feeds/": {
-        "id": 257,
+        "id": 256,
         "title": "Querying Atom Feeds",
         "summary": "Techniques and examples for querying Atom Feeds with XPath and Nokogiri",
         "tags": [
@@ -2247,7 +2239,7 @@
         ]
     },
     "/ruby/one-liners/": {
-        "id": 258,
+        "id": 257,
         "title": "Ruby One-liners",
         "summary": "All about one-liners with ruby",
         "tags": [
@@ -2255,7 +2247,7 @@
         ]
     },
     "/ruby/case_of_the_missing_method/": {
-        "id": 259,
+        "id": 258,
         "title": "The Case of the Missing Method",
         "summary": "Or to mix literary metaphors, where in the world do class methods get stored? An investigation into the sublime and elegant design of metaclasses in ruby",
         "tags": [
@@ -2263,7 +2255,7 @@
         ]
     },
     "/ruby/xml_parsing/": {
-        "id": 260,
+        "id": 259,
         "title": "XML Parsing with Ruby",
         "summary": "About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like nokogiri",
         "tags": [
@@ -2274,7 +2266,7 @@
         ]
     },
     "/ruby/chart_gems/": {
-        "id": 261,
+        "id": 260,
         "title": "Chart Gems",
         "summary": "Notes on ruby options for chart generation that support output as an image",
         "tags": [
@@ -2283,7 +2275,7 @@
         ]
     },
     "/ruby/xe_currency/": {
-        "id": 262,
+        "id": 261,
         "title": "xe_currency",
         "summary": "Using the Xe Currency Data API from Ruby and with curl",
         "tags": [
@@ -2291,7 +2283,7 @@
         ]
     },
     "/ruby/ipv4/": {
-        "id": 263,
+        "id": 262,
         "title": "IPv4 Addresses with Ruby",
         "summary": "All about dissecting IPv4 addresses with ruby including networks, netmasks and CIDR",
         "tags": [
@@ -2299,7 +2291,7 @@
         ]
     },
     "/ruby/ntp/": {
-        "id": 264,
+        "id": 263,
         "title": "NTP with Ruby",
         "summary": "All about the NTP protocol with examples in ruby",
         "tags": [
@@ -2307,7 +2299,7 @@
         ]
     },
     "/ruby/memory_profiling/": {
-        "id": 265,
+        "id": 264,
         "title": "Memory Profiling",
         "summary": "About memory profiling in Ruby",
         "tags": [
@@ -2315,7 +2307,7 @@
         ]
     },
     "/tools/sublime_text/": {
-        "id": 266,
+        "id": 265,
         "title": "Sublime Text",
         "summary": "All about Sublime Text",
         "tags": [
@@ -2324,7 +2316,7 @@
         ]
     },
     "/tools/wifi_scanners/": {
-        "id": 267,
+        "id": 266,
         "title": "WiFi Scanners",
         "summary": "A quick survey of WiFi scanners",
         "tags": [
@@ -2333,7 +2325,7 @@
         ]
     },
     "/tools/video_editing/": {
-        "id": 268,
+        "id": 267,
         "title": "Video Editing",
         "summary": "Miscellaneous video editing and manipulation tools",
         "tags": [
@@ -2342,7 +2334,7 @@
         ]
     },
     "/web/favicons/": {
-        "id": 269,
+        "id": 268,
         "title": "favicons",
         "summary": "All about favicons",
         "tags": [
@@ -2350,7 +2342,7 @@
         ]
     },
     "/web/bootstrap/": {
-        "id": 270,
+        "id": 269,
         "title": "bootstrap",
         "summary": "About Bootstrap",
         "tags": [
@@ -2359,7 +2351,7 @@
         ]
     },
     "/web/fullcalendar/": {
-        "id": 271,
+        "id": 270,
         "title": "fullcalendar",
         "summary": "Using the fullcalendar library for the web",
         "tags": [
@@ -2368,7 +2360,7 @@
         ]
     },
     "/web/cookieconsent/": {
-        "id": 272,
+        "id": 271,
         "title": "cookieconsent",
         "summary": "Using cookieconsent for embedding cookie warnings in a web page",
         "tags": [
@@ -2377,7 +2369,7 @@
         ]
     },
     "/web/browser_connection_management/": {
-        "id": 273,
+        "id": 272,
         "title": "Browser Connection Management",
         "summary": "Notes on how web browsers manage network connections",
         "tags": [
@@ -2386,7 +2378,7 @@
         ]
     },
     "/web/bootstrap_datetime_pickers/": {
-        "id": 274,
+        "id": 273,
         "title": "Bootstrap Date and Time Pickers",
         "summary": "About date/time pickers with bootstrap",
         "tags": [
@@ -2395,7 +2387,7 @@
         ]
     },
     "/ruby/with_defaults/": {
-        "id": 275,
+        "id": 274,
         "title": "Using with_defaults",
         "summary": "About the `reverse_merge` and `with_defaults` Hash mixins from Rails",
         "tags": [
@@ -2403,7 +2395,7 @@
         ]
     },
     "/bash/macos/": {
-        "id": 276,
+        "id": 275,
         "title": "Bash on macOS",
         "summary": "Using latest bash releases on the latest versions of macOS",
         "tags": [
@@ -2411,7 +2403,7 @@
         ]
     },
     "/tools/handbrake/": {
-        "id": 277,
+        "id": 276,
         "title": "HandBrake",
         "summary": "Installing HandBrake on macOS Sonoma for ripping copy-protected DVDs. Long live physical media!",
         "tags": [
@@ -2419,7 +2411,7 @@
         ]
     },
     "/messaging/rabbitmq/": {
-        "id": 278,
+        "id": 277,
         "title": "RabbitMQ",
         "summary": "All about RabbitMQ message broker",
         "tags": [
@@ -2427,7 +2419,7 @@
         ]
     },
     "/ruby/amqp/": {
-        "id": 279,
+        "id": 278,
         "title": "AMQP with Ruby",
         "summary": "Using the amqp EventMachine-based RabbitMQ client",
         "tags": [
@@ -2435,7 +2427,7 @@
         ]
     },
     "/c/linking/": {
-        "id": 280,
+        "id": 279,
         "title": "Linking C",
         "summary": "All about compiling, linking, and debugging C with GCC on macOx (Intel and Apple Silicon)",
         "tags": [
@@ -2443,12 +2435,20 @@
         ]
     },
     "/databases/mysql/mysql8/": {
-        "id": 281,
+        "id": 280,
         "title": "MySQL 8",
         "summary": "All about MySQL 8 and examples of running with docker",
         "tags": [
             "Database",
             "MySQL"
+        ]
+    },
+    "/node/install_macosx/": {
+        "id": 281,
+        "title": "Installing Node.js macOS",
+        "summary": "Installing and maintaining Node.js on macOS",
+        "tags": [
+            "node"
         ]
     }
 }

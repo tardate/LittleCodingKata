@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2024-01-14T07:32:48Z</updated>
+  <updated>2024-02-13T01:54:34Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1856,14 +1856,6 @@
     <category term="C++"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/node/install_macosx/</id>
-    <link href="https://codingkata.tardate.com/node/install_macosx/"/>
-    <updated>2021-11-02T14:58:32Z</updated>
-    <title>Installing Node.js MacOS</title>
-    <summary>Installing and maintaining Node.js on MacOS</summary>
-    <category term="node"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/infrastructure/radius/freeradius-client-macosx/</id>
     <link href="https://codingkata.tardate.com/infrastructure/radius/freeradius-client-macosx/"/>
     <updated>2021-11-02T14:58:32Z</updated>
@@ -2462,5 +2454,13 @@
     <summary>All about MySQL 8 and examples of running with docker</summary>
     <category term="Database"/>
     <category term="MySQL"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/node/install_macosx/</id>
+    <link href="https://codingkata.tardate.com/node/install_macosx/"/>
+    <updated>2024-02-13T01:49:13Z</updated>
+    <title>Installing Node.js macOS</title>
+    <summary>Installing and maintaining Node.js on macOS</summary>
+    <category term="node"/>
   </entry>
 </feed>
