@@ -1,0 +1,6 @@
+{
+    "name": "GitOps",
+    "description": "GitOps in a nutshell - Continuous Deployment for cloud native applications",
+    "categories": "methods",
+    "relative_path": "methods/gitops"
+}

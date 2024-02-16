@@ -2450,5 +2450,13 @@
         "tags": [
             "node"
         ]
+    },
+    "/methods/gitops/": {
+        "id": 282,
+        "title": "GitOps",
+        "summary": "GitOps in a nutshell - Continuous Deployment for cloud native applications",
+        "tags": [
+            "methods"
+        ]
     }
 }

@@ -2246,5 +2246,13 @@
         "relative_path": "node/install_macosx",
         "updated_at": "2024-02-13T01:49:13Z",
         "id": "#281"
+    },
+    {
+        "name": "GitOps",
+        "description": "GitOps in a nutshell - Continuous Deployment for cloud native applications",
+        "categories": "methods",
+        "relative_path": "methods/gitops",
+        "updated_at": "2024-02-16T00:22:24Z",
+        "id": "#282"
     }
 ]
