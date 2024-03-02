@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2024-02-16T00:26:03Z</updated>
+  <updated>2024-03-02T15:08:50Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2470,5 +2470,14 @@
     <title>GitOps</title>
     <summary>GitOps in a nutshell - Continuous Deployment for cloud native applications</summary>
     <category term="methods"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/sublime_merge/</id>
+    <link href="https://codingkata.tardate.com/tools/sublime_merge/"/>
+    <updated>2024-03-02T15:06:34Z</updated>
+    <title>Sublime Merge</title>
+    <summary>All about Sublime Merge.</summary>
+    <category term="tools"/>
+    <category term="git"/>
   </entry>
 </feed>

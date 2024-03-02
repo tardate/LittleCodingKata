@@ -2458,5 +2458,14 @@
         "tags": [
             "methods"
         ]
+    },
+    "/tools/sublime_merge/": {
+        "id": 283,
+        "title": "Sublime Merge",
+        "summary": "All about Sublime Merge.",
+        "tags": [
+            "tools",
+            "git"
+        ]
     }
 }
