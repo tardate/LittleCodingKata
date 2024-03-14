@@ -1,0 +1,6 @@
+{
+    "name": "ubuntu docker image",
+    "description": "Using the official ubuntu docker images.",
+    "categories": "docker",
+    "relative_path": "docker/ubuntu"
+}

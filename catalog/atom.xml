@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2024-03-14T13:06:01Z</updated>
+  <updated>2024-03-14T13:43:24Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2481,17 +2481,9 @@
     <category term="git"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/security/pmp/rest_api/</id>
-    <link href="https://codingkata.tardate.com/security/pmp/rest_api/"/>
-    <updated>2024-03-14T12:04:22Z</updated>
-    <title>PMP REST API</title>
-    <summary>Notes on setting up and using the PMP REST API</summary>
-    <category term="security/pmp"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/security/pmp/about/</id>
     <link href="https://codingkata.tardate.com/security/pmp/about/"/>
-    <updated>2024-03-14T12:44:52Z</updated>
+    <updated>2024-03-14T13:06:41Z</updated>
     <title>About PMP</title>
     <summary>About ManageEngine Password Manager Pro including Linux server installation</summary>
     <category term="security/pmp"/>
@@ -2499,9 +2491,25 @@
   <entry>
     <id>https://codingkata.tardate.com/security/pmp/pypmp/</id>
     <link href="https://codingkata.tardate.com/security/pmp/pypmp/"/>
-    <updated>2024-03-14T13:05:56Z</updated>
+    <updated>2024-03-14T13:06:41Z</updated>
     <title>pypmp</title>
     <summary>Using pypmp to call the PMP REST API from python</summary>
     <category term="security/pmp"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/security/pmp/rest_api/</id>
+    <link href="https://codingkata.tardate.com/security/pmp/rest_api/"/>
+    <updated>2024-03-14T13:06:41Z</updated>
+    <title>PMP REST API</title>
+    <summary>Notes on setting up and using the PMP REST API</summary>
+    <category term="security/pmp"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/docker/ubuntu/</id>
+    <link href="https://codingkata.tardate.com/docker/ubuntu/"/>
+    <updated>2024-03-14T13:42:46Z</updated>
+    <title>ubuntu docker image</title>
+    <summary>Using the official ubuntu docker images.</summary>
+    <category term="docker"/>
   </entry>
 </feed>
