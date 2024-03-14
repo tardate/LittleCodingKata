@@ -2467,5 +2467,29 @@
             "tools",
             "git"
         ]
+    },
+    "/security/pmp/rest_api/": {
+        "id": 284,
+        "title": "PMP REST API",
+        "summary": "Notes on setting up and using the PMP REST API",
+        "tags": [
+            "security/pmp"
+        ]
+    },
+    "/security/pmp/about/": {
+        "id": 285,
+        "title": "About PMP",
+        "summary": "About ManageEngine Password Manager Pro including Linux server installation",
+        "tags": [
+            "security/pmp"
+        ]
+    },
+    "/security/pmp/pypmp/": {
+        "id": 286,
+        "title": "pypmp",
+        "summary": "Using pypmp to call the PMP REST API from python",
+        "tags": [
+            "security/pmp"
+        ]
     }
 }

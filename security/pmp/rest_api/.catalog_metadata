@@ -1,0 +1,6 @@
+{
+    "name": "PMP REST API",
+    "description": "Notes on setting up and using the PMP REST API",
+    "categories": "security/pmp",
+    "relative_path": "security/pmp/rest_api"
+}

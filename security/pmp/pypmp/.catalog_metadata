@@ -1,0 +1,6 @@
+{
+    "name": "pypmp",
+    "description": "Using pypmp to call the PMP REST API from python",
+    "categories": "security/pmp",
+    "relative_path": "security/pmp/pypmp"
+}

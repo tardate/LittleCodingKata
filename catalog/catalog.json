@@ -2262,5 +2262,29 @@
         "relative_path": "tools/sublime_merge",
         "updated_at": "2024-03-02T15:06:34Z",
         "id": "#283"
+    },
+    {
+        "name": "PMP REST API",
+        "description": "Notes on setting up and using the PMP REST API",
+        "categories": "security/pmp",
+        "relative_path": "security/pmp/rest_api",
+        "updated_at": "2024-03-14T12:04:22Z",
+        "id": "#284"
+    },
+    {
+        "name": "About PMP",
+        "description": "About ManageEngine Password Manager Pro including Linux server installation",
+        "categories": "security/pmp",
+        "relative_path": "security/pmp/about",
+        "updated_at": "2024-03-14T12:44:52Z",
+        "id": "#285"
+    },
+    {
+        "name": "pypmp",
+        "description": "Using pypmp to call the PMP REST API from python",
+        "categories": "security/pmp",
+        "relative_path": "security/pmp/pypmp",
+        "updated_at": "2024-03-14T13:05:56Z",
+        "id": "#286"
     }
 ]
