@@ -8,12 +8,22 @@ The
 [NetworkInformation](https://developer.mozilla.org/en-US/docs/Web/API/NetworkInformation)
 object provides details of the network quality according to the browser.
 
+There is an
+[interesting discussion](https://groups.google.com/a/chromium.org/g/blink-dev/c/tU_Hqqytx8g/m/HTJebzVHBAAJ)
+regarding how this may raise privacy concerns.
+
+### Example
+
 See it in action with the
 [example.html](./example.html).
 
 Results will be like this:
 
 [![nqe_example](./assets/nqe_example.png)](./example.html)
+
+In Chrome, may need to enable experimental web platform features in chrome://flags to get downlinkMax and type to display:
+
+[![nqe_example_experimental](./assets/nqe_example_experimental.png)](./example.html)
 
 ## Credits and References
 
