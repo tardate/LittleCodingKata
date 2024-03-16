@@ -98,7 +98,7 @@
 
 <script type="text/javascript">
   function logNetworkInfo(msg) {
-    if(typeof(msg) == 'undefined') msg = 'updated';
+    if(typeof(msg) != 'string') msg = 'updated';
     var elMsg = document.createElement('div');
     elMsg.innerText = msg + ' (' + new Date().toISOString() + ')';
     document.querySelector("#changelog").appendChild(elMsg);
