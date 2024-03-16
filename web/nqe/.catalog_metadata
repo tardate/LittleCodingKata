@@ -1,0 +1,6 @@
+{
+    "name": "Network Quality Estimation",
+    "description": "Accessing network connection information in the browser.",
+    "categories": "web",
+    "relative_path": "web/nqe"
+}

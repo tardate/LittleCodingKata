@@ -2294,5 +2294,13 @@
         "relative_path": "docker/ubuntu",
         "updated_at": "2024-03-14T13:42:46Z",
         "id": "#287"
+    },
+    {
+        "name": "Network Quality Estimation",
+        "description": "Accessing network connection information in the browser.",
+        "categories": "web",
+        "relative_path": "web/nqe",
+        "updated_at": "2024-03-16T08:01:56Z",
+        "id": "#288"
     }
 ]

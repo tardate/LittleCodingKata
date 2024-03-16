@@ -1,0 +1,117 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>NQE Example</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-gap: 5px;
+    }
+    .grid-stats-col {
+      grid-column-start: 1;
+      grid-column-end: 1;
+    }
+    .grid-changes-col {
+      grid-column-start: 2;
+      grid-column-end: 2;
+    }
+    .val {
+      font-weight: bold;
+    }
+    .hint {
+      font-style: italic;
+    }
+    .changelog {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+    dd {
+      margin-top: 2px;
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="grid-stats-col">
+    <h2>Connection</h2>
+    <dl>
+      <dt>navigator.connection.rtt</dt>
+      <dd>
+        <div id="rtt-val" class="val"></div>
+        <div class="hint">
+          Returns the estimated effective round-trip time of the current connection, rounded to the nearest multiple of 25 milliseconds.
+        </div>
+      </dd>
+      <dt>navigator.connection.downlink</dt>
+      <dd>
+        <div id="downlink-val" class="val"></div>
+        <div class="hint">
+          Returns the effective bandwidth estimate in megabits per second, rounded to the nearest multiple of 25 kilobits per seconds.
+        </div>
+      </dd>
+      <dt>navigator.connection.downlinkMax</dt>
+      <dd>
+        <div id="downlinkMax-val" class="val"></div>
+        <div class="hint">
+          Returns the maximum downlink speed, in megabits per second (Mbps), for the underlying connection technology.
+        </div>
+      </dd>
+      <dt>navigator.connection.type</dt>
+      <dd>
+        <div id="type-val" class="val"></div>
+        <div class="hint">
+          Returns the type of connection a device is using to communicate with the network. It will be one of the following values:
+            bluetooth,
+            cellular,
+            ethernet,
+            none,
+            wifi,
+            wimax,
+            other,
+            unknown
+        </div>
+      </dd>
+      <dt>navigator.connection.effectiveType</dt>
+      <dd>
+        <div id="effectiveType-val" class="val"></div>
+        <div class="hint">
+          Returns the effective type of the connection meaning one of 'slow-2g', '2g', '3g', or '4g'. This value is determined using a combination of recently observed round-trip time and downlink values.
+        </div>
+      </dd>
+      <dt>navigator.connection.saveData</dt>
+      <dd>
+        <div id="saveData-val" class="val"></div>
+        <div class="hint">
+          Returns true if the user has set a reduced data usage option on the user agent.
+        </div>
+      </dd>
+    </dl>
+  </div>
+
+  <div class="grid-changes-col">
+    <h2>Changes</h2>
+    <div id="changelog" class="changelog">
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  function logNetworkInfo(msg) {
+    if(typeof(msg) == 'undefined') msg = 'updated';
+    var elMsg = document.createElement('div');
+    elMsg.innerText = msg + ' (' + new Date().toISOString() + ')';
+    document.querySelector("#changelog").appendChild(elMsg);
+
+    document.querySelector("#type-val").innerText = navigator.connection.type;
+    document.querySelector("#downlink-val").innerText = navigator.connection.downlink + ' Mb/s';
+    document.querySelector("#rtt-val").innerText = navigator.connection.rtt + ' ms';
+    document.querySelector("#downlinkMax-val").innerText = navigator.connection.downlinkMax + ' Mb/s';
+    document.querySelector("#effectiveType-val").innerText = navigator.connection.effectiveType;
+    document.querySelector("#saveData-val").innerText = navigator.connection.saveData;
+  }
+  navigator.connection.addEventListener('change', logNetworkInfo);
+  logNetworkInfo('initial load');
+</script>
+</body>
+</html>
