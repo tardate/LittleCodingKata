@@ -3,17 +3,14 @@
   <meta charset="utf-8">
   <title>NQE Example</title>
   <style>
-    .grid-container {
-      display: grid;
-      grid-gap: 5px;
+    .table {
+      border: 3px solid #dee2e6;
     }
-    .grid-stats-col {
-      grid-column-start: 1;
-      grid-column-end: 1;
+    .table th {
+      border: 1px solid #dee2e6;
     }
-    .grid-changes-col {
-      grid-column-start: 2;
-      grid-column-end: 2;
+    .table td {
+      border: 1px solid #dee2e6;
     }
     .val {
       font-weight: bold;
@@ -91,25 +88,75 @@
 
   <div class="grid-changes-col">
     <h2>Changes</h2>
-    <div id="changelog" class="changelog">
-    </div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>RTT</th>
+          <th>downlink</th>
+          <th>downlinkMax</th>
+          <th>type</th>
+          <th>effectiveType</th>
+          <th>saveData</th>
+        </tr>
+      </thead>
+      <tbody id="changes">
+
+      </tbody>
+    </table>
+
   </div>
 </div>
 
 <script type="text/javascript">
   function logNetworkInfo(msg) {
-    if(typeof(msg) != 'string') msg = 'updated';
-    var elMsg = document.createElement('div');
-    elMsg.innerText = msg + ' (' + new Date().toISOString() + ')';
-    document.querySelector("#changelog").appendChild(elMsg);
+    var changeTr = document.createElement('tr');
 
-    document.querySelector("#type-val").innerText = navigator.connection.type;
-    document.querySelector("#downlink-val").innerText = navigator.connection.downlink + ' Mb/s';
-    document.querySelector("#rtt-val").innerText = navigator.connection.rtt + ' ms';
-    document.querySelector("#downlinkMax-val").innerText = navigator.connection.downlinkMax + ' Mb/s';
-    document.querySelector("#effectiveType-val").innerText = navigator.connection.effectiveType;
-    document.querySelector("#saveData-val").innerText = navigator.connection.saveData;
+    if(typeof(msg) != 'string') msg = 'updated';
+    var timeText = msg + ' (' + new Date().toISOString() + ')';
+    var timeEl = document.createElement('td');
+    timeEl.innerText = timeText;
+    changeTr.appendChild(timeEl);
+
+    var rttText = navigator.connection.rtt + ' ms';
+    var rttEl = document.createElement('td');
+    rttEl.innerText = rttText;
+    document.querySelector("#rtt-val").innerText = rttText;
+    changeTr.appendChild(rttEl);
+
+    var downlinkText = navigator.connection.downlink + ' Mb/s';
+    var downlinkEl = document.createElement('td');
+    downlinkEl.innerText = downlinkText;
+    document.querySelector("#downlink-val").innerText = downlinkText;
+    changeTr.appendChild(downlinkEl);
+
+    var downlinkMaxText = navigator.connection.downlinkMax + ' Mb/s';
+    var downlinkMaxEl = document.createElement('td');
+    downlinkMaxEl.innerText = downlinkMaxText;
+    document.querySelector("#downlinkMax-val").innerText = downlinkMaxText;
+    changeTr.appendChild(downlinkMaxEl);
+
+    var typeText = navigator.connection.type;
+    var typeEl = document.createElement('td');
+    typeEl.innerText = typeText;
+    document.querySelector("#type-val").innerText = typeText;
+    changeTr.appendChild(typeEl);
+
+    var effectiveTypeText = navigator.connection.effectiveType;
+    var effectiveTypeEl = document.createElement('td');
+    effectiveTypeEl.innerText = effectiveTypeText;
+    document.querySelector("#effectiveType-val").innerText = effectiveTypeText;
+    changeTr.appendChild(effectiveTypeEl);
+
+    var saveDataText = navigator.connection.saveData;
+    var saveDataEl = document.createElement('td');
+    saveDataEl.innerText = saveDataText;
+    document.querySelector("#saveData-val").innerText = saveDataText;
+    changeTr.appendChild(saveDataEl);
+
+    document.querySelector("tbody#changes").appendChild(changeTr);
   }
+
   navigator.connection.addEventListener('change', logNetworkInfo);
   logNetworkInfo('initial load');
 </script>
