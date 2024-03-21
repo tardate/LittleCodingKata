@@ -2302,5 +2302,13 @@
         "relative_path": "web/nqe",
         "updated_at": "2024-03-16T08:01:56Z",
         "id": "#288"
+    },
+    {
+        "name": "Think Python",
+        "description": "Book notes - Think Python, 2nd edition, by Allen B. Downey, published by O'Reilly.",
+        "categories": "python, book",
+        "relative_path": "python/think_python",
+        "updated_at": "2024-03-21T16:45:55Z",
+        "id": "#289"
     }
 ]
