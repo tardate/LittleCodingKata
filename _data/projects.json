@@ -2516,5 +2516,13 @@
             "python",
             "book"
         ]
+    },
+    "/tools/lldp/": {
+        "id": 290,
+        "title": "LLDP",
+        "summary": "About LLDP (Link Layer Discovery Protocol), IEEE 802.1AB",
+        "tags": [
+            "tools"
+        ]
     }
 }

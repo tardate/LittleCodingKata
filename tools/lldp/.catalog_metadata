@@ -1,0 +1,6 @@
+{
+    "name": "LLDP",
+    "description": "About LLDP (Link Layer Discovery Protocol), IEEE 802.1AB",
+    "categories": "tools",
+    "relative_path": "tools/lldp"
+}

@@ -2310,5 +2310,13 @@
         "relative_path": "python/think_python",
         "updated_at": "2024-03-21T16:45:55Z",
         "id": "#289"
+    },
+    {
+        "name": "LLDP",
+        "description": "About LLDP (Link Layer Discovery Protocol), IEEE 802.1AB",
+        "categories": "tools",
+        "relative_path": "tools/lldp",
+        "updated_at": "2024-03-21T17:13:15Z",
+        "id": "#290"
     }
 ]
