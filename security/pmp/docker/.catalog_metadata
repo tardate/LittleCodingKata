@@ -1,0 +1,6 @@
+{
+    "name": "PMP in Docker?",
+    "description": "Is it possible to run PMP in a Docker container? As far as my tests show - no. Not currently at least.",
+    "categories": "security",
+    "relative_path": "security/pmp/docker"
+}

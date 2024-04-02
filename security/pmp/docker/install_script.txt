@@ -1,0 +1,19 @@
+# Tue Apr 02 14:16:17 GMT 2024
+# Replay feature output
+# ---------------------
+# This file was built by the Replay feature of InstallAnywhere.
+# It contains variables that were set by Panels, Consoles or Custom Code.
+
+
+
+#Choose Installation Folder
+#--------------------------
+USER_INSTALL_DIR=/app/PMP
+
+#Server Configuration
+#--------------------
+USER_INPUT_CONSOLE_RESULTS=\"High Availability Primary Server\",\"\",\"\"
+
+#Install
+#-------
+-fileOverwrite_/app/PMP/_ManageEngine Password Manager Pro_installation/Change ManageEngine Password Manager Pro Installation.lax=Yes

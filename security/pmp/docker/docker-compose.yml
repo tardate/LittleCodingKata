@@ -1,0 +1,20 @@
+services:
+  pmp:
+    image: ${PMP_IMAGE:-lck/pmp}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "7272:7272"
+    volumes:
+      - type: bind
+        source: ./shared
+        target: /app/shared
+      - type: bind
+        source: ./logs
+        target: /app/PMP/logs
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "3"

@@ -87,7 +87,7 @@ Stop the PMP service:
 
 Uninstall the system service (I don't know if this might have been handled by the Uninstaller below:
 
-    $ sudo bash pmp.sh install
+    sudo bash pmp.sh install
 
 hmm, removing the trial does not appear to be documented anywhere on their site.
 I did see that it installed an `~/Uninstaller` symlink in my file system.
