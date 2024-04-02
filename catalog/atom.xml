@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2024-03-21T17:13:29Z</updated>
+  <updated>2024-04-02T11:31:57Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2536,5 +2536,13 @@
     <title>LLDP</title>
     <summary>About LLDP (Link Layer Discovery Protocol), IEEE 802.1AB</summary>
     <category term="tools"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/csv/</id>
+    <link href="https://codingkata.tardate.com/ruby/csv/"/>
+    <updated>2024-04-02T11:31:49Z</updated>
+    <title>CSV with Ruby</title>
+    <summary>All about reading and writing CSV with Ruby, including large file handling.</summary>
+    <category term="ruby"/>
   </entry>
 </feed>

@@ -2524,5 +2524,13 @@
         "tags": [
             "tools"
         ]
+    },
+    "/ruby/csv/": {
+        "id": 291,
+        "title": "CSV with Ruby",
+        "summary": "All about reading and writing CSV with Ruby, including large file handling.",
+        "tags": [
+            "ruby"
+        ]
     }
 }
