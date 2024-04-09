@@ -91,6 +91,10 @@ If a token is provided for a user that is not authorised to call from this host
 
     ./pmp_api.sh resources search res
 
+There is an as-yet undocumented search syntax. A query string parameter `INPUT_DATA` expects a JSON search in the form:
+
+    {"operation":{"Details":{"SEARCHCOLUMN":"RESOURCENAME","SEARCHVALUE":"find me","SEARCHTYPE":"RESOURCE"}}}
+
 ## Get the Accounts that are Part of a Resource
 
 [`../resources/<Resource ID>/accounts` endpoint](https://www.manageengine.com/products/passwordmanagerpro/help/restapi.html#getaccounts)

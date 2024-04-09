@@ -22,10 +22,10 @@ Demonstrate basic PMP REST API calls with curl
 Usage:
   $0 resources
   $0 resources search <name-filter>
-  $0 resources <resource-id>
-  $0 resources <resource-id> account
-  $0 resources <resource-id> account <account-id>
-  $0 resources <resource-id> account <account-id> password
+  $0 resource <resource-id>
+  $0 resource <resource-id> account
+  $0 resource <resource-id> account <account-id>
+  $0 resource <resource-id> account <account-id> password
 
 Environment settings:
 
@@ -70,13 +70,13 @@ resource)
   account)
     if [ -n "${sub_resource_operation}" ]
     then
-      do_get "${PMP_URL}/restapi/json/v1/resources/${parent_id}/accounts/${sub_resource_id}/${sub_resource_operation}"
+      do_get "${PMP_URL}/restapi/json/v1/resources/${resource_id}/accounts/${sub_resource_id}/${sub_resource_operation}"
     else
-      do_get "${PMP_URL}/restapi/json/v1/resources/${parent_id}/accounts/${sub_resource_id}"
+      do_get "${PMP_URL}/restapi/json/v1/resources/${resource_id}/accounts/${sub_resource_id}"
     fi
     ;;
   *)
-    do_get "${PMP_URL}/restapi/json/v1/resources/${parent_id}/accounts"
+    do_get "${PMP_URL}/restapi/json/v1/resources/${resource_id}/accounts"
     ;;
   esac
   ;;
