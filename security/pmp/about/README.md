@@ -37,6 +37,7 @@ Installation options:
 
 After installer has completed, configure the system service:
 
+    $ cd $HOME/ManageEngine/PMP/bin
     $ sudo bash pmp.sh install
     Created symlink /etc/systemd/system/multi-user.target.wants/pmp.service → /etc/systemd/system/pmp.service.
     Password Manager Pro Service installed successfully !
@@ -66,6 +67,8 @@ the server will run with a self-signed cert. You must allow the browser to bypas
 
 ![login](./assets/login.png)
 
+Note: First time users use "admin" as Username and Password.
+
 See the
 [ManageEngine Password Manager Pro - Getting Started Guide](https://www.manageengine.com/products/passwordmanagerpro/getting-started-guide.html)
 for post-installation configuration.
@@ -75,6 +78,63 @@ is to configure mail server (even if given invalid details).
 Without this, it is not possible to add users.
 
 ![mail_settings](./assets/mail_settings.png)
+
+## Uninstalling the Trial
+
+Stop the PMP service:
+
+    sudo systemctl stop pmp.service
+
+Uninstall the system service (I don't know if this might have been handled by the Uninstaller below:
+
+    $ sudo bash pmp.sh install
+
+hmm, removing the trial does not appear to be documented anywhere on their site.
+I did see that it installed an `~/Uninstaller` symlink in my file system.
+Running it seems to be doing the right thing...
+
+    $ ./Uninstaller
+    ===============================================================================
+    ManageEngine Password Manager Pro                (created with InstallAnywhere)
+    -------------------------------------------------------------------------------
+
+    Preparing CONSOLE Mode Uninstallation...
+
+
+
+
+    ===============================================================================
+    Uninstall ManageEngine Password Manager Pro
+    -------------------------------------------
+
+    About to uninstall...
+
+    ManageEngine Password Manager Pro
+
+    This will remove features installed by InstallAnywhere.  It will not remove
+    files and folders created after the installation.
+
+I chose to "Completely remove all features and components."
+
+    ===============================================================================
+    Uninstalling...
+    ---------------
+
+
+    ...*
+    *
+    *************************
+    ...
+
+    ===============================================================================
+    Uninstall Complete
+    ------------------
+
+    Some items could not be removed.
+
+Say what? Can't find any logs that might tell me what "could not be removed". For good measure I also:
+
+    rm -fR ~/ManageEngine/
 
 ## Credits and References
 
