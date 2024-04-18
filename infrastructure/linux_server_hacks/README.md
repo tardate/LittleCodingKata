@@ -133,7 +133,6 @@ by William von Hagen and Brian K. Jones, published by O'Reilly.
 * 99. Distributing Load with Apache RewriteMap
 * 100. Ultrahosting: Mass Web Site Hosting with Wildcards, Proxy, and Rewrite
 
-
 ### Linux Server Hacks, Volume Two: Table of Contents - Highlights
 
 Tips & Tools for Connecting, Monitoring, and Troubleshooting
@@ -273,7 +272,7 @@ Tips & Tools for Connecting, Monitoring, and Troubleshooting
 Volume 1 examples are available form the O'Reilly git server:
 
 ```
-$ git clone https://resources.oreilly.com/examples/9780596004613.git example_source/vol1
+git clone https://resources.oreilly.com/examples/9780596004613.git example_source/vol1
 ```
 
 It seems there is no published example code for volume 2.
@@ -281,9 +280,9 @@ It seems there is no published example code for volume 2.
 ## Credits and References
 
 * Linux Server Hacks, Volume One:
-  * [O'Reilly](https://learning.oreilly.com/library/view/linux-server-hacks/0596004613/)
-  * [goodreads](https://www.goodreads.com/book/show/86607.Linux_Server_Hacks)
-  * [example source](https://resources.oreilly.com/examples/9780596004613/)
+    * [O'Reilly](https://learning.oreilly.com/library/view/linux-server-hacks/0596004613/)
+    * [goodreads](https://www.goodreads.com/book/show/86607.Linux_Server_Hacks)
+    * [example source](https://resources.oreilly.com/examples/9780596004613/)
 * Linux Server Hacks, Volume Two
-  * [O'Reilly](https://learning.oreilly.com/library/view/linux-server-hacks/0596100825/)
-  * [goodreads](https://www.goodreads.com/book/show/166717.Linux_Server_Hacks_Volume_Two)
+    * [O'Reilly](https://learning.oreilly.com/library/view/linux-server-hacks/0596100825/)
+    * [goodreads](https://www.goodreads.com/book/show/166717.Linux_Server_Hacks_Volume_Two)

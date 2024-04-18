@@ -1,0 +1,6 @@
+{
+    "name": "xargs",
+    "description": "All about using xargs to build and execute command lines from standard input",
+    "categories": "tools",
+    "relative_path": "tools/xargs"
+}

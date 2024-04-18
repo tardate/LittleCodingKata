@@ -2532,5 +2532,13 @@
         "tags": [
             "ruby"
         ]
+    },
+    "/tools/xargs/": {
+        "id": 292,
+        "title": "xargs",
+        "summary": "All about using xargs to build and execute command lines from standard input",
+        "tags": [
+            "tools"
+        ]
     }
 }
