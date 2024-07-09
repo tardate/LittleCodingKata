@@ -43,6 +43,7 @@ class Catalog(object):
         def load_data(filename):
             data = json.load(open(filename, 'r'))
             data['updated_at'] = self.get_project_modified_datetime(data['relative_path']).strftime("%Y-%m-%dT%H:%M:%SZ")
+            data['relative_path'] = data['relative_path'].lower()
             return data
 
         def add_id(i, row):
@@ -130,7 +131,7 @@ class Catalog(object):
         pretty_write(root, self.catalog_atom)
 
     def rebuild(self):
-        """ Command: rebuild catalogcatalog assets from metadata. """
+        """ Command: rebuild catalog assets from metadata. """
         self.generate_catalog()
         self.generate_project_data()
         self.generate_atom_feed()

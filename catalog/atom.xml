@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2024-04-18T10:28:43Z</updated>
+  <updated>2024-07-09T11:48:56Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -19,15 +19,6 @@
     <summary>Notes on methods to inspect PostgreSQL role permissions, revoke permissions and drop roles</summary>
     <category term="databases"/>
     <category term="postgresql"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/tools/envsubst/</id>
-    <link href="https://codingkata.tardate.com/tools/envsubst/"/>
-    <updated>2019-09-08T11:16:43Z</updated>
-    <title>Tools/envsubst</title>
-    <summary>substitute shell variables in text</summary>
-    <category term="Tools"/>
-    <category term="Bash"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/vscode/</id>
@@ -209,8 +200,8 @@
     <category term="C++"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/cpp/DoubleTrouble/</id>
-    <link href="https://codingkata.tardate.com/cpp/DoubleTrouble/"/>
+    <id>https://codingkata.tardate.com/cpp/doubletrouble/</id>
+    <link href="https://codingkata.tardate.com/cpp/doubletrouble/"/>
     <updated>2019-09-08T11:16:43Z</updated>
     <title>C++/DoubleTrouble</title>
     <summary>Investigting some of the pitfalls of directly reading doubles from a stream, then going down the rabbit hole of bugs and variations in the LLVM/Clang and GCC implementations of the C++ standard library.</summary>
@@ -741,8 +732,8 @@
     <category term="yaml"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/ruby/PrivatePodFeed/</id>
-    <link href="https://codingkata.tardate.com/ruby/PrivatePodFeed/"/>
+    <id>https://codingkata.tardate.com/ruby/privatepodfeed/</id>
+    <link href="https://codingkata.tardate.com/ruby/privatepodfeed/"/>
     <updated>2020-01-02T00:24:09Z</updated>
     <title>Private PodFeed</title>
     <summary>description</summary>
@@ -1034,8 +1025,8 @@
     <category term="book"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/databases/oracle/ORA_Tweet_With_Shorturls/</id>
-    <link href="https://codingkata.tardate.com/databases/oracle/ORA_Tweet_With_Shorturls/"/>
+    <id>https://codingkata.tardate.com/databases/oracle/ora_tweet_with_shorturls/</id>
+    <link href="https://codingkata.tardate.com/databases/oracle/ora_tweet_with_shorturls/"/>
     <updated>2020-03-11T23:32:53Z</updated>
     <title>Database Tweets</title>
     <summary>Tweeting from your Oracle database with short urls</summary>
@@ -1065,8 +1056,8 @@
     <category term="ruby"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/docker/CentOS8_install/</id>
-    <link href="https://codingkata.tardate.com/docker/CentOS8_install/"/>
+    <id>https://codingkata.tardate.com/docker/centos8_install/</id>
+    <link href="https://codingkata.tardate.com/docker/centos8_install/"/>
     <updated>2020-03-11T23:32:53Z</updated>
     <title>Docker on CentOS 8</title>
     <summary>Installing and running Docker on CentOS 8</summary>
@@ -1081,8 +1072,8 @@
     <category term="bash"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/javascript/jQueryDateTime/</id>
-    <link href="https://codingkata.tardate.com/javascript/jQueryDateTime/"/>
+    <id>https://codingkata.tardate.com/javascript/jquerydatetime/</id>
+    <link href="https://codingkata.tardate.com/javascript/jquerydatetime/"/>
     <updated>2020-03-11T23:32:53Z</updated>
     <title>jQuery Date-Time Selectors</title>
     <summary>A Quick Survey of jQuery Date-Time Selector libraries and approaches</summary>
@@ -1579,8 +1570,8 @@
     <category term="C++"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/ruby/RailsConf/2021/</id>
-    <link href="https://codingkata.tardate.com/ruby/RailsConf/2021/"/>
+    <id>https://codingkata.tardate.com/ruby/railsconf/2021/</id>
+    <link href="https://codingkata.tardate.com/ruby/railsconf/2021/"/>
     <updated>2021-06-02T17:01:27Z</updated>
     <title>RailsConf 2021</title>
     <summary>Overview and notes from RailsConf 2021</summary>
@@ -1588,8 +1579,8 @@
     <category term="rails"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/ruby/RubyConf/2020/</id>
-    <link href="https://codingkata.tardate.com/ruby/RubyConf/2020/"/>
+    <id>https://codingkata.tardate.com/ruby/rubyconf/2020/</id>
+    <link href="https://codingkata.tardate.com/ruby/rubyconf/2020/"/>
     <updated>2021-06-02T17:01:27Z</updated>
     <title>RubyConf 2020</title>
     <summary>Overview and notes from RubyConf 2020</summary>
@@ -1812,24 +1803,6 @@
     <category term="docker"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/rust/install_macosx/</id>
-    <link href="https://codingkata.tardate.com/rust/install_macosx/"/>
-    <updated>2021-11-02T14:58:32Z</updated>
-    <title>Rust/install_macosx</title>
-    <summary>Rust - installing on MacOS</summary>
-    <category term="Rust"/>
-    <category term="MacOS"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/elm/install/</id>
-    <link href="https://codingkata.tardate.com/elm/install/"/>
-    <updated>2021-11-02T14:58:32Z</updated>
-    <title>Elm/install</title>
-    <summary>Installing Elm on MacOS</summary>
-    <category term="Elm"/>
-    <category term="MacOS"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/haskell/install_macosx/</id>
     <link href="https://codingkata.tardate.com/haskell/install_macosx/"/>
     <updated>2021-11-02T14:58:32Z</updated>
@@ -1846,14 +1819,6 @@
     <summary>Installing the Simple DirectMedia Layer library on MacOS, and running a basic verification program in C++</summary>
     <category term="C++"/>
     <category term="SDL"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/cpp/doxygen/</id>
-    <link href="https://codingkata.tardate.com/cpp/doxygen/"/>
-    <updated>2021-11-02T14:58:32Z</updated>
-    <title>cpp/doxygen</title>
-    <summary>Installing and testing doxygen for c++ source documentation generation on MacOS</summary>
-    <category term="C++"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/infrastructure/radius/freeradius-client-macosx/</id>
@@ -1885,16 +1850,6 @@
     <category term="zabbix"/>
     <category term="monitoring"/>
     <category term="docker"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/messaging/grpc/install_macosx/</id>
-    <link href="https://codingkata.tardate.com/messaging/grpc/install_macosx/"/>
-    <updated>2021-11-02T14:58:32Z</updated>
-    <title>gRPC/install_macosx</title>
-    <summary>installing on MacOS</summary>
-    <category term="gRPC"/>
-    <category term="MacOS"/>
-    <category term="Messaging"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/messaging/zeromq/install_macosx/</id>
@@ -1957,8 +1912,8 @@
     <category term="MySQL"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/tools/SatelliteImagerySources/</id>
-    <link href="https://codingkata.tardate.com/tools/SatelliteImagerySources/"/>
+    <id>https://codingkata.tardate.com/tools/satelliteimagerysources/</id>
+    <link href="https://codingkata.tardate.com/tools/satelliteimagerysources/"/>
     <updated>2023-11-22T10:19:59Z</updated>
     <title>Satellite Imagery Sources</title>
     <summary>Poking around free satellite imagery services</summary>
@@ -2031,8 +1986,8 @@
     <category term="SNMP"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/python/FlaskWebDevelopment/</id>
-    <link href="https://codingkata.tardate.com/python/FlaskWebDevelopment/"/>
+    <id>https://codingkata.tardate.com/python/flaskwebdevelopment/</id>
+    <link href="https://codingkata.tardate.com/python/flaskwebdevelopment/"/>
     <updated>2023-11-22T10:19:59Z</updated>
     <title>Flask Web Development</title>
     <summary>Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly</summary>
@@ -2048,8 +2003,8 @@
     <category term="python"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/python/LightweightDjango/</id>
-    <link href="https://codingkata.tardate.com/python/LightweightDjango/"/>
+    <id>https://codingkata.tardate.com/python/lightweightdjango/</id>
+    <link href="https://codingkata.tardate.com/python/lightweightdjango/"/>
     <updated>2023-11-22T10:19:59Z</updated>
     <title>Lightweight Django</title>
     <summary>Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly</summary>
@@ -2073,8 +2028,8 @@
     <category term="python"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/python/PythonPlayground/</id>
-    <link href="https://codingkata.tardate.com/python/PythonPlayground/"/>
+    <id>https://codingkata.tardate.com/python/pythonplayground/</id>
+    <link href="https://codingkata.tardate.com/python/pythonplayground/"/>
     <updated>2023-11-22T10:19:59Z</updated>
     <title>Python Playground</title>
     <summary>Book notes - Python Playground, by Mahesh Venkitachalam, published by No Starch Press</summary>
@@ -2100,8 +2055,8 @@
     <category term="django"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/security/PKCS12/</id>
-    <link href="https://codingkata.tardate.com/security/PKCS12/"/>
+    <id>https://codingkata.tardate.com/security/pkcs12/</id>
+    <link href="https://codingkata.tardate.com/security/pkcs12/"/>
     <updated>2023-11-22T10:19:59Z</updated>
     <title>PKCS12</title>
     <summary>About PKCS #12 archive files</summary>
@@ -2552,5 +2507,50 @@
     <title>xargs</title>
     <summary>All about using xargs to build and execute command lines from standard input</summary>
     <category term="tools"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/envsubst/</id>
+    <link href="https://codingkata.tardate.com/tools/envsubst/"/>
+    <updated>2024-07-09T10:18:12Z</updated>
+    <title>Tools/envsubst</title>
+    <summary>substitute shell variables in text</summary>
+    <category term="Tools"/>
+    <category term="Bash"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/doxygen/</id>
+    <link href="https://codingkata.tardate.com/cpp/doxygen/"/>
+    <updated>2024-07-09T11:41:16Z</updated>
+    <title>doxygen</title>
+    <summary>Installing and testing doxygen for c++ source documentation generation on MacOS</summary>
+    <category term="C++"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/messaging/grpc/install_macosx/</id>
+    <link href="https://codingkata.tardate.com/messaging/grpc/install_macosx/"/>
+    <updated>2024-07-09T11:41:37Z</updated>
+    <title>Installing gRPC for MacOS</title>
+    <summary>installing on MacOS</summary>
+    <category term="gRPC"/>
+    <category term="MacOS"/>
+    <category term="Messaging"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/elm/install/</id>
+    <link href="https://codingkata.tardate.com/elm/install/"/>
+    <updated>2024-07-09T11:41:49Z</updated>
+    <title>Installing elm</title>
+    <summary>Installing Elm on MacOS</summary>
+    <category term="Elm"/>
+    <category term="MacOS"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rust/install_macosx/</id>
+    <link href="https://codingkata.tardate.com/rust/install_macosx/"/>
+    <updated>2024-07-09T11:42:04Z</updated>
+    <title>Installing Rust for MacOS</title>
+    <summary>Rust - installing on MacOS</summary>
+    <category term="Rust"/>
+    <category term="MacOS"/>
   </entry>
 </feed>

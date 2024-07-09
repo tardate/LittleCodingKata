@@ -1,6 +1,6 @@
 {
     "id": "#014",
-    "name": "gRPC/install_macosx",
+    "name": "Installing gRPC for MacOS",
     "description": "installing on MacOS",
     "categories": "gRPC, MacOS, Messaging",
     "relative_path": "messaging/grpc/install_macosx"

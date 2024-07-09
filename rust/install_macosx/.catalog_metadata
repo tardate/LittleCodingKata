@@ -1,6 +1,6 @@
 {
     "id": "#035",
-    "name": "Rust/install_macosx",
+    "name": "Installing Rust for MacOS",
     "description": "Rust - installing on MacOS",
     "categories": "Rust, MacOS",
     "relative_path": "rust/install_macosx"
