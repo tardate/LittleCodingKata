@@ -95,8 +95,10 @@ exclude:
   - ruby/rails6/minime6
   - infrastructure/radius/freeradius-client-macosx/freeradius-client
   - infrastructure/radius/freeradius-server-macosx/freeradius-server
+  - infrastructure/radius/freeradius-server-macosx/talloc-2.1.2
   - "*/example_source/*"
   - "*/node_modules/*"
+  - "*/target/*"
 
 defaults:
   -
