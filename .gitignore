@@ -14,6 +14,7 @@ __pycache__
 # general ruby stuff
 .bundle
 Gemfile.lock
+.byebug_history
 # don't ignore bundler and rvm settings
 # .ruby*
 

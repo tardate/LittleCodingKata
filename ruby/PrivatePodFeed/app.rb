@@ -7,12 +7,16 @@ set :bind, '0.0.0.0'
 set :server, 'thin'
 set :logging, true
 
+def encode_url(text)
+  ERB::Util.url_encode(text).gsub('%2F', '/')
+end
+
 helpers do
   def h(text)
     Rack::Utils.escape_html(text)
   end
   def u(text)
-    URI.escape(text)
+    encode_url(text)
   end
 end
 
@@ -55,6 +59,7 @@ get /\/feed\/(.+).xml/ do
     maker.channel.updated = Time.now.to_s
     maker.channel.link = request.base_url
     maker.channel.itunes_explicit = false
+    maker.channel.categories.new_category { |c| c.content = 'Books' }
 
     Dir[source_files].each do |filename|
       mp3_file = File.open(filename, 'rb')
@@ -73,9 +78,9 @@ get /\/feed\/(.+).xml/ do
         item.updated = mp3_file.mtime
 
         item.guid.isPermaLink = "false"
-        item.guid.content = URI.escape "#{file_tags.title}-#{mp3_file.ctime.to_i}"
+        item.guid.content = encode_url "#{file_tags.title}-#{mp3_file.ctime.to_i}"
 
-        item.enclosure.url = URI.escape(request.base_url + '/content' + mp3_file.path.gsub(settings.pod_root, ''))
+        item.enclosure.url = request.base_url + '/content' + encode_url(mp3_file.path.gsub(settings.pod_root, ''))
         item.enclosure.length = mp3_file.size
         item.enclosure.type = 'audio/mpeg'
       end

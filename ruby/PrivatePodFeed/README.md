@@ -25,19 +25,16 @@ So if you want to use this, only use the app on a secured internal network, and 
 
 To run the app locally:
 
-    $ gem install bundler
-    $ bundle install
-    $ ruby app.rb
-
+    gem install bundler
+    bundle install
+    ruby app.rb
 
 By default, the app lists pod feeds from the `sample_data` folder.
 I've put there a couple of episodes for a couple of Librivox recordings for testing purposes (these are not added to the repository).
 
 To use another folder, set the root path with `POD_ROOT` environment variable:
 
-```
-POD_ROOT="/Alternate/Path" ruby app.rb
-```
+    POD_ROOT="/Alternate/Path" ruby app.rb
 
 The application will bind to all interfaces on port 4567. The default [home page](http://localhost:4567) will list the available feeds:
 
@@ -45,45 +42,44 @@ The application will bind to all interfaces on port 4567. The default [home page
 
 Use the feed links to subscribe in the podcast application. A raw feed looks like this:
 
-```
-$ curl http://192.168.1.144:4567/feed/LibriVox_%20my-man-jeeves-by-p-g-wodehouse.xml
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
-  <channel>
-    <title>PPF: LibriVox: my-man-jeeves-by-p-g-wodehouse</title>
-    <link>http://192.168.1.144:4567</link>
-    <description>LibriVox: my-man-jeeves-by-p-g-wodehouse</description>
-    <pubDate>Tue, 31 Dec 2019 14:54:08 +0800</pubDate>
-    <item>
-      <title>02_my-man-jeeves-by-p-g-wod</title>
-      <link>http://192.168.1.144:4567</link>
-      <enclosure url="http://192.168.1.144:4567/content/LibriVox_%20my-man-jeeves-by-p-g-wodehouse/02_my-man-jeeves-by-p-g-wod.mp3"
-        length="20767083"
-        type="audio/mpeg"/>
-      <pubDate>Tue, 31 Dec 2019 13:52:25 +0800</pubDate>
-      <guid isPermaLink="false">02_my-man-jeeves-by-p-g-wod-1577771545</guid>
-      <dc:date>2019-12-31T13:52:25.216121+08:00</dc:date>
-    </item>
-    <item>
-      <title>01_my-man-jeeves-by-p-g-wod</title>
-      <link>http://192.168.1.144:4567</link>
-      <enclosure url="http://192.168.1.144:4567/content/LibriVox_%20my-man-jeeves-by-p-g-wodehouse/01_my-man-jeeves-by-p-g-wod.mp3"
-        length="20749125"
-        type="audio/mpeg"/>
-      <pubDate>Tue, 31 Dec 2019 13:52:25 +0800</pubDate>
-      <guid isPermaLink="false">01_my-man-jeeves-by-p-g-wod-1577771545</guid>
-      <dc:date>2019-12-31T13:52:25.165201+08:00</dc:date>
-    </item>
-    <dc:date>2019-12-31T14:54:08+08:00</dc:date>
-    <itunes:author>P.G. Wodehouse</itunes:author>
-    <itunes:explicit>no</itunes:explicit>
-  </channel>
-</rss>
-```
+    $ curl http://my-mac.local:4567/feed/LibriVox_%20my-man-jeeves-by-p-g-wodehouse.xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <rss version="2.0"
+      xmlns:content="http://purl.org/rss/1.0/modules/content/"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+      xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+      <channel>
+        <title>PPF: LibriVox: my-man-jeeves-by-p-g-wodehouse</title>
+        <link>http://my-mac.local:4567</link>
+        <description>LibriVox: my-man-jeeves-by-p-g-wodehouse</description>
+        <pubDate>Fri, 12 Jul 2024 18:19:55 +0800</pubDate>
+        <item>
+          <title>01_my-man-jeeves-by-p-g-wod</title>
+          <link>http://my-mac.local:4567</link>
+          <enclosure url="http://my-mac.local:4567/content/LibriVox_%20my-man-jeeves-by-p-g-wodehouse/01_my-man-jeeves-by-p-g-wod.mp3"
+            length="20749125"
+            type="audio/mpeg"/>
+          <pubDate>Tue, 31 Dec 2019 13:52:25 +0800</pubDate>
+          <guid isPermaLink="false">01_my-man-jeeves-by-p-g-wod-1703738064</guid>
+          <dc:date>2019-12-31T13:52:25+08:00</dc:date>
+        </item>
+        <item>
+          <title>02_my-man-jeeves-by-p-g-wod</title>
+          <link>http://my-mac.local:4567</link>
+          <enclosure url="http://my-mac.local:4567/content/LibriVox_%20my-man-jeeves-by-p-g-wodehouse/02_my-man-jeeves-by-p-g-wod.mp3"
+            length="20767083"
+            type="audio/mpeg"/>
+          <pubDate>Tue, 31 Dec 2019 13:52:25 +0800</pubDate>
+          <guid isPermaLink="false">02_my-man-jeeves-by-p-g-wod-1703738065</guid>
+          <dc:date>2019-12-31T13:52:25+08:00</dc:date>
+        </item>
+        <category>Books</category>
+        <dc:date>2024-07-12T18:19:55+08:00</dc:date>
+        <itunes:author>P.G. Wodehouse</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+      </channel>
+    </rss>
 
 ## Credits and References
 
@@ -91,4 +87,4 @@ $ curl http://192.168.1.144:4567/feed/LibriVox_%20my-man-jeeves-by-p-g-wodehouse
 * [Spec: iTunes Podcast RSS](https://github.com/simplepie/simplepie-ng/wiki/Spec:-iTunes-Podcast-RSS)
 * [Ruby RSS gem](https://github.com/ruby/rss)
 * [Ruby id3tag gem](https://github.com/krists/id3tag)
-* [Sinatra](http://sinatrarb.com/)
+* [Sinatra](https://sinatrarb.com/)
