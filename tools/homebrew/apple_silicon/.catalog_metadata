@@ -1,0 +1,6 @@
+{
+    "name": "apple_silicon",
+    "description": "description",
+    "categories": "tools/homebrew",
+    "relative_path": "tools/homebrew/apple_silicon"
+}

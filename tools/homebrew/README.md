@@ -4,20 +4,21 @@ I often use [homebrew](https://github.com/Homebrew/homebrew) to manage software 
 
 This is a collection of tips and tricks... basically things I use occasionally but always forget in the meantime.
 
-
 ## Checking if a Package is Installed
 
 Trick: use `brew ls --versions` to attempt to report on installed packages
 
 I have mongodb installed:
-```
+
+```bash
 $ brew ls --versions mongodb | grep -q mongodb
 $ echo $?
 0
 ```
 
 But I don't have talloc installed:
-```
+
+```bash
 $ brew ls --versions talloc | grep -q talloc
 $ echo $?
 1
@@ -25,7 +26,7 @@ $ echo $?
 
 Combining a check for brew along with a check for a package
 
-```
+```bash
 if [ $(which brew) ]
 then
   brew_talloc_version=$(brew ls --versions talloc)
@@ -39,7 +40,6 @@ else
   brew install talloc
 fi
 ```
-
 
 ## Credits and References
 * [homebrew](https://github.com/Homebrew/homebrew)
