@@ -4,7 +4,6 @@ All about SVG for web design and animation.
 
 ## Notes
 
-
 ### Interactive Web Animation with SVG
 
 Interactive web animation with SVG by Cassie Evans CSSCAMP 2019:
@@ -26,7 +25,6 @@ My notes from the presentation:
 | [anime.js](https://animejs.com/)      | √          | √         | 6kb    | MIT         |
 | [greensock](https://greensock.com/)   | √          | √         | 9-36kb | Mostly Free |
 | [velocity.js](http://velocityjs.org/) | √          | √         | 15kb   | MIT         |
-
 
 #### A Little Test
 

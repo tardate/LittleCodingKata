@@ -1,6 +1,6 @@
 # CSS Cookbook
 
-Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, pubished by O'Reilly
+Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, published by O'Reilly
 
 ## Notes
 
@@ -302,7 +302,7 @@ Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, pubished by O'Rei
 
 ## Getting the Example Source
 
-```
+```bash
 mkdir example_source
 git clone https://resources.oreilly.com/examples/9780596155940.git example_source/3rd_edition
 git clone https://resources.oreilly.com/examples/9780596527419.git example_source/2nd_edition

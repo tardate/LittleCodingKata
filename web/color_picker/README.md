@@ -10,7 +10,7 @@ That ued to be a non-trivial coding problem, but then there cam some good Javasc
 as [jscolor](https://jscolor.com/). These are still the best bet for maximal cross-browser compatibility.
 
 These days however, the preferred option would be to use the HTML5
-[<input type="color">](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color)
+[`<input type="color">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color)
 element.
 
 ### HTML5 Example
@@ -27,7 +27,7 @@ See [jscolor-examples.html](./jscolor-2.4.5/jscolor-examples.html) - this is str
 
 ## Credits and References
 
-* [<input type="color">](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color) - MDN Web Docs
+* [`<input type="color">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color) - MDN Web Docs
 * [HTML Living Standard](https://html.spec.whatwg.org/multipage/input.html#color-state-(type%3Dcolor))
 * [JavaScript color picker with opacity channel](https://jscolor.com/)
 * [HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp?colorhex=F0FFFF) - documentation and examples

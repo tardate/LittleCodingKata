@@ -12,18 +12,18 @@ Official [download and Installation options](https://getbootstrap.com/docs/3.4/g
 * Source files (LESS) to compile Bootstrap with your own asset pipeline
 * Source files ported to SASS to compile Bootstrap with your own asset pipeline
 * Package managers
-  * bower
-  * npm
-  * Composer (PHP)
-  * bundler: official bootstrap Sass gem (Bootstrap 3)
-    * [rubygems](https://rubygems.org/gems/bootstrap-sass)
-    * [github](https://github.com/twbs/bootstrap-sass)
+    * bower
+    * npm
+    * Composer (PHP)
+    * bundler: official bootstrap Sass gem (Bootstrap 3)
+        * [rubygems](https://rubygems.org/gems/bootstrap-sass)
+        * [github](https://github.com/twbs/bootstrap-sass)
 
 Unofficial options:
 
 * less-rails-bootstrap - The less-rails-bootstrap project hooks into less-rails and less.rb, making Bootstrap's source LESS files, compiled CSS, and JavaScript files available in the Rails 3.x and 4.x asset pipeline.
-  * [rubygems](https://rubygems.org/gems/less-rails-bootstrap)
-  * [github](https://github.com/metaskills/less-rails-bootstrap)
+    * [rubygems](https://rubygems.org/gems/less-rails-bootstrap)
+    * [github](https://github.com/metaskills/less-rails-bootstrap)
 
 ### Bootstrap v4 Packaging Options
 
@@ -33,14 +33,14 @@ Official [download and Installation options](https://getbootstrap.com/docs/4.6/g
 * Source files (LESS) to compile Bootstrap with your own asset pipeline
 * Source files ported to SASS to compile Bootstrap with your own asset pipeline
 * Package managers
-  * npm
-  * yarn
-  * Composer (PHP)
-  * NuGet (.NET)
-  * bundler: official bootstrap Sass gem (Bootstrap 4)
-    * `gem 'bootstrap', '~> 4.6.1'`
-    * [rubygems](https://rubygems.org/gems/bootstrap)
-    * [github](https://github.com/twbs/bootstrap-rubygem)
+    * npm
+    * yarn
+    * Composer (PHP)
+    * NuGet (.NET)
+    * bundler: official bootstrap Sass gem (Bootstrap 4)
+        * `gem 'bootstrap', '~> 4.6.1'`
+        * [rubygems](https://rubygems.org/gems/bootstrap)
+        * [github](https://github.com/twbs/bootstrap-rubygem)
 
 ### Bootstrap v5 Packaging Options
 
@@ -49,14 +49,13 @@ Official [download and Installation options](https://getbootstrap.com/docs/5.1/g
 * Compiled CSS and JS (direct download or CDN via jsDelivr)
 * Source files (SASS) to compile Bootstrap with your own asset pipeline
 * Package managers
-  * npm
-  * yarn
-  * Composer (PHP)
-  * NuGet (.NET)
-  * bundler: official bootstrap gem (Bootstrap 4 and 5)
-    * [rubygems](https://rubygems.org/gems/bootstrap)
-    * [github](https://github.com/twbs/bootstrap-rubygem)
-
+    * npm
+    * yarn
+    * Composer (PHP)
+    * NuGet (.NET)
+    * bundler: official bootstrap gem (Bootstrap 4 and 5)
+        * [rubygems](https://rubygems.org/gems/bootstrap)
+        * [github](https://github.com/twbs/bootstrap-rubygem)
 
 ### Difference between Bootstrap v3 and Bootstrap v4
 
@@ -76,10 +75,10 @@ Official [download and Installation options](https://getbootstrap.com/docs/5.1/g
 | Bootstrap Icons      | glyphicons   | doesn’t have its own SVG icons, we have to use font-awesome for icons | have its own SVG icons |
 | Panels/Cards         | panels, thumbnails and wells | The card deck is used to create an isset of cards with equal width and height. | Card deck class in removed in bootstrap |
 | Static Site Generator|              |uses Jekyll software | uses Hugo software as it is fast static site generator |
-| Dropdown Structure   | Created using <ul> and <li>                                      | Created with <ul> or <div>                             | |
+| Dropdown Structure   | Created using `<ul>` and `<li>`                                      | Created with `<ul>` or `<div>`                             | |
 | Images class         | .img-responsive                                                  | .img-fluid                                             | |
 | flexbox grid         |              | this makes easier to implement vertical designs, and the columns and rows can easily be implemented. the classes justify-center-content can directly be used to align according to the requirement | advanced grid system is made available , also columns don’t have relative positions. |
-| Tables               | use .table-responsive class in <div> tag                         | use .table-responsive class in <table> tag             | |
+| Tables               | use .table-responsive class in `<div>` tag                         | use .table-responsive class in `<table>` tag             | |
 | Offsetting Columns   | col-md-offset-4                                                  | offset-md-4                                            | |
 | Form Control Size    | .input-lg increases size while .input-sm decreases size          | .form-control-lg increases size while .form-control-sm decreases size               | |
 | Button Sizes         | .btn-xs class is available                                       | .btn-sm and .btn-lg classes are there and the .btn-xs class is not                  | |

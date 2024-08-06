@@ -4,22 +4,22 @@ Understanding the new standards for variable CSS fonts.
 
 ## Notes
 
-A variable font is a single font file that can be used to render a range of propertyies e.g. size, weight, style.
+A variable font is a single font file that can be used to render a range of properties e.g. size, weight, style.
 Support for variable fonts is being codified in the W3C Working Draft [CSS Fonts Module Level 4](https://www.w3.org/TR/css-fonts-4/).
 Most leading browsers already support variable fonts to some degree.
 
 The OpenType 1.8 specification defines five registered axis tags:
 
-* weight <wght>
-* width <wdth>
-* optical size <opsz>
-* slant <slnt>
-* italic <ital>
+* weight `<wght>`
+* width `<wdth>`
+* optical size `<opsz>`
+* slant `<slnt>`
+* italic `<ital>`
 
 It seems some fonts provide additional axis for more fun and creative control - a popular
 example is [decovar](https://github.com/TypeNetwork/Decovar) which really has an insane number of axis to play with.
 
-While some properties can be adusted with familiar font properties (`font-weight` etc),
+While some properties can be adjusted with familiar font properties (`font-weight` etc),
 the [font-variation-settings](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings)
 property is used to control all the axis supported by a particular font.
 
@@ -32,7 +32,7 @@ The font used is [source-sans-pro 3.006 (OTF, TTF, WOFF, WOFF2, Variable)](https
 
 Getting the latest variable fonts and installing for the demo:
 
-```
+```bash
 wget https://github.com/adobe-fonts/source-sans-pro/releases/download/3.006R/source-sans-pro-3.006R.zip
 unzip source-sans-pro-3.006R.zip
 rm source-sans-pro-3.006R.zip

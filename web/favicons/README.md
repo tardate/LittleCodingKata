@@ -8,7 +8,6 @@ See the [favicon-cheat-sheet](https://github.com/audreyr/favicon-cheat-sheet)
 for a "A painfully obsessive cheat sheet to favicon sizes/types".
 See also [Favicon – Why you’re doing it wrong](https://realfavicongenerator.net/blog/favicon-why-youre-doing-it-wrong/)
 
-
 The absolute fallback is simply a favicon.ico file in the root of your domain.
 HTML markup may be used for specific favicon configuration for:
 
