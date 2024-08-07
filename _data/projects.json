@@ -2549,5 +2549,13 @@
             "Tools",
             "MacOS"
         ]
+    },
+    "/typescript/about/": {
+        "id": 294,
+        "title": "about typescript",
+        "summary": "typescript - my tl;dr summary, plus notes on getting started on macOS (Apple Silicon) and Ubuntu (x86).",
+        "tags": [
+            "typescript"
+        ]
     }
 }

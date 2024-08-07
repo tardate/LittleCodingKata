@@ -2340,7 +2340,15 @@
         "description": "Using Homebrew to manage ARM64 and x86_64 package installations on macOS.",
         "categories": "Tools, MacOS",
         "relative_path": "tools/homebrew/apple_silicon",
-        "updated_at": "2024-08-07T03:21:25Z",
+        "updated_at": "2024-08-07T03:29:07Z",
         "id": "#293"
+    },
+    {
+        "name": "about typescript",
+        "description": "typescript - my tl;dr summary, plus notes on getting started on macOS (Apple Silicon) and Ubuntu (x86).",
+        "categories": "typescript",
+        "relative_path": "typescript/about",
+        "updated_at": "2024-08-07T03:29:07Z",
+        "id": "#294"
     }
 ]
