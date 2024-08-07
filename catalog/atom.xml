@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2024-08-07T04:36:53Z</updated>
+  <updated>2024-08-07T05:06:26Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2565,9 +2565,17 @@
   <entry>
     <id>https://codingkata.tardate.com/typescript/about/</id>
     <link href="https://codingkata.tardate.com/typescript/about/"/>
-    <updated>2024-08-07T03:29:07Z</updated>
+    <updated>2024-08-07T04:51:07Z</updated>
     <title>about typescript</title>
     <summary>typescript - my tl;dr summary, plus notes on getting started on macOS (Apple Silicon) and Ubuntu (x86).</summary>
     <category term="typescript"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/node/install_ubuntu/</id>
+    <link href="https://codingkata.tardate.com/node/install_ubuntu/"/>
+    <updated>2024-08-07T05:01:00Z</updated>
+    <title>Installing Node.js Ubuntu</title>
+    <summary>Installing and maintaining Node.js on Ubuntu</summary>
+    <category term="node"/>
   </entry>
 </feed>

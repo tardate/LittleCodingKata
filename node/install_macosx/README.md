@@ -10,13 +10,13 @@ Using [Homebrew](https://formulae.brew.sh/formula/node) to install and maintain 
 
     $ brew install node
     $ node --version
-    v21.6.1
+    v22.5.1
     $ npm install -g n
     $ n --version
-    v9.2.0
+    v9.2.3
     $ npm install -g npm
     $ npm --version
-    10.4.0
+    10.8.2
 
 ### Original Installation - macOS High Sierra on Intel
 
@@ -26,7 +26,7 @@ I used homebrew to install and maintain node on MacOS:
     $ node --version
     v11.15.0
 
-## Node Version Manager
+#### Node Version Manager
 
 I used to use [nvm](https://github.com/nvm-sh/nvm)
 but since switched to [n](https://github.com/tj/n)
@@ -39,7 +39,7 @@ To install or update nvm, you can use the install script using cURL:
 
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
-## Updating Node
+#### Updating Node
 
 To install the latest available..
 
@@ -61,7 +61,7 @@ To install the latest available..
     $ node --version
     v12.8.0
 
-## Updating NPM
+#### Updating NPM
 
     $ npm install -g npm
     $ npm --version

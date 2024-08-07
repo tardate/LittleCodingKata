@@ -1,0 +1,6 @@
+{
+    "name": "Installing Node.js Ubuntu",
+    "description": "Installing and maintaining Node.js on Ubuntu",
+    "categories": "node",
+    "relative_path": "node/install_ubuntu"
+}
