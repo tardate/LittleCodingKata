@@ -2557,5 +2557,13 @@
         "tags": [
             "typescript"
         ]
+    },
+    "/node/install_ubuntu/": {
+        "id": 295,
+        "title": "Installing Node.js Ubuntu",
+        "summary": "Installing and maintaining Node.js on Ubuntu",
+        "tags": [
+            "node"
+        ]
     }
 }
