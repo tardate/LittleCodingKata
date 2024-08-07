@@ -1,6 +1,6 @@
 # Homebrew Tips and Tricks
 
-I often use [homebrew](https://github.com/Homebrew/homebrew) to manage software installations on my Mac.
+I often use [Homebrew](https://brew.sh/) to manage software installations on my Mac.
 
 This is a collection of tips and tricks... basically things I use occasionally but always forget in the meantime.
 
@@ -42,5 +42,7 @@ fi
 ```
 
 ## Credits and References
-* [homebrew](https://github.com/Homebrew/homebrew)
+
+* [Homebrew](https://brew.sh/)
+* [homebrew](https://github.com/Homebrew/brew)
 * [SO: Detect if homebrew package is installed](http://stackoverflow.com/questions/20802320/detect-if-homebrew-package-is-installed)

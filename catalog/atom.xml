@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2024-07-09T11:54:15Z</updated>
+  <updated>2024-08-07T03:21:52Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2501,14 +2501,6 @@
     <category term="ruby"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/tools/xargs/</id>
-    <link href="https://codingkata.tardate.com/tools/xargs/"/>
-    <updated>2024-04-18T00:12:31Z</updated>
-    <title>xargs</title>
-    <summary>All about using xargs to build and execute command lines from standard input</summary>
-    <category term="tools"/>
-  </entry>
-  <entry>
     <id>https://codingkata.tardate.com/tools/envsubst/</id>
     <link href="https://codingkata.tardate.com/tools/envsubst/"/>
     <updated>2024-07-09T10:18:12Z</updated>
@@ -2518,9 +2510,35 @@
     <category term="Bash"/>
   </entry>
   <entry>
+    <id>https://codingkata.tardate.com/tools/xargs/</id>
+    <link href="https://codingkata.tardate.com/tools/xargs/"/>
+    <updated>2024-07-24T02:08:27Z</updated>
+    <title>xargs</title>
+    <summary>All about using xargs to build and execute command lines from standard input</summary>
+    <category term="tools"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/rust/install_macosx/</id>
+    <link href="https://codingkata.tardate.com/rust/install_macosx/"/>
+    <updated>2024-07-24T02:08:27Z</updated>
+    <title>Installing Rust for MacOS</title>
+    <summary>Rust - installing on MacOS</summary>
+    <category term="Rust"/>
+    <category term="MacOS"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/elm/install/</id>
+    <link href="https://codingkata.tardate.com/elm/install/"/>
+    <updated>2024-07-24T02:08:27Z</updated>
+    <title>Installing elm</title>
+    <summary>Installing Elm on MacOS</summary>
+    <category term="Elm"/>
+    <category term="MacOS"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/cpp/doxygen/</id>
     <link href="https://codingkata.tardate.com/cpp/doxygen/"/>
-    <updated>2024-07-09T11:41:16Z</updated>
+    <updated>2024-07-24T02:08:27Z</updated>
     <title>doxygen</title>
     <summary>Installing and testing doxygen for c++ source documentation generation on MacOS</summary>
     <category term="C++"/>
@@ -2528,7 +2546,7 @@
   <entry>
     <id>https://codingkata.tardate.com/messaging/grpc/install_macosx/</id>
     <link href="https://codingkata.tardate.com/messaging/grpc/install_macosx/"/>
-    <updated>2024-07-09T11:41:37Z</updated>
+    <updated>2024-07-24T02:08:27Z</updated>
     <title>Installing gRPC for MacOS</title>
     <summary>installing on MacOS</summary>
     <category term="gRPC"/>
@@ -2536,21 +2554,12 @@
     <category term="Messaging"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/elm/install/</id>
-    <link href="https://codingkata.tardate.com/elm/install/"/>
-    <updated>2024-07-09T11:41:49Z</updated>
-    <title>Installing elm</title>
-    <summary>Installing Elm on MacOS</summary>
-    <category term="Elm"/>
-    <category term="MacOS"/>
-  </entry>
-  <entry>
-    <id>https://codingkata.tardate.com/rust/install_macosx/</id>
-    <link href="https://codingkata.tardate.com/rust/install_macosx/"/>
-    <updated>2024-07-09T11:42:04Z</updated>
-    <title>Installing Rust for MacOS</title>
-    <summary>Rust - installing on MacOS</summary>
-    <category term="Rust"/>
+    <id>https://codingkata.tardate.com/tools/homebrew/apple_silicon/</id>
+    <link href="https://codingkata.tardate.com/tools/homebrew/apple_silicon/"/>
+    <updated>2024-08-07T03:21:25Z</updated>
+    <title>Homebrew on Apple Silicon</title>
+    <summary>Using Homebrew to manage ARM64 and x86_64 package installations on macOS.</summary>
+    <category term="Tools"/>
     <category term="MacOS"/>
   </entry>
 </feed>

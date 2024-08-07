@@ -2288,15 +2288,7 @@
         "id": "#286"
     },
     {
-        "name": "xargs",
-        "description": "All about using xargs to build and execute command lines from standard input",
-        "categories": "tools",
-        "relative_path": "tools/xargs",
-        "updated_at": "2024-04-18T00:12:31Z",
-        "id": "#287"
-    },
-    {
-        "id": "#288",
+        "id": "#287",
         "name": "Tools/envsubst",
         "description": "substitute shell variables in text",
         "categories": "Tools, Bash",
@@ -2304,35 +2296,51 @@
         "updated_at": "2024-07-09T10:18:12Z"
     },
     {
+        "name": "xargs",
+        "description": "All about using xargs to build and execute command lines from standard input",
+        "categories": "tools",
+        "relative_path": "tools/xargs",
+        "updated_at": "2024-07-24T02:08:27Z",
+        "id": "#288"
+    },
+    {
         "id": "#289",
-        "name": "doxygen",
-        "description": "Installing and testing doxygen for c++ source documentation generation on MacOS",
-        "categories": "C++",
-        "relative_path": "cpp/doxygen",
-        "updated_at": "2024-07-09T11:41:16Z"
-    },
-    {
-        "id": "#290",
-        "name": "Installing gRPC for MacOS",
-        "description": "installing on MacOS",
-        "categories": "gRPC, MacOS, Messaging",
-        "relative_path": "messaging/grpc/install_macosx",
-        "updated_at": "2024-07-09T11:41:37Z"
-    },
-    {
-        "id": "#291",
-        "name": "Installing elm",
-        "description": "Installing Elm on MacOS",
-        "categories": "Elm, MacOS",
-        "relative_path": "elm/install",
-        "updated_at": "2024-07-09T11:41:49Z"
-    },
-    {
-        "id": "#292",
         "name": "Installing Rust for MacOS",
         "description": "Rust - installing on MacOS",
         "categories": "Rust, MacOS",
         "relative_path": "rust/install_macosx",
-        "updated_at": "2024-07-09T11:42:04Z"
+        "updated_at": "2024-07-24T02:08:27Z"
+    },
+    {
+        "id": "#290",
+        "name": "Installing elm",
+        "description": "Installing Elm on MacOS",
+        "categories": "Elm, MacOS",
+        "relative_path": "elm/install",
+        "updated_at": "2024-07-24T02:08:27Z"
+    },
+    {
+        "id": "#291",
+        "name": "doxygen",
+        "description": "Installing and testing doxygen for c++ source documentation generation on MacOS",
+        "categories": "C++",
+        "relative_path": "cpp/doxygen",
+        "updated_at": "2024-07-24T02:08:27Z"
+    },
+    {
+        "id": "#292",
+        "name": "Installing gRPC for MacOS",
+        "description": "installing on MacOS",
+        "categories": "gRPC, MacOS, Messaging",
+        "relative_path": "messaging/grpc/install_macosx",
+        "updated_at": "2024-07-24T02:08:27Z"
+    },
+    {
+        "name": "Homebrew on Apple Silicon",
+        "description": "Using Homebrew to manage ARM64 and x86_64 package installations on macOS.",
+        "categories": "Tools, MacOS",
+        "relative_path": "tools/homebrew/apple_silicon",
+        "updated_at": "2024-08-07T03:21:25Z",
+        "id": "#293"
     }
 ]
