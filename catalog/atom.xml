@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2024-08-07T03:21:52Z</updated>
+  <updated>2024-08-07T04:36:53Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2556,10 +2556,18 @@
   <entry>
     <id>https://codingkata.tardate.com/tools/homebrew/apple_silicon/</id>
     <link href="https://codingkata.tardate.com/tools/homebrew/apple_silicon/"/>
-    <updated>2024-08-07T03:21:25Z</updated>
+    <updated>2024-08-07T03:29:07Z</updated>
     <title>Homebrew on Apple Silicon</title>
     <summary>Using Homebrew to manage ARM64 and x86_64 package installations on macOS.</summary>
     <category term="Tools"/>
     <category term="MacOS"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/typescript/about/</id>
+    <link href="https://codingkata.tardate.com/typescript/about/"/>
+    <updated>2024-08-07T03:29:07Z</updated>
+    <title>about typescript</title>
+    <summary>typescript - my tl;dr summary, plus notes on getting started on macOS (Apple Silicon) and Ubuntu (x86).</summary>
+    <category term="typescript"/>
   </entry>
 </feed>
