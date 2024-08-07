@@ -859,10 +859,16 @@
     <loc>https://codingkata.tardate.com/ruby/csv/</loc>
   </url>
   <url>
+    <loc>https://codingkata.tardate.com/tools/envsubst/</loc>
+  </url>
+  <url>
     <loc>https://codingkata.tardate.com/tools/xargs/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/tools/envsubst/</loc>
+    <loc>https://codingkata.tardate.com/rust/install_macosx/</loc>
+  </url>
+  <url>
+    <loc>https://codingkata.tardate.com/elm/install/</loc>
   </url>
   <url>
     <loc>https://codingkata.tardate.com/cpp/doxygen/</loc>
@@ -871,9 +877,6 @@
     <loc>https://codingkata.tardate.com/messaging/grpc/install_macosx/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/elm/install/</loc>
-  </url>
-  <url>
-    <loc>https://codingkata.tardate.com/rust/install_macosx/</loc>
+    <loc>https://codingkata.tardate.com/tools/homebrew/apple_silicon/</loc>
   </url>
 </urlset>

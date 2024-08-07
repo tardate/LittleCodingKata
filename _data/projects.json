@@ -2488,16 +2488,8 @@
             "ruby"
         ]
     },
-    "/tools/xargs/": {
-        "id": 287,
-        "title": "xargs",
-        "summary": "All about using xargs to build and execute command lines from standard input",
-        "tags": [
-            "tools"
-        ]
-    },
     "/tools/envsubst/": {
-        "id": 288,
+        "id": 287,
         "title": "Tools/envsubst",
         "summary": "substitute shell variables in text",
         "tags": [
@@ -2505,8 +2497,34 @@
             "Bash"
         ]
     },
-    "/cpp/doxygen/": {
+    "/tools/xargs/": {
+        "id": 288,
+        "title": "xargs",
+        "summary": "All about using xargs to build and execute command lines from standard input",
+        "tags": [
+            "tools"
+        ]
+    },
+    "/rust/install_macosx/": {
         "id": 289,
+        "title": "Installing Rust for MacOS",
+        "summary": "Rust - installing on MacOS",
+        "tags": [
+            "Rust",
+            "MacOS"
+        ]
+    },
+    "/elm/install/": {
+        "id": 290,
+        "title": "Installing elm",
+        "summary": "Installing Elm on MacOS",
+        "tags": [
+            "Elm",
+            "MacOS"
+        ]
+    },
+    "/cpp/doxygen/": {
+        "id": 291,
         "title": "doxygen",
         "summary": "Installing and testing doxygen for c++ source documentation generation on MacOS",
         "tags": [
@@ -2514,7 +2532,7 @@
         ]
     },
     "/messaging/grpc/install_macosx/": {
-        "id": 290,
+        "id": 292,
         "title": "Installing gRPC for MacOS",
         "summary": "installing on MacOS",
         "tags": [
@@ -2523,21 +2541,12 @@
             "Messaging"
         ]
     },
-    "/elm/install/": {
-        "id": 291,
-        "title": "Installing elm",
-        "summary": "Installing Elm on MacOS",
+    "/tools/homebrew/apple_silicon/": {
+        "id": 293,
+        "title": "Homebrew on Apple Silicon",
+        "summary": "Using Homebrew to manage ARM64 and x86_64 package installations on macOS.",
         "tags": [
-            "Elm",
-            "MacOS"
-        ]
-    },
-    "/rust/install_macosx/": {
-        "id": 292,
-        "title": "Installing Rust for MacOS",
-        "summary": "Rust - installing on MacOS",
-        "tags": [
-            "Rust",
+            "Tools",
             "MacOS"
         ]
     }
