@@ -2,5 +2,6 @@
     "name": "SSL Certificate Chains",
     "description": "notes on investigating issues with server SSL certificate chains",
     "categories": "security",
-    "relative_path": "security/ssl_cert_chains"
+    "relative_path": "security/ssl_cert_chains",
+    "updated_at": "2021-05-31T16:49:19Z"
 }

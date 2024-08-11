@@ -2,5 +2,6 @@
     "name": "Palindromes",
     "description": "Examples of how to code a palidrome check in C++",
     "categories": "C++",
-    "relative_path": "cpp/palindromes"
+    "relative_path": "cpp/palindromes",
+    "updated_at": "2021-04-27T14:31:38Z"
 }

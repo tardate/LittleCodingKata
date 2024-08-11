@@ -2,5 +2,6 @@
     "name": "Trumpeter Catalog Skin",
     "description": "A simple and fast offline Trumpeter model catalog skin, using some nokogiri magic",
     "categories": "ruby",
-    "relative_path": "ruby/trumpeter_skin"
+    "relative_path": "ruby/trumpeter_skin",
+    "updated_at": "2020-12-07T11:03:07Z"
 }

@@ -2,5 +2,6 @@
     "name": "Simple URIs with addressable",
     "description": "Using the addressable gem for better handling of URIs/URLs",
     "categories": "ruby",
-    "relative_path": "ruby/simple_uris_with_addressable"
+    "relative_path": "ruby/simple_uris_with_addressable",
+    "updated_at": "2020-05-08T17:16:25Z"
 }

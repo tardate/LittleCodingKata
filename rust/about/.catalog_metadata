@@ -1,7 +1,8 @@
 {
-    "id": "#033", 
-    "name": "Rust/about", 
-    "description": "Rust - my tl;dr summary", 
-    "categories": "Rust", 
-    "relative_path": "rust/about"
+    "id": "#033",
+    "name": "Rust/about",
+    "description": "Rust - my tl;dr summary",
+    "categories": "Rust",
+    "relative_path": "rust/about",
+    "updated_at": "2016-07-10T13:14:48Z"
 }

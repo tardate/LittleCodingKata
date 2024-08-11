@@ -2,5 +2,6 @@
     "name": "RabbitMQ",
     "description": "All about RabbitMQ message broker",
     "categories": "messaging",
-    "relative_path": "messaging/rabbitmq"
+    "relative_path": "messaging/rabbitmq",
+    "updated_at": "2024-01-14T04:15:55Z"
 }

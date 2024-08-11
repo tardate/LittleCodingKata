@@ -2,5 +2,6 @@
     "name": "QR Codes with Python",
     "description": "Generating QR codes with python, as images and as C header files for embedded applications",
     "categories": "python, C",
-    "relative_path": "python/qrcodes"
+    "relative_path": "python/qrcodes",
+    "updated_at": "2019-12-28T05:57:09Z"
 }

@@ -1,7 +1,8 @@
 {
-    "id": "#003", 
-    "name": "Bash/select_menu", 
-    "description": "simple multiple-choice user input", 
-    "categories": "Bash", 
-    "relative_path": "bash/select_menu"
+    "id": "#003",
+    "name": "Bash/select_menu",
+    "description": "simple multiple-choice user input",
+    "categories": "Bash",
+    "relative_path": "bash/select_menu",
+    "updated_at": "2016-07-10T13:14:48Z"
 }

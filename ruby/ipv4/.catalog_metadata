@@ -2,5 +2,6 @@
     "name": "IPv4 Addresses with Ruby",
     "description": "All about dissecting IPv4 addresses with ruby including networks, netmasks and CIDR",
     "categories": "ruby",
-    "relative_path": "ruby/ipv4"
+    "relative_path": "ruby/ipv4",
+    "updated_at": "2022-11-09T14:04:02Z"
 }

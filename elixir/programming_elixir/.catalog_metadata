@@ -2,5 +2,6 @@
     "name": "Programming Elixir",
     "description": "Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf",
     "categories": "elixir, book",
-    "relative_path": "elixir/programming_elixir"
+    "relative_path": "elixir/programming_elixir",
+    "updated_at": "2020-02-06T15:39:18Z"
 }

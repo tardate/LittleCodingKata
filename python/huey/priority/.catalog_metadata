@@ -2,5 +2,6 @@
     "name": "Huey Task Priority",
     "description": "Using the huey task priority feature",
     "categories": "python, huey, async, queues",
-    "relative_path": "python/huey/priority"
+    "relative_path": "python/huey/priority",
+    "updated_at": "2021-08-25T15:07:35Z"
 }

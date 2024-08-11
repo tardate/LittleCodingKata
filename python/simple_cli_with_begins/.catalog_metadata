@@ -3,5 +3,6 @@
     "name": "python/simple_cli_with_begins",
     "description": "Using the begins library to write command line scripts without all the cruft",
     "categories": "python, CLI",
-    "relative_path": "python/simple_cli_with_begins"
+    "relative_path": "python/simple_cli_with_begins",
+    "updated_at": "2019-07-20T04:58:08Z"
 }

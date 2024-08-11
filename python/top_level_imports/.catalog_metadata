@@ -3,5 +3,6 @@
     "name": "Python/top_level_imports",
     "description": "or: why not to put an __init__.py in your top level folder",
     "categories": "python",
-    "relative_path": "python/top_level_imports"
+    "relative_path": "python/top_level_imports",
+    "updated_at": "2019-07-20T04:58:08Z"
 }

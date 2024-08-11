@@ -3,5 +3,6 @@
     "name": "Bash/case_statement",
     "description": "How to use case statements in the bash shell",
     "categories": "Bash",
-    "relative_path": "bash/case_statement"
+    "relative_path": "bash/case_statement",
+    "updated_at": "2018-04-17T16:02:33Z"
 }

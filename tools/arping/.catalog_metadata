@@ -2,5 +2,6 @@
     "name": "arping",
     "description": "All about Address Resolution Protocol (ARP - RFC826) and installing arping on MacOS",
     "categories": "tools",
-    "relative_path": "tools/arping"
+    "relative_path": "tools/arping",
+    "updated_at": "2021-11-02T14:53:49Z"
 }

@@ -2,5 +2,6 @@
     "name": "Basic SDL Graphics",
     "description": "Testing some basic windo and rendering functions with SDL library in C++.",
     "categories": "C++, SDL",
-    "relative_path": "cpp/sdl/basic"
+    "relative_path": "cpp/sdl/basic",
+    "updated_at": "2021-05-04T13:29:12Z"
 }

@@ -2,5 +2,6 @@
     "name": "About Pascal",
     "description": "Pascal In a Nutshell",
     "categories": "pascal",
-    "relative_path": "pascal/about"
+    "relative_path": "pascal/about",
+    "updated_at": "2020-02-16T06:17:11Z"
 }

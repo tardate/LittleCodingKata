@@ -2,5 +2,6 @@
     "name": "Primary Key Audit",
     "description": "How to list primary key details in a MySQL database",
     "categories": "Database, MySQL",
-    "relative_path": "databases/mysql/primary_key_audit"
+    "relative_path": "databases/mysql/primary_key_audit",
+    "updated_at": "2023-02-24T11:03:24Z"
 }

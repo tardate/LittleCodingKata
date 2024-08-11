@@ -3,5 +3,6 @@
     "name": "FreeRADIUS/freeradius-server-macosx",
     "description": "FreeRADIUS - running on MacOS",
     "categories": "RADIUS, MacOS, infrastructure",
-    "relative_path": "infrastructure/radius/freeradius-server-macosx"
+    "relative_path": "infrastructure/radius/freeradius-server-macosx",
+    "updated_at": "2021-11-02T14:53:49Z"
 }

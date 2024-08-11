@@ -3,5 +3,6 @@
     "name": "Installing gRPC for MacOS",
     "description": "installing on MacOS",
     "categories": "gRPC, MacOS, Messaging",
-    "relative_path": "messaging/grpc/install_macosx"
+    "relative_path": "messaging/grpc/install_macosx",
+    "updated_at": "2024-07-09T12:04:13Z"
 }

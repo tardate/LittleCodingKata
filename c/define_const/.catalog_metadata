@@ -1,7 +1,8 @@
 {
-    "id": "#047", 
-    "name": "c/define_const", 
-    "description": "Comparing the use of `#define` preprocessor macros and `const` statements", 
-    "categories": "C", 
-    "relative_path": "c/define_const"
+    "id": "#047",
+    "name": "c/define_const",
+    "description": "Comparing the use of `#define` preprocessor macros and `const` statements",
+    "categories": "C",
+    "relative_path": "c/define_const",
+    "updated_at": "2016-12-25T07:44:11Z"
 }

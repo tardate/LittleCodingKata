@@ -2,5 +2,6 @@
     "name": "Rails 6 with Docker for Production",
     "description": "All about running Rails 6 with Docker for production deployment",
     "categories": "docker, rails",
-    "relative_path": "docker/rails6_production"
+    "relative_path": "docker/rails6_production",
+    "updated_at": "2021-06-13T11:30:46Z"
 }

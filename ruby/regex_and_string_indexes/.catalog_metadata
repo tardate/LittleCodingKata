@@ -2,5 +2,6 @@
     "name": "Regular Expressions and String Indexes",
     "description": "When string indexes are better than regex, and when regex can help writing a string index",
     "categories": "ruby",
-    "relative_path": "ruby/regex_and_string_indexes"
+    "relative_path": "ruby/regex_and_string_indexes",
+    "updated_at": "2021-04-10T03:59:38Z"
 }

@@ -3,5 +3,6 @@
     "name": "About Elm",
     "description": "Elm (the language) in a nutshell",
     "categories": "elm",
-    "relative_path": "elm/about"
+    "relative_path": "elm/about",
+    "updated_at": "2020-02-01T06:29:46Z"
 }

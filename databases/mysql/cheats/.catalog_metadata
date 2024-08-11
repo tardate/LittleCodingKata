@@ -2,5 +2,6 @@
     "name": "MySQL Cheat Sheet",
     "description": "Basic administration and data management command notes",
     "categories": "Database, MySQL",
-    "relative_path": "databases/mysql/cheats"
+    "relative_path": "databases/mysql/cheats",
+    "updated_at": "2019-07-20T08:29:16Z"
 }

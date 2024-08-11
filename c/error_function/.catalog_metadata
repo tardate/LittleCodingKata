@@ -2,5 +2,6 @@
     "name": "Error Function",
     "description": "Methods for calculating the Gauss error function in C with standard libraries and the GNU Scientific Library",
     "categories": "c",
-    "relative_path": "c/error_function"
+    "relative_path": "c/error_function",
+    "updated_at": "2020-01-30T16:23:24Z"
 }

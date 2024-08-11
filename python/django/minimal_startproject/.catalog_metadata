@@ -2,5 +2,6 @@
     "name": "Minimal Django Starter Project",
     "description": "The basic Django app framework",
     "categories": "python, django",
-    "relative_path": "python/django/minimal_startproject"
+    "relative_path": "python/django/minimal_startproject",
+    "updated_at": "2023-05-15T06:00:47Z"
 }

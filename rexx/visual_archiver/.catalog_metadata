@@ -2,5 +2,6 @@
     "name": "Visual Archiver",
     "description": "An Archive Management Interface for OS/2 v2.0 written in REXX",
     "categories": "REXX, OS/2",
-    "relative_path": "rexx/visual_archiver"
+    "relative_path": "rexx/visual_archiver",
+    "updated_at": "2020-03-04T11:18:35Z"
 }

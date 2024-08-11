@@ -2,5 +2,6 @@
     "name": "jQuery Date-Time Selectors",
     "description": "A Quick Survey of jQuery Date-Time Selector libraries and approaches",
     "categories": "javascript",
-    "relative_path": "javascript/jQueryDateTime"
+    "relative_path": "javascript/jQueryDateTime",
+    "updated_at": "2020-03-04T12:24:45Z"
 }

@@ -2,5 +2,6 @@
     "name": "Docker Shell",
     "description": "How to get a bash shell in a docker instance",
     "categories": "docker",
-    "relative_path": "docker/shell"
+    "relative_path": "docker/shell",
+    "updated_at": "2022-07-07T05:35:51Z"
 }

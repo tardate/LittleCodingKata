@@ -1,7 +1,8 @@
 {
-    "id": "#018", 
-    "name": "gRPC Explainer/Node.js", 
-    "description": "hardware excuse generator with gRPC - Node client example", 
-    "categories": "gRPC, Node, Messaging", 
-    "relative_path": "messaging/grpc/explainer/node"
+    "id": "#018",
+    "name": "gRPC Explainer/Node.js",
+    "description": "hardware excuse generator with gRPC - Node client example",
+    "categories": "gRPC, Node, Messaging",
+    "relative_path": "messaging/grpc/explainer/node",
+    "updated_at": "2016-07-10T13:14:48Z"
 }

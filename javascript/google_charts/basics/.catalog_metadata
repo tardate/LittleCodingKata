@@ -2,5 +2,6 @@
     "name": "Google Chart Basics",
     "description": "Getting up and running and understanding the latest from Google Charts",
     "categories": "javascript, graphics",
-    "relative_path": "javascript/google_charts/basics"
+    "relative_path": "javascript/google_charts/basics",
+    "updated_at": "2019-09-22T02:28:16Z"
 }

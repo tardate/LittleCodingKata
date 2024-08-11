@@ -1,7 +1,8 @@
 {
-    "id": "#048", 
-    "name": "staticweb/jekyll", 
-    "description": "Test-driving some techniques for building static sites with Jekyll", 
-    "categories": "Jekyll, static", 
-    "relative_path": "staticweb/jekyll"
+    "id": "#048",
+    "name": "staticweb/jekyll",
+    "description": "Test-driving some techniques for building static sites with Jekyll",
+    "categories": "Jekyll, static",
+    "relative_path": "staticweb/jekyll",
+    "updated_at": "2016-12-25T10:31:39Z"
 }

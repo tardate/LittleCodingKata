@@ -1,7 +1,8 @@
 {
-    "id": "#060", 
-    "name": "Bash/file_locks", 
-    "description": "How to implement simple resource semaphores with file locks", 
-    "categories": "Bash", 
-    "relative_path": "bash/file_locks"
+    "id": "#060",
+    "name": "Bash/file_locks",
+    "description": "How to implement simple resource semaphores with file locks",
+    "categories": "Bash",
+    "relative_path": "bash/file_locks",
+    "updated_at": "2017-10-09T15:23:07Z"
 }

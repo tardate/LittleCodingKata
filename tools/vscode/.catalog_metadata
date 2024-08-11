@@ -2,5 +2,6 @@
     "name": "vscode",
     "description": "Trying out Visual Studio Code",
     "categories": "tools, editors",
-    "relative_path": "tools/vscode"
+    "relative_path": "tools/vscode",
+    "updated_at": "2019-02-26T12:29:41Z"
 }

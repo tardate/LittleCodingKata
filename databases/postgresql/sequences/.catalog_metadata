@@ -2,5 +2,6 @@
     "name": "PostgreSQL Sequences",
     "description": "Notes on managing PostgreSQL Sequences",
     "categories": "databases, postgresql",
-    "relative_path": "databases/postgresql/sequences"
+    "relative_path": "databases/postgresql/sequences",
+    "updated_at": "2023-08-29T13:21:49Z"
 }

@@ -3,5 +3,6 @@
     "name": "Python/quirks/late_bound_closures",
     "description": "Python quirks - late-bound closures",
     "categories": "python",
-    "relative_path": "python/quirks/late_bound_closures"
+    "relative_path": "python/quirks/late_bound_closures",
+    "updated_at": "2019-07-20T04:58:08Z"
 }

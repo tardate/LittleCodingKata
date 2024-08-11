@@ -2,5 +2,6 @@
     "name": "s3sync",
     "description": "Using Amazon S3 or Wasabi for offsite data backup and long term storage",
     "categories": "tools, S3, AWS, Wasabi",
-    "relative_path": "tools/s3sync"
+    "relative_path": "tools/s3sync",
+    "updated_at": "2019-06-09T05:40:15Z"
 }

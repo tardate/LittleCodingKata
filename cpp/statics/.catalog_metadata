@@ -2,5 +2,6 @@
     "name": "static",
     "description": "About the static keyword in C++ - static variables, static objects, static member variables, static member functions",
     "categories": "C++",
-    "relative_path": "cpp/statics"
+    "relative_path": "cpp/statics",
+    "updated_at": "2021-06-01T14:11:43Z"
 }

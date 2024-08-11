@@ -2,5 +2,6 @@
     "name": "Parameter Substitution",
     "description": "All about Bash parameter substitution.",
     "categories": "bash",
-    "relative_path": "bash/parameter_substitution"
+    "relative_path": "bash/parameter_substitution",
+    "updated_at": "2023-05-02T11:19:32Z"
 }

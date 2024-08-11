@@ -2,5 +2,6 @@
     "name": "Ruby Style",
     "description": "On style guides and resources for ruby",
     "categories": "ruby",
-    "relative_path": "ruby/style"
+    "relative_path": "ruby/style",
+    "updated_at": "2021-04-09T16:37:57Z"
 }

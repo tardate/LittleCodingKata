@@ -2,5 +2,6 @@
     "name": "About Huey",
     "description": "Huey is a lightweight queuing system for python",
     "categories": "python, huey, async, queues",
-    "relative_path": "python/huey/about"
+    "relative_path": "python/huey/about",
+    "updated_at": "2021-08-25T13:49:54Z"
 }

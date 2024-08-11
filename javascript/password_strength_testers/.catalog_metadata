@@ -2,5 +2,6 @@
     "name": "Password Strength Testers",
     "description": "Checking out various Javascript-based password strength testers and trying to find one that best implements latest NIST guidelines.",
     "categories": "javascript, security",
-    "relative_path": "javascript/password_strength_testers"
+    "relative_path": "javascript/password_strength_testers",
+    "updated_at": "2021-04-15T17:08:47Z"
 }

@@ -2,5 +2,6 @@
     "name": "Bash/function_inference",
     "description": "How to test for the presence of functions in order to branch to arbitrary functions by name",
     "categories": "Bash",
-    "relative_path": "bash/function_inference"
+    "relative_path": "bash/function_inference",
+    "updated_at": "2018-04-18T16:30:13Z"
 }

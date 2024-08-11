@@ -2,5 +2,6 @@
     "name": "Loops in C",
     "description": "All about loops in C",
     "categories": "c",
-    "relative_path": "c/loops"
+    "relative_path": "c/loops",
+    "updated_at": "2021-04-09T17:31:30Z"
 }

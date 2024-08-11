@@ -2,5 +2,6 @@
     "name": "Lotto Picker - The Python Way",
     "description": "Using a lotto picker example to demonstrate random numbers and set operations the python way",
     "categories": "python",
-    "relative_path": "python/lotto_picker"
+    "relative_path": "python/lotto_picker",
+    "updated_at": "2023-05-16T14:38:29Z"
 }

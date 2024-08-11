@@ -2,5 +2,6 @@
     "name": "Ruby Loop",
     "description": "All the various ways of looping in Ruby",
     "categories": "ruby",
-    "relative_path": "ruby/loops"
+    "relative_path": "ruby/loops",
+    "updated_at": "2020-02-22T07:51:21Z"
 }

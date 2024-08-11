@@ -2,5 +2,6 @@
     "name": "Using with_defaults",
     "description": "About the `reverse_merge` and `with_defaults` Hash mixins from Rails",
     "categories": "ruby",
-    "relative_path": "ruby/with_defaults"
+    "relative_path": "ruby/with_defaults",
+    "updated_at": "2023-11-29T09:39:18Z"
 }

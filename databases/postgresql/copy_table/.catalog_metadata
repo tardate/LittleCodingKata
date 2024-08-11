@@ -2,5 +2,6 @@
     "name": "Copying Tables",
     "description": "notes on copying table strictures and data with SQL",
     "categories": "Database, SQL",
-    "relative_path": "databases/postgresql/copy_table"
+    "relative_path": "databases/postgresql/copy_table",
+    "updated_at": "2018-10-03T11:54:00Z"
 }

@@ -2,5 +2,6 @@
     "name": "pyenv",
     "description": "Using pyenv for managing multiple python environments",
     "categories": "python",
-    "relative_path": "python/pyenv"
+    "relative_path": "python/pyenv",
+    "updated_at": "2020-12-26T08:02:37Z"
 }

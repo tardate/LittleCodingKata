@@ -2,5 +2,6 @@
     "name": "PostgreSQL Cheat Sheet",
     "description": "Basic administration and data management command notes",
     "categories": "Database, PostgreSQL",
-    "relative_path": "databases/postgresql/cheats"
+    "relative_path": "databases/postgresql/cheats",
+    "updated_at": "2019-07-20T08:29:16Z"
 }

@@ -2,5 +2,6 @@
     "name": "Self-signed Certs",
     "description": "Creating a self-signed certificate",
     "categories": "security",
-    "relative_path": "security/self-signed-certs"
+    "relative_path": "security/self-signed-certs",
+    "updated_at": "2022-10-20T01:07:20Z"
 }

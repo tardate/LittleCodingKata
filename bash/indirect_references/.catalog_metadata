@@ -2,5 +2,6 @@
     "name": "Indirect References",
     "description": "Indirect variable de-referencing in bash scripts",
     "categories": "Bash",
-    "relative_path": "bash/indirect_references"
+    "relative_path": "bash/indirect_references",
+    "updated_at": "2021-05-30T13:26:11Z"
 }

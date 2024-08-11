@@ -2,5 +2,6 @@
     "name": "Docker Housekeeping",
     "description": "Some simple housekeeping commands for Docker",
     "categories": "docker",
-    "relative_path": "docker/housekeeping"
+    "relative_path": "docker/housekeeping",
+    "updated_at": "2023-11-22T09:44:52Z"
 }

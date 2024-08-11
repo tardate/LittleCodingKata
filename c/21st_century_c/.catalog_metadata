@@ -2,5 +2,6 @@
     "name": "21st Century C",
     "description": "Notes on the book '21st Century C' by Ben Klemens, published by O'Reilly",
     "categories": "C, book",
-    "relative_path": "c/21st_century_c"
+    "relative_path": "c/21st_century_c",
+    "updated_at": "2020-02-06T15:39:18Z"
 }

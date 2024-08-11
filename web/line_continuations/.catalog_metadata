@@ -2,5 +2,6 @@
     "name": "Line Continuations in HTML",
     "description": "CSS and Javascript solutions for indicating line continuations in web pages",
     "categories": "web, HTML, CSS, javascript",
-    "relative_path": "web/line_continuations"
+    "relative_path": "web/line_continuations",
+    "updated_at": "2020-03-10T19:29:18Z"
 }

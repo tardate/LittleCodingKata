@@ -2,5 +2,6 @@
     "name": "Big O Notation",
     "description": "About Big O Notation",
     "categories": "methods",
-    "relative_path": "methods/big_o_notation"
+    "relative_path": "methods/big_o_notation",
+    "updated_at": "2023-02-24T10:50:50Z"
 }

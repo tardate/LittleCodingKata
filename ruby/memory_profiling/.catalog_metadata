@@ -2,5 +2,6 @@
     "name": "Memory Profiling",
     "description": "About memory profiling in Ruby",
     "categories": "ruby",
-    "relative_path": "ruby/memory_profiling"
+    "relative_path": "ruby/memory_profiling",
+    "updated_at": "2018-10-03T11:54:22Z"
 }

@@ -1,7 +1,8 @@
 {
-    "id": "#004", 
-    "name": "C++/exception_handling", 
-    "description": "C++ exception handling", 
-    "categories": "C++", 
-    "relative_path": "cpp/exception_handling"
+    "id": "#004",
+    "name": "C++/exception_handling",
+    "description": "C++ exception handling",
+    "categories": "C++",
+    "relative_path": "cpp/exception_handling",
+    "updated_at": "2016-07-10T13:14:48Z"
 }

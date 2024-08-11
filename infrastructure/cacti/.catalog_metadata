@@ -2,5 +2,6 @@
     "name": "Cacti",
     "description": "About the cacti network monitoring tool, including how to run it in Docker",
     "categories": "infrastructure, monitoring",
-    "relative_path": "infrastructure/cacti"
+    "relative_path": "infrastructure/cacti",
+    "updated_at": "2020-01-26T06:17:04Z"
 }

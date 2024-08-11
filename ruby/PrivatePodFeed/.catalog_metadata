@@ -2,5 +2,6 @@
     "name": "Private PodFeed",
     "description": "description",
     "categories": "ruby, rss",
-    "relative_path": "ruby/PrivatePodFeed"
+    "relative_path": "ruby/PrivatePodFeed",
+    "updated_at": "2019-12-31T05:06:57Z"
 }

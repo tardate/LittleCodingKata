@@ -2,5 +2,6 @@
     "name": "SVG Animation",
     "description": "All about SVG for web design and animation",
     "categories": "CSS, SVG",
-    "relative_path": "web/svg_animation"
+    "relative_path": "web/svg_animation",
+    "updated_at": "2019-11-03T04:31:16Z"
 }

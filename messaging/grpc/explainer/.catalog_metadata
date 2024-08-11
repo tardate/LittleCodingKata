@@ -1,7 +1,8 @@
 {
-    "id": "#015", 
-    "name": "gRPC Explainer", 
-    "description": "hardware excuse generator with gRPC", 
-    "categories": "gRPC, Messaging", 
-    "relative_path": "messaging/grpc/explainer"
+    "id": "#015",
+    "name": "gRPC Explainer",
+    "description": "hardware excuse generator with gRPC",
+    "categories": "gRPC, Messaging",
+    "relative_path": "messaging/grpc/explainer",
+    "updated_at": "2016-07-10T13:14:48Z"
 }

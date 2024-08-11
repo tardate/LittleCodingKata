@@ -2,5 +2,6 @@
     "name": "Engines in Rails 6",
     "description": "Looking into what is new or different with Rails 6 engines",
     "categories": "ruby, rails",
-    "relative_path": "ruby/rails6/engines"
+    "relative_path": "ruby/rails6/engines",
+    "updated_at": "2021-06-25T08:47:19Z"
 }

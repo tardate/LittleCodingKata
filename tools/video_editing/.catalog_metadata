@@ -2,5 +2,6 @@
     "name": "Video Editing",
     "description": "Miscellaneous video editing and manipulation tools",
     "categories": "tools, video",
-    "relative_path": "tools/video_editing"
+    "relative_path": "tools/video_editing",
+    "updated_at": "2023-01-22T08:10:18Z"
 }

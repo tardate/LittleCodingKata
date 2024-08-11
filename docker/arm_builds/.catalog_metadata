@@ -2,5 +2,6 @@
     "name": "Building for ARM with Docker",
     "description": "Building 32-bit ARM v7 images with docker, tested on MacOS and AWS",
     "categories": "docker, ARM",
-    "relative_path": "docker/arm_builds"
+    "relative_path": "docker/arm_builds",
+    "updated_at": "2021-11-02T14:53:49Z"
 }

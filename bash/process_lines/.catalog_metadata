@@ -1,7 +1,8 @@
 {
-    "id": "#002", 
-    "name": "Bash/process_lines", 
-    "description": "process a file line-by-line", 
-    "categories": "Bash", 
-    "relative_path": "bash/process_lines"
+    "id": "#002",
+    "name": "Bash/process_lines",
+    "description": "process a file line-by-line",
+    "categories": "Bash",
+    "relative_path": "bash/process_lines",
+    "updated_at": "2016-07-10T13:14:48Z"
 }

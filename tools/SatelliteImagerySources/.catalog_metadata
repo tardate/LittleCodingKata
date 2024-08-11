@@ -2,5 +2,6 @@
     "name": "Satellite Imagery Sources",
     "description": "Poking around free satellite imagery services",
     "categories": "tools, osint",
-    "relative_path": "tools/SatelliteImagerySources"
+    "relative_path": "tools/SatelliteImagerySources",
+    "updated_at": "2022-12-19T03:16:47Z"
 }

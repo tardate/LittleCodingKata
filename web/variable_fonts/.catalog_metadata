@@ -2,5 +2,6 @@
     "name": "Variable Fonts",
     "description": "Understanding the new standards for variable CSS fonts",
     "categories": "CSS, font",
-    "relative_path": "web/variable_fonts"
+    "relative_path": "web/variable_fonts",
+    "updated_at": "2020-02-16T13:05:09Z"
 }

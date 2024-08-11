@@ -2,5 +2,6 @@
     "name": "std::string::find",
     "description": "A closer look at the find function for strings in C++",
     "categories": "C++",
-    "relative_path": "cpp/string_find"
+    "relative_path": "cpp/string_find",
+    "updated_at": "2021-04-23T14:18:20Z"
 }

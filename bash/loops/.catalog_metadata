@@ -1,7 +1,8 @@
 {
-    "id": "#050", 
-    "name": "Bash/loops", 
-    "description": "All about Bash loops", 
-    "categories": "Bash", 
-    "relative_path": "bash/loops"
+    "id": "#050",
+    "name": "Bash/loops",
+    "description": "All about Bash loops",
+    "categories": "Bash",
+    "relative_path": "bash/loops",
+    "updated_at": "2017-02-19T05:49:47Z"
 }

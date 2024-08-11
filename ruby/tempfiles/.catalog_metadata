@@ -2,5 +2,6 @@
     "name": "tempfiles",
     "description": "Using Temporary Files with Ruby",
     "categories": "ruby",
-    "relative_path": "ruby/tempfiles"
+    "relative_path": "ruby/tempfiles",
+    "updated_at": "2019-06-09T05:39:40Z"
 }

@@ -2,5 +2,6 @@
     "name": "rails4",
     "description": "Features and demonstration of Rails 4",
     "categories": "ruby, rails",
-    "relative_path": "ruby/rails4"
+    "relative_path": "ruby/rails4",
+    "updated_at": "2019-02-25T14:32:51Z"
 }

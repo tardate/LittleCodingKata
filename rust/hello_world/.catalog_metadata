@@ -1,7 +1,8 @@
 {
-    "id": "#034", 
-    "name": "Rust/hello_world", 
-    "description": "Rust - Hello World with concurrency", 
-    "categories": "Rust", 
-    "relative_path": "rust/hello_world"
+    "id": "#034",
+    "name": "Rust/hello_world",
+    "description": "Rust - Hello World with concurrency",
+    "categories": "Rust",
+    "relative_path": "rust/hello_world",
+    "updated_at": "2016-07-10T13:14:48Z"
 }

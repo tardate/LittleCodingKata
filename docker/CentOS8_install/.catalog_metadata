@@ -2,5 +2,6 @@
     "name": "Docker on CentOS 8",
     "description": "Installing and running Docker on CentOS 8",
     "categories": "docker",
-    "relative_path": "docker/CentOS8_install"
+    "relative_path": "docker/CentOS8_install",
+    "updated_at": "2020-02-18T16:41:09Z"
 }

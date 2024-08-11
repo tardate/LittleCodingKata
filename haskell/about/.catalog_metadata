@@ -1,7 +1,8 @@
 {
-    "id": "#008", 
-    "name": "Haskell/about", 
-    "description": "Haskell - my tl;dr summary", 
-    "categories": "Haskell", 
-    "relative_path": "haskell/about"
+    "id": "#008",
+    "name": "Haskell/about",
+    "description": "Haskell - my tl;dr summary",
+    "categories": "Haskell",
+    "relative_path": "haskell/about",
+    "updated_at": "2016-07-10T13:14:48Z"
 }

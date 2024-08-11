@@ -2,5 +2,6 @@
     "name": "Docker for Rails Developers",
     "description": "Notes on the book Docker for Rails Developers, By Rob Isenberg, pubished by The Pragmatic Programmers",
     "categories": "docker, rails, book",
-    "relative_path": "docker/docker-for-rails-developers"
+    "relative_path": "docker/docker-for-rails-developers",
+    "updated_at": "2020-12-09T07:19:12Z"
 }

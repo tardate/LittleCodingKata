@@ -2,5 +2,6 @@
     "name": "Rickshaw",
     "description": "Testing out the D3-based Rickshaw time series graph library",
     "categories": "javascript, graphics",
-    "relative_path": "javascript/rickshaw"
+    "relative_path": "javascript/rickshaw",
+    "updated_at": "2020-02-03T14:03:04Z"
 }

@@ -2,5 +2,6 @@
     "name": "Finding Files",
     "description": "Examples of various ways to find files",
     "categories": "bash",
-    "relative_path": "bash/finding_files"
+    "relative_path": "bash/finding_files",
+    "updated_at": "2020-02-15T09:25:04Z"
 }

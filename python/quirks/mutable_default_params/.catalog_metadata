@@ -3,5 +3,6 @@
     "name": "Python/quirks/mutable_default_params",
     "description": "Python quirks - mutable default params",
     "categories": "python",
-    "relative_path": "python/quirks/mutable_default_params"
+    "relative_path": "python/quirks/mutable_default_params",
+    "updated_at": "2019-07-20T04:58:08Z"
 }

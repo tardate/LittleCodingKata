@@ -2,5 +2,6 @@
     "name": "drb",
     "description": "dRuby (drb) is a distributed object system for Ruby, included in the standard library",
     "categories": "ruby",
-    "relative_path": "ruby/drb"
+    "relative_path": "ruby/drb",
+    "updated_at": "2020-10-10T02:31:30Z"
 }

@@ -2,5 +2,6 @@
     "name": "PostgreSQL Locks",
     "description": "Notes on managing PostgreSQL locks",
     "categories": "databases, postgresql",
-    "relative_path": "databases/postgresql/locks"
+    "relative_path": "databases/postgresql/locks",
+    "updated_at": "2023-08-29T13:21:49Z"
 }

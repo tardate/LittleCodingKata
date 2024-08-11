@@ -2,5 +2,6 @@
     "name": "SDL2 MacOS Install",
     "description": "Installing the Simple DirectMedia Layer library on MacOS, and running a basic verification program in C++",
     "categories": "C++, SDL",
-    "relative_path": "cpp/sdl/install"
+    "relative_path": "cpp/sdl/install",
+    "updated_at": "2021-11-02T14:53:49Z"
 }

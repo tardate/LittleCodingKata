@@ -2,5 +2,6 @@
     "name": "WiFi Scanners",
     "description": "A quick survey of WiFi scanners",
     "categories": "tools, networking",
-    "relative_path": "tools/wifi_scanners"
+    "relative_path": "tools/wifi_scanners",
+    "updated_at": "2022-10-19T14:32:55Z"
 }

@@ -2,5 +2,6 @@
     "name": "Minimal Django",
     "description": "The most bare-bones single file Django app",
     "categories": "python, django",
-    "relative_path": "python/django/minimal"
+    "relative_path": "python/django/minimal",
+    "updated_at": "2023-05-15T06:00:47Z"
 }

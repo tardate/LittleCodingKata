@@ -1,7 +1,8 @@
 {
-    "id": "#020", 
-    "name": "gRPC Explainer/Ruby", 
-    "description": "hardware excuse generator with gRPC - Ruby client and server example", 
-    "categories": "gRPC, Ruby, Messaging", 
-    "relative_path": "messaging/grpc/explainer/ruby"
+    "id": "#020",
+    "name": "gRPC Explainer/Ruby",
+    "description": "hardware excuse generator with gRPC - Ruby client and server example",
+    "categories": "gRPC, Ruby, Messaging",
+    "relative_path": "messaging/grpc/explainer/ruby",
+    "updated_at": "2016-07-10T13:14:48Z"
 }

@@ -2,5 +2,6 @@
     "name": "About Elixir",
     "description": "Elixir in a nutshell",
     "categories": "elixir",
-    "relative_path": "elixir/about"
+    "relative_path": "elixir/about",
+    "updated_at": "2020-02-01T06:29:46Z"
 }

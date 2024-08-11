@@ -1,7 +1,8 @@
 {
-    "id": "#041", 
-    "name": "Go/about", 
-    "description": "Go language - my tl;dr summary", 
-    "categories": "Go", 
-    "relative_path": "go/about"
+    "id": "#041",
+    "name": "Go/about",
+    "description": "Go language - my tl;dr summary",
+    "categories": "Go",
+    "relative_path": "go/about",
+    "updated_at": "2016-09-10T01:00:27Z"
 }

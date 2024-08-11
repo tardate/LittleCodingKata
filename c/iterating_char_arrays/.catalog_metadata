@@ -1,7 +1,8 @@
 {
-    "id": "#056", 
-    "name": "c/iterating_char_arrays", 
-    "description": "Iterating Character Arrays", 
-    "categories": "C", 
-    "relative_path": "c/iterating_char_arrays"
+    "id": "#056",
+    "name": "c/iterating_char_arrays",
+    "description": "Iterating Character Arrays",
+    "categories": "C",
+    "relative_path": "c/iterating_char_arrays",
+    "updated_at": "2017-09-24T13:39:40Z"
 }
