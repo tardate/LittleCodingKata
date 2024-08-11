@@ -2565,5 +2565,14 @@
         "tags": [
             "node"
         ]
+    },
+    "/tools/pt_backup/": {
+        "id": 296,
+        "title": "PT Backup",
+        "summary": "How to script a simple Pivotal Tracker backup with python and the RESTful API",
+        "tags": [
+            "Tools",
+            "python"
+        ]
     }
 }
