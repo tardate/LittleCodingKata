@@ -2574,5 +2574,13 @@
             "Tools",
             "python"
         ]
+    },
+    "/tools/ai/": {
+        "id": 297,
+        "title": "AI Tools",
+        "summary": "A collection of AI tools that I've either used or would like to check out at some point",
+        "tags": [
+            "tools"
+        ]
     }
 }

@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2024-08-12T07:17:10Z</updated>
+  <updated>2024-08-14T06:08:19Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2586,5 +2586,13 @@
     <summary>How to script a simple Pivotal Tracker backup with python and the RESTful API</summary>
     <category term="Tools"/>
     <category term="python"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/ai/</id>
+    <link href="https://codingkata.tardate.com/tools/ai/"/>
+    <updated>2024-08-14T06:08:00Z</updated>
+    <title>AI Tools</title>
+    <summary>A collection of AI tools that I've either used or would like to check out at some point</summary>
+    <category term="tools"/>
   </entry>
 </feed>
