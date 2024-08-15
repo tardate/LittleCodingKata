@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2024-08-14T06:08:19Z</updated>
+  <updated>2024-08-15T01:11:08Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2593,6 +2593,14 @@
     <updated>2024-08-14T06:08:00Z</updated>
     <title>AI Tools</title>
     <summary>A collection of AI tools that I've either used or would like to check out at some point</summary>
+    <category term="tools"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/hammerspoon/</id>
+    <link href="https://codingkata.tardate.com/tools/hammerspoon/"/>
+    <updated>2024-08-15T01:11:00Z</updated>
+    <title>Hammerspoon</title>
+    <summary>Test driving Hammerspoon for automation on macOS</summary>
     <category term="tools"/>
   </entry>
 </feed>

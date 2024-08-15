@@ -2582,5 +2582,13 @@
         "tags": [
             "tools"
         ]
+    },
+    "/tools/hammerspoon/": {
+        "id": 298,
+        "title": "Hammerspoon",
+        "summary": "Test driving Hammerspoon for automation on macOS",
+        "tags": [
+            "tools"
+        ]
     }
 }
