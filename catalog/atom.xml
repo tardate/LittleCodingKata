@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2024-08-15T01:11:08Z</updated>
+  <updated>2024-08-20T08:42:40Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2602,5 +2602,13 @@
     <title>Hammerspoon</title>
     <summary>Test driving Hammerspoon for automation on macOS</summary>
     <category term="tools"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/rubyconf/rdrc2024/</id>
+    <link href="https://codingkata.tardate.com/ruby/rubyconf/rdrc2024/"/>
+    <updated>2024-08-20T08:42:00Z</updated>
+    <title>Red Dot Ruby Conference 2024</title>
+    <summary>Conference summary and notes</summary>
+    <category term="ruby/RubyConf"/>
   </entry>
 </feed>

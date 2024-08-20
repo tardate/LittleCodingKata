@@ -2382,5 +2382,13 @@
         "relative_path": "tools/hammerspoon",
         "updated_at": "2024-08-15T01:11:00Z",
         "id": "#298"
+    },
+    {
+        "name": "Red Dot Ruby Conference 2024",
+        "description": "Conference summary and notes",
+        "categories": "ruby/RubyConf",
+        "relative_path": "ruby/rubyconf/rdrc2024",
+        "updated_at": "2024-08-20T08:42:00Z",
+        "id": "#299"
     }
 ]
