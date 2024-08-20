@@ -252,6 +252,9 @@ Usage quite “hidden”
 
 ![2-801](./assets/2-8-delegates/2-801.jpg)
 ![2-802](./assets/2-8-delegates/2-802.jpg)
+![2-803](./assets/2-8-delegates/2-803.jpg)
+![2-804](./assets/2-8-delegates/2-804.jpg)
+![2-805](./assets/2-8-delegates/2-805.jpg)
 
 ### 5:00 PM Closing address
 
