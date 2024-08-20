@@ -10,7 +10,6 @@ Overview and notes from RailsConf 2021.
 * [twitter.com/railsconf](https://twitter.com/railsconf)
 * [RubyConf 2020 blow by blow](https://www.alchemists.io/articles/ruby_conf_2020/) - Brooke Kuhlmann
 
-
 ## Keynote Speakers
 
 * [David Heinemeier Hansson](https://www.youtube.com/watch?v=1lV3WL6ypIU&list=PLbHJudTY1K0c8N1-PPyiQxlHNzJIzyJv6&index=4)
@@ -32,7 +31,6 @@ Tech hiring has a bad reputation for a reason - it's usually awful. But it doesn
 Code review is ostensibly about ensuring quality code and preventing errors, bugs, and/or vulnerabilities from making their way to production systems. Code review, as practiced, is often top-down, didactic, and in many cases not particularly useful or effective. By looking at the creative writing workshop model (and strategies for teaching and providing feedback on writing), we can extract patterns that help us to have more effective, more efficient, and more enjoyable code reviews. Not only can we make our code better, we can also help our teams better understand the codebase and communicate better, and thus do more effective and enjoyable work (with perhaps better team cohesion).
 
 > Andrew Ek is a senior partner at Arid Software. He builds products for clients using Elixir, Ruby, and Javascript. Before becoming a software developer, he taught middle and high school language arts, high school math, and college-level computer science. Andrew lives in Lincoln, Nebraska, with his remarkably excellent spouse and kiddo, and their very adequate cats.
-
 
 ### [10 Years In - The Realities of Running a Rails App Long Term](https://www.youtube.com/watch?v=Xd41xwQNYbY&list=PLbHJudTY1K0c8N1-PPyiQxlHNzJIzyJv6&index=10)
 
@@ -108,7 +106,7 @@ These kinds of practices later on introduce communication overhead, extra mainte
 
 We'll walk through how to design minimal APIs that are straight forward to use, and that are exactly what our consumers need!
 
-> Damir Svrtan.  Lead Software Engineer at Netflix. Strong advocate of clean coding, automated testing and passionate about constant improvement. Former organizer of Ruby Meetups in Zagreb, blogger, open source lover and contributor. More info: http://damir.svrtan.me/talks/ http://damir.svrtan.me/blog-posts/
+> Damir Svrtan.  Lead Software Engineer at Netflix. Strong advocate of clean coding, automated testing and passionate about constant improvement. Former organizer of Ruby Meetups in Zagreb, blogger, open source lover and contributor. More info: <http://damir.svrtan.me/talks/> <http://damir.svrtan.me/blog-posts/>
 
 ### [Serverless Rails: Understanding the pros and cons](https://www.youtube.com/watch?v=jjyl3aY6Utc&list=PLbHJudTY1K0c8N1-PPyiQxlHNzJIzyJv6&index=27)
 
@@ -274,7 +272,7 @@ Learn about combining Rails and Python for Computer Vision. We'll be analyzing i
 
 > Justin Bowen. With over a decade of experience as an engineer contributing to startups in roles from senior software engineer to CTO, Justin has no degrees, but believes the best skills are humility and knowing that there is always more to learn. On the side of his day jobs, Justin has spent the past five years building smart cameras integrated with machine learning algorithms for the agriculture industry. He would like to show other Rails developers when and how to apply machine learning to their work.
 
-###  [Implicit to Explicit: Decoding Ruby's Magical Syntax](https://www.youtube.com/watch?v=rssgWqJq-14&list=PLbHJudTY1K0c8N1-PPyiQxlHNzJIzyJv6&index=46)
+### [Implicit to Explicit: Decoding Ruby's Magical Syntax](https://www.youtube.com/watch?v=rssgWqJq-14&list=PLbHJudTY1K0c8N1-PPyiQxlHNzJIzyJv6&index=46)
 
 Does a Rails model or config file seem like a magical syntax? Or can you read any Ruby code and understand it as the interpreter does?
 
@@ -504,7 +502,6 @@ In this talk, we will delve into questions of our responsibility to our teammate
 
 > Yechiel Kalmenson. Yechiel Kalmenson (AKA Rabbi On Rails) is an ordained rabbi and an accomplished web developer. He lives in New Jersey with his family, where he tries to balance his passions for programming, teaching, and flying.
 
-
 ## Workshops
 
 ### [Storytelling for Tech People](https://www.youtube.com/watch?v=-pA2PlZ1WJk&list=PLbHJudTY1K0cawo3AfY5Bp6oUPH65MnKz&index=4)
@@ -557,7 +554,7 @@ In this workshop, we'll answer by migrating a small Rails application to Kuberne
 
 We'll also explore the core concepts and considerations of adding Kubernetes to your deployment pipeline, including Kubernetes operations, preparing for ephemeral infrastructure, data storage, and more.
 
-> Nathan L. Walls is a developer who works with and trains up software teams to test well, refactor to clarify intent and improve understanding, separate concerns, and stay adaptive with an emphasis on learning, respect and empathy. Nathan's also a photographer, kung fu student, qigong practitioner, day hiker and cat herder. He writes at http://wallscorp.us.
+> Nathan L. Walls is a developer who works with and trains up software teams to test well, refactor to clarify intent and improve understanding, separate concerns, and stay adaptive with an emphasis on learning, respect and empathy. Nathan's also a photographer, kung fu student, qigong practitioner, day hiker and cat herder. He writes at <http://wallscorp.us>.
 
 > Alex Panait has been writing production-ready software for more than twenty years. He has a Masters in Computer Science and has worked in many technical roles across several industries. Outside of his own development work, he enjoys helping other developers improve their coding skills.
 
@@ -565,7 +562,7 @@ We'll also explore the core concepts and considerations of adding Kubernetes to 
 
 Last December, the team behind Basecamp and Hey released Hotwire, a library for managing client side interactions by sending HTML to the client. Hotwire bundles the Stimulus JavaScript library with an expanded Turbo library which makes a wide range of client side interactions possible without writing any custom JavaScript. In this workshop, attendees will see first-hand how powerful the new library is by adding powerful interactions to a basic Rails view.
 
-> Noel Rappin is an Engineering Manager at Root Insurance. Noel has authored multiple technical books, including "Modern Front End Development For Rails" and "Rails 5 Test Prescriptions". He also hosted the podcast Tech Done Right. Follow Noel on Twitter @noelrap, and online at http://www.noelrappin.com.
+> Noel Rappin is an Engineering Manager at Root Insurance. Noel has authored multiple technical books, including "Modern Front End Development For Rails" and "Rails 5 Test Prescriptions". He also hosted the podcast Tech Done Right. Follow Noel on Twitter @noelrap, and online at <http://www.noelrappin.com>.
 
 ### [OAuth 2.0 Deconstructed](https://www.youtube.com/watch?v=M7DkOLw1TtU&list=PLbHJudTY1K0cawo3AfY5Bp6oUPH65MnKz&index=5)
 

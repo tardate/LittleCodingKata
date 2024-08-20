@@ -2590,5 +2590,13 @@
         "tags": [
             "tools"
         ]
+    },
+    "/ruby/rubyconf/rdrc2024/": {
+        "id": 299,
+        "title": "Red Dot Ruby Conference 2024",
+        "summary": "Conference summary and notes",
+        "tags": [
+            "ruby/RubyConf"
+        ]
     }
 }
