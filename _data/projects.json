@@ -2598,5 +2598,13 @@
         "tags": [
             "ruby/RubyConf"
         ]
+    },
+    "/ruby/railsconf/2024/": {
+        "id": 300,
+        "title": "RailsConf 2024",
+        "summary": "Overview and notes from RailsConf 2024",
+        "tags": [
+            "ruby/RailsConf"
+        ]
     }
 }
