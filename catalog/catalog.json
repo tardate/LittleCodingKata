@@ -2390,5 +2390,13 @@
         "relative_path": "ruby/rubyconf/rdrc2024",
         "updated_at": "2024-08-20T08:42:00Z",
         "id": "#299"
+    },
+    {
+        "name": "RailsConf 2024",
+        "description": "Overview and notes from RailsConf 2024",
+        "categories": "ruby/RailsConf",
+        "relative_path": "ruby/railsconf/2024",
+        "updated_at": "2024-08-22T06:48:00Z",
+        "id": "#300"
     }
 ]

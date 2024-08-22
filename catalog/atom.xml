@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2024-08-20T08:42:40Z</updated>
+  <updated>2024-08-22T06:48:53Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2610,5 +2610,13 @@
     <title>Red Dot Ruby Conference 2024</title>
     <summary>Conference summary and notes</summary>
     <category term="ruby/RubyConf"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/railsconf/2024/</id>
+    <link href="https://codingkata.tardate.com/ruby/railsconf/2024/"/>
+    <updated>2024-08-22T06:48:00Z</updated>
+    <title>RailsConf 2024</title>
+    <summary>Overview and notes from RailsConf 2024</summary>
+    <category term="ruby/RailsConf"/>
   </entry>
 </feed>
