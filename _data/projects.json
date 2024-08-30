@@ -2606,5 +2606,13 @@
         "tags": [
             "ruby/RailsConf"
         ]
+    },
+    "/ruby/rubyconf/ruby_kaigi_2024/": {
+        "id": 301,
+        "title": "RubyKaigi 2024",
+        "summary": "Recordings from RubyKaigi 2024 held in Okinawa",
+        "tags": [
+            "ruby"
+        ]
     }
 }
