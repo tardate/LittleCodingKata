@@ -45,6 +45,13 @@ See also [AI Stash](https://www.aistash.co/) - the AI Tools directory.
     * "TLDR This helps you summarize any piece of text into concise, easy to digest content so you can free yourself from information overload."
 * <https://www.deepl.com/en/translator>
     * "Translate texts & full document files instantly. Accurate translations for individuals and Teams. Millions translate with DeepL every day."
+* <https://gamma.app/>
+    * "Beautiful presentations, documents, and websites. No design or coding skills required."
+    * Example 1:
+        * I got it to generate a presentation based on <https://leap.tardate.com/electronics101/windbellkit/>
+        * With little customisation, it generated this presentation:
+            * <https://gamma.app/docs/Wobbly-Wind-Bell-Kit-A-Mesmerizing-LED-Oscillator-Project-mgmij0rqk877858?mode=doc>
+            * [PDF](./assets/Wobbly-Wind-Bell-Kit-A-Mesmerizing-LED-Oscillator-Project.pdf)
 
 ### Image
 
