@@ -68,6 +68,18 @@ See also [AI Stash](https://www.aistash.co/) - the AI Tools directory.
 * <https://www.pixelcut.ai/cleanup-pictures>
     * "Remove objects, text or people from your images to get clean photos!"
 
+#### <https://www.recraft.ai/>
+
+* "AI for Pro Designers: Premium image generation and editing tool."
+
+Background removal: tested with an image from <https://leap.tardate.com/kraft/ijn/kamikawamaru/>:
+
+![build10h-enhanced.](./assets/build10h-enhanced.jpg)
+
+Generating vector art: Prompt: Market scenes in contemporary Lao paintings, reflecting the gradual shift towards a market economy and the revival of economic activity
+
+![market-scenes](./assets/market-scenes-in-contemporary-lao-paintings--refle.svg)
+
 ### Sound and Music
 
 * <https://www.beatoven.ai/>
