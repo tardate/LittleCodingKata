@@ -67,6 +67,8 @@ See also [AI Stash](https://www.aistash.co/) - the AI Tools directory.
     * "Remove object, defect, people, or text from your pictures in seconds"
 * <https://www.pixelcut.ai/cleanup-pictures>
     * "Remove objects, text or people from your images to get clean photos!"
+* <https://www.meshy.ai/>
+    * "Create stunning 3D models with AI"
 
 #### <https://www.recraft.ai/>
 
@@ -122,3 +124,10 @@ It seems to do much better with more generic prompts. For example:
     * "Create highly engaging videos in minutes using the power of AI. No video editing experience required."
 * <https://videogen.io/>
     * "Generate professional videos in one click."
+
+### Applications
+
+* <https://layla.ai/>
+    * "Hi, I'm Layla, your personal travel agent"
+* <https://home.by.me/>
+    * "Find inspiration to furnish and decorate your home in 3D"
