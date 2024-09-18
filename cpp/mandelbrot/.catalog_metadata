@@ -1,0 +1,6 @@
+{
+    "name": "Mandelbrot",
+    "description": "A learning example Mandelbrot fractal generator in C++",
+    "categories": "C++",
+    "relative_path": "cpp/mandelbrot"
+}

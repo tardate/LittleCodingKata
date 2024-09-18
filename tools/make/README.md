@@ -56,7 +56,6 @@ Includes:
 | `$%`  | target member name, when the target is an archive member |
 | `$<`  | name of the first prerequisite |
 
-
 ### Special Target Names
 
 See [Special-Targets](https://www.gnu.org/software/make/manual/make.html#Special-Targets).
@@ -70,7 +69,6 @@ Includes:
 | `.SILENT`   | do not echo commands, same as the -s option |
 | `.SUFFIXES` | suffixes that are meaningful in suffixes rules |
 | `.PHONY`    | targets that should be run unconditionally |
-
 
 ## Tricks
 
@@ -95,6 +93,7 @@ But it can be done relatively generically by defining the suitable `%.exe: %.cpp
 
     .SUFFIXES: .exe
 
+NB: `LOADLIBES` is a deprecated (but still supported) alternative to `LDLIBS`, [see the manual](https://www.gnu.org/software/make/manual/html_node/Implicit-Variables.html).
 
 ## Credits and References
 
