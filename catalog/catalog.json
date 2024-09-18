@@ -2406,5 +2406,13 @@
         "relative_path": "ruby/rubyconf/ruby_kaigi_2024",
         "updated_at": "2024-08-30T03:29:00Z",
         "id": "#301"
+    },
+    {
+        "name": "Mandelbrot",
+        "description": "A learning example Mandelbrot fractal generator in C++",
+        "categories": "C++",
+        "relative_path": "cpp/mandelbrot",
+        "updated_at": "2024-09-18T08:59:00Z",
+        "id": "#302"
     }
 ]

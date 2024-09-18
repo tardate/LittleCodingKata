@@ -2,5 +2,6 @@
     "name": "Mandelbrot",
     "description": "A learning example Mandelbrot fractal generator in C++",
     "categories": "C++",
-    "relative_path": "cpp/mandelbrot"
+    "relative_path": "cpp/mandelbrot",
+    "updated_at": "2024-09-18T08:59:00Z"
 }

@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2024-08-30T03:29:52Z</updated>
+  <updated>2024-09-18T08:59:06Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2626,5 +2626,13 @@
     <title>RubyKaigi 2024</title>
     <summary>Recordings from RubyKaigi 2024 held in Okinawa</summary>
     <category term="ruby"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/cpp/mandelbrot/</id>
+    <link href="https://codingkata.tardate.com/cpp/mandelbrot/"/>
+    <updated>2024-09-18T08:59:00Z</updated>
+    <title>Mandelbrot</title>
+    <summary>A learning example Mandelbrot fractal generator in C++</summary>
+    <category term="C++"/>
   </entry>
 </feed>
