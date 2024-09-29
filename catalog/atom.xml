@@ -5,7 +5,7 @@
   <link href="https://codingkata.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://codingkata.tardate.com/"/>
   <id>https://codingkata.tardate.com/</id>
-  <updated>2024-09-18T08:59:06Z</updated>
+  <updated>2024-09-29T06:47:18Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -2634,5 +2634,13 @@
     <title>Mandelbrot</title>
     <summary>A learning example Mandelbrot fractal generator in C++</summary>
     <category term="C++"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/id3tags/</id>
+    <link href="https://codingkata.tardate.com/ruby/id3tags/"/>
+    <updated>2024-09-29T06:47:00Z</updated>
+    <title>ID3 Tags</title>
+    <summary>Managing ID3 tags with Ruby</summary>
+    <category term="ruby"/>
   </entry>
 </feed>
