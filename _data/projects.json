@@ -2622,5 +2622,13 @@
         "tags": [
             "C++"
         ]
+    },
+    "/ruby/id3tags/": {
+        "id": 303,
+        "title": "ID3 Tags",
+        "summary": "Managing ID3 tags with Ruby",
+        "tags": [
+            "ruby"
+        ]
     }
 }
