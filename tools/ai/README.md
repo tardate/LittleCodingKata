@@ -93,6 +93,42 @@ The analysis it provided of the sources, with citations, was very impressive and
 * <https://www.meshy.ai/>
     * "Create stunning 3D models with AI"
 
+#### <https://ideogram.ai/>
+
+> text to image model with industry leading capabilities in generating realistic images, graphic design, typography, and more
+
+A quick test with a generic prompt:
+
+> a sad robot walking down a cyberpunk alleyway in some dystopian future
+
+![ideogram-sad-robot](./assets/ideogram-sad-robot.jpg)
+
+Quick test with a very specific prompt:
+
+> an Aichi E13A Jake floatplane coming in to land at Deboyne Lagoon. Use an accurate representation of an Aichi E13A. Show the plane at the point it is touching down to land.
+
+Not bad, generated convincing action and environment, but the plane is completely wrong.
+
+![ideogram-aichi](./assets/ideogram-aichi.jpg)
+
+#### <https://flux-ai.io/flux-ai-image-generator/>
+
+> Create stunning images with Flux.1 Pro, Flux.1 Dev and Flux.1 Schnell models.
+
+A quick test with a generic prompt:
+
+> a sad robot walking down a cyberpunk alleyway in some dystopian future
+
+![fux-sad-robot](./assets/fux-sad-robot.jpg)
+
+Quick test with a very specific prompt:
+
+> an Aichi E13A Jake floatplane coming in to land at Deboyne Lagoon. Use an accurate representation of an Aichi E13A. Show the plane at the point it is touching down to land.
+
+The result has convincing detail about the action of a float plane coming into land, but the landscape and plane model are totally wrong:
+
+![](./assets/flux-aichi.jpg)
+
 #### <https://www.recraft.ai/>
 
 * "AI for Pro Designers: Premium image generation and editing tool."
