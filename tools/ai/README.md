@@ -4,11 +4,14 @@ A collection of AI tools that I've either used or would like to check out at som
 
 ## Notes
 
-Given how hot the topic of AI is these days, This list will go out of date immediately.
+Given how hot the topic of AI is these days, this list will go out of date immediately.
 It is not trying to be comprehensive - just a collection of tools I have come across and
-either use, or would like to check out at some point.
+either use, tried, or would like to check out at some point.
 
-See also [AI Stash](https://www.aistash.co/) - the AI Tools directory.
+See also:
+
+* [AI Stash](https://www.aistash.co/) - the AI Tools directory.
+* [FREE Prompts Library ~ Sabrina Ramonov](https://prompts.sabrina.dev)
 
 ### Developer Tools
 
@@ -17,6 +20,7 @@ See also [AI Stash](https://www.aistash.co/) - the AI Tools directory.
     > From tasks and workflows to apps and systems, build and automate anything in one powerful visual platform.
 * <https://www.cursor.com/>
     > Built to make you extraordinarily productive, Cursor is the best way to code with AI.
+* [FREE Prompts Library ~ Sabrina Ramonov](https://prompts.sabrina.dev)
 
 ### Chat LLMs
 
@@ -192,7 +196,3 @@ It seems to do much better with more generic prompts. For example:
     * "Hi, I'm Layla, your personal travel agent"
 * <https://home.by.me/>
     * "Find inspiration to furnish and decorate your home in 3D"
-
-### Prompt Engineering
-
-* [FREE Prompts Library ~ Sabrina Ramonov](https://prompts.sabrina.dev)
