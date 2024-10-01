@@ -103,6 +103,21 @@ The analysis it provided of the sources, with citations, was very impressive and
 
 > text to image model with industry leading capabilities in generating realistic images, graphic design, typography, and more
 
+At least a [basic  plan](https://ideogram.ai/pricing) is required for:
+
+* Download original quality PNGs
+* Upscale
+* Custom aspect ratios
+
+At least a [plus plan](https://ideogram.ai/pricing) is required for:
+
+* Private generation
+* Image deletion
+
+On copyright:
+
+> We do not claim any ownership rights over the images generated, nor do we restrict your ability to use them. You are free to use the images as you wish. However, you are responsible for ensuring that your content does not violate any laws or third-party rights or our Terms of Service.
+
 A quick test with a generic prompt:
 
 > a sad robot walking down a cyberpunk alleyway in some dystopian future
@@ -121,6 +136,11 @@ Not bad, generated convincing action and environment, but the plane is completel
 
 > Create stunning images with Flux.1 Pro, Flux.1 Dev and Flux.1 Schnell models.
 
+On copyright: Paid users own their image rights. A [paid plan](https://flux-ai.io/pricing/) is required for:
+
+* non-public
+* Commercial Right
+
 A quick test with a generic prompt:
 
 > a sad robot walking down a cyberpunk alleyway in some dystopian future
@@ -138,6 +158,11 @@ The result has convincing detail about the action of a float plane coming into l
 #### <https://www.recraft.ai/>
 
 * "AI for Pro Designers: Premium image generation and editing tool."
+
+A [paid plan](https://www.recraft.ai/pricing) is required for:
+
+* Generated images are private
+* Full ownership and commercial rights to any generation
 
 Background removal: tested with an image from <https://leap.tardate.com/kraft/ijn/kamikawamaru/>:
 
@@ -171,6 +196,12 @@ It seems to do much better with more generic prompts. For example:
 > a sad robot walking down a cyberpunk alleyway in some dystopian future
 
 [![clip](https://img.youtube.com/vi/3G-XZywHmaI/0.jpg)](https://www.youtube.com/watch?v=3G-XZywHmaI)
+
+#### <https://betterimage.ai/>
+
+> AI Upscaler For Better Images
+
+Per <https://betterimage.ai/term-of-service> 2.2.2,2.2.3, you retain all rights and ownership, but grant a license "for the purposes of operating or improving the Services and Software"
 
 ### Sound and Music
 
