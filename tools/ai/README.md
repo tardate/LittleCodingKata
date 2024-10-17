@@ -16,11 +16,28 @@ See also:
 ### Developer Tools
 
 * [GitHub Copilot](https://github.com/features/copilot)
-* <https://www.make.com/>
+* [make.com](https://www.make.com/)
     > From tasks and workflows to apps and systems, build and automate anything in one powerful visual platform.
-* <https://www.cursor.com/>
+* [Cursor](https://www.cursor.com/)
     > Built to make you extraordinarily productive, Cursor is the best way to code with AI.
-* [FREE Prompts Library ~ Sabrina Ramonov](https://prompts.sabrina.dev)
+    * suited to experienced developers, similar to GitHub Copilot
+    > Cursor is made for developers. It assumes you’ve coded before and want to refine your projects with AI assistance. It’s powerful, especially when paired with models like Sonnet 3.5, but you’ll need to handle deployment on your own. Great for JavaScript, Node.js, and full-stack devs who need an AI assistant, not a crutch.
+* [Replit](https://replit.com/)
+    > Build software faster - Replit is an AI-powered software development & deployment platform for building, sharing, and shipping software fast.
+    * suited for developing simple apps without any coding experience
+    > Replit is perfect for beginners or hobbyists looking to jump into coding fast. It offers a seamless way to build and deploy small apps right from your browser. However, it’s not suited for complex projects—especially when dealing with authentication or debugging tricky errors.
+* [Pythagora](https://www.pythagora.ai/)
+    > Pythagora is a dev tool that builds apps from scratch by talking to you
+    * suited to non-technical small-medium business users for building productivity tools
+    > Pythagora is ideal for non-developers or small businesses that need reliable, production-ready applications without writing code. Think business apps like accounts receivable software for a trucking company. It simplifies deployment and automated bug fixing but is more rigid compared to others.
+* [bolt.new](https://bolt.new/)
+    > Prompt, run, edit, and deploy full-stack web apps.
+    * suited to freelancers building wide range of app types or prototypes
+    > Bolt offers a hybrid experience for technical freelancers or small-scale projects. It provides browser-based full-stack development with easy deployment and a flexible approach for non-technical users like photographers who want to create a quick website or project. It’s perfect for solo entrepreneurs who want to build small but functional apps without the hassle of learning to code deeply.
+
+See also:
+
+* [quick breakdown of four popular AI-powered development tools: Replit, Cursor, Pythagora, and Bolt](https://www.tiktok.com/@nate.b.jones/video/7424153593617370399)
 
 ### Chat LLMs
 
