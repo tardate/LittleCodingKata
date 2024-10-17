@@ -52,6 +52,7 @@ function is_bucket_readable() {
   aws s3 ${endpoint_url} ls s3://${bucket} > /dev/null 2>&1
   return $?
 }
+
 function ls_bucket() {
   local msg=$1
   echo "## Listing s3://${bucket}.. ${msg}"
@@ -66,9 +67,7 @@ function sync_bucket() {
   failbail $?
 }
 
-
 usage
-
 
 is_bucket_readable
 if [ $? -ne 0 ]
