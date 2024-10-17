@@ -11,13 +11,11 @@ And there are always new services coming online, like [Wasabi Hot Backup](https:
 
 But how easy is it to cobble together a cloud storage solution with shell scripts? Actually, pretty easy.
 
-
 ## Custom S3 Sync
 
 This recipe is for a custom sync script that will backup a local file system to Amazon AWS S3 using the
 [AWS CLI tools](https://docs.aws.amazon.com/cli/latest/reference/).
 It assumes one has already [signed up for AWS](https://aws.amazon.com/console/).
-
 
 ### Accounts
 
@@ -26,7 +24,6 @@ I created a user account in [IAM](https://console.aws.amazon.com/iam/home) that 
 * added it to a group with AmazonS3FullAccess permissions - this could be tightened up in a real scenario
 * created an Access key for the account - let's call it "MYKEY" with a secret of "MYKEYSECRET" for the purposes of these notes
 
-
 ### Installing the AWS CLI Tools
 
 Given a functional python installation, the [AWS CLI tools](https://docs.aws.amazon.com/cli/latest/reference/) are easily installed with pip:
@@ -34,7 +31,6 @@ Given a functional python installation, the [AWS CLI tools](https://docs.aws.ama
     $ pip install awscli
     $ aws --version
     aws-cli/1.16.63 Python/2.7.15 Darwin/17.7.0 botocore/1.12.53
-
 
 ### Credentials
 
@@ -53,7 +49,6 @@ specifically for this purpose e.g. `backup`:
     Default region name [None]:
     Default output format [None]:
 
-
 ### S3 Commands
 
 See the [Online Help](https://docs.aws.amazon.com/cli/latest/userguide/using-s3-commands.html) or run `aws s3 help`
@@ -61,15 +56,14 @@ to find out more about the available commands.
 
 To make sure we use the right credentials, the profile must be indicated with each command e.g.
 
-    $ aws s3 --profile backup <command>...
+    aws s3 --profile backup <command>...
 
 Or you can set environment variable to avoid repeating this:
 
-    $ export AWS_PROFILE=backup
-    $ aws s3 <command>...
+    export AWS_PROFILE=backup
+    aws s3 <command>...
 
-For the rest of the notes, I'll assume the correct profile is set with the `AWS_PROFILE` enviornment variable.
-
+For the rest of the notes, I'll assume the correct profile is set with the `AWS_PROFILE` environment variable.
 
 ### Creating S3 Bucket
 
@@ -80,7 +74,7 @@ Use [AWS S3](https://s3.console.aws.amazon.com/s3/home) to create a bucket for t
 
 Creating a bucket can also be done from the command line with high-level command:
 
-    $ aws s3 mb s3://backup.example.lck.com
+    aws s3 mb s3://backup.example.lck.com
 
 Or alternatively:
 
@@ -90,11 +84,9 @@ But note: this creates a bucket that allows objects to be public. We can tighten
 
     aws s3api put-public-access-block --bucket backup.example.lck.com --public-access-block-configuration BlockPublicAcls=true,IgnorePublicAcls=true,BlockPublicPolicy=true,RestrictPublicBuckets=true
 
-
 Later, I remove the bucket with, using the force parameter to allow deletion when not empty:
 
-    $ aws s3 rb s3://backup.example.lck.com --force
-
+    aws s3 rb s3://backup.example.lck.com --force
 
 ### Making Something to Backup
 
@@ -109,7 +101,6 @@ The [create_backup_example_folder.sh](./create_backup_example_folder.sh) script 
     .. adding backup_example_folder/docs/test3.txt
     .. adding backup_example_folder/docs/test3.txt
     done.
-
 
 ### Performing a Basic folder Sync
 
@@ -126,12 +117,11 @@ On first request, it copies all files:
     upload: backup_example_folder/test3.txt to s3://backup.example.lck.com/backup_example_folder/test3.txt
     upload: backup_example_folder/test1.txt to s3://backup.example.lck.com/backup_example_folder/test1.txt
 
-
 If deletions, modifications or additions are made to local files.. for example:
 
-    $ rm backup_example_folder/test3.txt
-    $ echo "modification" >> backup_example_folder/test2.txt
-    $ echo "new file" > backup_example_folder/test4.txt
+    rm backup_example_folder/test3.txt
+    echo "modification" >> backup_example_folder/test2.txt
+    echo "new file" > backup_example_folder/test4.txt
 
 Then a repeated sync will only send the differences:
 
@@ -150,7 +140,6 @@ In this case, it still contains the original files plus all additions and modifi
     2018-12-08 12:04:10         50 backup_example_folder/test2.txt
     2018-12-08 11:59:48         37 backup_example_folder/test3.txt
     2018-12-08 12:04:10          9 backup_example_folder/test4.txt
-
 
 ### Mirror Sync
 
@@ -179,7 +168,6 @@ Confirming:
     2018-12-08 12:04:10          9 backup_example_folder/test4.txt
     2018-12-08 12:06:26         17 backup_example_folder/test5.txt
 
-
 ### Switching Targets: Sync to Local
 
 The S3 sync command works in both directions. If a bucket needs to be synchronised to a local folder,
@@ -193,7 +181,7 @@ simply flip the source and destination parameters. For example:
     download: s3://backup.example.lck.com/backup_example_folder/test5.txt to backup_example_folder_clone/test5.txt
     download: s3://backup.example.lck.com/backup_example_folder/docs/doc1.txt to backup_example_folder_clone/docs/doc1.txt
 
-It is also possible to sync between S3 detinations. In this case, the data stays within Amazon (it is not transfered vai the local system)
+It is also possible to sync between S3 destinations. In this case, the data stays within Amazon (it is not transferred vai the local system)
 
     $ aws s3 sync s3://backup.example.lck.com/backup_example_folder s3://backup.example.lck.com/backup_example_folder_remote_replica
     copy: s3://backup.example.lck.com/backup_example_folder/test2.txt to s3://backup.example.lck.com/backup_example_folder_remote_replica/test2.txt
@@ -208,8 +196,7 @@ It is also possible to sync between S3 detinations. In this case, the data stays
 AWS S3 supports a range of storage classes, that affect performance, cost and retention.
 These can be managed in the AWS console, but the sync command also accepts a `--storage-class` parameter. For example:
 
-    $ aws s3 sync backup_example_folder s3://backup.example.lck.com/backup_example_folder --storage-class REDUCED_REDUNDANCY
-
+    aws s3 sync backup_example_folder s3://backup.example.lck.com/backup_example_folder --storage-class REDUCED_REDUNDANCY
 
 | Storage Class       | Designed for                                                      | Availability Zones | Min storage duration | Retrieval fees? | Other Terms? |
 |---------------------|-------------------------------------------------------------------|--------------------|----------------------|-----------------|--------------|
@@ -222,7 +209,6 @@ These can be managed in the AWS console, but the sync command also accepts a `--
 
 NB: other terms such as minimum billable object size, monitoring and automation fees may apply - see
 [AWS Storage Classes](https://docs.aws.amazon.com/AmazonS3/latest/dev/storage-class-intro.html) documentation
-
 
 ## A Scripted Example
 
@@ -356,15 +342,14 @@ It just requires a custom endpoint URL to be provided. There are currently three
 
 To use Wasabi with aws-cli, configure a profile with keys from Wasabi:
 
-    $ aws configure --profile wasabi
+    aws configure --profile wasabi
 
 Then run the usual commands, but with the appropriate `--endpoint-url` parameter, e.g.:
 
-    $ aws s3 --profile wasabi --endpoint-url=https://s3.wasabisys.com sync backup_example_folder s3://backup.example.lck.com/backup_example_folder
+    aws s3 --profile wasabi --endpoint-url=https://s3.wasabisys.com sync backup_example_folder s3://backup.example.lck.com/backup_example_folder
 
 Using [awscli-plugin-endpoint](https://github.com/wbingli/awscli-plugin-endpoint) can allow the endpoint-url configuration to be set in the profile,
 so it doesn't need to be added to each command. I haven't actually used the awscli-plugin-endpoint yet.
-
 
 The scripted sync example can also be used with wasabi by providing the correct profile and endpoint details:
 
@@ -386,14 +371,12 @@ The scripted sync example can also be used with wasabi by providing the correct 
 
 I'm now happily using a sync to Wasabi as an additional offsite backup, but I did encounter a few issues along the way:
 
-
 1. I initially had some routing issues to us-west that have since been solved by wasabi. My fallback at the time was to use the default us-east location.
 
 2. One very large collection of files would always want to re-send the same subset of files (i.e. redundant sync).
 This problem didn't occur with AWS S3 on the same file set.
 Wasabi support eventually helped find a solution: add a `--page-size 10000` to the sync command.
 It may be there is a development change coming to Wasabi that will make the default behaviour a bit more in line with AWS S3.
-
 
 ## Credits and References
 
