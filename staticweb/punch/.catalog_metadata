@@ -3,5 +3,6 @@
     "description": "Testing Punch for static site generation (obsolete)",
     "categories": "staticweb, node",
     "relative_path": "staticweb/punch",
-    "updated_at": "2019-08-12T09:37:14Z"
+    "updated_at": "2019-08-12T09:37:14Z",
+    "id": "#077"
 }

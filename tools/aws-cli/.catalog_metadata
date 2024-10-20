@@ -3,5 +3,6 @@
     "description": "Installing the running the AWS CLI",
     "categories": "tools, AWS",
     "relative_path": "tools/aws-cli",
-    "updated_at": "2021-06-01T16:42:37Z"
+    "updated_at": "2021-06-01T16:42:37Z",
+    "id": "#184"
 }

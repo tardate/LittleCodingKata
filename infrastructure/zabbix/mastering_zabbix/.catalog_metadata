@@ -3,5 +3,6 @@
     "description": "Book notes - Mastering Zabbix by Andrea Dalle Vacche, Stefano Kewan Lee, published by PacktPub",
     "categories": "infrastructure, zabbix, book",
     "relative_path": "infrastructure/zabbix/mastering_zabbix",
-    "updated_at": "2020-02-02T13:17:04Z"
+    "updated_at": "2020-02-02T13:17:04Z",
+    "id": "#113"
 }

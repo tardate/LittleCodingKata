@@ -3,5 +3,6 @@
     "description": "Or to mix literary metaphors, where in the world do class methods get stored? An investigation into the sublime and elegant design of metaclasses in ruby",
     "categories": "ruby",
     "relative_path": "ruby/case_of_the_missing_method",
-    "updated_at": "2023-01-08T05:28:54Z"
+    "updated_at": "2023-01-08T05:28:54Z",
+    "id": "#248"
 }

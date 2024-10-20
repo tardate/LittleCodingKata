@@ -1,4 +1,4 @@
-# GNU Bash Reference Manual
+# #179 Bash Reference Manual
 
 ## Notes
 

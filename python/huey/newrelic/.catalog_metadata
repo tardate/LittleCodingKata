@@ -3,5 +3,6 @@
     "description": "Notes and examples os using NewRelic monitoring with Huey",
     "categories": "python, huey, async, queues",
     "relative_path": "python/huey/newrelic",
-    "updated_at": "2021-08-25T13:49:54Z"
+    "updated_at": "2021-08-25T13:49:54Z",
+    "id": "#191"
 }

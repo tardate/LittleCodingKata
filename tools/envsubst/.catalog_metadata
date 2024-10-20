@@ -1,5 +1,5 @@
 {
-    "id": "#036",
+    "id": "#001",
     "name": "Tools/envsubst",
     "description": "substitute shell variables in text",
     "categories": "Tools, Bash",

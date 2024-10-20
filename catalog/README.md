@@ -1,4 +1,4 @@
-# The Catalog
+# #004 Catalog
 
 This is a simple Javascript catalog for building the
 [LittleCodingKata GitHub Pages site](https://codingkata.tardate.com).

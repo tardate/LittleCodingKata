@@ -3,5 +3,6 @@
     "description": "Implementing linear regression, logistic regression and multi-nominal logistic regression with tensorflow-js and node",
     "categories": "node, regression, tensorflow",
     "relative_path": "node/regression",
-    "updated_at": "2019-03-02T10:24:13Z"
+    "updated_at": "2019-03-02T10:24:13Z",
+    "id": "#056"
 }

@@ -3,5 +3,6 @@
     "description": "Redis basics and MacOS installation",
     "categories": "databases, redis",
     "relative_path": "databases/redis/about",
-    "updated_at": "2021-11-02T14:53:49Z"
+    "updated_at": "2021-11-02T14:53:49Z",
+    "id": "#195"
 }

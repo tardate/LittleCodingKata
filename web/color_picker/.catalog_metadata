@@ -3,5 +3,6 @@
     "description": "Looking at easy ways to enable a color picker on a web page",
     "categories": "javascript, HTML5",
     "relative_path": "web/color_picker",
-    "updated_at": "2021-04-09T16:14:56Z"
+    "updated_at": "2021-04-09T16:14:56Z",
+    "id": "#159"
 }

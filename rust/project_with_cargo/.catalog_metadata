@@ -3,5 +3,6 @@
     "description": "Using Cargo to create and manage a rust project",
     "categories": "rust, cargo",
     "relative_path": "rust/project_with_cargo",
-    "updated_at": "2020-01-30T18:21:09Z"
+    "updated_at": "2020-01-30T18:21:09Z",
+    "id": "#103"
 }

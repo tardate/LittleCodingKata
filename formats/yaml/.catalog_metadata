@@ -3,5 +3,6 @@
     "description": "Notes on structure, generation and validation of YAML.",
     "categories": "formats, yaml",
     "relative_path": "formats/yaml",
-    "updated_at": "2019-11-05T09:47:35Z"
+    "updated_at": "2019-11-05T09:47:35Z",
+    "id": "#087"
 }

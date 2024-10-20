@@ -3,5 +3,6 @@
     "description": "Using latest bash releases on the latest versions of macOS",
     "categories": "bash",
     "relative_path": "bash/macos",
-    "updated_at": "2023-12-29T06:06:21Z"
+    "updated_at": "2023-12-29T06:06:21Z",
+    "id": "#271"
 }

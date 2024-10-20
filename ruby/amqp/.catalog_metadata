@@ -3,5 +3,6 @@
     "description": "Using the amqp EventMachine-based RabbitMQ client",
     "categories": "ruby",
     "relative_path": "ruby/amqp",
-    "updated_at": "2024-01-14T05:12:07Z"
+    "updated_at": "2024-01-14T05:12:07Z",
+    "id": "#274"
 }

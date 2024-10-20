@@ -3,5 +3,6 @@
     "description": "Building and testing the whalesay docker demo",
     "categories": "docker",
     "relative_path": "docker/whalesay",
-    "updated_at": "2021-05-06T02:33:39Z"
+    "updated_at": "2021-05-06T02:33:39Z",
+    "id": "#178"
 }

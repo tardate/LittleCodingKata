@@ -1,4 +1,4 @@
-# Metasploit Penetration Testing Cookbook
+# #096 Penetration Testing Cookbook
 
 Book notes - Metasploit Penetration Testing Cookbook, Second Edition by Monika Agarwal, Abhinav Singh
 

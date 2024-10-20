@@ -1,4 +1,4 @@
-# NTP with Ruby
+# #241 with Ruby
 
 All about the NTP protocol with examples in ruby.
 

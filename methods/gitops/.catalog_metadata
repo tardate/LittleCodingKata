@@ -3,5 +3,6 @@
     "description": "GitOps in a nutshell - Continuous Deployment for cloud native applications",
     "categories": "methods",
     "relative_path": "methods/gitops",
-    "updated_at": "2024-02-16T00:28:20Z"
+    "updated_at": "2024-02-16T00:28:20Z",
+    "id": "#278"
 }

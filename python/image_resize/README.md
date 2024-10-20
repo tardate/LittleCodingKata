@@ -1,4 +1,4 @@
-# Image Resize
+# #243 Resize
 
 Simple image resizing with python and the Pillow library and a little yak shaving with EXIF tags.
 

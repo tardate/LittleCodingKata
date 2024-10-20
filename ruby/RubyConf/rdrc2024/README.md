@@ -1,4 +1,4 @@
-# Red Dot Ruby Conference 2024
+# #299 Dot Ruby Conference 2024
 
 Conference summary and notes
 

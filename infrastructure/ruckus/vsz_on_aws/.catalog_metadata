@@ -3,5 +3,6 @@
     "description": "Complete and validated demonstration of installing Ruckus Virtual SmartZone on AWS",
     "categories": "networking, WLAN",
     "relative_path": "infrastructure/ruckus/vsz_on_aws",
-    "updated_at": "2022-10-18T14:16:38Z"
+    "updated_at": "2022-10-18T14:16:38Z",
+    "id": "#234"
 }

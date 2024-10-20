@@ -3,5 +3,6 @@
     "description": "Comparing methods for synchronizing local folders - cp, rsync",
     "categories": "Bash",
     "relative_path": "bash/sync_folder",
-    "updated_at": "2019-02-23T10:42:01Z"
+    "updated_at": "2019-02-23T10:42:01Z",
+    "id": "#047"
 }

@@ -3,5 +3,6 @@
     "description": "Numeric limits information available in the C standard library (and finding another clang/gcc difference)",
     "categories": "C",
     "relative_path": "c/numeric_limits",
-    "updated_at": "2021-04-30T14:08:23Z"
+    "updated_at": "2021-04-30T14:08:23Z",
+    "id": "#176"
 }

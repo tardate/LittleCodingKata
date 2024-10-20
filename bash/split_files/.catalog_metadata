@@ -3,5 +3,6 @@
     "description": "Split a text file into parts with simple shell utilities",
     "categories": "bash, split, tail",
     "relative_path": "bash/split_files",
-    "updated_at": "2022-07-22T09:29:42Z"
+    "updated_at": "2022-07-22T09:29:42Z",
+    "id": "#228"
 }

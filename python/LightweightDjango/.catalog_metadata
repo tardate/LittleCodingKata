@@ -3,5 +3,6 @@
     "description": "Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly",
     "categories": "python, book",
     "relative_path": "python/LightweightDjango",
-    "updated_at": "2023-05-02T10:08:56Z"
+    "updated_at": "2023-05-02T10:08:56Z",
+    "id": "#258"
 }

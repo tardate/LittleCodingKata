@@ -3,5 +3,6 @@
     "description": "A quick survey and test of various ruby options for using the Zabbix API",
     "categories": "infrastructure, zabbix, ruby",
     "relative_path": "infrastructure/zabbix/ruby-clients",
-    "updated_at": "2020-02-02T11:01:51Z"
+    "updated_at": "2020-02-02T11:01:51Z",
+    "id": "#112"
 }

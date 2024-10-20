@@ -1,4 +1,4 @@
-# Modern Front-End Development for Rails
+# #154 Front-End Development for Rails
 
 Notes on the book Modern Front-End Development for Rails, By Noel Rappin, pubished by The Pragmatic Programmers.
 

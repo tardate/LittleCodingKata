@@ -3,5 +3,6 @@
     "description": "An example of using struct-based C to implement a somewhat object-oriented dictionary",
     "categories": "C",
     "relative_path": "c/implementing_a_dictionary",
-    "updated_at": "2019-09-09T17:17:57Z"
+    "updated_at": "2019-09-09T17:17:57Z",
+    "id": "#081"
 }

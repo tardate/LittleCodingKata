@@ -3,5 +3,6 @@
     "description": "All about Sublime Merge.",
     "categories": "tools, git",
     "relative_path": "tools/sublime_merge",
-    "updated_at": "2024-03-02T15:09:02Z"
+    "updated_at": "2024-03-02T15:09:02Z",
+    "id": "#279"
 }

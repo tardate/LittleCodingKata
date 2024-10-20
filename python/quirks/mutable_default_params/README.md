@@ -1,4 +1,4 @@
-# Python Quirks - Mutable Default Arguments
+# #060 Quirks - Mutable Default Arguments
 
 python quirks and gotchas
 

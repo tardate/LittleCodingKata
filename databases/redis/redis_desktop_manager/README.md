@@ -1,4 +1,4 @@
-# Redis Desktop Manager
+# #196 Desktop Manager
 
 Building and running the Redis Desktop Manager applicaiton on MacOS
 

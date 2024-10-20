@@ -3,5 +3,6 @@
     "description": "Learning how printf can be instructed to select a limited number of characters from a string",
     "categories": "c",
     "relative_path": "c/printf_partial_string",
-    "updated_at": "2020-04-08T14:52:22Z"
+    "updated_at": "2020-04-08T14:52:22Z",
+    "id": "#145"
 }

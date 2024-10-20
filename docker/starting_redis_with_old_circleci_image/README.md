@@ -1,4 +1,4 @@
-# Starting Redis with and old CircleCI Image
+# #078 Redis with and old CircleCI Image
 
 Notes on dealing with a Redis issue on an old Ubuntu 14.04 docker image with CircleCI
 

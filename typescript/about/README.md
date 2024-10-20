@@ -1,4 +1,4 @@
-# About TypeScript
+# #294 TypeScript
 
 TypeScript - my tl;dr summary, plus notes on getting started on macOS (Apple Silicon) and Ubuntu (x86).
 

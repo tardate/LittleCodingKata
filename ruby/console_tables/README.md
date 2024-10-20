@@ -1,4 +1,4 @@
-# Console Tables
+# #143 Tables
 
 Generating data tables in the console from Array, Hash, or ActiveRecord objects with the tablesmith gem.
 

@@ -1,4 +1,4 @@
-# Minimal Django
+# #261 Django
 
 The most bare-bones single file Django app
 

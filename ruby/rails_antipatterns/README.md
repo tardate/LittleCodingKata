@@ -1,4 +1,4 @@
-# Rails AntiPatterns
+# #098 AntiPatterns
 
 Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional.
 

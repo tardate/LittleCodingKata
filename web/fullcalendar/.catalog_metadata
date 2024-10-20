@@ -3,5 +3,6 @@
     "description": "Using the fullcalendar library for the web",
     "categories": "web, javascript",
     "relative_path": "web/fullcalendar",
-    "updated_at": "2022-05-04T05:30:47Z"
+    "updated_at": "2022-05-04T05:30:47Z",
+    "id": "#224"
 }

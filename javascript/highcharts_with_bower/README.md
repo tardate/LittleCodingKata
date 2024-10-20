@@ -1,4 +1,4 @@
-# Using Highcharts with Bower
+# #014 Highcharts with Bower
 
 Demonstrate the process of installing and packaging Highcharts with bower.
 

@@ -1,4 +1,4 @@
-# Homebrew Tips and Tricks
+# #203 Tips and Tricks
 
 I often use [Homebrew](https://brew.sh/) to manage software installations on my Mac.
 

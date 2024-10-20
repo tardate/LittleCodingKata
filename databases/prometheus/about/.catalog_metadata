@@ -3,5 +3,6 @@
     "description": "Learning the basics of Prometheus and running a demo with Docker and a Sinatra Ruby target application",
     "categories": "databases, prometheus, ruby",
     "relative_path": "databases/prometheus/about",
-    "updated_at": "2019-11-05T09:47:56Z"
+    "updated_at": "2019-11-05T09:47:56Z",
+    "id": "#088"
 }

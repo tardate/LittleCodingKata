@@ -3,5 +3,6 @@
     "description": "Using a lotto picker example to demonstrate random numbers and set operations the rust way",
     "categories": "rust",
     "relative_path": "rust/lotto_picker",
-    "updated_at": "2023-05-18T14:09:55Z"
+    "updated_at": "2023-05-18T14:09:55Z",
+    "id": "#265"
 }

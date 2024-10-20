@@ -1,4 +1,4 @@
-# deleting_roles
+# #048
 
 Notes on methods to inspect PostgreSQL role permissions, revoke permissions and drop roles.
 

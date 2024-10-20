@@ -1,5 +1,5 @@
 {
-    "id": "#040",
+    "id": "#062",
     "name": "Python/decorating_class_methods",
     "description": "all about decorating class methods and preserving the ability to introspect",
     "categories": "python",

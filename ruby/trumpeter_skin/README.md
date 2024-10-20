@@ -1,4 +1,4 @@
-# Trumpeter Catalog Skin
+# #152 Catalog Skin
 
 A simple and fast offline Trumpeter model catalog skin, using some nokogiri magic.
 

@@ -1,4 +1,4 @@
-# Proc v Lambda
+# #166 v Lambda
 
 Exploring differences and similarities between procs and lambdas in Ruby.
 

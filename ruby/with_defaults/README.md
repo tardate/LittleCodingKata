@@ -1,4 +1,4 @@
-# Using with_defaults
+# #270 with_defaults
 
 About the `reverse_merge` and `with_defaults` Hash mixins from Rails
 

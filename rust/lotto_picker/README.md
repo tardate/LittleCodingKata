@@ -1,4 +1,4 @@
-# Lotto Picker - The Rust Way
+# #265 Picker - The Rust Way
 
 Using a lotto picker example to demonstrate random numbers and set operations the rust way
 

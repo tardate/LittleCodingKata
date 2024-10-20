@@ -1,5 +1,5 @@
 {
-    "id": "#047",
+    "id": "#026",
     "name": "c/define_const",
     "description": "Comparing the use of `#define` preprocessor macros and `const` statements",
     "categories": "C",

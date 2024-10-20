@@ -1,4 +1,4 @@
-# Chart Gems
+# #250 Gems
 
 Notes on ruby options for chart generation that support output as an image
 

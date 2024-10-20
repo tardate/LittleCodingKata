@@ -3,5 +3,6 @@
     "description": "Expose Long/HPFS filenames with REXX on OS/2",
     "categories": "REXX, OS/2",
     "relative_path": "rexx/showlong",
-    "updated_at": "2020-03-04T11:18:35Z"
+    "updated_at": "2020-03-04T11:18:35Z",
+    "id": "#132"
 }
