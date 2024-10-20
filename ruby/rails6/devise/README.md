@@ -1,4 +1,4 @@
-# Devise with Rails 6
+# #151 with Rails 6
 
 Running devise with Rails 6
 

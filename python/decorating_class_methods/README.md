@@ -1,4 +1,4 @@
-# #040 Decorating Class Methods
+# #062 Decorating Class Methods
 
 Decorating class methods in Python is on the one hand no different than decorating a function.
 But due to the minimalistic way that [classes](https://docs.python.org/2/tutorial/classes.html)

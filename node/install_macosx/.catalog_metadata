@@ -3,5 +3,6 @@
     "description": "Installing and maintaining Node.js on macOS",
     "categories": "node",
     "relative_path": "node/install_macosx",
-    "updated_at": "2024-02-13T01:54:56Z"
+    "updated_at": "2024-02-13T01:54:56Z",
+    "id": "#277"
 }

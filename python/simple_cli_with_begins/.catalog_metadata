@@ -1,5 +1,5 @@
 {
-    "id": "#045",
+    "id": "#067",
     "name": "python/simple_cli_with_begins",
     "description": "Using the begins library to write command line scripts without all the cruft",
     "categories": "python, CLI",

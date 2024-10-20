@@ -1,4 +1,4 @@
-# Adding APs to vSZ
+# #233 APs to vSZ
 
 Configuring a Ruckus R610 access point to be managed by a Ruckus Virtual SmartZone controller.
 

@@ -3,5 +3,6 @@
     "description": "All about the NTP protocol with examples in ruby",
     "categories": "ruby",
     "relative_path": "ruby/ntp",
-    "updated_at": "2022-11-13T05:06:15Z"
+    "updated_at": "2022-11-13T05:06:15Z",
+    "id": "#241"
 }

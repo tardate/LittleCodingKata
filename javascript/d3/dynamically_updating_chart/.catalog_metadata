@@ -3,5 +3,6 @@
     "description": "How to dynamically update data in a D3 document",
     "categories": "javascript, graphics",
     "relative_path": "javascript/d3/dynamically_updating_chart",
-    "updated_at": "2019-09-16T16:09:46Z"
+    "updated_at": "2019-09-16T16:09:46Z",
+    "id": "#083"
 }

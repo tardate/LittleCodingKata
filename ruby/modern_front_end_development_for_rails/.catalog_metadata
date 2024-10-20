@@ -3,5 +3,6 @@
     "description": "Notes on the book Modern Front-End Development for Rails, By Noel Rappin, pubished by The Pragmatic Programmers",
     "categories": "ruby, rails, javascript, book",
     "relative_path": "ruby/modern_front_end_development_for_rails",
-    "updated_at": "2020-12-09T07:19:12Z"
+    "updated_at": "2020-12-09T07:19:12Z",
+    "id": "#154"
 }

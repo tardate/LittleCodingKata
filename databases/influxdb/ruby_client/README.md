@@ -1,4 +1,4 @@
-# Using InfluxDb 1.x with Ruby
+# #135 InfluxDb 1.x with Ruby
 
 Testing out the official ruby client calling a InfluxDb 1.7.9 server running in Docker.
 

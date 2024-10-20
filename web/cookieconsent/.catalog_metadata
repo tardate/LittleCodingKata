@@ -3,5 +3,6 @@
     "description": "Using cookieconsent for embedding cookie warnings in a web page",
     "categories": "web, GDPR",
     "relative_path": "web/cookieconsent",
-    "updated_at": "2023-04-27T13:33:45Z"
+    "updated_at": "2023-04-27T13:33:45Z",
+    "id": "#257"
 }

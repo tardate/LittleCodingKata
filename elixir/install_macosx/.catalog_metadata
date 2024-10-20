@@ -3,5 +3,6 @@
     "description": "Installing Elixir on MacOS",
     "categories": "elixir, docker",
     "relative_path": "elixir/install_macosx",
-    "updated_at": "2021-11-02T14:53:49Z"
+    "updated_at": "2021-11-02T14:53:49Z",
+    "id": "#210"
 }

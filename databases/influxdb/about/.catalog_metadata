@@ -3,5 +3,6 @@
     "description": "Learning the basics of InfluxDB and running a demo with Docker",
     "categories": "databases, influxdb, docker",
     "relative_path": "databases/influxdb/about",
-    "updated_at": "2020-01-07T16:41:34Z"
+    "updated_at": "2020-01-07T16:41:34Z",
+    "id": "#092"
 }

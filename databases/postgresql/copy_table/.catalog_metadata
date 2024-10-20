@@ -3,5 +3,6 @@
     "description": "notes on copying table strictures and data with SQL",
     "categories": "Database, SQL",
     "relative_path": "databases/postgresql/copy_table",
-    "updated_at": "2018-10-03T11:54:00Z"
+    "updated_at": "2018-10-03T11:54:00Z",
+    "id": "#039"
 }

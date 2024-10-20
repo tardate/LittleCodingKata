@@ -3,5 +3,6 @@
     "description": "Using the getopts utility for parsing options in shell scripts",
     "categories": "bash",
     "relative_path": "bash/getopts",
-    "updated_at": "2023-02-24T10:43:49Z"
+    "updated_at": "2023-02-24T10:43:49Z",
+    "id": "#252"
 }

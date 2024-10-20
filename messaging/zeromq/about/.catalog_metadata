@@ -3,5 +3,6 @@
     "description": "Zeromq in a nutshell with a quick test of using the library from C",
     "categories": "messaging, zeromq, c",
     "relative_path": "messaging/zeromq/about",
-    "updated_at": "2020-02-01T08:49:18Z"
+    "updated_at": "2020-02-01T08:49:18Z",
+    "id": "#108"
 }

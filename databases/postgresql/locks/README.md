@@ -1,4 +1,4 @@
-# PostgreSQL Locks
+# #267 Locks
 
 Notes on managing PostgreSQL locks
 

@@ -27,6 +27,7 @@ tmp
 wip
 *.ignore
 example_source
+make.conf
 
 # jekyll intermediates
 _site

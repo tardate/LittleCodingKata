@@ -3,5 +3,6 @@
     "description": "Zabbix in a Nutshell",
     "categories": "infrastructure, zabbix, monitoring",
     "relative_path": "infrastructure/zabbix/about",
-    "updated_at": "2020-02-02T07:58:51Z"
+    "updated_at": "2020-02-02T07:58:51Z",
+    "id": "#110"
 }

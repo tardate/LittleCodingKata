@@ -3,5 +3,6 @@
     "description": "Basic administration and data management command notes",
     "categories": "Database, PostgreSQL",
     "relative_path": "databases/postgresql/cheats",
-    "updated_at": "2019-07-20T08:29:16Z"
+    "updated_at": "2019-07-20T08:29:16Z",
+    "id": "#072"
 }

@@ -1,4 +1,4 @@
-# Simple URIs with addressable
+# #146 URIs with addressable
 
 Using the addressable gem for better handling of URIs/URLs
 

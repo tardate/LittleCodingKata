@@ -1,4 +1,4 @@
-# The Case of the Missing Method
+# #248 Case of the Missing Method
 
 Or to mix literary metaphors, where in the world do class methods get stored? An investigation into the sublime and elegant design of metaclasses in ruby.
 

@@ -3,5 +3,6 @@
     "description": "Because sometimes just want to keep it simple with good old sprockets and the asset pipeline",
     "categories": "ruby, rails",
     "relative_path": "ruby/rails6/without_webpack",
-    "updated_at": "2021-06-15T10:03:25Z"
+    "updated_at": "2021-06-15T10:03:25Z",
+    "id": "#188"
 }

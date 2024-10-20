@@ -3,5 +3,6 @@
     "description": "Methods for generating CSV output from a PostgreSQL SQL query",
     "categories": "databases, postgresql, psql, csv",
     "relative_path": "databases/postgresql/sql2csv",
-    "updated_at": "2018-10-03T11:54:00Z"
+    "updated_at": "2018-10-03T11:54:00Z",
+    "id": "#040"
 }

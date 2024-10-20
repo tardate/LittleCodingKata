@@ -3,5 +3,6 @@
     "description": "the GNU Bash Reference Manual",
     "categories": "Bash, book",
     "relative_path": "bash/bash_reference_manual",
-    "updated_at": "2021-05-30T09:23:28Z"
+    "updated_at": "2021-05-30T09:23:28Z",
+    "id": "#179"
 }

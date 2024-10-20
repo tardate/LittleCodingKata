@@ -3,5 +3,6 @@
     "description": "Accessing network connection information in the browser.",
     "categories": "web",
     "relative_path": "web/nqe",
-    "updated_at": "2024-03-16T08:03:14Z"
+    "updated_at": "2024-03-16T08:03:14Z",
+    "id": "#284"
 }

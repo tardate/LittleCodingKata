@@ -1,5 +1,5 @@
 {
-    "id": "#059",
+    "id": "#033",
     "name": "Bash/parse_env_setting",
     "description": "Techniques for parsing environment variables with bash built-in features only",
     "categories": "Bash",

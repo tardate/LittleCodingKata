@@ -3,5 +3,6 @@
     "description": "Using Sinatra to craft simple HTTP web responses for mock integration testing",
     "categories": "ruby",
     "relative_path": "ruby/http_mock_responses",
-    "updated_at": "2021-11-02T14:53:49Z"
+    "updated_at": "2021-11-02T14:53:49Z",
+    "id": "#216"
 }

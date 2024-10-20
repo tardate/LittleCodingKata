@@ -1,4 +1,4 @@
-# #060 File Locks
+# #034 File Locks
 
 How to implement simple resource semaphores with file locks.
 

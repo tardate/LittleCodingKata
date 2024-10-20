@@ -3,5 +3,6 @@
     "description": "How to write and organise tests for rust",
     "categories": "rust",
     "relative_path": "rust/testing",
-    "updated_at": "2020-02-01T04:49:54Z"
+    "updated_at": "2020-02-01T04:49:54Z",
+    "id": "#104"
 }

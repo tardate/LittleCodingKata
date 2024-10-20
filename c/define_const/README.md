@@ -1,4 +1,4 @@
-# #047 Hash Define or Const?
+# #026 Hash Define or Const?
 
 Comparing the use of `#define` preprocessor macros and `const` statements.
 

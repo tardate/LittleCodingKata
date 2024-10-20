@@ -1,4 +1,4 @@
-# Function Inference
+# #036 Inference
 
 How to test for the presence of functions in order to branch to arbitrary functions by name.
 

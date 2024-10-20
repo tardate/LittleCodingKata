@@ -1,4 +1,4 @@
-# printf partial strings
+# #145 partial strings
 
 Learning how printf can be instructed to select a limited number of characters from a string.
 

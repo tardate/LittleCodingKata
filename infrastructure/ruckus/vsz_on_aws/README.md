@@ -1,4 +1,4 @@
-# Ruckus vSZ on AWS
+# #234 vSZ on AWS
 
 Complete and validated demonstration of installing Ruckus Virtual SmartZone on AWS.
 

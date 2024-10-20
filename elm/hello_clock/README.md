@@ -1,4 +1,4 @@
-# Hello Clock
+# #007 Clock
 
 Testing elm with the 2D graphics clock example.
 

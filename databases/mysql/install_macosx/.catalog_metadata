@@ -3,5 +3,6 @@
     "description": "Notes on installing and running MySQL on MacOS",
     "categories": "Database, MySQL",
     "relative_path": "databases/mysql/install_macosx",
-    "updated_at": "2021-11-02T14:53:49Z"
+    "updated_at": "2021-11-02T14:53:49Z",
+    "id": "#197"
 }

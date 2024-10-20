@@ -3,5 +3,6 @@
     "description": "Installing and maintaining Node.js on Ubuntu",
     "categories": "node",
     "relative_path": "node/install_ubuntu",
-    "updated_at": "2024-08-07T05:08:36Z"
+    "updated_at": "2024-08-07T05:08:36Z",
+    "id": "#295"
 }

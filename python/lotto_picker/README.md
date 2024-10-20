@@ -1,4 +1,4 @@
-# Lotto Picker - The Python Way
+# #264 Picker - The Python Way
 
 Using a lotto picker example to demonstrate random numbers and set operations the python way
 

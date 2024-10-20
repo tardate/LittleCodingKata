@@ -3,5 +3,6 @@
     "description": "All about reading and writing CSV with Ruby, including large file handling.",
     "categories": "ruby",
     "relative_path": "ruby/csv",
-    "updated_at": "2024-04-02T11:23:25Z"
+    "updated_at": "2024-04-02T11:23:25Z",
+    "id": "#287"
 }

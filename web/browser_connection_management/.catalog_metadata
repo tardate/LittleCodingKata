@@ -3,5 +3,6 @@
     "description": "Notes on how web browsers manage network connections",
     "categories": "web, networking",
     "relative_path": "web/browser_connection_management",
-    "updated_at": "2021-04-23T14:12:23Z"
+    "updated_at": "2021-04-23T14:12:23Z",
+    "id": "#167"
 }

@@ -3,5 +3,6 @@
     "description": "Generating pretty JSON with Ruby and dealing with quirks",
     "categories": "ruby",
     "relative_path": "ruby/json_parsing",
-    "updated_at": "2018-12-16T16:09:16Z"
+    "updated_at": "2018-12-16T16:09:16Z",
+    "id": "#044"
 }

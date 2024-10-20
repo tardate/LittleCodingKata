@@ -1,4 +1,4 @@
-# QR Codes
+# #090 Codes
 
 Generating QR codes with python, as images and as C header files for embedded applications.
 

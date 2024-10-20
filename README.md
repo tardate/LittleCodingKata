@@ -1,4 +1,6 @@
-# LittleCodingKata
+# 303 Little Coding Katas
+
+> Latest addition:sparkles: [ID3 Tags](./ruby/id3tags) - Managing ID3 tags with Ruby
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

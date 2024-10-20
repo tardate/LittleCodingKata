@@ -3,5 +3,6 @@
     "description": "Comparing and testing various memoization methods and gems in Ruby",
     "categories": "ruby, design patterns",
     "relative_path": "ruby/memo_methods",
-    "updated_at": "2020-03-11T14:29:15Z"
+    "updated_at": "2020-03-11T14:29:15Z",
+    "id": "#140"
 }

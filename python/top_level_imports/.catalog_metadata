@@ -1,5 +1,5 @@
 {
-    "id": "#030",
+    "id": "#069",
     "name": "Python/top_level_imports",
     "description": "or: why not to put an __init__.py in your top level folder",
     "categories": "python",

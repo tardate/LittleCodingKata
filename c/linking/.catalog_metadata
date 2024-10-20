@@ -3,5 +3,6 @@
     "description": "All about compiling, linking, and debugging C with GCC on macOx (Intel and Apple Silicon)",
     "categories": "C",
     "relative_path": "c/linking",
-    "updated_at": "2024-01-14T06:45:10Z"
+    "updated_at": "2024-01-14T06:45:10Z",
+    "id": "#275"
 }

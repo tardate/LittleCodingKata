@@ -3,5 +3,6 @@
     "description": "Running Zabbix with Docker",
     "categories": "infrastructure, zabbix, monitoring, docker",
     "relative_path": "infrastructure/zabbix/dockerized",
-    "updated_at": "2020-02-02T07:58:51Z"
+    "updated_at": "2020-02-02T07:58:51Z",
+    "id": "#111"
 }

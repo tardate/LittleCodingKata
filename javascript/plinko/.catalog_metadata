@@ -3,5 +3,6 @@
     "description": "A demonstration of the k-nearest neighbors algorithm implemented in javascript in a browser",
     "categories": "javascript, knn",
     "relative_path": "javascript/plinko",
-    "updated_at": "2019-03-02T10:08:34Z"
+    "updated_at": "2019-03-02T10:08:34Z",
+    "id": "#054"
 }

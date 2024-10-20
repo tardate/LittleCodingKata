@@ -1,4 +1,4 @@
-# SSL Certificate Chains
+# #182 Certificate Chains
 
 notes on investigating issues with server SSL certificate chains.
 

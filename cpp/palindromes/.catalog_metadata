@@ -3,5 +3,6 @@
     "description": "Examples of how to code a palidrome check in C++",
     "categories": "C++",
     "relative_path": "cpp/palindromes",
-    "updated_at": "2021-04-27T14:31:38Z"
+    "updated_at": "2021-04-27T14:31:38Z",
+    "id": "#173"
 }

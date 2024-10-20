@@ -1,4 +1,4 @@
-# Ruby Style
+# #160 Style
 
 On style guides and resources for ruby.
 

@@ -3,5 +3,6 @@
     "description": "Simple image resizing with python and the Pillow library and a little yak shaving with EXIF tags",
     "categories": "python",
     "relative_path": "python/image_resize",
-    "updated_at": "2022-12-21T05:02:14Z"
+    "updated_at": "2022-12-21T05:02:14Z",
+    "id": "#243"
 }
