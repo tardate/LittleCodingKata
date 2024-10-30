@@ -1,26 +1,45 @@
-<div class="list-group-item">
-  <p>
-    LittleCodingKata is my collection of programming exercises, research and code toys broadly spanning things that relate to programming and software development
-    (languages, frameworks and tools).
-  </p>
-  <p>
-    These range from the trivial to the complex and serious. Many are inspired by existing work and I'll note credits and references where applicable.
-    The focus is quite scattered, as I variously work on things new and important in the moment, or go back to revisit things from the past.
-  </p>
-  <p>
-    This is primarily a personal collection for my own edification and learning, but anyone who stumbles by is welcome to borrow, steal or reference the work here.
-    And if you spot errors or issues I'd really appreciate some feedback - create an issue, send me an email or even send a pull-request.
-  </p>
+<div class="list-group">
+  <div class="list-group-item active">
+    About {{ site.title }}
+  </div>
+  <div class="list-group-item">
+    <p>
+      LittleCodingKata is my collection of programming exercises, research and code toys broadly spanning things that relate to programming and software development
+      (languages, frameworks and tools).
+    </p>
+    <p>
+      These range from the trivial to the complex and serious. Many are inspired by existing work and I'll note credits and references where applicable.
+      The focus is quite scattered, as I variously work on things new and important in the moment, or go back to revisit things from the past.
+    </p>
+    <p>
+      This is primarily a personal collection for my own edification and learning, but anyone who stumbles by is welcome to borrow, steal or reference the work here.
+      And if you spot errors or issues I'd really appreciate some feedback - create an issue, send me an email or even send a pull-request.
+    </p>
+  </div>
+  <a href="{{ site.sections.feed.url  | prepend: site.baseurl }}" class="list-group-item">
+    <span class="{{ site.sections.feed.icons }}" aria-hidden="true"></span>
+    {{ site.sections.feed.title }}
+    <span class="note">{{ site.sections.feed.note }}</span>
+  </a>
 </div>
-<a href="https://leap.tardate.com/" class="list-group-item" title="my collection of electronics projects, often involving an Arduino">
-  <span class="fa fa-link" aria-hidden="true"></span>
-  LittleArduinoProjects
-</a>
-<a href="https://modelart.tardate.com/" class="list-group-item" title="my collection of scale modelling, miniatures and other art projects">
-  <span class="fa fa-link" aria-hidden="true"></span>
-  LittleModelArt
-</a>
-<a href="https://blog.tardate.com" class="list-group-item">
-  <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
-  More on my blog
-</a>
+
+<div class="list-group">
+  <div class="list-group-item active">
+    {{ site.other_sites.title }}
+  </div>
+  <a href="{{ site.other_sites.leap.url }}" class="list-group-item" title="{{ site.other_sites.leap.note }}">
+    <span class="fa fa-link" aria-hidden="true"></span>
+    {{ site.other_sites.leap.title }}
+    <span class="note">{{ site.other_sites.leap.note }}</span>
+  </a>
+  <a href="{{ site.other_sites.lma.url }}" class="list-group-item" title="{{ site.other_sites.lma.note }}">
+    <span class="fa fa-link" aria-hidden="true"></span>
+    {{ site.other_sites.lma.title }}
+    <span class="note">{{ site.other_sites.lma.note }}</span>
+  </a>
+  <a href="{{ site.other_sites.blog.url }}" class="list-group-item" title="{{ site.other_sites.blog.note }}">
+    <span class="fa fa-link" aria-hidden="true"></span>
+    {{ site.other_sites.blog.title }}
+    <span class="note">{{ site.other_sites.blog.note }}</span>
+  </a>
+</div>
