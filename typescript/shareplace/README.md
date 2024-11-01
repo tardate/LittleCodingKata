@@ -207,9 +207,56 @@ Switched to "@types/google.maps": "^3.55.12". Install and run:
     ./src/app.ts 1.29 KiB [built] [code generated]
     webpack 5.75.0 compiled successfully in 636 ms
 
-Running without warnings:
+Running without warnings on <http://localhost:8080/>:
 
 ![run3](./assets/run3.png)
+
+### Updating Dependencies
+
+Using audit fix to update packages to fix issues:
+
+$ npm audit fix
+
+added 10 packages, removed 12 packages, changed 64 packages, and audited 327 packages in 3s
+
+45 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+And the app still works correctly:
+
+    $ npm start
+
+    > understanding-typescript@1.0.0 start
+    > webpack-dev-server
+
+    <i> [webpack-dev-server] Project is running at:
+    <i> [webpack-dev-server] Loopback: http://localhost:8080/
+    <i> [webpack-dev-server] On Your Network (IPv4): http://192.168.10.68:8080/
+    <i> [webpack-dev-server] On Your Network (IPv6): http://[fe80::1]:8080/
+    <i> [webpack-dev-server] Content not from webpack is served from '/Users/paulgallagher/MyGithub/tardate/LittleCodingKata/typescript/shareplace/app' directory
+    asset bundle.js 344 KiB [emitted] (name: main)
+    runtime modules 26.4 KiB 12 modules
+    modules by path ./node_modules/ 256 KiB
+      modules by path ./node_modules/webpack-dev-server/client/ 55.8 KiB 12 modules
+      modules by path ./node_modules/webpack/hot/*.js 5.17 KiB
+        ./node_modules/webpack/hot/dev-server.js 1.94 KiB [built] [code generated]
+        ./node_modules/webpack/hot/log.js 1.73 KiB [built] [code generated]
+        + 2 modules
+      modules by path ./node_modules/html-entities/lib/*.js 81.3 KiB
+        ./node_modules/html-entities/lib/index.js 7.74 KiB [built] [code generated]
+        ./node_modules/html-entities/lib/named-references.js 72.7 KiB [built] [code generated]
+        + 2 modules
+      ./node_modules/axios/dist/browser/axios.cjs 95.6 KiB [built] [code generated]
+      ./node_modules/ansi-html-community/index.js 4.16 KiB [built] [code generated]
+      ./node_modules/events/events.js 14.5 KiB [built] [code generated]
+    ./src/app.ts 1.29 KiB [built] [code generated]
+    webpack 5.96.0 compiled successfully in 636 ms
+
+Running without warnings on <http://localhost:8080/>:
+
+![run4](./assets/run4.png)
 
 ## Credits and References
 
