@@ -1,0 +1,8 @@
+{
+    "name": "Share a Place",
+    "description": "Updating dependencies and API usage for the select and share a place app from the Understanding TypeScript course",
+    "categories": "typescript",
+    "relative_path": "typescript/shareplace",
+    "updated_at": "2024-11-01T03:44:00Z",
+    "id": "#304"
+}
