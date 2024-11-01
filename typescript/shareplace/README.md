@@ -71,11 +71,94 @@ The app loads on <http://localhost:8080/> successfully but location query fails:
 ### Setting Up a Google API Key
 
 A Google Maps API key is required. See <https://developers.google.com/maps/documentation/geocoding/overview>
+Verify the API call using curl query:
 
-The key needs to be updated in 2 places in the app. Replace "PUT_API_KEY_HERE" with a valid key:
+    $ curl "https://maps.googleapis.com/maps/api/geocode/json?address=Singapore%20787431&key=${GOOGLE_MAPS_API_KEY}"
+    {
+      "results" :
+      [
+          {
+            "address_components" :
+            [
+                {
+                  "long_name" : "787431",
+                  "short_name" : "787431",
+                  "types" :
+                  [
+                      "postal_code"
+                  ]
+                },
+                {
+                  "long_name" : "Yishun",
+                  "short_name" : "Yishun",
+                  "types" :
+                  [
+                      "neighborhood",
+                      "political"
+                  ]
+                },
+                {
+                  "long_name" : "Singapore",
+                  "short_name" : "Singapore",
+                  "types" :
+                  [
+                      "locality",
+                      "political"
+                  ]
+                },
+                {
+                  "long_name" : "Singapore",
+                  "short_name" : "SG",
+                  "types" :
+                  [
+                      "country",
+                      "political"
+                  ]
+                }
+            ],
+            "formatted_address" : "Singapore 787431",
+            "geometry" :
+            {
+                "location" :
+                {
+                  "lat" : 1.397498,
+                  "lng" : 103.818941
+                },
+                "location_type" : "APPROXIMATE",
+                "viewport" :
+                {
+                  "northeast" :
+                  {
+                      "lat" : 1.398840980291502,
+                      "lng" : 103.8203019802915
+                  },
+                  "southwest" :
+                  {
+                      "lat" : 1.396143019708498,
+                      "lng" : 103.8176040197085
+                  }
+                }
+            },
+            "place_id" : "ChIJW98ZgFQR2jERVGn6lJC-vQ4",
+            "types" :
+            [
+                "postal_code"
+            ]
+          }
+      ],
+      "status" : "OK"
+    }
+
+## Updating the API key in the app
+
+The key currently needs to be hard-coded in 2 places in the app. Replace "PUT_API_KEY_HERE" with a valid key:
 
 * index.html:9
 * app.ts:2
+
+Running the app, we can now lookup addresses but we're seeing warnings about the Google API:
+
+![run2](./assets/run2.png)
 
 ## Credits and References
 
