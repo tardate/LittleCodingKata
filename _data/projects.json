@@ -1,4 +1,12 @@
 {
+    "/typescript/shareplace/": {
+        "id": 304,
+        "title": "Share a Place",
+        "summary": "Updating dependencies and API usage for the select and share a place app from the Understanding TypeScript course",
+        "tags": [
+            "typescript"
+        ]
+    },
     "/ruby/id3tags/": {
         "id": 303,
         "title": "ID3 Tags",

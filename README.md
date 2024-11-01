@@ -1,6 +1,6 @@
-# 303 Little Coding Katas
+# 304 Little Coding Katas
 
-> Latest addition:sparkles: [ID3 Tags](./ruby/id3tags) - Managing ID3 tags with Ruby
+> Latest addition:sparkles: [Share a Place](./typescript/shareplace) - Updating dependencies and API usage for the select and share a place app from the Understanding TypeScript course
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
