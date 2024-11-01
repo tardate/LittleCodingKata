@@ -29,7 +29,7 @@ function make_project() {
   local readme_file="${full_path}/README.md"
   echo "making ${readme_file}"
   cat > "${readme_file}" <<EOS
-# ${project_name}
+# #xxx ${project_name}
 
 __subtitle__
 
@@ -54,7 +54,6 @@ EOS
 EOS
 
   echo "project initialised: ${full_path}"
-  open "${full_path}"
 }
 
 scriptPath=${0%/*}/
