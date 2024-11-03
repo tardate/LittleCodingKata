@@ -2,5 +2,6 @@
   "site_title": "LittleCodingKata",
   "site_subtitle": "my collection of programming exercises, research and code toys broadly spanning things that relate to programming and software development (languages, frameworks and tools)",
   "site_base_url": "https://codingkata.tardate.com/",
-  "asset_backup_root": null
+  "asset_backup_root": null,
+  "project_subfolder": null
 }
