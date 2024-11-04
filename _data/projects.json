@@ -1,4 +1,12 @@
 {
+    "/tools/git/about/": {
+        "id": 305,
+        "title": "about git",
+        "summary": "A general introduction to git and source control systems.",
+        "tags": [
+            "vcs"
+        ]
+    },
     "/typescript/shareplace/": {
         "id": 304,
         "title": "Share a Place",

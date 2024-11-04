@@ -1,6 +1,6 @@
-# 304 Little Coding Katas
+# 305 Little Coding Katas
 
-> Latest addition:sparkles: [Share a Place](./typescript/shareplace) - Updating dependencies and API usage for the select and share a place app from the Understanding TypeScript course
+> Latest addition:sparkles: [about git](./tools/git/about) - A general introduction to git and source control systems.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

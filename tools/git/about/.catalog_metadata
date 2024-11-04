@@ -1,0 +1,8 @@
+{
+    "name": "about git",
+    "description": "A general introduction to git and source control systems.",
+    "categories": "vcs",
+    "relative_path": "tools/git/about",
+    "updated_at": "2024-11-04T13:51:00Z",
+    "id": "#305"
+}
