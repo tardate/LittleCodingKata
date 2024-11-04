@@ -1,10 +1,20 @@
 {
+    "/tools/git/rebase_all/": {
+        "id": 306,
+        "title": "git rebase all",
+        "summary": "How to rebase all local branches on the current master/main branch",
+        "tags": [
+            "vcs",
+            "git"
+        ]
+    },
     "/tools/git/about/": {
         "id": 305,
         "title": "about git",
         "summary": "A general introduction to git and source control systems.",
         "tags": [
-            "vcs"
+            "vcs",
+            "git"
         ]
     },
     "/typescript/shareplace/": {

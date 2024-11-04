@@ -1,8 +1,17 @@
 [
     {
+        "name": "git rebase all",
+        "description": "How to rebase all local branches on the current master/main branch",
+        "categories": "vcs, git",
+        "relative_path": "tools/git/rebase_all",
+        "updated_at": "2024-11-04T14:16:00Z",
+        "id": "#306",
+        "original_relative_path": "tools/git/rebase_all"
+    },
+    {
         "name": "about git",
         "description": "A general introduction to git and source control systems.",
-        "categories": "vcs",
+        "categories": "vcs, git",
         "relative_path": "tools/git/about",
         "updated_at": "2024-11-04T13:51:00Z",
         "id": "#305",
