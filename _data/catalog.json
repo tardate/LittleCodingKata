@@ -1,5 +1,14 @@
 [
     {
+        "name": "Pro Git",
+        "description": "About Pro Git - the essential guide for mastering Git by Scott Chacon and Ben Straub.",
+        "categories": "vcs, git, book",
+        "relative_path": "tools/git/pro_git",
+        "updated_at": "2024-11-05T02:18:00Z",
+        "id": "#307",
+        "original_relative_path": "tools/git/pro_git"
+    },
+    {
         "name": "git rebase all",
         "description": "How to rebase all local branches on the current master/main branch",
         "categories": "vcs, git",
