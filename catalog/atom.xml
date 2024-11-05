@@ -7,12 +7,23 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2024-11-04T14:16:00Z</updated>
+  <updated>2024-11-05T02:18:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/git/pro_git/</id>
+    <link href="https://codingkata.tardate.com/tools/git/pro_git/"/>
+    <updated>2024-11-05T02:18:00Z</updated>
+    <title>#307 Pro Git</title>
+    <summary>About Pro Git - the essential guide for mastering Git by Scott Chacon and Ben Straub.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;About Pro Git - the essential guide for mastering Git by Scott Chacon and Ben Straub.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="vcs"/>
+    <category term="git"/>
+    <category term="book"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/git/rebase_all/</id>
     <link href="https://codingkata.tardate.com/tools/git/rebase_all/"/>

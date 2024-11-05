@@ -1,6 +1,6 @@
-# 306 Little Coding Katas
+# 307 Little Coding Katas
 
-> Latest addition:sparkles: [git rebase all](./tools/git/rebase_all) - How to rebase all local branches on the current master/main branch
+> Latest addition:sparkles: [Pro Git](./tools/git/pro_git) - About Pro Git - the essential guide for mastering Git by Scott Chacon and Ben Straub.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
