@@ -1,6 +1,6 @@
-# 307 Little Coding Katas
+# 308 Little Coding Katas
 
-> Latest addition:sparkles: [Pro Git](./tools/git/pro_git) - About Pro Git - the essential guide for mastering Git by Scott Chacon and Ben Straub.
+> Latest addition:sparkles: [Using ChatGPT/OpenAI APIs with Python](./python/chatgpt) - The basics of using ChatGPT/OpenAI APIs with Python
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

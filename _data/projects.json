@@ -1,4 +1,13 @@
 {
+    "/python/chatgpt/": {
+        "id": 308,
+        "title": "Using ChatGPT/OpenAI APIs with Python",
+        "summary": "The basics of using ChatGPT/OpenAI APIs with Python",
+        "tags": [
+            "python",
+            "AI"
+        ]
+    },
     "/tools/git/pro_git/": {
         "id": 307,
         "title": "Pro Git",
@@ -88,7 +97,8 @@
         "title": "AI Tools",
         "summary": "A collection of AI tools that I've either used or would like to check out at some point",
         "tags": [
-            "tools"
+            "tools",
+            "AI"
         ]
     },
     "/tools/pt_backup/": {
