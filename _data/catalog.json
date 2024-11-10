@@ -1,5 +1,14 @@
 [
     {
+        "name": "Using ChatGPT/OpenAI APIs with Python",
+        "description": "The basics of using ChatGPT/OpenAI APIs with Python",
+        "categories": "python, AI",
+        "relative_path": "python/chatgpt",
+        "updated_at": "2024-11-10T08:29:00Z",
+        "id": "#308",
+        "original_relative_path": "python/chatgpt"
+    },
+    {
         "name": "Pro Git",
         "description": "About Pro Git - the essential guide for mastering Git by Scott Chacon and Ben Straub.",
         "categories": "vcs, git, book",
@@ -92,7 +101,7 @@
     {
         "name": "AI Tools",
         "description": "A collection of AI tools that I've either used or would like to check out at some point",
-        "categories": "tools",
+        "categories": "tools, AI",
         "relative_path": "tools/ai",
         "updated_at": "2024-08-14T06:08:00Z",
         "id": "#297",
