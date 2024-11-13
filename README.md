@@ -1,6 +1,6 @@
-# 308 Little Coding Katas
+# 309 Little Coding Katas
 
-> Latest addition:sparkles: [Using ChatGPT/OpenAI APIs with Python](./python/chatgpt) - The basics of using ChatGPT/OpenAI APIs with Python
+> Latest addition:sparkles: [Ruby 3.2](./ruby/ruby32) - About Ruby 3.2 including installation on Apple Silicon.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

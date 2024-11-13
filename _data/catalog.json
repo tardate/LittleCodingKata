@@ -1,5 +1,14 @@
 [
     {
+        "name": "Ruby 3.2",
+        "description": "About Ruby 3.2 including installation on Apple Silicon.",
+        "categories": "ruby",
+        "relative_path": "ruby/ruby32",
+        "updated_at": "2024-11-13T04:38:00Z",
+        "id": "#309",
+        "original_relative_path": "ruby/ruby32"
+    },
+    {
         "name": "Using ChatGPT/OpenAI APIs with Python",
         "description": "The basics of using ChatGPT/OpenAI APIs with Python",
         "categories": "python, AI",
