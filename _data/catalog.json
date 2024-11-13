@@ -1,5 +1,14 @@
 [
     {
+        "name": "Ruby 3.3",
+        "description": "About Ruby 3.3 including installation on Apple Silicon.",
+        "categories": "ruby",
+        "relative_path": "ruby/ruby33",
+        "updated_at": "2024-11-13T05:19:00Z",
+        "id": "#310",
+        "original_relative_path": "ruby/ruby33"
+    },
+    {
         "name": "Ruby 3.2",
         "description": "About Ruby 3.2 including installation on Apple Silicon.",
         "categories": "ruby",

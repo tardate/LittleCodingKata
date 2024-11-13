@@ -1,4 +1,12 @@
 {
+    "/ruby/ruby33/": {
+        "id": 310,
+        "title": "Ruby 3.3",
+        "summary": "About Ruby 3.3 including installation on Apple Silicon.",
+        "tags": [
+            "ruby"
+        ]
+    },
     "/ruby/ruby32/": {
         "id": 309,
         "title": "Ruby 3.2",
