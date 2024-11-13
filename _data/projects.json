@@ -1,4 +1,12 @@
 {
+    "/ruby/ruby32/": {
+        "id": 309,
+        "title": "Ruby 3.2",
+        "summary": "About Ruby 3.2 including installation on Apple Silicon.",
+        "tags": [
+            "ruby"
+        ]
+    },
     "/python/chatgpt/": {
         "id": 308,
         "title": "Using ChatGPT/OpenAI APIs with Python",
