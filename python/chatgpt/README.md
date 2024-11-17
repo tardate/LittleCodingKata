@@ -32,24 +32,24 @@ Here's a basic example:
 
 Create a client with optional configuration details. By default, will use API key from `OPENAI_API_KEY` environment variable
 
-  client = OpenAI()
+    client = OpenAI()
 
 Call the [chat completion API](https://platform.openai.com/docs/api-reference/chat/create)
 with a prompt, and selected [model](https://platform.openai.com/docs/models):
 
-  response = client.chat.completions.create(
-    messages=[
-        {
-            "role": "user",
-            "content": "Hello, who are you?",
-        }
-    ],
-    model="gpt-4o-mini"
-  )
+    response = client.chat.completions.create(
+      messages=[
+          {
+              "role": "user",
+              "content": "Hello, who are you?",
+          }
+      ],
+      model="gpt-4o-mini"
+    )
 
 Parse the response and do something with it.
 
-  return response.choices[0].message.content.strip()
+    return response.choices[0].message.content.strip()
 
 Note: response data will follow the JSON schema of the API being called. In this case a [chat completion object](https://platform.openai.com/docs/api-reference/chat/object).
 
