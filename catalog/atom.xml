@@ -7,12 +7,24 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2024-11-13T05:19:00Z</updated>
+  <updated>2024-12-29T07:09:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/python/csv2md/</id>
+    <link href="https://codingkata.tardate.com/python/csv2md/"/>
+    <updated>2024-12-29T07:09:00Z</updated>
+    <title>#311 CSV to Markdown Tables</title>
+    <summary>Options for converting comma-separated value data into markdown tables, including python scripts, command line utilities, online tools, and editor extensions.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Options for converting comma-separated value data into markdown tables, including python scripts, command line utilities, online tools, and editor extensions.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="python"/>
+    <category term="markdown"/>
+    <category term="csv"/>
+    <category term="tools"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/ruby33/</id>
     <link href="https://codingkata.tardate.com/ruby/ruby33/"/>
