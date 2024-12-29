@@ -1,5 +1,14 @@
 [
     {
+        "name": "CSV to Markdown Tables (Ruby)",
+        "description": "How to convert comma-separated value data into markdown tables with ruby",
+        "categories": "ruby, markdown, csv",
+        "relative_path": "ruby/csv2md",
+        "updated_at": "2024-12-29T16:07:00Z",
+        "id": "#312",
+        "original_relative_path": "ruby/csv2md"
+    },
+    {
         "name": "CSV to Markdown Tables",
         "description": "Options for converting comma-separated value data into markdown tables, including python scripts, command line utilities, online tools, and editor extensions.",
         "categories": "python, markdown, csv, tools",
