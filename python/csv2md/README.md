@@ -30,9 +30,11 @@ Install dependencies:
 
 Run the conversion
 
-    ./csv2md_pandas.py sharpe.csv output/pandas.md
+    mkdir -p output/pandas
+    ./csv2md_pandas.py sharpe.csv output/pandas/README.md
 
-See the [output here](./output/pandas.md).
+See the [raw output here](./output/pandas/README.md)
+and the [rendered markdown output here](./output/pandas/).
 
 #### PrettyTable
 
@@ -57,9 +59,11 @@ Install dependencies:
 
 Run the conversion
 
-    ./csv2md_prettytable.py sharpe.csv > output/prettytable.md
+    mkdir -p output/prettytable
+    ./csv2md_prettytable.py sharpe.csv > output/prettytable/README.md
 
-See the [output here](./output/prettytable.md).
+See the [raw output here](./output/prettytable/README.md)
+and the [rendered markdown output here](./output/prettytable/).
 
 ### Online Tools
 
@@ -72,7 +76,8 @@ It works well, though the site is pretty overwhelmed by advertising. Many other 
 
 ![convertcsv](./assets/convertcsv.png)
 
-See the [output here](./output/convertcsv.md).
+See the [raw output here](./output/convertcsv/README.md)
+and the [rendered markdown output here](./output/convertcsv/).
 
 #### TableConvert
 
@@ -83,7 +88,8 @@ It works well, though the site is pretty overwhelmed by advertising.
 
 ![tableconvert](./assets/tableconvert.png)
 
-See the [output here](./output/tableconvert.md).
+See the [raw output here](./output/tableconvert/README.md)
+and the [rendered markdown output here](./output/tableconvert/).
 
 ### Text Editors and IDEs
 
@@ -91,7 +97,8 @@ Many editors have features for converting CSV to Markdown:
 
 * Visual Studio Code Extensions:
     * [CSV to Markdown Table](https://github.com/phoihos/vscode-csv-to-md-table)
-        * tested, works fine, see [output here](./csv_to_markdown_table.md)
+        * tested, works fine
+        * see the [raw output here](./output/csv_to_markdown_table/README.md) and the [rendered markdown output here](./output/csv_to_markdown_table/).
     * many others I haven't tried, search extensions for "CSV to Table"
 * Sublime Text:
     * [Table Editor](https://packagecontrol.io/packages/Table%20Editor) package is no longer supported. May be others but I haven't tested yet.
@@ -115,16 +122,19 @@ Unfortunately, this fails on [newer python versions 3.11+](https://github.com/mp
     $ brew install pandoc
     $ which pandoc
     /opt/homebrew/bin/pandoc
-    $ pandoc sharpe.csv --to markdown+pipe_tables -o output/pandoc.md
+    $ mkdir -p output/pandoc
+    $ pandoc sharpe.csv --to markdown+pipe_tables -o output/pandoc/README.md
 
 Umm, this also does not generate the expected table structure.
-See the [output here](./output/pandoc.md).
+
+See the [raw output here](./output/pandoc/README.md)
+and the [rendered markdown output here](./output/pandoc/).
 
 It seems that using the [pandoc-csv2table](https://github.com/baig/pandoc-csv2table) filter may help, but I haven't tried that yet
 
 ### Sharpe novels by Bernard Cornwell
 
-the markdown as generated from [sharpe.csv](./sharpe.csv)
+The markdown table as generated from [sharpe.csv](./sharpe.csv)
 
 |Number|Title             |Subtitle                                                                        |Publisher                  |Publication date|Notes                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |------|------------------|--------------------------------------------------------------------------------|---------------------------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
