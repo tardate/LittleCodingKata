@@ -1,4 +1,15 @@
 {
+    "/python/csv2md/": {
+        "id": 311,
+        "title": "CSV to Markdown Tables",
+        "summary": "Options for converting comma-separated value data into markdown tables, including python scripts, command line utilities, online tools, and editor extensions.",
+        "tags": [
+            "python",
+            "markdown",
+            "csv",
+            "tools"
+        ]
+    },
     "/ruby/ruby33/": {
         "id": 310,
         "title": "Ruby 3.3",

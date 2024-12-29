@@ -1,5 +1,14 @@
 [
     {
+        "name": "CSV to Markdown Tables",
+        "description": "Options for converting comma-separated value data into markdown tables, including python scripts, command line utilities, online tools, and editor extensions.",
+        "categories": "python, markdown, csv, tools",
+        "relative_path": "python/csv2md",
+        "updated_at": "2024-12-29T07:09:00Z",
+        "id": "#311",
+        "original_relative_path": "python/csv2md"
+    },
+    {
         "name": "Ruby 3.3",
         "description": "About Ruby 3.3 including installation on Apple Silicon.",
         "categories": "ruby",
