@@ -1,6 +1,6 @@
-# 311 Little Coding Katas
+# 312 Little Coding Katas
 
-> Latest addition:sparkles: [CSV to Markdown Tables](./python/csv2md) - Options for converting comma-separated value data into markdown tables, including python scripts, command line utilities, online tools, and editor extensions.
+> Latest addition:sparkles: [CSV to Markdown Tables (Ruby)](./ruby/csv2md) - How to convert comma-separated value data into markdown tables with ruby
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

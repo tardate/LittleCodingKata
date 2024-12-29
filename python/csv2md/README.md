@@ -15,7 +15,7 @@ Below is a list of the best tools and methods, categorized by platform and use c
 #### pandas
 
 Uses [tabulate](https://pypi.org/project/tabulate/) with [pandas](https://pypi.org/project/pandas/)
-to read the csv and write markdown. See the [csv2md_pandas.py]( ./csv2md_pandas.py) script.
+to read the csv and write markdown. See the [csv2md_pandas.py](./csv2md_pandas.py) script.
 The essence of the conversion is in these few lines:
 
     def convert(infile, outfile):
@@ -40,7 +40,7 @@ and the [rendered markdown output here](./output/pandas/).
 
 Uses [csv](https://docs.python.org/3/library/csv.html) to read the input file
 and [prettytable](https://pypi.org/project/prettytable/) to write markdown.
-See the [csv2md_prettytable.py]( ./csv2md_prettytable.py) script.
+See the [csv2md_prettytable.py](./csv2md_prettytable.py) script.
 The essence of the conversion is in these few lines:
 
     def convert(infile):
@@ -172,3 +172,4 @@ The markdown table as generated from [sharpe.csv](./sharpe.csv)
 * <https://tableconvert.com/csv-to-markdown>
 * <https://pypi.org/project/csvtomd/>
 * <https://pypi.org/project/pandoc/>
+* [ruby/csv2md](../../ruby/csv2md/) - using ruby to do the same thing

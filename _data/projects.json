@@ -1,4 +1,14 @@
 {
+    "/ruby/csv2md/": {
+        "id": 312,
+        "title": "CSV to Markdown Tables (Ruby)",
+        "summary": "How to convert comma-separated value data into markdown tables with ruby",
+        "tags": [
+            "ruby",
+            "markdown",
+            "csv"
+        ]
+    },
     "/python/csv2md/": {
         "id": 311,
         "title": "CSV to Markdown Tables",
