@@ -1,4 +1,14 @@
 {
+    "/tools/sqlectron/": {
+        "id": 313,
+        "title": "SQLECTRON",
+        "summary": "About SQLECTRON, the open-source SQL client for all dbs and all platforms.",
+        "tags": [
+            "Database",
+            "Tools",
+            "SQL"
+        ]
+    },
     "/ruby/csv2md/": {
         "id": 312,
         "title": "CSV to Markdown Tables (Ruby)",

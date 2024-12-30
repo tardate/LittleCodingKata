@@ -1,5 +1,14 @@
 [
     {
+        "name": "SQLECTRON",
+        "description": "About SQLECTRON, the open-source SQL client for all dbs and all platforms.",
+        "categories": "Database, Tools, SQL",
+        "relative_path": "tools/sqlectron",
+        "updated_at": "2024-12-30T07:07:00Z",
+        "id": "#313",
+        "original_relative_path": "tools/sqlectron"
+    },
+    {
         "name": "CSV to Markdown Tables (Ruby)",
         "description": "How to convert comma-separated value data into markdown tables with ruby",
         "categories": "ruby, markdown, csv",
