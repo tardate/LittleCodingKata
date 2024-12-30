@@ -986,7 +986,7 @@
     "/databases/mysql/install_macosx/": {
         "id": 197,
         "title": "MySQL on MacOS",
-        "summary": "Notes on installing and running MySQL on MacOS",
+        "summary": "Notes on installing and running MySQL client and/or server on MacOS",
         "tags": [
             "Database",
             "MySQL"

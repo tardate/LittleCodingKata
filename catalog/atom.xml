@@ -7,7 +7,7 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2024-12-29T16:07:00Z</updated>
+  <updated>2025-12-30T10:00:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1115,10 +1115,10 @@
   <entry>
     <id>https://codingkata.tardate.com/databases/mysql/install_macosx/</id>
     <link href="https://codingkata.tardate.com/databases/mysql/install_macosx/"/>
-    <updated>2021-11-02T14:53:49Z</updated>
+    <updated>2025-12-30T10:00:00Z</updated>
     <title>#197 MySQL on MacOS</title>
-    <summary>Notes on installing and running MySQL on MacOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Notes on installing and running MySQL on MacOS&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>Notes on installing and running MySQL client and/or server on MacOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Notes on installing and running MySQL client and/or server on MacOS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Database"/>
     <category term="MySQL"/>
   </entry>
