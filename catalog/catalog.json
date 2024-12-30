@@ -1036,10 +1036,10 @@
     },
     {
         "name": "MySQL on MacOS",
-        "description": "Notes on installing and running MySQL on MacOS",
+        "description": "Notes on installing and running MySQL client and/or server on MacOS",
         "categories": "Database, MySQL",
         "relative_path": "databases/mysql/install_macosx",
-        "updated_at": "2021-11-02T14:53:49Z",
+        "updated_at": "2025-12-30T10:00:00Z",
         "id": "#197",
         "original_relative_path": "databases/mysql/install_macosx"
     },
