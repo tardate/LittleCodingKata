@@ -1,6 +1,6 @@
-# 312 Little Coding Katas
+# 313 Little Coding Katas
 
-> Latest addition:sparkles: [CSV to Markdown Tables (Ruby)](./ruby/csv2md) - How to convert comma-separated value data into markdown tables with ruby
+> Latest addition:sparkles: [SQLECTRON](./tools/sqlectron) - About SQLECTRON, the open-source SQL client for all dbs and all platforms.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
