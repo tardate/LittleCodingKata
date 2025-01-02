@@ -1,5 +1,14 @@
 [
     {
+        "name": "Ambient Findability",
+        "description": "Book notes - Ambient Findability, By Peter Morville, published by O'Reilly",
+        "categories": "design, books",
+        "relative_path": "design/ambient_findability",
+        "updated_at": "2025-01-02T05:46:00Z",
+        "id": "#314",
+        "original_relative_path": "design/ambient_findability"
+    },
+    {
         "name": "SQLECTRON",
         "description": "About SQLECTRON, the open-source SQL client for all dbs and all platforms.",
         "categories": "Database, Tools, SQL",
@@ -1928,7 +1937,7 @@
     {
         "name": "Programming Interactivity",
         "description": "Book notes - Programming Interactivity 2nd Edition, by Joshua Noble published by O'Reilly",
-        "categories": "design, arduino",
+        "categories": "design, arduino, books",
         "relative_path": "design/programming_interactivity",
         "updated_at": "2020-01-25T17:31:59Z",
         "id": "#099",
