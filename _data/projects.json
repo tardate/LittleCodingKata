@@ -1,4 +1,13 @@
 {
+    "/design/ambient_findability/": {
+        "id": 314,
+        "title": "Ambient Findability",
+        "summary": "Book notes - Ambient Findability, By Peter Morville, published by O'Reilly",
+        "tags": [
+            "design",
+            "books"
+        ]
+    },
     "/tools/sqlectron/": {
         "id": 313,
         "title": "SQLECTRON",
@@ -1872,7 +1881,8 @@
         "summary": "Book notes - Programming Interactivity 2nd Edition, by Joshua Noble published by O'Reilly",
         "tags": [
             "design",
-            "arduino"
+            "arduino",
+            "books"
         ]
     },
     "/ruby/rails_antipatterns/": {
