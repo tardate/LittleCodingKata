@@ -4,5 +4,6 @@
     "categories": "databases, influxdb, docker, ruby",
     "relative_path": "databases/influxdb/ruby_client2",
     "updated_at": "2020-03-05T09:03:11Z",
-    "id": "#136"
+    "id": "#136",
+    "created_at": "2020-03-05T09:03:11Z"
 }

@@ -4,5 +4,6 @@
     "description": "Comparing the use of `#define` preprocessor macros and `const` statements",
     "categories": "C",
     "relative_path": "c/define_const",
-    "updated_at": "2016-12-25T07:44:11Z"
+    "updated_at": "2016-12-25T07:44:11Z",
+    "created_at": "2016-12-25T07:44:11Z"
 }

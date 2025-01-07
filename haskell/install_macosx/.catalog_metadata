@@ -4,5 +4,6 @@
     "description": "installing Haskell on MacOS",
     "categories": "Haskell, MacOS",
     "relative_path": "haskell/install_macosx",
-    "updated_at": "2021-11-02T14:53:49Z"
+    "updated_at": "2021-11-02T14:53:49Z",
+    "created_at": "2021-11-02T14:53:49Z"
 }

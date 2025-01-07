@@ -4,5 +4,6 @@
     "description": "process a file line-by-line",
     "categories": "Bash",
     "relative_path": "bash/process_lines",
-    "updated_at": "2016-07-10T13:14:48Z"
+    "updated_at": "2016-07-10T13:14:48Z",
+    "created_at": "2016-07-10T13:14:48Z"
 }

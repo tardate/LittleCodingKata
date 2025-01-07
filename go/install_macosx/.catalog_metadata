@@ -4,5 +4,6 @@
     "description": "installing Go on MacOS",
     "categories": "Go, MacOS",
     "relative_path": "go/install_macosx",
-    "updated_at": "2021-11-02T14:53:49Z"
+    "updated_at": "2021-11-02T14:53:49Z",
+    "created_at": "2021-11-02T14:53:49Z"
 }

@@ -4,5 +4,6 @@
     "description": "all about decorating class methods and preserving the ability to introspect",
     "categories": "python",
     "relative_path": "python/decorating_class_methods",
-    "updated_at": "2019-07-20T04:58:08Z"
+    "updated_at": "2019-07-20T04:58:08Z",
+    "created_at": "2019-07-20T04:58:08Z"
 }

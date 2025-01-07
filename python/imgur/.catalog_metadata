@@ -4,5 +4,6 @@
     "description": "Using Python with the imgur API and demonstrate scanning imgur albums for image links",
     "categories": "python, imgur",
     "relative_path": "python/imgur",
-    "updated_at": "2019-07-20T04:58:08Z"
+    "updated_at": "2019-07-20T04:58:08Z",
+    "created_at": "2019-07-20T04:58:08Z"
 }

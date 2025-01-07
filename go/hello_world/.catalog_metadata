@@ -4,5 +4,6 @@
     "description": "exploring Go with the simplest example",
     "categories": "Go",
     "relative_path": "go/hello_world",
-    "updated_at": "2016-09-10T13:53:45Z"
+    "updated_at": "2016-09-10T13:53:45Z",
+    "created_at": "2016-09-10T13:53:45Z"
 }

@@ -4,5 +4,6 @@
     "description": "substitute shell variables in text",
     "categories": "Tools, Bash",
     "relative_path": "tools/envsubst",
-    "updated_at": "2016-07-10T13:14:48Z"
+    "updated_at": "2016-07-10T13:14:48Z",
+    "created_at": "2016-07-10T13:14:48Z"
 }

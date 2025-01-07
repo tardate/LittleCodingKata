@@ -4,5 +4,6 @@
     "categories": "docker, ubuntu, redis, ci",
     "relative_path": "docker/starting_redis_with_old_circleci_image",
     "updated_at": "2019-08-14T11:44:07Z",
-    "id": "#078"
+    "id": "#078",
+    "created_at": "2019-08-14T11:44:07Z"
 }
