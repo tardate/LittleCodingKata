@@ -4,5 +4,6 @@
     "categories": "security, MFA",
     "relative_path": "security/yubikey",
     "updated_at": "2021-04-15T17:09:32Z",
-    "id": "#165"
+    "id": "#165",
+    "created_at": "2021-04-15T17:09:32Z"
 }

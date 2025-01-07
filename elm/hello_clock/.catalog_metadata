@@ -4,5 +4,6 @@
     "description": "2D graphics with elm",
     "categories": "Elm",
     "relative_path": "elm/hello_clock",
-    "updated_at": "2016-07-10T13:14:48Z"
+    "updated_at": "2016-07-10T13:14:48Z",
+    "created_at": "2016-07-10T13:14:48Z"
 }

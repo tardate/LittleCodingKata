@@ -4,5 +4,6 @@
     "description": "Haskell - Hello World",
     "categories": "Haskell",
     "relative_path": "haskell/hello_world",
-    "updated_at": "2016-07-10T13:14:48Z"
+    "updated_at": "2016-07-10T13:14:48Z",
+    "created_at": "2016-07-10T13:14:48Z"
 }

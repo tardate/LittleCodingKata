@@ -4,5 +4,6 @@
     "description": "hardware excuse generator with gRPC - C# client example",
     "categories": "gRPC, C#, Messaging",
     "relative_path": "messaging/grpc/explainer/csharp",
-    "updated_at": "2016-07-10T13:14:48Z"
+    "updated_at": "2016-07-10T13:14:48Z",
+    "created_at": "2016-07-10T13:14:48Z"
 }

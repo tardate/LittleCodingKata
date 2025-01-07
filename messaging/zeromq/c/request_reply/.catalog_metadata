@@ -4,5 +4,6 @@
     "categories": "messaging, zeromq, c",
     "relative_path": "messaging/zeromq/c/request_reply",
     "updated_at": "2020-02-03T17:21:20Z",
-    "id": "#115"
+    "id": "#115",
+    "created_at": "2020-02-03T17:21:20Z"
 }

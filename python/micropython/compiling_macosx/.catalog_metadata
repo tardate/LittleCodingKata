@@ -4,5 +4,6 @@
     "description": "Building MicroPython on MacOS",
     "categories": "python, MicroPython",
     "relative_path": "python/micropython/compiling_macosx",
-    "updated_at": "2021-11-02T14:53:49Z"
+    "updated_at": "2021-11-02T14:53:49Z",
+    "created_at": "2021-11-02T14:53:49Z"
 }

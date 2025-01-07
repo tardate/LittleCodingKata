@@ -4,5 +4,6 @@
     "description": "hardware excuse generator with gRPC - Node client example",
     "categories": "gRPC, Node, Messaging",
     "relative_path": "messaging/grpc/explainer/node",
-    "updated_at": "2016-07-10T13:14:48Z"
+    "updated_at": "2016-07-10T13:14:48Z",
+    "created_at": "2016-07-10T13:14:48Z"
 }
