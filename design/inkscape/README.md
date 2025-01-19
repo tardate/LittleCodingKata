@@ -1,52 +1,32 @@
-# inkscape
+# #315 Inkscape
 
-Installing inkscape from source on MacOS.
+About Inkscape, with installation on macOS.
 
 ## Notes
 
-It seems the homebrew keg for inkscape.
+Inkscape is a Free and open source vector graphics editor for GNU/Linux, Windows and macOS.
 
-[0.92.4](https://inkscape.org/release/inkscape-0.92.4/)
+### Key Features
 
-```bash
-wget https://inkscape.org/gallery/item/13330/inkscape-0.92.4_A6N0YOn.tar.bz2
-tar -zxvf inkscape-0.92.4_A6N0YOn.tar.bz2
-cd inkscape-0.92.4/
-```
+* rich set of features for both artistic and technical illustrations
+* uses vector graphics to allow for sharp printouts and renderings at unlimited resolution
+* the standardized SVG file format as its main format
+* can import and export various file formats, including SVG, AI, EPS, PDF, PS and PNG.
 
-...
+### Installation - macOS
 
-I have inkscape installed with brew, but now I forget how I got it!
+Previously I've had Inkscape 0.92.x installed using [brew](https://formulae.brew.sh/cask/inkscape#default),
+but it seems that may now only be supported for Intel architecture.
 
-$ brew list inkscape
-/usr/local/Cellar/inkscape/HEAD-5bc3bdf_1/bin/inkscape
-/usr/local/Cellar/inkscape/HEAD-5bc3bdf_1/bin/inkview
-/usr/local/Cellar/inkscape/HEAD-5bc3bdf_1/lib/inkscape/ (13 files)
-/usr/local/Cellar/inkscape/HEAD-5bc3bdf_1/share/applications/inkscape.desktop
-/usr/local/Cellar/inkscape/HEAD-5bc3bdf_1/share/icons/ (7 files)
-/usr/local/Cellar/inkscape/HEAD-5bc3bdf_1/share/inkscape/ (905 files)
-/usr/local/Cellar/inkscape/HEAD-5bc3bdf_1/share/locale/ (90 files)
-/usr/local/Cellar/inkscape/HEAD-5bc3bdf_1/share/man/ (8 files)
-/usr/local/Cellar/inkscape/HEAD-5bc3bdf_1/share/metainfo/inkscape.appdata.xml
+I've since switched machines and wanted to get Inkscape installed again (current version is 1.4).
+It seems the packaging has vastly improved in the intervening years.
+Installation packages for all supported operating system and processor architectures are [available](https://inkscape.org/release/inkscape-1.4/).
 
-$ brew info inkscape
-wwwvalpe/caskformula/inkscape: stable 0.92.2, HEAD
-Professional vector graphics editor
-<https://inkscape.org/>
-/usr/local/Cellar/inkscape/HEAD-5bc3bdf_1 (1,034 files, 122.3MB) *
-  Built from source on 2019-06-15 at 05:16:55 with: --branch-0.92
-From: <https://github.com/wwwvalpe/homebrew-caskformula/blob/master/Formula/inkscape.rb>
-==> Dependencies
-Build: automake ✔, cmake ✘, libtool ✔, boost-build ✘, intltool ✔, pkg-config ✔
-Required: bdw-gc ✔, boost ✔, cairomm ✔, gettext ✔, glibmm ✘, gsl ✔, hicolor-icon-theme ✔, libsoup ✘, little-cms ✔, pango ✘, popt ✔, poppler ✘, potrace ✔, gtkmm ✘
-==> Options
---branch-0.92
-  When used with --HEAD, build from the 0.92.x branch
---with-gtk3
-  Build Inkscape with GTK+3 (Experimental)
---HEAD
-  Install HEAD version
+This time I just installed using the dmg file for arm64 architecture.
+
+![inkscape](./assets/inkscape.png)
 
 ## Credits and References
 
-* [inkscape](https://inkscape.org/)
+* [Inkscape](https://inkscape.org/)
+* [Inkscape Beginners’ Guide!](https://inkscape-manuals.readthedocs.io/en/latest/)
