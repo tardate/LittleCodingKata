@@ -1,6 +1,6 @@
-# 316 Little Coding Katas
+# 317 Little Coding Katas
 
-> Latest addition:sparkles: [AWS KMS](./aws/kms) - About the AWS Key Management Service (KMS), with CLI example of data encrypt/decrypt with symmetric keys
+> Latest addition:sparkles: [Symmetric Encryption with AWS KMS](./security/kms/symmetric_data_encryption) - Using AWS Key Management Service (KMS) for data encrypt/decrypt with symmetric keys, with CLI examples
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

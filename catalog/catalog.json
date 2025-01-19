@@ -1,13 +1,23 @@
 [
     {
-        "name": "AWS KMS",
-        "description": "About the AWS Key Management Service (KMS), with CLI example of data encrypt/decrypt with symmetric keys",
+        "name": "Symmetric Encryption with AWS KMS",
+        "description": "Using AWS Key Management Service (KMS) for data encrypt/decrypt with symmetric keys, with CLI examples",
         "categories": "security, KMS, encryption, decryption",
-        "relative_path": "aws/kms",
+        "relative_path": "security/kms/symmetric_data_encryption",
+        "updated_at": "2025-01-19T14:04:00Z",
+        "created_at": "2025-01-19T14:04:00Z",
+        "id": "#317",
+        "original_relative_path": "security/kms/symmetric_data_encryption"
+    },
+    {
+        "name": "AWS KMS",
+        "description": "About the AWS Key Management Service (KMS)",
+        "categories": "security, KMS",
+        "relative_path": "security/kms/about",
         "updated_at": "2025-01-19T13:52:00Z",
         "created_at": "2025-01-19T13:52:00Z",
         "id": "#316",
-        "original_relative_path": "aws/kms"
+        "original_relative_path": "security/kms/about"
     },
     {
         "name": "Inkscape",

@@ -1,13 +1,22 @@
 {
-    "/aws/kms/": {
-        "id": 316,
-        "title": "AWS KMS",
-        "summary": "About the AWS Key Management Service (KMS), with CLI example of data encrypt/decrypt with symmetric keys",
+    "/security/kms/symmetric_data_encryption/": {
+        "id": 317,
+        "title": "Symmetric Encryption with AWS KMS",
+        "summary": "Using AWS Key Management Service (KMS) for data encrypt/decrypt with symmetric keys, with CLI examples",
         "tags": [
             "security",
             "KMS",
             "encryption",
             "decryption"
+        ]
+    },
+    "/security/kms/about/": {
+        "id": 316,
+        "title": "AWS KMS",
+        "summary": "About the AWS Key Management Service (KMS)",
+        "tags": [
+            "security",
+            "KMS"
         ]
     },
     "/design/inkscape/": {

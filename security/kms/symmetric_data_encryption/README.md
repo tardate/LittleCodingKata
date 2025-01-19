@@ -1,62 +1,22 @@
-# #316 AWS KMS
+# #317 Symmetric Encryption with AWS KMS
 
-About the AWS Key Management Service (KMS), with CLI example of data encrypt/decrypt with symmetric keys.
+Using AWS Key Management Service (KMS) for data encrypt/decrypt with symmetric keys, with CLI examples.
 
 ## Notes
 
 The [AWS Key Management Service (KMS)](https://aws.amazon.com/kms/)
 is used to create and control keys used to encrypt or digitally sign data.
 
-* Fully integrated with IAM for authorization
-* AWS manages the encryption keys
-* CloudTrail can be used to audit KMS Key usage
-* Integrated with most AWS services (EBS, S3, etc)
+See [About KMS](../about) for more info.
 
-### Types of KMS Keys
+This is an example of using AWS KMS for data encryption and decryption user customer-managed symmetric keys.
 
-* AWS Owned Keys (free): SSE-S3, SSE-SQS, SSE-DDB ()
-* AWS Managed Key: free (aws/service-name, example: aws/rds or aws/ebs)
-* Customer managed keys created or imported into KMS (not free)
-* Customer managed keys imported: $1 / month
-
-Note: API calls to KMS are not free
-
-### Supported Keys Types
-
-* Symmetric (AES-256 keys)
-    * Single encryption key used to Encrypt and Decrypt
-    * Integrated AWS services use Symmetric CMKs
-    * Never get access to the unencrypted KMS Key (used via KMS API)
-* Asymmetric (RSA & ECC key pairs)
-    * Public (Encrypt) and Private Key (Decrypt) pair
-    * For Encrypt/Decrypt and Sign/Verify operations
-    * The public key is downloadable, but can’t access the unencrypted Private Key
-
-### Automatic Key rotation
-
-* AWS-managed KMS Key: automatic every 1 year
-* Customer-managed KMS Key: (must be enabled) automatic & on-demand
-* Imported KMS Key: only manual rotation possible using alias
-
-### KMS Key Policies
-
-* Default KMS Key Policy:
-    * Created if you don’t provide a specific KMS Key Policy
-    * Complete access to the key to the root user = entire AWS account
-* Custom KMS Key Policy:
-    * Define users, roles that can access the KMS key
-    * Define who can administer the key
-    * Useful for cross-account access of your KMS key
-
-## Example KMS Scenario 1: Symmetric Key Encrypt/Decrypt
-
-Using a customer-managed symmetric key to encrypt and decrypt data.
 I am using the AWS CLI on macOS for this example:
 
     $ aws --version
     aws-cli/2.15.6 Python/3.11.6 Darwin/24.2.0 exe/x86_64 prompt/off
 
-### Step 1: Create the key with the AWS console
+## Step 1: Create the key with the AWS console
 
 I am creating this with a user that has full admin rights (not a root user)
 
@@ -83,7 +43,7 @@ I am creating this with a user that has full admin rights (not a root user)
         ]
       }
 
-### Step 2: Encrypt The Data
+## Step 2: Encrypt The Data
 
 I have one of Shakespeare's sonnets in [sonnet106.txt](./sonnet106.txt) that I'll be using for the encryption demo.
 
@@ -101,11 +61,11 @@ The basic command form:
 
 The encrypted output will be base64-encoded when obtained via the AWS CLI
 
-### Step 3: Encrypted Data Base64 Decode to Binary
+## Step 3: Encrypted Data Base64 Decode to Binary
 
     cat sonnet106-encrypted.base64 | base64 --decode > sonnet106-encrypted.bin
 
-### Step 4: Decrypt the Binary File
+## Step 4: Decrypt the Binary File
 
 See: [AWS CLI Command reference: kms decrypt](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/kms/decrypt.html)
 
@@ -121,17 +81,17 @@ The basic command form:
 
 The decrypted data will be in base64 when obtained via the AWS CLI.
 
-### Step 5: Decrypted Data Base64 Decode to Plain Text
+## Step 5: Decrypted Data Base64 Decode to Plain Text
 
     cat sonnet106-decrypted.base64 | base64 --decode > sonnet106-decrypted.txt
 
-### Step 6: Verify The Decrypted Data Matches the Input
+## Step 6: Verify The Decrypted Data Matches the Input
 
 A quick verification with [cmp](https://man7.org/linux/man-pages/man1/cmp.1.html) (compare two files byte by byte):
 
     cmp -s sonnet106.txt sonnet106-decrypted.txt
 
-### Scripted Example
+## Scripted Example
 
 The [demo_encrypt_decrpyt.sh](./demo_encrypt_decrpyt.sh) runs a full encryption-decryption cycle with verification.
 
@@ -198,7 +158,7 @@ Here's a test run:
 
 All good!
 
-### Cleaning Up Keys
+## Cleaning Up Keys
 
 Customer-managed keys cannot be immediately deleted. They must be scheduled for deletion (with a delay of 7-30 days).
 As any encrypted data will be unusable after key deletion, this provide an opportunity to cancel the deletion before it is performed.
@@ -206,4 +166,5 @@ As any encrypted data will be unusable after key deletion, this provide an oppor
 ## Credits and References
 
 * [AWS Key Management Service (KMS)](https://aws.amazon.com/kms/)
-* [KMS](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html)
+* [AWS Key Management Service Developer Guide](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html)
+* [AWS CLI Command reference: kms](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/kms/index.html#cli-aws-kms)

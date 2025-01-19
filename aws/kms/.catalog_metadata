@@ -1,9 +1,0 @@
-{
-    "name": "AWS KMS",
-    "description": "About the AWS Key Management Service (KMS), with CLI example of data encrypt/decrypt with symmetric keys",
-    "categories": "security, KMS, encryption, decryption",
-    "relative_path": "aws/kms",
-    "updated_at": "2025-01-19T13:52:00Z",
-    "created_at": "2025-01-19T13:52:00Z",
-    "id": "#316"
-}
