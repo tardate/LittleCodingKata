@@ -1,6 +1,12 @@
 <?xml version="1.0" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://codingkata.tardate.com/security/kms/symmetric_data_encryption/</loc>
+  </url>
+  <url>
+    <loc>https://codingkata.tardate.com/security/kms/about/</loc>
+  </url>
+  <url>
     <loc>https://codingkata.tardate.com/design/inkscape/</loc>
   </url>
   <url>
