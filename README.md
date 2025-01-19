@@ -1,6 +1,6 @@
-# 314 Little Coding Katas
+# 315 Little Coding Katas
 
-> Latest addition:sparkles: [Ambient Findability](./design/ambient_findability) - Book notes - Ambient Findability, By Peter Morville, published by O'Reilly
+> Latest addition:sparkles: [Inkscape](./design/inkscape) - About Inkscape, with installation on macOS.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

@@ -1,4 +1,13 @@
 {
+    "/design/inkscape/": {
+        "id": 315,
+        "title": "Inkscape",
+        "summary": "About Inkscape, with installation on macOS.",
+        "tags": [
+            "tools",
+            "graphics"
+        ]
+    },
     "/design/ambient_findability/": {
         "id": 314,
         "title": "Ambient Findability",
