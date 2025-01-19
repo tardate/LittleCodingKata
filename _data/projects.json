@@ -1,4 +1,15 @@
 {
+    "/aws/kms/": {
+        "id": 316,
+        "title": "AWS KMS",
+        "summary": "About the AWS Key Management Service (KMS), with CLI example of data encrypt/decrypt with symmetric keys",
+        "tags": [
+            "security",
+            "KMS",
+            "encryption",
+            "decryption"
+        ]
+    },
     "/design/inkscape/": {
         "id": 315,
         "title": "Inkscape",

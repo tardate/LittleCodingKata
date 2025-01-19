@@ -1,6 +1,6 @@
-# 315 Little Coding Katas
+# 316 Little Coding Katas
 
-> Latest addition:sparkles: [Inkscape](./design/inkscape) - About Inkscape, with installation on macOS.
+> Latest addition:sparkles: [AWS KMS](./aws/kms) - About the AWS Key Management Service (KMS), with CLI example of data encrypt/decrypt with symmetric keys
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
