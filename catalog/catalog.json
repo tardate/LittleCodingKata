@@ -1031,9 +1031,9 @@
     },
     {
         "id": "#214",
-        "name": "FreeRADIUS/freeradius-server-macosx",
-        "description": "FreeRADIUS - running on MacOS",
-        "categories": "RADIUS, MacOS, infrastructure",
+        "name": "FreeRADIUS Server on macOS",
+        "description": "All about running FreeRADIUS Server on macOS",
+        "categories": "RADIUS, macOS, infrastructure",
         "relative_path": "infrastructure/radius/freeradius-server-macosx",
         "updated_at": "2021-11-02T14:53:49Z",
         "created_at": "2021-11-02T14:53:49Z",
@@ -1041,8 +1041,8 @@
     },
     {
         "id": "#213",
-        "name": "FreeRADIUS/freeradius-client-macosx",
-        "description": "FreeRADIUS - running on MacOS (#fail - this project needs work)",
+        "name": "FreeRADIUS Client on macOS",
+        "description": "All about running FreeRADIUS on macOS (currently a #fail, needs work)",
         "categories": "RADIUS, MacOS, infrastructure",
         "relative_path": "infrastructure/radius/freeradius-client-macosx",
         "updated_at": "2021-11-02T14:53:49Z",
@@ -1131,8 +1131,8 @@
     },
     {
         "id": "#204",
-        "name": "Tools/iproute2",
-        "description": "about iproute2 and how to run it on MacOS",
+        "name": "iproute2",
+        "description": "about iproute2 and how to run it on macOS",
         "categories": "Tools, MacOS",
         "relative_path": "tools/iproute2",
         "updated_at": "2021-11-02T14:53:49Z",
@@ -1141,8 +1141,8 @@
     },
     {
         "id": "#203",
-        "name": "Tools/homebrew",
-        "description": "homebrew (MacOS package manager) tips and tricks",
+        "name": "Homebrew Tips and Tricks",
+        "description": "homebrew (macOS package manager) tips and tricks",
         "categories": "Tools, MacOS",
         "relative_path": "tools/homebrew",
         "updated_at": "2021-11-02T14:53:49Z",
@@ -3011,7 +3011,7 @@
     },
     {
         "id": "#016",
-        "name": "RADIUS/about",
+        "name": "RADIUS",
         "description": "RADIUS - my tl;dr summary",
         "categories": "RADIUS, infrastructure",
         "relative_path": "infrastructure/radius/about",
@@ -3081,7 +3081,7 @@
     },
     {
         "id": "#009",
-        "name": "Haskell/about",
+        "name": "About Haskell",
         "description": "Haskell - my tl;dr summary",
         "categories": "Haskell",
         "relative_path": "haskell/about",
@@ -3161,7 +3161,7 @@
     },
     {
         "id": "#001",
-        "name": "Tools/envsubst",
+        "name": "envsubst",
         "description": "substitute shell variables in text",
         "categories": "Tools, Bash",
         "relative_path": "tools/envsubst",

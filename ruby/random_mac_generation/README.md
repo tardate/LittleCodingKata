@@ -2,10 +2,9 @@
 
 Delving into MAC addresses and a little script to generate random ones.
 
-
 ## Notes
 
-This is a quick ruby port of the [python/random_mac_generation](../../python/random_mac_generation) example.
+This is a quick ruby port of the [python/random_mac_generation](../../python/random_mac_generation/) example.
 See there for notes on MAC addresses and such.
 
 ### A Little Random MAC Generator
@@ -14,7 +13,7 @@ See there for notes on MAC addresses and such.
 using the Xensource, Inc. OUI by default unless you
 pass it to a specific OUI on the command line:
 
-```
+```sh
 $ ruby test_random_mac.rb
 Run options: --seed 15492
 
@@ -33,6 +32,7 @@ $ ruby random_mac.rb 11-22-33
 ```
 
 ## Credits and References
+
 * [MAC address](https://en.wikipedia.org/wiki/MAC_address) - wikipedia
 * [Media access control](https://en.wikipedia.org/wiki/Media_access_control) - wikipedia
 * [macgen.py](http://www.linux-kvm.com/sites/default/files/macgen.py) - the script that got me started

@@ -8,17 +8,17 @@ Distributing code as static libraries for C++:
 
 * library maker produces the binary library files with associated header files
 * library user:
-  * compiles the program with the library header files
-  * links the program with the library binary files
+    * compiles the program with the library header files
+    * links the program with the library binary files
 
 The "static" reference means the library references are resolved at compile/link time, so the resulting executable has
 includes the library built-in. i.e. no runtime dependency on the library binaries.
 
 ## Making the Library
 
-The [animals](./animals) folder defines a simple library. It provides a "Cat" class that knows how to `speak()`.
+The `./animals` folder defines a simple library. It provides a "Cat" class that knows how to `speak()`.
 
-The [Makefile](./demo/Makefile) is setup to generate a library file.
+The [Makefile](./animals/Makefile) is setup to generate a library file.
 Basically, instead of targeting an executable like an actual program, we compile an link to a library archive file.
 Since I am on MacOS, I'm using the [GCC archiver](https://en.wikipedia.org/wiki/Ar_(Unix))
 
@@ -37,14 +37,13 @@ NB: [Shared Libraries](https://tldp.org/HOWTO/Program-Library-HOWTO/shared-libra
 
     "lib" + library-name + ".so"
 
-
 ## Distributing the library
 
 For others to use the library they need to things - the compiled library, and header files.
 For this test, I'm simply going to "distribute" using `cp`(!) ...
 
-    $ cp animals/libanimals.a demo/lcklib/
-    $ cp animals/*.h demo/lcklib/include
+    cp animals/libanimals.a demo/lcklib/
+    cp animals/*.h demo/lcklib/include
 
 NB: I've arbitrarily decided to put the binaries in a `lcklib` folder, and headers in `lcklib/include`.
 

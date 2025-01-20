@@ -1001,20 +1001,20 @@
     <id>https://codingkata.tardate.com/infrastructure/radius/freeradius-server-macosx/</id>
     <link href="https://codingkata.tardate.com/infrastructure/radius/freeradius-server-macosx/"/>
     <updated>2021-11-02T14:53:49Z</updated>
-    <title>#214 FreeRADIUS/freeradius-server-macosx</title>
-    <summary>FreeRADIUS - running on MacOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;FreeRADIUS - running on MacOS&lt;/p&gt;&lt;/div&gt;</content>
+    <title>#214 FreeRADIUS Server on macOS</title>
+    <summary>All about running FreeRADIUS Server on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;All about running FreeRADIUS Server on macOS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="RADIUS"/>
-    <category term="MacOS"/>
+    <category term="macOS"/>
     <category term="infrastructure"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/infrastructure/radius/freeradius-client-macosx/</id>
     <link href="https://codingkata.tardate.com/infrastructure/radius/freeradius-client-macosx/"/>
     <updated>2021-11-02T14:53:49Z</updated>
-    <title>#213 FreeRADIUS/freeradius-client-macosx</title>
-    <summary>FreeRADIUS - running on MacOS (#fail - this project needs work)</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;FreeRADIUS - running on MacOS (#fail - this project needs work)&lt;/p&gt;&lt;/div&gt;</content>
+    <title>#213 FreeRADIUS Client on macOS</title>
+    <summary>All about running FreeRADIUS on macOS (currently a #fail, needs work)</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;All about running FreeRADIUS on macOS (currently a #fail, needs work)&lt;/p&gt;&lt;/div&gt;</content>
     <category term="RADIUS"/>
     <category term="MacOS"/>
     <category term="infrastructure"/>
@@ -1102,9 +1102,9 @@
     <id>https://codingkata.tardate.com/tools/iproute2/</id>
     <link href="https://codingkata.tardate.com/tools/iproute2/"/>
     <updated>2021-11-02T14:53:49Z</updated>
-    <title>#204 Tools/iproute2</title>
-    <summary>about iproute2 and how to run it on MacOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;about iproute2 and how to run it on MacOS&lt;/p&gt;&lt;/div&gt;</content>
+    <title>#204 iproute2</title>
+    <summary>about iproute2 and how to run it on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;about iproute2 and how to run it on macOS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Tools"/>
     <category term="MacOS"/>
   </entry>
@@ -1112,9 +1112,9 @@
     <id>https://codingkata.tardate.com/tools/homebrew/</id>
     <link href="https://codingkata.tardate.com/tools/homebrew/"/>
     <updated>2021-11-02T14:53:49Z</updated>
-    <title>#203 Tools/homebrew</title>
-    <summary>homebrew (MacOS package manager) tips and tricks</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;homebrew (MacOS package manager) tips and tricks&lt;/p&gt;&lt;/div&gt;</content>
+    <title>#203 Homebrew Tips and Tricks</title>
+    <summary>homebrew (macOS package manager) tips and tricks</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;homebrew (macOS package manager) tips and tricks&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Tools"/>
     <category term="MacOS"/>
   </entry>
@@ -2951,7 +2951,7 @@
     <id>https://codingkata.tardate.com/infrastructure/radius/about/</id>
     <link href="https://codingkata.tardate.com/infrastructure/radius/about/"/>
     <updated>2016-07-10T13:14:48Z</updated>
-    <title>#016 RADIUS/about</title>
+    <title>#016 RADIUS</title>
     <summary>RADIUS - my tl;dr summary</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;RADIUS - my tl;dr summary&lt;/p&gt;&lt;/div&gt;</content>
     <category term="RADIUS"/>
@@ -3015,7 +3015,7 @@
     <id>https://codingkata.tardate.com/haskell/about/</id>
     <link href="https://codingkata.tardate.com/haskell/about/"/>
     <updated>2016-07-10T13:14:48Z</updated>
-    <title>#009 Haskell/about</title>
+    <title>#009 About Haskell</title>
     <summary>Haskell - my tl;dr summary</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Haskell - my tl;dr summary&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Haskell"/>
@@ -3088,7 +3088,7 @@
     <id>https://codingkata.tardate.com/tools/envsubst/</id>
     <link href="https://codingkata.tardate.com/tools/envsubst/"/>
     <updated>2016-07-10T13:14:48Z</updated>
-    <title>#001 Tools/envsubst</title>
+    <title>#001 envsubst</title>
     <summary>substitute shell variables in text</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;substitute shell variables in text&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Tools"/>

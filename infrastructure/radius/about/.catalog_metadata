@@ -1,6 +1,6 @@
 {
     "id": "#016",
-    "name": "RADIUS/about",
+    "name": "RADIUS",
     "description": "RADIUS - my tl;dr summary",
     "categories": "RADIUS, infrastructure",
     "relative_path": "infrastructure/radius/about",

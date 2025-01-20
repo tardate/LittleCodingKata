@@ -1,4 +1,4 @@
-# #231
+# #231 cron
 
 All about cron and OS-managed scheduled tasks
 
@@ -20,7 +20,6 @@ crontab format:
     # │ │ │ │ │
     # │ │ │ │ │
     # * * * * * <command to execute>
-
 
 See [crontab.guru](https://crontab.guru/) for an easy way of creating the precise schedule format.
 

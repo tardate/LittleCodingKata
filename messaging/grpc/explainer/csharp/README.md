@@ -8,17 +8,17 @@ The Explainer is totally inspired by Natalie Silvanovich's
 
 ## Generate Protocol Stubs
 
-This generates the [Explainer.cs](./Explainer.cs) [ExplainerGrpc.cs](./ExplainerGrpc.cs) protocol implementation and stubs.
+This generates the [Explainer.cs](./explain/Explainer.cs) and [ExplainerGrpc.cs](./explain/ExplainerGrpc.cs) protocol implementation and stubs.
 
-```
-$ protoc -I ../protocols --csharp_out=./explain --grpc_out=. --plugin=protoc-gen-grpc=`which grpc_csharp_plugin` ../protocols/explainer.proto
+```sh
+protoc -I ../protocols --csharp_out=./explain --grpc_out=. --plugin=protoc-gen-grpc=`which grpc_csharp_plugin` ../protocols/explainer.proto
 ```
 
 ## Build
 
 I'm building this on MacOS with mono 4.2.3
 
-```
+```sh
 $ mono --version
 Mono JIT compiler version 4.2.3 (explicit/832de4b Thu Mar  3 19:24:57 EST 2016)
 Copyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com
@@ -36,10 +36,9 @@ The project was setup with Xamarin Studio.
 Open the [explain/explain.sln](./explain/explain.sln) solution and build the project.
 It should also be possible to build it without issues on Windows with Visual Studio.
 
-
 Alternatively, it can be built from the command line:
 
-```
+```sh
 $ cd explain
 $ bin/nuget install ./packages.config -OutputDirectory ./packages
 [...etc till done...]
@@ -51,7 +50,7 @@ $ xbuild /p:Configuration=Release explain.sln
 I don't have a c# server implementation yet, so using the [ruby version](../ruby)
 Start the server in one console window..
 
-```
+```sh
 $ cd ../ruby
 $ ./explainer.rb
 ShiFu is waiting to explain all of your problems...
@@ -60,7 +59,7 @@ ShiFu is waiting to explain all of your problems...
 
 Now try the c# client in another:
 
-```
+```sh
 $ cd explain
 $ mono bin/Release/explain.exe
 
@@ -83,6 +82,7 @@ Your phone is probably crashing because of voltage gitches in the battery
 ```
 
 ## Credits and References
+
 * [gRPC docs](http://www.grpc.io/docs/)
 * [gRPC Basics: C#](http://www.grpc.io/docs/tutorials/basic/csharp.html)
 * [Hardware Excuse Generator](http://natashenka.ca/hardware-excuse-generator/)

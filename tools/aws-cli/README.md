@@ -1,4 +1,4 @@
-# #184
+# #184 aws-cli
 
 Installing the running the AWS CLI
 
@@ -12,7 +12,7 @@ Just the basics of instlaling and running the AWS CLI, updated for version 2.
 
 ### Local Install - MacOS
 
-Download and run the installer: https://awscli.amazonaws.com/AWSCLIV2.pkg
+Download and run the installer: <https://awscli.amazonaws.com/AWSCLIV2.pkg>
 After installation:
 
     $ which aws
@@ -24,7 +24,7 @@ Update: installed on macOS 14.2.1 (Apple Silicon):
 
     $ aws --version
     aws-cli/2.15.6 Python/3.11.6 Darwin/23.2.0 exe/x86_64 prompt/off
-    
+
 ### Running With Docker
 
 The CLI is now also available as a docker image:
@@ -81,12 +81,14 @@ $ find / -name awscli -type d
 ```
 
 That's because two separate python 2 installations. pip is coming from the pyenv version
+
 ```
 $ pip --version
 pip 19.2.3 from /Users/paulgallagher/.pyenv/versions/2.7.18/lib/python2.7/site-packages/pip (python 2.7)
 ```
 
 while aws is linked to an older python 2 - I think this is the defualt MacOS python:
+
 ```
 $ head -1 /usr/local/bin/aws
 #!/usr/local/opt/python@2/bin/python2.7

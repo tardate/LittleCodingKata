@@ -2,7 +2,7 @@
 
 Test interactive plotly.js ribbon charts with date-related data.
 
-[![demo](./assets/splash.png?raw=true)](https://codingkata.tardate.com/javascript/plotly_ribbon_charts/index.html)
+[![demo](./assets/splash.png?raw=true)](./example.html)
 
 ## Notes
 

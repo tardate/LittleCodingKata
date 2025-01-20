@@ -171,8 +171,8 @@ Adding:
 
 * [Dockerfile](./stafflist/docker/Dockerfile)
 * [entrypoint.sh](./stafflist/docker/entrypoint.sh) provides default Rails application startup
-* [docker-compose.yml](./stafflist/docker-compose.yml)
-* [.dockerignore](./stafflist/.dockerignore) to prevent locally installed assets from being added to the image
+* `docker-compose.yml`
+* `.dockerignore` to prevent locally installed assets from being added to the image
 
     $ docker-compose build
     $ docker-compose run --rm app bundle exec rails db:create

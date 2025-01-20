@@ -1,5 +1,6 @@
-# #204
+# #204 iproute2"
 
+About iproute2 and how to run it on macOS.
 
 ## Notes
 
@@ -32,7 +33,7 @@ When iproute2mac's `ip` runs out of steam, it's necessary fallback on `netstat`,
 I use [homebrew](https://github.com/Homebrew/homebrew) to manage most of my software installation,
 and wadiyano, there's a formula available:
 
-```
+```sh
 $ brew install iproute2mac
 $ ip link show en0
 en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500

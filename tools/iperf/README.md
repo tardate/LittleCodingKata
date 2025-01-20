@@ -1,4 +1,4 @@
-# #181
+# #181 iperf/iperf3
 
 iPerf is a tool for active measurements of the maximum achievable bandwidth on IP networks
 
@@ -6,16 +6,15 @@ iPerf is a tool for active measurements of the maximum achievable bandwidth on I
 
 iPerf3 is a tool for active measurements of the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, buffers and protocols (TCP, UDP, SCTP with IPv4 and IPv6). For each test it reports the bandwidth, loss, and other parameters. This is a new implementation that shares no code with the original iPerf and also is not backwards compatible. iPerf was orginally developed by NLANR/DAST. iPerf3 is principally developed by ESnet / Lawrence Berkeley National Laboratory. It is released under a three-clause BSD license.
 
-
 ## iPerf3
 
 Newer version, supports MacOS Mojave ad later.
 
-### MacOS Installation
+### iPerf3 MacOS Installation
 
 Homebrew is perhaps the easiest:
 
-```
+```sh
 $ brew install iperf3
 ...
 
@@ -29,7 +28,7 @@ Optional features available: sendfile / zerocopy, authentication
 
 Start up the server in one terminal window:
 
-```
+```sh
 $ iperf3 -s
 -----------------------------------------------------------
 Server listening on 5201 (test #1)
@@ -61,7 +60,7 @@ Server listening on 5201 (test #2)
 
 Then run a test form another window:
 
-```
+```sh
 $ iperf3 -u -c localhost
 Connecting to host localhost, port 5201
 warning: Block size 16312 > sending socket buffer size 9216
@@ -91,11 +90,11 @@ iperf Done.
 
 Example with the earlier version, has support all the way back to MacOS Sierra.
 
-### MacOS Installation
+### iPerf macOS Installation
 
 Homebrew is perhaps the easiest:
 
-```
+```sh
 $ brew install iperf
 ...
 $ brew info iperf
@@ -113,7 +112,7 @@ build-error: 0 (30 days)
 
 After installation:
 
-```
+```sh
 $ iperf -v
 iperf version 2.0.13 (21 Jan 2019) pthreads
 ```
@@ -122,7 +121,7 @@ iperf version 2.0.13 (21 Jan 2019) pthreads
 
 Start up the server in one terminal window:
 
-```
+```sh
 $ iperf -s -u
 ------------------------------------------------------------
 Server listening on UDP port 5001
@@ -137,7 +136,7 @@ UDP buffer size:  192 KByte (default)
 
 Then run a test form another window:
 
-```
+```sh
 $ iperf -u -c localhost
 ------------------------------------------------------------
 Client connecting to localhost, UDP port 5001

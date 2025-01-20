@@ -1,4 +1,4 @@
-# #100
+# #100 Cacti
 
 About the cacti network monitoring tool, including how to run it in Docker.
 
@@ -32,7 +32,6 @@ What it doesn't have:
 * there's no API for management/configuration
 * there's no API for data access/queries
 
-
 ### Requirements
 
 Cacti requires MySQL, PHP, RRDTool, net-snmp, and a webserver that supports PHP such as Apache or IIS.
@@ -52,7 +51,7 @@ The smcline06 version appears to have the more active [github repo](https://gith
 I'm using a [docker-compose.yml](./docker-compose.yml?raw=true) based on the [smcline06 single-instance example](https://github.com/scline/docker-cacti/tree/master/docker-compose).
 
 ```
-$ docker-compose up
+docker-compose up
 ```
 
 After initial startup, logging into [localhost](http://0.0.0.0) with default credentials `admin/admin` will prompt for a password change
@@ -72,11 +71,10 @@ And it's monitored with ping. Shows it going offine when I went out with the pho
 
 ![graphs](./assets/graphs.png?raw=true)
 
-
 Shutting down...
 
 ```
-$ docker-compose down
+docker-compose down
 ```
 
 The docker compose configuration defines a number of named volumes.

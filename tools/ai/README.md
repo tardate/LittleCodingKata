@@ -1,4 +1,4 @@
-# #297 Tools
+# #297 AI Tools
 
 A collection of AI tools that I've either used or would like to check out at some point.
 

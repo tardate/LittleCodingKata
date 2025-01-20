@@ -1,4 +1,4 @@
-# #306 rebase all
+# #306 git rebase all
 
 How to rebase all local branches on the current master/main branch
 
