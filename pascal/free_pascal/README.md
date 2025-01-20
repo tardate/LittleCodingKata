@@ -1,4 +1,4 @@
-# #194 Pascal
+# #194 Free Pascal
 
 Installing and running the Free Pascal compiler on MacOS.
 

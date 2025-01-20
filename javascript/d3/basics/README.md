@@ -1,4 +1,4 @@
-# #082 Basics
+# #082 D3 Basics
 
 Getting up and running and understanding the latest in D3.js
 

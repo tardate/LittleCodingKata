@@ -1,6 +1,6 @@
 {
     "id": "#026",
-    "name": "c/define_const",
+    "name": "Hash Define or Const?",
     "description": "Comparing the use of `#define` preprocessor macros and `const` statements",
     "categories": "C",
     "relative_path": "c/define_const",

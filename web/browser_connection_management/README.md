@@ -1,4 +1,4 @@
-# #167 Connection Management
+# #167 Browser Connection Management
 
 Notes on how web browsers manage network connections
 

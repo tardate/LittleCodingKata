@@ -1,4 +1,4 @@
-# #066 Random MAC Addresses
+# #066 MAC Address Generation with Python
 
 Delving into MAC addresses and a little script to generate random ones.
 

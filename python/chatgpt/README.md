@@ -1,4 +1,4 @@
-# #308 OpenAI with Python
+# #308 Using ChatGPT/OpenAI APIs with Python
 
 The basics of using ChatGPT/OpenAI APIs with Python
 

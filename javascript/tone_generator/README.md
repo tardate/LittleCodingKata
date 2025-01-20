@@ -1,4 +1,4 @@
-# #247 Tone Generator
+# #247 Audio Tone Generator
 
 I used ChatGPT to show me how to make an audio tone generation tool in Javascript and it taught me how to use the new(ish) AudioContext API
 

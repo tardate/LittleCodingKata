@@ -1,4 +1,4 @@
-# #019 Explainer - C++ Version
+# #019 gRPC Explainer - C++ Version
 
 This sample implements a C++ version of the
 [Explainer Protocol](../protocols/explainer.proto).

@@ -1,4 +1,4 @@
-# #227 Shell
+# #227 Docker Shell
 
 How to get a bash shell in a docker instance
 

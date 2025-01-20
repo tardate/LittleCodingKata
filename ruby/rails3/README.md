@@ -1,4 +1,4 @@
-# #049 on Rails 3
+# #049 Ruby on Rails 3
 
 Features and demonstration of Rails 3.
 

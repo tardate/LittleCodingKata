@@ -1,6 +1,6 @@
 {
     "id": "#002",
-    "name": "Perl/patch_file",
+    "name": "Patching Text Files",
     "description": "patching text files with Perl",
     "categories": "perl",
     "relative_path": "perl/patch_file",

@@ -1,6 +1,6 @@
 {
     "id": "#003",
-    "name": "Perl/fix_first_line",
+    "name": "Fixing the First Line of a File",
     "description": "patching text files with Perl - fix the first line only",
     "categories": "perl",
     "relative_path": "perl/fix_first_line",

@@ -1,4 +1,4 @@
-# #251 Editing
+# #251 Video Editing
 
 Miscellaneous video editing and manipulation tools
 

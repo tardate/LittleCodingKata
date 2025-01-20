@@ -1,4 +1,4 @@
-# #130 Tweets
+# #130 Database Tweets
 
 Tweeting from your Oracle database with short urls
 

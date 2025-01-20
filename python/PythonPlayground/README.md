@@ -1,4 +1,4 @@
-# #239 Playground
+# #239 Python Playground
 
 Book notes - Python Playground, by Mahesh Venkitachalam, published by No Starch Press
 

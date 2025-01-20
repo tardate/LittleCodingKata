@@ -1,4 +1,4 @@
-# #205 MIB browser
+# #205 iReasoning MIB browser
 
 Testing the iReasoning MIB browser on MacOS
 

@@ -205,8 +205,8 @@
     },
     "/typescript/about/": {
         "id": 294,
-        "title": "about typescript",
-        "summary": "typescript - my tl;dr summary, plus notes on getting started on macOS (Apple Silicon) and Ubuntu (x86).",
+        "title": "About TypeScript",
+        "summary": "TypeScript - my tl;dr summary, plus notes on getting started on macOS (Apple Silicon) and Ubuntu (x86).",
         "tags": [
             "typescript"
         ]
@@ -937,8 +937,8 @@
     },
     "/python/micropython/compiling_macosx/": {
         "id": 208,
-        "title": "python/micropython/compiling_macosx",
-        "summary": "Building MicroPython on MacOS",
+        "title": "Building MicroPython on macOS",
+        "summary": "Building MicroPython on macOS",
         "tags": [
             "python",
             "MicroPython"
@@ -946,7 +946,7 @@
     },
     "/go/install_macosx/": {
         "id": 207,
-        "title": "Go/install_macosx",
+        "title": "Go on macOS",
         "summary": "installing Go on MacOS",
         "tags": [
             "Go",
@@ -2119,7 +2119,7 @@
     },
     "/ruby/rails6/": {
         "id": 75,
-        "title": "rails6",
+        "title": "Ruby on Rails 6",
         "summary": "Running Rails 6 (beta1), learning about changes and new features, and testing out my favourite gems including: HAML",
         "tags": [
             "ruby",
@@ -2173,7 +2173,7 @@
     },
     "/python/top_level_imports/": {
         "id": 69,
-        "title": "Python/top_level_imports",
+        "title": "Top level imports",
         "summary": "or: why not to put an __init__.py in your top level folder",
         "tags": [
             "python"
@@ -2181,7 +2181,7 @@
     },
     "/python/twisted_client_server/": {
         "id": 68,
-        "title": "Python/twisted_client_server",
+        "title": "Twisted Client-Server with Tests",
         "summary": "writing client-server code with twisted and tests",
         "tags": [
             "python"
@@ -2215,7 +2215,7 @@
     },
     "/python/imgur/": {
         "id": 64,
-        "title": "python/imgur",
+        "title": "Using Python with the imgur API",
         "summary": "Using Python with the imgur API and demonstrate scanning imgur albums for image links",
         "tags": [
             "python",
@@ -2224,7 +2224,7 @@
     },
     "/python/finding_libraries/": {
         "id": 63,
-        "title": "python/finding_libraries",
+        "title": "Finding Python Libraries",
         "summary": "How to find great python libraries and resources",
         "tags": [
             "python"
@@ -2232,7 +2232,7 @@
     },
     "/python/decorating_class_methods/": {
         "id": 62,
-        "title": "Python/decorating_class_methods",
+        "title": "Decorating Class Methods",
         "summary": "all about decorating class methods and preserving the ability to introspect",
         "tags": [
             "python"
@@ -2240,7 +2240,7 @@
     },
     "/python/quirks/late_bound_closures/": {
         "id": 61,
-        "title": "Python/quirks/late_bound_closures",
+        "title": "Python quirks - late-bound closures",
         "summary": "Python quirks - late-bound closures",
         "tags": [
             "python"
@@ -2248,7 +2248,7 @@
     },
     "/python/quirks/mutable_default_params/": {
         "id": 60,
-        "title": "Python/quirks/mutable_default_params",
+        "title": "Python quirks - mutable default params",
         "summary": "Python quirks - mutable default params",
         "tags": [
             "python"
@@ -2256,7 +2256,7 @@
     },
     "/python/twisted_web_client/": {
         "id": 59,
-        "title": "Python/twisted_web_client",
+        "title": "Web Clients with Twisted",
         "summary": "writing web client code with twisted and tests",
         "tags": [
             "python"
@@ -2275,7 +2275,7 @@
     },
     "/ruby/tempfiles/": {
         "id": 57,
-        "title": "tempfiles",
+        "title": "Temporary Files with Ruby",
         "summary": "Using Temporary Files with Ruby",
         "tags": [
             "ruby"
@@ -2330,7 +2330,7 @@
     },
     "/ruby/rails5/": {
         "id": 51,
-        "title": "rails5",
+        "title": "Ruby on Rails 5",
         "summary": "Features and demonstration of Rails 5",
         "tags": [
             "ruby",
@@ -2339,7 +2339,7 @@
     },
     "/ruby/rails4/": {
         "id": 50,
-        "title": "rails4",
+        "title": "Ruby on Rails 4",
         "summary": "Features and demonstration of Rails 4",
         "tags": [
             "ruby",
@@ -2348,7 +2348,7 @@
     },
     "/ruby/rails3/": {
         "id": 49,
-        "title": "rails3",
+        "title": "Ruby on Rails 3",
         "summary": "Features and demonstration of Rails 3.",
         "tags": [
             "ruby",
@@ -2458,7 +2458,7 @@
     },
     "/bash/function_inference/": {
         "id": 36,
-        "title": "Bash/function_inference",
+        "title": "Bash Function Inference",
         "summary": "How to test for the presence of functions in order to branch to arbitrary functions by name",
         "tags": [
             "Bash"
@@ -2466,7 +2466,7 @@
     },
     "/bash/case_statement/": {
         "id": 35,
-        "title": "Bash/case_statement",
+        "title": "Bash Case Statement",
         "summary": "How to use case statements in the bash shell",
         "tags": [
             "Bash"
@@ -2474,7 +2474,7 @@
     },
     "/bash/file_locks/": {
         "id": 34,
-        "title": "Bash/file_locks",
+        "title": "Bash File Locks",
         "summary": "How to implement simple resource semaphores with file locks",
         "tags": [
             "Bash"
@@ -2482,7 +2482,7 @@
     },
     "/bash/parse_env_setting/": {
         "id": 33,
-        "title": "Bash/parse_env_setting",
+        "title": "Parsing Environment Settings",
         "summary": "Techniques for parsing environment variables with bash built-in features only",
         "tags": [
             "Bash"
@@ -2490,15 +2490,15 @@
     },
     "/c/iterating_char_arrays/": {
         "id": 32,
-        "title": "c/iterating_char_arrays",
-        "summary": "Iterating Character Arrays",
+        "title": "Iterating Character Arrays",
+        "summary": "Iterating Character Arrays in C",
         "tags": [
             "C"
         ]
     },
     "/mono/hello/": {
         "id": 31,
-        "title": "mono/hello",
+        "title": "Hello World with C#/mono",
         "summary": "Hello World with C#/mono",
         "tags": [
             "Mono",
@@ -2507,7 +2507,7 @@
     },
     "/mono/time/": {
         "id": 30,
-        "title": "mono/time",
+        "title": "Handling Time in C#/mono",
         "summary": "Handling Time in C#/mono",
         "tags": [
             "Mono",
@@ -2516,7 +2516,7 @@
     },
     "/mono/about/": {
         "id": 29,
-        "title": "mono/about",
+        "title": "About C# with Mono",
         "summary": "About C# with Mono",
         "tags": [
             "Mono",
@@ -2525,7 +2525,7 @@
     },
     "/bash/loops/": {
         "id": 28,
-        "title": "Bash/loops",
+        "title": "Bash Loops",
         "summary": "All about Bash loops",
         "tags": [
             "Bash"
@@ -2542,7 +2542,7 @@
     },
     "/c/define_const/": {
         "id": 26,
-        "title": "c/define_const",
+        "title": "Hash Define or Const?",
         "summary": "Comparing the use of `#define` preprocessor macros and `const` statements",
         "tags": [
             "C"
@@ -2550,7 +2550,7 @@
     },
     "/fft/running_kissfft_example/": {
         "id": 25,
-        "title": "fft/running_kissfft_example",
+        "title": "a Kiss FFT Example",
         "summary": "test drive the Kiss FFT C library with an example",
         "tags": [
             "C",
@@ -2559,7 +2559,7 @@
     },
     "/go/hello_world/": {
         "id": 24,
-        "title": "Go/hello_world",
+        "title": "Hello world in Go",
         "summary": "exploring Go with the simplest example",
         "tags": [
             "Go"
@@ -2567,7 +2567,7 @@
     },
     "/go/about/": {
         "id": 23,
-        "title": "Go/about",
+        "title": "About Go",
         "summary": "Go language - my tl;dr summary",
         "tags": [
             "Go"
@@ -2575,7 +2575,7 @@
     },
     "/messaging/grpc/explainer/ruby/": {
         "id": 22,
-        "title": "gRPC Explainer/Ruby",
+        "title": "gRPC Explainer - Ruby version",
         "summary": "hardware excuse generator with gRPC - Ruby client and server example",
         "tags": [
             "gRPC",
@@ -2585,7 +2585,7 @@
     },
     "/messaging/grpc/explainer/node/": {
         "id": 21,
-        "title": "gRPC Explainer/Node.js",
+        "title": "gRPC Explainer - Node.js version",
         "summary": "hardware excuse generator with gRPC - Node client example",
         "tags": [
             "gRPC",
@@ -2595,7 +2595,7 @@
     },
     "/messaging/grpc/explainer/csharp/": {
         "id": 20,
-        "title": "gRPC Explainer/C#",
+        "title": "gRPC Explainer - C# Version",
         "summary": "hardware excuse generator with gRPC - C# client example",
         "tags": [
             "gRPC",
@@ -2605,7 +2605,7 @@
     },
     "/messaging/grpc/explainer/cpp/": {
         "id": 19,
-        "title": "gRPC Explainer/C++",
+        "title": "gRPC Explainer - C++ Version",
         "summary": "hardware excuse generator with gRPC - C++ client example",
         "tags": [
             "gRPC",
@@ -2615,7 +2615,7 @@
     },
     "/messaging/grpc/explainer/python/": {
         "id": 18,
-        "title": "gRPC Explainer/Python",
+        "title": "gRPC Explainer - Python version",
         "summary": "hardware excuse generator with gRPC - Python client example",
         "tags": [
             "gRPC",
@@ -2643,7 +2643,7 @@
     },
     "/javascript/progress_bars_bootstrap/": {
         "id": 15,
-        "title": "Javascript/progress_bars_bootstrap",
+        "title": "Progress Bars with Bootstrap",
         "summary": "Progress Bars with Bootstrap",
         "tags": [
             "Javascript"
@@ -2659,7 +2659,7 @@
     },
     "/javascript/plotly_ribbon_charts/": {
         "id": 13,
-        "title": "Javascript/plotly_ribbon_charts",
+        "title": "Ribbon Charts with plotly.js",
         "summary": "Interactive Ribbon Charts with plotly.js",
         "tags": [
             "Javascript"
@@ -2675,15 +2675,15 @@
     },
     "/bash/process_lines/": {
         "id": 11,
-        "title": "Bash/process_lines",
-        "summary": "process a file line-by-line",
+        "title": "Process Lines",
+        "summary": "Process a File/Stream Line-by-Line in Bash",
         "tags": [
             "Bash"
         ]
     },
     "/bash/select_menu/": {
         "id": 10,
-        "title": "Bash/select_menu",
+        "title": "Select Menus",
         "summary": "simple multiple-choice user input",
         "tags": [
             "Bash"
@@ -2699,7 +2699,7 @@
     },
     "/haskell/hello_world/": {
         "id": 8,
-        "title": "Haskell/hello_world",
+        "title": "Hello World! in Haskell",
         "summary": "Haskell - Hello World",
         "tags": [
             "Haskell"
@@ -2740,7 +2740,7 @@
     },
     "/perl/fix_first_line/": {
         "id": 3,
-        "title": "Perl/fix_first_line",
+        "title": "Fixing the First Line of a File",
         "summary": "patching text files with Perl - fix the first line only",
         "tags": [
             "perl"
@@ -2748,7 +2748,7 @@
     },
     "/perl/patch_file/": {
         "id": 2,
-        "title": "Perl/patch_file",
+        "title": "Patching Text Files",
         "summary": "patching text files with Perl",
         "tags": [
             "perl"

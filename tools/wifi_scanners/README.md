@@ -1,4 +1,4 @@
-# #235 Scanners
+# #235 WiFi Scanners
 
 A quick survey of WiFi scanners
 

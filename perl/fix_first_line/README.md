@@ -1,4 +1,4 @@
-# #003 the First Line of a File
+# #003 Fixing the First Line of a File
 
 
 ## Notes

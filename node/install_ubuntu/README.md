@@ -1,4 +1,4 @@
-# #295 Node.js Ubuntu
+# #295 Installing Node.js Ubuntu
 
 Installing and maintaining Node.js on Ubuntu
 

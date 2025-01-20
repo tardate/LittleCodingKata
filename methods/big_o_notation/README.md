@@ -1,4 +1,4 @@
-# #253 O Notation
+# #253 Big O Notation
 
 About Big O Notation
 

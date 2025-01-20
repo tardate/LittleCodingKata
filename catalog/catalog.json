@@ -230,8 +230,8 @@
         "original_relative_path": "node/install_ubuntu"
     },
     {
-        "name": "about typescript",
-        "description": "typescript - my tl;dr summary, plus notes on getting started on macOS (Apple Silicon) and Ubuntu (x86).",
+        "name": "About TypeScript",
+        "description": "TypeScript - my tl;dr summary, plus notes on getting started on macOS (Apple Silicon) and Ubuntu (x86).",
         "categories": "typescript",
         "relative_path": "typescript/about",
         "updated_at": "2024-08-07T04:50:53Z",
@@ -1091,8 +1091,8 @@
     },
     {
         "id": "#208",
-        "name": "python/micropython/compiling_macosx",
-        "description": "Building MicroPython on MacOS",
+        "name": "Building MicroPython on macOS",
+        "description": "Building MicroPython on macOS",
         "categories": "python, MicroPython",
         "relative_path": "python/micropython/compiling_macosx",
         "updated_at": "2021-11-02T14:53:49Z",
@@ -1101,7 +1101,7 @@
     },
     {
         "id": "#207",
-        "name": "Go/install_macosx",
+        "name": "Go on macOS",
         "description": "installing Go on MacOS",
         "categories": "Go, MacOS",
         "relative_path": "go/install_macosx",
@@ -2420,7 +2420,7 @@
         "original_relative_path": "python/reading_mdb"
     },
     {
-        "name": "rails6",
+        "name": "Ruby on Rails 6",
         "description": "Running Rails 6 (beta1), learning about changes and new features, and testing out my favourite gems including: HAML",
         "categories": "ruby, rails, haml",
         "relative_path": "ruby/rails6",
@@ -2481,7 +2481,7 @@
     },
     {
         "id": "#069",
-        "name": "Python/top_level_imports",
+        "name": "Top level imports",
         "description": "or: why not to put an __init__.py in your top level folder",
         "categories": "python",
         "relative_path": "python/top_level_imports",
@@ -2491,7 +2491,7 @@
     },
     {
         "id": "#068",
-        "name": "Python/twisted_client_server",
+        "name": "Twisted Client-Server with Tests",
         "description": "writing client-server code with twisted and tests",
         "categories": "python",
         "relative_path": "python/twisted_client_server",
@@ -2531,7 +2531,7 @@
     },
     {
         "id": "#064",
-        "name": "python/imgur",
+        "name": "Using Python with the imgur API",
         "description": "Using Python with the imgur API and demonstrate scanning imgur albums for image links",
         "categories": "python, imgur",
         "relative_path": "python/imgur",
@@ -2541,7 +2541,7 @@
     },
     {
         "id": "#063",
-        "name": "python/finding_libraries",
+        "name": "Finding Python Libraries",
         "description": "How to find great python libraries and resources",
         "categories": "python",
         "relative_path": "python/finding_libraries",
@@ -2551,7 +2551,7 @@
     },
     {
         "id": "#062",
-        "name": "Python/decorating_class_methods",
+        "name": "Decorating Class Methods",
         "description": "all about decorating class methods and preserving the ability to introspect",
         "categories": "python",
         "relative_path": "python/decorating_class_methods",
@@ -2561,7 +2561,7 @@
     },
     {
         "id": "#061",
-        "name": "Python/quirks/late_bound_closures",
+        "name": "Python quirks - late-bound closures",
         "description": "Python quirks - late-bound closures",
         "categories": "python",
         "relative_path": "python/quirks/late_bound_closures",
@@ -2571,7 +2571,7 @@
     },
     {
         "id": "#060",
-        "name": "Python/quirks/mutable_default_params",
+        "name": "Python quirks - mutable default params",
         "description": "Python quirks - mutable default params",
         "categories": "python",
         "relative_path": "python/quirks/mutable_default_params",
@@ -2581,7 +2581,7 @@
     },
     {
         "id": "#059",
-        "name": "Python/twisted_web_client",
+        "name": "Web Clients with Twisted",
         "description": "writing web client code with twisted and tests",
         "categories": "python",
         "relative_path": "python/twisted_web_client",
@@ -2600,7 +2600,7 @@
         "original_relative_path": "tools/s3sync"
     },
     {
-        "name": "tempfiles",
+        "name": "Temporary Files with Ruby",
         "description": "Using Temporary Files with Ruby",
         "categories": "ruby",
         "relative_path": "ruby/tempfiles",
@@ -2660,7 +2660,7 @@
         "original_relative_path": "tools/vscode"
     },
     {
-        "name": "rails5",
+        "name": "Ruby on Rails 5",
         "description": "Features and demonstration of Rails 5",
         "categories": "ruby, rails",
         "relative_path": "ruby/rails5",
@@ -2670,7 +2670,7 @@
         "original_relative_path": "ruby/rails5"
     },
     {
-        "name": "rails4",
+        "name": "Ruby on Rails 4",
         "description": "Features and demonstration of Rails 4",
         "categories": "ruby, rails",
         "relative_path": "ruby/rails4",
@@ -2680,7 +2680,7 @@
         "original_relative_path": "ruby/rails4"
     },
     {
-        "name": "rails3",
+        "name": "Ruby on Rails 3",
         "description": "Features and demonstration of Rails 3.",
         "categories": "ruby, rails",
         "relative_path": "ruby/rails3",
@@ -2810,7 +2810,7 @@
         "original_relative_path": "bash/sort_by_numbers"
     },
     {
-        "name": "Bash/function_inference",
+        "name": "Bash Function Inference",
         "description": "How to test for the presence of functions in order to branch to arbitrary functions by name",
         "categories": "Bash",
         "relative_path": "bash/function_inference",
@@ -2821,7 +2821,7 @@
     },
     {
         "id": "#035",
-        "name": "Bash/case_statement",
+        "name": "Bash Case Statement",
         "description": "How to use case statements in the bash shell",
         "categories": "Bash",
         "relative_path": "bash/case_statement",
@@ -2831,7 +2831,7 @@
     },
     {
         "id": "#034",
-        "name": "Bash/file_locks",
+        "name": "Bash File Locks",
         "description": "How to implement simple resource semaphores with file locks",
         "categories": "Bash",
         "relative_path": "bash/file_locks",
@@ -2841,7 +2841,7 @@
     },
     {
         "id": "#033",
-        "name": "Bash/parse_env_setting",
+        "name": "Parsing Environment Settings",
         "description": "Techniques for parsing environment variables with bash built-in features only",
         "categories": "Bash",
         "relative_path": "bash/parse_env_setting",
@@ -2851,8 +2851,8 @@
     },
     {
         "id": "#032",
-        "name": "c/iterating_char_arrays",
-        "description": "Iterating Character Arrays",
+        "name": "Iterating Character Arrays",
+        "description": "Iterating Character Arrays in C",
         "categories": "C",
         "relative_path": "c/iterating_char_arrays",
         "updated_at": "2017-09-24T13:39:40Z",
@@ -2861,7 +2861,7 @@
     },
     {
         "id": "#031",
-        "name": "mono/hello",
+        "name": "Hello World with C#/mono",
         "description": "Hello World with C#/mono",
         "categories": "Mono, C#",
         "relative_path": "mono/hello",
@@ -2871,7 +2871,7 @@
     },
     {
         "id": "#030",
-        "name": "mono/time",
+        "name": "Handling Time in C#/mono",
         "description": "Handling Time in C#/mono",
         "categories": "Mono, C#",
         "relative_path": "mono/time",
@@ -2881,7 +2881,7 @@
     },
     {
         "id": "#029",
-        "name": "mono/about",
+        "name": "About C# with Mono",
         "description": "About C# with Mono",
         "categories": "Mono, C#",
         "relative_path": "mono/about",
@@ -2891,7 +2891,7 @@
     },
     {
         "id": "#028",
-        "name": "Bash/loops",
+        "name": "Bash Loops",
         "description": "All about Bash loops",
         "categories": "Bash",
         "relative_path": "bash/loops",
@@ -2911,7 +2911,7 @@
     },
     {
         "id": "#026",
-        "name": "c/define_const",
+        "name": "Hash Define or Const?",
         "description": "Comparing the use of `#define` preprocessor macros and `const` statements",
         "categories": "C",
         "relative_path": "c/define_const",
@@ -2921,7 +2921,7 @@
     },
     {
         "id": "#025",
-        "name": "fft/running_kissfft_example",
+        "name": "a Kiss FFT Example",
         "description": "test drive the Kiss FFT C library with an example",
         "categories": "C, FFT",
         "relative_path": "fft/running_kissfft_example",
@@ -2931,7 +2931,7 @@
     },
     {
         "id": "#024",
-        "name": "Go/hello_world",
+        "name": "Hello world in Go",
         "description": "exploring Go with the simplest example",
         "categories": "Go",
         "relative_path": "go/hello_world",
@@ -2941,7 +2941,7 @@
     },
     {
         "id": "#023",
-        "name": "Go/about",
+        "name": "About Go",
         "description": "Go language - my tl;dr summary",
         "categories": "Go",
         "relative_path": "go/about",
@@ -2951,7 +2951,7 @@
     },
     {
         "id": "#022",
-        "name": "gRPC Explainer/Ruby",
+        "name": "gRPC Explainer - Ruby version",
         "description": "hardware excuse generator with gRPC - Ruby client and server example",
         "categories": "gRPC, Ruby, Messaging",
         "relative_path": "messaging/grpc/explainer/ruby",
@@ -2961,7 +2961,7 @@
     },
     {
         "id": "#021",
-        "name": "gRPC Explainer/Node.js",
+        "name": "gRPC Explainer - Node.js version",
         "description": "hardware excuse generator with gRPC - Node client example",
         "categories": "gRPC, Node, Messaging",
         "relative_path": "messaging/grpc/explainer/node",
@@ -2971,7 +2971,7 @@
     },
     {
         "id": "#020",
-        "name": "gRPC Explainer/C#",
+        "name": "gRPC Explainer - C# Version",
         "description": "hardware excuse generator with gRPC - C# client example",
         "categories": "gRPC, C#, Messaging",
         "relative_path": "messaging/grpc/explainer/csharp",
@@ -2981,7 +2981,7 @@
     },
     {
         "id": "#019",
-        "name": "gRPC Explainer/C++",
+        "name": "gRPC Explainer - C++ Version",
         "description": "hardware excuse generator with gRPC - C++ client example",
         "categories": "gRPC, C++, Messaging",
         "relative_path": "messaging/grpc/explainer/cpp",
@@ -2991,7 +2991,7 @@
     },
     {
         "id": "#018",
-        "name": "gRPC Explainer/Python",
+        "name": "gRPC Explainer - Python version",
         "description": "hardware excuse generator with gRPC - Python client example",
         "categories": "gRPC, Python, Messaging",
         "relative_path": "messaging/grpc/explainer/python",
@@ -3021,7 +3021,7 @@
     },
     {
         "id": "#015",
-        "name": "Javascript/progress_bars_bootstrap",
+        "name": "Progress Bars with Bootstrap",
         "description": "Progress Bars with Bootstrap",
         "categories": "Javascript",
         "relative_path": "javascript/progress_bars_bootstrap",
@@ -3041,7 +3041,7 @@
     },
     {
         "id": "#013",
-        "name": "Javascript/plotly_ribbon_charts",
+        "name": "Ribbon Charts with plotly.js",
         "description": "Interactive Ribbon Charts with plotly.js",
         "categories": "Javascript",
         "relative_path": "javascript/plotly_ribbon_charts",
@@ -3061,8 +3061,8 @@
     },
     {
         "id": "#011",
-        "name": "Bash/process_lines",
-        "description": "process a file line-by-line",
+        "name": "Process Lines",
+        "description": "Process a File/Stream Line-by-Line in Bash",
         "categories": "Bash",
         "relative_path": "bash/process_lines",
         "updated_at": "2016-07-10T13:14:48Z",
@@ -3071,7 +3071,7 @@
     },
     {
         "id": "#010",
-        "name": "Bash/select_menu",
+        "name": "Select Menus",
         "description": "simple multiple-choice user input",
         "categories": "Bash",
         "relative_path": "bash/select_menu",
@@ -3091,7 +3091,7 @@
     },
     {
         "id": "#008",
-        "name": "Haskell/hello_world",
+        "name": "Hello World! in Haskell",
         "description": "Haskell - Hello World",
         "categories": "Haskell",
         "relative_path": "haskell/hello_world",
@@ -3141,7 +3141,7 @@
     },
     {
         "id": "#003",
-        "name": "Perl/fix_first_line",
+        "name": "Fixing the First Line of a File",
         "description": "patching text files with Perl - fix the first line only",
         "categories": "perl",
         "relative_path": "perl/fix_first_line",
@@ -3151,7 +3151,7 @@
     },
     {
         "id": "#002",
-        "name": "Perl/patch_file",
+        "name": "Patching Text Files",
         "description": "patching text files with Perl",
         "categories": "perl",
         "relative_path": "perl/patch_file",

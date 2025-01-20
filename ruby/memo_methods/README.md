@@ -1,4 +1,4 @@
-# #140 Methods
+# #140 Memo Methods
 
 Comparing and testing various memoization methods and gems in Ruby.
 

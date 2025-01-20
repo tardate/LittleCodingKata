@@ -1,4 +1,4 @@
-# #177 SDL Graphics
+# #177 Basic SDL Graphics
 
 Testing some basic windo and rendering functions with SDL library in C++.
 

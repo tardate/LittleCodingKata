@@ -1,4 +1,4 @@
-# #209 Python 2 and 3 on MacOS
+# #209 Installing Python 2 and 3 on MacOS
 
 Notes on installing and maintaining python 2 and 3 versions on MacOS.
 

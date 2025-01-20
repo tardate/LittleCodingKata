@@ -1,4 +1,4 @@
-# #199 Bin
+# #199 Request Bin
 
 Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins.
 

@@ -1,4 +1,4 @@
-# #126 Fonts
+# #126 Variable Fonts
 
 Understanding the new standards for variable CSS fonts.
 

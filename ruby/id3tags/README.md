@@ -1,4 +1,4 @@
-# #303 Tags
+# #303 ID3 Tags
 
 Managing ID3 tags with Ruby.
 

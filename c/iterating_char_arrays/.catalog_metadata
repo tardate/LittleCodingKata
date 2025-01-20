@@ -1,7 +1,7 @@
 {
     "id": "#032",
-    "name": "c/iterating_char_arrays",
-    "description": "Iterating Character Arrays",
+    "name": "Iterating Character Arrays",
+    "description": "Iterating Character Arrays in C",
     "categories": "C",
     "relative_path": "c/iterating_char_arrays",
     "updated_at": "2017-09-24T13:39:40Z",

@@ -244,9 +244,9 @@
     <id>https://codingkata.tardate.com/typescript/about/</id>
     <link href="https://codingkata.tardate.com/typescript/about/"/>
     <updated>2024-08-07T04:50:53Z</updated>
-    <title>#294 about typescript</title>
-    <summary>typescript - my tl;dr summary, plus notes on getting started on macOS (Apple Silicon) and Ubuntu (x86).</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;typescript - my tl;dr summary, plus notes on getting started on macOS (Apple Silicon) and Ubuntu (x86).&lt;/p&gt;&lt;/div&gt;</content>
+    <title>#294 About TypeScript</title>
+    <summary>TypeScript - my tl;dr summary, plus notes on getting started on macOS (Apple Silicon) and Ubuntu (x86).</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;TypeScript - my tl;dr summary, plus notes on getting started on macOS (Apple Silicon) and Ubuntu (x86).&lt;/p&gt;&lt;/div&gt;</content>
     <category term="typescript"/>
   </entry>
   <entry>
@@ -1062,9 +1062,9 @@
     <id>https://codingkata.tardate.com/python/micropython/compiling_macosx/</id>
     <link href="https://codingkata.tardate.com/python/micropython/compiling_macosx/"/>
     <updated>2021-11-02T14:53:49Z</updated>
-    <title>#208 python/micropython/compiling_macosx</title>
-    <summary>Building MicroPython on MacOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Building MicroPython on MacOS&lt;/p&gt;&lt;/div&gt;</content>
+    <title>#208 Building MicroPython on macOS</title>
+    <summary>Building MicroPython on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Building MicroPython on macOS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="python"/>
     <category term="MicroPython"/>
   </entry>
@@ -1072,7 +1072,7 @@
     <id>https://codingkata.tardate.com/go/install_macosx/</id>
     <link href="https://codingkata.tardate.com/go/install_macosx/"/>
     <updated>2021-11-02T14:53:49Z</updated>
-    <title>#207 Go/install_macosx</title>
+    <title>#207 Go on macOS</title>
     <summary>installing Go on MacOS</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;installing Go on MacOS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Go"/>
@@ -2377,7 +2377,7 @@
     <id>https://codingkata.tardate.com/ruby/rails6/</id>
     <link href="https://codingkata.tardate.com/ruby/rails6/"/>
     <updated>2019-07-24T15:02:34Z</updated>
-    <title>#075 rails6</title>
+    <title>#075 Ruby on Rails 6</title>
     <summary>Running Rails 6 (beta1), learning about changes and new features, and testing out my favourite gems including: HAML</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Running Rails 6 (beta1), learning about changes and new features, and testing out my favourite gems including: HAML&lt;/p&gt;&lt;/div&gt;</content>
     <category term="ruby"/>
@@ -2437,7 +2437,7 @@
     <id>https://codingkata.tardate.com/python/top_level_imports/</id>
     <link href="https://codingkata.tardate.com/python/top_level_imports/"/>
     <updated>2019-07-20T04:58:08Z</updated>
-    <title>#069 Python/top_level_imports</title>
+    <title>#069 Top level imports</title>
     <summary>or: why not to put an __init__.py in your top level folder</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;or: why not to put an __init__.py in your top level folder&lt;/p&gt;&lt;/div&gt;</content>
     <category term="python"/>
@@ -2446,7 +2446,7 @@
     <id>https://codingkata.tardate.com/python/twisted_client_server/</id>
     <link href="https://codingkata.tardate.com/python/twisted_client_server/"/>
     <updated>2019-07-20T04:58:08Z</updated>
-    <title>#068 Python/twisted_client_server</title>
+    <title>#068 Twisted Client-Server with Tests</title>
     <summary>writing client-server code with twisted and tests</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;writing client-server code with twisted and tests&lt;/p&gt;&lt;/div&gt;</content>
     <category term="python"/>
@@ -2484,7 +2484,7 @@
     <id>https://codingkata.tardate.com/python/imgur/</id>
     <link href="https://codingkata.tardate.com/python/imgur/"/>
     <updated>2019-07-20T04:58:08Z</updated>
-    <title>#064 python/imgur</title>
+    <title>#064 Using Python with the imgur API</title>
     <summary>Using Python with the imgur API and demonstrate scanning imgur albums for image links</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using Python with the imgur API and demonstrate scanning imgur albums for image links&lt;/p&gt;&lt;/div&gt;</content>
     <category term="python"/>
@@ -2494,7 +2494,7 @@
     <id>https://codingkata.tardate.com/python/finding_libraries/</id>
     <link href="https://codingkata.tardate.com/python/finding_libraries/"/>
     <updated>2019-07-20T04:58:08Z</updated>
-    <title>#063 python/finding_libraries</title>
+    <title>#063 Finding Python Libraries</title>
     <summary>How to find great python libraries and resources</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;How to find great python libraries and resources&lt;/p&gt;&lt;/div&gt;</content>
     <category term="python"/>
@@ -2503,7 +2503,7 @@
     <id>https://codingkata.tardate.com/python/decorating_class_methods/</id>
     <link href="https://codingkata.tardate.com/python/decorating_class_methods/"/>
     <updated>2019-07-20T04:58:08Z</updated>
-    <title>#062 Python/decorating_class_methods</title>
+    <title>#062 Decorating Class Methods</title>
     <summary>all about decorating class methods and preserving the ability to introspect</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;all about decorating class methods and preserving the ability to introspect&lt;/p&gt;&lt;/div&gt;</content>
     <category term="python"/>
@@ -2512,7 +2512,7 @@
     <id>https://codingkata.tardate.com/python/quirks/late_bound_closures/</id>
     <link href="https://codingkata.tardate.com/python/quirks/late_bound_closures/"/>
     <updated>2019-07-20T04:58:08Z</updated>
-    <title>#061 Python/quirks/late_bound_closures</title>
+    <title>#061 Python quirks - late-bound closures</title>
     <summary>Python quirks - late-bound closures</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Python quirks - late-bound closures&lt;/p&gt;&lt;/div&gt;</content>
     <category term="python"/>
@@ -2521,7 +2521,7 @@
     <id>https://codingkata.tardate.com/python/quirks/mutable_default_params/</id>
     <link href="https://codingkata.tardate.com/python/quirks/mutable_default_params/"/>
     <updated>2019-07-20T04:58:08Z</updated>
-    <title>#060 Python/quirks/mutable_default_params</title>
+    <title>#060 Python quirks - mutable default params</title>
     <summary>Python quirks - mutable default params</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Python quirks - mutable default params&lt;/p&gt;&lt;/div&gt;</content>
     <category term="python"/>
@@ -2530,7 +2530,7 @@
     <id>https://codingkata.tardate.com/python/twisted_web_client/</id>
     <link href="https://codingkata.tardate.com/python/twisted_web_client/"/>
     <updated>2019-07-20T04:58:08Z</updated>
-    <title>#059 Python/twisted_web_client</title>
+    <title>#059 Web Clients with Twisted</title>
     <summary>writing web client code with twisted and tests</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;writing web client code with twisted and tests&lt;/p&gt;&lt;/div&gt;</content>
     <category term="python"/>
@@ -2551,7 +2551,7 @@
     <id>https://codingkata.tardate.com/ruby/tempfiles/</id>
     <link href="https://codingkata.tardate.com/ruby/tempfiles/"/>
     <updated>2019-06-09T05:39:40Z</updated>
-    <title>#057 tempfiles</title>
+    <title>#057 Temporary Files with Ruby</title>
     <summary>Using Temporary Files with Ruby</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using Temporary Files with Ruby&lt;/p&gt;&lt;/div&gt;</content>
     <category term="ruby"/>
@@ -2612,7 +2612,7 @@
     <id>https://codingkata.tardate.com/ruby/rails5/</id>
     <link href="https://codingkata.tardate.com/ruby/rails5/"/>
     <updated>2019-02-25T14:32:51Z</updated>
-    <title>#051 rails5</title>
+    <title>#051 Ruby on Rails 5</title>
     <summary>Features and demonstration of Rails 5</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Features and demonstration of Rails 5&lt;/p&gt;&lt;/div&gt;</content>
     <category term="ruby"/>
@@ -2622,7 +2622,7 @@
     <id>https://codingkata.tardate.com/ruby/rails4/</id>
     <link href="https://codingkata.tardate.com/ruby/rails4/"/>
     <updated>2019-02-25T14:32:51Z</updated>
-    <title>#050 rails4</title>
+    <title>#050 Ruby on Rails 4</title>
     <summary>Features and demonstration of Rails 4</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Features and demonstration of Rails 4&lt;/p&gt;&lt;/div&gt;</content>
     <category term="ruby"/>
@@ -2632,7 +2632,7 @@
     <id>https://codingkata.tardate.com/ruby/rails3/</id>
     <link href="https://codingkata.tardate.com/ruby/rails3/"/>
     <updated>2019-02-25T14:32:51Z</updated>
-    <title>#049 rails3</title>
+    <title>#049 Ruby on Rails 3</title>
     <summary>Features and demonstration of Rails 3.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Features and demonstration of Rails 3.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="ruby"/>
@@ -2755,7 +2755,7 @@
     <id>https://codingkata.tardate.com/bash/function_inference/</id>
     <link href="https://codingkata.tardate.com/bash/function_inference/"/>
     <updated>2018-04-18T16:30:13Z</updated>
-    <title>#036 Bash/function_inference</title>
+    <title>#036 Bash Function Inference</title>
     <summary>How to test for the presence of functions in order to branch to arbitrary functions by name</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;How to test for the presence of functions in order to branch to arbitrary functions by name&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Bash"/>
@@ -2764,7 +2764,7 @@
     <id>https://codingkata.tardate.com/bash/case_statement/</id>
     <link href="https://codingkata.tardate.com/bash/case_statement/"/>
     <updated>2018-04-17T16:02:33Z</updated>
-    <title>#035 Bash/case_statement</title>
+    <title>#035 Bash Case Statement</title>
     <summary>How to use case statements in the bash shell</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;How to use case statements in the bash shell&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Bash"/>
@@ -2773,7 +2773,7 @@
     <id>https://codingkata.tardate.com/bash/file_locks/</id>
     <link href="https://codingkata.tardate.com/bash/file_locks/"/>
     <updated>2017-10-09T15:23:07Z</updated>
-    <title>#034 Bash/file_locks</title>
+    <title>#034 Bash File Locks</title>
     <summary>How to implement simple resource semaphores with file locks</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;How to implement simple resource semaphores with file locks&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Bash"/>
@@ -2782,7 +2782,7 @@
     <id>https://codingkata.tardate.com/bash/parse_env_setting/</id>
     <link href="https://codingkata.tardate.com/bash/parse_env_setting/"/>
     <updated>2017-10-09T13:16:53Z</updated>
-    <title>#033 Bash/parse_env_setting</title>
+    <title>#033 Parsing Environment Settings</title>
     <summary>Techniques for parsing environment variables with bash built-in features only</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Techniques for parsing environment variables with bash built-in features only&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Bash"/>
@@ -2791,16 +2791,16 @@
     <id>https://codingkata.tardate.com/c/iterating_char_arrays/</id>
     <link href="https://codingkata.tardate.com/c/iterating_char_arrays/"/>
     <updated>2017-09-24T13:39:40Z</updated>
-    <title>#032 c/iterating_char_arrays</title>
-    <summary>Iterating Character Arrays</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Iterating Character Arrays&lt;/p&gt;&lt;/div&gt;</content>
+    <title>#032 Iterating Character Arrays</title>
+    <summary>Iterating Character Arrays in C</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Iterating Character Arrays in C&lt;/p&gt;&lt;/div&gt;</content>
     <category term="C"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/mono/hello/</id>
     <link href="https://codingkata.tardate.com/mono/hello/"/>
     <updated>2017-02-19T09:20:41Z</updated>
-    <title>#031 mono/hello</title>
+    <title>#031 Hello World with C#/mono</title>
     <summary>Hello World with C#/mono</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Hello World with C#/mono&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Mono"/>
@@ -2810,7 +2810,7 @@
     <id>https://codingkata.tardate.com/mono/time/</id>
     <link href="https://codingkata.tardate.com/mono/time/"/>
     <updated>2017-02-19T09:20:41Z</updated>
-    <title>#030 mono/time</title>
+    <title>#030 Handling Time in C#/mono</title>
     <summary>Handling Time in C#/mono</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Handling Time in C#/mono&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Mono"/>
@@ -2820,7 +2820,7 @@
     <id>https://codingkata.tardate.com/mono/about/</id>
     <link href="https://codingkata.tardate.com/mono/about/"/>
     <updated>2017-02-19T09:20:41Z</updated>
-    <title>#029 mono/about</title>
+    <title>#029 About C# with Mono</title>
     <summary>About C# with Mono</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;About C# with Mono&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Mono"/>
@@ -2830,7 +2830,7 @@
     <id>https://codingkata.tardate.com/bash/loops/</id>
     <link href="https://codingkata.tardate.com/bash/loops/"/>
     <updated>2017-02-19T05:49:47Z</updated>
-    <title>#028 Bash/loops</title>
+    <title>#028 Bash Loops</title>
     <summary>All about Bash loops</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;All about Bash loops&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Bash"/>
@@ -2849,7 +2849,7 @@
     <id>https://codingkata.tardate.com/c/define_const/</id>
     <link href="https://codingkata.tardate.com/c/define_const/"/>
     <updated>2016-12-25T07:44:11Z</updated>
-    <title>#026 c/define_const</title>
+    <title>#026 Hash Define or Const?</title>
     <summary>Comparing the use of `#define` preprocessor macros and `const` statements</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Comparing the use of `#define` preprocessor macros and `const` statements&lt;/p&gt;&lt;/div&gt;</content>
     <category term="C"/>
@@ -2858,7 +2858,7 @@
     <id>https://codingkata.tardate.com/fft/running_kissfft_example/</id>
     <link href="https://codingkata.tardate.com/fft/running_kissfft_example/"/>
     <updated>2016-09-13T22:35:42Z</updated>
-    <title>#025 fft/running_kissfft_example</title>
+    <title>#025 a Kiss FFT Example</title>
     <summary>test drive the Kiss FFT C library with an example</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test drive the Kiss FFT C library with an example&lt;/p&gt;&lt;/div&gt;</content>
     <category term="C"/>
@@ -2868,7 +2868,7 @@
     <id>https://codingkata.tardate.com/go/hello_world/</id>
     <link href="https://codingkata.tardate.com/go/hello_world/"/>
     <updated>2016-09-10T13:53:45Z</updated>
-    <title>#024 Go/hello_world</title>
+    <title>#024 Hello world in Go</title>
     <summary>exploring Go with the simplest example</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;exploring Go with the simplest example&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Go"/>
@@ -2877,7 +2877,7 @@
     <id>https://codingkata.tardate.com/go/about/</id>
     <link href="https://codingkata.tardate.com/go/about/"/>
     <updated>2016-09-10T01:00:27Z</updated>
-    <title>#023 Go/about</title>
+    <title>#023 About Go</title>
     <summary>Go language - my tl;dr summary</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Go language - my tl;dr summary&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Go"/>
@@ -2886,7 +2886,7 @@
     <id>https://codingkata.tardate.com/messaging/grpc/explainer/ruby/</id>
     <link href="https://codingkata.tardate.com/messaging/grpc/explainer/ruby/"/>
     <updated>2016-07-10T13:14:48Z</updated>
-    <title>#022 gRPC Explainer/Ruby</title>
+    <title>#022 gRPC Explainer - Ruby version</title>
     <summary>hardware excuse generator with gRPC - Ruby client and server example</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;hardware excuse generator with gRPC - Ruby client and server example&lt;/p&gt;&lt;/div&gt;</content>
     <category term="gRPC"/>
@@ -2897,7 +2897,7 @@
     <id>https://codingkata.tardate.com/messaging/grpc/explainer/node/</id>
     <link href="https://codingkata.tardate.com/messaging/grpc/explainer/node/"/>
     <updated>2016-07-10T13:14:48Z</updated>
-    <title>#021 gRPC Explainer/Node.js</title>
+    <title>#021 gRPC Explainer - Node.js version</title>
     <summary>hardware excuse generator with gRPC - Node client example</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;hardware excuse generator with gRPC - Node client example&lt;/p&gt;&lt;/div&gt;</content>
     <category term="gRPC"/>
@@ -2908,7 +2908,7 @@
     <id>https://codingkata.tardate.com/messaging/grpc/explainer/csharp/</id>
     <link href="https://codingkata.tardate.com/messaging/grpc/explainer/csharp/"/>
     <updated>2016-07-10T13:14:48Z</updated>
-    <title>#020 gRPC Explainer/C#</title>
+    <title>#020 gRPC Explainer - C# Version</title>
     <summary>hardware excuse generator with gRPC - C# client example</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;hardware excuse generator with gRPC - C# client example&lt;/p&gt;&lt;/div&gt;</content>
     <category term="gRPC"/>
@@ -2919,7 +2919,7 @@
     <id>https://codingkata.tardate.com/messaging/grpc/explainer/cpp/</id>
     <link href="https://codingkata.tardate.com/messaging/grpc/explainer/cpp/"/>
     <updated>2016-07-10T13:14:48Z</updated>
-    <title>#019 gRPC Explainer/C++</title>
+    <title>#019 gRPC Explainer - C++ Version</title>
     <summary>hardware excuse generator with gRPC - C++ client example</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;hardware excuse generator with gRPC - C++ client example&lt;/p&gt;&lt;/div&gt;</content>
     <category term="gRPC"/>
@@ -2930,7 +2930,7 @@
     <id>https://codingkata.tardate.com/messaging/grpc/explainer/python/</id>
     <link href="https://codingkata.tardate.com/messaging/grpc/explainer/python/"/>
     <updated>2016-07-10T13:14:48Z</updated>
-    <title>#018 gRPC Explainer/Python</title>
+    <title>#018 gRPC Explainer - Python version</title>
     <summary>hardware excuse generator with gRPC - Python client example</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;hardware excuse generator with gRPC - Python client example&lt;/p&gt;&lt;/div&gt;</content>
     <category term="gRPC"/>
@@ -2961,7 +2961,7 @@
     <id>https://codingkata.tardate.com/javascript/progress_bars_bootstrap/</id>
     <link href="https://codingkata.tardate.com/javascript/progress_bars_bootstrap/"/>
     <updated>2016-07-10T13:14:48Z</updated>
-    <title>#015 Javascript/progress_bars_bootstrap</title>
+    <title>#015 Progress Bars with Bootstrap</title>
     <summary>Progress Bars with Bootstrap</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Progress Bars with Bootstrap&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Javascript"/>
@@ -2979,7 +2979,7 @@
     <id>https://codingkata.tardate.com/javascript/plotly_ribbon_charts/</id>
     <link href="https://codingkata.tardate.com/javascript/plotly_ribbon_charts/"/>
     <updated>2016-07-10T13:14:48Z</updated>
-    <title>#013 Javascript/plotly_ribbon_charts</title>
+    <title>#013 Ribbon Charts with plotly.js</title>
     <summary>Interactive Ribbon Charts with plotly.js</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Interactive Ribbon Charts with plotly.js&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Javascript"/>
@@ -2997,16 +2997,16 @@
     <id>https://codingkata.tardate.com/bash/process_lines/</id>
     <link href="https://codingkata.tardate.com/bash/process_lines/"/>
     <updated>2016-07-10T13:14:48Z</updated>
-    <title>#011 Bash/process_lines</title>
-    <summary>process a file line-by-line</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;process a file line-by-line&lt;/p&gt;&lt;/div&gt;</content>
+    <title>#011 Process Lines</title>
+    <summary>Process a File/Stream Line-by-Line in Bash</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Process a File/Stream Line-by-Line in Bash&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Bash"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/bash/select_menu/</id>
     <link href="https://codingkata.tardate.com/bash/select_menu/"/>
     <updated>2016-07-10T13:14:48Z</updated>
-    <title>#010 Bash/select_menu</title>
+    <title>#010 Select Menus</title>
     <summary>simple multiple-choice user input</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;simple multiple-choice user input&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Bash"/>
@@ -3024,7 +3024,7 @@
     <id>https://codingkata.tardate.com/haskell/hello_world/</id>
     <link href="https://codingkata.tardate.com/haskell/hello_world/"/>
     <updated>2016-07-10T13:14:48Z</updated>
-    <title>#008 Haskell/hello_world</title>
+    <title>#008 Hello World! in Haskell</title>
     <summary>Haskell - Hello World</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Haskell - Hello World&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Haskell"/>
@@ -3070,7 +3070,7 @@
     <id>https://codingkata.tardate.com/perl/fix_first_line/</id>
     <link href="https://codingkata.tardate.com/perl/fix_first_line/"/>
     <updated>2016-07-10T13:14:48Z</updated>
-    <title>#003 Perl/fix_first_line</title>
+    <title>#003 Fixing the First Line of a File</title>
     <summary>patching text files with Perl - fix the first line only</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;patching text files with Perl - fix the first line only&lt;/p&gt;&lt;/div&gt;</content>
     <category term="perl"/>
@@ -3079,7 +3079,7 @@
     <id>https://codingkata.tardate.com/perl/patch_file/</id>
     <link href="https://codingkata.tardate.com/perl/patch_file/"/>
     <updated>2016-07-10T13:14:48Z</updated>
-    <title>#002 Perl/patch_file</title>
+    <title>#002 Patching Text Files</title>
     <summary>patching text files with Perl</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;patching text files with Perl&lt;/p&gt;&lt;/div&gt;</content>
     <category term="perl"/>

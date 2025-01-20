@@ -1,4 +1,4 @@
-# #063 Python Libraries
+# #063 Finding Python Libraries
 
 How to find great python libraries and resources.
 

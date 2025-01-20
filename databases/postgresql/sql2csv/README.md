@@ -1,4 +1,4 @@
-# #040 to CSV Output
+# #040 SQL to CSV
 
 Methods for generating CSV output from a PostgreSQL SQL query.
 

@@ -1,4 +1,4 @@
-# #244 Ruby
+# #244 Compiling Ruby
 
 Compiling Ruby (2.6.5-p114) from source and some debugging with llvm.
 

@@ -1,4 +1,4 @@
-# #047
+# #047 sync_folder
 
 Comparing methods for synchronizing local folders - cp, rsync.
 

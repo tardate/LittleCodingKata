@@ -1,4 +1,4 @@
-# #274 with Ruby
+# #274 AMQP with Ruby
 
 Using the amqp EventMachine-based RabbitMQ client.
 

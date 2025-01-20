@@ -1,4 +1,4 @@
-# #169
+# #169 std::string::find
 
 A closer look at the find function for strings in C++.
 

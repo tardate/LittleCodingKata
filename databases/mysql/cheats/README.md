@@ -1,4 +1,4 @@
-# #073 Cheat Sheet
+# #073 MySQL Cheat Sheet
 
 Basic administration and data management command cheats...
 

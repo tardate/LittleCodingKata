@@ -1,4 +1,4 @@
-# #139 Continuations in HTML
+# #139 Line Continuations in HTML
 
 CSS and Javascript solutions for indicating line continuations in web pages.
 

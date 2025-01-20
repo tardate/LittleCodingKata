@@ -1,4 +1,4 @@
-# #195 Redis
+# #195 About Redis
 
 Redis basics and MacOS installation.
 

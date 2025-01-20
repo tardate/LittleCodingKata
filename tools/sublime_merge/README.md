@@ -1,4 +1,4 @@
-# #279 Merge
+# #279 Sublime Merge
 
 All about Sublime Merge.
 

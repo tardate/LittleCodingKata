@@ -1,4 +1,4 @@
-# #037 by Numbers
+# #037 Sort by Numbers
 
 Sorting text numerically in the shell using the special "version sort" mode of the sort utility.
 

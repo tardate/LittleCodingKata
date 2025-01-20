@@ -1,4 +1,4 @@
-# #163 Expressions and String Indexes
+# #163 Regular Expressions and String Indexes
 
 When string indexes are better than regex, and when regex can help writing a string index.
 

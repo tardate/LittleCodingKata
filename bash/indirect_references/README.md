@@ -1,4 +1,4 @@
-# #180 References
+# #180 Indirect References
 
 Indirect variable de-referencing in bash scripts.
 

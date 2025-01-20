@@ -1,6 +1,6 @@
 {
     "id": "#064",
-    "name": "python/imgur",
+    "name": "Using Python with the imgur API",
     "description": "Using Python with the imgur API and demonstrate scanning imgur albums for image links",
     "categories": "python, imgur",
     "relative_path": "python/imgur",

@@ -1,4 +1,4 @@
-# #070 with Ruby
+# #070 HMAC Generation with Ruby
 
 All about hash-based message authentication code (HMAC) generation with Ruby.
 

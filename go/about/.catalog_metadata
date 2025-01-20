@@ -1,6 +1,6 @@
 {
     "id": "#023",
-    "name": "Go/about",
+    "name": "About Go",
     "description": "Go language - my tl;dr summary",
     "categories": "Go",
     "relative_path": "go/about",

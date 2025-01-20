@@ -1,4 +1,4 @@
-# #228 Files
+# #228 Split Files
 
 Split a text file into parts with simple shell utilities.
 

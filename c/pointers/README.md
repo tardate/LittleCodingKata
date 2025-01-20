@@ -1,4 +1,4 @@
-# #095 in C
+# #095 Pointers in C
 
 All about pointers in C.
 

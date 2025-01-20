@@ -1,4 +1,4 @@
-# #124 Pascal
+# #124 About Pascal
 
 Pascal In a Nutshell
 

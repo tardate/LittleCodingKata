@@ -1,4 +1,4 @@
-# #055
+# #055 knn-tf
 
 A demonstration of the k-nearest neighbors algorithm implemented using tensorflow-js with node.js.
 

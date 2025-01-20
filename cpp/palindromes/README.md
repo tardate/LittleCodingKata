@@ -1,4 +1,4 @@
-# #173
+# #173 Palindromes
 
 Examples of how to code a palidrome check in C++.
 

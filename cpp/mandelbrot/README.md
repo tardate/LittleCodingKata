@@ -1,4 +1,4 @@
-# #302
+# #302 Mandelbrot
 
 A learning example Mandelbrot fractal generator in C++
 

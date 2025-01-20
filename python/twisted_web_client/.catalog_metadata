@@ -1,6 +1,6 @@
 {
     "id": "#059",
-    "name": "Python/twisted_web_client",
+    "name": "Web Clients with Twisted",
     "description": "writing web client code with twisted and tests",
     "categories": "python",
     "relative_path": "python/twisted_web_client",

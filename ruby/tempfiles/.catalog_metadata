@@ -1,5 +1,5 @@
 {
-    "name": "tempfiles",
+    "name": "Temporary Files with Ruby",
     "description": "Using Temporary Files with Ruby",
     "categories": "ruby",
     "relative_path": "ruby/tempfiles",

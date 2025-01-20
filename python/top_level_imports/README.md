@@ -1,6 +1,8 @@
-# #069 Modules Start From Here
+# #069 Top level imports
+
+Modules Start From Here
 *or*
-**why not to put an __init__.py in your top level folder**
+**why not to put an **init**.py in your top level folder**
 
 So this got my attention after a code refactoring left some actual code and its accompanying tests
 disagreeing on how to reference modules.
@@ -13,7 +15,6 @@ to sistem or parent modules, it all *seemed* to work.
 Well kinda. It was a hack and a trap.
 
 And after [finding this SO question](http://stackoverflow.com/questions/6670275/python-imports-for-tests-using-nose-what-is-best-practice-for-imports-of-modul), it was obvious the problem was simply an extraneous `__init__.py` in the top level folder.
-
 
 ## How To Do It
 
@@ -100,7 +101,7 @@ Ran 2 tests in 0.001s
 OK
 ```
 
-
 ## Credits and References
+
 * [Python imports for tests using nose - what is best practice for imports of modules above current package](http://stackoverflow.com/questions/6670275/python-imports-for-tests-using-nose-what-is-best-practice-for-imports-of-modul)
 * [Importing your own modules and setting the PYTHONPATH](https://users-cs.au.dk/chili/PBI/pythonpath.html)

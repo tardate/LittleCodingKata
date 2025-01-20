@@ -1,4 +1,4 @@
-# #108 Zeromq
+# #108 About Zeromq
 
 Zeromq in a nutshell with a quick test of using the library from C.
 

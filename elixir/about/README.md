@@ -1,4 +1,4 @@
-# #105 Elixir
+# #105 About Elixir
 
 Elixir in a nutshell
 

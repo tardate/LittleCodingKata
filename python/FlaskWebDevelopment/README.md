@@ -1,4 +1,4 @@
-# #259 Web Development
+# #259 Flask Web Development
 
 Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly.
 

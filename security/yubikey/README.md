@@ -1,4 +1,4 @@
-# #165
+# #165 YubiKey
 
 A closer look at the YubiKey hardware security token, how it works, the CLI and GUI, and how it can be used with a range of services.
 Also demonstrate how to setup with Wasabi Cloud Storage - an example of a service that supports 2-factor authentication but not specifically the YubiKey.

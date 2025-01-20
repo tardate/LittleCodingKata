@@ -1,4 +1,4 @@
-# #044 Parsing
+# #044 JSON Parsing
 
 Generating pretty JSON with Ruby and dealing with quirks.
 

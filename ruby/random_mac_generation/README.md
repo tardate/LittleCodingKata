@@ -1,4 +1,4 @@
-# #071 Random MAC Addresses
+# #071 MAC Address Generation with Ruby
 
 Delving into MAC addresses and a little script to generate random ones.
 

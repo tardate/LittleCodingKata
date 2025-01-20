@@ -1,5 +1,6 @@
-# #011 Process a File/Stream Line-by-Line
+# #011 Process Lines
 
+Process a File/Stream Line-by-Line in Bash
 
 ## Notes
 
@@ -23,7 +24,6 @@ See [nevermores.sh](./nevermores.sh).
 
 * it first demonstrates default `for..in` behaviour
 * then modifies the IFS to scan [The Raven](./the_raven.txt) line by line and do some processing
-
 
 ```
 $ ./nevermores.sh
@@ -52,6 +52,7 @@ Reset the IFS for newline, then for..in gives us lines:
 ```
 
 ## Credits and References
+
 * [9.1. Internal Variables](http://www.tldp.org/LDP/abs/html/internalvariables.html) - Advanced Bash-Scripting Guide
 * [11. Loops and Branches](http://tldp.org/LDP/abs/html/loops1.html) - Advanced Bash-Scripting Guide
 * [7. Loops for, while and until](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-7.html)

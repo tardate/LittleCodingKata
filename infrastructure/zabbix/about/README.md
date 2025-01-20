@@ -1,4 +1,4 @@
-# #110 Zabbix
+# #110 About Zabbix
 
 Zabbix in a Nutshell
 

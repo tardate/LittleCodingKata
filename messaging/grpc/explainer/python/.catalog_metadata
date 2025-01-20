@@ -1,6 +1,6 @@
 {
     "id": "#018",
-    "name": "gRPC Explainer/Python",
+    "name": "gRPC Explainer - Python version",
     "description": "hardware excuse generator with gRPC - Python client example",
     "categories": "gRPC, Python, Messaging",
     "relative_path": "messaging/grpc/explainer/python",

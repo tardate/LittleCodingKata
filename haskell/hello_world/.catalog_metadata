@@ -1,6 +1,6 @@
 {
     "id": "#008",
-    "name": "Haskell/hello_world",
+    "name": "Hello World! in Haskell",
     "description": "Haskell - Hello World",
     "categories": "Haskell",
     "relative_path": "haskell/hello_world",

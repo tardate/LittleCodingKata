@@ -1,4 +1,4 @@
-# #075 on Rails 6
+# #075 Ruby on Rails 6
 
 Running Rails 6, learning about changes and new features, and testing out my favourite gems including: HAML
 

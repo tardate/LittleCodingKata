@@ -1,4 +1,4 @@
-# #271 on macOS
+# #271 Bash on macOS
 
 Using latest bash releases on the latest versions of macOS.
 

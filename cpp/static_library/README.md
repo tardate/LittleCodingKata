@@ -1,4 +1,4 @@
-# #220 Static Libraries
+# #220 Making Static Libraries
 
 Basics of building and using static libraries with C++.
 

@@ -1,4 +1,4 @@
-# #094 YouTube
+# #094 Scripting YouTube
 
 An experiment in scripting the YouTube player with external controls and the IFrame API.
 

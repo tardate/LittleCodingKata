@@ -1,4 +1,4 @@
-# #172 World in C
+# #172 Hello World in C
 
 The clichéd starting point, in C.
 

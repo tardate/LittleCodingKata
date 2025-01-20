@@ -1,6 +1,6 @@
 {
     "id": "#207",
-    "name": "Go/install_macosx",
+    "name": "Go on macOS",
     "description": "installing Go on MacOS",
     "categories": "Go, MacOS",
     "relative_path": "go/install_macosx",

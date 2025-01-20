@@ -1,4 +1,4 @@
-# #254 Key Audit
+# #254 Primary Key Audit
 
 How to list primary key details in a MySQL database
 

@@ -1,4 +1,4 @@
-# #206 for ARM with Docker
+# #206 Building for ARM with Docker
 
 Building 32-bit ARM v7 images with docker, tested on MacOS and AWS.
 

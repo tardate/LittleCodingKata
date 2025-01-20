@@ -1,4 +1,4 @@
-# #260 Substitution
+# #260 Parameter Substitution
 
 All about Bash parameter substitution.
 

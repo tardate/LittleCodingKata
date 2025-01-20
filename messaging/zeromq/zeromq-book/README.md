@@ -1,4 +1,4 @@
-# #109
+# #109 ZeroMQ (book)
 
 Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly.
 

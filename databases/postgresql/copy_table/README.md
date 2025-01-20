@@ -1,4 +1,4 @@
-# #039 Tables
+# #039 Copying Tables
 
 Notes on copying table strictures and data with SQL.
 

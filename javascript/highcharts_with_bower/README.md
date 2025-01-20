@@ -1,4 +1,4 @@
-# #014 Highcharts with Bower
+# #014 Javascript/highcharts_with_bower
 
 Demonstrate the process of installing and packaging Highcharts with bower.
 

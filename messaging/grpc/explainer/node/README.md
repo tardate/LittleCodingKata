@@ -1,4 +1,4 @@
-# #021 Explainer - Node.js Version
+# #021 gRPC Explainer - Node.js version
 
 This sample implements a Node.js client and server that talk the
 [Explainer Protocol](../protocols/explainer.proto).

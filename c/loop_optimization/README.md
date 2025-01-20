@@ -1,4 +1,4 @@
-# #125 Optimization
+# #125 Loop Optimization
 
 Looking at how C compilers optimize loops.
 

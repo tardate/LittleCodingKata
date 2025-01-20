@@ -1,4 +1,4 @@
-# #061 Quirks - Late Bound Closures
+# #061 Python quirks - late-bound closures
 
 Closures a great, but the results they produce depend on system state at the time they are called (not just when they are defined).
 

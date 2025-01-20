@@ -1,4 +1,4 @@
-# #132
+# #132 ShowLong
 
 Expose Long/HPFS filenames with REXX on OS/2
 

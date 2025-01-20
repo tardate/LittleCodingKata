@@ -1,6 +1,6 @@
 {
     "id": "#024",
-    "name": "Go/hello_world",
+    "name": "Hello world in Go",
     "description": "exploring Go with the simplest example",
     "categories": "Go",
     "relative_path": "go/hello_world",

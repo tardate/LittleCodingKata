@@ -1,4 +1,4 @@
-# #042 Structures and Scoping
+# #042 Class Structures and Scoping
 
 About class structyres and scoping in python
 

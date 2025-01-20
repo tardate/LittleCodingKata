@@ -1,6 +1,6 @@
 {
     "id": "#030",
-    "name": "mono/time",
+    "name": "Handling Time in C#/mono",
     "description": "Handling Time in C#/mono",
     "categories": "Mono, C#",
     "relative_path": "mono/time",

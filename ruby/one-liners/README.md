@@ -1,4 +1,4 @@
-# #223 One-liners
+# #223 Ruby One-liners
 
 All about one-liners with ruby.
 

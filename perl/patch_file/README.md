@@ -1,4 +1,4 @@
-# #002 Text Files
+# #002 Patching Text Files
 
 Simple tricks for updating text files with perl
 

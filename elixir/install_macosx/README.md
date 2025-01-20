@@ -1,4 +1,4 @@
-# #210 on MacOS
+# #210 Elixir on MacOS
 
 Installing Elixir on MacOS
 

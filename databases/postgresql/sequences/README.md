@@ -1,4 +1,4 @@
-# #268 Sequences",
+# #268 PostgreSQL Sequences
 
 Notes on managing PostgreSQL Sequences
 

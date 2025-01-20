@@ -1,4 +1,4 @@
-# #188 Rails 6 Without Webpacker
+# #188 Running Rails 6 Without Webpacker
 
 Because sometimes just want to keep it simple with good old sprockets and the asset pipeline
 

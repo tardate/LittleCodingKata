@@ -1,4 +1,4 @@
-# #212 MacOS Install
+# #212 SDL2 MacOS Install
 
 Installing the Simple DirectMedia Layer library on MacOS, and running a basic verification program in C++.
 

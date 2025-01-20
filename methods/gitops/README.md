@@ -1,4 +1,4 @@
-# #278
+# #278 GitOps
 
 GitOps in a nutshell - Continuous Deployment for cloud native applications.
 

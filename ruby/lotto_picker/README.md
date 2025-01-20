@@ -1,4 +1,4 @@
-# #263 Picker - The Ruby Way
+# #263 Lotto Picker - The Ruby Way
 
 Using a lotto picker example to demonstrate random numbers and set operations the ruby way
 

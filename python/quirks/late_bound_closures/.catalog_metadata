@@ -1,6 +1,6 @@
 {
     "id": "#061",
-    "name": "Python/quirks/late_bound_closures",
+    "name": "Python quirks - late-bound closures",
     "description": "Python quirks - late-bound closures",
     "categories": "python",
     "relative_path": "python/quirks/late_bound_closures",

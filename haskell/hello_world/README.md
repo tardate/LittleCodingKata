@@ -1,4 +1,4 @@
-# #008 World! in Haskell
+# #008 Hello World! in Haskell
 
 
 ## Notes
