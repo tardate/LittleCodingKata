@@ -1,4 +1,4 @@
-# #120 Century C
+# #120 21st Century C
 
 Notes on the book 21st Century C, 2nd Edition by Ben Klemens, pubished by O'Reilly
 
@@ -39,7 +39,6 @@ Good practical introduction to setting up a working environment:
 * A text editor
 
 Later chapters cover: Autotools: Autoconf, Automake, libtool
-
 
 #### 2. Debug, Test, Document
 
@@ -83,13 +82,11 @@ Covers basics of git.
 * Comparing Unsigned Integers
 * Safely Parse Strings to Numbers
 
-
 #### 8. Important C Syntax that Textbooks Often Do Not Cover
 
 * Cultivate Robust and Flourishing Macros
 * Linkage with static and extern
 * The const Keyword
-
 
 #### 9. Easier Text Handling
 
@@ -142,10 +139,10 @@ The git repo actually contains a ziped archive of the sources.
 I've extracted locally to a folder called `example_source` as follows:
 
 ```
-$ git clone https://resources.oreilly.com/examples/0636920025108.git
-$ tar zxvf 0636920025108/21st_century_examples.tgz
-$ mv 21st_century_examples example_source
-$ rm -fR 0636920025108
+git clone https://resources.oreilly.com/examples/0636920025108.git
+tar zxvf 0636920025108/21st_century_examples.tgz
+mv 21st_century_examples example_source
+rm -fR 0636920025108
 ```
 
 ## Credits and References

@@ -14,8 +14,8 @@ This is a little demonstration of how to do this the rust way.
 
 See also:
 
-* [python/lotto_picker](../../python/lotto_picker) - python version
-* [ruby/lotto_picker](../../ruby/lotto_picker) - ruby version
+* [python/lotto_picker](../../python/lotto_picker/) - python version
+* [ruby/lotto_picker](../../ruby/lotto_picker/) - ruby version
 
 ### Random Number Generation
 
@@ -102,7 +102,7 @@ Some sample runs:
 
 ### Running the Tests
 
-Some basic tests are included in [test_lpickr.py ](./test_lpickr.py )
+Some basic tests are included in [lpickr/src/lib.rs](./lpickr/src/lib.rs)
 
     $ cargo test
        Compiling lpickr v0.1.0

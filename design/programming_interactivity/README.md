@@ -1,4 +1,4 @@
-# #099 Interactivity
+# #099 Programming Interactivity
 
 Book notes - Programming Interactivity 2nd Edition, by Joshua Noble published by O'Reilly.
 

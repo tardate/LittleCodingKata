@@ -19,7 +19,7 @@ With Docker Desktop for Mac, buildx is available after enabling experimental fea
 
 Buildx availability can be confirmed by listing builders:
 
-```
+```sh
 $ docker buildx ls
 NAME/NODE DRIVER/ENDPOINT STATUS  PLATFORMS
 default * docker
@@ -36,13 +36,13 @@ on what `BUILDX_NO_DEFAULT_LOAD` is for in the first place. As far as I can figu
 
 ## Testing a basic linux/amd64 image
 
-The [armi](./armi) project includes a simple diagnostic program in c - based on the example from
+The `./armi` project includes a simple diagnostic program in c - based on the example from
 [Getting started with Docker for Arm on Linux](https://www.docker.com/blog/getting-started-with-docker-for-arm-on-linux/)
 
 The default builder can only build for a simple platform at a time.
 First I'll build for linux/amd64 and test it running on MacOS.
 
-```
+```sh
 cd armi
 $ docker buildx build --platform linux/amd64 -t tardate/armi:amd64 .
 ...
@@ -67,7 +67,7 @@ Note:
 
 ## Building for ARM
 
-```
+```sh
 $ docker buildx build --platform linux/arm/v7 -t tardate/armi:arm .
 $ docker run --rm tardate/armi:arm
 Hello, my architecture is Linux buildkitsandbox 4.19.76-linuxkit #1 SMP Tue May 26 11:42:35 UTC 2020 armv7l Linux
@@ -83,7 +83,7 @@ I am running on linux/amd64, building for linux/arm/v7
 
 I need to create a builder that will support multi-platform builds. I gave ti the random name `myxbuilder`:
 
-```
+```sh
 $ docker buildx create --name myxbuilder
 $ docker buildx inspect myxbuilder --bootstrap
 Name:   myxbuilder
@@ -98,14 +98,14 @@ Platforms: linux/amd64, linux/arm64, linux/riscv64, linux/ppc64le, linux/s390x, 
 
 Switching to use `myxbuilder`, I can build and push images to docker hub:
 
-```
+```sh
 docker buildx use myxbuilder
 docker buildx build --platform linux/arm/v7,linux/amd64 -t tardate/armi . --push
 ```
 
 Inspecting the image manifest from docker hub, I see the two platform versions available under the same tag:
 
-```
+```sh
 $ docker buildx imagetools inspect tardate/armi:latest
 Name:      docker.io/tardate/armi:latest
 MediaType: application/vnd.docker.distribution.manifest.list.v2+json
@@ -127,7 +127,7 @@ Here's how it appears at [https://hub.docker.com/r/tardate/armi/tags](https://hu
 
 Running these images by specific tag:
 
-```
+```sh
 $ docker run --rm tardate/armi:latest@sha256:e10bbaedfbbe5053cdcbc406ff87cff3da28c866fa3901a67b67f261d05baede
 Hello, my architecture is Linux buildkitsandbox 4.19.76-linuxkit #1 SMP Tue May 26 11:42:35 UTC 2020 armv7l Linux
 $ docker run --rm tardate/armi:latest@sha256:b9aa5b0c52abe4f00ae27499088ce751380c60b662a3a25fdc8e6e6757d1ff0e
@@ -148,7 +148,7 @@ From EC2 dashboard and select Launch Instance. I selected Amazon Linux 2 AMI 64 
 
 Once SSH access has been established, install docker support:
 
-```
+```sh
 sudo yum update -y
 sudo amazon-linux-extras install docker
 sudo usermod -a -G docker ec2-user
@@ -157,7 +157,7 @@ sudo service docker start
 
 Attempting to run the image without qualification fails since there is no 64 bit image
 
-```
+```sh
 $ docker run --rm tardate/armi
 Unable to find image 'tardate/armi:latest' locally
 latest: Pulling from tardate/armi
@@ -167,7 +167,7 @@ See 'docker run --help'.
 
 However, by explicitly specifying arm v7 (32 bit) I am able to run the image:
 
-```
+```sh
 $ docker run --platform=linux/arm/v7 --rm tardate/armi
 Unable to find image 'tardate/armi:latest' locally
 latest: Pulling from tardate/armi

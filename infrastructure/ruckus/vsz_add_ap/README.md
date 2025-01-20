@@ -1,4 +1,4 @@
-# #233 APs to vSZ
+# #233 Adding APs to vSZ
 
 Configuring a Ruckus R610 access point to be managed by a Ruckus Virtual SmartZone controller.
 
@@ -6,7 +6,7 @@ Configuring a Ruckus R610 access point to be managed by a Ruckus Virtual SmartZo
 
 These notes show the exact procedure used to successfully configure a Ruckus R610 indoor AP
 to be managed by a Ruckus Virtual SmartZone controller.
-For the test I am using a fresh Ruckus vSZ running on AWS, [see my earlier notes](../vsz_on_aws)
+For the test I am using a fresh Ruckus vSZ running on AWS, [see my earlier notes](../vsz_on_aws/)
 
 ### R610 Unleashed - Initial State
 

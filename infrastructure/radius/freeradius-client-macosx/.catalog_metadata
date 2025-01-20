@@ -1,7 +1,7 @@
 {
     "id": "#213",
-    "name": "FreeRADIUS/freeradius-client-macosx",
-    "description": "FreeRADIUS - running on MacOS (#fail - this project needs work)",
+    "name": "FreeRADIUS Client on macOS",
+    "description": "All about running FreeRADIUS on macOS (currently a #fail, needs work)",
     "categories": "RADIUS, MacOS, infrastructure",
     "relative_path": "infrastructure/radius/freeradius-client-macosx",
     "updated_at": "2021-11-02T14:53:49Z",

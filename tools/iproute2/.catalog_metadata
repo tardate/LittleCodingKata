@@ -1,7 +1,7 @@
 {
     "id": "#204",
-    "name": "Tools/iproute2",
-    "description": "about iproute2 and how to run it on MacOS",
+    "name": "iproute2",
+    "description": "about iproute2 and how to run it on macOS",
     "categories": "Tools, MacOS",
     "relative_path": "tools/iproute2",
     "updated_at": "2021-11-02T14:53:49Z",

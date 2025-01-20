@@ -1,13 +1,13 @@
-# #272
+# #272 HandBrake
 
 Installing HandBrake on macOS Sonoma for ripping copy-protected DVDs. Long live physical media!
 
 ## Notes
 
-Handrake is the application I've trusted for many years to do my DVD ripping on macOS.
+HandBrake is the application I've trusted for many years to do my DVD ripping on macOS.
 Why rip? Because machines don't come with DVD drives any more, so I rip once and then play from the digital copy. Long live physical media!
 
-I'm setting up fresh on macOS Sonoma (Apple Silicon M3), using `HandBrake-1.7.2.dmg` from 
+I'm setting up fresh on macOS Sonoma (Apple Silicon M3), using `HandBrake-1.7.2.dmg` from
 [HandBrake](https://handbrake.fr/)
 
 ### Installing libdvdcss
@@ -54,10 +54,9 @@ When ripping with HomeBrew, the activity window will confirm that the library is
     [19:20:24] macgui: ScanCore library found for decrypting physical disc
     ...
 
-
 Note: unfortunately, we can't use symlinks. I tried this first:
 
-    $ sudo ln -s /opt/homebrew/Cellar/libdvdcss/1.4.3/lib/libdvdcss.2.dylib /usr/local/lib/libdvdcss.2.dylib
+    sudo ln -s /opt/homebrew/Cellar/libdvdcss/1.4.3/lib/libdvdcss.2.dylib /usr/local/lib/libdvdcss.2.dylib
 
 But the operating system sandbox comes down hard:
 

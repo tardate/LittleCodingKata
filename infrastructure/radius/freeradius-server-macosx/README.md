@@ -1,9 +1,11 @@
-# #214 Server on MacOS
+# #214 FreeRADIUS Server on macOS
 
+All about running FreeRADIUS Server on macOS
 
 ## Notes
 
 The FreeRADIUS Server is the leading open source (GNU GPLv2) implementation of RADIUS. IT claims:
+
 * high performance
 * scalable - sites ranging from 10 to 10 million+ users
 * highly configurable
@@ -20,12 +22,12 @@ The FreeRADIUS Server is the leading open source (GNU GPLv2) implementation of R
 * `brew install talloc`
 * or install from source - handled by `download_and_make`
 
-
 ### Build and Install
 
 The steps to build and install are in `./download_and_make`
 
 Installation drops files in the following locations:
+
 * /usr/local/bin
 * /usr/local/sbin
 * /usr/local/var/log/radius
@@ -46,7 +48,6 @@ Start the server in daemon mode:
 Or foreground debug mode:
 
     sudo /usr/local/sbin/radiusd -X
-
 
 `radtest` is installed in /usr/local/bin and can be used to test the server. Usage:
 
@@ -84,7 +85,7 @@ That's expected & good. It's working!
 
 ### Reviewing the server config
 
-The defualt server site config is in `/usr/local/etc/raddb/sites-enabled/default`
+The default server site config is in `/usr/local/etc/raddb/sites-enabled/default`
 
 A few things to note:
 
@@ -136,25 +137,22 @@ Success!
 
 ### Removing
 
-```
-cd freeradius-server
-sudo make uninstall
-```
+    cd freeradius-server
+    sudo make uninstall
 
 ### Removing talloc
 
 If installed with brew:
-```
-brew uninstall talloc
-```
+
+    brew uninstall talloc
 
 If compiled from source
-```
-cd talloc-2.1.2
-sudo make uninstall
-```
+
+    cd talloc-2.1.2
+    sudo make uninstall
 
 ## Credits and References
+
 * [FreeRADIUS](http://freeradius.org/) - main site
 * [FreeRADIUS](https://en.wikipedia.org/wiki/FreeRADIUS) - wikipedia
 * [FreeRADIUS](https://github.com/FreeRADIUS/freeradius-server) - GitHub

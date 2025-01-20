@@ -1,4 +1,4 @@
-# #234 vSZ on AWS
+# #234 Ruckus vSZ on AWS
 
 Complete and validated demonstration of installing Ruckus Virtual SmartZone on AWS.
 
@@ -337,7 +337,6 @@ After sign-in, we have a new vSZ cluster ready to go:
 
 ![vsx_landing_initial](./assets/vsx_landing_initial.png)
 
-
 ### Configuring the AP Admin Login
 
 All APs that are added to the controller will take the default AP Admin Login from the wireless LAN group.
@@ -352,7 +351,7 @@ The AP Admin Login is one of the settings:
 
 ### Adding APs to the Cluster
 
-See notes on [Adding APs to vSZ](../vsz_add_ap)
+See notes on [Adding APs to vSZ](../vsz_add_ap/)
 
 ## Credits and References
 

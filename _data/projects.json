@@ -882,18 +882,18 @@
     },
     "/infrastructure/radius/freeradius-server-macosx/": {
         "id": 214,
-        "title": "FreeRADIUS/freeradius-server-macosx",
-        "summary": "FreeRADIUS - running on MacOS",
+        "title": "FreeRADIUS Server on macOS",
+        "summary": "All about running FreeRADIUS Server on macOS",
         "tags": [
             "RADIUS",
-            "MacOS",
+            "macOS",
             "infrastructure"
         ]
     },
     "/infrastructure/radius/freeradius-client-macosx/": {
         "id": 213,
-        "title": "FreeRADIUS/freeradius-client-macosx",
-        "summary": "FreeRADIUS - running on MacOS (#fail - this project needs work)",
+        "title": "FreeRADIUS Client on macOS",
+        "summary": "All about running FreeRADIUS on macOS (currently a #fail, needs work)",
         "tags": [
             "RADIUS",
             "MacOS",
@@ -973,8 +973,8 @@
     },
     "/tools/iproute2/": {
         "id": 204,
-        "title": "Tools/iproute2",
-        "summary": "about iproute2 and how to run it on MacOS",
+        "title": "iproute2",
+        "summary": "about iproute2 and how to run it on macOS",
         "tags": [
             "Tools",
             "MacOS"
@@ -982,8 +982,8 @@
     },
     "/tools/homebrew/": {
         "id": 203,
-        "title": "Tools/homebrew",
-        "summary": "homebrew (MacOS package manager) tips and tricks",
+        "title": "Homebrew Tips and Tricks",
+        "summary": "homebrew (macOS package manager) tips and tricks",
         "tags": [
             "Tools",
             "MacOS"
@@ -2634,7 +2634,7 @@
     },
     "/infrastructure/radius/about/": {
         "id": 16,
-        "title": "RADIUS/about",
+        "title": "RADIUS",
         "summary": "RADIUS - my tl;dr summary",
         "tags": [
             "RADIUS",
@@ -2691,7 +2691,7 @@
     },
     "/haskell/about/": {
         "id": 9,
-        "title": "Haskell/about",
+        "title": "About Haskell",
         "summary": "Haskell - my tl;dr summary",
         "tags": [
             "Haskell"
@@ -2756,7 +2756,7 @@
     },
     "/tools/envsubst/": {
         "id": 1,
-        "title": "Tools/envsubst",
+        "title": "envsubst",
         "summary": "substitute shell variables in text",
         "tags": [
             "Tools",

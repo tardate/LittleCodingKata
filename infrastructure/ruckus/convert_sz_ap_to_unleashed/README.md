@@ -1,4 +1,4 @@
-# #232 SZ AP to Unleashed
+# #232 Convert SZ AP to Unleashed
 
 Demonstrating the procedure for converting a SZ-managed Ruckus R610 AP to Unleashed.
 

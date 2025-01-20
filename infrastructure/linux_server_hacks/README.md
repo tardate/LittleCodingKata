@@ -1,4 +1,4 @@
-# #123 Server Hacks
+# #123 Linux Server Hacks
 
 Book notes - Linux Server Hacks by Rob Flickenger
 and

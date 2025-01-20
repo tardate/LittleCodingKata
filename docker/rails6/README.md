@@ -126,8 +126,8 @@ And some tests:
 Adding:
 
 * [Dockerfile](./minime/Dockerfile)
-* [docker-compose.yml](./minime/docker-compose.yml)
-* [.dockerignore](./minime/.dockerignore) to prevent locally installed assets from being added to the image
+* `docker-compose.yml`
+* `.dockerignore` to prevent locally installed assets from being added to the image
 * [entrypoint.sh](./minime/entrypoint.sh) provides a default Rails application startup for the
 
 Commands:

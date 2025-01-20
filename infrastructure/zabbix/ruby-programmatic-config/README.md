@@ -15,11 +15,11 @@ The examples below use API methods to perform the following configuration tasks:
 
 ## Test Setup
 
-All these tests are running against a plain vanilla Zabbix Appliance running in Docker on the localhost - see [zabbix/dockerized](../dockerized) for more info.
+All these tests are running against a plain vanilla Zabbix Appliance running in Docker on the localhost - see [zabbix/dockerized](../dockerized/) for more info.
 
 All the test scripts will pickup configuration from the environment:
 
-```
+```sh
 export ZABBIX_API_URL=http://0.0.0.0:80/api_jsonrpc.php
 export ZABBIX_API_USERNAME=Admin
 export ZABBIX_API_PASSWORD=zabbix
@@ -28,7 +28,7 @@ export ZABBIX_API_TOKEN=existing-token # not required, will be set based on user
 
 Installation:
 
-```
+```sh
 gem install bundler && bundle install
 ```
 
@@ -39,7 +39,7 @@ gem install bundler && bundle install
 To re-use a token for subsequent requests, make one query then set the `ZABBIX_API_TOKEN` environment variable accordingly.
 For example:
 
-```
+```sh
 $ bundle exec ruby manage.rb hostgroup list
 Connecting with username/password
 API version: 4.4.5. Connected with token: 447fc37363a0716ee275cce228b29766
@@ -64,7 +64,7 @@ All hosts must belong to a [host group](https://www.zabbix.com/documentation/cur
 The example demonstrates list, create and delete host groups.
 A gorup called `lck-hostgroup` is created for the purposes of the demo:
 
-```
+```sh
 $ bundle exec ruby manage.rb hostgroup create
 Connecting with auth token
 API version: 4.4.5. Connected with token: 447fc37363a0716ee275cce228b29766
@@ -133,7 +133,7 @@ The entities may be:
 
 Creating a basic template:
 
-```
+```sh
 $ bundle exec ruby manage.rb template create
 Connecting with auth token
 API version: 4.4.5. Connected with token: 447fc37363a0716ee275cce228b29766
@@ -147,7 +147,7 @@ API version: 4.4.5. Connected with token: 447fc37363a0716ee275cce228b29766
 
 Creating an example application and adding it to the template (using the template id as the applicaiton host id):
 
-```
+```sh
 $ bundle exec ruby manage.rb application create
 Connecting with auth token
 API version: 4.4.5. Connected with token: 447fc37363a0716ee275cce228b29766
@@ -157,7 +157,7 @@ API version: 4.4.5. Connected with token: 447fc37363a0716ee275cce228b29766
 
 Now the application is included in template details:
 
-```
+```sh
 $ bundle exec ruby manage.rb template get 10323
 Connecting with auth token
 API version: 4.4.5. Connected with token: 447fc37363a0716ee275cce228b29766
@@ -170,7 +170,7 @@ API version: 4.4.5. Connected with token: 447fc37363a0716ee275cce228b29766
 
 Creating an example ping item and adding it to the template:
 
-```
+```sh
 $ bundle exec ruby manage.rb item create
 Connecting with auth token
 API version: 4.4.5. Connected with token: 447fc37363a0716ee275cce228b29766
@@ -186,7 +186,7 @@ API version: 4.4.5. Connected with token: 447fc37363a0716ee275cce228b29766
 
 Creating an example ping trigger and adding it to the template:
 
-```
+```sh
 $ bundle exec ruby manage.rb trigger create
 Connecting with auth token
 API version: 4.4.5. Connected with token: 447fc37363a0716ee275cce228b29766
@@ -196,13 +196,12 @@ API version: 4.4.5. Connected with token: 447fc37363a0716ee275cce228b29766
 
 Now we have a basic template with a ping trigger:
 
-```
+```sh
 $ bundle exec ruby manage.rb template get 10323
 Connecting with auth token
 API version: 4.4.5. Connected with token: 447fc37363a0716ee275cce228b29766
 {"proxy_hostid"=>"0", "host"=>"lck-ping-template", "status"=>"3", "disable_until"=>"0", "error"=>"", "available"=>"0", "errors_from"=>"0", "lastaccess"=>"0", "ipmi_authtype"=>"-1", "ipmi_privilege"=>"2", "ipmi_username"=>"", "ipmi_password"=>"", "ipmi_disable_until"=>"0", "ipmi_available"=>"0", "snmp_disable_until"=>"0", "snmp_available"=>"0", "maintenanceid"=>"0", "maintenance_status"=>"0", "maintenance_type"=>"0", "maintenance_from"=>"0", "ipmi_errors_from"=>"0", "snmp_errors_from"=>"0", "ipmi_error"=>"", "snmp_error"=>"", "jmx_disable_until"=>"0", "jmx_available"=>"0", "jmx_errors_from"=>"0", "jmx_error"=>"", "name"=>"lck-ping-template", "flags"=>"0", "templateid"=>"10323", "description"=>"", "tls_connect"=>"1", "tls_accept"=>"1", "tls_issuer"=>"", "tls_subject"=>"", "tls_psk_identity"=>"", "tls_psk"=>"", "proxy_address"=>"", "auto_compress"=>"1", "items"=>[{"itemid"=>"30474"}], "triggers"=>[{"triggerid"=>"16749"}], "applications"=>[{"applicationid"=>"1328"}]}
 ```
-
 
 #### Host
 
@@ -210,7 +209,7 @@ API version: 4.4.5. Connected with token: 447fc37363a0716ee275cce228b29766
 
 Creating an example host (`codingkata.tardate.com`) and applying the `lck-ping-template`:
 
-```
+```sh
 $ bundle exec ruby manage.rb host create
 Connecting with auth token
 API version: 4.4.5. Connected with token: 447fc37363a0716ee275cce228b29766
