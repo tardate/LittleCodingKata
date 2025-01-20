@@ -1,4 +1,4 @@
-# #293 on Apple Silicon
+# #293 Homebrew on Apple Silicon
 
 Using Homebrew to manage ARM64 and x86_64 package installations on macOS.
 

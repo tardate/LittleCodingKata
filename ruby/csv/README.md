@@ -1,4 +1,4 @@
-# #287 with Ruby
+# #287 CSV with Ruby
 
 All about reading and writing CSV with Ruby, including large file handling.
 

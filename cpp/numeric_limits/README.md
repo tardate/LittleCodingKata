@@ -1,4 +1,4 @@
-# #175 Limits
+# #175 Numeric Limits in C++
 
 Numeric limits information available in the C++ standard library.
 

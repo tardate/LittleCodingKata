@@ -1,4 +1,4 @@
-# #092 InfluxDB
+# #092 About InfluxDB
 
 Learning the basics of InfluxDB and running a demo with Docker.
 

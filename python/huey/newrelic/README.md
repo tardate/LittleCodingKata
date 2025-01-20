@@ -1,4 +1,4 @@
-# #191 Huey with NewRelic
+# #191 Monitoring Huey with NewRelic
 
 Notes and examples os using NewRelic monitoring with Huey
 

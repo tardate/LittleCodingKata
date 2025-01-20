@@ -1,6 +1,6 @@
 {
     "id": "#010",
-    "name": "Bash/select_menu",
+    "name": "Select Menus",
     "description": "simple multiple-choice user input",
     "categories": "Bash",
     "relative_path": "bash/select_menu",

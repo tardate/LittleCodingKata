@@ -1,4 +1,4 @@
-# #089 Emacs
+# #089 emacs
 
 Time to try Emacs - up and running on MacOS.
 

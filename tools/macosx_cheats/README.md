@@ -1,4 +1,4 @@
-# #200 Cheatsheet
+# #200 MacOS Cheatsheet
 
 A place to record some of my favourite MacOS tools, tips and tricks.
 

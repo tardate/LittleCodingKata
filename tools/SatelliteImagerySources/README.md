@@ -1,4 +1,4 @@
-# #242 Imagery Sources
+# #242 Satellite Imagery Sources
 
 Poking around free satellite imagery services
 

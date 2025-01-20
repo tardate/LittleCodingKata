@@ -1,4 +1,4 @@
-# #225 Parsing with Ruby
+# #225 XML Parsing with Ruby
 
 About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like nokogiri.
 

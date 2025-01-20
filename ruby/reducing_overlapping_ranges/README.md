@@ -1,4 +1,4 @@
-# #157 Overlapping Ranges
+# #157 Reducing Overlapping Ranges
 
 Looking at solutions for how to aggregate a series of ranges while excluding any overlaps (e.g. set of date ranges)
 

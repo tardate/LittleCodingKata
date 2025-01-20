@@ -1,4 +1,4 @@
-# #038 if and test
+# #038 Bash if and test
 
 All about if/then test constructs in Bash scripting
 

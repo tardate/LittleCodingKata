@@ -1,4 +1,4 @@
-# #238
+# #238 favicons
 
 All about favicons
 

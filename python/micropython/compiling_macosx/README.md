@@ -1,4 +1,4 @@
-# #208 Building MicroPython on MacOS
+# #208 Building MicroPython on macOS
 
 Quick notes on my first experience building MicroPython on MacOS.
 

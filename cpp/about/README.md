@@ -1,4 +1,4 @@
-# #045 C++
+# #045 C++/about
 
 My place for notes on C++ resources and references.
 

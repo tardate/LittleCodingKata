@@ -1,4 +1,4 @@
-# #211 Haskell for MacOS
+# #211 Haskell/install_macosx
 
 Getting a Haskell compiler running under MacOS
 

@@ -1,4 +1,4 @@
-# #284 Quality Estimation
+# #284 Network Quality Estimation
 
 Accessing network connection information in the browser.
 

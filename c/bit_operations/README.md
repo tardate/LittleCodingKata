@@ -1,4 +1,4 @@
-# #147 Operations
+# #147 Bitwise Operations
 
 Summary and demonstration of all the usual bit operations in C.
 

@@ -1,4 +1,4 @@
-# #012 Exception Handling
+# #012 C++/exception_handling
 
 Exercising C++ exception handling.
 

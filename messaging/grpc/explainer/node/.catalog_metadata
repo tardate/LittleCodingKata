@@ -1,6 +1,6 @@
 {
     "id": "#021",
-    "name": "gRPC Explainer/Node.js",
+    "name": "gRPC Explainer - Node.js version",
     "description": "hardware excuse generator with gRPC - Node client example",
     "categories": "gRPC, Node, Messaging",
     "relative_path": "messaging/grpc/explainer/node",

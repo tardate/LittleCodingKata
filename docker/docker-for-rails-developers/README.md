@@ -1,4 +1,4 @@
-# #153 for Rails Developers
+# #153 Docker for Rails Developers
 
 Notes on the book Docker for Rails Developers, By Rob Isenberg, pubished by The Pragmatic Programmers
 

@@ -1,4 +1,4 @@
-# #018 Explainer - Python Version
+# #018 gRPC Explainer - Python version
 
 This sample implements a Python version of the
 [Explainer Protocol](../protocols/explainer.proto).

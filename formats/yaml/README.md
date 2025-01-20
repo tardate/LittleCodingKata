@@ -1,4 +1,4 @@
-# #087 YAML
+# #087 About YAML
 
 Notes on structure, generation and validation of YAML.
 

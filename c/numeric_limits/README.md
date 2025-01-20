@@ -1,4 +1,4 @@
-# #176 Limits
+# #176 Numeric Limits in C
 
 Numeric limits information available in the C standard library (and finding another clang/gcc difference).
 

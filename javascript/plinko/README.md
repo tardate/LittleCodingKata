@@ -1,4 +1,4 @@
-# #054
+# #054 plinko
 
 A demonstration of the k-nearest neighbors algorithm implemented in javascript in a browser.
 

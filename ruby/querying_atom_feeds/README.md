@@ -1,4 +1,4 @@
-# #245 Atom Feeds
+# #245 Querying Atom Feeds
 
 Techniques and examples for querying Atom Feeds with XPath and Nokogiri.
 

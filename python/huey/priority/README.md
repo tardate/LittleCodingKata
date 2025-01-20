@@ -1,4 +1,4 @@
-# #192 Task Priority
+# #192 Huey Task Priority
 
 Using the huey task priority feature.
 

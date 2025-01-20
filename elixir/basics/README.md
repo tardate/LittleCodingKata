@@ -1,4 +1,4 @@
-# #107 Basics
+# #107 Elixir Basics
 
 Exploring basic language features of Elixir
 

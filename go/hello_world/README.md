@@ -1,4 +1,4 @@
-# #024 World! in Go
+# #024 Hello world in Go
 
 exploring Go with the simplest example
 

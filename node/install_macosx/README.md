@@ -1,4 +1,4 @@
-# #277 Node.js macOS
+# #277 Installing Node.js macOS
 
 Installing and maintaining Node.js on macOS
 

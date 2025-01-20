@@ -1,4 +1,4 @@
-# #216 HTTP Mock Response
+# #216 HTTP Mock Responses
 
 Using Sinatra to craft simple HTTP web responses for mock integration testing.
 

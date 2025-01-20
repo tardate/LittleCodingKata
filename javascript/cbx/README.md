@@ -1,4 +1,4 @@
-# #137 X Library
+# #137 Cross-browser X Library
 
 Playing with the old inner solar system demo for the cross-browser javascript X library.
 

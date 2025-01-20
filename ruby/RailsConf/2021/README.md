@@ -1,4 +1,4 @@
-# #186 2021
+# #186 RailsConf 2021
 
 Overview and notes from RailsConf 2021.
 

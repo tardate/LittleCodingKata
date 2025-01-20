@@ -1,4 +1,4 @@
-# #282 REST API
+# #282 PMP REST API
 
 Notes on setting up and using the PMP REST API.
 

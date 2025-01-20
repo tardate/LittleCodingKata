@@ -1,4 +1,4 @@
-# #138 Cookbook
+# #138 CSS Cookbook
 
 Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, published by O'Reilly
 

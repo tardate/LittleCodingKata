@@ -1,4 +1,4 @@
-# #258 Django
+# #258 Lightweight Django
 
 Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly.
 

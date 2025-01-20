@@ -1,4 +1,4 @@
-# #084 Chart Basics
+# #084 Google Chart Basics
 
 Getting up and running and understanding the latest from Google Charts
 

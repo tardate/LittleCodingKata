@@ -1,4 +1,4 @@
-# #043 Profiling
+# #043 Memory Profiling
 
 About memory profiling in Ruby.
 

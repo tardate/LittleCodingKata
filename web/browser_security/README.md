@@ -1,4 +1,4 @@
-# #085 Security
+# #085 Browser Security
 
 Notes and summaries of key browser security and vulnerabilities.
 

@@ -1,4 +1,4 @@
-# #022 Explainer - Ruby Version
+# #022 gRPC Explainer - Ruby version
 
 This sample implements a Ruby client and server that talk the
 [Explainer Protocol](../protocols/explainer.proto).

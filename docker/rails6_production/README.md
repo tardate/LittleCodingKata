@@ -1,4 +1,4 @@
-# #187 6 with Docker for Production
+# #187 Rails 6 with Docker for Production
 
 All about running Rails 6 with Docker for production deployment
 

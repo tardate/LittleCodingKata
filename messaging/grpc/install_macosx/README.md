@@ -1,4 +1,4 @@
-# #292 gRPC for MacOS
+# #292 Installing gRPC for MacOS
 
 Getting gRPC running under MacOS
 

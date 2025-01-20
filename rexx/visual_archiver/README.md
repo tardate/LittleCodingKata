@@ -1,4 +1,4 @@
-# #131 Archiver
+# #131 Visual Archiver
 
 An Archive Management Interface for OS/2 v2.0 written in REXX
 

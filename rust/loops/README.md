@@ -1,4 +1,4 @@
-# #162 in Rust
+# #162 Loops in Rust
 
 All about loops in rust
 

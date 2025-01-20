@@ -1,4 +1,4 @@
-# #117 Elixir
+# #117 Programming Elixir
 
 Book notes - Programming Elixir by Dave Thomas, pubished by The Pragmatic Bookshelf
 

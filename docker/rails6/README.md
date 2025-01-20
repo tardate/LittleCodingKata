@@ -1,4 +1,4 @@
-# #150 6 with Docker
+# #150 Rails 6 with Docker
 
 All about running Rails 6 with Docker
 

@@ -1,6 +1,6 @@
 {
     "id": "#025",
-    "name": "fft/running_kissfft_example",
+    "name": "a Kiss FFT Example",
     "description": "test drive the Kiss FFT C library with an example",
     "categories": "C, FFT",
     "relative_path": "fft/running_kissfft_example",

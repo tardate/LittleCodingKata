@@ -1,4 +1,4 @@
-# #201
+# #201 sips
 
 Using sips - scriptable image processing system on MacOS.
 

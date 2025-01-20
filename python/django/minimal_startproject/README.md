@@ -1,4 +1,4 @@
-# #262 Django Starter Project
+# #262 Minimal Django Starter Project
 
 The basic Django app framework
 

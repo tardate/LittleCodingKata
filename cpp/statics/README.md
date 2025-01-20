@@ -1,4 +1,4 @@
-# #183
+# #183 static
 
 About the static keyword in C++ - static variables, static objects, static member variables, static member functions.
 

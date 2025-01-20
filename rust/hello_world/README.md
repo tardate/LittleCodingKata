@@ -1,4 +1,4 @@
-# #005 World in Rust
+# #005 Rust/hello_world
 
 So the simplest "hello world" in rust is very C-like:
 

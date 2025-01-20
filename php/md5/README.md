@@ -1,4 +1,4 @@
-# #229 md5
+# #229 php md5
 
 Are you still using MD5 in PHP!?
 

@@ -1,4 +1,4 @@
-# #122 Files
+# #122 Finding Files
 
 Examples of various ways to find files
 

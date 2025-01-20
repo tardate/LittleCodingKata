@@ -1,4 +1,4 @@
-# #168 System Programming with C++
+# #168 Hands-On System Programming with C++
 
 Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn.
 

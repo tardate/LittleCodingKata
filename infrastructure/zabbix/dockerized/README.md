@@ -1,4 +1,4 @@
-# #111 Docker
+# #111 Zabbix Docker
 
 Running Zabbix with Docker
 

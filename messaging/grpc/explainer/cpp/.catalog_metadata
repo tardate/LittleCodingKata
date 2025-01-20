@@ -1,6 +1,6 @@
 {
     "id": "#019",
-    "name": "gRPC Explainer/C++",
+    "name": "gRPC Explainer - C++ Version",
     "description": "hardware excuse generator with gRPC - C++ client example",
     "categories": "gRPC, C++, Messaging",
     "relative_path": "messaging/grpc/explainer/cpp",

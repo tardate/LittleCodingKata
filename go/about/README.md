@@ -1,4 +1,4 @@
-# #023 Go
+# #023 About Go
 
 my tl;dr summary
 

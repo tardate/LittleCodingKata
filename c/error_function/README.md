@@ -1,4 +1,4 @@
-# #102 Function
+# #102 Error Function
 
 Methods for calculating the Gauss error function in C with standard libraries and the GNU Scientific Library.
 

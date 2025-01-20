@@ -1,4 +1,4 @@
-# #072 Cheat Sheet
+# #072 PostgreSQL Cheat Sheet
 
 Basic administration and data management command tips and tricks...
 

@@ -1,4 +1,4 @@
-# #134 Date-Time Selectors
+# #134 jQuery Date-Time Selectors
 
 A Quick Survey of jQuery Date-Time Selector libraries and approaches (circa 2010)
 

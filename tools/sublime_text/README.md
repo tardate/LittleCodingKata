@@ -1,4 +1,4 @@
-# #256 Text
+# #256 Sublime Text
 
 All about Sublime Text.
 

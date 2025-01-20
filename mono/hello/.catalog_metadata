@@ -1,6 +1,6 @@
 {
     "id": "#031",
-    "name": "mono/hello",
+    "name": "Hello World with C#/mono",
     "description": "Hello World with C#/mono",
     "categories": "Mono, C#",
     "relative_path": "mono/hello",

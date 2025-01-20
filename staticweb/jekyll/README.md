@@ -1,4 +1,4 @@
-# #027
+# #027 staticweb/jekyll
 
 Test-driving some techniques for building static sites with Jekyll.
 

@@ -1,4 +1,4 @@
-# #237 Certs
+# #237 Self-signed Certs
 
 Creating a self-signed certificate.
 

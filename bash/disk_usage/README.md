@@ -1,4 +1,4 @@
-# #255 usage
+# #255 disk usage
 
 How to survey disk usage on linux systems.
 

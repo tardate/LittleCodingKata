@@ -1,4 +1,4 @@
-# #104 with Rust
+# #104 Testing with Rust
 
 How to write and organise tests for rust.
 

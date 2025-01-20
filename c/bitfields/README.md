@@ -1,4 +1,4 @@
-# #148 Fields
+# #148 Bit Fields
 
 Using bitfields in C
 

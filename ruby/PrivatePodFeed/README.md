@@ -1,4 +1,4 @@
-# #091 PodFeed
+# #091 Private PodFeed
 
 Publishing a private podcast feed with Sinatra.
 

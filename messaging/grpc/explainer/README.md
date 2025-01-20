@@ -1,4 +1,4 @@
-# #017 - The Explainer
+# #017 gRPC Explainer
 
 My first experiment with gRPC and various language bindings.
 

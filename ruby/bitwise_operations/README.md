@@ -1,4 +1,4 @@
-# #170 Operations
+# #170 Bitwise Operations
 
 All about bitwise operations in Ruby.
 

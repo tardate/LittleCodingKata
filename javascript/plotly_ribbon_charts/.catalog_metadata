@@ -1,6 +1,6 @@
 {
     "id": "#013",
-    "name": "Javascript/plotly_ribbon_charts",
+    "name": "Ribbon Charts with plotly.js",
     "description": "Interactive Ribbon Charts with plotly.js",
     "categories": "Javascript",
     "relative_path": "javascript/plotly_ribbon_charts",

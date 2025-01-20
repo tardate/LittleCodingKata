@@ -1,4 +1,4 @@
-# #086 Animation
+# #086 SVG Animation
 
 All about SVG for web design and animation.
 

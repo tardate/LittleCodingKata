@@ -1,4 +1,4 @@
-# #174 Format
+# #174 Float Format
 
 Testing floating point number formatting with the C++
 

@@ -1,4 +1,4 @@
-# #300 2024
+# #300 RailsConf 2024
 
 Overview and notes from RailsConf 2024, May 7 – 9, 2024.
 

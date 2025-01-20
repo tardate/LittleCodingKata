@@ -1,4 +1,4 @@
-# #093 2.7 New Features
+# #093 Ruby 2.7 New Features
 
 Investigating new features in Ruby 2.7.0, released 2019-12-25
 

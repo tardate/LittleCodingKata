@@ -1,4 +1,4 @@
-# #101 and Atom
+# #101 RSS and Atom
 
 About RSS and Atom feeds for publishing and podcasting.
 

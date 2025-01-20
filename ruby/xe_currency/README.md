@@ -1,4 +1,4 @@
-# #266
+# #266 xe_currency
 
 Using the Xe Currency Data API from Ruby and with curl.
 

@@ -1,4 +1,4 @@
-# #158 Lists with Indices
+# #158 Iterating Lists with Indices
 
 Revising methods for adding indexes to lists since PEP 3113 removed tuple parameter unpacking
 

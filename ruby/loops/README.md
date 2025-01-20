@@ -1,4 +1,4 @@
-# #129 Loops
+# #129 Ruby Loop
 
 All the various ways of looping in Ruby.
 

@@ -1,4 +1,4 @@
-# #161 in C
+# #161 Loops in C
 
 All about loops in C
 

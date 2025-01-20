@@ -1,4 +1,4 @@
-# #142 Barcharts
+# #142 Console Barcharts
 
 Print barcharts to the console in ascii or with unicode block elements
 

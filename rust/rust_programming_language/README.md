@@ -1,4 +1,4 @@
-# #118 Rust Programming Language
+# #118 The Rust Programming Language
 
 Book notes - The Rust Programming Language by Steve Klabnik, pubished by Mozilla Research
 

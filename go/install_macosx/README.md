@@ -1,4 +1,4 @@
-# #207 Go for MacOS
+# #207 Go on macOS
 
 Getting a Go compiler running under MacOS
 

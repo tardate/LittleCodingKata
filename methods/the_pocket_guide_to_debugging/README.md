@@ -1,4 +1,4 @@
-# #246 Pocket Guide to Debugging
+# #246 The Pocket Guide to Debugging
 
 Book notes - [The Pocket Guide to Debugging](https://wizardzines.com/zines/debugging-guide/) by Julia Evans
 

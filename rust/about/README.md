@@ -1,4 +1,4 @@
-# #006 Rust
+# #006 Rust/about
 
 Is it a joke, or does everyone seem to have "rust" in mind these days?
 

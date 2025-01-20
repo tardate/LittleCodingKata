@@ -1,4 +1,4 @@
-# #190 Huey
+# #190 About Huey
 
 Huey is a lightweight queuing system for python.
 

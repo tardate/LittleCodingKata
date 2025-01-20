@@ -1,4 +1,4 @@
-# #113 Zabbix
+# #113 Mastering Zabbix
 
 Book notes - Mastering Zabbix by Andrea Dalle Vacche, Stefano Kewan Lee, published by PacktPub.
 

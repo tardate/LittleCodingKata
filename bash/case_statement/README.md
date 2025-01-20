@@ -1,4 +1,4 @@
-# #035 Case Statements
+# #035 Bash Case Statement
 
 How to use case statements in the bash shell.
 

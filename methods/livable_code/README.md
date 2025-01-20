@@ -1,4 +1,4 @@
-# #249 Code
+# #249 Livable Code
 
 Notes on the RailsConf 2018 Keynote - Livable Code by Sarah Mei
 

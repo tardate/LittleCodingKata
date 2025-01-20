@@ -1,4 +1,4 @@
-# #081 a Dictionary
+# #081 Implementing a Dictionary
 
 An example of using struct-based C to implement a somewhat object-oriented dictionary.
 
