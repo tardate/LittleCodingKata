@@ -1,6 +1,6 @@
-# 318 Little Coding Katas
+# 319 Little Coding Katas
 
-> Latest addition:sparkles: [Git Batch Push](./tools/git/batch_push) - Using a batch push technique to overcome 2GB GitHub limits
+> Latest addition:sparkles: [DeepSeek AI](./tools/ai/deepseek) - A first look at DeepSeek: its history, source, and a demonstration of running locally (macOS/apple silicon)
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

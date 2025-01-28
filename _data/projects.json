@@ -1,4 +1,13 @@
 {
+    "/tools/ai/deepseek/": {
+        "id": 319,
+        "title": "DeepSeek AI",
+        "summary": "A first look at DeepSeek: its history, source, and a demonstration of running locally (macOS/apple silicon)",
+        "tags": [
+            "tools",
+            "AI"
+        ]
+    },
     "/tools/git/batch_push/": {
         "id": 318,
         "title": "Git Batch Push",
