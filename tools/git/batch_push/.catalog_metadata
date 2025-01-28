@@ -1,0 +1,9 @@
+{
+    "name": "Git Batch Push",
+    "description": "Using a batch push technique to overcome 2GB GitHub limits",
+    "categories": "Tools, git",
+    "relative_path": "tools/git/batch_push",
+    "updated_at": "2025-01-28T08:15:00Z",
+    "created_at": "2025-01-28T08:15:00Z",
+    "id": "#318"
+}

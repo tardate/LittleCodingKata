@@ -1,4 +1,13 @@
 {
+    "/tools/git/batch_push/": {
+        "id": 318,
+        "title": "Git Batch Push",
+        "summary": "Using a batch push technique to overcome 2GB GitHub limits",
+        "tags": [
+            "Tools",
+            "git"
+        ]
+    },
     "/security/kms/symmetric_data_encryption/": {
         "id": 317,
         "title": "Symmetric Encryption with AWS KMS",

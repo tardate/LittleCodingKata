@@ -1,6 +1,9 @@
 <?xml version="1.0" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://codingkata.tardate.com/tools/git/batch_push/</loc>
+  </url>
+  <url>
     <loc>https://codingkata.tardate.com/security/kms/symmetric_data_encryption/</loc>
   </url>
   <url>
