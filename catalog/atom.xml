@@ -14,6 +14,16 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/tools/git/batch_push/</id>
+    <link href="https://codingkata.tardate.com/tools/git/batch_push/"/>
+    <updated>2025-01-28T08:15:00Z</updated>
+    <title>#318 Git Batch Push</title>
+    <summary>Using a batch push technique to overcome 2GB GitHub limits</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using a batch push technique to overcome 2GB GitHub limits&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Tools"/>
+    <category term="git"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/security/kms/symmetric_data_encryption/</id>
     <link href="https://codingkata.tardate.com/security/kms/symmetric_data_encryption/"/>
     <updated>2025-01-19T14:04:00Z</updated>
