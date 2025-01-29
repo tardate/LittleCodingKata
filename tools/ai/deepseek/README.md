@@ -9,7 +9,7 @@ A first look at DeepSeek 深度求索: its history, source, and a demonstration 
 Stock markets have noticed! See for example:
 [What’s DeepSeek, China’s AI startup sending shockwaves through global tech?](https://www.aljazeera.com/economy/2025/1/28/why-chinas-ai-startup-deepseek-is-sending-shockwaves-through-global-tech)
 
-DeepSeek was founded by Liang Wenfeng in 2023 in Hangzhou, Zhejiang as a "side project" of the Chinese hedge fund [High-Flyer](https://en.wikipedia.org/wiki/High-Flyer).
+[DeepSeek](https://en.wikipedia.org/wiki/DeepSeek) was founded by Liang Wenfeng in 2023 in Hangzhou, Zhejiang as a "side project" of the Chinese hedge fund [High-Flyer](https://en.wikipedia.org/wiki/High-Flyer).
 
 History of DeepSeek in a nutshell:
 
@@ -224,9 +224,496 @@ The Trolley Problem is a fundamental philosophical dilemma that explores a perso
 
 The Trolley Problem is a fundamental ethical issue that touches on personal choice, moral judgment, and societal norms. It reflects the complexities of making decisions based on immediate consequences versus broader ethical principles. While it emphasizes the importance of individual choices, its resolution often depends on one's personal values and perspective.
 
+## Let's Try Some Mathematical Word Problems
+
+I've heard that DeepSeek is particularly good at [Mathematical Word Problems](https://www.wolframalpha.com/examples/mathematics/elementary-math/mathematical-word-problems)
+such as one would encounter in the [real world](https://dartef.com/blog/real-world-math-problems/).
+
+Let's try something relatively straight-forward:
+
+> Rachel has 17 apples. She gives 9 to Sarah. How many apples does Rachel have now?
+>
+> A: 17 - 9 = 8
+
+Let's see how the smallest DeepSeek model goes:
+
+    $ ollama run deepseek-r1:1.5b
+    >>> Rachel has 17 apples. She gives 9 to Sarah. How many apples does Rachel have now?
+    <think>
+    First, I note that Rachel starts with 17 apples.
+
+    She gives away 9 apples to Sarah.
+
+    To find out how many apples Rachel has left, I subtract the number of apples she gave away from her original amount: 17 - 9 = 8.
+
+    So, Rachel now has 8 apples.
+    </think>
+
+    Sure! Let's solve the problem step by step.
+
+    **Problem:**
+    Rachel has 17 apples. She gives 9 to Sarah. How many apples does Rachel have now?
+
+    ---
+
+    **Solution:**
+
+    1. **Start with the initial number of apples Rachel has:**
+
+    \[
+    \text{Initial apples} = 17
+    \]
+
+    2. **Subtract the number of apples Rachel gives to Sarah:**
+
+    \[
+    \text{Apples after giving away} = 17 - 9
+    \]
+
+    3. **Perform the subtraction:**
+
+    \[
+    17 - 9 = 8
+    \]
+
+    4. **Final Answer:**
+
+    Rachel has \(\boxed{8}\) apples now.
+
+    ---
+
+    **Answer:**
+    \(\boxed{8}\)
+
+That's correct.
+
+Now a little more complex:
+
+> Rhonda has 12 marbles more than Douglas. Douglas has 6 marbles more than Bertha. Rhonda has twice as many marbles as Bertha has. How many marbles does Douglas have?
+
+Working the solution (24) from scratch:
+
+> Rhonda = Douglas + 12
+> Douglas = Bertha + 6
+> Rhonda = Bertha * 2
+>
+> Rhonda = Bertha + 6 + 12
+> Bertha * 2 = Bertha + 18
+> Bertha = 18
+>
+> Douglas = Bertha + 6
+> Douglas = 18 + 6 = 24
+>
+> Check:
+> Rhonda = Douglas + 12 = 24 + 12 = 36
+> Rhonda = Bertha *2 = 18* 2 = 36
+
+Let's see how the smallest DeepSeek model goes:
+
+    $ ollama run deepseek-r1:1.5b
+    >>> Rhonda has 12 marbles more than Douglas. Douglas has 6 marbles more than Bertha. Rhonda has twice as many marbles as Bertha has. How many marbles does Douglas have?
+    <think>
+    Okay, so let's try to figure out how many marbles Douglas has.
+
+    First, I'll list out all the information given:
+
+    1. **Rhonda has 12 marbles more than Douglas:** This means if we know how many marbles Douglas has, we can easily find out how many Rhonda has by adding 12.
+
+    2. **Douglas has 6 marbles more than Bertha:** Similar to the first point, if I know Bertha's marble count, I can add 6 to get Douglas's total.
+
+    3. **Rhonda has twice as many marbles as Bertha has:** This is interesting because it relates Rhonda and Bertha directly without involving Douglas.
+
+    Let me try assigning variables to make this clearer:
+
+    - Let \( D \) represent the number of marbles Douglas has.
+    - Then, since Douglas has 6 more than Bertha:
+
+    \( D = B + 6 \) \quad (where \( B \) is Bertha's marbles)
+
+    - Rhonda has twice as many as Bertha:
+
+    \( R = 2B \)
+
+    - We also know that Rhonda has 12 more than Douglas:
+
+    \( R = D + 12 \)
+
+    Now, let me substitute \( R \) from the third equation into the fourth one:
+
+    \( 2B = D + 12 \)
+
+    But from the second equation, I have \( D = B + 6 \), so substituting that in:
+
+    \( 2B = (B + 6) + 12 \)
+
+    Simplify the right side:
+
+    \( 2B = B + 18 \)
+
+    Now, subtract \( B \) from both sides to solve for \( B \):
+
+    \( 2B - B = 18 \)
+
+    \( B = 18 \)
+
+    So, Bertha has 18 marbles.
+
+    Now, using the second equation:
+
+    \( D = B + 6 \)
+
+    \( D = 18 + 6 \)
+
+    \( D = 24 \)
+
+    Therefore, Douglas has **24 marbles**.
+
+    To double-check:
+    - Bertha: 18 marbles
+    - Douglas: \( 18 + 6 = 24 \) marbles
+    - Rhonda: \( 2 \times 18 = 36 \) marbles
+
+    Check if Rhonda has 12 more than Douglas:
+
+    \( 24 + 12 = 36 \)
+
+    Yes, that works out. So, the answer is correct.
+    </think>
+
+    To determine how many marbles Douglas has, let's break down the information step by step.
+
+    **Given:**
+    1. **Rhonda has 12 marbles more than Douglas:** \( R = D + 12 \)
+    2. **Douglas has 6 marbles more than Bertha:** \( D = B + 6 \)
+    3. **Rhonda has twice as many marbles as Bertha:** \( R = 2B \)
+
+    **Step 1: Express Douglas's marbles in terms of Bertha's (from equation 2):**
+    \[
+    D = B + 6
+    \]
+
+    **Step 2: Substitute \( D \) into the equation for Rhonda's marbles (from equation 1):**
+    \[
+    R = (B + 6) + 12 = B + 18
+    \]
+
+    **Step 3: Use the expression for \( R \) from equation 3 (\( R = 2B \)):**
+    \[
+    2B = B + 18
+    \]
+
+    **Step 4: Solve for \( B \):**
+    \[
+    2B - B = 18 \\
+    B = 18
+    \]
+
+    **Step 5: Find Douglas's marbles using \( D = B + 6 \):**
+    \[
+    D = 18 + 6 = 24
+    \]
+
+    **Final Answer:**
+    Douglas has \(\boxed{24}\) marbles.
+
+That's correct.
+
+### Undead Sheep
+
+Let's try this problem that [lewismenelaws](https://www.tiktok.com/@lewismenelaws/video/7465012527978515718) had reported `deepseek-r1-distill-qwen-1.5b` got wrong (8),
+but got right with the 14b parameter model `deepseek-r1-distill-qwen-14b`.
+
+> A farmer has 17 sheep. All but 9 die. How many sheep are left?
+
+The correct answer is 9 .. unless you want to be pedantic and claim that you still have 17 sheep, but 8 are now dead!
+
+Let's see how the smallest DeepSeek model goes,
+the 1.1Gb
+[deepseek-r1:1.5b](https://ollama.com/library/deepseek-r1:1.5b) model:
+
+    $ ollama run deepseek-r1:1.5b
+    <think>
+    Okay, let's try to solve this problem step by step.
+
+    First, the farmer starts with **17 sheep**.
+
+    Then, it says that **all but 9 die**. That means 9 sheep don't survive after being in the field.
+
+    To find out how many sheep are left, we subtract the number of dead sheep from the initial count:
+
+    17 (initial) - 9 (dead) = 8
+
+    So, there are \boxed{8} sheep remaining.
+
+    But wait, let me double-check that. If all but 9 die, it means that 9 sheep survive. So yes, starting with 17 and subtracting the 9 dead gives us 8 surviving sheep.
+    </think>
+
+    **Problem:**
+    A farmer has 17 sheep. All but 9 die. How many sheep are left?
+
+    ---
+
+    **Solution:**
+
+    1. **Initial number of sheep:**
+    \[
+    \text{Total sheep} = 17
+    \]
+
+    2. **Number of sheep that die:**
+    The problem states that **all but 9 die**, which means:
+
+    \[
+    \text{Sheep that die} = 17 - 9 = 8
+    \]
+
+    3. **Number of sheep left after the deaths:**
+    Since all but 9 die, **the remaining sheep** are:
+
+    \[
+    \text{Sheep left} = 9
+    \]
+
+    ---
+
+    **Final Answer:**
+    \[
+    \boxed{9}
+    \]
+
+OK, so that is correct in the 1.5b R1 parameter model.
+
+So [lewismenelaws](https://www.tiktok.com/@lewismenelaws/video/7465012527978515718) had reported issues with the distilled model `deepseek-r1-distill-qwen-1.5b`.
+I'm not sure which [quantization method](https://github.com/ggerganov/llama.cpp/discussions/2094) that was (fp16, q4_K_M, q8_0) but lets try with 3.6Gb
+[deepseek-r1:1.5b-qwen-distill-fp16](https://ollama.com/library/deepseek-r1:1.5b-qwen-distill-fp16) model.
+
+    $ ollama run deepseek-r1:1.5b-qwen-distill-fp16
+    >>> A farmer has 17 sheep. All but 9 die. How many sheep are left?
+    <think>
+    First, I note that the farmer starts with a total of 17 sheep.
+
+    Next, it's mentioned that all but 9 sheep died. This means 9 sheep did not survive.
+
+    To find out how many sheep are left, I subtract the number of dead sheep from the initial count: 17 minus 9 equals 8.
+
+    Therefore, there are 8 sheep remaining.
+    </think>
+
+    **Solution**
+
+    We have a farmer with **17 sheep** initially. It is stated that **all but 9 sheep died**. To find out how many sheep are left, we can follow these steps:
+
+    1. **Total Sheep Initially:**
+    \[
+    17 \text{ sheep}
+    \]
+
+    2. **Sheep That Died:**
+    If all but **9 sheep** died, then:
+    \[
+    17 - x = 9
+    \]
+
+    3. **Solve for \(x\):**
+    Subtract 9 from both sides to find the number of dead sheep (\(x\)):
+    \[
+    17 - 9 = x \\
+    x = 8
+    \]
+
+    4. **Sheep Left:**
+    The number of sheep left is equal to the number that did not die, which we found to be:
+    \[
+    \boxed{8}
+    \]
+
+    **Final Answer:**
+    There are \(\boxed{8}\) sheep left.
+
+Not correct. Let's try and nudge it in the right direction:
+
+    >>> that's wrong, I need you to calculate how many are still alive
+    <think>
+    Okay, so there's this problem here: "A farmer has 17 sheep. All but 9 die. How many sheep are left?" At first glance, it seems straightforward, but when I looked at the instructions for further clarification, I realized that my initial
+    answer wasn't aligning with what was expected. Maybe I interpreted the question incorrectly or overlooked some key details.
+
+    Let me try to break this down step by step to make sure I understand it correctly. The problem states that a farmer has 17 sheep and mentions that "all but 9 die." So, if all sheep die except for 9, does that mean 9 sheep remain alive?
+
+    I'm going to approach this from different angles to ensure clarity:
+
+    1. **Total Sheep:** The farmer starts with 17 sheep.
+    2. **Sheep That Died:** It's stated that "all but 9" died, which means 17 minus 9 equals 8 sheep survived.
+    3. **Conclusion:** Therefore, only 8 sheep are left alive.
+
+    But wait, I want to double-check this because the instructions mentioned something about having the assistant calculate it correctly and then providing a step-by-step explanation. Maybe my first attempt was too simplistic, and there's more
+    depth or context I should consider here.
+
+    Let me think about possible alternative interpretations:
+
+    - **All but 9 die:** Could "all" mean all of them except for 9? That would still lead to the same conclusion—8 sheep survive.
+
+    - Perhaps there's a trick in how the problem is phrased. For instance, does "die" refer to dying from disease or simply leaving behind dead and living sheep?
+
+    However, given that it's a straightforward math problem, I don't see any ambiguity here.
+
+    Another angle could be questioning whether 9 refers to something other than the number of surviving sheep, but in this context, it seems clear: "all but 9 die," meaning only 9 survive.
+
+    To ensure I'm not missing anything, let me summarize:
+
+    - **Total Sheep:** 17
+    - **Sheep That Survived:** 8
+
+    Therefore, the final answer is that there are \(\boxed{8}\) sheep left alive.
+
+    If someone feels unsure or believes this answer is incorrect based on further clarification, I can ask for more details to ensure accuracy.
+
+    **Final Answer**
+    \boxed{8}
+
+Still not correct. Let's try and give it a big hint:
+
+    >>> I think you don't understand "All but". try again
+    <think>
+    Alright, so let me see if I get this straight. The problem says a farmer has 17 sheep and all but 9 die. So, I need to find out how many are left.
+
+    First, the total number of sheep is 17. Then it says "all but 9," which means that 9 sheep survive. So, 17 minus 9 equals 8 sheep remain alive.
+
+    Wait a minute, let me make sure I'm interpreting this correctly. Does "all" refer to all the sheep except for 9? Yes, that's what "all but 9" means. So, if there are 17 sheep total and 9 die, then 8 must be left.
+
+    But maybe I'm missing something. Could "all" mean something else in this context? Or is it possible that "all but 9" might imply a different number of surviving sheep?
+
+    Let me think about it differently. If the farmer has 17 sheep and all of them die except for 9, then logically, there should be 8 sheep left alive.
+
+    But to make sure I'm not making a mistake, maybe I'll try plugging in some numbers.
+
+    Suppose there are 10 sheep total. If "all but 2" die, that would mean 8 survive.
+    If there are 5 sheep, and "all but 3" die, then 2 survive.
+
+    So the pattern seems to be: Total - (All but X) = Survived
+
+    Applying this:
+
+    Total = 17
+    X = 9
+    Survived = 17 - 9 = 8
+
+    That makes sense. Therefore, there are 8 sheep left alive.
+    </think>
+
+    **Answer:** The farmer has \(\boxed{8}\) sheep left after all but 9 of the 17 sheep die.
+
+    Let's break it down:
+
+    - **Total Sheep Initially:** 17
+    - **Sheep That Survived:** All but 9 died, so 17 - 9 = 8
+
+    **Conclusion:** There are \(\boxed{8}\) sheep remaining after the deaths.
+
+No go. It seems the distilled version has broken its mathematical reasoning a little.
+
+Let's try with the 14b parameter distilled model
+[deepseek-r1:14b-qwen-distill-q4_K_M](https://ollama.com/library/deepseek-r1:14b-qwen-distill-q4_K_M) - the q4_K_M quantized model is only 9Gb so possible to run realistically on my 16Gb iMac.
+Still doesn't get the right answer:
+
+    $ ollama run deepseek-r1:14b-qwen-distill-q4_K_M
+    >>> A farmer has 17 sheep. All but 9 die. How many sheep are left?
+    <think>
+    The problem states that a farmer has 17 sheep, and all but 9 die.
+
+    To find out how many sheep remain, I need to interpret "all but 9" correctly.
+
+    "All but 9" means all except 9 sheep survive.
+
+    So, if there were originally 17 sheep, subtracting the 9 that survived gives:
+
+    17 - 9 = 8.
+
+    Therefore, there are 8 sheep left.
+    </think>
+
+    Let's solve the problem step by step.
+
+    **Problem:**
+    A farmer has 17 sheep. All but 9 die. How many sheep are left?
+
+    ---
+
+    **Step 1:** Understand the phrase "All but 9."
+    - **"All but 9"** means all except 9 sheep survive.
+
+    **Step 2:** Apply this to the total number of sheep.
+    - Total sheep = 17
+    - Number of sheep that died = All - Survived = 17 - 9
+
+    **Step 3:** Calculate the number of sheep left.
+    - Sheep left = Total sheep - Sheep that died
+    - **Sheep left = 17 - 9 = 8**
+
+    ---
+
+    **Final Answer:**
+    \boxed{8}
+
+Let's check with the the 9Gb
+[deepseek-r1:14b](https://ollama.com/library/deepseek-r1:14b) model. This runs fine on my 16Gb iMac (Apple Silicon) and returns the correct answer with very direct logic:
+
+    $ ollama run deepseek-r1:14b
+    >>> A farmer has 17 sheep. All but 9 die. How many sheep are left?
+    <think>
+    First, I note that the farmer initially has 17 sheep.
+
+    The phrase "all but 9 die" means that only 9 sheep survive.
+
+    Therefore, after the loss, there are 9 sheep remaining.
+    </think>
+
+    **Solution:**
+
+    Let's break down the problem step by step.
+
+    1. **Total number of sheep initially:**
+    The farmer has **17** sheep.
+
+    2. **Number of sheep that die:**
+    "All but 9 die" means that only **9** sheep survive.
+
+    3. **Calculate the remaining sheep:**
+    Since all but 9 die, the number of sheep left is **9**.
+
+    **Final Answer:**
+    \[
+    \boxed{9}
+    \]
+
+## Inspecting and Cleaning Up Models
+
+Listing installed models:
+
+    $ ollama ls
+    NAME                                   ID              SIZE      MODIFIED
+    deepseek-r1:14b-qwen-distill-q4_K_M    ea35dfe18182    9.0 GB    3 minutes ago
+    deepseek-r1:14b-qwen-distill-fp16      1f1bddb1a1a2    29 GB     3 hours ago
+    deepseek-r1:14b                        ea35dfe18182    9.0 GB    4 hours ago
+    deepseek-r1:1.5b-qwen-distill-fp16     b3e50d21d5a9    3.6 GB    5 hours ago
+    deepseek-r1:1.5b                       a42b25d8c10a    1.1 GB    23 hours ago
+    llama3.2:latest                        a80c4f17acd5    2.0 GB    24 hours ago
+
+Removing unwanted models:
+
+    $ ollama rm deepseek-r1:14b-qwen-distill-q4_K_M
+    $ ollama rm deepseek-r1:14b-qwen-distill-fp16
+    $ ollama rm deepseek-r1:1.5b-qwen-distill-fp16
+    $ ollama ls
+    NAME                ID              SIZE      MODIFIED
+    deepseek-r1:14b     ea35dfe18182    9.0 GB    4 hours ago
+    deepseek-r1:1.5b    a42b25d8c10a    1.1 GB    23 hours ago
+    llama3.2:latest     a80c4f17acd5    2.0 GB    24 hours ago
+
 ## Credits and References
 
 * <https://www.deepseek.com/>
 * <https://ollama.com/>
+* <https://ollama.com/search> - all available models
+* <https://ollama.com/library/deepseek-r1> - available deepseek models
 * <https://chatboxai.app/>
 * <https://en.wikipedia.org/wiki/DeepSeek>
