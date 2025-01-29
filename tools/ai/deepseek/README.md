@@ -293,20 +293,20 @@ Now a little more complex:
 
 Working the solution (24) from scratch:
 
-> Rhonda = Douglas + 12
-> Douglas = Bertha + 6
-> Rhonda = Bertha * 2
->
-> Rhonda = Bertha + 6 + 12
-> Bertha * 2 = Bertha + 18
-> Bertha = 18
->
-> Douglas = Bertha + 6
-> Douglas = 18 + 6 = 24
->
-> Check:
-> Rhonda = Douglas + 12 = 24 + 12 = 36
-> Rhonda = Bertha *2 = 18* 2 = 36
+    Rhonda = Douglas + 12
+    Douglas = Bertha + 6
+    Rhonda = Bertha * 2
+
+    Rhonda = Bertha + 6 + 12
+    Bertha * 2 = Bertha + 18
+    Bertha = 18
+
+    Douglas = Bertha + 6
+    Douglas = 18 + 6 = 24
+
+    Check:
+    Rhonda = Douglas + 12 = 24 + 12 = 36
+    Rhonda = Bertha * 2 = 18 * 2 = 36
 
 Let's see how the smallest DeepSeek model goes:
 
