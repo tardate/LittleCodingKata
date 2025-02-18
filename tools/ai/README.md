@@ -8,10 +8,16 @@ Given how hot the topic of AI is these days, this list will go out of date immed
 It is not trying to be comprehensive - just a collection of tools I have come across and
 either use, tried, or would like to check out at some point.
 
+### AI Information Sources
+
 See also:
 
 * [AI Stash](https://www.aistash.co/) - the AI Tools directory.
 * [FREE Prompts Library ~ Sabrina Ramonov](https://prompts.sabrina.dev)
+* [TLDR AI Newsletter](https://a.tldrnewsletter.com/)
+* [DeepLearning](https://www.deeplearning.ai/)
+    * AI newsletter
+    * created AI programs on Coursera
 
 ### Developer Tools
 
@@ -41,16 +47,31 @@ See also:
 
 ### Chat LLMs
 
-* <https://openai.com/chatgpt/>
-* <https://writesonic.com/chat>
+#### ChatGPT
+
+<https://openai.com/chatgpt/>
+
+#### DeepSeek
+
+<https://www.deepseek.com/>
+
+> DeepSeek-V3 achieves a significant breakthrough in inference speed over previous models.
+>
+> It tops the leaderboard among open-source models and rivals the most advanced closed-source models globally.
+
+See my initial review and trial of [DeepSeek](./deepseek/).
+
+#### Writesonic Chat
+
+<https://writesonic.com/chat>
 
     > the ChatGPT Team alternative for enterprises, offering real-time web search, PDF, image and website engagement. One App multiple LLMs
 
-### Research and writing Tools
+### Education and Research Tools
 
 #### NotebookLM
 
- <https://notebooklm.google/>
+<https://notebooklm.google/>
 
 > NotebookLM is an AI-powered research and writing assistant that works best with the sources you upload
 >
