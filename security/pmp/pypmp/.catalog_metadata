@@ -1,7 +1,7 @@
 {
     "name": "pypmp",
     "description": "Using pypmp to call the PMP REST API from python",
-    "categories": "security/pmp",
+    "categories": "security",
     "relative_path": "security/pmp/pypmp",
     "updated_at": "2024-03-14T13:06:26Z",
     "id": "#281",

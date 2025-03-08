@@ -1,7 +1,7 @@
 {
     "name": "Homebrew on Apple Silicon",
     "description": "Using Homebrew to manage ARM64 and x86_64 package installations on macOS.",
-    "categories": "Tools, MacOS",
+    "categories": "tools, macOS",
     "relative_path": "tools/homebrew/apple_silicon",
     "updated_at": "2024-08-07T03:27:26Z",
     "id": "#293",

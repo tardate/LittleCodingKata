@@ -1,7 +1,7 @@
 {
     "name": "CSV to Markdown Tables",
     "description": "Options for converting comma-separated value data into markdown tables, including python scripts, command line utilities, online tools, and editor extensions.",
-    "categories": "python, markdown, csv, tools",
+    "categories": "python, markdown, CSV, tools",
     "relative_path": "python/csv2md",
     "updated_at": "2024-12-29T07:09:00Z",
     "id": "#311",

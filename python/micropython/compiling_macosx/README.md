@@ -1,6 +1,6 @@
 # #208 Building MicroPython on macOS
 
-Quick notes on my first experience building MicroPython on MacOS.
+Quick notes on my first experience building MicroPython on macOS.
 
 
 ## Notes
@@ -10,7 +10,7 @@ campaign to open source the software.
 
 MicroPython is basically Python cut down and enhanced for specifics that make it possible and worthwhile to run on microcontrollers.
 
-But it can also run on host systems .. which is what I'm testing here. Building to run on MacOS..
+But it can also run on host systems .. which is what I'm testing here. Building to run on macOS..
 
 
 ### Compiling from Source
@@ -25,7 +25,7 @@ $ git describe
 v1.9.2-123-gbdc6e86
 ```
 
-I'm building the unix port, which should be suitable for MacOS.
+I'm building the unix port, which should be suitable for macOS.
 
 ```
 $ cd ports/unix

@@ -2,7 +2,7 @@
     "id": "#001",
     "name": "envsubst",
     "description": "substitute shell variables in text",
-    "categories": "Tools, Bash",
+    "categories": "tools, bash",
     "relative_path": "tools/envsubst",
     "updated_at": "2016-07-10T13:14:48Z",
     "created_at": "2016-07-10T13:14:48Z"

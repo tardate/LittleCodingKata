@@ -1,7 +1,7 @@
 {
     "name": "ngrok",
     "description": "Creating publically-accessible URLs for services running locally",
-    "categories": "Tools",
+    "categories": "tools",
     "relative_path": "tools/ngrok",
     "updated_at": "2021-11-02T14:53:49Z",
     "id": "#198",

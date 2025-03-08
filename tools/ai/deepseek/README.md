@@ -182,7 +182,7 @@ I'll start with the smallest:
 
 ### Install Chatbox AI
 
-[Chatbox AI](https://chatboxai.app/) is an AI client application and smart assistant. Compatible with many cutting-edge AI models and APIs. Available on Windows, MacOS, Android, iOS, Web, and Linux.
+[Chatbox AI](https://chatboxai.app/) is an AI client application and smart assistant. Compatible with many cutting-edge AI models and APIs. Available on Windows, macOS, Android, iOS, Web, and Linux.
 
 [![chatboxai](./assets/chatboxai.png)](https://chatboxai.app/)
 

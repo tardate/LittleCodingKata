@@ -36,7 +36,7 @@ A cut down example is in [first_example.cpp](./first_example.cpp):
     Name: rpenter 75 90 87 92 93 60 0 98
     Name: Jones 1 2 3 4 5 6 7 8 9 10
 
-That's the result I get when I run it on MacOS (that bit of information became significant later).
+That's the result I get when I run it on macOS (that bit of information became significant later).
 I added Jones just to show its not a repeating pattern for all subsequent lines.
 
 
@@ -144,11 +144,11 @@ Enter a double and a string: Thanks. I read double: 0 and string: gh
 Running on coliru showed the same code producing a different result.
 But a few things had changed:
 
-* the operating system: Linux v MacOS
+* the operating system: Linux v macOS
 * the compiler: GCC v LLVM
 * the C++ standard library implementation: [Libstdc++ v Libc++
 
-On MacOS, [I learned](https://forums.hardwarezone.com.sg/software-clinic-3/c-c-standard-libraries-linux-gcc-clang-5743469.html)
+On macOS, [I learned](https://forums.hardwarezone.com.sg/software-clinic-3/c-c-standard-libraries-linux-gcc-clang-5743469.html)
 that running `g++` uses Apple's release of LLVM and the clang compiler, and clang supports both:
 
 * Libstdc++, the GNU standard C++ library that comes standard in Linux

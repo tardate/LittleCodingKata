@@ -20,7 +20,7 @@ The `./animals` folder defines a simple library. It provides a "Cat" class that 
 
 The [Makefile](./animals/Makefile) is setup to generate a library file.
 Basically, instead of targeting an executable like an actual program, we compile an link to a library archive file.
-Since I am on MacOS, I'm using the [GCC archiver](https://en.wikipedia.org/wiki/Ar_(Unix))
+Since I am on macOS, I'm using the [GCC archiver](https://en.wikipedia.org/wiki/Ar_(Unix))
 
     $ cd animals
     $ make

@@ -1,10 +1,10 @@
-# #200 MacOS Cheatsheet
+# #200 macOS Cheatsheet
 
-A place to record some of my favourite MacOS tools, tips and tricks.
+A place to record some of my favourite macOS tools, tips and tricks.
 
 ## Digital Color Meter
 
-[Digital Color Meter](https://en.wikipedia.org/wiki/Digital_Color_Meter) is a utility provided in MacOS that can be
+[Digital Color Meter](https://en.wikipedia.org/wiki/Digital_Color_Meter) is a utility provided in macOS that can be
 used to easily ready the pixel color from anywhere on the screen.
 Great for quickly color matching.
 
@@ -31,7 +31,7 @@ In early versions, the location can be read and set using the defaults command:
 		location = "/Users/myname/Downloads/Screenshots"
 	}
 
-See also: 
+See also:
 
 * [How to Change Where Screenshots Are Saved on Mac](https://www.hellotech.com/guide/for/how-to-change-where-screenshots-are-saved-on-mac)
 * [Take a screenshot on your Mac](https://support.apple.com/en-gb/102646)

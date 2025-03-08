@@ -1,13 +1,13 @@
 # #211 Haskell/install_macosx
 
-Getting a Haskell compiler running under MacOS
+Getting a Haskell compiler running under macOS
 
 
 ## Notes
 
 There are at least three methods:
 * binary installation - see [Downloads for OS X](https://www.haskell.org/downloads/osx)
-* brew - see [Quick setup for GHC 7.11 and later](https://ghc.haskell.org/trac/ghc/wiki/Building/Preparation/MacOSX)
+* brew - see [Quick setup for GHC 7.11 and later](https://ghc.haskell.org/trac/ghc/wiki/Building/Preparation/macOSX)
 * source compilation - see [Building and Porting GHC](https://ghc.haskell.org/trac/ghc/wiki/Building)
 
 ### brew
@@ -31,7 +31,7 @@ The Glorious Glasgow Haskell Compilation System, version 7.10.3
 So far, so good..
 
 ## Credits and References
-* [Quick setup for GHC 7.11 and later](https://ghc.haskell.org/trac/ghc/wiki/Building/Preparation/MacOSX)
+* [Quick setup for GHC 7.11 and later](https://ghc.haskell.org/trac/ghc/wiki/Building/Preparation/macOSX)
 * [Downloads for OS X](https://www.haskell.org/downloads/osx)
 * [Building and Porting GHC](https://ghc.haskell.org/trac/ghc/wiki/Building)
 * [ghc brew formula](https://github.com/Homebrew/homebrew/blob/master/Library/Formula/ghc.rb)

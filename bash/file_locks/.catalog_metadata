@@ -2,7 +2,7 @@
     "id": "#034",
     "name": "Bash File Locks",
     "description": "How to implement simple resource semaphores with file locks",
-    "categories": "Bash",
+    "categories": "bash",
     "relative_path": "bash/file_locks",
     "updated_at": "2017-10-09T15:23:07Z",
     "created_at": "2017-10-09T15:23:07Z"

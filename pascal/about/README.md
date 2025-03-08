@@ -29,7 +29,7 @@ First step is obviously just to try and get it installed...
 
 [Free Pascal](https://www.freepascal.org/) appears to be one of the more actively maintained
 implementations.
-I've successfully got it [running on MacOS - see here](../free_pascal).
+I've successfully got it [running on macOS - see here](../free_pascal).
 
 NB: [GNU Pascal](https://en.wikipedia.org/wiki/GNU_Pascal) was a thing for a while, but the
 [official release](http://www.gnu-pascal.de/gpc/h-index.html) died around 2006, and

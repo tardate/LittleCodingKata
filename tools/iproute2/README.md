@@ -28,7 +28,7 @@ The main functionality missing in iproute2mac are the `ip rule` and `ip tunnel` 
 
 When iproute2mac's `ip` runs out of steam, it's necessary fallback on `netstat`, `ifconfig`, `ndp`, `arp`, `route` and `networksetup` directly.
 
-### Installation and test drive on MacOS
+### Installation and test drive on macOS
 
 I use [homebrew](https://github.com/Homebrew/homebrew) to manage most of my software installation,
 and wadiyano, there's a formula available:

@@ -1,7 +1,7 @@
 {
     "id": "#291",
     "name": "doxygen",
-    "description": "Installing and testing doxygen for c++ source documentation generation on MacOS",
+    "description": "Installing and testing doxygen for c++ source documentation generation on macOS",
     "categories": "C++",
     "relative_path": "cpp/doxygen",
     "updated_at": "2024-07-09T12:04:13Z",

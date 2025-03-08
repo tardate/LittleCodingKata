@@ -1,6 +1,6 @@
-# #209 Installing Python 2 and 3 on MacOS
+# #209 Installing Python 2 and 3 on macOS
 
-Notes on installing and maintaining python 2 and 3 versions on MacOS.
+Notes on installing and maintaining python 2 and 3 versions on macOS.
 
 ## Notes
 
@@ -71,7 +71,7 @@ With python 3, so much easier to create a virtual environment:
     $ source venv/bin/activate
     (venv) $
 
-### Earlier MacOS Versions
+### Earlier macOS Versions
 
 I didn't make a note of which macOS version these earlier notes were made with. High Sierra?
 Definitely still on Intel processor.

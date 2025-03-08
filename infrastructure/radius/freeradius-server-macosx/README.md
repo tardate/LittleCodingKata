@@ -13,7 +13,7 @@ The FreeRADIUS Server is the leading open source (GNU GPLv2) implementation of R
 * can authenticate users on: 802.1x (WiFi), dialup, PPPoE, VPN's, VoIP, and many others
 * supports back-end databases such as MySQL, PostgreSQL, Oracle, Microsoft Active Directory, Apache Cassandra, Redis, OpenLDAP, and many more
 
-## Build on MacOS
+## Build on macOS
 
 ### Installing talloc
 

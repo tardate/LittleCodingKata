@@ -1,7 +1,7 @@
 {
     "name": "flake8-blame",
     "description": "Who busted Python style-guide rules?",
-    "categories": "python, Bash",
+    "categories": "python, bash",
     "relative_path": "python/flake8-blame",
     "updated_at": "2019-07-20T04:58:08Z",
     "id": "#065",

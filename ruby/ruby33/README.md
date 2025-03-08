@@ -16,7 +16,7 @@ Highlights
 * Range#overlap?
 * Fiber#kill
 
-### MacOS (Apple Silicon) Install
+### macOS (Apple Silicon) Install
 
 ```bash
 $ rvm get head

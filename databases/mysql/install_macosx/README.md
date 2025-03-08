@@ -1,6 +1,6 @@
-# #197 MySQL on MacOS
+# #197 MySQL on macOS
 
-Notes on installing and running MySQL client and/or server on MacOS
+Notes on installing and running MySQL client and/or server on macOS
 
 ## Notes
 

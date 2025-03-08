@@ -9,7 +9,7 @@ high performance, fault-tolerant applications for production.
 
 ### Checking Pre-requisites and Installation
 
-Here's the MacOS host environment I'm using to build and run the examples
+Here's the macOS host environment I'm using to build and run the examples
 
     $ node -v
     v12.8.0

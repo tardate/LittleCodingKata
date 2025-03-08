@@ -1,6 +1,6 @@
 # #207 Go on macOS
 
-Getting a Go compiler running under MacOS
+Getting a Go compiler running under macOS
 
 
 ## Notes

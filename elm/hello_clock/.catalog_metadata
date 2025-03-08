@@ -2,7 +2,7 @@
     "id": "#007",
     "name": "Elm/hello_clock",
     "description": "2D graphics with elm",
-    "categories": "Elm",
+    "categories": "elm",
     "relative_path": "elm/hello_clock",
     "updated_at": "2016-07-10T13:14:48Z",
     "created_at": "2016-07-10T13:14:48Z"

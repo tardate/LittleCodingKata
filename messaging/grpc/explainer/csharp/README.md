@@ -16,7 +16,7 @@ protoc -I ../protocols --csharp_out=./explain --grpc_out=. --plugin=protoc-gen-g
 
 ## Build
 
-I'm building this on MacOS with mono 4.2.3
+I'm building this on macOS with mono 4.2.3
 
 ```sh
 $ mono --version
