@@ -9,7 +9,7 @@
       this.loadCatalog();
       this.hookActions();
       this.github_base_url = 'https://github.com/tardate/LittleCodingKata/blob/master/';
-      this.pages_base_url = '/';
+      this.pages_base_url = 'https://codingkata.tardate.com/';
     }
 
     CatalogController.prototype.hookActions = function() {
@@ -25,6 +25,7 @@
     CatalogController.prototype.loadCatalog = function() {
       var instance;
       instance = this;
+
       return this.catalog_table.DataTable({
         autoWidth: false,
         ajax: {
@@ -38,24 +39,27 @@
           }, {
             data: 'name'
           }, {
-            data: 'description',
-            visible: false
-          }, {
             data: 'categories',
             visible: false
-          },
+          }, {
+            data: 'description',
+            visible: false
+          }
         ],
         order: [[0, "desc"]],
         rowCallback: function(row, data, index) {
           var base_name;
           var cell, main_cell, description_cell;
-          var description, category_array, category_labels;
-
-          category_array = data.categories.split(',');
+          var description, project_rel_url, project_url, hero_image_rel_url, hero_image_url, category_array, category_labels;
 
           base_name = data.relative_path.split('/').pop();
-          project_url = instance.pages_base_url + data.relative_path + '/';
+          project_rel_url = data.relative_path + '/'
+          project_url = instance.pages_base_url + project_rel_url
 
+          hero_image_rel_url = project_rel_url + 'assets/' + base_name + '_build.jpg';
+          hero_image_url = instance.pages_base_url + hero_image_rel_url;
+
+          category_array = data.categories.split(',');
           category_labels = '';
           for (var cat = 0; cat < category_array.length; cat++) {
             category_labels += '<span class="label label-primary">' + category_array[cat] + '</span> ';
@@ -63,27 +67,30 @@
 
           main_cell = '\
           <div class="hidden-xs"> \
-            <a href="' + project_url + '" class="btn btn-default btn-success btn-tardate">' + data.id + '</a> \
+            <a href="' + project_rel_url + '" class="btn btn-default btn-success btn-tardate">' + data.id + '</a> \
           </div> \
           <div class="visible-xs-block"> \
-            <a href="' + project_url + '" class="btn btn-default btn-success btn-tardate">' + data.id + ' ' + data.name + '</a> \
+            <a href="' + project_rel_url + '" class="btn btn-default btn-success btn-tardate">' + data.id + ' ' + data.name + '</a> \
             <div class="text-muted small">' + data.description + '</div> \
             <div>' + category_labels + '</div> \
+            <img class="tardate-hero" src="' + hero_image_rel_url + '" alt=""> \
           </div>\
           ';
           cell = $('td:eq(0)', row);
           cell.html(main_cell);
 
-          description_cell = '<div class="media"> \
+          description_cell = '\
+          <div class="media"> \
             <div class="media-body"> \
-              <div class="pull-right"> \
-                <div>' + category_labels + '</div>  \
-              </div> \
               <h4 class="media-heading">' + data.name + '</h4> \
               <div class="text-muted">' + data.description + '</div> \
+              <div>' + category_labels + '</div> \
             </div> \
-          </div>';
-
+            <div class="media-right"> \
+              <img class="media-object tardate-hero" src="' + hero_image_rel_url + '" alt=""> \
+            </div> \
+          </div>\
+          ';
           cell = $('td:eq(1)', row)
           cell.addClass('xtardate-link')
           cell.addClass('hidden-xs')
@@ -91,15 +98,29 @@
           cell.html(description_cell);
           return cell
         }
+      }).on( 'init.dt', function () {
+        var categoryFilter = $('<select id="category-filter" class="form-control input-sm"><option value="">All Categories</option></select>')
+          .appendTo($('#catalog-table_wrapper').find('.dataTables_filter'))
+          .on('change', function() {
+            var val = $.fn.dataTable.util.escapeRegex($(this).val());
+            instance.catalog_table.DataTable().column(2).search(val ? val : '', true, false).draw();
+          });
+
+        $.ajax({
+          url: './catalog/categories.json',
+          success: function(data) {
+            data.forEach(function(item) {
+              categoryFilter.append('<option value="' + item + '">' + item + '</option>');
+            });
+          }
+        });
       });
     };
 
     return CatalogController;
-
   })();
 
   jQuery(function() {
     return new root.CatalogController($('#catalog-table'));
   });
-
 }).call(this);
