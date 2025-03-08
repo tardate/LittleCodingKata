@@ -5,9 +5,9 @@ About SSH File Transfer Protocol
 ## Notes
 
 
-### Running SFTP Server on MacOS
+### Running SFTP Server on macOS
 
-MacOS has SFTP support built-in, but disabled by default.
+macOS has SFTP support built-in, but disabled by default.
 
 ![macos_sharing](./assets/macos_sharing.png?raw=true)
 

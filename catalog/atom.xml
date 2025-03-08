@@ -30,7 +30,7 @@
     <title>#318 Git Batch Push</title>
     <summary>Using a batch push technique to overcome 2GB GitHub limits</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using a batch push technique to overcome 2GB GitHub limits&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Tools"/>
+    <category term="tools"/>
     <category term="git"/>
   </entry>
   <entry>
@@ -73,7 +73,7 @@
     <summary>Book notes - Ambient Findability, By Peter Morville, published by O'Reilly</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Ambient Findability, By Peter Morville, published by O'Reilly&lt;/p&gt;&lt;/div&gt;</content>
     <category term="design"/>
-    <category term="books"/>
+    <category term="book"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/sqlectron/</id>
@@ -82,8 +82,8 @@
     <title>#313 SQLECTRON</title>
     <summary>About SQLECTRON, the open-source SQL client for all dbs and all platforms.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;About SQLECTRON, the open-source SQL client for all dbs and all platforms.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Database"/>
-    <category term="Tools"/>
+    <category term="databases"/>
+    <category term="tools"/>
     <category term="SQL"/>
   </entry>
   <entry>
@@ -95,7 +95,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;How to convert comma-separated value data into markdown tables with ruby&lt;/p&gt;&lt;/div&gt;</content>
     <category term="ruby"/>
     <category term="markdown"/>
-    <category term="csv"/>
+    <category term="CSV"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/python/csv2md/</id>
@@ -106,7 +106,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Options for converting comma-separated value data into markdown tables, including python scripts, command line utilities, online tools, and editor extensions.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="python"/>
     <category term="markdown"/>
-    <category term="csv"/>
+    <category term="CSV"/>
     <category term="tools"/>
   </entry>
   <entry>
@@ -211,7 +211,7 @@
     <title>#300 RailsConf 2024</title>
     <summary>Overview and notes from RailsConf 2024</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Overview and notes from RailsConf 2024&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby/RailsConf"/>
+    <category term="ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/rubyconf/rdrc2024/</id>
@@ -220,7 +220,7 @@
     <title>#299 Red Dot Ruby Conference 2024</title>
     <summary>Conference summary and notes</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Conference summary and notes&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby/RubyConf"/>
+    <category term="ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/hammerspoon/</id>
@@ -248,7 +248,7 @@
     <title>#296 PT Backup</title>
     <summary>How to script a simple Pivotal Tracker backup with python and the RESTful API</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;How to script a simple Pivotal Tracker backup with python and the RESTful API&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Tools"/>
+    <category term="tools"/>
     <category term="python"/>
   </entry>
   <entry>
@@ -276,27 +276,27 @@
     <title>#293 Homebrew on Apple Silicon</title>
     <summary>Using Homebrew to manage ARM64 and x86_64 package installations on macOS.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using Homebrew to manage ARM64 and x86_64 package installations on macOS.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Tools"/>
-    <category term="MacOS"/>
+    <category term="tools"/>
+    <category term="macOS"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/messaging/grpc/install_macosx/</id>
     <link href="https://codingkata.tardate.com/messaging/grpc/install_macosx/"/>
     <updated>2024-07-09T12:04:13Z</updated>
-    <title>#292 Installing gRPC for MacOS</title>
-    <summary>installing on MacOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;installing on MacOS&lt;/p&gt;&lt;/div&gt;</content>
+    <title>#292 Installing gRPC for macOS</title>
+    <summary>installing on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;installing on macOS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="gRPC"/>
-    <category term="MacOS"/>
-    <category term="Messaging"/>
+    <category term="macOS"/>
+    <category term="messaging"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/cpp/doxygen/</id>
     <link href="https://codingkata.tardate.com/cpp/doxygen/"/>
     <updated>2024-07-09T12:04:13Z</updated>
     <title>#291 doxygen</title>
-    <summary>Installing and testing doxygen for c++ source documentation generation on MacOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Installing and testing doxygen for c++ source documentation generation on MacOS&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>Installing and testing doxygen for c++ source documentation generation on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Installing and testing doxygen for c++ source documentation generation on macOS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="C++"/>
   </entry>
   <entry>
@@ -304,20 +304,20 @@
     <link href="https://codingkata.tardate.com/elm/install/"/>
     <updated>2024-07-09T12:04:13Z</updated>
     <title>#290 Installing elm</title>
-    <summary>Installing Elm on MacOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Installing Elm on MacOS&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Elm"/>
-    <category term="MacOS"/>
+    <summary>Installing Elm on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Installing Elm on macOS&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="elm"/>
+    <category term="macOS"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/install_macosx/</id>
     <link href="https://codingkata.tardate.com/rust/install_macosx/"/>
     <updated>2024-07-09T12:04:13Z</updated>
-    <title>#289 Installing Rust for MacOS</title>
-    <summary>Rust - installing on MacOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Rust - installing on MacOS&lt;/p&gt;&lt;/div&gt;</content>
+    <title>#289 Installing Rust for macOS</title>
+    <summary>Rust - installing on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Rust - installing on macOS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Rust"/>
-    <category term="MacOS"/>
+    <category term="macOS"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/xargs/</id>
@@ -381,7 +381,7 @@
     <title>#282 PMP REST API</title>
     <summary>Notes on setting up and using the PMP REST API</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Notes on setting up and using the PMP REST API&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="security/pmp"/>
+    <category term="security"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/security/pmp/pypmp/</id>
@@ -390,7 +390,7 @@
     <title>#281 pypmp</title>
     <summary>Using pypmp to call the PMP REST API from python</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using pypmp to call the PMP REST API from python&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="security/pmp"/>
+    <category term="security"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/security/pmp/about/</id>
@@ -399,7 +399,7 @@
     <title>#280 About PMP</title>
     <summary>About ManageEngine Password Manager Pro including Linux server installation</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;About ManageEngine Password Manager Pro including Linux server installation&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="security/pmp"/>
+    <category term="security"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/sublime_merge/</id>
@@ -436,7 +436,7 @@
     <title>#276 MySQL 8</title>
     <summary>All about MySQL 8 and examples of running with docker</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;All about MySQL 8 and examples of running with docker&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Database"/>
+    <category term="databases"/>
     <category term="MySQL"/>
   </entry>
   <entry>
@@ -510,7 +510,7 @@
     <summary>Notes on managing PostgreSQL Sequences</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Notes on managing PostgreSQL Sequences&lt;/p&gt;&lt;/div&gt;</content>
     <category term="databases"/>
-    <category term="postgresql"/>
+    <category term="PostgreSQL"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/databases/postgresql/locks/</id>
@@ -520,7 +520,7 @@
     <summary>Notes on managing PostgreSQL locks</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Notes on managing PostgreSQL locks&lt;/p&gt;&lt;/div&gt;</content>
     <category term="databases"/>
-    <category term="postgresql"/>
+    <category term="PostgreSQL"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/xe_currency/</id>
@@ -643,7 +643,7 @@
     <title>#254 Primary Key Audit</title>
     <summary>How to list primary key details in a MySQL database</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;How to list primary key details in a MySQL database&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Database"/>
+    <category term="databases"/>
     <category term="MySQL"/>
   </entry>
   <entry>
@@ -1011,9 +1011,9 @@
     <id>https://codingkata.tardate.com/messaging/zeromq/install_macosx/</id>
     <link href="https://codingkata.tardate.com/messaging/zeromq/install_macosx/"/>
     <updated>2021-11-02T14:53:49Z</updated>
-    <title>#215 zeromq on MacOS</title>
-    <summary>Installing zeromq on MacOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Installing zeromq on MacOS&lt;/p&gt;&lt;/div&gt;</content>
+    <title>#215 zeromq on macOS</title>
+    <summary>Installing zeromq on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Installing zeromq on macOS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="messaging"/>
     <category term="zeromq"/>
   </entry>
@@ -1036,16 +1036,16 @@
     <summary>All about running FreeRADIUS on macOS (currently a #fail, needs work)</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;All about running FreeRADIUS on macOS (currently a #fail, needs work)&lt;/p&gt;&lt;/div&gt;</content>
     <category term="RADIUS"/>
-    <category term="MacOS"/>
+    <category term="macOS"/>
     <category term="infrastructure"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/cpp/sdl/install/</id>
     <link href="https://codingkata.tardate.com/cpp/sdl/install/"/>
     <updated>2021-11-02T14:53:49Z</updated>
-    <title>#212 SDL2 MacOS Install</title>
-    <summary>Installing the Simple DirectMedia Layer library on MacOS, and running a basic verification program in C++</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Installing the Simple DirectMedia Layer library on MacOS, and running a basic verification program in C++&lt;/p&gt;&lt;/div&gt;</content>
+    <title>#212 SDL2 macOS Install</title>
+    <summary>Installing the Simple DirectMedia Layer library on macOS, and running a basic verification program in C++</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Installing the Simple DirectMedia Layer library on macOS, and running a basic verification program in C++&lt;/p&gt;&lt;/div&gt;</content>
     <category term="C++"/>
     <category term="SDL"/>
   </entry>
@@ -1054,18 +1054,18 @@
     <link href="https://codingkata.tardate.com/haskell/install_macosx/"/>
     <updated>2021-11-02T14:53:49Z</updated>
     <title>#211 Haskell/install_macosx</title>
-    <summary>installing Haskell on MacOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;installing Haskell on MacOS&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>installing Haskell on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;installing Haskell on macOS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Haskell"/>
-    <category term="MacOS"/>
+    <category term="macOS"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/elixir/install_macosx/</id>
     <link href="https://codingkata.tardate.com/elixir/install_macosx/"/>
     <updated>2021-11-02T14:53:49Z</updated>
-    <title>#210 Elixir on MacOS</title>
-    <summary>Installing Elixir on MacOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Installing Elixir on MacOS&lt;/p&gt;&lt;/div&gt;</content>
+    <title>#210 Elixir on macOS</title>
+    <summary>Installing Elixir on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Installing Elixir on macOS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="elixir"/>
     <category term="docker"/>
   </entry>
@@ -1073,9 +1073,9 @@
     <id>https://codingkata.tardate.com/python/install_macosx/</id>
     <link href="https://codingkata.tardate.com/python/install_macosx/"/>
     <updated>2021-11-02T14:53:49Z</updated>
-    <title>#209 Installing Python 2 and 3 on MacOS</title>
-    <summary>Notes on installing and maintaining python 2 and 3 versions on MacOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Notes on installing and maintaining python 2 and 3 versions on MacOS&lt;/p&gt;&lt;/div&gt;</content>
+    <title>#209 Installing Python 2 and 3 on macOS</title>
+    <summary>Notes on installing and maintaining python 2 and 3 versions on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Notes on installing and maintaining python 2 and 3 versions on macOS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="python"/>
   </entry>
   <entry>
@@ -1093,18 +1093,18 @@
     <link href="https://codingkata.tardate.com/go/install_macosx/"/>
     <updated>2021-11-02T14:53:49Z</updated>
     <title>#207 Go on macOS</title>
-    <summary>installing Go on MacOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;installing Go on MacOS&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>installing Go on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;installing Go on macOS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Go"/>
-    <category term="MacOS"/>
+    <category term="macOS"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/docker/arm_builds/</id>
     <link href="https://codingkata.tardate.com/docker/arm_builds/"/>
     <updated>2021-11-02T14:53:49Z</updated>
     <title>#206 Building for ARM with Docker</title>
-    <summary>Building 32-bit ARM v7 images with docker, tested on MacOS and AWS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Building 32-bit ARM v7 images with docker, tested on MacOS and AWS&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>Building 32-bit ARM v7 images with docker, tested on macOS and AWS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Building 32-bit ARM v7 images with docker, tested on macOS and AWS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="docker"/>
     <category term="ARM"/>
   </entry>
@@ -1113,8 +1113,8 @@
     <link href="https://codingkata.tardate.com/tools/mibbrowser/"/>
     <updated>2021-11-02T14:53:49Z</updated>
     <title>#205 iReasoning MIB browser</title>
-    <summary>Testing the iReasoning MIB browser on MacOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Testing the iReasoning MIB browser on MacOS&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>Testing the iReasoning MIB browser on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Testing the iReasoning MIB browser on macOS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="tools"/>
     <category term="SNMP"/>
   </entry>
@@ -1125,8 +1125,8 @@
     <title>#204 iproute2</title>
     <summary>about iproute2 and how to run it on macOS</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;about iproute2 and how to run it on macOS&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Tools"/>
-    <category term="MacOS"/>
+    <category term="tools"/>
+    <category term="macOS"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/homebrew/</id>
@@ -1135,16 +1135,16 @@
     <title>#203 Homebrew Tips and Tricks</title>
     <summary>homebrew (macOS package manager) tips and tricks</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;homebrew (macOS package manager) tips and tricks&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Tools"/>
-    <category term="MacOS"/>
+    <category term="tools"/>
+    <category term="macOS"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/arping/</id>
     <link href="https://codingkata.tardate.com/tools/arping/"/>
     <updated>2021-11-02T14:53:49Z</updated>
     <title>#202 arping</title>
-    <summary>All about Address Resolution Protocol (ARP - RFC826) and installing arping on MacOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;All about Address Resolution Protocol (ARP - RFC826) and installing arping on MacOS&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>All about Address Resolution Protocol (ARP - RFC826) and installing arping on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;All about Address Resolution Protocol (ARP - RFC826) and installing arping on macOS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="tools"/>
   </entry>
   <entry>
@@ -1152,19 +1152,19 @@
     <link href="https://codingkata.tardate.com/tools/sips/"/>
     <updated>2021-11-02T14:53:49Z</updated>
     <title>#201 sips</title>
-    <summary>Using sips - scriptable image processing system on MacOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Using sips - scriptable image processing system on MacOS&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Tools"/>
+    <summary>Using sips - scriptable image processing system on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using sips - scriptable image processing system on macOS&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="tools"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/macosx_cheats/</id>
     <link href="https://codingkata.tardate.com/tools/macosx_cheats/"/>
     <updated>2021-11-02T14:53:49Z</updated>
-    <title>#200 MacOS Cheatsheet</title>
-    <summary>my favourite MacOS tools, tips and tricks</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;my favourite MacOS tools, tips and tricks&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Tools"/>
-    <category term="MacOS"/>
+    <title>#200 macOS Cheatsheet</title>
+    <summary>my favourite macOS tools, tips and tricks</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;my favourite macOS tools, tips and tricks&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="tools"/>
+    <category term="macOS"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/requestbin/</id>
@@ -1173,7 +1173,7 @@
     <title>#199 Request Bin</title>
     <summary>Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Tools"/>
+    <category term="tools"/>
     <category term="api"/>
   </entry>
   <entry>
@@ -1183,16 +1183,16 @@
     <title>#198 ngrok</title>
     <summary>Creating publically-accessible URLs for services running locally</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Creating publically-accessible URLs for services running locally&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Tools"/>
+    <category term="tools"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/databases/mysql/install_macosx/</id>
     <link href="https://codingkata.tardate.com/databases/mysql/install_macosx/"/>
     <updated>2025-12-30T10:00:00Z</updated>
-    <title>#197 MySQL on MacOS</title>
-    <summary>Notes on installing and running MySQL client and/or server on MacOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Notes on installing and running MySQL client and/or server on MacOS&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Database"/>
+    <title>#197 MySQL on macOS</title>
+    <summary>Notes on installing and running MySQL client and/or server on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Notes on installing and running MySQL client and/or server on macOS&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="databases"/>
     <category term="MySQL"/>
   </entry>
   <entry>
@@ -1200,8 +1200,8 @@
     <link href="https://codingkata.tardate.com/databases/redis/redis_desktop_manager/"/>
     <updated>2021-11-02T14:53:49Z</updated>
     <title>#196 Redis Desktop Manager</title>
-    <summary>Building and running the Redis Desktop Manager applicaiton on MacOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Building and running the Redis Desktop Manager applicaiton on MacOS&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>Building and running the Redis Desktop Manager applicaiton on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Building and running the Redis Desktop Manager applicaiton on macOS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="databases"/>
     <category term="redis"/>
   </entry>
@@ -1210,8 +1210,8 @@
     <link href="https://codingkata.tardate.com/databases/redis/about/"/>
     <updated>2021-11-02T14:53:49Z</updated>
     <title>#195 About Redis</title>
-    <summary>Redis basics and MacOS installation</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Redis basics and MacOS installation&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>Redis basics and macOS installation</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Redis basics and macOS installation&lt;/p&gt;&lt;/div&gt;</content>
     <category term="databases"/>
     <category term="redis"/>
   </entry>
@@ -1220,8 +1220,8 @@
     <link href="https://codingkata.tardate.com/pascal/free_pascal/"/>
     <updated>2021-11-02T14:53:49Z</updated>
     <title>#194 Free Pascal</title>
-    <summary>Installing and running the Free Pascal compiler on MacOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Installing and running the Free Pascal compiler on MacOS&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>Installing and running the Free Pascal compiler on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Installing and running the Free Pascal compiler on macOS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="pascal"/>
   </entry>
   <entry>
@@ -1365,7 +1365,7 @@
     <title>#180 Indirect References</title>
     <summary>Indirect variable de-referencing in bash scripts</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Indirect variable de-referencing in bash scripts&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Bash"/>
+    <category term="bash"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/bash/bash_reference_manual/</id>
@@ -1374,7 +1374,7 @@
     <title>#179 Bash Reference Manual</title>
     <summary>the GNU Bash Reference Manual</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;the GNU Bash Reference Manual&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Bash"/>
+    <category term="bash"/>
     <category term="book"/>
   </entry>
   <entry>
@@ -1543,7 +1543,7 @@
     <title>#161 Loops in C</title>
     <summary>All about loops in C</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;All about loops in C&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="c"/>
+    <category term="C"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/style/</id>
@@ -1672,7 +1672,7 @@
     <title>#148 Bit Fields</title>
     <summary>Using bitfields in C</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using bitfields in C&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="c"/>
+    <category term="C"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/c/bit_operations/</id>
@@ -1681,7 +1681,7 @@
     <title>#147 Bitwise Operations</title>
     <summary>Summary and demonstration of all the usual bit operations in C</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Summary and demonstration of all the usual bit operations in C&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="c"/>
+    <category term="C"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/simple_uris_with_addressable/</id>
@@ -1699,7 +1699,7 @@
     <title>#145 printf partial strings</title>
     <summary>Learning how printf can be instructed to select a limited number of characters from a string</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Learning how printf can be instructed to select a limited number of characters from a string&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="c"/>
+    <category term="C"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/databases/redis/redis_cookbook/</id>
@@ -1849,10 +1849,10 @@
     <id>https://codingkata.tardate.com/databases/oracle/ora_tweet_with_shorturls/</id>
     <link href="https://codingkata.tardate.com/databases/oracle/ora_tweet_with_shorturls/"/>
     <updated>2020-03-03T13:59:43Z</updated>
-    <title>#130 Database Tweets</title>
+    <title>#130 databases Tweets</title>
     <summary>Tweeting from your Oracle database with short urls</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Tweeting from your Oracle database with short urls&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Database"/>
+    <category term="databases"/>
     <category term="Oracle"/>
   </entry>
   <entry>
@@ -1899,7 +1899,7 @@
     <title>#125 Loop Optimization</title>
     <summary>Looking at how C compilers optimize loops</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Looking at how C compilers optimize loops&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="c"/>
+    <category term="C"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/pascal/about/</id>
@@ -1999,7 +1999,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Basic ZeroMQ 'hello world' example of the request-reply messaging pattern in C&lt;/p&gt;&lt;/div&gt;</content>
     <category term="messaging"/>
     <category term="zeromq"/>
-    <category term="c"/>
+    <category term="C"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/javascript/rickshaw/</id>
@@ -2076,7 +2076,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Zeromq in a nutshell with a quick test of using the library from C&lt;/p&gt;&lt;/div&gt;</content>
     <category term="messaging"/>
     <category term="zeromq"/>
-    <category term="c"/>
+    <category term="C"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/elixir/basics/</id>
@@ -2131,7 +2131,7 @@
     <title>#102 Error Function</title>
     <summary>Methods for calculating the Gauss error function in C with standard libraries and the GNU Scientific Library</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Methods for calculating the Gauss error function in C with standard libraries and the GNU Scientific Library&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="c"/>
+    <category term="C"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/formats/rss_atom/</id>
@@ -2165,7 +2165,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Programming Interactivity 2nd Edition, by Joshua Noble published by O'Reilly&lt;/p&gt;&lt;/div&gt;</content>
     <category term="design"/>
     <category term="arduino"/>
-    <category term="books"/>
+    <category term="book"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/rails_antipatterns/</id>
@@ -2413,7 +2413,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;A Sinatra app that provides a number of remote request debugging tools, and can be run with Docker&lt;/p&gt;&lt;/div&gt;</content>
     <category term="ruby"/>
     <category term="Sinatra"/>
-    <category term="Docker"/>
+    <category term="docker"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/databases/mysql/cheats/</id>
@@ -2422,7 +2422,7 @@
     <title>#073 MySQL Cheat Sheet</title>
     <summary>Basic administration and data management command notes</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Basic administration and data management command notes&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Database"/>
+    <category term="databases"/>
     <category term="MySQL"/>
   </entry>
   <entry>
@@ -2432,7 +2432,7 @@
     <title>#072 PostgreSQL Cheat Sheet</title>
     <summary>Basic administration and data management command notes</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Basic administration and data management command notes&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Database"/>
+    <category term="databases"/>
     <category term="PostgreSQL"/>
   </entry>
   <entry>
@@ -2498,7 +2498,7 @@
     <summary>Who busted Python style-guide rules?</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Who busted Python style-guide rules?&lt;/p&gt;&lt;/div&gt;</content>
     <category term="python"/>
-    <category term="Bash"/>
+    <category term="bash"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/python/imgur/</id>
@@ -2666,7 +2666,7 @@
     <summary>Notes on methods to inspect PostgreSQL role permissions, revoke permissions and drop roles</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Notes on methods to inspect PostgreSQL role permissions, revoke permissions and drop roles&lt;/p&gt;&lt;/div&gt;</content>
     <category term="databases"/>
-    <category term="postgresql"/>
+    <category term="PostgreSQL"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/bash/sync_folder/</id>
@@ -2675,7 +2675,7 @@
     <title>#047 sync_folder</title>
     <summary>Comparing methods for synchronizing local folders - cp, rsync</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Comparing methods for synchronizing local folders - cp, rsync&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Bash"/>
+    <category term="bash"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/cpp/doubletrouble/</id>
@@ -2739,9 +2739,9 @@
     <summary>Methods for generating CSV output from a PostgreSQL SQL query</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Methods for generating CSV output from a PostgreSQL SQL query&lt;/p&gt;&lt;/div&gt;</content>
     <category term="databases"/>
-    <category term="postgresql"/>
-    <category term="psql"/>
-    <category term="csv"/>
+    <category term="PostgreSQL"/>
+    <category term="PostgreSQL"/>
+    <category term="CSV"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/databases/postgresql/copy_table/</id>
@@ -2750,7 +2750,7 @@
     <title>#039 Copying Tables</title>
     <summary>notes on copying table strictures and data with SQL</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;notes on copying table strictures and data with SQL&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Database"/>
+    <category term="databases"/>
     <category term="SQL"/>
   </entry>
   <entry>
@@ -2760,7 +2760,7 @@
     <title>#038 Bash if and test</title>
     <summary>All about if/then test constructs in Bash scripting</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;All about if/then test constructs in Bash scripting&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Bash"/>
+    <category term="bash"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/bash/sort_by_numbers/</id>
@@ -2769,7 +2769,7 @@
     <title>#037 Sort by Numbers</title>
     <summary>Sorting text numerically in the shell using the special --version-sort mode of the sort utility</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Sorting text numerically in the shell using the special --version-sort mode of the sort utility&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Bash"/>
+    <category term="bash"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/bash/function_inference/</id>
@@ -2778,7 +2778,7 @@
     <title>#036 Bash Function Inference</title>
     <summary>How to test for the presence of functions in order to branch to arbitrary functions by name</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;How to test for the presence of functions in order to branch to arbitrary functions by name&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Bash"/>
+    <category term="bash"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/bash/case_statement/</id>
@@ -2787,7 +2787,7 @@
     <title>#035 Bash Case Statement</title>
     <summary>How to use case statements in the bash shell</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;How to use case statements in the bash shell&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Bash"/>
+    <category term="bash"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/bash/file_locks/</id>
@@ -2796,7 +2796,7 @@
     <title>#034 Bash File Locks</title>
     <summary>How to implement simple resource semaphores with file locks</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;How to implement simple resource semaphores with file locks&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Bash"/>
+    <category term="bash"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/bash/parse_env_setting/</id>
@@ -2805,7 +2805,7 @@
     <title>#033 Parsing Environment Settings</title>
     <summary>Techniques for parsing environment variables with bash built-in features only</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Techniques for parsing environment variables with bash built-in features only&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Bash"/>
+    <category term="bash"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/c/iterating_char_arrays/</id>
@@ -2853,7 +2853,7 @@
     <title>#028 Bash Loops</title>
     <summary>All about Bash loops</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;All about Bash loops&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Bash"/>
+    <category term="bash"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/staticweb/jekyll/</id>
@@ -2910,8 +2910,8 @@
     <summary>hardware excuse generator with gRPC - Ruby client and server example</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;hardware excuse generator with gRPC - Ruby client and server example&lt;/p&gt;&lt;/div&gt;</content>
     <category term="gRPC"/>
-    <category term="Ruby"/>
-    <category term="Messaging"/>
+    <category term="ruby"/>
+    <category term="messaging"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/messaging/grpc/explainer/node/</id>
@@ -2921,8 +2921,8 @@
     <summary>hardware excuse generator with gRPC - Node client example</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;hardware excuse generator with gRPC - Node client example&lt;/p&gt;&lt;/div&gt;</content>
     <category term="gRPC"/>
-    <category term="Node"/>
-    <category term="Messaging"/>
+    <category term="node"/>
+    <category term="messaging"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/messaging/grpc/explainer/csharp/</id>
@@ -2933,7 +2933,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;hardware excuse generator with gRPC - C# client example&lt;/p&gt;&lt;/div&gt;</content>
     <category term="gRPC"/>
     <category term="C#"/>
-    <category term="Messaging"/>
+    <category term="messaging"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/messaging/grpc/explainer/cpp/</id>
@@ -2944,7 +2944,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;hardware excuse generator with gRPC - C++ client example&lt;/p&gt;&lt;/div&gt;</content>
     <category term="gRPC"/>
     <category term="C++"/>
-    <category term="Messaging"/>
+    <category term="messaging"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/messaging/grpc/explainer/python/</id>
@@ -2954,8 +2954,8 @@
     <summary>hardware excuse generator with gRPC - Python client example</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;hardware excuse generator with gRPC - Python client example&lt;/p&gt;&lt;/div&gt;</content>
     <category term="gRPC"/>
-    <category term="Python"/>
-    <category term="Messaging"/>
+    <category term="python"/>
+    <category term="messaging"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/messaging/grpc/explainer/</id>
@@ -2965,7 +2965,7 @@
     <summary>hardware excuse generator with gRPC</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;hardware excuse generator with gRPC&lt;/p&gt;&lt;/div&gt;</content>
     <category term="gRPC"/>
-    <category term="Messaging"/>
+    <category term="messaging"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/infrastructure/radius/about/</id>
@@ -2984,7 +2984,7 @@
     <title>#015 Progress Bars with Bootstrap</title>
     <summary>Progress Bars with Bootstrap</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Progress Bars with Bootstrap&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Javascript"/>
+    <category term="javascript"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/javascript/highcharts_with_bower/</id>
@@ -2993,7 +2993,7 @@
     <title>#014 Javascript/highcharts_with_bower</title>
     <summary>Highcharts with Bower</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Highcharts with Bower&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Javascript"/>
+    <category term="javascript"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/javascript/plotly_ribbon_charts/</id>
@@ -3002,7 +3002,7 @@
     <title>#013 Ribbon Charts with plotly.js</title>
     <summary>Interactive Ribbon Charts with plotly.js</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Interactive Ribbon Charts with plotly.js&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Javascript"/>
+    <category term="javascript"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/cpp/exception_handling/</id>
@@ -3020,7 +3020,7 @@
     <title>#011 Process Lines</title>
     <summary>Process a File/Stream Line-by-Line in Bash</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Process a File/Stream Line-by-Line in Bash&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Bash"/>
+    <category term="bash"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/bash/select_menu/</id>
@@ -3029,7 +3029,7 @@
     <title>#010 Select Menus</title>
     <summary>simple multiple-choice user input</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;simple multiple-choice user input&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Bash"/>
+    <category term="bash"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/haskell/about/</id>
@@ -3056,7 +3056,7 @@
     <title>#007 Elm/hello_clock</title>
     <summary>2D graphics with elm</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;2D graphics with elm&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Elm"/>
+    <category term="elm"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/about/</id>
@@ -3083,8 +3083,8 @@
     <title>#004 Catalog</title>
     <summary>a Javascript Datatables catalog for GitHub Pages</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a Javascript Datatables catalog for GitHub Pages&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Tools"/>
-    <category term="Javascript"/>
+    <category term="tools"/>
+    <category term="javascript"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/perl/fix_first_line/</id>
@@ -3111,7 +3111,7 @@
     <title>#001 envsubst</title>
     <summary>substitute shell variables in text</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;substitute shell variables in text&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Tools"/>
-    <category term="Bash"/>
+    <category term="tools"/>
+    <category term="bash"/>
   </entry>
 </feed>

@@ -10,7 +10,7 @@ These are my notes on ruby options for chart generation, specifically:
 * supporting multiple data series
 * with customizable chart decoration (titles, axis, tick marks etc)
 * and supporting output to image file or data stream (bitmap or vector) i.e. not for web rendering
-* supporting ruby 2.7.2 or above on MacOS and Linux
+* supporting ruby 2.7.2 or above on macOS and Linux
 * ideally no additional non-ruby dependencies
 
 Trawling for options:

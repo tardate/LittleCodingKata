@@ -1,7 +1,7 @@
 {
     "name": "PT Backup",
     "description": "How to script a simple Pivotal Tracker backup with python and the RESTful API",
-    "categories": "Tools, python",
+    "categories": "tools, python",
     "relative_path": "tools/pt_backup",
     "updated_at": "2024-08-11T12:00:00Z",
     "id": "#296",

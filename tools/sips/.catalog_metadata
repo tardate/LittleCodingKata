@@ -1,7 +1,7 @@
 {
     "name": "sips",
-    "description": "Using sips - scriptable image processing system on MacOS",
-    "categories": "Tools",
+    "description": "Using sips - scriptable image processing system on macOS",
+    "categories": "tools",
     "relative_path": "tools/sips",
     "updated_at": "2021-11-02T14:53:49Z",
     "id": "#201",

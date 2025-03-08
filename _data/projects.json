@@ -13,7 +13,7 @@
         "title": "Git Batch Push",
         "summary": "Using a batch push technique to overcome 2GB GitHub limits",
         "tags": [
-            "Tools",
+            "tools",
             "git"
         ]
     },
@@ -52,7 +52,7 @@
         "summary": "Book notes - Ambient Findability, By Peter Morville, published by O'Reilly",
         "tags": [
             "design",
-            "books"
+            "book"
         ]
     },
     "/tools/sqlectron/": {
@@ -60,8 +60,8 @@
         "title": "SQLECTRON",
         "summary": "About SQLECTRON, the open-source SQL client for all dbs and all platforms.",
         "tags": [
-            "Database",
-            "Tools",
+            "databases",
+            "tools",
             "SQL"
         ]
     },
@@ -72,7 +72,7 @@
         "tags": [
             "ruby",
             "markdown",
-            "csv"
+            "CSV"
         ]
     },
     "/python/csv2md/": {
@@ -82,7 +82,7 @@
         "tags": [
             "python",
             "markdown",
-            "csv",
+            "CSV",
             "tools"
         ]
     },
@@ -176,7 +176,7 @@
         "title": "RailsConf 2024",
         "summary": "Overview and notes from RailsConf 2024",
         "tags": [
-            "ruby/RailsConf"
+            "ruby"
         ]
     },
     "/ruby/rubyconf/rdrc2024/": {
@@ -184,7 +184,7 @@
         "title": "Red Dot Ruby Conference 2024",
         "summary": "Conference summary and notes",
         "tags": [
-            "ruby/RubyConf"
+            "ruby"
         ]
     },
     "/tools/hammerspoon/": {
@@ -209,7 +209,7 @@
         "title": "PT Backup",
         "summary": "How to script a simple Pivotal Tracker backup with python and the RESTful API",
         "tags": [
-            "Tools",
+            "tools",
             "python"
         ]
     },
@@ -234,24 +234,24 @@
         "title": "Homebrew on Apple Silicon",
         "summary": "Using Homebrew to manage ARM64 and x86_64 package installations on macOS.",
         "tags": [
-            "Tools",
-            "MacOS"
+            "tools",
+            "macOS"
         ]
     },
     "/messaging/grpc/install_macosx/": {
         "id": 292,
-        "title": "Installing gRPC for MacOS",
-        "summary": "installing on MacOS",
+        "title": "Installing gRPC for macOS",
+        "summary": "installing on macOS",
         "tags": [
             "gRPC",
-            "MacOS",
-            "Messaging"
+            "macOS",
+            "messaging"
         ]
     },
     "/cpp/doxygen/": {
         "id": 291,
         "title": "doxygen",
-        "summary": "Installing and testing doxygen for c++ source documentation generation on MacOS",
+        "summary": "Installing and testing doxygen for c++ source documentation generation on macOS",
         "tags": [
             "C++"
         ]
@@ -259,19 +259,19 @@
     "/elm/install/": {
         "id": 290,
         "title": "Installing elm",
-        "summary": "Installing Elm on MacOS",
+        "summary": "Installing Elm on macOS",
         "tags": [
-            "Elm",
-            "MacOS"
+            "elm",
+            "macOS"
         ]
     },
     "/rust/install_macosx/": {
         "id": 289,
-        "title": "Installing Rust for MacOS",
-        "summary": "Rust - installing on MacOS",
+        "title": "Installing Rust for macOS",
+        "summary": "Rust - installing on macOS",
         "tags": [
             "Rust",
-            "MacOS"
+            "macOS"
         ]
     },
     "/tools/xargs/": {
@@ -328,7 +328,7 @@
         "title": "PMP REST API",
         "summary": "Notes on setting up and using the PMP REST API",
         "tags": [
-            "security/pmp"
+            "security"
         ]
     },
     "/security/pmp/pypmp/": {
@@ -336,7 +336,7 @@
         "title": "pypmp",
         "summary": "Using pypmp to call the PMP REST API from python",
         "tags": [
-            "security/pmp"
+            "security"
         ]
     },
     "/security/pmp/about/": {
@@ -344,7 +344,7 @@
         "title": "About PMP",
         "summary": "About ManageEngine Password Manager Pro including Linux server installation",
         "tags": [
-            "security/pmp"
+            "security"
         ]
     },
     "/tools/sublime_merge/": {
@@ -377,7 +377,7 @@
         "title": "MySQL 8",
         "summary": "All about MySQL 8 and examples of running with docker",
         "tags": [
-            "Database",
+            "databases",
             "MySQL"
         ]
     },
@@ -443,7 +443,7 @@
         "summary": "Notes on managing PostgreSQL Sequences",
         "tags": [
             "databases",
-            "postgresql"
+            "PostgreSQL"
         ]
     },
     "/databases/postgresql/locks/": {
@@ -452,7 +452,7 @@
         "summary": "Notes on managing PostgreSQL locks",
         "tags": [
             "databases",
-            "postgresql"
+            "PostgreSQL"
         ]
     },
     "/ruby/xe_currency/": {
@@ -562,7 +562,7 @@
         "title": "Primary Key Audit",
         "summary": "How to list primary key details in a MySQL database",
         "tags": [
-            "Database",
+            "databases",
             "MySQL"
         ]
     },
@@ -891,8 +891,8 @@
     },
     "/messaging/zeromq/install_macosx/": {
         "id": 215,
-        "title": "zeromq on MacOS",
-        "summary": "Installing zeromq on MacOS",
+        "title": "zeromq on macOS",
+        "summary": "Installing zeromq on macOS",
         "tags": [
             "messaging",
             "zeromq"
@@ -914,14 +914,14 @@
         "summary": "All about running FreeRADIUS on macOS (currently a #fail, needs work)",
         "tags": [
             "RADIUS",
-            "MacOS",
+            "macOS",
             "infrastructure"
         ]
     },
     "/cpp/sdl/install/": {
         "id": 212,
-        "title": "SDL2 MacOS Install",
-        "summary": "Installing the Simple DirectMedia Layer library on MacOS, and running a basic verification program in C++",
+        "title": "SDL2 macOS Install",
+        "summary": "Installing the Simple DirectMedia Layer library on macOS, and running a basic verification program in C++",
         "tags": [
             "C++",
             "SDL"
@@ -930,16 +930,16 @@
     "/haskell/install_macosx/": {
         "id": 211,
         "title": "Haskell/install_macosx",
-        "summary": "installing Haskell on MacOS",
+        "summary": "installing Haskell on macOS",
         "tags": [
             "Haskell",
-            "MacOS"
+            "macOS"
         ]
     },
     "/elixir/install_macosx/": {
         "id": 210,
-        "title": "Elixir on MacOS",
-        "summary": "Installing Elixir on MacOS",
+        "title": "Elixir on macOS",
+        "summary": "Installing Elixir on macOS",
         "tags": [
             "elixir",
             "docker"
@@ -947,8 +947,8 @@
     },
     "/python/install_macosx/": {
         "id": 209,
-        "title": "Installing Python 2 and 3 on MacOS",
-        "summary": "Notes on installing and maintaining python 2 and 3 versions on MacOS",
+        "title": "Installing Python 2 and 3 on macOS",
+        "summary": "Notes on installing and maintaining python 2 and 3 versions on macOS",
         "tags": [
             "python"
         ]
@@ -965,16 +965,16 @@
     "/go/install_macosx/": {
         "id": 207,
         "title": "Go on macOS",
-        "summary": "installing Go on MacOS",
+        "summary": "installing Go on macOS",
         "tags": [
             "Go",
-            "MacOS"
+            "macOS"
         ]
     },
     "/docker/arm_builds/": {
         "id": 206,
         "title": "Building for ARM with Docker",
-        "summary": "Building 32-bit ARM v7 images with docker, tested on MacOS and AWS",
+        "summary": "Building 32-bit ARM v7 images with docker, tested on macOS and AWS",
         "tags": [
             "docker",
             "ARM"
@@ -983,7 +983,7 @@
     "/tools/mibbrowser/": {
         "id": 205,
         "title": "iReasoning MIB browser",
-        "summary": "Testing the iReasoning MIB browser on MacOS",
+        "summary": "Testing the iReasoning MIB browser on macOS",
         "tags": [
             "tools",
             "SNMP"
@@ -994,8 +994,8 @@
         "title": "iproute2",
         "summary": "about iproute2 and how to run it on macOS",
         "tags": [
-            "Tools",
-            "MacOS"
+            "tools",
+            "macOS"
         ]
     },
     "/tools/homebrew/": {
@@ -1003,14 +1003,14 @@
         "title": "Homebrew Tips and Tricks",
         "summary": "homebrew (macOS package manager) tips and tricks",
         "tags": [
-            "Tools",
-            "MacOS"
+            "tools",
+            "macOS"
         ]
     },
     "/tools/arping/": {
         "id": 202,
         "title": "arping",
-        "summary": "All about Address Resolution Protocol (ARP - RFC826) and installing arping on MacOS",
+        "summary": "All about Address Resolution Protocol (ARP - RFC826) and installing arping on macOS",
         "tags": [
             "tools"
         ]
@@ -1018,18 +1018,18 @@
     "/tools/sips/": {
         "id": 201,
         "title": "sips",
-        "summary": "Using sips - scriptable image processing system on MacOS",
+        "summary": "Using sips - scriptable image processing system on macOS",
         "tags": [
-            "Tools"
+            "tools"
         ]
     },
     "/tools/macosx_cheats/": {
         "id": 200,
-        "title": "MacOS Cheatsheet",
-        "summary": "my favourite MacOS tools, tips and tricks",
+        "title": "macOS Cheatsheet",
+        "summary": "my favourite macOS tools, tips and tricks",
         "tags": [
-            "Tools",
-            "MacOS"
+            "tools",
+            "macOS"
         ]
     },
     "/tools/requestbin/": {
@@ -1037,7 +1037,7 @@
         "title": "Request Bin",
         "summary": "Using request bin services to inspect HTTP events - Runscope self-hosted and newer Pipedream services with workflows aka programmable bins",
         "tags": [
-            "Tools",
+            "tools",
             "api"
         ]
     },
@@ -1046,22 +1046,22 @@
         "title": "ngrok",
         "summary": "Creating publically-accessible URLs for services running locally",
         "tags": [
-            "Tools"
+            "tools"
         ]
     },
     "/databases/mysql/install_macosx/": {
         "id": 197,
-        "title": "MySQL on MacOS",
-        "summary": "Notes on installing and running MySQL client and/or server on MacOS",
+        "title": "MySQL on macOS",
+        "summary": "Notes on installing and running MySQL client and/or server on macOS",
         "tags": [
-            "Database",
+            "databases",
             "MySQL"
         ]
     },
     "/databases/redis/redis_desktop_manager/": {
         "id": 196,
         "title": "Redis Desktop Manager",
-        "summary": "Building and running the Redis Desktop Manager applicaiton on MacOS",
+        "summary": "Building and running the Redis Desktop Manager applicaiton on macOS",
         "tags": [
             "databases",
             "redis"
@@ -1070,7 +1070,7 @@
     "/databases/redis/about/": {
         "id": 195,
         "title": "About Redis",
-        "summary": "Redis basics and MacOS installation",
+        "summary": "Redis basics and macOS installation",
         "tags": [
             "databases",
             "redis"
@@ -1079,7 +1079,7 @@
     "/pascal/free_pascal/": {
         "id": 194,
         "title": "Free Pascal",
-        "summary": "Installing and running the Free Pascal compiler on MacOS",
+        "summary": "Installing and running the Free Pascal compiler on macOS",
         "tags": [
             "pascal"
         ]
@@ -1210,7 +1210,7 @@
         "title": "Indirect References",
         "summary": "Indirect variable de-referencing in bash scripts",
         "tags": [
-            "Bash"
+            "bash"
         ]
     },
     "/bash/bash_reference_manual/": {
@@ -1218,7 +1218,7 @@
         "title": "Bash Reference Manual",
         "summary": "the GNU Bash Reference Manual",
         "tags": [
-            "Bash",
+            "bash",
             "book"
         ]
     },
@@ -1369,7 +1369,7 @@
         "title": "Loops in C",
         "summary": "All about loops in C",
         "tags": [
-            "c"
+            "C"
         ]
     },
     "/ruby/style/": {
@@ -1485,7 +1485,7 @@
         "title": "Bit Fields",
         "summary": "Using bitfields in C",
         "tags": [
-            "c"
+            "C"
         ]
     },
     "/c/bit_operations/": {
@@ -1493,7 +1493,7 @@
         "title": "Bitwise Operations",
         "summary": "Summary and demonstration of all the usual bit operations in C",
         "tags": [
-            "c"
+            "C"
         ]
     },
     "/ruby/simple_uris_with_addressable/": {
@@ -1509,7 +1509,7 @@
         "title": "printf partial strings",
         "summary": "Learning how printf can be instructed to select a limited number of characters from a string",
         "tags": [
-            "c"
+            "C"
         ]
     },
     "/databases/redis/redis_cookbook/": {
@@ -1644,10 +1644,10 @@
     },
     "/databases/oracle/ora_tweet_with_shorturls/": {
         "id": 130,
-        "title": "Database Tweets",
+        "title": "databases Tweets",
         "summary": "Tweeting from your Oracle database with short urls",
         "tags": [
-            "Database",
+            "databases",
             "Oracle"
         ]
     },
@@ -1689,7 +1689,7 @@
         "title": "Loop Optimization",
         "summary": "Looking at how C compilers optimize loops",
         "tags": [
-            "c"
+            "C"
         ]
     },
     "/pascal/about/": {
@@ -1779,7 +1779,7 @@
         "tags": [
             "messaging",
             "zeromq",
-            "c"
+            "C"
         ]
     },
     "/javascript/rickshaw/": {
@@ -1849,7 +1849,7 @@
         "tags": [
             "messaging",
             "zeromq",
-            "c"
+            "C"
         ]
     },
     "/elixir/basics/": {
@@ -1898,7 +1898,7 @@
         "title": "Error Function",
         "summary": "Methods for calculating the Gauss error function in C with standard libraries and the GNU Scientific Library",
         "tags": [
-            "c"
+            "C"
         ]
     },
     "/formats/rss_atom/": {
@@ -1929,7 +1929,7 @@
         "tags": [
             "design",
             "arduino",
-            "books"
+            "book"
         ]
     },
     "/ruby/rails_antipatterns/": {
@@ -2152,7 +2152,7 @@
         "tags": [
             "ruby",
             "Sinatra",
-            "Docker"
+            "docker"
         ]
     },
     "/databases/mysql/cheats/": {
@@ -2160,7 +2160,7 @@
         "title": "MySQL Cheat Sheet",
         "summary": "Basic administration and data management command notes",
         "tags": [
-            "Database",
+            "databases",
             "MySQL"
         ]
     },
@@ -2169,7 +2169,7 @@
         "title": "PostgreSQL Cheat Sheet",
         "summary": "Basic administration and data management command notes",
         "tags": [
-            "Database",
+            "databases",
             "PostgreSQL"
         ]
     },
@@ -2228,7 +2228,7 @@
         "summary": "Who busted Python style-guide rules?",
         "tags": [
             "python",
-            "Bash"
+            "bash"
         ]
     },
     "/python/imgur/": {
@@ -2379,7 +2379,7 @@
         "summary": "Notes on methods to inspect PostgreSQL role permissions, revoke permissions and drop roles",
         "tags": [
             "databases",
-            "postgresql"
+            "PostgreSQL"
         ]
     },
     "/bash/sync_folder/": {
@@ -2387,7 +2387,7 @@
         "title": "sync_folder",
         "summary": "Comparing methods for synchronizing local folders - cp, rsync",
         "tags": [
-            "Bash"
+            "bash"
         ]
     },
     "/cpp/doubletrouble/": {
@@ -2444,9 +2444,9 @@
         "summary": "Methods for generating CSV output from a PostgreSQL SQL query",
         "tags": [
             "databases",
-            "postgresql",
-            "psql",
-            "csv"
+            "PostgreSQL",
+            "PostgreSQL",
+            "CSV"
         ]
     },
     "/databases/postgresql/copy_table/": {
@@ -2454,7 +2454,7 @@
         "title": "Copying Tables",
         "summary": "notes on copying table strictures and data with SQL",
         "tags": [
-            "Database",
+            "databases",
             "SQL"
         ]
     },
@@ -2463,7 +2463,7 @@
         "title": "Bash if and test",
         "summary": "All about if/then test constructs in Bash scripting",
         "tags": [
-            "Bash"
+            "bash"
         ]
     },
     "/bash/sort_by_numbers/": {
@@ -2471,7 +2471,7 @@
         "title": "Sort by Numbers",
         "summary": "Sorting text numerically in the shell using the special --version-sort mode of the sort utility",
         "tags": [
-            "Bash"
+            "bash"
         ]
     },
     "/bash/function_inference/": {
@@ -2479,7 +2479,7 @@
         "title": "Bash Function Inference",
         "summary": "How to test for the presence of functions in order to branch to arbitrary functions by name",
         "tags": [
-            "Bash"
+            "bash"
         ]
     },
     "/bash/case_statement/": {
@@ -2487,7 +2487,7 @@
         "title": "Bash Case Statement",
         "summary": "How to use case statements in the bash shell",
         "tags": [
-            "Bash"
+            "bash"
         ]
     },
     "/bash/file_locks/": {
@@ -2495,7 +2495,7 @@
         "title": "Bash File Locks",
         "summary": "How to implement simple resource semaphores with file locks",
         "tags": [
-            "Bash"
+            "bash"
         ]
     },
     "/bash/parse_env_setting/": {
@@ -2503,7 +2503,7 @@
         "title": "Parsing Environment Settings",
         "summary": "Techniques for parsing environment variables with bash built-in features only",
         "tags": [
-            "Bash"
+            "bash"
         ]
     },
     "/c/iterating_char_arrays/": {
@@ -2546,7 +2546,7 @@
         "title": "Bash Loops",
         "summary": "All about Bash loops",
         "tags": [
-            "Bash"
+            "bash"
         ]
     },
     "/staticweb/jekyll/": {
@@ -2597,8 +2597,8 @@
         "summary": "hardware excuse generator with gRPC - Ruby client and server example",
         "tags": [
             "gRPC",
-            "Ruby",
-            "Messaging"
+            "ruby",
+            "messaging"
         ]
     },
     "/messaging/grpc/explainer/node/": {
@@ -2607,8 +2607,8 @@
         "summary": "hardware excuse generator with gRPC - Node client example",
         "tags": [
             "gRPC",
-            "Node",
-            "Messaging"
+            "node",
+            "messaging"
         ]
     },
     "/messaging/grpc/explainer/csharp/": {
@@ -2618,7 +2618,7 @@
         "tags": [
             "gRPC",
             "C#",
-            "Messaging"
+            "messaging"
         ]
     },
     "/messaging/grpc/explainer/cpp/": {
@@ -2628,7 +2628,7 @@
         "tags": [
             "gRPC",
             "C++",
-            "Messaging"
+            "messaging"
         ]
     },
     "/messaging/grpc/explainer/python/": {
@@ -2637,8 +2637,8 @@
         "summary": "hardware excuse generator with gRPC - Python client example",
         "tags": [
             "gRPC",
-            "Python",
-            "Messaging"
+            "python",
+            "messaging"
         ]
     },
     "/messaging/grpc/explainer/": {
@@ -2647,7 +2647,7 @@
         "summary": "hardware excuse generator with gRPC",
         "tags": [
             "gRPC",
-            "Messaging"
+            "messaging"
         ]
     },
     "/infrastructure/radius/about/": {
@@ -2664,7 +2664,7 @@
         "title": "Progress Bars with Bootstrap",
         "summary": "Progress Bars with Bootstrap",
         "tags": [
-            "Javascript"
+            "javascript"
         ]
     },
     "/javascript/highcharts_with_bower/": {
@@ -2672,7 +2672,7 @@
         "title": "Javascript/highcharts_with_bower",
         "summary": "Highcharts with Bower",
         "tags": [
-            "Javascript"
+            "javascript"
         ]
     },
     "/javascript/plotly_ribbon_charts/": {
@@ -2680,7 +2680,7 @@
         "title": "Ribbon Charts with plotly.js",
         "summary": "Interactive Ribbon Charts with plotly.js",
         "tags": [
-            "Javascript"
+            "javascript"
         ]
     },
     "/cpp/exception_handling/": {
@@ -2696,7 +2696,7 @@
         "title": "Process Lines",
         "summary": "Process a File/Stream Line-by-Line in Bash",
         "tags": [
-            "Bash"
+            "bash"
         ]
     },
     "/bash/select_menu/": {
@@ -2704,7 +2704,7 @@
         "title": "Select Menus",
         "summary": "simple multiple-choice user input",
         "tags": [
-            "Bash"
+            "bash"
         ]
     },
     "/haskell/about/": {
@@ -2728,7 +2728,7 @@
         "title": "Elm/hello_clock",
         "summary": "2D graphics with elm",
         "tags": [
-            "Elm"
+            "elm"
         ]
     },
     "/rust/about/": {
@@ -2752,8 +2752,8 @@
         "title": "Catalog",
         "summary": "a Javascript Datatables catalog for GitHub Pages",
         "tags": [
-            "Tools",
-            "Javascript"
+            "tools",
+            "javascript"
         ]
     },
     "/perl/fix_first_line/": {
@@ -2777,8 +2777,8 @@
         "title": "envsubst",
         "summary": "substitute shell variables in text",
         "tags": [
-            "Tools",
-            "Bash"
+            "tools",
+            "bash"
         ]
     }
 }

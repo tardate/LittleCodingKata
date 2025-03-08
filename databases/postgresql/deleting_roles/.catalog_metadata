@@ -1,7 +1,7 @@
 {
     "name": "deleting_roles",
     "description": "Notes on methods to inspect PostgreSQL role permissions, revoke permissions and drop roles",
-    "categories": "databases, postgresql",
+    "categories": "databases, PostgreSQL",
     "relative_path": "databases/postgresql/deleting_roles",
     "updated_at": "2019-02-23T10:42:26Z",
     "id": "#048",

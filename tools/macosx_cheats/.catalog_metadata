@@ -1,7 +1,7 @@
 {
-    "name": "MacOS Cheatsheet",
-    "description": "my favourite MacOS tools, tips and tricks",
-    "categories": "Tools, MacOS",
+    "name": "macOS Cheatsheet",
+    "description": "my favourite macOS tools, tips and tricks",
+    "categories": "tools, macOS",
     "relative_path": "tools/macosx_cheats",
     "updated_at": "2021-11-02T14:53:49Z",
     "id": "#200",

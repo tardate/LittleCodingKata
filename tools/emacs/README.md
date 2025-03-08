@@ -1,6 +1,6 @@
 # #089 emacs
 
-Time to try Emacs - up and running on MacOS.
+Time to try Emacs - up and running on macOS.
 
 ## Notes
 
@@ -10,7 +10,7 @@ I was prompted in particular by DistroTube's "Switching to GNU Emacs" video:
 
 [![example](https://img.youtube.com/vi/Y8koAgkBEnM/0.jpg)](https://www.youtube.com/watch?v=Y8koAgkBEnM)
 
-## Installing on MacOS
+## Installing on macOS
 
 I just did the [homebrew](http://brew.sh/) install:
 

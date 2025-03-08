@@ -1,7 +1,7 @@
 {
     "name": "SQLECTRON",
     "description": "About SQLECTRON, the open-source SQL client for all dbs and all platforms.",
-    "categories": "Database, Tools, SQL",
+    "categories": "databases, tools, SQL",
     "relative_path": "tools/sqlectron",
     "updated_at": "2024-12-30T07:07:00Z",
     "id": "#313",

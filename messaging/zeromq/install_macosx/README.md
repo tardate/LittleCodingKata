@@ -1,6 +1,6 @@
-# #215 zeromq on MacOS
+# #215 zeromq on macOS
 
-Installing zeromq on MacOS
+Installing zeromq on macOS
 
 ## Notes
 

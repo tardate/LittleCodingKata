@@ -1,13 +1,13 @@
 # #202 arping
 
-All about Address Resolution Protocol (ARP - RFC826) and installing arping on MacOS.
+All about Address Resolution Protocol (ARP - RFC826) and installing arping on macOS.
 
 ## Notes
 
 The arping utility sends an ARP REQUEST to a neighbour host.
 The Address Resolution Protocol (ARP - RFC826) is used to discover the link layer address (i.e. MAC address) for a given internet layer address, typically an IPv4 address.
 
-## Installing on MacOS
+## Installing on macOS
 
 arping is available for installation with [homebrew](https://github.com/Homebrew/homebrew)
 

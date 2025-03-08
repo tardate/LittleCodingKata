@@ -6,7 +6,7 @@ My place for notes on C++ resources and references.
 
 Just a place for notes on C++ resources and references...
 
-### Running on MacOS
+### Running on macOS
 
 Apple's XCode ships with their LLVM release and Clang.
 

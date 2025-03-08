@@ -1,8 +1,8 @@
 # #291 doxygen
 
-Installing and testing doxygen for c++ source documentation generation on MacOS.
+Installing and testing doxygen for c++ source documentation generation on macOS.
 
-## Compiling from Source (MacOS)
+## Compiling from Source (macOS)
 
 ```
 $ git clone https://github.com/doxygen/doxygen.git

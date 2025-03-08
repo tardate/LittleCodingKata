@@ -2,7 +2,7 @@
     "id": "#011",
     "name": "Process Lines",
     "description": "Process a File/Stream Line-by-Line in Bash",
-    "categories": "Bash",
+    "categories": "bash",
     "relative_path": "bash/process_lines",
     "updated_at": "2016-07-10T13:14:48Z",
     "created_at": "2016-07-10T13:14:48Z"

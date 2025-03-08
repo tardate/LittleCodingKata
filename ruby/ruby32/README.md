@@ -18,7 +18,7 @@ Highlights:
 * Per-Fiber storage
 * RubyVM::AbstractSyntaxTree: fault-tolerant and token-level parsing
 
-### MacOS (Apple Silicon) Install
+### macOS (Apple Silicon) Install
 
 ```bash
 $ rvm install ruby-3.2.2

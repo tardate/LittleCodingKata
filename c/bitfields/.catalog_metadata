@@ -1,7 +1,7 @@
 {
     "name": "Bit Fields",
     "description": "Using bitfields in C",
-    "categories": "c",
+    "categories": "C",
     "relative_path": "c/bitfields",
     "updated_at": "2020-05-09T09:16:34Z",
     "id": "#148",

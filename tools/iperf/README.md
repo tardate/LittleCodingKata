@@ -8,9 +8,9 @@ iPerf3 is a tool for active measurements of the maximum achievable bandwidth on 
 
 ## iPerf3
 
-Newer version, supports MacOS Mojave ad later.
+Newer version, supports macOS Mojave ad later.
 
-### iPerf3 MacOS Installation
+### iPerf3 macOS Installation
 
 Homebrew is perhaps the easiest:
 
@@ -88,7 +88,7 @@ iperf Done.
 
 ## iPerf
 
-Example with the earlier version, has support all the way back to MacOS Sierra.
+Example with the earlier version, has support all the way back to macOS Sierra.
 
 ### iPerf macOS Installation
 

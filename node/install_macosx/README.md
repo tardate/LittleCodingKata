@@ -6,7 +6,7 @@ Installing and maintaining Node.js on macOS
 
 ### Updated installation - macOS 14.2 on Apple Silicon
 
-Using [Homebrew](https://formulae.brew.sh/formula/node) to install and maintain node on MacOS:
+Using [Homebrew](https://formulae.brew.sh/formula/node) to install and maintain node on macOS:
 
     $ brew install node
     $ node --version
@@ -20,7 +20,7 @@ Using [Homebrew](https://formulae.brew.sh/formula/node) to install and maintain 
 
 ### Original Installation - macOS High Sierra on Intel
 
-I used homebrew to install and maintain node on MacOS:
+I used homebrew to install and maintain node on macOS:
 
     $ brew install node
     $ node --version

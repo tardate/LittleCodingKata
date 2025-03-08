@@ -1,6 +1,6 @@
 # #195 About Redis
 
-Redis basics and MacOS installation.
+Redis basics and macOS installation.
 
 ## Notes
 
@@ -25,7 +25,7 @@ Redis features:
 * transactions
 * configurable levels of on-disk persistence
 
-## MacOS Installation with Brew
+## macOS Installation with Brew
 
 Installing with brew and the [redis Homebrew formula](https://formulae.brew.sh/formula/redis):
 

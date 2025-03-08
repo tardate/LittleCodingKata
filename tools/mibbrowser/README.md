@@ -1,6 +1,6 @@
 # #205 iReasoning MIB browser
 
-Testing the iReasoning MIB browser on MacOS
+Testing the iReasoning MIB browser on macOS
 
 ## Notes
 
@@ -52,7 +52,7 @@ Installing the portable free version:
 
 ### Running
 
-On MacOS, use the startup schell script:
+On macOS, use the startup schell script:
 
     $ ireasoning/mibbrowser/browser.sh
 
