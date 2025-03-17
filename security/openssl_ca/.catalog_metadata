@@ -1,6 +1,6 @@
 {
-    "name": "openssl_ca",
-    "description": "description",
+    "name": "OpenSSL Self-signed Certificates",
+    "description": "A guide and automation for generating Self-signed Certificates with OpenSSL.",
     "categories": "security",
     "relative_path": "security/openssl_ca"
 }
