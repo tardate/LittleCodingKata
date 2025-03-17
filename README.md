@@ -1,6 +1,6 @@
-# 319 Little Coding Katas
+# 320 Little Coding Katas
 
-> Latest addition:sparkles: [DeepSeek AI](./tools/ai/deepseek) - A first look at DeepSeek: its history, source, and a demonstration of running locally (macOS/apple silicon)
+> Latest addition:sparkles: [OpenSSL Self-signed Certificates](./security/openssl_ca) - A guide and automation for generating Self-signed Certificates with OpenSSL.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

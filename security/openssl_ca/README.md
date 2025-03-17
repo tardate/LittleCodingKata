@@ -1,4 +1,4 @@
-# OpenSSL Self-signed Certificates
+# #320 Self-signed Certificates
 
 A guide and automation for generating Self-signed Certificates with OpenSSL.
 

@@ -2,5 +2,8 @@
     "name": "OpenSSL Self-signed Certificates",
     "description": "A guide and automation for generating Self-signed Certificates with OpenSSL.",
     "categories": "security",
-    "relative_path": "security/openssl_ca"
+    "relative_path": "security/openssl_ca",
+    "updated_at": "2025-03-17T06:36:00Z",
+    "created_at": "2025-03-17T06:36:00Z",
+    "id": "#320"
 }
