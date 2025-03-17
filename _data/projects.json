@@ -1,4 +1,12 @@
 {
+    "/security/openssl_ca/": {
+        "id": 320,
+        "title": "OpenSSL Self-signed Certificates",
+        "summary": "A guide and automation for generating Self-signed Certificates with OpenSSL.",
+        "tags": [
+            "security"
+        ]
+    },
     "/tools/ai/deepseek/": {
         "id": 319,
         "title": "DeepSeek AI",
