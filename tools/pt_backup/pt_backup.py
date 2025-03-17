@@ -67,6 +67,48 @@ def fetch_without_pagination(endpoint):
         print(f"Failed to fetch {endpoint}: {response.status_code} - {response.text}")
         return []
 
+def download_attachments(endpoint, data):
+    if endpoint != 'activity':
+        return
+
+    attachments_folder = os.path.join(DESTINATION_FOLDER, 'attachments')
+    if not os.path.exists(attachments_folder):
+        os.makedirs(attachments_folder)
+
+    for item in data:
+        if 'changes' not in item:
+            continue
+
+        for change in item['changes']:
+            if 'kind' in change and change['kind'] == 'file_attachment' and 'change_type' in change and change['change_type'] == 'create':
+                attachment_id = change['id']
+                attachment_url = change['new_values']['download_url']
+                attachment_filename = change['new_values']['filename']
+
+                attachment_folder = os.path.join(attachments_folder, f"{attachment_id}")
+                attachment_path = os.path.join(attachment_folder, attachment_filename)
+                if os.path.exists(attachment_path):
+                    print(f"Skipped. Attachment {attachment_filename} already exists in {attachment_path}")
+                    continue
+
+                url = f'https://www.pivotaltracker.com/{attachment_url}'
+                attachment_response = requests.get(url, headers=headers)
+
+                if attachment_response.status_code == 200:
+                    if not os.path.exists(attachment_folder):
+                        os.makedirs(attachment_folder)
+                    with open(attachment_path, 'wb') as attachment_file:
+                        attachment_file.write(attachment_response.content)
+                    print(f"Downloaded attachment {attachment_filename} to {attachment_path}")
+                else:
+                    print(f"Failed to download attachment {attachment_filename}: {attachment_response.status_code}")
+
+def test_download_attachments(endpoint, filename):
+        filepath = os.path.join(DESTINATION_FOLDER, filename)
+        with open(filepath, 'r') as f:
+            data = json.load(f)
+        download_attachments(endpoint, data)
+
 def fetch_and_save(endpoint, filename, paginate=True):
     """Fetch data and save it to a JSON file, with optional pagination."""
     if paginate:
@@ -79,7 +121,7 @@ def fetch_and_save(endpoint, filename, paginate=True):
         with open(filepath, 'w') as f:
             json.dump(data, f, indent=4)
         print(f"Data saved to {filepath}")
-
+        download_attachments(endpoint, data)
     else:
         print(f"No data found for {endpoint}")
 

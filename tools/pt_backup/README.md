@@ -11,8 +11,7 @@ See [pt_backup.py](./pt_backup.py) for an example of a script to perform such a 
 * epics
 * stories
 * story activity
-
-It currently doesn't include attachment downloads.
+* activity attachment
 
 ## Running the Script
 
