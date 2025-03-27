@@ -1,0 +1,50 @@
+# dmidecode 3.6
+Getting SMBIOS data from sysfs.
+SMBIOS 3.4 present.
+
+Handle 0x0200, DMI type 2, 17 bytes
+Base Board Information
+	Manufacturer: Dell Inc.
+	Product Name: 0G9W4H
+	Version: A00
+	Serial Number: [redacted]
+	Asset Tag: Not Specified
+	Features:
+		Board is a hosting board
+		Board is replaceable
+	Location In Chassis: Not Specified
+	Chassis Handle: 0x0300
+	Type: Motherboard
+	Contained Object Handles: 0
+
+Handle 0x2900, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation:
+	Type: Video
+	Status: Enabled
+	Type Instance: 0
+	Bus Address: 0000:00:02.0
+
+Handle 0x2901, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation:
+	Type: Ethernet
+	Status: Disabled
+	Type Instance: 0
+	Bus Address: 0000:00:1f.6
+
+Handle 0x2902, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation:
+	Type: Sound
+	Status: Disabled
+	Type Instance: 0
+	Bus Address: 0000:00:1f.3
+
+Handle 0x2903, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation:
+	Type: SATA Controller
+	Status: Disabled
+	Type Instance: 0
+	Bus Address: 0000:00:17.0

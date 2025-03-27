@@ -1,0 +1,18 @@
+AMDRE Started | [2025-03-28_02-07-11] | timestamp: 1743127631
+----------------------------------------------------
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:11: [0m[38;5;2mMeasured theshold: 350[0m
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:11: [0m[38;5;2mFilling initial bank groups...[0m
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:13: [0m[38;5;2mRegrouping bank groups until they look plausible (number of banks should be a power of 2)...[0m
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:18: [0m[38;5;2mAssuming 16 banks.[0m
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:18: [0m[38;5;2mDetecting block size...[0m
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:20: [0m[38;5;2mAssuming a block size of 4096 bytes[0m
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:20: [0m[38;5;2mAdditional addresses were added to groups. A total of 0 pages with 0 errors.[0m
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:20: [0m[38;5;2mCalculating address functions. This may take a while.[0m
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:55: [0m[38;5;2mFound 4 address functions.[0m
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:55: [0m[38;5;2mAddress Function: 0x5000 seems to be valid.[0m
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:55: [0m[38;5;2mAddress Function: 0x2a000 seems to be valid.[0m
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:55: [0m[38;5;2mAddress Function: 0x82000 seems to be valid.[0m
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:55: [0m[38;5;2mAddress Function: 0x150000 seems to be valid.[0m
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:55: [0m[38;5;2mAddress functions calculated successfully.[0m
+----------------------------------------------------
+AMDRE Ended | [2025-03-28_02-07-55] | timestamp: 1743127675

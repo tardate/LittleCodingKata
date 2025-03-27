@@ -1,0 +1,2 @@
+Starting FlipFloyd. Logging output to /arhe/ARHE/data/logs/flipfloyd-2025-03-28_02-19-10.log
+Total Bit Flips: 0

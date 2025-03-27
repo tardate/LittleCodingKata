@@ -1,0 +1,1 @@
+Starting Rowhammer-test. Logging output to /arhe/ARHE/data/logs/rowhammertest-2025-03-28_06-10-54.log

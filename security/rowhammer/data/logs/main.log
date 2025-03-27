@@ -1,0 +1,201 @@
+[35m
+ ===============================================================================[0m
+[92m .----------------.  .----------------.  .----------------.  .----------------.
+| .--------------. || .--------------. || .--------------. || .--------------. |
+| |      __      | || |  _______     | || |  ____  ____  | || |  _________   | |
+| |     /  \     | || | |_   __ \    | || | |_   ||   _| | || | |_   ___  |  | |
+| |    / /\ \    | || |   | |__) |   | || |   | |__| |   | || |   | |_  \_|  | |
+| |   / ____ \   | || |   |  __ /    | || |   |  __  |   | || |   |  _|  _   | |
+| | _/ /    \ \_ | || |  _| |  \ \_  | || |  _| |  | |_  | || |  _| |___/ |  | |
+| ||____|  |____|| || | |____| |___| | || | |____||____| | || | |_________|  | |
+| |              | || |              | || |              | || |              | |
+| '--------------' || '--------------' || '--------------' || '--------------' |
+ '----------------'  '----------------'  '----------------'  '----------------' [0m
+[35m ______________________________________________________________________________
+|                                                                              |
+|              [92m- ARHE-v1.0.1 | System & Network Security Group (SNS)[0m[35m                 |
+|                                                                              |
+|              [92m- Intitut fuer Informationssysteme (iisys)[0m[35m                      |
+|                                                                              |
+|              [92m- Hochschule Hof | University of Applied Sciences[0m[35m               |
+|                                                                              |
+|              [92m- Contact | flippy.ram@hof-university.de[0m[35m                        |
+|______________________________________________________________________________|
+[0m
+
+Building measureRefreshRate ...
+[92mDone Building measureRefreshRate![0m
+Building Drama ...
+[92mDone Building Drama![0m
+Building Dramdig ...
+[92mDone Building Dramdig![0m
+Building Dare (Zenhammer)...
+[92mDone Building Dare (Zenhammer)![0m
+Building AMDRE ...
+[92mDone Building AMDRE![0m
+Building TRRespassRE ...
+[92mDone Building TRRespassRE![0m
+Building Drama-Verify ...
+[92mDone Building Drama-Verify![0m
+----------------------------------------
+[44m Fetch [0m [2025-03-28_02-02-57] Initiating system information fetching ...
+[44m Fetch [0m bios information stored in dmidecode_bios.txt - [92mSUCCESS[0m
+[44m Fetch [0m system information stored in dmidecode_system.txt - [92mSUCCESS[0m
+[44m Fetch [0m baseboard information stored in dmidecode_baseboard.txt - [92mSUCCESS[0m
+[44m Fetch [0m chassis information stored in dmidecode_chassis.txt - [92mSUCCESS[0m
+[44m Fetch [0m processor information stored in dmidecode_processor.txt - [92mSUCCESS[0m
+[44m Fetch [0m memory information stored in dmidecode_memory.txt - [92mSUCCESS[0m
+[44m Fetch [0m cache information stored in dmidecode_cache.txt - [92mSUCCESS[0m
+[44m Fetch [0m connector information stored in dmidecode_connector.txt - [92mSUCCESS[0m
+[44m Fetch [0m slot information stored in dmidecode_slot.txt - [92mSUCCESS[0m
+[44m Fetch [0m cpu information stored in lscpu.txt - [92mSUCCESS[0m
+[44m Fetch [0m microcode information stored in microcode.txt - [92mSUCCESS[0m
+[44m Fetch [0m decode-dimms information stored in decode-dimms.txt - [92mSUCCESS[0m
+[44m Fetch [0m Refresh Rate information stored in refresh_rate.txt - [92mSUCCESS[0m
+[44m Fetch [0m Number of channels Detected - [92mSUCCESS[0m
+[44m Fetch [0m [2025-03-28_02-02-58] [92mSystem information fetched successfully![0m
+----------------------------------------
+[30m[102m REAF [0m [2025-03-28_02-02-58] Initiating REAF ...
+[30m[102m REAF [0m Measuring number of banks ... [Est. 600s]
+
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:02:58: [0m[38;5;2mMeasured theshold: 340[0m
+
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:02:58: [0m[38;5;2mFilling initial bank groups...[0m
+
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:03:00: [0m[38;5;2mRegrouping bank groups until they look plausible (number of banks should be a power of 2)...[0m
+
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:03:07: [0m[38;5;2mAssuming 16 banks.[0m
+[30m[102m REAF [0m DIMMs number is not correct! [31mShutting down the script![0m
+[30m[102m THANK YOU! [0m [2025-03-28_02-03-07] Sadly, We can not continue with our tests. We will let you know once we solve this problem. Thank you for your efforts!
+[30m[102m REAF [0m [2025-03-28_02-03-08] Initiating DRAMA ...
+[30m[102m DRAMA [0m Measuring: 6.25%
+[30m[102m DRAMA [0m Measuring: 12.50%
+[30m[102m DRAMA [0m Measuring: 18.75%
+[30m[102m DRAMA [0m Measuring: 25.00%
+[30m[102m DRAMA [0m Measuring: 31.25%
+[30m[102m DRAMA [0m Measuring: 37.50%
+[30m[102m DRAMA [0m Measuring: 43.75%
+[30m[102m DRAMA [0m Measuring: 50.00%
+[30m[102m DRAMA [0m Measuring: 56.25%
+[30m[102m DRAMA [0m Measuring: 62.50%
+[30m[102m DRAMA [0m Measuring: 68.75%
+[30m[102m DRAMA [0m Measuring: 75.00%
+[30m[102m DRAMA [0m Measuring: 81.25%
+[30m[102m DRAMA [0m Measuring: 87.50%
+[30m[102m DRAMA [0m Measuring: 93.75%
+[30m[102m DRAMA [0m Measuring: 100.00%
+[30m[102m DRAMA [0m Measuring: 106.25%
+[30m[102m DRAMA [0m Measuring: DONE!
+[30m[102m DRAMA [0m reduced to 22 functions | [92mThis may take a while...[0m
+[30m[102m DRAMA [0m [92mFunction found[0m: 6  (Correct: 85%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 10 12  (Correct: 71%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 7 13  (Correct: 85%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 7 14  (Correct: 100%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 6 15  (Correct: 42%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 11 16  (Correct: 85%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 10 17  (Correct: 71%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 9 18  (Correct: 57%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 11 19  (Correct: 85%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 6 20  (Correct: 71%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 11 21  (Correct: 57%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 8 23  (Correct: 100%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 7 24  (Correct: 42%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 6 25  (Correct: 85%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 8 26  (Correct: 100%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 10 27  (Correct: 57%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 8 29  (Correct: 100%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 11 30  (Correct: 71%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 7 8 10  (Correct: 71%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 8 9 11  (Correct: 100%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 7 9 22  (Correct: 100%)
+[30m[102m DRAMA [0m [92mFunction found[0m: 9 10 28  (Correct: 57%)
+[30m[102m REAF [0m Addressing functions retrieved successfully!
+[30m[102m REAF [0m [2025-03-28_02-07-11] Initiating python script ...
+[30m[102m REAF [0m [2025-03-28_02-07-11] [92mDRAMA addressing functions stored successfully![0m
+[30m[102m REAF [0m [2025-03-28_02-07-11] Initiating AMDRE ...
+
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:11: [0m[38;5;2mMeasured theshold: 350[0m
+
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:11: [0m[38;5;2mFilling initial bank groups...[0m
+
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:13: [0m[38;5;2mRegrouping bank groups until they look plausible (number of banks should be a power of 2)...[0m
+
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:18: [0m[38;5;2mAssuming 16 banks.[0m
+
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:18: [0m[38;5;2mDetecting block size...[0m
+
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:20: [0m[38;5;2mAssuming a block size of 4096 bytes[0m
+
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:20: [0m[38;5;2mAdditional addresses were added to groups. A total of 0 pages with 0 errors.[0m
+
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:20: [0m[38;5;2mCalculating address functions. This may take a while.[0m
+
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:55: [0m[38;5;2mFound 4 address functions.[0m
+
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:55: [0m[38;5;2mAddress Function: 0x5000 seems to be valid.[0m
+
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:55: [0m[38;5;2mAddress Function: 0x2a000 seems to be valid.[0m
+
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:55: [0m[38;5;2mAddress Function: 0x82000 seems to be valid.[0m
+
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:55: [0m[38;5;2mAddress Function: 0x150000 seems to be valid.[0m
+
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:07:55: [0m[38;5;2mAddress functions calculated successfully.[0m
+[30m[102m REAF [0m [2025-03-28_02-07-55] [92mAMDRE addressing functions stored successfully![0m
+[30m[102m REAF [0m [2025-03-28_02-07-55] Initiating TRRespass RE. Please Wait for a while ...
+cat: /arhe/ARHE/data/threshold.txt: No such file or directory
+expr: syntax error: unexpected argument ‘3’
+[30m[102m REAF [0m [2025-03-28_02-17-55] [31mFailed to retrieve TRRespass addressing functions[0m | [92mMoving on to next stages ...[0m
+[30m[102m REAF [0m [2025-03-28_02-17-55] Initiating DRAMDig ...
+[30m[102m REAF [0m Retrieving functions failed. Trying again ... [41m try 2 [0m
+[30m[102m REAF [0m Retrieving functions failed. Trying again ... [41m try 3 [0m
+[30m[102m REAF [0m Retrieving functions failed. Trying again ... [41m try 4 [0m
+[30m[102m REAF [0m [2025-03-28_02-18-58] [31mFailed to retrieve DRAMDig addressing functions[0m | [92mMoving on to next stages ...[0m
+[30m[102m REAF [0m [2025-03-28_02-18-58] Initiating Dare (Zenhammer) ...
+cat: /arhe/ARHE/data/threshold.txt: No such file or directory
+expr: syntax error: unexpected argument ‘4’
+[30m[102m REAF [0m Addressing functions retrieved successfully!
+[30m[102m REAF [0m [2025-03-28_02-19-10] [92mDare (Zenhammer) addressing functions stored successfully![0m
+[30m[102m REAF [0m [2025-03-28_02-19-10] Handling current pool of functions ...
+cat: /arhe/ARHE/data/functions-num.txt: No such file or directory
+[30m[102m REAF [0m Initiating Drama-Verify ...
+[30m[102m REAF [0m Verifying a set ...
+[30m[102m REAF [0m [31mVerifying Failed! Trying Again ...[0m
+[30m[102m REAF [0m Verifying a set ...
+[30m[102m REAF [0m [31mVerifying Failed! Trying Again ...[0m
+[30m[102m REAF [0m Verifying a set ...
+[30m[102m REAF [0m [31mVerifying Failed! Trying Again ...[0m
+[30m[102m REAF [0m [31mDrama-Verify Failed But Some Functions might've been stored![0m
+[30m[102m REAF [0m [2025-03-28_02-19-10] Handling Final Functions to prepare for rowhammering ...
+[30m[102m REAF [0m [2025-03-28_02-19-10] Final Functions are ready!
+cat: /arhe/ARHE/data/functions-num.txt: No such file or directory
+./main.sh: line 402: [: : integer expression expected
+[30m[45m Rowhammer [0m [2025-03-28_02-19-10] Starting FlipFloyd Experiment ...
+[30m[45m Rowhammer [0m [2025-03-28_02-19-10] Building FlipFloyd was successful, starting Experiment...
+[2KAllocating memory... 1%
+[..truncated..]
+[2KAllocating memory... 99%
+Hammering attempt                1 at offset 1297763653
+[2K
+[..truncated..]
+Hammering attempt            61416 at offset 1485541645
+[2K
+Checking...
+[30m[45m Rowhammer [0m [2025-03-28_06-10-53] FlipFloyd Experiment Ended Successfully!
+[30m[45m Rowhammer [0m [2025-03-28_06-10-53] Starting Rowhammer_test Experiment ...
+[30m[45m Rowhammer [0m [2025-03-28_06-10-54] Building Rowhammer_test was successful, starting Experiment...
+clear
+Iteration 0 (after 0.00s)
+  Took 142.0 ms per address set
+  Took 1.42049 sec in total for 10 address sets
+  Took 32.882 nanosec per memory access (for 43200000 memory accesses)
+  This gives 243296 accesses per address per 64 ms refresh period
+  Checking for bit flips took 0.075912 sec
+[..truncated..]
+Iteration 5364 (after 8224.46s)
+  Took 142.2 ms per address set
+  Took 1.42231 sec in total for 10 address sets
+  Took 32.924 nanosec per memory access (for 43200000 memory accesses)
+  This gives 242985 accesses per address per 64 ms refresh period
+  Checking for bit flips took 0.060522 sec
+Iteration 5365 (after 8225.94s)

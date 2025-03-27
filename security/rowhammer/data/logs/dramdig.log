@@ -1,0 +1,415 @@
+DRAMDig Started | [2025-03-28_02-17-55] | timestamp: 1743128275
+----------------------------------------------------
+MAX_XOR_BITS: 7
+BANKS_NUMBER_TOTAL: 16
+SPEC_ROW_BITS_NUMBER: 17
+SPEC_COLUMN_BITS_NUMBER: 13
+AVAILABLE_LENGTH: 34
+[!] Initializing large memory mapping ...done
+[+] mapping: 0x7c2f6b194000, mapping_size: 0x2ade5c000
+[!] Translating virtual addresses -> physical addresses...done
+[+] setup_mapping and store_phy_pages cost: 3.005504 sec
+[!] Detecting row bits...start
+Row_test result for bit 0 : 167.000000 ~ 0.000000, average 177.500000
+Row_test result for bit 1 : 172.000000 ~ 0.000000, average 184.500000
+Row_test result for bit 2 : 164.000000 ~ 0.000000, average 185.600000
+Row_test result for bit 3 : 164.000000 ~ 0.000000, average 178.300000
+Row_test result for bit 4 : 163.000000 ~ 0.000000, average 174.100000
+Row_test result for bit 5 : 169.000000 ~ 0.000000, average 175.100000
+Row_test result for bit 6 : 181.000000 ~ 0.000000, average 207.200000
+Row_test result for bit 7 : 181.000000 ~ 0.000000, average 188.000000
+Row_test result for bit 8 : 175.000000 ~ 0.000000, average 185.600000
+Row_test result for bit 9 : 183.000000 ~ 0.000000, average 185.700000
+Row_test result for bit 10 : 173.000000 ~ 0.000000, average 186.000000
+Row_test result for bit 11 : 180.000000 ~ 0.000000, average 196.700000
+Row_test result for bit 12 : 172.000000 ~ 0.000000, average 182.800000
+Row_test result for bit 13 : 169.000000 ~ 0.000000, average 182.100000
+Row_test result for bit 14 : 173.000000 ~ 0.000000, average 182.300000
+Row_test result for bit 15 : 185.000000 ~ 0.000000, average 207.000000
+Row_test result for bit 16 : 175.000000 ~ 0.000000, average 188.900000
+Row_test result for bit 17 : 174.000000 ~ 0.000000, average 186.300000
+Row_test result for bit 18 : 177.000000 ~ 0.000000, average 189.400000
+Row_test result for bit 19 : 171.000000 ~ 0.000000, average 179.800000
+Row_test result for bit 20 : 181.000000 ~ 0.000000, average 200.800000
+Row_test result for bit 21 : 177.000000 ~ 0.000000, average 188.300000
+Row_test result for bit 22 : 175.000000 ~ 0.000000, average 186.300000
+Row_test result for bit 23 : 335.000000 ~ 0.000000, average 362.400000
+Row_test result for bit 24 : 178.000000 ~ 0.000000, average 316.500000
+Row_test result for bit 25 : 176.000000 ~ 0.000000, average 184.900000
+Row_test result for bit 26 : 180.000000 ~ 0.000000, average 188.200000
+Row_test result for bit 27 : 174.000000 ~ 0.000000, average 185.100000
+Row_test result for bit 28 : 175.000000 ~ 0.000000, average 198.500000
+Row_test result for bit 29 : 178.000000 ~ 0.000000, average 190.500000
+Row_test result for bit 30 : 178.000000 ~ 0.000000, average 181.100000
+Row_test result for bit 31 : 182.000000 ~ 0.000000, average 187.900000
+Row_test result for bit 32 : 183.000000 ~ 0.000000, average 202.700000
+Row_test result for bit 33 : 186.000000 ~ 0.000000, average 193.400000
+[+] from the top 17 highest latency, select 2
+362.400000, 316.500000, 
+[+] the low latency is: 207.000000
+[+] approx latency lowest thresold: 261
+ APPROXY_LATENCY: 261
+=== row bits:
+ row bit: 23
+ row bit: 24
+[+] detect_row_bits cost: 8.247227 sec
+[!] Detecting column bits...start
+row_bit_choosen for column bit detection: 24
+Column_test result for bit 0 : 183.000000 ~ 0.000000, average 319.800000
+Column_test result for bit 1 : 314.000000 ~ 0.000000, average 356.400000
+Column_test result for bit 2 : 183.000000 ~ 0.000000, average 322.000000
+Column_test result for bit 3 : 181.000000 ~ 0.000000, average 324.100000
+Column_test result for bit 4 : 309.000000 ~ 0.000000, average 331.200000
+Column_test result for bit 5 : 188.000000 ~ 0.000000, average 310.300000
+Column_test result for bit 6 : 181.000000 ~ 0.000000, average 308.400000
+Column_test result for bit 7 : 175.000000 ~ 0.000000, average 271.900000
+Column_test result for bit 8 : 193.000000 ~ 0.000000, average 316.900000
+Column_test result for bit 9 : 168.000000 ~ 0.000000, average 200.300000
+Column_test result for bit 10 : 175.000000 ~ 0.000000, average 184.600000
+Column_test result for bit 11 : 181.000000 ~ 0.000000, average 318.400000
+Column_test result for bit 12 : 170.000000 ~ 0.000000, average 176.700000
+Column_test result for bit 13 : 173.000000 ~ 0.000000, average 177.600000
+Column_test result for bit 14 : 185.000000 ~ 0.000000, average 203.200000
+Column_test result for bit 15 : 176.000000 ~ 0.000000, average 180.200000
+Column_test result for bit 16 : 184.000000 ~ 0.000000, average 208.700000
+Column_test result for bit 17 : 175.000000 ~ 0.000000, average 185.900000
+Column_test result for bit 18 : 179.000000 ~ 0.000000, average 200.300000
+Column_test result for bit 19 : 169.000000 ~ 0.000000, average 176.700000
+Column_test result for bit 20 : 183.000000 ~ 0.000000, average 189.400000
+Column_test result for bit 21 : 180.000000 ~ 0.000000, average 207.500000
+Column_test result for bit 22 : 180.000000 ~ 0.000000, average 201.000000
+Column_test result for bit 23 : 10000000000.000000 ~ 0.000000, average 362.400000
+Column_test result for bit 24 : 10000000000.000000 ~ 0.000000, average 316.500000
+Column_test result for bit 25 : 186.000000 ~ 0.000000, average 206.500000
+Column_test result for bit 26 : 182.000000 ~ 0.000000, average 208.200000
+Column_test result for bit 27 : 181.000000 ~ 0.000000, average 188.000000
+Column_test result for bit 28 : 177.000000 ~ 0.000000, average 186.300000
+Column_test result for bit 29 : 180.000000 ~ 0.000000, average 223.700000
+Column_test result for bit 30 : 181.000000 ~ 0.000000, average 185.700000
+Column_test result for bit 31 : 181.000000 ~ 0.000000, average 188.300000
+Column_test result for bit 32 : 182.000000 ~ 0.000000, average 189.700000
+Column_test result for bit 33 : 176.000000 ~ 0.000000, average 198.900000
+[+] thresold used for column bits detection: 261
+=== column bits: 0
+=== column bits: 1
+=== column bits: 2
+=== column bits: 3
+=== column bits: 4
+=== column bits: 5
+=== column bits: 6
+=== column bits: 7
+=== column bits: 8
+=== column bits: 11
+[+] detect_column_bits cost: 7.950164 sec
+[+] possible bank bits are at: 
+	9
+	10
+	12
+	13
+	14
+	15
+	16
+	17
+	18
+	19
+	20
+	21
+	22
+	25
+	26
+	27
+	28
+	29
+	30
+	31
+	32
+	33
+[+] detect_poss_bank_bits cost: 0.000012 sec
+[+] missed bit in between: 
+	 11
+	 23
+	 24
+[+] gen_virt_phy_addrs, max: 33, min: 9, missed_mask: 0x1800800
+[+] range_mask: 0x3fffff000
+[+] after selecting 0 pair phy addrs, start measuring latency...
+[+] gen_virt_phy_addrs cost: 0.200972 sec
+[+] divide_phy_addrs cost: 0.000003 sec
+terminate called after throwing an instance of 'std::bad_array_new_length'
+  what():  std::bad_array_new_length
+timeout: the monitored command dumped core
+MAX_XOR_BITS: 7
+BANKS_NUMBER_TOTAL: 16
+SPEC_ROW_BITS_NUMBER: 17
+SPEC_COLUMN_BITS_NUMBER: 13
+AVAILABLE_LENGTH: 34
+[!] Initializing large memory mapping ...done
+[+] mapping: 0x79d6d3ed6000, mapping_size: 0x2ade5c000
+[!] Translating virtual addresses -> physical addresses...done
+[+] setup_mapping and store_phy_pages cost: 3.004896 sec
+[!] Detecting row bits...start
+Row_test result for bit 0 : 171.000000 ~ 0.000000, average 195.800000
+Row_test result for bit 1 : 164.000000 ~ 0.000000, average 175.200000
+Row_test result for bit 2 : 162.000000 ~ 0.000000, average 180.300000
+Row_test result for bit 3 : 167.000000 ~ 0.000000, average 175.000000
+Row_test result for bit 4 : 167.000000 ~ 0.000000, average 174.500000
+Row_test result for bit 5 : 168.000000 ~ 0.000000, average 197.300000
+Row_test result for bit 6 : 175.000000 ~ 0.000000, average 181.300000
+Row_test result for bit 7 : 177.000000 ~ 0.000000, average 185.800000
+Row_test result for bit 8 : 183.000000 ~ 0.000000, average 187.600000
+Row_test result for bit 9 : 172.000000 ~ 0.000000, average 199.200000
+Row_test result for bit 10 : 176.000000 ~ 0.000000, average 180.600000
+Row_test result for bit 11 : 181.000000 ~ 0.000000, average 188.700000
+Row_test result for bit 12 : 171.000000 ~ 0.000000, average 178.100000
+Row_test result for bit 13 : 181.000000 ~ 0.000000, average 195.000000
+Row_test result for bit 14 : 175.000000 ~ 0.000000, average 187.400000
+Row_test result for bit 15 : 181.000000 ~ 0.000000, average 185.700000
+Row_test result for bit 16 : 176.000000 ~ 0.000000, average 185.800000
+Row_test result for bit 17 : 178.000000 ~ 0.000000, average 189.200000
+Row_test result for bit 18 : 179.000000 ~ 0.000000, average 206.400000
+Row_test result for bit 19 : 168.000000 ~ 0.000000, average 177.500000
+Row_test result for bit 20 : 177.000000 ~ 0.000000, average 182.000000
+Row_test result for bit 21 : 184.000000 ~ 0.000000, average 190.600000
+Row_test result for bit 22 : 178.000000 ~ 0.000000, average 200.500000
+Row_test result for bit 23 : 342.000000 ~ 0.000000, average 357.300000
+Row_test result for bit 24 : 177.000000 ~ 0.000000, average 302.100000
+Row_test result for bit 25 : 180.000000 ~ 0.000000, average 189.800000
+Row_test result for bit 26 : 174.000000 ~ 0.000000, average 187.500000
+Row_test result for bit 27 : 176.000000 ~ 0.000000, average 201.600000
+Row_test result for bit 28 : 177.000000 ~ 0.000000, average 194.400000
+Row_test result for bit 29 : 180.000000 ~ 0.000000, average 205.700000
+Row_test result for bit 30 : 176.000000 ~ 0.000000, average 185.500000
+Row_test result for bit 31 : 183.000000 ~ 0.000000, average 205.000000
+Row_test result for bit 32 : 177.000000 ~ 0.000000, average 187.000000
+Row_test result for bit 33 : 186.000000 ~ 0.000000, average 193.000000
+[+] from the top 17 highest latency, select 2
+357.300000, 302.100000, 
+[+] the low latency is: 206.400000
+[+] approx latency lowest thresold: 254
+ APPROXY_LATENCY: 254
+=== row bits:
+ row bit: 23
+ row bit: 24
+[+] detect_row_bits cost: 8.214829 sec
+[!] Detecting column bits...start
+row_bit_choosen for column bit detection: 24
+Column_test result for bit 0 : 214.000000 ~ 0.000000, average 332.700000
+Column_test result for bit 1 : 183.000000 ~ 0.000000, average 312.700000
+Column_test result for bit 2 : 181.000000 ~ 0.000000, average 318.000000
+Column_test result for bit 3 : 180.000000 ~ 0.000000, average 322.000000
+Column_test result for bit 4 : 312.000000 ~ 0.000000, average 339.900000
+Column_test result for bit 5 : 310.000000 ~ 0.000000, average 327.200000
+Column_test result for bit 6 : 177.000000 ~ 0.000000, average 303.400000
+Column_test result for bit 7 : 187.000000 ~ 0.000000, average 316.900000
+Column_test result for bit 8 : 182.000000 ~ 0.000000, average 331.500000
+Column_test result for bit 9 : 170.000000 ~ 0.000000, average 181.200000
+Column_test result for bit 10 : 175.000000 ~ 0.000000, average 181.300000
+Column_test result for bit 11 : 310.000000 ~ 0.000000, average 324.300000
+Column_test result for bit 12 : 174.000000 ~ 0.000000, average 195.600000
+Column_test result for bit 13 : 172.000000 ~ 0.000000, average 178.800000
+Column_test result for bit 14 : 180.000000 ~ 0.000000, average 185.800000
+Column_test result for bit 15 : 175.000000 ~ 0.000000, average 178.700000
+Column_test result for bit 16 : 186.000000 ~ 0.000000, average 193.300000
+Column_test result for bit 17 : 184.000000 ~ 0.000000, average 204.200000
+Column_test result for bit 18 : 180.000000 ~ 0.000000, average 186.500000
+Column_test result for bit 19 : 176.000000 ~ 0.000000, average 183.100000
+Column_test result for bit 20 : 176.000000 ~ 0.000000, average 195.400000
+Column_test result for bit 21 : 186.000000 ~ 0.000000, average 229.600000
+Column_test result for bit 22 : 184.000000 ~ 0.000000, average 191.400000
+Column_test result for bit 23 : 10000000000.000000 ~ 0.000000, average 357.300000
+Column_test result for bit 24 : 10000000000.000000 ~ 0.000000, average 302.100000
+Column_test result for bit 25 : 181.000000 ~ 0.000000, average 186.600000
+Column_test result for bit 26 : 183.000000 ~ 0.000000, average 187.300000
+Column_test result for bit 27 : 174.000000 ~ 0.000000, average 219.200000
+Column_test result for bit 28 : 183.000000 ~ 0.000000, average 210.700000
+Column_test result for bit 29 : 181.000000 ~ 0.000000, average 187.000000
+Column_test result for bit 30 : 180.000000 ~ 0.000000, average 200.600000
+Column_test result for bit 31 : 180.000000 ~ 0.000000, average 184.300000
+Column_test result for bit 32 : 185.000000 ~ 0.000000, average 206.100000
+Column_test result for bit 33 : 178.000000 ~ 0.000000, average 190.000000
+[+] thresold used for column bits detection: 254
+=== column bits: 0
+=== column bits: 1
+=== column bits: 2
+=== column bits: 3
+=== column bits: 4
+=== column bits: 5
+=== column bits: 6
+=== column bits: 7
+=== column bits: 8
+=== column bits: 11
+[+] detect_column_bits cost: 8.130784 sec
+[+] possible bank bits are at: 
+	9
+	10
+	12
+	13
+	14
+	15
+	16
+	17
+	18
+	19
+	20
+	21
+	22
+	25
+	26
+	27
+	28
+	29
+	30
+	31
+	32
+	33
+[+] detect_poss_bank_bits cost: 0.000012 sec
+[+] missed bit in between: 
+	 11
+	 23
+	 24
+[+] gen_virt_phy_addrs, max: 33, min: 9, missed_mask: 0x1800800
+[+] range_mask: 0x3fffff000
+[+] after selecting 0 pair phy addrs, start measuring latency...
+[+] gen_virt_phy_addrs cost: 0.215978 sec
+[+] divide_phy_addrs cost: 0.000003 sec
+terminate called after throwing an instance of 'std::bad_array_new_length'
+  what():  std::bad_array_new_length
+timeout: the monitored command dumped core
+MAX_XOR_BITS: 7
+BANKS_NUMBER_TOTAL: 16
+SPEC_ROW_BITS_NUMBER: 17
+SPEC_COLUMN_BITS_NUMBER: 13
+AVAILABLE_LENGTH: 34
+[!] Initializing large memory mapping ...done
+[+] mapping: 0x7bb036d67000, mapping_size: 0x2ade5c000
+[!] Translating virtual addresses -> physical addresses...done
+[+] setup_mapping and store_phy_pages cost: 3.000915 sec
+[!] Detecting row bits...start
+Row_test result for bit 0 : 166.000000 ~ 0.000000, average 178.100000
+Row_test result for bit 1 : 164.000000 ~ 0.000000, average 177.100000
+Row_test result for bit 2 : 163.000000 ~ 0.000000, average 183.200000
+Row_test result for bit 3 : 164.000000 ~ 0.000000, average 182.000000
+Row_test result for bit 4 : 162.000000 ~ 0.000000, average 172.500000
+Row_test result for bit 5 : 167.000000 ~ 0.000000, average 178.400000
+Row_test result for bit 6 : 175.000000 ~ 0.000000, average 183.400000
+Row_test result for bit 7 : 178.000000 ~ 0.000000, average 205.300000
+Row_test result for bit 8 : 180.000000 ~ 0.000000, average 188.600000
+Row_test result for bit 9 : 169.000000 ~ 0.000000, average 178.900000
+Row_test result for bit 10 : 173.000000 ~ 0.000000, average 179.700000
+Row_test result for bit 11 : 183.000000 ~ 0.000000, average 190.800000
+Row_test result for bit 12 : 176.000000 ~ 0.000000, average 194.200000
+Row_test result for bit 13 : 178.000000 ~ 0.000000, average 182.800000
+Row_test result for bit 14 : 179.000000 ~ 0.000000, average 184.200000
+Row_test result for bit 15 : 176.000000 ~ 0.000000, average 182.200000
+Row_test result for bit 16 : 182.000000 ~ 0.000000, average 203.500000
+Row_test result for bit 17 : 174.000000 ~ 0.000000, average 185.700000
+Row_test result for bit 18 : 177.000000 ~ 0.000000, average 187.000000
+Row_test result for bit 19 : 167.000000 ~ 0.000000, average 175.200000
+Row_test result for bit 20 : 175.000000 ~ 0.000000, average 182.900000
+Row_test result for bit 21 : 187.000000 ~ 0.000000, average 208.300000
+Row_test result for bit 22 : 173.000000 ~ 0.000000, average 187.400000
+Row_test result for bit 23 : 335.000000 ~ 0.000000, average 362.100000
+Row_test result for bit 24 : 196.000000 ~ 0.000000, average 303.100000
+Row_test result for bit 25 : 173.000000 ~ 0.000000, average 201.100000
+Row_test result for bit 26 : 175.000000 ~ 0.000000, average 186.100000
+Row_test result for bit 27 : 175.000000 ~ 0.000000, average 185.500000
+Row_test result for bit 28 : 176.000000 ~ 0.000000, average 192.400000
+Row_test result for bit 29 : 183.000000 ~ 0.000000, average 204.000000
+Row_test result for bit 30 : 177.000000 ~ 0.000000, average 186.000000
+Row_test result for bit 31 : 187.000000 ~ 0.000000, average 191.400000
+Row_test result for bit 32 : 176.000000 ~ 0.000000, average 192.900000
+Row_test result for bit 33 : 177.000000 ~ 0.000000, average 193.100000
+[+] from the top 17 highest latency, select 2
+362.100000, 303.100000, 
+[+] the low latency is: 208.300000
+[+] approx latency lowest thresold: 255
+ APPROXY_LATENCY: 255
+=== row bits:
+ row bit: 23
+ row bit: 24
+[+] detect_row_bits cost: 8.108170 sec
+[!] Detecting column bits...start
+row_bit_choosen for column bit detection: 24
+Column_test result for bit 0 : 189.000000 ~ 0.000000, average 299.900000
+Column_test result for bit 1 : 310.000000 ~ 0.000000, average 334.700000
+Column_test result for bit 2 : 309.000000 ~ 0.000000, average 327.400000
+Column_test result for bit 3 : 307.000000 ~ 0.000000, average 347.300000
+Column_test result for bit 4 : 188.000000 ~ 0.000000, average 301.700000
+Column_test result for bit 5 : 192.000000 ~ 0.000000, average 283.700000
+Column_test result for bit 6 : 193.000000 ~ 0.000000, average 308.100000
+Column_test result for bit 7 : 175.000000 ~ 0.000000, average 325.600000
+Column_test result for bit 8 : 177.000000 ~ 0.000000, average 315.900000
+Column_test result for bit 9 : 168.000000 ~ 0.000000, average 178.700000
+Column_test result for bit 10 : 175.000000 ~ 0.000000, average 180.100000
+Column_test result for bit 11 : 312.000000 ~ 0.000000, average 340.700000
+Column_test result for bit 12 : 169.000000 ~ 0.000000, average 178.900000
+Column_test result for bit 13 : 173.000000 ~ 0.000000, average 179.000000
+Column_test result for bit 14 : 177.000000 ~ 0.000000, average 186.600000
+Column_test result for bit 15 : 176.000000 ~ 0.000000, average 204.600000
+Column_test result for bit 16 : 185.000000 ~ 0.000000, average 204.000000
+Column_test result for bit 17 : 175.000000 ~ 0.000000, average 207.900000
+Column_test result for bit 18 : 181.000000 ~ 0.000000, average 187.500000
+Column_test result for bit 19 : 171.000000 ~ 0.000000, average 181.300000
+Column_test result for bit 20 : 179.000000 ~ 0.000000, average 205.100000
+Column_test result for bit 21 : 180.000000 ~ 0.000000, average 186.800000
+Column_test result for bit 22 : 182.000000 ~ 0.000000, average 190.300000
+Column_test result for bit 23 : 10000000000.000000 ~ 0.000000, average 362.100000
+Column_test result for bit 24 : 10000000000.000000 ~ 0.000000, average 303.100000
+Column_test result for bit 25 : 182.000000 ~ 0.000000, average 206.600000
+Column_test result for bit 26 : 182.000000 ~ 0.000000, average 204.100000
+Column_test result for bit 27 : 185.000000 ~ 0.000000, average 196.000000
+Column_test result for bit 28 : 180.000000 ~ 0.000000, average 205.900000
+Column_test result for bit 29 : 183.000000 ~ 0.000000, average 226.100000
+Column_test result for bit 30 : 177.000000 ~ 0.000000, average 185.900000
+Column_test result for bit 31 : 179.000000 ~ 0.000000, average 201.600000
+Column_test result for bit 32 : 184.000000 ~ 0.000000, average 189.200000
+Column_test result for bit 33 : 182.000000 ~ 0.000000, average 191.000000
+[+] thresold used for column bits detection: 255
+=== column bits: 0
+=== column bits: 1
+=== column bits: 2
+=== column bits: 3
+=== column bits: 4
+=== column bits: 5
+=== column bits: 6
+=== column bits: 7
+=== column bits: 8
+=== column bits: 11
+[+] detect_column_bits cost: 8.155090 sec
+[+] possible bank bits are at: 
+	9
+	10
+	12
+	13
+	14
+	15
+	16
+	17
+	18
+	19
+	20
+	21
+	22
+	25
+	26
+	27
+	28
+	29
+	30
+	31
+	32
+	33
+[+] detect_poss_bank_bits cost: 0.000013 sec
+[+] missed bit in between: 
+	 11
+	 23
+	 24
+[+] gen_virt_phy_addrs, max: 33, min: 9, missed_mask: 0x1800800
+[+] range_mask: 0x3fffff000
+[+] after selecting 0 pair phy addrs, start measuring latency...
+[+] gen_virt_phy_addrs cost: 0.217912 sec
+[+] divide_phy_addrs cost: 0.000002 sec
+terminate called after throwing an instance of 'std::bad_array_new_length'
+  what():  std::bad_array_new_length
+timeout: the monitored command dumped core
+----------------------------------------------------
+DRAMDig Ended | [2025-03-28_02-18-58] | timestamp: 1743128338

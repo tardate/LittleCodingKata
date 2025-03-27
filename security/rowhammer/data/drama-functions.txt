@@ -1,0 +1,23 @@
+2025-03-28 02:07:11
+index: [6], addressing function: 0x40, Percentage: 85%
+index: [10, 12], addressing function: 0x1400, Percentage: 71%
+index: [7, 13], addressing function: 0x2080, Percentage: 85%
+index: [7, 14], addressing function: 0x4080, Percentage: 100%
+index: [6, 15], addressing function: 0x8040, Percentage: 42%
+index: [11, 16], addressing function: 0x10800, Percentage: 85%
+index: [10, 17], addressing function: 0x20400, Percentage: 71%
+index: [9, 18], addressing function: 0x40200, Percentage: 57%
+index: [11, 19], addressing function: 0x80800, Percentage: 85%
+index: [6, 20], addressing function: 0x100040, Percentage: 71%
+index: [11, 21], addressing function: 0x200800, Percentage: 57%
+index: [8, 23], addressing function: 0x800100, Percentage: 100%
+index: [7, 24], addressing function: 0x1000080, Percentage: 42%
+index: [6, 25], addressing function: 0x2000040, Percentage: 85%
+index: [8, 26], addressing function: 0x4000100, Percentage: 100%
+index: [10, 27], addressing function: 0x8000400, Percentage: 57%
+index: [8, 29], addressing function: 0x20000100, Percentage: 100%
+index: [11, 30], addressing function: 0x40000800, Percentage: 71%
+index: [7, 8, 10], addressing function: 0x580, Percentage: 71%
+index: [8, 9, 11], addressing function: 0xb00, Percentage: 100%
+index: [7, 9, 22], addressing function: 0x400280, Percentage: 100%
+index: [9, 10, 28], addressing function: 0x10000600, Percentage: 57%
