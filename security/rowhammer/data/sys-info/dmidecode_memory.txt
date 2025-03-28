@@ -1,0 +1,82 @@
+# dmidecode 3.6
+Getting SMBIOS data from sysfs.
+SMBIOS 3.4 present.
+
+Handle 0x1000, DMI type 16, 23 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 64 GB
+	Error Information Handle: Not Provided
+	Number Of Devices: 2
+
+Handle 0x1100, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x1000
+	Error Information Handle: Not Provided
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 8 GB
+	Form Factor: SODIMM
+	Set: None
+	Locator: DIMM A
+	Bank Locator: Not Specified
+	Type: DDR4
+	Type Detail: Synchronous
+	Speed: 3200 MT/s
+	Manufacturer: 802C0000802C
+	Serial Number: [redacted]
+	Asset Tag: [redacted]
+	Part Number: 4ATF1G64HZ-3G2F1
+	Rank: 1
+	Configured Memory Speed: 2667 MT/s
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 8 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x1101, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x1000
+	Error Information Handle: Not Provided
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 8 GB
+	Form Factor: SODIMM
+	Set: None
+	Locator: DIMM B
+	Bank Locator: Not Specified
+	Type: DDR4
+	Type Detail: Synchronous
+	Speed: 3200 MT/s
+	Manufacturer: 802C0000802C
+	Serial Number: [redacted]
+	Asset Tag: [redacted]
+	Part Number: 4ATF1G64HZ-3G2F1
+	Rank: 1
+	Configured Memory Speed: 2667 MT/s
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 8 GB
+	Cache Size: None
+	Logical Size: None

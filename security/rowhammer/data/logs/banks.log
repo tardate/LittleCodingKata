@@ -1,0 +1,7 @@
+-------------2025-03-28_02-02-58-------------
+Bank is retrieved by AMDRE
+-------------2025-03-28_02-02-58 | First AMDRE Try -------------
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:02:58: [0m[38;5;2mMeasured theshold: 340[0m
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:02:58: [0m[38;5;2mFilling initial bank groups...[0m
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:03:00: [0m[38;5;2mRegrouping bank groups until they look plausible (number of banks should be a power of 2)...[0m
+[2K[48;5;2;38;5;0m AMDRE [0m 2025-03-28 02:03:07: [0m[38;5;2mAssuming 16 banks.[0m

@@ -1,0 +1,22 @@
+# dmidecode 3.6
+Getting SMBIOS data from sysfs.
+SMBIOS 3.4 present.
+
+Handle 0x0100, DMI type 1, 27 bytes
+System Information
+	Manufacturer: Dell Inc.
+	Product Name: Inspiron 15 3520
+	Version: Not Specified
+	Serial Number: [redacted]
+	UUID: [redacted]
+	Wake-up Type: Power Switch
+	SKU Number: 0B92
+	Family: Inspiron
+
+Handle 0x0C00, DMI type 12, 5 bytes
+System Configuration Options
+	Option 1: J6H1:1-X Boot with Default; J8H1:1-X BIOS RECOVERY
+
+Handle 0x2000, DMI type 32, 11 bytes
+System Boot Information
+	Status: No errors detected

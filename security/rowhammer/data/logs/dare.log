@@ -1,0 +1,35 @@
+Dare (Zenhammer) Started | [2025-03-28_02-18-58] | timestamp: 1743128338
+----------------------------------------------------
+[0;36m[memory] Allocating 1 superpages (1073741824 bytes) of memory...
+[0m[0;36m[analyzer] Determining row conflict threshold using 32768 samples...
+[0m[0;36m[analyzer] Found row conflict threshold to be 400 cycles.
+[0m[0;36m[analyzer] Building 16 clusters out of address pool with 1024 addresses.
+[0m[0;36m[analyzer] Cluster 15 only has 5 addresses, retrying...
+[0m[0;36m[analyzer] Built 16 clusters. Cleaning clusters...
+[0m[0;36m[analyzer] Cleaned cluster, removed 0 addresses (out of 41).
+[0m[0;36m[analyzer] Cleaned cluster, removed 0 addresses (out of 51).
+[0m[0;36m[analyzer] Cleaned cluster, removed 0 addresses (out of 71).
+[0m[0;36m[analyzer] Cleaned cluster, removed 0 addresses (out of 68).
+[0m[0;36m[analyzer] Cleaned cluster, removed 0 addresses (out of 59).
+[0m[0;36m[analyzer] Cleaned cluster, removed 0 addresses (out of 58).
+[0m[0;36m[analyzer] Cleaned cluster, removed 0 addresses (out of 67).
+[0m[0;36m[analyzer] Cleaned cluster, removed 0 addresses (out of 53).
+[0m[0;36m[analyzer] Cleaned cluster, removed 0 addresses (out of 52).
+[0m[0;36m[analyzer] Cleaned cluster, removed 0 addresses (out of 61).
+[0m[0;36m[analyzer] Cleaned cluster, removed 0 addresses (out of 48).
+[0m[0;36m[analyzer] Cleaned cluster, removed 2 addresses (out of 67).
+[0m[0;36m[analyzer] Cleaned cluster, removed 10 addresses (out of 66).
+[0m[0;36m[analyzer] Cleaned cluster, removed 0 addresses (out of 59).
+[0m[0;36m[analyzer] Cleaned cluster, removed 0 addresses (out of 53).
+[0m[0;36m[analyzer] Cleaned cluster, removed 0 addresses (out of 50).
+[0m[0;36m[analyzer] Converting clusters to physical addresses.
+[0m[0;36m[analyzer] Cluster generation finished.
+[0mFound 4 functions (up to 10 bits):
+0x0000005400 (14 12 10)
+0x0000082600 (19 13 10 9)
+0x0024350000 (29 26 21 20 18 16)
+0x001a4a8000 (28 27 25 22 19 17 15)
+XOR of all found functions:
+0x003e77f200 (29 28 27 26 25 22 21 20 18 17 16 15 14 13 12 9)
+----------------------------------------------------
+Dare (Zenhammer) Ended | [2025-03-28_02-19-10] | timestamp: 1743128350

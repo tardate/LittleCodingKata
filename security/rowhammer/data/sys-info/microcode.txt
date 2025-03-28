@@ -1,0 +1,1 @@
+[    0.895973] microcode: Current revision: 0x00000435

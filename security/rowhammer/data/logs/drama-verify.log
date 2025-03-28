@@ -1,0 +1,130 @@
+DRAMA-Verify Started | [2025-03-28_02-19-10] | timestamp: 1743128350
+----------------------------------------------------
+[2K[48;5;9;38;5;0m Drama-Verify: ERROR [0m 2025-03-28 02:19:10: [0m[38;5;9mInvalid option '63'.[0m
+
+DRAMA-VERIFY(1)
+[1mNAME[0m
+  drama-verify - DRAMA sidechannel verification tool
+
+[1mSYNOPSIS[0m
+  drama-verify [[4mOPTION[0m]...
+
+[1mDESCRIPTION[0m
+  [1m-h[0m, [1m--help[0m
+    Show this help message and exit
+  [1m-d[d][0m, [1m--debug[0m
+    Enable additional debugging output (use dd for trace mode)
+  [1m-l[0m, [1m--linear-addressing-functions[0m=[4mFUNCTIONS[0m
+    List of addressing functions in hexadecimal format delimited by ',' (e.g. 0x22000,0x44000,0x88000,0x110000)
+    This parameter is [1mREQUIRED[0m
+  [1m-b[0m, [1m--linear-rank-addressing-function[0m=[4mFUNCTION[0m
+    Addressing function for the rank in hexadecimal format (e.g. 0x0c)
+  [1m-t[0m, [1m--measurements-for-threshold[0m=[4mNUMBER[0m
+    Number of threshold measurements, the median of the measurements is taken
+    (default: 21)
+  [1m-p[0m, [1m--hugepages[0m=[4mNUMBER[0m
+    NUMBER of 1G hugepages used to allocate and use for the sidechannel (default: 1)
+  [1m-2[0m, [1m--percentage[0m=[4mPERCENTAGE[0m
+    PERCENTAGE of pages that should be added to DRAM banks from the hugepages (default: 1)
+  [1m-a[0m, [1m--address-pairs-per-group[0m=[4mNUMBER[0m
+    NUMBER of address pairs that should be measured for each group, e.g. DRAM bank (default: 50)
+  [1m-m[0m, [1m--measurements-per-address-pair[0m=[4mNUMBER[0m
+    NUMBER of measurements for each address pair (default: 50)
+  [1m-f[0m, [1m--no-fences[0m
+    Disable the usage of memory fences (enabled by default)
+  [1m-n[0m, [1m--threads[0m=[4mNUMBER[0m
+    NUMBER of threads (default: number of logical CPUs or number of DRAM banks)
+  [1m-g[0m, [1m--memory-type[0m=[4mTYPE[0m
+    TYPE of the memory that is used; this specifies if clflush() or clflushopt()
+    is called; can be set to 'ddr3' and 'ddr4' (default: 'ddr4')
+  [1m-T[0m, [1m--row-conflict-threshold[0m=[4mTIME[0m
+    If specified, the row conflict threshold is assumed to be TIME and not
+    measured (default: not set)
+  [1m-r[0m, [1m--rdpru[0m
+    Use rdpru instead of rdtscp for timing measurements (suggested for AMD systems)
+[2K[48;5;9;38;5;0m Drama-Verify: ERROR [0m 2025-03-28 02:19:10: [0m[38;5;9mInvalid option '63'.[0m
+
+DRAMA-VERIFY(1)
+[1mNAME[0m
+  drama-verify - DRAMA sidechannel verification tool
+
+[1mSYNOPSIS[0m
+  drama-verify [[4mOPTION[0m]...
+
+[1mDESCRIPTION[0m
+  [1m-h[0m, [1m--help[0m
+    Show this help message and exit
+  [1m-d[d][0m, [1m--debug[0m
+    Enable additional debugging output (use dd for trace mode)
+  [1m-l[0m, [1m--linear-addressing-functions[0m=[4mFUNCTIONS[0m
+    List of addressing functions in hexadecimal format delimited by ',' (e.g. 0x22000,0x44000,0x88000,0x110000)
+    This parameter is [1mREQUIRED[0m
+  [1m-b[0m, [1m--linear-rank-addressing-function[0m=[4mFUNCTION[0m
+    Addressing function for the rank in hexadecimal format (e.g. 0x0c)
+  [1m-t[0m, [1m--measurements-for-threshold[0m=[4mNUMBER[0m
+    Number of threshold measurements, the median of the measurements is taken
+    (default: 21)
+  [1m-p[0m, [1m--hugepages[0m=[4mNUMBER[0m
+    NUMBER of 1G hugepages used to allocate and use for the sidechannel (default: 1)
+  [1m-2[0m, [1m--percentage[0m=[4mPERCENTAGE[0m
+    PERCENTAGE of pages that should be added to DRAM banks from the hugepages (default: 1)
+  [1m-a[0m, [1m--address-pairs-per-group[0m=[4mNUMBER[0m
+    NUMBER of address pairs that should be measured for each group, e.g. DRAM bank (default: 50)
+  [1m-m[0m, [1m--measurements-per-address-pair[0m=[4mNUMBER[0m
+    NUMBER of measurements for each address pair (default: 50)
+  [1m-f[0m, [1m--no-fences[0m
+    Disable the usage of memory fences (enabled by default)
+  [1m-n[0m, [1m--threads[0m=[4mNUMBER[0m
+    NUMBER of threads (default: number of logical CPUs or number of DRAM banks)
+  [1m-g[0m, [1m--memory-type[0m=[4mTYPE[0m
+    TYPE of the memory that is used; this specifies if clflush() or clflushopt()
+    is called; can be set to 'ddr3' and 'ddr4' (default: 'ddr4')
+  [1m-T[0m, [1m--row-conflict-threshold[0m=[4mTIME[0m
+    If specified, the row conflict threshold is assumed to be TIME and not
+    measured (default: not set)
+  [1m-r[0m, [1m--rdpru[0m
+    Use rdpru instead of rdtscp for timing measurements (suggested for AMD systems)
+[2K[48;5;9;38;5;0m Drama-Verify: ERROR [0m 2025-03-28 02:19:10: [0m[38;5;9mInvalid option '63'.[0m
+
+DRAMA-VERIFY(1)
+[1mNAME[0m
+  drama-verify - DRAMA sidechannel verification tool
+
+[1mSYNOPSIS[0m
+  drama-verify [[4mOPTION[0m]...
+
+[1mDESCRIPTION[0m
+  [1m-h[0m, [1m--help[0m
+    Show this help message and exit
+  [1m-d[d][0m, [1m--debug[0m
+    Enable additional debugging output (use dd for trace mode)
+  [1m-l[0m, [1m--linear-addressing-functions[0m=[4mFUNCTIONS[0m
+    List of addressing functions in hexadecimal format delimited by ',' (e.g. 0x22000,0x44000,0x88000,0x110000)
+    This parameter is [1mREQUIRED[0m
+  [1m-b[0m, [1m--linear-rank-addressing-function[0m=[4mFUNCTION[0m
+    Addressing function for the rank in hexadecimal format (e.g. 0x0c)
+  [1m-t[0m, [1m--measurements-for-threshold[0m=[4mNUMBER[0m
+    Number of threshold measurements, the median of the measurements is taken
+    (default: 21)
+  [1m-p[0m, [1m--hugepages[0m=[4mNUMBER[0m
+    NUMBER of 1G hugepages used to allocate and use for the sidechannel (default: 1)
+  [1m-2[0m, [1m--percentage[0m=[4mPERCENTAGE[0m
+    PERCENTAGE of pages that should be added to DRAM banks from the hugepages (default: 1)
+  [1m-a[0m, [1m--address-pairs-per-group[0m=[4mNUMBER[0m
+    NUMBER of address pairs that should be measured for each group, e.g. DRAM bank (default: 50)
+  [1m-m[0m, [1m--measurements-per-address-pair[0m=[4mNUMBER[0m
+    NUMBER of measurements for each address pair (default: 50)
+  [1m-f[0m, [1m--no-fences[0m
+    Disable the usage of memory fences (enabled by default)
+  [1m-n[0m, [1m--threads[0m=[4mNUMBER[0m
+    NUMBER of threads (default: number of logical CPUs or number of DRAM banks)
+  [1m-g[0m, [1m--memory-type[0m=[4mTYPE[0m
+    TYPE of the memory that is used; this specifies if clflush() or clflushopt()
+    is called; can be set to 'ddr3' and 'ddr4' (default: 'ddr4')
+  [1m-T[0m, [1m--row-conflict-threshold[0m=[4mTIME[0m
+    If specified, the row conflict threshold is assumed to be TIME and not
+    measured (default: not set)
+  [1m-r[0m, [1m--rdpru[0m
+    Use rdpru instead of rdtscp for timing measurements (suggested for AMD systems)
+----------------------------------------------------
+DRAMA-Verify Ended | [2025-03-28_02-19-10] | timestamp: 1743128350

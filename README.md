@@ -1,6 +1,6 @@
-# 320 Little Coding Katas
+# 321 Little Coding Katas
 
-> Latest addition:sparkles: [OpenSSL Self-signed Certificates](./security/openssl_ca) - A guide and automation for generating Self-signed Certificates with OpenSSL.
+> Latest addition:sparkles: [Rowhammer Then and Now](./security/rowhammer) - About a new study to analyze the prevalence of Rowhammer in real-world systems.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

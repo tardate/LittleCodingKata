@@ -1,0 +1,138 @@
+Start building measureRefreshRate | 2025-03-28_02-02-36
+mkdir -p build
+gcc -Wall -g -c -o build/measureRefreshRate.o measureRefreshRate.c
+mkdir -p bin
+gcc  -o bin/measureRefreshRate build/measureRefreshRate.o
+Done building measureRefreshRate | 2025-03-28_02-02-37
+Start building Drama | 2025-03-28_02-02-37
+make: 'all' is up to date.
+Done building Drama | 2025-03-28_02-02-37
+Start building Dramdig | 2025-03-28_02-02-37
+g++ -std=c++11 -g -O0 dramdig.cc utility.cc -DDRAMDIG_DEBUG -o dramdig
+Done building Dramdig | 2025-03-28_02-02-40
+Starting collection of system information | 2025-03-28_02-02-40
+decode-dimms.sh: line 21: echo: write error: Device or resource busy
+decode-dimms.sh: line 39: echo: write error: No such file or directory
+decode-dimms.sh: line 39: echo: write error: No such file or directory
+decode-dimms.sh: line 39: echo: write error: No such file or directory
+decode-dimms.sh: line 39: echo: write error: No such file or directory
+decode-dimms.sh: line 39: echo: write error: No such file or directory
+decode-dimms.sh: line 39: echo: write error: No such file or directory
+decode-dimms.sh: line 39: echo: write error: No such file or directory
+Size: 8 GB
+Size: 8 GB
+total phy mem size: 16384 MB, bit count: 34
+mem characteristics ranges: [(20, 30), (94, 104)]
+total banks count: 16, rowbits num: 17
+max_xor_bits is set to 7 by default.
+
+num_of_read is set to 2000 by default.
+
+Done collection of system information | 2025-03-28_02-02-42
+Start building Dare (Zenhammer) | 2025-03-28_02-02-42
+-- The C compiler identification is GNU 14.2.1
+-- The CXX compiler identification is GNU 14.2.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /arhe/ARHE/Tools/dare/build
+make: Entering directory '/arhe/ARHE/Tools/dare/build'
+[ 14%] Building CXX object CMakeFiles/dare.dir/src/analyzer.cpp.o
+[ 28%] Building CXX object CMakeFiles/dare.dir/src/dare.cpp.o
+[ 42%] Building CXX object CMakeFiles/dare.dir/src/memory.cpp.o
+[ 57%] Building CXX object CMakeFiles/dare.dir/src/pagemap.cpp.o
+[ 71%] Building CXX object CMakeFiles/dare.dir/src/solver.cpp.o
+[ 85%] Building CXX object CMakeFiles/dare.dir/src/utils.cpp.o
+[100%] Linking CXX executable dare
+[100%] Built target dare
+make: Leaving directory '/arhe/ARHE/Tools/dare/build'
+Done building Dare (Zenhammer) | 2025-03-28_02-02-45
+Start building AMDRE | 2025-03-28_02-02-45
+g++ -Wall -O3 -g -c -o build/amdre.o amdre.cpp
+g++ -Wall -O3 -g -c -o build/helper.o helper.cpp
+helper.cpp: In function ‘std::vector<long unsigned int>* getRandomIndices(uint64_t, uint64_t)’:
+helper.cpp:169:17: warning: ‘void std::random_shuffle(_RAIter, _RAIter) [with _RAIter = __gnu_cxx::__normal_iterator<long unsigned int*, vector<long unsigned int> >]’ is deprecated: use 'std::shuffle' instead [-Wdeprecated-declarations]
+  169 |   random_shuffle(allIndices.begin(), allIndices.end());
+      |   ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/14.2.1/algorithm:61,
+                 from helper.cpp:4:
+/usr/include/c++/14.2.1/bits/stl_algo.h:4491:5: note: declared here
+ 4491 |     random_shuffle(_RandomAccessIterator __first, _RandomAccessIterator __last)
+      |     ^~~~~~~~~~~~~~
+g++ -Wall -O3 -g -c -o build/addressGroup.o addressGroup.cpp
+g++ -Wall -O3 -g -c -o build/bankGroup.o bankGroup.cpp
+g++ -Wall -O3 -g -c -o build/addressFunction.o addressFunction.cpp
+g++ -Wall -O3 -g -c -o build/maskThread.o maskThread.cpp
+g++ -Wall -O3 -g -c -o build/config.o config.cpp
+g++ -Wall -O3 -g -c -o build/logger.o logger.cpp
+g++ -pthread -o bin/amdre build/amdre.o build/helper.o build/addressGroup.o build/bankGroup.o build/addressFunction.o build/maskThread.o build/config.o build/logger.o
+g++ -Wall -O3 -g -c -o build/amdre.o amdre.cpp
+g++ -Wall -O3 -g -c -o build/helper.o helper.cpp
+helper.cpp: In function ‘std::vector<long unsigned int>* getRandomIndices(uint64_t, uint64_t)’:
+helper.cpp:228:17: warning: ‘void std::random_shuffle(_RAIter, _RAIter) [with _RAIter = __gnu_cxx::__normal_iterator<long unsigned int*, vector<long unsigned int> >]’ is deprecated: use 'std::shuffle' instead [-Wdeprecated-declarations]
+  228 |   random_shuffle(allIndices.begin(), allIndices.end());
+      |   ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/14.2.1/algorithm:61,
+                 from helper.cpp:4:
+/usr/include/c++/14.2.1/bits/stl_algo.h:4491:5: note: declared here
+ 4491 |     random_shuffle(_RandomAccessIterator __first, _RandomAccessIterator __last)
+      |     ^~~~~~~~~~~~~~
+g++ -Wall -O3 -g -c -o build/addressGroup.o addressGroup.cpp
+g++ -Wall -O3 -g -c -o build/bankGroup.o bankGroup.cpp
+bankGroup.cpp: In member function ‘uint64_t BankGroup::exportHugepageMeasurementWithBankGroup(void*, char*)’:
+bankGroup.cpp:133:48: warning: pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+  133 |     bankIndex = getBankIndexForAddress(address + i);
+      |                                        ~~~~~~~~^~~
+bankGroup.cpp:134:77: warning: pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+  134 |     physicalAddress = (uint64_t)getPhysicalAddressForVirtualAddress(address + i);
+      |                                                                     ~~~~~~~~^~~
+g++ -Wall -O3 -g -c -o build/addressFunction.o addressFunction.cpp
+g++ -Wall -O3 -g -c -o build/maskThread.o maskThread.cpp
+g++ -Wall -O3 -g -c -o build/config.o config.cpp
+g++ -Wall -O3 -g -c -o build/logger.o logger.cpp
+g++ -pthread -o bin/amdre build/amdre.o build/helper.o build/addressGroup.o build/bankGroup.o build/addressFunction.o build/maskThread.o build/config.o build/logger.o
+Done building AMDRE | 2025-03-28_02-02-54
+Start building TRRespassRE | 2025-03-28_02-02-54
+mkdir -p src/.obj
+g++ -o src/.obj/main.o -c src/main.c -Isrc/include   
+mkdir -p src/.obj
+g++ -o src/.obj/rev-mc.o -c src/rev-mc.c -Isrc/include   
+src/rev-mc.c: In function ‘uint64_t find_row_mask(std::vector<std::vector<addr_tuple> >&, std::vector<long unsigned int>, mem_buff_t, uint64_t, uint64_t)’:
+src/rev-mc.c:332:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  332 | }
+      | ^
+mkdir -p src/.obj
+g++ -o src/.obj/utils.o -c src/utils.c -Isrc/include   
+mkdir -p obj
+g++ -o obj/tester src/.obj/main.o src/.obj/rev-mc.o src/.obj/utils.o -Isrc/include   
+chmod +x obj/tester
+Done building TRRespassRE | 2025-03-28_02-02-54
+Start building Drama-Verify | 2025-03-28_02-02-54
+g++ -Wall -O3 -g -c -o build/helper.o helper.cpp
+g++ -Wall -O3 -g -c -o build/config.o config.cpp
+g++ -Wall -O3 -g -c -o build/logger.o logger.cpp
+g++ -Wall -O3 -g -c -o build/addressGroup.o addressGroup.cpp
+g++ -Wall -O3 -g -c -o build/addressingFunctions.o addressingFunctions.cpp
+g++ -Wall -O3 -g -c -o build/linearAddressingFunctions.o linearAddressingFunctions.cpp
+g++ -Wall -O3 -g -c -o build/drama.o drama.cpp
+g++ -Wall -O3 -g -c -o build/drama-verify.o drama-verify.cpp
+drama-verify.cpp: In function ‘int main(int, char**)’:
+drama-verify.cpp:87:52: warning: pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+   87 |           addressGroup->addAddressToGroup(hugePage + x, physicalBase | (((uint64_t)hugePage + x) & ((1<<30)-1)));
+      |                                           ~~~~~~~~~^~~
+g++ -pthread -o bin/drama-verify build/helper.o build/config.o build/logger.o build/addressGroup.o build/addressingFunctions.o build/linearAddressingFunctions.o build/drama.o build/drama-verify.o
+Done building Drama-Verify | 2025-03-28_02-02-57
+Start building FlipFloyd | 2025-03-28_02-19-10
+g++ -std=c++11 -O3 -o rowhammer rowhammer.cc
+Done building FlipFloyd | 2025-03-28_02-19-10
+Start building Rowhammer-test | 2025-03-28_06-10-53
+Done building Rowhammer-test | 2025-03-28_06-10-54

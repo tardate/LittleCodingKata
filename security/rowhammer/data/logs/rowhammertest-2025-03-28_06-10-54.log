@@ -1,0 +1,18 @@
+Rowhammer-test Started | [2025-03-28_06-10-54] | timestamp: 1743142254
+----------------------------------------------------
+timeout --kill-after=5 13903 stdbuf -oL ./rowhammer_test 2>&1
+clear
+Iteration 0 (after 0.00s)
+  Took 142.0 ms per address set
+  Took 1.42049 sec in total for 10 address sets
+  Took 32.882 nanosec per memory access (for 43200000 memory accesses)
+  This gives 243296 accesses per address per 64 ms refresh period
+  Checking for bit flips took 0.075912 sec
+[..truncated..]
+Iteration 5364 (after 8224.46s)
+  Took 142.2 ms per address set
+  Took 1.42231 sec in total for 10 address sets
+  Took 32.924 nanosec per memory access (for 43200000 memory accesses)
+  This gives 242985 accesses per address per 64 ms refresh period
+  Checking for bit flips took 0.060522 sec
+Iteration 5365 (after 8225.94s)

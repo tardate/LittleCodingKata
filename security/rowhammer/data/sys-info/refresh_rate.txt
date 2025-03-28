@@ -1,0 +1,1 @@
+Measured a timing of 7.59us. Estimated refresh interval per row: 62.17ms

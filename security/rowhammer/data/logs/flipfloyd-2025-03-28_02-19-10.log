@@ -1,0 +1,15 @@
+FlipFloyd Started | [2025-03-28_02-19-10] | timestamp: 1743128350
+----------------------------------------------------
+timeout --kill-after=5 13903 stdbuf -oL ./rowhammer 6 2>&1
+[2KAllocating memory... 1%
+[..truncated..]
+[2KAllocating memory... 99%
+Hammering attempt                1 at offset 1297763653
+[2K
+[..truncated..]
+[2K
+Hammering attempt            61416 at offset 1485541645
+[2K
+Checking...
+----------------------------------------------------
+FlipFloyd Ended | [2025-03-28_06-10-53] | timestamp: 1743142253
