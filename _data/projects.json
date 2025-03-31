@@ -1,4 +1,14 @@
 {
+    "/python/practical-cryptography-in-python/": {
+        "id": 322,
+        "title": "Practical Cryptography in Python",
+        "summary": "Book notes: Practical Cryptography in Python: Learning Correct Cryptography by Example, by Seth James Nielso,  Christopher K. Monson. Published September 27, 2019.",
+        "tags": [
+            "Books",
+            "python",
+            "cryptography"
+        ]
+    },
     "/security/rowhammer/": {
         "id": 321,
         "title": "Rowhammer Then and Now",
