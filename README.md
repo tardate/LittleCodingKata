@@ -1,6 +1,6 @@
-# 321 Little Coding Katas
+# 322 Little Coding Katas
 
-> Latest addition:sparkles: [Rowhammer Then and Now](./security/rowhammer) - About a new study to analyze the prevalence of Rowhammer in real-world systems.
+> Latest addition:sparkles: [Practical Cryptography in Python](./python/practical-cryptography-in-python) - Book notes: Practical Cryptography in Python: Learning Correct Cryptography by Example, by Seth James Nielso,  Christopher K. Monson. Published September 27, 2019.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
