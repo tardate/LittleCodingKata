@@ -4,54 +4,47 @@ Using twisted for web client requests can present an "unusual" testing challenge
 because of the asynchronous (deferred) callback nature of twisted.
 And the docs aren't that great.
 
-So this is an exercise in writing a cannonical web client and testing it all ways I can think would normally be a "good idea":
+So this is an exercise in writing a canonical web client and testing it all ways I can think would normally be a "good idea":
 
 * with real web requests, and the tests deal with deferred responses explicitly
 * with real web requests, but inline callbacks
 * with "mock web response", and the tests deal with deferred responses explicitly
 * with "mock web response", but inline callbacks
 
-
 ## Installing Requirements
 
-```
-$ pip install -r requirements.txt
-```
+    pip install -r requirements.txt
 
 ## Running the Example
 
-```
-$ python timeapi/client.py
-Response version: ('HTTP', 1, 1)
-Response code: 200
-Response phrase: OK
-[('X-XSS-Protection', ['1; mode=block']),
- ('Server', ['thin 1.5.0 codename Knife']),
- ('Via', ['1.1 vegur']),
- ('Date', ['Mon, 18 Apr 2016 22:35:33 GMT']),
- ('X-Frame-Options', ['sameorigin']),
- ('Content-Type', ['text/html;charset=utf-8'])]
-Response body:
-2016-04-18T22:35:34+00:00
-```
+    $ python timeapi/client.py
+    Response version: ('HTTP', 1, 1)
+    Response code: 200
+    Response phrase: OK
+    [('X-XSS-Protection', ['1; mode=block']),
+    ('Server', ['thin 1.5.0 codename Knife']),
+    ('Via', ['1.1 vegur']),
+    ('Date', ['Mon, 18 Apr 2016 22:35:33 GMT']),
+    ('X-Frame-Options', ['sameorigin']),
+    ('Content-Type', ['text/html;charset=utf-8'])]
+    Response body:
+    2016-04-18T22:35:34+00:00
 
 ## Running Tests - Trial
 
-```
-$ PYTHONPATH=$PYTHONPATH:$PWD trial timeapi/
-timeapi.test.test_client_for_real
-  TimeClientRealResponseTestCase
-[...test output truncated...]
+    $ PYTHONPATH=$PYTHONPATH:$PWD trial timeapi/
+    timeapi.test.test_client_for_real
+      TimeClientRealResponseTestCase
+    [...test output truncated...]
 
-timeapi.test.test_client_mock_response
-  TimeClientMockResponseTestCase
-[...test output truncated...]
+    timeapi.test.test_client_mock_response
+      TimeClientMockResponseTestCase
+    [...test output truncated...]
 
--------------------------------------------------------------------------------
-Ran 4 tests in 1.662s
+    -------------------------------------------------------------------------------
+    Ran 4 tests in 1.662s
 
-PASSED (successes=4)
-```
+    PASSED (successes=4)
 
 ## Running Tests - Nose
 
@@ -61,33 +54,29 @@ for nose.
 
 But I haven't needed to make any changes yet ... tests run just fine with nose:
 
-```
-$ nosetests
-..
-----------------------------------------------------------------------
-Ran 4 tests in 1.854s
+    $ nosetests
+    ..
+    ----------------------------------------------------------------------
+    Ran 4 tests in 1.854s
 
-OK
-```
+    OK
 
 ## About the timeapi server
 
 I'm using a simple time service for testing. Here's what a raw call looks like:
 
-```
-$ curl -0 -i --raw http://timeapi.herokuapp.com/utc/now
-HTTP/1.1 200 OK
-Date: Sat, 15 Jun 2019 21:47:35 GMT
-Connection: close
-X-Frame-Options: sameorigin
-X-Xss-Protection: 1; mode=block
-Content-Type: text/html;charset=utf-8
-Content-Length: 25
-Server: thin 1.5.0 codename Knife
-Via: 1.1 vegur
+    $ curl -0 -i --raw http://timeapi.herokuapp.com/utc/now
+    HTTP/1.1 200 OK
+    Date: Sat, 15 Jun 2019 21:47:35 GMT
+    Connection: close
+    X-Frame-Options: sameorigin
+    X-Xss-Protection: 1; mode=block
+    Content-Type: text/html;charset=utf-8
+    Content-Length: 25
+    Server: thin 1.5.0 codename Knife
+    Via: 1.1 vegur
 
-2019-06-15T22:47:36+01:00
-```
+    2019-06-15T22:47:36+01:00
 
 ## Credits and References
 

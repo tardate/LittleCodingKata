@@ -23,7 +23,6 @@ In the example, I'm explicitly expecting `self` so I can easily do things with i
             return func(self, *args, **kwargs)
         return wrapper
 
-
 ## Allowing Introspection of Decorated Functions
 
 Decorating a function has an unfortunate side-effect that details of the original function
@@ -32,7 +31,7 @@ values for the decorator function, not the original method.
 
 Sometimes this may not matter, but sometimes it really does. For example, if you are using
 [django-rest-swagger](https://github.com/marcgibbons/django-rest-swagger),
-then decorators can break it's ability to gereate swagger documantation from your API methods.
+then decorators can break it's ability to generate swagger documentation from your API methods.
 
 Fortunately, [functools.wraps](https://docs.python.org/2/library/functools.html#functools.wraps) provides
 a simple fix. It restores the `__doc__` and `__name__` methods to return details form the original function.
@@ -48,7 +47,6 @@ It just requires a decorator for the decorator(!)..
 
 This behaviour is demonstrated in the example script (both the broken and fixed).
 
-
 ## The Example
 
 The [demonstrator.py](./demonstrator.py) script shows techniques for decorating class methods with arbitrary parameters.
@@ -58,17 +56,15 @@ The [test_demonstrator.py](./test_demonstrator.py) exercises the decorators and 
 
 The output is a bit hard to read, but it provides a detailed log of what happens when calling two decorated methods.
 
-```
-$ ./demonstrator.py
-INFO:demonstrator:method_wrapper.before: Demonstrator.apples called with args: ([], 'a message to apples') kwargs: {'example_id': 33}
-INFO:demonstrator:running apples with payload: [], message: 'a message to apples', example_id: 33
-INFO:demonstrator:method_wrapper.after: returns ['a message to apples', 33]
-apples() returned ['a message to apples', 33]
-INFO:demonstrator:wrapped_method_wrapper.before: Demonstrator.oranges called with args: ([], 'a message to oranges') kwargs: {'example_id': 33}
-INFO:demonstrator:running oranges with payload: [], message: 'a message to oranges', example_id: 33
-INFO:demonstrator:wrapped_method_wrapper.after: returns ['a message to oranges', 33]
-oranges() returned ['a message to oranges', 33]
-```
+    $ ./demonstrator.py
+    INFO:demonstrator:method_wrapper.before: Demonstrator.apples called with args: ([], 'a message to apples') kwargs: {'example_id': 33}
+    INFO:demonstrator:running apples with payload: [], message: 'a message to apples', example_id: 33
+    INFO:demonstrator:method_wrapper.after: returns ['a message to apples', 33]
+    apples() returned ['a message to apples', 33]
+    INFO:demonstrator:wrapped_method_wrapper.before: Demonstrator.oranges called with args: ([], 'a message to oranges') kwargs: {'example_id': 33}
+    INFO:demonstrator:running oranges with payload: [], message: 'a message to oranges', example_id: 33
+    INFO:demonstrator:wrapped_method_wrapper.after: returns ['a message to oranges', 33]
+    oranges() returned ['a message to oranges', 33]
 
 ### Tests
 
@@ -82,14 +78,12 @@ If you don't already have it installed, can install with the `requirements.txt` 
 Running the tests...
 NB: the expected failures are related to default `__name__` and `__doc__` behaviour tests.
 
-```
-$ ./test_demonstrator.py
-...x..x...
-----------------------------------------------------------------------
-Ran 10 tests in 0.002s
+    $ ./test_demonstrator.py
+    ...x..x...
+    ----------------------------------------------------------------------
+    Ran 10 tests in 0.002s
 
-OK (expected failures=2)
-```
+    OK (expected failures=2)
 
 ## Miscellaneous "Quite Interesting" Details in the Example
 
@@ -107,7 +101,6 @@ Used in `setUp` and `tearDown`, it can be used to temporarily adjust the log lev
     def tearDown(self):
         logging.disable(logging.NOTSET)
 
-
 ### Expecting Failure
 
 The [unittest.expectedFailure](https://docs.python.org/2.7/library/unittest.html#unittest.expectedFailure) decorator
@@ -122,8 +115,8 @@ It is used here to demonstrate how the decorator obscures method details. For ex
             self.instance.apples.__doc__
         )
 
-
 ## Credits and References
+
 * [PEP 318 -- Decorators for Functions and Methods](https://www.python.org/dev/peps/pep-0318/)
 * [PythonDecorators wiki](https://wiki.python.org/moin/PythonDecorators) - documents the history of the process of adding decorators to Python
 * [Decorators](http://jfine-python-classes.readthedocs.io/en/latest/decorators.html) - from Python Classes by J Fine

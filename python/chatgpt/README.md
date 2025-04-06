@@ -16,7 +16,7 @@ This example uses the openai python client. Install with pip:
     pip install -r requirements.txt
 
 To use the API, an API key is required from <https://platform.openai.com/settings/organization/api-keys>.
-Set the defautl environement variable for the following examples to work:
+Set the default environment variable for the following examples to work:
 
     export OPENAI_API_KEY='your-key'
 

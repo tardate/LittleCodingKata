@@ -31,41 +31,35 @@ Error corrections:
 
 This example uses the qrcode python client, which depends on pillow. Install with pip:
 
-```
-$ pip install -r requirements.txt
-```
+    pip install -r requirements.txt
 
 ## Command Line Test
 
 The qrcode library has a command line interface invoked with `qr`:
 
-```
-$ qr --help
-Usage: qr - Convert stdin (or the first argument) to a QR Code.
+    $ qr --help
+    Usage: qr - Convert stdin (or the first argument) to a QR Code.
 
-When stdout is a tty the QR Code is printed to the terminal and when stdout is
-a pipe to a file an image is written. The default image format is PNG.
+    When stdout is a tty the QR Code is printed to the terminal and when stdout is
+    a pipe to a file an image is written. The default image format is PNG.
 
-Options:
-  --version             show program's version number and exit
-  -h, --help            show this help message and exit
-  --factory=FACTORY     Full python path to the image factory class to create
-                        the image with. You can use the following shortcuts to
-                        the built-in image factory classes: pil, pymaging,
-                        svg, svg-fragment, svg-path.
-  --optimize=OPTIMIZE   Optimize the data by looking for chunks of at least
-                        this many characters that could use a more efficient
-                        encoding method. Use 0 to turn off chunk optimization.
-  --error-correction=ERROR_CORRECTION
-                        The error correction level to use. Choices are L (7%),
-                        M (15%, default), Q (25%), and H (30%).
-```
+    Options:
+      --version             show program's version number and exit
+      -h, --help            show this help message and exit
+      --factory=FACTORY     Full python path to the image factory class to create
+                            the image with. You can use the following shortcuts to
+                            the built-in image factory classes: pil, pymaging,
+                            svg, svg-fragment, svg-path.
+      --optimize=OPTIMIZE   Optimize the data by looking for chunks of at least
+                            this many characters that could use a more efficient
+                            encoding method. Use 0 to turn off chunk optimization.
+      --error-correction=ERROR_CORRECTION
+                            The error correction level to use. Choices are L (7%),
+                            M (15%, default), Q (25%), and H (30%).
 
 Generating a QR code for a website:
 
-```
-qr "https://leap.tardate.com" > leap.png
-```
+    qr "https://leap.tardate.com" > leap.png
 
 Resulting image:
 
@@ -75,13 +69,11 @@ Resulting image:
 
 The simple [example.py](./example.py) script demonstrates generation in code.
 It accepts a format parameter to dictate the output file format.
-The output is streamed to stdout, so whould be redriected to a file for storage:
+The output is streamed to stdout, so should be redirected to a file for storage:
 
-```
-$ ./example.py -m "qr to png" -f png > assets/test.png
-$ ./example.py -m "qr to gif" -f gif > assets/test.gif
-$ ./example.py -m "qr to bmp" -f bmp > assets/test.bmp
-```
+    ./example.py -m "qr to png" -f png > assets/test.png
+    ./example.py -m "qr to gif" -f gif > assets/test.gif
+    ./example.py -m "qr to bmp" -f bmp > assets/test.bmp
 
 Resulting images:
 
@@ -91,7 +83,7 @@ Resulting images:
 
 ### Generating for Embedded
 
-A `c` formatter provides a simple conversion to an Arduino-compatible C datastruture that
+A `c` formatter provides a simple conversion to an Arduino-compatible C data structure that
 may be included in embedded programs.
 The code was inspired by the [`tobitmap` implementation from PIL](https://github.com/python-pillow/Pillow/blob/master/src/PIL/Image.py#L722)
 
@@ -120,7 +112,6 @@ This generates an array of bytes in a header file structure, ready for inclusion
       0xff,0xff,0xff,0xff,0xff,0xff,0xff,0x00,0xff,0xff,0xff,0xff,0xff,0x00,0x00,0x00,0x00,0x00,0xff,0x00,0x00,0x00,0xff,0xff,0xff,
       0xff,0xff,0xff,0xff,0xff,0xff,0xff,0x00,0xff,0xff,0xff,0xff,0xff,0x00,0x00,0x00,0x00,0x00,0xff,0x00,0x00,0x00,0xff,0xff,0xff
     };
-
 
 ## Credits and References
 

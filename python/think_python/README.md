@@ -16,7 +16,7 @@ Preface
 * Acknowledgments
 * Contributor List
 
-1. The Way of the Program
+1 The Way of the Program
 
 * What Is a Program?
 * Running Python
@@ -28,7 +28,7 @@ Preface
 * Glossary
 * Exercises
 
-2. Variables, Expressions and Statements
+2 Variables, Expressions and Statements
 
 * Assignment Statements
 * Variable Names
@@ -41,7 +41,7 @@ Preface
 * Glossary
 * Exercises
 
-3. Functions
+3 Functions
 
 * Function Calls
 * Math Functions
@@ -58,7 +58,7 @@ Preface
 * Glossary
 * Exercises
 
-4. Case Study: Interface Design
+4 Case Study: Interface Design
 
 * The turtle Module
 * Simple Repetition
@@ -73,7 +73,7 @@ Preface
 * Glossary
 * Exercises
 
-5. Conditionals and Recursion
+5 Conditionals and Recursion
 
 * Floor Division and Modulus
 * Boolean Expressions
@@ -90,7 +90,7 @@ Preface
 * Glossary
 * Exercises
 
-6. Fruitful Functions
+6 Fruitful Functions
 
 * Return Values
 * Incremental Development
@@ -104,7 +104,7 @@ Preface
 * Glossary
 * Exercises
 
-7. Iteration
+7 Iteration
 
 * Reassignment
 * Updating Variables
@@ -116,7 +116,7 @@ Preface
 * Glossary
 * Exercises
 
-8. Strings
+8 Strings
 
 * A String Is a Sequence
 * len
@@ -132,7 +132,7 @@ Preface
 * Glossary
 * Exercises
 
-9. Case Study: Word Play
+9 Case Study: Word Play
 
 * Reading Word Lists
 * Exercises
@@ -142,7 +142,7 @@ Preface
 * Glossary
 * Exercises
 
-10. Lists
+10 Lists
 
 * A List Is a Sequence
 * Lists Are Mutable
@@ -160,7 +160,7 @@ Preface
 * Glossary
 * Exercises
 
-11. Dictionaries
+11 Dictionaries
 
 * A Dictionary Is a Mapping
 * Dictionary as a Collection of Counters
@@ -173,7 +173,7 @@ Preface
 * Glossary
 * Exercises
 
-12. Tuples
+12 Tuples
 
 * Tuples Are Immutable
 * Tuple Assignment
@@ -186,7 +186,7 @@ Preface
 * Glossary
 * Exercises
 
-13. Case Study: Data Structure Selection
+13 Case Study: Data Structure Selection
 
 * Word Frequency Analysis
 * Random Numbers
@@ -201,7 +201,7 @@ Preface
 * Glossary
 * Exercises
 
-14. Files
+14 Files
 
 * Persistence
 * Reading and Writing
@@ -216,7 +216,7 @@ Preface
 * Glossary
 * Exercises
 
-15. Classes and Objects
+15 Classes and Objects
 
 * Programmer-Defined Types
 * Attributes
@@ -228,7 +228,7 @@ Preface
 * Glossary
 * Exercises
 
-16. Classes and Functions
+16 Classes and Functions
 
 * Time
 * Pure Functions
@@ -238,7 +238,7 @@ Preface
 * Glossary
 * Exercises
 
-17. Classes and Methods
+17 Classes and Methods
 
 * Object-Oriented Features
 * Printing Objects
@@ -254,7 +254,7 @@ Preface
 * Glossary
 * Exercises
 
-18. Inheritance
+18 Inheritance
 
 * Card Objects
 * Class Attributes
@@ -269,7 +269,7 @@ Preface
 * Glossary
 * Exercises
 
-19. The Goodies
+19 The Goodies
 
 * Conditional Expressions
 * List Comprehensions
@@ -283,7 +283,7 @@ Preface
 * Glossary
 * Exercises
 
-20. Debugging
+20 Debugging
 
 * Syntax Errors
 * I keep making changes and it makes no difference.
@@ -299,7 +299,7 @@ Preface
 * I’m really, really stuck and I need help.
 * No, I really need help.
 
-21. Analysis of Algorithms
+21 Analysis of Algorithms
 
 * Order of Growth
 * Analysis of Basic Python Operations
@@ -308,9 +308,7 @@ Preface
 
 ## Getting the Example Source
 
-```sh
-git clone https://github.com/AllenDowney/ThinkPython2.git example_source
-```
+    git clone https://github.com/AllenDowney/ThinkPython2.git example_source
 
 ## Credits and References
 

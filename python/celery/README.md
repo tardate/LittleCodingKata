@@ -6,7 +6,6 @@ About Celery, a distributed task queue system for python.
 
 WIP: just dropping some unorganised notes for now..
 
-
 ## Credits and References
 
 * [Celery](http://www.celeryproject.org/)

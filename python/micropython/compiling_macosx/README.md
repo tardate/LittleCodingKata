@@ -2,7 +2,6 @@
 
 Quick notes on my first experience building MicroPython on macOS.
 
-
 ## Notes
 
 I first heard about MicroPython from the [kickstarter](http://www.kickstarter.com/projects/214379695/micro-python-python-for-microcontrollers)
@@ -12,12 +11,11 @@ MicroPython is basically Python cut down and enhanced for specifics that make it
 
 But it can also run on host systems .. which is what I'm testing here. Building to run on macOS..
 
-
 ### Compiling from Source
 
 Grabbing the latest from GitHub..
 
-```
+```sh
 $ git clone git@github.com:micropython/micropython.git
 $ cd micropython
 $ git submodule update --init
@@ -27,13 +25,13 @@ v1.9.2-123-gbdc6e86
 
 I'm building the unix port, which should be suitable for macOS.
 
-```
-$ cd ports/unix
+```sh
+cd ports/unix
 ```
 
 Two steps: `make axtls` and `make`...
 
-```
+```sh
 $ make axtls
 ... [lots of stuff clipped] ...
 cp ../../lib/axtls/_stage/libaxtls.a build/libaxtls.a
@@ -41,7 +39,7 @@ cp ../../lib/axtls/_stage/libaxtls.a build/libaxtls.a
 
 Good. But now first attempt at make fails...
 
-```
+```sh
 $ make
 Use make V=1 or set BUILD_VERBOSE in your environment to increase build verbosity.
 Package libffi was not found in the pkg-config search path.
@@ -65,7 +63,7 @@ make: *** Deleting file `build/genhdr/qstr.i.last'
 
 But I have libffi installed with brew...
 
-```
+```sh
 $ brew info libffi
 libffi: stable 3.2.1 (bottled), HEAD [keg-only]
 Portable Foreign Function Interface library
@@ -80,7 +78,7 @@ because some formulae require a newer version of libffi.
 
 So retrying with libffi package config:
 
-```
+```sh
 $ PKG_CONFIG_PATH=/usr/local/opt/libffi/lib/pkgconfig make
 ... [lots of stuff clipped] ...
 CC ../../py/../extmod/modussl_axtls.c
@@ -93,7 +91,7 @@ __TEXT  __DATA  __OBJC  others  dec hex
 
 Done. Now does it work??
 
-```
+```sh
 $ ./micropython
 MicroPython v1.9.2-123-gbdc6e86 on 2017-09-26; darwin version
 Use Ctrl-D to exit, Ctrl-E for paste mode
@@ -108,6 +106,7 @@ Not much more excitement to be had here. Really needs to be used with a microcon
 see my projects for that on [LEAP](http://leap.tardate.com)
 
 ## Credits and References
+
 * [official site](http://www.micropython.org/)
 * [micropython](https://github.com/micropython/micropython) - GitHub
 * [kickstarter](http://www.kickstarter.com/projects/214379695/micro-python-python-for-microcontrollers)

@@ -4,10 +4,9 @@ Using pyenv for managing multiple python environments.
 
 ## Notes
 
-
 ### Installation with brew
 
-```
+```sh
 $ brew install pyenv
 ...
 
@@ -48,7 +47,7 @@ For full documentation, see: https://github.com/pyenv/pyenv#readme
 
 ### Installing some Pythons
 
-```
+```sh
 $ pyenv install 3.7.3
 python-build: use openssl@1.1 from homebrew
 python-build: use readline from homebrew
@@ -67,7 +66,7 @@ Installing Python-2.7.18...
 
 ### Using pyenv
 
-```
+```sh
 $ pyenv global 3.7.3
 $ pyenv versions
   system
@@ -77,13 +76,13 @@ $ pyenv versions
 
 Adding pyenv initialization to my `.bash_profile` ...
 
-```
+```sh
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 ```
 
-```
+```sh
 $ pyenv version
 3.7.3 (set by /Users/paulgallagher/.pyenv/version)
 $ which python

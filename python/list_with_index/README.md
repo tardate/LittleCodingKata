@@ -14,7 +14,6 @@ Tuples now requires explicit unpacking, like this:
 
     lambda x_y: x_y[0] + x_y[1]
 
-
 [Getting index of item while processing a list using map in python](https://stackoverflow.com/questions/5432762/getting-index-of-item-while-processing-a-list-using-map-in-python) is a classic example of how automatic unpacking was used in the past:
 
     Python 2.7.18 (default, Dec 26 2020, 15:56:25)
@@ -50,14 +49,12 @@ Note: in Python 3, the `map()` function now returns an iterator, hence use of `l
 
 ### List Comprehension
 
-
-Another approach is to simpley enumerate with a list comprehension, for example:
+Another approach is to simply enumerate with a list comprehension, for example:
 
     Python 3.7.3 (default, Dec 16 2020, 12:00:16)
     >>> ranked_users = ['jon','bob','jane','alice','chris']
     >>> [{'name': name, 'rank': i} for i, name in enumerate(ranked_users)]
     [{'name': 'jon', 'rank': 0}, {'name': 'bob', 'rank': 1}, {'name': 'jane', 'rank': 2}, {'name': 'alice', 'rank': 3}, {'name': 'chris', 'rank': 4}]
-
 
 ### Running The Examples
 
@@ -68,38 +65,34 @@ There are two example files:
 
 Running with Python 2:
 
-```
-$ pyenv shell 2.7.18
-$ ./py2_rank_players.py
-...
-----------------------------------------------------------------------
-Ran 3 tests in 0.000s
+    $ pyenv shell 2.7.18
+    $ ./py2_rank_players.py
+    ...
+    ----------------------------------------------------------------------
+    Ran 3 tests in 0.000s
 
-OK
-$ ./py3_rank_players.py
-..
-----------------------------------------------------------------------
-Ran 2 tests in 0.000s
+    OK
+    $ ./py3_rank_players.py
+    ..
+    ----------------------------------------------------------------------
+    Ran 2 tests in 0.000s
 
-OK
-```
+    OK
 
 Running with Python 3:
 
-```
-$ pyenv shell 3.7.3
-$ ./py2_rank_players.py
-  File "./py2_rank_players.py", line 12
-    return map(lambda (i, player_info): add_rank(i, player_info), enumerate(player_list))
-                      ^
-SyntaxError: invalid syntax
-$ ./py3_rank_players.py
-..
-----------------------------------------------------------------------
-Ran 2 tests in 0.000s
+    $ pyenv shell 3.7.3
+    $ ./py2_rank_players.py
+    File "./py2_rank_players.py", line 12
+        return map(lambda (i, player_info): add_rank(i, player_info), enumerate(player_list))
+                        ^
+    SyntaxError: invalid syntax
+    $ ./py3_rank_players.py
+    ..
+    ----------------------------------------------------------------------
+    Ran 2 tests in 0.000s
 
-OK
-```
+    OK
 
 ## Credits and References
 
