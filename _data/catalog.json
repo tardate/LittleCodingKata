@@ -1,5 +1,15 @@
 [
     {
+        "name": "Practical Rust Projects",
+        "description": "Book notes: Practical Rust Projects: Building Game, Physical Computing, and Machine Learning Applications, by Shing Lyu. Published February 28, 2020.",
+        "categories": "rust, book",
+        "relative_path": "rust/practical-rust-projects",
+        "updated_at": "2025-04-13T14:19:00Z",
+        "created_at": "2025-04-13T14:19:00Z",
+        "id": "#323",
+        "original_relative_path": "rust/practical-rust-projects"
+    },
+    {
         "name": "Practical Cryptography in Python",
         "description": "Book notes: Practical Cryptography in Python: Learning Correct Cryptography by Example, by Seth James Nielso,  Christopher K. Monson. Published September 27, 2019.",
         "categories": "Books, python, cryptography",
