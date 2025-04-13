@@ -14,6 +14,16 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/rust/practical-rust-projects/</id>
+    <link href="https://codingkata.tardate.com/rust/practical-rust-projects/"/>
+    <updated>2025-04-13T14:19:00Z</updated>
+    <title>#323 Practical Rust Projects</title>
+    <summary>Book notes: Practical Rust Projects: Building Game, Physical Computing, and Machine Learning Applications, by Shing Lyu. Published February 28, 2020.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Practical Rust Projects: Building Game, Physical Computing, and Machine Learning Applications, by Shing Lyu. Published February 28, 2020.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="rust"/>
+    <category term="book"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/python/practical-cryptography-in-python/</id>
     <link href="https://codingkata.tardate.com/python/practical-cryptography-in-python/"/>
     <g:image_link>https://codingkata.tardate.com/python/practical-cryptography-in-python/assets/practical-cryptography-in-python_build.jpg</g:image_link>

@@ -1,4 +1,13 @@
 {
+    "/rust/practical-rust-projects/": {
+        "id": 323,
+        "title": "Practical Rust Projects",
+        "summary": "Book notes: Practical Rust Projects: Building Game, Physical Computing, and Machine Learning Applications, by Shing Lyu. Published February 28, 2020.",
+        "tags": [
+            "rust",
+            "book"
+        ]
+    },
     "/python/practical-cryptography-in-python/": {
         "id": 322,
         "title": "Practical Cryptography in Python",
