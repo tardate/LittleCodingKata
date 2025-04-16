@@ -1,6 +1,6 @@
-# 323 Little Coding Katas
+# 324 Little Coding Katas
 
-> Latest addition:sparkles: [Practical Rust Projects](./rust/practical-rust-projects) - Book notes: Practical Rust Projects: Building Game, Physical Computing, and Machine Learning Applications, by Shing Lyu. Published February 28, 2020.
+> Latest addition:sparkles: [catsay](./rust/cli-catsay) - Building the catsay example from Practical Rust Projects, learning about making command-line programs with Rust
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
