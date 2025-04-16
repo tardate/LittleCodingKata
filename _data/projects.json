@@ -1,4 +1,12 @@
 {
+    "/rust/cli-catsay/": {
+        "id": 324,
+        "title": "catsay",
+        "summary": "Building the catsay example from Practical Rust Projects, learning about making command-line programs with Rust",
+        "tags": [
+            "Rust"
+        ]
+    },
     "/rust/practical-rust-projects/": {
         "id": 323,
         "title": "Practical Rust Projects",

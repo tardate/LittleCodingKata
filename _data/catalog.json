@@ -1,5 +1,15 @@
 [
     {
+        "name": "catsay",
+        "description": "Building the catsay example from Practical Rust Projects, learning about making command-line programs with Rust",
+        "categories": "Rust",
+        "relative_path": "rust/cli-catsay",
+        "updated_at": "2025-04-16T05:48:00Z",
+        "created_at": "2025-04-16T05:48:00Z",
+        "id": "#324",
+        "original_relative_path": "rust/cli-catsay"
+    },
+    {
         "name": "Practical Rust Projects",
         "description": "Book notes: Practical Rust Projects: Building Game, Physical Computing, and Machine Learning Applications, by Shing Lyu. Published February 28, 2020.",
         "categories": "rust, book",

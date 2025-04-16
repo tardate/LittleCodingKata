@@ -1,4 +1,4 @@
-# #xxx catsay
+# #324 catsay
 
 Building the catsay example from Practical Rust Projects, learning about making command-line programs with Rust.
 
@@ -404,6 +404,29 @@ test fail_on_non_existing_file ... ok
 
 test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.18s
 
+```
+
+### Step 12: Building Binaries for Distribution
+
+```sh
+cargo build --release
+...
+    Finished `release` profile [optimized] target(s) in 9.64s
+```
+
+This will build a release target for the current platform in the `target/release/` folder:
+
+```sh
+$ ls target/release/
+build  catsay.d examples
+catsay  deps  incremental
+$ target/release/catsay
+Meow!
+ \
+  \
+    /\_/\
+   ( o o )
+   =( I )=
 ```
 
 ## Credits and References
