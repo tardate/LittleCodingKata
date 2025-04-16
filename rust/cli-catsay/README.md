@@ -132,6 +132,33 @@ Hi!
    =( I )=
 ```
 
+### Step 3: Binary Flags
+
+Adding a "dead cat" flag.
+
+Add and use the new option:
+
+```rust
+    #[structopt(short = "d", long = "dead", help = "Make the cat appear dead")]
+    dead: bool,
+    ...
+    let eye = if options.dead { "x" } else { "o" };
+    ...
+    println!("   ( {eye} {eye} )", eye=eye);
+```
+
+```sh
+$ cargo run "Ouch!" -d
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running `target/debug/catsay 'Ouch'\!'' -d`
+Ouch!
+ \
+  \
+    /\_/\
+   ( x x )
+   =( I )=
+```
+
 ## Credits and References
 
 * [Practical Rust Projects](../practical-rust-projects/)
