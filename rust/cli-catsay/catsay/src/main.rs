@@ -4,6 +4,9 @@ use structopt::StructOpt;
 extern crate colored;
 use colored::*;
 
+extern crate failure;
+use failure::ResultExt;
+
 #[derive(StructOpt)]
 struct Options {
     #[structopt(default_value = "Meow!")]
@@ -17,7 +20,7 @@ struct Options {
 
 }
 
-fn main() -> Result<(), Box<dyn std::error::Error>> {
+fn main() -> Result<(), failure::Error> {
     let options = Options::from_args();
 
     let eye = if options.dead { "x" } else { "o" };
@@ -32,8 +35,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     match &options.catfile {
         Some(path) => {
-            let cat_template = std::fs::read_to_string(path)?;
-            //.expect(&format!("Could not read the file: {:?}", path));
+            let cat_template = std::fs::read_to_string(path)
+                .with_context(|_| format!("Could not read the file: {:?}", path))?;
             let cat_picture = cat_template.replace("{eye}", eye);
             println!("{}", &cat_picture);
         }

@@ -266,6 +266,32 @@ Purrfect!
 Error: Os { code: 2, kind: NotFound, message: "No such file or directory" }
 ```
 
+### Step 8: Using Failure Crate
+
+The [failure](https://docs.rs/failure/latest/failure/) crate allows more friendly error messages to be returned.
+Add `failure = "0.1.5"` to [Cargo.toml](./catsay/Cargo.toml), and update the code:
+
+```rust
+// change the function error type
+fn main() -> Result<(), failure::Error> {
+
+/// and can now provide error context
+let cat_template = std::fs::read_to_string(path)
+    .with_context(|_| format!("Could not read the file: {:?}", path))?;
+```
+
+Test:
+
+```sh
+$ cargo run "Purrfect!" -f unfound.txt
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target/debug/catsay 'Purrfect'\!'' -f unfound.txt`
+Purrfect!
+Error: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+
+Could not read the file: "unfound.txt"
+```
+
 ## Credits and References
 
 * [Practical Rust Projects](../practical-rust-projects/)
