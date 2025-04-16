@@ -1,0 +1,6 @@
+{
+    "name": "catsay",
+    "description": "Building the catsay example from Practical Rust Projects, learning about making command-line programs with Rust",
+    "categories": "Rust",
+    "relative_path": "rust/cli-catsay"
+}
