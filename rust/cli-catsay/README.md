@@ -201,6 +201,60 @@ println!("   ( {eye} {eye} )", eye=eye.red().bold());
 
 ![step5](./assets/step5.png)
 
+### Step 6: Reading the Cat from a File
+
+Adding an optional parameter to pass a custom cat image.
+
+```rust
+#[structopt(short = "f", long = "file", parse(from_os_str))]
+catfile: Option<std::path::PathBuf>,
+...
+match &options.catfile {
+    Some(path) => {
+        let cat_template = std::fs::read_to_string(path)
+            .expect(&format!("Could not read the file: {:?}", path));
+        let cat_picture = cat_template.replace("{eye}", eye);
+        println!("{}", &cat_picture);
+    }
+    None => {
+        // ... print the cat as before...
+    }
+}
+```
+
+Running:
+
+```sh
+$ cargo run "Purrfect!"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running `target/debug/catsay 'Purrfect'\!''`
+Purrfect!
+ \
+  \
+    /\_/\
+   ( o o )
+   =( I )=
+$ cargo run "Purrfect!" -f tabby.txt
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running `target/debug/catsay 'Purrfect'\!'' -f tabby.txt`
+Purrfect!
+ \
+  \                  / )
+   \ (\__/)         ( (
+     )o o (          ) )
+   ={  Y   }=       / /
+     )     `-------/ /
+    (               /
+     \              |
+    ,'\       ,    ,'
+    `-'\  ,---\   | \
+       _) )    `. \ /
+      (__/       ) )
+                (_/
+
+```
+
 ## Credits and References
 
 * [Practical Rust Projects](../practical-rust-projects/)
+* [OsString](https://doc.rust-lang.org/std/ffi/struct.OsString.html)
