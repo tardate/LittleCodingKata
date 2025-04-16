@@ -185,6 +185,22 @@ $ cat stderr.txt
 A cat shouldn't bark like a dog!
 ```
 
+### Step 5: Printing With Colour
+
+Use the [colored](https://docs.rs/colored/latest/colored/) crate.
+Add `colored = "1.7.0"` to [Cargo.toml](./catsay/Cargo.toml), and update the code:
+
+```rust
+extern crate colored;
+use colored::*;
+...
+println!("{}", message.bright_yellow().underline().on_purple());
+...
+println!("   ( {eye} {eye} )", eye=eye.red().bold());
+```
+
+![step5](./assets/step5.png)
+
 ## Credits and References
 
 * [Practical Rust Projects](../practical-rust-projects/)

@@ -5,3 +5,4 @@ edition = "2024"
 
 [dependencies]
 structopt = "0.3.5"
+colored = "1.7.0"
