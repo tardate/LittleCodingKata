@@ -17,7 +17,7 @@ struct Options {
 
 }
 
-fn main() {
+fn main() -> Result<(), Box<dyn std::error::Error>> {
     let options = Options::from_args();
 
     let eye = if options.dead { "x" } else { "o" };
@@ -32,8 +32,8 @@ fn main() {
 
     match &options.catfile {
         Some(path) => {
-            let cat_template = std::fs::read_to_string(path)
-                .expect(&format!("Could not read the file: {:?}", path));
+            let cat_template = std::fs::read_to_string(path)?;
+            //.expect(&format!("Could not read the file: {:?}", path));
             let cat_picture = cat_template.replace("{eye}", eye);
             println!("{}", &cat_picture);
         }
@@ -45,4 +45,5 @@ fn main() {
             println!("   =( I )=");
         }
     }
+    Ok(())
 }

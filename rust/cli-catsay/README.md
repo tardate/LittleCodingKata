@@ -254,6 +254,18 @@ Purrfect!
 
 ```
 
+### Step 7: Better Error Handling
+
+Use `?` operator to indicate an error may be returned, e.g. `std::fs::read_to_string(path)?;`
+
+```sh
+$ cargo run "Purrfect!" -f unfound.txt
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running `target/debug/catsay 'Purrfect'\!'' -f unfound.txt`
+Purrfect!
+Error: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+```
+
 ## Credits and References
 
 * [Practical Rust Projects](../practical-rust-projects/)
