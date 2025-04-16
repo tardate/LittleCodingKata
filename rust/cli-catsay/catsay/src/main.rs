@@ -13,8 +13,13 @@ struct Options {
 
 fn main() {
     let options = Options::from_args();
-    let message = options.message;
     let eye = if options.dead { "x" } else { "o" };
+    let message = options.message;
+
+    if message.to_lowercase() == "woof" {
+        eprintln!("A cat shouldn't bark like a dog!");
+    }
+
     println!("{}", message);
     println!(" \\");
     println!("  \\");

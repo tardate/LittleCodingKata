@@ -159,6 +159,32 @@ Ouch!
    =( I )=
 ```
 
+### Step 4: Printing Errors to STDERR
+
+Use `eprintln!` to send messages to STDERR:
+
+```rust
+if message.to_lowercase() == "woof" {
+    eprintln!("A cat shouldn't bark like a dog!");
+}
+```
+
+```sh
+$ cargo run "Woof" > stdout.txt 2> stderr.txt
+$ cat stdout.txt
+Woof
+ \
+  \
+    /\_/\
+   ( o o )
+   =( I )=
+$ cat stderr.txt
+   Compiling catsay v0.1.0 (/Users/paulgallagher/MyGithub/tardate/LittleCodingKata/rust/cli-catsay/catsay)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/catsay Woof`
+A cat shouldn't bark like a dog!
+```
+
 ## Credits and References
 
 * [Practical Rust Projects](../practical-rust-projects/)
