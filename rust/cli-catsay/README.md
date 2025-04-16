@@ -24,6 +24,36 @@ Hello, world!
 
 ```
 
+### Step 1: reading command-line arguments
+
+Doing the bare minimum to accept a message argument
+with [args](https://doc.rust-lang.org/std/env/fn.args.html)
+and print the cat saying it:
+
+```rust
+fn main() {
+    let message = std::env::args().nth(1).expect("Please provide a message");
+    println!("{}", message);
+    println!(" \\");
+    println!("  \\");
+    println!("    /\\_/\\");
+    println!("   ( o o )");
+    println!("   =( I )=");
+}
+```
+
+```sh
+$ cargo run "Hi!"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.00s
+     Running `target/debug/catsay 'Hi'\!''`
+Hi!
+ \
+  \
+    /\_/\
+   ( o o )
+   =( I )=
+```
+
 ## Credits and References
 
 * [Practical Rust Projects](../practical-rust-projects/)
