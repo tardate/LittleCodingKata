@@ -292,6 +292,54 @@ Error: Os { code: 2, kind: NotFound, message: "No such file or directory" }
 Could not read the file: "unfound.txt"
 ```
 
+### Step 9: Using ExitFailure Crate
+
+The [exitfailure](https://crates.io/crates/exitfailure) crate allows more friendly error messages to be returned.
+Add `exitfailure = "0.5.1"` to [Cargo.toml](./catsay/Cargo.toml), and update the code:
+
+```rust
+// now return ExitFailure
+fn main() -> Result<(), ExitFailure> {
+...
+```
+
+Test:
+
+```sh
+$ cargo run "Purrfect!" -f unfound.txt
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target/debug/catsay 'Purrfect'\!'' -f unfound.txt`
+Error: Could not read the file: "unfound.txt"
+Info: caused by No such file or directory (os error 2)
+$ cargo run "Purrfect!" -f tabby.txt
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target/debug/catsay 'Purrfect'\!'' -f tabby.txt`
+Purrfect!
+ \
+  \                  / )
+   \ (\__/)         ( (
+     )o o (          ) )
+   ={  Y   }=       / /
+     )     `-------/ /
+    (               /
+     \              |
+    ,'\       ,    ,'
+    `-'\  ,---\   | \
+       _) )    `. \ /
+      (__/       ) )
+                (_/
+
+$ cargo run "Purrfect!"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target/debug/catsay 'Purrfect'\!''`
+Purrfect!
+ \
+  \
+    /\_/\
+   ( o o )
+   =( I )=
+```
+
 ## Credits and References
 
 * [Practical Rust Projects](../practical-rust-projects/)

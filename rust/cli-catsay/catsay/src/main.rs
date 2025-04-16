@@ -7,6 +7,8 @@ use colored::*;
 extern crate failure;
 use failure::ResultExt;
 
+use exitfailure::ExitFailure;
+
 #[derive(StructOpt)]
 struct Options {
     #[structopt(default_value = "Meow!")]
@@ -20,7 +22,7 @@ struct Options {
 
 }
 
-fn main() -> Result<(), failure::Error> {
+fn main() -> Result<(), ExitFailure> {
     let options = Options::from_args();
 
     let eye = if options.dead { "x" } else { "o" };
@@ -31,16 +33,16 @@ fn main() -> Result<(), failure::Error> {
         eprintln!("A cat shouldn't bark like a dog!");
     }
 
-    println!("{}", message.bright_yellow().underline().on_purple());
-
     match &options.catfile {
         Some(path) => {
             let cat_template = std::fs::read_to_string(path)
                 .with_context(|_| format!("Could not read the file: {:?}", path))?;
-            let cat_picture = cat_template.replace("{eye}", eye);
-            println!("{}", &cat_picture);
+            let cat_template = cat_template.replace("{message}", &message);
+            let cat_template = cat_template.replace("{eye}", eye);
+            println!("{}", &cat_template);
         }
         None => {
+            println!("{}", message.bright_yellow().underline().on_purple());
             println!(" \\");
             println!("  \\");
             println!("    /\\_/\\");
