@@ -199,6 +199,8 @@ println!("{}", message.bright_yellow().underline().on_purple());
 println!("   ( {eye} {eye} )", eye=eye.red().bold());
 ```
 
+Note: coloured output can be inhibited by setting the `NO_COLOR=1` environment variable.
+
 ![step5](./assets/step5.png)
 
 ### Step 6: Reading the Cat from a File
