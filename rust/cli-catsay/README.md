@@ -381,6 +381,31 @@ I'm here!
    =( I )=
 ```
 
+### Step 11: Integration Testing
+
+Add [tests/integration_test.rs](./catsay/tests/integration_test.rs)
+
+Test:
+
+```sh
+$ cargo test
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.03s
+     Running unittests src/main.rs (target/debug/deps/catsay-c99874e4446d2f5b)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/integration_test.rs (target/debug/deps/integration_test-6a4d664de69efb53)
+
+running 2 tests
+test run_with_defaults ... ok
+test fail_on_non_existing_file ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.18s
+
+```
+
 ## Credits and References
 
 * [Practical Rust Projects](../practical-rust-projects/)
