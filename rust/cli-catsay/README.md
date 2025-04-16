@@ -54,6 +54,84 @@ Hi!
    =( I )=
 ```
 
+### Step 2: Handling Complex Arguments with StructOpt
+
+The
+[structopt](https://docs.rs/structopt/latest/structopt/)
+library provides a simple system for handling complex argument.
+
+Note: structopt is now in maintenance mode
+
+Add `structopt = "0.3.5"` to [Cargo.toml](./catsay/Cargo.toml), and update the code:
+
+```rust
+extern crate structopt;
+
+use structopt::StructOpt;
+
+#[derive(StructOpt)]
+struct Options {
+    message: String,
+}
+
+fn main() {
+    let options = Options::from_args();
+    let message = options.message;
+    println!("{}", message);
+    // ... print the cat...
+}
+
+```
+
+Handling arg errors:
+
+```sh
+$ cargo run
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running `target/debug/catsay`
+error: The following required arguments were not provided:
+    <message>
+
+USAGE:
+    catsay <message>
+
+For more information try --help
+```
+
+Getting help:
+
+```sh
+$ cargo run -- --help
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running `target/debug/catsay --help`
+catsay 0.1.0
+
+USAGE:
+    catsay <message>
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+ARGS:
+    <message>
+```
+
+Running successfully:
+
+```sh
+$ cargo run "Hi!"
+   Compiling catsay v0.1.0 (/Users/paulgallagher/MyGithub/tardate/LittleCodingKata/rust/cli-catsay/catsay)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.12s
+     Running `target/debug/catsay 'Hi'\!''`
+Hi!
+ \
+  \
+    /\_/\
+   ( o o )
+   =( I )=
+```
+
 ## Credits and References
 
 * [Practical Rust Projects](../practical-rust-projects/)

@@ -1,5 +1,15 @@
+extern crate structopt;
+
+use structopt::StructOpt;
+
+#[derive(StructOpt)]
+struct Options {
+    message: String,
+}
+
 fn main() {
-    let message = std::env::args().nth(1).expect("Please provide a message");
+    let options = Options::from_args();
+    let message = options.message;
     println!("{}", message);
     println!(" \\");
     println!("  \\");
