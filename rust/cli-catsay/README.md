@@ -342,6 +342,45 @@ Purrfect!
    =( I )=
 ```
 
+### Step 10: Accepting STDIN
+
+Add a new flag to indicate the message should be read from STDIN:
+
+```rust
+#[structopt(short = "i", long = "stdin", help = "Read message from stdin")]
+stdin: bool,
+...
+let mut message = String::new();
+if options.stdin {
+    io::stdin().read_to_string(&mut message)
+        .with_context(|_| "Failed to read from stdin")?;
+    // chomp trailing lf/cr
+    if message.ends_with('\n') {
+        message.pop();
+        if message.ends_with('\r') {
+            message.pop();
+        }
+    }
+} else {
+    message = options.message;
+}
+```
+
+Test:
+
+```sh
+$ echo "I'm here!" | cargo run -- -i
+   Compiling catsay v0.1.0 (/Users/paulgallagher/MyGithub/tardate/LittleCodingKata/rust/cli-catsay/catsay)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.15s
+     Running `target/debug/catsay -i`
+I'm here!
+ \
+  \
+    /\_/\
+   ( o o )
+   =( I )=
+```
+
 ## Credits and References
 
 * [Practical Rust Projects](../practical-rust-projects/)
