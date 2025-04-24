@@ -67,23 +67,20 @@ def fetch_without_pagination(endpoint):
         print(f"Failed to fetch {endpoint}: {response.status_code} - {response.text}")
         return []
 
-def download_attachments(endpoint, data):
-    if endpoint != 'activity':
-        return
-
+def download_attachments(data):
     attachments_folder = os.path.join(DESTINATION_FOLDER, 'attachments')
     if not os.path.exists(attachments_folder):
         os.makedirs(attachments_folder)
 
     for item in data:
-        if 'changes' not in item:
+        if 'attachments' not in item:
             continue
 
-        for change in item['changes']:
-            if 'kind' in change and change['kind'] == 'file_attachment' and 'change_type' in change and change['change_type'] == 'create':
-                attachment_id = change['id']
-                attachment_url = change['new_values']['download_url']
-                attachment_filename = change['new_values']['filename']
+        for attachment in item['attachments']:
+            if 'kind' in attachment and attachment['kind'] == 'file_attachment':
+                attachment_id = attachment['id']
+                attachment_url = attachment['download_url']
+                attachment_filename = attachment['filename']
 
                 attachment_folder = os.path.join(attachments_folder, f"{attachment_id}")
                 attachment_path = os.path.join(attachment_folder, attachment_filename)
@@ -103,13 +100,20 @@ def download_attachments(endpoint, data):
                 else:
                     print(f"Failed to download attachment {attachment_filename}: {attachment_response.status_code}")
 
-def test_download_attachments(endpoint, filename):
-        filepath = os.path.join(DESTINATION_FOLDER, filename)
-        with open(filepath, 'r') as f:
-            data = json.load(f)
-        download_attachments(endpoint, data)
 
-def fetch_and_save(endpoint, filename, paginate=True):
+def save_data(filename, data):
+    """Save data to a JSON file."""
+    if data:
+        filepath = os.path.join(DESTINATION_FOLDER, filename)
+        with open(filepath, 'w') as f:
+            json.dump(data, f, indent=4)
+        print(f"Data saved to {filepath}")
+        return True
+    else:
+        print(f"No data found for {endpoint}")
+        return False
+
+def fetch_and_save(endpoint, filename, paginate=True, download_attachments=False):
     """Fetch data and save it to a JSON file, with optional pagination."""
     if paginate:
         data = fetch_all_data(endpoint)
@@ -121,17 +125,56 @@ def fetch_and_save(endpoint, filename, paginate=True):
         with open(filepath, 'w') as f:
             json.dump(data, f, indent=4)
         print(f"Data saved to {filepath}")
-        download_attachments(endpoint, data)
+        if download_attachments:
+            download_attachments(endpoint, data)
     else:
         print(f"No data found for {endpoint}")
 
-# Backup stories (with pagination)
-fetch_and_save('stories', 'stories_backup.json', paginate=True)
+def fetch_epics(filename):
+    """Fetch data and save it to a JSON file, with optional pagination."""
+    endpoint = 'epics'
+    data = fetch_without_pagination(endpoint)
+    save_data(filename, data)
 
-# Backup epics (without pagination)
-fetch_and_save('epics', 'epics_backup.json', paginate=False)
+def fetch_story_comments(filename, story_data):
+    """Fetch story comment data and save it to a JSON file."""
+    comments = []
+    for story in story_data:
+        story_id = story.get('id')
+        if story_id:
+            endpoint = f'stories/{story_id}/comments?fields=:default,attachments'
+            story_comments = fetch_without_pagination(endpoint)
+            comments.extend(story_comments)
+    if save_data(filename, comments):
+        download_attachments(comments)
 
-# Backup activities (with pagination and attachment download)
-fetch_and_save('activity', 'activities_backup.json', paginate=True)
+def fetch_story_tasks(filename, story_data):
+    """Fetch story task data and save it to a JSON file."""
+    tasks = []
+    for story in story_data:
+        story_id = story.get('id')
+        if story_id:
+            endpoint = f'stories/{story_id}/tasks'
+            story_tasks = fetch_without_pagination(endpoint)
+            tasks.extend(story_tasks)
+    save_data(filename, tasks)
+
+def fetch_stories(filename):
+    """Fetch story data and save it to a JSON file, with pagination."""
+    endpoint = 'stories'
+    data = fetch_all_data(endpoint)
+    if save_data(filename, data):
+        fetch_story_comments('comments.json', data)
+        fetch_story_tasks('tasks.json', data)
+
+def fetch_activity(filename):
+    """Fetch activity data and save it to a JSON file, with pagination."""
+    endpoint = 'activity'
+    data = fetch_all_data(endpoint)
+    save_data(filename, data)
+
+fetch_epics('epics.json')
+fetch_stories('stories.json')
+fetch_activity('activities.json')
 
 print("Backup complete!")
