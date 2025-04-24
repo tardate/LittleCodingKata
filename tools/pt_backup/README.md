@@ -13,6 +13,7 @@ See [pt_backup.py](./pt_backup.py) for an example of a script to perform such a 
 * story comments including file attachments
 * story tasks
 * story activity
+* project memberships
 
 ## Method/Algorithms
 
@@ -57,6 +58,13 @@ Story Tasks
 * `GET /projects/{project_id}/stories/{story_id}/tasks`
 * does not support pagination
 
+Project memberships
+
+* Get all memberships for a project
+* <https://www.pivotaltracker.com/help/api/rest/v5#Project_Memberships>
+* `GET /projects/{project_id}/memberships`
+* does not support pagination
+
 ## Running the Script
 
 Install the required packages using pip:
@@ -71,10 +79,11 @@ The script expects the Pivotal Tracker API token and project ID to be provided a
 To run the script:
 
     $ PIVOTAL_TRACKER_API_TOKEN=my-token PIVOTAL_TRACKER_PROJECT_ID=my-id ./pt_backup.py /MyBackups
+    Data saved to /MyBackups/memberships.json
     Data saved to /MyBackups/epics.json
     Data saved to /MyBackups/stories.json
-    Data saved to /MyBackups/comments.json
     Data saved to /MyBackups/tasks.json
+    Data saved to /MyBackups/comments.json
     Data saved to /MyBackups/activities.json
     Backup complete!
 
