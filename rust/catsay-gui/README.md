@@ -100,7 +100,7 @@ if let Ok(pixbuf) = gdk_pixbuf::Pixbuf::from_file("./images/cat.png") {
 
 ![step2](./assets/step2.png)
 
-### Step 3: Use Glage to Disign the Layout
+### Step 3: Use Glade to Design the Layout
 
 I'm using macOS, so first [install glade with homebrew](https://gtk-rs.org/gtk4-rs/stable/latest/book/installation_macos.html):
 `brew install glade`.
@@ -191,3 +191,5 @@ Then it runs `cargo run`:
 ## Credits and References
 
 * [Practical Rust Projects](../practical-rust-projects/)
+* <https://gtk-rs.org/>
+* <https://gtk-rs.org/gtk4-rs/stable/latest/book/installation_macos.html>
