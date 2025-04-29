@@ -30,5 +30,6 @@ Practical Rust Projects will open your eyes to the world of practical applicatio
     * see [#326 catsay GUI](../catsay-gui/)
 4. Building a Game
 5. Physical Computing in Rust
+    * see [LEAP#773 Using rust on the RPi](https://leap.tardate.com/raspberrypi/rust/)
 6. Artificial Intelligence and Machine Learning
 7. What Else Can You Do with Rust?
