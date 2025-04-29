@@ -1,4 +1,4 @@
-# #xxx catsay GUI
+# #326 catsay GUI
 
 Building the GUI catsay example from Practical Rust Projects, learning about making graphical interface programs with Rust.
 
