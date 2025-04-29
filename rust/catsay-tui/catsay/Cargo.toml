@@ -4,4 +4,4 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-cursive = "0.11.2"
+cursive = { version = "0.21", features = ["crossterm-backend"] }

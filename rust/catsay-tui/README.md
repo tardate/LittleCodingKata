@@ -45,6 +45,39 @@ fn main() {
 
 When invoked with `cargo run`, displays a simple blue screen.
 
+### Step 2: showing a dialog box
+
+Seems I need to explicitly enable the cross term backend to get cursive to display anything.
+I want to use the multiplatform crossterm rather than ncurses used in the book (so I can easily run on macOS).
+
+Update the cursive dependency and enable crossterm: `cursive = { version = "0.21", features = ["crossterm-backend"] }`.
+
+```rust
+extern crate cursive;
+
+use cursive::views::TextView;
+
+fn main() {
+    let mut siv = cursive::crossterm();
+    let cat_text = "{message}
+\\
+ \\
+   /\\_/\\
+  ( {eye}.{eye} )
+   > ^ <";
+
+    let cat_template = cat_text.replace("{message}", "Meow!");
+    let cat_template = cat_template.replace("{eye}", "o");
+    siv.add_layer(TextView::new(cat_template));
+
+    siv.run();
+}
+```
+
+Working nicely with `cargo run`:
+
+![step2](./assets/step2.png)
+
 ## Credits and References
 
 * [Practical Rust Projects](../practical-rust-projects/)
