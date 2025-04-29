@@ -1,0 +1,6 @@
+{
+    "name": "catsay TUI",
+    "description": "",
+    "categories": "Rust",
+    "relative_path": "rust/catsay-tui"
+}
