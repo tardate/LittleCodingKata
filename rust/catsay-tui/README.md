@@ -1,6 +1,6 @@
-# #xxx catsay TUI
+# #325 catsay TUI
 
-Building the text UI catsay example from Practical Rust Projects, learning about making command-line programs with Rust.
+Building the text UI catsay example from Practical Rust Projects, learning about making text UI programs with Rust.
 
 ## Notes
 
