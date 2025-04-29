@@ -24,7 +24,10 @@ Practical Rust Projects will open your eyes to the world of practical applicatio
 
 1. Welcome to the World of Rust
 2. Building a Command-Line Program
+    * see [#324 catsay CLI](../cli-catsay/)
 3. Creating Graphical User Interfaces (GUIs)
+    * see [#325 catsay TUI](../catsay-tui/)
+    * see [#326 catsay GUI](../catsay-gui/)
 4. Building a Game
 5. Physical Computing in Rust
 6. Artificial Intelligence and Machine Learning
