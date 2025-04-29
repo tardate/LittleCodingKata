@@ -1,43 +1,55 @@
 use gtk4 as gtk;
 use gtk::prelude::*;
-use gtk::{glib, Application, ApplicationWindow, Box, Image, Label};
+use gtk::Application;
 
-fn main() -> glib::ExitCode {
-    let app = Application::builder()
-        .application_id("org.example.HelloWorld")
-        .build();
 
-    app.connect_activate(|app| {
-        // We create the main window.
-        let window = ApplicationWindow::builder()
-            .application(app)
-            .default_width(320)
-            .default_height(200)
-            .title("Hello, World!")
-            .build();
+fn build_ui(app: &gtk::Application) {
+    let glade_src = include_str!("../layout.glade");
+    let builder = gtk::Builder::from_string(glade_src);
 
-        // Create a vertical box layout.
-        let vbox = Box::new(gtk::Orientation::Vertical, 0);
+    let window: gtk::Window = builder.object("applicationwindow1").unwrap();
+    window.set_application(Some(app));
 
-        // Add a message label
-        let label = Label::new(Some("Meow!"));
-        vbox.append(&label);
+    // Inputs
+    let message_input: gtk::Entry = builder.object("message_input").unwrap();
+    let is_dead_switch: gtk::Switch = builder.object("is_dead_switch").unwrap();
 
-        // Load the image from the file and display it in the window.
-        if let Ok(pixbuf) = gdk_pixbuf::Pixbuf::from_file("./images/cat.png") {
-            let image = Image::from_pixbuf(Some(&pixbuf));
-            image.set_size_request(pixbuf.width(), pixbuf.height());
-            vbox.append(&image);
+    // Submit button
+    let button: gtk::Button = builder.object("generate_btn").unwrap();
+
+    // Outputs
+    let message_output: gtk::Label = builder.object("message_output").unwrap();
+    let image_output: gtk::Image = builder.object("image_output").unwrap();
+    let image_output_clone = image_output.clone();
+
+    button.connect_clicked(move |_| {
+        message_output.set_text(&format!(
+            "{}\n     \\\n      \\",
+            message_input.text().as_str()
+        ));
+
+        let is_dead = is_dead_switch.is_active();
+        if is_dead {
+            image_output_clone.set_from_file(Some("./images/cat_dead.png"))
         } else {
-            eprintln!("Failed to load image: ./images/cat.png");
+            image_output_clone.set_from_file(Some("./images/cat.png"))
         }
-
-        // add the box layout to the window
-        window.set_child(Some(&vbox));
-
-        // Show the window.
-        window.present();
+        image_output_clone.set_size_request(200, 289);
+        image_output_clone.show();
     });
 
-    app.run()
+    window.present();
+    image_output.hide();
+}
+
+fn main() {
+    let application = Application::builder()
+        .application_id("lck.gui.catsay")
+        .build();
+
+    application.connect_activate(|app| {
+        build_ui(app);
+    });
+
+    application.run();
 }

@@ -100,6 +100,94 @@ if let Ok(pixbuf) = gdk_pixbuf::Pixbuf::from_file("./images/cat.png") {
 
 ![step2](./assets/step2.png)
 
+### Step 3: Use Glage to Disign the Layout
+
+I'm using macOS, so first [install glade with homebrew](https://gtk-rs.org/gtk4-rs/stable/latest/book/installation_macos.html):
+`brew install glade`.
+
+Build the [layout.gtk3.glade](./catsay/layout.gtk3.glade) with glade:
+
+![step3a](./assets/step3a.png)
+
+Now apparently glade has not/will not be [updated for gtk4](https://www.youtube.com/watch?v=ExkHy0p-hpE).
+It produces layout for gtk3 only.
+
+A conversion utility can be used to convert the layout
+
+```sh
+$ gtk4-builder-tool simplify --3to4 layout.gtk3.glade > layout.glade
+layout.gtk3.glade:22: Property GtkBox::resize-mode not found
+layout.gtk3.glade:58: Property GtkCenterBox::homogeneous not found
+```
+
+It doesn't fix the "not found" warnings however. I needed to manually remove them from [layout.glade](./catsay/layout.glade).
+
+Update the code accordingly:
+
+```rust
+use gtk4 as gtk;
+use gtk::prelude::*;
+use gtk::Application;
+
+
+fn build_ui(app: &gtk::Application) {
+    let glade_src = include_str!("../layout.glade");
+    let builder = gtk::Builder::from_string(glade_src);
+
+    let window: gtk::Window = builder.object("applicationwindow1").unwrap();
+    window.set_application(Some(app));
+
+    // Inputs
+    let message_input: gtk::Entry = builder.object("message_input").unwrap();
+    let is_dead_switch: gtk::Switch = builder.object("is_dead_switch").unwrap();
+
+    // Submit button
+    let button: gtk::Button = builder.object("generate_btn").unwrap();
+
+    // Outputs
+    let message_output: gtk::Label = builder.object("message_output").unwrap();
+    let image_output: gtk::Image = builder.object("image_output").unwrap();
+    let image_output_clone = image_output.clone();
+
+    button.connect_clicked(move |_| {
+        message_output.set_text(&format!(
+            "{}\n     \\\n      \\",
+            message_input.text().as_str()
+        ));
+
+        let is_dead = is_dead_switch.is_active();
+        if is_dead {
+            image_output_clone.set_from_file(Some("./images/cat_dead.png"))
+        } else {
+            image_output_clone.set_from_file(Some("./images/cat.png"))
+        }
+        image_output_clone.set_size_request(200, 289);
+        image_output_clone.show();
+    });
+
+    window.present();
+    image_output.hide();
+}
+
+fn main() {
+    let application = Application::builder()
+        .application_id("lck.gui.catsay")
+        .build();
+
+    application.connect_activate(|app| {
+        build_ui(app);
+    });
+
+    application.run();
+}
+```
+
+Then it runs `cargo run`:
+
+![step3b](./assets/step3b.png)
+
+![step3c](./assets/step3c.png)
+
 ## Credits and References
 
 * [Practical Rust Projects](../practical-rust-projects/)
