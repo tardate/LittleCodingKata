@@ -88,6 +88,22 @@ use cursive::event::Key;
 siv.add_global_callback(Key::Esc, |s| s.quit());
 ```
 
+### Step 4: adding a dialog box
+
+Wrap the TextView with a Dialog box
+
+```rust
+use cursive::views::{Dialog, TextView};
+...
+siv.add_layer(
+    Dialog::around(TextView::new(cat_template))
+        .title("The cat says...")
+        .button("OK", |s| s.quit())
+);
+```
+
+![step4](./assets/step4.png)
+
 ## Credits and References
 
 * [Practical Rust Projects](../practical-rust-projects/)
