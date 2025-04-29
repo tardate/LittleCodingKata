@@ -1,7 +1,15 @@
 {
+    "/rust/catsay-tui/": {
+        "id": 325,
+        "title": "catsay TUI",
+        "summary": "Building the text UI catsay example from Practical Rust Projects, learning about making text UI programs with Rust",
+        "tags": [
+            "Rust"
+        ]
+    },
     "/rust/cli-catsay/": {
         "id": 324,
-        "title": "catsay",
+        "title": "catsay CLI",
         "summary": "Building the catsay example from Practical Rust Projects, learning about making command-line programs with Rust",
         "tags": [
             "Rust"

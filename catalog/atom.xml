@@ -14,10 +14,19 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/rust/catsay-tui/</id>
+    <link href="https://codingkata.tardate.com/rust/catsay-tui/"/>
+    <updated>2025-04-29T05:13:00Z</updated>
+    <title>#325 catsay TUI</title>
+    <summary>Building the text UI catsay example from Practical Rust Projects, learning about making text UI programs with Rust</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Building the text UI catsay example from Practical Rust Projects, learning about making text UI programs with Rust&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Rust"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/rust/cli-catsay/</id>
     <link href="https://codingkata.tardate.com/rust/cli-catsay/"/>
     <updated>2025-04-16T05:48:00Z</updated>
-    <title>#324 catsay</title>
+    <title>#324 catsay CLI</title>
     <summary>Building the catsay example from Practical Rust Projects, learning about making command-line programs with Rust</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Building the catsay example from Practical Rust Projects, learning about making command-line programs with Rust&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Rust"/>

@@ -1,6 +1,6 @@
-# #324 catsay
+# #324 catsay CLI
 
-Building the catsay example from Practical Rust Projects, learning about making command-line programs with Rust.
+Building the CLI catsay example from Practical Rust Projects, learning about making command-line programs with Rust.
 
 ## Notes
 
@@ -8,8 +8,14 @@ The catsay example from [Practical Rust Projects](../practical-rust-projects/)
 is used to demonstrate techniques for making command-line programs with Rust.
 
 * accepting command-line arguments
+* colorized text
+* reading from files
+* printing errors
+* integration testing
 
 ## Building catsay
+
+Start a new project:
 
 ```sh
 cargo new --bin catsay
@@ -21,7 +27,6 @@ $ cargo run
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.28s
      Running `target/debug/catsay`
 Hello, world!
-
 ```
 
 ### Step 1: reading command-line arguments
@@ -432,4 +437,9 @@ Meow!
 ## Credits and References
 
 * [Practical Rust Projects](../practical-rust-projects/)
+* [args](https://doc.rust-lang.org/std/env/fn.args.html)
+* [structopt](https://docs.rs/structopt/latest/structopt/)
 * [OsString](https://doc.rust-lang.org/std/ffi/struct.OsString.html)
+* [colored](https://docs.rs/colored/latest/colored/)
+* [failure](https://docs.rs/failure/latest/failure/)
+* [exitfailure](https://crates.io/crates/exitfailure)
