@@ -78,6 +78,16 @@ Working nicely with `cargo run`:
 
 ![step2](./assets/step2.png)
 
+### Step 3: handling simple keyboard inputs
+
+Add a global callback to handle key events - in this case ESC key
+
+```rust
+use cursive::event::Key;
+...
+siv.add_global_callback(Key::Esc, |s| s.quit());
+```
+
 ## Credits and References
 
 * [Practical Rust Projects](../practical-rust-projects/)
