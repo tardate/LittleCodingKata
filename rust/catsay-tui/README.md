@@ -15,8 +15,8 @@ Start a new project:
 $ cargo new --bin catsay
     Creating binary (application) `catsay` package
 note: see more `Cargo.toml` keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-Mac:catsay-tui paulgallagher$ cd catsay
-Mac:catsay paulgallagher$ cargo run
+$ cd catsay
+$ cargo run
    Compiling catsay v0.1.0 (/Users/paulgallagher/MyGithub/tardate/LittleCodingKata/rust/catsay-tui/catsay)
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.49s
      Running `target/debug/catsay`

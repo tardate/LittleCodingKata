@@ -1,6 +1,6 @@
-# 325 Little Coding Katas
+# 326 Little Coding Katas
 
-> Latest addition:sparkles: [catsay TUI](./rust/catsay-tui) - Building the text UI catsay example from Practical Rust Projects, learning about making text UI programs with Rust
+> Latest addition:sparkles: [catsay GUI](./rust/catsay-gui) - Building the GUI catsay example from Practical Rust Projects, learning about making graphical interface programs with Rust
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
