@@ -1,6 +1,6 @@
-# 326 Little Coding Katas
+# 327 Little Coding Katas
 
-> Latest addition:sparkles: [catsay GUI](./rust/catsay-gui) - Building the GUI catsay example from Practical Rust Projects, learning about making graphical interface programs with Rust
+> Latest addition:sparkles: [PMP in Docker?](./security/pmp/docker) - Is it possible to run PMP in a Docker container? As far as my tests show - no. Not currently at least.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
