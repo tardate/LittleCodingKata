@@ -1,4 +1,12 @@
 {
+    "/security/pmp/docker/": {
+        "id": 327,
+        "title": "PMP in Docker?",
+        "summary": "Is it possible to run PMP in a Docker container? As far as my tests show - no. Not currently at least.",
+        "tags": [
+            "security"
+        ]
+    },
     "/rust/catsay-gui/": {
         "id": 326,
         "title": "catsay GUI",
