@@ -1,4 +1,4 @@
-# #xxx joined
+# #328 joined
 
 Testing the joined gem, a low-dependency implementation of the Rails to_sentence method.
 

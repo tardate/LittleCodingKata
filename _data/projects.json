@@ -1,4 +1,12 @@
 {
+    "/ruby/joined/": {
+        "id": 328,
+        "title": "joined",
+        "summary": "Testing the joined gem, a low-dependency implementation of the Rails to_sentence method.",
+        "tags": [
+            "ruby"
+        ]
+    },
     "/security/pmp/docker/": {
         "id": 327,
         "title": "PMP in Docker?",
