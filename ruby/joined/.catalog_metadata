@@ -1,0 +1,6 @@
+{
+    "name": "joined",
+    "description": "Testing the joined gem, a low-dependency implementation of the Rails to_sentence method.",
+    "categories": "ruby",
+    "relative_path": "ruby/joined"
+}

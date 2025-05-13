@@ -12,7 +12,6 @@ such as MD5 to more modern SHA256 and others.
 In Ruby, HMAC generation is typically done with the Ruby OpenSSL standard library, which includes HMAC functions.
 It is a wrapper library - the underlying implementation is provided by openssl.
 
-
 ## Example Code
 
 The [hmac.rb](./hmac.rb) provides a trivial example of returning the hex-encoded digest with an arbitrary hashing function.
@@ -46,6 +45,7 @@ Running tests...
     3 runs, 3 assertions, 0 failures, 0 errors, 0 skips
 
 ## Credits and References
+
 * [HMAC](https://en.wikipedia.org/wiki/HMAC) - wikipedia
 * [rfc2104 HMAC: Keyed-Hashing for Message Authentication](https://tools.ietf.org/html/rfc2104)
 * [OpenSSL::HMAC](https://ruby-doc.org/stdlib-2.1.0/libdoc/openssl/rdoc/OpenSSL/HMAC.html)
