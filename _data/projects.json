@@ -1,4 +1,22 @@
 {
+    "/tools/macos/shuffle_wallpaper/": {
+        "id": 330,
+        "title": "Shuffle Wallpaper",
+        "summary": "I thought triggering the immediate shuffle of the wallpaper on a macOS would be a quick scripting task. After wasting too much tim on this, I discovered that it used to be possible, but since at last macOS Sonoma, the System Events API has not kept up with the OS implementation, and now it is totally broken, with no fix in sight.",
+        "tags": [
+            "macOS",
+            "scripting"
+        ]
+    },
+    "/tools/macos/scripting/": {
+        "id": 329,
+        "title": "Scripting macOS",
+        "summary": "About options for scripting and automating macOS.",
+        "tags": [
+            "macOS",
+            "scripting"
+        ]
+    },
     "/ruby/joined/": {
         "id": 328,
         "title": "joined",

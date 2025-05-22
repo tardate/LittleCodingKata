@@ -1,6 +1,6 @@
-# 328 Little Coding Katas
+# 330 Little Coding Katas
 
-> Latest addition:sparkles: [joined](./ruby/joined) - Testing the joined gem, a low-dependency implementation of the Rails to_sentence method.
+> Latest addition:sparkles: [Shuffle Wallpaper](./tools/macos/shuffle_wallpaper) - I thought triggering the immediate shuffle of the wallpaper on a macOS would be a quick scripting task. After wasting too much tim on this, I discovered that it used to be possible, but since at last macOS Sonoma, the System Events API has not kept up with the OS implementation, and now it is totally broken, with no fix in sight.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
