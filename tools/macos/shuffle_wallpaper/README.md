@@ -114,6 +114,36 @@ Current change interval setting: 1800
 It is looking very much like Apple have broken the System Events API itself,
 so it doesn't matter which language one uses to call it - it ain't going to work.
 
+In fact, it is quite apparent that every time an attempt to write "change interval" is made,
+the picture folder path is set to its parent folder:
+
+```sh
+$ osascript -l JavaScript shuffle.js
+Current picture setting: /Users/paulgallagher/Pictures/wallpapers
+Current change interval setting: 1800
+Reset the change interval
+Current picture setting: /~/Pictures
+Current change interval setting: 1800
+$ osascript -l JavaScript shuffle.js
+Current picture setting: /~/Pictures
+Current change interval setting: 1800
+Reset the change interval
+Current picture setting: /~
+Current change interval setting: 1800
+$ osascript -l JavaScript shuffle.js
+Current picture setting: /~
+Current change interval setting: 1800
+Reset the change interval
+Current picture setting: /
+Current change interval setting: 1800
+$ osascript -l JavaScript shuffle.js
+Current picture setting: /
+Current change interval setting: 1800
+Reset the change interval
+Current picture setting: /..
+Current change interval setting: 1800
+```
+
 ### Hammerspoon
 
 My last hurrah was to see if I could get this working with
