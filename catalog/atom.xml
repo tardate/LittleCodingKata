@@ -14,6 +14,26 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/tools/macos/shuffle_wallpaper/</id>
+    <link href="https://codingkata.tardate.com/tools/macos/shuffle_wallpaper/"/>
+    <updated>2025-05-22T14:41:00Z</updated>
+    <title>#330 Shuffle Wallpaper</title>
+    <summary>I thought triggering the immediate shuffle of the wallpaper on a macOS would be a quick scripting task. After wasting too much tim on this, I discovered that it used to be possible, but since at last macOS Sonoma, the System Events API has not kept up with the OS implementation, and now it is totally broken, with no fix in sight.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;I thought triggering the immediate shuffle of the wallpaper on a macOS would be a quick scripting task. After wasting too much tim on this, I discovered that it used to be possible, but since at last macOS Sonoma, the System Events API has not kept up with the OS implementation, and now it is totally broken, with no fix in sight.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="macOS"/>
+    <category term="scripting"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/macos/scripting/</id>
+    <link href="https://codingkata.tardate.com/tools/macos/scripting/"/>
+    <updated>2025-05-22T14:41:00Z</updated>
+    <title>#329 Scripting macOS</title>
+    <summary>About options for scripting and automating macOS.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;About options for scripting and automating macOS.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="macOS"/>
+    <category term="scripting"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/ruby/joined/</id>
     <link href="https://codingkata.tardate.com/ruby/joined/"/>
     <updated>2025-05-13T08:59:00Z</updated>

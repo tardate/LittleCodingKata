@@ -1,5 +1,25 @@
 [
     {
+        "name": "Shuffle Wallpaper",
+        "description": "I thought triggering the immediate shuffle of the wallpaper on a macOS would be a quick scripting task. After wasting too much tim on this, I discovered that it used to be possible, but since at last macOS Sonoma, the System Events API has not kept up with the OS implementation, and now it is totally broken, with no fix in sight.",
+        "categories": "macOS, scripting",
+        "relative_path": "tools/macos/shuffle_wallpaper",
+        "updated_at": "2025-05-22T14:41:00Z",
+        "created_at": "2025-05-22T14:41:00Z",
+        "id": "#330",
+        "original_relative_path": "tools/macos/shuffle_wallpaper"
+    },
+    {
+        "name": "Scripting macOS",
+        "description": "About options for scripting and automating macOS.",
+        "categories": "macOS, scripting",
+        "relative_path": "tools/macos/scripting",
+        "updated_at": "2025-05-22T14:41:00Z",
+        "created_at": "2025-05-22T14:41:00Z",
+        "id": "#329",
+        "original_relative_path": "tools/macos/scripting"
+    },
+    {
         "name": "joined",
         "description": "Testing the joined gem, a low-dependency implementation of the Rails to_sentence method.",
         "categories": "ruby",
