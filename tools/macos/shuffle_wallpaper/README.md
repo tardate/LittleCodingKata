@@ -190,7 +190,13 @@ So at this point I have totally given up on the idea of being able to script the
 OK, really my last shot at this: I found an open source utility called
 [desktoppr](https://github.com/scriptingosx/desktoppr) - a simple command line tool which can read and set the desktop picture/wallpaper.
 Now, while it does work to set a specific wallpaper image, it doesn't support updating the change interval or other mechanism for shuffling wallpaper.
-But since it is written in Swift, it may be a good starting point for investigating whether this can be done. Maybe later?
+But since it is written in Swift, it may be a good starting point for investigating whether this can be done.
+
+So I have now taken a look, and I think I can now be pretty conclusive that the shuffle interval setting is part of a private preference domain, and Apple has not made it available through scripting, NSUserDefaults, or NSWorkspace.
+
+Furthermore, the
+[desktopImageURL](https://developer.apple.com/documentation/appkit/nsworkspace/desktopimageurl(for:))
+API seems to have a bug. If the path is a folder, it returns the parent of the folder, not the folder itself.
 
 ## Credits and References
 
