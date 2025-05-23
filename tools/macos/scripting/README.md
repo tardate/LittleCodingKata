@@ -16,7 +16,11 @@ The main options with native macOS capabilities are:
 In practice, however, does anyone really try to script macOS using these tools?
 The main advantage of using a platform-specific tool is the promise of being able to call platform APIs.
 However all of these solutions suffer from the fact that recent macOS releases have increasingly broken or degraded AppleScript support,
-and Apple has shown little interest in fixing these regressions. This has become a major concern among longtime Mac automation users.
+and Apple has shown little interest in fixing these regressions.
+
+This has become a major concern among longtime Mac automation users.
+See my [attempt to automate wallpaper shuffling](../shuffle_wallpaper/)
+for an example of how once-reliable API support is now quite broken.
 
 Key examples of broken or degraded Apple API support:
 
