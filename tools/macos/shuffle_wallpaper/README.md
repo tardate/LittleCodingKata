@@ -19,9 +19,11 @@ Indeed, a quick google yielded quite a number of posts and AppleScript examples 
 [How to manually trigger background image change?](https://apple.stackexchange.com/questions/12117/how-to-manually-trigger-background-image-change) - seemed like the business.
 A simple trick: re-write the "change interval" triggers an immediate change of the image.
 Lots of people reporting how they got it working,
-though I did note
+though I did note:
 
 > Asked 14 years, 1 month ago
+
+The [shuffle.applescript](./shuffle.applescript) script:
 
 ```applescript
 tell application "System Events"
@@ -163,22 +165,37 @@ end)
 ```
 
 And...same issue, any attempt to write `desktopImageURL` corrupts the Wallpaper settings.
+With wallpaper configured to shuffle files in a folder:
+
+* `desktopImageURL` - actually returns the parent of the configured folder
+* Attempting to reset `desktopImageURL` to the wallpaper folder breaks the Wallpaper settings
+* However, one can set a specific file:
+    * e.g. `desktopImageURL(file:///Users/paulgallagher/Pictures/wallpapers/image1.jpg)`
+    * This changes the desktop wallpaper to the specific image, but also clears the shuffling of files in a folder
 
 The
-[hammerspoon extension](https://github.com/Hammerspoon/hammerspoon/blob/master/extensions/screen/libscreen.m#L1295)
+[hammerspoon extension](https://www.hammerspoon.org/docs/hs.screen.html#desktopImageURL)
 is calling the AppKit functions:
 
 * [desktopImageURLForScreen:](https://developer.apple.com/documentation/appkit/nsworkspace/desktopimageurl(for:)?language=objc)
 * [setDesktopImageURL:forScreen:options:error:](https://developer.apple.com/documentation/appkit/nsworkspace/setdesktopimageurl(_:for:options:)?language=objc)
 
 And these are not working.
+There don't seem to be any other [hammerspoon facilities](https://www.hammerspoon.org/docs/index.html) that could help
 
-So  at this point I have totally given up on the idea of being able to script the shuffling of wallpaper, but am left with a mighty "Apple, WTF???!!".
+### Conclusion
+
+So at this point I have totally given up on the idea of being able to script the shuffling of wallpaper, but am left with a mighty "Apple, WTF???!!".
+
+OK, really my last shot at this: I found an open source utility called
+[desktoppr](https://github.com/scriptingosx/desktoppr) - a simple command line tool which can read and set the desktop picture/wallpaper.
+Now, while it does work to set a specific wallpaper image, it doesn't support updating the change interval or other mechanism for shuffling wallpaper.
+But since it is written in Swift, it may be a good starting point for investigating whether this can be done. Maybe later?
 
 ## Credits and References
 
 * [How to manually trigger background image change?](https://apple.stackexchange.com/questions/12117/how-to-manually-trigger-background-image-change)
 * [AppleScript Programming/System Events](https://en.wikibooks.org/wiki/AppleScript_Programming/System_Events)
-<https://www.reddit.com/r/applescript/comments/17aasg8/sonoma_140_change_to_desktop_suite_cant_set/>
+* <https://www.reddit.com/r/applescript/comments/17aasg8/sonoma_140_change_to_desktop_suite_cant_set/>
 * [Introduction to AppleScript Language Guide](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html)
 * <https://wiki.keyboardmaestro.com/manual/Scripting>
