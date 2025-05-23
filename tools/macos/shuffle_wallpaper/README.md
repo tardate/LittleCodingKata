@@ -10,7 +10,9 @@ I have my macOS Wallpaper configured to automatically shuffle a bunch of picture
 ![wallpaper](./assets/wallpaper.png)
 
 They are set to change on a fixed time cycle, but I really wanted a way to trigger an immediate shuffle.
-I thought this would be a quick scripting task, and indeed a quick google yielded quote a number of posts and AppleScript examples showing exactly this.
+I thought this would be a quick scripting task - see my notes on [macOS scripting](../scripting/) for an overview of options.
+
+Indeed, a quick google yielded quite a number of posts and AppleScript examples showing how to shuffle wallpaper.
 
 ### AppleScript
 
