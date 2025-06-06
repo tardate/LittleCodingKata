@@ -231,6 +231,7 @@ git clone https://github.com/miguelgrinberg/flasky.git example_source
 
 ## Credits and References
 
+* [Flask Book](https://flaskbook.com/) - Companion site for the Flask book and training videos by Miguel Grinberg
 * [Flask Web Development](https://learning.oreilly.com/library/view/flask-web-development/9781491947586/)
 * [Errata for Flask Web Development](https://www.oreilly.com/catalog/errata.csp?isbn=9781449372620)
 * [Flask Web Development Example](https://github.com/miguelgrinberg/flasky) - github
