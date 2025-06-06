@@ -2,5 +2,8 @@
     "name": "Object Oriented Modeling And Design",
     "description": "Book notes - Object Oriented Modeling And Design by James Rumbaugh, Michael R. Blaha, William Premerlani, Frederick Eddy, William Lorensen.",
     "categories": "design, book",
-    "relative_path": "design/object-oriented-modeling-and-design"
+    "relative_path": "design/object-oriented-modeling-and-design",
+    "updated_at": "2025-06-06T08:26:00Z",
+    "created_at": "2025-06-06T08:26:00Z",
+    "id": "#331"
 }

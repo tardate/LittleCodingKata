@@ -1,4 +1,13 @@
 {
+    "/design/object-oriented-modeling-and-design/": {
+        "id": 331,
+        "title": "Object Oriented Modeling And Design",
+        "summary": "Book notes - Object Oriented Modeling And Design by James Rumbaugh, Michael R. Blaha, William Premerlani, Frederick Eddy, William Lorensen.",
+        "tags": [
+            "design",
+            "book"
+        ]
+    },
     "/tools/macos/shuffle_wallpaper/": {
         "id": 330,
         "title": "Shuffle Wallpaper",

@@ -1,4 +1,4 @@
-# #xxx Object Oriented Modeling And Design
+# #331 Object Oriented Modeling And Design
 
 Book notes - Object Oriented Modeling And Design by James Rumbaugh, Michael R. Blaha, William Premerlani, Frederick Eddy, William Lorensen.
 
