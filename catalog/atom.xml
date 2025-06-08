@@ -14,6 +14,15 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/tools/cheatsheets/</id>
+    <link href="https://codingkata.tardate.com/tools/cheatsheets/"/>
+    <updated>2025-06-08T13:45:00Z</updated>
+    <title>#332 Cheat Sheets for Developers</title>
+    <summary>The ultimate repository of sheets and quick references meticulously crafted by the open community boost your productivity</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;The ultimate repository of sheets and quick references meticulously crafted by the open community boost your productivity&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="tools"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/design/object-oriented-modeling-and-design/</id>
     <link href="https://codingkata.tardate.com/design/object-oriented-modeling-and-design/"/>
     <updated>2025-06-06T08:26:00Z</updated>
@@ -22,6 +31,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Object Oriented Modeling And Design by James Rumbaugh, Michael R. Blaha, William Premerlani, Frederick Eddy, William Lorensen.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="design"/>
     <category term="book"/>
+    <category term="methods"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/macos/shuffle_wallpaper/</id>

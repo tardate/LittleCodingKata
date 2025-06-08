@@ -1,6 +1,6 @@
-# 331 Little Coding Katas
+# 332 Little Coding Katas
 
-> Latest addition :sparkles: [Object Oriented Modeling And Design](./design/object-oriented-modeling-and-design) - Book notes - Object Oriented Modeling And Design by James Rumbaugh, Michael R. Blaha, William Premerlani, Frederick Eddy, William Lorensen.
+> Latest addition :sparkles: [Cheat Sheets for Developers](./tools/cheatsheets) - The ultimate repository of sheets and quick references meticulously crafted by the open community boost your productivity
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

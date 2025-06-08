@@ -1,11 +1,20 @@
 {
+    "/tools/cheatsheets/": {
+        "id": 332,
+        "title": "Cheat Sheets for Developers",
+        "summary": "The ultimate repository of sheets and quick references meticulously crafted by the open community boost your productivity",
+        "tags": [
+            "tools"
+        ]
+    },
     "/design/object-oriented-modeling-and-design/": {
         "id": 331,
         "title": "Object Oriented Modeling And Design",
         "summary": "Book notes - Object Oriented Modeling And Design by James Rumbaugh, Michael R. Blaha, William Premerlani, Frederick Eddy, William Lorensen.",
         "tags": [
             "design",
-            "book"
+            "book",
+            "methods"
         ]
     },
     "/tools/macos/shuffle_wallpaper/": {
