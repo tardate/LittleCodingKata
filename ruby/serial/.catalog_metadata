@@ -1,0 +1,6 @@
+{
+    "name": "Serial Communications with Ruby",
+    "description": "Options for serial communications in Ruby as they stand in mid-2025",
+    "categories": "ruby",
+    "relative_path": "ruby/serial"
+}
