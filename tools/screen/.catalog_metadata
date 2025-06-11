@@ -2,5 +2,8 @@
     "name": "screen",
     "description": "GNU Screen is a terminal multiplexer that can also be used as a general serial console",
     "categories": "tools",
-    "relative_path": "tools/screen"
+    "relative_path": "tools/screen",
+    "updated_at": "2025-06-11T06:14:00Z",
+    "created_at": "2025-06-11T06:14:00Z",
+    "id": "#333"
 }

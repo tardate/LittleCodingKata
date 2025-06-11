@@ -14,6 +14,15 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/tools/screen/</id>
+    <link href="https://codingkata.tardate.com/tools/screen/"/>
+    <updated>2025-06-11T06:14:00Z</updated>
+    <title>#333 screen</title>
+    <summary>GNU Screen is a terminal multiplexer that can also be used as a general serial console</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;GNU Screen is a terminal multiplexer that can also be used as a general serial console&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="tools"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/tools/cheatsheets/</id>
     <link href="https://codingkata.tardate.com/tools/cheatsheets/"/>
     <updated>2025-06-08T13:45:00Z</updated>

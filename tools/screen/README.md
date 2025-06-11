@@ -1,4 +1,4 @@
-# #xxx screen
+# #333 screen
 
 GNU Screen is a terminal multiplexer that can also be used as a general serial console.
 

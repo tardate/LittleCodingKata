@@ -1,5 +1,15 @@
 [
     {
+        "name": "screen",
+        "description": "GNU Screen is a terminal multiplexer that can also be used as a general serial console",
+        "categories": "tools",
+        "relative_path": "tools/screen",
+        "updated_at": "2025-06-11T06:14:00Z",
+        "created_at": "2025-06-11T06:14:00Z",
+        "id": "#333",
+        "original_relative_path": "tools/screen"
+    },
+    {
         "name": "Cheat Sheets for Developers",
         "description": "The ultimate repository of sheets and quick references meticulously crafted by the open community boost your productivity",
         "categories": "tools",
