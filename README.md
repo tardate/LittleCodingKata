@@ -1,6 +1,6 @@
-# 332 Little Coding Katas
+# 333 Little Coding Katas
 
-> Latest addition :sparkles: [Cheat Sheets for Developers](./tools/cheatsheets) - The ultimate repository of sheets and quick references meticulously crafted by the open community boost your productivity
+> Latest addition :sparkles: [screen](./tools/screen) - GNU Screen is a terminal multiplexer that can also be used as a general serial console
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
