@@ -1,4 +1,4 @@
-# #xxx Serial Communications with Ruby
+# #334 Serial Communications with Ruby
 
 Options for serial communications in Ruby as they stand in mid-2025.
 
