@@ -41,8 +41,6 @@ Screen makes a very good serial port terminal. You can connect a screen window t
 On linux, most serial devices in linux are named like `/dev/ttyS0`, `/dev/ttyAMA0`, and `/dev/serial0` for a built-in serial port;
 or for USB-to-serial adapters the names are usually like `/dev/ttyUSB0` and `/dev/ttyUSB1`.
 
-On macOS, devices are named like `/dev/cu.*` and `/dev/tty.*`
-
 The communication settings are a comma separated list of control modes as would be passed to `stty`. See the man page for `stty` for more info.
 
 Old, slow-speed serial devices usually play nice with 9600 8N1 (9600 baud, 8-bits per character, no parity, and 1 stop bit):
@@ -62,6 +60,49 @@ The following settings work with the Coyote Point E450si load balancers
 ```sh
 screen /dev/ttyS0 9600,cs8,-parenb,-cstopb,-hupcl
 ```
+
+### macOS serial devices
+
+On macOS, devices are named like `/dev/cu.*` and `/dev/tty.*`.
+A USB-to-Serial device (such as those using the CH340G chip) may appear with up to 4 device file handles, e.g.:
+
+```sh
+$ ls -1 /dev/*serial*
+/dev/cu.usbserial-2420
+/dev/cu.wchusbserial2420
+/dev/tty.usbserial-2420
+/dev/tty.wchusbserial2420
+```
+
+The `/dev/cu.*` (Callout) and `/dev/tty.*` (Terminal) devices in macOS both manage serial communication, but they differ in behavior during initial connection and modem control handling:
+
+* Behavior During Open:
+    * `/dev/cu.*` (Callout):
+        * Opens immediately, ignoring modem control signals like Carrier Detect (CD).
+        * Use this when you want direct access to the port without waiting for a connection handshake (e.g., programming microcontrollers).
+    * `/dev/tty.*` (Terminal):
+        * Waits for modem signals (like CD) before opening. If the modem isn't ready, opening may block or fail.
+        * Use this for terminal sessions requiring modem negotiation (e.g., dial-up).
+* Symbolic Link vs. Device File:
+    * Both are symbolic links pointing to the same underlying device node (e.g., `/dev/cu.usbserial-2420` → `/dev/tty.usbserial-2420`).
+    * Deleting either link doesn't remove the actual device; macOS recreates them dynamically.
+
+Use Cases:
+
+`/dev/cu.*`: Preferred for programmatic control (Arduino, Raspberry Pi, sensors) where you need immediate, unconditional access.
+
+```sh
+screen /dev/cu.usbserial-2420 9600  # Opens instantly
+```
+
+`/dev/tty.*`: Used for interactive terminals or legacy modem applications where carrier detection is critical.
+
+```sh
+screen /dev/tty.usbserial-2420 9600  # Waits for carrier signal
+```
+
+Most USB serial devices (Arduino, FTDI) work with either, but `/dev/cu.*` is more reliable for programming (avoids blocking).
+Use `/dev/tty.*` only if modem handshaking is explicitly needed.
 
 ## Credits and References
 
