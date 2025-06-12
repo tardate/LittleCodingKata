@@ -1,6 +1,6 @@
-# 333 Little Coding Katas
+# 334 Little Coding Katas
 
-> Latest addition :sparkles: [screen](./tools/screen) - GNU Screen is a terminal multiplexer that can also be used as a general serial console
+> Latest addition :sparkles: [Serial Communications with Ruby](./ruby/serial) - Options for serial communications in Ruby as they stand in mid-2025
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
