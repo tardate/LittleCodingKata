@@ -277,7 +277,7 @@ it should be possible to have the `X-Forwarded-For` header inserted and forwarde
 ## Building an Image for Release
 
 The [build.sh](./build.sh) script is used to build an images called
-[`tardate/echo-tools`](https://hub.docker.com/repository/docker/tardate/echo-tools/general)
+[tardate/echo-tools](https://hub.docker.com/r/tardate/echo-tools)
 
 ```sh
 $ ./build.sh
@@ -287,10 +287,20 @@ tardate/echo-tools   1.0.0     0bdc8456104f   8 minutes ago   1.49GB
 tardate/echo-tools   latest    0bdc8456104f   8 minutes ago   1.49GB
 ```
 
-Run on part 80 like this:
+Run on part 80 like this, in the background with a specific container name:
 
 ```sh
-docker run -p 80:4567 --rm tardate/echo-tools
+docker run -p 80:4567 -d --rm --name echo-tools tardate/echo-tools
+```
+
+List and stop the container:
+
+```sh
+$ docker container ls -a
+CONTAINER ID   IMAGE                COMMAND                  CREATED         STATUS         PORTS                                     NAMES
+7bb14b467dd7   tardate/echo-tools   "ruby app.rb -o 0.0.…"   3 seconds ago   Up 3 seconds   0.0.0.0:80->4567/tcp, [::]:80->4567/tcp   echo-tools
+$ docker stop echo-tools
+echo-tools
 ```
 
 I push the image to Docker Hub with `./build.sh push`.
