@@ -61,7 +61,7 @@ get %r{/request\.?([\w]*)} do |format|
   end
 end
 
-# some simple hard-coded repsonse rendering..
+# some simple hard-coded response rendering..
 def generate_response(code, format)
   @message = "Returning code #{code} in #{format} format"
   response_data = case format

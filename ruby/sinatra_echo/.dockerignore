@@ -3,3 +3,4 @@
 .ruby-gemset
 assets
 README.md
+build.sh

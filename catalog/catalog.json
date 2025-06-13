@@ -2601,7 +2601,7 @@
     },
     {
         "name": "Sinatra Echo Tools",
-        "description": "A Sinatra app that provides a number of remote request debugging tools, and can be run with Docker",
+        "description": "A Sinatra app that provides a number of remote request debugging tools, and can be run with Docker - the tardate/echo-tools image is available on docker hub.",
         "categories": "ruby, Sinatra, docker",
         "relative_path": "ruby/sinatra_echo",
         "updated_at": "2019-07-20T11:03:51Z",
