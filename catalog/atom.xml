@@ -2552,8 +2552,8 @@
     <link href="https://codingkata.tardate.com/ruby/sinatra_echo/"/>
     <updated>2019-07-20T11:03:51Z</updated>
     <title>#074 Sinatra Echo Tools</title>
-    <summary>A Sinatra app that provides a number of remote request debugging tools, and can be run with Docker</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;A Sinatra app that provides a number of remote request debugging tools, and can be run with Docker&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>A Sinatra app that provides a number of remote request debugging tools, and can be run with Docker - the tardate/echo-tools image is available on docker hub.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A Sinatra app that provides a number of remote request debugging tools, and can be run with Docker - the tardate/echo-tools image is available on docker hub.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="ruby"/>
     <category term="Sinatra"/>
     <category term="docker"/>
