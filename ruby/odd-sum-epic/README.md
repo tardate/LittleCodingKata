@@ -28,7 +28,7 @@ As all the good work on algorithms and performance has already been done, my att
 
 I immediately noticed something off in first example provided: it apparently implies that each element must be uniquely paired with an element in the other array, which doesn't really match the written requirement.
 
-The written requirement asks for all pairs, perhaps implying an element can be used multiple times to make all possible paris that add to an odd number. Under these rules, the expected pairs would be:
+The written requirement asks for all pairs, perhaps implying an element can be used multiple times to make all possible pairs that add to an odd number. Under these rules, the expected pairs would be:
 `[9, 8], [9, 4], [9, 20], [14, 7], [6, 7], [2, 7], [11, 8], [11, 4], [11, 20]`
 
 This is good demonstration of written requirements being in conflict with examples provided. As the requirements analyst, your job is to figure out if the examples are just wrong, or if they actually convey additional important details and clarifications of the requirement.
@@ -282,13 +282,14 @@ Result: nil
 
 Conclusions:
 
-* again, deepseek has favoured the understanding according to the words of the requirement rather thn the examples, HOWEVER:
+* again, deepseek has favoured the understanding according to the words of the requirement rather than the examples
+* HOWEVER:
     * it has flagged the inconsistency in the requirement
     * has told me the result it will actually produce (not give me the incorrect example)
     * and suggested how I could clarify the requirement if the example is in fact correct
 * The code it has generated:
     * executes correctly
-    * has chosen to use select rather than partition ()
+    * has chosen to use select rather than partition
 
 ### Benchmarking
 
@@ -325,7 +326,8 @@ Conclusion:
 
 ### ChatGPT Revised (B)
 
-So I need to tell ChatGPT to be a little less self-confident.
+I wonder if I can get ChatGPT to be a little less self-confident?!
+
 Let's add an instruction to "Ask me questions if you are not 95% confident."
 Here's the full prompt:
 
