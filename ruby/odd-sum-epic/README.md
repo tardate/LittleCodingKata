@@ -1,4 +1,4 @@
-# #xxx The Odd-sum Epic
+# #335 The Odd-sum Epic
 
 Cassidy Williams recently featured a ruby coding interview question that spurred a lively discussion of algorithms, and a general marvelling at the loveliness of ruby's Enumerable class. There was however a bit of a requirements trap in the question, not uncommon IRL, but had me wondering how well generative AI would cope. I put ChatGPT and Deepseek to the test, and the results are in!
 
@@ -20,17 +20,23 @@ Cassidy stirred up some wonderful discussion and coding with the
 >
 > => null // (or whatever falsy value you prefer)
 
-My attention was immediately drawn to the first example: it apparently implies that each element must be uniquely paired with an element in the other array, which doesn't really match the written requirement.
+I first cam across the question when I saw
+Andy Croll's post on the subject:
+[Further Performance Testing Enumerable’s Loveliness](https://andycroll.com/ruby/further-options-odd_sum-with-benchmarking/).
+
+As all the good work on algorithms and performance has already been done, my attention was drawn elsewhere.
+
+I immediately noticed something off in first example provided: it apparently implies that each element must be uniquely paired with an element in the other array, which doesn't really match the written requirement.
 
 The written requirement asks for all pairs, perhaps implying an element can be used multiple times to make all possible paris that add to an odd number. Under these rules, the expected pairs would be:
 `[9, 8], [9, 4], [9, 20], [14, 7], [6, 7], [2, 7], [11, 8], [11, 4], [11, 20]`
 
-This is good demonstration of a written requirements in conflict with examples provided. As the requirements analyst, your job is to figure out if the examples are just wrong, or if they actually convey additional important details and clarifications of the requirement.
+This is good demonstration of written requirements being in conflict with examples provided. As the requirements analyst, your job is to figure out if the examples are just wrong, or if they actually convey additional important details and clarifications of the requirement.
 
 Throughout my career, I can confidently state that this is less the exception than the rule. It is simple human nature that many people will confidently state "THIS is my requirement" and then give you half a dozen examples that contradict the requirement to one degree or another.
 
 So what is one to do?
-I have never found a better solution than, simply to ask more questions! It is easy. There is no general rule for whether words should trump examples or vice versa.
+I have never found a better solution than simply to ask more questions! It is easy. There is no general rule for whether words should trump examples or vice versa.
 
 ### AI On the Job
 
@@ -53,10 +59,9 @@ Here's my basic prompt:
 
 #### ChatGPT
 
-##### ChatGPT Initial Response (A)
-
 No hesitation here... ChatGPT is confident it got this right. Let's see!
-Here is the response:
+
+##### ChatGPT Initial Response (A)
 
 > The requirement is to find all pairs from two input arrays whose sum is an odd number. Here's how to interpret and break it down:
 >
@@ -175,7 +180,7 @@ Result: nil
 
 So:
 
-* ChatGPT implemented the algorithm in line with teh words of the requirements
+* ChatGPT implemented the algorithm in line with the words of the requirements
 * Given this understanding, it generates a correct results
 * It ignored the contradictory example
 * And even told me that the algorithm would generate the results as given in the example (which is incorrect)
@@ -472,6 +477,108 @@ Run options: --seed 35222
 Finished in 0.000285s, 21052.6316 runs/s, 21052.6316 assertions/s.
 
 6 runs, 6 assertions, 0 failures, 0 errors, 0 skips
+```
+
+Here is [examples.rb](./examples.rb):
+
+```ruby
+#!/usr/bin/env ruby
+
+require 'benchmark/ips'
+
+class OddSumCalculator
+  attr_accessor :arr1, :arr2
+
+  def initialize(arr1, arr2)
+    self.arr1 = arr1
+    self.arr2 = arr2
+  end
+
+  def chat_gpt_a
+    result = []
+
+    arr1.each do |a|
+      arr2.each do |b|
+        result << [a, b] if (a + b).odd?
+      end
+    end
+
+    result.empty? ? nil : result
+  end
+
+  def chat_gpt_a_optimised
+    # Partition arr1
+    odds1, evens1 = arr1.partition(&:odd?)
+    # Partition arr2
+    odds2, evens2 = arr2.partition(&:odd?)
+
+    result = []
+
+    # Add pairs: odd from arr1 + even from arr2
+    odds1.each do |a|
+      evens2.each do |b|
+        result << [a, b]
+      end
+    end
+
+    # Add pairs: even from arr1 + odd from arr2
+    evens1.each do |a|
+      odds2.each do |b|
+        result << [a, b]
+      end
+    end
+
+    result.empty? ? nil : result
+  end
+
+  def deepseek_a
+    evens1 = arr1.select(&:even?)
+    odds1  = arr1.select(&:odd?)
+    evens2 = arr2.select(&:even?)
+    odds2  = arr2.select(&:odd?)
+
+    pairs = []
+    evens1.each { |e| odds2.each { |o| pairs << [e, o] } }
+    odds1.each { |o| evens2.each { |e| pairs << [o, e] } }
+
+    pairs.empty? ? nil : pairs
+  end
+
+  def benchmark
+    n = 100
+    self.arr1 = Array.new(n) { |i| rand(1_000_000) }
+    self.arr2 = Array.new(n) { |i| rand(1_000_000) }
+
+    Benchmark.ips do |x|
+      x.report('chatgpt_a') do
+        chat_gpt_a
+      end
+      x.report('chat_gpt_a_optimised') do
+        chat_gpt_a_optimised
+      end
+      x.report('deepseek_a') do
+        deepseek_a
+      end
+      x.compare!
+    end
+  end
+end
+
+if __FILE__==$PROGRAM_NAME
+  (puts "Usage: ruby #{$0} <algorithm> (csv-array-1) (csv-array-1)"; exit) unless ARGV.length > 0
+  algorithm = ARGV[0]
+  if algorithm == 'benchmark'
+    OddSumCalculator.new([], []).benchmark
+  else
+    arr1 = ARGV[1] ? ARGV[1].split(',').map(&:to_i) : [1, 2, 3]
+    arr2 = ARGV[2] ? ARGV[2].split(',').map(&:to_i) : [4, 5, 6]
+    puts "Using algorithm: #{algorithm}"
+    calculator = OddSumCalculator.new(arr1, arr2)
+    puts "Array 1: #{calculator.arr1.inspect}"
+    puts "Array 2: #{calculator.arr2.inspect}"
+    puts "Result: #{calculator.send(algorithm).inspect}"
+  end
+end
 ```
 
 ## Credits and References

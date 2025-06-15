@@ -14,6 +14,16 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/ruby/odd-sum-epic/</id>
+    <link href="https://codingkata.tardate.com/ruby/odd-sum-epic/"/>
+    <updated>2025-06-15T06:49:00Z</updated>
+    <title>#335 The Odd-sum Epic</title>
+    <summary>Cassidy Williams recently featured a ruby coding interview question that spurred a lively discussion of algorithms, and a general marvelling at the loveliness of ruby's Enumerable class. There was however a bit of a requirements trap in the question, not uncommon IRL, but had me wondering how well generative AI would cope. I put ChatGPT and Deepseek to the test, and the results are in!</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Cassidy Williams recently featured a ruby coding interview question that spurred a lively discussion of algorithms, and a general marvelling at the loveliness of ruby's Enumerable class. There was however a bit of a requirements trap in the question, not uncommon IRL, but had me wondering how well generative AI would cope. I put ChatGPT and Deepseek to the test, and the results are in!&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="ruby"/>
+    <category term="AI"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/ruby/serial/</id>
     <link href="https://codingkata.tardate.com/ruby/serial/"/>
     <updated>2025-06-12T15:54:00Z</updated>

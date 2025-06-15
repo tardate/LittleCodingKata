@@ -1,5 +1,15 @@
 [
     {
+        "name": "The Odd-sum Epic",
+        "description": "Cassidy Williams recently featured a ruby coding interview question that spurred a lively discussion of algorithms, and a general marvelling at the loveliness of ruby's Enumerable class. There was however a bit of a requirements trap in the question, not uncommon IRL, but had me wondering how well generative AI would cope. I put ChatGPT and Deepseek to the test, and the results are in!",
+        "categories": "ruby, AI",
+        "relative_path": "ruby/odd-sum-epic",
+        "updated_at": "2025-06-15T06:49:00Z",
+        "created_at": "2025-06-15T06:49:00Z",
+        "id": "#335",
+        "original_relative_path": "ruby/odd-sum-epic"
+    },
+    {
         "name": "Serial Communications with Ruby",
         "description": "Options for serial communications in Ruby as they stand in mid-2025",
         "categories": "ruby",

@@ -1,6 +1,6 @@
-# 334 Little Coding Katas
+# 335 Little Coding Katas
 
-> Latest addition :sparkles: [Serial Communications with Ruby](./ruby/serial) - Options for serial communications in Ruby as they stand in mid-2025
+> Latest addition :sparkles: [The Odd-sum Epic](./ruby/odd-sum-epic) - Cassidy Williams recently featured a ruby coding interview question that spurred a lively discussion of algorithms, and a general marvelling at the loveliness of ruby's Enumerable class. There was however a bit of a requirements trap in the question, not uncommon IRL, but had me wondering how well generative AI would cope. I put ChatGPT and Deepseek to the test, and the results are in!
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
