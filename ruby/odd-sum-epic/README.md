@@ -4,9 +4,9 @@ Cassidy Williams recently featured a ruby coding challenge that spurred a lively
 
 ## Notes
 
-Cassidy stirred up some wonderful discussion and coding with the
-[interview question of the week](https://buttondown.com/cassidoo/archive/false-expectations-take-away-joy-sandra-bullock/)
-(2025-05-26):
+The
+[interview question of the week (2025-05-26)](https://buttondown.com/cassidoo/archive/false-expectations-take-away-joy-sandra-bullock/)
+stirred up some wonderful discussion and coding:
 
 > Given two arrays, return all pairs (where each number is in each array) whose sum is an odd number.
 >
@@ -20,26 +20,30 @@ Cassidy stirred up some wonderful discussion and coding with the
 >
 > => null // (or whatever falsy value you prefer)
 
-I first came across the question when I saw
+I first came across the challenge when I saw
 Andy Croll's post on the subject:
 [Further Performance Testing Enumerable’s Loveliness](https://andycroll.com/ruby/further-options-odd_sum-with-benchmarking/).
 
-As all the good work on algorithms and performance seem to have already been done, my attention was drawn elsewhere.
+As all the good work on algorithms and performance seem to have already been hammered out, my attention was drawn elsewhere.
 
-I immediately noticed something off in first example provided: it apparently implies that each element can only be paired once with an element in the other array.
+I'd immediately noticed something off in first example provided:
+`[9, 20], [14, 7], [11,8]`.
+It apparently implies that each element can only be paired once with an element from the other array.
 
 The written requirement asks for all pairs, perhaps implying all possible pairs that add to an odd number should be returned. This is the interpretation that most people seem to have gone with.
 Under these rules, the expected pairs would be:
 `[9, 8], [9, 4], [9, 20], [14, 7], [6, 7], [2, 7], [11, 8], [11, 4], [11, 20]`
 
-This is good demonstration of written requirements being in conflict with examples provided. As the requirements analyst, your job is to figure out if the examples are just wrong, or if they actually convey additional important details and clarifications of the requirement.
+This is a classic demonstration of written requirements being in conflict with examples provided. As the requirements analyst, your job is to figure out if the examples are just wrong, or if they actually convey additional important details and clarifications of the requirement.
 
 Throughout my career, I can honestly say this is less the exception, than the rule. It is simple human nature that many people will confidently state "THIS is my requirement" and then give half a dozen examples that contradict the requirement to one degree or another.
 
 So what is one to do?
 I've never found a better solution than simply to ask more questions! It is easy. There is no general rule for whether words should trump examples or vice versa.
 
-In the following sections I put ChatGPT and Deepseek to the test, compare their solutions with others I have seen posted.
+It makes me wonder how well AI handles this common human confusion.
+
+In the following sections I put ChatGPT and Deepseek to the test, compare their solutions with others I have seen posted, and look at resolving the requirements/examples conflict.
 
 ### The TLDR
 
@@ -60,7 +64,7 @@ Ah, the lost art of requirements analysis!
 
 ### AI On the Job
 
-I wonder how AI handles this common human confusion?
+So how well does AI handle this common human confusion?
 
 Here's my basic prompt:
 
@@ -79,7 +83,7 @@ Here's my basic prompt:
 
 #### ChatGPT
 
-No hesitation here... ChatGPT is confident it got this right. Let's see!
+No hesitation here... ChatGPT is confident it got this right, right off the bat. Let's see!
 
 ##### ChatGPT Initial Response (A)
 
@@ -342,7 +346,7 @@ chat_gpt_a_optimised:     5298.0 i/s
 Conclusion:
 
 * the ChatGPT optimisation using partition is a great improvement over its initial attempt.
-* deepseek got close right off the bat, but clearly `partition` is a little more efficient that `select`
+* deepseek got close with its first suggestion, but clearly `partition` is a little more efficient that `select`
 
 ### ChatGPT Revised (B)
 
