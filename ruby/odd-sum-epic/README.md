@@ -110,28 +110,28 @@ No hesitation here... ChatGPT is confident it got this right, right off the bat.
 >     * Else, return the result array.
 >
 > 💎 Ruby Implementation
-
-```ruby
-def odd_sum(arr1, arr2)
-  result = []
-
-  arr1.each do |a|
-    arr2.each do |b|
-      result << [a, b] if (a + b).odd?
-    end
-  end
-
-  result.empty? ? nil : result
-end
-
-# Examples:
-p odd_sum([9, 14, 6, 2, 11], [8, 4, 7, 20])
-# => [[9, 20], [14, 7], [11, 8]]
-
-p odd_sum([2, 4, 6, 8], [10, 12, 14])
-# => nil
-```
-
+>
+> ```ruby
+> def odd_sum(arr1, arr2)
+>   result = []
+>
+>   arr1.each do |a|
+>     arr2.each do |b|
+>       result << [a, b] if (a + b).odd?
+>     end
+>   end
+>
+>   result.empty? ? nil : result
+> end
+>
+> # Examples:
+> p odd_sum([9, 14, 6, 2, 11], [8, 4, 7, 20])
+> # => [[9, 20], [14, 7], [11, 8]]
+>
+> p odd_sum([2, 4, 6, 8], [10, 12, 14])
+> # => nil
+> ```
+>
 > 🧪 Optional Enhancements
 > If performance matters (e.g., for large arrays), you could:
 >
@@ -232,60 +232,60 @@ How does Deepseek fare if I give it the same prompt?
 
 #### Deepseek Response
 
-To interpret the requirement, we need to return all possible pairs (one element from each array) where the sum of the pair is an odd number. A sum is odd if one number is even and the other is odd. The solution involves:
-
-1. **Separate elements** in each array into even and odd groups.
-2. **Generate pairs** by combining:
-   * Even elements from the first array with odd elements from the second array.
-   * Odd elements from the first array with even elements from the second array.
-3. **Return all valid pairs** or `nil` if no pairs exist.
-
-### Algorithm
-
-1. For the first array, collect:
-   * `evens1`: All even numbers.
-   * `odds1`: All odd numbers.
-2. For the second array, collect:
-   * `evens2`: All even numbers.
-   * `odds2`: All odd numbers.
-3. Initialize an empty list for `pairs`.
-4. For each even number in `evens1`, pair it with every odd number in `odds2` and add to `pairs`.
-5. For each odd number in `odds1`, pair it with every even number in `evens2` and add to `pairs`.
-6. If `pairs` is empty, return `nil`; otherwise, return `pairs`.
-
-### Ruby Implementation
-
-```ruby
-def odd_sum(arr1, arr2)
-  evens1 = arr1.select(&:even?)
-  odds1  = arr1.select(&:odd?)
-  evens2 = arr2.select(&:even?)
-  odds2  = arr2.select(&:odd?)
-
-  pairs = []
-  evens1.each { |e| odds2.each { |o| pairs << [e, o] } }
-  odds1.each { |o| evens2.each { |e| pairs << [o, e] } }
-
-  pairs.empty? ? nil : pairs
-end
-```
-
-### Explanation
-
-* **Grouping Elements**: The arrays are split into even and odd numbers for efficient pairing.
-
-* **Generating Pairs**:
-    * Even numbers from `arr1` are paired with all odd numbers from `arr2`.
-    * Odd numbers from `arr1` are paired with all even numbers from `arr2`.
-* **Handling No Pairs**: Returns `nil` if no valid pairs are found, as specified.
-
-### Example Outputs
-
-1. `odd_sum([9, 14, 6, 2, 11], [8, 4, 7, 20])` returns all 9 valid pairs:
-   `[[14, 7], [6, 7], [2, 7], [9, 8], [9, 4], [9, 20], [11, 8], [11, 4], [11, 20]]`.
-2. `odd_sum([2, 4, 6, 8], [10, 12, 14])` returns `nil` (no valid pairs).
-
-**Note**: The example in the query only shows 3 pairs, but the requirement asks for **all pairs**. If the intended output is a subset (like one pair per element), additional constraints (e.g., using each element only once) must be specified. The provided solution follows the literal requirement.
+> To interpret the requirement, we need to return all possible pairs (one element from each array) where the sum of the pair is an odd number. A sum is odd if one number is even and the other is odd. The solution involves:
+>
+> 1. **Separate elements** in each array into even and odd groups.
+> 2. **Generate pairs** by combining:
+>    * Even elements from the first array with odd elements from the second array.
+>    * Odd elements from the first array with even elements from the second array.
+> 3. **Return all valid pairs** or `nil` if no pairs exist.
+>
+> ### Algorithm
+>
+> 1. For the first array, collect:
+>    * `evens1`: All even numbers.
+>    * `odds1`: All odd numbers.
+> 2. For the second array, collect:
+>    * `evens2`: All even numbers.
+>    * `odds2`: All odd numbers.
+> 3. Initialize an empty list for `pairs`.
+> 4. For each even number in `evens1`, pair it with every odd number in `odds2` and add to `pairs`.
+> 5. For each odd number in `odds1`, pair it with every even number in `evens2` and add to `pairs`.
+> 6. If `pairs` is empty, return `nil`; otherwise, return `pairs`.
+>
+> ### Ruby Implementation
+>
+> ```ruby
+> def odd_sum(arr1, arr2)
+>   evens1 = arr1.select(&:even?)
+>   odds1  = arr1.select(&:odd?)
+>   evens2 = arr2.select(&:even?)
+>   odds2  = arr2.select(&:odd?)
+>
+>   pairs = []
+>   evens1.each { |e| odds2.each { |o| pairs << [e, o] } }
+>   odds1.each { |o| evens2.each { |e| pairs << [o, e] } }
+>
+>   pairs.empty? ? nil : pairs
+> end
+> ```
+>
+> ### Explanation
+>
+> * **Grouping Elements**: The arrays are split into even and odd numbers for efficient pairing.
+>
+> * **Generating Pairs**:
+>     * Even numbers from `arr1` are paired with all odd numbers from `arr2`.
+>     * Odd numbers from `arr1` are paired with all even numbers from `arr2`.
+> * **Handling No Pairs**: Returns `nil` if no valid pairs are found, as specified.
+>
+> ### Example Outputs
+>
+> 1. `odd_sum([9, 14, 6, 2, 11], [8, 4, 7, 20])` returns all 9 valid pairs:
+>    `[[14, 7], [6, 7], [2, 7], [9, 8], [9, 4], [9, 20], [11, 8], [11, 4], [11, 20]]`.
+> 2. `odd_sum([2, 4, 6, 8], [10, 12, 14])` returns `nil` (no valid pairs).
+>
+> **Note**: The example in the query only shows 3 pairs, but the requirement asks for **all pairs**. If the intended output is a subset (like one pair per element), additional constraints (e.g., using each element only once) must be specified. The provided solution follows the literal requirement.
 
 #### Running the Deepseek Code
 
@@ -371,101 +371,101 @@ Here's the full prompt:
 
 ### ChatGPT Revised (B) Response
 
-Thanks for the detailed prompt and examples. Here's how I'd approach interpreting and implementing it — and I’ll flag a couple of assumptions to confirm before writing code.
-
----
-
-### ✅ Interpretation (based on examples and phrasing)
-
-**Requirement:**
-Given two arrays of integers, return *all unique pairs* `[a, b]` where:
-
-* `a` is from the **first array**
-* `b` is from the **second array**
-* `a + b` is **odd**
-
-### ❓Assumptions to Confirm
-
-1. **Pairs are order-sensitive?**
-   From the examples, `[9, 20]` appears instead of `[20, 9]`, so I assume **`[a, b]` should always have `a` from array 1 and `b` from array 2**, i.e., order matters.
-
-2. **Duplicates allowed?**
-   If the input arrays contain duplicates, should the result include multiple copies of the same logical pair?
-
-   E.g., should this:
-
-   ```ruby
-   oddSum([2, 3], [3, 4])
-   ```
-
-   yield:
-
-   ```ruby
-   [3, 4], [2, 3]
-   ```
-
-   or filter to unique pairs?
-
-3. **Return type when no results?**
-   Is `nil` the preferred falsy return value, or would you prefer `[]` (empty array)? Ruby tends to prefer `[]` for empty results unless nil has semantic value.
-
----
-
-### 💡 Observations (to reduce to algorithm)
-
-* Odd sum ⇔ One number is even, the other is odd.
-* Therefore, for a pair `(a, b)` to be odd:
-
-    * `a.odd? && b.even?`
-    * or `a.even? && b.odd?`
-
-So we could:
-
-1. Iterate through array A.
-2. For each `a`, iterate through array B.
-3. Keep `[a, b]` if the sum is odd.
-
-This is an O(n \* m) algorithm.
-
----
-
-### ✅ Implementation Plan in Ruby
-
-```ruby
-def odd_sum(array1, array2)
-  result = []
-
-  array1.each do |a|
-    array2.each do |b|
-      result << [a, b] if (a + b).odd?
-    end
-  end
-
-  result.empty? ? nil : result
-end
-```
-
----
-
-### 🔄 Example Usage
-
-```ruby
-odd_sum([9, 14, 6, 2, 11], [8, 4, 7, 20])
-# => [[9, 20], [14, 7], [11, 8]]
-
-odd_sum([2, 4, 6, 8], [10, 12, 14])
-# => nil
-```
-
----
-
-Let me know:
-
-* Should duplicates be filtered?
-* Would you prefer to return `[]` instead of `nil` for no matches?
-* Any constraints on input (e.g., always integers)?
-
-Once you confirm, I can optimize or extend this (e.g., for larger data sets, use filtering by parity buckets for O(n + m) time).
+> Thanks for the detailed prompt and examples. Here's how I'd approach interpreting and implementing it — and I’ll flag a couple of assumptions to confirm before writing code.
+>
+> ---
+>
+> ### ✅ Interpretation (based on examples and phrasing)
+>
+> **Requirement:**
+> Given two arrays of integers, return *all unique pairs* `[a, b]` where:
+>
+> * `a` is from the **first array**
+> * `b` is from the **second array**
+> * `a + b` is **odd**
+>
+> ### ❓Assumptions to Confirm
+>
+> 1. **Pairs are order-sensitive?**
+>    From the examples, `[9, 20]` appears instead of `[20, 9]`, so I assume **`[a, b]` should always have `a` from array 1 and `b` from array 2**, i.e., order matters.
+>
+> 2. **Duplicates allowed?**
+>    If the input arrays contain duplicates, should the result include multiple copies of the same logical pair?
+>
+>    E.g., should this:
+>
+>    ```ruby
+>    oddSum([2, 3], [3, 4])
+>    ```
+>
+>    yield:
+>
+>    ```ruby
+>    [3, 4], [2, 3]
+>    ```
+>
+>    or filter to unique pairs?
+>
+> 3. **Return type when no results?**
+>    Is `nil` the preferred falsy return value, or would you prefer `[]` (empty array)? Ruby tends to prefer `[]` for empty results unless nil has semantic value.
+>
+> ---
+>
+> ### 💡 Observations (to reduce to algorithm)
+>
+> * Odd sum ⇔ One number is even, the other is odd.
+> * Therefore, for a pair `(a, b)` to be odd:
+>
+>     * `a.odd? && b.even?`
+>     * or `a.even? && b.odd?`
+>
+> So we could:
+>
+> 1. Iterate through array A.
+> 2. For each `a`, iterate through array B.
+> 3. Keep `[a, b]` if the sum is odd.
+>
+> This is an O(n \* m) algorithm.
+>
+> ---
+>
+> ### ✅ Implementation Plan in Ruby
+>
+> ```ruby
+> def odd_sum(array1, array2)
+>   result = []
+>
+>   array1.each do |a|
+>     array2.each do |b|
+>       result << [a, b] if (a + b).odd?
+>     end
+>   end
+>
+>   result.empty? ? nil : result
+> end
+> ```
+>
+> ---
+>
+> ### 🔄 Example Usage
+>
+> ```ruby
+> odd_sum([9, 14, 6, 2, 11], [8, 4, 7, 20])
+> # => [[9, 20], [14, 7], [11, 8]]
+>
+> odd_sum([2, 4, 6, 8], [10, 12, 14])
+> # => nil
+> ```
+>
+> ---
+>
+> Let me know:
+>
+> * Should duplicates be filtered?
+> * Would you prefer to return `[]` instead of `nil` for no matches?
+> * Any constraints on input (e.g., always integers)?
+>
+> Once you confirm, I can optimize or extend this (e.g., for larger data sets, use filtering by parity buckets for O(n + m) time).
 
 ### ChatGPT Revised (B) Result
 
@@ -478,7 +478,7 @@ Well, it tried. It identified 3 possible ambiguities:
 * Return type when no results? Yes, another concern, though nothing surprising as it is mentioned in the question
 
 But it has missed the issue of whether each element may only be used once,
-and again incorrectly states that the code with produce the example provided.
+and again incorrectly states that the code will produce the example provided.
 
 ## How did Andy Do It?
 
