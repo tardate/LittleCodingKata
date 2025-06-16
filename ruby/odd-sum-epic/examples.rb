@@ -60,6 +60,79 @@ class OddSumCalculator
     pairs.empty? ? nil : pairs
   end
 
+  def andy_a
+    a = arr1
+    b = arr2
+    results = []
+    a.each do |x|
+      b.each do |y|
+        if ((x + y) % 2) == 1
+          results << [x, y]
+        end
+      end
+    end
+    results
+  end
+
+  def andy_b
+    a = arr1
+    b = arr2
+    (a.select(&:odd?).product(b.select(&:even?)) +
+      b.select(&:odd?).product(a.select(&:even?)))
+    .uniq
+  end
+
+  def andy_b_fixed
+    a = arr1
+    b = arr2
+    (a.select(&:odd?).product(b.select(&:even?)) +
+      a.select(&:even?).product(b.select(&:odd?)))
+    .uniq
+  end
+
+  def andy_c
+    a = arr1
+    b = arr2
+    a.product(b).select { (_1 + _2).odd? }.uniq
+  end
+
+  def andy_d
+    a = arr1
+    b = arr2
+    odd_as, even_as = a.partition(&:odd?)
+    odd_bs, even_bs = b.partition(&:odd?)
+    (odd_as.product(even_bs) + odd_bs.product(even_as)).uniq
+  end
+
+  def andy_d_fixed
+    a = arr1
+    b = arr2
+    odd_as, even_as = a.partition(&:odd?)
+    odd_bs, even_bs = b.partition(&:odd?)
+    (odd_as.product(even_bs) + even_as.product(odd_bs)).uniq
+  end
+
+  def examples_rule
+    odds1, evens1 = arr1.partition(&:odd?)
+    odds2, evens2 = arr2.partition(&:odd?)
+    result = []
+
+    evens2.sort!
+    odds2.sort!
+
+    odds1.each do |a|
+      b = evens2.pop
+      result << [a, b] if b
+    end
+
+    evens1.each do |a|
+      b = odds2.pop
+      result << [a, b] if b
+    end
+
+    result.empty? ? nil : result
+  end
+
   def benchmark
     n = 100
     self.arr1 = Array.new(n) { |i| rand(1_000_000) }
@@ -74,6 +147,9 @@ class OddSumCalculator
       end
       x.report('deepseek_a') do
         deepseek_a
+      end
+      x.report('andy_d_fixed') do
+        andy_d_fixed
       end
       x.compare!
     end
