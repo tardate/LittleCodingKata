@@ -12,39 +12,93 @@ class TestExamples < Minitest::Test
   EG2_ARR2 = [10, 12, 14]
   EG2_EXPECTED = nil
 
-  def test_chat_gpt_a
+  def exec_eg1(algorithm, expected=EG1_EXPECTED)
     calculator = OddSumCalculator.new(EG1_ARR1, EG1_ARR2)
-    result = calculator.chat_gpt_a
-    assert_equal EG1_EXPECTED, result
+    result = calculator.send(algorithm)
+    assert_equal expected.sort, result.sort
+  end
+
+  def exec_eg2(algorithm, expected=EG2_EXPECTED)
+    calculator = OddSumCalculator.new(EG2_ARR1, EG2_ARR2)
+    result = calculator.send(algorithm)
+    if expected.nil?
+      assert_nil result
+    else
+      assert_equal expected, result
+    end
+  end
+
+  def test_chat_gpt_a
+    exec_eg1(:chat_gpt_a)
   end
 
   def test_chat_gpt_a_unmatched
-    calculator = OddSumCalculator.new(EG2_ARR1, EG2_ARR2)
-    result = calculator.chat_gpt_a
-    assert_nil result
+    exec_eg2(:chat_gpt_a)
   end
 
   def test_chat_gpt_a_optimised
-    calculator = OddSumCalculator.new(EG1_ARR1, EG1_ARR2)
-    result = calculator.chat_gpt_a_optimised
-    assert_equal EG1_EXPECTED.sort, result.sort
+    exec_eg1(:chat_gpt_a_optimised)
   end
 
   def test_chat_gpt_a_optimised_unmatched
-    calculator = OddSumCalculator.new(EG2_ARR1, EG2_ARR2)
-    result = calculator.chat_gpt_a_optimised
-    assert_nil result
+    exec_eg2(:chat_gpt_a_optimised)
   end
 
   def test_deepseek_a
-    calculator = OddSumCalculator.new(EG1_ARR1, EG1_ARR2)
-    result = calculator.deepseek_a
-    assert_equal EG1_EXPECTED.sort, result.sort
+    exec_eg1(:deepseek_a)
   end
 
   def test_deepseek_a_unmatched
-    calculator = OddSumCalculator.new(EG2_ARR1, EG2_ARR2)
-    result = calculator.deepseek_a
-    assert_nil result
+    exec_eg2(:deepseek_a)
+  end
+
+  def test_andy_a
+    exec_eg1(:andy_a)
+  end
+
+  def test_andy_a_unmatched
+    exec_eg2(:andy_a, [])
+  end
+
+  def test_andy_b
+    skip "Expected failure: andy_b reverses pairs that have an even number from array a and an odd number from array b"
+    exec_eg1(:andy_b)
+  end
+
+  def test_andy_b_unmatched
+    exec_eg2(:andy_b, [])
+  end
+
+  def test_andy_b_fixed
+    exec_eg1(:andy_b_fixed)
+  end
+
+  def test_andy_b_fixed_unmatched
+    exec_eg2(:andy_b_fixed, [])
+  end
+
+  def test_andy_c
+    exec_eg1(:andy_c)
+  end
+
+  def test_andy_c_unmatched
+    exec_eg2(:andy_c, [])
+  end
+
+  def test_andy_d
+    skip "Expected failure: andy_d reverses pairs that have an even number from array a and an odd number from array b"
+    exec_eg1(:andy_d)
+  end
+
+  def test_andy_d_unmatched
+    exec_eg2(:andy_d, [])
+  end
+
+  def test_andy_d_fixed
+    exec_eg1(:andy_d_fixed)
+  end
+
+  def test_andy_d_fixed_unmatched
+    exec_eg2(:andy_d_fixed, [])
   end
 end

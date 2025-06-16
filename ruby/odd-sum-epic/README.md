@@ -1,6 +1,6 @@
 # #335 The Odd-sum Epic
 
-Cassidy Williams recently featured a ruby coding interview question that spurred a lively discussion of algorithms, and a general marvelling at the loveliness of ruby's Enumerable class. There was however a bit of a requirements trap in the question, not uncommon IRL, but had me wondering how well generative AI would cope. I put ChatGPT and Deepseek to the test, and the results are in!
+Cassidy Williams recently featured a ruby coding challenge that spurred a lively discussion of algorithms, and a general marvelling at the loveliness of ruby's Enumerable class. There was however a bit of a requirements trap in the question, not uncommon IRL, but it had me wondering how well generative AI would cope. I put ChatGPT and Deepseek to the test, and the results are in!
 
 ## Notes
 
@@ -20,23 +20,24 @@ Cassidy stirred up some wonderful discussion and coding with the
 >
 > => null // (or whatever falsy value you prefer)
 
-I first cam across the question when I saw
+I first came across the question when I saw
 Andy Croll's post on the subject:
 [Further Performance Testing Enumerable’s Loveliness](https://andycroll.com/ruby/further-options-odd_sum-with-benchmarking/).
 
-As all the good work on algorithms and performance has already been done, my attention was drawn elsewhere.
+As all the good work on algorithms and performance seem to have already been done, my attention was drawn elsewhere.
 
-I immediately noticed something off in first example provided: it apparently implies that each element must be uniquely paired with an element in the other array, which doesn't really match the written requirement.
+I immediately noticed something off in first example provided: it apparently implies that each element can only be paired once with an element in the other array.
 
-The written requirement asks for all pairs, perhaps implying an element can be used multiple times to make all possible pairs that add to an odd number. Under these rules, the expected pairs would be:
+The written requirement asks for all pairs, perhaps implying all possible pairs that add to an odd number should be returned. This is the interpretation that most people seem to have gone with.
+Under these rules, the expected pairs would be:
 `[9, 8], [9, 4], [9, 20], [14, 7], [6, 7], [2, 7], [11, 8], [11, 4], [11, 20]`
 
 This is good demonstration of written requirements being in conflict with examples provided. As the requirements analyst, your job is to figure out if the examples are just wrong, or if they actually convey additional important details and clarifications of the requirement.
 
-Throughout my career, I can confidently state that this is less the exception than the rule. It is simple human nature that many people will confidently state "THIS is my requirement" and then give you half a dozen examples that contradict the requirement to one degree or another.
+Throughout my career, I can honestly say this is less the exception, than the rule. It is simple human nature that many people will confidently state "THIS is my requirement" and then give half a dozen examples that contradict the requirement to one degree or another.
 
 So what is one to do?
-I have never found a better solution than simply to ask more questions! It is easy. There is no general rule for whether words should trump examples or vice versa.
+I've never found a better solution than simply to ask more questions! It is easy. There is no general rule for whether words should trump examples or vice versa.
 
 ### AI On the Job
 
@@ -456,12 +457,165 @@ Well, it tried. It identified 3 possible ambiguities:
 But it has missed the issue of whether each element may only be used once,
 and again incorrectly states that the code with produce the example provided.
 
+## How did Andy Do It?
+
+It was Andy Croll's post on
+[Enumerable’s loveliness](https://andycroll.com/ruby/cassidoo-odd_sum-programming-exercise/)
+that first clued me into this interesting programming challenge.
+
+He'd also had quite a discussion online about refining the algorithms.
+The following are the three main variations that he came up with.
+
+The first (intentionally naïve) approach was essentially the same as ChatGPT's first attempt, except using the mod trick to calculate parity instead of the `odd?` method.
+
+```ruby
+results = []
+a.each do |x|
+  b.each do |y|
+    if ((x + y) % 2) == 1
+      results << [x, y]
+    end
+  end
+end
+results
+```
+
+Calling this `andy_a` and it works just fine :
+
+```sh
+$ ./examples.rb andy_a "9, 14, 6, 2, 11" "8, 4, 7, 20"
+Using algorithm: andy_a
+Array 1: [9, 14, 6, 2, 11]
+Array 2: [8, 4, 7, 20]
+Result: [[9, 8], [9, 4], [9, 20], [14, 7], [6, 7], [2, 7], [11, 8], [11, 4], [11, 20]]
+```
+
+The second approach `andy_b` used Enumerable's product method to reduce to a one-liner. This is similar to the approach that Deepseek came up with.
+
+```ruby
+(a.select(&:odd?).product(b.select(&:even?)) +
+  b.select(&:odd?).product(a.select(&:even?)))
+.uniq
+```
+
+It basically works, however it reverses pairs that have an even number from array a and an odd number from array b:
+
+```sh
+$ ./examples.rb andy_b "9, 14, 6, 2, 11" "8, 4, 7, 20"
+Using algorithm: andy_b
+Array 1: [9, 14, 6, 2, 11]
+Array 2: [8, 4, 7, 20]
+Result: [[9, 8], [9, 4], [9, 20], [11, 8], [11, 4], [11, 20], [7, 14], [7, 6], [7, 2]]
+```
+
+We can easily fix that:
+
+```ruby
+(a.select(&:odd?).product(b.select(&:even?)) +
+  a.select(&:even?).product(b.select(&:odd?)))
+.uniq
+```
+
+Calling this `andy_a_fixed` and it works just fine :
+
+```sh
+$ ./examples.rb andy_b_fixed "9, 14, 6, 2, 11" "8, 4, 7, 20"
+Using algorithm: andy_b_fixed
+Array 1: [9, 14, 6, 2, 11]
+Array 2: [8, 4, 7, 20]
+Result: [[9, 8], [9, 4], [9, 20], [11, 8], [11, 4], [11, 20], [14, 7], [6, 7], [2, 7]]
+```
+
+The third approach does a product then select rather than the reverse, making for a much more compact solution. I didn't get this suggested by any of the AI solutions.
+
+```ruby
+a.product(b).select { (_1 + _2).odd? }.uniq
+```
+
+Calling this `andy_c` and it works just fine :
+
+```sh
+$ ./examples.rb andy_c "9, 14, 6, 2, 11" "8, 4, 7, 20"
+Using algorithm: andy_c
+Array 1: [9, 14, 6, 2, 11]
+Array 2: [8, 4, 7, 20]
+Result: [[9, 8], [9, 4], [9, 20], [14, 7], [6, 7], [2, 7], [11, 8], [11, 4], [11, 20]]
+```
+
+The final approach used `partition`, this is quite similar to the ChatGPT optimised approach (`chat_gpt_a_optimised`):
+
+```ruby
+odd_as, even_as = a.partition(&:odd?)
+odd_bs, even_bs = b.partition(&:odd?)
+(odd_as.product(even_bs) + odd_bs.product(even_as)).uniq
+```
+
+Calling this `andy_d`; and obviously it has the same pair-reversal issue as `andy_b`:
+
+```sh
+$ ./examples.rb andy_d "9, 14, 6, 2, 11" "8, 4, 7, 20"
+Using algorithm: andy_d
+Array 1: [9, 14, 6, 2, 11]
+Array 2: [8, 4, 7, 20]
+Result: [[9, 8], [9, 4], [9, 20], [11, 8], [11, 4], [11, 20], [7, 14], [7, 6], [7, 2]]
+```
+
+So fixing that:
+
+```ruby
+odd_as, even_as = a.partition(&:odd?)
+odd_bs, even_bs = b.partition(&:odd?)
+(odd_as.product(even_bs) + even_as.product(odd_bs)).uniq
+```
+
+Calling this `andy_d_fixed` and it works just fine :
+
+```sh
+$ ./examples.rb andy_d_fixed "9, 14, 6, 2, 11" "8, 4, 7, 20"
+Using algorithm: andy_d_fixed
+Array 1: [9, 14, 6, 2, 11]
+Array 2: [8, 4, 7, 20]
+Result: [[9, 8], [9, 4], [9, 20], [11, 8], [11, 4], [11, 20], [14, 7], [6, 7], [2, 7]]
+```
+
+When Andy [benchmarked the solutions](https://andycroll.com/ruby/further-options-odd_sum-with-benchmarking/),
+it became obvious that the `product` method was a significant issue especially as the array sizes increased in the order of O(n²), but the `partition` solution came out tops.
+So let's add `andy_d_fixed` to the benchmark:
+
+```sh
+$ ./examples.rb benchmark
+ruby 3.0.5p211 (2022-11-24 revision ba5cf0f7c5) [arm64-darwin23]
+Warming up --------------------------------------
+           chatgpt_a   236.000 i/100ms
+chat_gpt_a_optimised   527.000 i/100ms
+          deepseek_a   520.000 i/100ms
+        andy_d_fixed   121.000 i/100ms
+Calculating -------------------------------------
+           chatgpt_a      2.367k (± 0.4%) i/s  (422.49 μs/i) -     12.036k in   5.085205s
+chat_gpt_a_optimised      5.331k (± 0.9%) i/s  (187.58 μs/i) -     26.877k in   5.042026s
+          deepseek_a      5.081k (± 3.9%) i/s  (196.82 μs/i) -     25.480k in   5.025086s
+        andy_d_fixed      1.195k (± 2.8%) i/s  (837.07 μs/i) -      6.050k in   5.069185s
+
+Comparison:
+chat_gpt_a_optimised:     5331.0 i/s
+          deepseek_a:     5080.8 i/s - 1.05x  slower
+           chatgpt_a:     2366.9 i/s - 2.25x  slower
+        andy_d_fixed:     1194.6 i/s - 4.46x  slower
+```
+
+While `chat_gpt_a_optimised` and `andy_d_fixed` are quite similar in approach,
+the ChatGPT approach is getting a huge edge in performance:
+
+* both use partition to split odds and evens
+* but `andy_d_fixed` then uses uniq over product to reduce the options
+* this is failing to performa at scale compared to the `chat_gpt_a_optimised` which simply iterates and appends the valid combinations of odd+even/even+odd.
+
 ## Conclusions
 
 In general, generative AIs can easily stumble over poorly expressed requirements, so care is required.
 
 * deepseek is actually quite good at identifying ambiguity and internal-contradictions in the prompt (requirements) it is given, even without explicit instruction. It will surface these issues in its response.
-* ChatGPT is particularly bad at dealing with these issues, even when instructed to ask for clarifications if needed
+* ChatGPT is particularly bad at dealing with these issues, even when instructed to ask for clarifications
 
 ## Example Code
 
@@ -470,18 +624,20 @@ and simple test suite to match [test_examples.rb](./test_examples.rb).
 
 ```sh
 $ ./test_examples.rb
-Run options: --seed 35222
+Run options: --seed 18881
 
 # Running:
 
-......
+.....S....S.......
 
-Finished in 0.000285s, 21052.6316 runs/s, 21052.6316 assertions/s.
+Finished in 0.000547s, 32906.7642 runs/s, 29250.4571 assertions/s.
 
-6 runs, 6 assertions, 0 failures, 0 errors, 0 skips
+18 runs, 16 assertions, 0 failures, 0 errors, 2 skips
+
+You have skipped tests. Run with --verbose for details.
 ```
 
-Here is [examples.rb](./examples.rb):
+Here is [examples.rb](./examples.rb) in full:
 
 ```ruby
 #!/usr/bin/env ruby
@@ -546,6 +702,58 @@ class OddSumCalculator
     pairs.empty? ? nil : pairs
   end
 
+  def andy_a
+    a = arr1
+    b = arr2
+    results = []
+    a.each do |x|
+      b.each do |y|
+        if ((x + y) % 2) == 1
+          results << [x, y]
+        end
+      end
+    end
+    results
+  end
+
+  def andy_b
+    a = arr1
+    b = arr2
+    (a.select(&:odd?).product(b.select(&:even?)) +
+      b.select(&:odd?).product(a.select(&:even?)))
+    .uniq
+  end
+
+  def andy_b_fixed
+    a = arr1
+    b = arr2
+    (a.select(&:odd?).product(b.select(&:even?)) +
+      a.select(&:even?).product(b.select(&:odd?)))
+    .uniq
+  end
+
+  def andy_c
+    a = arr1
+    b = arr2
+    a.product(b).select { (_1 + _2).odd? }.uniq
+  end
+
+  def andy_d
+    a = arr1
+    b = arr2
+    odd_as, even_as = a.partition(&:odd?)
+    odd_bs, even_bs = b.partition(&:odd?)
+    (odd_as.product(even_bs) + odd_bs.product(even_as)).uniq
+  end
+
+  def andy_d_fixed
+    a = arr1
+    b = arr2
+    odd_as, even_as = a.partition(&:odd?)
+    odd_bs, even_bs = b.partition(&:odd?)
+    (odd_as.product(even_bs) + even_as.product(odd_bs)).uniq
+  end
+
   def benchmark
     n = 100
     self.arr1 = Array.new(n) { |i| rand(1_000_000) }
@@ -560,6 +768,9 @@ class OddSumCalculator
       end
       x.report('deepseek_a') do
         deepseek_a
+      end
+      x.report('andy_d_fixed') do
+        andy_d_fixed
       end
       x.compare!
     end
@@ -591,3 +802,4 @@ end
 * <https://andycroll.com/ruby/further-options-odd_sum-with-benchmarking/>
 * <https://chatgpt.com/>
 * <https://chat.deepseek.com/>
+* [The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity](https://machinelearning.apple.com/research/illusion-of-thinking)
