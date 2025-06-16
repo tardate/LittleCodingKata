@@ -39,6 +39,25 @@ Throughout my career, I can honestly say this is less the exception, than the ru
 So what is one to do?
 I've never found a better solution than simply to ask more questions! It is easy. There is no general rule for whether words should trump examples or vice versa.
 
+In the following sections I put ChatGPT and Deepseek to the test, compare their solutions with others I have seen posted.
+
+### The TLDR
+
+* In general, generative AIs can easily stumble over poorly expressed requirements, so care is required.
+    * Deepseek is actually quite good at identifying ambiguity and internal-contradictions in the prompt (requirements) it is given, even without explicit instruction. It will surface these issues in its response.
+    * ChatGPT is particularly bad at dealing with these issues, even when instructed to ask for clarifications
+* None of the AI solutions (or other's I've seen posted) reproduce the example results included in the problem statement. All prefer to go with the written requirement instead and ignore the contradictory example.
+* I present a solution that does produce results matching the examples
+    * It required a number of additional assumptions, all worthy of additional clarification
+    * So if this was a real-world coding problem, I would say we are far from done yet!
+
+In summary, there are two clear lessons I take away from this most interesting exercise:
+
+* There is no substitute (yet) for human conversations to clarify and refine requirements
+* But AI can code the solution and get you to optimal implementations with minimal effort ... once the requirement is clearly understood
+
+Ah, the lost art of requirements analysis!
+
 ### AI On the Job
 
 I wonder how AI handles this common human confusion?
@@ -608,31 +627,94 @@ the ChatGPT approach is getting a huge edge in performance:
 
 * both use partition to split odds and evens
 * but `andy_d_fixed` then uses uniq over product to reduce the options
-* this is failing to performa at scale compared to the `chat_gpt_a_optimised` which simply iterates and appends the valid combinations of odd+even/even+odd.
+* this is failing to perform at scale compared to the `chat_gpt_a_optimised` which simply iterates and appends the valid combinations of odd+even/even+odd.
+
+## What if the Examples were correct after all?
+
+All the solutions so far have assumed the words of the requirement are correct, and the first example is just wrong or misleading.
+
+But what if it isn't? What if upon further clarification, your "customer" said
+
+> No, the example is correct. The numbers can only be used once.
+> That's what my requirement says obviously!!
+
+So all the solutions above are wrong;-)
+
+As a quick detour into this alternate universe,
+let's take `chat_gpt_a_optimised` - the best (fastest) solution so far -
+and modify it to comply with the clarified requirement:
+
+```ruby
+odds1, evens1 = arr1.partition(&:odd?)
+odds2, evens2 = arr2.partition(&:odd?)
+result = []
+
+evens2.sort!
+odds2.sort!
+
+odds1.each do |a|
+  b = evens2.pop
+  result << [a, b] if b
+end
+
+evens1.each do |a|
+  b = odds2.pop
+  result << [a, b] if b
+end
+
+result.empty? ? nil : result
+```
+
+Let's call this `examples_rule`, and yes, it reproduces the given example result exactly.
+Note that a couple of tricks were required:
+
+* items from array A are processed from front to back,
+    * while items from array B are processed from back to front (using `pop` instead of `shift`)
+* items in array B are sorted, so they are consumed in the same order shown in the example
+
+These points are all worthy of additional clarification, so if this was a real-world coding problem, I would say we are far from done yet.
+
+```sh
+$ ./examples.rb examples_rule "9, 14, 6, 2, 11" "8, 4, 7, 20"
+Using algorithm: examples_rule
+Array 1: [9, 14, 6, 2, 11]
+Array 2: [8, 4, 7, 20]
+Result: [[9, 20], [11, 8], [14, 7]]
+```
 
 ## Conclusions
 
-In general, generative AIs can easily stumble over poorly expressed requirements, so care is required.
+* In general, generative AIs can easily stumble over poorly expressed requirements, so care is required.
+    * Deepseek is actually quite good at identifying ambiguity and internal-contradictions in the prompt (requirements) it is given, even without explicit instruction. It will surface these issues in its response.
+    * ChatGPT is particularly bad at dealing with these issues, even when instructed to ask for clarifications
+* None of the AI solutions (or other's I've seen posted) reproduce the example results included in the problem statement. All prefer to go with the written requirement instead and ignore the contradictory example.
+* I present a solution that does produce results matching the examples
+    * It required a number of additional assumptions, all worthy of additional clarification
+    * So if this was a real-world coding problem, I would say we are far from done yet!
 
-* deepseek is actually quite good at identifying ambiguity and internal-contradictions in the prompt (requirements) it is given, even without explicit instruction. It will surface these issues in its response.
-* ChatGPT is particularly bad at dealing with these issues, even when instructed to ask for clarifications
+In summary, there are two clear lessons I take away from this most interesting exercise:
+
+* There is no substitute (yet) for human conversations to clarify and refine requirements
+* But AI can code the solution and get you to optimal implementations with minimal effort ... once the requirement is clearly understood
+
+Ah, the lost art of requirements analysis!
 
 ## Example Code
 
 See the code in [examples.rb](./examples.rb)
-and simple test suite to match [test_examples.rb](./test_examples.rb).
+and a simple test suite to match [test_examples.rb](./test_examples.rb).
 
 ```sh
 $ ./test_examples.rb
-Run options: --seed 18881
+Run options: --seed 63321
 
 # Running:
 
-.....S....S.......
+.......S......S.....
 
-Finished in 0.000547s, 32906.7642 runs/s, 29250.4571 assertions/s.
+Finished in 0.000493s, 40567.9513 runs/s, 36511.1562 assertions/s.
 
-18 runs, 16 assertions, 0 failures, 0 errors, 2 skips
+20 runs, 18 assertions, 0 failures, 0 errors, 2 skips
 
 You have skipped tests. Run with --verbose for details.
 ```
@@ -752,6 +834,27 @@ class OddSumCalculator
     odd_as, even_as = a.partition(&:odd?)
     odd_bs, even_bs = b.partition(&:odd?)
     (odd_as.product(even_bs) + even_as.product(odd_bs)).uniq
+  end
+
+  def examples_rule
+    odds1, evens1 = arr1.partition(&:odd?)
+    odds2, evens2 = arr2.partition(&:odd?)
+    result = []
+
+    evens2.sort!
+    odds2.sort!
+
+    odds1.each do |a|
+      b = evens2.pop
+      result << [a, b] if b
+    end
+
+    evens1.each do |a|
+      b = odds2.pop
+      result << [a, b] if b
+    end
+
+    result.empty? ? nil : result
   end
 
   def benchmark

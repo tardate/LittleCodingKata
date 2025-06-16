@@ -7,6 +7,7 @@ class TestExamples < Minitest::Test
   EG1_ARR1 = [9, 14, 6, 2, 11]
   EG1_ARR2 = [8, 4, 7, 20]
   EG1_EXPECTED = [[9, 8], [9, 4], [9, 20], [14, 7], [6, 7], [2, 7], [11, 8], [11, 4], [11, 20]]
+  EG1_ALT_EXPECTED = [[9, 20], [14, 7], [11,8]]
 
   EG2_ARR1 = [2, 4, 6, 8]
   EG2_ARR2 = [10, 12, 14]
@@ -100,5 +101,13 @@ class TestExamples < Minitest::Test
 
   def test_andy_d_fixed_unmatched
     exec_eg2(:andy_d_fixed, [])
+  end
+
+  def test_examples_rule
+    exec_eg1(:examples_rule, EG1_ALT_EXPECTED)
+  end
+
+  def test_examples_rule_unmatched
+    exec_eg2(:examples_rule)
   end
 end

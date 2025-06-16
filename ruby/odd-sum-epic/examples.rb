@@ -112,6 +112,27 @@ class OddSumCalculator
     (odd_as.product(even_bs) + even_as.product(odd_bs)).uniq
   end
 
+  def examples_rule
+    odds1, evens1 = arr1.partition(&:odd?)
+    odds2, evens2 = arr2.partition(&:odd?)
+    result = []
+
+    evens2.sort!
+    odds2.sort!
+
+    odds1.each do |a|
+      b = evens2.pop
+      result << [a, b] if b
+    end
+
+    evens1.each do |a|
+      b = odds2.pop
+      result << [a, b] if b
+    end
+
+    result.empty? ? nil : result
+  end
+
   def benchmark
     n = 100
     self.arr1 = Array.new(n) { |i| rand(1_000_000) }
