@@ -52,7 +52,7 @@ In the following sections I put ChatGPT and Deepseek to the test, compare their 
     * ChatGPT is particularly bad at dealing with these issues, even when instructed to ask for clarifications
 * None of the AI solutions (or other's I've seen posted) reproduce the example results included in the problem statement. All prefer to go with the written requirement instead and ignore the contradictory example.
 * I present a solution that does produce results matching the examples
-    * It required a number of additional assumptions, all worthy of additional clarification
+    * It requires a number of additional assumptions, all worthy of additional clarification
     * So if this was a real-world coding problem, I would say we are far from done yet!
 
 In summary, there are two clear lessons I take away from this most interesting exercise:
@@ -539,7 +539,7 @@ We can easily fix that:
 .uniq
 ```
 
-Calling this `andy_a_fixed` and it works just fine :
+Calling this `andy_b_fixed` and it works just fine :
 
 ```sh
 $ ./examples.rb andy_b_fixed "9, 14, 6, 2, 11" "8, 4, 7, 20"
@@ -693,7 +693,7 @@ Result: [[9, 20], [11, 8], [14, 7]]
     * ChatGPT is particularly bad at dealing with these issues, even when instructed to ask for clarifications
 * None of the AI solutions (or other's I've seen posted) reproduce the example results included in the problem statement. All prefer to go with the written requirement instead and ignore the contradictory example.
 * I present a solution that does produce results matching the examples
-    * It required a number of additional assumptions, all worthy of additional clarification
+    * It requires a number of additional assumptions, all worthy of additional clarification
     * So if this was a real-world coding problem, I would say we are far from done yet!
 
 In summary, there are two clear lessons I take away from this most interesting exercise:
