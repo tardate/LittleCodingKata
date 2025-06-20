@@ -1,0 +1,6 @@
+{
+    "name": "Tidy Folder Names",
+    "description": "A little script that can standardise the naming of a set of folders to kebab-case, snake_case, or CamelCase",
+    "categories": "bash",
+    "relative_path": "bash/tidy-folder-names"
+}
