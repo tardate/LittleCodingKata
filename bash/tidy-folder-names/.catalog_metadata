@@ -2,5 +2,8 @@
     "name": "Tidy Folder Names",
     "description": "A little script that can standardise the naming of a set of folders to kebab-case, snake_case, or CamelCase",
     "categories": "bash",
-    "relative_path": "bash/tidy-folder-names"
+    "relative_path": "bash/tidy-folder-names",
+    "updated_at": "2025-06-20T04:16:00Z",
+    "created_at": "2025-06-20T04:16:00Z",
+    "id": "#336"
 }

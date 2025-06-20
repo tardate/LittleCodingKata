@@ -1,4 +1,4 @@
-# #xxx Tidy Folder Names
+# #336 Tidy Folder Names
 
 A little script that can standardise the naming of a set of folders to kebab-case, snake_case, or CamelCase
 

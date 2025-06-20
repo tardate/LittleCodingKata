@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+#
+# See https://github.com/tardate/LittleCodingKata/tree/main/bash/tidy-folder-names
+#
 
 # Set default values for arguments
 directory=${1:-$(pwd)}
