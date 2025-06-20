@@ -1,4 +1,12 @@
 {
+    "/bash/tidy-folder-names/": {
+        "id": 336,
+        "title": "Tidy Folder Names",
+        "summary": "A little script that can standardise the naming of a set of folders to kebab-case, snake_case, or CamelCase",
+        "tags": [
+            "bash"
+        ]
+    },
     "/ruby/odd-sum-epic/": {
         "id": 335,
         "title": "The Odd-sum Epic",
