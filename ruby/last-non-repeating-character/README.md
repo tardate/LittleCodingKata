@@ -1,4 +1,4 @@
-# #xxx Last Non-repeating Character Challenge
+# #337 Last Non-repeating Character Challenge
 
 Using ruby to return the last non-repeating character in a string; cassidoo's interview question of the week (2025-06-30). It's hard to stop AI butting in to help, but don't accept the first answer it gives you.
 

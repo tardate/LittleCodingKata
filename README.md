@@ -1,6 +1,6 @@
-# 336 Little Coding Katas
+# 337 Little Coding Katas
 
-> Latest addition :sparkles: [Tidy Folder Names](./bash/tidy-folder-names) - A little script that can standardise the naming of a set of folders to kebab-case, snake_case, or CamelCase
+> Latest addition :sparkles: [Last Non-repeating Character Challenge](./ruby/last-non-repeating-character) - Using ruby to return the last non-repeating character in a string; cassidoo's interview question of the week (2025-06-30). It's hard to stop AI butting in to help, but don't accept the first answer it gives you.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
