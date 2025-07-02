@@ -1,5 +1,15 @@
 [
     {
+        "name": "Last Non-repeating Character Challenge",
+        "description": "Using ruby to return the last non-repeating character in a string; cassidoo's interview question of the week (2025-06-30). It's hard to stop AI butting in to help, but don't accept the first answer it gives you.",
+        "categories": "ruby, AI",
+        "relative_path": "ruby/last-non-repeating-character",
+        "updated_at": "2025-07-02T03:56:00Z",
+        "created_at": "2025-07-02T03:56:00Z",
+        "id": "#337",
+        "original_relative_path": "ruby/last-non-repeating-character"
+    },
+    {
         "name": "Tidy Folder Names",
         "description": "A little script that can standardise the naming of a set of folders to kebab-case, snake_case, or CamelCase",
         "categories": "bash",
