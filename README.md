@@ -1,6 +1,6 @@
-# 337 Little Coding Katas
+# 338 Little Coding Katas
 
-> Latest addition :sparkles: [Last Non-repeating Character Challenge](./ruby/last-non-repeating-character) - Using ruby to return the last non-repeating character in a string; cassidoo's interview question of the week (2025-06-30). It's hard to stop AI butting in to help, but don't accept the first answer it gives you.
+> Latest addition :sparkles: [rsync](./tools/rsync) - All about rsync - a fast, versatile, local and remote file-copying tool
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

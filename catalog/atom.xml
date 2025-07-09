@@ -14,6 +14,16 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/tools/rsync/</id>
+    <link href="https://codingkata.tardate.com/tools/rsync/"/>
+    <updated>2025-07-09T02:23:00Z</updated>
+    <title>#338 rsync</title>
+    <summary>All about rsync - a fast, versatile, local and remote file-copying tool</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;All about rsync - a fast, versatile, local and remote file-copying tool&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="rsync"/>
+    <category term="tools"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/ruby/last-non-repeating-character/</id>
     <link href="https://codingkata.tardate.com/ruby/last-non-repeating-character/"/>
     <updated>2025-07-02T03:56:00Z</updated>
@@ -2844,10 +2854,11 @@
     <id>https://codingkata.tardate.com/bash/sync_folder/</id>
     <link href="https://codingkata.tardate.com/bash/sync_folder/"/>
     <updated>2019-02-23T10:42:01Z</updated>
-    <title>#047 sync_folder</title>
+    <title>#047 Sync Folder</title>
     <summary>Comparing methods for synchronizing local folders - cp, rsync</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Comparing methods for synchronizing local folders - cp, rsync&lt;/p&gt;&lt;/div&gt;</content>
     <category term="bash"/>
+    <category term="rsync"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/cpp/doubletrouble/</id>

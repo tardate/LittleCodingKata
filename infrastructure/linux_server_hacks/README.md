@@ -55,10 +55,13 @@ by William von Hagen and Brian K. Jones, published by O'Reilly.
 
 * 37. Backing Up with tar over ssh
 * 38. Using rsync over ssh
+    * see [#338 rsync](../../tools/rsync/)
 * 39. Archiving with Pax
 * 40. Backing Up Your Boot Sector
 * 41. Keeping Parts of Filesystems in sync with rsync
+    * see [#338 rsync](../../tools/rsync/)
 * 42. Automated Snapshot-Style Incremental Backups with rsync
+    * see [#338 rsync](../../tools/rsync/)
 * 43. Working with ISOs and CDR/CDRWs
 * 44. Burning a CD Without Creating an ISO File
 

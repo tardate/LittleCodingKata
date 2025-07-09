@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-source_path=./original
-destination_path=./copy
+source_path=./tmp/original
+destination_path=./tmp/copy
 
 if [ -e ${destination_path} ] ; then
   rm -fR ${destination_path}

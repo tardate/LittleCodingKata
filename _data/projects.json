@@ -1,4 +1,13 @@
 {
+    "/tools/rsync/": {
+        "id": 338,
+        "title": "rsync",
+        "summary": "All about rsync - a fast, versatile, local and remote file-copying tool",
+        "tags": [
+            "rsync",
+            "tools"
+        ]
+    },
     "/ruby/last-non-repeating-character/": {
         "id": 337,
         "title": "Last Non-repeating Character Challenge",
@@ -2537,10 +2546,11 @@
     },
     "/bash/sync_folder/": {
         "id": 47,
-        "title": "sync_folder",
+        "title": "Sync Folder",
         "summary": "Comparing methods for synchronizing local folders - cp, rsync",
         "tags": [
-            "bash"
+            "bash",
+            "rsync"
         ]
     },
     "/cpp/doubletrouble/": {
