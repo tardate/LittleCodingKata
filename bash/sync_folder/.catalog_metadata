@@ -1,7 +1,7 @@
 {
-    "name": "sync_folder",
+    "name": "Sync Folder",
     "description": "Comparing methods for synchronizing local folders - cp, rsync",
-    "categories": "bash",
+    "categories": "bash, rsync",
     "relative_path": "bash/sync_folder",
     "updated_at": "2019-02-23T10:42:01Z",
     "id": "#047",

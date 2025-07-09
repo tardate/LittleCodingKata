@@ -1,0 +1,6 @@
+{
+    "name": "rsync",
+    "description": "All about rsync - a fast, versatile, local and remote file-copying tool",
+    "categories": "rsync, tools",
+    "relative_path": "tools/rsync"
+}

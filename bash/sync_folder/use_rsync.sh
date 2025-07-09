@@ -1,8 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-source_path=./original/
-destination_path=./copy
-
+source_path=./tmp/original/
+destination_path=./tmp/copy
 
 echo "Performing pristine copy of ${source_path} to ${destination_path}"
 rm -fR ${destination_path}
