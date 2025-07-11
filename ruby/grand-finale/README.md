@@ -64,7 +64,11 @@ This shows how one outlier (size: 50) can rescue an otherwise failing sub-array,
 The implication is that for every starting position, we really can't avoid checking all the way to the end of the array to see if a longer sub-array is possible.
 At least that would be the naïve approach. A smarter approach may be to recognise that it is only necessary to keep checking when we know there are elements later in the array that could possibly pull the average back up. I will leave that optimisation for later (maybe).
 
-See [examples.rb](./examples.rb) for the initial solution - it is an unoptimised evaluation of all possible spans.
+See [examples.rb](./examples.rb) for the initial solution, It is a fairly naïve approach, but I have included some obvious optimisations:
+
+* size, height, velocity are split into distinct number arrays making it easier to evaluate
+* skip the evaluation of sub-arrays if they would not result in a longer match
+* evaluate each candidate sub-array immediately, and only record the result if it is better; throw away the rest
 
 Let's try it with the example provided. The data is in [data_eg1.json](./data_eg1.json):
 
@@ -95,25 +99,18 @@ I've setup some extended validation in [test_examples.rb](./test_examples.rb):
 
     5 runs, 5 assertions, 0 failures, 0 errors, 0 skips
 
-### Optimizations?
-
-As mentioned already, the initial algorithm is the unoptimised, naïve approach. It evaluates all possible sub-arrays and returns the longest.
+### More Optimizations?
 
 Some possible optimisations that come to mind:
 
 * transform the data into a form that is easier to process. A few options:
-    * split the height, velocity, and size values into distinct number arrays
-    * or put the data in a [Matrix](https://ruby-doc.org/stdlib-2.5.1/libdoc/matrix/rdoc/Matrix.html) object for column-wise processing
+    * put the data in a [Matrix](https://ruby-doc.org/stdlib-2.5.1/libdoc/matrix/rdoc/Matrix.html) object for column-wise processing
     * or consider [narray](https://rubygems.org/gems/narray) or [numo-narray](https://rubygems.org/gems/numo-narray) gems
     * or switch to python and numpy
-* smarter evaluation of the results:
-    * the code currently records all details of all matched sub-arrays (for inspection and information)
-    * this is not necessary to get the expected answer
-    * so evaluate each sub-array match immediately, and only record the result if it is better; throw away the rest
 * short-circuit evaluation if it is known that a deficient average size cannot be recovered (the issue discussed above)
 * and clarify the requirement: "minimum velocity is 3" or "minimum velocity is *at least* 3"
 
-I haven't implemented any of these optimisations (yet).
+I haven't implemented any of these (yet).
 
 ### Example Code
 
@@ -135,19 +132,27 @@ Final code is in [examples.rb](./examples.rb):
         @max_length ||= input.size
       end
 
+      def input_sizes
+        @input_sizes ||= input.map { |item| item['size'] }
+      end
+
+      def input_heights
+        @input_heights ||= input.map { |item| item['height'] }
+      end
+
+      def input_velocities
+        @input_velocities ||= input.map { |item| item['velocity'] }
+      end
+
       def log_result(result)
         puts "Longest sub-array found: #{result}" if logging
       end
 
       def valid?(start, finish)
-        sizes = []
-        heights = []
-        velocities = []
-        (start..finish).each do |i|
-          sizes << input[i]['size']
-          heights << input[i]['height']
-          velocities << input[i]['velocity']
-        end
+        sizes = input_sizes[start..finish]
+        heights = input_heights[start..finish]
+        velocities = input_velocities[start..finish]
+
         average_size = sizes.sum / sizes.size.to_f
         minimum_velocity = velocities.min
         maximum_height = heights.max
@@ -159,15 +164,15 @@ Final code is in [examples.rb](./examples.rb):
       end
 
       def initial_solution
-        results = []
+        result = {length: 0}
         max_length.times do |start|
           (start..max_length - 1).each do |finish|
-            results << {start: start, finish: finish, length: finish - start + 1} if valid?(start, finish)
+            length = finish - start + 1
+            result = {start: start, finish: finish, length: length} if length > result[:length] && valid?(start, finish)
           end
         end
-        result = results.max_by { |r| r[:length] }
         log_result(result)
-        result&.dig(:start)
+        result[:start]
       end
     end
 

@@ -14,19 +14,27 @@ class GrandFinale
     @max_length ||= input.size
   end
 
+  def input_sizes
+    @input_sizes ||= input.map { |item| item['size'] }
+  end
+
+  def input_heights
+    @input_heights ||= input.map { |item| item['height'] }
+  end
+
+  def input_velocities
+    @input_velocities ||= input.map { |item| item['velocity'] }
+  end
+
   def log_result(result)
     puts "Longest sub-array found: #{result}" if logging
   end
 
   def valid?(start, finish)
-    sizes = []
-    heights = []
-    velocities = []
-    (start..finish).each do |i|
-      sizes << input[i]['size']
-      heights << input[i]['height']
-      velocities << input[i]['velocity']
-    end
+    sizes = input_sizes[start..finish]
+    heights = input_heights[start..finish]
+    velocities = input_velocities[start..finish]
+
     average_size = sizes.sum / sizes.size.to_f
     minimum_velocity = velocities.min
     maximum_height = heights.max
@@ -38,15 +46,15 @@ class GrandFinale
   end
 
   def initial_solution
-    results = []
+    result = {length: 0}
     max_length.times do |start|
       (start..max_length - 1).each do |finish|
-        results << {start: start, finish: finish, length: finish - start + 1} if valid?(start, finish)
+        length = finish - start + 1
+        result = {start: start, finish: finish, length: length} if length > result[:length] && valid?(start, finish)
       end
     end
-    result = results.max_by { |r| r[:length] }
     log_result(result)
-    result&.dig(:start)
+    result[:start]
   end
 end
 
