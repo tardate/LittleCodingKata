@@ -1,4 +1,4 @@
-# #xxx Fireworks Grand finale
+# #339 Fireworks Grand finale
 
 Using ruby to find the best fireworks grand finale; cassidoo's interview question of the week (2025-07-06).
 This time I turned off the AI and enjoyed thinking about the deceptively simple algorithmic challenge from first principles.
