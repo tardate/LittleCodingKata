@@ -30,7 +30,7 @@ end
 if __FILE__==$PROGRAM_NAME
   (puts "Usage: ruby #{$0} (string) (algorithm)"; exit) unless ARGV.length > 0
   input = ARGV[0]
-  algorithm = ARGV[1] || 'last_non_repeating_character'
+  algorithm = ARGV[1] || 'one_liner'
   puts "Using algorithm: #{algorithm}"
   calculator = LastNonRepeatingCharacter.new(input)
   puts "Input String: #{calculator.input}"
