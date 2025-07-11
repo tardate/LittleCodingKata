@@ -14,6 +14,15 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/ruby/grand-finale/</id>
+    <link href="https://codingkata.tardate.com/ruby/grand-finale/"/>
+    <updated>2025-07-11T09:09:00Z</updated>
+    <title>#339 Fireworks Grand finale</title>
+    <summary>Using ruby to find the best fireworks grand finale; cassidoo's interview question of the week (2025-07-06). This time I turned off the AI and enjoyed thinking about the deceptively simple algorithmic challenge from first principles.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using ruby to find the best fireworks grand finale; cassidoo's interview question of the week (2025-07-06). This time I turned off the AI and enjoyed thinking about the deceptively simple algorithmic challenge from first principles.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="ruby"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/tools/rsync/</id>
     <link href="https://codingkata.tardate.com/tools/rsync/"/>
     <updated>2025-07-09T02:23:00Z</updated>

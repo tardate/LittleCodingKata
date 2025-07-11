@@ -5,7 +5,7 @@ Using ruby to return the last non-repeating character in a string; cassidoo's in
 ## Notes
 
 The [interview question of the week (2025-06-30)](https://buttondown.com/cassidoo/archive/it-takes-courage-to-grow-up-and-become-who-you/)
-stirred up some wonderful discussion and coding:
+is an interesting example of classifying data:
 
 > Find the last non-repeating character in a given string. If all characters repeat, return an empty string.
 >
