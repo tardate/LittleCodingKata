@@ -26,6 +26,9 @@ The [interview question of the week (2025-07-06)](https://buttondown.com/cassido
 > grandFinaleStart(fireworks)
 > 2
 
+PS: if you actually want FIREWORKS, I followed this up with an Arduino implementation with fireworks simulation
+on an LED matrix. See [LEAP#777 GrandFinale](https://leap.tardate.com/boldportclub/thematrix/grandfinale/).
+
 ### Initial Analysis and Solution
 
 An eligible "grand finale" sub-array must meet the following criteria:
@@ -195,3 +198,4 @@ Final code is in [examples.rb](./examples.rb):
 ## Credits and References
 
 * [cassidoo's interview question of the week (2025-07-06)](https://buttondown.com/cassidoo/archive/a-genius-is-the-one-most-like-himself-thelonious/)
+* [LEAP#777 GrandFinale](https://leap.tardate.com/boldportclub/thematrix/grandfinale/) - same challenge, but solved on an Arduino with Fireworks simulation.
