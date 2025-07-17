@@ -1,4 +1,13 @@
 {
+    "/bash/image-renamer/": {
+        "id": 340,
+        "title": "Image/File Renamer",
+        "summary": "Ever have a bunch of files (like screenshots) that you want to give a standardised, sequential name and possibly generate a markdown link? Here's a script for that.",
+        "tags": [
+            "bash",
+            "tools"
+        ]
+    },
     "/ruby/grand-finale/": {
         "id": 339,
         "title": "Fireworks Grand finale",

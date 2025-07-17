@@ -1,5 +1,15 @@
 [
     {
+        "name": "Image/File Renamer",
+        "description": "Ever have a bunch of files (like screenshots) that you want to give a standardised, sequential name and possibly generate a markdown link? Here's a script for that.",
+        "categories": "bash, tools",
+        "relative_path": "bash/image-renamer",
+        "updated_at": "2025-07-17T15:21:00Z",
+        "created_at": "2025-07-17T15:21:00Z",
+        "id": "#340",
+        "original_relative_path": "bash/image-renamer"
+    },
+    {
         "name": "Fireworks Grand finale",
         "description": "Using ruby to find the best fireworks grand finale; cassidoo's interview question of the week (2025-07-06). This time I turned off the AI and enjoyed thinking about the deceptively simple algorithmic challenge from first principles.",
         "categories": "ruby, cassidoo",

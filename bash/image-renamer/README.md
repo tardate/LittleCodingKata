@@ -1,4 +1,4 @@
-# #xxx Image/File Renamer
+# #340 Image/File Renamer
 
 Ever have a bunch of files (like screenshots) that you want to give a standardised, sequential name and possibly generate a markdown link? Here's a script for that.
 
@@ -121,4 +121,4 @@ $ ./image-renamer.sh "./example-data/sample*.png" -b graphics-
 
 ## Credits and References
 
-* [name](url)
+* [getopts(1p) — Linux manual page](https://man7.org/linux/man-pages/man1/getopts.1p.html)
