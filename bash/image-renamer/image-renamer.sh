@@ -24,7 +24,7 @@ EOF
 # and rename using stem_name, file index, and keeping the original extension
 function rename_files() {
     local index=0
-    find ${source_path} -maxdepth 1 -type f | while IFS= read -r file; do
+    find ${source_path} -maxdepth 1 -type f -print0 | xargs -0 ls ${ls_opt} | while IFS= read -r file; do
         index=$((index + 1))
         local filename=$(basename "${file}")
         local foldername=$(dirname "${file}")
