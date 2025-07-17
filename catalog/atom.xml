@@ -14,6 +14,16 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/bash/image-renamer/</id>
+    <link href="https://codingkata.tardate.com/bash/image-renamer/"/>
+    <updated>2025-07-17T15:21:00Z</updated>
+    <title>#340 Image/File Renamer</title>
+    <summary>Ever have a bunch of files (like screenshots) that you want to give a standardised, sequential name and possibly generate a markdown link? Here's a script for that.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Ever have a bunch of files (like screenshots) that you want to give a standardised, sequential name and possibly generate a markdown link? Here's a script for that.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="bash"/>
+    <category term="tools"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/ruby/grand-finale/</id>
     <link href="https://codingkata.tardate.com/ruby/grand-finale/"/>
     <updated>2025-07-11T09:09:00Z</updated>

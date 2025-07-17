@@ -1,6 +1,6 @@
-# 339 Little Coding Katas
+# 340 Little Coding Katas
 
-> Latest addition :sparkles: [Fireworks Grand finale](./ruby/grand-finale) - Using ruby to find the best fireworks grand finale; cassidoo's interview question of the week (2025-07-06). This time I turned off the AI and enjoyed thinking about the deceptively simple algorithmic challenge from first principles.
+> Latest addition :sparkles: [Image/File Renamer](./bash/image-renamer) - Ever have a bunch of files (like screenshots) that you want to give a standardised, sequential name and possibly generate a markdown link? Here's a script for that.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
