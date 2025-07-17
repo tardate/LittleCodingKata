@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Source: https://github.com/tardate/LittleCodingKata/tree/main/bash/image-renamer
+#
 
 function usage() {
     cat <<EOF
