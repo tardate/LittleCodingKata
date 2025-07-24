@@ -4,6 +4,16 @@ AI training and tutorials (mainly free)
 
 ## Notes
 
+### Andrej Karpathy
+
+Nicely pitched technical intro to LLSM. Youtube introduction, currently
+
+* Intro to Large Language Models
+* Deep Dive into LLMs like ChatGPT
+* How I use LLMs
+
+[![clip](https://img.youtube.com/vi/zjkBMFhNj_g/0.jpg)](https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqRStI&index=1)
+
 ### Anthropic(Claude)
 
 Build with the API, Claude for business use, Claude for personal use.
