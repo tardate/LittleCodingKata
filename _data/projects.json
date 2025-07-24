@@ -1,4 +1,12 @@
 {
+    "/tools/ai/tutorials/": {
+        "id": 341,
+        "title": "AI Tutorials",
+        "summary": "AI training and tutorials (mainly free)",
+        "tags": [
+            "AI"
+        ]
+    },
     "/bash/image-renamer/": {
         "id": 340,
         "title": "Image/File Renamer",
