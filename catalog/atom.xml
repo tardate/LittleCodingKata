@@ -14,6 +14,17 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/ruby/assembly-planning-problem/</id>
+    <link href="https://codingkata.tardate.com/ruby/assembly-planning-problem/"/>
+    <updated>2025-07-28T05:41:00Z</updated>
+    <title>#342 The Keyboard Assembly Problem</title>
+    <summary>Using ruby to solve the keyboard assembly problem; cassidoo's interview question of the week (2025-07-21). Reminds me of my under-grad days learning production scheduling (SPT, EDD etc). Now I realise how much I've internalised these concepts as part of my working practices to get things done.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using ruby to solve the keyboard assembly problem; cassidoo's interview question of the week (2025-07-21). Reminds me of my under-grad days learning production scheduling (SPT, EDD etc). Now I realise how much I've internalised these concepts as part of my working practices to get things done.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="ruby"/>
+    <category term="cassidoo"/>
+    <category term="scheduling"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/tools/ai/tutorials/</id>
     <link href="https://codingkata.tardate.com/tools/ai/tutorials/"/>
     <updated>2025-07-24T15:27:00Z</updated>

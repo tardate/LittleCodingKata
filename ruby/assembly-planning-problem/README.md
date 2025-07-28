@@ -1,4 +1,4 @@
-# #xxx The Keyboard Assembly Problem
+# #342 The Keyboard Assembly Problem
 
 Using ruby to solve the keyboard assembly problem; cassidoo's interview question of the week (2025-07-21).
 Reminds me of my under-grad days learning production scheduling (SPT, EDD etc).
