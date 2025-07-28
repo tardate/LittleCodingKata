@@ -1,6 +1,6 @@
-# 341 Little Coding Katas
+# 342 Little Coding Katas
 
-> Latest addition :sparkles: [AI Tutorials](./tools/ai/tutorials) - AI training and tutorials (mainly free)
+> Latest addition :sparkles: [The Keyboard Assembly Problem](./ruby/assembly-planning-problem) - Using ruby to solve the keyboard assembly problem; cassidoo's interview question of the week (2025-07-21). Reminds me of my under-grad days learning production scheduling (SPT, EDD etc). Now I realise how much I've internalised these concepts as part of my working practices to get things done.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

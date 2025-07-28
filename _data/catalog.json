@@ -1,5 +1,15 @@
 [
     {
+        "name": "The Keyboard Assembly Problem",
+        "description": "Using ruby to solve the keyboard assembly problem; cassidoo's interview question of the week (2025-07-21). Reminds me of my under-grad days learning production scheduling (SPT, EDD etc). Now I realise how much I've internalised these concepts as part of my working practices to get things done.",
+        "categories": "ruby, cassidoo, scheduling",
+        "relative_path": "ruby/assembly-planning-problem",
+        "updated_at": "2025-07-28T05:41:00Z",
+        "created_at": "2025-07-28T05:41:00Z",
+        "id": "#342",
+        "original_relative_path": "ruby/assembly-planning-problem"
+    },
+    {
         "name": "AI Tutorials",
         "description": "AI training and tutorials (mainly free)",
         "categories": "AI",
