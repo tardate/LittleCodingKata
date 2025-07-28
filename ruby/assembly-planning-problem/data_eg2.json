@@ -1,0 +1,6 @@
+[
+  { "name": "part-a1", "arrivalDays": 0, "assemblyHours": 30 },
+  { "name": "part-a2", "arrivalDays": 0, "assemblyHours": 60 },
+  { "name": "part-b1", "arrivalDays": 1, "assemblyHours": 2 },
+  { "name": "part-b2", "arrivalDays": 1, "assemblyHours": 6 }
+]

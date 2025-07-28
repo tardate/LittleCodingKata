@@ -1,0 +1,7 @@
+[
+  { "name": "keycaps", "arrivalDays": 1, "assemblyHours": 2 },
+  { "name": "switches", "arrivalDays": 2, "assemblyHours": 3 },
+  { "name": "stabilizers", "arrivalDays": 0, "assemblyHours": 1 },
+  { "name": "PCB", "arrivalDays": 1, "assemblyHours": 4 },
+  { "name": "case", "arrivalDays": 3, "assemblyHours": 2 }
+]
