@@ -1,5 +1,15 @@
 [
     {
+        "name": "Tiktokenizer",
+        "description": "Tiktokenizer is a playground for simulating and visualising the tokenization performed by various LLMs.",
+        "categories": "tools, AI",
+        "relative_path": "tools/ai/tiktokenizer",
+        "updated_at": "2025-07-29T14:18:00Z",
+        "created_at": "2025-07-29T14:18:00Z",
+        "id": "#344",
+        "original_relative_path": "tools/ai/tiktokenizer"
+    },
+    {
         "name": "AI Leaderboards",
         "description": "Tracking some of the main AI leaderboards",
         "categories": "tools, AI",
