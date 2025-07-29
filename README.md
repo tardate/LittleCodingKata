@@ -1,6 +1,6 @@
-# 343 Little Coding Katas
+# 344 Little Coding Katas
 
-> Latest addition :sparkles: [AI Leaderboards](./tools/ai/leaderboards) - Tracking some of the main AI leaderboards
+> Latest addition :sparkles: [Tiktokenizer](./tools/ai/tiktokenizer) - Tiktokenizer is a playground for simulating and visualising the tokenization performed by various LLMs.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

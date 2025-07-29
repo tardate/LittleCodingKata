@@ -1,4 +1,4 @@
-# #xxx Tiktokenizer
+# #344 Tiktokenizer
 
 Tiktokenizer is a playground for simulating and visualising the tokenization performed by various LLMs.
 
