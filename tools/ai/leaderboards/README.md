@@ -1,4 +1,4 @@
-# #xxx AI Leaderboards
+# #343 AI Leaderboards
 
 Tracking some of the main AI leaderboards
 

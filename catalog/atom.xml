@@ -14,6 +14,16 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/tools/ai/leaderboards/</id>
+    <link href="https://codingkata.tardate.com/tools/ai/leaderboards/"/>
+    <updated>2025-07-29T13:44:00Z</updated>
+    <title>#343 AI Leaderboards</title>
+    <summary>Tracking some of the main AI leaderboards</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Tracking some of the main AI leaderboards&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="tools"/>
+    <category term="AI"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/ruby/assembly-planning-problem/</id>
     <link href="https://codingkata.tardate.com/ruby/assembly-planning-problem/"/>
     <updated>2025-07-28T05:41:00Z</updated>

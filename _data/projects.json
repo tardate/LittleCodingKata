@@ -1,4 +1,13 @@
 {
+    "/tools/ai/leaderboards/": {
+        "id": 343,
+        "title": "AI Leaderboards",
+        "summary": "Tracking some of the main AI leaderboards",
+        "tags": [
+            "tools",
+            "AI"
+        ]
+    },
     "/ruby/assembly-planning-problem/": {
         "id": 342,
         "title": "The Keyboard Assembly Problem",
