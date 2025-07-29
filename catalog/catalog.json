@@ -1,5 +1,15 @@
 [
     {
+        "name": "AI Leaderboards",
+        "description": "Tracking some of the main AI leaderboards",
+        "categories": "tools, AI",
+        "relative_path": "tools/ai/leaderboards",
+        "updated_at": "2025-07-29T13:44:00Z",
+        "created_at": "2025-07-29T13:44:00Z",
+        "id": "#343",
+        "original_relative_path": "tools/ai/leaderboards"
+    },
+    {
         "name": "The Keyboard Assembly Problem",
         "description": "Using ruby to solve the keyboard assembly problem; cassidoo's interview question of the week (2025-07-21). Reminds me of my under-grad days learning production scheduling (SPT, EDD etc). Now I realise how much I've internalised these concepts as part of my working practices to get things done.",
         "categories": "ruby, cassidoo, scheduling",
