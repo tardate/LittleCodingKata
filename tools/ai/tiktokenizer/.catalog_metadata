@@ -1,0 +1,6 @@
+{
+    "name": "Tiktokenizer",
+    "description": "Tiktokenizer is a playground for simulating and visualising the tokenization performed by various LLMs.",
+    "categories": "tools, AI",
+    "relative_path": "tools/ai/tiktokenizer"
+}
