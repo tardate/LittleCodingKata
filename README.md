@@ -1,6 +1,6 @@
-# 344 Little Coding Katas
+# 345 Little Coding Katas
 
-> Latest addition :sparkles: [Tiktokenizer](./tools/ai/tiktokenizer) - Tiktokenizer is a playground for simulating and visualising the tokenization performed by various LLMs.
+> Latest addition :sparkles: [Color tools for Ruby](./ruby/color-gem) - A quick look at the color gem: a Ruby library used to represent colors in a range of color models and offer color space manipulation support to applications that require it.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
