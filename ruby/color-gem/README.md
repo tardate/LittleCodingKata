@@ -1,4 +1,4 @@
-# #345 Color tools for Ruby
+# #xxx Color tools for Ruby
 
 A quick look at the color gem: a Ruby library used to represent colors in a range of color models and offer color space manipulation support to applications that require it.
 
@@ -24,7 +24,7 @@ and blue) of light are added to produce millions of colors. RGB rendering is
 device-dependent and without color management, the same "red" color will render
 differently.
 
-This class does not implement color management and is not RGB colorspace aware; that is, unless otherwise noted, it does not assume that the RGB represented is
+This class does not implement color management and is not RGB color space aware; that is, unless otherwise noted, it does not assume that the RGB represented is
 [sRGB](https://en.wikipedia.org/wiki/SRGB) or
 [Adobe RGB (opRGB)](https://en.wikipedia.org/wiki/Adobe_RGB_color_space).
 
