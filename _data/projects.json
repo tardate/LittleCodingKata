@@ -1,4 +1,12 @@
 {
+    "/ruby/color-gem/": {
+        "id": 345,
+        "title": "Color tools for Ruby",
+        "summary": "A quick look at the color gem: a Ruby library used to represent colors in a range of color models and offer color space manipulation support to applications that require it.",
+        "tags": [
+            "ruby"
+        ]
+    },
     "/tools/ai/tiktokenizer/": {
         "id": 344,
         "title": "Tiktokenizer",

@@ -1,4 +1,4 @@
-# #xxx Color tools for Ruby
+# #345 Color tools for Ruby
 
 A quick look at the color gem: a Ruby library used to represent colors in a range of color models and offer color space manipulation support to applications that require it.
 

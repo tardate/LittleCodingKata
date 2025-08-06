@@ -2,5 +2,8 @@
     "name": "Color tools for Ruby",
     "description": "A quick look at the color gem: a Ruby library used to represent colors in a range of color models and offer color space manipulation support to applications that require it.",
     "categories": "ruby",
-    "relative_path": "ruby/color-gem"
+    "relative_path": "ruby/color-gem",
+    "updated_at": "2025-08-06T16:19:00Z",
+    "created_at": "2025-08-06T16:19:00Z",
+    "id": "#345"
 }
