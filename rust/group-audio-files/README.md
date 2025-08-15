@@ -185,7 +185,7 @@ Using FFD:
 * The next `12` fits in bucket 2, with `5` remaining.
 * The next `6` cannot fit, so it goes into a new bucket 3
 
-Resulting in 3 buckets: `[[82, 15], [43, 40, 12], [6]]``
+Resulting in 3 buckets: `[[82, 15], [43, 40, 12], [6]]`
 
 Using BFD:
 
@@ -281,8 +281,11 @@ fn main() -> Result<(), ExitFailure> {
         .collect();
     println!("Song durations: {:?}", durations);
 
-    let result = gaffer::ffd(durations, max_duration);
-    println!("Playlists (by FDD): {:?}", result);
+    let ffd_result = gaffer::ffd(&durations, max_duration);
+    println!("Playlists (by FDD): {:?}", ffd_result);
+    let bfd_result = gaffer::bfd(&durations, max_duration);
+    println!("Playlists (by BFD): {:?}", bfd_result);
+
     Ok(())
 }
 ```
