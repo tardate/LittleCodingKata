@@ -29,21 +29,24 @@ mod tests {
 
     #[test]
     fn ffd_works_with_example1() {
-        assert_eq!(ffd(vec![120, 90, 60, 150, 80], 200),
+        assert_eq!(
+            ffd(vec![120, 90, 60, 150, 80], 200),
             vec![vec![150], vec![120, 80], vec![90, 60]]
         );
     }
 
     #[test]
     fn ffd_works_with_example2() {
-        assert_eq!(ffd(vec![120, 90, 60, 150, 80], 160),
+        assert_eq!(
+            ffd(vec![120, 90, 60, 150, 80], 160),
             vec![vec![150], vec![120], vec![90,60], vec![80]]
         );
     }
 
     #[test]
     fn ffd_handles_songs_longer_than_playlist() {
-        assert_eq!(ffd(vec![120, 90, 60, 150, 80], 140),
+        assert_eq!(
+            ffd(vec![120, 90, 60, 150, 80], 140),
             vec![vec![150], vec![120], vec![90], vec![80, 60]]
         );
     }
