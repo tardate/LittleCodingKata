@@ -216,16 +216,20 @@ I've added some basic unit tests for the main algorithm functions:
 
 ```sh
 $ cargo test
-   Compiling gaffer v0.1.0 (~/LittleCodingKata/rust/group-audio-files/gaffer)
-    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.13s
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.05s
      Running unittests src/lib.rs (target/debug/deps/gaffer-39e94afbf3e080de)
 
-running 3 tests
+running 8 tests
+test tests::bfd_handles_songs_longer_than_playlist ... ok
+test tests::bfd_works_with_example1 ... ok
 test tests::ffd_handles_songs_longer_than_playlist ... ok
+test tests::bfd_works_with_ffd_bfd_differential_example ... ok
 test tests::ffd_works_with_example1 ... ok
+test tests::bfd_works_with_example2 ... ok
 test tests::ffd_works_with_example2 ... ok
+test tests::ffd_works_with_ffd_bfd_differential_example ... ok
 
-test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+test result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
 
      Running unittests src/main.rs (target/debug/deps/gaffer-aec5488147b482a8)
 
