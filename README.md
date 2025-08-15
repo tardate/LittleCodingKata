@@ -1,6 +1,6 @@
 # 346 Little Coding Katas
 
-> Latest addition :sparkles: [Group Audio Files](./rust/group-audio-files) - Using rust to organise songs into playlists; cassidoo's interview question of the week (2025-08-11).
+> Latest addition :sparkles: [Group Audio Files](./rust/group-audio-files) - Using rust to organise songs into playlists; cassidoo's interview question of the week (2025-08-11). Compares results from First Fit Decreasing (FFD) and Best Fit Decreasing (BFD) bin packing algorithms.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

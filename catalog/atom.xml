@@ -18,8 +18,8 @@
     <link href="https://codingkata.tardate.com/rust/group-audio-files/"/>
     <updated>2025-08-15T04:27:00Z</updated>
     <title>#346 Group Audio Files</title>
-    <summary>Using rust to organise songs into playlists; cassidoo's interview question of the week (2025-08-11).</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Using rust to organise songs into playlists; cassidoo's interview question of the week (2025-08-11).&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>Using rust to organise songs into playlists; cassidoo's interview question of the week (2025-08-11). Compares results from First Fit Decreasing (FFD) and Best Fit Decreasing (BFD) bin packing algorithms.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using rust to organise songs into playlists; cassidoo's interview question of the week (2025-08-11). Compares results from First Fit Decreasing (FFD) and Best Fit Decreasing (BFD) bin packing algorithms.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="rust"/>
     <category term="cassidoo"/>
   </entry>

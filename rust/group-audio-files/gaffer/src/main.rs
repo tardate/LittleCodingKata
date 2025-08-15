@@ -25,7 +25,10 @@ fn main() -> Result<(), ExitFailure> {
         .collect();
     println!("Song durations: {:?}", durations);
 
-    let result = gaffer::ffd(durations, max_duration);
-    println!("Playlists (by FDD): {:?}", result);
+    let ffd_result = gaffer::ffd(&durations, max_duration);
+    println!("Playlists (by FDD): {:?}", ffd_result);
+    let bfd_result = gaffer::bfd(&durations, max_duration);
+    println!("Playlists (by BFD): {:?}", bfd_result);
+
     Ok(())
 }

@@ -1,7 +1,7 @@
 [
     {
         "name": "Group Audio Files",
-        "description": "Using rust to organise songs into playlists; cassidoo's interview question of the week (2025-08-11).",
+        "description": "Using rust to organise songs into playlists; cassidoo's interview question of the week (2025-08-11). Compares results from First Fit Decreasing (FFD) and Best Fit Decreasing (BFD) bin packing algorithms.",
         "categories": "rust, cassidoo",
         "relative_path": "rust/group-audio-files",
         "updated_at": "2025-08-15T04:27:00Z",
