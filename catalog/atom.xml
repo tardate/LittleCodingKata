@@ -14,6 +14,15 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/rust/group-audio-files/</id>
+    <link href="https://codingkata.tardate.com/rust/group-audio-files/"/>
+    <updated>2025-08-15T04:27:00Z</updated>
+    <title>#346 Group Audio Files</title>
+    <summary>Using rust to organise songs into playlists; cassidoo's interview question of the week (2025-08-11).</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using rust to organise songs into playlists; cassidoo's interview question of the week (2025-08-11).&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="rust"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/ruby/color-gem/</id>
     <link href="https://codingkata.tardate.com/ruby/color-gem/"/>
     <updated>2025-08-06T16:19:00Z</updated>
@@ -206,7 +215,7 @@
     <title>#326 catsay GUI</title>
     <summary>Building the GUI catsay example from Practical Rust Projects, learning about making graphical interface programs with Rust</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Building the GUI catsay example from Practical Rust Projects, learning about making graphical interface programs with Rust&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Rust"/>
+    <category term="rust"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/catsay-tui/</id>
@@ -215,7 +224,7 @@
     <title>#325 catsay TUI</title>
     <summary>Building the text UI catsay example from Practical Rust Projects, learning about making text UI programs with Rust</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Building the text UI catsay example from Practical Rust Projects, learning about making text UI programs with Rust&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Rust"/>
+    <category term="rust"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/cli-catsay/</id>
@@ -224,7 +233,7 @@
     <title>#324 catsay CLI</title>
     <summary>Building the catsay example from Practical Rust Projects, learning about making command-line programs with Rust</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Building the catsay example from Practical Rust Projects, learning about making command-line programs with Rust&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Rust"/>
+    <category term="rust"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/practical-rust-projects/</id>
@@ -569,7 +578,7 @@
     <title>#289 Installing Rust for macOS</title>
     <summary>Rust - installing on macOS</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Rust - installing on macOS&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Rust"/>
+    <category term="rust"/>
     <category term="macOS"/>
   </entry>
   <entry>
@@ -3319,16 +3328,16 @@
     <title>#006 Rust/about</title>
     <summary>Rust - my tl;dr summary</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Rust - my tl;dr summary&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Rust"/>
+    <category term="rust"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/hello_world/</id>
     <link href="https://codingkata.tardate.com/rust/hello_world/"/>
     <updated>2016-07-10T13:14:48Z</updated>
-    <title>#005 Rust/hello_world</title>
+    <title>#005 Hello World in Rust</title>
     <summary>Rust - Hello World with concurrency</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Rust - Hello World with concurrency&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="Rust"/>
+    <category term="rust"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/catalog/</id>

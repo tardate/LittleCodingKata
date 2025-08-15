@@ -1,4 +1,4 @@
-# #xxx Group Audio Files
+# #346 Group Audio Files
 
 Using rust to organise songs into playlists; cassidoo's interview question of the week (2025-08-11).
 
