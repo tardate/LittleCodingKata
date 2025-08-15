@@ -2,7 +2,7 @@
     "id": "#289",
     "name": "Installing Rust for macOS",
     "description": "Rust - installing on macOS",
-    "categories": "Rust, macOS",
+    "categories": "rust, macOS",
     "relative_path": "rust/install_macosx",
     "updated_at": "2024-07-09T12:04:13Z",
     "created_at": "2024-07-09T12:04:13Z"

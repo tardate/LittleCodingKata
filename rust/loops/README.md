@@ -17,40 +17,47 @@ All four types of loop support break expressions, continue expressions, and labe
 
 aka [Infinite loops](https://doc.rust-lang.org/reference/expressions/loop-expr.html#infinite-loops)
 
-    loop {
-        statements
-    }
+```rust
+loop {
+  statements
+}
+```
 
 ### While
 
 aka [Predicate loops](https://doc.rust-lang.org/reference/expressions/loop-expr.html#predicate-loops)
 
-    while condition {
-        statements
-    }
+```rust
+while condition {
+  statements
+}
+```
 
 ### While let
 
 aka [Predicate pattern loops](https://doc.rust-lang.org/reference/expressions/loop-expr.html#predicate-pattern-loops)
 
-    while let MatchArmPatterns = Expression {
-        statements
-    }
+```rust
+while let MatchArmPatterns = Expression {
+  statements
+}
+```
 
 ### For
 
 aka [Iterator loops](https://doc.rust-lang.org/reference/expressions/loop-expr.html#iterator-loops)
 
-    for Pattern in Expression {
-        Statements
-    }
-
+```rust
+for Pattern in Expression {
+  Statements
+}
+```
 
 ### Running the Examples
 
 Running the tests:
 
-```
+```sh
 $ cargo test
    Compiling example v0.1.0 (.../LittleCodingKata/rust/loops/example)
     Finished test [unoptimized + debuginfo] target(s) in 0.43s
@@ -80,7 +87,7 @@ test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
 
 Running the program:
 
-```
+```sh
 $ cargo run
    Compiling example v0.1.0 (.../LittleCodingKata/rust/loops/example)
     Finished dev [unoptimized + debuginfo] target(s) in 0.19s

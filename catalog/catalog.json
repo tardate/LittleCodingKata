@@ -1,5 +1,15 @@
 [
     {
+        "name": "Group Audio Files",
+        "description": "Using rust to organise songs into playlists; cassidoo's interview question of the week (2025-08-11). Compares results from First Fit Decreasing (FFD) and Best Fit Decreasing (BFD) bin packing algorithms.",
+        "categories": "rust, cassidoo",
+        "relative_path": "rust/group-audio-files",
+        "updated_at": "2025-08-15T04:27:00Z",
+        "created_at": "2025-08-15T04:27:00Z",
+        "id": "#346",
+        "original_relative_path": "rust/group-audio-files"
+    },
+    {
         "name": "Color tools for Ruby",
         "description": "A quick look at the color gem: a Ruby library used to represent colors in a range of color models and offer color space manipulation support to applications that require it.",
         "categories": "ruby",
@@ -192,7 +202,7 @@
     {
         "name": "catsay GUI",
         "description": "Building the GUI catsay example from Practical Rust Projects, learning about making graphical interface programs with Rust",
-        "categories": "Rust",
+        "categories": "rust",
         "relative_path": "rust/catsay-gui",
         "updated_at": "2025-04-29T08:28:00Z",
         "created_at": "2025-04-29T08:28:00Z",
@@ -202,7 +212,7 @@
     {
         "name": "catsay TUI",
         "description": "Building the text UI catsay example from Practical Rust Projects, learning about making text UI programs with Rust",
-        "categories": "Rust",
+        "categories": "rust",
         "relative_path": "rust/catsay-tui",
         "updated_at": "2025-04-29T05:13:00Z",
         "created_at": "2025-04-29T05:13:00Z",
@@ -212,7 +222,7 @@
     {
         "name": "catsay CLI",
         "description": "Building the catsay example from Practical Rust Projects, learning about making command-line programs with Rust",
-        "categories": "Rust",
+        "categories": "rust",
         "relative_path": "rust/cli-catsay",
         "updated_at": "2025-04-16T05:48:00Z",
         "created_at": "2025-04-16T05:48:00Z",
@@ -563,7 +573,7 @@
         "id": "#289",
         "name": "Installing Rust for macOS",
         "description": "Rust - installing on macOS",
-        "categories": "Rust, macOS",
+        "categories": "rust, macOS",
         "relative_path": "rust/install_macosx",
         "updated_at": "2024-07-09T12:04:13Z",
         "created_at": "2024-07-09T12:04:13Z",
@@ -3393,7 +3403,7 @@
         "id": "#006",
         "name": "Rust/about",
         "description": "Rust - my tl;dr summary",
-        "categories": "Rust",
+        "categories": "rust",
         "relative_path": "rust/about",
         "updated_at": "2016-07-10T13:14:48Z",
         "created_at": "2016-07-10T13:14:48Z",
@@ -3401,9 +3411,9 @@
     },
     {
         "id": "#005",
-        "name": "Rust/hello_world",
+        "name": "Hello World in Rust",
         "description": "Rust - Hello World with concurrency",
-        "categories": "Rust",
+        "categories": "rust",
         "relative_path": "rust/hello_world",
         "updated_at": "2016-07-10T13:14:48Z",
         "created_at": "2016-07-10T13:14:48Z",

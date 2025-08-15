@@ -1,4 +1,4 @@
-/// Trival example function with documentation and a doc test.
+/// Trivial example function with documentation and a doc test.
 ///
 /// # Examples
 ///

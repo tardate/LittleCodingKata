@@ -185,5 +185,6 @@ Final code is in [examples.rb](./examples.rb):
 ## Credits and References
 
 * [RIOT: The Scheduling Problem](https://riot.ieor.berkeley.edu/Applications/Scheduling/algorithms.html)
+* [Optimal job scheduling](https://en.wikipedia.org/wiki/Optimal_job_scheduling)
 * [Single-machine scheduling](https://en.wikipedia.org/wiki/Single-machine_scheduling)
 * [Integrated Production, Control Systems: Management, Analysis, and Design](https://www.goodreads.com/book/show/2193350.Integrated_Production_Control_Systems) by David D. Bedworth, James E. Bailey. First published January 1, 1987.

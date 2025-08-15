@@ -1,4 +1,13 @@
 {
+    "/rust/group-audio-files/": {
+        "id": 346,
+        "title": "Group Audio Files",
+        "summary": "Using rust to organise songs into playlists; cassidoo's interview question of the week (2025-08-11). Compares results from First Fit Decreasing (FFD) and Best Fit Decreasing (BFD) bin packing algorithms.",
+        "tags": [
+            "rust",
+            "cassidoo"
+        ]
+    },
     "/ruby/color-gem/": {
         "id": 345,
         "title": "Color tools for Ruby",
@@ -171,7 +180,7 @@
         "title": "catsay GUI",
         "summary": "Building the GUI catsay example from Practical Rust Projects, learning about making graphical interface programs with Rust",
         "tags": [
-            "Rust"
+            "rust"
         ]
     },
     "/rust/catsay-tui/": {
@@ -179,7 +188,7 @@
         "title": "catsay TUI",
         "summary": "Building the text UI catsay example from Practical Rust Projects, learning about making text UI programs with Rust",
         "tags": [
-            "Rust"
+            "rust"
         ]
     },
     "/rust/cli-catsay/": {
@@ -187,7 +196,7 @@
         "title": "catsay CLI",
         "summary": "Building the catsay example from Practical Rust Projects, learning about making command-line programs with Rust",
         "tags": [
-            "Rust"
+            "rust"
         ]
     },
     "/rust/practical-rust-projects/": {
@@ -496,7 +505,7 @@
         "title": "Installing Rust for macOS",
         "summary": "Rust - installing on macOS",
         "tags": [
-            "Rust",
+            "rust",
             "macOS"
         ]
     },
@@ -2963,15 +2972,15 @@
         "title": "Rust/about",
         "summary": "Rust - my tl;dr summary",
         "tags": [
-            "Rust"
+            "rust"
         ]
     },
     "/rust/hello_world/": {
         "id": 5,
-        "title": "Rust/hello_world",
+        "title": "Hello World in Rust",
         "summary": "Rust - Hello World with concurrency",
         "tags": [
-            "Rust"
+            "rust"
         ]
     },
     "/catalog/": {
