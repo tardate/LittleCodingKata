@@ -16,7 +16,7 @@ i.e. similar to bundler and rubygems in the Ruby world.
 
 ### Making a Project with Cargo
 
-```
+```sh
 $ cargo new helloc
      Created binary (application) `helloc` package
 $ cd helloc/
@@ -29,7 +29,7 @@ Generated files:
 
 Building and Run:
 
-```
+```sh
 $ cargo build
    Compiling helloc v0.1.0 (.../project_with_cargo/helloc)
     Finished dev [unoptimized + debuginfo] target(s) in 1.61s
@@ -39,7 +39,7 @@ Hello, world!
 
 Alternatively, use `cargo run` to update compilation and run (like using a makefile)
 
-```
+```sh
 $ cargo run
     Finished dev [unoptimized + debuginfo] target(s) in 0.08s
      Running `target/debug/helloc`
@@ -48,7 +48,7 @@ Hello, world!
 
 Build for release
 
-```
+```sh
 $ cargo build --release
    Compiling helloc v0.1.0 (.../project_with_cargo/helloc)
     Finished release [optimized] target(s) in 1.48s
@@ -58,14 +58,15 @@ $ cargo build --release
 
 I've picked the [rand](https://crates.io/crates/rand) crate for a simple example.
 Adding to the manifest:
-```
+
+```txt
 [dependencies]
 rand = "0.7"
 ```
 
 Running `cargo` installs the dependency and builds the updated project (which exercises some basic random capabilities):
 
-```
+```sh
 $ cargo run
     Finished dev [unoptimized + debuginfo] target(s) in 0.02s
      Running `target/debug/helloc`

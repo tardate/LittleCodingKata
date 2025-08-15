@@ -1,8 +1,8 @@
-# #005 Rust/hello_world
+# #005 Hello World in Rust
 
 So the simplest "hello world" in rust is very C-like:
 
-```
+```rust
 fn main() {
     println!("Hello, world!");
 }
@@ -10,7 +10,7 @@ fn main() {
 
 and runs as expected:
 
-```
+```sh
 $ rustc hello_world.rs
 $ ./hello_world
 Hello, world!
@@ -28,8 +28,7 @@ Believe it or not, this example actually comes from the
 [Rust wikipedia](https://en.wikipedia.org/wiki/Rust_(programming_language))
 page, with modifications.
 
-
-```
+```sh
 $ rustc concurrent_hello_world.rs
 $ ./concurrent_hello_world
 Hello from thread number 0

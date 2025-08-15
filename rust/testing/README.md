@@ -33,10 +33,9 @@ Other things to note about testing:
 
 * Rust’s privacy rules allow you to test private functions
 
-
 ### Testing a Library
 
-```
+```sh
 $ cargo new tested_lib --lib
      Created library `tested_lib` package
 $ cd tested_lib/
@@ -52,7 +51,7 @@ Added a few examples/demonstrations to this project including:
 
 Running the tests:
 
-```
+```sh
 $ cargo test
    Compiling tested_lib v0.1.0 (.../rust/testing/tested_lib)
     Finished test [unoptimized + debuginfo] target(s) in 1.80s
@@ -88,13 +87,13 @@ Solution:
 * put functionality that needs integration testing in supporting library create so it can be tested
 * unit test `src/main.rs`, or just make it so trivial that it doesn't need additional testing
 
-```
+```sh
 $ cargo new tested_app
      Created binary (application) `tested_app` package
 $ cd tested_app/
 ```
 
-```
+```sh
 $ cargo test
    Compiling tested_app v0.1.0 (.../rust/testing/tested_app)
     Finished test [unoptimized + debuginfo] target(s) in 1.76s
@@ -129,7 +128,8 @@ test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
 ```
 
 Running the app:
-```
+
+```sh
 $ cargo run
     Finished dev [unoptimized + debuginfo] target(s) in 0.01s
      Running `target/debug/tested_app`
