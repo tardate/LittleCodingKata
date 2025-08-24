@@ -14,6 +14,16 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/rust/create-laundry-item/</id>
+    <link href="https://codingkata.tardate.com/rust/create-laundry-item/"/>
+    <updated>2025-08-24T12:44:00Z</updated>
+    <title>#347 Create Laundry Item</title>
+    <summary>Using rust to implement a generator for a laundry object; cassidoo's interview question of the week (2025-08-11). Rust does not encourage classic object-oriented patterns by default, but it can be used to model similar concepts with the struct keyword.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using rust to implement a generator for a laundry object; cassidoo's interview question of the week (2025-08-11). Rust does not encourage classic object-oriented patterns by default, but it can be used to model similar concepts with the struct keyword.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="rust"/>
+    <category term="cassidoo"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/rust/group-audio-files/</id>
     <link href="https://codingkata.tardate.com/rust/group-audio-files/"/>
     <updated>2025-08-15T04:27:00Z</updated>

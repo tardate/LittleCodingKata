@@ -1,4 +1,4 @@
-# #xxx Create Laundry Item
+# #347 Create Laundry Item
 
 Using rust to implement a generator for a laundry object; cassidoo's interview question of the week (2025-08-11).
 Rust does not encourage classic object-oriented patterns by default, but it can be used to model similar concepts with the struct keyword.
