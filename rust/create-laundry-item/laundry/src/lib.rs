@@ -24,7 +24,7 @@ impl LaundryItem {
     }
 }
 
-#[derive(Debug, PartialEq, Eq, Clone, Copy)]
+#[derive(Debug)]
 enum LaundryState {
     Ready,
     Soak,
