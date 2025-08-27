@@ -9,9 +9,9 @@ Investigating new features in Ruby 2.7.0, released 2019-12-25
 After updating rvm, "ruby-2.7.0" is available for installation.
 NB: `.ruby-version` and `.ruby-gemset` in this folder are setup to isolate an Ruby 2.7 environment.
 
-```
-$ rvm get stable
-$ rvm install "ruby-2.7.0"
+```sh
+rvm get stable
+rvm install "ruby-2.7.0"
 ```
 
 ### Syntax Changes
@@ -23,7 +23,7 @@ $ rvm install "ruby-2.7.0"
 * rescue with mutilple assignment
 * beginless ranges
 
-```
+```sh
 $ ./test_syntax_changes.rb
 ...
 4 runs, 10 assertions, 0 failures, 0 errors, 0 skips
@@ -37,7 +37,7 @@ $ ./test_syntax_changes.rb
 * filter_map
 * tally
 
-```
+```sh
 $ ./test_enumerables.rb
 ...
 3 runs, 3 assertions, 0 failures, 0 errors, 0 skips
@@ -48,9 +48,9 @@ $ ./test_enumerables.rb
 [test_numbered_parameters.rb](./test_numbered_parameters.rb) tests the
 [numbered block parameter new feature](https://rubyreferences.github.io/rubychanges/2.7.html#numbered-block-parameters):
 
-> In block without explicitly specified parameters, variables _1 through _9 can be used to reference parameters.
+> In block without explicitly specified parameters, variables _1 through_9 can be used to reference parameters.
 
-```
+```sh
 $ ./test_numbered_parameters.rb
 ...
 4 runs, 4 assertions, 0 failures, 0 errors, 0 skips
@@ -63,7 +63,7 @@ $ ./test_numbered_parameters.rb
 
 * Argument forwarding
 
-```
+```sh
 $ ./test_keyword_args.rb
 ...
 2 runs, 6 assertions, 0 failures, 0 errors, 0 skips
@@ -74,12 +74,11 @@ $ ./test_keyword_args.rb
 [test_pattern_matching.rb](./test_pattern_matching.rb) tests the
 [new and experimental pattern matching feature](https://rubyreferences.github.io/rubychanges/2.7.html#pattern-matching)
 
-```
+```sh
 $ ./test_pattern_matching.rb
 ...
 2 runs, 6 assertions, 0 failures, 0 errors, 0 skips
 ```
-
 
 ## Credits and References
 

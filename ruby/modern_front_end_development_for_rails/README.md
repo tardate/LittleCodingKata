@@ -1,6 +1,6 @@
 # #154 Modern Front-End Development for Rails
 
-Notes on the book Modern Front-End Development for Rails, By Noel Rappin, pubished by The Pragmatic Programmers.
+Notes on the book Modern Front-End Development for Rails, By Noel Rappin, published by The Pragmatic Programmers.
 
 ## Notes
 
@@ -8,7 +8,6 @@ See:
 
 * [Pragmatic Programmers listing](https://pragprog.com/titles/nrclient/modern-front-end-development-for-rails/)
 * [goodreads](https://www.goodreads.com/book/show/48665184-modern-front-end-development-for-rails)
-
 
 ## Highlights from the Table of Contents
 
@@ -125,7 +124,6 @@ See:
 * Writing Our First Test
 * Understanding How Cypress Works
 
-
 14. More Testing and Troubleshooting Basics
 
 * Writing More Cypress Tests
@@ -139,10 +137,9 @@ A1. Framework Swap
 * The All-React App
 * Comparison
 
-
 ## Getting the Examples Source
 
-```
+```sh
 wget http://media.pragprog.com/titles/nrclient/code/nrclient-code.zip
 tar zxvf nrclient-code.zip
 rm nrclient-code.zip
@@ -155,4 +152,3 @@ unzips into a `code` folder.
 * [Pragmatic Programmers listing](https://pragprog.com/titles/nrclient/modern-front-end-development-for-rails/)
 * [goodreads](https://www.goodreads.com/book/show/48665184-modern-front-end-development-for-rails)
 * [examples source (zip)](http://media.pragprog.com/titles/nrclient/code/nrclient-code.zip)
-

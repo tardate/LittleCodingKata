@@ -6,7 +6,7 @@ When string indexes are better than regex, and when regex can help writing a str
 
 The ruby String class overloads the `[]` operator with some interesting behaviours:
 
-```
+```ruby
 string[index] → new_string or nilclick to toggle source
 string[start, length] → new_string or nil
 string[range] → new_string or nil
@@ -18,7 +18,7 @@ string[substring] → new_string or nil
 
 Using `string[substring]` is a more efficient way of testing for substring than a regular expression
 
-```
+```ruby
 text = 'Plant a memory, plant a tree, do it today for tomorrow.'
 # ok
 text =~ /memory/
@@ -31,7 +31,8 @@ text['memory']
 Using `string[regexp, capture = 0]` syntax allows matching and replacement in a string with a very simple syntax.
 
 Getting content of a match:
-```
+
+```ruby
 text = 'Plant a memory, plant a tree, do it today for tomorrow.'
 text[/pl.*ee/]
 => 'plant a tree'
@@ -39,7 +40,7 @@ text[/pl.*ee/]
 
 Getting content of a captured group:
 
-```
+```ruby
 text = 'Plant a memory, plant a tree, do it today for tomorrow.'
 text[/it\s(\w+)/, 1]
 => 'today'
@@ -47,7 +48,7 @@ text[/it\s(\w+)/, 1]
 
 Replacing content of a captured group:
 
-```
+```ruby
 text = 'Plant a memory, plant a tree, do it today for tomorrow.'
 text[/it\s(\w+)/, 1] = 'now'
 text
@@ -58,7 +59,7 @@ text
 
 See [examples.rb](./examples.rb); these demonstrations are written asa test suite:
 
-```
+```sh
 $ ruby examples.rb
 Run options: --seed 63700
 

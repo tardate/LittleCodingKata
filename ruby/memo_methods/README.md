@@ -22,7 +22,7 @@ Memoization is particularly clean and easy to implement in Ruby.
 In its simplest form, a method like the following can be used to wrap/redefine
 any existing method with a simple in-memory hash cache:
 
-```
+```ruby
 def memoize(name)
   cache = {}
 
@@ -38,7 +38,7 @@ end
 
 Running the [memoization_by_hand.rb](./memoization_by_hand.rb) example:
 
-```
+```sh
 $ bundle exec ruby memoization_by_hand.rb
 Usage: ruby memoization_by_hand.rb number_of_times_to_calc_factorial factorial_to_calc
   e.g. ruby memoization_by_hand.rb 10000 200
@@ -58,7 +58,7 @@ It has since bee been retired. Per the repo:
 
 It still works though! Running the [memoize_example.rb](./memoize_example.rb) example:
 
-```
+```sh
 $ bundle exec ruby memoize_example.rb
 Usage: ruby memoize_example.rb number_of_times_to_calc_factorial factorial_to_calc
   e.g. ruby memoize_example.rb 10000 200
@@ -76,7 +76,7 @@ extracted when it was retired from core `ActiveSupport`.
 
 Running the [memoist_example.rb](./memoist_example.rb) example:
 
-```
+```sh
 $ bundle exec ruby memoist_example.rb
 Usage: ruby memoist_example.rb number_of_times_to_calc_factorial factorial_to_calc
   e.g. ruby memoist_example.rb 10000 200
@@ -91,11 +91,10 @@ with memoist  0.030000   0.000000   0.030000 (  0.026051)
 
 Search for [other memoize gems](https://rubygems.org/search?utf8=%E2%9C%93&query=memoize) in rubygems.
 
-**Memoizable**
+#### Memoizable
 
 No demo for [memoizable](https://github.com/dkubb/memoizable) as it has a number of limitations,
 the most serious being that it can only memoize methods with an arity of 0 (i.e. no parameters)
-
 
 ## Credits and References
 

@@ -17,18 +17,19 @@ and may in fact already be in your project - it's a popular dependency of many w
 I'm just going to test drive a few common scenarios and compare the URI and addressable capabilities.
 The [examples.rb](./examples.rb) script tests the actual code.
 
-
 ### URL Decomposition
 
-The simplest task, and no surpises here. Given a URI-ish string, parse out the component parts.
+The simplest task, and no surprises here. Given a URI-ish string, parse out the component parts.
 
 The URI way:
-```
+
+```ruby
 uri = URI(given)
 ```
 
 The addressable way:
-```
+
+```ruby
 uri = Addressable::URI.parse(given)
 ```
 
@@ -40,7 +41,8 @@ The main advantage of addressable here is that it provides some nice additional 
 Given the individual component parts (scheme, host, path etc), create a valid URI.
 
 The URI way:
-```
+
+```ruby
 uri = URI.new('http', nil, 'www.example.com', nil, nil, '/foo/bar', false, nil, nil)
 uri = URI::Generic.build({:scheme => 'http', :host => 'www.example.com', :path => '/foo/bar'})
 uri = URI::HTTP.build({:host => 'www.example.com', :path => '/foo/bar'})
@@ -48,7 +50,8 @@ uri = URI::HTTPS.build({:host => 'www.example.com', :path => '/foo/bar'})
 ```
 
 The addressable way:
-```
+
+```ruby
 uri = Addressable::URI.new({:scheme => 'http', :host => 'www.example.com', :path => '/foo/bar'})
 ```
 
@@ -64,7 +67,7 @@ this capability.
 
 See the [examples.rb](./examples.rb) script for details.
 
-```
+```sh
 $ ruby examples.rb
 Run options: --seed 49659
 

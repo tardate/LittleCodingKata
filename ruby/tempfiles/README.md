@@ -7,11 +7,13 @@ The
 class in the ruby standard library provides a simple interface for creating
 and managing temporary files.
 
+See also [The Ruby Way](../the-ruby-way/) section 10.1.27.
+
 ### File Name Generation
 
 Tempfile provides threadsafe generation of unique filenames, and accepts hints on the base name, path and extension:
 
-```
+```ruby
 Tempfile.new('foo').path
  => "/var/folders/28/_tsmhg4172s_wy7vswfkzq9h0000gn/T/foo20190720-858-2bg33b"
 Tempfile.new('foo', '/var/folders/28/_tsmhg4172s_wy7vswfkzq9h0000gn/T').path
@@ -33,9 +35,9 @@ the finalizer on the tempfile handle: `ObjectSpace.undefine_finalizer(file)`
 ### Running Some Tests
 
 [tempfiles_test.rb](./tempfiles_test.rb) demonstrates a number of ways of working with Tempfiles,
-including implicit and explcit file cleanup approaches.
+including implicit and explicit file cleanup approaches.
 
-```
+```sh
 $ ruby tempfiles_test.rb
 Run options: --seed 42461
 
@@ -51,3 +53,4 @@ Finished in 0.006527s, 459.6146 runs/s, 2451.2778 assertions/s.
 ## Credits and References
 
 * [Tempfile](https://ruby-doc.org/stdlib-2.6.3/libdoc/tempfile/rdoc/Tempfile.html) - ruby-doc 2.6.3
+* [The Ruby Way](../the-ruby-way/) section 10.1.27.

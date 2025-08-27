@@ -9,18 +9,18 @@ Doorkeeper is an oAuth2 provider built in Ruby:
 * integrates with Ruby on Rails and Grape frameworks.
 * requires Ruby Rails 5 or higher
 * Supported features:
-  - The OAuth 2.0 Authorization Framework
-      - Authorization Code Flow
-      - Access Token Scopes
-      - Refresh token
-      - Implicit grant
-      - Resource Owner Password Credentials
-      - Client Credentials
-  - OAuth 2.0 Token Revocation
-  - OAuth 2.0 Token Introspection
-  - OAuth 2.0 Threat Model and Security Considerations
-  - OAuth 2.0 for Native Apps
-  - Proof Key for Code Exchange by OAuth Public Clients
+    * The OAuth 2.0 Authorization Framework
+        * Authorization Code Flow
+        * Access Token Scopes
+        * Refresh token
+        * Implicit grant
+        * Resource Owner Password Credentials
+        * Client Credentials
+    * OAuth 2.0 Token Revocation
+    * OAuth 2.0 Token Introspection
+    * OAuth 2.0 Threat Model and Security Considerations
+    * OAuth 2.0 for Native Apps
+    * Proof Key for Code Exchange by OAuth Public Clients
 
 Extensions:
 
@@ -31,7 +31,6 @@ Extensions:
 
 ### Running the Samples
 
-
 #### Doorkeeper Provider App
 
 The [Doorkeeper Demo Provider App](https://github.com/doorkeeper-gem/doorkeeper-provider-app)
@@ -39,15 +38,15 @@ is an example of an OAuth 2 provider using Doorkeeper gem, Rails 5.2 and Devise.
 
 Grabbing the source and install:
 
-```
-$ git clone git://github.com/doorkeeper-gem/doorkeeper-provider-app.git
-$ cd doorkeeper-provider-app
-$ bundle
+```sh
+git clone git://github.com/doorkeeper-gem/doorkeeper-provider-app.git
+cd doorkeeper-provider-app
+bundle
 ```
 
 Seed the app with sample data:
 
-```
+```sh
 $ bundle exec rake db:setup
 warning: parser/current is loading parser/ruby26, which recognizes
 warning: 2.6.6-compliant syntax, but you are running 2.6.5.
@@ -72,7 +71,7 @@ is an example of OAuth 2 client.
 
 Grabbing the source and install:
 
-```
+```sh
 git clone git://github.com/applicake/doorkeeper-sinatra-client.git
 doorkeeper-sinatra-client
 bundle
@@ -91,7 +90,7 @@ And creating another non-confidential version of the app (used by Native mobile 
 
 Creating a `.env` file (automatically by the app) with required settings:
 
-```
+```sh
 $ cat .env
 PUBLIC_CLIENT_ID                 = "MzqP76I9zGAhEkEJTEdhwBmeqM7JQHwD_9VOsF6fbm8"
 PUBLIC_CLIENT_REDIRECT_URI       = "KZSq1UWAnl78VeE7d_EsV6DRBJCv9Ec6AvY2Y0RCklk"
@@ -120,7 +119,6 @@ Then returned to the calling app, successfully signed-in:
 
 ![sinatra-client-confidential-access-3](./assets/sinatra-client-confidential-access-3.png?raw=true)
 
-
 #### Public Client Authentication
 
 After clicking "Sign in with the public client on localhost", I am redirected to the provider app
@@ -136,7 +134,6 @@ Then returned to the calling app, successfully signed-in:
 
 ![sinatra-client-public-access-3](./assets/sinatra-client-public-access-3.png?raw=true)
 
-
 #### Managing Authorized Applications
 
 After the authentications performed above, I can see the authorized applications
@@ -144,16 +141,14 @@ at  [http://localhost:3000/oauth/authorized_applications](http://localhost:3000/
 
 ![doorkeeper-provider-app-2](./assets/doorkeeper-provider-app-2.png?raw=true)
 
-
 #### Doorkeeper Devise Client
 
 The [Doorkeeper Demo Devise Client](https://github.com/doorkeeper-gem/doorkeeper-devise-client)
 is an example of a rails+devise+omniauth application that acts as an OAuth2 client.
 
-
 Grabbing the source and install:
 
-```
+```sh
 git clone git@github.com:doorkeeper-gem/doorkeeper-devise-client.git
 doorkeeper-devise-client
 bundle
@@ -164,7 +159,7 @@ NB: due to the recent release of omniauth 2.0.0, `devise` and `omniauth-auth` de
 See [https://github.com/heartcombo/devise/issues/5326](https://github.com/heartcombo/devise/issues/5326).
 Temporarily just added a further constraint to the Gemfile:
 
-```
+```sh
 gem "omniauth", ">= 1.9", "< 2"
 ```
 
@@ -175,7 +170,7 @@ callback url with path component of `/users/auth/doorkeeper/callback`
 
 Using these details to add a `.env` file for the application:
 
-```
+```sh
 $ cat .env
 DOORKEEPER_APP_ID = "b9wv3zaHtSFu0hNusqRppCLyg4BslVtcaEegGc-dANw"
 DOORKEEPER_APP_SECRET = "LgF108FvuXqYAoKZK7esT96r4AWiAbCYuJvmYapRePE"
@@ -189,7 +184,6 @@ Start the app `rails s -p 3232` and load the app at [localhost:3232](http://loca
 After clicking "Sign in with OAuth 2 provider", I am redirected to the provider app
 and challenged to sign-in (because I have not done that yet):
 
-
 ![devise-client-auth-1](./assets/devise-client-auth-1.png?raw=true)
 
 Once signed-in, I must authorised the calling app:
@@ -200,15 +194,13 @@ Then returned to the calling app, successfully signed-in:
 
 ![devise-client-auth-3](./assets/devise-client-auth-3.png?raw=true)
 
-
-
 ### Building a Rails 6 App with OAuth Provider
 
 #### Build a Skeleton Rails 6 App
 
 Checking Pre-requisites and Installation
 
-```
+```sh
 $ node -v
 v12.8.0
 $ npm -v
@@ -225,7 +217,7 @@ Rails 6.1.1
 
 The basic app:
 
-```
+```sh
 $ rails new demo-provider
 ...
 $ cp .ruby-gemset demo-provider # to keep the app within the same gemset
@@ -239,11 +231,11 @@ $ rails db:migrate
 
 Add the [devise](https://rubygems.org/gems/devise) gem to the `Gemfile` and `bundle install`
 
-```
-$ rails generate devise:install
-$ rails generate devise:views
-$ rails generate devise User
-$ rails db:migrate
+```sh
+rails generate devise:install
+rails generate devise:views
+rails generate devise User
+rails db:migrate
 ```
 
 Minimal customisation of the app:
@@ -256,10 +248,9 @@ Basic app is working:
 
 ![demo-provider-1](./assets/demo-provider-1.png?raw=true)
 
-
 Adding doorkeeper:
 
-```
+```sh
 $ bundle add doorkeeper
 bundle exec rails generate doorkeeper:install
 ```
@@ -268,7 +259,7 @@ Configure resource_owner_authenticator block for devise auth in `config/initiali
 
 Choose ActiveRecord as the ORM:
 
-```
+```sh
 rails generate doorkeeper:migration
 rails db:migrate
 ```
@@ -281,7 +272,7 @@ Add some links to the application layout:
 
 Add the scopes to `config/initializers/doorkeeper.rb` that are expected by the Doorkeeper Devise Client:
 
-```
+```sh
 default_scopes :read
 optional_scopes :write
 ```
@@ -292,10 +283,9 @@ Register the "Doorkeeper Devise Client" as a new client application:
 
 ![demo-provider-3](./assets/demo-provider-3.png?raw=true)
 
-
 Update the doorkeeper-devise-client `.env` file with these settings:
 
-```
+```sh
 $ cat .env
 DOORKEEPER_APP_ID = "OmTd4AwOdyGtSjax0EM41Q92aAjTLoPLB4shbT5ItqI"
 DOORKEEPER_APP_SECRET = "9v2Ys2ZYZGZ4lMqWJqUU6l3DHrIiP0uY80_2R1qpsbk"
@@ -307,7 +297,6 @@ Startup the doorkeeper-devise-client app `rails s -p 3232` and load it at [local
 OAuth signs in successfully:
 
 ![demo-provider-4](./assets/demo-provider-4.png?raw=true)
-
 
 ## Credits and References
 

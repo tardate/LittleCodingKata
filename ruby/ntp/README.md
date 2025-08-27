@@ -25,22 +25,22 @@ In unicast mode, the client sends a request (NTP mode 3) to a
 designated unicast server and expects a reply (NTP mode 4) from that server.
 Communications are UDP, and the conventional ntp port is 123.
 
-|Field Name           |  Request    | Reply                | Note |
-|---------------------|-------------|----------------------|------|
-|LI                   |  0          | 0-3                  | Leap Indicator
-|VN                   |  1-4        | copied from  request | Version Number
-|Mode                 |  3          | 4                    | protocol mode. 3=client, 4=server |
-|Stratum              |  0          | 0-15                 | |
-|Poll                 |  0          | ignore               | |
-|Precision            |  0          | ignore               | |
-|Root Delay           |  0          | ignore               | |
-|Root Dispersion      |  0          | ignore               | |
-|Reference Identifier |  0          | ignore               | |
-|Reference Timestamp  |  0          | ignore               | |
-|Originate Timestamp  |  0          | nonzero              | |
-|Receive Timestamp    |  0          | nonzero              | |
-|Transmit Timestamp   |  nonzero    | nonzero              | |
-|Authenticator        |  optional   | optional             | |
+| Field Name           |  Request    | Reply                | Note |
+|----------------------|-------------|----------------------|------|
+| LI                   |  0          | 0-3                  | Leap Indicator |
+| VN                   |  1-4        | copied from  request | Version Number |
+| Mode                 |  3          | 4                    | protocol mode. 3=client, 4=server |
+| Stratum              |  0          | 0-15                 | |
+| Poll                 |  0          | ignore               | |
+| Precision            |  0          | ignore               | |
+| Root Delay           |  0          | ignore               | |
+| Root Dispersion      |  0          | ignore               | |
+| Reference Identifier |  0          | ignore               | |
+| Reference Timestamp  |  0          | ignore               | |
+| Originate Timestamp  |  0          | nonzero              | |
+| Receive Timestamp    |  0          | nonzero              | |
+| Transmit Timestamp   |  nonzero    | nonzero              | |
+| Authenticator        |  optional   | optional             | |
 
 * Originate Timestamp: This is the time at which the request departed the client for the server, in 64-bit timestamp format.
 * Receive Timestamp: This is the time at which the request arrived at the server or the reply arrived at the client, in 64-bit timestamp format.

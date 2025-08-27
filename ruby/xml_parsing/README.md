@@ -7,7 +7,7 @@ About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like
 While XML and HTML is just text and so possible to work with it as string data,
 better to use a gem that can handle all those cases like validation, encoding and semantic searching.
 
-### Nokigiri
+### Nokogiri
 
 [Nokogiri (鋸)](https://nokogiri.org/) is the most popular tool for working with XML, HTML4, and HTML5 from Ruby.
 
@@ -73,4 +73,4 @@ Finished in 0.002498s, 1200.9608 runs/s, 2802.2419 assertions/s.
 * [nokogiri](https://rubygems.org/gems/nokogiri) - rubygems
 * [nokogiri](https://nokogiri.org/rdoc/index.html) - api doc
 * [XML Samples files](https://www.cs.utexas.edu/~mitra/csFall2010/cs329/lectures/xml.html) - borrowed from The University of Texas at Austin CS329 2010
-* [Xpath cheatsheet](https://devhints.io/xpath)
+* [Xpath cheat sheet](https://devhints.io/xpath)

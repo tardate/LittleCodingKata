@@ -18,7 +18,7 @@ TLDR:
 * [lambda](https://ruby-doc.org/core-2.7.0/Kernel.html#method-i-lambda) - Equivalent to Proc.new, except the resulting Proc objects check the number of parameters passed when called.
 * [->](https://ruby-doc.com/core/doc/syntax/literals_rdoc.html#label-Procs) - A proc can be created with `->` (it is in fact a lambda-style proc)
 
-### Technical Diffferences
+### Technical Differences
 
 Procs and lambdas both return `Proc` objects, but they have different "lambda-ness"!!
 The lambda-ness affects argument handling and the behavior of return and break.
@@ -78,18 +78,16 @@ Prefer proc.call() over proc[] or proc.() for both lambdas and procs.
 The [examples.rb](./examples.rb) file wraps up demonstrations of all these features in a set of tests.
 Not very exciting to run!
 
-```
-$ ruby examples.rb
-Run options: --seed 46371
+    $ ruby examples.rb
+    Run options: --seed 46371
 
-# Running:
+    # Running:
 
-............
+    ............
 
-Finished in 0.001421s, 8444.7566 runs/s, 16185.7834 assertions/s.
+    Finished in 0.001421s, 8444.7566 runs/s, 16185.7834 assertions/s.
 
-12 runs, 23 assertions, 0 failures, 0 errors, 0 skips
-```
+    12 runs, 23 assertions, 0 failures, 0 errors, 0 skips
 
 ## Credits and References
 
