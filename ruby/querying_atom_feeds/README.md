@@ -101,7 +101,7 @@ feed.xpath(%(//xmlns:entry[xmlns:category[@term="scale models"]][starts-with(xml
 
 ### Testing Examples
 
-All the techinques discussed here are demonstrated in the [atom_feeds_test.rb](./atom_feeds_test.rb) script
+All the techniques discussed here are demonstrated in the [atom_feeds_test.rb](./atom_feeds_test.rb) script
 
 ```sh
 $ ./atom_feeds_test.rb

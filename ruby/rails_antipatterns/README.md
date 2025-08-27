@@ -7,7 +7,6 @@ Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Add
 I devoured [Rails AntiPatterns](https://learning.oreilly.com/library/view/railstm-antipatterns-best/9780321620293/)
 back in the day (it was published in 2010), and the advice it offers has stood the test of time.
 
-
 ### Table of Contents - Highlights
 
 #### 1. Models
@@ -16,9 +15,9 @@ voyeristic models
 
 * problem: models know too much about the entire system
 * solution: law of demeter
-* - principle of least knowledge
-* - not make indirect calls
-* - use only one dot
+    * principle of least knowledge
+    * not make indirect calls
+    * use only one dot
 * solution: push all find() calls into finders on the model
 * solution: keep finders on their own model
 
@@ -35,7 +34,7 @@ spaghetti SQL
 * solution: use AR associations and finders effectively
 * solution: learn and love the scope method
 * solution: use full-text search
-* - ferret, sphinx, solr, xapian
+      * ferret, sphinx, solr, xapian
 
 duplicate code duplication
 
@@ -65,7 +64,7 @@ PHPitis
 * solution: use standard helpers
 * solution: add useful accessors to your models
 * solution: extract to custom helpers
-* - can also use a decorator (*)
+    * can also use a decorator (*)
 
 markup mayhem
 
@@ -85,7 +84,7 @@ fat controller
 * problem: business logic in the controller
 * solution: use AR callbacks and setters
 * solution: move to presenter
-* - plain ruby class that orchestrates creation of multiple models
+      ** plain ruby class that orchestrates creation of multiple models
 
 bloated sessions
 
@@ -111,7 +110,7 @@ rats nest resources
 
 * problem: controllers that work as both nested and not
 * solution: use separate controllers for each nesting
-* - or IR optional parents
+      ** or IR optional parents
 
 evil twin controllers
 
@@ -135,8 +134,8 @@ pitiful page parsing
 
 * problem: web scraping
 * solution: use a gem e.g.
-* - nokogiri
-* - rest_client
+      **nokogiri
+      ** rest_client
 
 successful failure
 
@@ -159,9 +158,9 @@ amateur gemologist
 
 * problem: can't assume an existing gem is suitable
 * solution: follow TAM
-* - check for tests
-* - check for activity
-* - check for maturity
+      **check for tests
+      ** check for activity
+      ** check for maturity
 
 vendor junk drawer
 
@@ -172,10 +171,9 @@ miscreant modification
 
 * problem: gem has bugs or needs extension
 * solution: consider vendored code sacrosanct
-* - monkey patch
-* - fork
-* - share and share-alike
-
+      **monkey patch
+      ** fork
+      ** share and share-alike
 
 #### 7. Testing
 
@@ -189,7 +187,7 @@ lost in isolation
 
 * problem: mocking obscures actual behaviour
 * solution: watch your integration points
-* - ensure integraiton tests cover unit tests that use mocks
+      ** ensure integraiton tests cover unit tests that use mocks
 
 mock suffocation
 
@@ -214,9 +212,9 @@ scaling roadblocks
 
 * problem: initial work is scale limited
 * solution: build to scale from the start
-* - head in the clouds (e.g. paperclip can support S3)
-* - file system limits
-* - deploy to clustered env from start (e.g. heroku)
+      **head in the clouds (e.g. paperclip can support S3)
+      ** file system limits
+      ** deploy to clustered env from start (e.g. heroku)
 
 disappearing assets
 
@@ -261,10 +259,9 @@ inaudible failures
 
 * problem: failures don't bubble or report
 * solution: never fail quietly
-* - embrace the !
-* - never rescue nil
-* - log to a useful place (e.g. airbrake)
-
+      **embrace the !
+      ** never rescue nil
+      ** log to a useful place (e.g. airbrake)
 
 ## Credits and References
 

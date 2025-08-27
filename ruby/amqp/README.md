@@ -12,7 +12,7 @@ It has since been retired in favour of the [Bunny](http://rubybunny.info) gem.
 
 The [receiver.rb](./bin/receiver.rb) script listens for messages and terminates when it gets the message 'exit'
 
-    $ bin/receiver.rb 
+    $ bin/receiver.rb
     Connecting to AMQP broker:
     .. running 1.8.0 version of the AMQP gem
     .. listening on queue lck.amqp.example
@@ -64,7 +64,7 @@ Running docker image `rabbitmq:3` with default config:
       Config file(s): /etc/rabbitmq/conf.d/10-defaults.conf
                       /etc/rabbitmq/conf.d/20-management_agent.disable_metrics_collector.conf
 
-      Starting broker...2024-01-14 06:17:07.849232+00:00 [info] <0.230.0> 
+      Starting broker...2024-01-14 06:17:07.849232+00:00 [info] <0.230.0>
     2024-01-14 06:17:07.849232+00:00 [info] <0.230.0>  node           : rabbit@9d35ed036e68
     2024-01-14 06:17:07.849232+00:00 [info] <0.230.0>  home dir       : /var/lib/rabbitmq
     2024-01-14 06:17:07.849232+00:00 [info] <0.230.0>  config file(s) : /etc/rabbitmq/conf.d/10-defaults.conf

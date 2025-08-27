@@ -8,7 +8,7 @@ The dRuby (drb) distributed object system has been in the standard library since
 
 The standard library just includes the core drb framework.
 The [full package](http://www2a.biglobe.ne.jp/~seki/ruby/druby.html)
-includes a few more features, but seems to have never really made the transition to fully maintaned, standard-alone gem.
+includes a few more features, but seems to have never really made the transition to fully maintained, standard-alone gem.
 
 Actually, drb is a bit of a curiosity. It's main use appears to be for personal productivity gadgets
 or simply research and exploration of distributed computing ideas.
@@ -23,12 +23,10 @@ Start the server...
     TestServer
     handling doit...
 
-
 Make a client call...
 
     $ ./drb_client.rb
     Hello, Distributed World
-
 
 ![console](./assets/console.png?raw=true)
 
@@ -39,7 +37,6 @@ Downloading the latest(?) available source package:
     wget http://www2a.biglobe.ne.jp/~seki/ruby/drb-2.0.4.tar.gz
     tar zxvf drb-2.0.4.tar.gz
     rm drb-2.0.4.tar.gz
-
 
 ## Credits and References
 

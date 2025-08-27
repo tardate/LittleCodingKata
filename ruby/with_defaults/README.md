@@ -14,7 +14,7 @@ I've used `reverse_merge` quite a bit, but the semantics of `with_defaults` are 
     params.with_defaults(defaults)
     => { a: 'value of a', b: 'value of b', c: 'default value of c' }
 
-These functionas are available if running Rails.
+These function as are available if running Rails.
 To use in other ruby projects, add 'activesupport' gem to your project
 and require core activesupport:
 
@@ -23,7 +23,7 @@ and require core activesupport:
 
 ## Example Test
 
-See a simepl test in [test_with_defaults.rb](./test_with_defaults.rb):
+See a simple test in [test_with_defaults.rb](./test_with_defaults.rb):
 
     $ ./test_with_defaults.rb
     Run options: --seed 24687

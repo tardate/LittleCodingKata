@@ -5,7 +5,7 @@ All about reading and writing CSV with Ruby, including large file handling.
 ## Notes
 
 CSV support is implemented in the [CSV](https://ruby-doc.org/3.0.6/stdlibs/csv/CSV.html) standard library.
-There are some gems that provide additional CVS processing features, but in most cases the stadnard library is just fine.
+There are some gems that provide additional CVS processing features, but in most cases the standard library is just fine.
 
 ## Writing Large Files
 

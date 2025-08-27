@@ -34,7 +34,7 @@ ruby -h | ruby -F'  ' -ane 'puts $F[0].include?("Usage") ? "| Option | Descripti
 | `-S` | look for the script using PATH environment variable |
 | `-v` | print the version number, then turn on verbose mode |
 | `-w` | turn warnings on for your script |
-| `-W[level=2|:category]` | set warning level; 0=silence, 1=medium, 2=verbose |
+| `-W[level=2\|:category]` | set warning level; 0=silence, 1=medium, 2=verbose |
 | `-x[directory]` | strip off text before #!ruby line and perhaps cd to directory |
 | `--jit` | enable JIT with default options (experimental) |
 | `--jit-[option]` | enable JIT with an option (experimental) |

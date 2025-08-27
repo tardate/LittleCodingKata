@@ -27,7 +27,6 @@ To run the app locally:
     == Sinatra (v2.0.1) has taken the stage on 4567 for development with backup from WEBrick
     [2018-05-01 21:09:53] INFO  WEBrick::HTTPServer#start: pid=32888 port=4567
 
-
 ## Making Arbitrary GET Requests
 
 Making a GET request to `http://localhost:4567/:code:.:format:` will respond according to the `:code:` and `:format:` specified. Where:
@@ -58,7 +57,6 @@ Examples with `curl`:
     }
     * Connection #0 to host localhost left intact
 
-
 ## Making Arbitrary POST Requests
 
 Making a POST request to `http://localhost:4567/:code:.:format:` will respond according to the `:code:` and `:format:` specified. Where:
@@ -67,7 +65,6 @@ Making a POST request to `http://localhost:4567/:code:.:format:` will respond ac
 * `:format:` sets the content type of the response: html, txt, xml or json are supported
 
 Examples with `curl`:
-
 
     $ curl -v -X POST -H "Accept: application/xml" -H "Content-Type: application/xml" -d "<data></data>" http://localhost:4567/410.xml
     *   Trying ::1...
@@ -93,9 +90,8 @@ Examples with `curl`:
     </response>"
     * Connection #0 to host localhost left intact
 
-
-
 ## Credits and References
+
 * [Sinatra](http://sinatrarb.com/)
 * [curl](https://curl.haxx.se/)
 * [HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)

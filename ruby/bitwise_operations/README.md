@@ -37,7 +37,7 @@ The [to_s(base=10)](https://ruby-doc.org/core-2.5.0/Integer.html#method-i-to_s) 
 The [examples.rb](./examples.rb) file wraps up demonstrations of all these features in a set of tests.
 Not very exciting to run!
 
-```
+```sh
 $ ruby examples.rb
 Run options: --seed 42933
 

@@ -9,20 +9,20 @@ This is a implementation of the JSON specification according to [RFC 4627](https
 
 There are perhaps four main methods most commonly used form the JSON library:
 
-* For serialializing an object to JSON:
-  * `to_json` instance method available for all supported classes
-  * `JSON.pretty_generate` class method generates a more human-readable JSON representation
+* For serializing an object to JSON:
+    * `to_json` instance method available for all supported classes
+    * `JSON.pretty_generate` class method generates a more human-readable JSON representation
 * For deserializing JSON:
-  * `JSON.load` - given a string or stream
-  * `JSON.parse` - given a string
+    * `JSON.load` - given a string or stream
+    * `JSON.parse` - given a string
 
 Note: this is only an issue with ruby <= 2.3 (I think) as later rubies require a later json gem version anyway.
 
-### `pretty_generate` Verson-dependent Behaviour
+### `pretty_generate` Version-dependent Behaviour
 
 Prior to v2.0.0 -
 actually before [this commit](https://github.com/flori/json/commit/4b843b585060212e8c396073f79627bf081491db#diff-c396b704e4eb30dedc22d380848c050d)
-- the `pretty_generate` method only worked with arrays and hashes.
+the `pretty_generate` method only worked with arrays and hashes.
 Attempting to prettify any other type of object would result in an exception: `JSON::GeneratorError: only generation of JSON objects or arrays allowed`.
 
 This can be an upgrade gotcha, as early code may for example have been written to expect nil to raise an exception. After json gem upgrade, code paths will change.
@@ -30,8 +30,7 @@ This can be an upgrade gotcha, as early code may for example have been written t
 The [test_pretty_generate.rb](./test_pretty_generate.rb) script tests some of this version-dependent behaviour.
 The [test.sh](./test.sh) shell script runs the tests with different versions of the json gem:
 
-
-```
+```sh
 $ ./test.sh
 ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-darwin17]
 Gem 'json' is not installed

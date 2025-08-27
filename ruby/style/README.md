@@ -12,7 +12,7 @@ Out of the box it will enforce many of the guidelines outlined in the community 
 
 After installation, rubocop will evaluate all ruby files under the current directory by default:
 
-    $ rubocop
+    rubocop
 
 Usually, rubocop is used as part of a continuous integration workflow (to make the build go red on failures).
 
@@ -22,7 +22,7 @@ about - it will jut be quietly keeping guard during builds.
 However, the [Ruby Style Guide](https://rubystyle.guide/) is well worth diving into every so often, as it is a great way to
 learn about using the ruby language well.
 
-## The basic instllation and setup recipe
+## The basic installation and setup recipe
 
 Add to the Gemfile
 
@@ -30,14 +30,13 @@ Add to the Gemfile
 
 Automatically generate an initial config:
 
-    $ rubocop --auto-gen-config
+    rubocop --auto-gen-config
 
 ## Updating Rubocop
 
 Rubocop updates can bring some major changes to rules and be a bit of a pain to deal with.
 
 Updating .rubocop.yml to latest version can be automated with [mry](https://github.com/pocke/mry).
-
 
     $ gem install mry
     # Update to latest version
