@@ -1,0 +1,55 @@
+TAIL v1.2 - print the last lines in a file
+==========================================
+  Initial version by Paul Gallagher 1995.
+
+This REXX script is hereby placed in the public domain. Any changes
+should be adequately documented, and authorship notices of prior
+versions retained. As a courtesy, please e-mail modified files to
+previous authors.
+
+Contents of this file:
+  * Version History
+  * Contacting the authors
+  * System Requirements
+  * About TAIL
+  * Using TAIL
+
+Version History
+===============
+
+95.03.09 : v1.2
+  - initial release, published in EDM/2 Vol 3 No 3
+    "REXX, the developer's best friend"
+
+Contacting the Authors
+======================
+Paul Gallagher: Internet (paulpg@ibm.net)
+                Telephone: +61-3-566-1023.
+
+System Requirements
+===================
+TAIL requires REXX to be properly installed on your system. 
+
+About TAIL
+==========
+This is the good old "print line number x" program (it actually prints line
+"x" and the 3 lines before and after).
+
+Using TAIL
+==========
+Getting help:     TAIL /?
+
+Usage:
+       TAIL n
+Where:
+       n is the number of lines to print
+
+Prints the last 'n' lines of a file that is copied to the standard
+input stream
+
+Example:
+
+       [C:\]type readme | tail 5
+       
+         (C) Copyright IBM Corporation 1994.  All rights
+         reserved.
