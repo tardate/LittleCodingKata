@@ -1,6 +1,6 @@
-# 348 Little Coding Katas
+# 349 Little Coding Katas
 
-> Latest addition :sparkles: [Rust File Handling](./rust/file-handling) - Reviewing common file operations with rust
+> Latest addition :sparkles: [Ruby File Handling](./ruby/file-operations) - Reviewing common file operations with ruby
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

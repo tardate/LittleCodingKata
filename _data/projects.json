@@ -1,4 +1,12 @@
 {
+    "/ruby/file-operations/": {
+        "id": 349,
+        "title": "Ruby File Handling",
+        "summary": "Reviewing common file operations with ruby",
+        "tags": [
+            "ruby"
+        ]
+    },
     "/rust/file-handling/": {
         "id": 348,
         "title": "Rust File Handling",

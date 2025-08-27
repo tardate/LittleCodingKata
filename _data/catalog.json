@@ -1,5 +1,15 @@
 [
     {
+        "name": "Ruby File Handling",
+        "description": "Reviewing common file operations with ruby",
+        "categories": "ruby",
+        "relative_path": "ruby/file-operations",
+        "updated_at": "2025-08-27T04:59:00Z",
+        "created_at": "2025-08-27T04:59:00Z",
+        "id": "#349",
+        "original_relative_path": "ruby/file-operations"
+    },
+    {
         "name": "Rust File Handling",
         "description": "Reviewing common file operations with rust",
         "categories": "rust",
