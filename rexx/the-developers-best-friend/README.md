@@ -1,4 +1,4 @@
-# #xxx REXX, The Developer's Best Friend
+# #351 REXX, The Developer's Best Friend
 
 An article about REXX, published in EDM/2 The Electronic Developer Magazine for OS/2, March 1995, Volume 3 Issue 3.
 
