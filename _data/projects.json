@@ -1,4 +1,13 @@
 {
+    "/ruby/the-ruby-way/": {
+        "id": 350,
+        "title": "The Ruby Way",
+        "summary": "Book notes - The Ruby Way, by Hal Fulton. First published January 1, 2001.",
+        "tags": [
+            "ruby",
+            "book"
+        ]
+    },
     "/ruby/file-operations/": {
         "id": 349,
         "title": "Ruby File Handling",

@@ -1,4 +1,4 @@
-# #xxx The Ruby Way
+# #350 The Ruby Way
 
 Book notes - The Ruby Way, by Hal Fulton. First published January 1, 2001.
 

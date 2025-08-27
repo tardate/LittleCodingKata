@@ -1,6 +1,6 @@
-# 349 Little Coding Katas
+# 350 Little Coding Katas
 
-> Latest addition :sparkles: [Ruby File Handling](./ruby/file-operations) - Reviewing common file operations with ruby
+> Latest addition :sparkles: [The Ruby Way](./ruby/the-ruby-way) - Book notes - The Ruby Way, by Hal Fulton. First published January 1, 2001.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
