@@ -1,6 +1,6 @@
-# 350 Little Coding Katas
+# 351 Little Coding Katas
 
-> Latest addition :sparkles: [The Ruby Way](./ruby/the-ruby-way) - Book notes - The Ruby Way, by Hal Fulton. First published January 1, 2001.
+> Latest addition :sparkles: [REXX, The Developer's Best Friend](./rexx/the-developers-best-friend) - An article about REXX, published in EDM/2 The Electronic Developer Magazine for OS/2, March 1995, Volume 3 Issue 3.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

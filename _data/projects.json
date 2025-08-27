@@ -1,4 +1,13 @@
 {
+    "/rexx/the-developers-best-friend/": {
+        "id": 351,
+        "title": "REXX, The Developer's Best Friend",
+        "summary": "An article about REXX, published in EDM/2 The Electronic Developer Magazine for OS/2, March 1995, Volume 3 Issue 3.",
+        "tags": [
+            "REXX",
+            "OS/2"
+        ]
+    },
     "/ruby/the-ruby-way/": {
         "id": 350,
         "title": "The Ruby Way",
@@ -1695,7 +1704,7 @@
     "/ruby/modern_front_end_development_for_rails/": {
         "id": 154,
         "title": "Modern Front-End Development for Rails",
-        "summary": "Notes on the book Modern Front-End Development for Rails, By Noel Rappin, pubished by The Pragmatic Programmers",
+        "summary": "Notes on the book Modern Front-End Development for Rails, By Noel Rappin, published by The Pragmatic Programmers",
         "tags": [
             "ruby",
             "rails",

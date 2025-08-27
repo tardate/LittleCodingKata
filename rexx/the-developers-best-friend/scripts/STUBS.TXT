@@ -1,0 +1,88 @@
+STUBS v2.0 - Program Code Stub Creation
+=======================================
+  Initial version by Paul Gallagher 1995.
+
+This REXX script is hereby placed in the public domain. Any changes
+should be adequately documented, and authorship notices of prior
+versions retained. As a courtesy, please e-mail modified files to
+previous authors.
+
+Contents of this file:
+  * Version History
+  * Contacting the authors
+  * System Requirements
+  * About STUBS
+  * Using STUBS
+
+Version History
+===============
+
+95.03.09 : v2.0
+  - initial release, published in EDM/2 Vol 3 No 3
+    "REXX, the developer's best friend"
+
+Contacting the Authors
+======================
+Paul Gallagher: Internet (paulpg@ibm.net)
+                Telephone: +61-3-566-1023.
+
+System Requirements
+===================
+STUBS requires REXX to be properly installed on your system. 
+
+About STUBS
+===========
+Most developers have a pretty clear idea about how they like their
+source files organized. You may follow the more common conventions,
+or use a style of your own. Either way, you don't want to be typing
+all the same fluff for each new file created.
+
+The most common solution to this problem is to keep a selection of
+templates. Rather than type a header, copyright info and so on - just
+copy the template and away you go. Two things could be improved though:
+you may end up with a clutter of templates, and the template may still
+need a bit of tweaking on a case-by-case basis.
+
+STUBS.CMD allows you to automate your use of templates ("stubs").
+Running STUBS first presents you with a menu from which you can select
+the template to be generated. After providing a new filename, the
+script generates a file based on the selected template. Of course,
+being a REXX script it can include all kinds of smarts when generating
+the template - such as including a copyright notice with this years
+date (instead of the date from when you created the template;-).
+
+So far its a good concept - but you may ask how I (as the guy who
+wrote STUBS.CMD) know how you want your templates produced. The answer
+is - I don't! In fact, STUBS.CMD comes as a basic menu shell but
+contains no actual templates. The one useful command it provides you
+(other than "exit") is "modify".
+
+The "MODIFY" command allows you to add a new template to STUBS.CMD.
+You provide an example file, and the script reads it in, creating the
+necessary procedures and code modifications in STUBS.CMD to support
+the new template type. The code to write the new templates is
+encapsulated in procedures which are simply appended to the file.
+
+When adding a new template, you are asked for three bits of
+information: the filename of the file to be used as the example
+template; the keyword to be used as the menu command; and a
+description of the template - this is used in the menu display.
+
+How to best use STUBS? I suggest that you marshal your most commonly
+used templates and put a bit of effort into cleaning them up. Once
+they've checked out OK, use the MODIFY command to add them to STUBS.
+
+By this stage, STUBS.CMD will be a self-contained script that can
+re-create your original templates on command. You can stop right
+there, however you may wish to delve in and customize the
+template-writing procedures to add extra capabilities (Such as
+date-stamping the files on creation).
+
+For a more detailed discussion of the algorithms in STUBS, see
+the Electronic Developers Magazine for OS/2 Vol. 3 No. 3 (available
+on hobbes.nmsu.edu among other places).
+
+Using STUBS
+==========
+Getting help:     STUBS /?
+Usage:            STUBS
