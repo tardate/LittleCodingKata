@@ -1,0 +1,6 @@
+{
+    "name": "Rust File Handling",
+    "description": "Reviewing common file operations with rust",
+    "categories": "rust",
+    "relative_path": "rust/file-handling"
+}
