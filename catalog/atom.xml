@@ -14,6 +14,15 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/ruby/file-operations/</id>
+    <link href="https://codingkata.tardate.com/ruby/file-operations/"/>
+    <updated>2025-08-27T04:59:00Z</updated>
+    <title>#349 Ruby File Handling</title>
+    <summary>Reviewing common file operations with ruby</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Reviewing common file operations with ruby&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="ruby"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/rust/file-handling/</id>
     <link href="https://codingkata.tardate.com/rust/file-handling/"/>
     <updated>2025-08-27T04:15:00Z</updated>
