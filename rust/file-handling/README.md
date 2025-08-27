@@ -36,7 +36,7 @@ Example:
     // or
     file.write_all("Hello".as_bytes())?;
 
-### Append
+### Open for Append
 
 Open a file for append using [`OpenOptions`](https://doc.rust-lang.org/std/fs/struct.OpenOptions.html)
 
@@ -78,18 +78,64 @@ Delete a file with [`remove_file`](https://doc.rust-lang.org/std/fs/fn.remove_fi
 
 See [file-demo/src/main.rs](./file-demo/src/main.rs).
 
+    use std::fs;
+    use std::io::{Write, Read};
+
+    fn create_file(filename: &str, content: &str) -> std::io::Result<()> {
+        println!("# creating file: {}", filename);
+        let mut file = fs::File::create(filename)?;
+        file.write_all(content.as_bytes())?;
+        Ok(())
+    }
+
+    fn append_to_file(filename: &str, content: &str) -> std::io::Result<()> {
+        println!("# appending to file: {}", filename);
+        let mut file = fs::OpenOptions::new().append(true).open(filename)?;
+        file.write_all(content.as_bytes())?;
+        Ok(())
+    }
+
+    fn read_file(filename: &str) -> std::io::Result<String> {
+        println!("# reading from file: {}", filename);
+        let mut file = fs::File::open(filename)?;
+        let mut contents = String::new();
+        file.read_to_string(&mut contents)?;
+        Ok(contents)
+    }
+
+    fn delete_file(filename: &str) -> std::io::Result<()> {
+        println!("# deleting file: {}", filename);
+        fs::remove_file(filename)?;
+        Ok(())
+    }
+
+    fn main() -> std::io::Result<()> {
+        let filename = "example.txt";
+
+        create_file(&filename, "Hello World!\n")?;
+        println!("{}", read_file(&filename)?);
+        append_to_file(&filename, "Appended content to the file.\n")?;
+        println!("{}", read_file(&filename)?);
+        delete_file(&filename)?;
+
+        Ok(())
+    }
+
 Run:
 
     $ cargo run
         Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.00s
         Running `target/debug/file-demo`
-    creating file: example.txt
-    Appending to file: example.txt
-    Reading from file: example.txt
+    # creating file: example.txt
+    # reading from file: example.txt
+    Hello World!
+
+    # appending to file: example.txt
+    # reading from file: example.txt
     Hello World!
     Appended content to the file.
 
-    Deleting file: example.txt
+    # deleting file: example.txt
 
 ## Credits and References
 
