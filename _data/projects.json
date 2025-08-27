@@ -1,4 +1,12 @@
 {
+    "/rust/file-handling/": {
+        "id": 348,
+        "title": "Rust File Handling",
+        "summary": "Reviewing common file operations with rust",
+        "tags": [
+            "rust"
+        ]
+    },
     "/rust/create-laundry-item/": {
         "id": 347,
         "title": "Create Laundry Item",

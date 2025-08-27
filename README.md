@@ -1,6 +1,6 @@
-# 347 Little Coding Katas
+# 348 Little Coding Katas
 
-> Latest addition :sparkles: [Create Laundry Item](./rust/create-laundry-item) - Using rust to implement a generator for a laundry object; cassidoo's interview question of the week (2025-08-11). Rust does not encourage classic object-oriented patterns by default, but it can be used to model similar concepts with the struct keyword.
+> Latest addition :sparkles: [Rust File Handling](./rust/file-handling) - Reviewing common file operations with rust
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
