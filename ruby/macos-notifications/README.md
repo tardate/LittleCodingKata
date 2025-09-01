@@ -1,4 +1,4 @@
-# #xxx macOS Notifications with Ruby
+# #352 macOS Notifications with Ruby
 
 Modern alternatives to the old growl notification system for ruby programming on macOS: osascript, terminal-notifier
 
