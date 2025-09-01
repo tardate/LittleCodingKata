@@ -1,10 +1,11 @@
 {
     "/ruby/macos-notifications/": {
         "id": 352,
-        "title": "macos-notifications",
-        "summary": "",
+        "title": "macOS Notifications with Ruby",
+        "summary": "Modern alternatives to the old growl notification system for ruby programming on macOS: osascript, terminal-notifier",
         "tags": [
-            ""
+            "ruby",
+            "macOS"
         ]
     },
     "/rexx/the-developers-best-friend/": {
