@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if leap_id %}{{ leap_id }}{% else %}{% if project_title %}{{ project_title | strip_html }} &#8211; {% endif %}{{ site.title | strip_html }}{% endif %}</title>
+    <title>{% if leap_id %}{{ leap_id }} {{ project_title | strip_html }}{% else %}{% if project_title %}{{ project_title | strip_html }}{% endif %}{{ site.title | strip_html }}{% endif %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{% if page.summary %}{{ page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
     <meta name="robots" content="{% if page.meta_robots %}{{ page.meta_robots }}{% else %}all{% endif %}">
