@@ -2,5 +2,8 @@
     "name": "Shell Gem",
     "description": "Quick review of the shell gem for ruby",
     "categories": "ruby",
-    "relative_path": "ruby/shell-gem"
+    "relative_path": "ruby/shell-gem",
+    "updated_at": "2025-09-04T04:17:00Z",
+    "created_at": "2025-09-04T04:17:00Z",
+    "id": "#353"
 }

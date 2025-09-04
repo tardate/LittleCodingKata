@@ -1,4 +1,12 @@
 {
+    "/ruby/shell-gem/": {
+        "id": 353,
+        "title": "Shell Gem",
+        "summary": "Quick review of the shell gem for ruby",
+        "tags": [
+            "ruby"
+        ]
+    },
     "/ruby/macos-notifications/": {
         "id": 352,
         "title": "macOS Notifications with Ruby",

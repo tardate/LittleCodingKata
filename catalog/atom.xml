@@ -14,6 +14,15 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/ruby/shell-gem/</id>
+    <link href="https://codingkata.tardate.com/ruby/shell-gem/"/>
+    <updated>2025-09-04T04:17:00Z</updated>
+    <title>#353 Shell Gem</title>
+    <summary>Quick review of the shell gem for ruby</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Quick review of the shell gem for ruby&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="ruby"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/ruby/macos-notifications/</id>
     <link href="https://codingkata.tardate.com/ruby/macos-notifications/"/>
     <updated>2025-09-01T05:12:00Z</updated>
