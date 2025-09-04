@@ -1,6 +1,6 @@
-# 352 Little Coding Katas
+# 353 Little Coding Katas
 
-> Latest addition :sparkles: [macOS Notifications with Ruby](./ruby/macos-notifications) - Modern alternatives to the old growl notification system for ruby programming on macOS: osascript, terminal-notifier
+> Latest addition :sparkles: [Shell Gem](./ruby/shell-gem) - Quick review of the shell gem for ruby
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
