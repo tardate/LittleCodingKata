@@ -450,6 +450,7 @@ The latest edition was published in 2015.
 * 14.3 The Shell Library
     * 14.3.1 Using Shell for I/O Redirection
     * 14.3.2 Other Notes on Shell
+    * See also: [LCK#353 Shell Gem](../shell-gem/)
 * 14.4 Accessing Environment Variables
     * 14.4.1 Getting and Setting Environment Variables
     * 14.4.2 Storing Environment Variables as an Array or Hash
