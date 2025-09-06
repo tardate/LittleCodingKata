@@ -9,6 +9,12 @@ The Developer Certificate of Origin (DCO) is a mechanism for contributors to cer
 It appears increasingly common for open-source projects to require DCO compliance,
 perhaps largely to address concerns over supply-chain attacks.
 
+A typical signed-off commit message would look like this:
+
+> This is my commit message
+>
+> Signed-off-by: Random J Developer \<<random@developer.example.org>\>
+
 The DCO was created in 2004 by the Linux Foundation for the Linux kernel project, following licensing and copyright concerns. Instead of requiring every contributor to sign a legal document, the DCO allowed developers to simply include a "Signed-off-by" statement in each commit message.
 
 The [full text of the DCO](https://developercertificate.org/):
@@ -56,7 +62,7 @@ Git has a `-s` command line option to append this automatically to your commit m
 git commit -s -m 'This is my commit message'
 ```
 
-To ensure sign-off is applied to every commit in a repo, can add a hook template as follows.
+To ensure sign-off is applied to every commit in a repo, can add a hook template as follows:
 
 ```sh
 $ cat > .git/hooks/prepare-commit-msg << EOT
