@@ -11,9 +11,11 @@ perhaps largely to address concerns over supply-chain attacks.
 
 A typical signed-off commit message would look like this:
 
-> This is my commit message
->
-> Signed-off-by: Random J Developer \<<random@developer.example.org>\>
+```text
+This is my commit message
+
+Signed-off-by: Random J Developer <random@developer.example.org>
+```
 
 The DCO was created in 2004 by the Linux Foundation for the Linux kernel project, following licensing and copyright concerns. Instead of requiring every contributor to sign a legal document, the DCO allowed developers to simply include a "Signed-off-by" statement in each commit message.
 
