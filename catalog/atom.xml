@@ -14,6 +14,15 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/methods/dco/</id>
+    <link href="https://codingkata.tardate.com/methods/dco/"/>
+    <updated>2025-09-06T08:36:00Z</updated>
+    <title>#354 DCO</title>
+    <summary>About the Developer Certificate of Origin and how to support it with git</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;About the Developer Certificate of Origin and how to support it with git&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="git"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/ruby/shell-gem/</id>
     <link href="https://codingkata.tardate.com/ruby/shell-gem/"/>
     <updated>2025-09-04T04:17:00Z</updated>
