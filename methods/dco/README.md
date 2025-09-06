@@ -1,4 +1,4 @@
-# #xxx DCO
+# #354 DCO
 
 About the Developer Certificate of Origin and how to support it with git
 

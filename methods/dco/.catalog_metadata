@@ -2,5 +2,8 @@
     "name": "DCO",
     "description": "About the Developer Certificate of Origin and how to support it with git",
     "categories": "git",
-    "relative_path": "methods/dco"
+    "relative_path": "methods/dco",
+    "updated_at": "2025-09-06T08:36:00Z",
+    "created_at": "2025-09-06T08:36:00Z",
+    "id": "#354"
 }

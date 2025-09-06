@@ -1,4 +1,12 @@
 {
+    "/methods/dco/": {
+        "id": 354,
+        "title": "DCO",
+        "summary": "About the Developer Certificate of Origin and how to support it with git",
+        "tags": [
+            "git"
+        ]
+    },
     "/ruby/shell-gem/": {
         "id": 353,
         "title": "Shell Gem",
