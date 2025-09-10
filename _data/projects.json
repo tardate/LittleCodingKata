@@ -1,4 +1,13 @@
 {
+    "/ruby/array-accumulation-problem/": {
+        "id": 355,
+        "title": "Array Accumulation Problem",
+        "summary": "Using ruby to solve the array accumulation problem; cassidoo's interview question of the week (2025-09-08)",
+        "tags": [
+            "ruby",
+            "cassidoo"
+        ]
+    },
     "/methods/dco/": {
         "id": 354,
         "title": "DCO",
