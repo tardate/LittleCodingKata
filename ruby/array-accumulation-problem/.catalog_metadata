@@ -1,0 +1,6 @@
+{
+    "name": "Array Accumulation Problem",
+    "description": "Using ruby to solve the array accumulation problem; cassidoo's interview question of the week (2025-09-08)",
+    "categories": "ruby, cassidoo",
+    "relative_path": "ruby/array-accumulation-problem"
+}

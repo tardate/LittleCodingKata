@@ -184,6 +184,7 @@ Final code is in [examples.rb](./examples.rb):
 
 ## Credits and References
 
+* [cassidoo's interview question of the week (2025-07-21)](https://buttondown.com/cassidoo/archive/7309/)
 * [RIOT: The Scheduling Problem](https://riot.ieor.berkeley.edu/Applications/Scheduling/algorithms.html)
 * [Optimal job scheduling](https://en.wikipedia.org/wiki/Optimal_job_scheduling)
 * [Single-machine scheduling](https://en.wikipedia.org/wiki/Single-machine_scheduling)
