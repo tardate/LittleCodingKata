@@ -14,6 +14,16 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/ruby/array-accumulation-problem/</id>
+    <link href="https://codingkata.tardate.com/ruby/array-accumulation-problem/"/>
+    <updated>2025-09-10T11:27:00Z</updated>
+    <title>#355 Array Accumulation Problem</title>
+    <summary>Using ruby to solve the array accumulation problem; cassidoo's interview question of the week (2025-09-08)</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using ruby to solve the array accumulation problem; cassidoo's interview question of the week (2025-09-08)&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="ruby"/>
+    <category term="cassidoo"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/methods/dco/</id>
     <link href="https://codingkata.tardate.com/methods/dco/"/>
     <updated>2025-09-06T08:36:00Z</updated>

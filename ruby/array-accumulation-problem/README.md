@@ -1,4 +1,4 @@
-# #xxx Array Accumulation Problem
+# #355 Array Accumulation Problem
 
 Using ruby to solve the array accumulation problem; cassidoo's interview question of the week (2025-09-08).
 
