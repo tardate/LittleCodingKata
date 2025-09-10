@@ -4,7 +4,8 @@ Using ruby to solve the array accumulation problem; cassidoo's interview questio
 
 ## Notes
 
-The [interview question of the week (2025-09-08)](https://buttondown.com/cassidoo/archive/lifes-too-short-to-be-a-pushover-kelly-clarkson/):
+The [interview question of the week (2025-09-08)](https://buttondown.com/cassidoo/archive/lifes-too-short-to-be-a-pushover-kelly-clarkson/)
+is an unusual way to sum an array with a moving window. But as in most cases, there's a naïve way to solve it, and sneakier ways:
 
 > For an array of numbers, generate an array where for every element, all neighboring elements are added to itself, and return the sum of that array.
 >
