@@ -1,4 +1,4 @@
-# #xxx Ruby 3.4
+# #356 Ruby 3.4
 
 About Ruby 3.4 including installation on Apple Silicon.
 

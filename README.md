@@ -1,6 +1,6 @@
-# 355 Little Coding Katas
+# 356 Little Coding Katas
 
-> Latest addition :sparkles: [Array Accumulation Problem](./ruby/array-accumulation-problem) - Using ruby to solve the array accumulation problem; cassidoo's interview question of the week (2025-09-08)
+> Latest addition :sparkles: [Ruby 3.4](./ruby/ruby34) - About Ruby 3.4 including installation on Apple Silicon.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

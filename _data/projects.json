@@ -1,4 +1,12 @@
 {
+    "/ruby/ruby34/": {
+        "id": 356,
+        "title": "Ruby 3.4",
+        "summary": "About Ruby 3.4 including installation on Apple Silicon.",
+        "tags": [
+            "ruby"
+        ]
+    },
     "/ruby/array-accumulation-problem/": {
         "id": 355,
         "title": "Array Accumulation Problem",
