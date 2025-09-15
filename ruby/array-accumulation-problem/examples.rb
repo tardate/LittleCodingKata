@@ -32,6 +32,14 @@ class ArrayAccumulationProblem
     end
     result
   end
+
+  def improved2a
+    input.sum * 3 - (input.first || 0) - (input.last || 0)
+  end
+
+  def improved2b
+    input.inject(0) { |sum, n| sum + n * 3 } - (input.first || 0) - (input.last || 0)
+  end
 end
 
 

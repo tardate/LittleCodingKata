@@ -93,21 +93,54 @@ Input: [0.1, 0.2, 0.3]
 Result: 1.4
 ```
 
+### Improved Algorithm
+
+[Leyan Lo](https://bsky.app/profile/leyanlo.bsky.social/post/3lymgivx7i22p)
+came up with an even cleaner restructuring of the solution: 3 times the sum, minus the first and last.
+
+In ruby that can be a one-liner, implemented as algorithm `improved2a`:
+
+```ruby
+input.sum * 3 - (input.first || 0) - (input.last || 0)
+```
+
+However, this is subject to some strange results with floats:
+
+```ruby
+[0.1, 0.2, 0.3].sum * 3
+ => 1.7999999999999998
+```
+
+Whereas tripling the individual items before summation produces a more sensible result:
+
+```ruby
+[0.1, 0.2, 0.3].inject(0) { |sum, n| sum + n * 3 }
+ => 1.8
+```
+
+This is the solution in algorithm `improved2b`:
+
+```ruby
+def improved2b
+  input.inject(0) { |sum, n| sum + n * 3 } - (input.first || 0) - (input.last || 0)
+end
+```
+
 ### Tests
 
 I've setup some validation in [test_examples.rb](./test_examples.rb):
 
 ```sh
 $ ./test_examples.rb
-Run options: --seed 47624
+Run options: --seed 63991
 
 # Running:
 
-................
+................................
 
-Finished in 0.000330s, 48484.8484 runs/s, 48484.8484 assertions/s.
+Finished in 0.000462s, 69264.0687 runs/s, 71428.5709 assertions/s.
 
-16 runs, 16 assertions, 0 failures, 0 errors, 0 skips
+32 runs, 33 assertions, 0 failures, 0 errors, 0 skips
 ```
 
 ### Example Code
@@ -148,6 +181,14 @@ class ArrayAccumulationProblem
       result += value * multiplier
     end
     result
+  end
+
+  def improved2a
+    input.sum * 3 - (input.first || 0) - (input.last || 0)
+  end
+
+  def improved2b
+    input.inject(0) { |sum, n| sum + n * 3 } - (input.first || 0) - (input.last || 0)
   end
 end
 

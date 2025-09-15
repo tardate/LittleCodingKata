@@ -100,4 +100,70 @@ class TestExamples < Minitest::Test
   def test_improved_mixed_elements
     exec_test_case(:improved, EG8, EG8_EXPECTED)
   end
+
+  def test_improved2a_empty_array
+    exec_test_case(:improved2a)
+  end
+
+  def test_improved2a_single_element
+    exec_test_case(:improved2a, EG2, EG2_EXPECTED)
+  end
+
+  def test_improved2a_two_elements
+    exec_test_case(:improved2a, EG3, EG3_EXPECTED)
+  end
+
+  def test_improved2a_three_elements
+    exec_test_case(:improved2a, EG4, EG4_EXPECTED)
+  end
+
+  def test_improved2a_four_elements
+    exec_test_case(:improved2a, EG5, EG5_EXPECTED)
+  end
+
+  def test_improved2a_negative_elements
+    exec_test_case(:improved2a, EG6, EG6_EXPECTED)
+  end
+
+  def test_improved2a_float_elements
+    result = ArrayAccumulationProblem.new(EG7).send(:improved2a)
+    assert_in_delta EG7_EXPECTED, result, 0.01
+    refute_equal EG7_EXPECTED, result   # sanity check
+  end
+
+  def test_improved2a_mixed_elements
+    exec_test_case(:improved2a, EG8, EG8_EXPECTED)
+  end
+
+  def test_improved2b_empty_array
+    exec_test_case(:improved2b)
+  end
+
+  def test_improved2b_single_element
+    exec_test_case(:improved2b, EG2, EG2_EXPECTED)
+  end
+
+  def test_improved2b_two_elements
+    exec_test_case(:improved2b, EG3, EG3_EXPECTED)
+  end
+
+  def test_improved2b_three_elements
+    exec_test_case(:improved2b, EG4, EG4_EXPECTED)
+  end
+
+  def test_improved2b_four_elements
+    exec_test_case(:improved2b, EG5, EG5_EXPECTED)
+  end
+
+  def test_improved2b_negative_elements
+    exec_test_case(:improved2b, EG6, EG6_EXPECTED)
+  end
+
+  def test_improved2b_float_elements
+    exec_test_case(:improved2b, EG7, EG7_EXPECTED)
+  end
+
+  def test_improved2b_mixed_elements
+    exec_test_case(:improved2b, EG8, EG8_EXPECTED)
+  end
 end
