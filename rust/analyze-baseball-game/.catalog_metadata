@@ -1,0 +1,6 @@
+{
+    "name": "Analyze a Baseball Game",
+    "description": "Using rust to analyze a baseball game; cassidoo's interview question of the week (2025-09-15). This was the day I advanced to consciously incompetent in the rules of baseball.",
+    "categories": "rust, cassidoo",
+    "relative_path": "rust/analyze-baseball-game"
+}
