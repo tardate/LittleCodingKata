@@ -6,7 +6,7 @@ This was the day I advanced to consciously incompetent in the rules of baseball.
 ## Notes
 
 The [interview question of the week (2025-09-15)](https://buttondown.com/cassidoo/archive/there-is-nothing-more-truly-artistic-than-to-love/)
-asks us to analyze baseball stats in a 2-d array:
+asks us to analyze baseball stats in a 2D array:
 
 > You are given an array of arrays, where each inner array represents the runs scored by each team in an inning of a baseball game: [[home1, away1], [home2, away2], ...]. Write a function that returns an object with the total runs for each team, which innings each team led, and who won the game.
 >
@@ -46,12 +46,12 @@ When counting home-led or away-led innings:
 
 * You look at who was leading at the end of that inning (not just during).
 * If the score is tied at the end of the inning, it is usually counted as neither home-led nor away-led — it’s just recorded as a tie for that frame.
-* Some analyses will include a "Tied" category so you can see how many innings were tied, others just omit those from the count entirely.
+* Some analyses will include a "tied" category so you can see how many innings were tied, others just omit those from the count entirely.
 
 #### Implications for the Implementation
 
-* winner is determined by comparing homeTotal and awayTotal
-* home-led or away-led innings are determined by comparing homeTotal and awayTotal at the end of the innings
+* winner is determined by comparing `homeTotal` and `awayTotal`
+* home-led or away-led innings are determined by comparing `homeTotal` and `awayTotal` at the end of the innings
 * there's no constraint mentioned, so I'll assume draws are possible
 * I'll also assume we ignore tied innings when calculating home-led/away-led
 
@@ -174,8 +174,8 @@ fn main() -> Result<(), ExitFailure> {
         .with_context(|_| "Failed to parse innings as JSON array of integer pairs")?;
     println!("Given Innings: {:?}", innings);
 
-    let ffd_result = analyze_baseball_game(&innings);
-    println!("Result:\n{}", serde_json::to_string_pretty(&ffd_result).unwrap());
+    let result = analyze_baseball_game(&innings);
+    println!("Result:\n{}", serde_json::to_string_pretty(&result).unwrap());
 
     Ok(())
 }

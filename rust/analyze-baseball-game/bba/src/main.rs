@@ -13,8 +13,8 @@ fn main() -> Result<(), ExitFailure> {
         .with_context(|_| "Failed to parse innings as JSON array of integer pairs")?;
     println!("Given Innings: {:?}", innings);
 
-    let ffd_result = analyze_baseball_game(&innings);
-    println!("Result:\n{}", serde_json::to_string_pretty(&ffd_result).unwrap());
+    let result = analyze_baseball_game(&innings);
+    println!("Result:\n{}", serde_json::to_string_pretty(&result).unwrap());
 
     Ok(())
 }
