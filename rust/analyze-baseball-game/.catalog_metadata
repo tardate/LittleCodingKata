@@ -1,0 +1,9 @@
+{
+    "name": "Analyze a Baseball Game",
+    "description": "Using rust to analyze a baseball game; cassidoo's interview question of the week (2025-09-15). This was the day I advanced to consciously incompetent in the rules of baseball.",
+    "categories": "rust, cassidoo",
+    "relative_path": "rust/analyze-baseball-game",
+    "updated_at": "2025-09-20T04:56:00Z",
+    "created_at": "2025-09-20T04:56:00Z",
+    "id": "#357"
+}

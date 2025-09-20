@@ -1,0 +1,9 @@
+[package]
+name = "bba"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+exitfailure = "0.5.1"
+failure = "0.1.8"
+serde_json = "1.0.145"

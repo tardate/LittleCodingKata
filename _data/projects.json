@@ -1,4 +1,13 @@
 {
+    "/rust/analyze-baseball-game/": {
+        "id": 357,
+        "title": "Analyze a Baseball Game",
+        "summary": "Using rust to analyze a baseball game; cassidoo's interview question of the week (2025-09-15). This was the day I advanced to consciously incompetent in the rules of baseball.",
+        "tags": [
+            "rust",
+            "cassidoo"
+        ]
+    },
     "/ruby/ruby34/": {
         "id": 356,
         "title": "Ruby 3.4",
