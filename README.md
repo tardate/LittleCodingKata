@@ -1,6 +1,6 @@
-# 356 Little Coding Katas
+# 357 Little Coding Katas
 
-> Latest addition :sparkles: [Ruby 3.4](./ruby/ruby34) - About Ruby 3.4 including installation on Apple Silicon.
+> Latest addition :sparkles: [Analyze a Baseball Game](./rust/analyze-baseball-game) - Using rust to analyze a baseball game; cassidoo's interview question of the week (2025-09-15). This was the day I advanced to consciously incompetent in the rules of baseball.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

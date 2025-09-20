@@ -1,4 +1,4 @@
-# #xxx Analyze a Baseball Game
+# #357 Analyze a Baseball Game
 
 Using rust to analyze a baseball game; cassidoo's interview question of the week (2025-09-15).
 This was the day I advanced to consciously incompetent in the rules of baseball.
