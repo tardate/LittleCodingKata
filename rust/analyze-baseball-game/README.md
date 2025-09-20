@@ -133,13 +133,17 @@ $ cargo test
     Finished `test` profile [unoptimized + debuginfo] target(s) in 0.01s
      Running unittests src/lib.rs (target/debug/deps/bba-ba471bff2c56bc4c)
 
-running 4 tests
+running 8 tests
+test tests::test_all_zero_scores ... ok
 test tests::test_away_wins ... ok
+test tests::test_empty_innings ... ok
 test tests::test_home_wins ... ok
-test tests::test_example ... ok
 test tests::test_draw ... ok
+test tests::test_panic_on_inning_with_less_than_2_elements ... ok
+test tests::test_example ... ok
+test tests::test_panic_on_inning_with_more_than_2_elements ... ok
 
-test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+test result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
 
      Running unittests src/main.rs (target/debug/deps/bba-698f36f01158bdfe)
 
@@ -197,7 +201,7 @@ pub fn analyze_baseball_game(innings: &Vec<Vec<i32>>) -> serde_json::Value {
 
     for (i, inning) in innings.iter().enumerate() {
         if inning.len() != 2 {
-            continue;
+            panic!("Each inning must have exactly 2 elements (home and away scores), but found {}", inning.len());
         }
         home_total += inning[0];
         away_total += inning[1];
@@ -262,7 +266,6 @@ mod tests {
         );
     }
 
-
     #[test]
     fn test_away_wins() {
         assert_eq!(
@@ -301,6 +304,50 @@ mod tests {
         );
     }
 
+    #[test]
+    fn test_panic_on_inning_with_less_than_2_elements() {
+        let result = std::panic::catch_unwind(|| {
+            analyze_baseball_game(&vec![vec![1]]);
+        });
+        assert!(result.is_err());
+    }
+
+    #[test]
+    fn test_panic_on_inning_with_more_than_2_elements() {
+        let result = std::panic::catch_unwind(|| {
+            analyze_baseball_game(&vec![vec![1, 2, 3]]);
+        });
+        assert!(result.is_err());
+    }
+
+    #[test]
+    fn test_empty_innings() {
+        let result = analyze_baseball_game(&vec![]);
+        assert_eq!(
+            result,
+            json!({
+                "homeTotal": 0,
+                "awayTotal": 0,
+                "homeLedInnings": [],
+                "awayLedInnings": [],
+                "winner": "draw"
+            })
+        );
+    }
+
+    #[test]
+    fn test_all_zero_scores() {
+        assert_eq!(
+            analyze_baseball_game(&vec![vec![0, 0], vec![0, 0], vec![0, 0]]),
+            json!({
+                "homeTotal": 0,
+                "awayTotal": 0,
+                "homeLedInnings": [],
+                "awayLedInnings": [],
+                "winner": "draw"
+            })
+        );
+    }
 }
 ```
 
