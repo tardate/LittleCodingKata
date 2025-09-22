@@ -1,14 +1,10 @@
 # #120 21st Century C
 
-Notes on the book 21st Century C, 2nd Edition by Ben Klemens, pubished by O'Reilly
+Book notes - 21st Century C, 2nd Edition by Ben Klemens, published by O'Reilly
 
 ## Notes
 
-See:
-
-* [O'Reilly listing](https://learning.oreilly.com/library/view/21st-century-c/9781491904428/)
-* [goodreads](https://www.goodreads.com/book/show/17017525-21st-century-c)
-* [example code source](https://resources.oreilly.com/examples/0636920025108/)
+[![cover](./assets/cover.jpg)](https://amzn.to/3Kek1Tp)
 
 ## Highlights from the Table of Contents
 
@@ -135,10 +131,10 @@ Provides a very good "C 101"
 
 ## Getting the Example Source
 
-The git repo actually contains a ziped archive of the sources.
+The git repo actually contains a zipped archive of the sources.
 I've extracted locally to a folder called `example_source` as follows:
 
-```
+```sh
 git clone https://resources.oreilly.com/examples/0636920025108.git
 tar zxvf 0636920025108/21st_century_examples.tgz
 mv 21st_century_examples example_source
@@ -147,4 +143,6 @@ rm -fR 0636920025108
 
 ## Credits and References
 
-* [21st Century C](https://learning.oreilly.com/library/view/21st-century-c/9781491904428/) - O'Reilly listing
+* [O'Reilly listing](https://learning.oreilly.com/library/view/21st-century-c/9781491904428/)
+* [goodreads](https://www.goodreads.com/book/show/17017525-21st-century-c)
+* [example code source](https://resources.oreilly.com/examples/0636920025108/)

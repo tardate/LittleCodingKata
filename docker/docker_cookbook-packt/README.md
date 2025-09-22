@@ -4,6 +4,8 @@ Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai
 
 ## Notes
 
+[![cover](./assets/cover.jpg)](https://amzn.to/3VZ51Lw)
+
 ## Table of Contents - Highlights
 
 ### 1 Introduction and Installation

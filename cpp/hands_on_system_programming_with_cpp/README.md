@@ -2,6 +2,8 @@
 
 Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn.
 
+[![cover](./assets/cover.jpg)](https://amzn.to/4mw7GHJ)
+
 ## Notes
 
 * [ebook](https://subscription.packtpub.com/book/application_development/9781789137880)
@@ -113,7 +115,6 @@ Exploring C and C++ default types
 * Studying an example of stateless, cache–aligned allocator
 * Studying an example of a stateful, memory–pool allocator
 
-
 #### Programming POSIX Sockets Using C++
 
 * Beginning with POSIX sockets
@@ -145,10 +146,9 @@ Exploring C and C++ default types
 * Learning about set jump exceptions
 * Understanding exception support in C++
 
-
 ### Getting the Example Source
 
-```
+```sh
 git clone https://github.com/PacktPublishing/Hands-On-System-Programming-with-CPP.git example_source
 ```
 

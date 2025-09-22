@@ -4,6 +4,8 @@ Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly.
 
 ## Notes
 
+[![cover](./assets/cover.jpg)](https://amzn.to/4nJITAW)
+
 ## Table of Contents - Highlights
 
 ### Part I. Introduction to Flask
@@ -231,8 +233,11 @@ git clone https://github.com/miguelgrinberg/flasky.git example_source
 
 ## Credits and References
 
-* [Flask Book](https://flaskbook.com/) - Companion site for the Flask book and training videos by Miguel Grinberg
-* [Flask Web Development](https://learning.oreilly.com/library/view/flask-web-development/9781491947586/)
+* Flask Web Development
+    * [amazon](https://amzn.to/4nJITAW)
+    * [O'Reilly](https://learning.oreilly.com/library/view/flask-web-development/9781491947586/)
+    * [goodreads](https://www.goodreads.com/book/show/18774655-flask-web-development)
 * [Errata for Flask Web Development](https://www.oreilly.com/catalog/errata.csp?isbn=9781449372620)
+* [Flask Book](https://flaskbook.com/) - Companion site for the Flask book and training videos by Miguel Grinberg
 * [Flask Web Development Example](https://github.com/miguelgrinberg/flasky) - github
 * [Flask documentation](https://flask.palletsprojects.com/)

@@ -8,6 +8,8 @@ Book notes - The Ruby Way, by Hal Fulton. First published January 1, 2001.
 was one of the seminal books that really drew me into ruby back in the day.
 The latest edition was published in 2015.
 
+[![cover](./assets/cover.jpg)](https://amzn.to/3Kl3rRH)
+
 ### Contents
 
 * 1 Ruby in Review
@@ -584,7 +586,9 @@ Download is available from <https://www.rubyhacker.com/>, also copied [here](htt
 
 ## Credits and References
 
-* <https://www.goodreads.com/book/show/4514.The_Ruby_Way>
+* The Ruby Way
+    * [amazon](https://amzn.to/3Kl3rRH)
+    * [goodreads](https://www.goodreads.com/book/show/4514.The_Ruby_Way)
+    * [O'Reilly](https://www.oreilly.com/library/view/the-ruby-way/9780132480352/pref06.html)
 * <https://therubyway.io/>
-* <https://www.oreilly.com/library/view/the-ruby-way/9780132480352/pref06.html>
 * <https://www.rubyhacker.com/> - Hal Fulton's personal page and source code

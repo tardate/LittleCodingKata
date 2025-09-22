@@ -5,9 +5,11 @@ Book notes - Metasploit Penetration Testing Cookbook, Second Edition by Monika A
 ## Notes
 
 The
-[Metasploit Penetration Testing Cookbook](https://subscription.packtpub.com/book/networking_and_servers/9781782166788)
+Metasploit Penetration Testing Cookbook
 is a bit old now (published 2013).
-It gives a good general overview, but actually commands and tools are a bit outdated.
+It gives a good general overview, but actually commands and tools are a bit outdated. There is a [third edition](https://amzn.to/46yIIkO), published in 2018.
+
+[![cover](./assets/cover.jpg)](https://amzn.to/4pBhxOX)
 
 ## Table of Contents - Highlights
 
@@ -118,7 +120,16 @@ Running and targeting pentesting in the cloud. Some general ideas still valid, b
 
 ## Credits and References
 
-* [Metasploit Penetration Testing Cookbook](https://subscription.packtpub.com/book/networking_and_servers/9781782166788) - ebook
-* [Metasploit Penetration Testing Cookbook](https://www.goodreads.com/book/show/18752607-metasploit-penetration-testing-cookbook) - goodreads
+* Metasploit Penetration Testing Cookbook
+    * [amazon](https://amzn.to/4mp7UjB)
+    * [goodreads](https://www.goodreads.com/book/show/15785653-metasploit-penetration-testing-cookbook)
+    * [packtpub](https://www.packtpub.com/en-us/product/metasploit-penetration-testing-cookbook-9781849517430)
+* Metasploit Penetration Testing Cookbook, Second Edition
+    * [amazon](https://amzn.to/4pBhxOX)
+    * [goodreads](https://www.goodreads.com/book/show/18752607-metasploit-penetration-testing-cookbook)
+* Metasploit Penetration Testing Cookbook, Third Edition
+    * [amazon](https://amzn.to/46yIIkO)
+    * [goodreads](https://www.goodreads.com/book/show/41017734-metasploit-penetration-testing-cookbook---third-edition)
+    * [packetpub](https://www.packtpub.com/en-us/product/metasploit-penetration-testing-cookbook-9781788629713)
 * [Metasploit](https://www.metasploit.com) - homepage
 * [metasploit-framework github sources](https://github.com/rapid7/metasploit-framework)

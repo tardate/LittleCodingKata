@@ -4,7 +4,9 @@ Book notes - Programming Interactivity 2nd Edition, by Joshua Noble published by
 
 ## Notes
 
-[Programming Interactivity, 2nd Edition](https://learning.oreilly.com/library/view/programming-interactivity-2nd/9781449321482/) - A Designer's Guide to Processing, Arduino, and openFrameworks.
+Programming Interactivity, 2nd Edition - A Designer's Guide to Processing, Arduino, and openFrameworks.
+
+[![cover](./assets/cover.jpg)](https://amzn.to/42FeH1u)
 
 ### Table of Contents - Highlights
 

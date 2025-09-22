@@ -4,6 +4,8 @@ Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, published by O'Re
 
 ## Notes
 
+[![cover](./assets/cover.jpg)](https://amzn.to/3Kf3Y7R)
+
 ## Table of Contents - Highlights
 
 ### 1. Using HTML Basics
@@ -311,6 +313,8 @@ git clone https://resources.oreilly.com/examples/9780596005764.git example_sourc
 
 ## Credits and References
 
-* [O'Reilly listing](https://learning.oreilly.com/library/view/css-cookbook-3rd/9781449377250/)
-* [goodreads](https://www.goodreads.com/book/show/859.CSS_Cookbook)
+* CSS Cookbook, 3rd Edition
+    * [amazon](https://amzn.to/3Kf3Y7R)
+    * [O'Reilly listing](https://learning.oreilly.com/library/view/css-cookbook-3rd/9781449377250/)
+    * [goodreads](https://www.goodreads.com/book/show/6712973-css-cookbook-3rd-edition)
 * [example code source - 3rd Edition](https://resources.oreilly.com/examples/9780596155940/)

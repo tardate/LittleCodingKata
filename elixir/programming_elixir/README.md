@@ -1,12 +1,14 @@
 # #117 Programming Elixir
 
-Book notes - Programming Elixir by Dave Thomas, pubished by The Pragmatic Bookshelf
+Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf
 
 ## Notes
 
-I bought Programming Elixir from The Pragmatic Bookshelf in version 1.0 and udated through to 1.3.
+I bought Programming Elixir from The Pragmatic Bookshelf in version 1.0 and updated through to 1.3.
 the latest edition is [1.6](https://pragprog.com/book/elixir16/programming-elixir-1-6).
 My notes here reflect the 1.3 edition.
+
+[![cover](./assets/cover.jpg)](https://amzn.to/4mubid9)
 
 ## Table of Contents - Highlights
 
@@ -25,7 +27,6 @@ My notes here reflect the 1.3 edition.
 * Organizing a Project
 * Tooling
 
-
 ### Concurrent Programming
 
 * Working with Multiple Processes
@@ -43,7 +44,7 @@ My notes here reflect the 1.3 edition.
 
 ### Getting the Source
 
-```
+```sh
 $ mkdir example_source
 $ cd example_source
 # v1.3 examples

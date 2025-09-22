@@ -4,6 +4,8 @@ Book notes - Think Python, 2nd edition, by Allen B. Downey, published by O'Reill
 
 ## Notes
 
+[![cover](./assets/cover.jpg)](<https://amzn.to/46yeLBm>)
+
 ## Table of Contents - Highlights
 
 Preface
@@ -308,12 +310,16 @@ Preface
 
 ## Getting the Example Source
 
-    git clone https://github.com/AllenDowney/ThinkPython2.git example_source
+```sh
+git clone https://github.com/AllenDowney/ThinkPython2.git example_source
+```
 
 ## Credits and References
 
-* [Think Python, 2nd Edition](https://www.oreilly.com/library/view/think-python-2nd/9781491939406/)
+* Think Python, 2nd Edition
+    * [amazon](https://amzn.to/46yeLBm)
+    * [O'Reilly](https://www.oreilly.com/library/view/think-python-2nd/9781491939406/)
+    * [greenteapress](https://greenteapress.com/wp/think-python-2e/)
+    * [goodreads](https://www.goodreads.com/book/show/14514306-think-python)
 * [Errata](https://www.oreilly.com/catalog/errata.csp?isbn=9781491939369)
-* [Think Python, 2nd edition](https://greenteapress.com/wp/think-python-2e/) - greenteapress
 * [example code](https://github.com/AllenDowney/ThinkPython2)
-* [Think Python](https://www.goodreads.com/book/show/14514306-think-python) - GoodReads

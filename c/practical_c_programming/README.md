@@ -1,42 +1,44 @@
 # #119 Practical C Programming
 
-Book notes - Practical C Programming, 3rd Edition by Steve Oualline, pubished by O'Reilly
+Book notes - Practical C Programming, 3rd Edition by Steve Oualline, published by O'Reilly
 
 ## Notes
+
+[![cover](./assets/cover.jpg)](https://amzn.to/3VtRqMi)
 
 ## Table of Contents - Highlights
 
 ### I. Basics
 
-* 1. What Is C?
-* 2. Basics of Program Writing
-* 3. Style
-* 4. Basic Declarations and Expressions
-* 5. Arrays, Qualifiers, and Reading Numbers
-* 6. Decision and Control Statements
-* 7. Programming Process
+* 1: What Is C?
+* 2: Basics of Program Writing
+* 3: Style
+* 4: Basic Declarations and Expressions
+* 5: Arrays, Qualifiers, and Reading Numbers
+* 6: Decision and Control Statements
+* 7: Programming Process
 
 ### II. Simple Programming
 
-* 8. More Control Statements
-* 9. Variable Scope and Functions
-* 10. C Preprocessor
-* 11. Bit Operations
-* 12. Advanced Types
-* 13. Simple Pointers
-* 14. File Input/Output
-* 15. Debugging and Optimization
-* 16. Floating Point
+* 8: More Control Statements
+* 9: Variable Scope and Functions
+* 10: C Preprocessor
+* 11: Bit Operations
+* 12: Advanced Types
+* 13: Simple Pointers
+* 14: File Input/Output
+* 15: Debugging and Optimization
+* 16: Floating Point
 
 ### III. Advanced Programming Concepts
 
-* 17. Advanced Pointers
-* 18. Modular Programming
-* 19. Ancient Compilers
-* 20. Portability Problems
-* 21. C’s Dustier Corners
-* 22. Putting It All Together
-* 23. Programming Adages
+* 17: Advanced Pointers
+* 18: Modular Programming
+* 19: Ancient Compilers
+* 20: Portability Problems
+* 21: C’s Dustier Corners
+* 22: Putting It All Together
+* 23: Programming Adages
 
 ### IV. Other Language Features
 
@@ -47,7 +49,7 @@ Book notes - Practical C Programming, 3rd Edition by Steve Oualline, pubished by
 
 ## Getting the Example Source
 
-```
+```sh
 git clone https://resources.oreilly.com/examples/9781565923065.git example_source
 ```
 

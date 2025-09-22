@@ -9,6 +9,8 @@ by William von Hagen and Brian K. Jones, published by O'Reilly.
 
 ### Linux Server Hacks Volume 1: Table of Contents - Highlights
 
+[![cover1](./assets/cover1.jpg)](https://amzn.to/3Kd5nM8)
+
 #### 1. Server Basics
 
 * 1. Removing Unnecessary Services
@@ -139,6 +141,8 @@ by William von Hagen and Brian K. Jones, published by O'Reilly.
 ### Linux Server Hacks, Volume Two: Table of Contents - Highlights
 
 Tips & Tools for Connecting, Monitoring, and Troubleshooting
+
+[![cover2](./assets/cover2.jpg)](https://amzn.to/42ANNYE)
 
 #### 1. Linux Authentication
 
@@ -272,9 +276,9 @@ Tips & Tools for Connecting, Monitoring, and Troubleshooting
 
 ### Getting the Source
 
-Volume 1 examples are available form the O'Reilly git server:
+Volume 1 examples are available from the O'Reilly git server:
 
-```
+```sh
 git clone https://resources.oreilly.com/examples/9780596004613.git example_source/vol1
 ```
 
