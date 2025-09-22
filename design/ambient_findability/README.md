@@ -1,10 +1,12 @@
 # #314 Ambient Findability
 
-Book notes - Ambient Findability, By Peter Morville, published by O'Reilly.
+Book notes - Ambient Findability, By Peter Morville, published by O'Reilly. ISBN: 9780596007652
 
 ## Notes
 
-[Ambient Findability - What We Find Changes Who We Become](https://www.oreilly.com/library/view/ambient-findability/0596007655/) ISBN: 9780596007652
+Ambient Findability - What We Find Changes Who We Become.
+
+[![cover](./assets/cover.jpg)](https://amzn.to/46JCOP7)
 
 ## Book description
 

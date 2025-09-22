@@ -4,6 +4,8 @@ Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reil
 
 ## Notes
 
+[![cover](./assets/cover.jpg)](https://amzn.to/3VtZkVW)
+
 ## Table of Contents - Highlights
 
 ### 1. The World’s Smallest Django Project
@@ -152,7 +154,10 @@ git clone https://github.com/lightweightdjango/examples.git example_source
 
 ## Credits and References
 
-* [Lightweight Django](https://learning.oreilly.com/library/view/lightweight-django/9781491946275/)
+* Lightweight Django
+    * [amazon](https://amzn.to/3VtZkVW)
+    * [goodreads](https://www.goodreads.com/book/show/22296164-lightweight-django)
+    * [O'Reilly](https://learning.oreilly.com/library/view/lightweight-django/9781491946275/)
 * [Errata for Lightweight Django](https://www.oreilly.com/catalog/errata.csp?isbn=9781491945940)
 * [Lightweight Django Examples](https://github.com/lightweightdjango/examples) - github
 * [Talk Python #88: Lightweight Django](https://www.youtube.com/watch?v=786AE_scHww) - YouTube

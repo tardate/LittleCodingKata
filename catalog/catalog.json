@@ -72,7 +72,7 @@
     {
         "name": "The Ruby Way",
         "description": "Book notes - The Ruby Way, by Hal Fulton. First published January 1, 2001.",
-        "categories": "ruby, book",
+        "categories": "ruby, Books",
         "relative_path": "ruby/the-ruby-way",
         "updated_at": "2025-08-27T08:21:00Z",
         "created_at": "2025-08-27T08:21:00Z",
@@ -262,7 +262,7 @@
     {
         "name": "Object Oriented Modeling And Design",
         "description": "Book notes - Object Oriented Modeling And Design by James Rumbaugh, Michael R. Blaha, William Premerlani, Frederick Eddy, William Lorensen.",
-        "categories": "design, book, methods",
+        "categories": "design, Books, methods",
         "relative_path": "design/object-oriented-modeling-and-design",
         "updated_at": "2025-06-06T08:26:00Z",
         "created_at": "2025-06-06T08:26:00Z",
@@ -342,7 +342,7 @@
     {
         "name": "Practical Rust Projects",
         "description": "Book notes: Practical Rust Projects: Building Game, Physical Computing, and Machine Learning Applications, by Shing Lyu. Published February 28, 2020.",
-        "categories": "rust, book",
+        "categories": "rust, Books",
         "relative_path": "rust/practical-rust-projects",
         "updated_at": "2025-04-13T14:19:00Z",
         "created_at": "2025-04-13T14:19:00Z",
@@ -432,7 +432,7 @@
     {
         "name": "Ambient Findability",
         "description": "Book notes - Ambient Findability, By Peter Morville, published by O'Reilly",
-        "categories": "design, book",
+        "categories": "design, Books",
         "relative_path": "design/ambient_findability",
         "updated_at": "2025-01-02T05:46:00Z",
         "id": "#314",
@@ -502,7 +502,7 @@
     {
         "name": "Pro Git",
         "description": "About Pro Git - the essential guide for mastering Git by Scott Chacon and Ben Straub.",
-        "categories": "vcs, git, book",
+        "categories": "vcs, git, Books",
         "relative_path": "tools/git/pro_git",
         "updated_at": "2024-11-05T02:18:00Z",
         "id": "#307",
@@ -722,7 +722,7 @@
     {
         "name": "Think Python",
         "description": "Book notes - Think Python, 2nd edition, by Allen B. Downey, published by O'Reilly.",
-        "categories": "python, book",
+        "categories": "python, Books",
         "relative_path": "python/think_python",
         "updated_at": "2024-03-21T16:44:15Z",
         "id": "#285",
@@ -982,7 +982,7 @@
     {
         "name": "Flask Web Development",
         "description": "Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly",
-        "categories": "python, book",
+        "categories": "python, Books",
         "relative_path": "python/flaskwebdevelopment",
         "updated_at": "2023-05-02T10:34:36Z",
         "id": "#259",
@@ -992,7 +992,7 @@
     {
         "name": "Lightweight Django",
         "description": "Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly",
-        "categories": "python, book",
+        "categories": "python, Books",
         "relative_path": "python/lightweightdjango",
         "updated_at": "2023-05-02T10:08:56Z",
         "id": "#258",
@@ -1182,7 +1182,7 @@
     {
         "name": "Python Playground",
         "description": "Book notes - Python Playground, by Mahesh Venkitachalam, published by No Starch Press",
-        "categories": "python, book",
+        "categories": "python, Books",
         "relative_path": "python/pythonplayground",
         "updated_at": "2022-11-09T10:28:32Z",
         "id": "#239",
@@ -1782,7 +1782,7 @@
     {
         "name": "Bash Reference Manual",
         "description": "the GNU Bash Reference Manual",
-        "categories": "bash, book",
+        "categories": "bash, Books",
         "relative_path": "bash/bash_reference_manual",
         "updated_at": "2021-05-30T09:23:28Z",
         "id": "#179",
@@ -1892,7 +1892,7 @@
     {
         "name": "Hands-On System Programming with C++",
         "description": "Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn",
-        "categories": "C++, book",
+        "categories": "C++, Books",
         "relative_path": "cpp/hands_on_system_programming_with_cpp",
         "updated_at": "2021-04-23T14:18:20Z",
         "id": "#168",
@@ -2031,8 +2031,8 @@
     },
     {
         "name": "Modern Front-End Development for Rails",
-        "description": "Notes on the book Modern Front-End Development for Rails, By Noel Rappin, published by The Pragmatic Programmers",
-        "categories": "ruby, rails, javascript, book",
+        "description": "Book notes - Modern Front-End Development for Rails, By Noel Rappin, published by The Pragmatic Programmers",
+        "categories": "ruby, rails, javascript, Books",
         "relative_path": "ruby/modern_front_end_development_for_rails",
         "updated_at": "2020-12-09T07:19:12Z",
         "id": "#154",
@@ -2041,8 +2041,8 @@
     },
     {
         "name": "Docker for Rails Developers",
-        "description": "Notes on the book Docker for Rails Developers, By Rob Isenberg, pubished by The Pragmatic Programmers",
-        "categories": "docker, rails, book",
+        "description": "Book notes - Docker for Rails Developers, By Rob Isenberg, published by The Pragmatic Programmers",
+        "categories": "docker, rails, Books",
         "relative_path": "docker/docker-for-rails-developers",
         "updated_at": "2020-12-09T07:19:12Z",
         "id": "#153",
@@ -2131,8 +2131,8 @@
     },
     {
         "name": "Redis Cookbook",
-        "description": "Notes on the book Redis Cookbook, By Tiago Macedo and Fred Oliveira, pubished by O'Reilly",
-        "categories": "databases, redis, book",
+        "description": "Book notes - Redis Cookbook, By Tiago Macedo and Fred Oliveira, published by O'Reilly",
+        "categories": "databases, redis, Books",
         "relative_path": "databases/redis/redis_cookbook",
         "updated_at": "2020-03-22T01:38:00Z",
         "id": "#144",
@@ -2191,8 +2191,8 @@
     },
     {
         "name": "CSS Cookbook",
-        "description": "Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, pubished by O'Reilly",
-        "categories": "CSS, book",
+        "description": "Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, published by O'Reilly",
+        "categories": "CSS, Books",
         "relative_path": "web/css_cookbook",
         "updated_at": "2020-03-08T19:38:18Z",
         "id": "#138",
@@ -2342,7 +2342,7 @@
     {
         "name": "Linux Server Hacks",
         "description": "Book notes - Linux Server Hacks by Rob Flickenger and Linux Server Hacks, Volume Two (Tips & Tools for Connecting, Monitoring, and Troubleshooting) by William von Hagen and Brian K. Jones, published by O'Reilly",
-        "categories": "infrastructure, linux, book",
+        "categories": "infrastructure, linux, Books",
         "relative_path": "infrastructure/linux_server_hacks",
         "updated_at": "2020-02-16T02:52:10Z",
         "id": "#123",
@@ -2362,7 +2362,7 @@
     {
         "name": "Docker Cookbook (Packt)",
         "description": "Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt",
-        "categories": "docker, book",
+        "categories": "docker, Books",
         "relative_path": "docker/docker_cookbook-packt",
         "updated_at": "2020-02-06T15:53:45Z",
         "id": "#121",
@@ -2371,8 +2371,8 @@
     },
     {
         "name": "21st Century C",
-        "description": "Notes on the book '21st Century C' by Ben Klemens, published by O'Reilly",
-        "categories": "C, book",
+        "description": "Book notes - '21st Century C' by Ben Klemens, published by O'Reilly",
+        "categories": "C, Books",
         "relative_path": "c/21st_century_c",
         "updated_at": "2020-02-06T15:39:18Z",
         "id": "#120",
@@ -2382,7 +2382,7 @@
     {
         "name": "Practical C Programming",
         "description": "Book notes - Practical C Programming, 3rd Edition by Steve Oualline, published by O'Reilly",
-        "categories": "C, book",
+        "categories": "C, Books",
         "relative_path": "c/practical_c_programming",
         "updated_at": "2020-02-06T15:39:18Z",
         "id": "#119",
@@ -2392,7 +2392,7 @@
     {
         "name": "The Rust Programming Language",
         "description": "Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research",
-        "categories": "rust, book",
+        "categories": "rust, Books",
         "relative_path": "rust/rust_programming_language",
         "updated_at": "2020-02-06T15:39:18Z",
         "id": "#118",
@@ -2402,7 +2402,7 @@
     {
         "name": "Programming Elixir",
         "description": "Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf",
-        "categories": "elixir, book",
+        "categories": "elixir, Books",
         "relative_path": "elixir/programming_elixir",
         "updated_at": "2020-02-06T15:39:18Z",
         "id": "#117",
@@ -2412,7 +2412,7 @@
     {
         "name": "Docker Cookbook (O'Reilly)",
         "description": "Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly",
-        "categories": "docker, book",
+        "categories": "docker, Books",
         "relative_path": "docker/docker_cookbook-oreilly",
         "updated_at": "2020-02-06T15:39:18Z",
         "id": "#116",
@@ -2442,7 +2442,7 @@
     {
         "name": "Mastering Zabbix",
         "description": "Book notes - Mastering Zabbix by Andrea Dalle Vacche, Stefano Kewan Lee, published by PacktPub",
-        "categories": "infrastructure, zabbix, book",
+        "categories": "infrastructure, zabbix, Books",
         "relative_path": "infrastructure/zabbix/mastering_zabbix",
         "updated_at": "2020-02-02T13:17:04Z",
         "id": "#113",
@@ -2482,7 +2482,7 @@
     {
         "name": "ZeroMQ (book)",
         "description": "Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly",
-        "categories": "messaging, zeromq, book",
+        "categories": "messaging, zeromq, Books",
         "relative_path": "messaging/zeromq/zeromq-book",
         "updated_at": "2020-02-01T09:01:43Z",
         "id": "#109",
@@ -2562,7 +2562,7 @@
     {
         "name": "RSS and Atom",
         "description": "About RSS and Atom feeds for publishing and podcasting",
-        "categories": "formats, rss, rdf, atom, book",
+        "categories": "formats, rss, rdf, atom, Books",
         "relative_path": "formats/rss_atom",
         "updated_at": "2020-01-26T07:32:40Z",
         "id": "#101",
@@ -2582,7 +2582,7 @@
     {
         "name": "Programming Interactivity",
         "description": "Book notes - Programming Interactivity 2nd Edition, by Joshua Noble published by O'Reilly",
-        "categories": "design, arduino, book",
+        "categories": "design, arduino, Books",
         "relative_path": "design/programming_interactivity",
         "updated_at": "2020-01-25T17:31:59Z",
         "id": "#099",
@@ -2592,7 +2592,7 @@
     {
         "name": "Rails AntiPatterns",
         "description": "Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional",
-        "categories": "ruby, rails, book",
+        "categories": "ruby, rails, Books",
         "relative_path": "ruby/rails_antipatterns",
         "updated_at": "2020-01-25T16:27:01Z",
         "id": "#098",
@@ -2612,7 +2612,7 @@
     {
         "name": "Metasploit Penetration Testing Cookbook",
         "description": "Book notes - Metasploit Penetration Testing Cookbook, Second Edition by Monika Agarwal, Abhinav Singh",
-        "categories": "security, book",
+        "categories": "security, Books",
         "relative_path": "security/metasploit_penetration_testing_cookbook",
         "updated_at": "2020-01-22T15:49:07Z",
         "id": "#096",

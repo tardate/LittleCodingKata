@@ -18,7 +18,7 @@ The scope of each example file is pretty self-explanatory:
 
 Scripts explicitly invoke [ExUnit](https://hexdocs.pm/ex_unit/ExUnit.html)
 
-```
+```sh
 $ elixir anonymous_functions_test.exs
 .
 
@@ -65,4 +65,4 @@ Randomized with seed 603375
 
 * [ExUnit](https://hexdocs.pm/ex_unit/ExUnit.html)
 * [String](https://hexdocs.pm/elixir/String.html)
-* [Programming Elixir](../programming_elixir) by Dave Thomas, pubished by The Pragmatic Bookshelf
+* [Programming Elixir](../programming_elixir) by Dave Thomas, published by The Pragmatic Bookshelf

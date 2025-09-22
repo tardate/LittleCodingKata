@@ -4,6 +4,8 @@ Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reil
 
 ## Notes
 
+[![cover](./assets/cover.jpg)](https://amzn.to/47TmigD)
+
 ## Table of Contents - Highlights
 
 ### 1 Getting Started with Docker

@@ -88,7 +88,7 @@
     <summary>Book notes - The Ruby Way, by Hal Fulton. First published January 1, 2001.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - The Ruby Way, by Hal Fulton. First published January 1, 2001.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="ruby"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/file-operations/</id>
@@ -273,7 +273,7 @@
     <summary>Book notes - Object Oriented Modeling And Design by James Rumbaugh, Michael R. Blaha, William Premerlani, Frederick Eddy, William Lorensen.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Object Oriented Modeling And Design by James Rumbaugh, Michael R. Blaha, William Premerlani, Frederick Eddy, William Lorensen.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="design"/>
-    <category term="book"/>
+    <category term="Books"/>
     <category term="methods"/>
   </entry>
   <entry>
@@ -349,7 +349,7 @@
     <summary>Book notes: Practical Rust Projects: Building Game, Physical Computing, and Machine Learning Applications, by Shing Lyu. Published February 28, 2020.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Practical Rust Projects: Building Game, Physical Computing, and Machine Learning Applications, by Shing Lyu. Published February 28, 2020.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="rust"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/python/practical-cryptography-in-python/</id>
@@ -441,7 +441,7 @@
     <summary>Book notes - Ambient Findability, By Peter Morville, published by O'Reilly</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Ambient Findability, By Peter Morville, published by O'Reilly&lt;/p&gt;&lt;/div&gt;</content>
     <category term="design"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/sqlectron/</id>
@@ -514,7 +514,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;About Pro Git - the essential guide for mastering Git by Scott Chacon and Ben Straub.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="vcs"/>
     <category term="git"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/git/rebase_all/</id>
@@ -722,7 +722,7 @@
     <summary>Book notes - Think Python, 2nd edition, by Allen B. Downey, published by O'Reilly.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Think Python, 2nd edition, by Allen B. Downey, published by O'Reilly.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="python"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/web/nqe/</id>
@@ -963,7 +963,7 @@
     <summary>Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly&lt;/p&gt;&lt;/div&gt;</content>
     <category term="python"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/python/lightweightdjango/</id>
@@ -973,7 +973,7 @@
     <summary>Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly&lt;/p&gt;&lt;/div&gt;</content>
     <category term="python"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/web/cookieconsent/</id>
@@ -1153,7 +1153,7 @@
     <summary>Book notes - Python Playground, by Mahesh Venkitachalam, published by No Starch Press</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Python Playground, by Mahesh Venkitachalam, published by No Starch Press&lt;/p&gt;&lt;/div&gt;</content>
     <category term="python"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/web/favicons/</id>
@@ -1743,7 +1743,7 @@
     <summary>the GNU Bash Reference Manual</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;the GNU Bash Reference Manual&lt;/p&gt;&lt;/div&gt;</content>
     <category term="bash"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/docker/whalesay/</id>
@@ -1844,7 +1844,7 @@
     <summary>Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn&lt;/p&gt;&lt;/div&gt;</content>
     <category term="C++"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/web/browser_connection_management/</id>
@@ -1975,23 +1975,23 @@
     <link href="https://codingkata.tardate.com/ruby/modern_front_end_development_for_rails/"/>
     <updated>2020-12-09T07:19:12Z</updated>
     <title>#154 Modern Front-End Development for Rails</title>
-    <summary>Notes on the book Modern Front-End Development for Rails, By Noel Rappin, published by The Pragmatic Programmers</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Notes on the book Modern Front-End Development for Rails, By Noel Rappin, published by The Pragmatic Programmers&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>Book notes - Modern Front-End Development for Rails, By Noel Rappin, published by The Pragmatic Programmers</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Modern Front-End Development for Rails, By Noel Rappin, published by The Pragmatic Programmers&lt;/p&gt;&lt;/div&gt;</content>
     <category term="ruby"/>
     <category term="rails"/>
     <category term="javascript"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/docker/docker-for-rails-developers/</id>
     <link href="https://codingkata.tardate.com/docker/docker-for-rails-developers/"/>
     <updated>2020-12-09T07:19:12Z</updated>
     <title>#153 Docker for Rails Developers</title>
-    <summary>Notes on the book Docker for Rails Developers, By Rob Isenberg, pubished by The Pragmatic Programmers</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Notes on the book Docker for Rails Developers, By Rob Isenberg, pubished by The Pragmatic Programmers&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>Book notes - Docker for Rails Developers, By Rob Isenberg, published by The Pragmatic Programmers</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Docker for Rails Developers, By Rob Isenberg, published by The Pragmatic Programmers&lt;/p&gt;&lt;/div&gt;</content>
     <category term="docker"/>
     <category term="rails"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/trumpeter_skin/</id>
@@ -2074,11 +2074,11 @@
     <link href="https://codingkata.tardate.com/databases/redis/redis_cookbook/"/>
     <updated>2020-03-22T01:38:00Z</updated>
     <title>#144 Redis Cookbook</title>
-    <summary>Notes on the book Redis Cookbook, By Tiago Macedo and Fred Oliveira, pubished by O'Reilly</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Notes on the book Redis Cookbook, By Tiago Macedo and Fred Oliveira, pubished by O'Reilly&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>Book notes - Redis Cookbook, By Tiago Macedo and Fred Oliveira, published by O'Reilly</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Redis Cookbook, By Tiago Macedo and Fred Oliveira, published by O'Reilly&lt;/p&gt;&lt;/div&gt;</content>
     <category term="databases"/>
     <category term="redis"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/console_tables/</id>
@@ -2136,10 +2136,10 @@
     <link href="https://codingkata.tardate.com/web/css_cookbook/"/>
     <updated>2020-03-08T19:38:18Z</updated>
     <title>#138 CSS Cookbook</title>
-    <summary>Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, pubished by O'Reilly</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, pubished by O'Reilly&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, published by O'Reilly</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, published by O'Reilly&lt;/p&gt;&lt;/div&gt;</content>
     <category term="CSS"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/javascript/cbx/</id>
@@ -2287,7 +2287,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Linux Server Hacks by Rob Flickenger and Linux Server Hacks, Volume Two (Tips &amp;amp; Tools for Connecting, Monitoring, and Troubleshooting) by William von Hagen and Brian K. Jones, published by O'Reilly&lt;/p&gt;&lt;/div&gt;</content>
     <category term="infrastructure"/>
     <category term="linux"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/bash/finding_files/</id>
@@ -2306,17 +2306,17 @@
     <summary>Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt&lt;/p&gt;&lt;/div&gt;</content>
     <category term="docker"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/c/21st_century_c/</id>
     <link href="https://codingkata.tardate.com/c/21st_century_c/"/>
     <updated>2020-02-06T15:39:18Z</updated>
     <title>#120 21st Century C</title>
-    <summary>Notes on the book '21st Century C' by Ben Klemens, published by O'Reilly</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Notes on the book '21st Century C' by Ben Klemens, published by O'Reilly&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>Book notes - '21st Century C' by Ben Klemens, published by O'Reilly</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - '21st Century C' by Ben Klemens, published by O'Reilly&lt;/p&gt;&lt;/div&gt;</content>
     <category term="C"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/c/practical_c_programming/</id>
@@ -2326,7 +2326,7 @@
     <summary>Book notes - Practical C Programming, 3rd Edition by Steve Oualline, published by O'Reilly</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Practical C Programming, 3rd Edition by Steve Oualline, published by O'Reilly&lt;/p&gt;&lt;/div&gt;</content>
     <category term="C"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/rust_programming_language/</id>
@@ -2336,7 +2336,7 @@
     <summary>Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research&lt;/p&gt;&lt;/div&gt;</content>
     <category term="rust"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/elixir/programming_elixir/</id>
@@ -2346,7 +2346,7 @@
     <summary>Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf&lt;/p&gt;&lt;/div&gt;</content>
     <category term="elixir"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/docker/docker_cookbook-oreilly/</id>
@@ -2356,7 +2356,7 @@
     <summary>Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly&lt;/p&gt;&lt;/div&gt;</content>
     <category term="docker"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/messaging/zeromq/c/request_reply/</id>
@@ -2388,7 +2388,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Mastering Zabbix by Andrea Dalle Vacche, Stefano Kewan Lee, published by PacktPub&lt;/p&gt;&lt;/div&gt;</content>
     <category term="infrastructure"/>
     <category term="zabbix"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/infrastructure/zabbix/ruby-clients/</id>
@@ -2433,7 +2433,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly&lt;/p&gt;&lt;/div&gt;</content>
     <category term="messaging"/>
     <category term="zeromq"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/messaging/zeromq/about/</id>
@@ -2512,7 +2512,7 @@
     <category term="rss"/>
     <category term="rdf"/>
     <category term="atom"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/infrastructure/cacti/</id>
@@ -2533,7 +2533,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Programming Interactivity 2nd Edition, by Joshua Noble published by O'Reilly&lt;/p&gt;&lt;/div&gt;</content>
     <category term="design"/>
     <category term="arduino"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/rails_antipatterns/</id>
@@ -2544,7 +2544,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional&lt;/p&gt;&lt;/div&gt;</content>
     <category term="ruby"/>
     <category term="rails"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/security/metasploit/dockerized/</id>
@@ -2564,7 +2564,7 @@
     <summary>Book notes - Metasploit Penetration Testing Cookbook, Second Edition by Monika Agarwal, Abhinav Singh</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Metasploit Penetration Testing Cookbook, Second Edition by Monika Agarwal, Abhinav Singh&lt;/p&gt;&lt;/div&gt;</content>
     <category term="security"/>
-    <category term="book"/>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/c/pointers/</id>
