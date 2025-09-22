@@ -1,7 +1,7 @@
 {
     "name": "Docker Cookbook (O'Reilly)",
     "description": "Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly",
-    "categories": "docker, book",
+    "categories": "docker, Books",
     "relative_path": "docker/docker_cookbook-oreilly",
     "updated_at": "2020-02-06T15:39:18Z",
     "id": "#116",

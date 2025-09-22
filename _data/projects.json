@@ -65,7 +65,7 @@
         "summary": "Book notes - The Ruby Way, by Hal Fulton. First published January 1, 2001.",
         "tags": [
             "ruby",
-            "book"
+            "Books"
         ]
     },
     "/ruby/file-operations/": {
@@ -231,7 +231,7 @@
         "summary": "Book notes - Object Oriented Modeling And Design by James Rumbaugh, Michael R. Blaha, William Premerlani, Frederick Eddy, William Lorensen.",
         "tags": [
             "design",
-            "book",
+            "Books",
             "methods"
         ]
     },
@@ -299,7 +299,7 @@
         "summary": "Book notes: Practical Rust Projects: Building Game, Physical Computing, and Machine Learning Applications, by Shing Lyu. Published February 28, 2020.",
         "tags": [
             "rust",
-            "book"
+            "Books"
         ]
     },
     "/python/practical-cryptography-in-python/": {
@@ -381,7 +381,7 @@
         "summary": "Book notes - Ambient Findability, By Peter Morville, published by O'Reilly",
         "tags": [
             "design",
-            "book"
+            "Books"
         ]
     },
     "/tools/sqlectron/": {
@@ -447,7 +447,7 @@
         "tags": [
             "vcs",
             "git",
-            "book"
+            "Books"
         ]
     },
     "/tools/git/rebase_all/": {
@@ -633,7 +633,7 @@
         "summary": "Book notes - Think Python, 2nd edition, by Allen B. Downey, published by O'Reilly.",
         "tags": [
             "python",
-            "book"
+            "Books"
         ]
     },
     "/web/nqe/": {
@@ -848,7 +848,7 @@
         "summary": "Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly",
         "tags": [
             "python",
-            "book"
+            "Books"
         ]
     },
     "/python/lightweightdjango/": {
@@ -857,7 +857,7 @@
         "summary": "Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly",
         "tags": [
             "python",
-            "book"
+            "Books"
         ]
     },
     "/web/cookieconsent/": {
@@ -1018,7 +1018,7 @@
         "summary": "Book notes - Python Playground, by Mahesh Venkitachalam, published by No Starch Press",
         "tags": [
             "python",
-            "book"
+            "Books"
         ]
     },
     "/web/favicons/": {
@@ -1548,7 +1548,7 @@
         "summary": "the GNU Bash Reference Manual",
         "tags": [
             "bash",
-            "book"
+            "Books"
         ]
     },
     "/docker/whalesay/": {
@@ -1638,7 +1638,7 @@
         "summary": "Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn",
         "tags": [
             "C++",
-            "book"
+            "Books"
         ]
     },
     "/web/browser_connection_management/": {
@@ -1755,22 +1755,22 @@
     "/ruby/modern_front_end_development_for_rails/": {
         "id": 154,
         "title": "Modern Front-End Development for Rails",
-        "summary": "Notes on the book Modern Front-End Development for Rails, By Noel Rappin, published by The Pragmatic Programmers",
+        "summary": "Book notes - Modern Front-End Development for Rails, By Noel Rappin, published by The Pragmatic Programmers",
         "tags": [
             "ruby",
             "rails",
             "javascript",
-            "book"
+            "Books"
         ]
     },
     "/docker/docker-for-rails-developers/": {
         "id": 153,
         "title": "Docker for Rails Developers",
-        "summary": "Notes on the book Docker for Rails Developers, By Rob Isenberg, pubished by The Pragmatic Programmers",
+        "summary": "Book notes - Docker for Rails Developers, By Rob Isenberg, published by The Pragmatic Programmers",
         "tags": [
             "docker",
             "rails",
-            "book"
+            "Books"
         ]
     },
     "/ruby/trumpeter_skin/": {
@@ -1844,11 +1844,11 @@
     "/databases/redis/redis_cookbook/": {
         "id": 144,
         "title": "Redis Cookbook",
-        "summary": "Notes on the book Redis Cookbook, By Tiago Macedo and Fred Oliveira, pubished by O'Reilly",
+        "summary": "Book notes - Redis Cookbook, By Tiago Macedo and Fred Oliveira, published by O'Reilly",
         "tags": [
             "databases",
             "redis",
-            "book"
+            "Books"
         ]
     },
     "/ruby/console_tables/": {
@@ -1900,10 +1900,10 @@
     "/web/css_cookbook/": {
         "id": 138,
         "title": "CSS Cookbook",
-        "summary": "Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, pubished by O'Reilly",
+        "summary": "Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, published by O'Reilly",
         "tags": [
             "CSS",
-            "book"
+            "Books"
         ]
     },
     "/javascript/cbx/": {
@@ -2036,7 +2036,7 @@
         "tags": [
             "infrastructure",
             "linux",
-            "book"
+            "Books"
         ]
     },
     "/bash/finding_files/": {
@@ -2053,16 +2053,16 @@
         "summary": "Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt",
         "tags": [
             "docker",
-            "book"
+            "Books"
         ]
     },
     "/c/21st_century_c/": {
         "id": 120,
         "title": "21st Century C",
-        "summary": "Notes on the book '21st Century C' by Ben Klemens, published by O'Reilly",
+        "summary": "Book notes - '21st Century C' by Ben Klemens, published by O'Reilly",
         "tags": [
             "C",
-            "book"
+            "Books"
         ]
     },
     "/c/practical_c_programming/": {
@@ -2071,7 +2071,7 @@
         "summary": "Book notes - Practical C Programming, 3rd Edition by Steve Oualline, published by O'Reilly",
         "tags": [
             "C",
-            "book"
+            "Books"
         ]
     },
     "/rust/rust_programming_language/": {
@@ -2080,7 +2080,7 @@
         "summary": "Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research",
         "tags": [
             "rust",
-            "book"
+            "Books"
         ]
     },
     "/elixir/programming_elixir/": {
@@ -2089,7 +2089,7 @@
         "summary": "Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf",
         "tags": [
             "elixir",
-            "book"
+            "Books"
         ]
     },
     "/docker/docker_cookbook-oreilly/": {
@@ -2098,7 +2098,7 @@
         "summary": "Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly",
         "tags": [
             "docker",
-            "book"
+            "Books"
         ]
     },
     "/messaging/zeromq/c/request_reply/": {
@@ -2127,7 +2127,7 @@
         "tags": [
             "infrastructure",
             "zabbix",
-            "book"
+            "Books"
         ]
     },
     "/infrastructure/zabbix/ruby-clients/": {
@@ -2168,7 +2168,7 @@
         "tags": [
             "messaging",
             "zeromq",
-            "book"
+            "Books"
         ]
     },
     "/messaging/zeromq/about/": {
@@ -2239,7 +2239,7 @@
             "rss",
             "rdf",
             "atom",
-            "book"
+            "Books"
         ]
     },
     "/infrastructure/cacti/": {
@@ -2258,7 +2258,7 @@
         "tags": [
             "design",
             "arduino",
-            "book"
+            "Books"
         ]
     },
     "/ruby/rails_antipatterns/": {
@@ -2268,7 +2268,7 @@
         "tags": [
             "ruby",
             "rails",
-            "book"
+            "Books"
         ]
     },
     "/security/metasploit/dockerized/": {
@@ -2286,7 +2286,7 @@
         "summary": "Book notes - Metasploit Penetration Testing Cookbook, Second Edition by Monika Agarwal, Abhinav Singh",
         "tags": [
             "security",
-            "book"
+            "Books"
         ]
     },
     "/c/pointers/": {

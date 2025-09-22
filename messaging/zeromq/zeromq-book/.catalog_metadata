@@ -1,7 +1,7 @@
 {
     "name": "ZeroMQ (book)",
     "description": "Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly",
-    "categories": "messaging, zeromq, book",
+    "categories": "messaging, zeromq, Books",
     "relative_path": "messaging/zeromq/zeromq-book",
     "updated_at": "2020-02-01T09:01:43Z",
     "id": "#109",

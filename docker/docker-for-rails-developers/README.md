@@ -1,13 +1,10 @@
 # #153 Docker for Rails Developers
 
-Notes on the book Docker for Rails Developers, By Rob Isenberg, published by The Pragmatic Programmers
+Book notes - Docker for Rails Developers, By Rob Isenberg, published by The Pragmatic Programmers
 
 ## Notes
 
-See:
-
-* [Pragmatic Programmers listing](https://pragprog.com/titles/ridocker/docker-for-rails-developers/)
-* [goodreads](https://www.goodreads.com/book/show/39815976-docker-for-rails-developers)
+[![cover](./assets/cover.jpg)](https://amzn.to/42HT9Bk)
 
 ## Highlights from the Table of Contents
 
@@ -139,6 +136,8 @@ unzips into a `code` folder.
 
 ## Credits and References
 
-* [Pragmatic Programmers listing](https://pragprog.com/titles/ridocker/docker-for-rails-developers/)
-* [goodreads](https://www.goodreads.com/book/show/39815976-docker-for-rails-developers)
+* Docker for Rails Developers
+    * [amazon](https://amzn.to/42HT9Bk)
+    * [Pragmatic Programmers listing](https://pragprog.com/titles/ridocker/docker-for-rails-developers/)
+    * [goodreads](https://www.goodreads.com/book/show/39815976-docker-for-rails-developers)
 * [examples source (zip)](http://media.pragprog.com/titles/ridocker/code/ridocker-code.zip)

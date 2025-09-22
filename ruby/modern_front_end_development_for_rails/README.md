@@ -1,19 +1,16 @@
 # #154 Modern Front-End Development for Rails
 
-Notes on the book Modern Front-End Development for Rails, By Noel Rappin, published by The Pragmatic Programmers.
+Book notes - Modern Front-End Development for Rails, By Noel Rappin, published by The Pragmatic Programmers.
 
 ## Notes
 
-See:
-
-* [Pragmatic Programmers listing](https://pragprog.com/titles/nrclient/modern-front-end-development-for-rails/)
-* [goodreads](https://www.goodreads.com/book/show/48665184-modern-front-end-development-for-rails)
+[![cover](./assets/cover.jpg)](https://amzn.to/4pRJ6UD)
 
 ## Highlights from the Table of Contents
 
 ### Part I — Getting Started
 
-1. Client-Side Rails
+#### 1. Client-Side Rails
 
 * Managing State and Front-End Development
 * Installing Webpacker
@@ -21,7 +18,7 @@ See:
 * Adding Real Features
 * Going Generic
 
-2. Stimulus
+#### 2. Stimulus
 
 * What Is Stimulus?
 * Installing Stimulus
@@ -34,7 +31,7 @@ See:
 * Stimulus Quick Reference
 * Using Stimulus with Haml or Slim
 
-3. React
+#### 3. React
 
 * What Is React?
 * Installing React
@@ -44,7 +41,7 @@ See:
 * Interactivity, State, and Hooks
 * Sharing State
 
-4. Cascading Style Sheets
+#### 4. Cascading Style Sheets
 
 * Building CSS in Webpack
 * Adding CSS and Assets to Webpack Animating CSS
@@ -53,7 +50,7 @@ See:
 
 ### Part II — Going Deeper
 
-5. TypeScript
+#### 5. TypeScript
 
 * Understanding Basic TypeScript Types
 * Static versus Dynamic Typing
@@ -64,20 +61,20 @@ See:
 * Type Checking Classes and Interfaces
 * Getting Type Knowledge to TypeScript
 
-6. Webpack
+#### 6. Webpack
 
 * Problems Being Solved
 * Yarn
 * Webpack
 
-7. Webpacker
+#### 7. Webpacker
 
 * Webpacker Basics
 * Webpacker in Development
 * Webpacker in Production
 * Customizing Webpacker
 
-8. Talking to the Server
+#### 8. Talking to the Server
 
 * Cheating with the Gon Gem
 * Using Gon in Stimulus
@@ -90,24 +87,24 @@ See:
 
 ### Part III — Managing State
 
-9. Managing State in Stimulus Code
+#### 9. Managing State in Stimulus Code
 
 * Sharing State in Stimulus
 * Refactoring to the Reducer Pattern
 
-10. Managing State in React . .
+#### 10. Managing State in React
 
 * Using Context to Share State in React
 * Adding Asynchronous Events to Contexts
 
-11. Using Redux to Manage State
+#### 11. Using Redux to Manage State
 
 * Installing and Using Redux
 * Adding Asynchronous Actions to Redux
 
 ### Part IV — Validating Your Code
 
-12. Validating Code with Advanced TypeScript
+#### 12. Validating Code with Advanced TypeScript
 
 * Creating Union Types
 * Union Types and Type Guards
@@ -117,21 +114,21 @@ See:
 * TypeScript Configuration Options
 * Dealing with Strictness
 
-13. Testing with Cypress Why Cypress?
+#### 13. Testing with Cypress Why Cypress?
 
 * Installing Cypress
 * Configuring Cypress and Rails
 * Writing Our First Test
 * Understanding How Cypress Works
 
-14. More Testing and Troubleshooting Basics
+#### 14. More Testing and Troubleshooting Basics
 
 * Writing More Cypress Tests
 * Cypress and React
 * Cypress Utilities and API
 * Troubleshooting
 
-A1. Framework Swap
+#### A1. Framework Swap
 
 * The All-Stimulus App
 * The All-React App
@@ -149,6 +146,8 @@ unzips into a `code` folder.
 
 ## Credits and References
 
-* [Pragmatic Programmers listing](https://pragprog.com/titles/nrclient/modern-front-end-development-for-rails/)
-* [goodreads](https://www.goodreads.com/book/show/48665184-modern-front-end-development-for-rails)
+* Modern Front-End Development for Rails
+    * [amazon](https://amzn.to/4pRJ6UD)
+    * [Pragmatic Programmers listing](https://pragprog.com/titles/nrclient/modern-front-end-development-for-rails/)
+    * [goodreads](https://www.goodreads.com/book/show/48665184-modern-front-end-development-for-rails)
 * [examples source (zip)](http://media.pragprog.com/titles/nrclient/code/nrclient-code.zip)

@@ -1,7 +1,7 @@
 {
     "name": "Docker Cookbook (Packt)",
     "description": "Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt",
-    "categories": "docker, book",
+    "categories": "docker, Books",
     "relative_path": "docker/docker_cookbook-packt",
     "updated_at": "2020-02-06T15:53:45Z",
     "id": "#121",
