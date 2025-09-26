@@ -1,4 +1,13 @@
 {
+    "/rust/what-kind-of-number/": {
+        "id": 358,
+        "title": "What Kind of Number",
+        "summary": "Using rust to classify perfect, deficient, and abundant numbers; cassidoo's interview question of the week (2025-09-22)",
+        "tags": [
+            "rust",
+            "cassidoo"
+        ]
+    },
     "/rust/analyze-baseball-game/": {
         "id": 357,
         "title": "Analyze a Baseball Game",

@@ -1,6 +1,6 @@
-# 357 Little Coding Katas
+# 358 Little Coding Katas
 
-> Latest addition :sparkles: [Analyze a Baseball Game](./rust/analyze-baseball-game) - Using rust to analyze a baseball game; cassidoo's interview question of the week (2025-09-15). This was the day I advanced to consciously incompetent in the rules of baseball.
+> Latest addition :sparkles: [What Kind of Number](./rust/what-kind-of-number) - Using rust to classify perfect, deficient, and abundant numbers; cassidoo's interview question of the week (2025-09-22)
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

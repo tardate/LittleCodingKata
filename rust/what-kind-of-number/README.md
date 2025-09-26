@@ -1,4 +1,4 @@
-# #xxx What Kind of Number
+# #358 What Kind of Number
 
 Using rust to classify perfect, deficient, and abundant numbers; cassidoo's interview question of the week (2025-09-22).
 
