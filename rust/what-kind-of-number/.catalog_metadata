@@ -1,0 +1,9 @@
+{
+    "name": "What Kind of Number",
+    "description": "Using rust to classify perfect, deficient, and abundant numbers; cassidoo's interview question of the week (2025-09-22)",
+    "categories": "rust, cassidoo",
+    "relative_path": "rust/what-kind-of-number",
+    "updated_at": "2025-09-26T06:49:00Z",
+    "created_at": "2025-09-26T06:49:00Z",
+    "id": "#358"
+}
