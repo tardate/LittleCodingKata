@@ -1,0 +1,6 @@
+{
+    "name": "Chat CLI",
+    "description": "Build and update the CLI chat example from Rust lang: The complete beginner's guide, learning about making client-server network programs with Rust.",
+    "categories": "rust",
+    "relative_path": "rust/chat-cli"
+}
