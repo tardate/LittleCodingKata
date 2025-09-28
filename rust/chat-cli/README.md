@@ -1,4 +1,4 @@
-# #xxx Chat CLI
+# #359 Chat CLI
 
 Build and update the CLI chat example from Rust lang: The complete beginner's guide, learning about making client-server network programs with Rust.
 
