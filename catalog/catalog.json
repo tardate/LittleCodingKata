@@ -1,5 +1,15 @@
 [
     {
+        "name": "Chat CLI",
+        "description": "Build and update the CLI chat example from Rust lang: The complete beginner's guide, learning about making client-server network programs with Rust.",
+        "categories": "rust",
+        "relative_path": "rust/chat-cli",
+        "updated_at": "2025-09-28T03:53:00Z",
+        "created_at": "2025-09-28T03:53:00Z",
+        "id": "#359",
+        "original_relative_path": "rust/chat-cli"
+    },
+    {
         "name": "What Kind of Number",
         "description": "Using rust to classify perfect, deficient, and abundant numbers; cassidoo's interview question of the week (2025-09-22)",
         "categories": "rust, cassidoo",
