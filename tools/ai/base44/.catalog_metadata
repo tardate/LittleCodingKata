@@ -2,5 +2,8 @@
     "name": "Base44",
     "description": "A quick review and test drive of Base44 AI-powered app builder and hosting solution.",
     "categories": "ai",
-    "relative_path": "tools/ai/base44"
+    "relative_path": "tools/ai/base44",
+    "updated_at": "2025-10-01T04:30:00Z",
+    "created_at": "2025-10-01T04:30:00Z",
+    "id": "#360"
 }
