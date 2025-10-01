@@ -1,5 +1,15 @@
 [
     {
+        "name": "Base44",
+        "description": "A quick review and test drive of Base44 AI-powered app builder and hosting solution.",
+        "categories": "ai",
+        "relative_path": "tools/ai/base44",
+        "updated_at": "2025-10-01T04:30:00Z",
+        "created_at": "2025-10-01T04:30:00Z",
+        "id": "#360",
+        "original_relative_path": "tools/ai/base44"
+    },
+    {
         "name": "Chat CLI",
         "description": "Build and update the CLI chat example from Rust lang: The complete beginner's guide, learning about making client-server network programs with Rust.",
         "categories": "rust",
