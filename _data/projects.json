@@ -1,4 +1,12 @@
 {
+    "/rust/snake/": {
+        "id": 361,
+        "title": "Snake",
+        "summary": "Build and update the snake game example from Rust lang: The complete beginner's guide, learning about making GUI applications with PistonWindow and Rust.",
+        "tags": [
+            "rust"
+        ]
+    },
     "/tools/ai/base44/": {
         "id": 360,
         "title": "Base44",

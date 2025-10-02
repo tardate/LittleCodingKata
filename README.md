@@ -1,6 +1,6 @@
-# 360 Little Coding Katas
+# 361 Little Coding Katas
 
-> Latest addition :sparkles: [Base44](./tools/ai/base44) - A quick review and test drive of Base44 AI-powered app builder and hosting solution.
+> Latest addition :sparkles: [Snake](./rust/snake) - Build and update the snake game example from Rust lang: The complete beginner's guide, learning about making GUI applications with PistonWindow and Rust.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
