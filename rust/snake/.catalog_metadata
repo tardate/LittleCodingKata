@@ -1,0 +1,6 @@
+{
+    "name": "Snake",
+    "description": "Build and update the snake game example from Rust lang: The complete beginner's guide, learning about making GUI applications with PistonWindow and Rust.",
+    "categories": "rust",
+    "relative_path": "rust/snake"
+}
