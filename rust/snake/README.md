@@ -1,4 +1,4 @@
-# #xxx Snake
+# #361 Snake
 
 Build and update the snake game example from Rust lang: The complete beginner's guide, learning about making GUI games with Piston and Rust.
 
