@@ -1,4 +1,4 @@
-# #xxx hyperfactorial
+# #362 hyperfactorial
 
 Using rust to calculate the hyper-factorial of a non-negative integer; cassidoo's interview question of the week (2025-09-29).
 

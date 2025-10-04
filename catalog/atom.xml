@@ -14,6 +14,16 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/rust/hyperfactorial/</id>
+    <link href="https://codingkata.tardate.com/rust/hyperfactorial/"/>
+    <updated>2025-10-04T07:34:00Z</updated>
+    <title>#362 hyperfactorial</title>
+    <summary>Using rust to calculate the hyper-factorial of a non-negative integer; cassidoo's interview question of the week (2025-09-29)</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using rust to calculate the hyper-factorial of a non-negative integer; cassidoo's interview question of the week (2025-09-29)&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="rust"/>
+    <category term="cassidoo"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/rust/snake/</id>
     <link href="https://codingkata.tardate.com/rust/snake/"/>
     <updated>2025-10-02T08:14:00Z</updated>

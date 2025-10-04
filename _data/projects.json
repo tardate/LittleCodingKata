@@ -1,4 +1,13 @@
 {
+    "/rust/hyperfactorial/": {
+        "id": 362,
+        "title": "hyperfactorial",
+        "summary": "Using rust to calculate the hyper-factorial of a non-negative integer; cassidoo's interview question of the week (2025-09-29)",
+        "tags": [
+            "rust",
+            "cassidoo"
+        ]
+    },
     "/rust/snake/": {
         "id": 361,
         "title": "Snake",
