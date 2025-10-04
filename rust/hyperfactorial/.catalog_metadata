@@ -1,0 +1,6 @@
+{
+    "name": "hyperfactorial",
+    "description": "Using rust to calculate the hyper-factorial of a non-negative integer; cassidoo's interview question of the week (2025-09-29)",
+    "categories": "rust, cassidoo",
+    "relative_path": "rust/hyperfactorial"
+}
