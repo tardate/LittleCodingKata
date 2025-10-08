@@ -1,6 +1,6 @@
 # #367 KlingAI
 
-A quick review and test drive of KlingAI.
+A quick review and test drive of KlingAI for image and video generation.
 
 ## Notes
 

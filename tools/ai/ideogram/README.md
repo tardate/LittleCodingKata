@@ -1,6 +1,6 @@
 # #364 Ideogram AI
 
-A quick review and test drive of ideogram.ai.
+A quick review and test drive of ideogram.ai text to image model.
 
 ## Notes
 

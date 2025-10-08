@@ -1,6 +1,6 @@
 # #365 Flux AI
 
-A quick review and test drive of Flux AI.
+A quick review and test drive of Flux AI creative solution including image generation.
 
 ## Notes
 

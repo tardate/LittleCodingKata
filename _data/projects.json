@@ -18,7 +18,7 @@
     "/tools/ai/klingai/": {
         "id": 367,
         "title": "KlingAI",
-        "summary": "A quick review and test drive of KlingAI.",
+        "summary": "A quick review and test drive of KlingAI for image and video generation.",
         "tags": [
             "AI"
         ]
@@ -26,7 +26,7 @@
     "/tools/ai/recraft/": {
         "id": 366,
         "title": "Recraft AI",
-        "summary": "A quick review and test drive of recraft.ai.",
+        "summary": "A quick review and test drive of recraft.ai for image generation and editing",
         "tags": [
             "AI"
         ]
@@ -34,7 +34,7 @@
     "/tools/ai/flux/": {
         "id": 365,
         "title": "Flux AI",
-        "summary": "A quick review and test drive of Flux AI.",
+        "summary": "A quick review and test drive of Flux AI  creative solution including image generation",
         "tags": [
             "AI"
         ]
@@ -42,7 +42,7 @@
     "/tools/ai/ideogram/": {
         "id": 364,
         "title": "Ideogram AI",
-        "summary": "A quick review and test drive of ideogram.ai.",
+        "summary": "A quick review and test drive of ideogram.ai text to image model.",
         "tags": [
             "AI"
         ]
@@ -50,7 +50,7 @@
     "/tools/ai/notebooklm/": {
         "id": 363,
         "title": "NotebookLM",
-        "summary": "A quick review and test drive of Google's NotebookLM.",
+        "summary": "A quick review and test drive of Google's NotebookLM research and writing assistant.",
         "tags": [
             "AI"
         ]

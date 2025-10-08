@@ -1,6 +1,6 @@
 # #366 Recraft AI
 
-A quick review and test drive of recraft.ai.
+A quick review and test drive of recraft.ai for image generation and editing.
 
 ## Notes
 

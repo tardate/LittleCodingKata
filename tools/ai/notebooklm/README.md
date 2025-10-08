@@ -1,6 +1,6 @@
 # #363 NotebookLM
 
-A quick review and test drive of Google's NotebookLM.
+A quick review and test drive of Google's NotebookLM research and writing assistant.
 
 ## Notes
 
