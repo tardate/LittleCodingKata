@@ -1,5 +1,15 @@
 [
     {
+        "name": "KlingAI",
+        "description": "A quick review and test drive of KlingAI.",
+        "categories": "AI",
+        "relative_path": "tools/ai/klingai",
+        "updated_at": "2025-10-08T04:36:00Z",
+        "created_at": "2025-10-08T04:36:00Z",
+        "id": "#367",
+        "original_relative_path": "tools/ai/klingai"
+    },
+    {
         "name": "Recraft AI",
         "description": "A quick review and test drive of recraft.ai.",
         "categories": "AI",

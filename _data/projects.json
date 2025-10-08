@@ -1,4 +1,12 @@
 {
+    "/tools/ai/klingai/": {
+        "id": 367,
+        "title": "KlingAI",
+        "summary": "A quick review and test drive of KlingAI.",
+        "tags": [
+            "AI"
+        ]
+    },
     "/tools/ai/recraft/": {
         "id": 366,
         "title": "Recraft AI",

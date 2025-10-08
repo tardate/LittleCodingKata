@@ -1,6 +1,6 @@
-# 366 Little Coding Katas
+# 367 Little Coding Katas
 
-> Latest addition :sparkles: [Recraft AI](./tools/ai/recraft) - A quick review and test drive of recraft.ai.
+> Latest addition :sparkles: [KlingAI](./tools/ai/klingai) - A quick review and test drive of KlingAI.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
