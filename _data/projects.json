@@ -1,4 +1,12 @@
 {
+    "/tools/ai/betterimage/": {
+        "id": 368,
+        "title": "BetterImage",
+        "summary": "A quick review and test drive of BetterImage, an AI image upscaler.",
+        "tags": [
+            "AI"
+        ]
+    },
     "/tools/ai/klingai/": {
         "id": 367,
         "title": "KlingAI",

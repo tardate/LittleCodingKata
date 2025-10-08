@@ -23,7 +23,7 @@ See also:
 
 ### Developer Tools
 
-* Base44 - see [full review](./base44/)
+* Base44 - see my [full review](./base44/)
     > Base44 lets you build fully-functional apps in minutes with just your words. No coding necessary.
 * [bolt.new](https://bolt.new/)
     > Prompt, run, edit, and deploy full-stack web apps.
@@ -108,14 +108,15 @@ See my initial review and trial of [DeepSeek](./deepseek/).
 
 ### Image
 
-* [DALL·E 3](https://openai.com/index/dall-e-3/)
-* <https://getimg.ai/>
-    * "Generate images from text in seconds, edit photos with words, expand pictures beyond their borders, animate images or train custom AI models"
+* <https://betterimage.ai/>  - see my [full review](./betterimage/)
 * <https://cleanup.pictures/>
     * "Remove any unwanted object, defect, people or text from your pictures in seconds"
 * <https://clipdrop.co/cleanup>
     * "Remove object, defect, people, or text from your pictures in seconds"
+* [DALL·E 3](https://openai.com/index/dall-e-3/)
 * <https://flux-ai.io/flux-ai-image-generator/> - see my [full review](./flux/)
+* <https://getimg.ai/>
+    * "Generate images from text in seconds, edit photos with words, expand pictures beyond their borders, animate images or train custom AI models"
 * <https://ideogram.ai/> - see my [full review](./ideogram/)
 * <https://klingai.com/> - see my [full review](./klingai/)
 * <https://www.meshy.ai/>
@@ -126,12 +127,6 @@ See my initial review and trial of [DeepSeek](./deepseek/).
 * <https://www.recraft.ai/> - see my [full review](./recraft/)
 * <https://writesonic.com/photosonic-ai-art-generator>
     * "AI Art Generator"
-
-#### <https://betterimage.ai/>
-
-> AI Upscaler For Better Images
-
-Per <https://betterimage.ai/term-of-service> 2.2.2,2.2.3, you retain all rights and ownership, but grant a license "for the purposes of operating or improving the Services and Software"
 
 ### Sound and Music
 
