@@ -14,6 +14,15 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/tools/ai/gamma/</id>
+    <link href="https://codingkata.tardate.com/tools/ai/gamma/"/>
+    <updated>2025-10-08T05:08:00Z</updated>
+    <title>#369 Gamma AI</title>
+    <summary>A quick review and test drive of Gamma AI for content generation for presentation, website, social media posts, etc.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A quick review and test drive of Gamma AI for content generation for presentation, website, social media posts, etc.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="AI"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/tools/ai/betterimage/</id>
     <link href="https://codingkata.tardate.com/tools/ai/betterimage/"/>
     <updated>2025-10-08T04:40:00Z</updated>

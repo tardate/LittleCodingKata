@@ -1,6 +1,6 @@
-# 368 Little Coding Katas
+# 369 Little Coding Katas
 
-> Latest addition :sparkles: [BetterImage](./tools/ai/betterimage) - A quick review and test drive of BetterImage, an AI image upscaler.
+> Latest addition :sparkles: [Gamma AI](./tools/ai/gamma) - A quick review and test drive of Gamma AI for content generation for presentation, website, social media posts, etc.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

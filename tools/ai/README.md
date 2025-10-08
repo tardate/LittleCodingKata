@@ -63,11 +63,10 @@ See also:
 ### Chat LLMs
 
 * [ChatGPT](https://openai.com/chatgpt/)
-* [DeepSeek](https://www.deepseek.com/)
+* [DeepSeek](https://www.deepseek.com/) - see my [full review](./deepseek/)
     > DeepSeek-V3 achieves a significant breakthrough in inference speed over previous models.
     >
     > It tops the leaderboard among open-source models and rivals the most advanced closed-source models globally.
-    * See my [full review](./deepseek/).
 * [Google Gemini](https://gemini.google.com/)
 * <https://www.perplexity.ai/>
     > What will Comet do for you? Let the AI assistant handle your chores
@@ -99,13 +98,8 @@ See also:
     > TLDR This helps you summarize any piece of text into concise, easy to digest content so you can free yourself from information overload.
 * <https://www.deepl.com/en/translator>
     > Translate texts & full document files instantly. Accurate translations for individuals and Teams. Millions translate with DeepL every day.
-* <https://gamma.app/>
+* <https://gamma.app/> - see my [full review](./gamma/)
     > Beautiful presentations, documents, and websites. No design or coding skills required.
-    * Example 1:
-        * I got it to generate a presentation based on <https://leap.tardate.com/electronics101/windbellkit/>
-        * With little customisation, it generated this presentation:
-            * <https://gamma.app/docs/Wobbly-Wind-Bell-Kit-A-Mesmerizing-LED-Oscillator-Project-mgmij0rqk877858?mode=doc>
-            * [PDF](./assets/Wobbly-Wind-Bell-Kit-A-Mesmerizing-LED-Oscillator-Project.pdf)
 
 ### Education and Research Tools
 
@@ -116,22 +110,27 @@ See also:
 #### Image
 
 * <https://betterimage.ai/>  - see my [full review](./betterimage/)
+    > AI Upscaler For Better Images
 * <https://cleanup.pictures/>
     > Remove any unwanted object, defect, people or text from your pictures in seconds
 * <https://clipdrop.co/cleanup>
     > Remove object, defect, people, or text from your pictures in seconds
 * [DALL·E 3](https://openai.com/index/dall-e-3/)
 * <https://flux-ai.io/flux-ai-image-generator/> - see my [full review](./flux/)
+    > Start your image & video creation journey now with Flux AI – the ultimate all-in-one creative solution.
 * <https://getimg.ai/>
     > Generate images from text in seconds, edit photos with words, expand pictures beyond their borders, animate images or train custom AI models
 * <https://ideogram.ai/> - see my [full review](./ideogram/)
+    > text to image model with industry leading capabilities in generating realistic images, graphic design, typography, and more
 * <https://klingai.com/> - see my [full review](./klingai/)
+    > Next Generation AI Creative Suite
 * <https://www.meshy.ai/>
     > Create stunning 3D models with AI
 * <https://openart.ai/home>
 * <https://www.pixelcut.ai/cleanup-pictures>
     > Remove objects, text or people from your images to get clean photos!
 * <https://www.recraft.ai/> - see my [full review](./recraft/)
+    > AI for Pro Designers: Premium image generation and editing tool.
 * <https://writesonic.com/photosonic-ai-art-generator>
     > AI Art Generator
 

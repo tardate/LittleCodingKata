@@ -1,4 +1,12 @@
 {
+    "/tools/ai/gamma/": {
+        "id": 369,
+        "title": "Gamma AI",
+        "summary": "A quick review and test drive of Gamma AI for content generation for presentation, website, social media posts, etc.",
+        "tags": [
+            "AI"
+        ]
+    },
     "/tools/ai/betterimage/": {
         "id": 368,
         "title": "BetterImage",
