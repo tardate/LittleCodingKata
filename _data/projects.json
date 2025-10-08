@@ -1,4 +1,12 @@
 {
+    "/tools/ai/ideogram/": {
+        "id": 364,
+        "title": "Ideogram AI",
+        "summary": "A quick review and test drive of ideogram.ai.",
+        "tags": [
+            "AI"
+        ]
+    },
     "/tools/ai/notebooklm/": {
         "id": 363,
         "title": "NotebookLM",

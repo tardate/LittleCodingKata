@@ -1,6 +1,6 @@
-# 363 Little Coding Katas
+# 364 Little Coding Katas
 
-> Latest addition :sparkles: [NotebookLM](./tools/ai/notebooklm) - A quick review and test drive of Google's NotebookLM.
+> Latest addition :sparkles: [Ideogram AI](./tools/ai/ideogram) - A quick review and test drive of ideogram.ai.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
