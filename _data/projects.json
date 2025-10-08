@@ -1,4 +1,12 @@
 {
+    "/tools/ai/recraft/": {
+        "id": 366,
+        "title": "Recraft AI",
+        "summary": "A quick review and test drive of recraft.ai.",
+        "tags": [
+            "AI"
+        ]
+    },
     "/tools/ai/flux/": {
         "id": 365,
         "title": "Flux AI",

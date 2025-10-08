@@ -1,6 +1,6 @@
-# 365 Little Coding Katas
+# 366 Little Coding Katas
 
-> Latest addition :sparkles: [Flux AI](./tools/ai/flux) - A quick review and test drive of Flux AI.
+> Latest addition :sparkles: [Recraft AI](./tools/ai/recraft) - A quick review and test drive of recraft.ai.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
