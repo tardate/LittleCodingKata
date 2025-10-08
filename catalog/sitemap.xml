@@ -1,6 +1,27 @@
 <?xml version="1.0" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://codingkata.tardate.com/tools/ai/gamma/</loc>
+  </url>
+  <url>
+    <loc>https://codingkata.tardate.com/tools/ai/betterimage/</loc>
+  </url>
+  <url>
+    <loc>https://codingkata.tardate.com/tools/ai/klingai/</loc>
+  </url>
+  <url>
+    <loc>https://codingkata.tardate.com/tools/ai/recraft/</loc>
+  </url>
+  <url>
+    <loc>https://codingkata.tardate.com/tools/ai/flux/</loc>
+  </url>
+  <url>
+    <loc>https://codingkata.tardate.com/tools/ai/ideogram/</loc>
+  </url>
+  <url>
+    <loc>https://codingkata.tardate.com/tools/ai/notebooklm/</loc>
+  </url>
+  <url>
     <loc>https://codingkata.tardate.com/rust/hyperfactorial/</loc>
   </url>
   <url>

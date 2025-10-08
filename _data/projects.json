@@ -1,4 +1,60 @@
 {
+    "/tools/ai/gamma/": {
+        "id": 369,
+        "title": "Gamma AI",
+        "summary": "A quick review and test drive of Gamma AI for content generation for presentation, website, social media posts, etc.",
+        "tags": [
+            "AI"
+        ]
+    },
+    "/tools/ai/betterimage/": {
+        "id": 368,
+        "title": "BetterImage",
+        "summary": "A quick review and test drive of BetterImage, an AI image upscaler.",
+        "tags": [
+            "AI"
+        ]
+    },
+    "/tools/ai/klingai/": {
+        "id": 367,
+        "title": "KlingAI",
+        "summary": "A quick review and test drive of KlingAI for image and video generation.",
+        "tags": [
+            "AI"
+        ]
+    },
+    "/tools/ai/recraft/": {
+        "id": 366,
+        "title": "Recraft AI",
+        "summary": "A quick review and test drive of recraft.ai for image generation and editing",
+        "tags": [
+            "AI"
+        ]
+    },
+    "/tools/ai/flux/": {
+        "id": 365,
+        "title": "Flux AI",
+        "summary": "A quick review and test drive of Flux AI  creative solution including image generation",
+        "tags": [
+            "AI"
+        ]
+    },
+    "/tools/ai/ideogram/": {
+        "id": 364,
+        "title": "Ideogram AI",
+        "summary": "A quick review and test drive of ideogram.ai text to image model.",
+        "tags": [
+            "AI"
+        ]
+    },
+    "/tools/ai/notebooklm/": {
+        "id": 363,
+        "title": "NotebookLM",
+        "summary": "A quick review and test drive of Google's NotebookLM research and writing assistant.",
+        "tags": [
+            "AI"
+        ]
+    },
     "/rust/hyperfactorial/": {
         "id": 362,
         "title": "hyperfactorial",
@@ -21,7 +77,7 @@
         "title": "Base44",
         "summary": "A quick review and test drive of Base44 AI-powered app builder and hosting solution.",
         "tags": [
-            "ai"
+            "AI"
         ]
     },
     "/rust/chat-cli/": {

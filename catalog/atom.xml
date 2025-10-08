@@ -14,6 +14,69 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/tools/ai/gamma/</id>
+    <link href="https://codingkata.tardate.com/tools/ai/gamma/"/>
+    <updated>2025-10-08T05:08:00Z</updated>
+    <title>#369 Gamma AI</title>
+    <summary>A quick review and test drive of Gamma AI for content generation for presentation, website, social media posts, etc.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A quick review and test drive of Gamma AI for content generation for presentation, website, social media posts, etc.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="AI"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/ai/betterimage/</id>
+    <link href="https://codingkata.tardate.com/tools/ai/betterimage/"/>
+    <updated>2025-10-08T04:40:00Z</updated>
+    <title>#368 BetterImage</title>
+    <summary>A quick review and test drive of BetterImage, an AI image upscaler.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A quick review and test drive of BetterImage, an AI image upscaler.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="AI"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/ai/klingai/</id>
+    <link href="https://codingkata.tardate.com/tools/ai/klingai/"/>
+    <updated>2025-10-08T04:36:00Z</updated>
+    <title>#367 KlingAI</title>
+    <summary>A quick review and test drive of KlingAI for image and video generation.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A quick review and test drive of KlingAI for image and video generation.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="AI"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/ai/recraft/</id>
+    <link href="https://codingkata.tardate.com/tools/ai/recraft/"/>
+    <updated>2025-10-08T04:33:00Z</updated>
+    <title>#366 Recraft AI</title>
+    <summary>A quick review and test drive of recraft.ai for image generation and editing</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A quick review and test drive of recraft.ai for image generation and editing&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="AI"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/ai/flux/</id>
+    <link href="https://codingkata.tardate.com/tools/ai/flux/"/>
+    <updated>2025-10-08T04:30:00Z</updated>
+    <title>#365 Flux AI</title>
+    <summary>A quick review and test drive of Flux AI  creative solution including image generation</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A quick review and test drive of Flux AI  creative solution including image generation&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="AI"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/ai/ideogram/</id>
+    <link href="https://codingkata.tardate.com/tools/ai/ideogram/"/>
+    <updated>2025-10-08T04:25:00Z</updated>
+    <title>#364 Ideogram AI</title>
+    <summary>A quick review and test drive of ideogram.ai text to image model.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A quick review and test drive of ideogram.ai text to image model.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="AI"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/ai/notebooklm/</id>
+    <link href="https://codingkata.tardate.com/tools/ai/notebooklm/"/>
+    <updated>2025-10-08T04:19:00Z</updated>
+    <title>#363 NotebookLM</title>
+    <summary>A quick review and test drive of Google's NotebookLM research and writing assistant.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A quick review and test drive of Google's NotebookLM research and writing assistant.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="AI"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/rust/hyperfactorial/</id>
     <link href="https://codingkata.tardate.com/rust/hyperfactorial/"/>
     <updated>2025-10-04T07:34:00Z</updated>
@@ -39,7 +102,7 @@
     <title>#360 Base44</title>
     <summary>A quick review and test drive of Base44 AI-powered app builder and hosting solution.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A quick review and test drive of Base44 AI-powered app builder and hosting solution.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ai"/>
+    <category term="AI"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/chat-cli/</id>
