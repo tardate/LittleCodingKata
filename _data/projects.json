@@ -1,4 +1,12 @@
 {
+    "/tools/ai/notebooklm/": {
+        "id": 363,
+        "title": "NotebookLM",
+        "summary": "A quick review and test drive of Google's NotebookLM.",
+        "tags": [
+            "AI"
+        ]
+    },
     "/rust/hyperfactorial/": {
         "id": 362,
         "title": "hyperfactorial",

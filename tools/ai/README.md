@@ -12,6 +12,8 @@ either use, tried, or would like to check out at some point.
 
 See also:
 
+* [AI Leaderboards](./leaderboards/)
+* [AI Tutorials](./tutorials/)
 * [AI Stash](https://www.aistash.co/) - the AI Tools directory.
 * [FREE Prompts Library ~ Sabrina Ramonov](https://prompts.sabrina.dev)
 * [TLDR AI Newsletter](https://a.tldrnewsletter.com/)
@@ -21,7 +23,7 @@ See also:
 
 ### Developer Tools
 
-* [Base44](./base44/)
+* Base44 - see [full review](./base44/)
     > Base44 lets you build fully-functional apps in minutes with just your words. No coding necessary.
 * [bolt.new](https://bolt.new/)
     > Prompt, run, edit, and deploy full-stack web apps.
@@ -71,25 +73,7 @@ See my initial review and trial of [DeepSeek](./deepseek/).
 
 ### Education and Research Tools
 
-#### NotebookLM
-
-<https://notebooklm.google/>
-
-> NotebookLM is an AI-powered research and writing assistant that works best with the sources you upload
->
-> NotebookLM is your personalized AI research assistant powered by Google's most capable model, Gemini 1.5 Pro.
-
-#### Example: Overview of the People's Liberation Army Navy (PLAN)
-
-Sources I provided:
-
-* <https://en.wikipedia.org/wiki/People%27s_Liberation_Army_Navy>
-* `PLAN Ships.pdf` - China Files Peoples Liberation Army Navy Ships
-
-It generated this pretty decent audio overview:
-<https://soundcloud.com/pratalife/overview-of-the-peoples-liberation-army-navy-plan>
-
-The analysis it provided of the sources, with citations, was very impressive and would make learning any new topic so much easier.
+* NotebookLM - see my [full review](./notebooklm/)
 
 ### Text/Content Tools
 

@@ -1,5 +1,15 @@
 [
     {
+        "name": "NotebookLM",
+        "description": "A quick review and test drive of Google's NotebookLM.",
+        "categories": "AI",
+        "relative_path": "tools/ai/notebooklm",
+        "updated_at": "2025-10-08T04:19:00Z",
+        "created_at": "2025-10-08T04:19:00Z",
+        "id": "#363",
+        "original_relative_path": "tools/ai/notebooklm"
+    },
+    {
         "name": "hyperfactorial",
         "description": "Using rust to calculate the hyper-factorial of a non-negative integer; cassidoo's interview question of the week (2025-09-29)",
         "categories": "rust, cassidoo",
