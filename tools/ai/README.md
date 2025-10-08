@@ -115,6 +115,7 @@ See my initial review and trial of [DeepSeek](./deepseek/).
     * "Remove any unwanted object, defect, people or text from your pictures in seconds"
 * <https://clipdrop.co/cleanup>
     * "Remove object, defect, people, or text from your pictures in seconds"
+* <https://flux-ai.io/flux-ai-image-generator/> - see my [full review](./flux/)
 * <https://ideogram.ai/> - see my [full review](./ideogram/)
 * <https://www.meshy.ai/>
     * "Create stunning 3D models with AI"
@@ -123,29 +124,6 @@ See my initial review and trial of [DeepSeek](./deepseek/).
     * "Remove objects, text or people from your images to get clean photos!"
 * <https://writesonic.com/photosonic-ai-art-generator>
     * "AI Art Generator"
-
-#### <https://flux-ai.io/flux-ai-image-generator/>
-
-> Create stunning images with Flux.1 Pro, Flux.1 Dev and Flux.1 Schnell models.
-
-On copyright: Paid users own their image rights. A [paid plan](https://flux-ai.io/pricing/) is required for:
-
-* non-public
-* Commercial Right
-
-A quick test with a generic prompt:
-
-> a sad robot walking down a cyberpunk alleyway in some dystopian future
-
-![fux-sad-robot](./assets/fux-sad-robot.jpg)
-
-Quick test with a very specific prompt:
-
-> an Aichi E13A Jake floatplane coming in to land at Deboyne Lagoon. Use an accurate representation of an Aichi E13A. Show the plane at the point it is touching down to land.
-
-The result has convincing detail about the action of a float plane coming into land, but the landscape and plane model are totally wrong:
-
-![](./assets/flux-aichi.jpg)
 
 #### <https://www.recraft.ai/>
 

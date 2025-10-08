@@ -1,5 +1,15 @@
 [
     {
+        "name": "Flux AI",
+        "description": "A quick review and test drive of Flux AI.",
+        "categories": "AI",
+        "relative_path": "tools/ai/flux",
+        "updated_at": "2025-10-08T04:30:00Z",
+        "created_at": "2025-10-08T04:30:00Z",
+        "id": "#365",
+        "original_relative_path": "tools/ai/flux"
+    },
+    {
         "name": "Ideogram AI",
         "description": "A quick review and test drive of ideogram.ai.",
         "categories": "AI",

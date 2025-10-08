@@ -1,4 +1,12 @@
 {
+    "/tools/ai/flux/": {
+        "id": 365,
+        "title": "Flux AI",
+        "summary": "A quick review and test drive of Flux AI.",
+        "tags": [
+            "AI"
+        ]
+    },
     "/tools/ai/ideogram/": {
         "id": 364,
         "title": "Ideogram AI",
