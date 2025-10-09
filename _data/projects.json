@@ -1,4 +1,12 @@
 {
+    "/ruby/cli-options/": {
+        "id": 370,
+        "title": "Command Line Options with Ruby",
+        "summary": "Comparing all the various ways of parsing command line arguments with the Ruby standard library.",
+        "tags": [
+            "ruby"
+        ]
+    },
     "/tools/ai/gamma/": {
         "id": 369,
         "title": "Gamma AI",
