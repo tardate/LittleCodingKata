@@ -1,0 +1,6 @@
+{
+    "name": "Command Line Options with Ruby",
+    "description": "Comparing all the various ways of parsing command line arguments with the Ruby standard library.",
+    "categories": "ruby",
+    "relative_path": "ruby/cli-options"
+}
