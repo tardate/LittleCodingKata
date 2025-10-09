@@ -1,4 +1,4 @@
-# #xxx Command Line Options with Ruby
+# #370 Command Line Options with Ruby
 
 Comparing all the various ways of parsing command line arguments with the Ruby standard library.
 

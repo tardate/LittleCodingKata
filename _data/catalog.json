@@ -1,5 +1,15 @@
 [
     {
+        "name": "Command Line Options with Ruby",
+        "description": "Comparing all the various ways of parsing command line arguments with the Ruby standard library.",
+        "categories": "ruby",
+        "relative_path": "ruby/cli-options",
+        "updated_at": "2025-10-09T06:09:00Z",
+        "created_at": "2025-10-09T06:09:00Z",
+        "id": "#370",
+        "original_relative_path": "ruby/cli-options"
+    },
+    {
         "name": "Gamma AI",
         "description": "A quick review and test drive of Gamma AI for content generation for presentation, website, social media posts, etc.",
         "categories": "AI",

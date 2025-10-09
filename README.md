@@ -1,6 +1,6 @@
-# 369 Little Coding Katas
+# 370 Little Coding Katas
 
-> Latest addition :sparkles: [Gamma AI](./tools/ai/gamma) - A quick review and test drive of Gamma AI for content generation for presentation, website, social media posts, etc.
+> Latest addition :sparkles: [Command Line Options with Ruby](./ruby/cli-options) - Comparing all the various ways of parsing command line arguments with the Ruby standard library.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

@@ -14,6 +14,15 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/ruby/cli-options/</id>
+    <link href="https://codingkata.tardate.com/ruby/cli-options/"/>
+    <updated>2025-10-09T06:09:00Z</updated>
+    <title>#370 Command Line Options with Ruby</title>
+    <summary>Comparing all the various ways of parsing command line arguments with the Ruby standard library.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Comparing all the various ways of parsing command line arguments with the Ruby standard library.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="ruby"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/tools/ai/gamma/</id>
     <link href="https://codingkata.tardate.com/tools/ai/gamma/"/>
     <updated>2025-10-08T05:08:00Z</updated>
