@@ -205,17 +205,17 @@ This makes for an elegant way of handling command line designs like this:
 
 ```text
 > ./optparse_subcommand_example.rb --verbose audit --type text foo.txt
-   ---+--                          ----+---- --+-- ------+---- ---+---
-      |                                |     |           |        |
-App---+                                |     |           |        |
-Global Options-------------------------+     |           |        |
-Command--------------------------------------+           |        |
+  -----------------+-------------- ----+---- --+-- ------+---- ---+---
+                   |                   |       |         |        |
+App----------------+                   |       |         |        |
+Global Options-------------------------+       |         |        |
+Command----------------------------------------+         |        |
 Command Options------------------------------------------+        |
 Arguments---------------------------------------------------------+
 ```
 
 See [optparse_subcommand_example.rb](./optparse_subcommand_example.rb)
-for a demonstration.
+for a demonstration:
 
 ```ruby
 require 'optparse'

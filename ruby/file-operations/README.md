@@ -4,6 +4,8 @@ Reviewing common file operations with ruby
 
 ## Notes
 
+See also: [The Ruby Way](../the-ruby-way/) 10.1 Working with Files and Directories.
+
 ### Create and Write to File
 
 Use either
@@ -120,3 +122,4 @@ Run:
 * <https://ruby-doc.org/3.4.1/File.html>
 * <https://ruby-doc.org/3.4.1/Dir.html>
 * <https://ruby-doc.org/3.4.1/stdlibs/fileutils/FileUtils.html>
+* [The Ruby Way](../the-ruby-way/) 10.1 Working with Files and Directories
