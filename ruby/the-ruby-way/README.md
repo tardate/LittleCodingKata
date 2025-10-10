@@ -475,6 +475,7 @@ The latest edition was published in 2015.
         * 15.1.1 Navigating JSON Data
         * 15.1.2 Handling Non-JSON Data Types
         * 15.1.3 Other JSON Libraries
+        * See also [LCK#044 JSON Parsing](../json_parsing/)
     * 15.2 Parsing XML (and HTML)
         * 15.2.1 Document Parsing
         * 15.2.2 Stream Parsing

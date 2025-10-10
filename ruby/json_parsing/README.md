@@ -18,6 +18,8 @@ There are perhaps four main methods most commonly used form the JSON library:
 
 Note: this is only an issue with ruby <= 2.3 (I think) as later rubies require a later json gem version anyway.
 
+See also: [The Ruby Way](../the-ruby-way/) 15.1 Parsing JSON.
+
 ### `pretty_generate` Version-dependent Behaviour
 
 Prior to v2.0.0 -
@@ -82,3 +84,4 @@ Finished in 0.001192s, 3355.7047 runs/s, 3355.7047 assertions/s.
 * [JSON implementation for Ruby](https://github.com/flori/json) - GitHub source
 * [json](https://rubygems.org/gems/json) - rubygems
 * [RFC 4627](https://www.ietf.org/rfc/rfc4627.txt)
+* [The Ruby Way](../the-ruby-way/) 15.1 Parsing JSON
