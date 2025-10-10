@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0">
   <title>LittleCodingKata</title>
   <subtitle>my collection of programming exercises, research and code toys broadly spanning things that relate to programming and software development (languages, frameworks and tools)</subtitle>
@@ -477,7 +477,7 @@
     <updated>2025-03-31T15:02:00Z</updated>
     <title>#322 Practical Cryptography in Python</title>
     <summary>Book notes: Practical Cryptography in Python: Learning Correct Cryptography by Example, by Seth James Nielso,  Christopher K. Monson. Published September 27, 2019.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Practical Cryptography in Python: Learning Correct Cryptography by Example, by Seth James Nielso,  Christopher K. Monson. Published September 27, 2019.&lt;/p&gt;&lt;img src=&quot;https://codingkata.tardate.com/python/practical-cryptography-in-python/assets/practical-cryptography-in-python_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Practical Cryptography in Python: Learning Correct Cryptography by Example, by Seth James Nielso,  Christopher K. Monson. Published September 27, 2019.&lt;/p&gt;&lt;img src="https://codingkata.tardate.com/python/practical-cryptography-in-python/assets/practical-cryptography-in-python_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
     <category term="python"/>
     <category term="cryptography"/>
