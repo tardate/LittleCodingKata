@@ -31,8 +31,9 @@ the ARGV global variable and ARGF class is all we really need. See [ARGV & ARGF]
 
 Where this approach starts to fall down is when adding more than one optional parameter, or we have so many options that keeping the help/doc in line with the code starts to become a pain.
 
-The ARGV global variable provides access to an array of options for us to do with as we wish. See [argv_example.rb](./argv_example.rb)
-for a demonstration.
+The ARGV global variable provides access to an array of options for us to do with as we wish.
+
+See [argv_example.rb](./argv_example.rb) for a demonstration:
 
 ```ruby
 p ['ARGV', ARGV]
@@ -71,8 +72,7 @@ Version 1.0.0
 
 The [ARGF](https://ruby-doc.org/3.4.1/ARGF.html) class works with the array at global variable ARGV to make $stdin and file streams available in the Ruby program.
 
-See [argf_example.rb](./argf_example.rb)
-for a demonstration.
+See [argf_example.rb](./argf_example.rb) for a demonstration:
 
 ```ruby
 p ['ARGV', ARGV]
@@ -95,8 +95,7 @@ $ ./argf_example.rb foo.txt bar.txt
 This class is also based on the GNU getopt_long() C library call and offers similar functionality to the Getopt::Long from the getopt gem. It allows for both POSIX-style options (e.g., --file) and single-letter options (e.g., -f).
 See [GetoptLong](https://ruby-doc.org/3.4.1/gems/getoptlong/GetoptLong.html) for library details.
 
-See [getoptlong_example.rb](./getoptlong_example.rb)
-for a demonstration.
+See [getoptlong_example.rb](./getoptlong_example.rb) for a demonstration:
 
 ```ruby
 require 'getoptlong'
@@ -140,8 +139,7 @@ See [OptionParser](https://ruby-doc.org/3.4.1/stdlibs/optparse/OptionParser.html
 
 OptionParser also supports a long list of [Built-In Argument Converters](https://ruby-doc.org/3.4.1/optparse/argument_converters_rdoc.html), and it is possible to add custom converters.
 
-See [optparse_example.rb](./optparse_example.rb)
-for a demonstration.
+See [optparse_example.rb](./optparse_example.rb) for a demonstration:
 
 ```ruby
 require 'optparse'
