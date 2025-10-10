@@ -5,6 +5,7 @@ Comparing all the various ways of parsing command line arguments with the Ruby s
 ## Notes
 
 Building tools with ruby that run in a terminal generally requires handling command-line options and arguments.
+See also: [The Ruby Way](../the-ruby-way/) 14.2 Command-Line Options and Arguments.
 
 There are a range of gems that offer improved or simplified CLI options handling,
 but I'll just focus here on what is already provided by the rich standard library support.
@@ -195,9 +196,81 @@ Options: {:timeout=>12.34}
 Timeout: 12.34
 ```
 
+### CLI Sub-commands with OptionParser
+
+I just saw an interesting article by David Bryant Copeland: [Building a Sub-command Ruby CLI with just OptionParser](https://naildrivin5.com/blog/2025/10/07/building-a-sub-command-ruby-cli-with-just-optionparser.html)
+
+It describes a technique for using multiple Option Parsers in order to handle options that are conditional on the selected command.
+This makes for an elegant way of handling command line designs like this:
+
+```text
+> ./optparse_subcommand_example.rb --verbose audit --type text foo.txt
+   ---+--                          ----+---- --+-- ------+---- ---+---
+      |                                |     |           |        |
+App---+                                |     |           |        |
+Global Options-------------------------+     |           |        |
+Command--------------------------------------+           |        |
+Command Options------------------------------------------+        |
+Arguments---------------------------------------------------------+
+```
+
+See [optparse_subcommand_example.rb](./optparse_subcommand_example.rb)
+for a demonstration.
+
+```ruby
+require 'optparse'
+
+global_parser = OptionParser.new do |parser|
+  parser.banner = "#{$0} [global options] command [command options] [command args...]"
+  parser.on("--verbose", "Show additional logging/debug information")
+end
+
+commands = {}
+commands["audit"] = OptionParser.new do |parser|
+  parser.banner = "#{$0} [global options] audit [command options] [command args...]"
+  parser.on("--type TYPE", "Set the type of test to audit. Omit to audit all types")
+end
+
+global_options  = {}
+command_options = {}
+
+global_parser.order!(into: global_options)
+command = ARGV.shift
+command_parser = commands[command]
+command_parser&.parse!(into: command_options)
+
+puts "global_options: #{global_options.inspect}"
+puts "command: #{command}"
+puts "command_options: #{command_options.inspect}"
+puts "ARGV: #{ARGV.inspect}"
+```
+
+Example usage:
+
+```sh
+$ ./optparse_subcommand_example.rb -h
+./optparse_subcommand_example.rb [global options] command [command options] [command args...]
+        --verbose                    Show additional logging/debug information
+$ ./optparse_subcommand_example.rb audit -h
+./optparse_subcommand_example.rb [global options] audit [command options] [command args...]
+        --type TYPE                  Set the type of test to audit. Omit to audit all types
+$ ./optparse_subcommand_example.rb -v audit -t file foo.txt
+global_options: {:verbose=>true}
+command: audit
+command_options: {:type=>"file"}
+ARGV: ["foo.txt"]
+$ ./optparse_subcommand_example.rb -v invalid -t file foo.txt
+global_options: {:verbose=>true}
+command: invalid
+command_options: {}
+ARGV: ["-t", "file", "foo.txt"]
+```
+
 ## Credits and References
 
 * <https://ruby-doc.org/3.4.1/ARGF.html>
 * <https://ruby-doc.org/3.4.1/gems/getoptlong/GetoptLong.html>
 * <https://ruby-doc.org/3.4.1/stdlibs/optparse/OptionParser.html>
 * <https://justin.searls.co/posts/ruby-makes-advanced-cli-options-easy/>
+* <https://naildrivin5.com/blog/2025/10/07/building-a-sub-command-ruby-cli-with-just-optionparser.html>
+* [The Ruby Way](../the-ruby-way/) 14.2 Command-Line Options and Arguments

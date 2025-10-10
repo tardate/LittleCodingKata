@@ -449,6 +449,7 @@ The latest edition was published in 2015.
     * 14.2.1 Working with ARGV
     * 14.2.2 Working with ARGF
     * 14.2.3 Parsing Command-Line Options
+    * See also: [LCK#370 Command Line Options with Ruby](../cli-options/)
 * 14.3 The Shell Library
     * 14.3.1 Using Shell for I/O Redirection
     * 14.3.2 Other Notes on Shell
@@ -582,7 +583,7 @@ The latest edition was published in 2015.
 
 ### Source Code
 
-Download is available from <https://www.rubyhacker.com/>, also copied [here](https://github.com/tardate/LittleCodingKata/tree/main/ruby/the-ruby-way/trw3src/).
+Download is available from <https://www.rubyhacker.com/>, also [copied here](https://github.com/tardate/LittleCodingKata/tree/main/ruby/the-ruby-way/trw3src/).
 
 ## Credits and References
 
