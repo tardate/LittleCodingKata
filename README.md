@@ -1,6 +1,6 @@
-# 370 Little Coding Katas
+# 371 Little Coding Katas
 
-> Latest addition :sparkles: [Command Line Options with Ruby](./ruby/cli-options) - Comparing all the various ways of parsing command line arguments with the Ruby standard library.
+> Latest addition :sparkles: [Grouping ChangeLog Edits](./ruby/group-changelog-edits) - Using ruby to group data in 10-minute buckets; cassidoo's interview question of the week (2025-10-06).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

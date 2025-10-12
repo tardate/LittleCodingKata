@@ -14,6 +14,16 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/ruby/group-changelog-edits/</id>
+    <link href="https://codingkata.tardate.com/ruby/group-changelog-edits/"/>
+    <updated>2025-10-12T16:40:00Z</updated>
+    <title>#371 Grouping ChangeLog Edits</title>
+    <summary>Using ruby to group data in 10-minute buckets; cassidoo's interview question of the week (2025-10-06).</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using ruby to group data in 10-minute buckets; cassidoo's interview question of the week (2025-10-06).&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="ruby"/>
+    <category term="cassidoo"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/ruby/cli-options/</id>
     <link href="https://codingkata.tardate.com/ruby/cli-options/"/>
     <updated>2025-10-09T06:09:00Z</updated>
