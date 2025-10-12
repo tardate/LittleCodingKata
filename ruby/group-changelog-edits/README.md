@@ -41,16 +41,21 @@ The [interview question of the week (2025-10-06)](https://buttondown.com/cassido
 
 ## Thinking about the problem
 
-I appears quite a simple problem, but grouping "edits to the same component within a 10-minute window" presents a number of possibilities,
-and the requirements don't steer us in any particular direction. Another case where in the real world, there's a conversation required to get to the essential requirement. Here are some possibilities:
+I appears quite a simple problem, but grouping "edits to the same component within a 10-minute window" presents a number of possibilities.
+In the real world, there's probably a conversation required to drill down on the essential requirement. Here are some possibilities:
 
-The most straight-forward and naïve approach: changes are grouped to the earliest change possible i.e. we just run through the changes chronologically.
+The most straight-forward and naïve approach: changes are grouped with the earliest change possible i.e. we just run through the changes chronologically.
 This can however create some unrealistic groupings.
 Consider the following example:
 
-* changes at the following times: 8:05:00, 8:06:00, 8:14:00, 8:16:00, 8:16:10, 8:16:30
-* The naïve approach would yield two groups: (8:05:00, 8:06:00, 8:14:00) and (8:16:00, 8:16:10, 8:16:30)
-* However, if we are trying to group changes that happened "in the same burst of activity", the change at 8:14:00 is more closely associated with the second group, i.e. we should group as follows: (8:05:00, 8:06:00) and (8:14:00, 8:16:00, 8:16:10, 8:16:30)
+* changes at the following times:
+    * 8:05:00, 8:06:00, 8:14:00, 8:16:00, 8:16:10, 8:16:30
+* The naïve approach would yield two groups:
+    * (8:05:00, 8:06:00, 8:14:00) and
+    * (8:16:00, 8:16:10, 8:16:30)
+* However, if we are trying to group changes that happened "in the same burst of activity", the change at 8:14:00 is more closely associated with the second group, i.e. we should group as follows:
+    * (8:05:00, 8:06:00) and
+    * (8:14:00, 8:16:00, 8:16:10, 8:16:30)
 
 In other words, a second approach would group changes to minimise the distance (time) between grouped elements.
 
@@ -63,7 +68,7 @@ While this may arise IRL, the first example grouping 08:07:00 to 08:15:00 demons
 
 I'll keep it simple: the naïve approach that just starts trying to bucket for every successive change.
 
-The core implementation looks pretty ugly:
+The core implementation looks a bit busy:
 
 * it first groups the data by component
 * then we sort and process the components alphabetically (as it seems to have been done in the example)
