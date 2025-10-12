@@ -1,5 +1,15 @@
 [
     {
+        "name": "Grouping ChangeLog Edits",
+        "description": "Using ruby to group data in 10-minute buckets; cassidoo's interview question of the week (2025-10-06).",
+        "categories": "ruby, cassidoo",
+        "relative_path": "ruby/group-changelog-edits",
+        "updated_at": "2025-10-12T16:40:00Z",
+        "created_at": "2025-10-12T16:40:00Z",
+        "id": "#371",
+        "original_relative_path": "ruby/group-changelog-edits"
+    },
+    {
         "name": "Command Line Options with Ruby",
         "description": "Comparing all the various ways of parsing command line arguments with the Ruby standard library.",
         "categories": "ruby",

@@ -1,4 +1,13 @@
 {
+    "/ruby/group-changelog-edits/": {
+        "id": 371,
+        "title": "Grouping ChangeLog Edits",
+        "summary": "Using ruby to group data in 10-minute buckets; cassidoo's interview question of the week (2025-10-06).",
+        "tags": [
+            "ruby",
+            "cassidoo"
+        ]
+    },
     "/ruby/cli-options/": {
         "id": 370,
         "title": "Command Line Options with Ruby",
