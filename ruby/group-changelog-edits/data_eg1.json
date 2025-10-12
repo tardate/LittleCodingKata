@@ -1,0 +1,7 @@
+[
+  { "timestamp": "2025-10-06T08:00:00Z", "component": "Header" },
+  { "timestamp": "2025-10-06T08:05:00Z", "component": "Header" },
+  { "timestamp": "2025-10-06T08:20:00Z", "component": "Header" },
+  { "timestamp": "2025-10-06T08:07:00Z", "component": "Footer" },
+  { "timestamp": "2025-10-06T08:15:00Z", "component": "Footer" }
+]
