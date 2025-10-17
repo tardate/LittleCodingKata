@@ -1,4 +1,13 @@
 {
+    "/rust/csv-to-list/": {
+        "id": 372,
+        "title": "csvToList",
+        "summary": "Using rust to format CSV data for printing; cassidoo's interview question of the week (2025-10-13). I test two common approaches for deserializing CSV in rust, and consider factoring of console IO for testability.",
+        "tags": [
+            "rust",
+            "cassidoo"
+        ]
+    },
     "/ruby/group-changelog-edits/": {
         "id": 371,
         "title": "Grouping ChangeLog Edits",
