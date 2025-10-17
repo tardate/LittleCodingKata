@@ -1,0 +1,9 @@
+{
+    "name": "csvToList",
+    "description": "Using rust to format CSV data for printing; cassidoo's interview question of the week (2025-10-13). I test two common approaches for deserializing CSV in rust, and consider factoring of console IO for testability.",
+    "categories": "rust, cassidoo",
+    "relative_path": "rust/csv-to-list",
+    "updated_at": "2025-10-17T04:38:00Z",
+    "created_at": "2025-10-17T04:38:00Z",
+    "id": "#372"
+}

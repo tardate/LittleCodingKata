@@ -253,4 +253,4 @@ mod tests {
 
 ## Credits and References
 
-* [interview question of the week (2025-08-18)](https://buttondown.com/cassidoo/archive/its-important-to-have-something-to-walk-towards/)
+* [cassidoo's interview question of the week (2025-08-18)](https://buttondown.com/cassidoo/archive/its-important-to-have-something-to-walk-towards/)
