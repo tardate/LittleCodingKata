@@ -76,11 +76,7 @@ mod tests {
         assert!(result.is_ok());
         let output_bytes = buffer.into_inner();
         let captured_output = str::from_utf8(&output_bytes).expect("Output was not valid UTF-8");
-        let captured_lines: Vec<&str> = captured_output.trim().lines().collect();
-        assert_eq!(captured_lines.len(), 4);
-        assert_eq!(captured_lines[0], "`");
-        assert_eq!(captured_lines[1], "- Ryu, Mi-yeong, age 30, from Seoul");
-        assert_eq!(captured_lines[2], "- Zoey, age 24, from Burbank");
-        assert_eq!(captured_lines[3], "`");
+        let expected_output = "`\n- Ryu, Mi-yeong, age 30, from Seoul\n- Zoey, age 24, from Burbank\n`\n";
+        assert_eq!(captured_output, expected_output);
     }
 }
