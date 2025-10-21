@@ -1,0 +1,6 @@
+{
+    "name": "Context7",
+    "description": "Using Context7 MCP Server with VSCode and GitHub Copilot to improve code generation quality.",
+    "categories": "AI",
+    "relative_path": "tools/ai/context7"
+}
