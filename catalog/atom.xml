@@ -14,6 +14,15 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/tools/ai/context7/</id>
+    <link href="https://codingkata.tardate.com/tools/ai/context7/"/>
+    <updated>2025-10-21T06:40:00Z</updated>
+    <title>#373 Context7</title>
+    <summary>Using Context7 MCP Server with VSCode and GitHub Copilot to improve code generation quality.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using Context7 MCP Server with VSCode and GitHub Copilot to improve code generation quality.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="AI"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/rust/csv-to-list/</id>
     <link href="https://codingkata.tardate.com/rust/csv-to-list/"/>
     <updated>2025-10-17T04:38:00Z</updated>

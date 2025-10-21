@@ -1,6 +1,6 @@
-# 372 Little Coding Katas
+# 373 Little Coding Katas
 
-> Latest addition :sparkles: [csvToList](./rust/csv-to-list) - Using rust to format CSV data for printing; cassidoo's interview question of the week (2025-10-13). I test two common approaches for deserializing CSV in rust, and consider factoring of console IO for testability.
+> Latest addition :sparkles: [Context7](./tools/ai/context7) - Using Context7 MCP Server with VSCode and GitHub Copilot to improve code generation quality.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

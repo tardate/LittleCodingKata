@@ -31,6 +31,8 @@ See also:
     > Bolt offers a hybrid experience for technical freelancers or small-scale projects. It provides browser-based full-stack development with easy deployment and a flexible approach for non-technical users like photographers who want to create a quick website or project. It’s perfect for solo entrepreneurs who want to build small but functional apps without the hassle of learning to code deeply.
 * [claude.ai](https://claude.ai/)
     * Claude and Claude Code
+* [Context7 MCP Server](https://context7.com/) - see my [full review](./context7/)
+    > Up-to-date Docs for LLMs and AI code editors
 * [Cursor](https://www.cursor.com/)
     > Built to make you extraordinarily productive, Cursor is the best way to code with AI.
     * suited to experienced developers, similar to GitHub Copilot
