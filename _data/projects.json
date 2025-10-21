@@ -1,4 +1,12 @@
 {
+    "/tools/ai/context7/": {
+        "id": 373,
+        "title": "Context7",
+        "summary": "Using Context7 MCP Server with VSCode and GitHub Copilot to improve code generation quality.",
+        "tags": [
+            "AI"
+        ]
+    },
     "/rust/csv-to-list/": {
         "id": 372,
         "title": "csvToList",

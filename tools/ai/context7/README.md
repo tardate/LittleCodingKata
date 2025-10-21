@@ -1,4 +1,4 @@
-# #xxx Context7
+# #373 Context7
 
 Using Context7 MCP Server with VSCode and GitHub Copilot to improve code generation quality.
 
@@ -131,3 +131,4 @@ by adding a [context7.json](https://github.com/upstash/context7/blob/master/docs
 
 * <https://context7.com/>
 * <https://github.com/upstash/context7>
+* <https://code.visualstudio.com/docs/copilot/customization/mcp-servers>
