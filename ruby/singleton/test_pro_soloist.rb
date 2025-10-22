@@ -18,4 +18,8 @@ class ProSoloistTest < Minitest::Test
   def test_to_s
     assert_equal "Pro Soloist [object_id=#{@a.object_id}]", @a.to_s
   end
+
+  def test_new_raises_error
+    assert_raises(NoMethodError) { ProSoloist.new }
+  end
 end

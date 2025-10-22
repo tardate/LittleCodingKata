@@ -51,15 +51,15 @@ I've added accompanying tests in [test_amateur_soloist.rb](./test_amateur_solois
 
 ```sh
 $ ruby test_amateur_soloist.rb
-Run options: --seed 65030
+Run options: --seed 63601
 
 # Running:
 
-...
+....
 
-Finished in 0.000212s, 14150.9435 runs/s, 14150.9435 assertions/s.
+Finished in 0.000223s, 17937.2197 runs/s, 17937.2197 assertions/s.
 
-3 runs, 3 assertions, 0 failures, 0 errors, 0 skips
+4 runs, 4 assertions, 0 failures, 0 errors, 0 skips
 ```
 
 There are limitations: it's not thread safe for example.
@@ -101,15 +101,15 @@ I've added accompanying tests in [test_pro_soloist.rb](./test_pro_soloist.rb):
 
 ```sh
 $ ruby test_pro_soloist.rb
-Run options: --seed 60718
+Run options: --seed 9829
 
 # Running:
 
-...
+....
 
-Finished in 0.000216s, 13888.8889 runs/s, 13888.8889 assertions/s.
+Finished in 0.000254s, 15748.0315 runs/s, 15748.0315 assertions/s.
 
-3 runs, 3 assertions, 0 failures, 0 errors, 0 skips
+4 runs, 4 assertions, 0 failures, 0 errors, 0 skips
 ```
 
 ## Considerations
