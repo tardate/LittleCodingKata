@@ -1,4 +1,4 @@
-# #xxx Singletons in Ruby
+# #376 Singletons in Ruby
 
 Using the singleton pattern in Ruby
 
