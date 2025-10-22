@@ -1,4 +1,23 @@
 {
+    "/ruby/design-patterns-in-ruby/": {
+        "id": 375,
+        "title": "Design Patterns in Ruby",
+        "summary": "Book notes - Design Patterns in Ruby by Russ Olsen",
+        "tags": [
+            "ruby",
+            "design",
+            "Books"
+        ]
+    },
+    "/design/design-patterns/": {
+        "id": 374,
+        "title": "Design Patterns",
+        "summary": "Book notes - Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, Grady Booch, Richard Helm, Ralph Johnson, John Vlissides",
+        "tags": [
+            "design",
+            "Books"
+        ]
+    },
     "/tools/ai/context7/": {
         "id": 373,
         "title": "Context7",
