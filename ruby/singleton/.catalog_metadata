@@ -1,6 +1,6 @@
 {
-    "name": "singleton",
-    "description": "",
-    "categories": "",
+    "name": "Singletons in Ruby",
+    "description": "Using the singleton pattern in Ruby",
+    "categories": "ruby, design patterns",
     "relative_path": "ruby/singleton"
 }
