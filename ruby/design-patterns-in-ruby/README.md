@@ -1,4 +1,4 @@
-# #xxx Design Patterns in Ruby
+# #375 Design Patterns in Ruby
 
 Book notes - Design Patterns in Ruby by Russ Olsen
 

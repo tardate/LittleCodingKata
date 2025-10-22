@@ -1,4 +1,4 @@
-# #xxx Design Patterns
+# #374 Design Patterns
 
 Book notes - Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, Grady Booch, Richard Helm, Ralph Johnson, John Vlissides
 
