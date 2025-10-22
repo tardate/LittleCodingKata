@@ -10,7 +10,7 @@ memoized method.
 
 The [Memoization](https://en.wikipedia.org/wiki/Memoization) design pattern can be considered
 a specific instance of the more elaborate [Memento](https://en.wikipedia.org/wiki/Memento_pattern) pattern from the classic
-[Design Patterns](https://www.goodreads.com/book/show/9637515-design-patterns) collection.
+[Design Patterns](../../design/design-patterns/) collection.
 
 ### Running the Examples
 
@@ -100,6 +100,6 @@ the most serious being that it can only memoize methods with an arity of 0 (i.e.
 
 * [Memoization](https://en.wikipedia.org/wiki/Memoization) - wikipedia
 * [Memento](https://en.wikipedia.org/wiki/Memento_pattern) - wikipedia
-* [Design Patterns](https://www.goodreads.com/book/show/9637515-design-patterns) - goodreads
+* [Design Patterns](../../design/design-patterns/)
 * [memoize](https://github.com/djberg96/memoize)
 * [memoist](https://github.com/matthewrudy/memoist)
