@@ -50,17 +50,16 @@ Instance 4: Amateur Soloist [object_id=60]
 I've added accompanying tests in [test_amateur_soloist.rb](./test_amateur_soloist.rb):
 
 ```sh
-
 $ ruby test_amateur_soloist.rb
-Run options: --seed 20448
+Run options: --seed 65030
 
 # Running:
 
-..
+...
 
-Finished in 0.000211s, 9478.6730 runs/s, 9478.6730 assertions/s.
+Finished in 0.000212s, 14150.9435 runs/s, 14150.9435 assertions/s.
 
-2 runs, 2 assertions, 0 failures, 0 errors, 0 skips
+3 runs, 3 assertions, 0 failures, 0 errors, 0 skips
 ```
 
 There are limitations: it's not thread safe for example.
@@ -102,15 +101,15 @@ I've added accompanying tests in [test_pro_soloist.rb](./test_pro_soloist.rb):
 
 ```sh
 $ ruby test_pro_soloist.rb
-Run options: --seed 3906
+Run options: --seed 60718
 
 # Running:
 
-..
+...
 
-Finished in 0.000227s, 8810.5727 runs/s, 8810.5727 assertions/s.
+Finished in 0.000216s, 13888.8889 runs/s, 13888.8889 assertions/s.
 
-2 runs, 2 assertions, 0 failures, 0 errors, 0 skips
+3 runs, 3 assertions, 0 failures, 0 errors, 0 skips
 ```
 
 ## Considerations
