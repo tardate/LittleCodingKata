@@ -1,0 +1,9 @@
+{
+    "name": "Singletons in Ruby",
+    "description": "Using the singleton pattern in Ruby",
+    "categories": "ruby, design patterns",
+    "relative_path": "ruby/singleton",
+    "updated_at": "2025-10-22T14:54:00Z",
+    "created_at": "2025-10-22T14:54:00Z",
+    "id": "#376"
+}

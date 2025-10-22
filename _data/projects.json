@@ -1,4 +1,13 @@
 {
+    "/ruby/singleton/": {
+        "id": 376,
+        "title": "Singletons in Ruby",
+        "summary": "Using the singleton pattern in Ruby",
+        "tags": [
+            "ruby",
+            "design patterns"
+        ]
+    },
     "/ruby/design-patterns-in-ruby/": {
         "id": 375,
         "title": "Design Patterns in Ruby",
@@ -6,6 +15,7 @@
         "tags": [
             "ruby",
             "design",
+            "design patterns",
             "Books"
         ]
     },
@@ -15,6 +25,7 @@
         "summary": "Book notes - Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, Grady Booch, Richard Helm, Ralph Johnson, John Vlissides",
         "tags": [
             "design",
+            "design patterns",
             "Books"
         ]
     },

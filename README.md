@@ -1,6 +1,6 @@
-# 375 Little Coding Katas
+# 376 Little Coding Katas
 
-> Latest addition :sparkles: [Design Patterns in Ruby](./ruby/design-patterns-in-ruby) - Book notes - Design Patterns in Ruby by Russ Olsen
+> Latest addition :sparkles: [Singletons in Ruby](./ruby/singleton) - Using the singleton pattern in Ruby
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

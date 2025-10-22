@@ -1,8 +1,18 @@
 [
     {
+        "name": "Singletons in Ruby",
+        "description": "Using the singleton pattern in Ruby",
+        "categories": "ruby, design patterns",
+        "relative_path": "ruby/singleton",
+        "updated_at": "2025-10-22T14:54:00Z",
+        "created_at": "2025-10-22T14:54:00Z",
+        "id": "#376",
+        "original_relative_path": "ruby/singleton"
+    },
+    {
         "name": "Design Patterns in Ruby",
         "description": "Book notes - Design Patterns in Ruby by Russ Olsen",
-        "categories": "ruby, design, Books",
+        "categories": "ruby, design, design patterns, Books",
         "relative_path": "ruby/design-patterns-in-ruby",
         "updated_at": "2025-10-22T13:55:00Z",
         "created_at": "2025-10-22T13:55:00Z",
@@ -12,7 +22,7 @@
     {
         "name": "Design Patterns",
         "description": "Book notes - Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, Grady Booch, Richard Helm, Ralph Johnson, John Vlissides",
-        "categories": "design, Books",
+        "categories": "design, design patterns, Books",
         "relative_path": "design/design-patterns",
         "updated_at": "2025-10-22T13:55:00Z",
         "created_at": "2025-10-22T13:55:00Z",
