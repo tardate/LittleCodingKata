@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://codingkata.tardate.com/ruby/split-by-widths/</loc>
+  </url>
+  <url>
     <loc>https://codingkata.tardate.com/ruby/singleton/</loc>
   </url>
   <url>

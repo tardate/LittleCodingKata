@@ -1,4 +1,13 @@
 {
+    "/ruby/split-by-widths/": {
+        "id": 377,
+        "title": "Split by Widths",
+        "summary": "Using ruby to split strings into chunks of specified widths; cassidoo's interview question of the week (2025-10-20).",
+        "tags": [
+            "ruby",
+            "cassidoo"
+        ]
+    },
     "/ruby/singleton/": {
         "id": 376,
         "title": "Singletons in Ruby",
