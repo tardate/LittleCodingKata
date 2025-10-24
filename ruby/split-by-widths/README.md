@@ -23,11 +23,14 @@ should play to ruby's strength and flexibility in array and string processing:
 
 The widths array could be just right for the given string, or it could have a surfeit or excess of elements.
 
-Similarly, the string may no match the widths exactly. We basically need to keep processing until all characters are consumed.
+Similarly, the string may not exactly divide according to the widths. We basically need to keep processing until all characters are consumed.
 
 ### A First Go
 
-The key line is to pluck the next width but keep the last if we run out of elements: `width = widths.shift || width`
+We take advantage of ruby's forgiving nature in two places:
+
+* `shift` will return `nil` if we've fun out of elements, so we keep the last as a fallback: `width = widths.shift || width`
+* and `input[index, width]` will return up to `width` characters, but not complain if it runs short
 
 ```ruby
 def split_by_widths(input, widths)
