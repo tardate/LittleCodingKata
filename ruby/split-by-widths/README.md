@@ -29,7 +29,7 @@ Similarly, the string may not exactly divide according to the widths. We basical
 
 We take advantage of ruby's forgiving nature in two places:
 
-* `shift` will return `nil` if we've fun out of elements, so we keep the last as a fallback: `width = widths.shift || width`
+* `shift` will return `nil` if we've run out of elements, so we keep the previous value as a fallback: `width = widths.shift || width`
 * and `input[index, width]` will return up to `width` characters, but not complain if it runs short
 
 ```ruby
