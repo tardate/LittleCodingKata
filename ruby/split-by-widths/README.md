@@ -1,4 +1,4 @@
-# #xxx Split by Widths
+# #377 Split by Widths
 
 Using ruby to split strings into chunks of specified widths; cassidoo's interview question of the week (2025-10-20).
 
