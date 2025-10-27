@@ -1,6 +1,6 @@
-# 379 Little Coding Katas
+# 380 Little Coding Katas
 
-> Latest addition :sparkles: [Seven More Languages in Seven Weeks](./books/seven-more-languages-in-seven-weeks) - Book notes - Seven More Languages in Seven Weeks: Languages That Are Shaping the Future, by Bruce A. Tate, Ian Dees, Frederic Daoud, Jack Moffitt. First published September 25, 2014.
+> Latest addition :sparkles: [conventional: comments](./methods/conventionalcomments) - A standardised way to write comments that are easy to grok and grep.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

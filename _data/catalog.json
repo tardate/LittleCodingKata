@@ -1,5 +1,15 @@
 [
     {
+        "name": "conventional: comments",
+        "description": "A standardised way to write comments that are easy to grok and grep.",
+        "categories": "vcs, methods",
+        "relative_path": "methods/conventionalcomments",
+        "updated_at": "2025-10-27T15:51:00Z",
+        "created_at": "2025-10-27T15:51:00Z",
+        "id": "#380",
+        "original_relative_path": "methods/conventionalcomments"
+    },
+    {
         "name": "Seven More Languages in Seven Weeks",
         "description": "Book notes - Seven More Languages in Seven Weeks: Languages That Are Shaping the Future, by Bruce A. Tate, Ian Dees, Frederic Daoud, Jack Moffitt. First published September 25, 2014.",
         "categories": "Books",

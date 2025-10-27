@@ -1,4 +1,13 @@
 {
+    "/methods/conventionalcomments/": {
+        "id": 380,
+        "title": "conventional: comments",
+        "summary": "A standardised way to write comments that are easy to grok and grep.",
+        "tags": [
+            "vcs",
+            "methods"
+        ]
+    },
     "/books/seven-more-languages-in-seven-weeks/": {
         "id": 379,
         "title": "Seven More Languages in Seven Weeks",
