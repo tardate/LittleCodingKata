@@ -56,7 +56,7 @@ The first sequel to the classic by Bruce Tate. Introduces a further set of langu
 
 ### Source Code
 
-Source code is available from the [Pragmatic Programmers](https://pragprog.com/titles/btlang/seven-languages-in-seven-weeks/) listing.
+Source code is available from the [Pragmatic Programmers](https://pragprog.com/titles/7lang/seven-more-languages-in-seven-weeks/) listing.
 Getting the sources:
 
 ```sh
