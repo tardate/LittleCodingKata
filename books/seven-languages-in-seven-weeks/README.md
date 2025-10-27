@@ -77,8 +77,6 @@ Source code is available from the [Pragmatic Programmers](https://pragprog.com/t
 Getting the sources:
 
 ```sh
-mkdir example_source
-cd example_source
 wget https://media.pragprog.com/titles/btlang/code/btlang-code.zip
 unzip btlang-code.zip
 rm btlang-code.zip
