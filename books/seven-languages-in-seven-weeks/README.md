@@ -1,4 +1,4 @@
-# #xxx Seven Languages in Seven Weeks
+# #378 Seven Languages in Seven Weeks
 
 Book notes - Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages, by Bruce A. Tate. First published November 17, 2010.
 
