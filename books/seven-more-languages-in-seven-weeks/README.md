@@ -1,4 +1,4 @@
-# #xxx Seven More Languages in Seven Weeks
+# #379 Seven More Languages in Seven Weeks
 
 Book notes - Seven More Languages in Seven Weeks: Languages That Are Shaping the Future, by Bruce A. Tate, Ian Dees, Frederic Daoud, Jack Moffitt. First published September 25, 2014.
 
