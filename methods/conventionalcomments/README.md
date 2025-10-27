@@ -1,6 +1,6 @@
 # #380 conventional: comments
 
-A way to write comments that are easy to grok and grep.
+A standardised way to write comments that are easy to grok and grep.
 
 ## Notes
 
