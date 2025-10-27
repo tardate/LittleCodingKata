@@ -1,6 +1,6 @@
-# 377 Little Coding Katas
+# 378 Little Coding Katas
 
-> Latest addition :sparkles: [Split by Widths](./ruby/split-by-widths) - Using ruby to split strings into chunks of specified widths; cassidoo's interview question of the week (2025-10-20).
+> Latest addition :sparkles: [Seven Languages in Seven Weeks](./books/seven-languages-in-seven-weeks) - Book notes - Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages, by Bruce A. Tate. First published November 17, 2010.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

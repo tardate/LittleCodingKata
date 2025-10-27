@@ -1,7 +1,7 @@
 # #009 About Haskell
 
 Haskell probably came to the notice of many programmers when it earned a chapter in
-Bruce Tate's [Seven Languages in Seven Weeks](https://www.goodreads.com/book/show/7912517-seven-languages-in-seven-weeks).
+Bruce Tate's [Seven Languages in Seven Weeks](../../books/seven-languages-in-seven-weeks/).
 
 ## Hakell In a Nutshell
 
@@ -50,4 +50,4 @@ They all seem to boil down to three specific features of Haskell from which all 
 
 * [The Haskell Programming Language](https://wiki.haskell.org/Haskell) - main site
 * [Haskell](https://en.wikipedia.org/wiki/Haskell_(programming_language)) - wikipedia
-* [Seven Languages in Seven Weeks](https://www.goodreads.com/book/show/7912517-seven-languages-in-seven-weeks) - Haskell has a chapter
+* [Seven Languages in Seven Weeks](../../books/seven-languages-in-seven-weeks/) - Haskell has a chapter

@@ -1,4 +1,12 @@
 {
+    "/books/seven-languages-in-seven-weeks/": {
+        "id": 378,
+        "title": "Seven Languages in Seven Weeks",
+        "summary": "Book notes - Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages, by Bruce A. Tate. First published November 17, 2010.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/ruby/split-by-widths/": {
         "id": 377,
         "title": "Split by Widths",
