@@ -27,8 +27,6 @@ It aligns with semantic versioning (Semantic Versioning / SemVer) by mapping com
 * fix: bug fix → PATCH bump
 * BREAKING CHANGE: (or ! after type) → incompatible API change → MAJOR bump
 
-* a commit that has a footer `BREAKING CHANGE:`, or appends a `!` after the type/scope, introduces a breaking change (correlating with MAJOR in Semantic Versioning)
-
 Status?
 
 * the idea has been adopted or at least considered by many teams
