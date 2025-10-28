@@ -1,4 +1,13 @@
 {
+    "/methods/conventionalcommits/": {
+        "id": 381,
+        "title": "Conventional Commits",
+        "summary": "A specification for adding human and machine readable meaning to commit messages",
+        "tags": [
+            "vcs",
+            "methods"
+        ]
+    },
     "/methods/conventionalcomments/": {
         "id": 380,
         "title": "conventional: comments",
