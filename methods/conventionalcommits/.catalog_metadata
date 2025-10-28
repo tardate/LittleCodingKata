@@ -1,0 +1,6 @@
+{
+    "name": "Conventional Commits",
+    "description": "A specification for adding human and machine readable meaning to commit messages",
+    "categories": "vcs, methods",
+    "relative_path": "methods/conventionalcommits"
+}
