@@ -1,6 +1,6 @@
-# 380 Little Coding Katas
+# 381 Little Coding Katas
 
-> Latest addition :sparkles: [conventional: comments](./methods/conventionalcomments) - A standardised way to write comments that are easy to grok and grep.
+> Latest addition :sparkles: [Conventional Commits](./methods/conventionalcommits) - A specification for adding human and machine readable meaning to commit messages
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

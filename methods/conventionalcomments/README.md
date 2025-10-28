@@ -24,6 +24,9 @@ Status?
 * the idea has been adopted or at least considered by many teams
 * several browser extensions and tools exist to support Conventional Comments
 
+See also: [LCK#381 Conventional Commits](../conventionalcommits/)
+
 ## Credits and References
 
 * <https://conventionalcomments.org/>
+* [LCK#381 Conventional Commits](../conventionalcommits/)
