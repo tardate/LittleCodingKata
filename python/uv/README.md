@@ -1,4 +1,4 @@
-# #xxx The uv Python Package and Project Manager
+# #382 The uv Python Package and Project Manager
 
 About uv, a new Python package and project manager written in rust. It replaces pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv, and more.
 
