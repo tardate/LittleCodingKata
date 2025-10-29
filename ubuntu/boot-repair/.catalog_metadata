@@ -1,0 +1,6 @@
+{
+    "name": "Fixing Ubuntu Boot Issues",
+    "description": "When Windows, Dell, and Intel updates break your dual-boot Ubuntu ... Boot-Repair to the rescue!",
+    "categories": "ubuntu",
+    "relative_path": "ubuntu/boot-repair"
+}
