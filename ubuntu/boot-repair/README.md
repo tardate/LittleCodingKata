@@ -1,4 +1,4 @@
-# #xxx Fixing Ubuntu Boot Issues
+# #383 Fixing Ubuntu Boot Issues
 
 When Windows, Dell, and Intel updates break your dual-boot Ubuntu ... Boot-Repair to the rescue!
 
