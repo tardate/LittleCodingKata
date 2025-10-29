@@ -16,7 +16,7 @@ start_image() returned unsupported
 
 I briefly considered just blowing the whole install away and maybe trying [Linux Mint](https://linuxmint.com/) on the machine, but I hate leaving problems undiagnosed.
 
-Googling the symptoms didn't reveal any specific known issue. Just a few "similar issues from 2022 and earlier.
+Googling the symptoms didn't reveal any specific known issue. Just a few "similar" issues from 2022 and earlier.
 
 I first checked BIOS (1.35.0) settings, but no issues there.
 
@@ -47,7 +47,9 @@ The machine boots to the grub dual-boot menu and I can chose to run my Ubuntu or
 
 ### In Future
 
-Perhaps run the Ubuntu updates first?
+Phew! Perhaps run the Ubuntu updates first?
+
+But at least now I have some confidence that Boot Repair can help deal with similar issues in the future.
 
 ## Credits and References
 
