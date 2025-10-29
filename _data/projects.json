@@ -1,4 +1,12 @@
 {
+    "/ubuntu/boot-repair/": {
+        "id": 383,
+        "title": "Fixing Ubuntu Boot Issues",
+        "summary": "When Windows, Dell, and Intel updates break your dual-boot Ubuntu ... Boot-Repair to the rescue!",
+        "tags": [
+            "ubuntu"
+        ]
+    },
     "/python/uv/": {
         "id": 382,
         "title": "The uv Python Package and Project Manager",
