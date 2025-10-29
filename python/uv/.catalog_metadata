@@ -1,0 +1,6 @@
+{
+    "name": "The uv Python Package and Project Manager",
+    "description": "About uv, a new Python package and project manager written in rust. It replaces pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv, and more.",
+    "categories": "python",
+    "relative_path": "python/uv"
+}
