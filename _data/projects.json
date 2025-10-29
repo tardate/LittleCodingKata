@@ -1,4 +1,12 @@
 {
+    "/python/uv/": {
+        "id": 382,
+        "title": "The uv Python Package and Project Manager",
+        "summary": "About uv, a new Python package and project manager written in rust. It replaces pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv, and more.",
+        "tags": [
+            "python"
+        ]
+    },
     "/methods/conventionalcommits/": {
         "id": 381,
         "title": "Conventional Commits",

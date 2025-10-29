@@ -1,6 +1,6 @@
-# 381 Little Coding Katas
+# 382 Little Coding Katas
 
-> Latest addition :sparkles: [Conventional Commits](./methods/conventionalcommits) - A specification for adding human and machine readable meaning to commit messages
+> Latest addition :sparkles: [The uv Python Package and Project Manager](./python/uv) - About uv, a new Python package and project manager written in rust. It replaces pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv, and more.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
