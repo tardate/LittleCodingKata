@@ -180,10 +180,11 @@ Installed 1 package in 3ms
 
 In `rust` we have `cargo` for setting up and managing projects. The same facilities are brought to Python by `uv`.
 
+Let's create a new project called `demo`:
+
 ```sh
 $ uv init demo
-Initialized project `demo` at `/Users/paulgallagher/MyGithub/tardate/LittleCodingKata/python/uv/demo`
-Mac:uv paulgallagher$ export PS1="$ "
+Initialized project `demo` at `./demo`
 $ cd demo
 $ ls -a1
 .
@@ -243,7 +244,7 @@ For example: ━━━━━━━━━━━━━━━━━━━━━━�
 
 ### And More
 
-That's a quick tour of some of the main features of `uv`. It can do quite a bit more, such as versioning and publishing projects.
+That's a quick tour of some of the main features of `uv`. It can do quite a bit more, such as versioning, building, and publishing projects.
 
 ## Credits and References
 
