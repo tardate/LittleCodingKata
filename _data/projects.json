@@ -1,4 +1,13 @@
 {
+    "/haskell/place-scarecrows/": {
+        "id": 385,
+        "title": "place-scarecrows",
+        "summary": "",
+        "tags": [
+            "Haskell",
+            "cassidoo"
+        ]
+    },
     "/prolog/about/": {
         "id": 384,
         "title": "About Prolog",

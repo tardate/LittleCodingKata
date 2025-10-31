@@ -1,4 +1,4 @@
-# #xxx placeScarecrows
+# #385 placeScarecrows
 
 Using Haskell to place scarecrows in a field; cassidoo's interview question of the week (2025-10-27).
 
