@@ -1,4 +1,4 @@
-# #xxx About Prolog
+# #384 About Prolog
 
 A quick introduction to Prolog and a test drive with GNU Prolog on macOS.
 

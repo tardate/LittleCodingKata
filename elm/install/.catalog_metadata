@@ -2,7 +2,7 @@
     "id": "#290",
     "name": "Installing elm",
     "description": "Installing Elm on macOS",
-    "categories": "elm, macOS",
+    "categories": "Elm, macOS",
     "relative_path": "elm/install",
     "updated_at": "2024-07-09T12:04:13Z",
     "created_at": "2024-07-09T12:04:13Z"

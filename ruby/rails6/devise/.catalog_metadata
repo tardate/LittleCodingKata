@@ -1,7 +1,7 @@
 {
     "name": "Devise with Rails 6",
     "description": "Running devise with Rails 6",
-    "categories": "ruby, rails, security",
+    "categories": "Ruby, Rails, security",
     "relative_path": "ruby/rails6/devise",
     "updated_at": "2020-11-07T05:05:55Z",
     "id": "#151",

@@ -1,7 +1,7 @@
 {
     "name": "ID3 Tags",
     "description": "Managing ID3 tags with Ruby",
-    "categories": "ruby",
+    "categories": "Ruby",
     "relative_path": "ruby/id3tags",
     "updated_at": "2024-09-29T06:47:00Z",
     "id": "#303",

@@ -1,7 +1,7 @@
 {
     "name": "AMQP with Ruby",
     "description": "Using the amqp EventMachine-based RabbitMQ client",
-    "categories": "ruby",
+    "categories": "Ruby",
     "relative_path": "ruby/amqp",
     "updated_at": "2024-01-14T05:12:07Z",
     "id": "#274",

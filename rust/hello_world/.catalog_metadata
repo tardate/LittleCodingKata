@@ -2,7 +2,7 @@
     "id": "#005",
     "name": "Hello World in Rust",
     "description": "Rust - Hello World with concurrency",
-    "categories": "rust",
+    "categories": "Rust",
     "relative_path": "rust/hello_world",
     "updated_at": "2016-07-10T13:14:48Z",
     "created_at": "2016-07-10T13:14:48Z"

@@ -1,6 +1,9 @@
 {
-    "name": "about",
-    "description": "",
-    "categories": "",
-    "relative_path": "prolog/about"
+    "name": "About Prolog",
+    "description": "A quick introduction to Prolog and a test drive with GNU Prolog on macOS.",
+    "categories": "Prolog",
+    "relative_path": "prolog/about",
+    "updated_at": "2025-10-31T05:25:00Z",
+    "created_at": "2025-10-31T05:25:00Z",
+    "id": "#384"
 }

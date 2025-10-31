@@ -2,7 +2,7 @@
     "id": "#003",
     "name": "Fixing the First Line of a File",
     "description": "patching text files with Perl - fix the first line only",
-    "categories": "perl",
+    "categories": "Perl",
     "relative_path": "perl/fix_first_line",
     "updated_at": "2016-07-10T13:14:48Z",
     "created_at": "2016-07-10T13:14:48Z"

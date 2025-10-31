@@ -1,5 +1,15 @@
 [
     {
+        "name": "About Prolog",
+        "description": "A quick introduction to Prolog and a test drive with GNU Prolog on macOS.",
+        "categories": "Prolog",
+        "relative_path": "prolog/about",
+        "updated_at": "2025-10-31T05:25:00Z",
+        "created_at": "2025-10-31T05:25:00Z",
+        "id": "#384",
+        "original_relative_path": "prolog/about"
+    },
+    {
         "name": "Fixing Ubuntu Boot Issues",
         "description": "When Windows, Dell, and Intel updates break your dual-boot Ubuntu ... Boot-Repair to the rescue!",
         "categories": "ubuntu",
@@ -41,8 +51,8 @@
     },
     {
         "name": "Seven More Languages in Seven Weeks",
-        "description": "Book notes - Seven More Languages in Seven Weeks: Languages That Are Shaping the Future, by Bruce A. Tate, Ian Dees, Frederic Daoud, Jack Moffitt. First published September 25, 2014.",
-        "categories": "Books",
+        "description": "Book notes - Seven More Languages in Seven Weeks: Languages That Are Shaping the Future, by Bruce A. Tate, Ian Dees, Frederic Daoud, Jack Moffitt. First published September 25, 2014. It covers Factor, Elm, Elixir, Julia, miniKanren, and Idris.",
+        "categories": "Books, Factor, Elm, Elixir, Julia, miniKanren, Idris",
         "relative_path": "books/seven-more-languages-in-seven-weeks",
         "updated_at": "2025-10-27T13:09:00Z",
         "created_at": "2025-10-27T13:09:00Z",
@@ -51,8 +61,8 @@
     },
     {
         "name": "Seven Languages in Seven Weeks",
-        "description": "Book notes - Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages, by Bruce A. Tate. First published November 17, 2010.",
-        "categories": "Books",
+        "description": "Book notes - Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages, by Bruce A. Tate. First published November 17, 2010. It covers Ruby, Io, Prolog, Scala, Erlang, Clojure, and Haskell.",
+        "categories": "Books, Haskell, Prolog, Ruby, Io, Clojure, Erlang, Scala",
         "relative_path": "books/seven-languages-in-seven-weeks",
         "updated_at": "2025-10-27T12:46:00Z",
         "created_at": "2025-10-27T12:46:00Z",
@@ -62,7 +72,7 @@
     {
         "name": "Split by Widths",
         "description": "Using ruby to split strings into chunks of specified widths; cassidoo's interview question of the week (2025-10-20).",
-        "categories": "ruby, cassidoo",
+        "categories": "Ruby, cassidoo",
         "relative_path": "ruby/split-by-widths",
         "updated_at": "2025-10-24T13:02:00Z",
         "created_at": "2025-10-24T13:02:00Z",
@@ -72,7 +82,7 @@
     {
         "name": "Singletons in Ruby",
         "description": "Using the singleton pattern in Ruby",
-        "categories": "ruby, design patterns",
+        "categories": "Ruby, design patterns",
         "relative_path": "ruby/singleton",
         "updated_at": "2025-10-22T14:54:00Z",
         "created_at": "2025-10-22T14:54:00Z",
@@ -82,7 +92,7 @@
     {
         "name": "Design Patterns in Ruby",
         "description": "Book notes - Design Patterns in Ruby by Russ Olsen",
-        "categories": "ruby, design, design patterns, Books",
+        "categories": "Ruby, design, design patterns, Books",
         "relative_path": "ruby/design-patterns-in-ruby",
         "updated_at": "2025-10-22T13:55:00Z",
         "created_at": "2025-10-22T13:55:00Z",
@@ -112,7 +122,7 @@
     {
         "name": "csvToList",
         "description": "Using rust to format CSV data for printing; cassidoo's interview question of the week (2025-10-13). I test two common approaches for deserializing CSV in rust, and consider factoring of console IO for testability.",
-        "categories": "rust, cassidoo",
+        "categories": "Rust, cassidoo",
         "relative_path": "rust/csv-to-list",
         "updated_at": "2025-10-17T04:38:00Z",
         "created_at": "2025-10-17T04:38:00Z",
@@ -122,7 +132,7 @@
     {
         "name": "Grouping ChangeLog Edits",
         "description": "Using ruby to group data in 10-minute buckets; cassidoo's interview question of the week (2025-10-06).",
-        "categories": "ruby, cassidoo",
+        "categories": "Ruby, cassidoo",
         "relative_path": "ruby/group-changelog-edits",
         "updated_at": "2025-10-12T16:40:00Z",
         "created_at": "2025-10-12T16:40:00Z",
@@ -132,7 +142,7 @@
     {
         "name": "Command Line Options with Ruby",
         "description": "Comparing all the various ways of parsing command line arguments with the Ruby standard library.",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/cli-options",
         "updated_at": "2025-10-09T06:09:00Z",
         "created_at": "2025-10-09T06:09:00Z",
@@ -212,7 +222,7 @@
     {
         "name": "hyperfactorial",
         "description": "Using rust to calculate the hyper-factorial of a non-negative integer; cassidoo's interview question of the week (2025-09-29)",
-        "categories": "rust, cassidoo",
+        "categories": "Rust, cassidoo",
         "relative_path": "rust/hyperfactorial",
         "updated_at": "2025-10-04T07:34:00Z",
         "created_at": "2025-10-04T07:34:00Z",
@@ -222,7 +232,7 @@
     {
         "name": "Snake",
         "description": "Build and update the snake game example from Rust lang: The complete beginner's guide, learning about making GUI applications with PistonWindow and Rust.",
-        "categories": "rust",
+        "categories": "Rust",
         "relative_path": "rust/snake",
         "updated_at": "2025-10-02T08:14:00Z",
         "created_at": "2025-10-02T08:14:00Z",
@@ -242,7 +252,7 @@
     {
         "name": "Chat CLI",
         "description": "Build and update the CLI chat example from Rust lang: The complete beginner's guide, learning about making client-server network programs with Rust.",
-        "categories": "rust",
+        "categories": "Rust",
         "relative_path": "rust/chat-cli",
         "updated_at": "2025-09-28T03:53:00Z",
         "created_at": "2025-09-28T03:53:00Z",
@@ -252,7 +262,7 @@
     {
         "name": "What Kind of Number",
         "description": "Using rust to classify perfect, deficient, and abundant numbers; cassidoo's interview question of the week (2025-09-22)",
-        "categories": "rust, cassidoo",
+        "categories": "Rust, cassidoo",
         "relative_path": "rust/what-kind-of-number",
         "updated_at": "2025-09-26T06:49:00Z",
         "created_at": "2025-09-26T06:49:00Z",
@@ -262,7 +272,7 @@
     {
         "name": "Analyze a Baseball Game",
         "description": "Using rust to analyze a baseball game; cassidoo's interview question of the week (2025-09-15). This was the day I advanced to consciously incompetent in the rules of baseball.",
-        "categories": "rust, cassidoo",
+        "categories": "Rust, cassidoo",
         "relative_path": "rust/analyze-baseball-game",
         "updated_at": "2025-09-20T04:56:00Z",
         "created_at": "2025-09-20T04:56:00Z",
@@ -272,7 +282,7 @@
     {
         "name": "Ruby 3.4",
         "description": "About Ruby 3.4 including installation on Apple Silicon.",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/ruby34",
         "updated_at": "2025-09-12T06:46:00Z",
         "created_at": "2025-09-12T06:46:00Z",
@@ -282,7 +292,7 @@
     {
         "name": "Array Accumulation Problem",
         "description": "Using ruby to solve the array accumulation problem; cassidoo's interview question of the week (2025-09-08)",
-        "categories": "ruby, cassidoo",
+        "categories": "Ruby, cassidoo",
         "relative_path": "ruby/array-accumulation-problem",
         "updated_at": "2025-09-10T11:27:00Z",
         "created_at": "2025-09-10T11:27:00Z",
@@ -302,7 +312,7 @@
     {
         "name": "Shell Gem",
         "description": "Quick review of the shell gem for ruby",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/shell-gem",
         "updated_at": "2025-09-04T04:17:00Z",
         "created_at": "2025-09-04T04:17:00Z",
@@ -312,7 +322,7 @@
     {
         "name": "macOS Notifications with Ruby",
         "description": "Modern alternatives to the old growl notification system for ruby programming on macOS: osascript, terminal-notifier",
-        "categories": "ruby, macOS",
+        "categories": "Ruby, macOS",
         "relative_path": "ruby/macos-notifications",
         "updated_at": "2025-09-01T05:12:00Z",
         "created_at": "2025-09-01T05:12:00Z",
@@ -332,7 +342,7 @@
     {
         "name": "The Ruby Way",
         "description": "Book notes - The Ruby Way, by Hal Fulton. First published January 1, 2001.",
-        "categories": "ruby, Books",
+        "categories": "Ruby, Books",
         "relative_path": "ruby/the-ruby-way",
         "updated_at": "2025-08-27T08:21:00Z",
         "created_at": "2025-08-27T08:21:00Z",
@@ -342,7 +352,7 @@
     {
         "name": "Ruby File Handling",
         "description": "Reviewing common file operations with ruby",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/file-operations",
         "updated_at": "2025-08-27T04:59:00Z",
         "created_at": "2025-08-27T04:59:00Z",
@@ -352,7 +362,7 @@
     {
         "name": "Rust File Handling",
         "description": "Reviewing common file operations with rust",
-        "categories": "rust",
+        "categories": "Rust",
         "relative_path": "rust/file-handling",
         "updated_at": "2025-08-27T04:15:00Z",
         "created_at": "2025-08-27T04:15:00Z",
@@ -362,7 +372,7 @@
     {
         "name": "Create Laundry Item",
         "description": "Using rust to implement a generator for a laundry object; cassidoo's interview question of the week (2025-08-11). Rust does not encourage classic object-oriented patterns by default, but it can be used to model similar concepts with the struct keyword.",
-        "categories": "rust, cassidoo",
+        "categories": "Rust, cassidoo",
         "relative_path": "rust/create-laundry-item",
         "updated_at": "2025-08-24T12:44:00Z",
         "created_at": "2025-08-24T12:44:00Z",
@@ -372,7 +382,7 @@
     {
         "name": "Group Audio Files",
         "description": "Using rust to organise songs into playlists; cassidoo's interview question of the week (2025-08-11). Compares results from First Fit Decreasing (FFD) and Best Fit Decreasing (BFD) bin packing algorithms.",
-        "categories": "rust, cassidoo",
+        "categories": "Rust, cassidoo",
         "relative_path": "rust/group-audio-files",
         "updated_at": "2025-08-15T04:27:00Z",
         "created_at": "2025-08-15T04:27:00Z",
@@ -382,7 +392,7 @@
     {
         "name": "Color tools for Ruby",
         "description": "A quick look at the color gem: a Ruby library used to represent colors in a range of color models and offer color space manipulation support to applications that require it.",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/color-gem",
         "updated_at": "2025-08-06T16:19:00Z",
         "created_at": "2025-08-06T16:19:00Z",
@@ -412,7 +422,7 @@
     {
         "name": "The Keyboard Assembly Problem",
         "description": "Using ruby to solve the keyboard assembly problem; cassidoo's interview question of the week (2025-07-21). Reminds me of my under-grad days learning production scheduling (SPT, EDD etc). Now I realise how much I've internalised these concepts as part of my working practices to get things done.",
-        "categories": "ruby, cassidoo, scheduling",
+        "categories": "Ruby, cassidoo, scheduling",
         "relative_path": "ruby/assembly-planning-problem",
         "updated_at": "2025-07-28T05:41:00Z",
         "created_at": "2025-07-28T05:41:00Z",
@@ -442,7 +452,7 @@
     {
         "name": "Fireworks Grand finale",
         "description": "Using ruby to find the best fireworks grand finale; cassidoo's interview question of the week (2025-07-06). This time I turned off the AI and enjoyed thinking about the deceptively simple algorithmic challenge from first principles.",
-        "categories": "ruby, cassidoo",
+        "categories": "Ruby, cassidoo",
         "relative_path": "ruby/grand-finale",
         "updated_at": "2025-07-11T09:09:00Z",
         "created_at": "2025-07-11T09:09:00Z",
@@ -462,7 +472,7 @@
     {
         "name": "Last Non-repeating Character Challenge",
         "description": "Using ruby to return the last non-repeating character in a string; cassidoo's interview question of the week (2025-06-30). It's hard to stop AI butting in to help, but don't accept the first answer it gives you.",
-        "categories": "ruby, AI, cassidoo",
+        "categories": "Ruby, AI, cassidoo",
         "relative_path": "ruby/last-non-repeating-character",
         "updated_at": "2025-07-02T03:56:00Z",
         "created_at": "2025-07-02T03:56:00Z",
@@ -482,7 +492,7 @@
     {
         "name": "The Odd-sum Epic",
         "description": "Cassidy Williams recently featured a ruby coding challenge that spurred a lively discussion of algorithms, and a general marvelling at the loveliness of ruby's Enumerable class. There was however a bit of a requirements trap in the question, not uncommon IRL, but it had me wondering how well generative AI would cope. I put ChatGPT and Deepseek to the test, and the results are in!",
-        "categories": "ruby, AI, cassidoo",
+        "categories": "Ruby, AI, cassidoo",
         "relative_path": "ruby/odd-sum-epic",
         "updated_at": "2025-06-15T06:49:00Z",
         "created_at": "2025-06-15T06:49:00Z",
@@ -492,7 +502,7 @@
     {
         "name": "Serial Communications with Ruby",
         "description": "Options for serial communications in Ruby as they stand in mid-2025",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/serial",
         "updated_at": "2025-06-12T15:54:00Z",
         "created_at": "2025-06-12T15:54:00Z",
@@ -552,7 +562,7 @@
     {
         "name": "joined",
         "description": "Testing the joined gem, a low-dependency implementation of the Rails to_sentence method.",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/joined",
         "updated_at": "2025-05-13T08:59:00Z",
         "created_at": "2025-05-13T08:59:00Z",
@@ -572,7 +582,7 @@
     {
         "name": "catsay GUI",
         "description": "Building the GUI catsay example from Practical Rust Projects, learning about making graphical interface programs with Rust",
-        "categories": "rust",
+        "categories": "Rust",
         "relative_path": "rust/catsay-gui",
         "updated_at": "2025-04-29T08:28:00Z",
         "created_at": "2025-04-29T08:28:00Z",
@@ -582,7 +592,7 @@
     {
         "name": "catsay TUI",
         "description": "Building the text UI catsay example from Practical Rust Projects, learning about making text UI programs with Rust",
-        "categories": "rust",
+        "categories": "Rust",
         "relative_path": "rust/catsay-tui",
         "updated_at": "2025-04-29T05:13:00Z",
         "created_at": "2025-04-29T05:13:00Z",
@@ -592,7 +602,7 @@
     {
         "name": "catsay CLI",
         "description": "Building the catsay example from Practical Rust Projects, learning about making command-line programs with Rust",
-        "categories": "rust",
+        "categories": "Rust",
         "relative_path": "rust/cli-catsay",
         "updated_at": "2025-04-16T05:48:00Z",
         "created_at": "2025-04-16T05:48:00Z",
@@ -602,7 +612,7 @@
     {
         "name": "Practical Rust Projects",
         "description": "Book notes: Practical Rust Projects: Building Game, Physical Computing, and Machine Learning Applications, by Shing Lyu. Published February 28, 2020.",
-        "categories": "rust, Books",
+        "categories": "Rust, Books",
         "relative_path": "rust/practical-rust-projects",
         "updated_at": "2025-04-13T14:19:00Z",
         "created_at": "2025-04-13T14:19:00Z",
@@ -712,7 +722,7 @@
     {
         "name": "CSV to Markdown Tables (Ruby)",
         "description": "How to convert comma-separated value data into markdown tables with ruby",
-        "categories": "ruby, markdown, CSV",
+        "categories": "Ruby, markdown, CSV",
         "relative_path": "ruby/csv2md",
         "updated_at": "2024-12-29T16:07:00Z",
         "id": "#312",
@@ -732,7 +742,7 @@
     {
         "name": "Ruby 3.3",
         "description": "About Ruby 3.3 including installation on Apple Silicon.",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/ruby33",
         "updated_at": "2024-11-13T05:19:00Z",
         "id": "#310",
@@ -742,7 +752,7 @@
     {
         "name": "Ruby 3.2",
         "description": "About Ruby 3.2 including installation on Apple Silicon.",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/ruby32",
         "updated_at": "2024-11-13T04:38:00Z",
         "id": "#309",
@@ -802,7 +812,7 @@
     {
         "name": "ID3 Tags",
         "description": "Managing ID3 tags with Ruby",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/id3tags",
         "updated_at": "2024-09-29T06:47:00Z",
         "id": "#303",
@@ -822,7 +832,7 @@
     {
         "name": "RubyKaigi 2024",
         "description": "Recordings from RubyKaigi 2024 held in Okinawa",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/rubyconf/ruby_kaigi_2024",
         "updated_at": "2024-08-30T03:29:00Z",
         "id": "#301",
@@ -832,7 +842,7 @@
     {
         "name": "RailsConf 2024",
         "description": "Overview and notes from RailsConf 2024",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/railsconf/2024",
         "updated_at": "2024-08-22T06:48:00Z",
         "id": "#300",
@@ -842,7 +852,7 @@
     {
         "name": "Red Dot Ruby Conference 2024",
         "description": "Conference summary and notes",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/rubyconf/rdrc2024",
         "updated_at": "2024-08-20T08:42:00Z",
         "id": "#299",
@@ -933,7 +943,7 @@
         "id": "#290",
         "name": "Installing elm",
         "description": "Installing Elm on macOS",
-        "categories": "elm, macOS",
+        "categories": "Elm, macOS",
         "relative_path": "elm/install",
         "updated_at": "2024-07-09T12:04:13Z",
         "created_at": "2024-07-09T12:04:13Z",
@@ -943,7 +953,7 @@
         "id": "#289",
         "name": "Installing Rust for macOS",
         "description": "Rust - installing on macOS",
-        "categories": "rust, macOS",
+        "categories": "Rust, macOS",
         "relative_path": "rust/install_macosx",
         "updated_at": "2024-07-09T12:04:13Z",
         "created_at": "2024-07-09T12:04:13Z",
@@ -962,7 +972,7 @@
     {
         "name": "CSV with Ruby",
         "description": "All about reading and writing CSV with Ruby, including large file handling.",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/csv",
         "updated_at": "2024-04-02T11:23:25Z",
         "id": "#287",
@@ -1092,7 +1102,7 @@
     {
         "name": "AMQP with Ruby",
         "description": "Using the amqp EventMachine-based RabbitMQ client",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/amqp",
         "updated_at": "2024-01-14T05:12:07Z",
         "id": "#274",
@@ -1132,7 +1142,7 @@
     {
         "name": "Using with_defaults",
         "description": "About the `reverse_merge` and `with_defaults` Hash mixins from Rails",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/with_defaults",
         "updated_at": "2023-11-29T09:39:18Z",
         "id": "#270",
@@ -1172,7 +1182,7 @@
     {
         "name": "xe_currency",
         "description": "Using the Xe Currency Data API from Ruby and with curl",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/xe_currency",
         "updated_at": "2023-07-14T16:06:25Z",
         "id": "#266",
@@ -1182,7 +1192,7 @@
     {
         "name": "Lotto Picker - The Rust Way",
         "description": "Using a lotto picker example to demonstrate random numbers and set operations the rust way",
-        "categories": "rust",
+        "categories": "Rust",
         "relative_path": "rust/lotto_picker",
         "updated_at": "2023-05-18T14:09:55Z",
         "id": "#265",
@@ -1202,7 +1212,7 @@
     {
         "name": "Lotto Picker - The Ruby Way",
         "description": "Using a lotto picker example to demonstrate random numbers and set operations the ruby way",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/lotto_picker",
         "updated_at": "2023-05-15T13:01:31Z",
         "id": "#263",
@@ -1332,7 +1342,7 @@
     {
         "name": "Chart Gems",
         "description": "Notes on ruby options for chart generation that support output as an image",
-        "categories": "ruby, graphing",
+        "categories": "Ruby, graphing",
         "relative_path": "ruby/chart_gems",
         "updated_at": "2023-01-09T10:56:24Z",
         "id": "#250",
@@ -1352,7 +1362,7 @@
     {
         "name": "The Case of the Missing Method",
         "description": "Or to mix literary metaphors, where in the world do class methods get stored? An investigation into the sublime and elegant design of metaclasses in ruby",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/case_of_the_missing_method",
         "updated_at": "2023-01-08T05:28:54Z",
         "id": "#248",
@@ -1382,7 +1392,7 @@
     {
         "name": "Querying Atom Feeds",
         "description": "Techniques and examples for querying Atom Feeds with XPath and Nokogiri",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/querying_atom_feeds",
         "updated_at": "2022-12-26T03:31:51Z",
         "id": "#245",
@@ -1392,7 +1402,7 @@
     {
         "name": "Compiling Ruby",
         "description": "Compiling Ruby (2.6.5-p114) from source and some debugging with llvm",
-        "categories": "ruby, C",
+        "categories": "Ruby, C",
         "relative_path": "rubylang/compiling",
         "updated_at": "2022-12-21T05:31:38Z",
         "id": "#244",
@@ -1422,7 +1432,7 @@
     {
         "name": "NTP with Ruby",
         "description": "All about the NTP protocol with examples in ruby",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/ntp",
         "updated_at": "2022-11-13T05:06:15Z",
         "id": "#241",
@@ -1432,7 +1442,7 @@
     {
         "name": "IPv4 Addresses with Ruby",
         "description": "All about dissecting IPv4 addresses with ruby including networks, netmasks and CIDR",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/ipv4",
         "updated_at": "2022-11-09T14:04:02Z",
         "id": "#240",
@@ -1582,7 +1592,7 @@
     {
         "name": "XML Parsing with Ruby",
         "description": "About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like nokogiri",
-        "categories": "ruby, XML, HTML, nokogiri",
+        "categories": "Ruby, XML, HTML, nokogiri",
         "relative_path": "ruby/xml_parsing",
         "updated_at": "2022-05-11T11:26:02Z",
         "id": "#225",
@@ -1602,7 +1612,7 @@
     {
         "name": "Ruby One-liners",
         "description": "All about one-liners with ruby",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/one-liners",
         "updated_at": "2022-04-10T03:16:06Z",
         "id": "#223",
@@ -1672,7 +1682,7 @@
     {
         "name": "HTTP Mock Responses",
         "description": "Using Sinatra to craft simple HTTP web responses for mock integration testing",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/http_mock_responses",
         "updated_at": "2021-11-02T14:53:49Z",
         "id": "#216",
@@ -1732,7 +1742,7 @@
     {
         "name": "Elixir on macOS",
         "description": "Installing Elixir on macOS",
-        "categories": "elixir, docker",
+        "categories": "Elixir, docker",
         "relative_path": "elixir/install_macosx",
         "updated_at": "2021-11-02T14:53:49Z",
         "id": "#210",
@@ -1892,7 +1902,7 @@
     {
         "name": "Free Pascal",
         "description": "Installing and running the Free Pascal compiler on macOS",
-        "categories": "pascal",
+        "categories": "Pascal",
         "relative_path": "pascal/free_pascal",
         "updated_at": "2021-11-02T14:53:49Z",
         "id": "#194",
@@ -1942,7 +1952,7 @@
     {
         "name": "Engines in Rails 6",
         "description": "Looking into what is new or different with Rails 6 engines",
-        "categories": "ruby, rails",
+        "categories": "Ruby, Rails",
         "relative_path": "ruby/rails6/engines",
         "updated_at": "2021-06-25T08:47:19Z",
         "id": "#189",
@@ -1952,7 +1962,7 @@
     {
         "name": "Running Rails 6 Without Webpacker",
         "description": "Because sometimes just want to keep it simple with good old sprockets and the asset pipeline",
-        "categories": "ruby, rails",
+        "categories": "Ruby, Rails",
         "relative_path": "ruby/rails6/without_webpack",
         "updated_at": "2021-06-15T10:03:25Z",
         "id": "#188",
@@ -1962,7 +1972,7 @@
     {
         "name": "Rails 6 with Docker for Production",
         "description": "All about running Rails 6 with Docker for production deployment",
-        "categories": "docker, rails",
+        "categories": "docker, Rails",
         "relative_path": "docker/rails6_production",
         "updated_at": "2021-06-13T11:30:46Z",
         "id": "#187",
@@ -1972,7 +1982,7 @@
     {
         "name": "RailsConf 2021",
         "description": "Overview and notes from RailsConf 2021",
-        "categories": "ruby, rails",
+        "categories": "Ruby, Rails",
         "relative_path": "ruby/railsconf/2021",
         "updated_at": "2021-06-02T16:51:59Z",
         "id": "#186",
@@ -1982,7 +1992,7 @@
     {
         "name": "RubyConf 2020",
         "description": "Overview and notes from RubyConf 2020",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/rubyconf/2020",
         "updated_at": "2021-06-02T16:02:25Z",
         "id": "#185",
@@ -2132,7 +2142,7 @@
     {
         "name": "Bitwise Operations",
         "description": "All about bitwize operations in Ruby",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/bitwise_operations",
         "updated_at": "2021-04-26T16:32:47Z",
         "id": "#170",
@@ -2172,7 +2182,7 @@
     {
         "name": "Proc v Lambda",
         "description": "Exploring differences and similarities between procs and lambdas in Ruby",
-        "categories": "ruby, closure",
+        "categories": "Ruby, closure",
         "relative_path": "ruby/proc_v_lambda",
         "updated_at": "2021-04-20T15:32:54Z",
         "id": "#166",
@@ -2202,7 +2212,7 @@
     {
         "name": "Regular Expressions and String Indexes",
         "description": "When string indexes are better than regex, and when regex can help writing a string index",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/regex_and_string_indexes",
         "updated_at": "2021-04-10T03:59:38Z",
         "id": "#163",
@@ -2212,7 +2222,7 @@
     {
         "name": "Loops in Rust",
         "description": "All about loops in rust",
-        "categories": "rust",
+        "categories": "Rust",
         "relative_path": "rust/loops",
         "updated_at": "2021-04-10T03:16:23Z",
         "id": "#162",
@@ -2232,7 +2242,7 @@
     {
         "name": "Ruby Style",
         "description": "On style guides and resources for ruby",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/style",
         "updated_at": "2021-04-09T16:37:57Z",
         "id": "#160",
@@ -2262,7 +2272,7 @@
     {
         "name": "Reducing Overlapping Ranges",
         "description": "Looking at solutions for how to aggregate a series of ranges while excluding any overlaps (e.g. set of date ranges)",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/reducing_overlapping_ranges",
         "updated_at": "2021-02-05T13:58:46Z",
         "id": "#157",
@@ -2272,7 +2282,7 @@
     {
         "name": "Doorkeeper",
         "description": "Learning about the Doorkeeper gem and testing it for adding OAuth2 provider capabilities to Rails applications",
-        "categories": "ruby, rails, security",
+        "categories": "Ruby, Rails, security",
         "relative_path": "ruby/doorkeeper",
         "updated_at": "2021-01-13T09:20:42Z",
         "id": "#156",
@@ -2292,7 +2302,7 @@
     {
         "name": "Modern Front-End Development for Rails",
         "description": "Book notes - Modern Front-End Development for Rails, By Noel Rappin, published by The Pragmatic Programmers",
-        "categories": "ruby, rails, javascript, Books",
+        "categories": "Ruby, Rails, javascript, Books",
         "relative_path": "ruby/modern_front_end_development_for_rails",
         "updated_at": "2020-12-09T07:19:12Z",
         "id": "#154",
@@ -2302,7 +2312,7 @@
     {
         "name": "Docker for Rails Developers",
         "description": "Book notes - Docker for Rails Developers, By Rob Isenberg, published by The Pragmatic Programmers",
-        "categories": "docker, rails, Books",
+        "categories": "docker, Rails, Books",
         "relative_path": "docker/docker-for-rails-developers",
         "updated_at": "2020-12-09T07:19:12Z",
         "id": "#153",
@@ -2312,7 +2322,7 @@
     {
         "name": "Trumpeter Catalog Skin",
         "description": "A simple and fast offline Trumpeter model catalog skin, using some nokogiri magic",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/trumpeter_skin",
         "updated_at": "2020-12-07T11:03:07Z",
         "id": "#152",
@@ -2322,7 +2332,7 @@
     {
         "name": "Devise with Rails 6",
         "description": "Running devise with Rails 6",
-        "categories": "ruby, rails, security",
+        "categories": "Ruby, Rails, security",
         "relative_path": "ruby/rails6/devise",
         "updated_at": "2020-11-07T05:05:55Z",
         "id": "#151",
@@ -2332,7 +2342,7 @@
     {
         "name": "Rails 6 with Docker",
         "description": "All about running Rails 6 with Docker",
-        "categories": "docker, ruby, rails",
+        "categories": "docker, Ruby, Rails",
         "relative_path": "docker/rails6",
         "updated_at": "2020-10-14T10:49:20Z",
         "id": "#150",
@@ -2342,7 +2352,7 @@
     {
         "name": "drb",
         "description": "dRuby (drb) is a distributed object system for Ruby, included in the standard library",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/drb",
         "updated_at": "2020-10-10T02:31:30Z",
         "id": "#149",
@@ -2372,7 +2382,7 @@
     {
         "name": "Simple URIs with addressable",
         "description": "Using the addressable gem for better handling of URIs/URLs",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/simple_uris_with_addressable",
         "updated_at": "2020-05-08T17:16:25Z",
         "id": "#146",
@@ -2402,7 +2412,7 @@
     {
         "name": "Console Tables",
         "description": "Generating data tables in the console from Array, Hash, or ActiveRecord objects with the tablesmith gem",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/console_tables",
         "updated_at": "2020-03-12T23:47:02Z",
         "id": "#143",
@@ -2412,7 +2422,7 @@
     {
         "name": "Console Barcharts",
         "description": "Print barcharts to the console in ascii or with unicode block elements",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/console_barcharts",
         "updated_at": "2020-03-12T23:36:13Z",
         "id": "#142",
@@ -2422,7 +2432,7 @@
     {
         "name": "Zabbix Programmatic Configuration with Ruby",
         "description": "Configuring zabbix via the API, with examples using zabbix-client ruby gem",
-        "categories": "infrastructure, zabbix, ruby",
+        "categories": "infrastructure, zabbix, Ruby",
         "relative_path": "infrastructure/zabbix/ruby-programmatic-config",
         "updated_at": "2020-03-11T23:28:13Z",
         "id": "#141",
@@ -2432,7 +2442,7 @@
     {
         "name": "Memo Methods",
         "description": "Comparing and testing various memoization methods and gems in Ruby",
-        "categories": "ruby, design patterns",
+        "categories": "Ruby, design patterns",
         "relative_path": "ruby/memo_methods",
         "updated_at": "2020-03-11T14:29:15Z",
         "id": "#140",
@@ -2472,7 +2482,7 @@
     {
         "name": "Using InfluxDb 2.x with Ruby",
         "description": "Testing out the official ruby client calling a InfluxDb 2.0.0-beta server running in Docker",
-        "categories": "databases, influxdb, docker, ruby",
+        "categories": "databases, influxdb, docker, Ruby",
         "relative_path": "databases/influxdb/ruby_client2",
         "updated_at": "2020-03-05T09:03:11Z",
         "id": "#136",
@@ -2482,7 +2492,7 @@
     {
         "name": "Using InfluxDb 1.x with Ruby",
         "description": "Testing out the official ruby client calling a InfluxDb 1.7.9 server running in Docker.",
-        "categories": "databases, influxdb, docker, ruby",
+        "categories": "databases, influxdb, docker, Ruby",
         "relative_path": "databases/influxdb/ruby_client",
         "updated_at": "2020-03-05T09:03:11Z",
         "id": "#135",
@@ -2542,7 +2552,7 @@
     {
         "name": "Ruby Loop",
         "description": "All the various ways of looping in Ruby",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/loops",
         "updated_at": "2020-02-22T07:51:21Z",
         "id": "#129",
@@ -2592,7 +2602,7 @@
     {
         "name": "About Pascal",
         "description": "Pascal In a Nutshell",
-        "categories": "pascal",
+        "categories": "Pascal",
         "relative_path": "pascal/about",
         "updated_at": "2020-02-16T06:17:11Z",
         "id": "#124",
@@ -2652,7 +2662,7 @@
     {
         "name": "The Rust Programming Language",
         "description": "Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research",
-        "categories": "rust, Books",
+        "categories": "Rust, Books",
         "relative_path": "rust/rust_programming_language",
         "updated_at": "2020-02-06T15:39:18Z",
         "id": "#118",
@@ -2662,7 +2672,7 @@
     {
         "name": "Programming Elixir",
         "description": "Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf",
-        "categories": "elixir, Books",
+        "categories": "Elixir, Books",
         "relative_path": "elixir/programming_elixir",
         "updated_at": "2020-02-06T15:39:18Z",
         "id": "#117",
@@ -2712,7 +2722,7 @@
     {
         "name": "Zabbix API Ruby Clients",
         "description": "A quick survey and test of various ruby options for using the Zabbix API",
-        "categories": "infrastructure, zabbix, ruby",
+        "categories": "infrastructure, zabbix, Ruby",
         "relative_path": "infrastructure/zabbix/ruby-clients",
         "updated_at": "2020-02-02T11:01:51Z",
         "id": "#112",
@@ -2762,7 +2772,7 @@
     {
         "name": "Elixir Basics",
         "description": "Exploring basic language features of Elixir",
-        "categories": "elixir",
+        "categories": "Elixir",
         "relative_path": "elixir/basics",
         "updated_at": "2020-02-01T07:45:35Z",
         "id": "#107",
@@ -2773,7 +2783,7 @@
         "id": "#106",
         "name": "About Elm",
         "description": "Elm (the language) in a nutshell",
-        "categories": "elm",
+        "categories": "Elm",
         "relative_path": "elm/about",
         "updated_at": "2020-02-01T06:29:46Z",
         "created_at": "2020-02-01T06:29:46Z",
@@ -2782,7 +2792,7 @@
     {
         "name": "About Elixir",
         "description": "Elixir in a nutshell",
-        "categories": "elixir",
+        "categories": "Elixir",
         "relative_path": "elixir/about",
         "updated_at": "2020-02-01T06:29:46Z",
         "id": "#105",
@@ -2792,7 +2802,7 @@
     {
         "name": "Testing with Rust",
         "description": "How to write and organise tests for rust",
-        "categories": "rust",
+        "categories": "Rust",
         "relative_path": "rust/testing",
         "updated_at": "2020-02-01T04:49:54Z",
         "id": "#104",
@@ -2802,7 +2812,7 @@
     {
         "name": "Using Cargo",
         "description": "Using Cargo to create and manage a rust project",
-        "categories": "rust, cargo",
+        "categories": "Rust, cargo",
         "relative_path": "rust/project_with_cargo",
         "updated_at": "2020-01-30T18:21:09Z",
         "id": "#103",
@@ -2852,7 +2862,7 @@
     {
         "name": "Rails AntiPatterns",
         "description": "Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional",
-        "categories": "ruby, rails, Books",
+        "categories": "Ruby, Rails, Books",
         "relative_path": "ruby/rails_antipatterns",
         "updated_at": "2020-01-25T16:27:01Z",
         "id": "#098",
@@ -2902,7 +2912,7 @@
     {
         "name": "Ruby 2.7 New Features",
         "description": "Investigating new features in Ruby 2.7.0, released 2019-12-25",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/new_features_27",
         "updated_at": "2020-01-08T14:43:34Z",
         "id": "#093",
@@ -2922,7 +2932,7 @@
     {
         "name": "Private PodFeed",
         "description": "description",
-        "categories": "ruby, rss",
+        "categories": "Ruby, rss",
         "relative_path": "ruby/privatepodfeed",
         "updated_at": "2019-12-31T05:06:57Z",
         "id": "#091",
@@ -2952,7 +2962,7 @@
     {
         "name": "About Prometheus",
         "description": "Learning the basics of Prometheus and running a demo with Docker and a Sinatra Ruby target application",
-        "categories": "databases, prometheus, ruby",
+        "categories": "databases, prometheus, Ruby",
         "relative_path": "databases/prometheus/about",
         "updated_at": "2019-11-05T09:47:56Z",
         "id": "#088",
@@ -3082,7 +3092,7 @@
     {
         "name": "Ruby on Rails 6",
         "description": "Running Rails 6 (beta1), learning about changes and new features, and testing out my favourite gems including: HAML",
-        "categories": "ruby, rails, haml",
+        "categories": "Ruby, Rails, haml",
         "relative_path": "ruby/rails6",
         "updated_at": "2019-07-24T15:02:34Z",
         "id": "#075",
@@ -3092,7 +3102,7 @@
     {
         "name": "Sinatra Echo Tools",
         "description": "A Sinatra app that provides a number of remote request debugging tools, and can be run with Docker - the tardate/echo-tools image is available on docker hub.",
-        "categories": "ruby, Sinatra, docker",
+        "categories": "Ruby, Sinatra, docker",
         "relative_path": "ruby/sinatra_echo",
         "updated_at": "2019-07-20T11:03:51Z",
         "id": "#074",
@@ -3122,7 +3132,7 @@
     {
         "name": "MAC Address Generation with Ruby",
         "description": "all about MAC and generating random MAC addresses",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/random_mac_generation",
         "updated_at": "2019-07-20T04:58:08Z",
         "id": "#071",
@@ -3132,7 +3142,7 @@
     {
         "name": "HMAC Generation with Ruby",
         "description": "All about hash-based message authentication code (HMAC) generation with Ruby",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/hmac",
         "updated_at": "2019-07-20T04:58:08Z",
         "id": "#070",
@@ -3262,7 +3272,7 @@
     {
         "name": "Temporary Files with Ruby",
         "description": "Using Temporary Files with Ruby",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/tempfiles",
         "updated_at": "2019-06-09T05:39:40Z",
         "id": "#057",
@@ -3322,7 +3332,7 @@
     {
         "name": "Ruby on Rails 5",
         "description": "Features and demonstration of Rails 5",
-        "categories": "ruby, rails",
+        "categories": "Ruby, Rails",
         "relative_path": "ruby/rails5",
         "updated_at": "2019-02-25T14:32:51Z",
         "id": "#051",
@@ -3332,7 +3342,7 @@
     {
         "name": "Ruby on Rails 4",
         "description": "Features and demonstration of Rails 4",
-        "categories": "ruby, rails",
+        "categories": "Ruby, Rails",
         "relative_path": "ruby/rails4",
         "updated_at": "2019-02-25T14:32:51Z",
         "id": "#050",
@@ -3342,7 +3352,7 @@
     {
         "name": "Ruby on Rails 3",
         "description": "Features and demonstration of Rails 3.",
-        "categories": "ruby, rails",
+        "categories": "Ruby, Rails",
         "relative_path": "ruby/rails3",
         "updated_at": "2019-02-25T14:32:51Z",
         "id": "#049",
@@ -3392,7 +3402,7 @@
     {
         "name": "JSON Parsing",
         "description": "Generating pretty JSON with Ruby and dealing with quirks",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/json_parsing",
         "updated_at": "2018-12-16T16:09:16Z",
         "id": "#044",
@@ -3402,7 +3412,7 @@
     {
         "name": "Memory Profiling",
         "description": "About memory profiling in Ruby",
-        "categories": "ruby",
+        "categories": "Ruby",
         "relative_path": "ruby/memory_profiling",
         "updated_at": "2018-10-03T11:54:22Z",
         "id": "#043",
@@ -3613,7 +3623,7 @@
         "id": "#022",
         "name": "gRPC Explainer - Ruby version",
         "description": "hardware excuse generator with gRPC - Ruby client and server example",
-        "categories": "gRPC, ruby, messaging",
+        "categories": "gRPC, Ruby, messaging",
         "relative_path": "messaging/grpc/explainer/ruby",
         "updated_at": "2016-07-10T13:14:48Z",
         "created_at": "2016-07-10T13:14:48Z",
@@ -3763,7 +3773,7 @@
         "id": "#007",
         "name": "Elm/hello_clock",
         "description": "2D graphics with elm",
-        "categories": "elm",
+        "categories": "Elm",
         "relative_path": "elm/hello_clock",
         "updated_at": "2016-07-10T13:14:48Z",
         "created_at": "2016-07-10T13:14:48Z",
@@ -3773,7 +3783,7 @@
         "id": "#006",
         "name": "Rust/about",
         "description": "Rust - my tl;dr summary",
-        "categories": "rust",
+        "categories": "Rust",
         "relative_path": "rust/about",
         "updated_at": "2016-07-10T13:14:48Z",
         "created_at": "2016-07-10T13:14:48Z",
@@ -3783,7 +3793,7 @@
         "id": "#005",
         "name": "Hello World in Rust",
         "description": "Rust - Hello World with concurrency",
-        "categories": "rust",
+        "categories": "Rust",
         "relative_path": "rust/hello_world",
         "updated_at": "2016-07-10T13:14:48Z",
         "created_at": "2016-07-10T13:14:48Z",
@@ -3803,7 +3813,7 @@
         "id": "#003",
         "name": "Fixing the First Line of a File",
         "description": "patching text files with Perl - fix the first line only",
-        "categories": "perl",
+        "categories": "Perl",
         "relative_path": "perl/fix_first_line",
         "updated_at": "2016-07-10T13:14:48Z",
         "created_at": "2016-07-10T13:14:48Z",
@@ -3813,7 +3823,7 @@
         "id": "#002",
         "name": "Patching Text Files",
         "description": "patching text files with Perl",
-        "categories": "perl",
+        "categories": "Perl",
         "relative_path": "perl/patch_file",
         "updated_at": "2016-07-10T13:14:48Z",
         "created_at": "2016-07-10T13:14:48Z",

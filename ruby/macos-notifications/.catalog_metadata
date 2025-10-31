@@ -1,7 +1,7 @@
 {
     "name": "macOS Notifications with Ruby",
     "description": "Modern alternatives to the old growl notification system for ruby programming on macOS: osascript, terminal-notifier",
-    "categories": "ruby, macOS",
+    "categories": "Ruby, macOS",
     "relative_path": "ruby/macos-notifications",
     "updated_at": "2025-09-01T05:12:00Z",
     "created_at": "2025-09-01T05:12:00Z",
