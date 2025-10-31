@@ -1,4 +1,13 @@
 {
+    "/haskell/place-scarecrows/": {
+        "id": 385,
+        "title": "placeScarecrows",
+        "summary": "Using Haskell to place scarecrows in a field; cassidoo's interview question of the week (2025-10-27).",
+        "tags": [
+            "Haskell",
+            "cassidoo"
+        ]
+    },
     "/prolog/about/": {
         "id": 384,
         "title": "About Prolog",

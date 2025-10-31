@@ -1,6 +1,6 @@
-# 384 Little Coding Katas
+# 385 Little Coding Katas
 
-> Latest addition :sparkles: [About Prolog](./prolog/about) - A quick introduction to Prolog and a test drive with GNU Prolog on macOS.
+> Latest addition :sparkles: [placeScarecrows](./haskell/place-scarecrows) - Using Haskell to place scarecrows in a field; cassidoo's interview question of the week (2025-10-27).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
