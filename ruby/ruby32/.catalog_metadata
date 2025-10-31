@@ -1,7 +1,7 @@
 {
     "name": "Ruby 3.2",
     "description": "About Ruby 3.2 including installation on Apple Silicon.",
-    "categories": "ruby",
+    "categories": "Ruby",
     "relative_path": "ruby/ruby32",
     "updated_at": "2024-11-13T04:38:00Z",
     "id": "#309",

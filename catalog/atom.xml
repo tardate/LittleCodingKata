@@ -14,6 +14,15 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/prolog/about/</id>
+    <link href="https://codingkata.tardate.com/prolog/about/"/>
+    <updated>2025-10-31T05:25:00Z</updated>
+    <title>#384 About Prolog</title>
+    <summary>A quick introduction to Prolog and a test drive with GNU Prolog on macOS.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A quick introduction to Prolog and a test drive with GNU Prolog on macOS.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Prolog"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/ubuntu/boot-repair/</id>
     <link href="https://codingkata.tardate.com/ubuntu/boot-repair/"/>
     <updated>2025-10-29T10:21:00Z</updated>
@@ -56,18 +65,31 @@
     <link href="https://codingkata.tardate.com/books/seven-more-languages-in-seven-weeks/"/>
     <updated>2025-10-27T13:09:00Z</updated>
     <title>#379 Seven More Languages in Seven Weeks</title>
-    <summary>Book notes - Seven More Languages in Seven Weeks: Languages That Are Shaping the Future, by Bruce A. Tate, Ian Dees, Frederic Daoud, Jack Moffitt. First published September 25, 2014.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Seven More Languages in Seven Weeks: Languages That Are Shaping the Future, by Bruce A. Tate, Ian Dees, Frederic Daoud, Jack Moffitt. First published September 25, 2014.&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>Book notes - Seven More Languages in Seven Weeks: Languages That Are Shaping the Future, by Bruce A. Tate, Ian Dees, Frederic Daoud, Jack Moffitt. First published September 25, 2014. It covers Factor, Elm, Elixir, Julia, miniKanren, and Idris.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Seven More Languages in Seven Weeks: Languages That Are Shaping the Future, by Bruce A. Tate, Ian Dees, Frederic Daoud, Jack Moffitt. First published September 25, 2014. It covers Factor, Elm, Elixir, Julia, miniKanren, and Idris.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Books"/>
+    <category term="Factor"/>
+    <category term="Elm"/>
+    <category term="Elixir"/>
+    <category term="Julia"/>
+    <category term="miniKanren"/>
+    <category term="Idris"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/books/seven-languages-in-seven-weeks/</id>
     <link href="https://codingkata.tardate.com/books/seven-languages-in-seven-weeks/"/>
     <updated>2025-10-27T12:46:00Z</updated>
     <title>#378 Seven Languages in Seven Weeks</title>
-    <summary>Book notes - Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages, by Bruce A. Tate. First published November 17, 2010.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages, by Bruce A. Tate. First published November 17, 2010.&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>Book notes - Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages, by Bruce A. Tate. First published November 17, 2010. It covers Ruby, Io, Prolog, Scala, Erlang, Clojure, and Haskell.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages, by Bruce A. Tate. First published November 17, 2010. It covers Ruby, Io, Prolog, Scala, Erlang, Clojure, and Haskell.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Books"/>
+    <category term="Haskell"/>
+    <category term="Prolog"/>
+    <category term="Ruby"/>
+    <category term="Io"/>
+    <category term="Clojure"/>
+    <category term="Erlang"/>
+    <category term="Scala"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/split-by-widths/</id>
@@ -76,7 +98,7 @@
     <title>#377 Split by Widths</title>
     <summary>Using ruby to split strings into chunks of specified widths; cassidoo's interview question of the week (2025-10-20).</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using ruby to split strings into chunks of specified widths; cassidoo's interview question of the week (2025-10-20).&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="cassidoo"/>
   </entry>
   <entry>
@@ -86,7 +108,7 @@
     <title>#376 Singletons in Ruby</title>
     <summary>Using the singleton pattern in Ruby</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using the singleton pattern in Ruby&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="design patterns"/>
   </entry>
   <entry>
@@ -96,7 +118,7 @@
     <title>#375 Design Patterns in Ruby</title>
     <summary>Book notes - Design Patterns in Ruby by Russ Olsen</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Design Patterns in Ruby by Russ Olsen&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="design"/>
     <category term="design patterns"/>
     <category term="Books"/>
@@ -128,7 +150,7 @@
     <title>#372 csvToList</title>
     <summary>Using rust to format CSV data for printing; cassidoo's interview question of the week (2025-10-13). I test two common approaches for deserializing CSV in rust, and consider factoring of console IO for testability.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using rust to format CSV data for printing; cassidoo's interview question of the week (2025-10-13). I test two common approaches for deserializing CSV in rust, and consider factoring of console IO for testability.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
     <category term="cassidoo"/>
   </entry>
   <entry>
@@ -138,7 +160,7 @@
     <title>#371 Grouping ChangeLog Edits</title>
     <summary>Using ruby to group data in 10-minute buckets; cassidoo's interview question of the week (2025-10-06).</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using ruby to group data in 10-minute buckets; cassidoo's interview question of the week (2025-10-06).&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="cassidoo"/>
   </entry>
   <entry>
@@ -148,7 +170,7 @@
     <title>#370 Command Line Options with Ruby</title>
     <summary>Comparing all the various ways of parsing command line arguments with the Ruby standard library.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Comparing all the various ways of parsing command line arguments with the Ruby standard library.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/ai/gamma/</id>
@@ -220,7 +242,7 @@
     <title>#362 hyperfactorial</title>
     <summary>Using rust to calculate the hyper-factorial of a non-negative integer; cassidoo's interview question of the week (2025-09-29)</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using rust to calculate the hyper-factorial of a non-negative integer; cassidoo's interview question of the week (2025-09-29)&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
     <category term="cassidoo"/>
   </entry>
   <entry>
@@ -230,7 +252,7 @@
     <title>#361 Snake</title>
     <summary>Build and update the snake game example from Rust lang: The complete beginner's guide, learning about making GUI applications with PistonWindow and Rust.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Build and update the snake game example from Rust lang: The complete beginner's guide, learning about making GUI applications with PistonWindow and Rust.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/ai/base44/</id>
@@ -248,7 +270,7 @@
     <title>#359 Chat CLI</title>
     <summary>Build and update the CLI chat example from Rust lang: The complete beginner's guide, learning about making client-server network programs with Rust.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Build and update the CLI chat example from Rust lang: The complete beginner's guide, learning about making client-server network programs with Rust.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/what-kind-of-number/</id>
@@ -257,7 +279,7 @@
     <title>#358 What Kind of Number</title>
     <summary>Using rust to classify perfect, deficient, and abundant numbers; cassidoo's interview question of the week (2025-09-22)</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using rust to classify perfect, deficient, and abundant numbers; cassidoo's interview question of the week (2025-09-22)&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
     <category term="cassidoo"/>
   </entry>
   <entry>
@@ -267,7 +289,7 @@
     <title>#357 Analyze a Baseball Game</title>
     <summary>Using rust to analyze a baseball game; cassidoo's interview question of the week (2025-09-15). This was the day I advanced to consciously incompetent in the rules of baseball.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using rust to analyze a baseball game; cassidoo's interview question of the week (2025-09-15). This was the day I advanced to consciously incompetent in the rules of baseball.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
     <category term="cassidoo"/>
   </entry>
   <entry>
@@ -277,7 +299,7 @@
     <title>#356 Ruby 3.4</title>
     <summary>About Ruby 3.4 including installation on Apple Silicon.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;About Ruby 3.4 including installation on Apple Silicon.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/array-accumulation-problem/</id>
@@ -286,7 +308,7 @@
     <title>#355 Array Accumulation Problem</title>
     <summary>Using ruby to solve the array accumulation problem; cassidoo's interview question of the week (2025-09-08)</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using ruby to solve the array accumulation problem; cassidoo's interview question of the week (2025-09-08)&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="cassidoo"/>
   </entry>
   <entry>
@@ -305,7 +327,7 @@
     <title>#353 Shell Gem</title>
     <summary>Quick review of the shell gem for ruby</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Quick review of the shell gem for ruby&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/macos-notifications/</id>
@@ -314,7 +336,7 @@
     <title>#352 macOS Notifications with Ruby</title>
     <summary>Modern alternatives to the old growl notification system for ruby programming on macOS: osascript, terminal-notifier</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Modern alternatives to the old growl notification system for ruby programming on macOS: osascript, terminal-notifier&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="macOS"/>
   </entry>
   <entry>
@@ -334,7 +356,7 @@
     <title>#350 The Ruby Way</title>
     <summary>Book notes - The Ruby Way, by Hal Fulton. First published January 1, 2001.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - The Ruby Way, by Hal Fulton. First published January 1, 2001.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="Books"/>
   </entry>
   <entry>
@@ -344,7 +366,7 @@
     <title>#349 Ruby File Handling</title>
     <summary>Reviewing common file operations with ruby</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Reviewing common file operations with ruby&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/file-handling/</id>
@@ -353,7 +375,7 @@
     <title>#348 Rust File Handling</title>
     <summary>Reviewing common file operations with rust</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Reviewing common file operations with rust&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/create-laundry-item/</id>
@@ -362,7 +384,7 @@
     <title>#347 Create Laundry Item</title>
     <summary>Using rust to implement a generator for a laundry object; cassidoo's interview question of the week (2025-08-11). Rust does not encourage classic object-oriented patterns by default, but it can be used to model similar concepts with the struct keyword.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using rust to implement a generator for a laundry object; cassidoo's interview question of the week (2025-08-11). Rust does not encourage classic object-oriented patterns by default, but it can be used to model similar concepts with the struct keyword.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
     <category term="cassidoo"/>
   </entry>
   <entry>
@@ -372,7 +394,7 @@
     <title>#346 Group Audio Files</title>
     <summary>Using rust to organise songs into playlists; cassidoo's interview question of the week (2025-08-11). Compares results from First Fit Decreasing (FFD) and Best Fit Decreasing (BFD) bin packing algorithms.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using rust to organise songs into playlists; cassidoo's interview question of the week (2025-08-11). Compares results from First Fit Decreasing (FFD) and Best Fit Decreasing (BFD) bin packing algorithms.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
     <category term="cassidoo"/>
   </entry>
   <entry>
@@ -382,7 +404,7 @@
     <title>#345 Color tools for Ruby</title>
     <summary>A quick look at the color gem: a Ruby library used to represent colors in a range of color models and offer color space manipulation support to applications that require it.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A quick look at the color gem: a Ruby library used to represent colors in a range of color models and offer color space manipulation support to applications that require it.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/ai/tiktokenizer/</id>
@@ -411,7 +433,7 @@
     <title>#342 The Keyboard Assembly Problem</title>
     <summary>Using ruby to solve the keyboard assembly problem; cassidoo's interview question of the week (2025-07-21). Reminds me of my under-grad days learning production scheduling (SPT, EDD etc). Now I realise how much I've internalised these concepts as part of my working practices to get things done.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using ruby to solve the keyboard assembly problem; cassidoo's interview question of the week (2025-07-21). Reminds me of my under-grad days learning production scheduling (SPT, EDD etc). Now I realise how much I've internalised these concepts as part of my working practices to get things done.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="cassidoo"/>
     <category term="scheduling"/>
   </entry>
@@ -441,7 +463,7 @@
     <title>#339 Fireworks Grand finale</title>
     <summary>Using ruby to find the best fireworks grand finale; cassidoo's interview question of the week (2025-07-06). This time I turned off the AI and enjoyed thinking about the deceptively simple algorithmic challenge from first principles.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using ruby to find the best fireworks grand finale; cassidoo's interview question of the week (2025-07-06). This time I turned off the AI and enjoyed thinking about the deceptively simple algorithmic challenge from first principles.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="cassidoo"/>
   </entry>
   <entry>
@@ -461,7 +483,7 @@
     <title>#337 Last Non-repeating Character Challenge</title>
     <summary>Using ruby to return the last non-repeating character in a string; cassidoo's interview question of the week (2025-06-30). It's hard to stop AI butting in to help, but don't accept the first answer it gives you.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using ruby to return the last non-repeating character in a string; cassidoo's interview question of the week (2025-06-30). It's hard to stop AI butting in to help, but don't accept the first answer it gives you.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="AI"/>
     <category term="cassidoo"/>
   </entry>
@@ -481,7 +503,7 @@
     <title>#335 The Odd-sum Epic</title>
     <summary>Cassidy Williams recently featured a ruby coding challenge that spurred a lively discussion of algorithms, and a general marvelling at the loveliness of ruby's Enumerable class. There was however a bit of a requirements trap in the question, not uncommon IRL, but it had me wondering how well generative AI would cope. I put ChatGPT and Deepseek to the test, and the results are in!</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Cassidy Williams recently featured a ruby coding challenge that spurred a lively discussion of algorithms, and a general marvelling at the loveliness of ruby's Enumerable class. There was however a bit of a requirements trap in the question, not uncommon IRL, but it had me wondering how well generative AI would cope. I put ChatGPT and Deepseek to the test, and the results are in!&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="AI"/>
     <category term="cassidoo"/>
   </entry>
@@ -492,7 +514,7 @@
     <title>#334 Serial Communications with Ruby</title>
     <summary>Options for serial communications in Ruby as they stand in mid-2025</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Options for serial communications in Ruby as they stand in mid-2025&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/screen/</id>
@@ -550,7 +572,7 @@
     <title>#328 joined</title>
     <summary>Testing the joined gem, a low-dependency implementation of the Rails to_sentence method.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing the joined gem, a low-dependency implementation of the Rails to_sentence method.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/security/pmp/docker/</id>
@@ -568,7 +590,7 @@
     <title>#326 catsay GUI</title>
     <summary>Building the GUI catsay example from Practical Rust Projects, learning about making graphical interface programs with Rust</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Building the GUI catsay example from Practical Rust Projects, learning about making graphical interface programs with Rust&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/catsay-tui/</id>
@@ -577,7 +599,7 @@
     <title>#325 catsay TUI</title>
     <summary>Building the text UI catsay example from Practical Rust Projects, learning about making text UI programs with Rust</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Building the text UI catsay example from Practical Rust Projects, learning about making text UI programs with Rust&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/cli-catsay/</id>
@@ -586,7 +608,7 @@
     <title>#324 catsay CLI</title>
     <summary>Building the catsay example from Practical Rust Projects, learning about making command-line programs with Rust</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Building the catsay example from Practical Rust Projects, learning about making command-line programs with Rust&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/practical-rust-projects/</id>
@@ -595,7 +617,7 @@
     <title>#323 Practical Rust Projects</title>
     <summary>Book notes: Practical Rust Projects: Building Game, Physical Computing, and Machine Learning Applications, by Shing Lyu. Published February 28, 2020.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Practical Rust Projects: Building Game, Physical Computing, and Machine Learning Applications, by Shing Lyu. Published February 28, 2020.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
     <category term="Books"/>
   </entry>
   <entry>
@@ -708,7 +730,7 @@
     <title>#312 CSV to Markdown Tables (Ruby)</title>
     <summary>How to convert comma-separated value data into markdown tables with ruby</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;How to convert comma-separated value data into markdown tables with ruby&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="markdown"/>
     <category term="CSV"/>
   </entry>
@@ -731,7 +753,7 @@
     <title>#310 Ruby 3.3</title>
     <summary>About Ruby 3.3 including installation on Apple Silicon.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;About Ruby 3.3 including installation on Apple Silicon.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/ruby32/</id>
@@ -740,7 +762,7 @@
     <title>#309 Ruby 3.2</title>
     <summary>About Ruby 3.2 including installation on Apple Silicon.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;About Ruby 3.2 including installation on Apple Silicon.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/python/chatgpt/</id>
@@ -799,7 +821,7 @@
     <title>#303 ID3 Tags</title>
     <summary>Managing ID3 tags with Ruby</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Managing ID3 tags with Ruby&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/cpp/mandelbrot/</id>
@@ -817,7 +839,7 @@
     <title>#301 RubyKaigi 2024</title>
     <summary>Recordings from RubyKaigi 2024 held in Okinawa</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Recordings from RubyKaigi 2024 held in Okinawa&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/railsconf/2024/</id>
@@ -826,7 +848,7 @@
     <title>#300 RailsConf 2024</title>
     <summary>Overview and notes from RailsConf 2024</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Overview and notes from RailsConf 2024&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/rubyconf/rdrc2024/</id>
@@ -835,7 +857,7 @@
     <title>#299 Red Dot Ruby Conference 2024</title>
     <summary>Conference summary and notes</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Conference summary and notes&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/hammerspoon/</id>
@@ -921,7 +943,7 @@
     <title>#290 Installing elm</title>
     <summary>Installing Elm on macOS</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Installing Elm on macOS&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="elm"/>
+    <category term="Elm"/>
     <category term="macOS"/>
   </entry>
   <entry>
@@ -931,7 +953,7 @@
     <title>#289 Installing Rust for macOS</title>
     <summary>Rust - installing on macOS</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Rust - installing on macOS&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
     <category term="macOS"/>
   </entry>
   <entry>
@@ -950,7 +972,7 @@
     <title>#287 CSV with Ruby</title>
     <summary>All about reading and writing CSV with Ruby, including large file handling.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;All about reading and writing CSV with Ruby, including large file handling.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/lldp/</id>
@@ -1070,7 +1092,7 @@
     <title>#274 AMQP with Ruby</title>
     <summary>Using the amqp EventMachine-based RabbitMQ client</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using the amqp EventMachine-based RabbitMQ client&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/messaging/rabbitmq/</id>
@@ -1106,7 +1128,7 @@
     <title>#270 Using with_defaults</title>
     <summary>About the `reverse_merge` and `with_defaults` Hash mixins from Rails</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;About the `reverse_merge` and `with_defaults` Hash mixins from Rails&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/docker/housekeeping/</id>
@@ -1144,7 +1166,7 @@
     <title>#266 xe_currency</title>
     <summary>Using the Xe Currency Data API from Ruby and with curl</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using the Xe Currency Data API from Ruby and with curl&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/lotto_picker/</id>
@@ -1153,7 +1175,7 @@
     <title>#265 Lotto Picker - The Rust Way</title>
     <summary>Using a lotto picker example to demonstrate random numbers and set operations the rust way</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using a lotto picker example to demonstrate random numbers and set operations the rust way&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/python/lotto_picker/</id>
@@ -1171,7 +1193,7 @@
     <title>#263 Lotto Picker - The Ruby Way</title>
     <summary>Using a lotto picker example to demonstrate random numbers and set operations the ruby way</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using a lotto picker example to demonstrate random numbers and set operations the ruby way&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/python/django/minimal_startproject/</id>
@@ -1296,7 +1318,7 @@
     <title>#250 Chart Gems</title>
     <summary>Notes on ruby options for chart generation that support output as an image</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Notes on ruby options for chart generation that support output as an image&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="graphing"/>
   </entry>
   <entry>
@@ -1315,7 +1337,7 @@
     <title>#248 The Case of the Missing Method</title>
     <summary>Or to mix literary metaphors, where in the world do class methods get stored? An investigation into the sublime and elegant design of metaclasses in ruby</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Or to mix literary metaphors, where in the world do class methods get stored? An investigation into the sublime and elegant design of metaclasses in ruby&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/javascript/tone_generator/</id>
@@ -1343,7 +1365,7 @@
     <title>#245 Querying Atom Feeds</title>
     <summary>Techniques and examples for querying Atom Feeds with XPath and Nokogiri</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Techniques and examples for querying Atom Feeds with XPath and Nokogiri&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rubylang/compiling/</id>
@@ -1352,7 +1374,7 @@
     <title>#244 Compiling Ruby</title>
     <summary>Compiling Ruby (2.6.5-p114) from source and some debugging with llvm</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Compiling Ruby (2.6.5-p114) from source and some debugging with llvm&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="C"/>
   </entry>
   <entry>
@@ -1381,7 +1403,7 @@
     <title>#241 NTP with Ruby</title>
     <summary>All about the NTP protocol with examples in ruby</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;All about the NTP protocol with examples in ruby&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/ipv4/</id>
@@ -1390,7 +1412,7 @@
     <title>#240 IPv4 Addresses with Ruby</title>
     <summary>All about dissecting IPv4 addresses with ruby including networks, netmasks and CIDR</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;All about dissecting IPv4 addresses with ruby including networks, netmasks and CIDR&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/python/pythonplayground/</id>
@@ -1533,7 +1555,7 @@
     <title>#225 XML Parsing with Ruby</title>
     <summary>About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like nokogiri</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;About techniques for working with XML, HTML4, and HTML5 from Ruby with gems like nokogiri&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="XML"/>
     <category term="HTML"/>
     <category term="nokogiri"/>
@@ -1555,7 +1577,7 @@
     <title>#223 Ruby One-liners</title>
     <summary>All about one-liners with ruby</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;All about one-liners with ruby&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/web/bootstrap_datetime_pickers/</id>
@@ -1620,7 +1642,7 @@
     <title>#216 HTTP Mock Responses</title>
     <summary>Using Sinatra to craft simple HTTP web responses for mock integration testing</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using Sinatra to craft simple HTTP web responses for mock integration testing&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/messaging/zeromq/install_macosx/</id>
@@ -1681,7 +1703,7 @@
     <title>#210 Elixir on macOS</title>
     <summary>Installing Elixir on macOS</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Installing Elixir on macOS&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="elixir"/>
+    <category term="Elixir"/>
     <category term="docker"/>
   </entry>
   <entry>
@@ -1837,7 +1859,7 @@
     <title>#194 Free Pascal</title>
     <summary>Installing and running the Free Pascal compiler on macOS</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Installing and running the Free Pascal compiler on macOS&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="pascal"/>
+    <category term="Pascal"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/infrastructure/zabbix/dockerized5/</id>
@@ -1894,8 +1916,8 @@
     <title>#189 Engines in Rails 6</title>
     <summary>Looking into what is new or different with Rails 6 engines</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Looking into what is new or different with Rails 6 engines&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
-    <category term="rails"/>
+    <category term="Ruby"/>
+    <category term="Rails"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/rails6/without_webpack/</id>
@@ -1904,8 +1926,8 @@
     <title>#188 Running Rails 6 Without Webpacker</title>
     <summary>Because sometimes just want to keep it simple with good old sprockets and the asset pipeline</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Because sometimes just want to keep it simple with good old sprockets and the asset pipeline&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
-    <category term="rails"/>
+    <category term="Ruby"/>
+    <category term="Rails"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/docker/rails6_production/</id>
@@ -1915,7 +1937,7 @@
     <summary>All about running Rails 6 with Docker for production deployment</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;All about running Rails 6 with Docker for production deployment&lt;/p&gt;&lt;/div&gt;</content>
     <category term="docker"/>
-    <category term="rails"/>
+    <category term="Rails"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/railsconf/2021/</id>
@@ -1924,8 +1946,8 @@
     <title>#186 RailsConf 2021</title>
     <summary>Overview and notes from RailsConf 2021</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Overview and notes from RailsConf 2021&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
-    <category term="rails"/>
+    <category term="Ruby"/>
+    <category term="Rails"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/rubyconf/2020/</id>
@@ -1934,7 +1956,7 @@
     <title>#185 RubyConf 2020</title>
     <summary>Overview and notes from RubyConf 2020</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Overview and notes from RubyConf 2020&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/aws-cli/</id>
@@ -2072,7 +2094,7 @@
     <title>#170 Bitwise Operations</title>
     <summary>All about bitwize operations in Ruby</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;All about bitwize operations in Ruby&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/cpp/string_find/</id>
@@ -2110,7 +2132,7 @@
     <title>#166 Proc v Lambda</title>
     <summary>Exploring differences and similarities between procs and lambdas in Ruby</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Exploring differences and similarities between procs and lambdas in Ruby&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="closure"/>
   </entry>
   <entry>
@@ -2140,7 +2162,7 @@
     <title>#163 Regular Expressions and String Indexes</title>
     <summary>When string indexes are better than regex, and when regex can help writing a string index</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;When string indexes are better than regex, and when regex can help writing a string index&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/loops/</id>
@@ -2149,7 +2171,7 @@
     <title>#162 Loops in Rust</title>
     <summary>All about loops in rust</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;All about loops in rust&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/c/loops/</id>
@@ -2167,7 +2189,7 @@
     <title>#160 Ruby Style</title>
     <summary>On style guides and resources for ruby</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;On style guides and resources for ruby&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/web/color_picker/</id>
@@ -2195,7 +2217,7 @@
     <title>#157 Reducing Overlapping Ranges</title>
     <summary>Looking at solutions for how to aggregate a series of ranges while excluding any overlaps (e.g. set of date ranges)</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Looking at solutions for how to aggregate a series of ranges while excluding any overlaps (e.g. set of date ranges)&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/doorkeeper/</id>
@@ -2204,8 +2226,8 @@
     <title>#156 Doorkeeper</title>
     <summary>Learning about the Doorkeeper gem and testing it for adding OAuth2 provider capabilities to Rails applications</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Learning about the Doorkeeper gem and testing it for adding OAuth2 provider capabilities to Rails applications&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
-    <category term="rails"/>
+    <category term="Ruby"/>
+    <category term="Rails"/>
     <category term="security"/>
   </entry>
   <entry>
@@ -2224,8 +2246,8 @@
     <title>#154 Modern Front-End Development for Rails</title>
     <summary>Book notes - Modern Front-End Development for Rails, By Noel Rappin, published by The Pragmatic Programmers</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Modern Front-End Development for Rails, By Noel Rappin, published by The Pragmatic Programmers&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
-    <category term="rails"/>
+    <category term="Ruby"/>
+    <category term="Rails"/>
     <category term="javascript"/>
     <category term="Books"/>
   </entry>
@@ -2237,7 +2259,7 @@
     <summary>Book notes - Docker for Rails Developers, By Rob Isenberg, published by The Pragmatic Programmers</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Docker for Rails Developers, By Rob Isenberg, published by The Pragmatic Programmers&lt;/p&gt;&lt;/div&gt;</content>
     <category term="docker"/>
-    <category term="rails"/>
+    <category term="Rails"/>
     <category term="Books"/>
   </entry>
   <entry>
@@ -2247,7 +2269,7 @@
     <title>#152 Trumpeter Catalog Skin</title>
     <summary>A simple and fast offline Trumpeter model catalog skin, using some nokogiri magic</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A simple and fast offline Trumpeter model catalog skin, using some nokogiri magic&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/rails6/devise/</id>
@@ -2256,8 +2278,8 @@
     <title>#151 Devise with Rails 6</title>
     <summary>Running devise with Rails 6</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Running devise with Rails 6&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
-    <category term="rails"/>
+    <category term="Ruby"/>
+    <category term="Rails"/>
     <category term="security"/>
   </entry>
   <entry>
@@ -2268,8 +2290,8 @@
     <summary>All about running Rails 6 with Docker</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;All about running Rails 6 with Docker&lt;/p&gt;&lt;/div&gt;</content>
     <category term="docker"/>
-    <category term="ruby"/>
-    <category term="rails"/>
+    <category term="Ruby"/>
+    <category term="Rails"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/drb/</id>
@@ -2278,7 +2300,7 @@
     <title>#149 drb</title>
     <summary>dRuby (drb) is a distributed object system for Ruby, included in the standard library</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;dRuby (drb) is a distributed object system for Ruby, included in the standard library&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/c/bitfields/</id>
@@ -2305,7 +2327,7 @@
     <title>#146 Simple URIs with addressable</title>
     <summary>Using the addressable gem for better handling of URIs/URLs</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using the addressable gem for better handling of URIs/URLs&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/c/printf_partial_string/</id>
@@ -2334,7 +2356,7 @@
     <title>#143 Console Tables</title>
     <summary>Generating data tables in the console from Array, Hash, or ActiveRecord objects with the tablesmith gem</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Generating data tables in the console from Array, Hash, or ActiveRecord objects with the tablesmith gem&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/console_barcharts/</id>
@@ -2343,7 +2365,7 @@
     <title>#142 Console Barcharts</title>
     <summary>Print barcharts to the console in ascii or with unicode block elements</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Print barcharts to the console in ascii or with unicode block elements&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/infrastructure/zabbix/ruby-programmatic-config/</id>
@@ -2354,7 +2376,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Configuring zabbix via the API, with examples using zabbix-client ruby gem&lt;/p&gt;&lt;/div&gt;</content>
     <category term="infrastructure"/>
     <category term="zabbix"/>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/memo_methods/</id>
@@ -2363,7 +2385,7 @@
     <title>#140 Memo Methods</title>
     <summary>Comparing and testing various memoization methods and gems in Ruby</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Comparing and testing various memoization methods and gems in Ruby&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="design patterns"/>
   </entry>
   <entry>
@@ -2407,7 +2429,7 @@
     <category term="databases"/>
     <category term="influxdb"/>
     <category term="docker"/>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/databases/influxdb/ruby_client/</id>
@@ -2419,7 +2441,7 @@
     <category term="databases"/>
     <category term="influxdb"/>
     <category term="docker"/>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/javascript/jquerydatetime/</id>
@@ -2477,7 +2499,7 @@
     <title>#129 Ruby Loop</title>
     <summary>All the various ways of looping in Ruby</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;All the various ways of looping in Ruby&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/docker/centos8_install/</id>
@@ -2523,7 +2545,7 @@
     <title>#124 About Pascal</title>
     <summary>Pascal In a Nutshell</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Pascal In a Nutshell&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="pascal"/>
+    <category term="Pascal"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/infrastructure/linux_server_hacks/</id>
@@ -2582,7 +2604,7 @@
     <title>#118 The Rust Programming Language</title>
     <summary>Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
     <category term="Books"/>
   </entry>
   <entry>
@@ -2592,7 +2614,7 @@
     <title>#117 Programming Elixir</title>
     <summary>Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="elixir"/>
+    <category term="Elixir"/>
     <category term="Books"/>
   </entry>
   <entry>
@@ -2646,7 +2668,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;A quick survey and test of various ruby options for using the Zabbix API&lt;/p&gt;&lt;/div&gt;</content>
     <category term="infrastructure"/>
     <category term="zabbix"/>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/infrastructure/zabbix/dockerized/</id>
@@ -2700,7 +2722,7 @@
     <title>#107 Elixir Basics</title>
     <summary>Exploring basic language features of Elixir</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Exploring basic language features of Elixir&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="elixir"/>
+    <category term="Elixir"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/elm/about/</id>
@@ -2709,7 +2731,7 @@
     <title>#106 About Elm</title>
     <summary>Elm (the language) in a nutshell</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Elm (the language) in a nutshell&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="elm"/>
+    <category term="Elm"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/elixir/about/</id>
@@ -2718,7 +2740,7 @@
     <title>#105 About Elixir</title>
     <summary>Elixir in a nutshell</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Elixir in a nutshell&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="elixir"/>
+    <category term="Elixir"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/testing/</id>
@@ -2727,7 +2749,7 @@
     <title>#104 Testing with Rust</title>
     <summary>How to write and organise tests for rust</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;How to write and organise tests for rust&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/project_with_cargo/</id>
@@ -2736,7 +2758,7 @@
     <title>#103 Using Cargo</title>
     <summary>Using Cargo to create and manage a rust project</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using Cargo to create and manage a rust project&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
     <category term="cargo"/>
   </entry>
   <entry>
@@ -2789,8 +2811,8 @@
     <title>#098 Rails AntiPatterns</title>
     <summary>Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
-    <category term="rails"/>
+    <category term="Ruby"/>
+    <category term="Rails"/>
     <category term="Books"/>
   </entry>
   <entry>
@@ -2838,7 +2860,7 @@
     <title>#093 Ruby 2.7 New Features</title>
     <summary>Investigating new features in Ruby 2.7.0, released 2019-12-25</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Investigating new features in Ruby 2.7.0, released 2019-12-25&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/databases/influxdb/about/</id>
@@ -2858,7 +2880,7 @@
     <title>#091 Private PodFeed</title>
     <summary>description</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;description&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="rss"/>
   </entry>
   <entry>
@@ -2889,7 +2911,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Learning the basics of Prometheus and running a demo with Docker and a Sinatra Ruby target application&lt;/p&gt;&lt;/div&gt;</content>
     <category term="databases"/>
     <category term="prometheus"/>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/formats/yaml/</id>
@@ -3015,8 +3037,8 @@
     <title>#075 Ruby on Rails 6</title>
     <summary>Running Rails 6 (beta1), learning about changes and new features, and testing out my favourite gems including: HAML</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Running Rails 6 (beta1), learning about changes and new features, and testing out my favourite gems including: HAML&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
-    <category term="rails"/>
+    <category term="Ruby"/>
+    <category term="Rails"/>
     <category term="haml"/>
   </entry>
   <entry>
@@ -3026,7 +3048,7 @@
     <title>#074 Sinatra Echo Tools</title>
     <summary>A Sinatra app that provides a number of remote request debugging tools, and can be run with Docker - the tardate/echo-tools image is available on docker hub.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A Sinatra app that provides a number of remote request debugging tools, and can be run with Docker - the tardate/echo-tools image is available on docker hub.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="Sinatra"/>
     <category term="docker"/>
   </entry>
@@ -3057,7 +3079,7 @@
     <title>#071 MAC Address Generation with Ruby</title>
     <summary>all about MAC and generating random MAC addresses</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;all about MAC and generating random MAC addresses&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/hmac/</id>
@@ -3066,7 +3088,7 @@
     <title>#070 HMAC Generation with Ruby</title>
     <summary>All about hash-based message authentication code (HMAC) generation with Ruby</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;All about hash-based message authentication code (HMAC) generation with Ruby&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/python/top_level_imports/</id>
@@ -3189,7 +3211,7 @@
     <title>#057 Temporary Files with Ruby</title>
     <summary>Using Temporary Files with Ruby</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using Temporary Files with Ruby&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/node/regression/</id>
@@ -3250,8 +3272,8 @@
     <title>#051 Ruby on Rails 5</title>
     <summary>Features and demonstration of Rails 5</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Features and demonstration of Rails 5&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
-    <category term="rails"/>
+    <category term="Ruby"/>
+    <category term="Rails"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/rails4/</id>
@@ -3260,8 +3282,8 @@
     <title>#050 Ruby on Rails 4</title>
     <summary>Features and demonstration of Rails 4</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Features and demonstration of Rails 4&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
-    <category term="rails"/>
+    <category term="Ruby"/>
+    <category term="Rails"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/rails3/</id>
@@ -3270,8 +3292,8 @@
     <title>#049 Ruby on Rails 3</title>
     <summary>Features and demonstration of Rails 3.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Features and demonstration of Rails 3.&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
-    <category term="rails"/>
+    <category term="Ruby"/>
+    <category term="Rails"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/databases/postgresql/deleting_roles/</id>
@@ -3318,7 +3340,7 @@
     <title>#044 JSON Parsing</title>
     <summary>Generating pretty JSON with Ruby and dealing with quirks</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Generating pretty JSON with Ruby and dealing with quirks&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/memory_profiling/</id>
@@ -3327,7 +3349,7 @@
     <title>#043 Memory Profiling</title>
     <summary>About memory profiling in Ruby</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;About memory profiling in Ruby&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/python/class_structures_and_scoping/</id>
@@ -3526,7 +3548,7 @@
     <summary>hardware excuse generator with gRPC - Ruby client and server example</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;hardware excuse generator with gRPC - Ruby client and server example&lt;/p&gt;&lt;/div&gt;</content>
     <category term="gRPC"/>
-    <category term="ruby"/>
+    <category term="Ruby"/>
     <category term="messaging"/>
   </entry>
   <entry>
@@ -3672,7 +3694,7 @@
     <title>#007 Elm/hello_clock</title>
     <summary>2D graphics with elm</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;2D graphics with elm&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="elm"/>
+    <category term="Elm"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/about/</id>
@@ -3681,7 +3703,7 @@
     <title>#006 Rust/about</title>
     <summary>Rust - my tl;dr summary</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Rust - my tl;dr summary&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/hello_world/</id>
@@ -3690,7 +3712,7 @@
     <title>#005 Hello World in Rust</title>
     <summary>Rust - Hello World with concurrency</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Rust - Hello World with concurrency&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="rust"/>
+    <category term="Rust"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/catalog/</id>
@@ -3709,7 +3731,7 @@
     <title>#003 Fixing the First Line of a File</title>
     <summary>patching text files with Perl - fix the first line only</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;patching text files with Perl - fix the first line only&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="perl"/>
+    <category term="Perl"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/perl/patch_file/</id>
@@ -3718,7 +3740,7 @@
     <title>#002 Patching Text Files</title>
     <summary>patching text files with Perl</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;patching text files with Perl&lt;/p&gt;&lt;/div&gt;</content>
-    <category term="perl"/>
+    <category term="Perl"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/envsubst/</id>

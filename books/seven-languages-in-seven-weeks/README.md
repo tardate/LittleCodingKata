@@ -1,6 +1,7 @@
 # #378 Seven Languages in Seven Weeks
 
 Book notes - Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages, by Bruce A. Tate. First published November 17, 2010.
+It covers Ruby, Io, Prolog, Scala, Erlang, Clojure, and Haskell.
 
 ## Notes
 
@@ -40,6 +41,7 @@ more than just a "Hello World" in each language; enough to get the true flavor o
     * 4.3 Day 2: Fifteen Minutes to Wapner
     * 4.4 Day 3: Blowing Up Vegas
     * 4.5 Wrapping Up Prolog
+    * See [LCK#384 About Prolog](../../prolog/about/)
 * 5 Scala
     * 5.1 About Scala
     * 5.2 Day 1: The Castle on the Hill

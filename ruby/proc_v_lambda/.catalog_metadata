@@ -1,7 +1,7 @@
 {
     "name": "Proc v Lambda",
     "description": "Exploring differences and similarities between procs and lambdas in Ruby",
-    "categories": "ruby, closure",
+    "categories": "Ruby, closure",
     "relative_path": "ruby/proc_v_lambda",
     "updated_at": "2021-04-20T15:32:54Z",
     "id": "#166",

@@ -1,7 +1,7 @@
 {
     "name": "Rails 6 with Docker",
     "description": "All about running Rails 6 with Docker",
-    "categories": "docker, ruby, rails",
+    "categories": "docker, Ruby, Rails",
     "relative_path": "docker/rails6",
     "updated_at": "2020-10-14T10:49:20Z",
     "id": "#150",

@@ -1,7 +1,7 @@
 {
     "name": "The Odd-sum Epic",
     "description": "Cassidy Williams recently featured a ruby coding challenge that spurred a lively discussion of algorithms, and a general marvelling at the loveliness of ruby's Enumerable class. There was however a bit of a requirements trap in the question, not uncommon IRL, but it had me wondering how well generative AI would cope. I put ChatGPT and Deepseek to the test, and the results are in!",
-    "categories": "ruby, AI, cassidoo",
+    "categories": "Ruby, AI, cassidoo",
     "relative_path": "ruby/odd-sum-epic",
     "updated_at": "2025-06-15T06:49:00Z",
     "created_at": "2025-06-15T06:49:00Z",

@@ -1,7 +1,7 @@
 {
     "name": "Rust File Handling",
     "description": "Reviewing common file operations with rust",
-    "categories": "rust",
+    "categories": "Rust",
     "relative_path": "rust/file-handling",
     "updated_at": "2025-08-27T04:15:00Z",
     "created_at": "2025-08-27T04:15:00Z",

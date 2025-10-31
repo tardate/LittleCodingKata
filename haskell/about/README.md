@@ -3,7 +3,7 @@
 Haskell probably came to the notice of many programmers when it earned a chapter in
 Bruce Tate's [Seven Languages in Seven Weeks](../../books/seven-languages-in-seven-weeks/).
 
-## Hakell In a Nutshell
+## Haskell In a Nutshell
 
 Haskell is...
 

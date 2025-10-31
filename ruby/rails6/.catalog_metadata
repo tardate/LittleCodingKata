@@ -1,7 +1,7 @@
 {
     "name": "Ruby on Rails 6",
     "description": "Running Rails 6 (beta1), learning about changes and new features, and testing out my favourite gems including: HAML",
-    "categories": "ruby, rails, haml",
+    "categories": "Ruby, Rails, haml",
     "relative_path": "ruby/rails6",
     "updated_at": "2019-07-24T15:02:34Z",
     "id": "#075",

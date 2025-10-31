@@ -2,7 +2,7 @@
     "id": "#002",
     "name": "Patching Text Files",
     "description": "patching text files with Perl",
-    "categories": "perl",
+    "categories": "Perl",
     "relative_path": "perl/patch_file",
     "updated_at": "2016-07-10T13:14:48Z",
     "created_at": "2016-07-10T13:14:48Z"

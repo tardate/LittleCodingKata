@@ -1,6 +1,6 @@
-# 383 Little Coding Katas
+# 384 Little Coding Katas
 
-> Latest addition :sparkles: [Fixing Ubuntu Boot Issues](./ubuntu/boot-repair) - When Windows, Dell, and Intel updates break your dual-boot Ubuntu ... Boot-Repair to the rescue!
+> Latest addition :sparkles: [About Prolog](./prolog/about) - A quick introduction to Prolog and a test drive with GNU Prolog on macOS.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

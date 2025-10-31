@@ -1,7 +1,7 @@
 {
     "name": "Split by Widths",
     "description": "Using ruby to split strings into chunks of specified widths; cassidoo's interview question of the week (2025-10-20).",
-    "categories": "ruby, cassidoo",
+    "categories": "Ruby, cassidoo",
     "relative_path": "ruby/split-by-widths",
     "updated_at": "2025-10-24T13:02:00Z",
     "created_at": "2025-10-24T13:02:00Z",

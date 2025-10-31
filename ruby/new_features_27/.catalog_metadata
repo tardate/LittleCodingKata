@@ -1,7 +1,7 @@
 {
     "name": "Ruby 2.7 New Features",
     "description": "Investigating new features in Ruby 2.7.0, released 2019-12-25",
-    "categories": "ruby",
+    "categories": "Ruby",
     "relative_path": "ruby/new_features_27",
     "updated_at": "2020-01-08T14:43:34Z",
     "id": "#093",

@@ -1,7 +1,7 @@
 {
     "name": "CSV with Ruby",
     "description": "All about reading and writing CSV with Ruby, including large file handling.",
-    "categories": "ruby",
+    "categories": "Ruby",
     "relative_path": "ruby/csv",
     "updated_at": "2024-04-02T11:23:25Z",
     "id": "#287",

@@ -1,7 +1,7 @@
 {
     "name": "Chart Gems",
     "description": "Notes on ruby options for chart generation that support output as an image",
-    "categories": "ruby, graphing",
+    "categories": "Ruby, graphing",
     "relative_path": "ruby/chart_gems",
     "updated_at": "2023-01-09T10:56:24Z",
     "id": "#250",

@@ -1,7 +1,7 @@
 {
     "name": "Seven More Languages in Seven Weeks",
-    "description": "Book notes - Seven More Languages in Seven Weeks: Languages That Are Shaping the Future, by Bruce A. Tate, Ian Dees, Frederic Daoud, Jack Moffitt. First published September 25, 2014.",
-    "categories": "Books",
+    "description": "Book notes - Seven More Languages in Seven Weeks: Languages That Are Shaping the Future, by Bruce A. Tate, Ian Dees, Frederic Daoud, Jack Moffitt. First published September 25, 2014. It covers Factor, Elm, Elixir, Julia, miniKanren, and Idris.",
+    "categories": "Books, Factor, Elm, Elixir, Julia, miniKanren, Idris",
     "relative_path": "books/seven-more-languages-in-seven-weeks",
     "updated_at": "2025-10-27T13:09:00Z",
     "created_at": "2025-10-27T13:09:00Z",

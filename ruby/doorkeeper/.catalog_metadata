@@ -1,7 +1,7 @@
 {
     "name": "Doorkeeper",
     "description": "Learning about the Doorkeeper gem and testing it for adding OAuth2 provider capabilities to Rails applications",
-    "categories": "ruby, rails, security",
+    "categories": "Ruby, Rails, security",
     "relative_path": "ruby/doorkeeper",
     "updated_at": "2021-01-13T09:20:42Z",
     "id": "#156",

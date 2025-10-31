@@ -1,7 +1,7 @@
 {
     "name": "joined",
     "description": "Testing the joined gem, a low-dependency implementation of the Rails to_sentence method.",
-    "categories": "ruby",
+    "categories": "Ruby",
     "relative_path": "ruby/joined",
     "updated_at": "2025-05-13T08:59:00Z",
     "created_at": "2025-05-13T08:59:00Z",
