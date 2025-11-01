@@ -1,0 +1,9 @@
+{
+    "name": "Musicians with Prolog",
+    "description": "Using Prolog to represent and query a knowledge base representing musicians and instruments.",
+    "categories": "Prolog",
+    "relative_path": "prolog/musicians",
+    "updated_at": "2025-11-01T09:09:00Z",
+    "created_at": "2025-11-01T09:09:00Z",
+    "id": "#387"
+}
