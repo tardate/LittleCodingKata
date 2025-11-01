@@ -1,4 +1,4 @@
-# #xxx Musicians with Prolog
+# #387 Musicians with Prolog
 
 Using Prolog to represent and query a knowledge base representing musicians and instruments.
 

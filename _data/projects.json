@@ -1,4 +1,12 @@
 {
+    "/prolog/musicians/": {
+        "id": 387,
+        "title": "Musicians with Prolog",
+        "summary": "Using Prolog to represent and query a knowledge base representing musicians and instruments.",
+        "tags": [
+            "Prolog"
+        ]
+    },
     "/ruby/about/": {
         "id": 386,
         "title": "About Ruby",
