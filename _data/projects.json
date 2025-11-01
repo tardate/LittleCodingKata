@@ -1,4 +1,12 @@
 {
+    "/ruby/about/": {
+        "id": 386,
+        "title": "About Ruby",
+        "summary": "Ruby In a Nutshell: A brief overview of the Ruby programming language, its features, and application domains.",
+        "tags": [
+            "Ruby"
+        ]
+    },
     "/haskell/place-scarecrows/": {
         "id": 385,
         "title": "placeScarecrows",

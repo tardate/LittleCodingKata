@@ -41,3 +41,4 @@ e.g. uni-directional event-driven state transforms with immutable data (rather t
 * [elm](https://en.wikipedia.org/wiki/Elm_(programming_language)) - wikipedia
 * [elm-lang](https://github.com/elm-lang) - official GitHub organisation
 * [Functional Reactive Programming with Elm: An Introduction](http://www.sitepoint.com/functional-reactive-programming-elm-introduction/)
+* [Seven More Languages in Seven Weeks](../../books/seven-more-languages-in-seven-weeks/) - Elm has a chapter
