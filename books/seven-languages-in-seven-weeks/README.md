@@ -29,6 +29,7 @@ more than just a "Hello World" in each language; enough to get the true flavor o
     * 2.3 Day 2: Floating Down from the Sky
     * 2.4 Day 3: Serious Change
     * 2.5 Wrapping Up Ruby
+    * See [LCK#386 About Ruby](../../ruby/about/)
 * 3 Io
     * 3.1 Introducing Io
     * 3.2 Day 1: Skipping School, Hanging Out

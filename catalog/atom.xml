@@ -14,6 +14,15 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://codingkata.tardate.com/ruby/about/</id>
+    <link href="https://codingkata.tardate.com/ruby/about/"/>
+    <updated>2025-11-01T08:20:00Z</updated>
+    <title>#386 About Ruby</title>
+    <summary>Ruby In a Nutshell: A brief overview of the Ruby programming language, its features, and application domains.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Ruby In a Nutshell: A brief overview of the Ruby programming language, its features, and application domains.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Ruby"/>
+  </entry>
+  <entry>
     <id>https://codingkata.tardate.com/haskell/place-scarecrows/</id>
     <link href="https://codingkata.tardate.com/haskell/place-scarecrows/"/>
     <updated>2025-10-31T13:01:00Z</updated>

@@ -1,4 +1,4 @@
-# #xxx About Ruby
+# #386 About Ruby
 
 Ruby In a Nutshell: A brief overview of the Ruby programming language, its features, and application domains.
 
