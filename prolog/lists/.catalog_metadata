@@ -2,5 +2,8 @@
     "name": "List Manipulation with Prolog",
     "description": "Using Prolog to reverse, sort, and find the minimum of a list.",
     "categories": "Prolog",
-    "relative_path": "prolog/lists"
+    "relative_path": "prolog/lists",
+    "updated_at": "2025-11-02T07:53:00Z",
+    "created_at": "2025-11-02T07:53:00Z",
+    "id": "#388"
 }

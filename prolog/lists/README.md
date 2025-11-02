@@ -1,4 +1,4 @@
-# #xxx List Manipulation with Prolog
+# #388 List Manipulation with Prolog
 
 Using Prolog to reverse, sort, and find the minimum of a list.
 
