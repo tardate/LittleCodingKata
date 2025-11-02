@@ -151,3 +151,6 @@ no
 * <https://en.wikipedia.org/wiki/Prolog>
 * [GNU Prolog](http://www.gprolog.org/)
 * [Seven Languages in Seven Weeks](../../books/seven-languages-in-seven-weeks/)
+* <http://www.gprolog.org/manual/gprolog.html>
+* <https://www.tutorialspoint.com/prolog/index.htm>
+* <https://www.swi-prolog.org/pldoc/doc_for?object=manual>

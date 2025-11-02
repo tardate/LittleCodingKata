@@ -89,4 +89,4 @@ Musician = miles_davis ? ;
 
 ## Credits and References
 
-* [Seven Languages in Seven Weeks](../../books/seven-languages-in-seven-weeks/)
+* [Seven Languages in Seven Weeks](../../books/seven-languages-in-seven-weeks/) - Chapter 4: Prolog
