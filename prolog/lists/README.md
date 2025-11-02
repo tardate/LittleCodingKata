@@ -243,3 +243,4 @@ yes
 * [Seven Languages in Seven Weeks](../../books/seven-languages-in-seven-weeks/) - Chapter 4: Prolog
 * [reverse](http://www.gprolog.org/manual/gprolog.html#sec212)
 * [min_list](http://www.gprolog.org/manual/html_node/gprolog044.html#sec222)
+* [sort/2, msort/2, keysort/2 sort/1, msort/1, keysort/1](http://www.gprolog.org/manual/gprolog.html#sort%2F2)
