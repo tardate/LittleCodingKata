@@ -1,6 +1,6 @@
-# 387 Little Coding Katas
+# 388 Little Coding Katas
 
-> Latest addition :sparkles: [Musicians with Prolog](./prolog/musicians) - Using Prolog to represent and query a knowledge base representing musicians and instruments.
+> Latest addition :sparkles: [List Manipulation with Prolog](./prolog/lists) - Using Prolog to reverse, sort, and find the minimum of a list.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

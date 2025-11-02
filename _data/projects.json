@@ -1,4 +1,12 @@
 {
+    "/prolog/lists/": {
+        "id": 388,
+        "title": "List Manipulation with Prolog",
+        "summary": "Using Prolog to reverse, sort, and find the minimum of a list.",
+        "tags": [
+            "Prolog"
+        ]
+    },
     "/prolog/musicians/": {
         "id": 387,
         "title": "Musicians with Prolog",
