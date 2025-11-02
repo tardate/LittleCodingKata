@@ -57,7 +57,7 @@ yes
 
 ## Reverse the elements of a list
 
-GNU Prolof has a built-in predicate for reversing a list - [reverse](http://www.gprolog.org/manual/gprolog.html#sec212):
+GNU Prolog has a built-in predicate for reversing a list - [reverse](http://www.gprolog.org/manual/gprolog.html#sec212):
 
 ```prolog
 | ?- reverse([a,b,c,d,e,f], Result).
@@ -143,7 +143,7 @@ minimum_list([Head|Tail], Min) :-
     !.
 ```
 
-Testing it out:
+Loading the program:
 
 ```sh
 $ gprolog --consult-file minimum_list.pl
@@ -209,6 +209,18 @@ merge(A,[],A).
 merge([],B,B).
 merge([A|Ra],[B|Rb],[A|M]) :- A =< B, merge(Ra,[B|Rb],M).
 merge([A|Ra],[B|Rb],[B|M]) :- A > B, merge([A|Ra],Rb,M).
+```
+
+Loading the program:
+
+```sh
+$ gprolog --consult-file sort_list.pl
+GNU Prolog 1.5.0 (64 bits)
+Compiled Jul  8 2021, 09:35:47 with clang
+Copyright (C) 1999-2024 Daniel Diaz
+
+compiling ./sort_list.pl for byte code...
+./sort_list.pl compiled, 15 lines read - 3216 bytes written, 3 ms
 ```
 
 Testing it out:
