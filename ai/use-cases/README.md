@@ -39,7 +39,22 @@ Highlights:
     * data analysis
     * coding
 
-It them goes on to recommend good old fashioned business practices improvement methods:
+It then goes on to recommend good old fashioned business practices improvement methods:
 
 * gathering and prioritizing use cases
 * department workflow mapping
+
+### MIT The GenAI Divide: STATE OF AI IN BUSINESS 2025
+
+See: <https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf>
+
+The infamous report that found:
+
+> Just 5% of integrated AI pilots are extracting
+> millions in value, while the vast majority remain stuck with no measurable P&L impact. This
+> divide does not seem to be driven by model quality or regulation, but seems to be
+> determined by approach.
+
+And of course lots of contrary views attempting to throw cold water on it, such as:
+
+* <https://www.marketingaiinstitute.com/blog/mit-study-ai-pilots>
