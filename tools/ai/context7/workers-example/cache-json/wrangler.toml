@@ -1,9 +1,0 @@
-name = "cache-json"
-main = "worker.js"
-compatibility_date = "2025-10-21"
-
-[vars]
-# Optionally set an upstream API base URL to restrict/proxy
-# UPSTREAM_API = "https://api.example.com"
-# If you use Context7 from the worker or tests, set your key here (optional):
-# CONTEXT7_API_KEY = "__CONTEXT7_API_KEY__"

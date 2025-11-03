@@ -1,6 +1,6 @@
-# 388 Little Coding Katas
+# 389 Little Coding Katas
 
-> Latest addition :sparkles: [List Manipulation with Prolog](./prolog/lists) - Using Prolog to reverse, sort, and find the minimum of a list.
+> Latest addition :sparkles: [AI Use-cases](./ai/use-cases) - Research on AI Use-cases, adoption strategies, successes and failures.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
