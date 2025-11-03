@@ -1,6 +1,6 @@
 # #321 Rowhammer Then and Now
 
-About a new study to analyze the prevalence of Rowhammer in real-world systems.
+About a new study to analyze the prevalence of Rowhammer in real-world systems. Updated with results.
 
 ## Notes
 
@@ -67,7 +67,23 @@ my data set at
 <https://github.com/tardate/LittleCodingKata/tree/main/security/rowhammer/data/>.
 Note: I have redacted some personal information and also truncated the large, repetitive activity logs to keep the data set relatively small.
 
+### Results
+
+2025-11-02: the preprint version of the paper has been published on the FlippyR.AM website - [available here](https://flippyr.am/FlippyRAM.pdf).
+
+Some of the key insights:
+
+* 126 (12.5 %) out of 1 006 datasets are vulnerable to fully-automated Rowhammer attacks, based on our analysis.
+* For DDR3, simple patterns and hammering as fast as possible, implemented by RowhammerJS, were the most effective strategies in terms of the number of bit flips. Since most DDR4 DIMMs have TRR, pattern fuzzing strategies like Blacksmith were the most effective ones and found most bit flips.
+* The minimum time the first bit flip occurred ranges from 0 min to 115 min on average, depending on the system configuration, which is a practical attack time frame on real-world systems.
+* DRAM from Samsung, Hynix, and third-party resellers is similarly affected by Rowhammer. We found bit flips in only 2.4 % if Micron DIMMs. This contrasts prior work that did not find such a stark difference between the three manufacturers.
+
+![fig-8](assets/fig-8.png)
+
+![fig-9](assets/fig-9.png)
+
 ## Credits and References
 
 * [Security Now! #1017: Is YOUR System Vulnerable to Rowhammer?](https://www.grc.com/sn/sn-1017.htm)
 * <https://flippyr.am/>
+* <https://flippyr.am/FlippyRAM.pdf>

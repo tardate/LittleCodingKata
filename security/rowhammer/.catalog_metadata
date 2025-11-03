@@ -1,6 +1,6 @@
 {
     "name": "Rowhammer Then and Now",
-    "description": "About a new study to analyze the prevalence of Rowhammer in real-world systems.",
+    "description": "About a new study to analyze the prevalence of Rowhammer in real-world systems. Updated with results.",
     "categories": "security",
     "relative_path": "security/rowhammer",
     "updated_at": "2025-03-28T13:03:00Z",
