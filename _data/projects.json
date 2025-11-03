@@ -590,7 +590,7 @@
     "/security/rowhammer/": {
         "id": 321,
         "title": "Rowhammer Then and Now",
-        "summary": "About a new study to analyze the prevalence of Rowhammer in real-world systems.",
+        "summary": "About a new study to analyze the prevalence of Rowhammer in real-world systems. Updated with results.",
         "tags": [
             "security"
         ]
