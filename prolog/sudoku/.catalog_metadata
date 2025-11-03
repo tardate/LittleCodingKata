@@ -1,0 +1,6 @@
+{
+    "name": "Solving Sudoku with Prolog",
+    "description": "Using Prolog to solve sudoku-style problems",
+    "categories": "Prolog",
+    "relative_path": "prolog/sodoku"
+}
