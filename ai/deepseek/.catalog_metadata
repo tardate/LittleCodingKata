@@ -2,7 +2,7 @@
     "name": "DeepSeek AI",
     "description": "A first look at DeepSeek: its history, source, and a demonstration of running locally (macOS/apple silicon)",
     "categories": "tools, AI",
-    "relative_path": "tools/ai/deepseek",
+    "relative_path": "ai/deepseek",
     "updated_at": "2025-01-28T14:56:00Z",
     "created_at": "2025-01-28T14:56:00Z",
     "id": "#319"

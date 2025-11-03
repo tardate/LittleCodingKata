@@ -153,11 +153,11 @@
         "name": "Context7",
         "description": "Using Context7 MCP Server with VSCode and GitHub Copilot to improve code generation quality.",
         "categories": "AI",
-        "relative_path": "tools/ai/context7",
+        "relative_path": "ai/context7",
         "updated_at": "2025-10-21T06:40:00Z",
         "created_at": "2025-10-21T06:40:00Z",
         "id": "#373",
-        "original_relative_path": "tools/ai/context7"
+        "original_relative_path": "ai/context7"
     },
     {
         "name": "csvToList",
@@ -193,71 +193,71 @@
         "name": "Gamma AI",
         "description": "A quick review and test drive of Gamma AI for content generation for presentation, website, social media posts, etc.",
         "categories": "AI",
-        "relative_path": "tools/ai/gamma",
+        "relative_path": "ai/gamma",
         "updated_at": "2025-10-08T05:08:00Z",
         "created_at": "2025-10-08T05:08:00Z",
         "id": "#369",
-        "original_relative_path": "tools/ai/gamma"
+        "original_relative_path": "ai/gamma"
     },
     {
         "name": "BetterImage",
         "description": "A quick review and test drive of BetterImage, an AI image upscaler.",
         "categories": "AI",
-        "relative_path": "tools/ai/betterimage",
+        "relative_path": "ai/betterimage",
         "updated_at": "2025-10-08T04:40:00Z",
         "created_at": "2025-10-08T04:40:00Z",
         "id": "#368",
-        "original_relative_path": "tools/ai/betterimage"
+        "original_relative_path": "ai/betterimage"
     },
     {
         "name": "KlingAI",
         "description": "A quick review and test drive of KlingAI for image and video generation.",
         "categories": "AI",
-        "relative_path": "tools/ai/klingai",
+        "relative_path": "ai/klingai",
         "updated_at": "2025-10-08T04:36:00Z",
         "created_at": "2025-10-08T04:36:00Z",
         "id": "#367",
-        "original_relative_path": "tools/ai/klingai"
+        "original_relative_path": "ai/klingai"
     },
     {
         "name": "Recraft AI",
         "description": "A quick review and test drive of recraft.ai for image generation and editing",
         "categories": "AI",
-        "relative_path": "tools/ai/recraft",
+        "relative_path": "ai/recraft",
         "updated_at": "2025-10-08T04:33:00Z",
         "created_at": "2025-10-08T04:33:00Z",
         "id": "#366",
-        "original_relative_path": "tools/ai/recraft"
+        "original_relative_path": "ai/recraft"
     },
     {
         "name": "Flux AI",
         "description": "A quick review and test drive of Flux AI  creative solution including image generation",
         "categories": "AI",
-        "relative_path": "tools/ai/flux",
+        "relative_path": "ai/flux",
         "updated_at": "2025-10-08T04:30:00Z",
         "created_at": "2025-10-08T04:30:00Z",
         "id": "#365",
-        "original_relative_path": "tools/ai/flux"
+        "original_relative_path": "ai/flux"
     },
     {
         "name": "Ideogram AI",
         "description": "A quick review and test drive of ideogram.ai text to image model.",
         "categories": "AI",
-        "relative_path": "tools/ai/ideogram",
+        "relative_path": "ai/ideogram",
         "updated_at": "2025-10-08T04:25:00Z",
         "created_at": "2025-10-08T04:25:00Z",
         "id": "#364",
-        "original_relative_path": "tools/ai/ideogram"
+        "original_relative_path": "ai/ideogram"
     },
     {
         "name": "NotebookLM",
         "description": "A quick review and test drive of Google's NotebookLM research and writing assistant.",
         "categories": "AI",
-        "relative_path": "tools/ai/notebooklm",
+        "relative_path": "ai/notebooklm",
         "updated_at": "2025-10-08T04:19:00Z",
         "created_at": "2025-10-08T04:19:00Z",
         "id": "#363",
-        "original_relative_path": "tools/ai/notebooklm"
+        "original_relative_path": "ai/notebooklm"
     },
     {
         "name": "hyperfactorial",
@@ -283,11 +283,11 @@
         "name": "Base44",
         "description": "A quick review and test drive of Base44 AI-powered app builder and hosting solution.",
         "categories": "AI",
-        "relative_path": "tools/ai/base44",
+        "relative_path": "ai/base44",
         "updated_at": "2025-10-01T04:30:00Z",
         "created_at": "2025-10-01T04:30:00Z",
         "id": "#360",
-        "original_relative_path": "tools/ai/base44"
+        "original_relative_path": "ai/base44"
     },
     {
         "name": "Chat CLI",
@@ -443,21 +443,21 @@
         "name": "Tiktokenizer",
         "description": "Tiktokenizer is a playground for simulating and visualising the tokenization performed by various LLMs.",
         "categories": "tools, AI",
-        "relative_path": "tools/ai/tiktokenizer",
+        "relative_path": "ai/tiktokenizer",
         "updated_at": "2025-07-29T14:18:00Z",
         "created_at": "2025-07-29T14:18:00Z",
         "id": "#344",
-        "original_relative_path": "tools/ai/tiktokenizer"
+        "original_relative_path": "ai/tiktokenizer"
     },
     {
         "name": "AI Leaderboards",
         "description": "Tracking some of the main AI leaderboards",
         "categories": "tools, AI",
-        "relative_path": "tools/ai/leaderboards",
+        "relative_path": "ai/leaderboards",
         "updated_at": "2025-07-29T13:44:00Z",
         "created_at": "2025-07-29T13:44:00Z",
         "id": "#343",
-        "original_relative_path": "tools/ai/leaderboards"
+        "original_relative_path": "ai/leaderboards"
     },
     {
         "name": "The Keyboard Assembly Problem",
@@ -473,11 +473,11 @@
         "name": "AI Tutorials",
         "description": "AI training and tutorials (mainly free)",
         "categories": "AI",
-        "relative_path": "tools/ai/tutorials",
+        "relative_path": "ai/tutorials",
         "updated_at": "2025-07-24T15:27:00Z",
         "created_at": "2025-07-24T15:27:00Z",
         "id": "#341",
-        "original_relative_path": "tools/ai/tutorials"
+        "original_relative_path": "ai/tutorials"
     },
     {
         "name": "Image/File Renamer",
@@ -693,11 +693,11 @@
         "name": "DeepSeek AI",
         "description": "A first look at DeepSeek: its history, source, and a demonstration of running locally (macOS/apple silicon)",
         "categories": "tools, AI",
-        "relative_path": "tools/ai/deepseek",
+        "relative_path": "ai/deepseek",
         "updated_at": "2025-01-28T14:56:00Z",
         "created_at": "2025-01-28T14:56:00Z",
         "id": "#319",
-        "original_relative_path": "tools/ai/deepseek"
+        "original_relative_path": "ai/deepseek"
     },
     {
         "name": "Git Batch Push",
@@ -913,11 +913,11 @@
         "name": "AI Tools",
         "description": "A collection of AI tools that I've either used or would like to check out at some point",
         "categories": "tools, AI",
-        "relative_path": "tools/ai",
+        "relative_path": "ai",
         "updated_at": "2024-08-14T06:08:00Z",
         "id": "#297",
         "created_at": "2024-08-14T06:08:00Z",
-        "original_relative_path": "tools/ai"
+        "original_relative_path": "ai"
     },
     {
         "name": "PT Backup",

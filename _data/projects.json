@@ -142,7 +142,7 @@
             "Books"
         ]
     },
-    "/tools/ai/context7/": {
+    "/ai/context7/": {
         "id": 373,
         "title": "Context7",
         "summary": "Using Context7 MCP Server with VSCode and GitHub Copilot to improve code generation quality.",
@@ -176,7 +176,7 @@
             "Ruby"
         ]
     },
-    "/tools/ai/gamma/": {
+    "/ai/gamma/": {
         "id": 369,
         "title": "Gamma AI",
         "summary": "A quick review and test drive of Gamma AI for content generation for presentation, website, social media posts, etc.",
@@ -184,7 +184,7 @@
             "AI"
         ]
     },
-    "/tools/ai/betterimage/": {
+    "/ai/betterimage/": {
         "id": 368,
         "title": "BetterImage",
         "summary": "A quick review and test drive of BetterImage, an AI image upscaler.",
@@ -192,7 +192,7 @@
             "AI"
         ]
     },
-    "/tools/ai/klingai/": {
+    "/ai/klingai/": {
         "id": 367,
         "title": "KlingAI",
         "summary": "A quick review and test drive of KlingAI for image and video generation.",
@@ -200,7 +200,7 @@
             "AI"
         ]
     },
-    "/tools/ai/recraft/": {
+    "/ai/recraft/": {
         "id": 366,
         "title": "Recraft AI",
         "summary": "A quick review and test drive of recraft.ai for image generation and editing",
@@ -208,7 +208,7 @@
             "AI"
         ]
     },
-    "/tools/ai/flux/": {
+    "/ai/flux/": {
         "id": 365,
         "title": "Flux AI",
         "summary": "A quick review and test drive of Flux AI  creative solution including image generation",
@@ -216,7 +216,7 @@
             "AI"
         ]
     },
-    "/tools/ai/ideogram/": {
+    "/ai/ideogram/": {
         "id": 364,
         "title": "Ideogram AI",
         "summary": "A quick review and test drive of ideogram.ai text to image model.",
@@ -224,7 +224,7 @@
             "AI"
         ]
     },
-    "/tools/ai/notebooklm/": {
+    "/ai/notebooklm/": {
         "id": 363,
         "title": "NotebookLM",
         "summary": "A quick review and test drive of Google's NotebookLM research and writing assistant.",
@@ -249,7 +249,7 @@
             "Rust"
         ]
     },
-    "/tools/ai/base44/": {
+    "/ai/base44/": {
         "id": 360,
         "title": "Base44",
         "summary": "A quick review and test drive of Base44 AI-powered app builder and hosting solution.",
@@ -385,7 +385,7 @@
             "Ruby"
         ]
     },
-    "/tools/ai/tiktokenizer/": {
+    "/ai/tiktokenizer/": {
         "id": 344,
         "title": "Tiktokenizer",
         "summary": "Tiktokenizer is a playground for simulating and visualising the tokenization performed by various LLMs.",
@@ -394,7 +394,7 @@
             "AI"
         ]
     },
-    "/tools/ai/leaderboards/": {
+    "/ai/leaderboards/": {
         "id": 343,
         "title": "AI Leaderboards",
         "summary": "Tracking some of the main AI leaderboards",
@@ -413,7 +413,7 @@
             "scheduling"
         ]
     },
-    "/tools/ai/tutorials/": {
+    "/ai/tutorials/": {
         "id": 341,
         "title": "AI Tutorials",
         "summary": "AI training and tutorials (mainly free)",
@@ -603,7 +603,7 @@
             "security"
         ]
     },
-    "/tools/ai/deepseek/": {
+    "/ai/deepseek/": {
         "id": 319,
         "title": "DeepSeek AI",
         "summary": "A first look at DeepSeek: its history, source, and a demonstration of running locally (macOS/apple silicon)",
@@ -799,7 +799,7 @@
             "tools"
         ]
     },
-    "/tools/ai/": {
+    "/ai/": {
         "id": 297,
         "title": "AI Tools",
         "summary": "A collection of AI tools that I've either used or would like to check out at some point",

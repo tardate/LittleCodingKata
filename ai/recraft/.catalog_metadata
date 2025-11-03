@@ -2,7 +2,7 @@
     "name": "Recraft AI",
     "description": "A quick review and test drive of recraft.ai for image generation and editing",
     "categories": "AI",
-    "relative_path": "tools/ai/recraft",
+    "relative_path": "ai/recraft",
     "updated_at": "2025-10-08T04:33:00Z",
     "created_at": "2025-10-08T04:33:00Z",
     "id": "#366"
