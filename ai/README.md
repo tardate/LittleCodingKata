@@ -14,6 +14,7 @@ See also:
 
 * [AI Leaderboards](./leaderboards/)
 * [AI Tutorials](./tutorials/)
+* [AI Use-cases](./use-cases/)
 * [AI Stash](https://www.aistash.co/) - the AI Tools directory.
 * [FREE Prompts Library ~ Sabrina Ramonov](https://prompts.sabrina.dev)
 * [TLDR AI Newsletter](https://a.tldrnewsletter.com/)

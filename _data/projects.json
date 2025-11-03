@@ -1,4 +1,12 @@
 {
+    "/ai/use-cases/": {
+        "id": 389,
+        "title": "AI Use-cases",
+        "summary": "Research on AI Use-cases, adoption strategies, successes and failures.",
+        "tags": [
+            "AI"
+        ]
+    },
     "/prolog/lists/": {
         "id": 388,
         "title": "List Manipulation with Prolog",
