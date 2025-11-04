@@ -6,6 +6,10 @@ Using Prolog to solve sudoku-style problems
 
 This is an exercise from [Seven Languages in Seven Weeks](../../books/seven-languages-in-seven-weeks/).
 
+## A 4x4 Solver
+
+To get a handle on the challenge, starting with a 4x4 [sudoku](https://en.wikipedia.org/wiki/Sudoku) solver.
+
 See [sudoku4x4.pl](./sudoku4x4.pl) for the full source. Here it is with annotated explanation:
 
 ### 1. Validation Rules
