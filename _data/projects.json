@@ -1,4 +1,12 @@
 {
+    "/prolog/sudoku/": {
+        "id": 390,
+        "title": "Solving Sudoku with Prolog",
+        "summary": "Using Prolog to solve sudoku-style problems",
+        "tags": [
+            "Prolog"
+        ]
+    },
     "/ai/use-cases/": {
         "id": 389,
         "title": "AI Use-cases",

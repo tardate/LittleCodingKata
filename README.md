@@ -1,6 +1,6 @@
-# 389 Little Coding Katas
+# 390 Little Coding Katas
 
-> Latest addition :sparkles: [AI Use-cases](./ai/use-cases) - Research on AI Use-cases, adoption strategies, successes and failures.
+> Latest addition :sparkles: [Solving Sudoku with Prolog](./prolog/sudoku) - Using Prolog to solve sudoku-style problems
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

@@ -1,4 +1,4 @@
-# #xxx Solving Sudoku with Prolog
+# #390 Solving Sudoku with Prolog
 
 Using Prolog to solve sudoku-style problems
 
