@@ -244,8 +244,8 @@ yes
 This is getting a little extreme, but let's extend this to a 16x16 solver.
 See [sudoku16x16.pl](./sudoku16x16.pl).
 
-I'm going to enter the values in decimal (0..15) but I want the result printed in hexadecimal (0..F).
-I could enter in hex, but I've have to use the even more inconvenient form with a prefix e.g. 0xF.
+I'm going to enter the values in decimal (0..15) but I want the result printed with a 1-digit hexadecimal (0..F).
+I could enter in hex, but it would need the even more inconvenient form with a prefix e.g. 0xF.
 
 ```sh
 $ gprolog --consult-file sudoku16x16.pl
