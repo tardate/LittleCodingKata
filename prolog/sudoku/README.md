@@ -26,7 +26,7 @@ valid([]).
 valid([Head|Tail]) :- fd_all_different(Head), valid(Tail).
 ```
 
-### 2. The main `sudoku/2` predicate
+### 2. The main sudoku predicate
 
 Allow the user to pass in a partially filled puzzle (with some known numbers) and get the `Solution` back filled in.
 
@@ -78,7 +78,7 @@ Each column collects one cell from each row:
   Col4 = [S14, S24, S34, S44],
 ```
 
-#### Define 2×2 squares (subgrids)
+#### Define 2×2 squares (sub-grids)
 
 Defines each smaller 2×2 block:
 
@@ -244,8 +244,8 @@ yes
 This is getting a little extreme, but let's extend this to a 16x16 solver.
 See [sudoku16x16.pl](./sudoku16x16.pl).
 
-Let's start with a basic decimal 0-15 square. I'm going to enter the values in decimal (0..15) but I want the result printed in Hex.
-I could enter in hex, but I've have to use the even more inconvenient form with a prefix i.e. 0xA.
+I'm going to enter the values in decimal (0..15) but I want the result printed in hexadecimal (0..F).
+I could enter in hex, but I've have to use the even more inconvenient form with a prefix e.g. 0xF.
 
 ```sh
 $ gprolog --consult-file sudoku16x16.pl
