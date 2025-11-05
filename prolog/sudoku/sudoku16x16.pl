@@ -4,23 +4,23 @@ valid([Head|Tail]) :- fd_all_different(Head), valid(Tail).
 sudoku(Puzzle, Solution) :-
   Solution = Puzzle,
   Puzzle = [
-            S00, S01, S02, S03, S04, S05, S06, S07, S08, S09, S0A, S0B, S0C, S0D, S0E, S0F,
-            S10, S11, S12, S13, S14, S15, S16, S17, S18, S19, S1A, S1B, S1C, S1D, S1E, S1F,
-            S20, S21, S22, S23, S24, S25, S26, S27, S28, S29, S2A, S2B, S2C, S2D, S2E, S2F,
-            S30, S31, S32, S33, S34, S35, S36, S37, S38, S39, S3A, S3B, S3C, S3D, S3E, S3F,
-            S40, S41, S42, S43, S44, S45, S46, S47, S48, S49, S4A, S4B, S4C, S4D, S4E, S4F,
-            S50, S51, S52, S53, S54, S55, S56, S57, S58, S59, S5A, S5B, S5C, S5D, S5E, S5F,
-            S60, S61, S62, S63, S64, S65, S66, S67, S68, S69, S6A, S6B, S6C, S6D, S6E, S6F,
-            S70, S71, S72, S73, S74, S75, S76, S77, S78, S79, S7A, S7B, S7C, S7D, S7E, S7F,
-            S80, S81, S82, S83, S84, S85, S86, S87, S88, S89, S8A, S8B, S8C, S8D, S8E, S8F,
-            S90, S91, S92, S93, S94, S95, S96, S97, S98, S99, S9A, S9B, S9C, S9D, S9E, S9F,
-            SA0, SA1, SA2, SA3, SA4, SA5, SA6, SA7, SA8, SA9, SAA, SAB, SAC, SAD, SAE, SAF,
-            SB0, SB1, SB2, SB3, SB4, SB5, SB6, SB7, SB8, SB9, SBA, SBB, SBC, SBD, SBE, SBF,
-            SC0, SC1, SC2, SC3, SC4, SC5, SC6, SC7, SC8, SC9, SCA, SCB, SCC, SCD, SCE, SCF,
-            SD0, SD1, SD2, SD3, SD4, SD5, SD6, SD7, SD8, SD9, SDA, SDB, SDC, SDD, SDE, SDF,
-            SE0, SE1, SE2, SE3, SE4, SE5, SE6, SE7, SE8, SE9, SEA, SEB, SEC, SED, SEE, SEF,
-            SF0, SF1, SF2, SF3, SF4, SF5, SF6, SF7, SF8, SF9, SFA, SFB, SFC, SFD, SFE, SFF
-            ],
+    S00, S01, S02, S03, S04, S05, S06, S07, S08, S09, S0A, S0B, S0C, S0D, S0E, S0F,
+    S10, S11, S12, S13, S14, S15, S16, S17, S18, S19, S1A, S1B, S1C, S1D, S1E, S1F,
+    S20, S21, S22, S23, S24, S25, S26, S27, S28, S29, S2A, S2B, S2C, S2D, S2E, S2F,
+    S30, S31, S32, S33, S34, S35, S36, S37, S38, S39, S3A, S3B, S3C, S3D, S3E, S3F,
+    S40, S41, S42, S43, S44, S45, S46, S47, S48, S49, S4A, S4B, S4C, S4D, S4E, S4F,
+    S50, S51, S52, S53, S54, S55, S56, S57, S58, S59, S5A, S5B, S5C, S5D, S5E, S5F,
+    S60, S61, S62, S63, S64, S65, S66, S67, S68, S69, S6A, S6B, S6C, S6D, S6E, S6F,
+    S70, S71, S72, S73, S74, S75, S76, S77, S78, S79, S7A, S7B, S7C, S7D, S7E, S7F,
+    S80, S81, S82, S83, S84, S85, S86, S87, S88, S89, S8A, S8B, S8C, S8D, S8E, S8F,
+    S90, S91, S92, S93, S94, S95, S96, S97, S98, S99, S9A, S9B, S9C, S9D, S9E, S9F,
+    SA0, SA1, SA2, SA3, SA4, SA5, SA6, SA7, SA8, SA9, SAA, SAB, SAC, SAD, SAE, SAF,
+    SB0, SB1, SB2, SB3, SB4, SB5, SB6, SB7, SB8, SB9, SBA, SBB, SBC, SBD, SBE, SBF,
+    SC0, SC1, SC2, SC3, SC4, SC5, SC6, SC7, SC8, SC9, SCA, SCB, SCC, SCD, SCE, SCF,
+    SD0, SD1, SD2, SD3, SD4, SD5, SD6, SD7, SD8, SD9, SDA, SDB, SDC, SDD, SDE, SDF,
+    SE0, SE1, SE2, SE3, SE4, SE5, SE6, SE7, SE8, SE9, SEA, SEB, SEC, SED, SEE, SEF,
+    SF0, SF1, SF2, SF3, SF4, SF5, SF6, SF7, SF8, SF9, SFA, SFB, SFC, SFD, SFE, SFF
+  ],
 
   fd_domain(Puzzle, 0, 15),
 
@@ -78,28 +78,28 @@ sudoku(Puzzle, Solution) :-
 
   valid([Row0, Row1, Row2, Row3, Row4, Row5, Row6, Row7, Row8, Row9, RowA, RowB, RowC, RowD, RowE, RowF]),
   valid([Col0, Col1, Col2, Col3, Col4, Col5, Col6, Col7, Col8, Col9, ColA, ColB, ColC, ColD, ColE, ColF]),
-  valid([Square0, Square1, Square2, Square3,
-         Square4, Square5, Square6, Square7,
-         Square8, Square9, SquareA, SquareB,
-         SquareC, SquareD, SquareE, SquareF
+  valid([
+    Square0, Square1, Square2, Square3,
+    Square4, Square5, Square6, Square7,
+    Square8, Square9, SquareA, SquareB,
+    SquareC, SquareD, SquareE, SquareF
   ]).
 
-safe_format_or_write(Value) :-
-    (   integer(Value)
-    ->  format('~16R', [Value])
-    ;   write(Value)
-    ).
+safe_format_or_write(Value) :- (
+  integer(Value) -> format('~16R', [Value]);
+  write(Value)
+).
 
 print_sudoku(List) :-
-    length(List, 256),
-    print_rows(List, 0).
+  length(List, 256),
+  print_rows(List, 0).
 print_rows([], _).
 print_rows([Head|Tail], Count) :-
-    write('    '),
-    safe_format_or_write(Head),
-    (Count mod 16 =:= 15 -> nl ; tab(3)),
-    NewCount is Count + 1,
-    print_rows(Tail, NewCount).
+  write('    '),
+  safe_format_or_write(Head),
+  (Count mod 16 =:= 15 -> nl ; tab(3)),
+  NewCount is Count + 1,
+  print_rows(Tail, NewCount).
 
 solve_and_print(Sudoku) :-
   sudoku(Sudoku, Solution),
