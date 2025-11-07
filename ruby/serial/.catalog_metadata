@@ -1,6 +1,6 @@
 {
     "name": "Serial Communications with Ruby",
-    "description": "Options for serial communications in Ruby as they stand in mid-2025",
+    "description": "Options for serial communications in Ruby as they stand in 2025",
     "categories": "Ruby",
     "relative_path": "ruby/serial",
     "updated_at": "2025-06-12T15:54:00Z",

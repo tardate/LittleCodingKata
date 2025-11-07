@@ -495,7 +495,7 @@
     "/ruby/serial/": {
         "id": 334,
         "title": "Serial Communications with Ruby",
-        "summary": "Options for serial communications in Ruby as they stand in mid-2025",
+        "summary": "Options for serial communications in Ruby as they stand in 2025",
         "tags": [
             "Ruby"
         ]
