@@ -1,37 +1,42 @@
 # #334 Serial Communications with Ruby
 
-Options for serial communications in Ruby as they stand in mid-2025.
+Options for serial communications in Ruby as they stand in 2025.
 
 ## Notes
+
+> NB: these notes have now been updated to reflect the renewed maintenance of the original serialport gem as of 2025-07-03.
 
 In the past I'd been accustomed to using the old
 [serialport](https://rubygems.org/gems/serialport)
 gem for serial communications.
 
-It has since fallen into a bit of disrepair:
+By early 2025 it had fallen into a bit of disrepair:
 failing to keep up with [ruby changes](https://github.com/hparra/ruby-serialport/issues/69),
 macOS compatibility,
 and looking for a [new maintainer](https://github.com/hparra/ruby-serialport/discussions/77).
 
-The following notes take some alternatives for a test drive, and also look at getting
-[serialport](https://rubygems.org/gems/serialport) working again.
+This prompted me to take a few alternatives for a test drive (the rubyserial and uart gems), and a [serialport fork](https://github.com/hparra/ruby-serialport/pull/79)
+by [larskanis](https://github.com/larskanis) that got the old gem working again.
 
-TLDR:
+Very happily, the serialport gem is back under active maintenance. Yay!
 
-* prefer the [uart](https://rubygems.org/gems/uart)
-* use the [serialport fork](https://github.com/hparra/ruby-serialport/pull/79) if serial port signal control is required
+* official repo has been transferred to <https://github.com/larskanis/ruby-serialport>
+* the [1.4.0](https://rubygems.org/gems/serialport/versions/1.4.0) release is now compatible with latest ruby and macOS releases.
 
-## The serialport gem - older but still widely used
+TLDR: as of late 2025, my general recommendation:
 
-The current released version of the
-[serialport](https://rubygems.org/gems/serialport)
-gem does not install on my macOS 15.5 on Apple Silicon with Ruby 3.3.3.
-Then native extensions cannot compile - see for example [gem_make.out.txt](./serialport_example/gem_make.out.txt).
+* prefer the [uart](https://rubygems.org/gems/uart) gem for simple uses
+* use [serialport >= 1.4.0](https://rubygems.org/gems/serialport) for more complex cases, especially if serial port signal control is required
 
-There is an update that addressed these issues, made by
-[larskanis](https://github.com/larskanis/ruby-serialport/tree/update)
-but [not yet released](https://github.com/hparra/ruby-serialport/pull/79).
-This is the version I am using, as specified in the [Gemfile](./serialport_example/Gemfile).
+## The serialport gem - older and still widely used
+
+The 1.3.2 version of the
+[serialport](https://rubygems.org/gems/serialport/versions/1.3.2)
+gem would not install on my macOS 15.5 on Apple Silicon with Ruby 3.3.3.
+The native extensions cannot compile - see for example [gem_make.out.txt](./serialport_example/gem_make.out.txt).
+
+These issues were addressed in [serialport >= 1.4.0](https://rubygems.org/gems/serialport).
+This is the version I am now using, as specified in the [Gemfile](./serialport_example/Gemfile).
 
 Key aspects of the serialport gem:
 
@@ -176,9 +181,8 @@ $
 
 * serialport gem
     * [rubygems](https://rubygems.org/gems/serialport)
-    * [documentation](https://www.rubydoc.info/gems/serialport/1.3.2)
+    * [documentation](https://www.rubydoc.info/gems/serialport/1.4.0)
     * [source](https://github.com/hparra/ruby-serialport/)
-    * working update: <https://github.com/larskanis/ruby-serialport/tree/update>
 * rubyserial gem
     * [rubygems](https://rubygems.org/gems/rubyserial)
     * [documentation](https://www.rubydoc.info/gems/rubyserial/0.6.0)
