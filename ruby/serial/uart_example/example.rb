@@ -16,7 +16,7 @@ baud_rate = baud_rate.to_i
 baud_rate = 115200 unless baud_rate > 0
 
 UART.open port_name, baud_rate, '8N1' do |socket|
-  puts "# UART demonstration"
+  puts '# UART demonstration'
   puts "# client initialised for : #{port_name}"
 
   socket.write "#{command}\r\n"

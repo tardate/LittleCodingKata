@@ -17,7 +17,7 @@ baud_rate = 115200 unless baud_rate > 0
 
 socket = Serial.new(port_name, baud_rate, 8, :none, 1)
 
-puts "# RubySerial demonstration"
+puts '# RubySerial demonstration'
 puts "# client initialised for : #{port_name}"
 
 socket.write "#{command}\r\n"

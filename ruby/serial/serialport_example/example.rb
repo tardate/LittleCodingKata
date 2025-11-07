@@ -18,7 +18,7 @@ baud_rate = 115200 unless baud_rate > 0
 socket = SerialPort.new(port_name, 'baud' => baud_rate, 'data_bits' => 8, 'stop_bits' => 1, 'parity' => SerialPort::NONE)
 socket.timeout = 1
 
-puts "# SerialPort demonstration"
+puts '# SerialPort demonstration'
 puts "# client initialised for : #{port_name}"
 puts "#     connection options : #{socket.modem_params.inspect}"
 puts "#                signals : #{socket.signals.inspect}"
