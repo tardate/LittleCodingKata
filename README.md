@@ -1,6 +1,6 @@
-# 390 Little Coding Katas
+# 391 Little Coding Katas
 
-> Latest addition :sparkles: [Solving Sudoku with Prolog](./prolog/sudoku) - Using Prolog to solve sudoku-style problems
+> Latest addition :sparkles: [maxMealPrepTasks](./ruby/max-meal-prep-tasks) - Using ruby to solve the meal preparation problem; cassidoo's interview question of the week (2025-11-24). We're trying to find the maximum number of tasks we can handle serially .. sounds like a production planning problem to me!
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

@@ -1,4 +1,14 @@
 {
+    "/ruby/max-meal-prep-tasks/": {
+        "id": 391,
+        "title": "maxMealPrepTasks",
+        "summary": "Using ruby to solve the meal preparation problem; cassidoo's interview question of the week (2025-11-24). We're trying to find the maximum number of tasks we can handle serially .. sounds like a production planning problem to me!",
+        "tags": [
+            "Ruby",
+            "cassidoo",
+            "scheduling"
+        ]
+    },
     "/prolog/sudoku/": {
         "id": 390,
         "title": "Solving Sudoku with Prolog",
