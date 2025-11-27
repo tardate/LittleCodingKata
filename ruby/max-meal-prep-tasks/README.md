@@ -1,4 +1,4 @@
-# #xxx maxMealPrepTasks
+# #391 maxMealPrepTasks
 
 Using ruby to solve the meal preparation problem; cassidoo's interview question of the week (2025-11-24).
 We're trying to find the maximum number of tasks we can handle serially .. sounds like a production planning problem to me!
