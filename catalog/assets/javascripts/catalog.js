@@ -111,7 +111,7 @@
           .appendTo($('#catalog-table_wrapper').find('.dataTables_filter'))
           .on('change', function() {
             var term = $(this).val();
-            var query = term ? '([^\w]|^)' + $(this).val() + '($|,)' : '';
+            var query = term ? '([^\w]|^)' + term + '($|,)' : '';
             instance.catalog_table.DataTable().column(2).search(query, true, false).draw();
           });
         $.ajax({
