@@ -110,10 +110,10 @@
         var categoryFilter = $('<select id="category-filter" class="form-control input-sm"><option value="">All Categories</option></select>')
           .appendTo($('#catalog-table_wrapper').find('.dataTables_filter'))
           .on('change', function() {
-            var val = $.fn.dataTable.util.escapeRegex($(this).val());
-            instance.catalog_table.DataTable().column(2).search(val ? val : '', true, false).draw();
+            var term = $(this).val();
+            var query = term ? '([^\w]|^)' + $(this).val() + '($|,)' : '';
+            instance.catalog_table.DataTable().column(2).search(query, true, false).draw();
           });
-
         $.ajax({
           url: './catalog/categories.json',
           success: function(data) {
