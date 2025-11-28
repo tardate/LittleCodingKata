@@ -1,7 +1,7 @@
 {
     "name": "Color Pickers for the Web",
     "description": "Looking at easy ways to enable a color picker on a web page",
-    "categories": "javascript, HTML5",
+    "categories": "javascript, HTML",
     "relative_path": "web/color_picker",
     "updated_at": "2021-04-09T16:14:56Z",
     "id": "#159",

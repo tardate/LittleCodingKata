@@ -1632,7 +1632,7 @@
     {
         "name": "Split Files",
         "description": "Split a text file into parts with simple shell utilities",
-        "categories": "bash, split, tail",
+        "categories": "bash",
         "relative_path": "bash/split_files",
         "updated_at": "2022-07-22T09:29:42Z",
         "id": "#228",
@@ -2322,7 +2322,7 @@
     {
         "name": "Color Pickers for the Web",
         "description": "Looking at easy ways to enable a color picker on a web page",
-        "categories": "javascript, HTML5",
+        "categories": "javascript, HTML",
         "relative_path": "web/color_picker",
         "updated_at": "2021-04-09T16:14:56Z",
         "id": "#159",
@@ -3022,7 +3022,7 @@
     {
         "name": "emacs",
         "description": "closer look at emacs",
-        "categories": "tools",
+        "categories": "tools, editors",
         "relative_path": "tools/emacs",
         "updated_at": "2019-12-14T14:52:24Z",
         "id": "#089",
