@@ -1411,9 +1411,7 @@
         "title": "Split Files",
         "summary": "Split a text file into parts with simple shell utilities",
         "tags": [
-            "bash",
-            "split",
-            "tail"
+            "bash"
         ]
     },
     "/docker/shell/": {
@@ -2016,7 +2014,7 @@
         "summary": "Looking at easy ways to enable a color picker on a web page",
         "tags": [
             "javascript",
-            "HTML5"
+            "HTML"
         ]
     },
     "/python/list_with_index/": {
@@ -2647,7 +2645,8 @@
         "title": "emacs",
         "summary": "closer look at emacs",
         "tags": [
-            "tools"
+            "tools",
+            "editors"
         ]
     },
     "/databases/prometheus/about/": {

@@ -1592,8 +1592,6 @@
     <summary>Split a text file into parts with simple shell utilities</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Split a text file into parts with simple shell utilities&lt;/p&gt;&lt;/div&gt;</content>
     <category term="bash"/>
-    <category term="split"/>
-    <category term="tail"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/docker/shell/</id>
@@ -2265,7 +2263,7 @@
     <summary>Looking at easy ways to enable a color picker on a web page</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Looking at easy ways to enable a color picker on a web page&lt;/p&gt;&lt;/div&gt;</content>
     <category term="javascript"/>
-    <category term="HTML5"/>
+    <category term="HTML"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/python/list_with_index/</id>
@@ -2967,6 +2965,7 @@
     <summary>closer look at emacs</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;closer look at emacs&lt;/p&gt;&lt;/div&gt;</content>
     <category term="tools"/>
+    <category term="editors"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/databases/prometheus/about/</id>
