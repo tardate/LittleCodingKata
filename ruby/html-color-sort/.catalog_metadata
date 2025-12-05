@@ -1,6 +1,6 @@
 {
     "name": "Sorting HTML Colors",
-    "description": "Using ruby to sort HTML Colors; cassidoo's interview question of the week (2025-12-01). But with one hand tied behind your back ... no built-in sorting methods allowed! Compared the intuitive insertion sort with a merge sort and benchmarked the difference.",
+    "description": "Using ruby to sort HTML Colors; cassidoo's interview question of the week (2025-12-01). But with one hand tied behind your back ... no built-in sorting methods allowed! I compare an intuitive insertion sort with a merge sort and benchmark the difference.",
     "categories": "Ruby, cassidoo",
     "relative_path": "ruby/html-color-sort",
     "updated_at": "2025-12-05T06:46:00Z",

@@ -1,6 +1,6 @@
 # 392 Little Coding Katas
 
-> Latest addition :sparkles: [Sorting HTML Colors](./ruby/html-color-sort) - Using ruby to sort HTML Colors; cassidoo's interview question of the week (2025-12-01). But with one hand tied behind your back ... no built-in sorting methods allowed! Compared the intuitive insertion sort with a merge sort and benchmarked the difference.
+> Latest addition :sparkles: [Sorting HTML Colors](./ruby/html-color-sort) - Using ruby to sort HTML Colors; cassidoo's interview question of the week (2025-12-01). But with one hand tied behind your back ... no built-in sorting methods allowed! I compare an intuitive insertion sort with a merge sort and benchmark the difference.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

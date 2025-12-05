@@ -18,8 +18,8 @@
     <link href="https://codingkata.tardate.com/ruby/html-color-sort/"/>
     <updated>2025-12-05T06:46:00Z</updated>
     <title>#392 Sorting HTML Colors</title>
-    <summary>Using ruby to sort HTML Colors; cassidoo's interview question of the week (2025-12-01). But with one hand tied behind your back ... no built-in sorting methods allowed! Compared the intuitive insertion sort with a merge sort and benchmarked the difference.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Using ruby to sort HTML Colors; cassidoo's interview question of the week (2025-12-01). But with one hand tied behind your back ... no built-in sorting methods allowed! Compared the intuitive insertion sort with a merge sort and benchmarked the difference.&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>Using ruby to sort HTML Colors; cassidoo's interview question of the week (2025-12-01). But with one hand tied behind your back ... no built-in sorting methods allowed! I compare an intuitive insertion sort with a merge sort and benchmark the difference.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using ruby to sort HTML Colors; cassidoo's interview question of the week (2025-12-01). But with one hand tied behind your back ... no built-in sorting methods allowed! I compare an intuitive insertion sort with a merge sort and benchmark the difference.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Ruby"/>
     <category term="cassidoo"/>
   </entry>

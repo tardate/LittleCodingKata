@@ -2,7 +2,7 @@
 
 Using ruby to sort HTML Colors; cassidoo's interview question of the week (2025-12-01).
 But with one hand tied behind your back ... no built-in sorting methods allowed!
-Compared the intuitive insertion sort with a merge sort and benchmarked the difference.
+I compare an intuitive insertion sort with a merge sort and benchmark the difference.
 
 ## Notes
 
@@ -55,11 +55,12 @@ These 16 were labeled as sRGB and included in the HTML 3.0 specification, which 
 Since we are only concerned with the 16 basic colors, a pre-determined dataset, it's tempting to just hard code the result!
 
 But let's not do that, as it spoils the fun.
-I'll approach this from an agnostic perspective of handling any 16 hex strings, so the constraints I'll apply:
+I'll approach this from an agnostic perspective of handling any list of hexadecimal strings, so the constraints I'll apply:
 
-* input will be "any 16 hex strings"
-    * although the example shows hex strings a simply 6 hex digits, I'll use that for output format, but assume the input could have leading `#`,`0x`
-* result will return them in sorted order (still strings, not converted into numbers)
+* input will be "any list of hex strings"
+    * no list length constraints
+    * although the example shows hex strings as simply 6 hex digits, I'll use that for output format, but assume the input could have leading `#`,`0x` or trailing `h`.
+* result will return them in sorted order as a list of hex strings (not converted into numbers)
 
 ## First Solution
 
@@ -89,7 +90,7 @@ Here's the basic implementation:
   end
 ```
 
-Does it work? Well, yes it seems to:
+Does it work? Well, yes it does:
 
 ```sh
 $ ./examples.rb "000003, 000001, 000004, 000002" postman
@@ -142,7 +143,7 @@ Calculating -------------------------------------
              postman    129.350 (± 3.9%) i/s    (7.73 ms/i) -    648.000 in   5.018421s
 ```
 
-## Using a Well-known Known Algorithm
+## Using a Well-known Algorithm
 
 [Sorting](https://en.wikipedia.org/wiki/Sorting_algorithm) is perhaps one of the most studied facets of computer science,
 so one would expect that we might be able to find better solutions.
@@ -150,10 +151,14 @@ so one would expect that we might be able to find better solutions.
 My initial "postman" algorithm is actually an [Insertion sort](https://en.wikipedia.org/wiki/Insertion_sort).
 Its worst case performance is `n^2`.
 
-There are a class of sorting algorithms with a worst case performance is `n log(n)`, such as:
+There are a class of sorting algorithms with a worst case performance of `n log(n)`, such as:
 
 * [Merge sort](https://en.wikipedia.org/wiki/Merge_sort)
 * [Timsort](https://en.wikipedia.org/wiki/Timsort)
+
+Even with 16 list elements, the performance differential becomes noticeable, and will only increase with longer lists:
+
+![sort-comparison](./assets/sort-comparison.png)
 
 Let's try an implementation of merge sort:
 
