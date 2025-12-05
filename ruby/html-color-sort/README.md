@@ -1,7 +1,8 @@
-# #xxx Sorting HTML Colors
+# #392 Sorting HTML Colors
 
 Using ruby to sort HTML Colors; cassidoo's interview question of the week (2025-12-01).
 But with one hand tied behind your back ... no built-in sorting methods allowed!
+Compared the intuitive insertion sort with a merge sort and benchmarked the difference.
 
 ## Notes
 
