@@ -66,7 +66,7 @@ class HexStringSorter
   end
 
   def merge_sort
-    as_hex_string_array merge_sort_impl(numeric_input)
+    as_hex_string_array merge_sort_impl numeric_input
   end
 
   alias default merge_sort

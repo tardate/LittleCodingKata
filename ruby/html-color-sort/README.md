@@ -143,7 +143,7 @@ Calculating -------------------------------------
              postman    129.350 (± 3.9%) i/s    (7.73 ms/i) -    648.000 in   5.018421s
 ```
 
-## Using a Well-known Algorithm
+## Finding a Better Algorithm
 
 [Sorting](https://en.wikipedia.org/wiki/Sorting_algorithm) is perhaps one of the most studied facets of computer science,
 so one would expect that we might be able to find better solutions.
@@ -160,7 +160,9 @@ Even with 16 list elements, the performance differential becomes noticeable, and
 
 ![sort-comparison](./assets/sort-comparison.png)
 
-Let's try an implementation of merge sort:
+I'm not going to compare all the possible algorithms,
+so let's just try merge sort.
+My ruby implementation is like this:
 
 ```ruby
 def merge_sort_impl(array)
@@ -204,7 +206,7 @@ Input: ["FFFF00", " 000000", " 000080", " 800000", " FFFFFF", " 008000", " 0000F
 Result: ["000000", "000080", "0000FF", "008000", "008080", "00FF00", "00FFFF", "800000", "800080", "808000", "808080", "C0C0C0", "FF0000", "FF00FF", "FFFF00", "FFFFFF"]
 ```
 
-So how does it compare on the 1000 item benchmark? Well, `merge_sort` is almost 10x faster than the insertion sort. Nice result!
+So how does it compare on the 1000 item benchmark? Well, merge sort is almost 10x faster than the insertion sort. Nice result!
 
 ```sh
 $ ./examples.rb '' benchmark
@@ -222,7 +224,7 @@ Comparison:
              postman:      127.9 i/s - 9.18x  slower
 ```
 
-If we test with the much smaller list of 16 colors, `merge_sort` is still almost twice as fast as the insertion sort.
+If we test with the much smaller list of 16 basic colors, merge sort is still almost twice as fast as the insertion sort.
 
 ```sh
 $ ./examples.rb '' benchmark 16
@@ -331,7 +333,7 @@ class HexStringSorter
   end
 
   def merge_sort
-    as_hex_string_array merge_sort_impl(numeric_input)
+    as_hex_string_array merge_sort_impl numeric_input
   end
 
   alias default merge_sort
