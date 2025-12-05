@@ -1,6 +1,6 @@
-# 391 Little Coding Katas
+# 392 Little Coding Katas
 
-> Latest addition :sparkles: [maxMealPrepTasks](./ruby/max-meal-prep-tasks) - Using ruby to solve the meal preparation problem; cassidoo's interview question of the week (2025-11-24). We're trying to find the maximum number of tasks we can handle serially .. sounds like a production planning problem to me!
+> Latest addition :sparkles: [Sorting HTML Colors](./ruby/html-color-sort) - Using ruby to sort HTML Colors; cassidoo's interview question of the week (2025-12-01). But with one hand tied behind your back ... no built-in sorting methods allowed! I compare an intuitive insertion sort with a merge sort and benchmark the difference.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

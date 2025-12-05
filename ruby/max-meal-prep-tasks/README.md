@@ -46,7 +46,7 @@ Let's go with that!
 
 Here's the approach:
 
-* first sort the items by start and end time (so we have earliest, shortests tasks first)
+* first sort the items by start and end time (so we have earliest, shortest tasks first)
 * iterate the list:
     * check if we can perform the task (based on start time)
     * if we can: add the task to our completed list
