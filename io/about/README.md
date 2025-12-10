@@ -28,31 +28,38 @@ Io is:
     * transparent futures
     * automatic lock detection
 
-
 ## Ubuntu Installation
 
 The last release for macOS was for Intel, so there are no binaries compatible with modern Apple Silicon machines.
-I'll do my test drive with Ubuntu on Intel..
+I'll do my test drive with Ubuntu (24.04.3 LTS) on Intel..
 
-Ubuntu 24.04.3 LTS
-sudo apt install alien build-essential libssl-dev libffi-dev libreadline-dev libncurses5-dev
-
-wget https://iobin.suspended-chord.info/linux/iobin-linux-x64-rpm-current.zip
-unzip iobin-linux-x64-rpm-current.zip 
-sudo alien --scripts IoLanguage-2013.11.05-Linux-x64.rpm
-sudo dpkg -i iolanguage_2013.11.05-2_amd64.deb 
+```sh
+$ sudo apt update
+$ sudo apt install alien build-essential libssl-dev libffi-dev libreadline-dev libncurses5-dev
+$ wget https://iobin.suspended-chord.info/linux/iobin-linux-x64-rpm-current.zip
+$ unzip iobin-linux-x64-rpm-current.zip
+$ sudo alien --scripts IoLanguage-2013.11.05-Linux-x64.rpm
+$ sudo dpkg -i iolanguage_2013.11.05-2_amd64.deb
 Selecting previously unselected package iolanguage.
 (Reading database ... 222438 files and directories currently installed.)
 Preparing to unpack iolanguage_2013.11.05-2_amd64.deb ...
 Unpacking iolanguage (2013.11.05-2) ...
 Setting up iolanguage (2013.11.05-2) ...
+```
+
+Verifying we have a working binary installed:
+
+```sh
 $ io --version
 Io Programming Language, v. 20110905
+```
 
 ## A Quick Test Drive
 
-### Lists
+Using the REPL to investigate some language features.
+Let's make a [list](https://iolanguage.org/reference/index.html#Core.List) and call some methods:
 
+```io
 $ io
 Io 20110905
 Io> mylist := list(1, 2, 3, 4)
@@ -61,64 +68,53 @@ Io> mylist sum
 ==> 10
 Io> mylist average
 ==> 2.5
+```
 
 ### Objects
 
-$ io animals.io 
+As a prototype language, new objects are created by cloning an existing object.
+The prototype [Object](https://iolanguage.org/reference/index.html#Core.Object)  contains a clone slot that is a CFuntion that creates new objects.
+
+The
+[animals.io](./animals.io) script is a quick demonstration:
+
+* creates a `hello` slot in the Animal base class for each animal to modify their characteristic "language"
+* creates a `speak` method on Animal that prints the `hello` message of the object concerned (polymorphism)
+* Cat and Dog animals created with their own version of `hello`
+* creates a list containing a Cat and Dog
+* iterate the list and get each animal to speak (virtual method invocation)
+
+```io
+Animal := Object clone
+Animal hello := "???"
+Animal speak := method(hello println)
+
+Cat := Animal clone
+Cat hello = "meow"
+
+Dog := Animal clone
+Dog hello = "woof"
+
+pets := list(Cat, Dog)
+pets foreach(speak)
+```
+
+Running the script:
+
+```sh
+$ io animals.io
 meow
 woof
-
-
-Io> Animal := Object clone
-==>  Animal_0x3b5996b0:
-  type             = "Animal"
-
-Io> Animal speak := "..."     
-==> ...
-Io> Cat := Animal clone
-==>  Cat_0x3b5d8400:
-  type             = "Cat"
-
-Io> Cat speak
-==> ...
-Io> Cat speak = "meow"
-==> meow
-Io> Cat speak
-==> meow
-Io> Dog := Animal clone
-==>  Dog_0x3b88edb0:
-  type             = "Dog"
-
-Io> Dog speak = "woof"
-==> woof
-Io> pets := list(Cat, Dog)
-==> list( Cat_0x3b5d8400:
-  speak            = "meow"
-  type             = "Cat"
-,  Dog_0x3b88edb0:
-  speak            = "woof"
-  type             = "Dog"
-)
-Io> pets foreach(speak)
-==> woof
-Io> 
-==> nil
-Io> pets
-==> list( Cat_0x3b5d8400:
-  speak            = "meow"
-  type             = "Cat"
-,  Dog_0x3b88edb0:
-  speak            = "woof"
-  type             = "Dog"
-)
-
+```
 
 ### Concurrency
 
 [shakespeare.io](./shakespeare.io)
 
+Running the script:
+
 ```sh
-$ io ./shakespeare.io 
+$ io shakespeare.io
 Cassius: You wrong me every way; you wrong me, Brutus.
 Brutus: I said an elder soldier, not a better.
 Cassius: I am.

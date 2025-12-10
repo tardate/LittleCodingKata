@@ -9,5 +9,4 @@ Dog := Animal clone
 Dog hello = "woof"
 
 pets := list(Cat, Dog)
-
 pets foreach(speak)
