@@ -1,22 +1,13 @@
-Object ancestors := method(
-	prototype := self proto  
-	if(prototype != Object,
-        writeln("Slots of ", prototype type, "\n---------------")
-        prototype slotNames foreach(slotName, writeln(slotName))
-        writeln
-        prototype ancestors))
-
-
 Animal := Object clone
-Animal speak := method(
-            "ambiguous animal noise" println)
+Animal hello := "???"
+Animal speak := method(hello println)
 
-Duck := Animal clone
-Duck speak := method(
-            "quack" println)
+Cat := Animal clone
+Cat hello = "meow"
 
-Duck walk := method(
-            "waddle" println)
+Dog := Animal clone
+Dog hello = "woof"
 
-disco := Duck clone
-disco ancestors
+pets := list(Cat, Dog)
+
+pets foreach(speak)
