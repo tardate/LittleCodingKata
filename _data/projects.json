@@ -1,4 +1,12 @@
 {
+    "/io/about/": {
+        "id": 393,
+        "title": "About Io",
+        "summary": "A quick review of the Io language. It perhaps became most famous after earning a chapter in Bruce Tate's Seven Languages in Seven Weeks.",
+        "tags": [
+            "Io"
+        ]
+    },
     "/ruby/html-color-sort/": {
         "id": 392,
         "title": "Sorting HTML Colors",

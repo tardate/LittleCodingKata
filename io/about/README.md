@@ -1,4 +1,4 @@
-# #xxx About Io
+# #393 About Io
 
 A quick review of the Io language. It perhaps became most famous after earning a chapter in
 Bruce Tate's [Seven Languages in Seven Weeks](../../books/seven-languages-in-seven-weeks/).
