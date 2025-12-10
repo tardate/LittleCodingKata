@@ -35,7 +35,8 @@ more than just a "Hello World" in each language; enough to get the true flavor o
     * 3.2 Day 1: Skipping School, Hanging Out
     * 3.3 Day 2: The Sausage King
     * 3.4 Day 3: The Parade and Other Strange Places
-    * 3.5 Wrapping Up lo
+    * 3.5 Wrapping Up Io
+    * See [LCK#393 About Io](../../io/about/)
 * 4 Prolog
     * 4.1 About Prolog
     * 4.2 Day 1: An Excellent Driver

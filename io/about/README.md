@@ -109,7 +109,39 @@ woof
 
 ### Concurrency
 
-[shakespeare.io](./shakespeare.io)
+Io has outstanding concurrency support:
+[threads](https://iolanguage.org/reference/index.html#Thread.Thread),
+[coroutines](https://iolanguage.org/reference/index.html#Core.Coroutine),
+actors, futures.
+
+The [shakespeare.io](./shakespeare.io) example demonstrates coroutines:
+
+* `yield` to another coroutine in the queue
+* `@@` invokes a method asynchronously (without returning a future; `@` returns a future)
+* `currentCoroutine` returns the currently running coroutine in Io state.
+* `pause` removes coroutine from the queue and yields to another coroutine. System exit is executed if no coroutines left.
+
+```io
+cassius := Object clone
+cassius speak := method(
+    "Cassius: You wrong me every way; you wrong me, Brutus." println
+    yield
+    "Cassius: I am." println
+    yield
+)
+
+brutus := Object clone
+brutus reply := method(
+    yield
+    "Brutus: I said an elder soldier, not a better." println
+    yield
+    "Brutus: If you were better, you should know it." println
+)
+
+cassius @@speak; brutus @@reply
+
+Coroutine currentCoroutine pause
+```
 
 Running the script:
 
