@@ -93,6 +93,23 @@ Deck shuffle := method(
 )
 ```
 
+Dealing just requires plucking the required number of cards from the deck.
+Handily, the
+[removeAt](https://iolanguage.org/reference/index.html#Core.List)
+method removes and returns the card at the specified index in one go.
+
+```io
+Deck draw := method(n,
+  result := list()
+  n repeat(
+    p := cards pick_index
+    drawn := cards removeAt(p)
+    result append(drawn)
+  )
+  result
+)
+```
+
 Let's test it out:
 
 ```sh
