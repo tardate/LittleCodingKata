@@ -1,6 +1,6 @@
 {
-    "name": "deck",
-    "description": "",
+    "name": "Deck of Cards",
+    "description": "Using the Io language to model a deck of cards, shuffle, and deal; cassidoo's interview question of the week (2025-12-08).",
     "categories": "Io, cassidoo",
     "relative_path": "io/deck"
 }
