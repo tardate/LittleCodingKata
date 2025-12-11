@@ -1,6 +1,6 @@
-# 393 Little Coding Katas
+# 394 Little Coding Katas
 
-> Latest addition :sparkles: [About Io](./io/about) - A quick review of the Io language. It perhaps became most famous after earning a chapter in Bruce Tate's Seven Languages in Seven Weeks.
+> Latest addition :sparkles: [Deck of Cards](./io/deck) - Using the Io language to model a deck of cards, shuffle, and deal; cassidoo's interview question of the week (2025-12-08).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
