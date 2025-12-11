@@ -135,7 +135,7 @@ Deck := Object clone do(
   # add a cards method to shuffle all the cards in the deck
   cards shuffle := method(
     for(i, 0, size - 1,
-	    swapIndices(i, pick_index)
+     swapIndices(i, pick_index)
     )
   )
 )
@@ -172,17 +172,17 @@ Deck deal := method(n,
 )
 
 writeln("Making a new deck of cards...")
-mydeck := Deck clone
-mydeck show_deck
-mydeck shuffle
-mydeck deal(5)
-mydeck deal(5)
-mydeck deal(2)
+my_deck := Deck clone
+my_deck show_deck
+my_deck shuffle
+my_deck deal(5)
+my_deck deal(5)
+my_deck deal(2)
 ```
 
 ## Credits and References
 
-* [cassidoo'sinterview question of the week (2025-12-08)](https://buttondown.com/cassidoo/archive/dont-watch-the-clock-do-what-it-does-keep-going)
+* [cassidoo's interview question of the week (2025-12-08)](https://buttondown.com/cassidoo/archive/dont-watch-the-clock-do-what-it-does-keep-going)
 * <https://en.wikipedia.org/wiki/Standard_52-card_deck>
 * [LCK#393 About Io](../about/)
 * <https://iolanguage.org/>

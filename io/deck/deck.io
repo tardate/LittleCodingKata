@@ -54,9 +54,9 @@ Deck deal := method(n,
 )
 
 writeln("Making a new deck of cards...")
-mydeck := Deck clone
-mydeck show_deck
-mydeck shuffle
-mydeck deal(5)
-mydeck deal(5)
-mydeck deal(2)
+my_deck := Deck clone
+my_deck show_deck
+my_deck shuffle
+my_deck deal(5)
+my_deck deal(5)
+my_deck deal(2)
