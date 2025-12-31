@@ -1,4 +1,4 @@
-# #xxx About Scala
+# #395 About Scala
 
 An overview of the Scala programming language, its features, and ecosystem. Includes setting up and running on macOS.
 

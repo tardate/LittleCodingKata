@@ -1,4 +1,13 @@
 {
+    "/scala/about/": {
+        "id": 395,
+        "title": "About Scala",
+        "summary": "An overview of the Scala programming language, its features, and ecosystem. Includes setting up and running on macOS.",
+        "tags": [
+            "Scala",
+            "macOS"
+        ]
+    },
     "/io/deck/": {
         "id": 394,
         "title": "Deck of Cards",
