@@ -1,0 +1,6 @@
+{
+    "name": "About Scala",
+    "description": "An overview of the Scala programming language, its features, and ecosystem. Includes setting up and running on macOS.",
+    "categories": "Scala, macOS",
+    "relative_path": "scala/about"
+}

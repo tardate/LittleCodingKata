@@ -50,6 +50,7 @@ more than just a "Hello World" in each language; enough to get the true flavor o
     * 5.3 Day 2: Clipping Bushes and Other New Tricks
     * 5.4 Day 3: Cutting Through the Fluff
     * 5.5 Wrapping Up Scala
+    * See [LCK#395 About Scala](../../scala/about/)
 * 6 Erlang
     * 6.1 Introducing Erlang
     * 6.2 Day 1: Appearing Human
