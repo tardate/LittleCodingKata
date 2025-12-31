@@ -1,6 +1,6 @@
 # 396 Little Coding Katas
 
-> Latest addition :sparkles: [replace-repeats](./scala/replace-repeats) - 
+> Latest addition :sparkles: [replaceRepeats](./scala/replace-repeats) - Using Scala to replace repeating digits in a number; cassidoo's interview question of the week (2025-12-29)
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
