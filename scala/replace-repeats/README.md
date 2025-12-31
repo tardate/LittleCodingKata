@@ -1,4 +1,4 @@
-# #xxx replaceRepeats
+# #396 replaceRepeats
 
 Using Scala to replace repeating digits in a number; cassidoo's interview question of the week (2025-12-29).
 

@@ -1,4 +1,12 @@
 {
+    "/scala/replace-repeats/": {
+        "id": 396,
+        "title": "replace-repeats",
+        "summary": "",
+        "tags": [
+            ""
+        ]
+    },
     "/scala/about/": {
         "id": 395,
         "title": "About Scala",

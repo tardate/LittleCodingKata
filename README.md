@@ -1,6 +1,6 @@
-# 395 Little Coding Katas
+# 396 Little Coding Katas
 
-> Latest addition :sparkles: [About Scala](./scala/about) - An overview of the Scala programming language, its features, and ecosystem. Includes setting up and running on macOS.
+> Latest addition :sparkles: [replace-repeats](./scala/replace-repeats) - 
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

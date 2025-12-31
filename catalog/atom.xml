@@ -7,12 +7,21 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-12-31T06:15:00Z</updated>
+  <updated>2025-12-31T07:41:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/scala/replace-repeats/</id>
+    <link href="https://codingkata.tardate.com/scala/replace-repeats/"/>
+    <updated>2025-12-31T07:41:00Z</updated>
+    <title>#396 replace-repeats</title>
+    <summary/>
+    <content type="html">&lt;div&gt;&lt;p /&gt;&lt;/div&gt;</content>
+    <category term=""/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/scala/about/</id>
     <link href="https://codingkata.tardate.com/scala/about/"/>
