@@ -30,7 +30,7 @@ def trial(s: String, n: Int, expected: String) = {
 
 
 @main
-def hello(): Unit =
+def main(): Unit =
   trial("1234500362000440", 0, "1234523623441")
   trial("000000000000", 0, "12")
   trial("123456789", 1, "123456789")
