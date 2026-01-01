@@ -4,7 +4,7 @@ An overview of the Scala programming language, its features, and ecosystem. Incl
 
 ## Notes
 
-Scala saw features in Bruce Tate's [Seven Languages in Seven Weeks](../../books/seven-languages-in-seven-weeks/).
+Scala features in Bruce Tate's [Seven Languages in Seven Weeks](../../books/seven-languages-in-seven-weeks/).
 
 ### Scala In a Nutshell
 
