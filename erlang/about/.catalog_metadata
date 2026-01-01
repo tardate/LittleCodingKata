@@ -1,0 +1,6 @@
+{
+    "name": "About Erlang",
+    "description": "An overview of the Erlang programming language, its features, and ecosystem. Includes setting up and running on macOS.",
+    "categories": "Erlang, macOS",
+    "relative_path": "erlang/about"
+}

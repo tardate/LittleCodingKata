@@ -57,6 +57,7 @@ more than just a "Hello World" in each language; enough to get the true flavor o
     * 6.3 Day 2: Changing Forms
     * 6.4 Day 3: The Red Pill
     * 6.5 Wrapping Up Erlang
+    * See [LCK#397 About Erlang](../../erlang/about/)
 * 7 Clojure
     * 7.1 Introducing Clojure
     * 7.2 Day 1: Training Luke
