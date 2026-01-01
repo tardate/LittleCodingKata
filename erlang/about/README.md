@@ -1,4 +1,4 @@
-# #xxx About Erlang
+# #397 About Erlang
 
 An overview of the Erlang programming language, its features, and ecosystem. Includes setting up and running on macOS.
 

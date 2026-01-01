@@ -1,4 +1,13 @@
 {
+    "/erlang/about/": {
+        "id": 397,
+        "title": "About Erlang",
+        "summary": "An overview of the Erlang programming language, its features, and ecosystem. Includes setting up and running on macOS.",
+        "tags": [
+            "Erlang",
+            "macOS"
+        ]
+    },
     "/scala/replace-repeats/": {
         "id": 396,
         "title": "replaceRepeats",
