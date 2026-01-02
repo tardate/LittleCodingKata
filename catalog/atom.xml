@@ -7,12 +7,22 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-01-01T10:51:00Z</updated>
+  <updated>2026-01-02T02:05:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/ruby40/</id>
+    <link href="https://codingkata.tardate.com/ruby/ruby40/"/>
+    <updated>2026-01-02T02:05:00Z</updated>
+    <title>#398 Ruby 4.0</title>
+    <summary>About Ruby 4.0 including installation on Apple Silicon.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;About Ruby 4.0 including installation on Apple Silicon.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Ruby"/>
+    <category term="macOS"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/erlang/about/</id>
     <link href="https://codingkata.tardate.com/erlang/about/"/>
@@ -425,6 +435,7 @@
     <summary>About Ruby 3.4 including installation on Apple Silicon.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;About Ruby 3.4 including installation on Apple Silicon.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Ruby"/>
+    <category term="macOS"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/array-accumulation-problem/</id>
@@ -879,6 +890,7 @@
     <summary>About Ruby 3.3 including installation on Apple Silicon.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;About Ruby 3.3 including installation on Apple Silicon.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Ruby"/>
+    <category term="macOS"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/ruby32/</id>
@@ -888,6 +900,7 @@
     <summary>About Ruby 3.2 including installation on Apple Silicon.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;About Ruby 3.2 including installation on Apple Silicon.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Ruby"/>
+    <category term="macOS"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/python/chatgpt/</id>

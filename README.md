@@ -1,6 +1,6 @@
-# 397 Little Coding Katas
+# 398 Little Coding Katas
 
-> Latest addition :sparkles: [About Erlang](./erlang/about) - An overview of the Erlang programming language, its features, and ecosystem. Includes setting up and running on macOS.
+> Latest addition :sparkles: [Ruby 4.0](./ruby/ruby40) - About Ruby 4.0 including installation on Apple Silicon.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

@@ -1,4 +1,4 @@
-# #xxx Ruby 4.0
+# #398 Ruby 4.0
 
 About Ruby 4.0 including installation on Apple Silicon.
 
