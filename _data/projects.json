@@ -1,4 +1,13 @@
 {
+    "/ruby/ruby40/": {
+        "id": 398,
+        "title": "Ruby 4.0",
+        "summary": "About Ruby 4.0 including installation on Apple Silicon.",
+        "tags": [
+            "Ruby",
+            "macOS"
+        ]
+    },
     "/erlang/about/": {
         "id": 397,
         "title": "About Erlang",
@@ -367,7 +376,8 @@
         "title": "Ruby 3.4",
         "summary": "About Ruby 3.4 including installation on Apple Silicon.",
         "tags": [
-            "Ruby"
+            "Ruby",
+            "macOS"
         ]
     },
     "/ruby/array-accumulation-problem/": {
@@ -774,7 +784,8 @@
         "title": "Ruby 3.3",
         "summary": "About Ruby 3.3 including installation on Apple Silicon.",
         "tags": [
-            "Ruby"
+            "Ruby",
+            "macOS"
         ]
     },
     "/ruby/ruby32/": {
@@ -782,7 +793,8 @@
         "title": "Ruby 3.2",
         "summary": "About Ruby 3.2 including installation on Apple Silicon.",
         "tags": [
-            "Ruby"
+            "Ruby",
+            "macOS"
         ]
     },
     "/python/chatgpt/": {
