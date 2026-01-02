@@ -1,6 +1,6 @@
-# 398 Little Coding Katas
+# 399 Little Coding Katas
 
-> Latest addition :sparkles: [Ruby 4.0](./ruby/ruby40) - About Ruby 4.0 including installation on Apple Silicon.
+> Latest addition :sparkles: [About Clojure](./clojure/about) - An overview of the Clojure programming language, its features, and ecosystem. Includes setting up and running on macOS.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

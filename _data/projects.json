@@ -1,4 +1,13 @@
 {
+    "/clojure/about/": {
+        "id": 399,
+        "title": "About Clojure",
+        "summary": "An overview of the Clojure programming language, its features, and ecosystem. Includes setting up and running on macOS.",
+        "tags": [
+            "Clojure",
+            "macOS"
+        ]
+    },
     "/ruby/ruby40/": {
         "id": 398,
         "title": "Ruby 4.0",

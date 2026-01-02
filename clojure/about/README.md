@@ -1,4 +1,4 @@
-# #xxx About Clojure
+# #399 About Clojure
 
 An overview of the Clojure programming language, its features, and ecosystem. Includes setting up and running on macOS.
 
