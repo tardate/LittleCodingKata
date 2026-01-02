@@ -64,6 +64,7 @@ more than just a "Hello World" in each language; enough to get the true flavor o
     * 7.3 Day 2: Yoda and the Force
     * 7.4 Day 3: An Eye for Evil
     * 7.5 Wrapping Up Clojure
+    * See [LCK#399 About Clojure](../../clojure/about/)
 * 8 Haskell
     * 8.1 Introducing Haskell
     * 8.2 Day 1: Logical
