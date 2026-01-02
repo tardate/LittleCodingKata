@@ -7,12 +7,22 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-01-02T02:05:00Z</updated>
+  <updated>2026-01-02T05:46:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/clojure/about/</id>
+    <link href="https://codingkata.tardate.com/clojure/about/"/>
+    <updated>2026-01-02T05:46:00Z</updated>
+    <title>#399 About Clojure</title>
+    <summary>An overview of the Clojure programming language, its features, and ecosystem. Includes setting up and running on macOS.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;An overview of the Clojure programming language, its features, and ecosystem. Includes setting up and running on macOS.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Clojure"/>
+    <category term="macOS"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/ruby40/</id>
     <link href="https://codingkata.tardate.com/ruby/ruby40/"/>

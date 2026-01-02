@@ -1,0 +1,9 @@
+{
+    "name": "About Clojure",
+    "description": "An overview of the Clojure programming language, its features, and ecosystem. Includes setting up and running on macOS.",
+    "categories": "Clojure, macOS",
+    "relative_path": "clojure/about",
+    "updated_at": "2026-01-02T05:46:00Z",
+    "created_at": "2026-01-02T05:46:00Z",
+    "id": "#399"
+}

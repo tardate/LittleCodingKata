@@ -9,49 +9,50 @@ Scala features in Bruce Tate's [Seven Languages in Seven Weeks](../../books/seve
 ### Scala In a Nutshell
 
 * **Scala is** a modern, statically typed programming language that runs on the JVM, designed to combine object-oriented and functional programming in a concise, expressive syntax.
-
 * **Scala has** powerful language features such as type inference, immutability by default, pattern matching, higher-order functions, traits (for flexible composition), case classes, and seamless interoperability with Java and existing JVM libraries.
-
 * **Scala has** a strong ecosystem, including build tools like **sbt**, popular frameworks and libraries such as **Akka**, **Play**, **Cats**, **ZIO**, and **Spark** (where Scala is the primary language), making it common in data engineering, distributed systems, and backend services.
-
 * **Scala has** multiple runtime targets beyond the JVM, including **Scala.js** (JavaScript) and **Scala Native**, allowing shared code across server, browser, and native applications.
-
 * **Scala is governed by** a combination of stewardship from **Lightbend** (the original creators), the **Scala Center** (which supports open-source development and education), and an open, community-driven language evolution process through **Scala Improvement Proposals (SIPs)**.
-
 * **Scala has** an active global community of developers, researchers, and companies, with strong ties to academia and industry, and a culture that emphasizes functional programming principles, type safety, and scalable system design.
 
 ### Why Scala?
 
-**Why use Scala?**
-
 * **Expressiveness without losing performance**
   Scala lets you write very concise, high-level code (especially with functional patterns) while still compiling to fast JVM bytecode.
-
 * **Best of OO and functional programming**
   You can model domains with objects *and* lean on functional techniques like immutability, pure functions, and algebraic data types—useful for complex, evolving systems.
-
 * **Strong static typing that scales**
   Scala’s type system catches many errors at compile time without excessive verbosity, which pays off in large or long-lived codebases.
-
 * **First-class JVM interoperability**
   You can use any Java library directly, migrate Java code incrementally, and deploy on mature JVM infrastructure (monitoring, profiling, cloud tooling).
-
 * **Excellent for concurrency and distributed systems**
   Functional patterns plus libraries like **Akka**, **ZIO**, and **Cats Effect** make it easier to reason about concurrency, fault tolerance, and parallelism.
-
 * **Industry standard for big data**
   **Apache Spark** is written in Scala and exposes its most natural API in Scala, making it a top choice for data engineering and analytics.
-
 * **Multi-platform reach**
   With **Scala.js** and **Scala Native**, you can share core logic across backend, frontend, and native code.
-
 * **Good fit for complex domains**
   When business rules, state transitions, or invariants are tricky, Scala’s pattern matching and type system help encode correctness directly in the code.
-
 * **Active ecosystem and serious users**
   Backed by a strong open-source community and used in production by many tech and data-driven companies.
 
 **In short:** use Scala when you want *Java-level performance and ecosystem* with *much stronger abstraction, correctness, and expressiveness*—especially for large, concurrent, or data-heavy systems.
+
+### Seven Languages in Seven Weeks: Wrapping Up Scala
+
+Core Strengths
+
+* Concurrency
+* Evolution of Legacy Java
+* Domain-Specific Languages
+* XML
+* Bridging
+
+Weaknesses
+
+* Static Typing
+* Syntax
+* Mutability
 
 ## Test drive: Scala on macOS
 

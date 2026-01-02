@@ -8,42 +8,42 @@ Erlang features in Bruce Tate's [Seven Languages in Seven Weeks](../../books/sev
 
 ### Erlang In a Nutshell
 
-* **Erlang is…**
+Erlang is..
 
-    * A **functional, concurrent programming language** designed for building **highly available, fault-tolerant, distributed systems**.
-    * Originally developed at **Ericsson** for telecom switches, where **99.999% uptime** was a hard requirement.
-    * A language that follows the philosophy **“let it crash”**, relying on supervision rather than defensive coding.
-    * Particularly well suited to **soft real-time systems** where low latency and continuous operation matter more than raw throughput.
+* A **functional, concurrent programming language** designed for building **highly available, fault-tolerant, distributed systems**.
+* Originally developed at **Ericsson** for telecom switches, where **99.999% uptime** was a hard requirement.
+* A language that follows the philosophy **“let it crash”**, relying on supervision rather than defensive coding.
+* Particularly well suited to **soft real-time systems** where low latency and continuous operation matter more than raw throughput.
 
-* **Erlang has…**
+Erlang has..
 
-    * **Lightweight processes** (not OS threads) that can scale to **millions of concurrent processes**.
-    * **Message-passing concurrency** with no shared mutable state, avoiding locks and data races.
-    * **Immutable data** and strong pattern matching for clear, declarative code.
-    * **Hot code swapping**, allowing systems to be upgraded **without downtime**.
-    * **Built-in distribution**, making it easy to run the same program across multiple nodes.
-    * The **BEAM virtual machine**, optimized for concurrency, isolation, and fault tolerance.
-    * **OTP (Open Telecom Platform)**: a mature set of frameworks and behaviours (e.g. `gen_server`, `supervisor`, `application`) that encode best practices.
-    * A stable but conservative standard library, prioritising reliability over rapid change.
+* **Lightweight processes** (not OS threads) that can scale to **millions of concurrent processes**.
+* **Message-passing concurrency** with no shared mutable state, avoiding locks and data races.
+* **Immutable data** and strong pattern matching for clear, declarative code.
+* **Hot code swapping**, allowing systems to be upgraded **without downtime**.
+* **Built-in distribution**, making it easy to run the same program across multiple nodes.
+* The **BEAM virtual machine**, optimized for concurrency, isolation, and fault tolerance.
+* **OTP (Open Telecom Platform)**: a mature set of frameworks and behaviours (e.g. `gen_server`, `supervisor`, `application`) that encode best practices.
+* A stable but conservative standard library, prioritising reliability over rapid change.
 
-* **Erlang’s ecosystem includes…**
+Erlang’s ecosystem includes..
 
-    * Widely used platforms and tools such as **RabbitMQ**, **CouchDB**, **Riak**, and parts of **WhatsApp**’s backend.
-    * The **Hex package manager** and **Rebar3** build tool.
-    * Close interoperability and shared tooling with **Elixir**, which also runs on the BEAM.
-    * Strong suitability for **telecoms, messaging systems, distributed databases, and real-time backends**.
+* Widely used platforms and tools such as **RabbitMQ**, **CouchDB**, **Riak**, and parts of **WhatsApp**’s backend.
+* The **Hex package manager** and **Rebar3** build tool.
+* Close interoperability and shared tooling with **Elixir**, which also runs on the BEAM.
+* Strong suitability for **telecoms, messaging systems, distributed databases, and real-time backends**.
 
-* **Erlang is governed by…**
+Erlang is governed by..
 
-    * The **Open Telecom Platform (OTP)** project, now maintained under the **Erlang/OTP open-source community**.
-    * A **core team of maintainers**, with contributions from industry and academia.
-    * A culture that values **stability, backwards compatibility, and correctness** over rapid feature churn.
+* The **Open Telecom Platform (OTP)** project, now maintained under the **Erlang/OTP open-source community**.
+* A **core team of maintainers**, with contributions from industry and academia.
+* A culture that values **stability, backwards compatibility, and correctness** over rapid feature churn.
 
-* **Erlang’s community is…**
+Erlang’s community is..
 
-    * Relatively **small but highly experienced**, with many practitioners coming from large-scale production systems.
-    * Strongly opinionated about **fault tolerance, supervision, and system design**.
-    * Closely connected to the **Elixir community**, which has broadened the BEAM ecosystem and renewed interest in Erlang concepts.
+* Relatively **small but highly experienced**, with many practitioners coming from large-scale production systems.
+* Strongly opinionated about **fault tolerance, supervision, and system design**.
+* Closely connected to the **Elixir community**, which has broadened the BEAM ecosystem and renewed interest in Erlang concepts.
 
 ### Seven Languages in Seven Weeks: Wrapping Up Erlang
 
