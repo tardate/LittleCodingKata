@@ -1,6 +1,6 @@
 {
     "name": "Ruby 3.3",
-    "description": "About Ruby 3.3 including installation on Apple Silicon.",
+    "description": "About Ruby 3.3 including installation on Apple Silicon. Updated to 3.3.10 released 2025-10-23.",
     "categories": "Ruby, macOS",
     "relative_path": "ruby/ruby33",
     "updated_at": "2024-11-13T05:19:00Z",
