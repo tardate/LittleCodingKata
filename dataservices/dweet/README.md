@@ -1,4 +1,4 @@
-# #xxx About dweet.cc
+# #400 About dweet.cc
 
 Dweet.cc provides simple machine-to-machine messaging over HTTPS.
 No setup. No auth. Just post and get lightweight JSON.

@@ -1,6 +1,6 @@
-# 399 Little Coding Katas
+# 400 Little Coding Katas
 
-> Latest addition :sparkles: [About Clojure](./clojure/about) - An overview of the Clojure programming language, its features, and ecosystem. Includes setting up and running on macOS.
+> Latest addition :sparkles: [About dweet.cc](./dataservices/dweet) - Dweet.cc provides simple machine-to-machine messaging over HTTPS. No setup. No auth. Just post and get lightweight JSON.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

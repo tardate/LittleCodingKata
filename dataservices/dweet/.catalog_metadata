@@ -2,5 +2,8 @@
     "name": "About dweet.cc",
     "description": "Dweet.cc provides simple machine-to-machine messaging over HTTPS. No setup. No auth. Just post and get lightweight JSON.",
     "categories": "Data Services, IoT",
-    "relative_path": "dataservices/dweet"
+    "relative_path": "dataservices/dweet",
+    "updated_at": "2026-01-06T06:29:00Z",
+    "created_at": "2026-01-06T06:29:00Z",
+    "id": "#400"
 }

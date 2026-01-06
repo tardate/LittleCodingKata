@@ -1,5 +1,15 @@
 [
     {
+        "name": "About dweet.cc",
+        "description": "Dweet.cc provides simple machine-to-machine messaging over HTTPS. No setup. No auth. Just post and get lightweight JSON.",
+        "categories": "Data Services, IoT",
+        "relative_path": "dataservices/dweet",
+        "updated_at": "2026-01-06T06:29:00Z",
+        "created_at": "2026-01-06T06:29:00Z",
+        "id": "#400",
+        "original_relative_path": "dataservices/dweet"
+    },
+    {
         "name": "About Clojure",
         "description": "An overview of the Clojure programming language, its features, and ecosystem. Includes setting up and running on macOS.",
         "categories": "Clojure, macOS",
