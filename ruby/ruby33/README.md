@@ -1,12 +1,14 @@
 # #310 Ruby 3.3
 
-About Ruby 3.3 including installation on Apple Silicon.
+About Ruby 3.3 including installation on Apple Silicon. Updated to 3.3.10 released 2025-10-23.
 
 ## Notes
 
 [Ruby 3.3](https://rubyreferences.github.io/rubychanges/3.3.html)
 was [released on 2023-12-25](https://github.com/ruby/ruby/blob/ruby_3_3/NEWS.md).
-As of 2024-11-05, [3.3.6](https://www.ruby-lang.org/en/news/2024/11/05/ruby-3-3-6-released/) is current stable.
+These notes originally made with [3.3.6](https://www.ruby-lang.org/en/news/2024/11/05/ruby-3-3-6-released/).
+
+As of 2025-10-23, [3.3.10](https://www.ruby-lang.org/en/news/2025/10/23/ruby-3-3-10-released/) is current stable.
 
 Highlights
 
@@ -60,6 +62,43 @@ Checking version installed:
 ```bash
 $ ruby -v
 ruby 3.3.3 (2024-06-12 revision f1c7b6f435) [arm64-darwin24]
+```
+
+### 3.3.10 Update
+
+```sh
+$ rvm install ruby-3.3.10
+...
+Requirements installation successful.
+Installing Ruby from source to: /Users/paulgallagher/.rvm/rubies/ruby-3.3.10, this may take a while depending on your cpu(s)...
+ruby-3.3.10 - #downloading ruby-3.3.10, this may take a while depending on your connection...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 21.2M  100 21.2M    0     0  4091k      0  0:00:05  0:00:05 --:--:-- 5328k
+ruby-3.3.10 - #extracting ruby-3.3.10 to /Users/paulgallagher/.rvm/src/ruby-3.3.10.....
+ruby-3.3.10 - #autogen.sh.
+ruby-3.3.10 - #configuring....................................................................
+ruby-3.3.10 - #post-configuration.
+ruby-3.3.10 - #compiling.....................................................................................................
+ruby-3.3.10 - #installing................
+ruby-3.3.10 - #making binaries executable...
+Installed rubygems 3.5.22 is newer than 3.0.9 provided with installed ruby, skipping installation, use --force to force installation.
+ruby-3.3.10 - #gemset created /Users/paulgallagher/.rvm/gems/ruby-3.3.10@global
+ruby-3.3.10 - #importing gemset /Users/paulgallagher/.rvm/gemsets/global.gems.......................................................
+ruby-3.3.10 - #generating global wrappers........
+ruby-3.3.10 - #gemset created /Users/paulgallagher/.rvm/gems/ruby-3.3.10
+ruby-3.3.10 - #importing gemsetfile /Users/paulgallagher/.rvm/gemsets/default.gems evaluated to empty gem list
+ruby-3.3.10 - #generating default wrappers........
+ruby-3.3.10 - #adjusting #shebangs for (gem irb erb ri rdoc testrb rake).
+Install of ruby-3.3.10 - #complete
+Ruby was built without documentation, to build it run: rvm docs generate-ri
+```
+
+Checking version installed:
+
+```bash
+$ ruby -v
+ruby 3.3.10 (2025-10-23 revision 343ea05002) [arm64-darwin24]
 ```
 
 ## Credits and References
