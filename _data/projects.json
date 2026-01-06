@@ -1,4 +1,13 @@
 {
+    "/dataservices/dweet/": {
+        "id": 400,
+        "title": "About dweet.cc",
+        "summary": "Dweet.cc provides simple machine-to-machine messaging over HTTPS. No setup. No auth. Just post and get lightweight JSON.",
+        "tags": [
+            "Data Services",
+            "IoT"
+        ]
+    },
     "/clojure/about/": {
         "id": 399,
         "title": "About Clojure",
