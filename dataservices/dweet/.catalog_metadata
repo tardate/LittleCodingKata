@@ -1,0 +1,6 @@
+{
+    "name": "About dweet.cc",
+    "description": "Dweet.cc provides simple machine-to-machine messaging over HTTPS. No setup. No auth. Just post and get lightweight JSON.",
+    "categories": "Data Services, IoT",
+    "relative_path": "dataservices/dweet"
+}
