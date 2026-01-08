@@ -1,5 +1,15 @@
 [
     {
+        "name": "maxScoreWithOneReset",
+        "description": "Using Erlang to maximise the sum of an array with 1 reset allowed; cassidoo's interview question of the week (2026-01-05).",
+        "categories": "Erlang, cassidoo",
+        "relative_path": "erlang/max-score-with-one-reset",
+        "updated_at": "2026-01-08T06:05:00Z",
+        "created_at": "2026-01-08T06:05:00Z",
+        "id": "#401",
+        "original_relative_path": "erlang/max-score-with-one-reset"
+    },
+    {
         "name": "About dweet.cc",
         "description": "Dweet.cc provides simple machine-to-machine messaging over HTTPS. No setup. No auth. Just post and get lightweight JSON.",
         "categories": "Data Services, IoT",
