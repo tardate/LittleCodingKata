@@ -1,6 +1,6 @@
-# 400 Little Coding Katas
+# 401 Little Coding Katas
 
-> Latest addition :sparkles: [About dweet.cc](./dataservices/dweet) - Dweet.cc provides simple machine-to-machine messaging over HTTPS. No setup. No auth. Just post and get lightweight JSON.
+> Latest addition :sparkles: [maxScoreWithOneReset](./erlang/max-score-with-one-reset) - Using Erlang to maximise the sum of an array with 1 reset allowed; cassidoo's interview question of the week (2026-01-05).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

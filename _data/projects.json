@@ -1,4 +1,13 @@
 {
+    "/erlang/max-score-with-one-reset/": {
+        "id": 401,
+        "title": "maxScoreWithOneReset",
+        "summary": "Using Erlang to maximise the sum of an array with 1 reset allowed; cassidoo's interview question of the week (2026-01-05).",
+        "tags": [
+            "Erlang",
+            "cassidoo"
+        ]
+    },
     "/dataservices/dweet/": {
         "id": 400,
         "title": "About dweet.cc",

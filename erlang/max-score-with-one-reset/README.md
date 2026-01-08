@@ -1,4 +1,4 @@
-# #xxx maxScoreWithOneReset
+# #401 maxScoreWithOneReset
 
 Using Erlang to maximise the sum of an array with 1 reset allowed; cassidoo's interview question of the week (2026-01-05).
 
