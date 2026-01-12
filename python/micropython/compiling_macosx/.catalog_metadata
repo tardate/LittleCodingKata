@@ -1,9 +1,0 @@
-{
-    "id": "#208",
-    "name": "Building MicroPython on macOS",
-    "description": "Building MicroPython on macOS",
-    "categories": "python, MicroPython",
-    "relative_path": "python/micropython/compiling_macosx",
-    "updated_at": "2021-11-02T14:53:49Z",
-    "created_at": "2021-11-02T14:53:49Z"
-}

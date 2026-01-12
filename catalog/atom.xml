@@ -1882,14 +1882,16 @@
     <category term="python"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/python/micropython/compiling_macosx/</id>
-    <link href="https://codingkata.tardate.com/python/micropython/compiling_macosx/"/>
+    <id>https://codingkata.tardate.com/python/micropython/compiling-for-pc/</id>
+    <link href="https://codingkata.tardate.com/python/micropython/compiling-for-pc/"/>
     <updated>2021-11-02T14:53:49Z</updated>
     <title>#208 Building MicroPython on macOS</title>
-    <summary>Building MicroPython on macOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Building MicroPython on macOS&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>Quick notes building MicroPython on desktop hardware. First tested with macOS/Intel, updated Jan-2026 with macOS on Apple Silicon and Ubuntu 24.04.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Quick notes building MicroPython on desktop hardware. First tested with macOS/Intel, updated Jan-2026 with macOS on Apple Silicon and Ubuntu 24.04.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="python"/>
     <category term="MicroPython"/>
+    <category term="macOS"/>
+    <category term="Ubuntu"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/go/install_macosx/</id>
