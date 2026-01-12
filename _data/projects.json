@@ -1673,13 +1673,15 @@
             "python"
         ]
     },
-    "/python/micropython/compiling_macosx/": {
+    "/python/micropython/compiling-for-pc/": {
         "id": 208,
         "title": "Building MicroPython on macOS",
-        "summary": "Building MicroPython on macOS",
+        "summary": "Quick notes building MicroPython on desktop hardware. First tested with macOS/Intel, updated Jan-2026 with macOS on Apple Silicon and Ubuntu 24.04.",
         "tags": [
             "python",
-            "MicroPython"
+            "MicroPython",
+            "macOS",
+            "Ubuntu"
         ]
     },
     "/go/install_macosx/": {

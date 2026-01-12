@@ -1,0 +1,9 @@
+{
+    "id": "#208",
+    "name": "Building MicroPython on macOS",
+    "description": "Quick notes building MicroPython on desktop hardware. First tested with macOS/Intel, updated Jan-2026 with macOS on Apple Silicon and Ubuntu 24.04.",
+    "categories": "python, MicroPython, macOS, Ubuntu",
+    "relative_path": "python/micropython/compiling-for-pc",
+    "updated_at": "2021-11-02T14:53:49Z",
+    "created_at": "2021-11-02T14:53:49Z"
+}
