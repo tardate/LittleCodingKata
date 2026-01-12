@@ -175,7 +175,10 @@ Color::YIQ.from_values(30, 20, 10)
 
 ### Example
 
-See [examples.rb](./examples.rb) for a quick play with the library:
+See [examples.rb](./examples.rb) for a quick play with the library.
+This includes testing all the available conversion functions.
+Note that versions prior to [2.1.2](https://rubygems.org/gems/color/versions/2.1.2) were missing
+a few conversion methods for CIELAB and Grayscale.
 
 ```sh
 $ ./examples.rb
@@ -250,6 +253,7 @@ Color::CIELAB.new(10, 35, -35).to_grayscale       : #<data Color::Grayscale g=0.
 Color::CIELAB.new(10, 35, -35).to_hsl             : #<data Color::HSL h=0.7643298198501555, s=0.9525229783960389, l=0.15259972062369795>
 Color::CIELAB.new(10, 35, -35).to_rgb             : #<data Color::RGB r=0.17759460755370857, g=0.007244980232809748, b=0.29795446101458617, names=nil>
 Color::CIELAB.new(10, 35, -35).to_xyz             : #<data Color::XYZ x=0.024186512981709044, y=0.01126019927016278, z=0.06923404515364971>
+Color::CIELAB.new(10, 35, -35).to_yiq             : #<data Color::YIQ y=0.09132039961088101, i=0.00821063455230546, q=0.126524769515163>
 Color::CIELAB.new(10, 35, -35).to_internal        : [10, 35, -35]
 Color::CIELAB.new(10, 35, -35).delta_e2000(Color::RGB.from_html('#0000FF')) : 24.118528112469036
 Color::CIELAB.new(10, 35, -35).delta_e94(Color::RGB.from_html('#0000FF')) : 35.07142143308636
@@ -295,6 +299,7 @@ Color::Grayscale.new(0.5).to_cmyk                 : #<data Color::CMYK c=0.0, m=
 Color::Grayscale.new(0.5).to_hsl                  : #<data Color::HSL h=0.0, s=0.0, l=0.5>
 Color::Grayscale.new(0.5).to_lab                  : #<data Color::CIELAB l=53.38896705407974, a=0.004180380146878715, b=-0.00085701884331435>
 Color::Grayscale.new(0.5).to_rgb                  : #<data Color::RGB r=0.5, g=0.5, b=0.5, names=nil>
+Color::Grayscale.new(0.5).to_xyz                  : #<data Color::XYZ x=0.2034396827941476, y=0.21404116188634664, z=0.23305441499126928>
 Color::Grayscale.new(0.5).to_yiq                  : #<data Color::YIQ y=0.5, i=0.0, q=0.0>
 Color::Grayscale.new(0.5).to_internal             : [0.5]
 Color::Grayscale.new(0.5).lighten_by(20)          : #<data Color::Grayscale g=0.6>
