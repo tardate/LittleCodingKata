@@ -1,4 +1,4 @@
-# #xxx hungryBears
+# #402 hungryBears
 
 Using Clojure to find the bears that are more hungry than average; cassidoo's interview question of the week (2026-01-12).
 
