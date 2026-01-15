@@ -120,7 +120,7 @@ A simple program with 1 library dependency. See sources:
 
 This program has an entry function `run` that can be executed by `clj` using `-X`:
 
-```clojure
+```sh
 $ clj -X hello/run
 Hello world, the time is 01:41 pm
 ```
