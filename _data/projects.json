@@ -1,4 +1,13 @@
 {
+    "/clojure/hungry-bears/": {
+        "id": 402,
+        "title": "hungryBears",
+        "summary": "Using Clojure to find the bears that are more hungry than average; cassidoo's interview question of the week (2026-01-12).",
+        "tags": [
+            "Clojure",
+            "cassidoo"
+        ]
+    },
     "/erlang/max-score-with-one-reset/": {
         "id": 401,
         "title": "maxScoreWithOneReset",
