@@ -1,4 +1,4 @@
-# #xxx konamiMapping
+# #403 konamiMapping
 
 Using ruby to find a mapping that reveals the Konami Code in a string; cassidoo's interview question of the week (2026-01-19).
 

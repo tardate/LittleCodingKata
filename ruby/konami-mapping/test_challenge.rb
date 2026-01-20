@@ -4,7 +4,7 @@ require 'minitest/autorun'
 require './challenge'
 
 
-class TestChallenge < Minitest::Test
+class TestKonamiMapping < Minitest::Test
   def test_example_a
     input = "xx2233454590yy11110"
     result = konamiMapping(input)
