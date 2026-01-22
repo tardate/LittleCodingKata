@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700&family=PT+Mono&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 4%;
+    --foreground: 30 25% 90%;
+    --card: 0 0% 6%;
+    --card-foreground: 30 25% 90%;
+    --popover: 0 0% 6%;
+    --popover-foreground: 30 25% 90%;
+    --primary: 330 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 100% 50%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 60%;
+    --accent: 180 100% 50%;
+    --accent-foreground: 0 0% 0%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 20%;
+    --input: 0 0% 15%;
+    --ring: 330 100% 50%;
+    --radius: 0.625rem;
+    --sidebar-background: 0 0% 8%;
+    --sidebar-foreground: 30 25% 90%;
+    --sidebar-primary: 330 100% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 15%;
+    --sidebar-accent-foreground: 30 25% 90%;
+    --sidebar-border: 0 0% 20%;
+    --sidebar-ring: 330 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cyber-dark text-foreground font-body antialiased;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .neon-text {
+    text-shadow: 
+      0 0 5px currentColor,
+      0 0 10px currentColor,
+      0 0 20px currentColor,
+      0 0 40px currentColor;
+  }
+  
+  .neon-border {
+    box-shadow: 
+      inset 0 0 10px rgba(255, 0, 128, 0.3),
+      0 0 10px rgba(255, 0, 128, 0.3),
+      0 0 20px rgba(255, 0, 128, 0.2),
+      0 0 30px rgba(255, 0, 128, 0.1);
+  }
+  
+  .glass-panel {
+    background: rgba(10, 10, 10, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .scanlines::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(0, 255, 255, 0.03) 50%,
+      transparent 100%
+    );
+    background-size: 100% 4px;
+    pointer-events: none;
+    z-index: 10;
+  }
+  
+  .cyber-grid {
+    background-image: 
+      linear-gradient(rgba(255, 0, 128, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 0, 128, 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+  
+  .fog-layer {
+    background: linear-gradient(
+      to top,
+      rgba(10, 22, 40, 0.8) 0%,
+      transparent 100%
+    );
+  }
+  
+  .glow-pink {
+    filter: drop-shadow(0 0 10px rgba(255, 0, 128, 0.8)) drop-shadow(0 0 20px rgba(255, 0, 128, 0.5));
+  }
+  
+  .glow-blue {
+    filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.8)) drop-shadow(0 0 20px rgba(0, 255, 255, 0.5));
+  }
+  
+  .glow-green {
+    filter: drop-shadow(0 0 10px rgba(57, 255, 20, 0.8)) drop-shadow(0 0 20px rgba(57, 255, 20, 0.5));
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, #ff0080, #8b00ff, #00ffff);
+  }
+  
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+  
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+  
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+  
+  .animate-delay-500 {
+    animation-delay: 500ms;
+  }
+  
+  .animate-delay-700 {
+    animation-delay: 700ms;
+  }
+  
+  .animate-delay-1000 {
+    animation-delay: 1000ms;
+  }
+  
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ff0080, #8b00ff);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #ff0080, #00ffff);
+}
+
+/* Selection */
+::selection {
+  background: rgba(255, 0, 128, 0.3);
+  color: #fff;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

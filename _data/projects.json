@@ -1,4 +1,12 @@
 {
+    "/ai/kimi/": {
+        "id": 404,
+        "title": "Moonshot AI: Kimi K2 Thinking",
+        "summary": "About Kimi K2 and Kimi K2 Thinking from Moonshot AI.",
+        "tags": [
+            "AI"
+        ]
+    },
     "/ruby/konami-mapping/": {
         "id": 403,
         "title": "konamiMapping",

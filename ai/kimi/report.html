@@ -1,0 +1,1443 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Global Trends in Software Purchased by Individuals: An In-Depth Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Canela:wght@300;400;700&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+    <style>
+        :root {
+            --primary: #2d3748;
+            --secondary: #4a5568;
+            --accent: #3182ce;
+            --warm-gray: #f7fafc;
+            --deep-gray: #1a202c;
+        }
+
+        .font-canela { font-family: 'Canela', serif; }
+        .font-inter { font-family: 'Inter', sans-serif; }
+
+        .hero-gradient {
+            background: linear-gradient(135deg, #f7fafc 0%, #e2e8f0 50%, #cbd5e0 100%);
+        }
+
+        .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .hover-lift {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .hover-lift:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .toc-fixed {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 280px;
+            height: 100vh;
+            background: white;
+            border-right: 1px solid #e2e8f0;
+            z-index: 1000;
+            overflow-y: auto;
+            padding: 2rem 1.5rem;
+        }
+
+        .main-content {
+            margin-left: 280px;
+            min-height: 100vh;
+        }
+
+        .section-spacing {
+            padding: 4rem 0;
+        }
+
+        .bento-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .insight-highlight {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-left: 4px solid #f59e0b;
+        }
+
+        .citation-link {
+            color: #3182ce;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .citation-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .toc-fixed {
+                width: 100%;
+                height: 100vh;
+                padding: 1rem;
+            }
+
+            .main-content {
+                margin-left: 0;
+            }
+
+            .bento-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .mermaid-container {
+            display: flex;
+            justify-content: center;
+            min-height: 300px;
+            max-height: 800px;
+            background: #ffffff;
+            border: 2px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .mermaid-container .mermaid {
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+            cursor: grab;
+            transition: transform 0.3s ease;
+            transform-origin: center center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            touch-action: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .mermaid-container .mermaid svg {
+            max-width: 100%;
+            height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .mermaid-container .mermaid:active {
+            cursor: grabbing;
+        }
+
+        .mermaid-container.zoomed .mermaid {
+            height: 100%;
+            width: 100%;
+            cursor: grab;
+        }
+
+        .mermaid-controls {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            display: flex;
+            gap: 10px;
+            z-index: 20;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 8px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .mermaid-control-btn {
+            background: #ffffff;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            padding: 10px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            color: #374151;
+            font-size: 14px;
+            min-width: 36px;
+            height: 36px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .mermaid-control-btn:hover {
+            background: #f8fafc;
+            border-color: #3b82f6;
+            color: #3b82f6;
+            transform: translateY(-1px);
+        }
+
+    .mermaid-control-btn:active {
+        transform: scale(0.95);
+    }
+
+    @media (max-width: 1024px) {
+        .mermaid-control-btn:not(.reset-zoom) {
+            display: none;
+        }
+        .mermaid-controls {
+            top: auto;
+            bottom: 15px;
+            right: 15px;
+        }
+    }
+</style>
+  <base target="_blank">
+</head>
+
+  <body class="bg-white font-inter text-gray-800">
+    <!-- Fixed Table of Contents -->
+    <nav class="toc-fixed">
+      <div class="mb-8">
+        <h3 class="font-canela text-xl font-bold text-gray-900 mb-4">Contents</h3>
+        <div class="space-y-2">
+          <a href="#executive-summary" class="block text-sm text-gray-600 hover:text-blue-600 transition-colors">Executive Summary</a>
+          <a href="#key-categories" class="block text-sm text-gray-600 hover:text-blue-600 transition-colors">Key Software Categories</a>
+          <div class="ml-4 space-y-1">
+            <a href="#mobile-apps" class="block text-xs text-gray-500 hover:text-blue-600 transition-colors">Mobile Applications</a>
+            <a href="#desktop-software" class="block text-xs text-gray-500 hover:text-blue-600 transition-colors">Desktop Software</a>
+            <a href="#business-software" class="block text-xs text-gray-500 hover:text-blue-600 transition-colors">Business Software</a>
+          </div>
+          <a href="#revenue-models" class="block text-sm text-gray-600 hover:text-blue-600 transition-colors">Revenue Models</a>
+          <div class="ml-4 space-y-1">
+            <a href="#subscription-models" class="block text-xs text-gray-500 hover:text-blue-600 transition-colors">Subscription Models</a>
+            <a href="#freemium-models" class="block text-xs text-gray-500 hover:text-blue-600 transition-colors">Freemium Models</a>
+            <a href="#one-time-purchase" class="block text-xs text-gray-500 hover:text-blue-600 transition-colors">One-Time Purchase</a>
+          </div>
+          <a href="#regional-variations" class="block text-sm text-gray-600 hover:text-blue-600 transition-colors">Regional Variations</a>
+          <a href="#emerging-trends" class="block text-sm text-gray-600 hover:text-blue-600 transition-colors">Emerging Trends</a>
+          <a href="#future-outlook" class="block text-sm text-gray-600 hover:text-blue-600 transition-colors">Future Outlook</a>
+        </div>
+      </div>
+
+      <div class="border-t pt-4">
+        <p class="text-xs text-gray-500 mb-2">Key Insights</p>
+        <div class="space-y-2 text-xs">
+          <div class="bg-blue-50 p-2 rounded">
+            <span class="font-semibold text-blue-800">$150B</span>
+            <span class="text-blue-600">Mobile app spending in 2024</span>
+          </div>
+          <div class="bg-green-50 p-2 rounded">
+            <span class="font-semibold text-green-800">13%</span>
+            <span class="text-green-600">YoY growth rate</span>
+          </div>
+          <div class="bg-purple-50 p-2 rounded">
+            <span class="font-semibold text-purple-800">$1.4T</span>
+            <span class="text-purple-600">Projected market by 2030</span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Hero Section -->
+      <section class="hero-gradient min-h-screen flex items-center">
+        <div class="container mx-auto px-4 md:px-8 py-8 md:py-16">
+          <div class="bento-grid items-center">
+            <div class="space-y-6">
+              <div class="space-y-4">
+                <h1 class="font-canela text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-light text-gray-900 leading-tight text-shadow">
+                  Global Trends in
+                  <span class="italic font-light text-blue-600">Software</span>
+                  Purchased by Individuals
+                </h1>
+                <p class="text-lg sm:text-xl text-gray-600 font-light max-w-2xl">
+                  An In-Depth Analysis of Consumer Software Spending Patterns, Revenue Models, and Regional Variations
+                </p>
+              </div>
+
+              <div class="flex items-center space-x-6 text-sm text-gray-500">
+                <span class="flex items-center">
+                  <i class="fas fa-calendar mr-2"></i>
+                  January 2026
+                </span>
+                <span class="flex items-center">
+                  <i class="fas fa-globe mr-2"></i>
+                  Global Analysis
+                </span>
+              </div>
+            </div>
+
+            <div class="relative">
+              <img src="https://kimi-web-img.moonshot.cn/img/edtechmagazine.com/8919f6d5e226f248a1aed9bd473a91ca34c3f0c1.jpg" alt="Abstract representation of global software connections" class="w-full h-auto sm:h-96 object-cover rounded-lg shadow-2xl" size="medium" aspect="wide" query="abstract global software connections" referrerpolicy="no-referrer" data-modified="1" data-score="0.00"/>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Executive Summary -->
+      <section id="executive-summary" class="section-spacing bg-gray-50">
+        <div class="container mx-auto px-8">
+          <h2 class="font-canela text-4xl font-bold text-gray-900 mb-8">Executive Summary</h2>
+
+          <div class="grid md:grid-cols-3 gap-8 mb-12">
+            <div class="bg-white p-6 rounded-lg shadow-lg hover-lift">
+              <div class="text-3xl font-bold text-blue-600 mb-2">$730.7B</div>
+              <div class="text-gray-600">Global software market in 2024</div>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg hover-lift">
+              <div class="text-3xl font-bold text-green-600 mb-2">$150B</div>
+              <div class="text-gray-600">Mobile app consumer spending</div>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg hover-lift">
+              <div class="text-3xl font-bold text-purple-600 mb-2">13%</div>
+              <div class="text-gray-600">Year-over-year growth rate</div>
+            </div>
+          </div>
+
+          <div class="insight-highlight p-8 rounded-lg">
+            <h3 class="font-canela text-2xl font-bold text-gray-900 mb-4">Key Findings</h3>
+            <p class="text-lg text-gray-700 leading-relaxed">
+              Individuals globally are increasingly spending on software, with a clear shift towards subscription-based models (SaaS) and freemium offerings, particularly on mobile platforms. Key spending categories include entertainment and media streaming, social and communication apps, and business-grade tools for productivity, security, and finance. This trend is driven by the &#34;consumerization of IT,&#34; where powerful enterprise software becomes accessible to individuals and small businesses. Regional variations are significant: mature markets like North America show high spending on subscriptions, while emerging markets in Asia-Pacific and Latin America exhibit mobile-first consumption and a strong preference for freemium and ad-supported models, fueled by the rapid adoption of digital payments.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Key Software Categories -->
+      <section id="key-categories" class="section-spacing">
+        <div class="container mx-auto px-8">
+          <h2 class="font-canela text-5xl font-bold text-gray-900 mb-12">Key Software Categories Individuals Pay For</h2>
+
+          <div class="prose prose-lg max-w-none">
+            <p class="text-xl text-gray-600 leading-relaxed mb-8">
+              The global software market, valued at approximately <strong>$730.7 billion in 2024</strong>, is a dynamic and rapidly expanding sector projected to reach <strong>$1.4 trillion by 2030</strong>
+              <a href="https://www.grandviewresearch.com/industry-analysis/software-market-report" class="citation-link" target="_blank">[621]</a>. This growth is fueled by a diverse range of software categories that individuals purchase for personal, professional, and business use.
+            </p>
+          </div>
+
+          <!-- Mobile Applications -->
+          <div id="mobile-apps" class="mb-16">
+            <h3 class="font-canela text-3xl font-bold text-gray-900 mb-8">Mobile Applications</h3>
+
+            <div class="bento-grid mb-8">
+              <div class="space-y-6">
+                <div class="bg-blue-50 p-6 rounded-lg">
+                  <h4 class="font-bold text-blue-900 mb-2">Market Leadership</h4>
+                  <p class="text-blue-800">
+                    Mobile applications represent the most vibrant and rapidly growing segment, with global consumer spending reaching <strong>$150 billion in 2024</strong>
+                    <a href="https://www.marketingdive.com/news/sensor-tower-state-of-mobile-report-generative-ai/737962/" class="citation-link" target="_blank">[601]</a>.
+                  </p>
+                </div>
+
+                <div class="bg-green-50 p-6 rounded-lg">
+                  <h4 class="font-bold text-green-900 mb-2">Growth Trajectory</h4>
+                  <p class="text-green-800">
+                    Non-gaming apps outpaced games for the fourth consecutive year, with spending growth of <strong>25% year-over-year</strong>
+                    <a href="https://cmotech.asia/story/global-mobile-app-spending-hits-150-billion-in-2024" class="citation-link" target="_blank">[602]</a>.
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-gray-100 p-8 rounded-lg">
+                <h4 class="font-bold text-gray-900 mb-4">Market Projection</h4>
+                <div class="text-center">
+                  <div class="text-4xl font-bold text-gray-900 mb-2">$613B</div>
+                  <div class="text-gray-600 mb-4">Projected app economy revenue by 2025</div>
+                  <p class="text-sm text-gray-500">
+                    Driven by in-app purchases, subscriptions, and advertising
+                    <a href="https://go-globe.com/mobile-vs-desktop-usage-trends-across-the-globe" class="citation-link" target="_blank">[606]</a>.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Entertainment and Media -->
+            <div class="mb-12">
+              <h4 class="font-canela text-2xl font-bold text-gray-900 mb-6">Entertainment and Media</h4>
+              <div class="bg-gradient-to-r from-purple-100 to-pink-100 p-8 rounded-lg">
+                <div class="flex items-center justify-between mb-4">
+                  <h5 class="font-bold text-gray-900">Streaming Services</h5>
+                  <div class="text-3xl font-bold text-purple-600">$11.9B</div>
+                </div>
+                <p class="text-gray-700 mb-4">
+                  Film and television streaming apps were the largest subgenre by consumer spend in 2024, reflecting the widespread adoption of subscription-based models for services like Netflix and Disney+
+                  <a href="https://www.marketingdive.com/news/sensor-tower-state-of-mobile-report-generative-ai/737962/" class="citation-link" target="_blank">[601]</a>.
+                </p>
+                <div class="bg-white p-4 rounded">
+                  <p class="text-sm text-gray-600">
+                    <strong>53%</strong> of U.S. adults use an audio subscription service, contributing to the overall strength of the entertainment segment
+                    <a href="https://www.cta.tech/press-releases/cta-forecast-us-spending-on-consumer-technology-software-and-services-will-rise-37-in-2024" class="citation-link" target="_blank">[600]</a>.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social and Communication -->
+            <div class="mb-12">
+              <h4 class="font-canela text-2xl font-bold text-gray-900 mb-6">Social and Communication</h4>
+              <div class="bg-gradient-to-r from-blue-100 to-indigo-100 p-8 rounded-lg">
+                <div class="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h5 class="font-bold text-gray-900 mb-2">Market Position</h5>
+                    <p class="text-gray-700 mb-4">
+                      The second-largest category by consumer spend, reaching <strong>$11.7 billion globally</strong> in 2024
+                      <a href="https://www.marketingdive.com/news/sensor-tower-state-of-mobile-report-generative-ai/737962/" class="citation-link" target="_blank">[601]</a>.
+                    </p>
+                  </div>
+                  <div>
+                    <h5 class="font-bold text-gray-900 mb-2">Revenue Model</h5>
+                    <p class="text-gray-700">
+                      Creator-centric monetization through tipping, virtual gifts, and premium features, with TikTok and YouTube dominating over <strong>70% of spending</strong>.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Health and Fitness -->
+            <div class="mb-12">
+              <h4 class="font-canela text-2xl font-bold text-gray-900 mb-6">Health and Fitness</h4>
+              <div class="bg-gradient-to-r from-green-100 to-teal-100 p-8 rounded-lg">
+                <div class="flex items-center justify-between mb-4">
+                  <h5 class="font-bold text-gray-900">U.S. Fitness Services Growth</h5>
+                  <div class="text-3xl font-bold text-green-600">20%</div>
+                </div>
+                <p class="text-gray-700">
+                  Revenue projected to reach <strong>$900 million in 2024</strong>, driven by wearable technology adoption and digital health management trends
+                  <a href="https://www.cta.tech/press-releases/cta-forecast-us-spending-on-consumer-technology-software-and-services-will-rise-37-in-2024" class="citation-link" target="_blank">[600]</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Desktop Software -->
+          <div id="desktop-software" class="mb-16">
+            <h3 class="font-canela text-3xl font-bold text-gray-900 mb-8">Desktop Software</h3>
+
+            <div class="bg-gray-100 p-8 rounded-lg mb-8">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 class="font-bold text-gray-900 mb-4">Persistence in Professional Use</h4>
+                  <p class="text-gray-700 mb-4">
+                    Despite mobile growth, desktop remains critical for professional tasks, with <strong>68% of office workers preferring desktops for focused work</strong>
+                    <a href="https://go-globe.com/mobile-vs-desktop-usage-trends-across-the-globe" class="citation-link" target="_blank">[606]</a>.
+                  </p>
+                  <div class="bg-white p-4 rounded">
+                    <p class="text-sm text-gray-600">
+                      Desktop users spend <strong>6.2 hours per day</strong> on their devices, compared to 3.8 hours on mobile.
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <img src="https://kimi-web-img.moonshot.cn/img/cdn8.dissolve.com/e866c27335061ec0de64f8f5c84c9a4e13499ec6.jpg" alt="Professional working on desktop computer in office setting" class="w-full h-48 object-cover rounded" size="medium" aspect="wide" style="photo" query="professional desktop computer workspace" referrerpolicy="no-referrer" data-modified="1" data-score="0.00"/>
+                </div>
+              </div>
+            </div>
+
+            <!-- Security and Antivirus -->
+            <div class="mb-12">
+              <h4 class="font-canela text-2xl font-bold text-gray-900 mb-6">Security and Antivirus</h4>
+              <div class="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
+                <h5 class="font-bold text-red-900 mb-2">Fastest Growing Category</h5>
+                <p class="text-red-800">
+                  Security software was the fastest-growing category in public markets in 2024, with expected revenue growth of <strong>29%</strong>
+                  <a href="https://tomtunguz.com/fastest-growing-software-category-2024/" class="citation-link" target="_blank">[587]</a>.
+                </p>
+              </div>
+            </div>
+
+            <!-- Productivity and Office Suites -->
+            <div class="mb-12">
+              <h4 class="font-canela text-2xl font-bold text-gray-900 mb-6">Productivity and Office Suites</h4>
+              <div class="bg-blue-50 p-6 rounded-lg">
+                <div class="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h5 class="font-bold text-blue-900 mb-2">Market Size</h5>
+                    <p class="text-blue-800 mb-4">
+                      Global productivity software market valued at <strong>$64.93 billion in 2024</strong>
+                      <a href="https://www.thebusinessresearchcompany.com/report/productivity-software-global-market-report" class="citation-link" target="_blank">[604]</a>.
+                    </p>
+                  </div>
+                  <div>
+                    <h5 class="font-bold text-blue-900 mb-2">Growth Projection</h5>
+                    <p class="text-blue-800">
+                      Projected to reach <strong>$130.99 billion by 2029</strong> at a CAGR of 15.0%.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Business Software -->
+          <div id="business-software" class="mb-16">
+            <h3 class="font-canela text-3xl font-bold text-gray-900 mb-8">Business Software Purchased by Individuals</h3>
+
+            <div class="bg-gradient-to-r from-indigo-100 to-purple-100 p-8 rounded-lg mb-8">
+              <h4 class="font-bold text-gray-900 mb-4">The Consumerization of IT</h4>
+              <p class="text-gray-700">
+                The distinction between consumer and business software is becoming increasingly blurred, as individuals and small businesses increasingly adopt enterprise-grade tools to manage their operations.
+              </p>
+            </div>
+
+            <!-- IT Security and Management -->
+            <div class="mb-12">
+              <h4 class="font-canela text-2xl font-bold text-gray-900 mb-6">IT Security and Management</h4>
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <div class="text-center mb-4">
+                  <div class="text-4xl font-bold text-gray-900 mb-2">28%</div>
+                  <div class="text-gray-600">of software buyers purchased IT and security software in 2024</div>
+                </div>
+                <p class="text-gray-700 text-center">
+                  <a href="https://www.slideshare.net/slideshow/2024-global-software-buying-trends-report-pdf/270408705" class="citation-link" target="_blank">[622]</a>
+                </p>
+              </div>
+            </div>
+
+            <!-- Accounting and Finance -->
+            <div class="mb-12">
+              <h4 class="font-canela text-2xl font-bold text-gray-900 mb-6">Accounting and Finance Software</h4>
+              <div class="bg-green-100 p-6 rounded-lg">
+                <div class="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h5 class="font-bold text-green-900 mb-2">Personal Finance Growth</h5>
+                    <p class="text-green-800">
+                      Projected to grow by <strong>$296.46 million between 2024 and 2028</strong> at a CAGR of 4.76%
+                      <a href="https://www.technavio.com/report/personal-finance-software-market-industry-analysis" class="citation-link" target="_blank">[596]</a>.
+                    </p>
+                  </div>
+                  <div>
+                    <h5 class="font-bold text-green-900 mb-2">Business Finance Dominance</h5>
+                    <p class="text-green-800">
+                      Finance segment holds <strong>25.58% revenue share</strong> in business software market
+                      <a href="https://www.grandviewresearch.com/industry-analysis/business-software-services-market" class="citation-link" target="_blank">[625]</a>.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Revenue Models -->
+      <section id="revenue-models" class="section-spacing bg-gray-50">
+        <div class="container mx-auto px-8">
+          <h2 class="font-canela text-5xl font-bold text-gray-900 mb-12">Dominant Revenue Models in the Individual Software Market</h2>
+
+          <div class="mb-12">
+            <img src="https://kimi-web-img.moonshot.cn/img/static.vecteezy.com/0241ec74dc6c1b3fba4114c7f848a546cc8f8f91.jpg" alt="Software subscription service pricing model comparison" class="w-full h-64 object-cover rounded-lg shadow-lg" size="medium" aspect="wide" style="photo" query="software subscription pricing model" referrerpolicy="no-referrer" data-modified="1" data-score="0.00"/>
+          </div>
+
+          <!-- Subscription-Based Models -->
+          <div id="subscription-models" class="mb-16">
+            <h3 class="font-canela text-3xl font-bold text-gray-900 mb-8">Subscription-Based Models (SaaS)</h3>
+
+            <div class="grid md:grid-cols-3 gap-6 mb-8">
+              <div class="bg-white p-6 rounded-lg shadow-lg hover-lift">
+                <div class="text-3xl font-bold text-blue-600 mb-2">$232.3B</div>
+                <div class="text-gray-600 mb-2">2024 SaaS Spending</div>
+                <div class="text-sm text-gray-500">Up from $31.4B in 2015</div>
+              </div>
+              <div class="bg-white p-6 rounded-lg shadow-lg hover-lift">
+                <div class="text-3xl font-bold text-green-600 mb-2">87%</div>
+                <div class="text-gray-600 mb-2">India Acceptance Rate</div>
+                <div class="text-sm text-gray-500">Willingness to pay for subscriptions</div>
+              </div>
+              <div class="bg-white p-6 rounded-lg shadow-lg hover-lift">
+                <div class="text-3xl font-bold text-purple-600 mb-2">80%</div>
+                <div class="text-gray-600 mb-2">UAE Acceptance Rate</div>
+                <div class="text-sm text-gray-500">High subscription model adoption</div>
+              </div>
+            </div>
+
+            <div class="insight-highlight p-8 rounded-lg mb-8">
+              <h4 class="font-bold text-gray-900 mb-4">Regional Acceptance Variations</h4>
+              <p class="text-gray-700 mb-4">
+                Global survey reveals significant regional differences in subscription model acceptance
+                <a href="https://yougov.com/articles/41836-global-how-many-consumers-are-fine-monthly-softwar" class="citation-link" target="_blank">[54]</a>:
+              </p>
+              <div class="grid md:grid-cols-2 gap-4">
+                <div class="bg-white p-4 rounded">
+                  <div class="text-2xl font-bold text-green-600 mb-1">87%</div>
+                  <div class="text-sm text-gray-600">India</div>
+                </div>
+                <div class="bg-white p-4 rounded">
+                  <div class="text-2xl font-bold text-green-600 mb-1">80%</div>
+                  <div class="text-sm text-gray-600">UAE</div>
+                </div>
+                <div class="bg-white p-4 rounded">
+                  <div class="text-2xl font-bold text-blue-600 mb-1">57%</div>
+                  <div class="text-sm text-gray-600">UK</div>
+                </div>
+                <div class="bg-white p-4 rounded">
+                  <div class="text-2xl font-bold text-blue-600 mb-1">53%</div>
+                  <div class="text-sm text-gray-600">US</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Freemium Models -->
+          <div id="freemium-models" class="mb-16">
+            <h3 class="font-canela text-3xl font-bold text-gray-900 mb-8">Freemium and In-App Purchases</h3>
+
+            <div class="bg-gradient-to-r from-orange-100 to-red-100 p-8 rounded-lg mb-8">
+              <h4 class="font-bold text-gray-900 mb-4">Mobile App Dominance</h4>
+              <p class="text-gray-700 mb-4">
+                The freemium model is the dominant revenue model in mobile apps, with consumer spending on in-app purchases and subscriptions reaching <strong>$150 billion in 2024</strong>
+                <a href="https://www.marketingdive.com/news/sensor-tower-state-of-mobile-report-generative-ai/737962/" class="citation-link" target="_blank">[601]</a>.
+              </p>
+              <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white p-4 rounded">
+                  <h5 class="font-bold text-gray-900 mb-2">Success Factors</h5>
+                  <ul class="text-sm text-gray-600 space-y-1">
+                    <li>• Low barrier to entry</li>
+                    <li>• Large user base potential</li>
+                    <li>• High revenue from &#34;whales&#34;</li>
+                    <li>• Compelling free experience</li>
+                  </ul>
+                </div>
+                <div class="bg-white p-4 rounded">
+                  <h5 class="font-bold text-gray-900 mb-2">Key Categories</h5>
+                  <ul class="text-sm text-gray-600 space-y-1">
+                    <li>• Social media platforms</li>
+                    <li>• Entertainment apps</li>
+                    <li>• Gaming applications</li>
+                    <li>• Dating and lifestyle</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- One-Time Purchase -->
+          <div id="one-time-purchase" class="mb-16">
+            <h3 class="font-canela text-3xl font-bold text-gray-900 mb-8">One-Time Purchase and Licensing</h3>
+
+            <div class="grid md:grid-cols-2 gap-8">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <h4 class="font-bold text-gray-900 mb-4">Declining Trend</h4>
+                <p class="text-gray-700">
+                  The one-time purchase model has seen significant decline with the rise of subscription services, though it persists in certain niche markets for professional desktop tools
+                  <a href="https://www.linkedin.com/pulse/pdf-editor-software-market-how-consumer-expectations-vm6gf/" class="citation-link" target="_blank">[325]</a>.
+                </p>
+              </div>
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <h4 class="font-bold text-gray-900 mb-4">Niche Persistence</h4>
+                <p class="text-gray-700">
+                  Professional desktop tools in engineering, architecture, and scientific research continue to offer perpetual licenses for users requiring stability and predictability.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Regional Variations -->
+      <section id="regional-variations" class="section-spacing">
+        <div class="container mx-auto px-8">
+          <h2 class="font-canela text-5xl font-bold text-gray-900 mb-12">Regional Variations in Software Purchasing Trends</h2>
+
+          <div class="mb-8">
+            <img src="https://kimi-web-img.moonshot.cn/img/res.cloudinary.com/8a330e05f98da16f4a1231a8b751cc78ae40019a.webp" alt="Global software market regional variations" class="w-full h-64 object-cover rounded-lg shadow-lg" size="medium" aspect="wide" query="global software market regions" referrerpolicy="no-referrer" data-modified="1" data-score="0.00"/>
+          </div>
+
+          <!-- North America -->
+          <div class="mb-16">
+            <h3 class="font-canela text-3xl font-bold text-gray-900 mb-8">North America</h3>
+
+            <div class="bento-grid mb-8">
+              <div class="bg-blue-100 p-6 rounded-lg">
+                <h4 class="font-bold text-blue-900 mb-4">High Spending Market</h4>
+                <div class="space-y-3">
+                  <div class="flex justify-between">
+                    <span class="text-blue-800">Subscription Video Services</span>
+                    <span class="font-bold text-blue-900">92%</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="text-blue-800">Audio Subscription Services</span>
+                    <span class="font-bold text-blue-900">53%</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="text-blue-800">Gaming Subscription Growth</span>
+                    <span class="font-bold text-blue-900">12%</span>
+                  </div>
+                </div>
+                <p class="text-xs text-blue-600 mt-4">
+                  <a href="https://www.cta.tech/press-releases/cta-forecast-us-spending-on-consumer-technology-software-and-services-will-rise-37-in-2024" class="citation-link" target="_blank">[38]</a>
+                </p>
+              </div>
+
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <h4 class="font-bold text-gray-900 mb-4">Market Characteristics</h4>
+                <ul class="text-gray-700 space-y-2">
+                  <li>• Mature, high-spending market</li>
+                  <li>• Strong subscription model adoption</li>
+                  <li>• Leadership in enterprise software</li>
+                  <li>• High security software priority</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Asia-Pacific -->
+          <div class="mb-16">
+            <h3 class="font-canela text-3xl font-bold text-gray-900 mb-8">Asia-Pacific</h3>
+
+            <div class="bg-gradient-to-r from-green-100 to-teal-100 p-8 rounded-lg mb-8">
+              <h4 class="font-bold text-gray-900 mb-4">Mobile-First Growth Engine</h4>
+              <p class="text-gray-700 mb-6">
+                The region is experiencing significant surge in mobile app spending, driven by large, young, mobile-first populations and nearly tripling in size by 2030
+                <a href="https://www.nimdzi.com/the-consumer-software-report/" class="citation-link" target="_blank">[644]</a>.
+              </p>
+
+              <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-4 rounded">
+                  <div class="text-2xl font-bold text-green-600 mb-2">25%</div>
+                  <div class="text-sm text-gray-600">India&#39;s share of global app downloads</div>
+                </div>
+                <div class="bg-white p-4 rounded">
+                  <div class="text-2xl font-bold text-blue-600 mb-2">75B</div>
+                  <div class="text-sm text-gray-600">Projected downloads in India (2025)</div>
+                </div>
+                <div class="bg-white p-4 rounded">
+                  <div class="text-2xl font-bold text-purple-600 mb-2">3x</div>
+                  <div class="text-sm text-gray-600">Market size growth by 2030</div>
+                </div>
+              </div>
+              <p class="text-xs text-gray-600 mt-4">
+                <a href="https://www.tekrevol.com/blogs/mobile-app-download-statistics/" class="citation-link" target="_blank">[659]</a>
+              </p>
+            </div>
+
+            <!-- India's AI App Boom -->
+            <div class="bg-orange-100 p-6 rounded-lg mb-8">
+              <h4 class="font-bold text-orange-900 mb-4">India&#39;s AI App Explosion</h4>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-orange-800">Generative AI App Downloads</span>
+                <div class="text-right">
+                  <div class="text-lg font-bold text-orange-900">198M → 602M</div>
+                  <div class="text-sm text-orange-600">2024 to 2025</div>
+                </div>
+              </div>
+              <p class="text-orange-700 text-sm">
+                Dramatic increase reflecting the tech-savvy user base and mobile-first approach
+                <a href="https://techcrunch.com/2026/01/21/indias-app-downloads-rebounded-to-25-5-billion-in-2025-fueled-by-ai-assistants-and-microdrama-boom/" class="citation-link" target="_blank">[636]</a>.
+              </p>
+            </div>
+          </div>
+
+          <!-- Emerging Markets -->
+          <div class="mb-16">
+            <h3 class="font-canela text-3xl font-bold text-gray-900 mb-8">Emerging Markets (Latin America, India)</h3>
+
+            <div class="grid md:grid-cols-2 gap-8">
+              <div class="bg-yellow-100 p-6 rounded-lg">
+                <h4 class="font-bold text-yellow-900 mb-4">Mobile-First Consumption</h4>
+                <p class="text-yellow-800 mb-4">
+                  Characterized by mobile-first approach driven by lower smartphone costs and affordable mobile data
+                  <a href="https://broadbandindiaforum.in/wp-content/uploads/2024/10/App-Economy_R4_online-1.pdf" class="citation-link" target="_blank">[660]</a>.
+                </p>
+                <div class="bg-white p-4 rounded">
+                  <div class="text-2xl font-bold text-yellow-600 mb-1">$791.98B</div>
+                  <div class="text-sm text-gray-600">India&#39;s app economy by 2030</div>
+                </div>
+              </div>
+
+              <div class="bg-purple-100 p-6 rounded-lg">
+                <h4 class="font-bold text-purple-900 mb-4">Freemium Preference</h4>
+                <p class="text-purple-800 mb-4">
+                  Strong preference for freemium and ad-supported models, with high download volumes but lower revenue conversion
+                  <a href="https://paymentscmi.com/insights/india-2025-ecommerce-payments-trends/" class="citation-link" target="_blank">[657]</a>.
+                </p>
+                <div class="bg-white p-4 rounded">
+                  <div class="text-2xl font-bold text-purple-600 mb-1">UPI</div>
+                  <div class="text-sm text-gray-600">Revolutionary payment system in India</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Emerging Trends -->
+      <section id="emerging-trends" class="section-spacing bg-gray-50">
+        <div class="container mx-auto px-8">
+          <h2 class="font-canela text-5xl font-bold text-gray-900 mb-12">Emerging Trends and Future Outlook</h2>
+
+          <!-- Generative AI Applications -->
+          <div class="mb-16">
+            <h3 class="font-canela text-3xl font-bold text-gray-900 mb-8">The Rise of Generative AI Applications</h3>
+
+            <div class="bg-gradient-to-r from-purple-100 to-pink-100 p-8 rounded-lg mb-8">
+              <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 class="font-bold text-gray-900 mb-4">Surge in Consumer Spending</h4>
+                  <p class="text-gray-700 mb-4">
+                    Productivity category experienced highest YoY growth in Q1 2024, driven by generative AI apps like ChatGPT
+                    <a href="https://investgame.net/wp-content/uploads/2024/06/sensor_tower__q1_2024_digital_market_index.pdf" class="citation-link" target="_blank">[402]</a>.
+                  </p>
+                  <div class="bg-white p-4 rounded">
+                    <div class="text-2xl font-bold text-purple-600 mb-1">$10B+</div>
+                    <div class="text-sm text-gray-600">Projected AI app spending by 2026</div>
+                  </div>
+                  <p class="text-xs text-gray-600 mt-2">
+                    <a href="https://www.visualcapitalist.com/what-types-of-apps-do-people-actually-pay-for/" class="citation-link" target="_blank">[415]</a>
+                  </p>
+                </div>
+                <div>
+                  <img src="https://kimi-web-img.moonshot.cn/img/images.ctfassets.net/452129ac0856d0af288c2fd730813c5a1fe7fc44.jpg" alt="Artificial intelligence software application user interface" class="w-full h-48 object-cover rounded" size="medium" aspect="wide" style="photo" query="AI software interface" referrerpolicy="no-referrer" data-modified="1" data-score="0.00"/>
+                </div>
+              </div>
+            </div>
+
+            <!-- AI Integration Impact -->
+            <div class="grid md:grid-cols-3 gap-6">
+              <div class="bg-white p-6 rounded-lg shadow-lg hover-lift">
+                <h5 class="font-bold text-gray-900 mb-3">Productivity Enhancement</h5>
+                <p class="text-gray-600 text-sm">
+                  Intelligent writing assistance, smart scheduling, and automated data analysis capabilities.
+                </p>
+              </div>
+              <div class="bg-white p-6 rounded-lg shadow-lg hover-lift">
+                <h5 class="font-bold text-gray-900 mb-3">Creative Automation</h5>
+                <p class="text-gray-600 text-sm">
+                  Automated image editing, music generation, and 3D model creation features.
+                </p>
+              </div>
+              <div class="bg-white p-6 rounded-lg shadow-lg hover-lift">
+                <h5 class="font-bold text-gray-900 mb-3">Security Intelligence</h5>
+                <p class="text-gray-600 text-sm">
+                  Real-time threat detection and automated response systems.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Consumer vs Business Software Distinction -->
+          <div class="mb-16">
+            <h3 class="font-canela text-3xl font-bold text-gray-900 mb-8">Shift in Consumer vs. Business Software Distinction</h3>
+
+            <div class="insight-highlight p-8 rounded-lg mb-8">
+              <h4 class="font-bold text-gray-900 mb-4">The Consumerization of IT</h4>
+              <p class="text-gray-700 mb-6">
+                Increasing number of individuals purchasing business-grade software for personal use, freelance work, or small business operations. Enterprise tools are becoming more intuitive and user-friendly, blurring traditional lines between personal and professional use.
+              </p>
+
+              <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white p-4 rounded">
+                  <h5 class="font-bold text-gray-900 mb-2">Driving Factors</h5>
+                  <ul class="text-sm text-gray-600 space-y-1">
+                    <li>• Availability of affordable SaaS tools</li>
+                    <li>• Enterprise software user-friendliness</li>
+                    <li>• Remote work and freelance economy</li>
+                    <li>• Personal-professional device convergence</li>
+                  </ul>
+                </div>
+                <div class="bg-white p-4 rounded">
+                  <h5 class="font-bold text-gray-900 mb-2">Popular Categories</h5>
+                  <ul class="text-sm text-gray-600 space-y-1">
+                    <li>• IT security and management</li>
+                    <li>• Project management tools</li>
+                    <li>• Accounting and finance software</li>
+                    <li>• Marketing and productivity apps</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Evolving Payment Methods -->
+          <div class="mb-16">
+            <h3 class="font-canela text-3xl font-bold text-gray-900 mb-8">Evolving Payment Methods</h3>
+
+            <div class="grid md:grid-cols-2 gap-8">
+              <div class="bg-blue-100 p-6 rounded-lg">
+                <h4 class="font-bold text-blue-900 mb-4">Digital Wallets &amp; Mobile Payments</h4>
+                <p class="text-blue-800 mb-4">
+                  Growth of digital wallets and mobile payments significantly impacting software market, particularly in emerging markets
+                  <a href="https://paymentscmi.com/insights/india-2025-ecommerce-payments-trends/" class="citation-link" target="_blank">[657]</a>.
+                </p>
+                <div class="bg-white p-4 rounded">
+                  <h5 class="font-bold text-gray-900 mb-2">Key Features</h5>
+                  <ul class="text-sm text-gray-600 space-y-1">
+                    <li>• Reduced transaction friction</li>
+                    <li>• Increased purchase volume</li>
+                    <li>• Government cashless initiatives</li>
+                    <li>• Local payment method support</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="bg-green-100 p-6 rounded-lg">
+                <h4 class="font-bold text-green-900 mb-4">Buy-Now-Pay-Later (BNPL)</h4>
+                <p class="text-green-800 mb-4">
+                  BNPL services emerging as potential growth driver for high-value software products, making them more accessible to consumers in emerging markets.
+                </p>
+                <div class="bg-white p-4 rounded">
+                  <h5 class="font-bold text-gray-900 mb-2">Benefits</h5>
+                  <ul class="text-sm text-gray-600 space-y-1">
+                    <li>• Affordable installment payments</li>
+                    <li>• Increased accessibility</li>
+                    <li>• Market expansion potential</li>
+                    <li>• Consumer flexibility</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Future Outlook -->
+      <section id="future-outlook" class="section-spacing">
+        <div class="container mx-auto px-8">
+          <h2 class="font-canela text-5xl font-bold text-gray-900 mb-12">Future Outlook</h2>
+
+          <div class="mb-8">
+            <img src="https://kimi-web-img.moonshot.cn/img/emt.gartnerweb.com/f8849d4e3bbe8c0618d376812e002cb1550fef19.png" alt="Futuristic abstract representation of global software market growth" class="w-full h-64 object-cover rounded-lg shadow-lg" size="medium" aspect="wide" query="futuristic abstract global software market" referrerpolicy="no-referrer" data-modified="1" data-score="0.00"/>
+          </div>
+
+          <!-- Market Growth Projection -->
+          <div class="bg-gradient-to-r from-blue-100 to-purple-100 p-8 rounded-lg mb-12">
+            <div class="text-center mb-8">
+              <h3 class="font-canela text-3xl font-bold text-gray-900 mb-4">Market Growth Trajectory</h3>
+              <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-lg">
+                  <div class="text-3xl font-bold text-blue-600 mb-2">$730.7B</div>
+                  <div class="text-gray-600 mb-2">2024 Market Size</div>
+                  <div class="text-sm text-gray-500">Current valuation</div>
+                </div>
+                <div class="bg-white p-6 rounded-lg">
+                  <div class="text-3xl font-bold text-green-600 mb-2">$1.4T</div>
+                  <div class="text-gray-600 mb-2">2030 Projection</div>
+                  <div class="text-sm text-gray-500">Nearly double growth</div>
+                </div>
+                <div class="bg-white p-6 rounded-lg">
+                  <div class="text-3xl font-bold text-purple-600 mb-2">91.5%</div>
+                  <div class="text-gray-600 mb-2">Growth Rate</div>
+                  <div class="text-sm text-gray-500">6-year CAGR</div>
+                </div>
+              </div>
+              <p class="text-xs text-gray-600 mt-4">
+                <a href="https://www.grandviewresearch.com/industry-analysis/software-market-report" class="citation-link" target="_blank">[621]</a>
+              </p>
+            </div>
+          </div>
+
+          <!-- Key Success Factors -->
+          <div class="grid md:grid-cols-2 gap-8 mb-12">
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+              <h4 class="font-canela text-2xl font-bold text-gray-900 mb-6">Success Factors for Software Vendors</h4>
+              <div class="space-y-4">
+                <div class="flex items-start space-x-3">
+                  <div class="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
+                  <div>
+                    <h5 class="font-bold text-gray-900">Subscription Model Optimization</h5>
+                    <p class="text-gray-600 text-sm">Balancing value proposition with pricing tiers and regional preferences</p>
+                  </div>
+                </div>
+                <div class="flex items-start space-x-3">
+                  <div class="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                  <div>
+                    <h5 class="font-bold text-gray-900">Mobile-First Strategy</h5>
+                    <p class="text-gray-600 text-sm">Prioritizing mobile experiences for emerging market penetration</p>
+                  </div>
+                </div>
+                <div class="flex items-start space-x-3">
+                  <div class="w-2 h-2 bg-purple-500 rounded-full mt-2"></div>
+                  <div>
+                    <h5 class="font-bold text-gray-900">AI Integration</h5>
+                    <p class="text-gray-600 text-sm">Leveraging generative AI for enhanced user experiences and monetization</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+              <h4 class="font-canela text-2xl font-bold text-gray-900 mb-6">Regional Adaptation Strategies</h4>
+              <div class="space-y-4">
+                <div class="flex items-start space-x-3">
+                  <div class="w-2 h-2 bg-orange-500 rounded-full mt-2"></div>
+                  <div>
+                    <h5 class="font-bold text-gray-900">Payment Method Diversification</h5>
+                    <p class="text-gray-600 text-sm">Supporting local payment preferences and digital wallets</p>
+                  </div>
+                </div>
+                <div class="flex items-start space-x-3">
+                  <div class="w-2 h-2 bg-red-500 rounded-full mt-2"></div>
+                  <div>
+                    <h5 class="font-bold text-gray-900">Freemium Model Optimization</h5>
+                    <p class="text-gray-600 text-sm">Balancing free features with compelling premium upgrades</p>
+                  </div>
+                </div>
+                <div class="flex items-start space-x-3">
+                  <div class="w-2 h-2 bg-teal-500 rounded-full mt-2"></div>
+                  <div>
+                    <h5 class="font-bold text-gray-900">Cultural Localization</h5>
+                    <p class="text-gray-600 text-sm">Adapting content and features to regional preferences</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Final Insights -->
+          <div class="bg-gray-900 text-white p-8 rounded-lg">
+            <h4 class="font-canela text-2xl font-bold mb-6">Concluding Insights</h4>
+            <div class="grid md:grid-cols-2 gap-8">
+              <div>
+                <h5 class="font-bold text-white mb-4">Market Dynamics</h5>
+                <p class="text-gray-300 text-sm leading-relaxed">
+                  The software market is undergoing fundamental transformation, driven by subscription models, mobile-first consumption, and AI integration. Success requires understanding regional variations and adapting to evolving consumer preferences.
+                </p>
+              </div>
+              <div>
+                <h5 class="font-bold text-white mb-4">Future Opportunities</h5>
+                <p class="text-gray-300 text-sm leading-relaxed">
+                  Emerging markets present significant growth potential, particularly in mobile applications and AI-driven solutions. The convergence of consumer and business software creates new monetization opportunities for innovative vendors.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-8">
+          <div class="grid md:grid-cols-3 gap-8">
+            <div>
+              <h4 class="font-canela text-xl font-bold mb-4">About This Report</h4>
+              <p class="text-gray-400 text-sm">
+                This comprehensive analysis examines global trends in software purchased by individuals, covering market dynamics, revenue models, regional variations, and emerging opportunities.
+              </p>
+            </div>
+            <div>
+              <h4 class="font-canela text-xl font-bold mb-4">Key Sources</h4>
+              <ul class="text-gray-400 text-sm space-y-1">
+                <li>• Sensor Tower Market Intelligence</li>
+                <li>• Grand View Research</li>
+                <li>• CTA Market Analysis</li>
+                <li>• Technavio Industry Reports</li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="font-canela text-xl font-bold mb-4">Methodology</h4>
+              <p class="text-gray-400 text-sm">
+                Analysis based on comprehensive market research, consumer spending data, and industry reports from leading market intelligence providers.
+              </p>
+            </div>
+          </div>
+          <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+            <p class="text-gray-500 text-sm">
+              Analysis completed January 2026 | Global Software Market Intelligence
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Smooth Scrolling Script -->
+    <script>
+        // Initialize Mermaid with enhanced styling and contrast
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'base',
+            themeVariables: {
+                // Primary colors with high contrast
+                primaryColor: '#3182ce',
+                primaryTextColor: '#ffffff',
+                primaryBorderColor: '#2c5282',
+
+                // Secondary colors
+                secondaryColor: '#38a169',
+                secondaryTextColor: '#ffffff',
+                secondaryBorderColor: '#2f855a',
+
+                // Tertiary colors
+                tertiaryColor: '#805ad5',
+                tertiaryTextColor: '#ffffff',
+                tertiaryBorderColor: '#6b46c1',
+
+                // Additional colors for variety
+                primaryColorLight: '#63b3ed',
+                primaryColorDark: '#2c5282',
+
+                // Background and text
+                background: '#ffffff',
+                mainBkg: '#ffffff',
+                secondBkg: '#f7fafc',
+                tertiaryBkg: '#edf2f7',
+
+                // Text colors for better contrast
+                textColor: '#2d3748',
+                darkTextColor: '#1a202c',
+                lineColor: '#4a5568',
+
+                // Node-specific colors with proper contrast
+                cScale0: '#3182ce',
+                cScale1: '#38a169',
+                cScale2: '#805ad5',
+                cScale3: '#d69e2e',
+                cScale4: '#e53e3e',
+                cScale5: '#38b2ac',
+
+                // Ensure text is readable on all colors
+                nodeBorder: '#4a5568',
+                clusterBkg: '#f7fafc',
+                clusterBorder: '#cbd5e0',
+                defaultLinkColor: '#4a5568',
+                titleColor: '#2d3748',
+                edgeLabelBackground: '#ffffff',
+
+                // Active/hover states
+                activeTaskBkgColor: '#3182ce',
+                activeTaskBorderColor: '#2c5282',
+                gridColor: '#e2e8f0',
+                section0: '#ffffff',
+                section1: '#f7fafc',
+                section2: '#edf2f7',
+                section3: '#e2e8f0'
+            },
+            flowchart: {
+                useMaxWidth: true,
+                htmlLabels: true,
+                curve: 'basis',
+                padding: 20,
+                nodeSpacing: 50,
+                rankSpacing: 50
+            },
+            sequence: {
+                useMaxWidth: true,
+                wrap: true,
+                width: 150,
+                height: 65,
+                boxMargin: 10,
+                boxTextMargin: 5,
+                noteMargin: 10,
+                messageMargin: 35
+            },
+            gantt: {
+                useMaxWidth: true,
+                leftPadding: 75,
+                rightPadding: 20,
+                topPadding: 50,
+                bottomPadding: 50,
+                gridLineStartPadding: 35,
+                fontSize: 11,
+                sectionFontSize: 24,
+                numberSectionStyles: 4
+            }
+        });
+
+        // Initialize Mermaid Controls for zoom and pan
+        function initializeMermaidControls() {
+            const containers = document.querySelectorAll('.mermaid-container');
+
+            containers.forEach(container => {
+            const mermaidElement = container.querySelector('.mermaid');
+            let scale = 1;
+            let isDragging = false;
+            let startX, startY, translateX = 0, translateY = 0;
+
+            // 触摸相关状态
+            let isTouch = false;
+            let touchStartTime = 0;
+            let initialDistance = 0;
+            let initialScale = 1;
+            let isPinching = false;
+
+            // Zoom controls
+            const zoomInBtn = container.querySelector('.zoom-in');
+            const zoomOutBtn = container.querySelector('.zoom-out');
+            const resetBtn = container.querySelector('.reset-zoom');
+            const fullscreenBtn = container.querySelector('.fullscreen');
+
+            function updateTransform() {
+                mermaidElement.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+
+                if (scale > 1) {
+                container.classList.add('zoomed');
+                } else {
+                container.classList.remove('zoomed');
+                }
+
+                mermaidElement.style.cursor = isDragging ? 'grabbing' : 'grab';
+            }
+
+            if (zoomInBtn) {
+                zoomInBtn.addEventListener('click', () => {
+                scale = Math.min(scale * 1.25, 4);
+                updateTransform();
+                });
+            }
+
+            if (zoomOutBtn) {
+                zoomOutBtn.addEventListener('click', () => {
+                scale = Math.max(scale / 1.25, 0.3);
+                if (scale <= 1) {
+                    translateX = 0;
+                    translateY = 0;
+                }
+                updateTransform();
+                });
+            }
+
+            if (resetBtn) {
+                resetBtn.addEventListener('click', () => {
+                scale = 1;
+                translateX = 0;
+                translateY = 0;
+                updateTransform();
+                });
+            }
+
+            if (fullscreenBtn) {
+                fullscreenBtn.addEventListener('click', () => {
+                if (container.requestFullscreen) {
+                    container.requestFullscreen();
+                } else if (container.webkitRequestFullscreen) {
+                    container.webkitRequestFullscreen();
+                } else if (container.msRequestFullscreen) {
+                    container.msRequestFullscreen();
+                }
+                });
+            }
+
+            // Mouse Events
+            mermaidElement.addEventListener('mousedown', (e) => {
+                if (isTouch) return; // 如果是触摸设备，忽略鼠标事件
+
+                isDragging = true;
+                startX = e.clientX - translateX;
+                startY = e.clientY - translateY;
+                mermaidElement.style.cursor = 'grabbing';
+                updateTransform();
+                e.preventDefault();
+            });
+
+            document.addEventListener('mousemove', (e) => {
+                if (isDragging && !isTouch) {
+                translateX = e.clientX - startX;
+                translateY = e.clientY - startY;
+                updateTransform();
+                }
+            });
+
+            document.addEventListener('mouseup', () => {
+                if (isDragging && !isTouch) {
+                isDragging = false;
+                mermaidElement.style.cursor = 'grab';
+                updateTransform();
+                }
+            });
+
+            document.addEventListener('mouseleave', () => {
+                if (isDragging && !isTouch) {
+                isDragging = false;
+                mermaidElement.style.cursor = 'grab';
+                updateTransform();
+                }
+            });
+
+            // 获取两点之间的距离
+            function getTouchDistance(touch1, touch2) {
+                return Math.hypot(
+                touch2.clientX - touch1.clientX,
+                touch2.clientY - touch1.clientY
+                );
+            }
+
+            // Touch Events - 触摸事件处理
+            mermaidElement.addEventListener('touchstart', (e) => {
+                isTouch = true;
+                touchStartTime = Date.now();
+
+                if (e.touches.length === 1) {
+                // 单指拖动
+                isPinching = false;
+                isDragging = true;
+
+                const touch = e.touches[0];
+                startX = touch.clientX - translateX;
+                startY = touch.clientY - translateY;
+
+                } else if (e.touches.length === 2) {
+                // 双指缩放
+                isPinching = true;
+                isDragging = false;
+
+                const touch1 = e.touches[0];
+                const touch2 = e.touches[1];
+                initialDistance = getTouchDistance(touch1, touch2);
+                initialScale = scale;
+                }
+
+                e.preventDefault();
+            }, { passive: false });
+
+            mermaidElement.addEventListener('touchmove', (e) => {
+                if (e.touches.length === 1 && isDragging && !isPinching) {
+                // 单指拖动
+                const touch = e.touches[0];
+                translateX = touch.clientX - startX;
+                translateY = touch.clientY - startY;
+                updateTransform();
+
+                } else if (e.touches.length === 2 && isPinching) {
+                // 双指缩放
+                const touch1 = e.touches[0];
+                const touch2 = e.touches[1];
+                const currentDistance = getTouchDistance(touch1, touch2);
+
+                if (initialDistance > 0) {
+                    const newScale = Math.min(Math.max(
+                    initialScale * (currentDistance / initialDistance),
+                    0.3
+                    ), 4);
+                    scale = newScale;
+                    updateTransform();
+                }
+                }
+
+                e.preventDefault();
+            }, { passive: false });
+
+            mermaidElement.addEventListener('touchend', (e) => {
+                // 重置状态
+                if (e.touches.length === 0) {
+                isDragging = false;
+                isPinching = false;
+                initialDistance = 0;
+
+                // 延迟重置isTouch，避免鼠标事件立即触发
+                setTimeout(() => {
+                    isTouch = false;
+                }, 100);
+                } else if (e.touches.length === 1 && isPinching) {
+                // 从双指变为单指，切换为拖动模式
+                isPinching = false;
+                isDragging = true;
+
+                const touch = e.touches[0];
+                startX = touch.clientX - translateX;
+                startY = touch.clientY - translateY;
+                }
+
+                updateTransform();
+            });
+
+            mermaidElement.addEventListener('touchcancel', (e) => {
+                isDragging = false;
+                isPinching = false;
+                initialDistance = 0;
+
+                setTimeout(() => {
+                isTouch = false;
+                }, 100);
+
+                updateTransform();
+            });
+
+            // Enhanced wheel zoom with better center point handling
+            container.addEventListener('wheel', (e) => {
+                e.preventDefault();
+                const rect = container.getBoundingClientRect();
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+
+                const delta = e.deltaY > 0 ? 0.9 : 1.1;
+                const newScale = Math.min(Math.max(scale * delta, 0.3), 4);
+
+                // Adjust translation to zoom towards center
+                if (newScale !== scale) {
+                const scaleDiff = newScale / scale;
+                translateX = translateX * scaleDiff;
+                translateY = translateY * scaleDiff;
+                scale = newScale;
+
+                if (scale <= 1) {
+                    translateX = 0;
+                    translateY = 0;
+                }
+
+                updateTransform();
+                }
+            });
+
+            // Initialize display
+            updateTransform();
+            });
+        }
+
+        // Initialize the mermaid controls after the DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth scrolling for TOC links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // Highlight active section in TOC
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '-20% 0px -80% 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        // Remove active class from all TOC links
+                        document.querySelectorAll('.toc-fixed a').forEach(link => {
+                            link.classList.remove('text-blue-600', 'font-semibold');
+                            link.classList.add('text-gray-600');
+                        });
+
+                        // Add active class to current section link
+                        const activeLink = document.querySelector(`.toc-fixed a[href="#${entry.target.id}"]`);
+                        if (activeLink) {
+                            activeLink.classList.remove('text-gray-600');
+                            activeLink.classList.add('text-blue-600', 'font-semibold');
+                        }
+                    }
+                });
+            }, observerOptions);
+
+            // Observe all sections
+            document.querySelectorAll('section[id]').forEach(section => {
+                observer.observe(section);
+            });
+
+            // Initialize mermaid controls
+            initializeMermaidControls();
+        });
+
+        // Add loading animation for images
+        document.querySelectorAll('img').forEach(img => {
+            img.addEventListener('load', function() {
+                this.style.opacity = '1';
+            });
+            img.style.opacity = '0';
+            img.style.transition = 'opacity 0.3s ease';
+        });
+    </script>
+
+
+</body></html>
