@@ -1,0 +1,105 @@
+/* Custom Animations */
+@keyframes scanline {
+  0% {
+    transform: translateY(-100vh);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(255, 0, 128, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(255, 0, 128, 0.6);
+  }
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom cursor for interactive elements */
+@media (pointer: fine) {
+  a, button, [role="button"] {
+    cursor: pointer;
+  }
+}
+
+/* Selection styling */
+::selection {
+  background: rgba(255, 0, 128, 0.3);
+  color: #fff;
+}
+
+/* Focus visible styles */
+:focus-visible {
+  outline: 2px solid #ff0080;
+  outline-offset: 2px;
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .perspective-1000 {
+    perspective: none;
+  }
+  
+  .preserve-3d {
+    transform-style: flat;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .glass-panel {
+    background: rgba(10, 10, 10, 0.95);
+    border: 2px solid #ff0080;
+  }
+}
+
+/* Print styles */
+@media print {
+  .glass-panel,
+  .neon-border,
+  [class*="shadow-"] {
+    background: white !important;
+    border: 1px solid black !important;
+    box-shadow: none !important;
+  }
+}

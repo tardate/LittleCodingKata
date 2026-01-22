@@ -1,6 +1,6 @@
-# 403 Little Coding Katas
+# 404 Little Coding Katas
 
-> Latest addition :sparkles: [konamiMapping](./ruby/konami-mapping) - Using ruby to find a mapping that reveals the Konami Code in a string; cassidoo's interview question of the week (2026-01-19).
+> Latest addition :sparkles: [Moonshot AI: Kimi K2 Thinking](./ai/kimi) - About Kimi K2 and Kimi K2 Thinking from Moonshot AI.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
