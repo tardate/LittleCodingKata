@@ -18,8 +18,8 @@
     <link href="https://codingkata.tardate.com/python/yt-md-link/"/>
     <updated>2026-01-25T14:04:00Z</updated>
     <title>#405 YouTube Time-stamped Link Maker</title>
-    <summary>I wanted an easy way to generate markdown links to specific times in YouTube videos, getting the actual video title and rendering the time in a more convenient hh:mm:ss format.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;I wanted an easy way to generate markdown links to specific times in YouTube videos, getting the actual video title and rendering the time in a more convenient hh:mm:ss format.&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>I wanted an easy way to generate markdown links to specific times in YouTube videos, using the actual video title and rendering the time in a more convenient hh:mm:ss format.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;I wanted an easy way to generate markdown links to specific times in YouTube videos, using the actual video title and rendering the time in a more convenient hh:mm:ss format.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="python"/>
   </entry>
   <entry>
