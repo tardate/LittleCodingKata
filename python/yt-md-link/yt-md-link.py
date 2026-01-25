@@ -14,15 +14,18 @@ def parse_timestamp(url: str) -> str:
     qs = urllib.parse.parse_qs(parsed.query)
     t_str = qs.get("t", [None])[0] or re.search(r"[?&]t=(\d+)s?", url)
     if t_str is None:
-        raise ValueError("No timestamp found in URL")
-    if isinstance(t_str, str):          # came from query string
+        return ""
+
+    if isinstance(t_str, str):
+        # came from query string
         seconds = int(t_str)
-    else:                               # came from regex
+    else:
+        # came from regex
         seconds = int(t_str.group(1))
 
     hh, mm = divmod(seconds, 3600)
     mm, ss = divmod(mm, 60)
-    marker = f"{hh:02d}:{mm:02d}:{ss:02d}"
+    marker = f" ({hh:02d}:{mm:02d}:{ss:02d})"
     return marker
 
 def get_title(url: str) -> str:
@@ -49,21 +52,14 @@ def main() -> None:
     parser.add_argument("-i", "--image", action="store_true", help="Output image markdown instead of a link")
     args = parser.parse_args()
 
-    try:
-      marker = parse_timestamp(args.url)
-    except Exception as e:
-      sys.exit(f"Error parsing timestamp: {e}")
-
-    try:
-      title = args.title if args.title is not None else get_title(args.url)
-    except Exception as e:
-      sys.exit(f"Error getting title: {e}")
+    video_id = get_video_id(args.url)
+    time_marker = parse_timestamp(args.url)
+    title = args.title if args.title is not None else get_title(args.url)
 
     if args.image:
-      video_id = get_video_id(args.url)
-      print(f"[![{title} ({marker})](https://img.youtube.com/vi/{video_id}/0.jpg)]({args.url})")
+      print(f"[![{title}{time_marker}](https://img.youtube.com/vi/{video_id}/0.jpg)]({args.url})")
     else:
-      print(f"[{title} ({marker})]({args.url})")
+      print(f"[{title}{time_marker}]({args.url})")
 
 if __name__ == "__main__":
     main()

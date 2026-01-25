@@ -49,6 +49,17 @@ The markdown renders as follows:
 
 [LIV MOON - THE WINTER (VIVALDI FOUR SEASONS) (00:04:00)](https://youtu.be/ky2z2mMQO40?si=ek-z2G0Rpv0Uz4fv&t=240)
 
+Note: if there's no timestamp in the video link, it just renders the plain link:
+
+```sh
+$ ./yt-md-link.py "https://youtu.be/ky2z2mMQO40?si=ek-z2G0Rpv0Uz4fv"
+[LIV MOON - THE WINTER (VIVALDI FOUR SEASONS)](https://youtu.be/ky2z2mMQO40?si=ek-z2G0Rpv0Uz4fv)
+```
+
+The markdown renders as follows:
+
+[LIV MOON - THE WINTER (VIVALDI FOUR SEASONS)](https://youtu.be/ky2z2mMQO40?si=ek-z2G0Rpv0Uz4fv)
+
 #### Simple Link with a Custom Title
 
 Invocation:
