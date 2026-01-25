@@ -6,7 +6,9 @@ Turns a YouTube URL with timestamp into a Markdown link
 import argparse
 import sys
 import re
-import subprocess
+import json
+from urllib.request import Request, urlopen
+from urllib.error import URLError, HTTPError
 import urllib.parse
 
 def parse_timestamp(url: str) -> str:
@@ -29,14 +31,16 @@ def parse_timestamp(url: str) -> str:
     return marker
 
 def get_title(url: str) -> str:
-    try:
-        title = subprocess.check_output(
-            ["yt-dlp", "--get-title", "--no-warnings", url],
-            text=True
-        ).strip()
-        return title
-    except Exception as e:
-        raise RuntimeError(f"yt-dlp failed: {e}")
+    params = urllib.parse.urlencode({"url": url, "format": "json"})
+    oembed_url = f"https://www.youtube.com/oembed?{params}"
+    req = Request(oembed_url, headers={"User-Agent": "Mozilla/5.0"})
+    with urlopen(req, timeout=10) as resp:
+        data = resp.read().decode("utf-8")
+    info = json.loads(data)
+    title = info.get("title")
+    if not title:
+        raise RuntimeError("oEmbed response missing title")
+    return title
 
 def get_video_id(url: str) -> str:
       video_id_match = re.search(r"(?:v=|youtu\.be/)([a-zA-Z0-9_-]{11})", url)
