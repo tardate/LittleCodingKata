@@ -1,6 +1,6 @@
-# 404 Little Coding Katas
+# 405 Little Coding Katas
 
-> Latest addition :sparkles: [Moonshot AI: Kimi K2 Thinking](./ai/kimi) - About Kimi K2 and Kimi K2 Thinking from Moonshot AI.
+> Latest addition :sparkles: [YouTube Time-stamped Link Maker](./python/yt-md-link) - I wanted an easy way to generate markdown links to specific times in YouTube videos, getting the actual video title and rendering the time in a more convenient hh:mm:ss format.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

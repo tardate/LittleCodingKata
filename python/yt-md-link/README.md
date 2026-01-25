@@ -1,4 +1,4 @@
-# #xxx Youtube Time-stamped Link Maker
+# #405 YouTube Time-stamped Link Maker
 
 I wanted an easy way to generate markdown links to specific times in YouTube videos, getting the actual video title and rendering the time in a more convenient hh:mm:ss format.
 

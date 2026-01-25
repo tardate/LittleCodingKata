@@ -7,12 +7,21 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-01-22T13:23:00Z</updated>
+  <updated>2026-01-25T14:04:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/python/yt-md-link/</id>
+    <link href="https://codingkata.tardate.com/python/yt-md-link/"/>
+    <updated>2026-01-25T14:04:00Z</updated>
+    <title>#405 YouTube Time-stamped Link Maker</title>
+    <summary>I wanted an easy way to generate markdown links to specific times in YouTube videos, getting the actual video title and rendering the time in a more convenient hh:mm:ss format.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;I wanted an easy way to generate markdown links to specific times in YouTube videos, getting the actual video title and rendering the time in a more convenient hh:mm:ss format.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="python"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/ai/kimi/</id>
     <link href="https://codingkata.tardate.com/ai/kimi/"/>
