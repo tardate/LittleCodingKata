@@ -1,4 +1,12 @@
 {
+    "/python/yt-md-link/": {
+        "id": 405,
+        "title": "YouTube Time-stamped Link Maker",
+        "summary": "I wanted an easy way to generate markdown links to specific times in YouTube videos, using the actual video title and rendering the time in a more convenient hh:mm:ss format.",
+        "tags": [
+            "python"
+        ]
+    },
     "/ai/kimi/": {
         "id": 404,
         "title": "Moonshot AI: Kimi K2 Thinking",
