@@ -4,17 +4,17 @@ I wanted an easy way to generate markdown links to specific times in YouTube vid
 
 ## Notes
 
-When making notes for courses, or music study for example, I often wat to link to specific timestamped sections in videos
+When making notes for courses, or music study for example, I often want to create markdown links to specific timestamped sections in videos.
 
-Say for example I have a link from YouTube like this:
+Say, for example, I have a link from YouTube like this:
 
 ```txt
 https://youtu.be/ky2z2mMQO40?si=ek-z2G0Rpv0Uz4fv&t=240
 ```
 
-I've like to be able to generate a markdown link in a few formats.
+I'd like to be able to generate a markdown link in a few different formats.
 
-Firstly, a simple markdown link using the video title, and the timestamp in "hh:mm:ss" instead of total seconds, i.e.:
+Firstly, a simple markdown link using the actual video title, and the timestamp in "hh:mm:ss" instead of total seconds, i.e.:
 
 ```md
 [LIV MOON - THE WINTER (VIVALDI FOUR SEASONS) (00:04:00)](https://youtu.be/ky2z2mMQO40?si=ek-z2G0Rpv0Uz4fv&t=240)
@@ -26,17 +26,17 @@ Or sometimes, substituting my own title text e.g.
 [Custom Title Text (00:04:00)](https://youtu.be/ky2z2mMQO40?si=ek-z2G0Rpv0Uz4fv&t=240)
 ```
 
-Or finally, with an image link e.g.
+Or finally, as a video image link e.g.
 
 ```md
 [![LIV MOON - THE WINTER (VIVALDI FOUR SEASONS) (00:04:00)](https://img.youtube.com/vi/ky2z2mMQO40/0.jpg)](https://youtu.be/ky2z2mMQO40?si=ek-z2G0Rpv0Uz4fv&t=240)
 ```
 
-### Generated links
+### Generated Links
 
-Using the script [yt-md-link.py](./yt-md-link.py) in the three ways...
+Using the script [yt-md-link.py](./yt-md-link.py) in the various ways...
 
-#### Simple link with the actual title
+#### Simple Link with the Actual Title
 
 Invocation:
 
@@ -49,7 +49,7 @@ The markdown renders as follows:
 
 [LIV MOON - THE WINTER (VIVALDI FOUR SEASONS) (00:04:00)](https://youtu.be/ky2z2mMQO40?si=ek-z2G0Rpv0Uz4fv&t=240)
 
-#### Simple link with custom title
+#### Simple Link with a Custom Title
 
 Invocation:
 
@@ -62,7 +62,7 @@ The markdown renders as follows:
 
 [Custom Title (00:04:00)](https://youtu.be/ky2z2mMQO40?si=ek-z2G0Rpv0Uz4fv&t=240)
 
-#### Image link with actual title
+#### Image Link with the Actual Title
 
 Invocation:
 
@@ -75,7 +75,7 @@ The markdown renders as follows:
 
 [![LIV MOON - THE WINTER (VIVALDI FOUR SEASONS) (00:04:00)](https://img.youtube.com/vi/ky2z2mMQO40/0.jpg)](https://youtu.be/ky2z2mMQO40?si=ek-z2G0Rpv0Uz4fv&t=240)
 
-#### Image link with custom title
+#### Image Link with a Custom Title
 
 Invocation:
 
@@ -88,7 +88,7 @@ The markdown renders as follows:
 
 [![Custom Title (00:04:00)](https://img.youtube.com/vi/ky2z2mMQO40/0.jpg)](https://youtu.be/ky2z2mMQO40?si=ek-z2G0Rpv0Uz4fv&t=240)
 
-### The script
+### The Script
 
 The final version of the script [yt-md-link.py](./yt-md-link.py) is listed below.
 
