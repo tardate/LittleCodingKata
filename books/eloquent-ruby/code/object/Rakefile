@@ -1,0 +1,2 @@
+RB_SKIP = FileList["my_repl.rb"]
+require_relative "../standard_rake_targets"

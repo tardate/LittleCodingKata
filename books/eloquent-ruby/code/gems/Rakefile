@@ -1,0 +1,4 @@
+DISABLE_RSPECS=true
+DISABLE_RUBYS=true
+
+require_relative "../standard_rake_targets"

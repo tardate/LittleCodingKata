@@ -1,0 +1,87 @@
+b_call in tracepoint_demo.rb/6 
+line in tracepoint_demo.rb/7 
+line in tracepoint_demo.rb/8 
+call in <internal:numeric>/250 times
+line in <internal:numeric>/252 times
+line in <internal:numeric>/255 times
+line in <internal:numeric>/256 times
+c_call in <internal:numeric>/256 <
+c_return in <internal:numeric>/256 <
+line in <internal:numeric>/257 times
+b_call in tracepoint_demo.rb/8 
+line in tracepoint_demo.rb/9 
+c_call in tracepoint_demo.rb/9 +
+c_return in tracepoint_demo.rb/9 +
+c_call in tracepoint_demo.rb/9 +
+c_return in tracepoint_demo.rb/9 +
+b_return in tracepoint_demo.rb/10 
+line in <internal:numeric>/258 times
+c_call in <internal:numeric>/258 succ
+c_return in <internal:numeric>/258 succ
+c_call in <internal:numeric>/256 <
+c_return in <internal:numeric>/256 <
+line in <internal:numeric>/257 times
+b_call in tracepoint_demo.rb/8 
+line in tracepoint_demo.rb/9 
+c_call in tracepoint_demo.rb/9 +
+c_return in tracepoint_demo.rb/9 +
+c_call in tracepoint_demo.rb/9 +
+c_return in tracepoint_demo.rb/9 +
+b_return in tracepoint_demo.rb/10 
+line in <internal:numeric>/258 times
+c_call in <internal:numeric>/258 succ
+c_return in <internal:numeric>/258 succ
+c_call in <internal:numeric>/256 <
+c_return in <internal:numeric>/256 <
+line in <internal:numeric>/257 times
+b_call in tracepoint_demo.rb/8 
+line in tracepoint_demo.rb/9 
+c_call in tracepoint_demo.rb/9 +
+c_return in tracepoint_demo.rb/9 +
+c_call in tracepoint_demo.rb/9 +
+c_return in tracepoint_demo.rb/9 +
+b_return in tracepoint_demo.rb/10 
+line in <internal:numeric>/258 times
+c_call in <internal:numeric>/258 succ
+c_return in <internal:numeric>/258 succ
+c_call in <internal:numeric>/256 <
+c_return in <internal:numeric>/256 <
+line in <internal:numeric>/257 times
+b_call in tracepoint_demo.rb/8 
+line in tracepoint_demo.rb/9 
+c_call in tracepoint_demo.rb/9 +
+c_return in tracepoint_demo.rb/9 +
+c_call in tracepoint_demo.rb/9 +
+c_return in tracepoint_demo.rb/9 +
+b_return in tracepoint_demo.rb/10 
+line in <internal:numeric>/258 times
+c_call in <internal:numeric>/258 succ
+c_return in <internal:numeric>/258 succ
+c_call in <internal:numeric>/256 <
+c_return in <internal:numeric>/256 <
+line in <internal:numeric>/257 times
+b_call in tracepoint_demo.rb/8 
+line in tracepoint_demo.rb/9 
+c_call in tracepoint_demo.rb/9 +
+c_return in tracepoint_demo.rb/9 +
+c_call in tracepoint_demo.rb/9 +
+c_return in tracepoint_demo.rb/9 +
+b_return in tracepoint_demo.rb/10 
+line in <internal:numeric>/258 times
+c_call in <internal:numeric>/258 succ
+c_return in <internal:numeric>/258 succ
+c_call in <internal:numeric>/256 <
+c_return in <internal:numeric>/256 <
+line in <internal:numeric>/260 times
+return in <internal:numeric>/261 times
+line in tracepoint_demo.rb/11 
+c_call in tracepoint_demo.rb/11 puts
+c_call in tracepoint_demo.rb/11 puts
+c_call in tracepoint_demo.rb/11 to_s
+c_return in tracepoint_demo.rb/11 to_s
+c_call in tracepoint_demo.rb/11 write
+15
+c_return in tracepoint_demo.rb/11 write
+c_return in tracepoint_demo.rb/11 puts
+c_return in tracepoint_demo.rb/11 puts
+b_return in tracepoint_demo.rb/12 

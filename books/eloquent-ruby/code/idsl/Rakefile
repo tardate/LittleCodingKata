@@ -1,0 +1,23 @@
+RB_SKIP = FileList["rawk_3_main.rb", "rawk_4_main.rb"]
+
+require_relative "../standard_rake_targets"
+
+task :extra do
+  sh "rake -f simple_rakefile"
+end
+
+task :extra do
+ sh "bundle exec ruby make_marketing.rb"
+ sh "bundle exec ruby rawk_3_main.rb example.rawk marketing"
+ sh "bundle exec ruby delete_marketing.rb"
+end
+
+task :extra do
+ sh "bundle exec ruby make_marketing.rb"
+ sh "bundle exec ruby rawk_4_main.rb example.rawk marketing"
+ sh "bundle exec ruby delete_marketing.rb"
+end
+
+task :clean do
+  rm_rf "installation"
+end

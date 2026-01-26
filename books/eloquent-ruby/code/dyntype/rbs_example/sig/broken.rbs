@@ -1,0 +1,20 @@
+# TART: file_method
+# A document class that tries to call the non-existent File.read_all method.
+# We really meant to call File.read.
+class Document
+  @content: untyped
+
+  # Read the contents of a file into our document. 
+  # Except we weren't really paying attention...
+  def read_content: (path: untyped) -> untyped
+end
+
+class Object
+  # Make a new document with Author and Title instances.
+  # This will pass Sorbet type checking.
+  def correct_example: () -> untyped
+
+  # Make a new document with string author and title.
+  # This will fail the Sorbet type checking.
+  def broken_example: () -> untyped
+end

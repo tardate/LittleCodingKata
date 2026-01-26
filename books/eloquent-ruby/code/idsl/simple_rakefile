@@ -1,0 +1,15 @@
+# START:code
+task default: [:install_program, :install_data]
+
+task install_data: :installation_dir do
+  cp "fonts.dat", "installation"
+end
+
+task install_program: [:installation_dir] do
+  cp "important_program.rb", "installation"
+end
+
+task :installation_dir do
+  mkdir_p "installation"
+end
+# END:code

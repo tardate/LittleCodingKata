@@ -1,0 +1,26 @@
+#See: TBD
+class Pathname
+    # Most of this RBS description omitted...
+
+    def absolute?: () -> bool
+    
+    # ...
+
+    def directory?: () -> bool
+
+    # ...
+
+    def initialize: (string | Pathname) -> void
+
+    # ...
+end
+
+# See: TBD
+class Pathname
+  # ...
+
+  def sub:
+    (Regexp | string pattern, string |
+     Hash[String, String] replacement) -> Pathname
+    | (Regexp | string pattern) { (String match) -> string } -> Pathname
+end

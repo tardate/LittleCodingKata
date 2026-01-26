@@ -1,0 +1,9 @@
+class Document
+  attr_accessor title: Title
+  attr_accessor author: Author
+  attr_accessor content: String
+
+  def initialize: (title: Title, author: Author, content: String) -> void
+  def words: () -> Array[String]
+  def word_count: () -> Integer
+end

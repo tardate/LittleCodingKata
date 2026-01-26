@@ -1,0 +1,7 @@
+# Look for files that match "marketing/*.txt"...
+# Or perhaps it would be wiser to take a breath
+# And rethink our life choices.
+
+on_marketing_slash_star_dot_txt do path
+  puts "We found a text file: #{path}"
+end

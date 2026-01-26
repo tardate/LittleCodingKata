@@ -1,0 +1,11 @@
+# Print the path, but only if the file is more than
+# 200 bytes long.
+on_path("*.txt") do |path|
+  puts path if File.size(path) > 200
+end
+
+# Print the first ten lines of each text file.
+on_file("*.txt") do |path|
+  lines = File.readlines(path)
+  puts lines[0..9]
+end
