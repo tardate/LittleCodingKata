@@ -1,4 +1,4 @@
-# #xxx VSCode Extensions with Typescript
+# #407 VSCode Extensions with Typescript
 
 An initial exploration of writing vscode extensions with Typescript.
 

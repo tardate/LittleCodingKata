@@ -2,5 +2,8 @@
     "name": "VSCode Extensions with Typescript",
     "description": "An initial exploration of writing vscode extensions with Typescript",
     "categories": "tools, editors, typescript",
-    "relative_path": "tools/vscode/first-extension"
+    "relative_path": "tools/vscode/first-extension",
+    "updated_at": "2026-01-26T13:16:00Z",
+    "created_at": "2026-01-26T13:16:00Z",
+    "id": "#407"
 }
