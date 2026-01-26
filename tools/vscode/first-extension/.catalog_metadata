@@ -1,0 +1,6 @@
+{
+    "name": "VSCode Extensions with Typescript",
+    "description": "An initial exploration of writing vscode extensions with Typescript",
+    "categories": "tools, editors, typescript",
+    "relative_path": "tools/vscode/first-extension"
+}
