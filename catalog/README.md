@@ -1,7 +1,7 @@
 # #004 Catalog
 
-This is a simple Javascript catalog for building the
-[LittleCodingKata GitHub Pages site](https://codingkata.tardate.com).
+This is a simple Javascript catalog for driving the
+<https://codingkata.tardate.com> site.
 
 It is a simple bootstrap/datatables page with the main entry point in [index.html](../index.html).
 Catalog data is loaded from [catalog.json](./catalog.json), which is consolidated from `.catalog_metadata` I've added to each project.
