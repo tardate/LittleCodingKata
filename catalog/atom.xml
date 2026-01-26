@@ -7,12 +7,22 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-01-25T14:04:00Z</updated>
+  <updated>2026-01-26T03:25:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/books/eloquent-ruby/</id>
+    <link href="https://codingkata.tardate.com/books/eloquent-ruby/"/>
+    <updated>2026-01-26T03:25:00Z</updated>
+    <title>#406 Eloquent Ruby</title>
+    <summary>Book notes - Eloquent Ruby, by Russ Olsen. First published January 27, 2011. Second Edition currently in beta - due Q1 2026.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Eloquent Ruby, by Russ Olsen. First published January 27, 2011. Second Edition currently in beta - due Q1 2026.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Ruby"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/python/yt-md-link/</id>
     <link href="https://codingkata.tardate.com/python/yt-md-link/"/>

@@ -2,5 +2,8 @@
     "name": "Eloquent Ruby",
     "description": "Book notes - Eloquent Ruby, by Russ Olsen. First published January 27, 2011. Second Edition currently in beta - due Q1 2026.",
     "categories": "Books, Ruby",
-    "relative_path": "books/eloquent-ruby"
+    "relative_path": "books/eloquent-ruby",
+    "updated_at": "2026-01-26T03:25:00Z",
+    "created_at": "2026-01-26T03:25:00Z",
+    "id": "#406"
 }

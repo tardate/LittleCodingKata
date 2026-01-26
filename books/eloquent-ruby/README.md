@@ -1,4 +1,4 @@
-# #xxx Eloquent Ruby
+# #406 Eloquent Ruby
 
 Book notes - Eloquent Ruby, by Russ Olsen.
 First published January 27, 2011. Second Edition currently in beta - due Q1 2026.

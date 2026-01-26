@@ -1,4 +1,13 @@
 {
+    "/books/eloquent-ruby/": {
+        "id": 406,
+        "title": "Eloquent Ruby",
+        "summary": "Book notes - Eloquent Ruby, by Russ Olsen. First published January 27, 2011. Second Edition currently in beta - due Q1 2026.",
+        "tags": [
+            "Books",
+            "Ruby"
+        ]
+    },
     "/python/yt-md-link/": {
         "id": 405,
         "title": "YouTube Time-stamped Link Maker",

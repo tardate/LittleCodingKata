@@ -1,6 +1,6 @@
-# 405 Little Coding Katas
+# 406 Little Coding Katas
 
-> Latest addition :sparkles: [YouTube Time-stamped Link Maker](./python/yt-md-link) - I wanted an easy way to generate markdown links to specific times in YouTube videos, using the actual video title and rendering the time in a more convenient hh:mm:ss format.
+> Latest addition :sparkles: [Eloquent Ruby](./books/eloquent-ruby) - Book notes - Eloquent Ruby, by Russ Olsen. First published January 27, 2011. Second Edition currently in beta - due Q1 2026.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
