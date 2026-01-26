@@ -1,0 +1,7 @@
+RB_SKIP = FileList["trivial_example.rb"]
+
+task :setup do
+  cp "../common/document.rb", "document.rb"
+end
+
+require_relative "../standard_rake_targets"

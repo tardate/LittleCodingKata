@@ -1,0 +1,9 @@
+on_path("*.txt") { |path| puts path }
+
+on_file("*.txt") do |path|
+  open(path) { |f| puts f.readline }
+end
+
+transform("*.txt") do |contents|
+  contents.gsub!(/Spacely Sprockets/, "Coswell Cogs")
+end

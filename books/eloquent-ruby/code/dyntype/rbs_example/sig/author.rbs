@@ -1,0 +1,11 @@
+class Author
+  @first_name: untyped
+
+  @last_name: untyped
+
+  attr_reader first_name: untyped
+
+  attr_reader last_name: untyped
+
+  def initialize: (first_name: untyped, last_name: untyped) -> void
+end

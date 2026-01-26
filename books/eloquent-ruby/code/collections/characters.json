@@ -1,0 +1,12 @@
+  {
+    "super-hero": [
+      {
+        "name": "Spiderman",
+        "origin": "Radioactive Spider"
+      },
+      {
+        "name": "Hulk",
+        "origin": "Gamma Rays"
+      }
+    ]
+  }

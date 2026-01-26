@@ -1,0 +1,15 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+gem "rspec", "~> 3.13"
+gem "irb"
+gem "rake"
+gem "text"
+gem "rexml"
+gem "minitest"
+gem "nokogiri"
+gem "test-unit"
+gem "prime"
+gem "activesupport"
+gem "activerecord"

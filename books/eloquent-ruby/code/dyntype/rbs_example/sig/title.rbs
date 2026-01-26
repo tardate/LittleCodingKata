@@ -1,0 +1,11 @@
+class Title
+  @main_title: untyped
+
+  @subtitle: untyped
+
+  attr_reader main_title: untyped
+
+  attr_reader subtitle: untyped
+
+  def initialize: (main_title: untyped, subtitle: untyped) -> void
+end

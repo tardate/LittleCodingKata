@@ -1,0 +1,4 @@
+Russ
+Getting Clojure
+This is where the fun starts...
+

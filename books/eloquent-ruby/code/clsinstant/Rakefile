@@ -1,0 +1,14 @@
+# These two specs need to be run separately because they load variabions
+# of the same classes.
+SPEC_SKIP = FileList["separate_fonts_spec.rb", "font_collision_spec.rb"]
+
+# These classes do not include the document dep.
+RB_SKIP = FileList["presentation.rb", "resume.rb"]
+
+require_relative "../standard_rake_targets"
+
+task :extra do
+  SPEC_SKIP.each do |s|
+    sh "bundle exec rspec #{s}"
+  end
+end

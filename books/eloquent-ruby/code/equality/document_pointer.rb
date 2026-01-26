@@ -1,0 +1,24 @@
+#---
+# Excerpted from "Eloquent Ruby",
+# published by The Pragmatic Bookshelf.
+# Copyrights apply to this code. It may not be used to create training material,
+# courses, books, articles, and the like. Contact us if you are in doubt.
+# We make no guarantees that this code is fit for any purpose.
+# Visit https://pragprog.com/titles/eruby2 for more book information.
+#---
+module Broaden
+  class DocumentPointer
+    attr_reader :folder, :name
+  
+    def initialize(folder:, name:)
+      @folder = folder
+      @name = name
+    end
+  
+    def ==(other)
+      return false unless other.respond_to?(:folder)
+      return false unless other.respond_to?(:name)
+      folder == other.folder && name == other.name
+    end
+  end
+end

@@ -1,0 +1,5 @@
+# Boom! Note the missing do!
+
+on_file("*.txt") |path|
+  open(path) { |f| puts f.readline }
+end

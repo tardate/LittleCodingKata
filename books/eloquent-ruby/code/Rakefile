@@ -1,0 +1,36 @@
+SUB_DIRS=%w[common clsinstant collections concurrent control
+dyntype equality gems hooks idsl
+impl iterate look methods mixins mmapi mmdel
+modsubclass monkey namespace object operators
+patmatch regex selfmod singleton strings symbols
+wrtests xaround xlater]
+
+def dir_to_task(dir:, prefix:)
+  "#{prefix}#{dir}".to_sym
+end
+
+BUILD_TASKS=[]
+CLEAN_TASKS=[]
+
+SUB_DIRS.each do |dir|
+  build_task_name = dir_to_task(dir: dir, prefix: "build_")
+  clean_task_name = dir_to_task(dir: dir, prefix: "clean_")
+  if not File.exist?("#{dir}/Rakefile")
+    puts "\n**** No Rakefile in #{dir} *****\n\n"
+  else
+    task build_task_name do
+      puts 
+      sh "cd #{dir} && pwd && rake"
+    end
+
+    task clean_task_name do
+      sh "cd #{dir} && pwd && rake clean"
+    end
+
+    BUILD_TASKS << build_task_name
+    CLEAN_TASKS << clean_task_name
+  end
+end
+
+task :default => BUILD_TASKS
+task :clean =>   CLEAN_TASKS

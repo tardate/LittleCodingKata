@@ -1,0 +1,5 @@
+# Look for files that match "marketing/*.txt"...
+
+on_file "marketing/*.txt" do |path|
+  puts "We found a text file: #{path}"
+end
