@@ -1,4 +1,14 @@
 {
+    "/tools/vscode/first-extension/": {
+        "id": 407,
+        "title": "VSCode Extensions with Typescript",
+        "summary": "An initial exploration of writing vscode extensions with Typescript",
+        "tags": [
+            "tools",
+            "editors",
+            "typescript"
+        ]
+    },
     "/books/eloquent-ruby/": {
         "id": 406,
         "title": "Eloquent Ruby",
