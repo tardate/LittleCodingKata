@@ -1,4 +1,13 @@
 {
+    "/data-visualization/city-roads/": {
+        "id": 408,
+        "title": "City Roads",
+        "summary": "City Roads as art! Something quite delightful about this open source project.",
+        "tags": [
+            "maps",
+            "data visualization"
+        ]
+    },
     "/tools/vscode/first-extension/": {
         "id": 407,
         "title": "VSCode Extensions with Typescript",
