@@ -1,6 +1,6 @@
-# 407 Little Coding Katas
+# 408 Little Coding Katas
 
-> Latest addition :sparkles: [VSCode Extensions with Typescript](./tools/vscode/first-extension) - An initial exploration of writing vscode extensions with Typescript
+> Latest addition :sparkles: [City Roads](./data-visualization/city-roads) - City Roads as art! Something quite delightful about this open source project.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
