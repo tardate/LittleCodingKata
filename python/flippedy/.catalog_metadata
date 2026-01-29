@@ -2,5 +2,8 @@
     "name": "flippedy",
     "description": "Using python to count vowels and flip words; cassidoo's interview question of the week (2026-01-26).",
     "categories": "python, cassidoo",
-    "relative_path": "python/flippedy"
+    "relative_path": "python/flippedy",
+    "updated_at": "2026-01-29T16:15:00Z",
+    "created_at": "2026-01-29T16:15:00Z",
+    "id": "#409"
 }

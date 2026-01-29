@@ -7,12 +7,22 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-01-28T11:27:00Z</updated>
+  <updated>2026-01-29T16:15:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/python/flippedy/</id>
+    <link href="https://codingkata.tardate.com/python/flippedy/"/>
+    <updated>2026-01-29T16:15:00Z</updated>
+    <title>#409 flippedy</title>
+    <summary>Using python to count vowels and flip words; cassidoo's interview question of the week (2026-01-26).</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using python to count vowels and flip words; cassidoo's interview question of the week (2026-01-26).&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="python"/>
+    <category term="cassidoo"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/data-visualization/city-roads/</id>
     <link href="https://codingkata.tardate.com/data-visualization/city-roads/"/>
