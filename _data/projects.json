@@ -1,4 +1,13 @@
 {
+    "/python/flippedy/": {
+        "id": 409,
+        "title": "flippedy",
+        "summary": "Using python to count vowels and flip words; cassidoo's interview question of the week (2026-01-26).",
+        "tags": [
+            "python",
+            "cassidoo"
+        ]
+    },
     "/data-visualization/city-roads/": {
         "id": 408,
         "title": "City Roads",
