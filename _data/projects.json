@@ -1,4 +1,12 @@
 {
+    "/dataservices/transportation-trackers/": {
+        "id": 410,
+        "title": "Transportation Trackers",
+        "summary": "A catalog and quick survey of transportation trackers: aviation; maritime; rail.",
+        "tags": [
+            "Data Services"
+        ]
+    },
     "/python/flippedy/": {
         "id": 409,
         "title": "flippedy",
