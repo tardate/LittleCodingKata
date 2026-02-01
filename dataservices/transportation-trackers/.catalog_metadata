@@ -2,5 +2,8 @@
     "name": "Transportation Trackers",
     "description": "A catalog and quick survey of transportation trackers: aviation; maritime; rail.",
     "categories": "Data Services",
-    "relative_path": "dataservices/transportation-trackers"
+    "relative_path": "dataservices/transportation-trackers",
+    "updated_at": "2026-02-01T08:52:00Z",
+    "created_at": "2026-02-01T08:52:00Z",
+    "id": "#410"
 }
