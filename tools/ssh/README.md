@@ -156,6 +156,13 @@ If `ssh-copy-id` is not available, the manual steps are straight-forward:
 
 * Logout, test access with the key as before.
 
+#### 4 (Optional) Enhance Security
+
+* Disable password authentication entirely
+    * For increased security, you can edit the SSH server configuration file on the remote machine (`/etc/ssh/sshd_config`) to disable password-based logins, ensuring only key authentication works.
+* Use `ssh-agent`
+    * If you chose to set a passphrase for your private key, you can use `ssh-agent` and `ssh-add` on your client machine to cache the passphrase so you only have to enter it once per login session.
+
 ## Credits and References
 
 * [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell)
