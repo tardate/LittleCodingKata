@@ -1,6 +1,6 @@
-# 411 Little Coding Katas
+# 412 Little Coding Katas
 
-> Latest addition :sparkles: [About Factor](./factor/about) - An overview of the Factor programming language, its features, and ecosystem. Includes setting up and running on macOS.
+> Latest addition :sparkles: [moveNums](./factor/move-nums) - Using Factor to rearrange an array; cassidoo's interview question of the week (2026-02-09).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
