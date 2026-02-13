@@ -1,4 +1,13 @@
 {
+    "/factor/move-nums/": {
+        "id": 412,
+        "title": "moveNums",
+        "summary": "Using Factor to rearrange an array; cassidoo's interview question of the week (2026-02-09).",
+        "tags": [
+            "Factor",
+            "cassidoo"
+        ]
+    },
     "/factor/about/": {
         "id": 411,
         "title": "About Factor",

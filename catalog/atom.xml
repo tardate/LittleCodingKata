@@ -7,12 +7,22 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-02-13T03:51:00Z</updated>
+  <updated>2026-02-13T07:20:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/factor/move-nums/</id>
+    <link href="https://codingkata.tardate.com/factor/move-nums/"/>
+    <updated>2026-02-13T07:20:00Z</updated>
+    <title>#412 moveNums</title>
+    <summary>Using Factor to rearrange an array; cassidoo's interview question of the week (2026-02-09).</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using Factor to rearrange an array; cassidoo's interview question of the week (2026-02-09).&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Factor"/>
+    <category term="cassidoo"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/factor/about/</id>
     <link href="https://codingkata.tardate.com/factor/about/"/>
