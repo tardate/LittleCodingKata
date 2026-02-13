@@ -1,0 +1,6 @@
+{
+    "name": "moveNums",
+    "description": "Using Factor to rearrange an array; cassidoo's interview question of the week (2026-02-09).",
+    "categories": "Factor",
+    "relative_path": "factor/move-nums"
+}
