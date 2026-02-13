@@ -1,4 +1,4 @@
-# #xxx About Factor
+# #411 About Factor
 
 An overview of the Factor programming language, its features, and ecosystem. Includes setting up and running on macOS.
 
