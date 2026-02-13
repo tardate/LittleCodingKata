@@ -1,6 +1,6 @@
-# 410 Little Coding Katas
+# 411 Little Coding Katas
 
-> Latest addition :sparkles: [Transportation Trackers](./dataservices/transportation-trackers) - A catalog and quick survey of transportation trackers: aviation; maritime; rail.
+> Latest addition :sparkles: [About Factor](./factor/about) - An overview of the Factor programming language, its features, and ecosystem. Includes setting up and running on macOS.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

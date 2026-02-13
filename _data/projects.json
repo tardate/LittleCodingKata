@@ -1,4 +1,13 @@
 {
+    "/factor/about/": {
+        "id": 411,
+        "title": "About Factor",
+        "summary": "An overview of the Factor programming language, its features, and ecosystem. Includes setting up and running on macOS.",
+        "tags": [
+            "Factor",
+            "macOS"
+        ]
+    },
     "/dataservices/transportation-trackers/": {
         "id": 410,
         "title": "Transportation Trackers",

@@ -21,6 +21,7 @@ The first sequel to the classic by Bruce Tate. Introduces a further set of langu
     * Day 2: Painting the Fence
     * Day 3: Balancing on a Boat
     * Wrapping Up Factor
+    * See [LCK#411 About Factor](../../factor/about/)
 * 3 Elm
     * Day 1: Handling the Basics
     * Day 2: Taming Callbacks
