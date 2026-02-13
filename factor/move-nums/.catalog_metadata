@@ -1,7 +1,7 @@
 {
     "name": "moveNums",
     "description": "Using Factor to rearrange an array; cassidoo's interview question of the week (2026-02-09).",
-    "categories": "Factor",
+    "categories": "Factor, cassidoo",
     "relative_path": "factor/move-nums",
     "updated_at": "2026-02-13T07:20:00Z",
     "created_at": "2026-02-13T07:20:00Z",

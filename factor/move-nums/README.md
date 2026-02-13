@@ -65,11 +65,11 @@ Using the example provided, here's how that would work:
 
 * Given: `{ 0 2 0 3 10 } 0 movNums`
 * Stack: `{ 0 2 0 3 10 } 0`
-* [ = ]:`{ 0 2 0 3 10 } 0 [ = ]`
-* curry: `{ 0 2 0 3 10 } [ 0 = ]`
-* partition: `{ 0 0 } { 2 3 10 }`
-* swap: `{ 2 3 10 } { 0 0 }`
-* append: `{ 2 3 10 0 0 }`
+* `[ = ]`:`{ 0 2 0 3 10 } 0 [ = ]`
+* `curry`: `{ 0 2 0 3 10 } [ 0 = ]`
+* `partition`: `{ 0 0 } { 2 3 10 }`
+* `swap`: `{ 2 3 10 } { 0 0 }`
+* `append`: `{ 2 3 10 0 0 }`
 
 Let's run the actual code. And it works:
 
