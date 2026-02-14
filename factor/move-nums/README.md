@@ -2,6 +2,9 @@
 
 Using Factor to rearrange an array; cassidoo's interview question of the week (2026-02-09).
 
+> After tackling this with Factor, I decided to animate the in-place solution with lots of LEDs and an Arduino ..
+> see [LEAP#833 Solving cassidoo's moveNums on Arduino](https://leap.tardate.com/playground/move-nums/).
+
 ## Notes
 
 The [interview question of the week (2026-02-09)](https://buttondown.com/cassidoo/archive/everyone-deserves-the-space-to-change-and-for/)
@@ -145,3 +148,4 @@ MAIN: main
 
 * [cassidoo's interview question of the week (2026-02-09)](https://buttondown.com/cassidoo/archive/everyone-deserves-the-space-to-change-and-for/)
 * [LCK#411 About Factor](../about/)
+* [LEAP#833 Solving cassidoo's moveNums on Arduino](https://leap.tardate.com/playground/move-nums/)
