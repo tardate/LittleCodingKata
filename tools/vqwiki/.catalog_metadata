@@ -1,0 +1,6 @@
+{
+    "name": "VQWiki",
+    "description": "About the Very Quick Wiki Java-based WikiWikiWeb clone. The project is now officially abandoned, and I address exporting data from VQWiki.",
+    "categories": "tools, Perl, Java",
+    "relative_path": "tools/vqwiki"
+}
