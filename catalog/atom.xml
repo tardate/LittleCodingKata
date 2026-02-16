@@ -7,12 +7,23 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-02-13T07:20:00Z</updated>
+  <updated>2026-02-16T09:24:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/vqwiki/</id>
+    <link href="https://codingkata.tardate.com/tools/vqwiki/"/>
+    <updated>2026-02-16T09:24:00Z</updated>
+    <title>#413 VQWiki</title>
+    <summary>About the Very Quick Wiki Java-based WikiWikiWeb clone. The project is now officially abandoned, and I address exporting data from VQWiki.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;About the Very Quick Wiki Java-based WikiWikiWeb clone. The project is now officially abandoned, and I address exporting data from VQWiki.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="tools"/>
+    <category term="Perl"/>
+    <category term="Java"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/factor/move-nums/</id>
     <link href="https://codingkata.tardate.com/factor/move-nums/"/>

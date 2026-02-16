@@ -1,4 +1,14 @@
 {
+    "/tools/vqwiki/": {
+        "id": 413,
+        "title": "VQWiki",
+        "summary": "About the Very Quick Wiki Java-based WikiWikiWeb clone. The project is now officially abandoned, and I address exporting data from VQWiki.",
+        "tags": [
+            "tools",
+            "Perl",
+            "Java"
+        ]
+    },
     "/factor/move-nums/": {
         "id": 412,
         "title": "moveNums",
