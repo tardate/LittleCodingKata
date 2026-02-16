@@ -42,3 +42,4 @@ See [vqx.pl](./vqx.pl).
 * [vqwiki-book-2.8.1.pdf](https://sourceforge.net/projects/veryquickwiki/files/veryquickwiki/2.8.1/vqwiki-book-2.8.1.pdf/download)
 * <https://web.archive.org/web/20090430145310/http://www.vqwiki.org/> - one of the last snapshots ot the vqwiki.org site before the domain expired
 * <https://tiddlywiki.com/>
+* <https://en.wikipedia.org/wiki/TiddlyWiki>
