@@ -1,0 +1,6 @@
+{
+    "name": "Claude",
+    "description": "A quick introduction to Claude and Claude Code; using ollama to swap models (including local models); and building a simple Chinese-English flashcard app as an example.",
+    "categories": "AI",
+    "relative_path": "ai/claude"
+}
