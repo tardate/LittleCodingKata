@@ -1,4 +1,4 @@
-# #xxx Cursor
+# #414 Cursor
 
 A quick introduction to Cursor, an AI-powered code editor.
 
