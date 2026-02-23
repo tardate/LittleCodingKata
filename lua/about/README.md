@@ -115,14 +115,14 @@ function factorial(n)
   end)
 end
 
-local arg = tonumber(arg[1])
+local n = tonumber(arg[1])
 
-if not arg then
+if not n then
   print("Usage: lua factorial.lua [number]")
   os.exit(1)
 end
 
-print(factorial(arg))
+print(factorial(n))
 ```
 
 Running with some examples:
