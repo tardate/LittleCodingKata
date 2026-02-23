@@ -69,3 +69,5 @@ There is a Hobby (Free) plan, with limited daily completions.
 ## Credits and References
 
 * <https://www.cursor.com/>
+* <https://cursor.com/docs>
+* <https://cursor.com/learn>
