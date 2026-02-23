@@ -187,7 +187,7 @@ Allow client network in [freeradius-config/clients.conf](./freeradius-config/cli
 
 Run FreeRADIUS using local config:
 
-    $ docker run --name freeradius \
+    $ docker run --rm --name freeradius \
       -p 1812:1812/udp \
       -p 1813:1813/udp \
       -v $(pwd)/freeradius-config:/etc/freeradius \

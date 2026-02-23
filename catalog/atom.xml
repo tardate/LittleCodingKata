@@ -21,6 +21,7 @@
     <summary>Notes about testing RADIUS servers with CHAP and EAP.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Notes about testing RADIUS servers with CHAP and EAP.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="RADIUS"/>
+    <category term="docker"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ai/cursor/</id>
@@ -1967,6 +1968,7 @@
     <category term="RADIUS"/>
     <category term="macOS"/>
     <category term="infrastructure"/>
+    <category term="docker"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/infrastructure/radius/freeradius-client-macosx/</id>

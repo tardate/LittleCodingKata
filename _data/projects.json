@@ -4,7 +4,8 @@
         "title": "Testing RADIUS",
         "summary": "Notes about testing RADIUS servers with CHAP and EAP.",
         "tags": [
-            "RADIUS"
+            "RADIUS",
+            "docker"
         ]
     },
     "/ai/cursor/": {
@@ -1748,7 +1749,8 @@
         "tags": [
             "RADIUS",
             "macOS",
-            "infrastructure"
+            "infrastructure",
+            "docker"
         ]
     },
     "/infrastructure/radius/freeradius-client-macosx/": {
