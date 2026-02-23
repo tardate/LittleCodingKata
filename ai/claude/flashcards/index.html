@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chinese Flashcards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Main Menu -->
+    <div id="menu" class="screen active">
+      <h1>Chinese Flashcards</h1>
+      <p class="subtitle">Choose a study mode</p>
+      <div class="menu-buttons">
+        <button id="btn-chinese" class="menu-btn">
+          <span class="btn-label">中文</span>
+          <span class="btn-desc">Show Chinese, reveal pinyin & English</span>
+        </button>
+        <button id="btn-english" class="menu-btn">
+          <span class="btn-label">English</span>
+          <span class="btn-desc">Show English, reveal pinyin & Chinese</span>
+        </button>
+      </div>
+      <p class="card-count">Total cards: <span id="total-cards">0</span></p>
+    </div>
+
+    <!-- Flashcard Screen -->
+    <div id="flashcard" class="screen">
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <p class="card-label">Translate this:</p>
+            <h2 id="card-front-text" class="card-text"></h2>
+          </div>
+          <div class="card-back">
+            <p class="card-label">Answer:</p>
+            <h2 id="card-pinyin" class="card-text pinyin"></h2>
+            <p id="card-english" class="card-text english"></p>
+          </div>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="btn-reveal" class="control-btn primary">Reveal Answer</button>
+        <button id="btn-next" class="control-btn primary hidden">Next Card</button>
+        <button id="btn-end" class="control-btn secondary">End Session</button>
+      </div>
+      <div class="progress">
+        <span id="current-num">1</span> / <span id="total-num">0</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
