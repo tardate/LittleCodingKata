@@ -4,7 +4,7 @@ An overview of the Lua programming language, its features, and ecosystem. Includ
 
 ## Notes
 
-Factor features in Bruce Tate's [Seven More Languages in Seven Weeks](../../books/seven-more-languages-in-seven-weeks/).
+Lua features in Bruce Tate's [Seven More Languages in Seven Weeks](../../books/seven-more-languages-in-seven-weeks/).
 
 ### Lua In a Nutshell
 
