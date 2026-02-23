@@ -16,6 +16,7 @@ The first sequel to the classic by Bruce Tate. Introduces a further set of langu
     * Day 2: Tables All the Way Down
     * Day 3: Lua and the World
     * Wrapping Up Lua
+    * See [LCK#417 About Lua](../../lua/about/)
 * 2 Factor
     * Day 1: Stack On, Stack Off
     * Day 2: Painting the Fence

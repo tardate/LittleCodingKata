@@ -1,5 +1,15 @@
 [
     {
+        "name": "About Lua",
+        "description": "An overview of the Lua programming language, its features, and ecosystem. Includes setting up and running on macOS.",
+        "categories": "Lua",
+        "relative_path": "lua/about",
+        "updated_at": "2026-02-23T23:33:00Z",
+        "created_at": "2026-02-23T23:33:00Z",
+        "id": "#417",
+        "original_relative_path": "lua/about"
+    },
+    {
         "name": "Claude",
         "description": "A quick introduction to Claude and Claude Code; using ollama to swap models (including local models); and building a simple Chinese-English flashcard app as an example.",
         "categories": "AI",
