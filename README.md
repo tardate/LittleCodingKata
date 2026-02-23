@@ -1,6 +1,6 @@
-# 414 Little Coding Katas
+# 415 Little Coding Katas
 
-> Latest addition :sparkles: [Cursor](./ai/cursor) - A quick introduction to Cursor, an AI-powered code editor
+> Latest addition :sparkles: [Testing RADIUS](./infrastructure/radius/testing) - Notes about testing RADIUS servers with CHAP and EAP.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

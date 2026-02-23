@@ -1,4 +1,13 @@
 {
+    "/infrastructure/radius/testing/": {
+        "id": 415,
+        "title": "Testing RADIUS",
+        "summary": "Notes about testing RADIUS servers with CHAP and EAP.",
+        "tags": [
+            "RADIUS",
+            "docker"
+        ]
+    },
     "/ai/cursor/": {
         "id": 414,
         "title": "Cursor",
@@ -1736,11 +1745,12 @@
     "/infrastructure/radius/freeradius-server-macosx/": {
         "id": 214,
         "title": "FreeRADIUS Server on macOS",
-        "summary": "All about running FreeRADIUS Server on macOS",
+        "summary": "All about running FreeRADIUS Server on macOS, both native build, and with Docker.",
         "tags": [
             "RADIUS",
             "macOS",
-            "infrastructure"
+            "infrastructure",
+            "docker"
         ]
     },
     "/infrastructure/radius/freeradius-client-macosx/": {

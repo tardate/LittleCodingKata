@@ -7,12 +7,22 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-02-23T00:49:00Z</updated>
+  <updated>2026-02-23T05:57:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/infrastructure/radius/testing/</id>
+    <link href="https://codingkata.tardate.com/infrastructure/radius/testing/"/>
+    <updated>2026-02-23T05:57:00Z</updated>
+    <title>#415 Testing RADIUS</title>
+    <summary>Notes about testing RADIUS servers with CHAP and EAP.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Notes about testing RADIUS servers with CHAP and EAP.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="RADIUS"/>
+    <category term="docker"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/ai/cursor/</id>
     <link href="https://codingkata.tardate.com/ai/cursor/"/>
@@ -1953,11 +1963,12 @@
     <link href="https://codingkata.tardate.com/infrastructure/radius/freeradius-server-macosx/"/>
     <updated>2021-11-02T14:53:49Z</updated>
     <title>#214 FreeRADIUS Server on macOS</title>
-    <summary>All about running FreeRADIUS Server on macOS</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;All about running FreeRADIUS Server on macOS&lt;/p&gt;&lt;/div&gt;</content>
+    <summary>All about running FreeRADIUS Server on macOS, both native build, and with Docker.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;All about running FreeRADIUS Server on macOS, both native build, and with Docker.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="RADIUS"/>
     <category term="macOS"/>
     <category term="infrastructure"/>
+    <category term="docker"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/infrastructure/radius/freeradius-client-macosx/</id>

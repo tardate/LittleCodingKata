@@ -55,7 +55,7 @@ OK, looks like this client library needs a bit of maintenance, certainly a bit m
 
 ## Credits and References
 
-* [freeradius-client](https://github.com/FreeRADIUS/freeradius-client) - GitHub
-* [freeradius-client](http://wiki.freeradius.org/project/Radiusclient) - Documentation
+* <https://github.com/FreeRADIUS/freeradius-client>
+* <http://wiki.freeradius.org/project/Radiusclient> - Documentation
 * [How to install and use autotools on Mac OS X](https://paolozaino.wordpress.com/2015/05/05/how-to-install-and-use-autotools-on-mac-os-x/comment-page-1/)
 * [OS X Mavericks Server – Setting Up FreeRADIUS](https://www.yesdevnull.net/2013/10/os-x-mavericks-server-setting-up-freeradius/)
