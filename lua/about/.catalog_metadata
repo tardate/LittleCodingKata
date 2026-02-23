@@ -1,0 +1,6 @@
+{
+    "name": "About Lua",
+    "description": "An overview of the Lua programming language, its features, and ecosystem. Includes setting up and running on macOS.",
+    "categories": "Lua",
+    "relative_path": "lua/about"
+}
