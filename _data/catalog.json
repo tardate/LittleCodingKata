@@ -1,5 +1,15 @@
 [
     {
+        "name": "Testing RADIUS",
+        "description": "Notes about testing RADIUS servers with CHAP and EAP.",
+        "categories": "RADIUS",
+        "relative_path": "infrastructure/radius/testing",
+        "updated_at": "2026-02-23T05:57:00Z",
+        "created_at": "2026-02-23T05:57:00Z",
+        "id": "#415",
+        "original_relative_path": "infrastructure/radius/testing"
+    },
+    {
         "name": "Cursor",
         "description": "A quick introduction to Cursor, an AI-powered code editor",
         "categories": "AI",
@@ -2002,7 +2012,7 @@
     {
         "id": "#214",
         "name": "FreeRADIUS Server on macOS",
-        "description": "All about running FreeRADIUS Server on macOS",
+        "description": "All about running FreeRADIUS Server on macOS, both native build, and with Docker.",
         "categories": "RADIUS, macOS, infrastructure",
         "relative_path": "infrastructure/radius/freeradius-server-macosx",
         "updated_at": "2021-11-02T14:53:49Z",

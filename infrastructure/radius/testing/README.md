@@ -1,4 +1,4 @@
-# #xxx Testing RADIUS
+# #415 Testing RADIUS
 
 Notes about testing RADIUS servers with CHAP and EAP.
 
