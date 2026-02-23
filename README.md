@@ -1,6 +1,6 @@
-# 416 Little Coding Katas
+# 417 Little Coding Katas
 
-> Latest addition :sparkles: [Claude](./ai/claude) - A quick introduction to Claude and Claude Code; using ollama to swap models (including local models); and building a simple Chinese-English flashcard app as an example.
+> Latest addition :sparkles: [About Lua](./lua/about) - An overview of the Lua programming language, its features, and ecosystem. Includes setting up and running on macOS.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

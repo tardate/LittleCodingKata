@@ -1,4 +1,4 @@
-# #xxx About Lua
+# #417 About Lua
 
 An overview of the Lua programming language, its features, and ecosystem. Includes setting up and running on macOS.
 

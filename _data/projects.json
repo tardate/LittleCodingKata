@@ -1,4 +1,12 @@
 {
+    "/lua/about/": {
+        "id": 417,
+        "title": "About Lua",
+        "summary": "An overview of the Lua programming language, its features, and ecosystem. Includes setting up and running on macOS.",
+        "tags": [
+            "Lua"
+        ]
+    },
     "/ai/claude/": {
         "id": 416,
         "title": "Claude",
