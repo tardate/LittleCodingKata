@@ -1,6 +1,6 @@
-# 415 Little Coding Katas
+# 416 Little Coding Katas
 
-> Latest addition :sparkles: [Testing RADIUS](./infrastructure/radius/testing) - Notes about testing RADIUS servers with CHAP and EAP.
+> Latest addition :sparkles: [Claude](./ai/claude) - A quick introduction to Claude and Claude Code; using ollama to swap models (including local models); and building a simple Chinese-English flashcard app as an example.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

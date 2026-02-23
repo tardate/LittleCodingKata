@@ -1,4 +1,12 @@
 {
+    "/ai/claude/": {
+        "id": 416,
+        "title": "Claude",
+        "summary": "A quick introduction to Claude and Claude Code; using ollama to swap models (including local models); and building a simple Chinese-English flashcard app as an example.",
+        "tags": [
+            "AI"
+        ]
+    },
     "/infrastructure/radius/testing/": {
         "id": 415,
         "title": "Testing RADIUS",
