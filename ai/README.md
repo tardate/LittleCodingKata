@@ -24,7 +24,7 @@ See also:
 
 ### Developer Tools
 
-* Base44 - see my [full review](./base44/)
+* [Base44](https://base44.com/) - see my [full review](./base44/)
     > Base44 lets you build fully-functional apps in minutes with just your words. No coding necessary.
 * [bolt.new](https://bolt.new/)
     > Prompt, run, edit, and deploy full-stack web apps.
@@ -34,10 +34,8 @@ See also:
     * Claude and Claude Code
 * [Context7 MCP Server](https://context7.com/) - see my [full review](./context7/)
     > Up-to-date Docs for LLMs and AI code editors
-* [Cursor](https://www.cursor.com/)
+* [Cursor](https://www.cursor.com/) - see my [full review](./cursor/)
     > Built to make you extraordinarily productive, Cursor is the best way to code with AI.
-    * suited to experienced developers, similar to GitHub Copilot
-    > Cursor is made for developers. It assumes you’ve coded before and want to refine your projects with AI assistance. It’s powerful, especially when paired with models like Sonnet 3.5, but you’ll need to handle deployment on your own. Great for JavaScript, Node.js, and full-stack devs who need an AI assistant, not a crutch.
 * [GitHub Copilot](https://github.com/features/copilot)
 * <https://lovable.dev/>
     > Create apps and websites by chatting with AI
@@ -71,6 +69,7 @@ See also:
     >
     > It tops the leaderboard among open-source models and rivals the most advanced closed-source models globally.
 * [Google Gemini](https://gemini.google.com/)
+* [Kimi K2](https://www.kimi.com/) - see my [full review](./kimi/)
 * <https://www.perplexity.ai/>
     > What will Comet do for you? Let the AI assistant handle your chores
 * [Writesonic Chat](https://writesonic.com/chat)

@@ -1,4 +1,12 @@
 {
+    "/ai/cursor/": {
+        "id": 414,
+        "title": "Cursor",
+        "summary": "A quick introduction to Cursor, an AI-powered code editor",
+        "tags": [
+            "AI"
+        ]
+    },
     "/tools/vqwiki/": {
         "id": 413,
         "title": "VQWiki",
