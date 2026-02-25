@@ -21,7 +21,8 @@
         "title": "About Lua",
         "summary": "An overview of the Lua programming language, its features, and ecosystem. Includes setting up and running on macOS.",
         "tags": [
-            "Lua"
+            "Lua",
+            "macOS"
         ]
     },
     "/ai/claude/": {
@@ -309,7 +310,8 @@
         "title": "About Prolog",
         "summary": "A quick introduction to Prolog and a test drive with GNU Prolog on macOS.",
         "tags": [
-            "Prolog"
+            "Prolog",
+            "macOS"
         ]
     },
     "/ubuntu/boot-repair/": {
@@ -1105,7 +1107,9 @@
         "title": "About TypeScript",
         "summary": "TypeScript - my tl;dr summary, plus notes on getting started on macOS (Apple Silicon) and Ubuntu (x86).",
         "tags": [
-            "typescript"
+            "typescript",
+            "macOS",
+            "ubuntu"
         ]
     },
     "/tools/homebrew/apple_silicon/": {
@@ -1820,7 +1824,8 @@
         "summary": "Installing Elixir on macOS",
         "tags": [
             "Elixir",
-            "docker"
+            "docker",
+            "macOS"
         ]
     },
     "/python/install_macosx/": {
@@ -1839,7 +1844,7 @@
             "python",
             "MicroPython",
             "macOS",
-            "Ubuntu"
+            "ubuntu"
         ]
     },
     "/go/install_macosx/": {
@@ -1961,7 +1966,8 @@
         "title": "Free Pascal",
         "summary": "Installing and running the Free Pascal compiler on macOS",
         "tags": [
-            "Pascal"
+            "Pascal",
+            "macOS"
         ]
     },
     "/infrastructure/zabbix/dockerized5/": {

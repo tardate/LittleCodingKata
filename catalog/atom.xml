@@ -40,6 +40,7 @@
     <summary>An overview of the Lua programming language, its features, and ecosystem. Includes setting up and running on macOS.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;An overview of the Lua programming language, its features, and ecosystem. Includes setting up and running on macOS.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Lua"/>
+    <category term="macOS"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ai/claude/</id>
@@ -361,6 +362,7 @@
     <summary>A quick introduction to Prolog and a test drive with GNU Prolog on macOS.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A quick introduction to Prolog and a test drive with GNU Prolog on macOS.&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Prolog"/>
+    <category term="macOS"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/ubuntu/boot-repair/</id>
@@ -1248,6 +1250,8 @@
     <summary>TypeScript - my tl;dr summary, plus notes on getting started on macOS (Apple Silicon) and Ubuntu (x86).</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;TypeScript - my tl;dr summary, plus notes on getting started on macOS (Apple Silicon) and Ubuntu (x86).&lt;/p&gt;&lt;/div&gt;</content>
     <category term="typescript"/>
+    <category term="macOS"/>
+    <category term="ubuntu"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/homebrew/apple_silicon/</id>
@@ -2047,6 +2051,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Installing Elixir on macOS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Elixir"/>
     <category term="docker"/>
+    <category term="macOS"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/python/install_macosx/</id>
@@ -2067,7 +2072,7 @@
     <category term="python"/>
     <category term="MicroPython"/>
     <category term="macOS"/>
-    <category term="Ubuntu"/>
+    <category term="ubuntu"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/go/install_macosx/</id>
@@ -2204,6 +2209,7 @@
     <summary>Installing and running the Free Pascal compiler on macOS</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Installing and running the Free Pascal compiler on macOS&lt;/p&gt;&lt;/div&gt;</content>
     <category term="Pascal"/>
+    <category term="macOS"/>
   </entry>
   <entry>
     <id>https://codingkata.tardate.com/infrastructure/zabbix/dockerized5/</id>

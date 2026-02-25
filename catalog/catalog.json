@@ -22,7 +22,7 @@
     {
         "name": "About Lua",
         "description": "An overview of the Lua programming language, its features, and ecosystem. Includes setting up and running on macOS.",
-        "categories": "Lua",
+        "categories": "Lua, macOS",
         "relative_path": "lua/about",
         "updated_at": "2026-02-23T23:33:00Z",
         "created_at": "2026-02-23T23:33:00Z",
@@ -352,7 +352,7 @@
     {
         "name": "About Prolog",
         "description": "A quick introduction to Prolog and a test drive with GNU Prolog on macOS.",
-        "categories": "Prolog",
+        "categories": "Prolog, macOS",
         "relative_path": "prolog/about",
         "updated_at": "2025-10-31T05:25:00Z",
         "created_at": "2025-10-31T05:25:00Z",
@@ -1252,7 +1252,7 @@
     {
         "name": "About TypeScript",
         "description": "TypeScript - my tl;dr summary, plus notes on getting started on macOS (Apple Silicon) and Ubuntu (x86).",
-        "categories": "typescript",
+        "categories": "typescript, macOS, ubuntu",
         "relative_path": "typescript/about",
         "updated_at": "2024-08-07T04:50:53Z",
         "id": "#294",
@@ -2092,7 +2092,7 @@
     {
         "name": "Elixir on macOS",
         "description": "Installing Elixir on macOS",
-        "categories": "Elixir, docker",
+        "categories": "Elixir, docker, macOS",
         "relative_path": "elixir/install_macosx",
         "updated_at": "2021-11-02T14:53:49Z",
         "id": "#210",
@@ -2113,7 +2113,7 @@
         "id": "#208",
         "name": "Building MicroPython on macOS",
         "description": "Quick notes building MicroPython on desktop hardware. First tested with macOS/Intel, updated Jan-2026 with macOS on Apple Silicon and Ubuntu 24.04.",
-        "categories": "python, MicroPython, macOS, Ubuntu",
+        "categories": "python, MicroPython, macOS, ubuntu",
         "relative_path": "python/micropython/compiling-for-pc",
         "updated_at": "2021-11-02T14:53:49Z",
         "created_at": "2021-11-02T14:53:49Z",
@@ -2252,7 +2252,7 @@
     {
         "name": "Free Pascal",
         "description": "Installing and running the Free Pascal compiler on macOS",
-        "categories": "Pascal",
+        "categories": "Pascal, macOS",
         "relative_path": "pascal/free_pascal",
         "updated_at": "2021-11-02T14:53:49Z",
         "id": "#194",
