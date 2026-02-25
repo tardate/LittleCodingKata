@@ -1,4 +1,4 @@
-# #xxx Algorithms in a Nutshell
+# #418 Algorithms in a Nutshell
 
 Book notes - Algorithms in a Nutshell: A Practical Guide by George T. Heineman, Gary Pollice, Stanley Selkow.
 First published October 14, 2008. Second edition published March 9, 2016 by O'Reilly Media.

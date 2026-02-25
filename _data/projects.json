@@ -1,4 +1,12 @@
 {
+    "/books/algorithms-in-a-nutshell/": {
+        "id": 418,
+        "title": "Algorithms in a Nutshell",
+        "summary": "Book notes - Algorithms in a Nutshell: A Practical Guide by George T. Heineman, Gary Pollice, Stanley Selkow. First published October 14, 2008. Second edition published March 9, 2016 by O'Reilly Media.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/lua/about/": {
         "id": 417,
         "title": "About Lua",
