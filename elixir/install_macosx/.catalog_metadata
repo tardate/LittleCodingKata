@@ -1,7 +1,7 @@
 {
     "name": "Elixir on macOS",
     "description": "Installing Elixir on macOS",
-    "categories": "Elixir, docker",
+    "categories": "Elixir, docker, macOS",
     "relative_path": "elixir/install_macosx",
     "updated_at": "2021-11-02T14:53:49Z",
     "id": "#210",

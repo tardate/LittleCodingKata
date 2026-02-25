@@ -8,7 +8,7 @@ Using Factor to rearrange an array; cassidoo's interview question of the week (2
 ## Notes
 
 The [interview question of the week (2026-02-09)](https://buttondown.com/cassidoo/archive/everyone-deserves-the-space-to-change-and-for/)
-asks us rearrange an array:
+asks us to rearrange an array:
 
 > Given an integer array and a number n, move all of the ns to the end of the array while maintaining the relative order of the non-ns. Bonus: do this without making a copy of the array!
 >

@@ -1,6 +1,6 @@
-# 418 Little Coding Katas
+# 419 Little Coding Katas
 
-> Latest addition :sparkles: [Algorithms in a Nutshell](./books/algorithms-in-a-nutshell) - Book notes - Algorithms in a Nutshell: A Practical Guide by George T. Heineman, Gary Pollice, Stanley Selkow. First published October 14, 2008. Second edition published March 9, 2016 by O'Reilly Media.
+> Latest addition :sparkles: [maxSubarraySum](./lua/max-sub-array-sum) - Using Lua to find the maximum sub-array sum; cassidoo's interview question of the week (2026-02-23). Turns out that this is probably also a proof for the sunk cost fallacy!
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
