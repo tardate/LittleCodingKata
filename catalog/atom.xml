@@ -7,12 +7,21 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-02-23T23:33:00Z</updated>
+  <updated>2026-02-25T00:16:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/books/algorithms-in-a-nutshell/</id>
+    <link href="https://codingkata.tardate.com/books/algorithms-in-a-nutshell/"/>
+    <updated>2026-02-25T00:16:00Z</updated>
+    <title>#418 Algorithms in a Nutshell</title>
+    <summary>Book notes - Algorithms in a Nutshell: A Practical Guide by George T. Heineman, Gary Pollice, Stanley Selkow. First published October 14, 2008. Second edition published March 9, 2016 by O'Reilly Media.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Algorithms in a Nutshell: A Practical Guide by George T. Heineman, Gary Pollice, Stanley Selkow. First published October 14, 2008. Second edition published March 9, 2016 by O'Reilly Media.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/lua/about/</id>
     <link href="https://codingkata.tardate.com/lua/about/"/>
