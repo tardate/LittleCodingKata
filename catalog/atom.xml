@@ -7,12 +7,22 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-02-25T00:16:00Z</updated>
+  <updated>2026-02-25T02:47:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/lua/max-sub-array-sum/</id>
+    <link href="https://codingkata.tardate.com/lua/max-sub-array-sum/"/>
+    <updated>2026-02-25T02:47:00Z</updated>
+    <title>#419 maxSubarraySum</title>
+    <summary>Using Lua to find the maximum sub-array sum; cassidoo's interview question of the week (2026-02-23). Turns out that this is probably also a proof for the sunk cost fallacy!</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using Lua to find the maximum sub-array sum; cassidoo's interview question of the week (2026-02-23). Turns out that this is probably also a proof for the sunk cost fallacy!&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Lua"/>
+    <category term="cassidoo"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/books/algorithms-in-a-nutshell/</id>
     <link href="https://codingkata.tardate.com/books/algorithms-in-a-nutshell/"/>

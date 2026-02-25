@@ -1,5 +1,15 @@
 [
     {
+        "name": "maxSubarraySum",
+        "description": "Using Lua to find the maximum sub-array sum; cassidoo's interview question of the week (2026-02-23). Turns out that this is probably also a proof for the sunk cost fallacy!",
+        "categories": "Lua, cassidoo",
+        "relative_path": "lua/max-sub-array-sum",
+        "updated_at": "2026-02-25T02:47:00Z",
+        "created_at": "2026-02-25T02:47:00Z",
+        "id": "#419",
+        "original_relative_path": "lua/max-sub-array-sum"
+    },
+    {
         "name": "Algorithms in a Nutshell",
         "description": "Book notes - Algorithms in a Nutshell: A Practical Guide by George T. Heineman, Gary Pollice, Stanley Selkow. First published October 14, 2008. Second edition published March 9, 2016 by O'Reilly Media.",
         "categories": "Books",

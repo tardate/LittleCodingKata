@@ -1,4 +1,4 @@
-# #xxx maxSubarraySum
+# #419 maxSubarraySum
 
 Using Lua to find the maximum sub-array sum; cassidoo's interview question of the week (2026-02-23).
 Turns out that this is probably also a proof for the sunk cost fallacy!
