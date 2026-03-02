@@ -1,0 +1,6 @@
+{
+    "name": "About Idris",
+    "description": "An overview of the Idris 2 programming language, its features, and ecosystem. Includes setting up and running on macOS.",
+    "categories": "Idris, macOS",
+    "relative_path": "idris/about"
+}
