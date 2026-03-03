@@ -1,4 +1,4 @@
-# #xxx About Idris
+# #420 About Idris
 
 An overview of the Idris 2 programming language, its features, and ecosystem. Includes setting up and running on macOS.
 
@@ -42,7 +42,16 @@ Idris is governed by..
 
 Core Strengths:
 
+* With Idris, types know more, so they can do more.
+* compilers can catch more complex bugs, including logic errors, at compile time.
+* types can express structure, so automatic code completion can go far beyond basic syntax
+* information about types allows better proofs, ideal in fields such as protocols and cryptography
+
 Core Weaknesses:
+
+* dependent types take effort to express them.
+* learning curve is steep
+* few examples beyond simple tutorials
 
 ## Test drive: Idris on macOS
 
