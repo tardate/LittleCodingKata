@@ -156,6 +156,6 @@ main = do
 ## Credits and References
 
 * <https://www.idris-lang.org/>
-<https://github.com/idris-lang/Idris2>
-<https://github.com/stefan-hoeck/idris2-pack>
+* <https://github.com/idris-lang/Idris2>
+* <https://github.com/stefan-hoeck/idris2-pack> - the Idris2 Package Manager with Curated Package Collections
 * [Seven More Languages in Seven Weeks](../../books/seven-more-languages-in-seven-weeks/) - Chapter 7: Idris
