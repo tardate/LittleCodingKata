@@ -1,6 +1,6 @@
-# 419 Little Coding Katas
+# 420 Little Coding Katas
 
-> Latest addition :sparkles: [maxSubarraySum](./lua/max-sub-array-sum) - Using Lua to find the maximum sub-array sum; cassidoo's interview question of the week (2026-02-23). Turns out that this is probably also a proof for the sunk cost fallacy!
+> Latest addition :sparkles: [About Idris](./idris/about) - An overview of the Idris 2 programming language, its features, and ecosystem. Includes setting up and running on macOS.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

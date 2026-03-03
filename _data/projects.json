@@ -1,4 +1,13 @@
 {
+    "/idris/about/": {
+        "id": 420,
+        "title": "About Idris",
+        "summary": "An overview of the Idris 2 programming language, its features, and ecosystem. Includes setting up and running on macOS.",
+        "tags": [
+            "Idris",
+            "macOS"
+        ]
+    },
     "/lua/max-sub-array-sum/": {
         "id": 419,
         "title": "maxSubarraySum",

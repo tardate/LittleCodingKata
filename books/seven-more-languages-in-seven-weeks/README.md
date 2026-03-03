@@ -50,6 +50,7 @@ The first sequel to the classic by Bruce Tate. Introduces a further set of langu
     * Day 2: Getting Started With Dependent Types
     * Day 3: Dependent Types in Action
     * Wrapping Up Idris
+    * See [LCK#420 About Idris](../../idris/about/)
 * Wrapping Up
     * The Origins
     * The Central Expressway
