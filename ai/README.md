@@ -37,7 +37,7 @@ See also:
 * [Cursor](https://www.cursor.com/) - see my [full review](./cursor/)
     > Built to make you extraordinarily productive, Cursor is the best way to code with AI.
 * [GitHub Copilot](https://github.com/features/copilot)
-* <https://lovable.dev/>
+* [Lovable](https://lovable.dev/)
     > Create apps and websites by chatting with AI
 * [make.com](https://www.make.com/)
     > From tasks and workflows to apps and systems, build and automate anything in one powerful visual platform.
@@ -128,8 +128,6 @@ See also:
     > text to image model with industry leading capabilities in generating realistic images, graphic design, typography, and more
 * <https://klingai.com/> - see my [full review](./klingai/)
     > Next Generation AI Creative Suite
-* <https://www.meshy.ai/>
-    > Create stunning 3D models with AI
 * <https://openart.ai/home>
 * <https://www.pixelcut.ai/cleanup-pictures>
     > Remove objects, text or people from your images to get clean photos!
@@ -137,6 +135,14 @@ See also:
     > AI for Pro Designers: Premium image generation and editing tool.
 * <https://writesonic.com/photosonic-ai-art-generator>
     > AI Art Generator
+
+#### 3D Model Generation
+
+* [Meshy](https://www.meshy.ai/)
+    > Create stunning 3D models with AI
+* [TRELLIS.2](https://studio.tripo3d.ai/) - see my [full review](./trellis2/)
+    > native and compact structured latents for 3d generation
+* [Tripo3D](https://studio.tripo3d.ai/) - see my [full review](./tripo3d/)
 
 #### Sound and Music
 
