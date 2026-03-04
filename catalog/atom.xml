@@ -7,12 +7,30 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-03-03T02:59:00Z</updated>
+  <updated>2026-03-04T05:55:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/ai/trellis2/</id>
+    <link href="https://codingkata.tardate.com/ai/trellis2/"/>
+    <updated>2026-03-04T05:55:00Z</updated>
+    <title>#422 TRELLIS.2</title>
+    <summary>About TRELLIS.2, an open-source image to 3D generation model. TLDR - very disappointing results from my initial tests.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;About TRELLIS.2, an open-source image to 3D generation model. TLDR - very disappointing results from my initial tests.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="AI"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/ai/tripo3d/</id>
+    <link href="https://codingkata.tardate.com/ai/tripo3d/"/>
+    <updated>2026-03-04T05:55:00Z</updated>
+    <title>#421 Tripo3D</title>
+    <summary>About Tripo3D, an advanced AI-powered platform that generates high-quality 3D models. TLDR - incredibly accurate generation of coherent 3D models from even incomplete 2D images.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;About Tripo3D, an advanced AI-powered platform that generates high-quality 3D models. TLDR - incredibly accurate generation of coherent 3D models from even incomplete 2D images.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="AI"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/idris/about/</id>
     <link href="https://codingkata.tardate.com/idris/about/"/>
