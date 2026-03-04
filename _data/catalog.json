@@ -1,5 +1,25 @@
 [
     {
+        "name": "TRELLIS.2",
+        "description": "About TRELLIS.2, an open-source image to 3D generation model. TLDR - very disappointing results from my initial tests.",
+        "categories": "AI",
+        "relative_path": "ai/trellis2",
+        "updated_at": "2026-03-04T05:55:00Z",
+        "created_at": "2026-03-04T05:55:00Z",
+        "id": "#422",
+        "original_relative_path": "ai/trellis2"
+    },
+    {
+        "name": "Tripo3D",
+        "description": "About Tripo3D, an advanced AI-powered platform that generates high-quality 3D models. TLDR - incredibly accurate generation of coherent 3D models from even incomplete 2D images.",
+        "categories": "AI",
+        "relative_path": "ai/tripo3d",
+        "updated_at": "2026-03-04T05:55:00Z",
+        "created_at": "2026-03-04T05:55:00Z",
+        "id": "#421",
+        "original_relative_path": "ai/tripo3d"
+    },
+    {
         "name": "About Idris",
         "description": "An overview of the Idris 2 programming language, its features, and ecosystem. Includes setting up and running on macOS.",
         "categories": "Idris, macOS",

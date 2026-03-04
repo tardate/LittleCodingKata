@@ -1,4 +1,20 @@
 {
+    "/ai/trellis2/": {
+        "id": 422,
+        "title": "TRELLIS.2",
+        "summary": "About TRELLIS.2, an open-source image to 3D generation model. TLDR - very disappointing results from my initial tests.",
+        "tags": [
+            "AI"
+        ]
+    },
+    "/ai/tripo3d/": {
+        "id": 421,
+        "title": "Tripo3D",
+        "summary": "About Tripo3D, an advanced AI-powered platform that generates high-quality 3D models. TLDR - incredibly accurate generation of coherent 3D models from even incomplete 2D images.",
+        "tags": [
+            "AI"
+        ]
+    },
     "/idris/about/": {
         "id": 420,
         "title": "About Idris",

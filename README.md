@@ -1,6 +1,6 @@
-# 420 Little Coding Katas
+# 422 Little Coding Katas
 
-> Latest addition :sparkles: [About Idris](./idris/about) - An overview of the Idris 2 programming language, its features, and ecosystem. Includes setting up and running on macOS.
+> Latest addition :sparkles: [TRELLIS.2](./ai/trellis2) - About TRELLIS.2, an open-source image to 3D generation model. TLDR - very disappointing results from my initial tests.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

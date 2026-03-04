@@ -1,4 +1,4 @@
-# #xxx Tripo3D
+# #421 Tripo3D
 
 About Tripo3D, an advanced AI-powered platform that generates high-quality 3D models. TLDR - incredibly accurate generation of coherent 3D models from even incomplete 2D images.
 

@@ -1,4 +1,4 @@
-# #xxx TRELLIS.2
+# #422 TRELLIS.2
 
 About TRELLIS.2, an open-source image to 3D generation model. TLDR - very disappointing results from my initial tests.
 
