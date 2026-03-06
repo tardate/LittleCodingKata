@@ -1,6 +1,6 @@
-# 422 Little Coding Katas
+# 423 Little Coding Katas
 
-> Latest addition :sparkles: [TRELLIS.2](./ai/trellis2) - About TRELLIS.2, an open-source image to 3D generation model. TLDR - very disappointing results from my initial tests.
+> Latest addition :sparkles: [majorityElement](./idris/majority-element) - Using Idris 2 to find the majority element in an array; cassidoo's interview question of the week (2026-03-02).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

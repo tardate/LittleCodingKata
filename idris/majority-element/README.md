@@ -1,4 +1,4 @@
-# #xxx majorityElement
+# #423 majorityElement
 
 Using Idris 2 to find the majority element in an array; cassidoo's interview question of the week (2026-03-02).
 

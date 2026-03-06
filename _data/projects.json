@@ -1,4 +1,13 @@
 {
+    "/idris/majority-element/": {
+        "id": 423,
+        "title": "majorityElement",
+        "summary": "Using Idris 2 to find the majority element in an array; cassidoo's interview question of the week (2026-03-02).",
+        "tags": [
+            "Idris",
+            "cassidoo"
+        ]
+    },
     "/ai/trellis2/": {
         "id": 422,
         "title": "TRELLIS.2",
