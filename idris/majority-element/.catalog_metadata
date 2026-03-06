@@ -1,0 +1,6 @@
+{
+    "name": "majorityElement",
+    "description": "Using Idris 2 to find the majority element in an array; cassidoo's interview question of the week (2026-03-02).",
+    "categories": "Idris, cassidoo",
+    "relative_path": "idris/majority-element"
+}
