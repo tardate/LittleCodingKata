@@ -160,10 +160,11 @@ Response:
 >
 > This situation introduces a layer of uncertainty for Malaysia regarding the JS-SEZ. Here’s how:
 >
-> Policy Continuity: If Prabowo continues Jokowi’s pro-investment and infrastructure policies, it could be positive for cross-border projects like the JS-SEZ, as it suggests a continued openness to economic cooperation.
-> Geopolitical Shifts: Prabowo's potential lean towards closer ties with China, coupled with a possible anti-Western stance, might influence Indonesia's regional role. This could subtly shift the dynamics within ASEAN, potentially requiring Malaysia to recalibrate its approach to regional economic initiatives, including the JS-SEZ, to maintain balance.
-> Internal Indonesian Politics: The alliance between Jokowi and Prabowo, with Jokowi’s son as Vice President, while potentially ensuring stability, may also be prone to internal power struggles. Any instability within the Indonesian government could indirectly affect the JS-SEZ, creating delays or impacting the level of commitment.
-> ASEAN Leadership: Analysts suggest Jokowi’s continued influence through his son could help maintain Indonesia’s regional leadership. This is relevant as a strong and stable Indonesia is beneficial for regional cooperation initiatives like the JS-SEZ.
+> * Policy Continuity: If Prabowo continues Jokowi’s pro-investment and infrastructure policies, it could be positive for cross-border projects like the JS-SEZ, as it suggests a continued openness to economic cooperation.
+> * Geopolitical Shifts: Prabowo's potential lean towards closer ties with China, coupled with a possible anti-Western stance, might influence Indonesia's regional role. This could subtly shift the dynamics within ASEAN, potentially requiring Malaysia to recalibrate its approach to regional economic initiatives, including the JS-SEZ, to maintain balance.
+> * Internal Indonesian Politics: The alliance between Jokowi and Prabowo, with Jokowi’s son as Vice President, while potentially ensuring stability, may also be prone to internal power struggles. Any instability within the Indonesian government could indirectly affect the JS-SEZ, creating delays or impacting the level of commitment.
+> * ASEAN Leadership: Analysts suggest Jokowi’s continued influence through his son could help maintain Indonesia’s regional leadership. This is relevant as a strong and stable Indonesia is beneficial for regional cooperation initiatives like the JS-SEZ.
+>
 > Ultimately, Malaysia will likely adopt a ‘wait-and-see’ approach, closely monitoring Prabowo’s policy implementation and the stability of his government before making significant adjustments to its engagement with the JS-SEZ. They’ll need to balance the potential for continued economic cooperation with the risks associated with possible democratic backsliding and shifting geopolitical alignments.
 >
 > References:
