@@ -63,7 +63,7 @@ See also:
 * <https://tray.ai/>
     > Tray Merlin Agent Builder makes it easy to go from idea to a live agent your teams put to work. No complexity. No custom workarounds. Agents stay grounded in your data, keep context across every interaction, and can be deployed to Slack, web apps, or APIs. All from one place.
 
-### Chat LLMs
+### Models: LLMs
 
 * [ChatGPT](https://openai.com/chatgpt/)
 * [DeepSeek](https://www.deepseek.com/) - see my [full review](./deepseek/)
@@ -74,6 +74,7 @@ See also:
 * [Kimi K2](https://www.kimi.com/) - see my [full review](./kimi/)
 * <https://www.perplexity.ai/>
     > What will Comet do for you? Let the AI assistant handle your chores
+* [SEA-LION](https://sea-lion.ai/) - see my [full review](./sea-lion/)
 * [Writesonic Chat](https://writesonic.com/chat)
     > the ChatGPT Team alternative for enterprises, offering real-time web search, PDF, image and website engagement. One App multiple LLMs
 
