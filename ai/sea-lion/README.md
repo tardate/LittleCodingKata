@@ -1,4 +1,4 @@
-# #xxx SEA-LION
+# #424 SEA-LION
 
 About AI Singapore and SEA-LION - a family of open-source, multilingual, multimodal language models designed for Southeast Asia’s diverse languages, cultures, and contexts.
 
