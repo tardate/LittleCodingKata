@@ -2,7 +2,7 @@
     "/ai/sea-lion/": {
         "id": 424,
         "title": "SEA-LION",
-        "summary": "About AI Singapore and SEA-LION - a family of open-source, multilingual, multimodal language models designed for Southeast Asia\u2019s diverse languages, cultures, and contexts.",
+        "summary": "About AI Singapore and SEA-LION - a family of open-source, multilingual, multimodal language models designed for Southeast Asia\u2019s diverse languages, cultures, and contexts. I evaluate one the leading models with some tests covering: multilingual legal/business contexts; cultural nuance & code-switching; and regional current affairs with local context.",
         "tags": [
             "AI"
         ]

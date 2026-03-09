@@ -1,6 +1,6 @@
 # #424 SEA-LION
 
-About AI Singapore and SEA-LION - a family of open-source, multilingual, multimodal language models designed for Southeast Asia’s diverse languages, cultures, and contexts.
+About AI Singapore and SEA-LION - a family of open-source, multilingual, multimodal language models designed for Southeast Asia’s diverse languages, cultures, and contexts. I evaluate one the leading models with some tests covering: multilingual legal/business contexts; cultural nuance & code-switching; and regional current affairs with local context.
 
 ## Notes
 
@@ -41,6 +41,7 @@ is an assessment of large language models across various tasks, with an emphasis
 ### Test 1: Multilingual Legal/Business Contexts
 
 Using the [SEA-LION Chat playground](https://playground.sea-lion.ai/chat)
+with the Gemma-SEA-LION-v4-27B-IT (128K context window):
 
 > Translate this business scenario into appropriate Thai formal register: A Thai supplier is delaying delivery. You need to request urgency without causing the supplier to lose face, while acknowledging the hierarchical relationship and recent flooding in Chiang Mai that may be a legitimate factor.
 
@@ -104,6 +105,9 @@ I asked SEA-LION to rate itself, but it wasn't nearly as complete or critical:
 
 ### Test 2: Cultural Nuance & Code-Switching
 
+Using the [SEA-LION Chat playground](https://playground.sea-lion.ai/chat)
+with the Gemma-SEA-LION-v4-27B-IT (128K context window):
+
 > Explain why a Singaporean might say 'Can lah, but must wait awhile' versus 'Yes, but please wait', and what this reveals about local workplace communication styles across different generations.
 
 Response:
@@ -140,6 +144,9 @@ Response:
 > * <https://commisceo-global.com/articles/the-singaporean-communication-style/>
 
 ### Test 3: Regional Current Affairs with Local Context
+
+Using the [SEA-LION Chat playground](https://playground.sea-lion.ai/chat)
+with the Gemma-SEA-LION-v4-27B-IT (128K context window):
 
 > How does Indonesia's 2024 presidential election result reflect the ongoing tension between Jokowi's infrastructure legacy and concerns about democratic backsliding, and how might this affect Malaysia's approach to the Johor-Singapore Special Economic Zone?
 
@@ -179,6 +186,8 @@ I asked [Kimi](https://www.kimi.com/) to evaluate this response. In summary:
     * Missing Element: The response doesn't address the *timing* factor—the JS-SEZ agreement was signed in January 2024, before the election, so Prabowo's administration will be implementing rather than negotiating it. This distinction matters for policy analysis.
 * Overall Assessment: Grade: B+
     * The response demonstrates solid understanding of Indonesian politics and reasonable analytical extension to regional implications. It would benefit from more specific evidence on democratic erosion and slightly more careful framing of Prabowo's likely foreign policy orientation. The Malaysia-JS-SEZ analysis is logical but could be more tightly connected to the specific mechanics of that economic zone.
+
+I would also add that in 2026 this is no longer a "projected win"!
 
 ## Credits and References
 
