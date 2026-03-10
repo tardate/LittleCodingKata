@@ -45,6 +45,7 @@ The first sequel to the classic by Bruce Tate. Introduces a further set of langu
     * Day 2: Mixing the Logical and Functional
     * Day 3: Writing Stories with Logic
     * Wrapping Up miniKanren
+    * See [LCK#426 About miniKanren](../../minikanren/about/)
 * 7 Idris
     * Day 1: The Basics
     * Day 2: Getting Started With Dependent Types

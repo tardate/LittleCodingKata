@@ -1,0 +1,7 @@
+{
+    "id": "#426",
+    "name": "About miniKanren",
+    "description": "An overview of the miniKanren logic programming language, its features, and ecosystem. Includes setting up and running miniKanren embedded in Clojure on macOS.",
+    "categories": "miniKanren, Clojure, macOS",
+    "relative_path": "minikanren/about"
+}

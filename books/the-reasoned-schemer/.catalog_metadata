@@ -1,0 +1,7 @@
+{
+    "id": "#425",
+    "name": "The Reasoned Schemer",
+    "description": "Book notes - The Reasoned Schemer, Second Edition, by Daniel P. Friedman, William E. Byrd, Oleg Kiselyov, Jason Hemann. First published July 1, 2005 by MIT Press. Second edition 2018.",
+    "categories": "Books, miniKanren",
+    "relative_path": "books/the-reasoned-schemer"
+}
