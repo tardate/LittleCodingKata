@@ -1,6 +1,6 @@
-# 424 Little Coding Katas
+# 426 Little Coding Katas
 
-> Latest addition :sparkles: [SEA-LION](./ai/sea-lion) - About AI Singapore and SEA-LION - a family of open-source, multilingual, multimodal language models designed for Southeast Asia’s diverse languages, cultures, and contexts. I evaluate one the leading models with some tests covering: multilingual legal/business contexts; cultural nuance & code-switching; and regional current affairs with local context.
+> Latest addition :sparkles: [About miniKanren](./minikanren/about) - An overview of the miniKanren logic programming language, its features, and ecosystem. Includes setting up and running miniKanren embedded in Clojure on macOS.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
