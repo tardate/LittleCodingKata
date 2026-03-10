@@ -1,4 +1,23 @@
 {
+    "/minikanren/about/": {
+        "id": 426,
+        "title": "About miniKanren",
+        "summary": "An overview of the miniKanren logic programming language, its features, and ecosystem. Includes setting up and running miniKanren embedded in Clojure on macOS.",
+        "tags": [
+            "miniKanren",
+            "Clojure",
+            "macOS"
+        ]
+    },
+    "/books/the-reasoned-schemer/": {
+        "id": 425,
+        "title": "The Reasoned Schemer",
+        "summary": "Book notes - The Reasoned Schemer, Second Edition, by Daniel P. Friedman, William E. Byrd, Oleg Kiselyov, Jason Hemann. First published July 1, 2005 by MIT Press. Second edition 2018.",
+        "tags": [
+            "Books",
+            "miniKanren"
+        ]
+    },
     "/ai/sea-lion/": {
         "id": 424,
         "title": "SEA-LION",

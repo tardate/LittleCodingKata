@@ -7,12 +7,33 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-03-09T08:00:00Z</updated>
+  <updated>2026-03-10T10:15:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/minikanren/about/</id>
+    <link href="https://codingkata.tardate.com/minikanren/about/"/>
+    <updated>2026-03-10T10:15:00Z</updated>
+    <title>#426 About miniKanren</title>
+    <summary>An overview of the miniKanren logic programming language, its features, and ecosystem. Includes setting up and running miniKanren embedded in Clojure on macOS.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;An overview of the miniKanren logic programming language, its features, and ecosystem. Includes setting up and running miniKanren embedded in Clojure on macOS.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="miniKanren"/>
+    <category term="Clojure"/>
+    <category term="macOS"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/books/the-reasoned-schemer/</id>
+    <link href="https://codingkata.tardate.com/books/the-reasoned-schemer/"/>
+    <updated>2026-03-10T10:15:00Z</updated>
+    <title>#425 The Reasoned Schemer</title>
+    <summary>Book notes - The Reasoned Schemer, Second Edition, by Daniel P. Friedman, William E. Byrd, Oleg Kiselyov, Jason Hemann. First published July 1, 2005 by MIT Press. Second edition 2018.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - The Reasoned Schemer, Second Edition, by Daniel P. Friedman, William E. Byrd, Oleg Kiselyov, Jason Hemann. First published July 1, 2005 by MIT Press. Second edition 2018.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="miniKanren"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/ai/sea-lion/</id>
     <link href="https://codingkata.tardate.com/ai/sea-lion/"/>
