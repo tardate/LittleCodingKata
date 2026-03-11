@@ -1,6 +1,6 @@
-# 426 Little Coding Katas
+# 427 Little Coding Katas
 
-> Latest addition :sparkles: [About miniKanren](./minikanren/about) - An overview of the miniKanren logic programming language, its features, and ecosystem. Includes setting up and running miniKanren embedded in Clojure on macOS.
+> Latest addition :sparkles: [minSwapsToAlternate](./clojure/min-swaps-to-alternate) - Using Clojure to find the minimum swaps required to create an alternating array; cassidoo's interview question of the week (2026-03-09).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
