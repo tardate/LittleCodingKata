@@ -5,7 +5,7 @@ First published January 1, 2005.
 
 ## Notes
 
-I remember using this book as an essential reference to figure out ATOM and RSS internals.
+I remember using this book as a pretty good reference to figure out ATOM and RSS syntax.
 Seems long out of circulation, though sources are still available.
 
 [![cover](./assets/cover.jpg)](https://amzn.to/4cMe6RP)
@@ -61,7 +61,7 @@ Seems long out of circulation, though sources are still available.
         * 2.6.4 The Easy News Topics Module
         * 2.6.5 The OpenSearch Module from Amazon
         * 2.6.6 The RSS Media Module from Yahoo!
-        * 2.6.7 Microsofts Simple List Extensions
+        * 2.6.7 Microsoft's Simple List Extensions
         * 2.6.8 The Simple Semantic Resolution Module: RSS 2.0 as RDF
     * 2.7 Aggregation of Feeds and OPML
 * Chapter 3: RSS for the Semantic Web: RSS 1.0 and RSS 1.1

@@ -5,6 +5,8 @@ First published January 1, 2005.
 
 ## Notes
 
+The book I found most useful to get my head around the various ATOM and RSS standards back in the day.
+
 [![cover](./assets/cover.jpg)](https://amzn.to/4bip3YR)
 
 ### Contents
