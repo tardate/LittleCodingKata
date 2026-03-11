@@ -7,6 +7,11 @@ About RSS and Atom feeds for publishing and podcasting.
 RSS 2.0 is the most common(?) feed format used in the wild, but it is a frozen standard owned by Harvard University.
 The standards-based Atom format is more extensible but has not had as wide adoption.
 
+Some useful books:
+
+* [Developing Feeds with RSS and Atom, by Ben Hammersley](../../books/developing-feeds-with-rss-and-atom/)
+* [RSS and Atom By Heinz Wittenbrink](../../books/rss-and-atom/)
+
 ## RSS
 
 There are multiple versions of [RSS](https://en.wikipedia.org/wiki/RSS). Two main branches:
@@ -16,7 +21,7 @@ There are multiple versions of [RSS](https://en.wikipedia.org/wiki/RSS). Two mai
 
 Example RSS 2.0 feed:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
@@ -56,7 +61,7 @@ General rules:
 
 An example of a document in the Atom Syndication Format:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Example Feed</title>
@@ -88,27 +93,27 @@ An example of a document in the Atom Syndication Format:
 
 The following tag should be placed into the head of an HTML document to provide a link to an Atom feed.
 
-```
-<link href="atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed" />
+```xml
+<link href="atom.xml" type="application/atom+xml" rel="alternate" title="Site-wide Atom feed" />
 ```
 
 ## Podcasting Feeds
 
 RSS 2.0 support for [enclosures](https://en.wikipedia.org/wiki/RSS_enclosure) led directly to the development of podcasting.
 
-```
+```xml
 <enclosure url="http://example.com/file.mp3" length="123456789" type="audio/mpeg" />
 ```
 
 Enclosures with Atom: `rel="enclosure"` on `<link>`
 
-```
+```xml
 <link rel="enclosure" href="http://example.com/file.mp3" />
 ```
 
 To appear in the iTunes Store, add the following namespace declaration
 
-```
+```xml
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 ```
 
@@ -116,7 +121,7 @@ See [Spec: iTunes Podcast RSS](https://github.com/simplepie/simplepie-ng/wiki/Sp
 
 Example iTunes-compatible podcast feed:
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
     <channel>
@@ -159,36 +164,10 @@ Example iTunes-compatible podcast feed:
 </rss>
 ```
 
-## Books
-
-### Developing Feeds with RSS and Atom, by Ben Hammersley
-
-* [O'Reilly](http://shop.oreilly.com/product/9780596008819.do)
-* [goodreads](https://www.goodreads.com/book/show/926310.Developing_Feeds_with_Rss_and_Atom)
-* [example source](https://resources.oreilly.com/examples/9780596008819/)
-
-Getting the examples source:
-
-```
-git clone https://resources.oreilly.com/examples/9780596008819/ example_source/hammersley
-```
-
-### RSS and Atom By Heinz Wittenbrink
-
-* [O'Reilly](http://shop.oreilly.com/product/9781904811572.do)
-* [goodreads](https://www.goodreads.com/book/show/926313.Rss_and_Atom)
-* [example source](https://resources.oreilly.com/examples/9781904811572/)
-
-Getting the examples source:
-
-```
-git clone https://resources.oreilly.com/examples/9781904811572/ example_source/wittenbrink
-```
-
 ## Credits and References
 
-* [RSS and Atom - Understanding and Implementing Content Feeds and Syndication](https://www.goodreads.com/book/show/926313.Rss_and_Atom) - book
-* [Developing Feeds with RSS and Atom](https://www.goodreads.com/book/show/926310.Developing_Feeds_with_Rss_and_Atom) - book
+* [Developing Feeds with RSS and Atom, by Ben Hammersley](../../books/developing-feeds-with-rss-and-atom/)
+* [RSS and Atom By Heinz Wittenbrink](../../books/rss-and-atom/)
 * [RSS](https://en.wikipedia.org/wiki/RSS) - wikipedia
 * [Atom Syndication Format](https://en.wikipedia.org/wiki/Atom_(Web_standard)) - wikipedia
 * [Introduction to Atom](https://validator.w3.org/feed/docs/atom.html)
