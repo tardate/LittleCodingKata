@@ -1,4 +1,4 @@
-# #xxx Developing Feeds with RSS and Atom
+# #429 Developing Feeds with RSS and Atom
 
 Book notes - Developing Feeds with RSS and Atom: Developers Guide to Syndicating News & Blogs, by Ben Hammersley.
 First published January 1, 2005.

@@ -1,4 +1,20 @@
 {
+    "/books/developing-feeds-with-rss-and-atom/": {
+        "id": 429,
+        "title": "Developing Feeds with RSS and Atom",
+        "summary": "Book notes - Developing Feeds with RSS and Atom: Developers Guide to Syndicating News & Blogs, by Ben Hammersley. First published January 1, 2005.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/rss-and-atom/": {
+        "id": 428,
+        "title": "RSS and Atom",
+        "summary": "Book notes - RSS and Atom: Understanding and Implementing Content Feeds and Syndication, by Heinz Wittenbrink. First published January 1, 2005.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/clojure/min-swaps-to-alternate/": {
         "id": 427,
         "title": "minSwapsToAlternate",

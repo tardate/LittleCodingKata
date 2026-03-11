@@ -1,6 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://codingkata.tardate.com/books/developing-feeds-with-rss-and-atom/</loc>
+  </url>
+  <url>
+    <loc>https://codingkata.tardate.com/books/rss-and-atom/</loc>
+  </url>
+  <url>
     <loc>https://codingkata.tardate.com/clojure/min-swaps-to-alternate/</loc>
   </url>
   <url>

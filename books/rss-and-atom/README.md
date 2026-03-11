@@ -1,4 +1,4 @@
-# #xxx RSS and Atom
+# #428 RSS and Atom
 
 Book notes - RSS and Atom: Understanding and Implementing Content Feeds and Syndication, by Heinz Wittenbrink.
 First published January 1, 2005.

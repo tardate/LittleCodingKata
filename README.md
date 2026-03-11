@@ -1,6 +1,6 @@
-# 427 Little Coding Katas
+# 429 Little Coding Katas
 
-> Latest addition :sparkles: [minSwapsToAlternate](./clojure/min-swaps-to-alternate) - Using Clojure to find the minimum swaps required to create an alternating array; cassidoo's interview question of the week (2026-03-09).
+> Latest addition :sparkles: [Developing Feeds with RSS and Atom](./books/developing-feeds-with-rss-and-atom) - Book notes - Developing Feeds with RSS and Atom: Developers Guide to Syndicating News & Blogs, by Ben Hammersley. First published January 1, 2005.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
