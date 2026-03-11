@@ -1,5 +1,15 @@
 [
     {
+        "name": "minSwapsToAlternate",
+        "description": "Using Clojure to find the minimum swaps required to create an alternating array; cassidoo's interview question of the week (2026-03-09).",
+        "categories": "Clojure, cassidoo",
+        "relative_path": "clojure/min-swaps-to-alternate",
+        "updated_at": "2026-03-11T05:33:00Z",
+        "created_at": "2026-03-11T05:33:00Z",
+        "id": "#427",
+        "original_relative_path": "clojure/min-swaps-to-alternate"
+    },
+    {
         "id": "#426",
         "name": "About miniKanren",
         "description": "An overview of the miniKanren logic programming language, its features, and ecosystem. Includes setting up and running miniKanren embedded in Clojure on macOS.",

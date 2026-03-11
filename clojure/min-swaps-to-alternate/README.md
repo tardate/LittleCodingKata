@@ -1,4 +1,4 @@
-# #xxx minSwapsToAlternate
+# #427 minSwapsToAlternate
 
 Using Clojure to find the minimum swaps required to create an alternating array; cassidoo's interview question of the week (2026-03-09).
 
