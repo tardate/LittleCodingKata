@@ -2,5 +2,8 @@
     "name": "About Julia",
     "description": "An overview of the Julia  programming language, its features, and ecosystem. Includes setting up and running on macOS.",
     "categories": "Julia, macOS",
-    "relative_path": "julia/about"
+    "relative_path": "julia/about",
+    "updated_at": "2026-03-13T02:10:00Z",
+    "created_at": "2026-03-13T02:10:00Z",
+    "id": "#430"
 }
