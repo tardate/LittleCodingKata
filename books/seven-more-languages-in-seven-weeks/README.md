@@ -40,6 +40,7 @@ The first sequel to the classic by Bruce Tate. Introduces a further set of langu
     * Day 2: Getting Assimilated
     * Day 3: Become One with Julia
     * Wrapping Up Julia
+    * See [LCK#430 About Julia](../../julia/about/)
 * 6 miniKanren
     * Day 1: Unified Theories of Code
     * Day 2: Mixing the Logical and Functional

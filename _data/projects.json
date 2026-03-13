@@ -1,4 +1,13 @@
 {
+    "/julia/about/": {
+        "id": 430,
+        "title": "About Julia",
+        "summary": "An overview of the Julia  programming language, its features, and ecosystem. Includes setting up and running on macOS.",
+        "tags": [
+            "Julia",
+            "macOS"
+        ]
+    },
     "/books/developing-feeds-with-rss-and-atom/": {
         "id": 429,
         "title": "Developing Feeds with RSS and Atom",
