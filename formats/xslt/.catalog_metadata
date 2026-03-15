@@ -2,5 +2,8 @@
     "name": "XSLT",
     "description": "About Extensible Stylesheet Language Transformations (XSLT), with a simple example on macOS. Also a discussion of the current state of support and the pending removal of XSLT support from browsers.",
     "categories": "formats, XSLT",
-    "relative_path": "formats/xslt"
+    "relative_path": "formats/xslt",
+    "updated_at": "2026-03-15T11:26:00Z",
+    "created_at": "2026-03-15T11:26:00Z",
+    "id": "#431"
 }

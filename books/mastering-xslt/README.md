@@ -1,4 +1,4 @@
-# #xxx Mastering XSLT
+# #432 Mastering XSLT
 
 Book notes - Mastering XSLT, by Chuck White.
 First published January 1, 2002

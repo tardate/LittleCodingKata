@@ -1,5 +1,25 @@
 [
     {
+        "name": "Mastering XSLT",
+        "description": "Book notes - Mastering XSLT, by Chuck White. First published January 1, 2002",
+        "categories": "Books",
+        "relative_path": "books/mastering-xslt",
+        "updated_at": "2026-03-15T11:26:00Z",
+        "created_at": "2026-03-15T11:26:00Z",
+        "id": "#432",
+        "original_relative_path": "books/mastering-xslt"
+    },
+    {
+        "name": "XSLT",
+        "description": "About Extensible Stylesheet Language Transformations (XSLT), with a simple example on macOS. Also a discussion of the current state of support and the pending removal of XSLT support from browsers.",
+        "categories": "formats, XSLT",
+        "relative_path": "formats/xslt",
+        "updated_at": "2026-03-15T11:26:00Z",
+        "created_at": "2026-03-15T11:26:00Z",
+        "id": "#431",
+        "original_relative_path": "formats/xslt"
+    },
+    {
         "name": "About Julia",
         "description": "An overview of the Julia  programming language, its features, and ecosystem. Includes setting up and running on macOS.",
         "categories": "Julia, macOS",
