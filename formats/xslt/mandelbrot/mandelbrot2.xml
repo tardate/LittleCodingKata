@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='mandelbrot.xsl'?>
+<fractal>
+ <scale>100</scale>
+ <y><min>-140</min> <max>140</max> <step>2.4</step></y>
+ <x><min>-203</min> <max>100</max> <step>0.9</step></x>
+ <maxiter>28</maxiter>
+ <background>#500</background>
+ <magnitude value="0"><symbol>&#9617;</symbol><color>#036</color></magnitude>
+ <magnitude value="1"><symbol>&#9617;</symbol><color>#146</color></magnitude>
+ <magnitude value="2"><symbol>&#9617;</symbol><color>#247</color></magnitude>
+ <magnitude value="3"><symbol>&#9617;</symbol><color>#257</color></magnitude>
+ <magnitude value="4"><symbol>&#9617;</symbol><color>#358</color></magnitude>
+ <magnitude value="5"><symbol>&#9618;</symbol><color>#468</color></magnitude>
+ <magnitude value="6"><symbol>&#9618;</symbol><color>#469</color></magnitude>
+ <magnitude value="7"><symbol>&#9618;</symbol><color>#579</color></magnitude>
+ <magnitude value="8"><symbol>&#9619;</symbol><color>#57A</color></magnitude>
+ <magnitude value="9"><symbol>&#9619;</symbol><color>#68A</color></magnitude>
+ <magnitude value="10"><symbol>&#9619;</symbol><color>#68B</color></magnitude>
+ <magnitude value="11"><symbol>&#9619;</symbol><color>#79B</color></magnitude>
+ <magnitude value="12"><symbol>&#9608;</symbol><color>#79C</color></magnitude>
+ <magnitude value="13"><symbol>&#9619;</symbol><color>#8AC</color></magnitude>
+ <magnitude value="14"><symbol>&#9608;</symbol><color>#8AD</color></magnitude>
+ <magnitude value="15"><symbol>&#9619;</symbol><color>#9BD</color></magnitude>
+ <magnitude value="16"><symbol>&#9608;</symbol><color>#9BE</color></magnitude>
+ <magnitude value="17"><symbol>&#9619;</symbol><color>#ACE</color></magnitude>
+ <magnitude value="18"><symbol>&#9608;</symbol><color>#ACF</color></magnitude>
+ <magnitude value="19"><symbol>&#9619;</symbol><color>#BDF</color></magnitude>
+ <magnitude value="20"><symbol>&#9608;</symbol><color>#BD0</color></magnitude>
+ <magnitude value="21"><symbol>&#9619;</symbol><color>#CE0</color></magnitude>
+ <magnitude value="22"><symbol>&#9608;</symbol><color>#CE1</color></magnitude>
+ <magnitude value="23"><symbol>&#9619;</symbol><color>#DF1</color></magnitude>
+ <magnitude value="24"><symbol>&#9608;</symbol><color>#D02</color></magnitude>
+ <magnitude value="25"><symbol>&#9619;</symbol><color>#E02</color></magnitude>
+ <magnitude value="26"><symbol>&#9608;</symbol><color>#E13</color></magnitude>
+ <magnitude value="27"><symbol>&#9617;</symbol><color>#F13</color></magnitude>
+</fractal>

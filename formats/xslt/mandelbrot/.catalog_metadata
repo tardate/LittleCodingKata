@@ -1,0 +1,6 @@
+{
+    "name": "XSLT Mandelbrot",
+    "description": "Playing with Joel Yliluoma's demonstration of the power of XSLT: generating a Mandelbrot set, rendered with HTML.",
+    "categories": "XSLT",
+    "relative_path": "formats/xslt/mandelbrot"
+}
