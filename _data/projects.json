@@ -1,4 +1,12 @@
 {
+    "/formats/xslt/mandelbrot/": {
+        "id": 433,
+        "title": "XSLT Mandelbrot",
+        "summary": "Playing with Joel Yliluoma's demonstration of the power of XSLT: generating a Mandelbrot set, rendered with HTML.",
+        "tags": [
+            "XSLT"
+        ]
+    },
     "/books/mastering-xslt/": {
         "id": 432,
         "title": "Mastering XSLT",

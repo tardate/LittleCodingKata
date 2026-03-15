@@ -1,5 +1,15 @@
 [
     {
+        "name": "XSLT Mandelbrot",
+        "description": "Playing with Joel Yliluoma's demonstration of the power of XSLT: generating a Mandelbrot set, rendered with HTML.",
+        "categories": "XSLT",
+        "relative_path": "formats/xslt/mandelbrot",
+        "updated_at": "2026-03-15T12:13:00Z",
+        "created_at": "2026-03-15T12:13:00Z",
+        "id": "#433",
+        "original_relative_path": "formats/xslt/mandelbrot"
+    },
+    {
         "name": "Mastering XSLT",
         "description": "Book notes - Mastering XSLT, by Chuck White. First published January 1, 2002",
         "categories": "Books",

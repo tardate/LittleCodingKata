@@ -1,4 +1,4 @@
-# #xxx XSLT Mandelbrot
+# #433 XSLT Mandelbrot
 
 Playing with Joel Yliluoma's demonstration of the power of XSLT: generating a Mandelbrot set, rendered with HTML.
 
