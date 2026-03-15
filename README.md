@@ -1,6 +1,6 @@
-# 430 Little Coding Katas
+# 433 Little Coding Katas
 
-> Latest addition :sparkles: [About Julia](./julia/about) - An overview of the Julia  programming language, its features, and ecosystem. Includes setting up and running on macOS.
+> Latest addition :sparkles: [XSLT Mandelbrot](./formats/xslt/mandelbrot) - Playing with Joel Yliluoma's demonstration of the power of XSLT: generating a Mandelbrot set, rendered with HTML.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

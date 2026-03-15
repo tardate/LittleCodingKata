@@ -1,4 +1,30 @@
 {
+    "/formats/xslt/mandelbrot/": {
+        "id": 433,
+        "title": "XSLT Mandelbrot",
+        "summary": "Playing with Joel Yliluoma's demonstration of the power of XSLT: generating a Mandelbrot set, rendered with HTML.",
+        "tags": [
+            "XSLT"
+        ]
+    },
+    "/books/mastering-xslt/": {
+        "id": 432,
+        "title": "Mastering XSLT",
+        "summary": "Book notes - Mastering XSLT, by Chuck White. First published January 1, 2002",
+        "tags": [
+            "Books",
+            "XSLT"
+        ]
+    },
+    "/formats/xslt/": {
+        "id": 431,
+        "title": "XSLT",
+        "summary": "About Extensible Stylesheet Language Transformations (XSLT), with a simple example on macOS. Also a discussion of the current state of support and the pending removal of XSLT support from browsers.",
+        "tags": [
+            "formats",
+            "XSLT"
+        ]
+    },
     "/julia/about/": {
         "id": 430,
         "title": "About Julia",
