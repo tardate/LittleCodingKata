@@ -1,0 +1,6 @@
+{
+    "name": "XSLT",
+    "description": "About Extensible Stylesheet Language Transformations (XSLT), with a simple example on macOS. Also a discussion of the current state of support and the pending removal of XSLT support from browsers.",
+    "categories": "formats, XSLT",
+    "relative_path": "formats/xslt"
+}

@@ -1,0 +1,10 @@
+<catalog>
+  <book id="1">
+    <title>Diary of a War Crime</title>
+    <author>Simon McCleave</author>
+  </book>
+  <book id="2">
+    <title>Yellowface</title>
+    <author>R.F. Kuang</author>
+  </book>
+</catalog>
