@@ -1,9 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <catalog>
-  <book id="1">
+  <book isbn="9798707512940">
     <title>Diary of a War Crime</title>
     <author>Simon McCleave</author>
   </book>
-  <book id="2">
+  <book isbn="9780063250864">
     <title>Yellowface</title>
     <author>R.F. Kuang</author>
   </book>

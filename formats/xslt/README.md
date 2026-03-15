@@ -201,21 +201,24 @@ This is a simple example of transforming an XML catalog of book records into HTM
 The source records are in [books.xml](./books.xml):
 
 ```xml
+<?xml version="1.0" encoding="UTF-8"?>
 <catalog>
-  <book id="1">
+  <book isbn="9798707512940">
     <title>Diary of a War Crime</title>
     <author>Simon McCleave</author>
   </book>
-  <book id="2">
+  <book isbn="9780063250864">
     <title>Yellowface</title>
     <author>R.F. Kuang</author>
   </book>
 </catalog>
+
 ```
 
 The transformation is defined in [books-to-html.xslt](./books-to-html.xslt):
 
 ```xslt
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
@@ -226,17 +229,27 @@ The transformation is defined in [books-to-html.xslt](./books-to-html.xslt):
     <body>
       <h2>Book Catalog</h2>
       <ul>
-        <xsl:apply-templates select="catalog/book"/>
+        <xsl:apply-templates mode="toc"/>
       </ul>
+      <hr/>
+        <xsl:apply-templates select="catalog/book"/>
     </body>
   </html>
 </xsl:template>
 
-<xsl:template match="book">
+<xsl:template match="book" mode="toc">
   <li>
-    <b><xsl:value-of select="title"/></b>
-    — <xsl:value-of select="author"/>
+    <a href="#{generate-id()}"><xsl:value-of select="title"/></a><br/>
   </li>
+</xsl:template>
+
+<xsl:template match="book">
+  <h3 id="{generate-id()}"><xsl:value-of select="title"/></h3>
+  <p>
+  Author: <xsl:value-of select="author"/>
+  <br/>
+  ISBN: <xsl:value-of select="@isbn"/>
+  </p>
 </xsl:template>
 
 </xsl:stylesheet>
@@ -248,19 +261,7 @@ I am running this on macOS, and using
 I use this to perform the transformation:
 
 ```sh
-$ xsltproc books-to-html.xslt books.xml
-<html><body>
-<h2>Book Catalog</h2>
-<ul>
-<li>
-<b>Diary of a War Crime</b>
-    — Simon McCleave</li>
-<li>
-<b>Yellowface</b>
-    — R.F. Kuang</li>
-</ul>
-</body></html>
-$ xsltproc books-to-html.xslt books.xml > books.html
+xsltproc books-to-html.xslt books.xml > books.html
 ```
 
 The result is captured in [books.html](./books.html):
@@ -269,13 +270,22 @@ The result is captured in [books.html](./books.html):
 <html><body>
 <h2>Book Catalog</h2>
 <ul>
-<li>
-<b>Diary of a War Crime</b>
-    — Simon McCleave</li>
-<li>
-<b>Yellowface</b>
-    — R.F. Kuang</li>
+  <li>
+<a href="#id1">Diary of a War Crime</a><br>
+</li>
+  <li>
+<a href="#id2">Yellowface</a><br>
+</li>
 </ul>
+<hr>
+<h3 id="id1">Diary of a War Crime</h3>
+<p>
+  Author: Simon McCleave<br>
+  ISBN: 9798707512940</p>
+<h3 id="id2">Yellowface</h3>
+<p>
+  Author: R.F. Kuang<br>
+  ISBN: 9780063250864</p>
 </body></html>
 ```
 
