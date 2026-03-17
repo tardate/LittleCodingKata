@@ -1,6 +1,6 @@
-# 433 Little Coding Katas
+# 434 Little Coding Katas
 
-> Latest addition :sparkles: [XSLT Mandelbrot](./formats/xslt/mandelbrot) - Playing with Joel Yliluoma's demonstration of the power of XSLT: generating a Mandelbrot set, rendered with HTML.
+> Latest addition :sparkles: [Saxon Processor](./formats/xslt/saxon) - Setting up and using Saxon for XSLT, XQuery, and XML Schema, including XSLT 3.0 compatible processing on macOS.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

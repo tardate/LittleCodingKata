@@ -1,5 +1,15 @@
 [
     {
+        "name": "Saxon Processor",
+        "description": "Setting up and using Saxon for XSLT, XQuery, and XML Schema, including XSLT 3.0 compatible processing on macOS.",
+        "categories": "XSLT, XQuery, XML Schema, macOS",
+        "relative_path": "formats/xslt/saxon",
+        "updated_at": "2026-03-17T14:37:00Z",
+        "created_at": "2026-03-17T14:37:00Z",
+        "id": "#434",
+        "original_relative_path": "formats/xslt/saxon"
+    },
+    {
         "name": "XSLT Mandelbrot",
         "description": "Playing with Joel Yliluoma's demonstration of the power of XSLT: generating a Mandelbrot set, rendered with HTML.",
         "categories": "XSLT",
