@@ -7,12 +7,34 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-03-15T12:13:00Z</updated>
+  <updated>2026-03-17T15:05:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/formats/xslt/csv-transforms/</id>
+    <link href="https://codingkata.tardate.com/formats/xslt/csv-transforms/"/>
+    <updated>2026-03-17T15:05:00Z</updated>
+    <title>#435 XSLT CSV Transforms</title>
+    <summary>XSLT transformations for converting CSV data.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;XSLT transformations for converting CSV data.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="XSLT"/>
+    <category term="CSV"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/formats/xslt/saxon/</id>
+    <link href="https://codingkata.tardate.com/formats/xslt/saxon/"/>
+    <updated>2026-03-17T14:37:00Z</updated>
+    <title>#434 Saxon Processor</title>
+    <summary>Setting up and using Saxon for XSLT, XQuery, and XML Schema, including XSLT 3.0 compatible processing on macOS.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Setting up and using Saxon for XSLT, XQuery, and XML Schema, including XSLT 3.0 compatible processing on macOS.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="XSLT"/>
+    <category term="XQuery"/>
+    <category term="XML Schema"/>
+    <category term="macOS"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/formats/xslt/mandelbrot/</id>
     <link href="https://codingkata.tardate.com/formats/xslt/mandelbrot/"/>

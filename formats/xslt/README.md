@@ -16,7 +16,7 @@ the reporting in [Security Now 1051](https://www.grc.com/sn/sn-1051.htm) for exa
 
 [Google Chrome - Removing XSLT for a more secure browser](https://developer.chrome.com/docs/web-platform/deprecating-xslt) has already been announced,
 with many expecting Safari/WebKit and Mozilla/Firefox to follow.
-There has been significant push-back however, as many government and legal applications reply on browser-based XSLT support.
+There has been significant push-back however, as many government and legal applications rely on browser-based XSLT support.
 
 ### XSLT In a Nutshell
 
