@@ -2,5 +2,8 @@
     "name": "XSLT CSV Transforms",
     "description": "XSLT transformations for converting CSV data.",
     "categories": "XSLT, CSV",
-    "relative_path": "formats/xslt/csv"
+    "relative_path": "formats/xslt/csv-transforms",
+    "updated_at": "2026-03-17T15:05:00Z",
+    "created_at": "2026-03-17T15:05:00Z",
+    "id": "#435"
 }

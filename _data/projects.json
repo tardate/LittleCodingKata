@@ -1,4 +1,13 @@
 {
+    "/formats/xslt/csv-transforms/": {
+        "id": 435,
+        "title": "XSLT CSV Transforms",
+        "summary": "XSLT transformations for converting CSV data.",
+        "tags": [
+            "XSLT",
+            "CSV"
+        ]
+    },
     "/formats/xslt/saxon/": {
         "id": 434,
         "title": "Saxon Processor",
