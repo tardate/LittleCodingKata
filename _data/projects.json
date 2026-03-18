@@ -1,4 +1,12 @@
 {
+    "/ai/meshy/": {
+        "id": 437,
+        "title": "Meshy",
+        "summary": "About Meshy, an AI 3D model generator. The Meshy 6 model is quite accomplished at generating and manipulating models from 2D images. Text prompt generation is a little more prone to errors.",
+        "tags": [
+            "AI"
+        ]
+    },
     "/julia/fire-station-coverage/": {
         "id": 436,
         "title": "fireStationCoverage",

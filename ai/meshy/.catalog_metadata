@@ -1,0 +1,9 @@
+{
+    "name": "Meshy",
+    "description": "About Meshy, an AI 3D model generator. The Meshy 6 model is quite accomplished at generating and manipulating models from 2D images. Text prompt generation is a little more prone to errors.",
+    "categories": "AI",
+    "relative_path": "ai/meshy",
+    "updated_at": "2026-03-18T04:04:00Z",
+    "created_at": "2026-03-18T04:04:00Z",
+    "id": "#437"
+}
