@@ -139,7 +139,7 @@ See also:
 
 #### 3D Model Generation
 
-* [Meshy](https://www.meshy.ai/)
+* [Meshy](https://www.meshy.ai/) - see my [full review](./meshy/)
     > Create stunning 3D models with AI
 * [TRELLIS.2](https://studio.tripo3d.ai/) - see my [full review](./trellis2/)
     > native and compact structured latents for 3d generation
