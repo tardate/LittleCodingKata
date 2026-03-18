@@ -1,6 +1,6 @@
-# 436 Little Coding Katas
+# 437 Little Coding Katas
 
-> Latest addition :sparkles: [fireStationCoverage](./julia/fire-station-coverage) - Using Julia to calculate how well a city grid is covered by fire stations - a multi-source, breadth-first search problem; cassidoo's interview question of the week (2026-03-16).
+> Latest addition :sparkles: [Meshy](./ai/meshy) - About Meshy, an AI 3D model generator. The Meshy 6 model is quite accomplished at generating and manipulating models from 2D images. Text prompt generation is a little more prone to errors.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

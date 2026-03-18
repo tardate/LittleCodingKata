@@ -1,4 +1,4 @@
-# #xxx Meshy
+# #437 Meshy
 
 About Meshy, an AI 3D model generator. The Meshy 6 model is quite accomplished at generating and manipulating models from 2D images. Text prompt generation is a little more prone to errors.
 
