@@ -35,6 +35,10 @@ Result:
     * black bachi rather than untreated wood
     * some strange costume colours!
 
+NOTE: after doing a reverse image search, the results are suspiciously close
+to Ryu from Street Fighter and Sega Virtua Fighter Akira Yuki.
+I suspect strong hints in the training data...so the AI stole it!
+
 I'm doing this on the cheap, so can't export the v3.1 model results.
 
 Let's see how the legacy v2.5 model goes (as this one allows downloads)...
@@ -53,7 +57,16 @@ Result:
 * Fully coherent model - no floating artifacts
 * Has retained the character and texturing of the original image.
 
-I've also exported [the STL](./assets/taiko-line-example-1/generated-2.stl) and will try printing it soon.
+I exported [the STL](./assets/taiko-line-example-1/generated-2.stl) for printing,
+scaled it to 54mm, and printed it on a [Bambu Lab P1S at the library](https://leap.tardate.com/equipment/nlb/bambulabp1s/):
+
+[![TaikoNinja_build01a](./assets/taiko-line-example-1/TaikoNinja_build01a.jpg)](https://modelart.tardate.com/projects/figures/taikoninja/)
+
+The finished, painted product. See
+[MODELART#165 Taiko Ninja](https://modelart.tardate.com/projects/figures/taikoninja/)
+for full details of the build:
+
+[![TaikoNinja_build](./assets/taiko-line-example-1/TaikoNinja_build.jpg)](https://modelart.tardate.com/projects/figures/taikoninja/)
 
 ### Photo Trial
 

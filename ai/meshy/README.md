@@ -42,7 +42,8 @@ As a benchmark, let's first test the legacy Meshy 4 model (soon to be retired). 
 
 After switching to their latest Meshy 6 model, results are excellent.
 However, doing a reverse image search, the results are suspiciously close
-to Ryu from the Street Fighter and Sega Virtua Fighter Akira Yuki. I suspect strong hints in the training data!
+to Ryu from Street Fighter and Sega Virtua Fighter Akira Yuki. I suspect strong hints in the training data!
+So the AI stole it!
 
 ![generated-1a-6](./assets/taiko-line-example-1/generated-1a-6.png)
 ![generated-1b-6](./assets/taiko-line-example-1/generated-1b-6.png)
