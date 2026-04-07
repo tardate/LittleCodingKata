@@ -2,5 +2,8 @@
     "name": "perrinCombinations",
     "description": "Using Perl to calculate Perrin Combinations; cassidoo's interview question of the week (2026-04-06)",
     "categories": "Perl, cassidoo",
-    "relative_path": "perl/perrin-combinations"
+    "relative_path": "perl/perrin-combinations",
+    "updated_at": "2026-04-07T07:22:00Z",
+    "created_at": "2026-04-07T07:22:00Z",
+    "id": "#438"
 }

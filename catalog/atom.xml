@@ -7,12 +7,22 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-03-18T04:04:00Z</updated>
+  <updated>2026-04-07T07:22:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/perl/perrin-combinations/</id>
+    <link href="https://codingkata.tardate.com/perl/perrin-combinations/"/>
+    <updated>2026-04-07T07:22:00Z</updated>
+    <title>#438 perrinCombinations</title>
+    <summary>Using Perl to calculate Perrin Combinations; cassidoo's interview question of the week (2026-04-06)</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using Perl to calculate Perrin Combinations; cassidoo's interview question of the week (2026-04-06)&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Perl"/>
+    <category term="cassidoo"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/ai/meshy/</id>
     <link href="https://codingkata.tardate.com/ai/meshy/"/>
