@@ -1,4 +1,13 @@
 {
+    "/perl/perrin-combinations/": {
+        "id": 438,
+        "title": "perrinCombinations",
+        "summary": "Using Perl to calculate Perrin Combinations; cassidoo's interview question of the week (2026-04-06)",
+        "tags": [
+            "Perl",
+            "cassidoo"
+        ]
+    },
     "/ai/meshy/": {
         "id": 437,
         "title": "Meshy",
