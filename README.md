@@ -1,6 +1,6 @@
-# 438 Little Coding Katas
+# 439 Little Coding Katas
 
-> Latest addition :sparkles: [perrinCombinations](./perl/perrin-combinations) - Using Perl to calculate Perrin Combinations; cassidoo's interview question of the week (2026-04-06)
+> Latest addition :sparkles: [Learning Perl](./books/learning-perl) - Book notes - Learning Perl: Making Easy Things Easy and Hard Things Possible by Randal L. Schwartz, Brian D. Foy, Tom Phoenix. First published November 1, 1993. Most recently published as an Eighth edition in 2021.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
