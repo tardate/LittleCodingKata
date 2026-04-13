@@ -1,4 +1,22 @@
 {
+    "/books/programming-perl/": {
+        "id": 440,
+        "title": "Programming Perl",
+        "summary": "Book notes - Programming Perl: Unmatched power for text processing and scripting by Tom Christiansen, Brian D Foy, Larry Wall, Jon Orwant. First published January 1, 1991. Latest 4th edition in 2012.",
+        "tags": [
+            "Books",
+            "Perl"
+        ]
+    },
+    "/books/learning-perl/": {
+        "id": 439,
+        "title": "Learning Perl",
+        "summary": "Book notes - Learning Perl: Making Easy Things Easy and Hard Things Possible by Randal L. Schwartz, Brian D. Foy, Tom Phoenix. First published November 1, 1993. Most recently published as an Eighth edition in 2021.",
+        "tags": [
+            "Books",
+            "Perl"
+        ]
+    },
     "/perl/perrin-combinations/": {
         "id": 438,
         "title": "perrinCombinations",
