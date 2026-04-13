@@ -1,4 +1,13 @@
 {
+    "/books/programming-perl/": {
+        "id": 440,
+        "title": "Programming Perl",
+        "summary": "Book notes - Programming Perl: Unmatched power for text processing and scripting by Tom Christiansen, Brian D Foy, Larry Wall, Jon Orwant. First published January 1, 1991. Latest 4th edition in 2012.",
+        "tags": [
+            "Books",
+            "Perl"
+        ]
+    },
     "/books/learning-perl/": {
         "id": 439,
         "title": "Learning Perl",
