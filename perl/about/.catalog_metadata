@@ -1,0 +1,9 @@
+{
+    "name": "About Perl",
+    "description": "An overview of the Perl programming language, its features, and ecosystem. Includes setting up and running on macOS.",
+    "categories": "Perl, macOS",
+    "relative_path": "perl/about",
+    "updated_at": "2026-04-15T09:30:00Z",
+    "created_at": "2026-04-15T09:30:00Z",
+    "id": "#441"
+}
