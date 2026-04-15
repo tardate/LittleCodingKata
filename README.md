@@ -1,6 +1,6 @@
-# 440 Little Coding Katas
+# 441 Little Coding Katas
 
-> Latest addition :sparkles: [Programming Perl](./books/programming-perl) - Book notes - Programming Perl: Unmatched power for text processing and scripting by Tom Christiansen, Brian D Foy, Larry Wall, Jon Orwant. First published January 1, 1991. Latest 4th edition in 2012.
+> Latest addition :sparkles: [About Perl](./perl/about) - An overview of the Perl programming language, its features, and ecosystem. Includes setting up and running on macOS.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

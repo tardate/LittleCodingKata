@@ -1,4 +1,13 @@
 {
+    "/perl/about/": {
+        "id": 441,
+        "title": "About Perl",
+        "summary": "An overview of the Perl programming language, its features, and ecosystem. Includes setting up and running on macOS.",
+        "tags": [
+            "Perl",
+            "macOS"
+        ]
+    },
     "/books/programming-perl/": {
         "id": 440,
         "title": "Programming Perl",
