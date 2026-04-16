@@ -43,7 +43,7 @@ NB: it seems the solution to the second example should in fact be:
 
 ## Thinking about the Problem
 
-The firs thing we can note is that buildings are irrelevant for the answer.
+The first thing we can note is that buildings are irrelevant for the answer.
 
 If we consider each fire station a "source", we have a [multi-source shortest path problem](https://en.wikipedia.org/wiki/Shortest_path_problem).
 

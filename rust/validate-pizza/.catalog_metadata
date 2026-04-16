@@ -1,0 +1,6 @@
+{
+    "name": "validatePizza",
+    "description": "Using rust to validate a pizza recipe; cassidoo's interview question of the week (2026-04-13).",
+    "categories": "Rust, cassidoo",
+    "relative_path": "rust/validate-pizza"
+}
