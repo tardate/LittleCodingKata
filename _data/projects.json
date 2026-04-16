@@ -1,4 +1,13 @@
 {
+    "/books/computer-science-perl-programming/": {
+        "id": 442,
+        "title": "Computer Science & Perl Programming",
+        "summary": "Book notes - Computer Science & Perl Programming: Best of The Perl Journal, by Jon Orwant. First published November 4, 2002.",
+        "tags": [
+            "Books",
+            "Perl"
+        ]
+    },
     "/perl/about/": {
         "id": 441,
         "title": "About Perl",

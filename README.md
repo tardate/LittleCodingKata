@@ -1,6 +1,6 @@
-# 441 Little Coding Katas
+# 442 Little Coding Katas
 
-> Latest addition :sparkles: [About Perl](./perl/about) - An overview of the Perl programming language, its features, and ecosystem. Includes setting up and running on macOS.
+> Latest addition :sparkles: [Computer Science & Perl Programming](./books/computer-science-perl-programming) - Book notes - Computer Science & Perl Programming: Best of The Perl Journal, by Jon Orwant. First published November 4, 2002.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
