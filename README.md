@@ -1,6 +1,6 @@
-# 442 Little Coding Katas
+# 443 Little Coding Katas
 
-> Latest addition :sparkles: [Computer Science & Perl Programming](./books/computer-science-perl-programming) - Book notes - Computer Science & Perl Programming: Best of The Perl Journal, by Jon Orwant. First published November 4, 2002.
+> Latest addition :sparkles: [Perl Cookbook](./books/perl-cookbook) - Book notes - Perl Cookbook, by Tom Christiansen, Nathan Torkington. First published August 1, 1998. Latest second edition, 2003.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

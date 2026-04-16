@@ -7,12 +7,22 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-04-16T02:21:00Z</updated>
+  <updated>2026-04-16T02:29:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/books/perl-cookbook/</id>
+    <link href="https://codingkata.tardate.com/books/perl-cookbook/"/>
+    <updated>2026-04-16T02:29:00Z</updated>
+    <title>#443 Perl Cookbook</title>
+    <summary>Book notes - Perl Cookbook, by Tom Christiansen, Nathan Torkington. First published August 1, 1998. Latest second edition, 2003.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Perl Cookbook, by Tom Christiansen, Nathan Torkington. First published August 1, 1998. Latest second edition, 2003.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Perl"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/books/computer-science-perl-programming/</id>
     <link href="https://codingkata.tardate.com/books/computer-science-perl-programming/"/>

@@ -1,4 +1,13 @@
 {
+    "/books/perl-cookbook/": {
+        "id": 443,
+        "title": "Perl Cookbook",
+        "summary": "Book notes - Perl Cookbook, by Tom Christiansen, Nathan Torkington. First published August 1, 1998. Latest second edition, 2003.",
+        "tags": [
+            "Books",
+            "Perl"
+        ]
+    },
     "/books/computer-science-perl-programming/": {
         "id": 442,
         "title": "Computer Science & Perl Programming",
