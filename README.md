@@ -1,6 +1,6 @@
-# 443 Little Coding Katas
+# 444 Little Coding Katas
 
-> Latest addition :sparkles: [Perl Cookbook](./books/perl-cookbook) - Book notes - Perl Cookbook, by Tom Christiansen, Nathan Torkington. First published August 1, 1998. Latest second edition, 2003.
+> Latest addition :sparkles: [validatePizza](./rust/validate-pizza) - Using rust to validate a pizza recipe; cassidoo's interview question of the week (2026-04-13).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
