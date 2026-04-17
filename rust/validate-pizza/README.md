@@ -32,12 +32,13 @@ asks us to validate a pizza recipe:
 
 ## Thinking about the Problem
 
-Rules are evaluated in order.
+There's nothing particularly surprising here.
 
-Each rule is a simple array indexing question:
+We only need to report the first rule that fails,
+hence we can short-circuit the ordered evaluation of rules.
+
+Evaluating a rule is a simple array indexing question:
 if the index of ingredient A in the layers list is less than the index of ingredient B, then the rule is valid.
-
-If all rules pass, return true, else return the first rule that failed.
 
 ## A first approach
 
@@ -49,6 +50,11 @@ The core function:
 * compares the indexes of the rule ingredients in the layers list
 * if invalid, returns immediately with the invalid rule detail
 * else returns true when all rules passed
+
+The main issue here is how to index ingredients.
+The rust [std::vec](https://doc.rust-lang.org/std/vec/struct.Vec.html) does not have an "index of" method.
+The conventional guidance is to use  `iter().position()`
+e.g. `layers.iter().position(|x| x == ingredient_a)`
 
 ```rust
 pub fn validate_pizza(layers: &Vec<String>, rules: &Vec<Vec<String>>) -> String {
@@ -238,3 +244,4 @@ mod tests {
 ## Credits and References
 
 * [cassidoo's interview question of the week (2026-04-13)](https://buttondown.com/cassidoo/archive/u1f9d1-u1f680-we-will-always-choose-earth-we-will/)
+* [std::vec](https://doc.rust-lang.org/std/vec/struct.Vec.html)
