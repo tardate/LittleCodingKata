@@ -1,4 +1,13 @@
 {
+    "/rust/validate-pizza/": {
+        "id": 444,
+        "title": "validatePizza",
+        "summary": "Using rust to validate a pizza recipe; cassidoo's interview question of the week (2026-04-13).",
+        "tags": [
+            "Rust",
+            "cassidoo"
+        ]
+    },
     "/books/perl-cookbook/": {
         "id": 443,
         "title": "Perl Cookbook",
