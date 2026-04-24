@@ -1,6 +1,6 @@
-# 445 Little Coding Katas
+# 446 Little Coding Katas
 
-> Latest addition :sparkles: [Perl Testing](./books/perl-testing) - Book notes - Perl Testing: A Developer's Notebook by Ian Langworth, chromatic. First published January 1, 2005.
+> Latest addition :sparkles: [Perl and XML](./books/perl-and-xml) - Book notes - Perl and XML: XML Processing with Perl by Erik T. Ray, Jason McIntosh. First published January 1, 2002.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

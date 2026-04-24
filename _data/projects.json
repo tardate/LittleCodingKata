@@ -1,4 +1,14 @@
 {
+    "/books/perl-and-xml/": {
+        "id": 446,
+        "title": "Perl and XML",
+        "summary": "Book notes - Perl and XML: XML Processing with Perl by Erik T. Ray, Jason McIntosh. First published January 1, 2002.",
+        "tags": [
+            "Books",
+            "Perl",
+            "XML"
+        ]
+    },
     "/books/perl-testing/": {
         "id": 445,
         "title": "Perl Testing",
