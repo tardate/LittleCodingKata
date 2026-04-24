@@ -179,7 +179,7 @@ sub perrin_combinations {
 }
 ```
 
-An now the results are as expected:
+And now the results are as expected:
 
 ```sh
 $ ./challenge.pl 7 12
@@ -264,5 +264,5 @@ print_2d_array($combinations);
 
 ## Credits and References
 
-* [cassidoo's interview question of the week (2026-04-06)](https://buttondown.com/cassidoo/archive/9-ufe0f-u20e3-there-are-no-mistakes-only/):
+* [cassidoo's interview question of the week (2026-04-06)](https://buttondown.com/cassidoo/archive/9-ufe0f-u20e3-there-are-no-mistakes-only/)
 * <https://en.wikipedia.org/wiki/Perrin_number>
