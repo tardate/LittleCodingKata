@@ -7,12 +7,33 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-04-17T02:02:00Z</updated>
+  <updated>2026-04-24T05:05:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/books/perl-and-xml/</id>
+    <link href="https://codingkata.tardate.com/books/perl-and-xml/"/>
+    <updated>2026-04-24T05:05:00Z</updated>
+    <title>#446 Perl and XML</title>
+    <summary>Book notes - Perl and XML: XML Processing with Perl by Erik T. Ray, Jason McIntosh. First published January 1, 2002.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Perl and XML: XML Processing with Perl by Erik T. Ray, Jason McIntosh. First published January 1, 2002.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Perl"/>
+    <category term="XML"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/books/perl-testing/</id>
+    <link href="https://codingkata.tardate.com/books/perl-testing/"/>
+    <updated>2026-04-24T04:54:00Z</updated>
+    <title>#445 Perl Testing</title>
+    <summary>Book notes - Perl Testing: A Developer's Notebook by Ian Langworth, chromatic. First published January 1, 2005.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Perl Testing: A Developer's Notebook by Ian Langworth, chromatic. First published January 1, 2005.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Perl"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/validate-pizza/</id>
     <link href="https://codingkata.tardate.com/rust/validate-pizza/"/>
