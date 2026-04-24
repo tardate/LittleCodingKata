@@ -1,4 +1,13 @@
 {
+    "/books/perl-testing/": {
+        "id": 445,
+        "title": "Perl Testing",
+        "summary": "Book notes - Perl Testing: A Developer's Notebook by Ian Langworth, chromatic. First published January 1, 2005.",
+        "tags": [
+            "Books",
+            "Perl"
+        ]
+    },
     "/rust/validate-pizza/": {
         "id": 444,
         "title": "validatePizza",

@@ -1,5 +1,15 @@
 [
     {
+        "name": "Perl Testing",
+        "description": "Book notes - Perl Testing: A Developer's Notebook by Ian Langworth, chromatic. First published January 1, 2005.",
+        "categories": "Books, Perl",
+        "relative_path": "books/perl-testing",
+        "updated_at": "2026-04-24T04:54:00Z",
+        "created_at": "2026-04-24T04:54:00Z",
+        "id": "#445",
+        "original_relative_path": "books/perl-testing"
+    },
+    {
         "name": "validatePizza",
         "description": "Using rust to validate a pizza recipe; cassidoo's interview question of the week (2026-04-13).",
         "categories": "Rust, cassidoo",
