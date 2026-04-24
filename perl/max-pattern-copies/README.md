@@ -1,4 +1,4 @@
-# #xxx maxPatternCopies
+# #447 maxPatternCopies
 
 Using Perl to make patterns from a string; cassidoo's interview question of the week (2026-04-20).
 
