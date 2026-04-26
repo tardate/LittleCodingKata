@@ -7,12 +7,22 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-04-26T06:50:00Z</updated>
+  <updated>2026-04-26T07:05:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/books/perl-hacks/</id>
+    <link href="https://codingkata.tardate.com/books/perl-hacks/"/>
+    <updated>2026-04-26T07:05:00Z</updated>
+    <title>#449 Perl Hacks</title>
+    <summary>Book notes - Perl Hacks: Tips &amp; Tools for Programming, Debugging, and Surviving by Shane Warden, Damian Conway, Curtis 'Ovid' Poe. First published January 1, 2006.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Perl Hacks: Tips &amp;amp; Tools for Programming, Debugging, and Surviving by Shane Warden, Damian Conway, Curtis 'Ovid' Poe. First published January 1, 2006.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Perl"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/books/advanced-perl-programming/</id>
     <link href="https://codingkata.tardate.com/books/advanced-perl-programming/"/>

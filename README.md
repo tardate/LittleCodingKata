@@ -1,6 +1,6 @@
-# 448 Little Coding Katas
+# 449 Little Coding Katas
 
-> Latest addition :sparkles: [Advanced Perl Programming](./books/advanced-perl-programming) - Book notes - Advanced Perl Programming: The Worlds Most Highly Developed Perl Tutorial, Second Edition by Simon Cozens. First published January 1, 2005.
+> Latest addition :sparkles: [Perl Hacks](./books/perl-hacks) - Book notes - Perl Hacks: Tips & Tools for Programming, Debugging, and Surviving by Shane Warden, Damian Conway, Curtis 'Ovid' Poe. First published January 1, 2006.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

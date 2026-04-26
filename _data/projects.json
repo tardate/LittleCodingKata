@@ -1,4 +1,13 @@
 {
+    "/books/perl-hacks/": {
+        "id": 449,
+        "title": "Perl Hacks",
+        "summary": "Book notes - Perl Hacks: Tips & Tools for Programming, Debugging, and Surviving by Shane Warden, Damian Conway, Curtis 'Ovid' Poe. First published January 1, 2006.",
+        "tags": [
+            "Books",
+            "Perl"
+        ]
+    },
     "/books/advanced-perl-programming/": {
         "id": 448,
         "title": "Advanced Perl Programming",
