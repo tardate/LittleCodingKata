@@ -1,0 +1,20 @@
+# In the hopes of saving some typing time, this is the sub from page 22
+# (or so) in chapter 3 of the Alpaca book, ready for you to use in the
+# second exercise at the end of the chapter.
+
+sub check_required_items {
+    my $who = shift;
+    my $items = shift;
+    my @required = qw(preserver sunscreen water_bottle jacket);
+    my @missing = ();
+    for my $item (@required) {
+	unless (grep $item eq $_, @$items) {	# not found in list?
+	    print "$who is missing $item.\n";
+	    push @missing, $item;
+	}
+    }
+    if (@missing) {
+	print "Adding @missing to @$items for $who.\n";
+	push @$items, @missing;
+    }
+}

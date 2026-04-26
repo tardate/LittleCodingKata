@@ -1,4 +1,13 @@
 {
+    "/books/learning-perl-objects-references-and-modules/": {
+        "id": 450,
+        "title": "Learning Perl Objects, References, and Modules",
+        "summary": "Book notes - Learning Perl Objects, References, and Modules by Randal L. Schwartz, Tom Phoenix. First published June 9, 2003.",
+        "tags": [
+            "Books",
+            "Perl"
+        ]
+    },
     "/books/perl-hacks/": {
         "id": 449,
         "title": "Perl Hacks",

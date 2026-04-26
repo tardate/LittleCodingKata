@@ -1,6 +1,6 @@
-# 449 Little Coding Katas
+# 450 Little Coding Katas
 
-> Latest addition :sparkles: [Perl Hacks](./books/perl-hacks) - Book notes - Perl Hacks: Tips & Tools for Programming, Debugging, and Surviving by Shane Warden, Damian Conway, Curtis 'Ovid' Poe. First published January 1, 2006.
+> Latest addition :sparkles: [Learning Perl Objects, References, and Modules](./books/learning-perl-objects-references-and-modules) - Book notes - Learning Perl Objects, References, and Modules by Randal L. Schwartz, Tom Phoenix. First published June 9, 2003.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
