@@ -1,5 +1,35 @@
 [
     {
+        "name": "Learning Perl Objects, References, and Modules",
+        "description": "Book notes - Learning Perl Objects, References, and Modules by Randal L. Schwartz, Tom Phoenix. First published June 9, 2003.",
+        "categories": "Books, Perl",
+        "relative_path": "books/learning-perl-objects-references-and-modules",
+        "updated_at": "2026-04-26T07:13:00Z",
+        "created_at": "2026-04-26T07:13:00Z",
+        "id": "#450",
+        "original_relative_path": "books/learning-perl-objects-references-and-modules"
+    },
+    {
+        "name": "Perl Hacks",
+        "description": "Book notes - Perl Hacks: Tips & Tools for Programming, Debugging, and Surviving by Shane Warden, Damian Conway, Curtis 'Ovid' Poe. First published January 1, 2006.",
+        "categories": "Books, Perl",
+        "relative_path": "books/perl-hacks",
+        "updated_at": "2026-04-26T07:05:00Z",
+        "created_at": "2026-04-26T07:05:00Z",
+        "id": "#449",
+        "original_relative_path": "books/perl-hacks"
+    },
+    {
+        "name": "Advanced Perl Programming",
+        "description": "Book notes - Advanced Perl Programming: The Worlds Most Highly Developed Perl Tutorial, Second Edition by Simon Cozens. First published January 1, 2005.",
+        "categories": "Books, Perl",
+        "relative_path": "books/advanced-perl-programming",
+        "updated_at": "2026-04-26T06:50:00Z",
+        "created_at": "2026-04-26T06:50:00Z",
+        "id": "#448",
+        "original_relative_path": "books/advanced-perl-programming"
+    },
+    {
         "name": "maxPatternCopies",
         "description": "Using Perl to make patterns from a string; cassidoo's interview question of the week (2026-04-20).",
         "categories": "Perl, cassidoo",

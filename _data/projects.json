@@ -1,4 +1,31 @@
 {
+    "/books/learning-perl-objects-references-and-modules/": {
+        "id": 450,
+        "title": "Learning Perl Objects, References, and Modules",
+        "summary": "Book notes - Learning Perl Objects, References, and Modules by Randal L. Schwartz, Tom Phoenix. First published June 9, 2003.",
+        "tags": [
+            "Books",
+            "Perl"
+        ]
+    },
+    "/books/perl-hacks/": {
+        "id": 449,
+        "title": "Perl Hacks",
+        "summary": "Book notes - Perl Hacks: Tips & Tools for Programming, Debugging, and Surviving by Shane Warden, Damian Conway, Curtis 'Ovid' Poe. First published January 1, 2006.",
+        "tags": [
+            "Books",
+            "Perl"
+        ]
+    },
+    "/books/advanced-perl-programming/": {
+        "id": 448,
+        "title": "Advanced Perl Programming",
+        "summary": "Book notes - Advanced Perl Programming: The Worlds Most Highly Developed Perl Tutorial, Second Edition by Simon Cozens. First published January 1, 2005.",
+        "tags": [
+            "Books",
+            "Perl"
+        ]
+    },
     "/perl/max-pattern-copies/": {
         "id": 447,
         "title": "maxPatternCopies",
