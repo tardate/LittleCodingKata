@@ -1,5 +1,15 @@
 [
     {
+        "name": "Advanced Perl Programming",
+        "description": "Book notes - Advanced Perl Programming: The Worlds Most Highly Developed Perl Tutorial, Second Edition by Simon Cozens. First published January 1, 2005.",
+        "categories": "Books, Perl",
+        "relative_path": "books/advanced-perl-programming",
+        "updated_at": "2026-04-26T06:50:00Z",
+        "created_at": "2026-04-26T06:50:00Z",
+        "id": "#448",
+        "original_relative_path": "books/advanced-perl-programming"
+    },
+    {
         "name": "maxPatternCopies",
         "description": "Using Perl to make patterns from a string; cassidoo's interview question of the week (2026-04-20).",
         "categories": "Perl, cassidoo",

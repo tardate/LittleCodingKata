@@ -1,6 +1,6 @@
-# 447 Little Coding Katas
+# 448 Little Coding Katas
 
-> Latest addition :sparkles: [maxPatternCopies](./perl/max-pattern-copies) - Using Perl to make patterns from a string; cassidoo's interview question of the week (2026-04-20).
+> Latest addition :sparkles: [Advanced Perl Programming](./books/advanced-perl-programming) - Book notes - Advanced Perl Programming: The Worlds Most Highly Developed Perl Tutorial, Second Edition by Simon Cozens. First published January 1, 2005.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

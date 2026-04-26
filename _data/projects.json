@@ -1,4 +1,13 @@
 {
+    "/books/advanced-perl-programming/": {
+        "id": 448,
+        "title": "Advanced Perl Programming",
+        "summary": "Book notes - Advanced Perl Programming: The Worlds Most Highly Developed Perl Tutorial, Second Edition by Simon Cozens. First published January 1, 2005.",
+        "tags": [
+            "Books",
+            "Perl"
+        ]
+    },
     "/perl/max-pattern-copies/": {
         "id": 447,
         "title": "maxPatternCopies",
