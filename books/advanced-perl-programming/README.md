@@ -62,7 +62,7 @@ git clone https://resources.oreilly.com/examples/9781565922204 example_source_1s
 
 ### Second Edition Source Code
 
-I con't find the examples online. Maybe they are available is one has an O'Reilly membership.
+I can't find the examples online. Maybe they are available is one has an O'Reilly membership.
 
 ## Credits and References
 
