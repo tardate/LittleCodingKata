@@ -229,9 +229,55 @@ cluck at ./carp-cluck-b.pl line 7.
         main::a() called at ./carp-cluck-b.pl line 14
 ```
 
+## Testing Carp Behaviour
+
+How to test carp behaviour?
+Let's demonstrate using [Test::Warn](https://metacpan.org/pod/Test::Warn), installed as follows:
+
+```sh
+cpan Test::Warn
+```
+
+Tests are demonstrated with [carping.t](carping.t):
+
+```perl
+use Test::More 'no_plan';
+use Test::Warn;
+use Carp;
+
+sub add_positives
+{
+  my ( $l, $r ) = @_;
+  carp "first argument ($l) was negative"  if $l < 0;
+  carp "second argument ($r) was negative" if $r < 0;
+  croak "second argument was zero" if $r == 0;
+  return $l + $r;
+}
+
+warning_like { is( add_positives( 8, -3 ), 5 ) } qr/negative/;
+
+warnings_like { is( add_positives( -8, -3 ), -11 ) }
+  [ qr/first.*negative/, qr/second.*negative/ ];
+
+eval { add_positives( 8, 0 ) };
+ok( $@, 'second argument was zero' ) ;
+```
+
+Test results:
+
+```sh
+$ prove carping.t
+carping.t .. ok
+All tests successful.
+Files=1, Tests=5,  0 wallclock secs ( 0.00 usr  0.00 sys +  0.01 cusr  0.00 csys =  0.01 CPU)
+Result: PASS
+```
+
 ## Credits and References
 
 * <https://perldoc.perl.org/Carp>
 * <https://github.com/Perl/perl5/blob/blead/dist/Carp/lib/Carp.pm>
+* <https://metacpan.org/pod/Test::Warn>
+* <https://github.com/hanfried/test-warn>
 * ["Should I use carp/croak or warn/die"](https://www.perlmonks.org/?node_id=1215465)
 * ["Carping About DBI" (via archive.org)](https://web.archive.org/web/20171014032430/http://www.devshed.com/c/a/Perl/Carping-About-DBI/)
