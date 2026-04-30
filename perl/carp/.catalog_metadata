@@ -1,0 +1,6 @@
+{
+    "name": "Carp",
+    "description": "About using the Carp module for error handling in Perl",
+    "categories": "Perl",
+    "relative_path": "perl/carp"
+}
