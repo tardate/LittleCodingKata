@@ -2,5 +2,8 @@
     "name": "Carp",
     "description": "About using the Carp module for error handling in Perl",
     "categories": "Perl",
-    "relative_path": "perl/carp"
+    "relative_path": "perl/carp",
+    "updated_at": "2026-04-30T14:26:00Z",
+    "created_at": "2026-04-30T14:26:00Z",
+    "id": "#451"
 }

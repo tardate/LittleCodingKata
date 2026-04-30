@@ -1,4 +1,12 @@
 {
+    "/perl/carp/": {
+        "id": 451,
+        "title": "Carp",
+        "summary": "About using the Carp module for error handling in Perl",
+        "tags": [
+            "Perl"
+        ]
+    },
     "/books/learning-perl-objects-references-and-modules/": {
         "id": 450,
         "title": "Learning Perl Objects, References, and Modules",

@@ -1,6 +1,6 @@
-# 450 Little Coding Katas
+# 451 Little Coding Katas
 
-> Latest addition :sparkles: [Learning Perl Objects, References, and Modules](./books/learning-perl-objects-references-and-modules) - Book notes - Learning Perl Objects, References, and Modules by Randal L. Schwartz, Tom Phoenix. First published June 9, 2003.
+> Latest addition :sparkles: [Carp](./perl/carp) - About using the Carp module for error handling in Perl
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
