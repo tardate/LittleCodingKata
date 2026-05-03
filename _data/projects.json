@@ -1,4 +1,13 @@
 {
+    "/ruby/min-repairs/": {
+        "id": 452,
+        "title": "minRepairs",
+        "summary": "Using Ruby to make minimum repairs to a broken array; cassidoo's interview question of the week (2026-04-27).",
+        "tags": [
+            "Ruby",
+            "cassidoo"
+        ]
+    },
     "/perl/carp/": {
         "id": 451,
         "title": "Carp",

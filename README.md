@@ -1,6 +1,6 @@
-# 451 Little Coding Katas
+# 452 Little Coding Katas
 
-> Latest addition :sparkles: [Carp](./perl/carp) - About using the Carp module for error handling in Perl
+> Latest addition :sparkles: [minRepairs](./ruby/min-repairs) - Using Ruby to make minimum repairs to a broken array; cassidoo's interview question of the week (2026-04-27).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
