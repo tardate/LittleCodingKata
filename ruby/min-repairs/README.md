@@ -257,6 +257,28 @@ if __FILE__ == $PROGRAM_NAME
 end
 ```
 
+### Additional Test Cases
+
+I picked up some additional test cases from [fpsvogel](https://www.rubyforum.org/t/cassidoo-s-interview-question-of-the-week-454/297/2),
+
+The current algorithm is not smart enough to handle all of these cases yet, in particular cases which are largely arrays made of broken tiles.
+I've added the test cases, but marked the failing ones as skipped for now:
+
+```sh
+$ ./test_examples.rb
+Run options: --seed 11743
+
+# Running:
+
+..S.SSS
+
+Finished in 0.000677s, 10339.7341 runs/s, 4431.3146 assertions/s.
+
+7 runs, 3 assertions, 0 failures, 0 errors, 4 skips
+
+You have skipped tests. Run with --verbose for details.
+```
+
 ## Credits and References
 
 * [cassidoo's interview question of the week (2026-04-27)](https://buttondown.com/cassidoo/archive/u1f57a-there-is-power-in-being-robbed-still/)
