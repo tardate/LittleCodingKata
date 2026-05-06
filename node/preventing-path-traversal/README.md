@@ -1,4 +1,4 @@
-# #xxx Preventing Path Traversal
+# #453 Preventing Path Traversal
 
 Examining the path traversal vulnerability in Node.js and demonstrating mitigations.
 

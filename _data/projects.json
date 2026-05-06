@@ -1,4 +1,13 @@
 {
+    "/node/preventing-path-traversal/": {
+        "id": 453,
+        "title": "Preventing Path Traversal",
+        "summary": "Examining the path traversal vulnerability in Node.js and demonstrating mitigations.",
+        "tags": [
+            "node",
+            "security"
+        ]
+    },
     "/ruby/min-repairs/": {
         "id": 452,
         "title": "minRepairs",
