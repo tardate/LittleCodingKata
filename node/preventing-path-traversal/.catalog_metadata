@@ -1,0 +1,6 @@
+{
+    "name": "Preventing Path Traversal",
+    "description": "Examining the path traversal vulnerability in Node.js and demonstrating mitigations.",
+    "categories": "node, security",
+    "relative_path": "node/preventing-path-traversal"
+}
