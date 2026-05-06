@@ -1,6 +1,6 @@
-# 452 Little Coding Katas
+# 453 Little Coding Katas
 
-> Latest addition :sparkles: [minRepairs](./ruby/min-repairs) - Using Ruby to make minimum repairs to a broken array; cassidoo's interview question of the week (2026-04-27).
+> Latest addition :sparkles: [Preventing Path Traversal](./node/preventing-path-traversal) - Examining the path traversal vulnerability in Node.js and demonstrating mitigations.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

@@ -17,6 +17,7 @@ Uses the following npm modules:
 
 ```bash
 $ npm install
+...
 ```
 
 ### Example
