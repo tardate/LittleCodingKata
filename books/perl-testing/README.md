@@ -26,15 +26,16 @@ From the book description:
 
 ### Contents
 
-1. Beginning Testing
-2. Writing Tests
-3. Managing Tests
-4. Distributing Your Tests (and Code)
-5. Testing Untestable Code
-6. Testing Databases
-7. Testing Web Sites
-8. Unit Testing with Test:: Class
-9. Testing Everything Else
+* 1: Beginning Testing
+    * See: [LCK#454 Test::Simple](../../perl/test-simple/)
+* 2: Writing Tests
+* 3: Managing Tests
+* 4: Distributing Your Tests (and Code)
+* 5: Testing Untestable Code
+* 6: Testing Databases
+* 7: Testing Web Sites
+* 8: Unit Testing with Test:: Class
+* 9: Testing Everything Else
 
 ### Source Code
 

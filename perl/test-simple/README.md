@@ -7,7 +7,7 @@ The basics of Perl testing with the Test::Simple module.
 The Perl [Test::Simple](https://perldoc.perl.org/Test::Simple)
 module is an extremely simple, extremely basic module for writing tests for Perl projects and modules.
 
-See also: [Perl Testing](../../books/perl-testing/) - Chapter 1. Beginning Testing.
+See also: [Perl Testing](../../books/perl-testing/) - Chapter 1: Beginning Testing.
 
 Module installation:
 
@@ -84,4 +84,4 @@ Result: PASS
 ## Credits and References
 
 * <https://perldoc.perl.org/Test::Simple>
-* [Perl Testing](../../books/perl-testing/) - Chapter 1. Beginning Testing
+* [Perl Testing](../../books/perl-testing/) - Chapter 1 - Beginning Testing
