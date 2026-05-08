@@ -21,15 +21,15 @@ The [interview question of the week (2026-05-04)](https://buttondown.com/cassido
 ### Thinking about the Problem
 
 Key to understanding the problem is realizing that ["subsequence" has a very specific mathematical meaning](https://en.wikipedia.org/wiki/Subsequence),
-and is [distinct from a subaarray or subset](https://www.geeksforgeeks.org/dsa/array-subarray-subsequence-and-subset/).
+and is [distinct from a subarray or subset](https://www.geeksforgeeks.org/dsa/array-subarray-subsequence-and-subset/).
 
 Specifically a subsequence:
 
 > is derived from a given sequence by deleting 0 or more elements without changing the order of the remaining elements.
 
-I got this wrong on my first attempt, and assumed we're dealing about sub-arrays.
+I got this wrong on my first attempt: looking for a subarray instead of subsequence.
 
-### A first approach
+### A Solution
 
 Using perl on macOS for this: `perl 5, version 42, subversion 2 (v5.42.2) built for darwin-thread-multi-2level`.
 
@@ -47,7 +47,6 @@ sub gcd {
 
 Then a first take on the `longestCoprimeSubsequence` function
 simply works though the array, keeping track of the co-primes found.
-We don't need to calculate all possible subsequences
 
 ```perl
 sub longestCoprimeSubsequence {
@@ -64,7 +63,7 @@ sub longestCoprimeSubsequence {
 }
 ```
 
-We get the expected results when run interactively:
+This appears to be good enough to get the expected results for the examples provided:
 
 ```sh
 $ ./challenge.pl "6, 12, 4, 8"
