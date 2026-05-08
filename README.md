@@ -1,6 +1,6 @@
-# 454 Little Coding Katas
+# 455 Little Coding Katas
 
-> Latest addition :sparkles: [Test::Simple](./perl/test-simple) - The basics of Perl testing with the Test::Simple module.
+> Latest addition :sparkles: [longestCoprimeSubsequence](./perl/longest-coprime-subsequence) - Using Perl to calculate longest coprime subsequences; cassidoo's interview question of the week (2026-05-04).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

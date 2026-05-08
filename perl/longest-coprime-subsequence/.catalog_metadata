@@ -2,5 +2,8 @@
     "name": "longestCoprimeSubsequence",
     "description": "Using Perl to calculate longest coprime subsequences; cassidoo's interview question of the week (2026-05-04).",
     "categories": "Perl, cassidoo",
-    "relative_path": "perl/longest-coprime-subsequence"
+    "relative_path": "perl/longest-coprime-subsequence",
+    "updated_at": "2026-05-08T06:08:00Z",
+    "created_at": "2026-05-08T06:08:00Z",
+    "id": "#455"
 }
