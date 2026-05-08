@@ -1,6 +1,6 @@
 # #455 longestCoprimeSubsequence
 
-Using Perl to calculate longest coprime subsequences; cassidoo's interview question of the week (2026-05-04).
+Using Perl to calculate longest coprime subsequence; cassidoo's interview question of the week (2026-05-04).
 
 ## Notes
 
@@ -20,19 +20,14 @@ The [interview question of the week (2026-05-04)](https://buttondown.com/cassido
 
 ### Thinking about the Problem
 
-My understanding of the question is that is asking:
+Key to understanding the problem is realizing that ["subsequence" has a very specific mathematical meaning](https://en.wikipedia.org/wiki/Subsequence),
+and is [distinct from a subaarray or subset](https://www.geeksforgeeks.org/dsa/array-subarray-subsequence-and-subset/).
 
-* check every adjacent pair of elements to be tested if they are coprime (GCD==1)
-* find the longest chain of coprime pairs
+Specifically a subsequence:
 
-i.e. we can't reorder the array to put co-primes together, or ignore non-coprime elements
+> is derived from a given sequence by deleting 0 or more elements without changing the order of the remaining elements.
 
-Given that understanding, the second example appears to be incorrect: the `longestCoprimeSubsequence([4, 3, 6, 9, 7, 2])`
-should be the sequence [9, 7, 2] i.e. 3, not 4.
-To get the illustrated answer `[4, 3, 7, 2], where gcd(4,3)=1, gcd(3,7)=1, gcd(7,2)=1`,
-then the sequence should be something like `longestCoprimeSubsequence([4, 3, 7, 2, 6, 9])` instead.
-
-I will proceed on that assumption.
+I got this wrong on my first attempt, and assumed we're dealing about sub-arrays.
 
 ### A first approach
 
@@ -50,26 +45,22 @@ sub gcd {
 }
 ```
 
-Then a first take on the `longestCoprimeSubsequence` function just brute forces the GCD calculation for all pairs in the list,
-and keeps track of the longest coprime list found.
+Then a first take on the `longestCoprimeSubsequence` function
+simply works though the array, keeping track of the co-primes found.
+We don't need to calculate all possible subsequences
 
 ```perl
 sub longestCoprimeSubsequence {
   my @numbers = @_;
-  my $result = 0;
   my @coprime_numbers;
   my $prev_num = shift @numbers;
   for my $num (@numbers) {
     if (gcd($prev_num, $num) == 1) {
-      push @coprime_numbers, $prev_num
-    } else {
-      $result = scalar @coprime_numbers if scalar @coprime_numbers > $result;
-      @coprime_numbers = ();
+      push @coprime_numbers, $prev_num;
+      $prev_num = $num;
     }
-    $prev_num = $num;
   }
-  $result = scalar @coprime_numbers if scalar @coprime_numbers > $result;
-  return $result + 1;
+  return scalar @coprime_numbers + 1;
 }
 ```
 
@@ -78,10 +69,8 @@ We get the expected results when run interactively:
 ```sh
 $ ./challenge.pl "6, 12, 4, 8"
 1
-$ ./challenge.pl "4, 3, 7, 2, 6, 9"
-4
 $ ./challenge.pl "4, 3, 6, 9, 7, 2"
-3
+4
 ```
 
 ### Final Code
@@ -104,20 +93,15 @@ sub gcd {
 
 sub longestCoprimeSubsequence {
   my @numbers = @_;
-  my $result = 0;
   my @coprime_numbers;
   my $prev_num = shift @numbers;
   for my $num (@numbers) {
     if (gcd($prev_num, $num) == 1) {
-      push @coprime_numbers, $prev_num
-    } else {
-      $result = scalar @coprime_numbers if scalar @coprime_numbers > $result;
-      @coprime_numbers = ();
+      push @coprime_numbers, $prev_num;
+      $prev_num = $num;
     }
-    $prev_num = $num;
   }
-  $result = scalar @coprime_numbers if scalar @coprime_numbers > $result;
-  return $result + 1;
+  return scalar @coprime_numbers + 1;
 }
 
 if (!caller()) {
@@ -153,14 +137,16 @@ ok 8 - gcd output should be sane
 ok 9 - no coprime numbers
 ok 10 - should find sequence of 4 coprime numbers (4, 3, 7, 2)
 ok 11 - should find sequence of 4 coprime numbers (4, 3, 7, 2)
-ok 12 - should find sequence of 3 coprime numbers (9, 7, 2)
+ok 12 - should find sequence of 5 coprime numbers (4, 3, 7, 2, 9)
 1..12
 ok
 All tests successful.
-Files=1, Tests=12,  0 wallclock secs ( 0.00 usr  0.00 sys +  0.01 cusr  0.00 csys =  0.01 CPU)
+Files=1, Tests=12,  0 wallclock secs ( 0.00 usr  0.01 sys +  0.01 cusr  0.00 csys =  0.02 CPU)
 Result: PASS
 ```
 
 ## Credits and References
 
 * [cassidoo's interview question of the week (2026-05-04)](https://buttondown.com/cassidoo/archive/u1fa96-focus-on-things-that-are-small-enough-to/)
+* <https://en.wikipedia.org/wiki/Subsequence>
+* <https://www.geeksforgeeks.org/dsa/array-subarray-subsequence-and-subset/>

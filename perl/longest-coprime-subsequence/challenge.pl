@@ -13,20 +13,15 @@ sub gcd {
 
 sub longestCoprimeSubsequence {
   my @numbers = @_;
-  my $result = 0;
   my @coprime_numbers;
   my $prev_num = shift @numbers;
   for my $num (@numbers) {
     if (gcd($prev_num, $num) == 1) {
-      push @coprime_numbers, $prev_num
-    } else {
-      $result = scalar @coprime_numbers if scalar @coprime_numbers > $result;
-      @coprime_numbers = ();
+      push @coprime_numbers, $prev_num;
+      $prev_num = $num;
     }
-    $prev_num = $num;
   }
-  $result = scalar @coprime_numbers if scalar @coprime_numbers > $result;
-  return $result + 1;
+  return scalar @coprime_numbers + 1;
 }
 
 if (!caller()) {
