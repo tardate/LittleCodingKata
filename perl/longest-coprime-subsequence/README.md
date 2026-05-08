@@ -25,12 +25,12 @@ My understanding of the question is that is asking:
 * check every adjacent pair of elements to be tested if they are coprime (GCD==1)
 * find the longest chain of coprime pairs
 
-i.e. we can't reorder the array to put coprimes together, or ignore non-coprime elements
+i.e. we can't reorder the array to put co-primes together, or ignore non-coprime elements
 
 Given that understanding, the second example appears to be incorrect: the `longestCoprimeSubsequence([4, 3, 6, 9, 7, 2])`
 should be the sequence [9, 7, 2] i.e. 3, not 4.
 To get the illustrated answer `[4, 3, 7, 2], where gcd(4,3)=1, gcd(3,7)=1, gcd(7,2)=1`,
-then the sequence should be `longestCoprimeSubsequence([4, 3, 7, 2, 6, 9])` instead.
+then the sequence should be something like `longestCoprimeSubsequence([4, 3, 7, 2, 6, 9])` instead.
 
 I will proceed on that assumption.
 
