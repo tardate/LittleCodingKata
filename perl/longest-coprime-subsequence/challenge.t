@@ -19,5 +19,5 @@ ok( gcd(18, 12) == 6, 'gcd output should be sane' );
 
 ok( longestCoprimeSubsequence(6, 12, 4, 8) == 1, 'no coprime numbers' );
 ok( longestCoprimeSubsequence(4, 3, 7, 2) == 4, 'should find sequence of 4 coprime numbers (4, 3, 7, 2)' );
-ok( longestCoprimeSubsequence(4, 3, 7, 2, 6, 9) == 4, 'should find sequence of 4 coprime numbers (4, 3, 7, 2)' );
-ok( longestCoprimeSubsequence(4, 3, 6, 9, 7, 2) == 3, 'should find sequence of 3 coprime numbers (9, 7, 2)' );
+ok( longestCoprimeSubsequence(4, 3, 6, 9, 7, 2) == 4, 'should find sequence of 4 coprime numbers (4, 3, 7, 2)' );
+ok( longestCoprimeSubsequence(4, 3, 7, 2, 6, 9) == 5, 'should find sequence of 5 coprime numbers (4, 3, 7, 2, 9)' );
