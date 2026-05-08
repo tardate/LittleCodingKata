@@ -36,9 +36,9 @@ I will proceed on that assumption.
 
 ### A first approach
 
-Using perl for this: `perl 5, version 42, subversion 2 (v5.42.2) built for darwin-thread-multi-2level`.
+Using perl on macOS for this: `perl 5, version 42, subversion 2 (v5.42.2) built for darwin-thread-multi-2level`.
 
-We first need a GCD function, easily done:
+We first need a GCD function; easily done:
 
 ```perl
 sub gcd {
@@ -50,7 +50,7 @@ sub gcd {
 }
 ```
 
-Then a fist take on the `longestCoprimeSubsequence` function just brute forces the GCD calculation for all pairs in the list,
+Then a first take on the `longestCoprimeSubsequence` function just brute forces the GCD calculation for all pairs in the list,
 and keeps track of the longest coprime list found.
 
 ```perl
