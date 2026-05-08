@@ -1,4 +1,4 @@
-# #xxx Test::Simple
+# #454 Test::Simple
 
 The basics of Perl testing with the Test::Simple module.
 

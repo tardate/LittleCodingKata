@@ -1,6 +1,6 @@
-# 453 Little Coding Katas
+# 454 Little Coding Katas
 
-> Latest addition :sparkles: [Preventing Path Traversal](./node/preventing-path-traversal) - Examining the path traversal vulnerability in Node.js and demonstrating mitigations.
+> Latest addition :sparkles: [Test::Simple](./perl/test-simple) - The basics of Perl testing with the Test::Simple module.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

@@ -2,5 +2,8 @@
     "name": "Test::Simple",
     "description": "The basics of Perl testing with the Test::Simple module.",
     "categories": "Perl",
-    "relative_path": "perl/test-simple"
+    "relative_path": "perl/test-simple",
+    "updated_at": "2026-05-08T04:04:00Z",
+    "created_at": "2026-05-08T04:04:00Z",
+    "id": "#454"
 }
