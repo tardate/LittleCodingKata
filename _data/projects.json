@@ -1,4 +1,12 @@
 {
+    "/perl/test-simple/": {
+        "id": 454,
+        "title": "Test::Simple",
+        "summary": "The basics of Perl testing with the Test::Simple module.",
+        "tags": [
+            "Perl"
+        ]
+    },
     "/node/preventing-path-traversal/": {
         "id": 453,
         "title": "Preventing Path Traversal",
