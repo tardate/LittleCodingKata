@@ -1,0 +1,6 @@
+{
+    "name": "Test::Simple",
+    "description": "The basics of Perl testing with the Test::Simple module.",
+    "categories": "Perl",
+    "relative_path": "perl/test-simple"
+}
