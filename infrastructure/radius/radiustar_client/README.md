@@ -162,7 +162,7 @@ The abbreviated FreeRADIUS log of the interaction:
 
 ### radiustar Issues and Fixes
 
-#### Fix `2`: Gem dependencies
+#### Fix 1: Gem dependencies
 
 Running on Ruby 3.4.8 with latest gems, the `ipaddr_extensions` gem has a "silent" dependency on `scanf` that must also be installed.
 
@@ -201,7 +201,7 @@ module Radiustar
 end
 ```
 
-## Fix 2: Packet Encoding
+#### Fix 3: Packet Encoding
 
 Out of the box, radiustar was failing with attribute data overflow errors reported on the FreeRADIUS server e.g.:
 
@@ -249,7 +249,7 @@ module Radiustar
 end
 ```
 
-## Fix 3: Message Authentication
+#### Fix 4: Message Authentication
 
 Out of the box, radiustar was not adding a valid message authenticator to the auth request.
 
