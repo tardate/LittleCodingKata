@@ -346,6 +346,7 @@ The patches I've tried here might be the first step to revamping radiustar, but 
 See [simple_auth.rb](./simple_auth.rb):
 
 ```ruby
+#!/usr/bin/env ruby
 require 'radiustar'
 require 'digest'
 require 'openssl'
@@ -355,14 +356,14 @@ require './patch-packet-encoding.rb'
 require './patch-message-authentication.rb'
 
 class SimpleAuth
-  attr_accessor :username, :password, :secret
-  attr_accessor :dict, :nas_ip, :local_ip
+  attr_accessor :username, :password, :secret, :nas_ip
+  attr_accessor :dict, :local_ip
 
-  def initialize(username, password, secret)
+  def initialize(username, password, secret, nas_ip = nil)
     self.username = username
     self.password = password
     self.secret = secret
-    self.nas_ip = '127.0.0.1'
+    self.nas_ip = nas_ip || '127.0.0.1'
     self.local_ip = '127.0.0.1'
     load_dictionaries
   end
@@ -410,11 +411,8 @@ class SimpleAuth
 end
 
 if __FILE__==$PROGRAM_NAME
-  (puts "Usage: ruby #{$0} (username) (password) (secret)"; exit) unless ARGV.length > 2
-  username = ARGV[0]
-  password = ARGV[1]
-  secret = ARGV[2]
-  client = SimpleAuth.new(username, password, secret)
+  (puts "Usage: ruby #{$0} (username) (password) (secret) [nas-ip - default 127.0.0.1]"; exit) unless ARGV.length > 2
+  client = SimpleAuth.new(*ARGV)
   client.auth
 end
 ```
