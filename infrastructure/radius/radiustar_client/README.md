@@ -386,6 +386,7 @@ class SimpleAuth
   end
 
   def demo_accounting(auth_reply)
+    # TODO: radiustar accounting methods are not working correctly (yet)
     return unless auth_reply[:code] == 'Access-Accept'
 
     req = Radiustar::Request.new(nas_ip + ':1813', { :dict => dict })
@@ -398,15 +399,15 @@ class SimpleAuth
     }
 
     timings = Time.now
-    reply = req.accounting_start('bob', 'testing123', '123456', acct_custom_attr)
+    reply = req.accounting_start(username, password, secret, acct_custom_attr)
 
     sleep(rand 5)
     acct_custom_attr['Acct-Session-Time'] = Time.now - timings
-    reply = req.accounting_update('bob', 'testing123', '123456', acct_custom_attr)
+    reply = req.accounting_update(username, password, secret, acct_custom_attr)
 
     sleep(rand 5)
     acct_custom_attr['Acct-Session-Time'] = Time.now - timings
-    reply = req.accounting_stop('bob', 'testing123', '123456', acct_custom_attr)
+    reply = req.accounting_stop(username, password, secret, acct_custom_attr)
   end
 end
 
