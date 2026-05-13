@@ -1,0 +1,9 @@
+{
+    "name": "radiustar RADIUS Client",
+    "description": "Testing the radiustar ruby gem, one of the few RADIUS client libraries. Finding bugs and patching it to get at least basic authentication working with FreeRADIUS server.",
+    "categories": "RADIUS, macOS, Ruby",
+    "relative_path": "infrastructure/radius/radiustar_client",
+    "updated_at": "2026-05-13T13:45:00Z",
+    "created_at": "2026-05-13T13:45:00Z",
+    "id": "#456"
+}

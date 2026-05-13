@@ -1,5 +1,15 @@
 [
     {
+        "name": "radiustar RADIUS Client",
+        "description": "Testing the radiustar ruby gem, one of the few RADIUS client libraries. Finding bugs and patching it to get at least basic authentication working with FreeRADIUS server.",
+        "categories": "RADIUS, macOS, Ruby",
+        "relative_path": "infrastructure/radius/radiustar_client",
+        "updated_at": "2026-05-13T13:45:00Z",
+        "created_at": "2026-05-13T13:45:00Z",
+        "id": "#456",
+        "original_relative_path": "infrastructure/radius/radiustar_client"
+    },
+    {
         "name": "longestCoprimeSubsequence",
         "description": "Using Perl to calculate longest coprime subsequence; cassidoo's interview question of the week (2026-05-04).",
         "categories": "Perl, cassidoo",
