@@ -1,4 +1,14 @@
 {
+    "/infrastructure/radius/radiustar_client/": {
+        "id": 456,
+        "title": "radiustar RADIUS Client",
+        "summary": "Testing the radiustar ruby gem, one of the few RADIUS client libraries. Finding bugs and patching it to get at least basic authentication working with FreeRADIUS server.",
+        "tags": [
+            "RADIUS",
+            "macOS",
+            "Ruby"
+        ]
+    },
     "/perl/longest-coprime-subsequence/": {
         "id": 455,
         "title": "longestCoprimeSubsequence",

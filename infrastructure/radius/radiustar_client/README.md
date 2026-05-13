@@ -1,4 +1,4 @@
-# #xxx radiustar RADIUS Client
+# #456 radiustar RADIUS Client
 
 Testing the radiustar ruby gem, one of the few RADIUS client libraries. Finding bugs and patching it to get at least basic authentication working with FreeRADIUS server.
 

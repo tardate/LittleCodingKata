@@ -1,6 +1,6 @@
-# 455 Little Coding Katas
+# 456 Little Coding Katas
 
-> Latest addition :sparkles: [longestCoprimeSubsequence](./perl/longest-coprime-subsequence) - Using Perl to calculate longest coprime subsequence; cassidoo's interview question of the week (2026-05-04).
+> Latest addition :sparkles: [radiustar RADIUS Client](./infrastructure/radius/radiustar_client) - Testing the radiustar ruby gem, one of the few RADIUS client libraries. Finding bugs and patching it to get at least basic authentication working with FreeRADIUS server.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
