@@ -15,7 +15,7 @@ I'm posting my notes for completeness. This library is **NOT** recommended for u
 
 ### FreeRADIUS Server
 
-I'm testing radiustar agains a docker-hosted version of FreeRADIUS Server:
+I'm testing radiustar against a docker-hosted version of FreeRADIUS Server:
 
 ```sh
 $ docker ps
@@ -281,7 +281,7 @@ There are a few issues here:
 
 * radiustar does not implement support for octets attribute type used by `Message-Authenticator`. Fixed by monkey-patching `Radiustar::Packet::Attribute#pack_attribute`.
 * radiustar does not provide a way of adding the `Message-Authenticator`. Fixed by monkey-patching `Radiustar::Packet#gen_auth_authenticator`.
-* radiustar does not provide a way of correctly calculating the `Message-Authenticator` valud. Fixed by monkey-patching `Radiustar::Packet#pack`.
+* radiustar does not provide a way of correctly calculating the `Message-Authenticator` value. Fixed by monkey-patching `Radiustar::Packet#pack`.
 
 The patch is loaded from [patch-message-authentication.rb](./patch-message-authentication.rb):
 
