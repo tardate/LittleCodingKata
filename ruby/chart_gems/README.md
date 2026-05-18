@@ -44,7 +44,7 @@ hosted on [Google Code](https://code.google.com/archive/p/gchartrb/).
 
 It has not been maintained since 2008, but it does still work. It generates HTTP requests, but the Google Image Charts API automatically redirects these to be handled over HTTPS.
 
-A simple [example.rb](./using_gchartrb/example.rb) generates graphs like this:
+A simple [example.rb](./using_gchartrb/examples.rb) generates graphs like this:
 
 ![line_chart](./using_gchartrb/line_chart.png?raw=true)
 
