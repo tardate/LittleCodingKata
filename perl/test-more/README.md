@@ -118,7 +118,7 @@ Result: FAIL
 
 ### Testing Warnings
 
-[Test::Warn](https://metacpan.org/pod/Test::Warn)
+Use the [Test::Warn](https://metacpan.org/pod/Test::Warn)
 extension to test methods for warnings.
 
 Installation:
@@ -218,10 +218,10 @@ Result: PASS
 
 * <https://en.wikipedia.org/wiki/Test::More>
 * <https://perldoc.perl.org/Test::More>
-
-* ["Moving over to Test::More"](https://perlmaven.com/moving-over-to-test-more)
+* [Test::Warn](https://metacpan.org/pod/Test::Warn)
 * [Test::Exception](https://metacpan.org/pod/Test::Exception)
 * [Exception::Class](https://metacpan.org/pod/Exception::Class)
+* ["Moving over to Test::More"](https://perlmaven.com/moving-over-to-test-more)
 * ["Testing for exceptions with Test::More"](https://perlmonks.org/?node_id=921333)
 * [Perl Testing](../../books/perl-testing/) - Chapter 2 - Writing Tests
 * [LCK#454 Test::Simple](../test-simple/)
