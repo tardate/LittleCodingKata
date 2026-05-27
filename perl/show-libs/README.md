@@ -1,4 +1,4 @@
-# #xxx Show Perl Libraries
+# #457 Show Perl Libraries
 
 All about how Perl finds library files, and a simple script to report on include paths and installed modules.
 

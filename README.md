@@ -1,6 +1,6 @@
-# 456 Little Coding Katas
+# 457 Little Coding Katas
 
-> Latest addition :sparkles: [radiustar RADIUS Client](./infrastructure/radius/radiustar_client) - Testing the radiustar ruby gem, one of the few RADIUS client libraries. Finding bugs and patching it to get at least basic authentication working with FreeRADIUS server.
+> Latest addition :sparkles: [Show Perl Libraries](./perl/show-libs) - All about how Perl finds library files, and a simple script to report on include paths and installed modules.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
