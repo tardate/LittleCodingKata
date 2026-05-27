@@ -1,4 +1,12 @@
 {
+    "/perl/test-more/": {
+        "id": 458,
+        "title": "Test::More",
+        "summary": "The basics of Perl testing with the Test::More module.",
+        "tags": [
+            "Perl"
+        ]
+    },
     "/perl/show-libs/": {
         "id": 457,
         "title": "Show Perl Libraries",

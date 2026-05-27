@@ -1,6 +1,6 @@
-# 457 Little Coding Katas
+# 458 Little Coding Katas
 
-> Latest addition :sparkles: [Show Perl Libraries](./perl/show-libs) - All about how Perl finds library files, and a simple script to report on include paths and installed modules.
+> Latest addition :sparkles: [Test::More](./perl/test-more) - The basics of Perl testing with the Test::More module.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
