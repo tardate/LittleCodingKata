@@ -1,4 +1,12 @@
 {
+    "/perl/show-libs/": {
+        "id": 457,
+        "title": "Show Perl Libraries",
+        "summary": "All about how Perl finds library files, and a simple script to report on include paths and installed modules.",
+        "tags": [
+            "Perl"
+        ]
+    },
     "/infrastructure/radius/radiustar_client/": {
         "id": 456,
         "title": "radiustar RADIUS Client",

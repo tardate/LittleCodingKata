@@ -98,6 +98,13 @@ This is perl 5, version 42, subversion 2 (v5.42.2) built for darwin-thread-multi
 
 The brew version of Perl will be used as long as `/opt/homebrew/bin` is prefixed to the `PATH` environment variable.
 
+Note: to ensure executable scripts invoke the correct perl version, the shebang line must be correct.
+
+* `#!/usr/bin/perl` - will invoke the system Perl
+* `#!/usr/bin/env perl` - will invoke the brew version of Perl
+
+### Installing Modules
+
 Using [cpan](https://metacpan.org/pod/cpan) to install modules from [CPAN](https://www.cpan.org/):
 
 ```sh
