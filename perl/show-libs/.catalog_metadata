@@ -1,0 +1,6 @@
+{
+    "name": "Show Perl Libraries",
+    "description": "All about how Perl finds library files, and a simple script to report on include paths and installed modules.",
+    "categories": "Perl",
+    "relative_path": "perl/show-libs"
+}
