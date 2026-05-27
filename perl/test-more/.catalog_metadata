@@ -1,0 +1,6 @@
+{
+    "name": "Test::More",
+    "description": "The basics of Perl testing with the Test::More module.",
+    "categories": "Perl",
+    "relative_path": "perl/test-more"
+}
