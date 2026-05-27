@@ -29,6 +29,7 @@ From the book description:
 * 1: Beginning Testing
     * See: [LCK#454 Test::Simple](../../perl/test-simple/)
 * 2: Writing Tests
+    * See: [LCK#458 Test::More](../../perl/test-more/)
 * 3: Managing Tests
 * 4: Distributing Your Tests (and Code)
 * 5: Testing Untestable Code
