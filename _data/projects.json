@@ -1,10 +1,11 @@
 {
     "/perl/shuffle-line/": {
         "id": 459,
-        "title": "shuffle-line",
-        "summary": "",
+        "title": "shuffleLine",
+        "summary": "Using Perl to move every nth customer to the end of the queue; cassidoo's interview question of the week (2026-05-25).",
         "tags": [
-            ""
+            "Perl",
+            "cassidoo"
         ]
     },
     "/perl/test-more/": {

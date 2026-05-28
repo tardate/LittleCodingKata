@@ -1,7 +1,7 @@
 {
-    "name": "shuffle-line",
-    "description": "",
-    "categories": "",
+    "name": "shuffleLine",
+    "description": "Using Perl to move every nth customer to the end of the queue; cassidoo's interview question of the week (2026-05-25).",
+    "categories": "Perl, cassidoo",
     "relative_path": "perl/shuffle-line",
     "updated_at": "2026-05-28T04:39:00Z",
     "created_at": "2026-05-28T04:39:00Z",
