@@ -1,0 +1,6 @@
+{
+    "name": "packSuitcases",
+    "description": "Using Perl to pack suitcases; cassidoo's interview question of the week (2026-06-01).",
+    "categories": "Perl, cassidoo",
+    "relative_path": "perl/pack-suitcases"
+}
