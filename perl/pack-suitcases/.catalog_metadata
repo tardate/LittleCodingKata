@@ -2,5 +2,8 @@
     "name": "packSuitcases",
     "description": "Using Perl to pack suitcases; cassidoo's interview question of the week (2026-06-01).",
     "categories": "Perl, cassidoo",
-    "relative_path": "perl/pack-suitcases"
+    "relative_path": "perl/pack-suitcases",
+    "updated_at": "2026-06-07T23:23:00Z",
+    "created_at": "2026-06-07T23:23:00Z",
+    "id": "#460"
 }

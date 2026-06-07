@@ -1,4 +1,4 @@
-# #xxx packSuitcases
+# #460 packSuitcases
 
 Using Perl to pack suitcases; cassidoo's interview question of the week (2026-06-01).
 

@@ -1,4 +1,13 @@
 {
+    "/perl/pack-suitcases/": {
+        "id": 460,
+        "title": "packSuitcases",
+        "summary": "Using Perl to pack suitcases; cassidoo's interview question of the week (2026-06-01).",
+        "tags": [
+            "Perl",
+            "cassidoo"
+        ]
+    },
     "/perl/shuffle-line/": {
         "id": 459,
         "title": "shuffleLine",
