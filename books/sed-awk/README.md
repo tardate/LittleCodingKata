@@ -118,4 +118,4 @@ git clone https://resources.oreilly.com/examples/9781565922259/ example_source
     * [amazon](https://amzn.to/4uybk7S)
     * [goodreads](https://www.goodreads.com/book/show/354484.sed_awk)
     * [O'Reilly](https://www.oreilly.com/library/view/sed-awk/1565922255/)
-    * [example source](https://resources.oreilly.com/examples/9781565922259//)
+    * [example source](https://resources.oreilly.com/examples/9781565922259/)
