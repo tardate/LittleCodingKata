@@ -1,5 +1,15 @@
 [
     {
+        "name": "sed & awk",
+        "description": "Book notes - sed & awk 2nd Edition, by Dale Dougherty, Arnold Robbins. First published November 8, 1990.",
+        "categories": "Books, awk, sed",
+        "relative_path": "books/sed-awk",
+        "updated_at": "2026-06-14T09:37:00Z",
+        "created_at": "2026-06-14T09:37:00Z",
+        "id": "#461",
+        "original_relative_path": "books/sed-awk"
+    },
+    {
         "name": "packSuitcases",
         "description": "Using Perl to pack suitcases; cassidoo's interview question of the week (2026-06-01).",
         "categories": "Perl, cassidoo",

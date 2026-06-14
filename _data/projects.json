@@ -1,4 +1,14 @@
 {
+    "/books/sed-awk/": {
+        "id": 461,
+        "title": "sed & awk",
+        "summary": "Book notes - sed & awk 2nd Edition, by Dale Dougherty, Arnold Robbins. First published November 8, 1990.",
+        "tags": [
+            "Books",
+            "awk",
+            "sed"
+        ]
+    },
     "/perl/pack-suitcases/": {
         "id": 460,
         "title": "packSuitcases",
