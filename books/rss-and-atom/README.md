@@ -121,5 +121,5 @@ git clone https://resources.oreilly.com/examples/9781904811572/ example_source
 * RSS and Atom: Understanding and Implementing Content Feeds and Syndication
     * [amazon](https://amzn.to/4cMe6RP)
     * [goodreads](https://www.goodreads.com/book/show/926313.Rss_and_Atom)
-    * [O'Reilly](http://shop.oreilly.com/product/9781904811572.do)
+    * [O'Reilly](https://www.oreilly.com/library/view/developing-feeds-with/0596008813/)
     * [example source](https://resources.oreilly.com/examples/9781904811572/)

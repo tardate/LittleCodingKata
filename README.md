@@ -1,6 +1,6 @@
-# 460 Little Coding Katas
+# 462 Little Coding Katas
 
-> Latest addition :sparkles: [packSuitcases](./perl/pack-suitcases) - Using Perl to pack suitcases; cassidoo's interview question of the week (2026-06-01).
+> Latest addition :sparkles: [Unix Power Tools](./books/unix-power-tools) - Book notes - Unix Power Tools, by Shelley Powers, Jerry Peek, Tim O'Reilly, Mike Loukides. First published January 1, 1993.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

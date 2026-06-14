@@ -7,12 +7,32 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-06-07T23:23:00Z</updated>
+  <updated>2026-06-14T09:53:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/books/unix-power-tools/</id>
+    <link href="https://codingkata.tardate.com/books/unix-power-tools/"/>
+    <updated>2026-06-14T09:53:00Z</updated>
+    <title>#462 Unix Power Tools</title>
+    <summary>Book notes - Unix Power Tools, by Shelley Powers, Jerry Peek, Tim O'Reilly, Mike Loukides. First published January 1, 1993.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Unix Power Tools, by Shelley Powers, Jerry Peek, Tim O'Reilly, Mike Loukides. First published January 1, 1993.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/books/sed-awk/</id>
+    <link href="https://codingkata.tardate.com/books/sed-awk/"/>
+    <updated>2026-06-14T09:37:00Z</updated>
+    <title>#461 sed &amp; awk</title>
+    <summary>Book notes - sed &amp; awk 2nd Edition, by Dale Dougherty, Arnold Robbins. First published November 8, 1990.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - sed &amp;amp; awk 2nd Edition, by Dale Dougherty, Arnold Robbins. First published November 8, 1990.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="awk"/>
+    <category term="sed"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/perl/pack-suitcases/</id>
     <link href="https://codingkata.tardate.com/perl/pack-suitcases/"/>
