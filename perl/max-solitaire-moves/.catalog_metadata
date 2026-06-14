@@ -1,0 +1,6 @@
+{
+    "name": "maxSolitaireMoves",
+    "description": "Using Perl to play solitaire; cassidoo's interview question of the week (2026-06-08).",
+    "categories": "Perl, cassidoo",
+    "relative_path": "perl/max-solitaire-moves"
+}
