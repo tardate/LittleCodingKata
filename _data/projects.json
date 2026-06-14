@@ -1,4 +1,12 @@
 {
+    "/books/unix-power-tools/": {
+        "id": 462,
+        "title": "Unix Power Tools",
+        "summary": "Book notes - Unix Power Tools, by Shelley Powers, Jerry Peek, Tim O'Reilly, Mike Loukides. First published January 1, 1993.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/sed-awk/": {
         "id": 461,
         "title": "sed & awk",
