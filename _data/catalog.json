@@ -3263,11 +3263,11 @@
         "name": "CSS Cookbook",
         "description": "Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, published by O'Reilly",
         "categories": "CSS, Books",
-        "relative_path": "web/css_cookbook",
+        "relative_path": "books/css-cookbook",
         "updated_at": "2020-03-08T19:38:18Z",
         "id": "#138",
         "created_at": "2020-03-08T19:38:18Z",
-        "original_relative_path": "web/css_cookbook"
+        "original_relative_path": "books/css-cookbook"
     },
     {
         "name": "Cross-browser X Library",
