@@ -3598,8 +3598,8 @@
     <category term="Books"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/ruby/rails_antipatterns/</id>
-    <link href="https://codingkata.tardate.com/ruby/rails_antipatterns/"/>
+    <id>https://codingkata.tardate.com/books/rails-antipatterns/</id>
+    <link href="https://codingkata.tardate.com/books/rails-antipatterns/"/>
     <updated>2020-01-25T16:27:01Z</updated>
     <title>#098 Rails AntiPatterns</title>
     <summary>Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional</summary>
