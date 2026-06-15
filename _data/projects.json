@@ -3002,7 +3002,7 @@
             "bash"
         ]
     },
-    "/docker/docker_cookbook-packt/": {
+    "/books/docker-cookbook-packt/": {
         "id": 121,
         "title": "Docker Cookbook (Packt)",
         "summary": "Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt",
