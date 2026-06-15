@@ -2025,8 +2025,8 @@
     <category term="Books"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/python/lightweightdjango/</id>
-    <link href="https://codingkata.tardate.com/python/lightweightdjango/"/>
+    <id>https://codingkata.tardate.com/books/lightweight-django/</id>
+    <link href="https://codingkata.tardate.com/books/lightweight-django/"/>
     <updated>2023-05-02T10:08:56Z</updated>
     <title>#258 Lightweight Django</title>
     <summary>Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly</summary>

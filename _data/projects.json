@@ -1803,7 +1803,7 @@
             "Books"
         ]
     },
-    "/python/lightweightdjango/": {
+    "/books/lightweight-django/": {
         "id": 258,
         "title": "Lightweight Django",
         "summary": "Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly",
