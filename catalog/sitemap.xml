@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://codingkata.tardate.com/books/python-testing-cookbook/</loc>
+  </url>
+  <url>
     <loc>https://codingkata.tardate.com/perl/max-solitaire-moves/</loc>
   </url>
   <url>
@@ -265,7 +268,7 @@
     <loc>https://codingkata.tardate.com/ruby/singleton/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/ruby/design-patterns-in-ruby/</loc>
+    <loc>https://codingkata.tardate.com/books/design-patterns-in-ruby/</loc>
   </url>
   <url>
     <loc>https://codingkata.tardate.com/design/design-patterns/</loc>
@@ -340,7 +343,7 @@
     <loc>https://codingkata.tardate.com/rexx/the-developers-best-friend/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/ruby/the-ruby-way/</loc>
+    <loc>https://codingkata.tardate.com/books/the-ruby-way/</loc>
   </url>
   <url>
     <loc>https://codingkata.tardate.com/ruby/file-operations/</loc>
@@ -421,10 +424,10 @@
     <loc>https://codingkata.tardate.com/rust/cli-catsay/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/rust/practical-rust-projects/</loc>
+    <loc>https://codingkata.tardate.com/books/practical-rust-projects/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/python/practical-cryptography-in-python/</loc>
+    <loc>https://codingkata.tardate.com/books/practical-cryptography-in-python/</loc>
   </url>
   <url>
     <loc>https://codingkata.tardate.com/security/rowhammer/</loc>
@@ -469,7 +472,7 @@
     <loc>https://codingkata.tardate.com/python/chatgpt/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/tools/git/pro_git/</loc>
+    <loc>https://codingkata.tardate.com/books/pro-git/</loc>
   </url>
   <url>
     <loc>https://codingkata.tardate.com/tools/git/rebase_all/</loc>
@@ -535,7 +538,7 @@
     <loc>https://codingkata.tardate.com/tools/lldp/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/python/think_python/</loc>
+    <loc>https://codingkata.tardate.com/books/think-python/</loc>
   </url>
   <url>
     <loc>https://codingkata.tardate.com/web/nqe/</loc>
@@ -613,10 +616,10 @@
     <loc>https://codingkata.tardate.com/bash/parameter_substitution/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/python/flaskwebdevelopment/</loc>
+    <loc>https://codingkata.tardate.com/books/flask-web-development/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/python/lightweightdjango/</loc>
+    <loc>https://codingkata.tardate.com/books/lightweight-django/</loc>
   </url>
   <url>
     <loc>https://codingkata.tardate.com/web/cookieconsent/</loc>
@@ -673,7 +676,7 @@
     <loc>https://codingkata.tardate.com/ruby/ipv4/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/python/pythonplayground/</loc>
+    <loc>https://codingkata.tardate.com/books/python-playground/</loc>
   </url>
   <url>
     <loc>https://codingkata.tardate.com/web/favicons/</loc>
@@ -853,7 +856,7 @@
     <loc>https://codingkata.tardate.com/bash/indirect_references/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/bash/bash_reference_manual/</loc>
+    <loc>https://codingkata.tardate.com/books/bash-reference-manual/</loc>
   </url>
   <url>
     <loc>https://codingkata.tardate.com/docker/whalesay/</loc>
@@ -886,7 +889,7 @@
     <loc>https://codingkata.tardate.com/cpp/string_find/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/cpp/hands_on_system_programming_with_cpp/</loc>
+    <loc>https://codingkata.tardate.com/books/hands-on-system-programming-with-cpp/</loc>
   </url>
   <url>
     <loc>https://codingkata.tardate.com/web/browser_connection_management/</loc>
@@ -928,10 +931,10 @@
     <loc>https://codingkata.tardate.com/python/pyenv/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/ruby/modern_front_end_development_for_rails/</loc>
+    <loc>https://codingkata.tardate.com/books/modern-front-end-development-for-rails/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/docker/docker-for-rails-developers/</loc>
+    <loc>https://codingkata.tardate.com/books/docker-for-rails-developers/</loc>
   </url>
   <url>
     <loc>https://codingkata.tardate.com/ruby/trumpeter_skin/</loc>
@@ -958,7 +961,7 @@
     <loc>https://codingkata.tardate.com/c/printf_partial_string/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/databases/redis/redis_cookbook/</loc>
+    <loc>https://codingkata.tardate.com/books/redis-cookbook/</loc>
   </url>
   <url>
     <loc>https://codingkata.tardate.com/ruby/console_tables/</loc>
@@ -976,7 +979,7 @@
     <loc>https://codingkata.tardate.com/web/line_continuations/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/web/css_cookbook/</loc>
+    <loc>https://codingkata.tardate.com/books/css-cookbook/</loc>
   </url>
   <url>
     <loc>https://codingkata.tardate.com/javascript/cbx/</loc>
@@ -1021,28 +1024,28 @@
     <loc>https://codingkata.tardate.com/pascal/about/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/infrastructure/linux_server_hacks/</loc>
+    <loc>https://codingkata.tardate.com/books/linux-server-hacks/</loc>
   </url>
   <url>
     <loc>https://codingkata.tardate.com/bash/finding_files/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/docker/docker_cookbook-packt/</loc>
+    <loc>https://codingkata.tardate.com/books/docker-cookbook-packt/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/c/21st_century_c/</loc>
+    <loc>https://codingkata.tardate.com/books/21st-century-c/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/c/practical_c_programming/</loc>
+    <loc>https://codingkata.tardate.com/books/practical-c-programming/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/rust/rust_programming_language/</loc>
+    <loc>https://codingkata.tardate.com/books/rust-programming-language/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/elixir/programming_elixir/</loc>
+    <loc>https://codingkata.tardate.com/books/programming-elixir/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/docker/docker_cookbook-oreilly/</loc>
+    <loc>https://codingkata.tardate.com/books/docker-cookbook-oreilly/</loc>
   </url>
   <url>
     <loc>https://codingkata.tardate.com/messaging/zeromq/c/request_reply/</loc>
@@ -1051,7 +1054,7 @@
     <loc>https://codingkata.tardate.com/javascript/rickshaw/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/infrastructure/zabbix/mastering_zabbix/</loc>
+    <loc>https://codingkata.tardate.com/books/mastering-zabbix/</loc>
   </url>
   <url>
     <loc>https://codingkata.tardate.com/infrastructure/zabbix/ruby-clients/</loc>
@@ -1063,7 +1066,7 @@
     <loc>https://codingkata.tardate.com/infrastructure/zabbix/about/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/messaging/zeromq/zeromq-book/</loc>
+    <loc>https://codingkata.tardate.com/books/zeromq/</loc>
   </url>
   <url>
     <loc>https://codingkata.tardate.com/messaging/zeromq/about/</loc>
@@ -1096,13 +1099,13 @@
     <loc>https://codingkata.tardate.com/design/programming_interactivity/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/ruby/rails_antipatterns/</loc>
+    <loc>https://codingkata.tardate.com/books/rails-antipatterns/</loc>
   </url>
   <url>
     <loc>https://codingkata.tardate.com/security/metasploit/dockerized/</loc>
   </url>
   <url>
-    <loc>https://codingkata.tardate.com/security/metasploit_penetration_testing_cookbook/</loc>
+    <loc>https://codingkata.tardate.com/books/metasploit-penetration-testing-cookbook/</loc>
   </url>
   <url>
     <loc>https://codingkata.tardate.com/c/pointers/</loc>

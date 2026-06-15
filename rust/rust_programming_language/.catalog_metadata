@@ -1,9 +1,0 @@
-{
-    "name": "The Rust Programming Language",
-    "description": "Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research",
-    "categories": "Rust, Books",
-    "relative_path": "rust/rust_programming_language",
-    "updated_at": "2020-02-06T15:39:18Z",
-    "id": "#118",
-    "created_at": "2020-02-06T15:39:18Z"
-}

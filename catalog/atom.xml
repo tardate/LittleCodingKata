@@ -7,12 +7,22 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-06-15T02:56:00Z</updated>
+  <updated>2026-06-15T04:24:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/books/python-testing-cookbook/</id>
+    <link href="https://codingkata.tardate.com/books/python-testing-cookbook/"/>
+    <updated>2026-06-15T04:24:00Z</updated>
+    <title>#464 Python Testing Cookbook</title>
+    <summary>Book notes - Python Testing Cookbook, by Greg L. Turnquist. First published May 14, 2011.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Python Testing Cookbook, by Greg L. Turnquist. First published May 14, 2011.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="python"/>
+    <category term="Books"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/perl/max-solitaire-moves/</id>
     <link href="https://codingkata.tardate.com/perl/max-solitaire-moves/"/>
@@ -888,8 +898,8 @@
     <category term="design patterns"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/ruby/design-patterns-in-ruby/</id>
-    <link href="https://codingkata.tardate.com/ruby/design-patterns-in-ruby/"/>
+    <id>https://codingkata.tardate.com/books/design-patterns-in-ruby/</id>
+    <link href="https://codingkata.tardate.com/books/design-patterns-in-ruby/"/>
     <updated>2025-10-22T13:55:00Z</updated>
     <title>#375 Design Patterns in Ruby</title>
     <summary>Book notes - Design Patterns in Ruby by Russ Olsen</summary>
@@ -1127,8 +1137,8 @@
     <category term="OS/2"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/ruby/the-ruby-way/</id>
-    <link href="https://codingkata.tardate.com/ruby/the-ruby-way/"/>
+    <id>https://codingkata.tardate.com/books/the-ruby-way/</id>
+    <link href="https://codingkata.tardate.com/books/the-ruby-way/"/>
     <updated>2025-08-27T08:21:00Z</updated>
     <title>#350 The Ruby Way</title>
     <summary>Book notes - The Ruby Way, by Hal Fulton. First published January 1, 2001.</summary>
@@ -1388,8 +1398,8 @@
     <category term="Rust"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/rust/practical-rust-projects/</id>
-    <link href="https://codingkata.tardate.com/rust/practical-rust-projects/"/>
+    <id>https://codingkata.tardate.com/books/practical-rust-projects/</id>
+    <link href="https://codingkata.tardate.com/books/practical-rust-projects/"/>
     <updated>2025-04-13T14:19:00Z</updated>
     <title>#323 Practical Rust Projects</title>
     <summary>Book notes: Practical Rust Projects: Building Game, Physical Computing, and Machine Learning Applications, by Shing Lyu. Published February 28, 2020.</summary>
@@ -1398,13 +1408,13 @@
     <category term="Books"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/python/practical-cryptography-in-python/</id>
-    <link href="https://codingkata.tardate.com/python/practical-cryptography-in-python/"/>
-    <g:image_link>https://codingkata.tardate.com/python/practical-cryptography-in-python/assets/practical-cryptography-in-python_build.jpg</g:image_link>
+    <id>https://codingkata.tardate.com/books/practical-cryptography-in-python/</id>
+    <link href="https://codingkata.tardate.com/books/practical-cryptography-in-python/"/>
+    <g:image_link>https://codingkata.tardate.com/books/practical-cryptography-in-python/assets/practical-cryptography-in-python_build.jpg</g:image_link>
     <updated>2025-03-31T15:02:00Z</updated>
     <title>#322 Practical Cryptography in Python</title>
     <summary>Book notes: Practical Cryptography in Python: Learning Correct Cryptography by Example, by Seth James Nielso,  Christopher K. Monson. Published September 27, 2019.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Practical Cryptography in Python: Learning Correct Cryptography by Example, by Seth James Nielso,  Christopher K. Monson. Published September 27, 2019.&lt;/p&gt;&lt;img src="https://codingkata.tardate.com/python/practical-cryptography-in-python/assets/practical-cryptography-in-python_build.jpg" /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Practical Cryptography in Python: Learning Correct Cryptography by Example, by Seth James Nielso,  Christopher K. Monson. Published September 27, 2019.&lt;/p&gt;&lt;img src="https://codingkata.tardate.com/books/practical-cryptography-in-python/assets/practical-cryptography-in-python_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
     <category term="python"/>
     <category term="cryptography"/>
@@ -1554,8 +1564,8 @@
     <category term="AI"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/tools/git/pro_git/</id>
-    <link href="https://codingkata.tardate.com/tools/git/pro_git/"/>
+    <id>https://codingkata.tardate.com/books/pro-git/</id>
+    <link href="https://codingkata.tardate.com/books/pro-git/"/>
     <updated>2024-11-05T02:18:00Z</updated>
     <title>#307 Pro Git</title>
     <summary>About Pro Git - the essential guide for mastering Git by Scott Chacon and Ben Straub.</summary>
@@ -1765,8 +1775,8 @@
     <category term="tools"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/python/think_python/</id>
-    <link href="https://codingkata.tardate.com/python/think_python/"/>
+    <id>https://codingkata.tardate.com/books/think-python/</id>
+    <link href="https://codingkata.tardate.com/books/think-python/"/>
     <updated>2024-03-21T16:44:15Z</updated>
     <title>#285 Think Python</title>
     <summary>Book notes - Think Python, 2nd edition, by Allen B. Downey, published by O'Reilly.</summary>
@@ -2006,8 +2016,8 @@
     <category term="bash"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/python/flaskwebdevelopment/</id>
-    <link href="https://codingkata.tardate.com/python/flaskwebdevelopment/"/>
+    <id>https://codingkata.tardate.com/books/flask-web-development/</id>
+    <link href="https://codingkata.tardate.com/books/flask-web-development/"/>
     <updated>2023-05-02T10:34:36Z</updated>
     <title>#259 Flask Web Development</title>
     <summary>Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly</summary>
@@ -2016,8 +2026,8 @@
     <category term="Books"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/python/lightweightdjango/</id>
-    <link href="https://codingkata.tardate.com/python/lightweightdjango/"/>
+    <id>https://codingkata.tardate.com/books/lightweight-django/</id>
+    <link href="https://codingkata.tardate.com/books/lightweight-django/"/>
     <updated>2023-05-02T10:08:56Z</updated>
     <title>#258 Lightweight Django</title>
     <summary>Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly</summary>
@@ -2196,8 +2206,8 @@
     <category term="Ruby"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/python/pythonplayground/</id>
-    <link href="https://codingkata.tardate.com/python/pythonplayground/"/>
+    <id>https://codingkata.tardate.com/books/python-playground/</id>
+    <link href="https://codingkata.tardate.com/books/python-playground/"/>
     <updated>2022-11-09T10:28:32Z</updated>
     <title>#239 Python Playground</title>
     <summary>Book notes - Python Playground, by Mahesh Venkitachalam, published by No Starch Press</summary>
@@ -2789,8 +2799,8 @@
     <category term="bash"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/bash/bash_reference_manual/</id>
-    <link href="https://codingkata.tardate.com/bash/bash_reference_manual/"/>
+    <id>https://codingkata.tardate.com/books/bash-reference-manual/</id>
+    <link href="https://codingkata.tardate.com/books/bash-reference-manual/"/>
     <updated>2021-05-30T09:23:28Z</updated>
     <title>#179 Bash Reference Manual</title>
     <summary>the GNU Bash Reference Manual</summary>
@@ -2890,8 +2900,8 @@
     <category term="C++"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/cpp/hands_on_system_programming_with_cpp/</id>
-    <link href="https://codingkata.tardate.com/cpp/hands_on_system_programming_with_cpp/"/>
+    <id>https://codingkata.tardate.com/books/hands-on-system-programming-with-cpp/</id>
+    <link href="https://codingkata.tardate.com/books/hands-on-system-programming-with-cpp/"/>
     <updated>2021-04-23T14:18:20Z</updated>
     <title>#168 Hands-On System Programming with C++</title>
     <summary>Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn</summary>
@@ -3024,8 +3034,8 @@
     <category term="python"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/ruby/modern_front_end_development_for_rails/</id>
-    <link href="https://codingkata.tardate.com/ruby/modern_front_end_development_for_rails/"/>
+    <id>https://codingkata.tardate.com/books/modern-front-end-development-for-rails/</id>
+    <link href="https://codingkata.tardate.com/books/modern-front-end-development-for-rails/"/>
     <updated>2020-12-09T07:19:12Z</updated>
     <title>#154 Modern Front-End Development for Rails</title>
     <summary>Book notes - Modern Front-End Development for Rails, By Noel Rappin, published by The Pragmatic Programmers</summary>
@@ -3036,8 +3046,8 @@
     <category term="Books"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/docker/docker-for-rails-developers/</id>
-    <link href="https://codingkata.tardate.com/docker/docker-for-rails-developers/"/>
+    <id>https://codingkata.tardate.com/books/docker-for-rails-developers/</id>
+    <link href="https://codingkata.tardate.com/books/docker-for-rails-developers/"/>
     <updated>2020-12-09T07:19:12Z</updated>
     <title>#153 Docker for Rails Developers</title>
     <summary>Book notes - Docker for Rails Developers, By Rob Isenberg, published by The Pragmatic Programmers</summary>
@@ -3123,8 +3133,8 @@
     <category term="C"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/databases/redis/redis_cookbook/</id>
-    <link href="https://codingkata.tardate.com/databases/redis/redis_cookbook/"/>
+    <id>https://codingkata.tardate.com/books/redis-cookbook/</id>
+    <link href="https://codingkata.tardate.com/books/redis-cookbook/"/>
     <updated>2020-03-22T01:38:00Z</updated>
     <title>#144 Redis Cookbook</title>
     <summary>Book notes - Redis Cookbook, By Tiago Macedo and Fred Oliveira, published by O'Reilly</summary>
@@ -3185,8 +3195,8 @@
     <category term="javascript"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/web/css_cookbook/</id>
-    <link href="https://codingkata.tardate.com/web/css_cookbook/"/>
+    <id>https://codingkata.tardate.com/books/css-cookbook/</id>
+    <link href="https://codingkata.tardate.com/books/css-cookbook/"/>
     <updated>2020-03-08T19:38:18Z</updated>
     <title>#138 CSS Cookbook</title>
     <summary>Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, published by O'Reilly</summary>
@@ -3332,8 +3342,8 @@
     <category term="Pascal"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/infrastructure/linux_server_hacks/</id>
-    <link href="https://codingkata.tardate.com/infrastructure/linux_server_hacks/"/>
+    <id>https://codingkata.tardate.com/books/linux-server-hacks/</id>
+    <link href="https://codingkata.tardate.com/books/linux-server-hacks/"/>
     <updated>2020-02-16T02:52:10Z</updated>
     <title>#123 Linux Server Hacks</title>
     <summary>Book notes - Linux Server Hacks by Rob Flickenger and Linux Server Hacks, Volume Two (Tips &amp; Tools for Connecting, Monitoring, and Troubleshooting) by William von Hagen and Brian K. Jones, published by O'Reilly</summary>
@@ -3352,8 +3362,8 @@
     <category term="bash"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/docker/docker_cookbook-packt/</id>
-    <link href="https://codingkata.tardate.com/docker/docker_cookbook-packt/"/>
+    <id>https://codingkata.tardate.com/books/docker-cookbook-packt/</id>
+    <link href="https://codingkata.tardate.com/books/docker-cookbook-packt/"/>
     <updated>2020-02-06T15:53:45Z</updated>
     <title>#121 Docker Cookbook (Packt)</title>
     <summary>Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt</summary>
@@ -3362,8 +3372,8 @@
     <category term="Books"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/c/21st_century_c/</id>
-    <link href="https://codingkata.tardate.com/c/21st_century_c/"/>
+    <id>https://codingkata.tardate.com/books/21st-century-c/</id>
+    <link href="https://codingkata.tardate.com/books/21st-century-c/"/>
     <updated>2020-02-06T15:39:18Z</updated>
     <title>#120 21st Century C</title>
     <summary>Book notes - '21st Century C' by Ben Klemens, published by O'Reilly</summary>
@@ -3372,8 +3382,8 @@
     <category term="Books"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/c/practical_c_programming/</id>
-    <link href="https://codingkata.tardate.com/c/practical_c_programming/"/>
+    <id>https://codingkata.tardate.com/books/practical-c-programming/</id>
+    <link href="https://codingkata.tardate.com/books/practical-c-programming/"/>
     <updated>2020-02-06T15:39:18Z</updated>
     <title>#119 Practical C Programming</title>
     <summary>Book notes - Practical C Programming, 3rd Edition by Steve Oualline, published by O'Reilly</summary>
@@ -3382,8 +3392,8 @@
     <category term="Books"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/rust/rust_programming_language/</id>
-    <link href="https://codingkata.tardate.com/rust/rust_programming_language/"/>
+    <id>https://codingkata.tardate.com/books/rust-programming-language/</id>
+    <link href="https://codingkata.tardate.com/books/rust-programming-language/"/>
     <updated>2020-02-06T15:39:18Z</updated>
     <title>#118 The Rust Programming Language</title>
     <summary>Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research</summary>
@@ -3392,8 +3402,8 @@
     <category term="Books"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/elixir/programming_elixir/</id>
-    <link href="https://codingkata.tardate.com/elixir/programming_elixir/"/>
+    <id>https://codingkata.tardate.com/books/programming-elixir/</id>
+    <link href="https://codingkata.tardate.com/books/programming-elixir/"/>
     <updated>2020-02-06T15:39:18Z</updated>
     <title>#117 Programming Elixir</title>
     <summary>Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf</summary>
@@ -3402,8 +3412,8 @@
     <category term="Books"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/docker/docker_cookbook-oreilly/</id>
-    <link href="https://codingkata.tardate.com/docker/docker_cookbook-oreilly/"/>
+    <id>https://codingkata.tardate.com/books/docker-cookbook-oreilly/</id>
+    <link href="https://codingkata.tardate.com/books/docker-cookbook-oreilly/"/>
     <updated>2020-02-06T15:39:18Z</updated>
     <title>#116 Docker Cookbook (O'Reilly)</title>
     <summary>Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly</summary>
@@ -3433,8 +3443,8 @@
     <category term="graphics"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/infrastructure/zabbix/mastering_zabbix/</id>
-    <link href="https://codingkata.tardate.com/infrastructure/zabbix/mastering_zabbix/"/>
+    <id>https://codingkata.tardate.com/books/mastering-zabbix/</id>
+    <link href="https://codingkata.tardate.com/books/mastering-zabbix/"/>
     <updated>2020-02-02T13:17:04Z</updated>
     <title>#113 Mastering Zabbix</title>
     <summary>Book notes - Mastering Zabbix by Andrea Dalle Vacche, Stefano Kewan Lee, published by PacktPub</summary>
@@ -3478,8 +3488,8 @@
     <category term="monitoring"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/messaging/zeromq/zeromq-book/</id>
-    <link href="https://codingkata.tardate.com/messaging/zeromq/zeromq-book/"/>
+    <id>https://codingkata.tardate.com/books/zeromq/</id>
+    <link href="https://codingkata.tardate.com/books/zeromq/"/>
     <updated>2020-02-01T09:01:43Z</updated>
     <title>#109 ZeroMQ (book)</title>
     <summary>Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly</summary>
@@ -3589,8 +3599,8 @@
     <category term="Books"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/ruby/rails_antipatterns/</id>
-    <link href="https://codingkata.tardate.com/ruby/rails_antipatterns/"/>
+    <id>https://codingkata.tardate.com/books/rails-antipatterns/</id>
+    <link href="https://codingkata.tardate.com/books/rails-antipatterns/"/>
     <updated>2020-01-25T16:27:01Z</updated>
     <title>#098 Rails AntiPatterns</title>
     <summary>Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional</summary>
@@ -3610,8 +3620,8 @@
     <category term="docker"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/security/metasploit_penetration_testing_cookbook/</id>
-    <link href="https://codingkata.tardate.com/security/metasploit_penetration_testing_cookbook/"/>
+    <id>https://codingkata.tardate.com/books/metasploit-penetration-testing-cookbook/</id>
+    <link href="https://codingkata.tardate.com/books/metasploit-penetration-testing-cookbook/"/>
     <updated>2020-01-22T15:49:07Z</updated>
     <title>#096 Metasploit Penetration Testing Cookbook</title>
     <summary>Book notes - Metasploit Penetration Testing Cookbook, Second Edition by Monika Agarwal, Abhinav Singh</summary>

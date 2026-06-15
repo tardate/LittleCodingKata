@@ -1,0 +1,9 @@
+{
+    "name": "Rails AntiPatterns",
+    "description": "Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional",
+    "categories": "Ruby, Rails, Books",
+    "relative_path": "books/rails-antipatterns",
+    "updated_at": "2020-01-25T16:27:01Z",
+    "id": "#098",
+    "created_at": "2020-01-25T16:27:01Z"
+}

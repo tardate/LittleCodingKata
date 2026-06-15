@@ -1,4 +1,13 @@
 {
+    "/books/python-testing-cookbook/": {
+        "id": 464,
+        "title": "Python Testing Cookbook",
+        "summary": "Book notes - Python Testing Cookbook, by Greg L. Turnquist. First published May 14, 2011.",
+        "tags": [
+            "python",
+            "Books"
+        ]
+    },
     "/perl/max-solitaire-moves/": {
         "id": 463,
         "title": "maxSolitaireMoves",
@@ -785,7 +794,7 @@
             "design patterns"
         ]
     },
-    "/ruby/design-patterns-in-ruby/": {
+    "/books/design-patterns-in-ruby/": {
         "id": 375,
         "title": "Design Patterns in Ruby",
         "summary": "Book notes - Design Patterns in Ruby by Russ Olsen",
@@ -999,7 +1008,7 @@
             "OS/2"
         ]
     },
-    "/ruby/the-ruby-way/": {
+    "/books/the-ruby-way/": {
         "id": 350,
         "title": "The Ruby Way",
         "summary": "Book notes - The Ruby Way, by Hal Fulton. First published January 1, 2001.",
@@ -1233,7 +1242,7 @@
             "Rust"
         ]
     },
-    "/rust/practical-rust-projects/": {
+    "/books/practical-rust-projects/": {
         "id": 323,
         "title": "Practical Rust Projects",
         "summary": "Book notes: Practical Rust Projects: Building Game, Physical Computing, and Machine Learning Applications, by Shing Lyu. Published February 28, 2020.",
@@ -1242,7 +1251,7 @@
             "Books"
         ]
     },
-    "/python/practical-cryptography-in-python/": {
+    "/books/practical-cryptography-in-python/": {
         "id": 322,
         "title": "Practical Cryptography in Python",
         "summary": "Book notes: Practical Cryptography in Python: Learning Correct Cryptography by Example, by Seth James Nielso,  Christopher K. Monson. Published September 27, 2019.",
@@ -1382,7 +1391,7 @@
             "AI"
         ]
     },
-    "/tools/git/pro_git/": {
+    "/books/pro-git/": {
         "id": 307,
         "title": "Pro Git",
         "summary": "About Pro Git - the essential guide for mastering Git by Scott Chacon and Ben Straub.",
@@ -1571,7 +1580,7 @@
             "tools"
         ]
     },
-    "/python/think_python/": {
+    "/books/think-python/": {
         "id": 285,
         "title": "Think Python",
         "summary": "Book notes - Think Python, 2nd edition, by Allen B. Downey, published by O'Reilly.",
@@ -1786,7 +1795,7 @@
             "bash"
         ]
     },
-    "/python/flaskwebdevelopment/": {
+    "/books/flask-web-development/": {
         "id": 259,
         "title": "Flask Web Development",
         "summary": "Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly",
@@ -1795,7 +1804,7 @@
             "Books"
         ]
     },
-    "/python/lightweightdjango/": {
+    "/books/lightweight-django/": {
         "id": 258,
         "title": "Lightweight Django",
         "summary": "Book notes - Lightweight Django, By Julia Elman, Mark Lavin, published by O'Reilly",
@@ -1956,7 +1965,7 @@
             "Ruby"
         ]
     },
-    "/python/pythonplayground/": {
+    "/books/python-playground/": {
         "id": 239,
         "title": "Python Playground",
         "summary": "Book notes - Python Playground, by Mahesh Venkitachalam, published by No Starch Press",
@@ -2489,7 +2498,7 @@
             "bash"
         ]
     },
-    "/bash/bash_reference_manual/": {
+    "/books/bash-reference-manual/": {
         "id": 179,
         "title": "Bash Reference Manual",
         "summary": "the GNU Bash Reference Manual",
@@ -2579,7 +2588,7 @@
             "C++"
         ]
     },
-    "/cpp/hands_on_system_programming_with_cpp/": {
+    "/books/hands-on-system-programming-with-cpp/": {
         "id": 168,
         "title": "Hands-On System Programming with C++",
         "summary": "Book notes - Hands-On System Programming with C++ by Dr. Rian Quinn",
@@ -2699,7 +2708,7 @@
             "python"
         ]
     },
-    "/ruby/modern_front_end_development_for_rails/": {
+    "/books/modern-front-end-development-for-rails/": {
         "id": 154,
         "title": "Modern Front-End Development for Rails",
         "summary": "Book notes - Modern Front-End Development for Rails, By Noel Rappin, published by The Pragmatic Programmers",
@@ -2710,7 +2719,7 @@
             "Books"
         ]
     },
-    "/docker/docker-for-rails-developers/": {
+    "/books/docker-for-rails-developers/": {
         "id": 153,
         "title": "Docker for Rails Developers",
         "summary": "Book notes - Docker for Rails Developers, By Rob Isenberg, published by The Pragmatic Programmers",
@@ -2788,7 +2797,7 @@
             "C"
         ]
     },
-    "/databases/redis/redis_cookbook/": {
+    "/books/redis-cookbook/": {
         "id": 144,
         "title": "Redis Cookbook",
         "summary": "Book notes - Redis Cookbook, By Tiago Macedo and Fred Oliveira, published by O'Reilly",
@@ -2844,7 +2853,7 @@
             "javascript"
         ]
     },
-    "/web/css_cookbook/": {
+    "/books/css-cookbook/": {
         "id": 138,
         "title": "CSS Cookbook",
         "summary": "Book notes - CSS Cookbook, 3rd Edition by Christopher Schmitt, published by O'Reilly",
@@ -2976,7 +2985,7 @@
             "Pascal"
         ]
     },
-    "/infrastructure/linux_server_hacks/": {
+    "/books/linux-server-hacks/": {
         "id": 123,
         "title": "Linux Server Hacks",
         "summary": "Book notes - Linux Server Hacks by Rob Flickenger and Linux Server Hacks, Volume Two (Tips & Tools for Connecting, Monitoring, and Troubleshooting) by William von Hagen and Brian K. Jones, published by O'Reilly",
@@ -2994,7 +3003,7 @@
             "bash"
         ]
     },
-    "/docker/docker_cookbook-packt/": {
+    "/books/docker-cookbook-packt/": {
         "id": 121,
         "title": "Docker Cookbook (Packt)",
         "summary": "Book notes - Docker Cookbook, 2nd Edition by Ken Cochrane, Jeeva S. Chelladhurai, Neependra K Khare, published by Packt",
@@ -3003,7 +3012,7 @@
             "Books"
         ]
     },
-    "/c/21st_century_c/": {
+    "/books/21st-century-c/": {
         "id": 120,
         "title": "21st Century C",
         "summary": "Book notes - '21st Century C' by Ben Klemens, published by O'Reilly",
@@ -3012,7 +3021,7 @@
             "Books"
         ]
     },
-    "/c/practical_c_programming/": {
+    "/books/practical-c-programming/": {
         "id": 119,
         "title": "Practical C Programming",
         "summary": "Book notes - Practical C Programming, 3rd Edition by Steve Oualline, published by O'Reilly",
@@ -3021,7 +3030,7 @@
             "Books"
         ]
     },
-    "/rust/rust_programming_language/": {
+    "/books/rust-programming-language/": {
         "id": 118,
         "title": "The Rust Programming Language",
         "summary": "Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research",
@@ -3030,7 +3039,7 @@
             "Books"
         ]
     },
-    "/elixir/programming_elixir/": {
+    "/books/programming-elixir/": {
         "id": 117,
         "title": "Programming Elixir",
         "summary": "Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf",
@@ -3039,7 +3048,7 @@
             "Books"
         ]
     },
-    "/docker/docker_cookbook-oreilly/": {
+    "/books/docker-cookbook-oreilly/": {
         "id": 116,
         "title": "Docker Cookbook (O'Reilly)",
         "summary": "Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly",
@@ -3067,7 +3076,7 @@
             "graphics"
         ]
     },
-    "/infrastructure/zabbix/mastering_zabbix/": {
+    "/books/mastering-zabbix/": {
         "id": 113,
         "title": "Mastering Zabbix",
         "summary": "Book notes - Mastering Zabbix by Andrea Dalle Vacche, Stefano Kewan Lee, published by PacktPub",
@@ -3108,7 +3117,7 @@
             "monitoring"
         ]
     },
-    "/messaging/zeromq/zeromq-book/": {
+    "/books/zeromq/": {
         "id": 109,
         "title": "ZeroMQ (book)",
         "summary": "Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly",
@@ -3208,7 +3217,7 @@
             "Books"
         ]
     },
-    "/ruby/rails_antipatterns/": {
+    "/books/rails-antipatterns/": {
         "id": 98,
         "title": "Rails AntiPatterns",
         "summary": "Book notes - Rails AntiPatterns by Chad Pytel and Tammer Saleh, published by Addison-Wesley Professional",
@@ -3227,7 +3236,7 @@
             "docker"
         ]
     },
-    "/security/metasploit_penetration_testing_cookbook/": {
+    "/books/metasploit-penetration-testing-cookbook/": {
         "id": 96,
         "title": "Metasploit Penetration Testing Cookbook",
         "summary": "Book notes - Metasploit Penetration Testing Cookbook, Second Edition by Monika Agarwal, Abhinav Singh",

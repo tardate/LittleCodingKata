@@ -82,7 +82,7 @@ exclude:
   - javascript/highcharts_with_bower/node_modules
   - messaging/grpc/explainer/node/node_modules
   - node/*/node_modules
-  - security/metasploit_penetration_testing_cookbook/metasploit-framework
+  - books/metasploit-penetration-testing-cookbook/metasploit-framework
   - staticweb/jekyll/myblog
   - staticweb/jekyll/gh*
   - staticweb/punch/testsite
