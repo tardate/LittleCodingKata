@@ -58,7 +58,7 @@ sub print_2d_array {
 
 # Main script
 if (@ARGV != 2) {
-  print "Usage: perl challenge.pl n k\n";
+  print STDERR "Usage: perl challenge.pl n k\n";
   exit 1;
 }
 

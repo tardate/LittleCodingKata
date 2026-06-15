@@ -59,13 +59,11 @@ In the absence of strong evidence to the contrary, I'll go with "standard solita
 ### Module installation
 
 I'm using Perl for this, and will be loading the card decks from JSON file, so first I'll install the [JSON](https://metacpan.org/pod/JSON) module.
-[Log::Log4perl](https://metacpan.org/pod/Log::Log4perl) is not really necessary, but is recommended to improve logging for JSON.
 
 ```sh
-$ cpan Log::Log4perl JSON
+$ cpan JSON
 Reading '/Users/paulgallagher/.cpan/Metadata'
   Database was generated on Sun, 14 Jun 2026 09:29:02 GMT
-Log::Log4perl is up to date (1.57).
 JSON is up to date (4.11).
 ```
 
@@ -120,6 +118,16 @@ $ ./challenge.pl cards2.json
 2
 ```
 
+Some code improvements:
+
+* use `$#$cards` instead of `scalar @$cards - 1`:
+    * `scalar @$cards` returns the number of elements in the array. Subtracting 1 is equivalent to the last element index
+    * `$#$cards` is a special syntax meaning the highest valid index of the array referenced by `$cards`
+* fix array dereferencing e.g. `@$cards[$i]->{rank}`
+    * this is actually returning a slice of one element - works, but not really what is intended
+    * old-style dereference `$$cards[$i]->{rank}` is more correct but now dated
+    * preferred modern syntax: `$cards->[$i]{rank}` or `$cards->[$i]->{rank}`
+
 ### Final Code
 
 See [challenge.pl](./challenge.pl) for the final code.
@@ -135,8 +143,8 @@ sub maxSolitaireMoves {
   my ($cards) = @_;
   my $moves = 0;
 
-  for (my $i = 0; $i < scalar @$cards - 1; $i++) {
-    if ((@$cards[$i]->{rank} == @$cards[$i + 1]->{rank} + 1) && (@$cards[$i]->{color} ne @$cards[$i + 1]->{color})) {
+  for (my $i = 0; $i < $#$cards; $i++) {
+    if (($cards->[$i]{rank} == $cards->[$i + 1]{rank} + 1) && ($cards->[$i]{color} ne $cards->[$i + 1]{color})) {
       $moves++;
     }
   }
@@ -145,7 +153,7 @@ sub maxSolitaireMoves {
 
 sub readJsonFile {
   my ($filename) = @_;
-  open my $fh, '<', $filename or die "Could not open file '$filename' $!";
+  open my $fh, '<:raw', $filename or die "Could not open file '$filename' $!";
   my $json_text = do { local $/; <$fh> };
   close $fh;
   return decode_json($json_text);
@@ -153,7 +161,7 @@ sub readJsonFile {
 
 if (!caller()) {
   if (@ARGV != 1) {
-    print "Usage: perl challenge.pl <cards-json-file-name>\n";
+    print STDERR "Usage: perl challenge.pl <cards-json-file-name>\n";
     exit 1;
   }
   my $filename = $ARGV[0];
@@ -189,4 +197,3 @@ Result: PASS
 * [cassidoo's interview question of the week (2026-06-08)](https://buttondown.com/cassidoo/archive/u1f34e-what-we-know-is-a-drop-what-we-dont-know/)
 * [Solitaire](https://en.wikipedia.org/wiki/Klondike_(solitaire))
 * [JSON](https://metacpan.org/pod/JSON)
-* [Log::Log4perl](https://metacpan.org/pod/Log::Log4perl)

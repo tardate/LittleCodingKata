@@ -58,7 +58,7 @@ sub maxPatternCopies {
 
 # Main script
 if (@ARGV != 2) {
-  print "Usage: perl challenge.pl \"<input-string>\" \"<pattern>\"\n";
+  print STDERR "Usage: perl challenge.pl \"<input-string>\" \"<pattern>\"\n";
   exit 1;
 }
 
