@@ -166,7 +166,7 @@ sub asIntegerListParam {
 
 if (!caller()) {
   if (@ARGV != 2) {
-    print "Usage: perl challenge.pl \"<package-list>\" \"<suitcase-list>\"\n";
+    print STDERR "Usage: perl challenge.pl \"<package-list>\" \"<suitcase-list>\"\n";
     exit 1;
   }
   my @packages = @{asIntegerListParam($ARGV[0])};

@@ -105,7 +105,7 @@ sub longestCoprimeSubsequence {
 
 if (!caller()) {
   if (@ARGV != 1) {
-    print "Usage: perl challenge.pl \"<csv-integer-list>\"\n";
+    print STDERR "Usage: perl challenge.pl \"<csv-integer-list>\"\n";
     exit 1;
   }
   my $input_string = $ARGV[0];

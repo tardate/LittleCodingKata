@@ -18,7 +18,7 @@ sub print_array {
 }
 
 if (@ARGV != 1) {
-  print "Usage: perl perrin_sequence.pl n\n";
+  print STDERR "Usage: perl perrin_sequence.pl n\n";
   exit 1;
 }
 

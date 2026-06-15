@@ -21,7 +21,7 @@ sub shuffleLine {
 
 if (!caller()) {
   if (@ARGV != 2) {
-    print "Usage: perl challenge.pl \"<csv-names>\" <integer-n>\n";
+    print STDERR "Usage: perl challenge.pl \"<csv-names>\" <integer-n>\n";
     exit 1;
   }
 

@@ -26,7 +26,7 @@ sub readJsonFile {
 
 if (!caller()) {
   if (@ARGV != 1) {
-    print "Usage: perl challenge.pl <cards-json-file-name>\n";
+    print STDERR "Usage: perl challenge.pl <cards-json-file-name>\n";
     exit 1;
   }
   my $filename = $ARGV[0];
