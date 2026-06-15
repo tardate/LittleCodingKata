@@ -1793,11 +1793,11 @@
         "name": "Think Python",
         "description": "Book notes - Think Python, 2nd edition, by Allen B. Downey, published by O'Reilly.",
         "categories": "python, Books",
-        "relative_path": "python/think_python",
+        "relative_path": "books/think-python",
         "updated_at": "2024-03-21T16:44:15Z",
         "id": "#285",
         "created_at": "2024-03-21T16:44:15Z",
-        "original_relative_path": "python/think_python"
+        "original_relative_path": "books/think-python"
     },
     {
         "name": "Network Quality Estimation",
