@@ -2796,7 +2796,7 @@
             "C"
         ]
     },
-    "/databases/redis/redis_cookbook/": {
+    "/books/redis-cookbook/": {
         "id": 144,
         "title": "Redis Cookbook",
         "summary": "Book notes - Redis Cookbook, By Tiago Macedo and Fred Oliveira, published by O'Reilly",

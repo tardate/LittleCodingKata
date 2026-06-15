@@ -3203,11 +3203,11 @@
         "name": "Redis Cookbook",
         "description": "Book notes - Redis Cookbook, By Tiago Macedo and Fred Oliveira, published by O'Reilly",
         "categories": "databases, redis, Books",
-        "relative_path": "databases/redis/redis_cookbook",
+        "relative_path": "books/redis-cookbook",
         "updated_at": "2020-03-22T01:38:00Z",
         "id": "#144",
         "created_at": "2020-03-22T01:38:00Z",
-        "original_relative_path": "databases/redis/redis_cookbook"
+        "original_relative_path": "books/redis-cookbook"
     },
     {
         "name": "Console Tables",

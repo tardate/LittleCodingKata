@@ -3132,8 +3132,8 @@
     <category term="C"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/databases/redis/redis_cookbook/</id>
-    <link href="https://codingkata.tardate.com/databases/redis/redis_cookbook/"/>
+    <id>https://codingkata.tardate.com/books/redis-cookbook/</id>
+    <link href="https://codingkata.tardate.com/books/redis-cookbook/"/>
     <updated>2020-03-22T01:38:00Z</updated>
     <title>#144 Redis Cookbook</title>
     <summary>Book notes - Redis Cookbook, By Tiago Macedo and Fred Oliveira, published by O'Reilly</summary>
