@@ -2718,7 +2718,7 @@
             "Books"
         ]
     },
-    "/docker/docker-for-rails-developers/": {
+    "/books/docker-for-rails-developers/": {
         "id": 153,
         "title": "Docker for Rails Developers",
         "summary": "Book notes - Docker for Rails Developers, By Rob Isenberg, published by The Pragmatic Programmers",

@@ -3045,8 +3045,8 @@
     <category term="Books"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/docker/docker-for-rails-developers/</id>
-    <link href="https://codingkata.tardate.com/docker/docker-for-rails-developers/"/>
+    <id>https://codingkata.tardate.com/books/docker-for-rails-developers/</id>
+    <link href="https://codingkata.tardate.com/books/docker-for-rails-developers/"/>
     <updated>2020-12-09T07:19:12Z</updated>
     <title>#153 Docker for Rails Developers</title>
     <summary>Book notes - Docker for Rails Developers, By Rob Isenberg, published by The Pragmatic Programmers</summary>
