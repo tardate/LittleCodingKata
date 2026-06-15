@@ -3401,8 +3401,8 @@
     <category term="Books"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/elixir/programming_elixir/</id>
-    <link href="https://codingkata.tardate.com/elixir/programming_elixir/"/>
+    <id>https://codingkata.tardate.com/books/programming-elixir/</id>
+    <link href="https://codingkata.tardate.com/books/programming-elixir/"/>
     <updated>2020-02-06T15:39:18Z</updated>
     <title>#117 Programming Elixir</title>
     <summary>Book notes - Programming Elixir by Dave Thomas, published by The Pragmatic Bookshelf</summary>
