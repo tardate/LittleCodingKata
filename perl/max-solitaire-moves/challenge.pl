@@ -18,7 +18,7 @@ sub maxSolitaireMoves {
 
 sub readJsonFile {
   my ($filename) = @_;
-  open my $fh, '<', $filename or die "Could not open file '$filename' $!";
+  open my $fh, '<:raw', $filename or die "Could not open file '$filename' $!";
   my $json_text = do { local $/; <$fh> };
   close $fh;
   return decode_json($json_text);
