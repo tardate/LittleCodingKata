@@ -2497,7 +2497,7 @@
             "bash"
         ]
     },
-    "/bash/bash_reference_manual/": {
+    "/books/bash-reference-manual/": {
         "id": 179,
         "title": "Bash Reference Manual",
         "summary": "the GNU Bash Reference Manual",
