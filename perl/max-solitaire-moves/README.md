@@ -1,4 +1,4 @@
-# #xxx maxSolitaireMoves
+# #463 maxSolitaireMoves
 
 Using Perl to play solitaire; cassidoo's interview question of the week (2026-06-08).
 

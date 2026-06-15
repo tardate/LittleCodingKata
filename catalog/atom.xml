@@ -7,12 +7,22 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-06-14T09:53:00Z</updated>
+  <updated>2026-06-15T02:56:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/perl/max-solitaire-moves/</id>
+    <link href="https://codingkata.tardate.com/perl/max-solitaire-moves/"/>
+    <updated>2026-06-15T02:56:00Z</updated>
+    <title>#463 maxSolitaireMoves</title>
+    <summary>Using Perl to play solitaire; cassidoo's interview question of the week (2026-06-08).</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using Perl to play solitaire; cassidoo's interview question of the week (2026-06-08).&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Perl"/>
+    <category term="cassidoo"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/books/unix-power-tools/</id>
     <link href="https://codingkata.tardate.com/books/unix-power-tools/"/>
