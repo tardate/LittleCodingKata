@@ -124,6 +124,10 @@ Some code improvements:
 * use `$#$cards` instead of `scalar @$cards - 1`:
     * `scalar @$cards` returns the number of elements in the array. Subtracting 1 is equivalent to the last element index
     * `$#$cards` is a special syntax meaning the highest valid index of the array referenced by `$cards`
+* fix array dereferencing e.g. `@$cards[$i]->{rank}`
+    * this is actually returning a slice of one element - works, but not really what is intended
+    * old-style dereference `$$cards[$i]->{rank}` is more correct but now dated
+    * preferred modern syntax: `$cards->[$i]{rank}` or `$cards->[$i]->{rank}`
 
 ### Final Code
 
@@ -141,7 +145,7 @@ sub maxSolitaireMoves {
   my $moves = 0;
 
   for (my $i = 0; $i < $#$cards; $i++) {
-    if ((@$cards[$i]->{rank} == @$cards[$i + 1]->{rank} + 1) && (@$cards[$i]->{color} ne @$cards[$i + 1]->{color})) {
+    if (($cards->[$i]{rank} == $cards->[$i + 1]{rank} + 1) && ($cards->[$i]{color} ne $cards->[$i + 1]{color})) {
       $moves++;
     }
   }
