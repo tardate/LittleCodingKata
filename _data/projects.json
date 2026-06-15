@@ -1250,7 +1250,7 @@
             "Books"
         ]
     },
-    "/python/practical-cryptography-in-python/": {
+    "/books/practical-cryptography-in-python/": {
         "id": 322,
         "title": "Practical Cryptography in Python",
         "summary": "Book notes: Practical Cryptography in Python: Learning Correct Cryptography by Example, by Seth James Nielso,  Christopher K. Monson. Published September 27, 2019.",
