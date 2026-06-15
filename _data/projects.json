@@ -3011,7 +3011,7 @@
             "Books"
         ]
     },
-    "/c/21st_century_c/": {
+    "/books/21st-century-c/": {
         "id": 120,
         "title": "21st Century C",
         "summary": "Book notes - '21st Century C' by Ben Klemens, published by O'Reilly",
