@@ -1241,7 +1241,7 @@
             "Rust"
         ]
     },
-    "/rust/practical-rust-projects/": {
+    "/books/practical-rust-projects/": {
         "id": 323,
         "title": "Practical Rust Projects",
         "summary": "Book notes: Practical Rust Projects: Building Game, Physical Computing, and Machine Learning Applications, by Shing Lyu. Published February 28, 2020.",
