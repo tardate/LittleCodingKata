@@ -3411,8 +3411,8 @@
     <category term="Books"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/docker/docker_cookbook-oreilly/</id>
-    <link href="https://codingkata.tardate.com/docker/docker_cookbook-oreilly/"/>
+    <id>https://codingkata.tardate.com/books/docker-cookbook-oreilly/</id>
+    <link href="https://codingkata.tardate.com/books/docker-cookbook-oreilly/"/>
     <updated>2020-02-06T15:39:18Z</updated>
     <title>#116 Docker Cookbook (O'Reilly)</title>
     <summary>Book notes - Docker Cookbook, 3rd Edition by Steve Oualline, published by O'Reilly</summary>
