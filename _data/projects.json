@@ -1,4 +1,13 @@
 {
+    "/perl/max-solitaire-moves/": {
+        "id": 463,
+        "title": "maxSolitaireMoves",
+        "summary": "Using Perl to play solitaire; cassidoo's interview question of the week (2026-06-08).",
+        "tags": [
+            "Perl",
+            "cassidoo"
+        ]
+    },
     "/books/unix-power-tools/": {
         "id": 462,
         "title": "Unix Power Tools",
