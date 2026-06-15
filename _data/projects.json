@@ -3235,7 +3235,7 @@
             "docker"
         ]
     },
-    "/security/metasploit_penetration_testing_cookbook/": {
+    "/books/metasploit-penetration-testing-cookbook/": {
         "id": 96,
         "title": "Metasploit Penetration Testing Cookbook",
         "summary": "Book notes - Metasploit Penetration Testing Cookbook, Second Edition by Monika Agarwal, Abhinav Singh",
