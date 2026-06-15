@@ -1,4 +1,4 @@
-# #xxx Python Testing Cookbook
+# #464 Python Testing Cookbook
 
 Book notes - Python Testing Cookbook, by Greg L. Turnquist.
 First published May 14, 2011.

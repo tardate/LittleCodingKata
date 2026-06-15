@@ -1,6 +1,6 @@
-# 463 Little Coding Katas
+# 464 Little Coding Katas
 
-> Latest addition :sparkles: [maxSolitaireMoves](./perl/max-solitaire-moves) - Using Perl to play solitaire; cassidoo's interview question of the week (2026-06-08).
+> Latest addition :sparkles: [python-testing-cookbook](./books/python-testing-cookbook) - 
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

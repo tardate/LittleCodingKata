@@ -1,4 +1,12 @@
 {
+    "/books/python-testing-cookbook/": {
+        "id": 464,
+        "title": "python-testing-cookbook",
+        "summary": "",
+        "tags": [
+            ""
+        ]
+    },
     "/perl/max-solitaire-moves/": {
         "id": 463,
         "title": "maxSolitaireMoves",
