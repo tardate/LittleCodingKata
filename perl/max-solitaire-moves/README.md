@@ -61,10 +61,9 @@ In the absence of strong evidence to the contrary, I'll go with "standard solita
 I'm using Perl for this, and will be loading the card decks from JSON file, so first I'll install the [JSON](https://metacpan.org/pod/JSON) module.
 
 ```sh
-$ cpan Log::Log4perl JSON
+$ cpan JSON
 Reading '/Users/paulgallagher/.cpan/Metadata'
   Database was generated on Sun, 14 Jun 2026 09:29:02 GMT
-Log::Log4perl is up to date (1.57).
 JSON is up to date (4.11).
 ```
 
