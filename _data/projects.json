@@ -3116,7 +3116,7 @@
             "monitoring"
         ]
     },
-    "/messaging/zeromq/zeromq-book/": {
+    "/books/zeromq/": {
         "id": 109,
         "title": "ZeroMQ (book)",
         "summary": "Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly",

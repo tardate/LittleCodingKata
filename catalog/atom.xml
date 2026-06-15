@@ -3487,8 +3487,8 @@
     <category term="monitoring"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/messaging/zeromq/zeromq-book/</id>
-    <link href="https://codingkata.tardate.com/messaging/zeromq/zeromq-book/"/>
+    <id>https://codingkata.tardate.com/books/zeromq/</id>
+    <link href="https://codingkata.tardate.com/books/zeromq/"/>
     <updated>2020-02-01T09:01:43Z</updated>
     <title>#109 ZeroMQ (book)</title>
     <summary>Book notes - ZeroMQ by Pieter Hintjens, published by O'Reilly</summary>
