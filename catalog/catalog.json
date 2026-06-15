@@ -3513,11 +3513,11 @@
         "name": "Mastering Zabbix",
         "description": "Book notes - Mastering Zabbix by Andrea Dalle Vacche, Stefano Kewan Lee, published by PacktPub",
         "categories": "infrastructure, zabbix, Books",
-        "relative_path": "infrastructure/zabbix/mastering_zabbix",
+        "relative_path": "books/mastering-zabbix",
         "updated_at": "2020-02-02T13:17:04Z",
         "id": "#113",
         "created_at": "2020-02-02T13:17:04Z",
-        "original_relative_path": "infrastructure/zabbix/mastering_zabbix"
+        "original_relative_path": "books/mastering-zabbix"
     },
     {
         "name": "Zabbix API Ruby Clients",
