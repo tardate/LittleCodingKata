@@ -119,6 +119,12 @@ $ ./challenge.pl cards2.json
 2
 ```
 
+Some code improvements:
+
+* use `$#$cards` instead of `scalar @$cards - 1`:
+    * `scalar @$cards` returns the number of elements in the array. Subtracting 1 is equivalent to the last element index
+    * `$#$cards` is a special syntax meaning the highest valid index of the array referenced by `$cards`
+
 ### Final Code
 
 See [challenge.pl](./challenge.pl) for the final code.
@@ -134,7 +140,7 @@ sub maxSolitaireMoves {
   my ($cards) = @_;
   my $moves = 0;
 
-  for (my $i = 0; $i < scalar @$cards - 1; $i++) {
+  for (my $i = 0; $i < $#$cards; $i++) {
     if ((@$cards[$i]->{rank} == @$cards[$i + 1]->{rank} + 1) && (@$cards[$i]->{color} ne @$cards[$i + 1]->{color})) {
       $moves++;
     }
@@ -144,7 +150,7 @@ sub maxSolitaireMoves {
 
 sub readJsonFile {
   my ($filename) = @_;
-  open my $fh, '<', $filename or die "Could not open file '$filename' $!";
+  open my $fh, '<:raw', $filename or die "Could not open file '$filename' $!";
   my $json_text = do { local $/; <$fh> };
   close $fh;
   return decode_json($json_text);

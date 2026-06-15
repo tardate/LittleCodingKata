@@ -8,7 +8,7 @@ sub maxSolitaireMoves {
   my ($cards) = @_;
   my $moves = 0;
 
-  for (my $i = 0; $i < scalar @$cards - 1; $i++) {
+  for (my $i = 0; $i < $#$cards; $i++) {
     if ((@$cards[$i]->{rank} == @$cards[$i + 1]->{rank} + 1) && (@$cards[$i]->{color} ne @$cards[$i + 1]->{color})) {
       $moves++;
     }
