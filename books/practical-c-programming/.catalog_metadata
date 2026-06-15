@@ -2,7 +2,7 @@
     "name": "Practical C Programming",
     "description": "Book notes - Practical C Programming, 3rd Edition by Steve Oualline, published by O'Reilly",
     "categories": "C, Books",
-    "relative_path": "c/practical_c_programming",
+    "relative_path": "books/practical-c-programming",
     "updated_at": "2020-02-06T15:39:18Z",
     "id": "#119",
     "created_at": "2020-02-06T15:39:18Z"
