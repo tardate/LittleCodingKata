@@ -59,7 +59,6 @@ In the absence of strong evidence to the contrary, I'll go with "standard solita
 ### Module installation
 
 I'm using Perl for this, and will be loading the card decks from JSON file, so first I'll install the [JSON](https://metacpan.org/pod/JSON) module.
-[Log::Log4perl](https://metacpan.org/pod/Log::Log4perl) is not really necessary, but is recommended to improve logging for JSON.
 
 ```sh
 $ cpan Log::Log4perl JSON
@@ -189,4 +188,3 @@ Result: PASS
 * [cassidoo's interview question of the week (2026-06-08)](https://buttondown.com/cassidoo/archive/u1f34e-what-we-know-is-a-drop-what-we-dont-know/)
 * [Solitaire](https://en.wikipedia.org/wiki/Klondike_(solitaire))
 * [JSON](https://metacpan.org/pod/JSON)
-* [Log::Log4perl](https://metacpan.org/pod/Log::Log4perl)

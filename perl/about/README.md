@@ -123,6 +123,14 @@ $ cpanm JSON
 JSON is up to date. (4.11)
 ```
 
+And to uninstall a module, use `cpanm --uninstall Module::Name` e.g.
+
+```sh
+$ cpanm --uninstall JSON
+...
+Successfully uninstalled JSON
+```
+
 ## A 🐪 Perl Cheat-sheet
 
 ### Basic Structure
