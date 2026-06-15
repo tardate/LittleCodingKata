@@ -1794,7 +1794,7 @@
             "bash"
         ]
     },
-    "/python/flaskwebdevelopment/": {
+    "/books/flask-web-development/": {
         "id": 259,
         "title": "Flask Web Development",
         "summary": "Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly",

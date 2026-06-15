@@ -2,7 +2,7 @@
     "name": "Flask Web Development",
     "description": "Book notes - Flask Web Development, By Miguel Grinberg, published by O'Reilly",
     "categories": "python, Books",
-    "relative_path": "python/FlaskWebDevelopment",
+    "relative_path": "books/flask-web-development",
     "updated_at": "2023-05-02T10:34:36Z",
     "id": "#259",
     "created_at": "2023-05-02T10:34:36Z"
