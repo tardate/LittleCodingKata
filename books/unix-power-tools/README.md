@@ -5,6 +5,8 @@ First published January 1, 1993.
 
 ## Notes
 
+I learned much of this in Uni, but this book proved a great reference at the time.
+
 [![cover](./assets/cover.jpg)](https://amzn.to/4ooMqWF)
 
 ### Contents

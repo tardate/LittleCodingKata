@@ -5,6 +5,8 @@ First published November 8, 1990.
 
 ## Notes
 
+I learned basic sed & awk in uni, but this book helped unlock all their secrets back in the day.
+
 [![cover](./assets/cover.jpg)](https://amzn.to/4uybk7S)
 
 ### Contents
