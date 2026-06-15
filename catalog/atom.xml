@@ -3391,8 +3391,8 @@
     <category term="Books"/>
   </entry>
   <entry>
-    <id>https://codingkata.tardate.com/rust/rust_programming_language/</id>
-    <link href="https://codingkata.tardate.com/rust/rust_programming_language/"/>
+    <id>https://codingkata.tardate.com/books/rust-programming-language/</id>
+    <link href="https://codingkata.tardate.com/books/rust-programming-language/"/>
     <updated>2020-02-06T15:39:18Z</updated>
     <title>#118 The Rust Programming Language</title>
     <summary>Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research</summary>

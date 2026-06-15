@@ -3029,7 +3029,7 @@
             "Books"
         ]
     },
-    "/rust/rust_programming_language/": {
+    "/books/rust-programming-language/": {
         "id": 118,
         "title": "The Rust Programming Language",
         "summary": "Book notes - The Rust Programming Language by Steve Klabnik, published by Mozilla Research",
