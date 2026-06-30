@@ -1,4 +1,13 @@
 {
+    "/perl/mean-bits/": {
+        "id": 465,
+        "title": "meanBits",
+        "summary": "Using Perl to calculate mean bits; cassidoo's interview question of the week (2026-06-29)",
+        "tags": [
+            "Perl",
+            "cassidoo"
+        ]
+    },
     "/books/python-testing-cookbook/": {
         "id": 464,
         "title": "Python Testing Cookbook",
