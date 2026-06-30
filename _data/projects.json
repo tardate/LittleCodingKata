@@ -1,4 +1,12 @@
 {
+    "/c/count-bits/": {
+        "id": 466,
+        "title": "Count Bits (C)",
+        "summary": "Given a positive number n, count total bits needed to represent it (using C).",
+        "tags": [
+            "C"
+        ]
+    },
     "/perl/mean-bits/": {
         "id": 465,
         "title": "meanBits",

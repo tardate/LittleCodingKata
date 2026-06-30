@@ -1,6 +1,6 @@
-# 465 Little Coding Katas
+# 466 Little Coding Katas
 
-> Latest addition :sparkles: [meanBits](./perl/mean-bits) - Using Perl to calculate mean bits; cassidoo's interview question of the week (2026-06-29)
+> Latest addition :sparkles: [Count Bits (C)](./c/count-bits) - Given a positive number n, count total bits needed to represent it (using C).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

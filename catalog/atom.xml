@@ -7,12 +7,21 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-06-30T06:03:00Z</updated>
+  <updated>2026-06-30T06:18:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/c/count-bits/</id>
+    <link href="https://codingkata.tardate.com/c/count-bits/"/>
+    <updated>2026-06-30T06:18:00Z</updated>
+    <title>#466 Count Bits (C)</title>
+    <summary>Given a positive number n, count total bits needed to represent it (using C).</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Given a positive number n, count total bits needed to represent it (using C).&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="C"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/perl/mean-bits/</id>
     <link href="https://codingkata.tardate.com/perl/mean-bits/"/>

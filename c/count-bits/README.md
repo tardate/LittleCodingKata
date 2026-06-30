@@ -1,4 +1,4 @@
-# #xxx Count Bits (C)
+# #466 Count Bits (C)
 
 Given a positive number n, count total bits needed to represent it (using C).
 
