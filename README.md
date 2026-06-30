@@ -1,6 +1,6 @@
-# 464 Little Coding Katas
+# 466 Little Coding Katas
 
-> Latest addition :sparkles: [Python Testing Cookbook](./books/python-testing-cookbook) - Book notes - Python Testing Cookbook, by Greg L. Turnquist. First published May 14, 2011.
+> Latest addition :sparkles: [Count Bits (C)](./c/count-bits) - Given a positive number n, count total bits needed to represent it (using C).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

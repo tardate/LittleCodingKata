@@ -1,0 +1,9 @@
+{
+    "name": "Count Bits (C)",
+    "description": "Given a positive number n, count total bits needed to represent it (using C).",
+    "categories": "C",
+    "relative_path": "c/count-bits",
+    "updated_at": "2026-06-30T06:18:00Z",
+    "created_at": "2026-06-30T06:18:00Z",
+    "id": "#466"
+}
