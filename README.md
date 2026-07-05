@@ -1,6 +1,6 @@
-# 467 Little Coding Katas
+# 468 Little Coding Katas
 
-> Latest addition :sparkles: [SDN: Software Defined Networks](./books/sdn-software-defined-networks) - Book notes - SDN: Software Defined Networks: An Authoritative Review of Network Programmability Technologies, by Thomas D. Nadeau, Ken Gray. First published January 1, 2013.
+> Latest addition :sparkles: [DNS and BIND](./books/dns-and-bind) - Book notes - DNS and BIND by Cricket Liu, Paul Albitz. First published October 8, 1992. Latest 5th edition, 2006.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

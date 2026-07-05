@@ -2,5 +2,8 @@
     "name": "DNS and BIND",
     "description": "Book notes - DNS and BIND by Cricket Liu, Paul Albitz. First published October 8, 1992. Latest 5th edition, 2006.",
     "categories": "Books",
-    "relative_path": "books/dns-and-bind"
+    "relative_path": "books/dns-and-bind",
+    "updated_at": "2026-07-05T01:46:00Z",
+    "created_at": "2026-07-05T01:46:00Z",
+    "id": "#468"
 }

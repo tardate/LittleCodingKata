@@ -1,4 +1,12 @@
 {
+    "/books/dns-and-bind/": {
+        "id": 468,
+        "title": "DNS and BIND",
+        "summary": "Book notes - DNS and BIND by Cricket Liu, Paul Albitz. First published October 8, 1992. Latest 5th edition, 2006.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/sdn-software-defined-networks/": {
         "id": 467,
         "title": "SDN: Software Defined Networks",
