@@ -1,4 +1,28 @@
 {
+    "/books/essential-snmp/": {
+        "id": 469,
+        "title": "Essential SNMP",
+        "summary": "Book notes - Essential SNMP by Douglas R. Mauro, Kevin J. Schmidt, Kevin Schmidt. First published July 18, 2001. 2nd Edition October 25, 2005.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/dns-and-bind/": {
+        "id": 468,
+        "title": "DNS and BIND",
+        "summary": "Book notes - DNS and BIND by Cricket Liu, Paul Albitz. First published October 8, 1992. Latest 5th edition, 2006.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/sdn-software-defined-networks/": {
+        "id": 467,
+        "title": "SDN: Software Defined Networks",
+        "summary": "Book notes - SDN: Software Defined Networks: An Authoritative Review of Network Programmability Technologies, by Thomas D. Nadeau, Ken Gray. First published January 1, 2013.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/c/count-bits/": {
         "id": 466,
         "title": "Count Bits (C)",

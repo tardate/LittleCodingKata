@@ -6,7 +6,7 @@ Book notes - The Rust Programming Language by Steve Klabnik, published by Mozill
 
 ## Notes
 
-## Table of Contents - Highlights
+### Table of Contents - Highlights
 
 1. Getting Started
 2. Programming a Guessing Game
@@ -29,7 +29,7 @@ Book notes - The Rust Programming Language by Steve Klabnik, published by Mozill
 19. Advanced Features
 20. Final Project: Building a Multithreaded Web Server
 
-## Getting the Example Source
+### Getting the Example Source
 
 ```sh
 git clone https://github.com/rust-lang/book.git example_source
@@ -37,6 +37,8 @@ git clone https://github.com/rust-lang/book.git example_source
 
 ## Credits and References
 
-* [ebook online](https://doc.rust-lang.org/stable/book/)
-* [goodreads](https://www.goodreads.com/book/show/25008661-the-rust-programming-language)
-* [example sources](https://github.com/rust-lang/book)
+* The Rust Programming Language
+    * [amazon](https://amzn.to/4nHEL4i)
+    * [ebook online](https://doc.rust-lang.org/stable/book/)
+    * [goodreads](https://www.goodreads.com/book/show/25008661-the-rust-programming-language)
+    * [example sources](https://github.com/rust-lang/book)

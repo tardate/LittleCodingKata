@@ -1,6 +1,6 @@
-# 466 Little Coding Katas
+# 469 Little Coding Katas
 
-> Latest addition :sparkles: [Count Bits (C)](./c/count-bits) - Given a positive number n, count total bits needed to represent it (using C).
+> Latest addition :sparkles: [Essential SNMP](./books/essential-snmp) - Book notes - Essential SNMP by Douglas R. Mauro, Kevin J. Schmidt, Kevin Schmidt. First published July 18, 2001. 2nd Edition October 25, 2005.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
