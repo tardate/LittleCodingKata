@@ -1,4 +1,12 @@
 {
+    "/books/essential-snmp/": {
+        "id": 469,
+        "title": "Essential SNMP",
+        "summary": "Book notes - Essential SNMP by Douglas R. Mauro, Kevin J. Schmidt, Kevin Schmidt. First published July 18, 2001. 2nd Edition October 25, 2005.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/dns-and-bind/": {
         "id": 468,
         "title": "DNS and BIND",
