@@ -44,7 +44,7 @@ hosted on [Google Code](https://code.google.com/archive/p/gchartrb/).
 
 It has not been maintained since 2008, but it does still work. It generates HTTP requests, but the Google Image Charts API automatically redirects these to be handled over HTTPS.
 
-A simple [example.rb](./using_gchartrb/examples.rb) generates graphs like this:
+A simple [examples.rb](./using_gchartrb/examples.rb) generates graphs like this:
 
 ![line_chart](./using_gchartrb/line_chart.png?raw=true)
 
@@ -57,7 +57,7 @@ After the RubyForge shutdown, the code was migrated to [github](https://github.c
 
 It has not been maintained since 2009, as community focus appears to have shifted to the googlecharts gem.
 
-A simple [example.rb](./using_gchart/example.rb) generates graphs like this:
+A simple [examples.rb](./using_gchart/examples.rb) generates graphs like this:
 
 ![line_chart](./using_gchart/line_chart.png?raw=true)
 
@@ -69,7 +69,7 @@ community-supported wrappers for the Google Chart API.
 After the RubyForge shutdown, the code was migrated to [github](https://github.com/mattetti/googlecharts),
 but it has ceased to be maintained since 2015 and is now archived.
 
-A simple [example.rb](./using_googlecharts/example.rb) generates graphs like this:
+A simple [examples.rb](./using_googlecharts/examples.rb) generates graphs like this:
 
 ![line_chart](./using_googlecharts/line_chart.png?raw=true)
 
@@ -87,7 +87,7 @@ For testing on Mac I used brew: `brew install graphviz`.
 The [gruff](https://rubygems.org/gems/gruff) gem
 Requires [rmagick](https://github.com/rmagick/rmagick)
 
-A simple [example.rb](./using_gruff/example.rb) generates graphs like this:
+A simple [examples.rb](./using_gruff/examples.rb) generates graphs like this:
 
 ![line_chart](./using_gruff/line_chart.png?raw=true)
 
@@ -96,7 +96,7 @@ A simple [example.rb](./using_gruff/example.rb) generates graphs like this:
 The [rubyvis](https://rubygems.org/gems/rubyvis) gem is a Ruby port of Protovis, a Javascript visualization toolkit.
 Pure ruby.
 
-A simple [example.rb](./using_rubyvis/example.rb) generates graphs like this as SVG:
+A simple [examples.rb](./using_rubyvis/examples.rb) generates graphs like this as SVG:
 
 ![line_chart](./using_rubyvis/line_chart.svg?raw=true)
 
