@@ -1,4 +1,12 @@
 {
+    "/books/sdn-software-defined-networks/": {
+        "id": 467,
+        "title": "SDN: Software Defined Networks",
+        "summary": "Book notes - SDN: Software Defined Networks: An Authoritative Review of Network Programmability Technologies, by Thomas D. Nadeau, Ken Gray. First published January 1, 2013.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/c/count-bits/": {
         "id": 466,
         "title": "Count Bits (C)",

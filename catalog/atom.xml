@@ -7,12 +7,21 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-06-30T06:18:00Z</updated>
+  <updated>2026-07-05T01:32:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/books/sdn-software-defined-networks/</id>
+    <link href="https://codingkata.tardate.com/books/sdn-software-defined-networks/"/>
+    <updated>2026-07-05T01:32:00Z</updated>
+    <title>#467 SDN: Software Defined Networks</title>
+    <summary>Book notes - SDN: Software Defined Networks: An Authoritative Review of Network Programmability Technologies, by Thomas D. Nadeau, Ken Gray. First published January 1, 2013.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - SDN: Software Defined Networks: An Authoritative Review of Network Programmability Technologies, by Thomas D. Nadeau, Ken Gray. First published January 1, 2013.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/c/count-bits/</id>
     <link href="https://codingkata.tardate.com/c/count-bits/"/>
