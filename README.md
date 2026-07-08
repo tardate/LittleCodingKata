@@ -1,6 +1,6 @@
-# 469 Little Coding Katas
+# 470 Little Coding Katas
 
-> Latest addition :sparkles: [Essential SNMP](./books/essential-snmp) - Book notes - Essential SNMP by Douglas R. Mauro, Kevin J. Schmidt, Kevin Schmidt. First published July 18, 2001. 2nd Edition October 25, 2005.
+> Latest addition :sparkles: [Chilkat Library with C](./c/chilkat) - A quick look at the Chilkat component library and a demonstration of using it with C.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
