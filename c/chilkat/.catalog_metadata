@@ -1,0 +1,6 @@
+{
+    "name": "Chilkat Library with C",
+    "description": "A quick look at the Chilkat component library and a demonstration of using it with C.",
+    "categories": "C",
+    "relative_path": "c/chilkat"
+}
