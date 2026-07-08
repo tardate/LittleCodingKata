@@ -1,4 +1,13 @@
 {
+    "/ruby/get-impacted-coordinates/": {
+        "id": 471,
+        "title": "getImpactedCoordinates",
+        "summary": "Using ruby to calculate the blast radius of some fireworks; cassidoo's interview question of the week (2026-07-06).",
+        "tags": [
+            "Ruby",
+            "cassidoo"
+        ]
+    },
     "/c/chilkat/": {
         "id": 470,
         "title": "Chilkat Library with C",

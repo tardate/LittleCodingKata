@@ -1,6 +1,6 @@
-# 470 Little Coding Katas
+# 471 Little Coding Katas
 
-> Latest addition :sparkles: [Chilkat Library with C](./c/chilkat) - A quick look at the Chilkat component library and a demonstration of using it with C.
+> Latest addition :sparkles: [getImpactedCoordinates](./ruby/get-impacted-coordinates) - Using ruby to calculate the blast radius of some fireworks; cassidoo's interview question of the week (2026-07-06).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
