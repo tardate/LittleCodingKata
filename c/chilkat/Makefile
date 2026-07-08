@@ -11,10 +11,6 @@ LDFLAGS      = -L$(CHILKAT_DIR)/libStatic -lchilkat \
                -lpthread -lresolv -ldl \
                -framework CoreFoundation -framework Security
 
-.PHONY: run
-run: all
-	$(foreach target,$(TARGETS),./$(target);)
-
 .PHONY: all
 all: $(TARGETS)
 

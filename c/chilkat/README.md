@@ -52,7 +52,7 @@ Common pattern: Load or create a `JsonObject`, navigate named members and nested
 
 See [CkJsonObject C Reference](https://www.chilkatsoft.com/refdoc/c_CkJsonObjectRef.html).
 
-See [example.c](./example.c) for an adaptation of the example.
+See [example.c](./example.c) for an adaptation of the example. I've modified it to take a JSON filename as a program argument, read the file and pretty-print it with the `CkJsonObject` component.
 
 ### Compile and Link
 
@@ -61,13 +61,25 @@ This is because Chilkat is written in C++, and the final executable requires the
 
 I've created a [Makefile](./Makefile) to setup the compile and link stages appropriately.
 
-Compile link and execute:
+Compile and link:
 
 ```sh
-$ make run
+$ make clean
+rm -f example *.o
+rm -fR *.dSYM
+$ make
 gcc -Wall -O0 -I./chilkat-macosx-cpp/include -c example.c -o example.o
 g++ example.o -L./chilkat-macosx-cpp/libStatic -lchilkat -lpthread -lresolv -ldl -framework CoreFoundation -framework Security -o example
-./example;
+```
+
+Running the example:
+
+```sh
+$ ./example
+Usage: ./example <filename>
+$ cat data.json
+{"name":"donut","image":{"fname":"donut.jpg","w":200,"h":200},"thumbnail":{"fname":"donutThumb.jpg","w":32,"h":32}}
+$ ./example data.json
 {
   "name": "donut",
   "image": {
