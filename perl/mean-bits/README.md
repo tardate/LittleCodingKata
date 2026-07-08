@@ -136,6 +136,47 @@ user    0m0.010s
 sys     0m0.016s
 ```
 
+### Even faster?
+
+[Tenzy](https://bsky.app/profile/tenzhiyang.com/post/3mpmymexrgk2a) found an even more [compact solution](https://codepen.io/Tzyinc/pen/yygzGmM?editors=0012).
+
+It uses an optimized algebraic trick to sum up the bit lengths of all numbers in `O(1)` constant time without using a slow loop.
+
+Instead of summing each number's bits individually, it solves the sum geometrically by imagining a bounding box of bits and subtracting the "empty space."
+
+```perl
+sub meanBits_fast2 {
+  my ($n) = @_;
+  return '1.00' if $n == 0;
+  return '0.00' if $n < 0;
+
+  my $max_bits = int(log($n - 1) / log(2)) + 1;
+  my $mean_bits = (($n * $max_bits) - (2**$max_bits) + 2) / $n;
+
+  return sprintf("%.2f", $mean_bits);
+}
+```
+
+Is it really faster though? Turns out no, approximately the same as the `fast` solution as they are both `O(1)` constant time.
+But it does benefit from being more compact.
+
+```sh
+$ time perl challenge.pl 1000000000 fast
+# given n=1000000000, result using 'fast' algorithm is:
+28.93
+
+real    0m0.026s
+user    0m0.011s
+sys     0m0.014s
+$ time perl challenge.pl 1000000000 fast2
+# given n=1000000000, result using 'fast2' algorithm is:
+28.93
+
+real    0m0.028s
+user    0m0.011s
+sys     0m0.015s
+```
+
 ### Final Code
 
 See [challenge.pl](./challenge.pl) for the final code.
@@ -186,6 +227,17 @@ sub meanBits_fast {
   return sprintf("%.2f", $bit_count / $n);
 }
 
+sub meanBits_fast2 {
+  my ($n) = @_;
+  return '1.00' if $n == 0;
+  return '0.00' if $n < 0;
+
+  my $max_bits = int(log($n - 1) / log(2)) + 1;
+  my $mean_bits = (($n * $max_bits) - (2**$max_bits) + 2) / $n;
+
+  return sprintf("%.2f", $mean_bits);
+}
+
 if (!caller()) {
   if (@ARGV < 1) {
     print STDERR "Usage: perl challenge.pl n\n";
@@ -198,6 +250,9 @@ if (!caller()) {
 
   if ($algorithm eq 'fast') {
     my $result = meanBits_fast($n);
+    printf "$result\n";
+  } elsif ($algorithm eq 'fast2') {
+    my $result = meanBits_fast2($n);
     printf "$result\n";
   } else {
     my $result = meanBits($n);
@@ -223,13 +278,19 @@ ok 5 - given example (fast algorithm)
 ok 6 - handle 0 (fast algorithm)
 ok 7 - handle negatives (fast algorithm)
 ok 8 - handle big numbers (fast algorithm)
-1..8
+ok 9 - given example (fast2 algorithm)
+ok 10 - handle 0 (fast2 algorithm)
+ok 11 - handle negatives (fast2 algorithm)
+ok 12 - handle big numbers (fast2 algorithm)
+1..12
 ok
 All tests successful.
-Files=1, Tests=8,  1 wallclock secs ( 0.00 usr  0.01 sys +  0.59 cusr  0.00 csys =  0.60 CPU)
+Files=1, Tests=12,  1 wallclock secs ( 0.00 usr  0.00 sys +  0.61 cusr  0.00 csys =  0.61 CPU)
 Result: PASS
 ```
 
 ## Credits and References
 
 * [cassidoo's interview question of the week (2026-06-29)](https://buttondown.com/cassidoo/archive/u1f36b-great-success-doesnt-come-in-short-periods/):
+* [Tenzy post](https://bsky.app/profile/tenzhiyang.com/post/3mpmymexrgk2a)
+* [Tenzy solution](https://codepen.io/Tzyinc/pen/yygzGmM?editors=0012)

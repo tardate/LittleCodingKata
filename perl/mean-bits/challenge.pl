@@ -43,6 +43,17 @@ sub meanBits_fast {
   return sprintf("%.2f", $bit_count / $n);
 }
 
+sub meanBits_fast2 {
+  my ($n) = @_;
+  return '1.00' if $n == 0;
+  return '0.00' if $n < 0;
+
+  my $max_bits = int(log($n - 1) / log(2)) + 1;
+  my $mean_bits = (($n * $max_bits) - (2**$max_bits) + 2) / $n;
+
+  return sprintf("%.2f", $mean_bits);
+}
+
 if (!caller()) {
   if (@ARGV < 1) {
     print STDERR "Usage: perl challenge.pl n\n";
@@ -55,6 +66,9 @@ if (!caller()) {
 
   if ($algorithm eq 'fast') {
     my $result = meanBits_fast($n);
+    printf "$result\n";
+  } elsif ($algorithm eq 'fast2') {
+    my $result = meanBits_fast2($n);
     printf "$result\n";
   } else {
     my $result = meanBits($n);
