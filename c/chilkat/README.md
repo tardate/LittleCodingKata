@@ -1,4 +1,4 @@
-# #xxx Chilkat Library with C
+# #470 Chilkat Library with C
 
 A quick look at the Chilkat component library and a demonstration of using it with C.
 

@@ -7,12 +7,21 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-07-05T08:50:00Z</updated>
+  <updated>2026-07-08T02:31:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/c/chilkat/</id>
+    <link href="https://codingkata.tardate.com/c/chilkat/"/>
+    <updated>2026-07-08T02:31:00Z</updated>
+    <title>#470 Chilkat Library with C</title>
+    <summary>A quick look at the Chilkat component library and a demonstration of using it with C.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A quick look at the Chilkat component library and a demonstration of using it with C.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="C"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/books/essential-snmp/</id>
     <link href="https://codingkata.tardate.com/books/essential-snmp/"/>

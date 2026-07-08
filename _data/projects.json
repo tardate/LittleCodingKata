@@ -1,4 +1,12 @@
 {
+    "/c/chilkat/": {
+        "id": 470,
+        "title": "Chilkat Library with C",
+        "summary": "A quick look at the Chilkat component library and a demonstration of using it with C.",
+        "tags": [
+            "C"
+        ]
+    },
     "/books/essential-snmp/": {
         "id": 469,
         "title": "Essential SNMP",
