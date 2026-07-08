@@ -1,5 +1,15 @@
 [
     {
+        "name": "getImpactedCoordinates",
+        "description": "Using ruby to calculate the blast radius of some fireworks; cassidoo's interview question of the week (2026-07-06).",
+        "categories": "Ruby, cassidoo",
+        "relative_path": "ruby/get-impacted-coordinates",
+        "updated_at": "2026-07-08T03:59:00Z",
+        "created_at": "2026-07-08T03:59:00Z",
+        "id": "#471",
+        "original_relative_path": "ruby/get-impacted-coordinates"
+    },
+    {
         "name": "Chilkat Library with C",
         "description": "A quick look at the Chilkat component library and a demonstration of using it with C.",
         "categories": "C",

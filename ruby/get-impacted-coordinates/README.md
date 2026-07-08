@@ -1,4 +1,4 @@
-# #xxx getImpactedCoordinates
+# #471 getImpactedCoordinates
 
 Using ruby to calculate the blast radius of some fireworks; cassidoo's interview question of the week (2026-07-06).
 
