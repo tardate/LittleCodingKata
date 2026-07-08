@@ -1,0 +1,6 @@
+{
+    "name": "getImpactedCoordinates",
+    "description": "Using ruby to calculate the blast radius of some fireworks; cassidoo's interview question of the week (2026-07-06).",
+    "categories": "Ruby, cassidoo",
+    "relative_path": "ruby/get-impacted-coordinates"
+}
