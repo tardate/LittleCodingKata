@@ -4,10 +4,10 @@ A quick look at the Chilkat component library and a demonstration of using it wi
 
 ## Notes
 
-A stumbled upon the component library produced by
+I stumbled upon the component library produced by
 [Chilkat Software Inc.](https://www.chilkatsoft.com/products.asp) some time ago.
 It grabbed my attention because it appears to be one of those few cases where a small business
-has been created and maintained over decades by offering a software component library license.
+has been created and maintained over decades by developing and selling a software component library.
 It is unusual for the range of environments and languages it supports with a common API:
 
 * Systems/Environments: Windows, Linux, Alpine Linux, MacOS, iOS, Android™, PowerLinux, ARM Linux, Raspberry Pi, MinGW, MSYS2
@@ -34,7 +34,7 @@ The C/C++ headers are contained in include directory: `chilkat-macosx-cpp/includ
 The universal static (.a) and dynamic libs (.dylib) are located in the libStatic and libDyn directories.
 I'll link with the static library: `chilkat-macosx-cpp/libStatic/libchilkat.a`.
 
-On macOS, must also a few system libraries and macOS frameworks:
+On macOS, must also link a few system libraries and platform frameworks:
 
 * `-lpthread`: POSIX threads
 * `-lresolv`: DNS resolver library
@@ -112,22 +112,22 @@ void PrettyPrintJSON(const char *jsonStr) {
 
   json = CkJsonObject_Create();
 
-  success = CkJsonObject_Load(json,jsonStr);
+  success = CkJsonObject_Load(json, jsonStr);
   if (success != TRUE) {
-    printf("%s\n",CkJsonObject_lastErrorText(json));
+    fprintf(stderr, "%s\n", CkJsonObject_lastErrorText(json));
     CkJsonObject_Dispose(json);
     return;
   }
 
   // To pretty-print, set the EmitCompact property equal to FALSE
-  CkJsonObject_putEmitCompact(json,FALSE);
+  CkJsonObject_putEmitCompact(json, FALSE);
 
   // If bare-LF line endings are desired, turn off EmitCrLf
   // Otherwise CRLF line endings are emitted.
-  CkJsonObject_putEmitCrLf(json,FALSE);
+  CkJsonObject_putEmitCrLf(json, FALSE);
 
   // Emit the formatted JSON:
-  printf("%s\n",CkJsonObject_emit(json));
+  printf("%s\n", CkJsonObject_emit(json));
 
   CkJsonObject_Dispose(json);
 }

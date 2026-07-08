@@ -10,22 +10,22 @@ void PrettyPrintJSON(const char *jsonStr) {
 
   json = CkJsonObject_Create();
 
-  success = CkJsonObject_Load(json,jsonStr);
+  success = CkJsonObject_Load(json, jsonStr);
   if (success != TRUE) {
-    printf("%s\n",CkJsonObject_lastErrorText(json));
+    fprintf(stderr, "%s\n", CkJsonObject_lastErrorText(json));
     CkJsonObject_Dispose(json);
     return;
   }
 
   // To pretty-print, set the EmitCompact property equal to FALSE
-  CkJsonObject_putEmitCompact(json,FALSE);
+  CkJsonObject_putEmitCompact(json, FALSE);
 
   // If bare-LF line endings are desired, turn off EmitCrLf
   // Otherwise CRLF line endings are emitted.
-  CkJsonObject_putEmitCrLf(json,FALSE);
+  CkJsonObject_putEmitCrLf(json, FALSE);
 
   // Emit the formatted JSON:
-  printf("%s\n",CkJsonObject_emit(json));
+  printf("%s\n", CkJsonObject_emit(json));
 
   CkJsonObject_Dispose(json);
 }
