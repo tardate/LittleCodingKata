@@ -18,4 +18,9 @@ is( meanBits_fast(0) , '1.00', 'handle 0 (fast algorithm)' );
 is( meanBits_fast(-5) , '0.00', 'handle negatives (fast algorithm)' );
 is( meanBits_fast(10000000) , '22.32', 'handle big numbers (fast algorithm)' );
 
+is( meanBits_fast2(6) , '2.00', 'given example (fast2 algorithm)' );
+is( meanBits_fast2(0) , '1.00', 'handle 0 (fast2 algorithm)' );
+is( meanBits_fast2(-5) , '0.00', 'handle negatives (fast2 algorithm)' );
+is( meanBits_fast2(10000000) , '22.32', 'handle big numbers (fast2 algorithm)' );
+
 done_testing();
