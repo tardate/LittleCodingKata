@@ -1,6 +1,6 @@
-# 471 Little Coding Katas
+# 472 Little Coding Katas
 
-> Latest addition :sparkles: [getImpactedCoordinates](./ruby/get-impacted-coordinates) - Using ruby to calculate the blast radius of some fireworks; cassidoo's interview question of the week (2026-07-06).
+> Latest addition :sparkles: [fulfilledOrdersBeforeFailure](./python/fulfilled-orders-before-failure) - Using python to run an ice cream stand: cassidoo's interview question of the week (2026-07-27).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

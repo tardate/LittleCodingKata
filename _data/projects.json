@@ -1,4 +1,13 @@
 {
+    "/python/fulfilled-orders-before-failure/": {
+        "id": 472,
+        "title": "fulfilledOrdersBeforeFailure",
+        "summary": "Using python to run an ice cream stand: cassidoo's interview question of the week (2026-07-27).",
+        "tags": [
+            "python",
+            "cassidoo"
+        ]
+    },
     "/ruby/get-impacted-coordinates/": {
         "id": 471,
         "title": "getImpactedCoordinates",
