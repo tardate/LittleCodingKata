@@ -1,0 +1,6 @@
+{
+    "name": "fulfilledOrdersBeforeFailure",
+    "description": "Using python to run an ice cream stand: cassidoo's interview question of the week (2026-07-27).",
+    "categories": "python, cassidoo",
+    "relative_path": "python/fulfilled-orders-before-failure"
+}
