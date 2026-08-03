@@ -1,4 +1,4 @@
-# #xxx Reorder
+# #473 Reorder
 
 Using ruby to reorder string arrays and compare algorithms: cassidoo's interview question of the week (2026-08-03).
 

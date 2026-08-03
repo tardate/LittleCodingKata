@@ -1,5 +1,15 @@
 [
     {
+        "name": "Reorder",
+        "description": "Using ruby to reorder string arrays and compare algorithms: cassidoo's interview question of the week (2026-08-03).",
+        "categories": "Ruby, cassidoo",
+        "relative_path": "ruby/reorder",
+        "updated_at": "2026-08-03T10:19:00Z",
+        "created_at": "2026-08-03T10:19:00Z",
+        "id": "#473",
+        "original_relative_path": "ruby/reorder"
+    },
+    {
         "name": "fulfilledOrdersBeforeFailure",
         "description": "Using python to run an ice cream stand: cassidoo's interview question of the week (2026-07-27).",
         "categories": "python, cassidoo",
