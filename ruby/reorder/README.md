@@ -89,7 +89,7 @@ Result: ["D", "F", "G", "C", "E", "H"]
 
 Can we avoid all the memory re-allocation associated with deletes and inserts?
 Yes, but it makes the tracking problem more complex to grasp.
-Technically, this is a [Cyclic permutation algorithm](https://en.wikipedia.org/wiki/Cyclic_permutation)
+Technically, this is a [Cyclic permutation algorithm](https://en.wikipedia.org/wiki/Cyclic_permutation).
 
 ```ruby
   def mutating_cyclic
@@ -267,3 +267,5 @@ end
 ## Credits and References
 
 * [cassidoo's interview question of the week (2026-08-03)](https://buttondown.com/cassidoo/archive/u1f351-you-cant-suppress-the-things-that-make-us/)
+* [Cyclic permutation algorithm](https://en.wikipedia.org/wiki/Cyclic_permutation)
+* [benchmark-ips](http://rubygems.org/gems/benchmark-ips)
