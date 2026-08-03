@@ -11,7 +11,7 @@ class Reorder
   end
 
   def non_mutating
-    result = Array.new(input.length, false)
+    result = Array.new(input.length)
     sequence.each_with_index do |target_index, source_index|
       result[target_index] = input[source_index]
     end
@@ -23,33 +23,32 @@ class Reorder
   def mutating_simple
     positions = (0...input.size).to_a
 
-    sequence.each_with_index do |target, original|
-      current = positions.index(original)
-      next if current == target
+    sequence.each_with_index do |target_index, source_index|
+      current = positions.index(source_index)
+      next if current == target_index
 
       value = input.delete_at(current)
-      input.insert(target, value)
+      input.insert(target_index, value)
 
       moved = positions.delete_at(current)
-      positions.insert(target, moved)
+      positions.insert(target_index, moved)
     end
 
     input
   end
 
   def mutating_cyclic
-    (0...input.length).each do |i|
-      while sequence[i] != i
-        j = sequence[i]
+    (0...input.length).each do |source_index|
+      while sequence[source_index] != source_index
+        target_index = sequence[source_index]
 
-        input[i], input[j] = input[j], input[i]
-        sequence[i], sequence[j] = sequence[j], sequence[i]
+        input[source_index], input[target_index] = input[target_index], input[source_index]
+        sequence[source_index], sequence[target_index] = sequence[target_index], sequence[source_index]
       end
     end
 
     input
   end
-
 
   def benchmark
     puts "Benchmarking.."
@@ -76,7 +75,6 @@ class Reorder
     end
   end
 end
-
 
 if __FILE__ == $PROGRAM_NAME
   algorithm = ARGV[0]

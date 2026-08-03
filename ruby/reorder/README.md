@@ -29,8 +29,8 @@ This is a naïve solution: allocate the destination array, and then assign the i
 ```ruby
   def non_mutating
     result = Array.new(input.length)
-    sequence.each_with_index do |item, index|
-      result[item] = input[index]
+    sequence.each_with_index do |target_index, source_index|
+      result[target_index] = input[source_index]
     end
     result
   end
@@ -60,15 +60,15 @@ Here's a simple approach that deletes and re-inserts items in the array:
   def mutating_simple
     positions = (0...input.size).to_a
 
-    sequence.each_with_index do |target, original|
-      current = positions.index(original)
-      next if current == target
+    sequence.each_with_index do |target_index, source_index|
+      current = positions.index(source_index)
+      next if current == target_index
 
       value = input.delete_at(current)
-      input.insert(target, value)
+      input.insert(target_index, value)
 
       moved = positions.delete_at(current)
-      positions.insert(target, moved)
+      positions.insert(target_index, moved)
     end
 
     input
@@ -89,16 +89,17 @@ Result: ["D", "F", "G", "C", "E", "H"]
 
 Can we avoid all the memory re-allocation associated with deletes and inserts?
 Yes, but it makes the tracking problem more complex to grasp.
+Essentially, when we swap items in the source array, we swap the same items in the sequence array so they remain in line.
 Technically, this is a [Cyclic permutation algorithm](https://en.wikipedia.org/wiki/Cyclic_permutation).
 
 ```ruby
   def mutating_cyclic
-    (0...input.length).each do |i|
-      while sequence[i] != i
-        j = sequence[i]
+    (0...input.length).each do |source_index|
+      while sequence[source_index] != source_index
+        target_index = sequence[source_index]
 
-        input[i], input[j] = input[j], input[i]
-        sequence[i], sequence[j] = sequence[j], sequence[i]
+        input[source_index], input[target_index] = input[target_index], input[source_index]
+        sequence[source_index], sequence[target_index] = sequence[target_index], sequence[source_index]
       end
     end
 
@@ -179,7 +180,7 @@ class Reorder
   end
 
   def non_mutating
-    result = Array.new(input.length, false)
+    result = Array.new(input.length)
     sequence.each_with_index do |target_index, source_index|
       result[target_index] = input[source_index]
     end
@@ -191,33 +192,32 @@ class Reorder
   def mutating_simple
     positions = (0...input.size).to_a
 
-    sequence.each_with_index do |target, original|
-      current = positions.index(original)
-      next if current == target
+    sequence.each_with_index do |target_index, source_index|
+      current = positions.index(source_index)
+      next if current == target_index
 
       value = input.delete_at(current)
-      input.insert(target, value)
+      input.insert(target_index, value)
 
       moved = positions.delete_at(current)
-      positions.insert(target, moved)
+      positions.insert(target_index, moved)
     end
 
     input
   end
 
   def mutating_cyclic
-    (0...input.length).each do |i|
-      while sequence[i] != i
-        j = sequence[i]
+    (0...input.length).each do |source_index|
+      while sequence[source_index] != source_index
+        target_index = sequence[source_index]
 
-        input[i], input[j] = input[j], input[i]
-        sequence[i], sequence[j] = sequence[j], sequence[i]
+        input[source_index], input[target_index] = input[target_index], input[source_index]
+        sequence[source_index], sequence[target_index] = sequence[target_index], sequence[source_index]
       end
     end
 
     input
   end
-
 
   def benchmark
     puts "Benchmarking.."
@@ -245,7 +245,6 @@ class Reorder
   end
 end
 
-
 if __FILE__ == $PROGRAM_NAME
   algorithm = ARGV[0]
   if algorithm == 'benchmark'
@@ -261,7 +260,6 @@ if __FILE__ == $PROGRAM_NAME
     puts "Result: #{calculator.send(algorithm).inspect}"
   end
 end
-
 ```
 
 ## Credits and References
