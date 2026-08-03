@@ -11,7 +11,7 @@ class Reorder
   end
 
   def non_mutating
-    result = Array.new(input.length, false)
+    result = Array.new(input.length)
     sequence.each_with_index do |target_index, source_index|
       result[target_index] = input[source_index]
     end
@@ -50,7 +50,6 @@ class Reorder
     input
   end
 
-
   def benchmark
     puts "Benchmarking.."
     sample_input = ['C', 'D', 'E', 'F', 'G', 'H']
@@ -76,7 +75,6 @@ class Reorder
     end
   end
 end
-
 
 if __FILE__ == $PROGRAM_NAME
   algorithm = ARGV[0]
