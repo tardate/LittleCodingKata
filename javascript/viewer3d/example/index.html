@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Viewer3D Demo</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="./jo3dview.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@latest/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@latest/examples/jsm/"
+            }
+        }
+    </script>
+    <script type="module" defer src="./jo3dview.js"></script>
+</head>
+
+<body>
+    <h2>Viewer3D Demo: Citizen Radio</h2>
+    <p>
+      This example renders a <a href="https://sketchfab.com/3d-models/citizen-radio-8e9e404258a9420a9eb99134aec082ec" target="_blank">Radio 3D model</a>
+      made by <a href="https://sketchfab.com/Professor_E12" target="_blank">photon (that one larry)</a>.
+      Go <a href="../">back</a> to my notes on Viewer3D.
+    </p>
+    <div id="mviewer" class="jo3dviewer" style="width: 90vW; height: 80vH;">
+        <div id="mloader" class="jo3dloader"></div>
+    </div>
+    <script type="module">
+        import { view3d } from './jo3dview.js';
+        view3d('mviewer', './citizen_radio.glb', 1.1, 'mloader');
+    </script>
+</body>
+</html>
