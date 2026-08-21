@@ -1,0 +1,16 @@
+.jo3dviewer {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.jo3dloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    font-size: 100%;
+    background: #3c3d4b;
+    padding: 0.7em 1.2em;
+    pointer-events: none;
+}
