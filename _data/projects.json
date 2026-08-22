@@ -1,4 +1,13 @@
 {
+    "/rust/pack-rectangles/": {
+        "id": 475,
+        "title": "packRectangles",
+        "summary": "Using rust to pack boxes; cassidoo's interview question of the week (2026-08-16).",
+        "tags": [
+            "Rust",
+            "cassidoo"
+        ]
+    },
     "/javascript/viewer3d/": {
         "id": 474,
         "title": "Viewer3D",

@@ -1,4 +1,4 @@
-# #xxx packRectangles
+# #475 packRectangles
 
 Using rust to pack boxes; cassidoo's interview question of the week (2026-08-16).
 
