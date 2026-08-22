@@ -1,0 +1,6 @@
+{
+    "name": "packRectangles",
+    "description": "Using rust to pack boxes; cassidoo's interview question of the week (2026-08-16).",
+    "categories": "Rust, cassidoo",
+    "relative_path": "rust/pack-rectangles"
+}
