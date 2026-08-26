@@ -36,7 +36,7 @@ See also:
     > Up-to-date Docs for LLMs and AI code editors
 * [Cursor](https://www.cursor.com/) - see my [full review](./cursor/)
     > Built to make you extraordinarily productive, Cursor is the best way to code with AI.
-* [GitHub Copilot](https://github.com/features/copilot)
+* [GitHub Copilot](https://github.com/features/copilot) - see my [full review](./copilot/)
 * [Lovable](https://lovable.dev/)
     > Create apps and websites by chatting with AI
 * [make.com](https://www.make.com/)
