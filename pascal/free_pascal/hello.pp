@@ -5,6 +5,5 @@
 program hello;
 
   begin
-     writeln('What the Blaises is going on here?');
+    writeln('What the Blaises is going on here?');
   end.
-
