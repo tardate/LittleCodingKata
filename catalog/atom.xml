@@ -7,12 +7,21 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-08-22T02:09:00Z</updated>
+  <updated>2026-09-02T05:28:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/ai/copilot/</id>
+    <link href="https://codingkata.tardate.com/ai/copilot/"/>
+    <updated>2026-09-02T05:28:00Z</updated>
+    <title>#476 GitHub Copilot</title>
+    <summary>Notes on GitHub Copilot.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Notes on GitHub Copilot.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="AI"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/pack-rectangles/</id>
     <link href="https://codingkata.tardate.com/rust/pack-rectangles/"/>

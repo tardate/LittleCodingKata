@@ -1,4 +1,12 @@
 {
+    "/ai/copilot/": {
+        "id": 476,
+        "title": "GitHub Copilot",
+        "summary": "Notes on GitHub Copilot.",
+        "tags": [
+            "AI"
+        ]
+    },
     "/rust/pack-rectangles/": {
         "id": 475,
         "title": "packRectangles",
