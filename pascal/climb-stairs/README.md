@@ -43,7 +43,7 @@ Therefore `f(n)=f(n-1)+f(n-2)` with `f(0)=1`, `f(1)=1`. So:
 |  6 |   13 |
 |  7 |   21 |
 
-And that is... the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence).
+And that is... the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence)!
 
 ### A First Go
 
