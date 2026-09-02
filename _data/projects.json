@@ -1,4 +1,13 @@
 {
+    "/pascal/climb-stairs/": {
+        "id": 477,
+        "title": "climbStairs",
+        "summary": "Using pascal to climb stairs; cassidoo's interview question of the week (2026-08-31).",
+        "tags": [
+            "Pascal",
+            "cassidoo"
+        ]
+    },
     "/ai/copilot/": {
         "id": 476,
         "title": "GitHub Copilot",
