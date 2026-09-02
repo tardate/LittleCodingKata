@@ -1,0 +1,9 @@
+{
+    "name": "climbStairs",
+    "description": "Using pascal to climb stairs; cassidoo's interview question of the week (2026-08-31).",
+    "categories": "Pascal, cassidoo",
+    "relative_path": "pascal/climb-stairs",
+    "updated_at": "2026-09-02T06:13:00Z",
+    "created_at": "2026-09-02T06:13:00Z",
+    "id": "#477"
+}
