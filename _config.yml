@@ -22,8 +22,10 @@ description: >-
 keywords: "Arduino, microcontroller, electronics, embedded, circuits, projects, open source"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://codingkata.tardate.com" # the base hostname & protocol for your site, e.g. http://example.com
+domain: "codingkata.tardate.com" # the base domain name for the site, e.g. example.com
 repo_url: https://github.com/tardate/LittleCodingKata
 repo_name: LittleCodingKata on GitHub
+shortname: lck
 
 feed_path: "/catalog/atom.xml"
 
