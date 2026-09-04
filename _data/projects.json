@@ -1,4 +1,15 @@
 {
+    "/web/goodgifts/": {
+        "id": 478,
+        "title": "GoodGifts",
+        "summary": "Using Copilot CLI to build a simple app to find gift suggestions based on my 5-star reviews and their Goodreads wishlist.",
+        "tags": [
+            "node",
+            "javascript",
+            "HTML",
+            "AI"
+        ]
+    },
     "/pascal/climb-stairs/": {
         "id": 477,
         "title": "climbStairs",

@@ -1,6 +1,6 @@
-# #xxx GoodGifts
+# #478 GoodGifts
 
-Building a simple app to find gift suggestions based on my 5-star reviews and their Goodreads wishlist.
+Using Copilot CLI to build a simple app to find gift suggestions based on my 5-star reviews and their Goodreads wishlist.
 
 ## Notes
 

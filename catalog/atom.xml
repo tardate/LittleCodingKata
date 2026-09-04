@@ -7,12 +7,24 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-09-02T06:13:00Z</updated>
+  <updated>2026-09-04T07:58:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/web/goodgifts/</id>
+    <link href="https://codingkata.tardate.com/web/goodgifts/"/>
+    <updated>2026-09-04T07:58:00Z</updated>
+    <title>#478 GoodGifts</title>
+    <summary>Using Copilot CLI to build a simple app to find gift suggestions based on my 5-star reviews and their Goodreads wishlist.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using Copilot CLI to build a simple app to find gift suggestions based on my 5-star reviews and their Goodreads wishlist.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="node"/>
+    <category term="javascript"/>
+    <category term="HTML"/>
+    <category term="AI"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/pascal/climb-stairs/</id>
     <link href="https://codingkata.tardate.com/pascal/climb-stairs/"/>
