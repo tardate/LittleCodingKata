@@ -11,12 +11,12 @@ and I even used it to pick the book from my recent reads, but failed to check if
 
 Goodreads itself has a friend bookshelf comparison feature, but it doesn't (currently) make it easy to pluck out recommendations.
 
-So, time for a little app for that?
+So, time to build a little app for that?
 
 ### Building with Copilot CLI
 
-I was keen to use this to trial the new [Github Copilot CLI](../../ai/copilot/).
-Up to know, my Github Copilot use largely been restricted to simple changes within vscode.
+I was keen to use this as a case study with the new [Github Copilot CLI](../../ai/copilot/).
+Up to now, my Github Copilot use largely been restricted to simple changes within vscode.
 
 So I went about building the app...and it did a pretty good job!
 
@@ -25,6 +25,9 @@ I used about 10 prompts in total, and my only manual interventions were around t
 * tidy and expand the README
 * manually fix some text content
 * replace the docker control shell script with one based on other work
+
+I did need to read and review the code to identify areas where the AI hadn't done quite the right thing,
+and one bug had me investigating at quite a technical level to figure out how to prompt for a valid fix.
 
 I am using the free Copilot plan, so this cost me nothing to build except perhaps an hour of two of my time.
 
