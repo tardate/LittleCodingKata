@@ -16,10 +16,11 @@
   <entry>
     <id>https://codingkata.tardate.com/web/goodgifts/</id>
     <link href="https://codingkata.tardate.com/web/goodgifts/"/>
+    <g:image_link>https://codingkata.tardate.com/web/goodgifts/assets/goodgifts_build.jpg</g:image_link>
     <updated>2026-09-04T07:58:00Z</updated>
     <title>#478 GoodGifts</title>
     <summary>Using Copilot CLI to build a simple app to find gift suggestions based on my 5-star reviews and their Goodreads wishlist.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Using Copilot CLI to build a simple app to find gift suggestions based on my 5-star reviews and their Goodreads wishlist.&lt;/p&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using Copilot CLI to build a simple app to find gift suggestions based on my 5-star reviews and their Goodreads wishlist.&lt;/p&gt;&lt;img src="https://codingkata.tardate.com/web/goodgifts/assets/goodgifts_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="node"/>
     <category term="javascript"/>
     <category term="HTML"/>
