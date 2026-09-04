@@ -1,5 +1,15 @@
 [
     {
+        "name": "GoodGifts",
+        "description": "Using Copilot CLI to build a simple app to find gift suggestions based on my 5-star reviews and their Goodreads wishlist.",
+        "categories": "node, javascript, HTML, AI",
+        "relative_path": "web/goodgifts",
+        "updated_at": "2026-09-04T07:58:00Z",
+        "created_at": "2026-09-04T07:58:00Z",
+        "id": "#478",
+        "original_relative_path": "web/goodgifts"
+    },
+    {
         "name": "climbStairs",
         "description": "Using pascal to climb stairs; cassidoo's interview question of the week (2026-08-31).",
         "categories": "Pascal, cassidoo",

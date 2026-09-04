@@ -1,6 +1,6 @@
-# 477 Little Coding Katas
+# 478 Little Coding Katas
 
-> Latest addition :sparkles: [climbStairs](./pascal/climb-stairs) - Using pascal to climb stairs; cassidoo's interview question of the week (2026-08-31).
+> Latest addition :sparkles: [GoodGifts](./web/goodgifts) - Using Copilot CLI to build a simple app to find gift suggestions based on my 5-star reviews and their Goodreads wishlist.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
