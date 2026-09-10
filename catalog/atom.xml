@@ -7,12 +7,22 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-09-10T05:10:00Z</updated>
+  <updated>2026-09-10T06:00:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/python/min-moves/</id>
+    <link href="https://codingkata.tardate.com/python/min-moves/"/>
+    <updated>2026-09-10T06:00:00Z</updated>
+    <title>#480 minMoves</title>
+    <summary>Using python to unlock a backpack: cassidoo's interview question of the week (2026-09-06).</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using python to unlock a backpack: cassidoo's interview question of the week (2026-09-06).&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="python"/>
+    <category term="cassidoo"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/tools/prettier/</id>
     <link href="https://codingkata.tardate.com/tools/prettier/"/>

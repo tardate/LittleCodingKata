@@ -1,4 +1,4 @@
-# #xxx minMoves
+# #480 minMoves
 
 Using python to unlock a backpack: cassidoo's interview question of the week (2026-09-06).
 

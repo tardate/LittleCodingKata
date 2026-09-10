@@ -1,4 +1,13 @@
 {
+    "/python/min-moves/": {
+        "id": 480,
+        "title": "minMoves",
+        "summary": "Using python to unlock a backpack: cassidoo's interview question of the week (2026-09-06).",
+        "tags": [
+            "python",
+            "cassidoo"
+        ]
+    },
     "/tools/prettier/": {
         "id": 479,
         "title": "prettier",
