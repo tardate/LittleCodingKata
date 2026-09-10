@@ -1,5 +1,15 @@
 [
     {
+        "name": "minMoves",
+        "description": "Using python to unlock a backpack: cassidoo's interview question of the week (2026-09-06).",
+        "categories": "python, cassidoo",
+        "relative_path": "python/min-moves",
+        "updated_at": "2026-09-10T06:00:00Z",
+        "created_at": "2026-09-10T06:00:00Z",
+        "id": "#480",
+        "original_relative_path": "python/min-moves"
+    },
+    {
         "name": "prettier",
         "description": "About prettier, an opinionated code formatter that supports many languages. Used from the command line or with editor integration.",
         "categories": "tools",

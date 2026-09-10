@@ -1,6 +1,6 @@
-# 479 Little Coding Katas
+# 480 Little Coding Katas
 
-> Latest addition :sparkles: [prettier](./tools/prettier) - About prettier, an opinionated code formatter that supports many languages. Used from the command line or with editor integration.
+> Latest addition :sparkles: [minMoves](./python/min-moves) - Using python to unlock a backpack: cassidoo's interview question of the week (2026-09-06).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
