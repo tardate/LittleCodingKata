@@ -1,6 +1,6 @@
-# 478 Little Coding Katas
+# 479 Little Coding Katas
 
-> Latest addition :sparkles: [GoodGifts](./web/goodgifts) - Using Copilot CLI to build a simple app to find gift suggestions based on my 5-star reviews and their Goodreads wishlist.
+> Latest addition :sparkles: [prettier](./tools/prettier) - About prettier, an opinionated code formatter that supports many languages. Used from the command line or with editor integration.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
