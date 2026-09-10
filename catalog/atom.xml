@@ -7,12 +7,21 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-09-04T07:58:00Z</updated>
+  <updated>2026-09-10T05:10:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/tools/prettier/</id>
+    <link href="https://codingkata.tardate.com/tools/prettier/"/>
+    <updated>2026-09-10T05:10:00Z</updated>
+    <title>#479 prettier</title>
+    <summary>About prettier, an opinionated code formatter that supports many languages. Used from the command line or with editor integration.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;About prettier, an opinionated code formatter that supports many languages. Used from the command line or with editor integration.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="tools"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/web/goodgifts/</id>
     <link href="https://codingkata.tardate.com/web/goodgifts/"/>

@@ -2,5 +2,8 @@
     "name": "prettier",
     "description": "About prettier, an opinionated code formatter that supports many languages. Used from the command line or with editor integration.",
     "categories": "tools",
-    "relative_path": "tools/prettier"
+    "relative_path": "tools/prettier",
+    "updated_at": "2026-09-10T05:10:00Z",
+    "created_at": "2026-09-10T05:10:00Z",
+    "id": "#479"
 }

@@ -1,4 +1,4 @@
-# #xxx prettier
+# #479 prettier
 
 About prettier, an opinionated code formatter that supports many languages. Used from the command line or with editor integration.
 

@@ -1,4 +1,12 @@
 {
+    "/tools/prettier/": {
+        "id": 479,
+        "title": "prettier",
+        "summary": "About prettier, an opinionated code formatter that supports many languages. Used from the command line or with editor integration.",
+        "tags": [
+            "tools"
+        ]
+    },
     "/web/goodgifts/": {
         "id": 478,
         "title": "GoodGifts",
