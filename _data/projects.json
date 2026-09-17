@@ -1,4 +1,13 @@
 {
+    "/ruby/longest-sorted/": {
+        "id": 481,
+        "title": "longestSorted",
+        "summary": "Using ruby to find the longest word whose letters appear in alphabetical order; cassidoo's interview question of the week (2026-09-14).",
+        "tags": [
+            "Ruby",
+            "cassidoo"
+        ]
+    },
     "/python/min-moves/": {
         "id": 480,
         "title": "minMoves",
