@@ -1,6 +1,6 @@
-# 480 Little Coding Katas
+# 481 Little Coding Katas
 
-> Latest addition :sparkles: [minMoves](./python/min-moves) - Using python to unlock a backpack: cassidoo's interview question of the week (2026-09-06).
+> Latest addition :sparkles: [longestSorted](./ruby/longest-sorted) - Using ruby to find the longest word whose letters appear in alphabetical order; cassidoo's interview question of the week (2026-09-14).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

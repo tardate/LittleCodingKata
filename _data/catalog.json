@@ -1,5 +1,15 @@
 [
     {
+        "name": "longestSorted",
+        "description": "Using ruby to find the longest word whose letters appear in alphabetical order; cassidoo's interview question of the week (2026-09-14).",
+        "categories": "Ruby, cassidoo",
+        "relative_path": "ruby/longest-sorted",
+        "updated_at": "2026-09-17T06:23:00Z",
+        "created_at": "2026-09-17T06:23:00Z",
+        "id": "#481",
+        "original_relative_path": "ruby/longest-sorted"
+    },
+    {
         "name": "minMoves",
         "description": "Using python to unlock a backpack: cassidoo's interview question of the week (2026-09-06).",
         "categories": "python, cassidoo",

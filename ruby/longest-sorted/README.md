@@ -1,4 +1,4 @@
-# #xxx longestSorted
+# #481 longestSorted
 
 Using ruby to find the longest word whose letters appear in alphabetical order; cassidoo's interview question of the week (2026-09-14).
 
