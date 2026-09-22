@@ -1,4 +1,13 @@
 {
+    "/rust/get-sundays/": {
+        "id": 482,
+        "title": "getSundays",
+        "summary": "Using rust to find all the Sundays in a given month; cassidoo's interview question of the week (2026-09-21)",
+        "tags": [
+            "Rust",
+            "cassidoo"
+        ]
+    },
     "/ruby/longest-sorted/": {
         "id": 481,
         "title": "longestSorted",

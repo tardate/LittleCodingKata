@@ -1,4 +1,4 @@
-# #xxx getSundays
+# #482 getSundays
 
 Using rust to find all the Sundays in a given month; cassidoo's interview question of the week (2026-09-21).
 
