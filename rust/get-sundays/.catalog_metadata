@@ -1,0 +1,6 @@
+{
+    "name": "getSundays",
+    "description": "Using rust to find all the Sundays in a given month; cassidoo's interview question of the week (2026-09-21)",
+    "categories": "Rust, cassidoo",
+    "relative_path": "rust/get-sundays"
+}
