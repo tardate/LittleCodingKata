@@ -1,6 +1,6 @@
-# 481 Little Coding Katas
+# 482 Little Coding Katas
 
-> Latest addition :sparkles: [longestSorted](./ruby/longest-sorted) - Using ruby to find the longest word whose letters appear in alphabetical order; cassidoo's interview question of the week (2026-09-14).
+> Latest addition :sparkles: [getSundays](./rust/get-sundays) - Using rust to find all the Sundays in a given month; cassidoo's interview question of the week (2026-09-21)
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
