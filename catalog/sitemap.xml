@@ -1,6 +1,24 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://codingkata.tardate.com/books/twisted-network-programming-essentials/</loc>
+  </url>
+  <url>
+    <loc>https://codingkata.tardate.com/books/test-driven-development-with-python/</loc>
+  </url>
+  <url>
+    <loc>https://codingkata.tardate.com/books/functional-programming-in-python/</loc>
+  </url>
+  <url>
+    <loc>https://codingkata.tardate.com/books/fluent-python/</loc>
+  </url>
+  <url>
+    <loc>https://codingkata.tardate.com/books/programming-python/</loc>
+  </url>
+  <url>
+    <loc>https://codingkata.tardate.com/books/django-design-patterns-and-best-practices/</loc>
+  </url>
+  <url>
     <loc>https://codingkata.tardate.com/rust/get-sundays/</loc>
   </url>
   <url>
