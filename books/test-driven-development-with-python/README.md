@@ -146,8 +146,8 @@ I first got this in its beta release for the first edition. The third edition wa
         * Refactor: Transferring the new_item Functionality into view_list
         * Enforcing Model Validation in view_list
     * Refactor: Removing Hardcoded URLs
-        * The {% url %} Template Tag
-    * Using get_absolute_url for Redirects
+        * The `{\% url \%}` Template Tag
+    * Using `get_absolute_url` for Redirects
 * 11 - A Simple Form
     * Moving Validation Logic into a Form
         * Exploring the Forms API with a Unit Test
