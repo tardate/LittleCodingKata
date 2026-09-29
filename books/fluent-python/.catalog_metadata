@@ -2,5 +2,8 @@
     "name": "Fluent Python",
     "description": "Book Notes - Fluent Python: Clear, Concise, and Effective Programming by Luciano Ramalho. First published January 25, 2015.",
     "categories": "python, Books",
-    "relative_path": "books/fluent-python"
+    "relative_path": "books/fluent-python",
+    "updated_at": "2026-09-29T07:21:00Z",
+    "created_at": "2026-09-29T07:21:00Z",
+    "id": "#485"
 }

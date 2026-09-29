@@ -1,4 +1,4 @@
-# #xxx Fluent Python
+# #485 Fluent Python
 
 Book Notes - Fluent Python: Clear, Concise, and Effective Programming by Luciano Ramalho.
 First published January 25, 2015.

@@ -2,5 +2,8 @@
     "name": "Functional Programming in Python",
     "description": "Book notes - Functional Programming in Python by David Mertz. An O'Reilly report published May 1, 2015.",
     "categories": "python, Books",
-    "relative_path": "books/functional-programming-in-python"
+    "relative_path": "books/functional-programming-in-python",
+    "updated_at": "2026-09-29T07:21:00Z",
+    "created_at": "2026-09-29T07:21:00Z",
+    "id": "#486"
 }

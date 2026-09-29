@@ -1,4 +1,4 @@
-# #xxx Test-Driven Development with Python
+# #487 Test-Driven Development with Python
 
 Book Notes - Test-Driven Development with Python: Obey the Testing Goat: Using Django, Selenium, and JavaScript by Harry Percival.
 First published January 1, 2010. Third Edition 2025.

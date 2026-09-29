@@ -1,4 +1,4 @@
-# #xxx Functional Programming in Python
+# #486 Functional Programming in Python
 
 Book notes - Functional Programming in Python by David Mertz. An O'Reilly report published May 1, 2015.
 

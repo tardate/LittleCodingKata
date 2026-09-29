@@ -1,4 +1,4 @@
-# #xxx Django Design Patterns and Best Practices
+# #483 Django Design Patterns and Best Practices
 
 Book Notes - Django Design Patterns and Best Practices, by Arun Ravindran.
 First published March 1, 2015. 4th Edition 2011.

@@ -7,12 +7,72 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-09-22T14:03:00Z</updated>
+  <updated>2026-09-29T07:21:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/books/twisted-network-programming-essentials/</id>
+    <link href="https://codingkata.tardate.com/books/twisted-network-programming-essentials/"/>
+    <updated>2026-09-29T07:21:00Z</updated>
+    <title>#488 Twisted Network Programming Essentials</title>
+    <summary>Book Notes - Twisted Network Programming Essentials: Event-driven Network Programming with Python by Jessica McKellar, Abe Fettig. First published February 12, 2005. Second Edition 2013.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book Notes - Twisted Network Programming Essentials: Event-driven Network Programming with Python by Jessica McKellar, Abe Fettig. First published February 12, 2005. Second Edition 2013.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="python"/>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/books/test-driven-development-with-python/</id>
+    <link href="https://codingkata.tardate.com/books/test-driven-development-with-python/"/>
+    <updated>2026-09-29T07:21:00Z</updated>
+    <title>#487 Test-Driven Development with Python</title>
+    <summary>Book Notes - Test-Driven Development with Python: Obey the Testing Goat: Using Django, Selenium, and JavaScript by Harry Percival. First published January 1, 2010. Third Edition 2025.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book Notes - Test-Driven Development with Python: Obey the Testing Goat: Using Django, Selenium, and JavaScript by Harry Percival. First published January 1, 2010. Third Edition 2025.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="python"/>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/books/functional-programming-in-python/</id>
+    <link href="https://codingkata.tardate.com/books/functional-programming-in-python/"/>
+    <updated>2026-09-29T07:21:00Z</updated>
+    <title>#486 Functional Programming in Python</title>
+    <summary>Book notes - Functional Programming in Python by David Mertz. An O'Reilly report published May 1, 2015.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes - Functional Programming in Python by David Mertz. An O'Reilly report published May 1, 2015.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="python"/>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/books/fluent-python/</id>
+    <link href="https://codingkata.tardate.com/books/fluent-python/"/>
+    <updated>2026-09-29T07:21:00Z</updated>
+    <title>#485 Fluent Python</title>
+    <summary>Book Notes - Fluent Python: Clear, Concise, and Effective Programming by Luciano Ramalho. First published January 25, 2015.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book Notes - Fluent Python: Clear, Concise, and Effective Programming by Luciano Ramalho. First published January 25, 2015.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="python"/>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/books/programming-python/</id>
+    <link href="https://codingkata.tardate.com/books/programming-python/"/>
+    <updated>2026-09-29T07:21:00Z</updated>
+    <title>#484 Programming Python</title>
+    <summary>Book Notes - Programming Python: Powerful Object-Oriented Programming, 4th Edition, by Mark Lutz. First published January 1, 1996. 4th Edition 2011.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book Notes - Programming Python: Powerful Object-Oriented Programming, 4th Edition, by Mark Lutz. First published January 1, 1996. 4th Edition 2011.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="python"/>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://codingkata.tardate.com/books/django-design-patterns-and-best-practices/</id>
+    <link href="https://codingkata.tardate.com/books/django-design-patterns-and-best-practices/"/>
+    <updated>2026-09-29T07:21:00Z</updated>
+    <title>#483 Django Design Patterns and Best Practices</title>
+    <summary>Book Notes - Django Design Patterns and Best Practices, by Arun Ravindran. First published March 1, 2015. 4th Edition 2011.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book Notes - Django Design Patterns and Best Practices, by Arun Ravindran. First published March 1, 2015. 4th Edition 2011.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="python"/>
+    <category term="Books"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/rust/get-sundays/</id>
     <link href="https://codingkata.tardate.com/rust/get-sundays/"/>

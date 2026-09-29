@@ -2,5 +2,8 @@
     "name": "Twisted Network Programming Essentials",
     "description": "Book Notes - Twisted Network Programming Essentials: Event-driven Network Programming with Python by Jessica McKellar, Abe Fettig. First published February 12, 2005. Second Edition 2013.",
     "categories": "python, Books",
-    "relative_path": "books/twisted-network-programming-essentials"
+    "relative_path": "books/twisted-network-programming-essentials",
+    "updated_at": "2026-09-29T07:21:00Z",
+    "created_at": "2026-09-29T07:21:00Z",
+    "id": "#488"
 }
