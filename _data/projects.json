@@ -1,4 +1,13 @@
 {
+    "/python/first-frost/": {
+        "id": 489,
+        "title": "firstFrost",
+        "summary": "Using python to find the first frost: cassidoo's interview question of the week (2026-09-28).",
+        "tags": [
+            "python",
+            "cassidoo"
+        ]
+    },
     "/books/twisted-network-programming-essentials/": {
         "id": 488,
         "title": "Twisted Network Programming Essentials",
