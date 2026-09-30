@@ -1,6 +1,6 @@
-# 488 Little Coding Katas
+# 489 Little Coding Katas
 
-> Latest addition :sparkles: [Twisted Network Programming Essentials](./books/twisted-network-programming-essentials) - Book Notes - Twisted Network Programming Essentials: Event-driven Network Programming with Python by Jessica McKellar, Abe Fettig. First published February 12, 2005. Second Edition 2013.
+> Latest addition :sparkles: [firstFrost](./python/first-frost) - Using python to find the first frost: cassidoo's interview question of the week (2026-09-28).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

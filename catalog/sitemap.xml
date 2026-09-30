@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://codingkata.tardate.com/python/first-frost/</loc>
+  </url>
+  <url>
     <loc>https://codingkata.tardate.com/books/twisted-network-programming-essentials/</loc>
   </url>
   <url>
