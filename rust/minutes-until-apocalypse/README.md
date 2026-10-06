@@ -41,15 +41,13 @@ but for zombies!
 Let's start a new challenge in rust.
 I'm using [serde_json](https://docs.rs/serde_json/latest/serde_json/) to parse the input.
 I'm also adding
-[exitfailure](https://crates.io/crates/exitfailure)
-and [failure](https://docs.rs/failure/latest/failure/) crates for more friendly error messages to be returned.
+[anyhow](https://crates.io/crates/anyhow) crate for more friendly error messages to be returned.
 
 ```sh
 cargo new challenge
 cd challenge
 cargo add serde_json
-cargo add exitfailure
-cargo add failure
+cargo add anyhow
 ```
 
 Here's a first run at an algorithm to maps the spread
@@ -101,6 +99,10 @@ pub fn minutes_until_apocalypse(grid: &Vec<Vec<i32>>) -> i32 {
 Let's test it with the example data sets
 
 ```sh
+$ cargo run
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.00s
+     Running `target/debug/challenge`
+Error: Usage: challenge <grid.json>
 $ cat ../data_eg1.json
 [
   [2, 1, 1],
@@ -108,7 +110,7 @@ $ cat ../data_eg1.json
   [0, 1, 1]
 ]
 $ cargo run -- ../data_eg1.json
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.01s
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.00s
      Running `target/debug/challenge ../data_eg1.json`
 # Given grid : [[2, 1, 1], [1, 1, 0], [0, 1, 1]]
 # Result:
@@ -120,7 +122,7 @@ $ cat ../data_eg2.json
   [1, 0, 1]
 ]
 $ cargo run -- ../data_eg2.json
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.01s
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.00s
      Running `target/debug/challenge ../data_eg2.json`
 # Given grid : [[2, 1, 1], [0, 1, 1], [1, 0, 1]]
 # Result:
@@ -169,18 +171,15 @@ Final code comprises:
 [main.rs](./challenge/src/main.rs):
 
 ```rust
-use exitfailure::ExitFailure;
-use failure::ResultExt;
+use anyhow::{Context, Result};
 use serde_json;
 
 use challenge::minutes_until_apocalypse;
 
-fn main() -> Result<(), ExitFailure> {
+fn main() -> Result<()> {
     let args: Vec<String> = std::env::args().collect();
     if args.len() != 2 {
-        return Err(ExitFailure::from(
-            failure::err_msg("Usage: challenge <grid.json>")
-        ));
+        return Err(anyhow::anyhow!("Usage: challenge <grid.json>"));
     }
 
     let grid_str = std::fs::read_to_string(&args[1])
@@ -276,6 +275,6 @@ mod tests {
 
 * [cassidoo's interview question of the week (2026-10-04)](https://buttondown.com/cassidoo/archive/u1f3a4-to-be-different-is-great-you-dont-want-to/)
 * [serde_json](https://docs.rs/serde_json/latest/serde_json/)
-* [failure](https://docs.rs/failure/latest/failure/)
-* [exitfailure](https://crates.io/crates/exitfailure)
+* [anyhow](https://crates.io/crates/anyhow) crate
+    * a more modern approach for handling errors than [failure](https://docs.rs/failure/latest/failure/) and [exitfailure](https://crates.io/crates/exitfailure)
 * [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
