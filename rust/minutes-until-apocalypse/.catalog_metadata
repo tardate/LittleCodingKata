@@ -1,0 +1,6 @@
+{
+    "name": "minutesUntilApocalypse",
+    "description": "Using rust to survive the zombie apocalypse aka Cassidoo's Game of Death! Interview question of the week (2026-10-04).",
+    "categories": "Rust, cassidoo",
+    "relative_path": "rust/minutes-until-apocalypse"
+}
