@@ -39,8 +39,7 @@ but for zombies!
 ### Initial Solution
 
 Let's start a new challenge in rust.
-I'm using [serde_json](https://docs.rs/serde_json/latest/serde_json/) to parse the input and pretty-print
-the results, however this means that the order and styling of the output values are determined by the internal implementation.
+I'm using [serde_json](https://docs.rs/serde_json/latest/serde_json/) to parse the input.
 I'm also adding
 [exitfailure](https://crates.io/crates/exitfailure)
 and [failure](https://docs.rs/failure/latest/failure/) crates for more friendly error messages to be returned.
