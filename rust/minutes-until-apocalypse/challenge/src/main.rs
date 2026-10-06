@@ -16,7 +16,6 @@ fn main() -> Result<(), ExitFailure> {
         .context(format!("Failed to read grid file: {}", args[1]))?;
     let grid: Vec<Vec<i32>> = serde_json::from_str(&grid_str)
         .context("Failed to parse grid JSON")?;
-
     eprintln!("# Given grid : {:?}", grid);
 
     let result = minutes_until_apocalypse(&grid);

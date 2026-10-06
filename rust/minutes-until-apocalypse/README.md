@@ -34,7 +34,7 @@ While processing, the main trap to avoid is to have changed states cascade withi
 While perhaps not memory efficient, the simplest approach is probably to generate a new result array for each game turn, and repeat for as many turns as required before no state changes occur.
 
 This is basically a version of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life),
-but for death!
+but for zombies!
 
 ### Initial Solution
 
@@ -46,7 +46,7 @@ I'm also adding
 and [failure](https://docs.rs/failure/latest/failure/) crates for more friendly error messages to be returned.
 
 ```sh
-carge new challenge
+cargo new challenge
 cd challenge
 cargo add serde_json
 cargo add exitfailure
@@ -188,7 +188,6 @@ fn main() -> Result<(), ExitFailure> {
         .context(format!("Failed to read grid file: {}", args[1]))?;
     let grid: Vec<Vec<i32>> = serde_json::from_str(&grid_str)
         .context("Failed to parse grid JSON")?;
-
     eprintln!("# Given grid : {:?}", grid);
 
     let result = minutes_until_apocalypse(&grid);
