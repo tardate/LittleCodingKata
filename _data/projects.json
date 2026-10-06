@@ -1,4 +1,13 @@
 {
+    "/rust/minutes-until-apocalypse/": {
+        "id": 490,
+        "title": "minutesUntilApocalypse",
+        "summary": "Using rust to survive the zombie apocalypse aka Cassidoo's Game of Death! Interview question of the week (2026-10-04).",
+        "tags": [
+            "Rust",
+            "cassidoo"
+        ]
+    },
     "/python/first-frost/": {
         "id": 489,
         "title": "firstFrost",

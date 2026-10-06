@@ -1,6 +1,6 @@
-# 489 Little Coding Katas
+# 490 Little Coding Katas
 
-> Latest addition :sparkles: [firstFrost](./python/first-frost) - Using python to find the first frost: cassidoo's interview question of the week (2026-09-28).
+> Latest addition :sparkles: [minutesUntilApocalypse](./rust/minutes-until-apocalypse) - Using rust to survive the zombie apocalypse aka Cassidoo's Game of Death! Interview question of the week (2026-10-04).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
