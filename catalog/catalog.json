@@ -1,5 +1,15 @@
 [
     {
+        "name": "minutesUntilApocalypse",
+        "description": "Using rust to survive the zombie apocalypse aka Cassidoo's Game of Death! Interview question of the week (2026-10-04).",
+        "categories": "Rust, cassidoo",
+        "relative_path": "rust/minutes-until-apocalypse",
+        "updated_at": "2026-10-06T12:27:00Z",
+        "created_at": "2026-10-06T12:27:00Z",
+        "id": "#490",
+        "original_relative_path": "rust/minutes-until-apocalypse"
+    },
+    {
         "name": "firstFrost",
         "description": "Using python to find the first frost: cassidoo's interview question of the week (2026-09-28).",
         "categories": "python, cassidoo",

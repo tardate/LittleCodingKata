@@ -1,4 +1,4 @@
-# #xxx minutesUntilApocalypse
+# #490 minutesUntilApocalypse
 
 Using rust to survive the zombie apocalypse aka Cassidoo's Game of Death! Interview question of the week (2026-10-04).
 
