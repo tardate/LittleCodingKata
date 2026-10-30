@@ -1,4 +1,13 @@
 {
+    "/ruby/halloween-swap/": {
+        "id": 491,
+        "title": "halloweenSwap",
+        "summary": "Using ruby to swap halloween costumes: cassidoo's interview question of the week (2026-10-25).",
+        "tags": [
+            "Ruby",
+            "cassidoo"
+        ]
+    },
     "/rust/minutes-until-apocalypse/": {
         "id": 490,
         "title": "minutesUntilApocalypse",

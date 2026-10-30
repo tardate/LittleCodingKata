@@ -1,6 +1,6 @@
-# 490 Little Coding Katas
+# 491 Little Coding Katas
 
-> Latest addition :sparkles: [minutesUntilApocalypse](./rust/minutes-until-apocalypse) - Using rust to survive the zombie apocalypse aka Cassidoo's Game of Death! Interview question of the week (2026-10-04).
+> Latest addition :sparkles: [halloweenSwap](./ruby/halloween-swap) - Using ruby to swap halloween costumes: cassidoo's interview question of the week (2026-10-25).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

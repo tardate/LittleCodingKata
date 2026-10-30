@@ -2,5 +2,8 @@
     "name": "halloweenSwap",
     "description": "Using ruby to swap halloween costumes: cassidoo's interview question of the week (2026-10-25).",
     "categories": "Ruby, cassidoo",
-    "relative_path": "ruby/halloween-swap"
+    "relative_path": "ruby/halloween-swap",
+    "updated_at": "2026-10-30T14:50:00Z",
+    "created_at": "2026-10-30T14:50:00Z",
+    "id": "#491"
 }
