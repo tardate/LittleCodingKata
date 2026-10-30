@@ -12,9 +12,10 @@ class Challenge
 end
 
 if __FILE__ == $PROGRAM_NAME
-  (puts "Usage: ruby #{$0} <param1>"; exit) unless ARGV.length == 1
+  (warn "Usage: ruby #{$0} <param1>"; exit) unless ARGV.length == 1
   param1 = ARGV[0]
   calculator = Challenge.new(param1)
-  puts "Param1: #{calculator.param1.inspect}"
-  puts "Result: #{calculator.result.inspect}"
+  warn "Param1: #{calculator.param1.inspect}"
+  warn 'Result'
+  puts calculator.result.inspect
 end
