@@ -1,6 +1,6 @@
-# 491 Little Coding Katas
+# 492 Little Coding Katas
 
-> Latest addition :sparkles: [halloweenSwap](./ruby/halloween-swap) - Using ruby to swap halloween costumes: cassidoo's interview question of the week (2026-10-25).
+> Latest addition :sparkles: [elapsedMinutes](./ruby/elapsed-minutes) - Using ruby to count the winks when the clocks go back: cassidoo's interview question of the week (2026-11-01).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
