@@ -90,8 +90,8 @@ So let's relax a little and switch it out for the [Time class](https://docs.ruby
 require 'time'
 
 def elapsedMinutes(timestamps)
-  t1 = Time.strptime(timestamps.first, "%H:%M")
-  t2 = Time.strptime(timestamps.last, "%H:%M")
+  t1 = Time.strptime(timestamps.first, "%H:%M").to_i
+  t2 = Time.strptime(timestamps.last, "%H:%M").to_i
   (t2 - t1) / 60 + 60
 end
 ```
