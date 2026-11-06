@@ -16,6 +16,6 @@ if __FILE__ == $PROGRAM_NAME
   param1 = ARGV[0]
   calculator = Challenge.new(param1)
   warn "Param1: #{calculator.param1.inspect}"
-  warn 'Result'
+  warn 'Result:'
   puts calculator.result.inspect
 end
