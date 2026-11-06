@@ -1,4 +1,13 @@
 {
+    "/ruby/elapsed-minutes/": {
+        "id": 492,
+        "title": "elapsedMinutes",
+        "summary": "Using ruby to count the winks when the clocks go back: cassidoo's interview question of the week (2026-11-01).",
+        "tags": [
+            "Ruby",
+            "cassidoo"
+        ]
+    },
     "/ruby/halloween-swap/": {
         "id": 491,
         "title": "halloweenSwap",
