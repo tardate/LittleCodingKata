@@ -1,0 +1,6 @@
+{
+    "name": "Hex Fiend",
+    "description": "About Hex Fiend, an open source hex editor for macOS, with a test of using it to modify macOS executables.",
+    "categories": "tools, macOS",
+    "relative_path": "tools/hexfiend"
+}
