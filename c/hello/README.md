@@ -5,9 +5,9 @@ The clichéd starting point, in C.
 ## Notes
 
 Using [printf](https://www.tutorialspoint.com/c_standard_library/c_function_printf.htm)
-from the standard libary, in the most basic definition of a main program:
+from the standard library, in the most basic definition of a main program:
 
-```
+```c
 #include <stdio.h>
 
 int main() {
@@ -17,13 +17,17 @@ int main() {
 
 ### Running the Example
 
-See [example.c](./example.c) for details. A makefile compiles and runs:
+See [example.c](./example.c) for details.
+Use the [makefile](./makefile) to compile and run:
 
-```
+```sh
 $ make
-gcc -g -Wall -O3    hello.c   -o hello
+gcc -Wall -O3    hello.c   -o hello
 $ ./hello
 Hello, world.
+$ make clean
+rm -f hello *.o
+rm -fR *.dSYM
 ```
 
 ## Credits and References
