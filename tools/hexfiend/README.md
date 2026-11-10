@@ -1,4 +1,4 @@
-# #xxx Hex Fiend
+# #493 Hex Fiend
 
 About Hex Fiend, an open source hex editor for macOS, with a test of using it to modify macOS executables.
 

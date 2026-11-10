@@ -1,6 +1,6 @@
-# 492 Little Coding Katas
+# 493 Little Coding Katas
 
-> Latest addition :sparkles: [elapsedMinutes](./ruby/elapsed-minutes) - Using ruby to count the winks when the clocks go back: cassidoo's interview question of the week (2026-11-01).
+> Latest addition :sparkles: [Hex Fiend](./tools/hexfiend) - About Hex Fiend, an open source hex editor for macOS, with a test of using it to modify macOS executables.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
