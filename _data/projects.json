@@ -1,4 +1,13 @@
 {
+    "/tools/hexfiend/": {
+        "id": 493,
+        "title": "Hex Fiend",
+        "summary": "About Hex Fiend, an open source hex editor for macOS, with a test of using it to modify macOS executables.",
+        "tags": [
+            "tools",
+            "macOS"
+        ]
+    },
     "/ruby/elapsed-minutes/": {
         "id": 492,
         "title": "elapsedMinutes",

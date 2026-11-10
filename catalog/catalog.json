@@ -1,5 +1,15 @@
 [
     {
+        "name": "Hex Fiend",
+        "description": "About Hex Fiend, an open source hex editor for macOS, with a test of using it to modify macOS executables.",
+        "categories": "tools, macOS",
+        "relative_path": "tools/hexfiend",
+        "updated_at": "2026-11-10T15:18:00Z",
+        "created_at": "2026-11-10T15:18:00Z",
+        "id": "#493",
+        "original_relative_path": "tools/hexfiend"
+    },
+    {
         "name": "elapsedMinutes",
         "description": "Using ruby to count the winks when the clocks go back: cassidoo's interview question of the week (2026-11-01).",
         "categories": "Ruby, cassidoo",
