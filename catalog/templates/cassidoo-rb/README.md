@@ -8,7 +8,7 @@ The [interview question of the week (2026-mm-dd)](url):
 
 >
 >
-> Example:
+> Examples:
 >
 > ```ts
 >
@@ -36,4 +36,4 @@ Final code is in [challenge.rb](./challenge.rb):
 
 ## Credits and References
 
-* [cassidoo's interview question of the week (2026-mm-yy)](url)
+* [cassidoo's interview question of the week (2026-mm-dd)](url)

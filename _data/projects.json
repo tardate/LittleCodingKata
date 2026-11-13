@@ -1,4 +1,13 @@
 {
+    "/ruby/comeback-round/": {
+        "id": 494,
+        "title": "comebackRound",
+        "summary": "Using ruby to find when the winner broke from the pack: cassidoo's interview question of the week (2026-11-08).",
+        "tags": [
+            "Ruby",
+            "cassidoo"
+        ]
+    },
     "/tools/hexfiend/": {
         "id": 493,
         "title": "Hex Fiend",
