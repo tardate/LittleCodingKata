@@ -1,0 +1,6 @@
+{
+    "name": "yt-dlp",
+    "description": "About yt-dlp, a full featured command-line audio/video downloader",
+    "categories": "tools, macOS",
+    "relative_path": "tools/yt-dlp"
+}
