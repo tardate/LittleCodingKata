@@ -1,6 +1,6 @@
-# 495 Little Coding Katas
+# 496 Little Coding Katas
 
-> Latest addition :sparkles: [yt-dlp](./tools/yt-dlp) - About yt-dlp, a full featured command-line audio/video downloader
+> Latest addition :sparkles: [findJoeys](./perl/find-joeys) - Using perl to find synonyms hiding within their alter ego: cassidoo's interview question of the week (2026-11-16).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

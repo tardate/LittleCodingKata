@@ -1,6 +1,6 @@
-# #xxx find-joeys
+# #496 findJoeys
 
-Using perl to solve: cassidoo's interview question of the week (2026-11-16).
+Using perl to find synonyms hiding within their alter ego: cassidoo's interview question of the week (2026-11-16).
 
 ## Notes
 

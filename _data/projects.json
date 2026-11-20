@@ -1,4 +1,13 @@
 {
+    "/perl/find-joeys/": {
+        "id": 496,
+        "title": "findJoeys",
+        "summary": "Using perl to find synonyms hiding within their alter ego: cassidoo's interview question of the week (2026-11-16).",
+        "tags": [
+            "Perl",
+            "cassidoo"
+        ]
+    },
     "/tools/yt-dlp/": {
         "id": 495,
         "title": "yt-dlp",
