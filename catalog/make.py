@@ -404,6 +404,7 @@ class Catalog(object):
         self._create_from_text_template('template.ino', os.path.join(project_path, f'{project_name}.ino'), substitutions)
         self._copy_template_files('*.rb', project_path)
         self._copy_template_files('*.py', project_path)
+        self._copy_template_files('*.pl', project_path)
 
         template_fzz = os.path.join(self.template_path, 'template.fzz')
         if os.path.exists(template_fzz):
