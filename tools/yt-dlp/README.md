@@ -1,4 +1,4 @@
-# #xxx yt-dlp
+# #495 yt-dlp
 
 About yt-dlp, a full featured command-line audio/video downloader
 
@@ -24,7 +24,7 @@ brew install yt-dlp
 There are a plethora of options to [learn about](https://github.com/yt-dlp/yt-dlp#readme),
 but what I really appreciate are the preset aliases that are good for 99% of situations:
 
-```
+```sh
 $ yt-dlp --help
 ...
   Preset Aliases:

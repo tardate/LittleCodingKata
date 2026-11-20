@@ -1,4 +1,13 @@
 {
+    "/tools/yt-dlp/": {
+        "id": 495,
+        "title": "yt-dlp",
+        "summary": "About yt-dlp, a full featured command-line audio/video downloader",
+        "tags": [
+            "tools",
+            "macOS"
+        ]
+    },
     "/ruby/comeback-round/": {
         "id": 494,
         "title": "comebackRound",

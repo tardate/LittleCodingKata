@@ -2,5 +2,8 @@
     "name": "yt-dlp",
     "description": "About yt-dlp, a full featured command-line audio/video downloader",
     "categories": "tools, macOS",
-    "relative_path": "tools/yt-dlp"
+    "relative_path": "tools/yt-dlp",
+    "updated_at": "2026-11-20T03:23:00Z",
+    "created_at": "2026-11-20T03:23:00Z",
+    "id": "#495"
 }
