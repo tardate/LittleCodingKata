@@ -110,9 +110,7 @@ $ ./challenge.pl "allocate" "allot"
 
 There's no straight-forward way to avoid that with the translate approach.
 
-So let's consider alternatives.
-
-CLosely related to the translate approach is to use a regular expression. e.g. to match synonym "allot", try to match `a.*l.*l.*o.*t`
+So let's consider alternatives. Closely related to the translate approach is to use a regular expression. e.g. to match synonym "allot", try to match `a.*l.*l.*o.*t`
 
 Here's an update to the `isWithin` that matches using regex instead of translate:
 
