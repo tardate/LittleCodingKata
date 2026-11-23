@@ -96,6 +96,40 @@ $ ./challenge.pl "cat" "feline"
 []
 ```
 
+### But not always
+
+OK, here's a problem. The translate approach doesn't work if characters from the synonym appear in multiple places in the source word.
+
+For example, a repeated "a" in "allocate" (tries to match "alloat"):
+
+```sh
+$ ./challenge.pl "allocate" "allot"
+# given word=allocate, synonyms=[allot], result is:
+[]
+```
+
+There's no straight-forward way to avoid that with the translate approach.
+
+So let's consider alternatives. Closely related to the translate approach is to use a regular expression. e.g. to match synonym "allot", try to match `a.*l.*l.*o.*t`
+
+Here's an update to the `isWithin` that matches using regex instead of translate:
+
+```perl
+sub isWithin {
+  my ($word, $synonym) = @_;
+  my $pattern = $synonym =~ s/(.)/\Q$1\E.*/gr;
+  return $word =~ /$pattern/ ? 1 : 0;
+}
+```
+
+And now we can correctly handle repeated substring matches:
+
+```sh
+$ ./challenge.pl "allocate" "allot"
+# given word=allocate, synonyms=[allot], result is:
+[allot]
+```
+
 ### Tests
 
 I've setup some validation in [challenge.t](./challenge.t):
@@ -104,7 +138,7 @@ I've setup some validation in [challenge.t](./challenge.t):
 $ prove -t challenge.t
 challenge.t .. ok
 All tests successful.
-Files=1, Tests=5,  0 wallclock secs ( 0.01 usr  0.00 sys +  0.01 cusr  0.00 csys =  0.02 CPU)
+Files=1, Tests=7,  0 wallclock secs ( 0.00 usr  0.01 sys +  0.01 cusr  0.00 csys =  0.02 CPU)
 Result: PASS
 ```
 
@@ -120,9 +154,8 @@ use warnings;
 
 sub isWithin {
   my ($word, $synonym) = @_;
-  eval "\$word =~ tr/\Q$synonym\E//cd";
-  die $@ if $@;
-  return $word eq $synonym ? 1 : 0;
+  my $pattern = $synonym =~ s/(.)/\Q$1\E.*/gr;
+  return $word =~ /$pattern/ ? 1 : 0;
 }
 
 sub findJoeys {
