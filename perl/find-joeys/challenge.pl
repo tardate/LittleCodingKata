@@ -5,9 +5,8 @@ use warnings;
 
 sub isWithin {
   my ($word, $synonym) = @_;
-  eval "\$word =~ tr/\Q$synonym\E//cd";
-  die $@ if $@;
-  return $word eq $synonym ? 1 : 0;
+  my $pattern = $synonym =~ s/(.)/\Q$1\E.*/gr;
+  return $word =~ /$pattern/ ? 1 : 0;
 }
 
 sub findJoeys {
