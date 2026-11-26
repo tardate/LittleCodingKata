@@ -4,18 +4,15 @@ require 'json'
 def canSeat(guests, incompatible_pairs)
   guest_seating = {}
   incompatible_pairs.each do |guest_a, guest_b|
-    if guest_seating[guest_a].nil?
-      if guest_seating[guest_b].nil?
+    if !guest_seating.key?(guest_a) && !guest_seating.key?(guest_b)
         guest_seating[guest_a] = 0
         guest_seating[guest_b] = 1
-      else
-        guest_seating[guest_b] = 1 - guest_seating[guest_a]
-      end
     else
-      return false if guest_seating[guest_a] == guest_seating[guest_b]
-
-      guest_seating[guest_b] = 1 - guest_seating[guest_a]
+      guest_seating[guest_a] ||= 0
+      guest_seating[guest_b] ||= 1 - guest_seating[guest_a]
     end
+
+    return false if guest_seating[guest_a] == guest_seating[guest_b]
   end
   true
 end

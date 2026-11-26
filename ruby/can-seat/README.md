@@ -117,7 +117,7 @@ end
 
 But that is still somewhat repetitive: once a guest is already seated, we potentially keep recalculating their position. So rather than track tables, it may be better to track guests.
 
-This is perhaps more a idiomatic and easy to understand implementation, though I believe there is minimal performance difference between all these approaches:
+This is perhaps more a idiomatic and easy to understand implementation:
 
 ```ruby
 def canSeat(guests, incompatible_pairs)
@@ -140,19 +140,43 @@ def canSeat(guests, incompatible_pairs)
 end
 ```
 
+But that's still a little verbose. Let's clean it up a bit more:
+
+```ruby
+def canSeat(guests, incompatible_pairs)
+  guest_seating = {}
+  incompatible_pairs.each do |guest_a, guest_b|
+    if !guest_seating.key?(guest_a) && !guest_seating.key?(guest_b)
+        guest_seating[guest_a] = 0
+        guest_seating[guest_b] = 1
+    else
+      guest_seating[guest_a] ||= 0
+      guest_seating[guest_b] ||= 1 - guest_seating[guest_a]
+    end
+
+    return false if guest_seating[guest_a] == guest_seating[guest_b]
+  end
+  true
+end
+```
+
+And that's working too .. at least for all the tests I've defined.
+
+Note: I haven't bench-marked all these approaches, but I suspect there is minimal performance difference between them.
+
 ### Tests
 
 I've setup some validation in [test_challenge.rb](./test_challenge.rb):
 
 ```sh
 $ ./test_challenge.rb
-Run options: --seed 23535
+Run options: --seed 4482
 
 # Running:
 
 ...
 
-Finished in 0.000268s, 11194.0299 runs/s, 11194.0299 assertions/s.
+Finished in 0.000264s, 11363.6364 runs/s, 11363.6364 assertions/s.
 
 3 runs, 3 assertions, 0 failures, 0 errors, 0 skips
 ```
@@ -168,18 +192,15 @@ require 'json'
 def canSeat(guests, incompatible_pairs)
   guest_seating = {}
   incompatible_pairs.each do |guest_a, guest_b|
-    if guest_seating[guest_a].nil?
-      if guest_seating[guest_b].nil?
+    if !guest_seating.key?(guest_a) && !guest_seating.key?(guest_b)
         guest_seating[guest_a] = 0
         guest_seating[guest_b] = 1
-      else
-        guest_seating[guest_b] = 1 - guest_seating[guest_a]
-      end
     else
-      return false if guest_seating[guest_a] == guest_seating[guest_b]
-
-      guest_seating[guest_b] = 1 - guest_seating[guest_a]
+      guest_seating[guest_a] ||= 0
+      guest_seating[guest_b] ||= 1 - guest_seating[guest_a]
     end
+
+    return false if guest_seating[guest_a] == guest_seating[guest_b]
   end
   true
 end
