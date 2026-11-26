@@ -2,29 +2,20 @@
 require 'json'
 
 def canSeat(guests, incompatible_pairs)
-  table1 = []
-  table2 = []
+  tables = [[], []]
   incompatible_pairs.each do |guest_a, guest_b|
-    if !table1.include?(guest_a) && !table2.include?(guest_a)
-      # if guest_a is not already seated, try to seat based on where guest_b may already be seated
-      if table1.include?(guest_b)
-        table2 << guest_a
-      elsif table2.include?(guest_b)
-        table1 << guest_a
+    guest_a_seated_at = tables[0].include?(guest_a) ? 0 : (tables[1].include?(guest_a) ? 1 : nil)
+    guest_b_seated_at = tables[0].include?(guest_b) ? 0 : (tables[1].include?(guest_b) ? 1 : nil)
+    if guest_a_seated_at.nil?
+      if guest_b_seated_at.nil?
+        tables[0] << guest_a
+        tables[1] << guest_b
       else
-        table1 << guest_a
-        table2 << guest_b
+        tables[guest_b_seated_at == 0 ? 1 : 0] << guest_a
       end
     else
-      # guest_a is already seated, so must seat guest_b at the other table
-      if table1.include?(guest_a) && !table1.include?(guest_b)
-        table2 << guest_b unless table2.include?(guest_b)
-      elsif table2.include?(guest_a) && !table2.include?(guest_b)
-        table1 << guest_b unless table1.include?(guest_b)
-      else
-        # oops, we can't seat both guests at different tables
-        return false
-      end
+      return false if guest_b_seated_at == guest_a_seated_at
+      tables[guest_a_seated_at == 0 ? 1 : 0] << guest_b unless guest_b_seated_at
     end
   end
   true
