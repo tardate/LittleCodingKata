@@ -1,4 +1,4 @@
-# #xxx canSeat
+# #498 canSeat
 
 Using ruby to seat some picky guests at a an event: cassidoo's interview question of the week (2026-11-23).
 

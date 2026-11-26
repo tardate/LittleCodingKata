@@ -1,4 +1,13 @@
 {
+    "/ruby/can-seat/": {
+        "id": 498,
+        "title": "canSeat",
+        "summary": "Using ruby to seat some picky guests at a an event: cassidoo's interview question of the week (2026-11-23).",
+        "tags": [
+            "Ruby",
+            "cassidoo"
+        ]
+    },
     "/ruby/toml-rb/": {
         "id": 497,
         "title": "toml-rb",
