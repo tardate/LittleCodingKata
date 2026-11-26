@@ -90,7 +90,7 @@ sku = 284758393
 The code for this is trivial. Only two methods:
 
 ```ruby
-TomlRB.load_file(filename)
+parsed = TomlRB.load_file(filename)
 ...
 TomlRB.dump(parsed)
 ```
