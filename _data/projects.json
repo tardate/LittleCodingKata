@@ -1,4 +1,12 @@
 {
+    "/ruby/toml-rb/": {
+        "id": 497,
+        "title": "toml-rb",
+        "summary": "Quick review and test of the toml-rb gem for parsing and dumping TOML files.",
+        "tags": [
+            "Ruby"
+        ]
+    },
     "/perl/find-joeys/": {
         "id": 496,
         "title": "findJoeys",
