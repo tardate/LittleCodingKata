@@ -164,21 +164,46 @@ And that's working too .. at least for all the tests I've defined.
 
 Note: I haven't bench-marked all these approaches, but I suspect there is minimal performance difference between them.
 
+### A Problem
+
+There's a problem with that version. By always defaulting to table 1, the simplified assignment is sensitive to the ordering of guests in the pairs. We can solve that by always handling them in a specific order:
+
+```ruby
+def canSeat(guests, incompatible_pairs)
+  guest_seating = {}
+  incompatible_pairs.each do |pairs|
+    guest_a, guest_b = pairs.sort
+    if !guest_seating.key?(guest_a) && !guest_seating.key?(guest_b)
+        guest_seating[guest_a] = 0
+        guest_seating[guest_b] = 1
+    else
+      guest_seating[guest_a] ||= 0
+      guest_seating[guest_b] ||= 1 - guest_seating[guest_a]
+    end
+
+    return false if guest_seating[guest_a] == guest_seating[guest_b]
+  end
+  true
+end
+```
+
+This works, for some additional test cases that expose the ordering issue
+
 ### Tests
 
 I've setup some validation in [test_challenge.rb](./test_challenge.rb):
 
 ```sh
 $ ./test_challenge.rb
-Run options: --seed 4482
+Run options: --seed 5643
 
 # Running:
 
-...
+.....
 
-Finished in 0.000264s, 11363.6364 runs/s, 11363.6364 assertions/s.
+Finished in 0.000253s, 19762.8459 runs/s, 19762.8459 assertions/s.
 
-3 runs, 3 assertions, 0 failures, 0 errors, 0 skips
+5 runs, 5 assertions, 0 failures, 0 errors, 0 skips
 ```
 
 ### Final Code
@@ -191,7 +216,8 @@ require 'json'
 
 def canSeat(guests, incompatible_pairs)
   guest_seating = {}
-  incompatible_pairs.each do |guest_a, guest_b|
+  incompatible_pairs.each do |pairs|
+    guest_a, guest_b = pairs.sort
     if !guest_seating.key?(guest_a) && !guest_seating.key?(guest_b)
         guest_seating[guest_a] = 0
         guest_seating[guest_b] = 1

@@ -24,4 +24,18 @@ class TestChallenge < Minitest::Test
       []
     )
   end
+
+  def test_ignore_ordering_default
+    assert canSeat(
+      ["A", "B", "C"],
+      [["A", "B"], ["A", "C"]]
+    )
+  end
+
+  def test_ignore_ordering_mixed
+    assert canSeat(
+      ["A", "B", "C"],
+      [["A", "B"], ["C", "A"]]
+    )
+  end
 end
