@@ -7,12 +7,22 @@
   <id>https://codingkata.tardate.com/</id>
   <icon>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://codingkata.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-11-26T07:47:00Z</updated>
+  <updated>2026-11-26T12:04:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://codingkata.tardate.com/ruby/can-seat/</id>
+    <link href="https://codingkata.tardate.com/ruby/can-seat/"/>
+    <updated>2026-11-26T12:04:00Z</updated>
+    <title>#498 canSeat</title>
+    <summary>Using ruby to seat some picky guests at a an event: cassidoo's interview question of the week (2026-11-23).</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using ruby to seat some picky guests at a an event: cassidoo's interview question of the week (2026-11-23).&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Ruby"/>
+    <category term="cassidoo"/>
+  </entry>
   <entry>
     <id>https://codingkata.tardate.com/ruby/toml-rb/</id>
     <link href="https://codingkata.tardate.com/ruby/toml-rb/"/>

@@ -1,6 +1,6 @@
-# 497 Little Coding Katas
+# 498 Little Coding Katas
 
-> Latest addition :sparkles: [toml-rb](./ruby/toml-rb) - Quick review and test of the toml-rb gem for parsing and dumping TOML files.
+> Latest addition :sparkles: [canSeat](./ruby/can-seat) - Using ruby to seat some picky guests at a an event: cassidoo's interview question of the week (2026-11-23).
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about
