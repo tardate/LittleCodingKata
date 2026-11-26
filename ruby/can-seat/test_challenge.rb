@@ -38,4 +38,11 @@ class TestChallenge < Minitest::Test
       [["A", "B"], ["C", "A"]]
     )
   end
+
+  def test_ignore_ordering_mixed_fail
+    refute canSeat(
+      ["A", "B", "C"],
+      [["A", "B"], ["C", "A"], ["B", "C"]]
+    )
+  end
 end

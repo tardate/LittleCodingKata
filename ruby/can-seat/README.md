@@ -187,7 +187,25 @@ def canSeat(guests, incompatible_pairs)
 end
 ```
 
-This works, for some additional test cases that expose the ordering issue
+This works, and I've added some additional test cases that expose the ordering issue in the test suite.
+
+```sh
+$ ./challenge.rb '["A", "B", "C"]' '[["A", "B"], ["A", "C"]]'
+Guests: ["A", "B", "C"]
+Incompatible Pairs: [["A", "B"], ["A", "C"]]
+Result:
+true
+$ ./challenge.rb '["A", "B", "C"]' '[["A", "B"], ["C", "A"]]'
+Guests: ["A", "B", "C"]
+Incompatible Pairs: [["A", "B"], ["C", "A"]]
+Result:
+true
+$ ./challenge.rb '["A", "B", "C"]' '[["A", "B"], ["A", "C"], ["B", "C"]]'
+Guests: ["A", "B", "C"]
+Incompatible Pairs: [["A", "B"], ["A", "C"], ["B", "C"]]
+Result:
+false
+```
 
 ### Tests
 
@@ -195,15 +213,15 @@ I've setup some validation in [test_challenge.rb](./test_challenge.rb):
 
 ```sh
 $ ./test_challenge.rb
-Run options: --seed 5643
+Run options: --seed 39444
 
 # Running:
 
-.....
+......
 
-Finished in 0.000253s, 19762.8459 runs/s, 19762.8459 assertions/s.
+Finished in 0.000249s, 24096.3855 runs/s, 24096.3855 assertions/s.
 
-5 runs, 5 assertions, 0 failures, 0 errors, 0 skips
+6 runs, 6 assertions, 0 failures, 0 errors, 0 skips
 ```
 
 ### Final Code
