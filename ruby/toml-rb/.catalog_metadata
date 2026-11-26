@@ -1,0 +1,6 @@
+{
+    "name": "toml-rb",
+    "description": "Quick review and test of the toml-rb gem for parsing and dumping TOML files.",
+    "categories": "Ruby",
+    "relative_path": "ruby/toml-rb"
+}
