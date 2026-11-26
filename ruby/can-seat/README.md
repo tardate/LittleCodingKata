@@ -115,19 +115,44 @@ def canSeat(guests, incompatible_pairs)
 end
 ```
 
+But that is still somewhat repetitive: once a guest is already seated, we potentially keep recalculating their position. So rather than track tables, it may be better to track guests.
+
+This is perhaps more a idiomatic and easy to understand implementation, though I believe there is minimal performance difference between all these approaches:
+
+```ruby
+def canSeat(guests, incompatible_pairs)
+  guest_seating = {}
+  incompatible_pairs.each do |guest_a, guest_b|
+    if guest_seating[guest_a].nil?
+      if guest_seating[guest_b].nil?
+        guest_seating[guest_a] = 0
+        guest_seating[guest_b] = 1
+      else
+        guest_seating[guest_b] = 1 - guest_seating[guest_a]
+      end
+    else
+      return false if guest_seating[guest_a] == guest_seating[guest_b]
+
+      guest_seating[guest_b] = 1 - guest_seating[guest_a]
+    end
+  end
+  true
+end
+```
+
 ### Tests
 
 I've setup some validation in [test_challenge.rb](./test_challenge.rb):
 
 ```sh
 $ ./test_challenge.rb
-Run options: --seed 7232
+Run options: --seed 23535
 
 # Running:
 
 ...
 
-Finished in 0.000224s, 13392.8571 runs/s, 13392.8571 assertions/s.
+Finished in 0.000268s, 11194.0299 runs/s, 11194.0299 assertions/s.
 
 3 runs, 3 assertions, 0 failures, 0 errors, 0 skips
 ```
@@ -141,20 +166,19 @@ Final code is in [challenge.rb](./challenge.rb):
 require 'json'
 
 def canSeat(guests, incompatible_pairs)
-  tables = [[], []]
+  guest_seating = {}
   incompatible_pairs.each do |guest_a, guest_b|
-    guest_a_seated_at = tables[0].include?(guest_a) ? 0 : (tables[1].include?(guest_a) ? 1 : nil)
-    guest_b_seated_at = tables[0].include?(guest_b) ? 0 : (tables[1].include?(guest_b) ? 1 : nil)
-    if guest_a_seated_at.nil?
-      if guest_b_seated_at.nil?
-        tables[0] << guest_a
-        tables[1] << guest_b
+    if guest_seating[guest_a].nil?
+      if guest_seating[guest_b].nil?
+        guest_seating[guest_a] = 0
+        guest_seating[guest_b] = 1
       else
-        tables[guest_b_seated_at == 0 ? 1 : 0] << guest_a
+        guest_seating[guest_b] = 1 - guest_seating[guest_a]
       end
     else
-      return false if guest_b_seated_at == guest_a_seated_at
-      tables[guest_a_seated_at == 0 ? 1 : 0] << guest_b unless guest_b_seated_at
+      return false if guest_seating[guest_a] == guest_seating[guest_b]
+
+      guest_seating[guest_b] = 1 - guest_seating[guest_a]
     end
   end
   true
