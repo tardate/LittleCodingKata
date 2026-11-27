@@ -1,6 +1,6 @@
-# 498 Little Coding Katas
+# 499 Little Coding Katas
 
-> Latest addition :sparkles: [canSeat](./ruby/can-seat) - Using ruby to seat some picky guests at a an event: cassidoo's interview question of the week (2026-11-23).
+> Latest addition :sparkles: [The Securing Rails Applications Guide](./ruby/rails-security-guide) - About the latest Securing Rails Guide, as of writing 8.0+ Edge merged on 2026-11-20. Also a review of what advice from previous versions that is now obsolete.
 
 Like many programmers, I have a folder that I've been carrying around for years
 into which I've squirrelled away all manner of tests, notes, tips and tricks. Occasionally I've thought about

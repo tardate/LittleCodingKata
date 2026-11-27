@@ -1,4 +1,4 @@
-# #xxx The Securing Rails Applications Guide
+# #499 The Securing Rails Applications Guide
 
 About the latest Securing Rails Guide, as of writing 8.0+ Edge merged on 2026-11-20. Also a review of what advice from previous versions that is now obsolete.
 
