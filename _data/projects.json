@@ -1,4 +1,14 @@
 {
+    "/ruby/rails-security-guide/": {
+        "id": 499,
+        "title": "The Securing Rails Applications Guide",
+        "summary": "About the latest Securing Rails Guide, as of writing 8.0+ Edge merged on 2026-11-20. Also a review of what advice from previous versions that is now obsolete.",
+        "tags": [
+            "Ruby",
+            "Rails",
+            "security"
+        ]
+    },
     "/ruby/can-seat/": {
         "id": 498,
         "title": "canSeat",
